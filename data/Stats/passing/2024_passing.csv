@@ -1,0 +1,512 @@
+Player,Player_ID,Player_Link,team_name_abbr,conf_abbr,games,pass_cmp,pass_att,pass_cmp_pct,pass_yds,pass_td,pass_td_pct,pass_int,pass_int_pct,pass_yds_per_att,pass_adj_yds_per_att,pass_yds_per_cmp,pass_yds_per_g,pass_rating,awards,Year
+Kyle McCord,kyle-mccord-1,/cfb/players/kyle-mccord-1.html,Syracuse,ACC,13,391,592,66.0,4779,34,5.7,12,2.0,8.1,8.31,12.2,367.6,148.8,H-10,2024
+Cameron Ward,cameron-ward-1,/cfb/players/cameron-ward-1.html,Miami (FL),ACC,13,305,454,67.2,4313,39,8.6,7,1.5,9.5,10.52,14.1,331.8,172.2,"H-4,AA",2024
+Jaxson Dart,jaxson-dart-1,/cfb/players/jaxson-dart-1.html,Ole Miss,SEC,13,276,398,69.3,4279,29,7.3,6,1.5,10.8,11.53,15.5,329.2,180.7,,2024
+Shedeur Sanders,shedeur-sanders-1,/cfb/players/shedeur-sanders-1.html,Colorado,Big 12,13,353,477,74.0,4134,37,7.8,10,2.1,8.7,9.27,11.7,318.0,168.2,H-8,2024
+Garrett Nussmeier,garrett-nussmeier-1,/cfb/players/garrett-nussmeier-1.html,LSU,SEC,13,337,525,64.2,4052,29,5.5,12,2.3,7.7,7.79,12.0,311.7,142.7,,2024
+Will Howard,will-howard-2,/cfb/players/will-howard-2.html,Ohio State,Big Ten,16,309,423,73.0,4010,35,8.3,10,2.4,9.5,10.07,13.0,250.6,175.3,,2024
+Josh Hoover,josh-hoover-1,/cfb/players/josh-hoover-1.html,Texas Christian,Big 12,13,313,471,66.5,3949,27,5.7,11,2.3,8.4,8.48,12.6,303.8,151.1,,2024
+Dillon Gabriel,dillon-gabriel-1,/cfb/players/dillon-gabriel-1.html,Oregon,Big Ten,14,326,447,72.9,3857,30,6.7,6,1.3,8.6,9.37,11.8,275.5,164.9,H-3,2024
+Chandler Morris,chandler-morris-1,/cfb/players/chandler-morris-1.html,North Texas,American,12,322,512,62.9,3774,31,6.1,12,2.3,7.4,7.53,11.7,314.5,140.1,,2024
+Cade Klubnik,cade-klubnik-1,/cfb/players/cade-klubnik-1.html,Clemson,ACC,14,308,486,63.4,3639,36,7.4,6,1.2,7.5,8.41,11.8,259.9,148.2,,2024
+Rocco Becht,rocco-becht-1,/cfb/players/rocco-becht-1.html,Iowa State,Big 12,14,271,456,59.4,3505,25,5.5,9,2.0,7.7,7.89,12.9,250.4,138.1,,2024
+Seth Henigan,seth-henigan-1,/cfb/players/seth-henigan-1.html,Memphis,American,13,309,477,64.8,3502,25,5.2,6,1.3,7.3,7.82,11.3,269.4,141.2,,2024
+Carson Beck,carson-beck-1,/cfb/players/carson-beck-1.html,Georgia,SEC,13,290,448,64.7,3485,28,6.3,12,2.7,7.8,7.82,12.0,268.1,145.3,,2024
+Quinn Ewers,quinn-ewers-1,/cfb/players/quinn-ewers-1.html,Texas,SEC,14,293,445,65.8,3472,31,7.0,12,2.7,7.8,7.98,11.8,248.0,149.0,,2024
+Owen McCown,owen-mccown-1,/cfb/players/owen-mccown-1.html,UTSA,American,13,294,467,63.0,3424,25,5.4,10,2.1,7.3,7.44,11.6,263.4,137.9,,2024
+Behren Morton,behren-morton-1,/cfb/players/behren-morton-1.html,Texas Tech,Big 12,12,295,466,63.3,3335,27,5.8,8,1.7,7.2,7.54,11.3,277.9,139.1,,2024
+Drew Allar,drew-allar-1,/cfb/players/drew-allar-1.html,Penn State,Big Ten,16,262,394,66.5,3327,24,6.1,8,2.0,8.4,8.75,12.7,207.9,153.5,,2024
+Kevin Jennings,kevin-jennings-2,/cfb/players/kevin-jennings-2.html,SMU,ACC,14,247,380,65.0,3245,23,6.1,11,2.9,8.5,8.45,13.1,231.8,150.9,,2024
+Jordan McCloud,jordan-mccloud-1,/cfb/players/jordan-mccloud-1.html,Texas State,Sun Belt,13,273,389,70.2,3227,30,7.7,13,3.3,8.3,8.33,11.8,248.2,158.6,,2024
+Tyler Shough,tyler-shough-1,/cfb/players/tyler-shough-1.html,Louisville,ACC,12,244,389,62.7,3195,23,5.9,6,1.5,8.2,8.70,13.1,266.3,148.1,,2024
+Taylen Green,taylen-green-1,/cfb/players/taylen-green-1.html,Arkansas,SEC,13,230,381,60.4,3154,15,3.9,9,2.4,8.3,8.00,13.7,242.6,138.2,,2024
+John Mateer,john-mateer-1,/cfb/players/john-mateer-1.html,Washington State,Ind,12,224,347,64.6,3139,29,8.4,7,2.0,9.0,9.81,14.0,261.6,164.1,,2024
+Caden Veltkamp,caden-veltkamp-1,/cfb/players/caden-veltkamp-1.html,Western Kentucky,CUSA,13,258,389,66.3,3108,25,6.4,10,2.6,8.0,8.12,12.0,239.1,149.5,,2024
+Nicholas Vattiato,nicholas-vattiato-1,/cfb/players/nicholas-vattiato-1.html,Middle Tennessee State,CUSA,12,269,418,64.4,3092,16,3.8,10,2.4,7.4,7.09,11.5,257.7,134.3,,2024
+Sawyer Robertson,sawyer-robertson-1,/cfb/players/sawyer-robertson-1.html,Baylor,Big 12,12,229,368,62.2,3071,28,7.6,8,2.2,8.3,8.89,13.4,255.9,153.1,,2024
+Connor Bazelak,connor-bazelak-1,/cfb/players/connor-bazelak-1.html,Bowling Green,MAC,13,269,402,66.9,3044,18,4.5,5,1.2,7.6,7.91,11.3,234.2,142.8,,2024
+Kurtis Rourke,kurtis-rourke-1,/cfb/players/kurtis-rourke-1.html,Indiana,Big Ten,12,222,320,69.4,3042,29,9.1,5,1.6,9.5,10.62,13.7,253.5,176.0,H-9,2024
+Maddux Madsen,maddux-madsen-1,/cfb/players/maddux-madsen-1.html,Boise State,MWC,14,247,396,62.4,3018,23,5.8,6,1.5,7.6,8.10,12.2,215.6,142.5,,2024
+Fernando Mendoza,fernando-mendoza-1,/cfb/players/fernando-mendoza-1.html,California,ACC,11,265,386,68.7,3004,16,4.1,6,1.6,7.8,7.91,11.3,273.1,144.6,,2024
+Joey Aguilar,joey-aguilar-1,/cfb/players/joey-aguilar-1.html,Appalachian State,Sun Belt,11,218,390,55.9,3003,23,5.9,14,3.6,7.7,7.26,13.8,273.0,132.9,,2024
+Noah Fifita,noah-fifita-1,/cfb/players/noah-fifita-1.html,Arizona,Big 12,12,260,430,60.5,2958,18,4.2,12,2.8,6.9,6.46,11.4,246.5,126.5,,2024
+Jake Retzlaff,jake-retzlaff-1,/cfb/players/jake-retzlaff-1.html,BYU,Big 12,13,213,368,57.9,2947,20,5.4,12,3.3,8.0,7.63,13.8,226.7,136.6,,2024
+Maalik Murphy,maalik-murphy-1,/cfb/players/maalik-murphy-1.html,Duke,ACC,12,254,421,60.3,2933,26,6.2,12,2.9,7.0,6.92,11.5,244.4,133.5,,2024
+Brett Gabbert,brett-gabbert-1,/cfb/players/brett-gabbert-1.html,Miami (OH),MAC,14,217,379,57.3,2921,21,5.5,11,2.9,7.7,7.51,13.5,208.6,134.5,,2024
+Kadin Semonza,kadin-semonza-1,/cfb/players/kadin-semonza-1.html,Ball State,MAC,12,275,427,64.4,2904,25,5.9,10,2.3,6.8,6.92,10.6,242.0,136.2,,2024
+Mikey Keene,mikey-keene-1,/cfb/players/mikey-keene-1.html,Fresno State,MWC,12,277,393,70.5,2892,18,4.6,11,2.8,7.4,7.02,10.4,241.0,141.8,,2024
+Sam Leavitt,sam-leavitt-1,/cfb/players/sam-leavitt-1.html,Arizona State,Big 12,13,216,350,61.7,2885,24,6.9,6,1.7,8.2,8.84,13.4,221.9,150.2,,2024
+Billy Edwards Jr.,billy-edwards-jr-1,/cfb/players/billy-edwards-jr-1.html,Maryland,Big Ten,11,273,420,65.0,2881,15,3.6,9,2.1,6.9,6.61,10.6,261.9,130.1,,2024
+Riley Leonard,riley-leonard-1,/cfb/players/riley-leonard-1.html,Notre Dame,Ind,16,269,403,66.7,2861,21,5.2,8,2.0,7.1,7.25,10.6,178.8,139.6,,2024
+Jalen Milroe,jalen-milroe-1,/cfb/players/jalen-milroe-1.html,Alabama,SEC,13,205,319,64.3,2844,16,5.0,11,3.4,8.9,8.37,13.9,218.8,148.8,,2024
+JC French,jc-french-1,/cfb/players/jc-french-1.html,Georgia Southern,Sun Belt,13,269,410,65.6,2831,17,4.1,11,2.7,6.9,6.53,10.5,217.8,131.9,,2024
+Max Brosmer,max-brosmer-1,/cfb/players/max-brosmer-1.html,Minnesota,Big Ten,13,268,403,66.5,2828,18,4.5,6,1.5,7.0,7.24,10.6,217.5,137.2,,2024
+Dylan Raiola,dylan-raiola-1,/cfb/players/dylan-raiola-1.html,Nebraska,Big Ten,13,275,410,67.1,2819,13,3.2,11,2.7,6.9,6.30,10.3,216.8,129.9,,2024
+Brendan Sorsby,brendan-sorsby-1,/cfb/players/brendan-sorsby-1.html,Cincinnati,Big 12,12,249,389,64.0,2813,18,4.6,7,1.8,7.2,7.35,11.3,234.4,136.4,,2024
+Tucker Gleason,tucker-gleason-1,/cfb/players/tucker-gleason-1.html,Toledo,MAC,12,233,385,60.5,2808,24,6.2,8,2.1,7.3,7.61,12.1,234.0,138.2,,2024
+Brayden Fowler-Nicolosi,brayden-fowler-nicolosi-1,/cfb/players/brayden-fowler-nicolosi-1.html,Colorado State,MWC,13,230,380,60.5,2796,14,3.7,9,2.4,7.4,7.03,12.2,215.1,129.8,,2024
+Jaylen Raynor,jaylen--raynor-1,/cfb/players/jaylen--raynor-1.html,Arkansas State,Sun Belt,13,259,420,61.7,2783,16,3.8,10,2.4,6.6,6.32,10.7,214.1,125.1,,2024
+Devon Dampier,devon-dampier-1,/cfb/players/devon-dampier-1.html,New Mexico,MWC,12,226,390,57.9,2768,12,3.1,12,3.1,7.1,6.33,12.2,230.7,121.6,,2024
+Ethan Garbers,ethan-garbers-1,/cfb/players/ethan-garbers-1.html,UCLA,Big Ten,11,235,363,64.7,2727,16,4.4,11,3.0,7.5,7.03,11.6,247.9,136.3,,2024
+Darian Mensah,darian-mensah-1,/cfb/players/darian-mensah-1.html,Tulane,American,13,189,287,65.9,2723,22,7.7,6,2.1,9.5,10.08,14.4,209.5,166.7,,2024
+Luke Altmyer,luke-altmyer-1,/cfb/players/luke-altmyer-1.html,Illinois,Big Ten,13,211,347,60.8,2717,22,6.3,6,1.7,7.8,8.32,12.9,209.0,144.0,,2024
+Payton Thorne,payton-thorne-1,/cfb/players/payton-thorne-1.html,Auburn,SEC,11,199,317,62.8,2713,21,6.6,9,2.8,8.6,8.61,13.6,246.6,150.8,,2024
+Avery Johnson,avery-johnson-2,/cfb/players/avery-johnson-2.html,Kansas State,Big 12,13,217,372,58.3,2712,25,6.7,10,2.7,7.3,7.42,12.5,208.6,136.4,,2024
+E.J. Warner,ej-warner-1,/cfb/players/ej-warner-1.html,Rice,American,11,272,439,62.0,2710,17,3.9,13,3.0,6.2,5.62,10.0,246.4,120.7,,2024
+Athan Kaliakmanis,athan-kaliakmanis-1,/cfb/players/athan-kaliakmanis-1.html,Rutgers,Big Ten,13,213,395,53.9,2696,18,4.6,7,1.8,6.8,6.94,12.7,207.4,122.8,,2024
+Cole Snyder,cole-snyder-2,/cfb/players/cole-snyder-2.html,Eastern Michigan,MAC,12,240,402,59.7,2684,15,3.7,9,2.2,6.7,6.42,11.2,223.7,123.6,,2024
+Nico Iamaleava,nico-iamaleava-1,/cfb/players/nico-iamaleava-1.html,Tennessee,SEC,13,213,334,63.8,2616,19,5.7,5,1.5,7.8,8.30,12.3,201.2,145.3,,2024
+Ben Finley,ben-finley-1,/cfb/players/ben-finley-1.html,Akron,MAC,12,212,387,54.8,2604,16,4.1,9,2.3,6.7,6.51,12.3,217.0,120.3,,2024
+Alonza Barnett III,alonza-barnett-iii-1,/cfb/players/alonza-barnett-iii-1.html,James Madison,Sun Belt,12,213,355,60.0,2598,26,7.3,4,1.1,7.3,8.28,12.2,216.5,143.4,,2024
+Hank Bachmeier,hank-bachmeier-1,/cfb/players/hank-bachmeier-1.html,Wake Forest,ACC,12,224,357,62.7,2593,16,4.5,10,2.8,7.3,6.90,11.6,216.1,132.9,,2024
+Brayden Schager,brayden-schager-1,/cfb/players/brayden-schager-1.html,Hawaii,MWC,11,233,403,57.8,2591,19,4.7,13,3.2,6.4,5.92,11.1,235.5,120.9,,2024
+Gio Lopez,gio-lopez-1,/cfb/players/gio-lopez-1.html,South Alabama,Sun Belt,11,206,312,66.0,2559,18,5.8,5,1.6,8.2,8.63,12.4,232.6,150.8,,2024
+Keyone Jenkins,keyone-jenkins-1,/cfb/players/keyone-jenkins-1.html,Florida International,CUSA,12,188,304,61.8,2557,22,7.2,8,2.6,8.4,8.67,13.6,213.1,151.1,,2024
+Miller Moss,miller-moss-1,/cfb/players/miller-moss-1.html,USC,Big Ten,9,233,362,64.4,2555,18,5.0,9,2.5,7.1,6.93,11.0,283.9,135.1,,2024
+Tyler Huff,tyler-huff-1,/cfb/players/tyler-huff-1.html,Jacksonville State,CUSA,14,178,293,60.8,2543,14,4.8,7,2.4,8.7,8.56,14.3,181.6,144.6,,2024
+Brady Cook,brady-cook-1,/cfb/players/brady-cook-1.html,Missouri,SEC,12,201,321,62.6,2535,11,3.4,2,0.6,7.9,8.30,12.6,211.3,139.0,,2024
+LaNorris Sellers,lanorris-sellers-1,/cfb/players/lanorris-sellers-1.html,South Carolina,SEC,12,196,299,65.6,2534,18,6.0,7,2.3,8.5,8.63,12.9,211.2,151.9,,2024
+Walker Eget,walker-eget-1,/cfb/players/walker-eget-1.html,San Jose State,MWC,12,188,328,57.3,2504,13,4.0,10,3.0,7.6,7.05,13.3,208.7,128.4,,2024
+Jacolby Criswell,jacolby-criswell-1,/cfb/players/jacolby-criswell-1.html,North Carolina,ACC,12,186,320,58.1,2459,15,4.7,6,1.9,7.7,7.78,13.2,204.9,134.4,,2024
+Will Rogers,will-rogers-1,/cfb/players/will-rogers-1.html,Washington,Big Ten,11,220,311,70.7,2458,14,4.5,7,2.3,7.9,7.79,11.2,223.5,147.5,,2024
+Jalon Daniels,jalon-daniels-1,/cfb/players/jalon-daniels-1.html,Kansas,Big 12,12,171,300,57.0,2454,14,4.7,12,4.0,8.2,7.31,14.4,204.5,133.1,,2024
+Ben Wooldridge,ben-wooldridge-1,/cfb/players/ben-wooldridge-1.html,Louisiana,Sun Belt,11,192,291,66.0,2453,17,5.8,6,2.1,8.4,8.67,12.8,223.0,151.9,,2024
+Alan Bowman,alan-bowman-1,/cfb/players/alan-bowman-1.html,Oklahoma State,Big 12,11,204,340,60.0,2423,16,4.7,12,3.5,7.1,6.48,11.9,220.3,128.3,,2024
+Parker Navarro,parker-navarro-1,/cfb/players/parker-navarro-1.html,Ohio,MAC,13,195,295,66.1,2423,13,4.4,11,3.7,8.2,7.42,12.4,186.4,142.2,,2024
+Aidan Chiles,aidan-chiles-1,/cfb/players/aidan-chiles-1.html,Michigan State,Big Ten,12,192,323,59.4,2415,13,4.0,11,3.4,7.5,6.75,12.6,201.3,128.7,,2024
+CJ Bailey,cj-bailey-2,/cfb/players/cj-bailey-2.html,North Carolina State,ACC,12,196,302,64.9,2413,17,5.6,10,3.3,8.0,7.63,12.3,201.1,144.0,,2024
+Hayden Wolff,hayden-wolff-1,/cfb/players/hayden-wolff-1.html,Western Michigan,MAC,13,208,312,66.7,2410,18,5.8,8,2.6,7.7,7.72,11.6,185.4,145.5,,2024
+CJ Ogbonna,cj-ogbonna-1,/cfb/players/cj-ogbonna-1.html,Buffalo,MAC,13,190,336,56.5,2381,19,5.7,5,1.5,7.1,7.55,12.5,183.2,131.8,,2024
+Spencer Petras,spencer-petras-1,/cfb/players/spencer-petras-1.html,Utah State,MWC,9,214,327,65.4,2315,17,5.2,11,3.4,7.1,6.61,10.8,257.2,135.3,,2024
+Garrett Greene,garrett-greene-1,/cfb/players/garrett-greene-1.html,West Virginia,Big 12,11,189,315,60.0,2300,15,4.8,12,3.8,7.3,6.54,12.2,209.1,129.4,,2024
+Diego Pavia,diego-pavia-1,/cfb/players/diego-pavia-1.html,Vanderbilt,SEC,13,177,298,59.4,2293,20,6.7,4,1.3,7.7,8.43,13.0,176.4,143.5,,2024
+Brendon Lewis,brendon-lewis-1,/cfb/players/brendon-lewis-1.html,Nevada,MWC,12,211,312,67.6,2290,16,5.1,7,2.2,7.3,7.36,10.9,190.8,141.7,,2024
+Eli Holstein,eli-holstein-1,/cfb/players/eli-holstein-1.html,Pitt,ACC,10,180,291,61.9,2228,17,5.8,7,2.4,7.7,7.74,12.4,222.8,140.6,,2024
+Jalen Kitna,jalen-kitna-1,/cfb/players/jalen-kitna-1.html,UAB,American,8,196,316,62.0,2209,17,5.4,11,3.5,7.0,6.50,11.3,276.1,131.5,,2024
+Danny O'Neil,danny-oneil-2,/cfb/players/danny-oneil-2.html,San Diego State,MWC,11,209,330,63.3,2181,12,3.6,6,1.8,6.6,6.52,10.4,198.3,127.2,,2024
+Anthony Colandrea,anthony-colandrea-1,/cfb/players/anthony-colandrea-1.html,Virginia,ACC,11,198,320,61.9,2125,13,4.1,11,3.4,6.6,5.91,10.7,193.2,124.2,,2024
+Ethan Vasko,ethan-vasko-1,/cfb/players/ethan-vasko-1.html,Coastal Carolina,Sun Belt,12,148,271,54.6,2120,14,5.2,8,3.0,7.8,7.53,14.3,176.7,131.5,,2024
+Haynes King,haynes-king-1,/cfb/players/haynes-king-1.html,Georgia Tech,ACC,11,196,269,72.9,2114,14,5.2,2,0.7,7.9,8.57,10.8,192.2,154.6,,2024
+Evan Bullock,evan-bullock-1,/cfb/players/evan-bullock-1.html,Louisiana Tech,CUSA,12,197,300,65.7,2104,14,4.7,3,1.0,7.0,7.50,10.7,175.3,138.0,,2024
+Christian Veilleux,christian-veilleux-1,/cfb/players/christian-veilleux-1.html,Georgia State,Sun Belt,10,166,291,57.0,2047,13,4.5,11,3.8,7.0,6.23,12.3,204.7,123.3,,2024
+Evan Simon,evan-simon-1,/cfb/players/evan-simon-1.html,Temple,American,9,181,308,58.8,2032,15,4.9,9,2.9,6.6,6.26,11.2,225.8,124.4,,2024
+Katin Houser,katin-houser-1,/cfb/players/katin-houser-1.html,East Carolina,American,9,149,245,60.8,2006,18,7.3,11,4.5,8.2,7.64,13.5,222.9,144.9,,2024
+Hajj-Malik Williams,hajj-malik-williams-1,/cfb/players/hajj-malik-williams-1.html,Nevada-Las Vegas,MWC,13,150,252,59.5,1941,19,7.5,5,2.0,7.7,8.32,12.9,149.3,145.1,,2024
+Braedyn Locke,braedyn-locke-1,/cfb/players/braedyn-locke-1.html,Wisconsin,Big Ten,11,164,296,55.4,1936,13,4.4,10,3.4,6.5,5.90,11.8,176.0,118.1,,2024
+DJ Lagway,dj-lagway-1,/cfb/players/dj-lagway-1.html,Florida,SEC,12,115,192,59.9,1915,12,6.3,9,4.7,10.0,9.11,16.7,159.6,154.9,,2024
+Bryce Archie,bryce-archie-1,/cfb/players/bryce-archie-1.html,South Florida,American,12,172,290,59.3,1914,9,3.1,10,3.4,6.6,5.67,11.1,159.5,118.1,,2024
+Kaidon Salter,kaidon-salter-1,/cfb/players/kaidon-salter-1.html,Liberty,CUSA,11,147,261,56.3,1886,15,5.7,6,2.3,7.2,7.34,12.8,171.5,131.4,,2024
+Michael Van Buren Jr.,michael-van-buren-jr-1,/cfb/players/michael-van-buren-jr-1.html,Mississippi State,SEC,10,140,256,54.7,1886,11,4.3,7,2.7,7.4,7.00,13.5,188.6,125.3,,2024
+Marcel Reed,marcel-reed-1,/cfb/players/marcel-reed-1.html,Texas A&M,SEC,11,147,240,61.3,1864,15,6.3,6,2.5,7.8,7.89,12.7,169.5,142.1,,2024
+Hunter Watson,hunter-watson-1,/cfb/players/hunter-watson-1.html,Sam Houston,CUSA,12,175,281,62.3,1811,12,4.3,8,2.8,6.4,6.02,10.3,150.9,124.8,,2024
+Deshawn Purdie,deshawn-purdie-1,/cfb/players/deshawn-purdie-1.html,Charlotte,American,9,100,200,50.0,1802,10,5.0,6,3.0,9.0,8.66,18.0,200.2,136.2,,2024
+Jack Lausch,jack-lausch-1,/cfb/players/jack-lausch-1.html,Northwestern,Big Ten,10,159,296,53.7,1714,7,2.4,8,2.7,5.8,5.05,10.8,171.4,104.8,,2024
+Ashton Daniels,ashton-daniels-1,/cfb/players/ashton-daniels-1.html,Stanford,ACC,11,170,271,62.7,1700,10,3.7,12,4.4,6.3,5.02,10.0,154.5,118.7,,2024
+Hudson Card,hudson-card-1,/cfb/players/hudson-card-1.html,Purdue,Big Ten,10,144,248,58.1,1641,9,3.6,7,2.8,6.6,6.07,11.4,164.1,120.0,,2024
+Joe Fagnano,joe-fagnano-1,/cfb/players/joe-fagnano-1.html,Connecticut,Ind,10,120,206,58.3,1631,20,9.7,4,1.9,7.9,8.99,13.6,163.1,152.9,,2024
+Colton Joseph,colton-joseph-1,/cfb/players/colton-joseph-1.html,Old Dominion,Sun Belt,9,133,222,59.9,1627,11,5.0,5,2.3,7.3,7.31,12.2,180.8,133.3,,2024
+Braylon Braxton,braylon-braxton-1,/cfb/players/braylon-braxton-1.html,Marshall,Sun Belt,11,124,206,60.2,1624,19,9.2,2,1.0,7.9,9.29,13.1,147.6,154.9,,2024
+Emmett Brown,emmett-brown-1,/cfb/players/emmett-brown-1.html,San Jose State,MWC,9,125,217,57.6,1621,16,7.4,5,2.3,7.5,7.91,13.0,180.1,140.1,,2024
+Matthew Caldwell,matthew-caldwell-1,/cfb/players/matthew-caldwell-1.html,Troy,Sun Belt,10,141,223,63.2,1608,13,5.8,8,3.6,7.2,6.76,11.4,160.8,135.9,,2024
+Ethan Hampton,ethan-hampton-1,/cfb/players/ethan-hampton-1.html,Northern Illinois,MAC,11,144,247,58.3,1600,12,4.9,6,2.4,6.5,6.36,11.1,145.5,123.9,,2024
+Brock Vandagriff,brock-vandagriff-1,/cfb/players/brock-vandagriff-1.html,Kentucky,SEC,11,125,218,57.3,1593,10,4.6,8,3.7,7.3,6.57,12.7,144.8,126.5,,2024
+Taisun Phommachanh,taisun-phommachanh-1,/cfb/players/taisun-phommachanh-1.html,Massachusetts,Ind,9,132,234,56.4,1590,8,3.4,6,2.6,6.8,6.32,12.0,176.7,119.6,,2024
+Kirk Francis,kirk-francis-1,/cfb/players/kirk-francis-1.html,Tulsa,American,11,149,253,58.9,1585,9,3.6,6,2.4,6.3,5.91,10.6,144.1,118.5,,2024
+Skyler Locklear,skyler-locklear-1,/cfb/players/skyler-locklear-1.html,UTEP,CUSA,10,148,233,63.5,1583,10,4.3,6,2.6,6.8,6.49,10.7,158.3,129.6,,2024
+Kyron Drones,kyron-drones-1,/cfb/players/kyron-drones-1.html,Virginia Tech,ACC,9,136,224,60.7,1562,10,4.5,6,2.7,7.0,6.66,11.5,173.6,128.7,,2024
+Cam Fancher,cam-fancher-1,/cfb/players/cam-fancher-1.html,Florida Atlantic,American,9,126,212,59.4,1528,6,2.8,6,2.8,7.2,6.50,12.1,169.8,123.7,,2024
+Isaac Wilson,isaac-wilson-1,/cfb/players/isaac-wilson-1.html,Utah,Big 12,9,127,225,56.4,1510,10,4.4,11,4.9,6.7,5.40,11.9,167.8,117.7,,2024
+Davis Bryson,davis-bryson-1,/cfb/players/davis-bryson-1.html,Kennesaw State,CUSA,11,143,261,54.8,1495,6,2.3,10,3.8,5.7,4.46,10.5,135.9,102.8,,2024
+Jake Garcia,jake-garcia-1,/cfb/players/jake-garcia-1.html,East Carolina,American,6,109,181,60.2,1426,8,4.4,12,6.6,7.9,5.78,13.1,237.7,127.7,,2024
+Jackson Arnold,jackson-arnold-1,/cfb/players/jackson-arnold-1.html,Oklahoma,SEC,10,154,246,62.6,1421,12,4.9,3,1.2,5.8,6.20,9.2,142.1,124.8,,2024
+Thomas Castellanos,thomas-castellanos-1,/cfb/players/thomas-castellanos-1.html,Boston College,ACC,8,99,161,61.5,1366,18,11.2,5,3.1,8.5,9.32,13.8,170.8,163.4,,2024
+Blake Horvath,blake-horvath-1,/cfb/players/blake-horvath-1.html,Navy,American,12,80,139,57.6,1353,13,9.4,4,2.9,9.7,10.31,16.9,112.8,164.4,,2024
+Tommy Ulatowski,tommy-ulatowski-1,/cfb/players/tommy-ulatowski-1.html,Kent State,MAC,10,81,175,46.3,1353,15,8.6,8,4.6,7.7,7.39,16.7,135.3,130.4,,2024
+Evan Svoboda,evan-svoboda-1,/cfb/players/evan-svoboda-1.html,Wyoming,MWC,12,111,226,49.1,1318,5,2.2,8,3.5,5.8,4.68,11.9,109.8,98.3,,2024
+Gevani McCoy,gevani-mccoy-1,/cfb/players/gevani-mccoy-1.html,Oregon State,Ind,10,123,202,60.9,1300,3,1.5,6,3.0,6.4,5.40,10.6,130.0,113.9,,2024
+Aiden Armenta,aiden-armenta-1,/cfb/players/aiden-armenta-1.html,Louisiana-Monroe,Sun Belt,12,104,190,54.7,1292,9,4.7,10,5.3,6.8,5.38,12.4,107.7,117.0,,2024
+Grayson James,grayson-james-1,/cfb/players/grayson-james-1.html,Boston College,ACC,6,106,166,63.9,1202,6,3.6,2,1.2,7.2,7.42,11.3,200.3,134.2,,2024
+Jayden Maiava,jayden-maiava-1,/cfb/players/jayden-maiava-1.html,USC,Big Ten,7,101,169,59.8,1201,11,6.5,6,3.6,7.1,6.81,11.9,171.6,133.8,,2024
+Davis Warren,davis-warren-1,/cfb/players/davis-warren-1.html,Michigan,Big Ten,9,134,209,64.1,1199,7,3.3,9,4.3,5.7,4.47,8.9,133.2,114.7,,2024
+Cooper Legas,cooper-legas-1,/cfb/players/cooper-legas-1.html,Tulsa,American,11,87,162,53.7,1144,12,7.4,6,3.7,7.1,6.88,13.1,104.0,130.1,,2024
+Joey Labas,joey-labas-1,/cfb/players/joey-labas-1.html,Central Michigan,MAC,6,94,160,58.8,1114,7,4.4,7,4.4,7.0,5.87,11.9,185.7,122.9,,2024
+Parker Awad,parker-awad-1,/cfb/players/parker-awad-1.html,New Mexico State,CUSA,7,74,160,46.3,1079,7,4.4,4,2.5,6.7,6.49,14.6,154.1,112.3,,2024
+D.J. Uiagalelei,dj-uiagalelei-1,/cfb/players/dj-uiagalelei-1.html,Florida State,ACC,5,84,156,53.8,1065,4,2.6,6,3.8,6.8,5.61,12.7,213.0,112.0,,2024
+Nate Yarnell,nate-yarnell-1,/cfb/players/nate-yarnell-1.html,Pitt,ACC,9,98,167,58.7,1056,10,6.0,5,3.0,6.3,6.17,10.8,117.3,125.6,,2024
+Cade McNamara,cade-mcnamara-1,/cfb/players/cade-mcnamara-1.html,Iowa,Big Ten,8,104,172,60.5,1017,6,3.5,5,2.9,5.9,5.30,9.8,127.1,115.8,,2024
+K.J. Jefferson,kj-jefferson-1,/cfb/players/kj-jefferson-1.html,UCF,Big 12,5,64,108,59.3,1012,7,6.5,4,3.7,9.4,9.00,15.8,202.4,152.0,,2024
+Bryson Daily,bryson-daily-1,/cfb/players/bryson-daily-1.html,Army,American,13,54,103,52.4,1007,9,8.7,4,3.9,9.8,9.78,18.6,77.5,155.6,H-6,2024
+Zach Gibson,zach-gibson-1,/cfb/players/zach-gibson-1.html,Georgia State,Sun Belt,7,102,151,67.5,1004,7,4.6,2,1.3,6.6,6.98,9.8,143.4,136.1,,2024
+Tate Rodemaker,tate-rodemaker-1,/cfb/players/tate-rodemaker-1.html,Southern Mississippi,Sun Belt,9,98,164,59.8,985,7,4.3,7,4.3,6.0,4.94,10.1,109.4,115.8,,2024
+Blake Shapen,blake-shapen-1,/cfb/players/blake-shapen-1.html,Mississippi State,SEC,4,74,108,68.5,974,8,7.4,1,0.9,9.0,10.08,13.2,243.5,166.9,,2024
+Kaden Anderson,kaden-anderson-1,/cfb/players/kaden-anderson-1.html,Wyoming,MWC,9,70,120,58.3,955,6,5.0,3,2.5,8.0,7.83,13.6,106.1,136.7,,2024
+Demond Williams Jr.,demond-williams-jr-1,/cfb/players/demond-williams-jr-1.html,Washington,Big Ten,13,82,105,78.1,944,8,7.6,1,1.0,9.0,10.09,11.5,72.6,176.9,,2024
+Ben Gulbranson,ben-gulbranson-1,/cfb/players/ben-gulbranson-1.html,Oregon State,Ind,5,78,128,60.9,943,4,3.1,4,3.1,7.4,6.59,12.1,188.6,126.9,,2024
+Arch Manning,arch-manning-1,/cfb/players/arch-manning-1.html,Texas,SEC,10,61,90,67.8,939,9,10.0,2,2.2,10.4,11.43,15.4,93.9,184.0,,2024
+Nick Evers,nick-evers-1,/cfb/players/nick-evers-1.html,Connecticut,Ind,9,97,180,53.9,918,5,2.8,5,2.8,5.1,4.41,9.5,102.0,100.3,,2024
+Dylan Rizk,dylan-rizk-1,/cfb/players/dylan-rizk-1.html,UCF,Big 12,6,72,117,61.5,904,5,4.3,2,1.7,7.7,7.81,12.6,150.7,137.1,,2024
+Chandler Fields,chandler-fields-1,/cfb/players/chandler-fields-1.html,Louisiana,Sun Belt,7,63,87,72.4,897,5,5.7,1,1.1,10.3,10.94,14.2,128.1,175.7,,2024
+Donovan Smith,donovan-smith-2,/cfb/players/donovan-smith-2.html,Houston,Big 12,9,87,133,65.4,867,4,3.0,8,6.0,6.5,4.41,10.0,96.3,118.1,,2024
+Bryson Barnes,bryson-barnes-1,/cfb/players/bryson-barnes-1.html,Utah State,MWC,9,77,126,61.1,856,12,9.5,6,4.8,6.8,6.56,11.1,95.1,140.1,,2024
+Ethan Crawford,ethan-crawford-2,/cfb/players/ethan-crawford-2.html,Southern Mississippi,Sun Belt,8,50,120,41.7,849,0,0.0,7,5.8,7.1,4.45,17.0,106.1,89.4,,2024
+Byrum Brown,byrum-brown-1,/cfb/players/byrum-brown-1.html,South Florida,American,6,78,132,59.1,836,2,1.5,0,0.0,6.3,6.64,10.7,139.3,117.3,,2024
+Zeon Chriss,zeon-chriss-1,/cfb/players/zeon-chriss-1.html,Houston,Big 12,11,83,130,63.8,824,4,3.1,8,6.2,6.3,4.18,9.9,74.9,114.9,,2024
+Conner Weigman,conner-weigman-1,/cfb/players/conner-weigman-1.html,Texas A&M,SEC,6,64,114,56.1,819,3,2.6,5,4.4,7.2,5.74,12.8,136.5,116.4,,2024
+Jacob Zeno,jacob-zeno-1,/cfb/players/jacob-zeno-1.html,UAB,American,4,82,118,69.5,819,6,5.1,5,4.2,6.9,6.05,10.0,204.8,136.1,,2024
+Graham Mertz,graham-mertz-1,/cfb/players/graham-mertz-1.html,Florida,SEC,5,72,94,76.6,791,6,6.4,2,2.1,8.4,8.73,11.0,158.2,164.1,,2024
+Michael Hawkins Jr.,michael-hawkins-jr-1,/cfb/players/michael-hawkins-jr-1.html,Oklahoma,SEC,7,76,120,63.3,783,3,2.5,2,1.7,6.5,6.28,10.3,111.9,123.1,,2024
+Stone Earle,stone-earle-1,/cfb/players/stone-earle-1.html,Marshall,Sun Belt,9,65,120,54.2,673,7,5.8,2,1.7,5.6,6.03,10.4,74.8,117.2,,2024
+Bishop Davenport,bishop-davenport-2,/cfb/players/bishop-davenport-2.html,South Alabama,Sun Belt,11,48,79,60.8,606,3,3.8,1,1.3,7.7,7.86,12.6,55.1,135.2,,2024
+Brock Glenn,brock-glenn-1,/cfb/players/brock-glenn-1.html,Florida State,ACC,7,51,114,44.7,597,4,3.5,5,4.4,5.2,3.96,11.7,85.3,91.5,,2024
+Josh Holst,josh-holst-1,/cfb/players/josh-holst-1.html,Northern Illinois,MAC,7,65,111,58.6,593,2,1.8,2,1.8,5.3,4.89,9.1,84.7,105.8,,2024
+Micah Alejado,micah-alejado-1,/cfb/players/micah-alejado-1.html,Hawaii,MWC,4,49,70,70.0,585,6,8.6,0,0.0,8.4,10.07,11.9,146.3,168.5,,2024
+Aaron Philo,aaron-philo-1,/cfb/players/aaron-philo-1.html,Georgia Tech,ACC,5,38,74,51.4,565,1,1.4,2,2.7,7.6,6.69,14.9,113.0,114.5,,2024
+Max Brown,max-brown-1,/cfb/players/max-brown-1.html,Charlotte,American,5,43,93,46.2,561,3,3.2,6,6.5,6.0,3.77,13.0,112.2,94.6,,2024
+Cameron Rising,cameron-rising-1,/cfb/players/cameron-rising-1.html,Utah,Big 12,3,34,66,51.5,555,7,10.6,3,4.5,8.4,8.48,16.3,185.0,148.1,,2024
+Tyriq Starks,tyriq-starks-1,/cfb/players/tyriq-starks-1.html,Florida Atlantic,American,5,39,63,61.9,550,6,9.5,2,3.2,8.7,9.21,14.1,110.0,160.3,,2024
+Tony Muskett,tony-muskett-1,/cfb/players/tony-muskett-1.html,Virginia,ACC,8,45,76,59.2,545,3,3.9,3,3.9,7.2,6.18,12.1,68.1,124.6,,2024
+Will Crowder,will-crowder-1,/cfb/players/will-crowder-1.html,Troy,Sun Belt,4,43,62,69.4,542,5,8.1,0,0.0,8.7,10.35,12.6,135.5,169.4,,2024
+Forrest Brock,forrest-brock-1,/cfb/players/forrest-brock-1.html,Temple,American,3,60,102,58.8,541,1,1.0,5,4.9,5.3,3.29,9.0,180.3,96.8,,2024
+Cade McConnell,cade-mcconnell-2,/cfb/players/cade-mcconnell-2.html,UTEP,CUSA,6,40,71,56.3,540,4,5.6,3,4.2,7.6,6.83,13.5,90.0,130.4,,2024
+Ryan Browne,ryan-browne-1,/cfb/players/ryan-browne-1.html,Purdue,Big Ten,8,43,76,56.6,532,4,5.3,2,2.6,7.0,6.87,12.4,66.5,127.5,,2024
+Santino Marucci,santino-marucci-1,/cfb/players/santino-marucci-1.html,New Mexico State,CUSA,7,49,112,43.8,519,3,2.7,5,4.5,4.6,3.16,10.6,74.1,82.6,,2024
+Grayson McCall,grayson-mccall-1,/cfb/players/grayson-mccall-1.html,North Carolina State,ACC,4,53,80,66.3,518,3,3.8,2,2.5,6.5,6.10,9.8,129.5,128.0,,2024
+Grant Wilson,grant-wilson-1,/cfb/players/grant-wilson-1.html,Old Dominion,Sun Belt,3,48,86,55.8,507,4,4.7,3,3.5,5.9,5.26,10.6,169.0,113.7,,2024
+Luke Kromenhoek,luke-kromenhoek-1,/cfb/players/luke-kromenhoek-1.html,Florida State,ACC,6,44,84,52.4,502,3,3.6,2,2.4,6.0,5.62,11.4,83.7,109.6,,2024
+John Alan Richter,john-alan-richter-1,/cfb/players/john-alan-richter-1.html,Toledo,MAC,5,43,67,64.2,497,4,6.0,0,0.0,7.4,8.61,11.6,99.4,146.2,,2024
+TJ Finley,tj-finley-1,/cfb/players/tj-finley-1.html,Western Kentucky,CUSA,3,48,75,64.0,490,1,1.3,2,2.7,6.5,5.60,10.2,163.3,117.9,,2024
+Maealiuaki Smith,maealiuaki-smith-1,/cfb/players/maealiuaki-smith-1.html,Oklahoma State,Big 12,4,44,74,59.5,489,2,2.7,4,5.4,6.6,4.72,11.1,122.3,113.1,,2024
+William Watson III,william-watson-iii-1,/cfb/players/william-watson-iii-1.html,Virginia Tech,ACC,5,34,58,58.6,481,1,1.7,2,3.4,8.3,7.09,14.1,96.2,127.1,,2024
+AJ Hairston,aj-hairston-1,/cfb/players/aj-hairston-1.html,Massachusetts,Ind,4,40,73,54.8,480,5,6.8,0,0.0,6.6,7.95,12.0,120.0,132.6,,2024
+Brendan Sullivan,brendan-sullivan-1,/cfb/players/brendan-sullivan-1.html,Iowa,Big Ten,10,38,53,71.7,475,3,5.7,3,5.7,9.0,7.55,12.5,47.5,154.3,,2024
+Jack Turner,jack-turner-1,/cfb/players/jack-turner-1.html,Louisiana Tech,CUSA,7,40,76,52.6,471,2,2.6,2,2.6,6.2,5.54,11.8,67.3,108.1,,2024
+Will Hammond,will-hammond-1,/cfb/players/will-hammond-1.html,Texas Tech,Big 12,4,35,57,61.4,471,2,3.5,2,3.5,8.3,7.39,13.5,117.8,135.4,,2024
+Drew Mestemaker,drew-mestemaker-1,/cfb/players/drew-mestemaker-1.html,North Texas,American,5,30,46,65.2,462,2,4.3,2,4.3,10.0,8.96,15.4,92.4,155.2,,2024
+Quentin Hayes,quentin-hayes-2,/cfb/players/quentin-hayes-2.html,Air Force,MWC,10,25,43,58.1,455,3,7.0,2,4.7,10.6,9.88,18.2,45.5,160.7,,2024
+Gunner Stockton,gunner-stockton-1,/cfb/players/gunner-stockton-1.html,Georgia,SEC,5,45,64,70.3,440,1,1.6,1,1.6,6.9,6.48,9.8,88.0,130.1,,2024
+Jadyn Glasser,jadyn-glasser-1,/cfb/players/jadyn-glasser-1.html,Central Michigan,MAC,4,41,76,53.9,439,2,2.6,4,5.3,5.8,3.93,10.7,109.8,100.6,,2024
+Nicco Marchiol,nicco-marchiol-1,/cfb/players/nicco-marchiol-1.html,West Virginia,Big 12,8,37,56,66.1,434,5,8.9,2,3.6,7.8,7.93,11.7,54.3,153.5,,2024
+Devin Kargman,devin-kargman-1,/cfb/players/devin-kargman-1.html,Kent State,MAC,4,45,82,54.9,432,3,3.7,2,2.4,5.3,4.90,9.6,108.0,106.3,,2024
+Zevi Eckhaus,zevi-eckhaus-1,/cfb/players/zevi-eckhaus-1.html,Washington State,Ind,3,37,50,74.0,424,4,8.0,2,4.0,8.5,8.28,11.5,141.3,163.6,,2024
+Tyler Van Dyke,tyler-van-dyke-1,/cfb/players/tyler-van-dyke-1.html,Wisconsin,Big Ten,3,43,68,63.2,422,1,1.5,0,0.0,6.2,6.50,9.8,140.7,120.2,,2024
+Preston Stone,preston-stone-1,/cfb/players/preston-stone-1.html,SMU,ACC,7,30,51,58.8,421,5,9.8,1,2.0,8.3,9.33,14.0,60.1,156.6,,2024
+Kasen Weisman,kasen-weisman-2,/cfb/players/kasen-weisman-2.html,Florida Atlantic,American,7,39,73,53.4,416,2,2.7,3,4.1,5.7,4.40,10.7,59.4,102.1,,2024
+John Busha,john-busha-1,/cfb/players/john-busha-1.html,Air Force,MWC,6,29,79,36.7,415,1,1.3,5,6.3,5.3,2.66,14.3,69.2,72.4,,2024
+Collin Schlee,collin-schlee-1,/cfb/players/collin-schlee-1.html,Virginia Tech,ACC,9,28,55,50.9,414,3,5.5,1,1.8,7.5,7.80,14.8,46.0,128.5,,2024
+Zach Pyron,zach-pyron-1,/cfb/players/zach-pyron-1.html,Georgia Tech,ACC,10,35,65,53.8,409,2,3.1,3,4.6,6.3,4.83,11.7,40.9,107.6,,2024
+Hank Brown,hank-brown-1,/cfb/players/hank-brown-1.html,Auburn,SEC,4,27,43,62.8,403,6,14.0,3,7.0,9.4,9.02,14.9,100.8,173.6,,2024
+Jacurri Brown,jacurri-brown-1,/cfb/players/jacurri-brown-1.html,UCF,Big 12,9,35,67,52.2,398,1,1.5,4,6.0,5.9,3.55,11.4,44.2,95.1,,2024
+Drew Pyne,drew-pyne-1,/cfb/players/drew-pyne-1.html,Missouri,SEC,6,49,82,59.8,391,3,3.7,3,3.7,4.8,3.85,8.0,65.2,104.6,,2024
+Tucker Kilcrease,tucker-kilcrease-1,/cfb/players/tucker-kilcrease-1.html,Troy,Sun Belt,7,28,51,54.9,377,3,5.9,1,2.0,7.4,7.69,13.5,53.9,132.5,,2024
+Malachi Singleton,malachi-singleton-1,/cfb/players/malachi-singleton-1.html,Arkansas,SEC,5,21,28,75.0,358,1,3.6,0,0.0,12.8,13.50,17.0,71.6,194.2,,2024
+Mike Wright,mike-wright-8,/cfb/players/mike-wright-8.html,Northwestern,Big Ten,3,38,66,57.6,354,0,0.0,1,1.5,5.4,4.68,9.3,118.0,99.6,,2024
+MJ Morris,mj-morris-1,/cfb/players/mj-morris-1.html,Maryland,Big Ten,7,36,61,59.0,350,5,8.2,5,8.2,5.7,3.69,9.7,50.0,117.9,,2024
+Tayven Jackson,tayven-jackson-1,/cfb/players/tayven-jackson-1.html,Indiana,Big Ten,7,23,37,62.2,349,4,10.8,1,2.7,9.4,10.38,15.2,49.9,171.7,,2024
+Cutter Boley,cutter-boley-1,/cfb/players/cutter-boley-1.html,Kentucky,SEC,4,26,53,49.1,338,2,3.8,4,7.5,6.4,3.74,13.0,84.5,100.0,,2024
+Noah Kim,noah-kim-1,/cfb/players/noah-kim-1.html,Coastal Carolina,Sun Belt,7,30,56,53.6,333,4,7.1,1,1.8,5.9,6.57,11.1,47.6,123.5,,2024
+Trexler Ivey,trexler-ivey-1,/cfb/players/trexler-ivey-1.html,Charlotte,American,8,34,59,57.6,326,3,5.1,2,3.4,5.5,5.02,9.6,40.8,114.0,,2024
+Robby Ashford,robby-ashford-1,/cfb/players/robby-ashford-1.html,South Carolina,SEC,8,23,32,71.9,324,2,6.3,0,0.0,10.1,11.38,14.1,40.5,177.6,,2024
+Matthew Sluka,matthew-sluka-1,/cfb/players/matthew-sluka-1.html,Nevada-Las Vegas,MWC,3,21,48,43.8,318,6,12.5,1,2.1,6.6,8.19,15.1,106.0,136.5,,2024
+Blake Baker,blake-baker-1,/cfb/players/blake-baker-1.html,Louisiana Tech,CUSA,3,18,34,52.9,314,1,2.9,3,8.8,9.2,5.85,17.4,104.7,122.6,,2024
+Jase Bauer,jase-bauer-1,/cfb/players/jase-bauer-1.html,Sam Houston,CUSA,7,40,65,61.5,310,2,3.1,1,1.5,4.8,4.69,7.8,44.3,108.7,,2024
+DeQuan Finn,dequan-finn-1,/cfb/players/dequan-finn-1.html,Baylor,Big 12,3,23,43,53.5,307,3,7.0,2,4.7,7.1,6.44,13.3,102.3,127.2,,2024
+General Booty,general-booty-1,/cfb/players/general-booty-1.html,Louisiana-Monroe,Sun Belt,7,29,54,53.7,306,2,3.7,2,3.7,5.7,4.74,10.6,43.7,106.1,,2024
+Jack Tuttle,jack-tuttle-1,/cfb/players/jack-tuttle-1.html,Michigan,Big Ten,2,30,50,60.0,306,1,2.0,2,4.0,6.1,4.72,10.2,153.0,110.0,,2024
+Justin Lamson,justin-lamson-1,/cfb/players/justin-lamson-1.html,Stanford,ACC,12,24,47,51.1,300,4,8.5,2,4.3,6.4,6.17,12.5,25.0,124.3,,2024
+Michael Kern,michael-kern-1,/cfb/players/michael-kern-1.html,Wake Forest,ACC,6,24,45,53.3,288,1,2.2,3,6.7,6.4,3.84,12.0,48.0,101.1,,2024
+Gavin Wimsatt,gavin-wimsatt-1,/cfb/players/gavin-wimsatt-1.html,Kentucky,SEC,8,16,39,41.0,287,3,7.7,4,10.3,7.4,4.28,17.9,35.9,107.7,,2024
+Tyler Jefferson,tyler-jefferson-1,/cfb/players/tyler-jefferson-1.html,Central Michigan,MAC,7,27,58,46.6,286,0,0.0,1,1.7,4.9,4.16,10.6,40.9,84.5,,2024
+Austin Simmons,austin-simmons-2,/cfb/players/austin-simmons-2.html,Ole Miss,SEC,9,19,32,59.4,282,2,6.3,0,0.0,8.8,10.06,14.8,31.3,154.0,,2024
+Conner Harrell,conner-harrell-1,/cfb/players/conner-harrell-1.html,North Carolina,ACC,6,21,37,56.8,282,2,5.4,1,2.7,7.6,7.49,13.4,47.0,133.2,,2024
+Beau Pribula,beau-pribula-1,/cfb/players/beau-pribula-1.html,Penn State,Big Ten,13,26,35,74.3,275,5,14.3,1,2.9,7.9,9.43,10.6,21.2,181.7,,2024
+Elijah Brown,elijah-brown-5,/cfb/players/elijah-brown-5.html,Stanford,ACC,3,28,48,58.3,274,2,4.2,3,6.3,5.7,3.73,9.8,91.3,107.5,,2024
+Nick Poulos,nick-poulos-1,/cfb/players/nick-poulos-1.html,Ohio,MAC,8,22,49,44.9,271,2,4.1,1,2.0,5.5,5.43,12.3,33.9,100.7,,2024
+Steve Angeli,steve-angeli-1,/cfb/players/steve-angeli-1.html,Notre Dame,Ind,11,24,36,66.7,268,3,8.3,0,0.0,7.4,9.11,11.2,24.4,156.7,,2024
+Dexter Williams II,dexter-williams-ii-1,/cfb/players/dexter-williams-ii-1.html,Georgia Southern,Sun Belt,5,19,30,63.3,248,3,10.0,0,0.0,8.3,10.27,13.1,49.6,165.8,,2024
+Braxton Woodson,braxton-woodson-1,/cfb/players/braxton-woodson-1.html,Navy,American,10,18,36,50.0,243,2,5.6,2,5.6,6.8,5.36,13.5,24.3,113.9,,2024
+Henry Belvin IV,henry-belvin-iv-1,/cfb/players/henry-belvin-iv-1.html,Duke,ACC,4,26,45,57.8,243,2,4.4,1,2.2,5.4,5.29,9.3,60.8,113.4,,2024
+John White,john-white-14,/cfb/players/john-white-14.html,Southern Mississippi,Sun Belt,4,17,31,54.8,240,0,0.0,3,9.7,7.7,3.39,14.1,60.0,100.5,,2024
+Chubba Purdy,chubba-purdy-1,/cfb/players/chubba-purdy-1.html,Nevada,MWC,7,18,25,72.0,239,1,4.0,1,4.0,9.6,8.56,13.3,34.1,157.5,,2024
+Eddie Lee Marburger,eddie-lee-marburger-1,/cfb/players/eddie-lee-marburger-1.html,UTSA,American,7,22,40,55.0,234,2,5.0,3,7.5,5.9,3.48,10.6,33.4,105.6,,2024
+Aidan Warner,aidan-warner-1,/cfb/players/aidan-warner-1.html,Florida,SEC,6,21,50,42.0,228,0,0.0,3,6.0,4.6,1.86,10.9,38.0,68.3,,2024
+Harrison Bailey,harrison-bailey-1,/cfb/players/harrison-bailey-1.html,Louisville,ACC,5,24,33,72.7,227,3,9.1,0,0.0,6.9,8.70,9.5,45.4,160.5,,2024
+JP Pickles,jp-pickles-1,/cfb/players/jp-pickles-1.html,UTEP,CUSA,3,30,53,56.6,226,0,0.0,1,1.9,4.3,3.42,7.5,75.3,88.6,,2024
+Javance Tupou'ata-Johnson,javance-tupouata-johnson-1,/cfb/players/javance-tupouata-johnson-1.html,San Diego State,MWC,4,20,39,51.3,222,2,5.1,2,5.1,5.7,4.41,11.1,55.5,105.8,,2024
+Jackson Stratton,jackson-stratton-1,/cfb/players/jackson-stratton-1.html,Iowa,Big Ten,3,21,35,60.0,219,1,2.9,0,0.0,6.3,6.83,10.4,73.0,122.0,,2024
+Tommy Schuster,tommy-schuster-1,/cfb/players/tommy-schuster-1.html,Michigan State,Big Ten,5,20,29,69.0,202,0,0.0,0,0.0,7.0,6.97,10.1,40.4,127.5,,2024
+Gaston Moore,gaston-moore-1,/cfb/players/gaston-moore-1.html,Tennessee,SEC,6,16,27,59.3,201,2,7.4,2,7.4,7.4,5.59,12.6,33.5,131.4,,2024
+Ty Thompson,ty-thompson-2,/cfb/players/ty-thompson-2.html,Tulane,American,12,17,40,42.5,199,3,7.5,3,7.5,5.0,3.10,11.7,16.6,94.0,,2024
+Israel Carter,israel-carter-1,/cfb/players/israel-carter-1.html,South Florida,American,4,11,14,78.6,195,4,28.6,0,0.0,13.9,19.64,17.7,48.8,289.9,,2024
+Joshua Wood,joshua-wood-1,/cfb/players/joshua-wood-1.html,Fresno State,MWC,13,18,28,64.3,195,1,3.6,1,3.6,7.0,6.07,10.8,15.0,127.4,,2024
+Garret Rangel,garret-rangel-1,/cfb/players/garret-rangel-1.html,Oklahoma State,Big 12,4,17,33,51.5,192,2,6.1,1,3.0,5.8,5.67,11.3,48.0,114.3,,2024
+Christopher Vizzina,christopher-vizzina-1,/cfb/players/christopher-vizzina-1.html,Clemson,ACC,7,19,34,55.9,190,0,0.0,0,0.0,5.6,5.59,10.0,27.1,102.8,,2024
+Emory Williams,emory-williams-1,/cfb/players/emory-williams-1.html,Miami (FL),ACC,2,16,26,61.5,187,1,3.8,1,3.8,7.2,6.23,11.7,93.5,127.0,,2024
+CJ Harris,cj-harris-2,/cfb/players/cj-harris-2.html,California,ACC,2,19,31,61.3,184,0,0.0,1,3.2,5.9,4.48,9.7,92.0,104.7,,2024
+Billy Atkins,billy-atkins-2,/cfb/players/billy-atkins-2.html,James Madison,Sun Belt,3,16,24,66.7,181,1,4.2,0,0.0,7.5,8.38,11.3,60.3,143.8,,2024
+Quinn Henicle,quinn-henicle-1,/cfb/players/quinn-henicle-1.html,Old Dominion,Sun Belt,3,14,25,56.0,181,2,8.0,1,4.0,7.2,7.04,12.9,60.3,135.2,,2024
+Justyn Martin,justyn-martin-1,/cfb/players/justyn-martin-1.html,UCLA,Big Ten,3,24,35,68.6,179,1,2.9,0,0.0,5.1,5.69,7.5,59.7,121.0,,2024
+Tahj Bullock,tahj-bullock-1,/cfb/players/tahj-bullock-1.html,Akron,MAC,12,21,29,72.4,176,0,0.0,0,0.0,6.1,6.07,8.4,14.7,123.4,,2024
+Gabarri Johnson,gabarri-johnson-1,/cfb/players/gabarri-johnson-1.html,Oregon State,Ind,6,15,29,51.7,174,0,0.0,1,3.4,6.0,4.45,11.6,29.0,95.2,,2024
+AJ Bianco,aj-bianco-1,/cfb/players/aj-bianco-1.html,Nevada,MWC,5,16,24,66.7,173,1,4.2,0,0.0,7.2,8.04,10.8,34.6,141.0,,2024
+Tad Hudson,tad-hudson-1,/cfb/players/tad-hudson-1.html,Coastal Carolina,Sun Belt,1,17,26,65.4,173,2,7.7,0,0.0,6.7,8.19,10.2,173.0,146.7,,2024
+Luke Bottari,luke-bottari-1,/cfb/players/luke-bottari-1.html,Utah,Big 12,3,19,30,63.3,171,1,3.3,0,0.0,5.7,6.37,9.0,57.0,122.2,,2024
+Jeff Sims,jeff-sims-1,/cfb/players/jeff-sims-1.html,Arizona State,Big 12,4,13,25,52.0,168,0,0.0,0,0.0,6.7,6.72,12.9,42.0,108.4,,2024
+Ty Simpson,ty-simpson-1,/cfb/players/ty-simpson-1.html,Alabama,SEC,6,14,25,56.0,167,0,0.0,0,0.0,6.7,6.68,11.9,27.8,112.1,,2024
+Timmy Mcclain,timmy-mcclain-1,/cfb/players/timmy-mcclain-1.html,Arkansas State,Sun Belt,4,14,21,66.7,163,3,14.3,0,0.0,7.8,10.62,11.6,40.8,179.0,,2024
+Brandon Rose,brandon-rose-1,/cfb/players/brandon-rose-1.html,Utah,Big 12,3,19,36,52.8,157,2,5.6,2,5.6,4.4,2.97,8.3,52.3,96.6,,2024
+Alex Orji,alex-orji-1,/cfb/players/alex-orji-1.html,Michigan,Big Ten,11,25,47,53.2,150,3,6.4,2,4.3,3.2,2.55,6.0,13.6,92.6,,2024
+RJ Martinez,rj-martinez-1,/cfb/players/rj-martinez-1.html,Texas State,Sun Belt,4,18,24,75.0,148,0,0.0,1,4.2,6.2,4.29,8.2,37.0,118.5,,2024
+Drew Devillier,drew-devillier-1,/cfb/players/drew-devillier-1.html,Rice,American,3,20,38,52.6,137,0,0.0,0,0.0,3.6,3.61,6.9,45.7,82.9,,2024
+Malachi Nelson,malachi-nelson-1,/cfb/players/malachi-nelson-1.html,Boise State,MWC,3,12,17,70.6,128,0,0.0,1,5.9,7.5,4.88,10.7,42.7,122.1,,2024
+Daniel Beale,daniel-beale-1,/cfb/players/daniel-beale-1.html,Louisiana,Sun Belt,3,13,30,43.3,126,0,0.0,2,6.7,4.2,1.20,9.7,42.0,65.3,,2024
+Jermiah Salem,jermiah-salem-1,/cfb/players/jermiah-salem-1.html,Eastern Michigan,MAC,3,8,11,72.7,126,1,9.1,1,9.1,11.5,9.18,15.8,42.0,180.8,,2024
+Josh Johnson,josh-johnson-10,/cfb/players/josh-johnson-10.html,Air Force,MWC,6,6,14,42.9,126,1,7.1,3,21.4,9.0,0.79,21.0,21.0,99.2,,2024
+Logan Smothers,logan-smothers-1,/cfb/players/logan-smothers-1.html,Jacksonville State,CUSA,7,11,19,57.9,123,0,0.0,0,0.0,6.5,6.47,11.2,17.6,112.3,,2024
+Dewayne Coleman,dewayne-coleman-1,/cfb/players/dewayne-coleman-1.html,Army,American,7,11,16,68.8,121,1,6.3,0,0.0,7.6,8.81,11.0,17.3,152.9,,2024
+Ryan Hilinski,ryan-hilinski-1,/cfb/players/ryan-hilinski-1.html,Northwestern,Big Ten,4,9,15,60.0,121,0,0.0,1,6.7,8.1,5.07,13.4,30.3,114.4,,2024
+Brad Jackson,brad-jackson-2,/cfb/players/brad-jackson-2.html,Texas State,Sun Belt,3,8,15,53.3,118,1,6.7,0,0.0,7.9,9.20,14.8,39.3,141.4,,2024
+Chandler Rogers,chandler-rogers-3,/cfb/players/chandler-rogers-3.html,California,ACC,8,12,25,48.0,117,0,0.0,0,0.0,4.7,4.68,9.8,14.6,87.3,,2024
+Devin Brown,devin-brown-2,/cfb/players/devin-brown-2.html,Ohio State,Big Ten,9,11,20,55.0,114,1,5.0,0,0.0,5.7,6.70,10.4,12.7,119.4,,2024
+Ui Ale,ui-ale-1,/cfb/players/ui-ale-1.html,Houston,Big 12,2,10,13,76.9,112,1,7.7,0,0.0,8.6,10.15,11.2,56.0,174.7,,2024
+David Lynch,david-lynch-1,/cfb/players/david-lynch-1.html,Pitt,ACC,3,16,27,59.3,111,0,0.0,3,11.1,4.1,-0.89,6.9,37.0,71.6,,2024
+Dalvin Smith,dalvin-smith-1,/cfb/players/dalvin-smith-1.html,Western Kentucky,CUSA,14,3,4,75.0,107,2,50.0,0,0.0,26.8,36.75,35.7,7.6,464.7,,2024
+Amari Jones,amari-jones-1,/cfb/players/amari-jones-1.html,Florida International,CUSA,5,7,12,58.3,101,1,8.3,1,8.3,8.4,6.33,14.4,20.2,139.9,,2024
+Heinrich Haarberg,heinrich-haarberg-1,/cfb/players/heinrich-haarberg-1.html,Nebraska,Big Ten,12,10,18,55.6,101,0,0.0,1,5.6,5.6,3.11,10.1,8.4,91.6,,2024
+Bert Emanuel Jr.,bert-emanuel-jr-1,/cfb/players/bert-emanuel-jr-1.html,Central Michigan,MAC,3,4,6,66.7,99,2,33.3,0,0.0,16.5,23.17,24.8,33.0,315.3,,2024
+Ken Seals,ken-seals-1,/cfb/players/ken-seals-1.html,Texas Christian,Big 12,6,10,13,76.9,97,1,7.7,0,0.0,7.5,9.00,9.7,16.2,165.0,,2024
+Henry Hesson,henry-hesson-1,/cfb/players/henry-hesson-1.html,Miami (OH),MAC,5,7,17,41.2,93,1,5.9,0,0.0,5.5,6.65,13.3,18.6,106.5,,2024
+Brandon Nunez,brandon-nunez-1,/cfb/players/brandon-nunez-1.html,New Mexico State,CUSA,6,12,30,40.0,89,2,6.7,1,3.3,3.0,2.80,7.4,14.8,80.3,,2024
+Ryan Burger,ryan-burger-1,/cfb/players/ryan-burger-1.html,Liberty,CUSA,5,8,19,42.1,88,0,0.0,0,0.0,4.6,4.63,11.0,17.6,81.0,,2024
+Michael Merdinger,michael-merdinger-1,/cfb/players/michael-merdinger-1.html,North Carolina,ACC,1,9,12,75.0,86,0,0.0,1,8.3,7.2,3.42,9.6,86.0,118.5,,2024
+Julian Sayin,julian-sayin-1,/cfb/players/julian-sayin-1.html,Ohio State,Big Ten,4,5,12,41.7,84,1,8.3,0,0.0,7.0,8.67,16.8,21.0,128.0,,2024
+Brandon Engel,brandon-engel-1,/cfb/players/brandon-engel-1.html,Air Force,MWC,11,2,2,100.0,81,0,0.0,0,0.0,40.5,40.50,40.5,7.4,440.2,,2024
+Ruel Tomlinson,ruel-tomlinson-1,/cfb/players/ruel-tomlinson-1.html,Kent State,MAC,4,11,28,39.3,73,0,0.0,2,7.1,2.6,-0.61,6.6,18.3,46.9,,2024
+Julian Dugger,julian-dugger-1,/cfb/players/julian-dugger-1.html,Pitt,ACC,1,7,13,53.8,72,2,15.4,1,7.7,5.5,5.15,10.3,72.0,135.8,,2024
+Will Perry,will-perry-1,/cfb/players/will-perry-1.html,Massachusetts,Ind,1,7,11,63.6,72,1,9.1,0,0.0,6.5,8.36,10.3,72.0,148.6,,2024
+Iverson Hooks,iverson-hooks-1,/cfb/players/iverson-hooks-1.html,UAB,American,12,1,1,100.0,71,0,0.0,0,0.0,71.0,71.00,71.0,5.9,696.4,,2024
+Max Johnson,max-johnson-2,/cfb/players/max-johnson-2.html,North Carolina,ACC,1,12,19,63.2,71,0,0.0,1,5.3,3.7,1.37,5.9,71.0,84.0,,2024
+Trenton Bourguet,trenton-bourguet-1,/cfb/players/trenton-bourguet-1.html,Arizona State,Big 12,2,2,3,66.7,71,1,33.3,0,0.0,23.7,30.33,35.5,35.5,375.5,,2024
+Cameron Edge,cameron-edge-1,/cfb/players/cameron-edge-1.html,Maryland,Big Ten,2,5,8,62.5,67,1,12.5,0,0.0,8.4,10.88,13.4,33.5,174.1,,2024
+Luke Elzinga,luke-elzinga-1,/cfb/players/luke-elzinga-1.html,Oklahoma,SEC,13,3,3,100.0,66,0,0.0,0,0.0,22.0,22.00,22.0,5.1,284.8,,2024
+Lex Thomas,lex-thomas-1,/cfb/players/lex-thomas-1.html,North Carolina State,ACC,2,5,8,62.5,65,1,12.5,1,12.5,8.1,5.00,13.0,32.5,147.0,,2024
+Cameron Friel,cameron-friel-1,/cfb/players/cameron-friel-1.html,Nevada-Las Vegas,MWC,5,5,6,83.3,64,0,0.0,0,0.0,10.7,10.67,12.8,12.8,172.9,,2024
+EJ Colson,ej-colson-1,/cfb/players/ej-colson-1.html,UCF,Big 12,3,9,16,56.3,64,1,6.3,1,6.3,4.0,2.44,7.1,21.3,98.0,,2024
+Noah Smith,noah-smith-3,/cfb/players/noah-smith-3.html,Sam Houston,CUSA,11,1,2,50.0,64,1,50.0,0,0.0,32.0,42.00,64.0,5.8,483.8,,2024
+Antonio Williams,antonio-williams-2,/cfb/players/antonio-williams-2.html,Clemson,ACC,14,2,2,100.0,62,1,50.0,0,0.0,31.0,41.00,31.0,4.4,525.4,,2024
+KJ Jackson,kj-jackson-1,/cfb/players/kj-jackson-1.html,Arkansas,SEC,1,4,4,100.0,59,0,0.0,0,0.0,14.8,14.75,14.8,59.0,223.9,,2024
+Chayden Peery,chayden-peery-1,/cfb/players/chayden-peery-1.html,Florida International,CUSA,1,7,12,58.3,58,1,8.3,0,0.0,4.8,6.50,8.3,58.0,126.4,,2024
+Cole Pennington,cole-pennington-1,/cfb/players/cole-pennington-1.html,Marshall,Sun Belt,3,5,7,71.4,57,1,14.3,0,0.0,8.1,11.00,11.4,19.0,187.0,,2024
+EJ Caminong,ej-caminong-1,/cfb/players/ej-caminong-1.html,California,ACC,1,6,19,31.6,57,0,0.0,0,0.0,3.0,3.00,9.5,57.0,56.8,,2024
+Khalib Johnson,khalib-johnson-1,/cfb/players/khalib-johnson-1.html,Kennesaw State,CUSA,4,6,22,27.3,57,0,0.0,3,13.6,2.6,-3.55,9.5,14.3,21.8,,2024
+Marshall Nichols,marshall-nichols-1,/cfb/players/marshall-nichols-1.html,Nevada-Las Vegas,MWC,14,1,1,100.0,52,0,0.0,0,0.0,52.0,52.00,52.0,3.7,536.8,,2024
+Trayvon Rudolph,trayvon-rudolph-1,/cfb/players/trayvon-rudolph-1.html,Northern Illinois,MAC,11,2,3,66.7,52,1,33.3,0,0.0,17.3,24.00,26.0,4.7,322.3,,2024
+Braden Bohannon,braden-bohannon-1,/cfb/players/braden-bohannon-1.html,Kennesaw State,CUSA,5,5,10,50.0,51,0,0.0,0,0.0,5.1,5.10,10.2,10.2,92.8,,2024
+Cole Ballard,cole-ballard-1,/cfb/players/cole-ballard-1.html,Kansas,Big 12,3,5,6,83.3,51,1,16.7,0,0.0,8.5,11.83,10.2,17.0,209.7,,2024
+Malachi Fields,malachi-fields-1,/cfb/players/malachi-fields-1.html,Virginia,ACC,12,2,3,66.7,51,0,0.0,0,0.0,17.0,17.00,25.5,4.3,209.5,,2024
+Miles O'Neil,miles-oneil-1,/cfb/players/miles-oneil-1.html,Texas A&M,SEC,1,5,6,83.3,51,1,16.7,0,0.0,8.5,11.83,10.2,51.0,209.7,,2024
+Stephen Kittleman,stephen-kittleman-1,/cfb/players/stephen-kittleman-1.html,Tulsa,American,12,3,3,100.0,51,0,0.0,0,0.0,17.0,17.00,17.0,4.3,242.8,,2024
+Drake Lindsey,drake-lindsey-1,/cfb/players/drake-lindsey-1.html,Minnesota,Big Ten,3,4,5,80.0,50,1,20.0,0,0.0,10.0,14.00,12.5,16.7,230.0,,2024
+Jalen Macon,jalen-macon-1,/cfb/players/jalen-macon-1.html,Northern Illinois,MAC,1,4,7,57.1,50,0,0.0,0,0.0,7.1,7.14,12.5,50.0,117.1,,2024
+Connor Moberly,connor-moberly-1,/cfb/players/connor-moberly-1.html,Iowa State,Big 12,4,5,10,50.0,49,0,0.0,1,10.0,4.9,0.40,9.8,12.3,71.2,,2024
+Dante Moore,dante-moore-1,/cfb/players/dante-moore-1.html,Oregon,Big Ten,5,7,8,87.5,49,0,0.0,0,0.0,6.1,6.13,7.0,9.8,139.0,,2024
+Harrison Barker,harrison-barker-1,/cfb/players/harrison-barker-1.html,UAB,American,4,3,3,100.0,49,1,33.3,0,0.0,16.3,23.00,16.3,12.3,347.2,,2024
+Jake Merklinger,jake-merklinger-1,/cfb/players/jake-merklinger-1.html,Tennessee,SEC,2,6,9,66.7,48,0,0.0,0,0.0,5.3,5.33,8.0,24.0,111.5,,2024
+Kanyon Floyd,kanyon-floyd-1,/cfb/players/kanyon-floyd-1.html,Arizona State,Big 12,14,2,2,100.0,47,0,0.0,0,0.0,23.5,23.50,23.5,3.4,297.4,,2024
+Davis Beville,davis-beville-1,/cfb/players/davis-beville-1.html,South Carolina,SEC,3,5,7,71.4,46,1,14.3,0,0.0,6.6,9.43,9.2,15.3,173.8,,2024
+Tim Carpenter,tim-carpenter-2,/cfb/players/tim-carpenter-2.html,Tulsa,American,4,4,8,50.0,46,2,25.0,0,0.0,5.8,10.75,11.5,11.5,180.8,,2024
+Marcus Bellon,marcus-bellon-1,/cfb/players/marcus-bellon-1.html,Nevada,MWC,13,1,2,50.0,44,1,50.0,0,0.0,22.0,32.00,44.0,3.4,399.8,,2024
+Baron May,baron-may-1,/cfb/players/baron-may-1.html,Bowling Green,MAC,1,1,1,100.0,43,1,100.0,0,0.0,43.0,63.00,43.0,43.0,791.2,,2024
+Cameron Skattebo,cameron-skattebo-1,/cfb/players/cameron-skattebo-1.html,Arizona State,Big 12,13,1,2,50.0,42,1,50.0,0,0.0,21.0,31.00,42.0,3.2,391.4,H-5,2024
+DeAngelo Irvin Jr.,deangelo-irvin-jr-1,/cfb/players/deangelo-irvin-jr-1.html,Nevada-Las Vegas,MWC,13,1,1,100.0,42,0,0.0,0,0.0,42.0,42.00,42.0,3.2,452.8,,2024
+John-Keawe Sagapolutele,john-keawe-sagapolutele-1,/cfb/players/john-keawe-sagapolutele-1.html,Hawaii,MWC,5,4,7,57.1,42,0,0.0,2,28.6,6.0,-6.86,10.5,8.4,50.4,,2024
+Nick Nash,nick-nash-1,/cfb/players/nick-nash-1.html,San Jose State,MWC,12,2,2,100.0,42,2,100.0,0,0.0,21.0,41.00,21.0,3.5,606.4,AA,2024
+Ryan Boe,ryan-boe-1,/cfb/players/ryan-boe-1.html,Northwestern,Big Ten,1,4,13,30.8,42,0,0.0,1,7.7,3.2,-0.23,10.5,42.0,42.5,,2024
+Gunnar Gray,gunnar-gray-1,/cfb/players/gunnar-gray-1.html,Buffalo,MAC,4,4,11,36.4,41,0,0.0,1,9.1,3.7,-0.36,10.3,10.3,49.5,,2024
+Roman Gagliano,roman-gagliano-1,/cfb/players/roman-gagliano-1.html,Middle Tennessee State,CUSA,3,4,9,44.4,41,0,0.0,0,0.0,4.6,4.56,10.3,13.7,82.7,,2024
+Nate Hampton,nate-hampton-1,/cfb/players/nate-hampton-1.html,Liberty,CUSA,2,2,9,22.2,40,1,11.1,1,11.1,4.4,1.67,20.0,20.0,74.0,,2024
+Ahmad Haston,ahmad-haston-1,/cfb/players/ahmad-haston-1.html,Massachusetts,Ind,5,8,9,88.9,39,0,0.0,0,0.0,4.3,4.33,4.9,7.8,125.3,,2024
+Austin Mack,austin-mack-2,/cfb/players/austin-mack-2.html,Alabama,SEC,1,2,3,66.7,39,1,33.3,0,0.0,13.0,19.67,19.5,39.0,285.9,,2024
+Jayden Mandal,jayden-mandal-1,/cfb/players/jayden-mandal-1.html,Fresno State,MWC,6,4,9,44.4,39,0,0.0,2,22.2,4.3,-5.67,9.8,6.5,36.4,,2024
+Makai Lemon,makai-lemon-1,/cfb/players/makai-lemon-1.html,USC,Big Ten,12,1,1,100.0,39,0,0.0,0,0.0,39.0,39.00,39.0,3.3,427.6,,2024
+Brian Buschini,brian-buschini-1,/cfb/players/brian-buschini-1.html,Nebraska,Big Ten,13,2,2,100.0,38,0,0.0,0,0.0,19.0,19.00,19.0,2.9,259.6,,2024
+Cardell Williams,cardell-williams-1,/cfb/players/cardell-williams-1.html,Tulsa,American,7,5,11,45.5,37,0,0.0,0,0.0,3.4,3.36,7.4,5.3,73.7,,2024
+Haden Carlson,haden-carlson-1,/cfb/players/haden-carlson-1.html,Florida International,CUSA,1,4,6,66.7,37,0,0.0,2,33.3,6.2,-8.83,9.3,37.0,51.8,,2024
+Grant Page,grant-page-1,/cfb/players/grant-page-1.html,Utah State,MWC,12,1,1,100.0,36,0,0.0,0,0.0,36.0,36.00,36.0,3.0,402.4,,2024
+Rickie Collins,rickie-collins-1,/cfb/players/rickie-collins-1.html,LSU,SEC,3,5,5,100.0,35,0,0.0,0,0.0,7.0,7.00,7.0,11.7,158.8,,2024
+Tyler Warren,tyler-warren-1,/cfb/players/tyler-warren-1.html,Penn State,Big Ten,16,3,6,50.0,35,1,16.7,0,0.0,5.8,9.17,11.7,2.2,154.0,H-7,2024
+Holden Geriner,holden-geriner-1,/cfb/players/holden-geriner-1.html,Auburn,SEC,2,2,2,100.0,33,0,0.0,0,0.0,16.5,16.50,16.5,16.5,238.6,,2024
+Parker Kingston,parker-kingston-1,/cfb/players/parker-kingston-1.html,BYU,Big 12,13,1,3,33.3,33,1,33.3,0,0.0,11.0,17.67,33.0,2.5,235.7,,2024
+Jacob Ulrich,jacob-ulrich-1,/cfb/players/jacob-ulrich-1.html,Kennesaw State,CUSA,12,1,1,100.0,32,0,0.0,0,0.0,32.0,32.00,32.0,2.7,368.8,,2024
+Lucian Anderson III,lucian-anderson-iii-1,/cfb/players/lucian-anderson-iii-1.html,Bowling Green,MAC,8,5,12,41.7,32,1,8.3,1,8.3,2.7,0.58,6.4,4.0,74.9,,2024
+Deuce Hogan,deuce-hogan-1,/cfb/players/deuce-hogan-1.html,New Mexico State,CUSA,2,6,18,33.3,31,0,0.0,2,11.1,1.7,-3.28,5.2,15.5,25.6,,2024
+Michael Johnson Jr.,michael-johnson-jr-1,/cfb/players/michael-johnson-jr-1.html,Syracuse,ACC,1,2,3,66.7,31,0,0.0,0,0.0,10.3,10.33,15.5,31.0,153.5,,2024
+Wyatt Young,wyatt-young-2,/cfb/players/wyatt-young-2.html,North Texas,American,13,1,1,100.0,31,0,0.0,0,0.0,31.0,31.00,31.0,2.4,360.4,,2024
+Javon Tracy,javon-tracy-1,/cfb/players/javon-tracy-1.html,Miami (OH),MAC,13,1,1,100.0,30,1,100.0,0,0.0,30.0,50.00,30.0,2.3,682.0,,2024
+Matthew Golden,matthew-golden-1,/cfb/players/matthew-golden-1.html,Texas,SEC,16,1,2,50.0,30,0,0.0,0,0.0,15.0,15.00,30.0,1.9,176.0,,2024
+Donovan Leary,donovan-leary-2,/cfb/players/donovan-leary-2.html,Illinois,Big Ten,2,2,5,40.0,29,0,0.0,0,0.0,5.8,5.80,14.5,14.5,88.7,,2024
+Joseph Manjack IV,joseph-manjack-iv-1,/cfb/players/joseph-manjack-iv-1.html,Houston,Big 12,11,2,3,66.7,29,0,0.0,1,33.3,9.7,-5.33,14.5,2.6,81.2,,2024
+Landon Parker,landon-parker-2,/cfb/players/landon-parker-2.html,Troy,Sun Belt,12,1,3,33.3,29,0,0.0,0,0.0,9.7,9.67,29.0,2.4,114.5,,2024
+Kevin Concepcion,kevin-concepcion-2,/cfb/players/kevin-concepcion-2.html,North Carolina State,ACC,12,1,1,100.0,28,0,0.0,0,0.0,28.0,28.00,28.0,2.3,335.2,,2024
+David Amador II,david-amador-ii-1,/cfb/players/david-amador-ii-1.html,UTSA,American,5,1,1,100.0,27,0,0.0,0,0.0,27.0,27.00,27.0,5.4,326.8,,2024
+Gerry Bohanon,gerry-bohanon-1,/cfb/players/gerry-bohanon-1.html,BYU,Big 12,4,3,4,75.0,27,0,0.0,1,25.0,6.8,-4.50,9.0,6.8,81.7,,2024
+Jordan Napier,jordan-napier-1,/cfb/players/jordan-napier-1.html,San Diego State,MWC,12,1,2,50.0,27,1,50.0,0,0.0,13.5,23.50,27.0,2.3,328.4,,2024
+Ollie Gordon,ollie-gordon-1,/cfb/players/ollie-gordon-1.html,Oklahoma State,Big 12,12,1,1,100.0,27,0,0.0,0,0.0,27.0,27.00,27.0,2.3,326.8,,2024
+Suderian Harrison,suderian-harrison-1,/cfb/players/suderian-harrison-1.html,Virginia,ACC,8,1,1,100.0,27,0,0.0,0,0.0,27.0,27.00,27.0,3.4,326.8,,2024
+Trey Goodman,trey-goodman-1,/cfb/players/trey-goodman-1.html,UTEP,CUSA,12,1,3,33.3,27,0,0.0,2,66.7,9.0,-21.00,27.0,2.3,-24.4,,2024
+Carson Hansen,carson-hansen-1,/cfb/players/carson-hansen-1.html,Iowa State,Big 12,14,1,1,100.0,26,0,0.0,0,0.0,26.0,26.00,26.0,1.9,318.4,,2024
+Christian Gelov,christian-gelov-1,/cfb/players/christian-gelov-1.html,Purdue,Big Ten,1,1,3,33.3,26,0,0.0,0,0.0,8.7,8.67,26.0,26.0,106.1,,2024
+Jaxon Potter,jaxon-potter-1,/cfb/players/jaxon-potter-1.html,Washington State,Ind,2,2,2,100.0,26,0,0.0,0,0.0,13.0,13.00,13.0,13.0,209.2,,2024
+Raylen Sharpe,raylen-sharpe-1,/cfb/players/raylen-sharpe-1.html,Fresno State,MWC,11,1,1,100.0,26,1,100.0,0,0.0,26.0,46.00,26.0,2.4,648.4,,2024
+Brady Lichtenberg,brady-lichtenberg-1,/cfb/players/brady-lichtenberg-1.html,Cincinnati,Big 12,3,3,5,60.0,25,0,0.0,0,0.0,5.0,5.00,8.3,8.3,102.0,,2024
+Chandler Pittman,chandler-pittman-1,/cfb/players/chandler-pittman-1.html,Southern Mississippi,Sun Belt,10,1,1,100.0,25,0,0.0,0,0.0,25.0,25.00,25.0,2.5,310.0,,2024
+George Dimopoulus,george-dimopoulus-1,/cfb/players/george-dimopoulus-1.html,Northern Illinois,MAC,13,1,1,100.0,25,1,100.0,0,0.0,25.0,45.00,25.0,1.9,640.0,,2024
+David Chapeau,david-chapeau-2,/cfb/players/david-chapeau-2.html,Central Michigan,MAC,12,1,1,100.0,23,0,0.0,0,0.0,23.0,23.00,23.0,1.9,293.2,,2024
+Donovan Edwards,donovan-edwards-1,/cfb/players/donovan-edwards-1.html,Michigan,Big Ten,12,1,1,100.0,23,1,100.0,0,0.0,23.0,43.00,23.0,1.9,623.2,,2024
+Dylan Lonergan,dylan-lonergan-1,/cfb/players/dylan-lonergan-1.html,Alabama,SEC,2,5,6,83.3,23,0,0.0,0,0.0,3.8,3.83,4.6,11.5,115.5,,2024
+Jacobe Robinson,jacobe-robinson-1,/cfb/players/jacobe-robinson-1.html,Boston College,ACC,2,2,3,66.7,23,0,0.0,0,0.0,7.7,7.67,11.5,11.5,131.1,,2024
+Kobe Johnson,kobe-johnson-1,/cfb/players/kobe-johnson-1.html,Colorado State,MWC,13,1,1,100.0,23,1,100.0,0,0.0,23.0,43.00,23.0,1.8,623.2,,2024
+Taji Hudson,taji-hudson-1,/cfb/players/taji-hudson-1.html,James Madison,Sun Belt,11,1,1,100.0,23,0,0.0,0,0.0,23.0,23.00,23.0,2.1,293.2,,2024
+Tyler Buchner,tyler-buchner-1,/cfb/players/tyler-buchner-1.html,Notre Dame,Ind,2,1,1,100.0,23,0,0.0,0,0.0,23.0,23.00,23.0,11.5,293.2,,2024
+Braedon Sloan,braedon-sloan-1,/cfb/players/braedon-sloan-1.html,Ball State,MAC,12,1,1,100.0,22,1,100.0,0,0.0,22.0,42.00,22.0,1.8,614.8,,2024
+Jacob Conover,jacob-conover-1,/cfb/players/jacob-conover-1.html,Utah State,MWC,2,2,4,50.0,22,0,0.0,0,0.0,5.5,5.50,11.0,11.0,96.2,,2024
+Savion Williams,savion-williams-2,/cfb/players/savion-williams-2.html,Texas Christian,Big 12,12,3,3,100.0,22,1,33.3,0,0.0,7.3,14.00,7.3,1.8,271.6,,2024
+Terry Lockett Jr.,terry-lockett-jr-1,/cfb/players/terry-lockett-jr-1.html,Eastern Michigan,MAC,12,1,1,100.0,22,1,100.0,0,0.0,22.0,42.00,22.0,1.8,614.8,,2024
+Broc Lowry,broc-lowry-1,/cfb/players/broc-lowry-1.html,Western Michigan,MAC,11,4,8,50.0,21,0,0.0,0,0.0,2.6,2.63,5.3,1.9,72.1,,2024
+DJ Herman,dj-herman-1,/cfb/players/dj-herman-1.html,San Diego State,MWC,12,1,1,100.0,21,0,0.0,0,0.0,21.0,21.00,21.0,1.8,276.4,,2024
+Micah Ford,micah-ford-1,/cfb/players/micah-ford-1.html,Stanford,ACC,9,2,2,100.0,21,2,100.0,0,0.0,10.5,30.50,10.5,2.3,518.2,,2024
+Quinton Jackson,quinton-jackson-1,/cfb/players/quinton-jackson-1.html,Rice,American,12,1,1,100.0,21,0,0.0,0,0.0,21.0,21.00,21.0,1.8,276.4,,2024
+Coy Eakin,coy-eakin-1,/cfb/players/coy-eakin-1.html,Texas Tech,Big 12,13,1,2,50.0,20,1,50.0,0,0.0,10.0,20.00,20.0,1.5,299.0,,2024
+Jalin Conyers,jalin-conyers-1,/cfb/players/jalin-conyers-1.html,Texas Tech,Big 12,13,1,1,100.0,20,1,100.0,0,0.0,20.0,40.00,20.0,1.5,598.0,,2024
+Reese Poffenbarger,reese-poffenbarger-1,/cfb/players/reese-poffenbarger-1.html,Miami (FL),ACC,4,6,7,85.7,20,0,0.0,0,0.0,2.9,2.86,3.3,5.0,109.7,,2024
+Shay Smith,shay-smith-1,/cfb/players/shay-smith-1.html,UTEP,CUSA,4,3,3,100.0,20,0,0.0,0,0.0,6.7,6.67,6.7,5.0,156.0,,2024
+Tucker McDonald,tucker-mcdonald-1,/cfb/players/tucker-mcdonald-1.html,Connecticut,Ind,3,3,5,60.0,20,0,0.0,0,0.0,4.0,4.00,6.7,6.7,93.6,,2024
+Caleb Hood,caleb-hood-1,/cfb/players/caleb-hood-1.html,North Carolina,ACC,5,2,3,66.7,19,1,33.3,0,0.0,6.3,13.00,9.5,3.8,229.9,,2024
+Dane Olson,dane-olson-1,/cfb/players/dane-olson-1.html,Colorado State,MWC,13,2,3,66.7,19,1,33.3,0,0.0,6.3,13.00,9.5,1.5,229.9,,2024
+Hunter Herring,hunter-herring-1,/cfb/players/hunter-herring-1.html,Louisiana-Monroe,Sun Belt,8,1,2,50.0,19,0,0.0,0,0.0,9.5,9.50,19.0,2.4,129.8,,2024
+Kajiya Hollawayne,kajiya-hollawayne-2,/cfb/players/kajiya-hollawayne-2.html,Temple,American,11,1,1,100.0,19,0,0.0,0,0.0,19.0,19.00,19.0,1.7,259.6,,2024
+Marquis Crosby,marquis-crosby-1,/cfb/players/marquis-crosby-1.html,Louisiana Tech,CUSA,11,1,1,100.0,19,1,100.0,0,0.0,19.0,39.00,19.0,1.7,589.6,,2024
+Nate Bennett,nate-bennett-4,/cfb/players/nate-bennett-4.html,Baylor,Big 12,3,1,2,50.0,19,0,0.0,0,0.0,9.5,9.50,19.0,6.3,129.8,,2024
+Trey Owens,trey-owens-1,/cfb/players/trey-owens-1.html,Texas,SEC,2,2,4,50.0,19,0,0.0,0,0.0,4.8,4.75,9.5,9.5,89.9,,2024
+Jacob Knuth,jacob-knuth-1,/cfb/players/jacob-knuth-1.html,Kansas State,Big 12,2,2,2,100.0,18,0,0.0,0,0.0,9.0,9.00,9.0,9.0,175.6,,2024
+Jaden Smith,jaden-smith-2,/cfb/players/jaden-smith-2.html,Nevada,MWC,13,1,1,100.0,18,0,0.0,0,0.0,18.0,18.00,18.0,1.4,251.2,,2024
+JD Sherrod,jd-sherrod-1,/cfb/players/jd-sherrod-1.html,Kent State,MAC,2,2,7,28.6,18,0,0.0,0,0.0,2.6,2.57,9.0,9.0,50.2,,2024
+Kyle Lowe,kyle-lowe-2,/cfb/players/kyle-lowe-2.html,Georgia State,Sun Belt,5,3,7,42.9,18,1,14.3,0,0.0,2.6,5.43,6.0,3.6,111.6,,2024
+R.J. Harvey,rj-harvey-1,/cfb/players/rj-harvey-1.html,UCF,Big 12,12,1,1,100.0,18,0,0.0,0,0.0,18.0,18.00,18.0,1.5,251.2,,2024
+Ta'Quan Roberson,taquan-roberson-1,/cfb/players/taquan-roberson-1.html,Kansas State,Big 12,6,3,7,42.9,18,0,0.0,0,0.0,2.6,2.57,6.0,3.0,64.5,,2024
+Walker White,walker-white-1,/cfb/players/walker-white-1.html,Auburn,SEC,1,2,5,40.0,18,0,0.0,0,0.0,3.6,3.60,9.0,18.0,70.2,,2024
+Eli Stowers,eli-stowers-1,/cfb/players/eli-stowers-1.html,Vanderbilt,SEC,13,1,2,50.0,17,1,50.0,0,0.0,8.5,18.50,17.0,1.3,286.4,,2024
+Tyler Pastula,tyler-pastula-1,/cfb/players/tyler-pastula-1.html,San Diego State,MWC,12,3,3,100.0,17,0,0.0,0,0.0,5.7,5.67,5.7,1.4,147.6,,2024
+Brennan Presley,brennan-presley-1,/cfb/players/brennan-presley-1.html,Oklahoma State,Big 12,12,1,1,100.0,16,1,100.0,0,0.0,16.0,36.00,16.0,1.3,564.4,,2024
+Taylor Tatum,taylor-tatum-1,/cfb/players/taylor-tatum-1.html,Oklahoma,SEC,11,2,2,100.0,16,1,50.0,0,0.0,8.0,18.00,8.0,1.5,332.2,,2024
+Trent Ward,trent-ward-2,/cfb/players/trent-ward-2.html,San Jose State,MWC,1,1,3,33.3,16,0,0.0,1,33.3,5.3,-9.67,16.0,16.0,11.5,,2024
+Jackson Brousseau,jackson-brousseau-1,/cfb/players/jackson-brousseau-1.html,Colorado State,MWC,1,3,6,50.0,15,0,0.0,1,16.7,2.5,-5.00,5.0,15.0,37.7,,2024
+Davis Sherwood,davis-sherwood-1,/cfb/players/davis-sherwood-1.html,Notre Dame,Ind,15,1,1,100.0,14,0,0.0,0,0.0,14.0,14.00,14.0,0.9,217.6,,2024
+Harris Boyd,harris-boyd-1,/cfb/players/harris-boyd-1.html,Memphis,American,3,1,1,100.0,14,0,0.0,0,0.0,14.0,14.00,14.0,4.7,217.6,,2024
+Tetairoa McMillan,tetairoa-mcmillan-1,/cfb/players/tetairoa-mcmillan-1.html,Arizona,Big 12,12,1,2,50.0,14,0,0.0,0,0.0,7.0,7.00,14.0,1.2,108.8,AA,2024
+Alex Tecza,alex-tecza-1,/cfb/players/alex-tecza-1.html,Navy,American,13,1,1,100.0,13,0,0.0,0,0.0,13.0,13.00,13.0,1.0,209.2,,2024
+Max Cutforth,max-cutforth-1,/cfb/players/max-cutforth-1.html,Boise State,MWC,2,2,2,100.0,13,0,0.0,0,0.0,6.5,6.50,6.5,6.5,154.6,,2024
+Nate Johnson,nate-johnson-3,/cfb/players/nate-johnson-3.html,Vanderbilt,SEC,10,1,3,33.3,12,0,0.0,0,0.0,4.0,4.00,12.0,1.2,66.9,,2024
+OJ Arnold,oj-arnold-1,/cfb/players/oj-arnold-1.html,Georgia Southern,Sun Belt,12,1,1,100.0,12,1,100.0,0,0.0,12.0,32.00,12.0,1.0,530.8,,2024
+Sean Atkins,sean-atkins-1,/cfb/players/sean-atkins-1.html,South Florida,American,13,1,3,33.3,12,1,33.3,0,0.0,4.0,10.67,12.0,0.9,176.9,,2024
+Cameran Brown,cameran-brown-1,/cfb/players/cameran-brown-1.html,Texas Tech,Big 12,8,4,9,44.4,11,0,0.0,1,11.1,1.2,-3.78,2.8,1.4,32.5,,2024
+Jalyn Gramstad,jalyn-gramstad-1,/cfb/players/jalyn-gramstad-1.html,Nebraska,Big Ten,1,1,3,33.3,11,0,0.0,0,0.0,3.7,3.67,11.0,11.0,64.1,,2024
+Nicholas Barr-Mira,nicholas-barr-mira-1,/cfb/players/nicholas-barr-mira-1.html,Mississippi State,SEC,12,1,1,100.0,11,0,0.0,0,0.0,11.0,11.00,11.0,0.9,192.4,,2024
+Pierce Clarkson,pierce-clarkson-1,/cfb/players/pierce-clarkson-1.html,Louisville,ACC,2,3,4,75.0,11,0,0.0,0,0.0,2.8,2.75,3.7,5.5,98.1,,2024
+Reagan Ealy,reagan-ealy-1,/cfb/players/reagan-ealy-1.html,Arkansas State,Sun Belt,13,1,1,100.0,11,0,0.0,0,0.0,11.0,11.00,11.0,0.8,192.4,,2024
+AJ Swann,aj-swann-1,/cfb/players/aj-swann-1.html,LSU,SEC,2,2,4,50.0,10,0,0.0,0,0.0,2.5,2.50,5.0,5.0,71.0,,2024
+Champ Long,champ-long-1,/cfb/players/champ-long-1.html,Maryland,Big Ten,1,1,2,50.0,10,0,0.0,0,0.0,5.0,5.00,10.0,10.0,92.0,,2024
+Cole Welliver,cole-welliver-1,/cfb/players/cole-welliver-1.html,Connecticut,Ind,1,2,4,50.0,10,0,0.0,0,0.0,2.5,2.50,5.0,10.0,71.0,,2024
+Darius Taylor,darius-taylor-1,/cfb/players/darius-taylor-1.html,Minnesota,Big Ten,12,1,1,100.0,10,1,100.0,0,0.0,10.0,30.00,10.0,0.8,514.0,,2024
+Navy Shuler,navy-shuler-1,/cfb/players/navy-shuler-1.html,Tennessee,SEC,2,1,3,33.3,10,0,0.0,0,0.0,3.3,3.33,10.0,5.0,61.3,,2024
+Brayden Roggow,brayden-roggow-1,/cfb/players/brayden-roggow-1.html,Akron,MAC,1,1,2,50.0,9,0,0.0,1,50.0,4.5,-18.00,9.0,9.0,-12.2,,2024
+Carson Cruver,carson-cruver-1,/cfb/players/carson-cruver-1.html,Florida Atlantic,American,1,1,1,100.0,9,0,0.0,0,0.0,9.0,9.00,9.0,9.0,175.6,,2024
+Drew Bobo,drew-bobo-1,/cfb/players/drew-bobo-1.html,Georgia,SEC,14,1,1,100.0,9,0,0.0,0,0.0,9.0,9.00,9.0,0.6,175.6,,2024
+Ethan Grunkemeyer,ethan-grunkemeyer-1,/cfb/players/ethan-grunkemeyer-1.html,Penn State,Big Ten,1,1,2,50.0,9,0,0.0,1,50.0,4.5,-18.00,9.0,9.0,-12.2,,2024
+Harold Fannin Jr.,harold-fannin-jr-1,/cfb/players/harold-fannin-jr-1.html,Bowling Green,MAC,13,1,2,50.0,9,0,0.0,0,0.0,4.5,4.50,9.0,0.7,87.8,AA,2024
+Kai Horton,kai-horton-1,/cfb/players/kai-horton-1.html,Tulane,American,1,1,1,100.0,9,0,0.0,0,0.0,9.0,9.00,9.0,9.0,175.6,,2024
+Kiael Kelly,kiael-kelly-1,/cfb/players/kiael-kelly-1.html,Ball State,MAC,11,2,4,50.0,8,0,0.0,0,0.0,2.0,2.00,4.0,0.7,66.8,,2024
+Shamar Rigby,shamar-rigby-1,/cfb/players/shamar-rigby-1.html,Purdue,Big Ten,12,1,1,100.0,8,0,0.0,0,0.0,8.0,8.00,8.0,0.7,167.2,,2024
+Trent Pearman,trent-pearman-1,/cfb/players/trent-pearman-1.html,Clemson,ACC,3,2,5,40.0,8,0,0.0,1,20.0,1.6,-7.40,4.0,2.7,13.4,,2024
+Austin Novosad,austin-novosad-1,/cfb/players/austin-novosad-1.html,Oregon,Big Ten,3,2,2,100.0,7,0,0.0,0,0.0,3.5,3.50,3.5,2.3,129.4,,2024
+Elijah Arroyo,elijah-arroyo-1,/cfb/players/elijah-arroyo-1.html,Miami (FL),ACC,13,1,1,100.0,7,1,100.0,0,0.0,7.0,27.00,7.0,0.5,488.8,,2024
+Aiden Leffler,aiden-leffler-1,/cfb/players/aiden-leffler-1.html,Ball State,MAC,2,2,6,33.3,6,0,0.0,0,0.0,1.0,1.00,3.0,3.0,41.7,,2024
+Alberto Mendoza,alberto-mendoza-1,/cfb/players/alberto-mendoza-1.html,Indiana,Big Ten,1,1,1,100.0,6,0,0.0,0,0.0,6.0,6.00,6.0,6.0,150.4,,2024
+D'Wanyé Winfield,dwanye-winfield-1,/cfb/players/dwanye-winfield-1.html,Louisiana,Sun Belt,1,1,2,50.0,6,0,0.0,0,0.0,3.0,3.00,6.0,6.0,75.2,,2024
+Dylan Morris,dylan-morris-1,/cfb/players/dylan-morris-1.html,James Madison,Sun Belt,4,1,1,100.0,6,0,0.0,0,0.0,6.0,6.00,6.0,1.5,150.4,,2024
+Jaylin Lane,jaylin-lane-1,/cfb/players/jaylin-lane-1.html,Virginia Tech,ACC,12,1,1,100.0,6,1,100.0,0,0.0,6.0,26.00,6.0,0.5,480.4,,2024
+Jaden Smith,jaden-smith-4,/cfb/players/jaden-smith-4.html,UTEP,CUSA,4,1,1,100.0,4,1,100.0,0,0.0,4.0,24.00,4.0,1.0,463.6,,2024
+Kenny Minchey,kenny-minchey-1,/cfb/players/kenny-minchey-1.html,Notre Dame,Ind,1,1,1,100.0,4,0,0.0,0,0.0,4.0,4.00,4.0,4.0,133.6,,2024
+Caleb Junko,caleb-junko-1,/cfb/players/caleb-junko-1.html,Pitt,ACC,13,1,1,100.0,3,0,0.0,0,0.0,3.0,3.00,3.0,0.2,125.2,,2024
+Cole Tannenbaum,cole-tannenbaum-1,/cfb/players/cole-tannenbaum-1.html,Arizona,Big 12,4,1,5,20.0,3,0,0.0,1,20.0,0.6,-8.40,3.0,0.8,-15.0,,2024
+Mabrey Mettauer,mabrey-mettauer-1,/cfb/players/mabrey-mettauer-1.html,Wisconsin,Big Ten,3,1,1,100.0,2,0,0.0,0,0.0,2.0,2.00,2.0,0.7,116.8,,2024
+JC Evans,jc-evans-1,/cfb/players/jc-evans-1.html,James Madison,Sun Belt,3,1,1,100.0,1,1,100.0,0,0.0,1.0,21.00,1.0,0.3,438.4,,2024
+Lucas Scheerhorn,lucas-scheerhorn-1,/cfb/players/lucas-scheerhorn-1.html,Kennesaw State,CUSA,3,1,3,33.3,1,0,0.0,1,33.3,0.3,-14.67,1.0,0.3,-30.5,,2024
+Simeon Evans,simeon-evans-1,/cfb/players/simeon-evans-1.html,Sam Houston,CUSA,13,1,1,100.0,1,0,0.0,0,0.0,1.0,1.00,1.0,0.1,108.4,,2024
+Adam Jacklin,adam-jacklin-1,/cfb/players/adam-jacklin-1.html,UTEP,CUSA,12,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2024
+Alec Bevelhimer,alec-bevelhimer-1,/cfb/players/alec-bevelhimer-1.html,Miami (OH),MAC,14,0,1,0.0,0,0,0.0,1,100.0,0.0,-45.00,,0.0,-200.0,,2024
+Alessio Milivojevic,alessio-milivojevic-1,/cfb/players/alessio-milivojevic-1.html,Michigan State,Big Ten,1,0,1,0.0,0,0,0.0,1,100.0,0.0,-45.00,,0.0,-200.0,,2024
+Anthony Sambucci,anthony-sambucci-1,/cfb/players/anthony-sambucci-1.html,Western Michigan,MAC,11,0,2,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2024
+Anthony Smith,anthony-smith-14,/cfb/players/anthony-smith-14.html,East Carolina,American,13,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2024
+Bauer Sharp,bauer-sharp-1,/cfb/players/bauer-sharp-1.html,Oklahoma,SEC,12,0,1,0.0,0,0,0.0,1,100.0,0.0,-45.00,,0.0,-200.0,,2024
+Billy Wiles,billy-wiles-1,/cfb/players/billy-wiles-1.html,Appalachian State,Sun Belt,2,0,1,0.0,0,0,0.0,1,100.0,0.0,-45.00,,0.0,-200.0,,2024
+Brenen Thompson,brenen-thompson-1,/cfb/players/brenen-thompson-1.html,Oklahoma,SEC,11,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2024
+Caden Davis,caden-davis-1,/cfb/players/caden-davis-1.html,Ole Miss,SEC,13,0,1,0.0,0,0,0.0,1,100.0,0.0,-45.00,,0.0,-200.0,,2024
+Cam Pickett,cam-pickett-1,/cfb/players/cam-pickett-1.html,Ball State,MAC,12,0,1,0.0,0,0,0.0,1,100.0,0.0,-45.00,,0.0,-200.0,,2024
+Chris Parson,chris-parson-1,/cfb/players/chris-parson-1.html,Mississippi State,SEC,4,0,2,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2024
+Chrishon McCray,chrishon-mccray-1,/cfb/players/chrishon-mccray-1.html,Kent State,MAC,11,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2024
+CJ Johnson II,cj-johnson-ii-1,/cfb/players/cj-johnson-ii-1.html,Northwestern,Big Ten,12,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2024
+Connor Stutz,connor-stutz-1,/cfb/players/connor-stutz-1.html,Connecticut,Ind,13,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2024
+Connor Weselman,connor-weselman-1,/cfb/players/connor-weselman-1.html,Stanford,ACC,12,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2024
+Dalen Cobb,dalen-cobb-1,/cfb/players/dalen-cobb-1.html,Georgia Southern,Sun Belt,13,0,3,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2024
+Damien Alford,damien-alford-1,/cfb/players/damien-alford-1.html,Utah,Big 12,4,0,1,0.0,0,0,0.0,1,100.0,0.0,-45.00,,0.0,-200.0,,2024
+Eli Heidenreich,eli-heidenreich-1,/cfb/players/eli-heidenreich-1.html,Navy,American,13,0,2,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2024
+Elijah Young,elijah-young-1,/cfb/players/elijah-young-1.html,Western Kentucky,CUSA,14,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2024
+Emile Sebafundi,emile-sebafundi-1,/cfb/players/emile-sebafundi-1.html,Coastal Carolina,Sun Belt,13,0,1,0.0,0,0,0.0,1,100.0,0.0,-45.00,,0.0,-200.0,,2024
+Evan Prater,evan-prater-1,/cfb/players/evan-prater-1.html,Cincinnati,Big 12,11,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2024
+Gavin Bartholomew,gavin-bartholomew-1,/cfb/players/gavin-bartholomew-1.html,Pitt,ACC,13,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2024
+Hinckley Ropati,hinckley-ropati-1,/cfb/players/hinckley-ropati-1.html,BYU,Big 12,8,0,1,0.0,0,0,0.0,1,100.0,0.0,-45.00,,0.0,-200.0,,2024
+Holman Edwards,holman-edwards-1,/cfb/players/holman-edwards-1.html,Houston,Big 12,1,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2024
+Ja'koby Banks,jakoby-banks-1,/cfb/players/jakoby-banks-1.html,Memphis,American,9,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2024
+James Tucker,james-tucker-4,/cfb/players/james-tucker-4.html,Coastal Carolina,Sun Belt,13,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2024
+James Wagenseller,james-wagenseller-1,/cfb/players/james-wagenseller-1.html,Army,American,12,1,1,100.0,0,0,0.0,0,0.0,0.0,0.00,0.0,0.0,100.0,,2024
+Jaquez Moore,jaquez-moore-1,/cfb/players/jaquez-moore-1.html,Duke,ACC,5,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2024
+Jarquez Hunter,jarquez-hunter-1,/cfb/players/jarquez-hunter-1.html,Auburn,SEC,12,0,1,0.0,0,0,0.0,1,100.0,0.0,-45.00,,0.0,-200.0,,2024
+Jason Llewellyn,jason-llewellyn-1,/cfb/players/jason-llewellyn-1.html,Texas Tech,Big 12,12,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2024
+Jaylin Noel,jaylin-noel-1,/cfb/players/jaylin-noel-1.html,Iowa State,Big 12,14,0,2,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2024
+Jimmy Holiday,jimmy-holiday-1,/cfb/players/jimmy-holiday-1.html,Louisiana Tech,CUSA,13,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2024
+Justice Ellison,justice-ellison-1,/cfb/players/justice-ellison-1.html,Indiana,Big Ten,13,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2024
+Justin Pegues,justin-pegues-1,/cfb/players/justin-pegues-1.html,Bowling Green,MAC,13,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2024
+Kaedin Robinson,kaedin-robinson-1,/cfb/players/kaedin-robinson-1.html,Appalachian State,Sun Belt,9,0,1,0.0,0,0,0.0,1,100.0,0.0,-45.00,,0.0,-200.0,,2024
+Kai Kroeger,kai-kroeger-1,/cfb/players/kai-kroeger-1.html,South Carolina,SEC,13,0,2,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2024
+Keldric Luster,keldric-luster-1,/cfb/players/keldric-luster-1.html,SMU,ACC,5,1,3,33.3,0,0,0.0,0,0.0,0.0,0.00,0.0,0.0,33.3,,2024
+Kenyon Clay,kenyon-clay-1,/cfb/players/kenyon-clay-1.html,Southern Mississippi,Sun Belt,12,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2024
+Kyre Duplessis,kyre-duplessis-1,/cfb/players/kyre-duplessis-1.html,Coastal Carolina,Sun Belt,12,0,3,0.0,0,0,0.0,1,33.3,0.0,-15.00,,0.0,-66.7,,2024
+Kyron Ware-Hudson,kyron-ware-hudson-1,/cfb/players/kyron-ware-hudson-1.html,USC,Big Ten,12,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2024
+Landry Lyddy,landry-lyddy-1,/cfb/players/landry-lyddy-1.html,UAB,American,2,1,5,20.0,0,0,0.0,0,0.0,0.0,0.00,0.0,0.0,20.0,,2024
+Luke Floriea,luke-floriea-1,/cfb/players/luke-floriea-1.html,Kent State,MAC,12,0,1,0.0,0,0,0.0,1,100.0,0.0,-45.00,,0.0,-200.0,,2024
+Luke Hutchison,luke-hutchison-2,/cfb/players/luke-hutchison-2.html,Navy,American,13,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2024
+Mario Williams,mario-williams-2,/cfb/players/mario-williams-2.html,Tulane,American,14,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2024
+Marquis Johnson,marquis-johnson-3,/cfb/players/marquis-johnson-3.html,Missouri,SEC,12,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2024
+Matthew Rhodes,matthew-rhodes-2,/cfb/players/matthew-rhodes-2.html,Army,American,14,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2024
+Mikey Matthews,mikey-matthews-1,/cfb/players/mikey-matthews-1.html,California,ACC,13,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2024
+Mitchell Tomasek,mitchell-tomasek-1,/cfb/players/mitchell-tomasek-1.html,Eastern Michigan,MAC,12,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2024
+Richie Hoskins,richie-hoskins-1,/cfb/players/richie-hoskins-1.html,Vanderbilt,SEC,13,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2024
+Roderick Daniels Jr.,roderick-daniels-jr-1,/cfb/players/roderick-daniels-jr-1.html,SMU,ACC,14,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2024
+Ryan Millmore,ryan-millmore-1,/cfb/players/ryan-millmore-1.html,Western Michigan,MAC,13,0,1,0.0,0,0,0.0,1,100.0,0.0,-45.00,,0.0,-200.0,,2024
+Ryan Staub,ryan-staub-1,/cfb/players/ryan-staub-1.html,Colorado,Big 12,4,0,4,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2024
+Semaj Morgan,semaj-morgan-1,/cfb/players/semaj-morgan-1.html,Michigan,Big Ten,11,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2024
+Taylor Morin,taylor-morin-1,/cfb/players/taylor-morin-1.html,Wake Forest,ACC,12,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2024
+Tez Johnson,tez-johnson-1,/cfb/players/tez-johnson-1.html,Oregon,Big Ten,12,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2024
+Trace Campbell,trace-campbell-2,/cfb/players/trace-campbell-2.html,UAB,American,6,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2024
+Trebor Pena,trebor-pena-1,/cfb/players/trebor-pena-1.html,Syracuse,ACC,13,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2024
+Trent Walker,trent-walker-1,/cfb/players/trent-walker-1.html,Oregon State,Ind,12,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2024
+Trent Whittemore,trent-whittemore-1,/cfb/players/trent-whittemore-1.html,UCF,Big 12,11,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2024
+Ty Son Lawton,ty-son-lawton-2,/cfb/players/ty-son-lawton-2.html,Indiana,Big Ten,13,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2024
+Tyrell Robinson,tyrell-robinson-2,/cfb/players/tyrell-robinson-2.html,Army,American,8,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2024
+Walker Howard,walker-howard-1,/cfb/players/walker-howard-1.html,Ole Miss,SEC,2,0,2,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2024
+Wilson Berry,wilson-berry-1,/cfb/players/wilson-berry-1.html,Kentucky,SEC,12,0,1,0.0,0,0,0.0,1,100.0,0.0,-45.00,,0.0,-200.0,,2024
+Xavier Restrepo,xavier-restrepo-1,/cfb/players/xavier-restrepo-1.html,Miami (FL),ACC,12,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,AA,2024
+Zion Turner,zion-turner-1,/cfb/players/zion-turner-1.html,Jacksonville State,CUSA,1,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2024
+Peter Moore,peter-moore-1,/cfb/players/peter-moore-1.html,Virginia Tech,ACC,13,1,1,100.0,-1,0,0.0,0,0.0,-1.0,-1.00,-1.0,-0.1,91.6,,2024
+Nate Rogers,nate-rogers-1,/cfb/players/nate-rogers-1.html,UAB,American,1,1,1,100.0,-9,0,0.0,0,0.0,-9.0,-9.00,-9.0,-9.0,24.4,,2024
+League Average,,,,,,,,61.5,,,5.3,,2.7,7.4,7.26,12.0,91.5,135.8,,2024

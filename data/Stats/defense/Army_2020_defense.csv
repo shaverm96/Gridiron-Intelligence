@@ -1,0 +1,56 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Jon Rhattigan,jon-rhattigan-1,/cfb/players/jon-rhattigan-1.html,LB,11,33,45,78,9.0,1.5,2,93,46.5,1,2,2,0,0,0,,Army,2020
+Arik Smith,arik-smith-1,/cfb/players/arik-smith-1.html,LB,12,33,45,78,9.0,3.5,1,2,2.0,0,0,0,0,0,0,,Army,2020
+Cedrick Cunningham Jr.,cedrick-cunningham-jr-1,/cfb/players/cedrick-cunningham-jr-1.html,DB,11,37,33,70,8.0,2.0,1,26,26.0,0,3,0,0,0,1,,Army,2020
+Marquel Broughton,marquel-broughton-1,/cfb/players/marquel-broughton-1.html,DB,12,40,27,67,2.5,0.0,2,0,0.0,0,3,1,3,0,1,,Army,2020
+Jabari Moore,jabari-moore-2,/cfb/players/jabari-moore-2.html,DB,10,27,9,36,3.0,0.0,3,29,9.7,1,1,1,41,1,1,,Army,2020
+Malkelm Morrison,malkelm-morrison-1,/cfb/players/malkelm-morrison-1.html,DB,12,15,18,33,7.0,1.5,1,0,0.0,0,1,0,0,0,2,,Army,2020
+Amadeo West,amadeo-west-1,/cfb/players/amadeo-west-1.html,LB,12,11,17,28,6.0,2.0,0,0,,0,2,0,0,0,0,,Army,2020
+Nolan Cockrill,nolan-cockrill-1,/cfb/players/nolan-cockrill-1.html,DL,12,14,14,28,7.0,1.5,0,0,,0,2,0,0,0,1,,Army,2020
+Julian McDuffie,julian-mcduffle-1,/cfb/players/julian-mcduffle-1.html,DB,10,15,11,26,0.0,0.0,0,0,,0,7,0,0,0,0,,Army,2020
+Cameron Jones,cameron-jones-6,/cfb/players/cameron-jones-6.html,DB,9,16,4,20,2.0,0.0,2,0,0.0,0,3,0,0,0,1,,Army,2020
+Spencer Jones,spencer-jones-2,/cfb/players/spencer-jones-2.html,LB,8,8,10,18,3.0,0.0,0,0,,0,0,0,0,0,0,,Army,2020
+Javhari Bourdeau,javhari-bourdeau-1,/cfb/players/javhari-bourdeau-1.html,DB,7,14,4,18,1.0,0.0,1,21,21.0,0,3,0,0,0,0,,Army,2020
+Ryan Duran III,ryan-duran-iii-1,/cfb/players/ryan-duran-iii-1.html,DL,12,7,9,16,2.5,2.5,0,0,,0,0,1,0,0,0,,Army,2020
+Kwabena Bonsu,kwabena-bonsu-1,/cfb/players/kwabena-bonsu-1.html,DL,10,5,10,15,2.0,1.5,0,0,,0,1,0,0,0,0,,Army,2020
+Jeremiah Lowery,jeremiah-lowery-1,/cfb/players/jeremiah-lowery-1.html,LB,7,6,9,15,0.5,0.0,0,0,,0,0,0,0,0,0,,Army,2020
+Andre Carter II,andre-carter-ii-1,/cfb/players/andre-carter-ii-1.html,LB,10,9,5,14,0.0,1.0,1,3,3.0,0,1,0,0,0,1,,Army,2020
+Daryan McDonald,daryan-mcdonald-1,/cfb/players/daryan-mcdonald-1.html,DB,7,6,7,13,2.5,0.0,0,0,,0,0,0,0,0,0,,Army,2020
+Chris Skyers,chris-skyers-1,/cfb/players/chris-skyers-1.html,DB,6,7,4,11,0.0,0.0,0,0,,0,1,0,0,0,0,,Army,2020
+Nathaniel Smith,nathaniel-smith-1,/cfb/players/nathaniel-smith-1.html,LB,8,5,5,10,0.0,0.0,0,0,,0,1,0,0,0,0,,Army,2020
+Fabrice Voyne,fabrice-voyne-1,/cfb/players/fabrice-voyne-1.html,LB,11,4,6,10,1.0,0.0,0,0,,0,0,0,0,0,0,,Army,2020
+Wilson Catoe,wilson-catoe-1,/cfb/players/wilson-catoe-1.html,LB,12,2,6,8,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2020
+Nick Stokes,nick-stokes-1,/cfb/players/nick-stokes-1.html,DL,10,3,4,7,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2020
+Cole Mabry,cole-mabry-2,/cfb/players/cole-mabry-2.html,DB,7,3,4,7,0.5,0.0,0,0,,0,0,0,0,0,0,,Army,2020
+Caleb John,caleb-john-2,/cfb/players/caleb-john-2.html,DB,8,5,2,7,0.0,0.0,0,0,,0,1,0,0,0,0,,Army,2020
+Isaiah Morris,isaiah-morris-1,/cfb/players/isaiah-morris-1.html,DB,11,3,3,6,0.0,0.0,0,0,,0,0,1,0,0,0,,Army,2020
+Leo Lowin,leo-lowin-1,/cfb/players/leo-lowin-1.html,S,10,2,4,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2020
+Quindrelin Hammonds,quindrelin-hammonds-1,/cfb/players/quindrelin-hammonds-1.html,DB,8,0,5,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2020
+Jordan Funk,jordan-funk-1,/cfb/players/jordan-funk-1.html,DL,9,2,3,5,1.0,0.0,0,0,,0,0,0,0,0,0,,Army,2020
+Kemonte Yow,kemonte-yow-1,/cfb/players/kemonte-yow-1.html,LB,11,2,2,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2020
+Brandon Walters,brandon-walters-1,/cfb/players/brandon-walters-1.html,RB,12,2,2,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2020
+Michael Roberts,michael-roberts-5,/cfb/players/michael-roberts-5.html,WR,10,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2020
+Peyton Hampton,peyton-hampton-1,/cfb/players/peyton-hampton-1.html,LB,9,2,2,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2020
+Tyler Komorowski,tyler-komorowski-1,/cfb/players/tyler-komorowski-1.html,DL,4,3,1,4,1.5,0.0,0,0,,0,0,0,0,0,0,,Army,2020
+Chris Frey,chris-frey-2,/cfb/players/chris-frey-2.html,DL,8,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2020
+JT Penick,jt-penick-1,/cfb/players/jt-penick-1.html,LB,6,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2020
+Jimmy Ciarlo,jimmy-ciarlo-1,/cfb/players/jimmy-ciarlo-1.html,S,4,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2020
+AJ Howard Jr.,aj-howard-jr-1,/cfb/players/aj-howard-jr-1.html,RB,12,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2020
+Keeron Henderson,keeron-henderson-1,/cfb/players/keeron-henderson-1.html,LB,6,1,1,2,1.0,1.0,0,0,,0,0,0,0,0,0,,Army,2020
+Joe Stephenson,joe-stephenson-1,/cfb/players/joe-stephenson-1.html,LB,4,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2020
+Markens Pierre,markens-pierre-1,/cfb/players/markens-pierre-1.html,RB,4,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2020
+Braheam Murphy,braheam-murphy-1,/cfb/players/braheam-murphy-1.html,RB,10,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2020
+Sandon McCoy,sandon-mccoy-1,/cfb/players/sandon-mccoy-1.html,RB,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2020
+Ay'Juan Marshall,ayjuan-marshall-1,/cfb/players/ayjuan-marshall-1.html,DB,9,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2020
+Paul Lawless,paul-lawless-1,/cfb/players/paul-lawless-1.html,LS,5,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2020
+Tyson Riley,tyson-riley-1,/cfb/players/tyson-riley-1.html,RB,7,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2020
+Brooks Hosea,brooks-hosea-1,/cfb/players/brooks-hosea-1.html,P,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2020
+Michael Johnson,michael-johnson-17,/cfb/players/michael-johnson-17.html,OL,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2020
+Maurice Bellan,maurice-bellan-1,/cfb/players/maurice-bellan-1.html,QB,7,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2020
+Cade Barnard,cade-barnard-1,/cfb/players/cade-barnard-1.html,RB,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2020
+Kyle O'Connor,kyle-oconnor-2,/cfb/players/kyle-oconnor-2.html,LS,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2020
+Christian Anderson,christian-anderson-2,/cfb/players/christian-anderson-2.html,QB,7,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2020
+D'andre Tobias,dandre-tobias-1,/cfb/players/dandre-tobias-1.html,DB,6,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2020
+Darius Richardson,darius-richardson-1,/cfb/players/darius-richardson-1.html,DL,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2020
+Jack Hough,jack-hough-1,/cfb/players/jack-hough-1.html,DL,3,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2020
+Isaiah Alston,isaiah-alston-1,/cfb/players/isaiah-alston-1.html,WR,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2020

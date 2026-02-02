@@ -1,0 +1,42 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Raishein Thomas,raishein-thomas-1,/cfb/players/raishein-thomas-1.html,DE,13,35,39,74,7.5,2.0,0,0,,0,1,0,0,0,0,,Northern Illinois,2023
+Jaden Dolphin,jaden-dolphin-1,/cfb/players/jaden-dolphin-1.html,S,13,41,20,61,1.0,0.0,0,0,,0,3,0,0,0,0,,Northern Illinois,2023
+Tyler Jackson,tyler-jackson-3,/cfb/players/tyler-jackson-3.html,LB,13,28,28,56,2.0,0.0,0,0,,0,0,0,0,0,0,,Northern Illinois,2023
+DaRon Gilbert,daron-gilbert-1,/cfb/players/daron-gilbert-1.html,LB,13,26,25,51,2.5,0.5,0,0,,0,1,0,0,0,0,,Northern Illinois,2023
+James Ester,james-ester-1,/cfb/players/james-ester-1.html,DL,13,23,26,49,6.5,4.0,0,0,,0,2,1,0,0,0,,Northern Illinois,2023
+Nate Valcarcel,nate-valcarcel-1,/cfb/players/nate-valcarcel-1.html,DB,13,16,30,46,1.5,0.5,3,38,12.7,0,1,1,50,1,0,,Northern Illinois,2023
+Jordan Hansen,jordan-hansen-1,/cfb/players/jordan-hansen-1.html,S,13,29,14,43,3.0,1.0,0,0,,0,1,0,0,0,0,,Northern Illinois,2023
+Devin Lafayette,devin-lafayette-1,/cfb/players/devin-lafayette-1.html,DB,11,22,17,39,1.5,0.5,0,0,,0,0,0,0,0,2,,Northern Illinois,2023
+Devonte O'Malley,devonte-omalley-1,/cfb/players/devonte-omalley-1.html,DL,13,15,20,35,4.5,3.0,1,2,2.0,0,0,0,0,0,0,,Northern Illinois,2023
+Jashon Prophete,jashon-prophete-1,/cfb/players/jashon-prophete-1.html,CB,13,21,12,33,1.0,0.0,0,0,,0,8,0,0,0,1,,Northern Illinois,2023
+Jacob Finley,jacob-finley-1,/cfb/players/jacob-finley-1.html,CB,13,24,9,33,1.0,0.0,0,0,,0,3,1,0,1,1,,Northern Illinois,2023
+Javaughn Byrd,javaughn-byrd-1,/cfb/players/javaughn-byrd-1.html,CB,13,23,9,32,2.0,0.0,3,0,0.0,0,5,0,0,0,1,,Northern Illinois,2023
+George Gumbs,george-gumbs-1,/cfb/players/george-gumbs-1.html,DE,12,15,17,32,6.5,3.5,0,0,,0,0,0,0,0,2,,Northern Illinois,2023
+Muhammad Jammeh,muhammad-jammeh-1,/cfb/players/muhammad-jammeh-1.html,S,12,15,10,25,1.0,1.0,1,17,17.0,0,0,0,0,0,0,,Northern Illinois,2023
+Skyler Gill-Howard,skyler-gill-howard-1,/cfb/players/skyler-gill-howard-1.html,DT,13,15,9,24,4.0,1.0,0,0,,0,1,1,0,0,0,,Northern Illinois,2023
+Roy Williams,roy-williams-9,/cfb/players/roy-williams-9.html,DE,13,14,10,24,5.5,3.5,0,0,,0,1,0,0,0,0,,Northern Illinois,2023
+Demond Taylor,demond-taylor-1,/cfb/players/demond-taylor-1.html,DL,12,12,12,24,3.0,0.0,0,0,,0,0,0,0,0,0,,Northern Illinois,2023
+Cyrus McGarrell,cyrus-mcgarrell-1,/cfb/players/cyrus-mcgarrell-1.html,CB,13,14,6,20,1.0,0.0,2,35,17.5,0,0,1,0,0,0,,Northern Illinois,2023
+Amariyun Knighten,amariyun-knighten-1,/cfb/players/amariyun-knighten-1.html,CB,13,11,6,17,0.0,0.0,0,0,,0,2,0,0,0,0,,Northern Illinois,2023
+Cade Haberman,cade-haberman-1,/cfb/players/cade-haberman-1.html,DT,13,3,8,11,0.5,0.0,0,0,,0,0,0,0,0,0,,Northern Illinois,2023
+Trey Porter,trey-porter-1,/cfb/players/trey-porter-1.html,S,13,7,3,10,0.0,0.0,0,0,,0,0,0,0,0,0,,Northern Illinois,2023
+Cam'Ron Dabney,camron-dabney-1,/cfb/players/camron-dabney-1.html,CB,13,10,0,10,0.0,0.0,0,0,,0,1,0,0,0,0,,Northern Illinois,2023
+CJ Brown,cj-brown-2,/cfb/players/cj-brown-2.html,DB,3,6,4,10,0.0,0.0,0,0,,0,0,0,0,0,0,,Northern Illinois,2023
+Quinton Urwiler,quinton-urwiler-1,/cfb/players/quinton-urwiler-1.html,LB,5,4,3,7,0.0,0.0,0,0,,0,0,0,0,0,0,,Northern Illinois,2023
+Ty Myles,ty-myles-1,/cfb/players/ty-myles-1.html,CB,13,7,0,7,0.0,0.0,0,0,,0,1,0,0,0,0,,Northern Illinois,2023
+Joey Rattin,joey-rattin-1,/cfb/players/joey-rattin-1.html,LB,13,3,3,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Northern Illinois,2023
+Neveah Sanders,neveah-sanders-1,/cfb/players/neveah-sanders-1.html,DE,13,6,0,6,3.0,2.0,0,0,,0,1,0,0,0,2,,Northern Illinois,2023
+Gabriel Amegatcher,gabriel-amegatcher-1,/cfb/players/gabriel-amegatcher-1.html,CB,13,3,2,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Northern Illinois,2023
+Jallonie Williams,jallonie-williams-1,/cfb/players/jallonie-williams-1.html,DT,5,1,3,4,0.5,0.5,0,0,,0,0,0,0,0,0,,Northern Illinois,2023
+Cameron Crowell,cameron-crowell-1,/cfb/players/cameron-crowell-1.html,DE,6,1,3,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Northern Illinois,2023
+Pierce Oppong,pierce-oppong-1,/cfb/players/pierce-oppong-1.html,DL,1,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Northern Illinois,2023
+Jacob Waskow,jacob-waskow-1,/cfb/players/jacob-waskow-1.html,DL,13,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Northern Illinois,2023
+Jordan Monroe,jordan-monroe-1,/cfb/players/jordan-monroe-1.html,LB,8,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Northern Illinois,2023
+Chris Carter,chris-carter-9,/cfb/players/chris-carter-9.html,TE,13,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Northern Illinois,2023
+Jake Gassaway,jake-gassaway-1,/cfb/players/jake-gassaway-1.html,LB,9,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Northern Illinois,2023
+Rashon Myles Jr.,rashon-myles-jr-1,/cfb/players/rashon-myles-jr-1.html,LB,7,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Northern Illinois,2023
+Kacper Rutkiewicz,kacper-rutkiewicz-1,/cfb/players/kacper-rutkiewicz-1.html,WR,6,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Northern Illinois,2023
+Phillip Baynes Jr.,phillip-baynes-jr-1,/cfb/players/phillip-baynes-jr-1.html,LB,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Northern Illinois,2023
+Grayson Barnes,grayson-barnes-1,/cfb/players/grayson-barnes-1.html,WR,13,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Northern Illinois,2023
+Trey Urwiler,trey-urwiler-1,/cfb/players/trey-urwiler-1.html,WR,8,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Northern Illinois,2023
+Billy Dozier,billy-dozier-1,/cfb/players/billy-dozier-1.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Northern Illinois,2023

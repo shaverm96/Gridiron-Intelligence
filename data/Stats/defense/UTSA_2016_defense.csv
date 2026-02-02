@@ -1,0 +1,49 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Josiah Tauaefa,josiah-tauaefa-1,/cfb/players/josiah-tauaefa-1.html,DE,13,50,65,115,9.0,6.0,1,14,14.0,0,1,0,0,0,0,,UTSA,2016
+La'Kel Bass,lakel-bass-1,/cfb/players/lakel-bass-1.html,LB,13,33,54,87,11.0,5.0,0,0,,0,1,2,0,0,1,,UTSA,2016
+Michael Egwuagu,michael-egwuagu-1,/cfb/players/michael-egwuagu-1.html,S,13,42,40,82,7.5,0.5,1,0,0.0,0,7,1,59,1,1,,UTSA,2016
+Nate Gaines,nate-gaines-1,/cfb/players/nate-gaines-1.html,S,13,48,33,81,3.5,0.0,1,0,0.0,0,7,0,0,0,2,,UTSA,2016
+Marcus Davenport,marcus-davenport-1,/cfb/players/marcus-davenport-1.html,DE,13,31,37,68,10.0,6.5,0,0,,0,1,1,4,0,1,,UTSA,2016
+Jordan Moore,jordan-moore-1,/cfb/players/jordan-moore-1.html,S,13,27,22,49,0.5,0.0,1,-2,-2.0,0,3,0,0,0,1,,UTSA,2016
+Ben Kane,ben-kane-1,/cfb/players/ben-kane-1.html,DE,13,13,33,46,2.5,2.0,0,0,,0,1,0,0,0,0,,UTSA,2016
+Ronnie Feist,ronnie-feist-1,/cfb/players/ronnie-feist-1.html,LB,12,19,16,35,2.0,1.0,0,0,,0,0,0,0,0,0,,UTSA,2016
+King Newton,king-newton-1,/cfb/players/king-newton-1.html,DE,12,9,22,31,2.5,1.0,0,0,,0,0,0,0,0,2,,UTSA,2016
+C.J. Levine,cj-levine-1,/cfb/players/cj-levine-1.html,S,13,14,17,31,0.5,0.0,0,0,,0,2,0,0,0,0,,UTSA,2016
+Marcos Curry,marcos-curry-1,/cfb/players/marcos-curry-1.html,LB,13,13,17,30,2.0,0.0,0,0,,0,0,0,0,0,1,,UTSA,2016
+Devron Davis,devron-davis-1,/cfb/players/devron-davis-1.html,CB,13,18,8,26,2.0,0.0,1,0,0.0,0,5,0,0,0,0,,UTSA,2016
+Teddrick McGhee,teddrick-mcghee-1,/cfb/players/teddrick-mcghee-1.html,CB,13,10,15,25,0.0,0.0,1,0,0.0,0,4,0,0,0,0,,UTSA,2016
+Kevin Strong Jr.,kevin-strong-1,/cfb/players/kevin-strong-1.html,DE,12,12,12,24,6.5,1.0,0,0,,0,0,1,0,0,2,,UTSA,2016
+Austin Jupe,austin-jupe-1,/cfb/players/austin-jupe-1.html,S,12,13,9,22,0.0,0.0,0,0,,0,5,0,0,0,0,,UTSA,2016
+Jonathan Tuiolosega,jonathan-tuiolosega-1,/cfb/players/jonathan-tuiolosega-1.html,DE,13,3,18,21,2.5,0.0,0,0,,0,1,1,0,0,0,,UTSA,2016
+Baylen Baker,baylen-baker-1,/cfb/players/baylen-baker-1.html,DT,13,7,12,19,3.5,1.0,0,0,,0,1,0,0,0,0,,UTSA,2016
+N'Keal Bailey,nkeal-bailey-1,/cfb/players/nkeal-bailey-1.html,CB,13,15,4,19,1.0,0.0,0,0,,0,3,0,0,0,0,,UTSA,2016
+Romario Napoles,romario-napoles-1,/cfb/players/romario-napoles-1.html,DE,13,7,10,17,1.5,0.0,0,0,,0,1,0,0,0,0,,UTSA,2016
+Eric Banks,eric-banks-1,/cfb/players/eric-banks-1.html,DE,13,9,3,12,3.5,2.0,0,0,,0,0,0,0,0,1,,UTSA,2016
+Chase Dahlquist,chase-dahlquist-1,/cfb/players/chase-dahlquist-1.html,S,10,3,8,11,1.0,0.0,1,12,12.0,0,0,0,0,0,0,,UTSA,2016
+Andrew Martel,andrew-martel-1,/cfb/players/andrew-martel-1.html,S,13,5,5,10,0.0,0.0,0,0,,0,0,2,0,0,0,,UTSA,2016
+Carl Austin III,carl-austin-iii-1,/cfb/players/carl-austin-iii-1.html,S,13,7,3,10,1.5,0.0,0,0,,0,1,0,0,0,0,,UTSA,2016
+JaColbie Butler,jacolbie-butler-1,/cfb/players/jacolbie-butler-1.html,CB,11,5,2,7,0.0,0.0,0,0,,0,0,1,0,0,0,,UTSA,2016
+Darryl Godfrey,darryl-godfrey-1,/cfb/players/darryl-godfrey-1.html,S,13,4,3,7,1.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2016
+Vontrell King-Williams,vontrell-king-williams-1,/cfb/players/vontrell-king-williams-1.html,DT,13,2,5,7,0.0,0.0,0,0,,0,1,0,0,0,0,,UTSA,2016
+Solomon Wise,solomon-wise-1,/cfb/players/solomon-wise-1.html,DE,11,4,1,5,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2016
+Anthony Hickey,anthony-hickey-1,/cfb/players/anthony-hickey-1.html,LB,11,2,3,5,1.0,1.0,0,0,,0,1,0,0,0,0,,UTSA,2016
+Jarrod McLin,jarrod-mclin-1,/cfb/players/jarrod-mclin-1.html,DE,3,1,3,4,0.0,0.0,0,0,,0,1,0,0,0,0,,UTSA,2016
+Jarrod Carter-McLin,jarrod-carter-mclin-1,/cfb/players/jarrod-carter-mclin-1.html,,12,1,3,4,0.0,0.0,0,0,,0,1,0,0,0,0,,UTSA,2016
+Matt Bayliss,matt-bayliss-1,/cfb/players/matt-bayliss-1.html,S,13,4,0,4,0.0,0.0,0,0,,0,0,1,0,0,0,,UTSA,2016
+Steven Holman,steven-holman-1,/cfb/players/steven-holman-1.html,LB,7,0,3,3,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2016
+T.J. King,tj-king-1,/cfb/players/tj-king-1.html,DE,11,1,2,3,1.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2016
+Aneas Henricks,aneas-henricks-1,/cfb/players/aneas-henricks-1.html,CB,6,3,0,3,0.0,0.0,0,0,,0,1,1,0,0,0,,UTSA,2016
+Dalton Sturm,dalton-sturm-1,/cfb/players/dalton-sturm-1.html,QB,13,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2016
+Isaiah Clay,isaiah-clay-1,/cfb/players/isaiah-clay-1.html,S,2,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2016
+Franklin Uesi,franklin-uesi-1,/cfb/players/franklin-uesi-1.html,DT,13,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2016
+Tyrell Clay,tyrell-clay-1,/cfb/players/tyrell-clay-1.html,RB,12,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2016
+Josh Stewart,josh-stewart-2,/cfb/players/josh-stewart-2.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2016
+Jevonte Domond,jevonte-domond-1,/cfb/players/jevonte-domond-1.html,T,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2016
+Jaylon Henderson,jaylon-henderson-1,/cfb/players/jaylon-henderson-1.html,QB,4,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2016
+Halen Steward,halen-steward-1,/cfb/players/halen-steward-1.html,RB,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2016
+Seth Damrow,seth-damrow-1,/cfb/players/seth-damrow-1.html,TE,2,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2016
+Greg Campbell Jr.,greg-campbell-3,/cfb/players/greg-campbell-3.html,WR,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2016
+Stanley Dye Jr.,stanley-dye-jr-1,/cfb/players/stanley-dye-jr-1.html,CB,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2016
+Daniel Portillo,daniel-portillo-1,/cfb/players/daniel-portillo-1.html,PK,13,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2016
+Aron Taylor,aron-taylor-1,/cfb/players/aron-taylor-1.html,WR,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2016
+Yannis Routsas,yannis-routsas-1,/cfb/players/yannis-routsas-1.html,P,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2016

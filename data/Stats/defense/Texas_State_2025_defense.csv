@@ -1,0 +1,51 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Treylin Payne,treylin-payne-1,/cfb/players/treylin-payne-1.html,LB,13,49,58,107,6.5,2.0,0,0,,0,2,0,0,0,0,,Texas State,2025
+Ryan Nolan,ryan-nolan-3,/cfb/players/ryan-nolan-3.html,S,12,41,38,79,3.0,0.0,0,0,,0,2,0,0,0,0,,Texas State,2025
+Bobby Crosby,bobby-crosby-1,/cfb/players/bobby-crosby-1.html,S,13,40,21,61,3.0,2.0,1,0,0.0,0,3,0,0,0,0,,Texas State,2025
+Ayden Jones,ayden-jones-1,/cfb/players/ayden-jones-1.html,LB,12,33,23,56,1.0,0.0,0,0,,0,0,0,0,0,0,,Texas State,2025
+Terrence Cooks II,terrence-cooks-ii-1,/cfb/players/terrence-cooks-ii-1.html,LB,13,25,25,50,5.5,2.0,0,0,,0,1,0,0,0,0,,Texas State,2025
+Kalil Alexander,kalil-alexander-1,/cfb/players/kalil-alexander-1.html,DE,13,28,20,48,11.5,5.0,0,0,,0,0,0,0,0,1,,Texas State,2025
+Khamari Terrell,khamari-terrell-1,/cfb/players/khamari-terrell-1.html,CB,12,30,6,36,2.5,0.0,1,0,0.0,0,3,0,0,0,0,,Texas State,2025
+Kenard Snyder,kenard-snyder-1,/cfb/players/kenard-snyder-1.html,DE,13,19,16,35,9.0,3.0,0,0,,0,0,0,0,0,0,,Texas State,2025
+Tymere Jackson,tymere-jackson-1,/cfb/players/tymere-jackson-1.html,DE,11,16,16,32,8.5,2.5,0,0,,0,2,1,0,0,0,,Texas State,2025
+Javis Mynatt,javis-mynatt-1,/cfb/players/javis-mynatt-1.html,S,13,16,16,32,1.0,1.0,0,0,,0,0,1,0,0,1,,Texas State,2025
+Amarion Atwood,amarion-atwood-1,/cfb/players/amarion-atwood-1.html,CB,10,20,10,30,1.5,0.0,0,0,,0,3,1,0,0,0,,Texas State,2025
+Cole Nilles,cole-nilles-1,/cfb/players/cole-nilles-1.html,LB,13,18,11,29,3.0,0.0,0,0,,0,1,0,0,0,0,,Texas State,2025
+Michael Boudoin III,michael-boudoin-iii-1,/cfb/players/michael-boudoin-iii-1.html,LB,12,16,12,28,2.5,1.0,1,5,5.0,0,2,0,0,0,0,,Texas State,2025
+Jaden Rios,jaden-rios-1,/cfb/players/jaden-rios-1.html,CB,11,16,8,24,3.5,1.0,4,78,19.5,0,4,0,0,0,0,,Texas State,2025
+Malik Willis,malik-willis-2,/cfb/players/malik-willis-2.html,CB,13,14,6,20,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas State,2025
+Amipeleasi Langi Jr.,amipeleasi-langi-jr-1,/cfb/players/amipeleasi-langi-jr-1.html,DT,13,11,9,20,6.5,1.0,0,0,,0,0,0,0,0,0,,Texas State,2025
+Donterry Russell,donterry-russell-1,/cfb/players/donterry-russell-1.html,LB,13,10,9,19,5.5,4.5,0,0,,0,1,0,0,0,1,,Texas State,2025
+Jordan Sanders,jordan-sanders-2,/cfb/players/jordan-sanders-2.html,DL,13,8,8,16,3.5,0.0,0,0,,0,0,0,0,0,1,,Texas State,2025
+Devarrick Woods,devarrick-woods-1,/cfb/players/devarrick-woods-1.html,DL,11,9,7,16,2.0,1.0,0,0,,0,0,0,0,0,0,,Texas State,2025
+Canden Grogan,canden-grogan-1,/cfb/players/canden-grogan-1.html,CB,11,11,5,16,0.0,0.0,0,0,,0,2,0,0,0,0,,Texas State,2025
+Kamren Washington,kamren-washington-1,/cfb/players/kamren-washington-1.html,DT,13,6,9,15,4.0,1.0,0,0,,0,1,0,0,0,0,,Texas State,2025
+Craig Royal Jr.,craig-royal-jr-1,/cfb/players/craig-royal-jr-1.html,CB,13,11,3,14,1.0,0.0,1,0,0.0,0,0,0,0,0,0,,Texas State,2025
+Chase Davis,chase-davis-2,/cfb/players/chase-davis-2.html,S,12,10,3,13,0.5,0.0,0,0,,0,0,0,0,0,0,,Texas State,2025
+Ta'Derius Collins,taderius-collins-1,/cfb/players/taderius-collins-1.html,DL,11,7,5,12,2.5,0.0,0,0,,0,0,0,0,0,0,,Texas State,2025
+Bryce Carter,bryce-carter-1,/cfb/players/bryce-carter-1.html,DL,10,7,5,12,3.5,0.0,0,0,,0,0,0,0,0,0,,Texas State,2025
+Christopher Jones,christopher-jones-2,/cfb/players/christopher-jones-2.html,CB,13,7,4,11,1.5,0.0,1,100,100.0,1,2,0,0,0,0,,Texas State,2025
+Will Mitchell,will-mitchell-3,/cfb/players/will-mitchell-3.html,S,3,5,5,10,0.0,0.0,0,0,,0,2,0,0,0,0,,Texas State,2025
+Chantz Johnson,chantz-johnson-1,/cfb/players/chantz-johnson-1.html,LB,12,3,5,8,0.5,0.0,0,0,,0,1,0,0,0,0,,Texas State,2025
+Jermy Jackson Jr.,jermy-jackson-jr-1,/cfb/players/jermy-jackson-jr-1.html,DE,5,2,4,6,1.0,0.0,0,0,,0,0,0,0,0,0,,Texas State,2025
+Michael Nwokocha,michael-nwokocha-1,/cfb/players/michael-nwokocha-1.html,DL,11,1,5,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas State,2025
+Tice Williams,tice-williams-1,/cfb/players/tice-williams-1.html,S,9,4,1,5,0.5,0.0,0,0,,0,0,0,0,0,0,,Texas State,2025
+Greg Gipson Jr.,greg-gipson-jr-1,/cfb/players/greg-gipson-jr-1.html,CB,4,4,1,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas State,2025
+J.P. Deeter,jp-deeter-1,/cfb/players/jp-deeter-1.html,DL,12,3,1,4,1.0,0.0,0,0,,0,0,0,0,0,0,,Texas State,2025
+DJ Jackson,dj-jackson-3,/cfb/players/dj-jackson-3.html,S,13,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas State,2025
+Cordarian Powell,cordarian-powell-1,/cfb/players/cordarian-powell-1.html,CB,5,1,2,3,0.0,0.0,0,0,,0,2,0,0,0,0,,Texas State,2025
+Mavin Anderson,mavin-anderson-1,/cfb/players/mavin-anderson-1.html,WR,12,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas State,2025
+TJ Burkhalter,tj-burkhalter-1,/cfb/players/tj-burkhalter-1.html,LB,5,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas State,2025
+Kyran Bourda,kyran-bourda-1,/cfb/players/kyran-bourda-1.html,DL,4,0,1,1,0.5,0.0,0,0,,0,0,0,0,0,0,,Texas State,2025
+Lincoln Pare,lincoln-pare-1,/cfb/players/lincoln-pare-1.html,RB,13,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas State,2025
+D.J. Taylor,dj-taylor-3,/cfb/players/dj-taylor-3.html,DB,5,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas State,2025
+Kylen Evans,kylen-evans-1,/cfb/players/kylen-evans-1.html,WR,13,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas State,2025
+Greg Burrell,greg-burrell-1,/cfb/players/greg-burrell-1.html,RB,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas State,2025
+David Nunez,david-nunez-1,/cfb/players/david-nunez-1.html,P,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas State,2025
+Sully Burns,sully-burns-1,/cfb/players/sully-burns-1.html,OL,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas State,2025
+Chris Dawn Jr.,chris-dawn-jr-1,/cfb/players/chris-dawn-jr-1.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas State,2025
+Javarius Bell,javarius-bell-1,/cfb/players/javarius-bell-1.html,DL,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas State,2025
+Titus Lyons,titus-lyons-1,/cfb/players/titus-lyons-1.html,TE,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas State,2025
+Jaylen Jenkins,jaylen-jenkins-1,/cfb/players/jaylen-jenkins-1.html,RB,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas State,2025
+Brad Jackson,brad-jackson-2,/cfb/players/brad-jackson-2.html,QB,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas State,2025
+Beau Sparks,beau-sparks-1,/cfb/players/beau-sparks-1.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas State,2025

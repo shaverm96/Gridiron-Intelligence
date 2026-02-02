@@ -1,0 +1,48 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Buddy Johnson,buddy-johnson-1,/cfb/players/buddy-johnson-1.html,LB,13,38,39,77,9.5,1.0,0,0,,0,1,1,62,1,1,,Texas A&M,2019
+Anthony Hines III,anthony-hines-iii-1,/cfb/players/anthony-hines-iii-1.html,LB,13,39,34,73,10.5,0.0,0,0,,0,0,0,0,0,0,,Texas A&M,2019
+Demani Richardson,demani-richardson-1,/cfb/players/demani-richardson-1.html,DB,12,38,33,71,2.5,0.5,1,16,16.0,0,2,0,0,0,1,,Texas A&M,2019
+Keldrick Carper,keldrick-carper-1,/cfb/players/keldrick-carper-1.html,DB,12,27,23,50,2.5,1.0,0,0,,0,1,1,0,0,0,,Texas A&M,2019
+Justin Madubuike,justin-madubuike-1,/cfb/players/justin-madubuike-1.html,DL,12,18,27,45,11.5,5.5,1,18,18.0,0,2,0,0,0,1,,Texas A&M,2019
+Leon O'Neal Jr.,leon-oneal-jr-1,/cfb/players/leon-oneal-jr-1.html,DB,13,30,11,41,3.0,0.0,1,0,0.0,0,3,0,0,0,0,,Texas A&M,2019
+Demarvin Leal,demarvin-leal-1,/cfb/players/demarvin-leal-1.html,DL,12,14,24,38,5.5,2.0,0,0,,0,0,0,0,0,0,,Texas A&M,2019
+Jayden Peevy,jayden-peevy-1,/cfb/players/jayden-peevy-1.html,DL,12,12,23,35,5.0,2.5,0,0,,0,1,0,0,0,0,,Texas A&M,2019
+Debione Renfro,debione-renfro-1,/cfb/players/debione-renfro-1.html,DB,11,21,12,33,2.5,0.5,0,0,,0,4,1,0,0,0,,Texas A&M,2019
+Tyree Johnson,tyree-johnson-2,/cfb/players/tyree-johnson-2.html,DL,12,18,14,32,6.5,4.0,0,0,,0,1,0,0,0,0,,Texas A&M,2019
+Charles Oliver,charles-oliver-1,/cfb/players/charles-oliver-1.html,DB,11,20,9,29,1.0,0.0,0,0,,0,15,1,8,0,0,,Texas A&M,2019
+Myles Jones,myles-jones-1,/cfb/players/myles-jones-1.html,DB,13,18,11,29,2.0,0.0,2,33,16.5,0,6,0,0,0,1,,Texas A&M,2019
+Micheal Clemons,micheal-clemons-1,/cfb/players/micheal-clemons-1.html,DL,11,12,16,28,2.5,0.5,0,0,,0,0,0,0,0,0,,Texas A&M,2019
+Clifford Chattman,clifford-chattman-1,/cfb/players/clifford-chattman-1.html,DB,13,14,14,28,0.0,0.0,1,0,0.0,0,4,0,0,0,0,,Texas A&M,2019
+Bobby Brown III,bobby-brown-iii-1,/cfb/players/bobby-brown-iii-1.html,DL,13,8,13,21,2.0,0.5,0,0,,0,1,0,0,0,0,,Texas A&M,2019
+Elijah Blades,elijah-blades-1,/cfb/players/elijah-blades-1.html,DB,7,15,4,19,2.5,1.5,0,0,,0,3,0,0,0,0,,Texas A&M,2019
+Aaron Hansford,aaron-hansford-1,/cfb/players/aaron-hansford-1.html,LB,13,7,8,15,3.0,2.0,0,0,,0,2,0,0,0,0,,Texas A&M,2019
+Andre White Jr.,andre-white-jr-1,/cfb/players/andre-white-jr-1.html,LB,11,5,10,15,2.5,2.0,0,0,,0,0,0,0,0,0,,Texas A&M,2019
+Devin Morris,devin-morris-1,/cfb/players/devin-morris-1.html,DB,12,10,2,12,3.0,2.0,1,0,0.0,0,1,0,0,0,0,,Texas A&M,2019
+Larry Pryor,larry-pryor-1,/cfb/players/larry-pryor-1.html,DB,6,7,5,12,1.0,0.0,0,0,,0,1,0,0,0,1,,Texas A&M,2019
+Tyree Wilson,tyree-wilson-1,/cfb/players/tyree-wilson-1.html,DL,12,7,5,12,3.0,1.5,0,0,,0,0,0,0,0,0,,Texas A&M,2019
+Travon Fuller,travon-fuller-1,/cfb/players/travon-fuller-1.html,DB,11,6,4,10,1.5,0.0,0,0,,0,1,0,0,0,0,,Texas A&M,2019
+Roney Elam,roney-elam-1,/cfb/players/roney-elam-1.html,DB,3,7,1,8,1.0,1.0,2,24,12.0,0,2,0,0,0,0,,Texas A&M,2019
+Jeremiah Martin,jeremiah-martin-2,/cfb/players/jeremiah-martin-2.html,DL,10,5,3,8,3.0,0.0,0,0,,0,0,0,0,0,0,,Texas A&M,2019
+Braden Mann,braden-mann-1,/cfb/players/braden-mann-1.html,P,13,7,0,7,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas A&M,2019
+Josh Rogers,josh-rogers-3,/cfb/players/josh-rogers-3.html,DL,10,3,2,5,1.5,0.0,0,0,,0,0,0,0,0,0,,Texas A&M,2019
+Caleb Chapman,caleb-chapman-2,/cfb/players/caleb-chapman-2.html,WR,11,0,3,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas A&M,2019
+Derrick Tucker,derrick-tucker-1,/cfb/players/derrick-tucker-1.html,DB,4,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas A&M,2019
+Braden White,braden-white-1,/cfb/players/braden-white-1.html,LB,13,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas A&M,2019
+Keeath Magee II,keeath-magee-ii-1,/cfb/players/keeath-magee-ii-1.html,LB,1,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas A&M,2019
+Moses Reynolds,moses-reynolds-1,/cfb/players/moses-reynolds-1.html,DB,3,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas A&M,2019
+Mitchell Howard,mitchell-howard-2,/cfb/players/mitchell-howard-2.html,DL,2,1,0,1,1.0,1.0,0,0,,0,0,0,0,0,1,,Texas A&M,2019
+Ryan Renick,ryan-renick-1,/cfb/players/ryan-renick-1.html,TE,11,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas A&M,2019
+Max Wright,max-wright-1,/cfb/players/max-wright-1.html,DL,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas A&M,2019
+Erick Young,erick-young-1,/cfb/players/erick-young-1.html,DB,6,0,1,1,0.5,0.0,1,-4,-4.0,0,0,0,0,0,0,,Texas A&M,2019
+Konnor Hitchcock,konnor-hitchcock-1,/cfb/players/konnor-hitchcock-1.html,DB,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas A&M,2019
+Kendrick Rogers,kendrick-rogers-1,/cfb/players/kendrick-rogers-1.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas A&M,2019
+Jashaun Corbin,jashaun-corbin-1,/cfb/players/jashaun-corbin-1.html,RB,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas A&M,2019
+Jalen Preston,jalen-preston-1,/cfb/players/jalen-preston-1.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas A&M,2019
+Ikenna Okeke,ikenna-okeke-1,/cfb/players/ikenna-okeke-1.html,LB,10,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas A&M,2019
+Cordarrian Richardson,cordarrian-richardson-1,/cfb/players/cordarrian-richardson-1.html,RB,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas A&M,2019
+Chris Russell,chris-russell-2,/cfb/players/chris-russell-2.html,LB,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas A&M,2019
+Cameron Horry,cameron-horry-1,/cfb/players/cameron-horry-1.html,TE,5,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas A&M,2019
+Cagan Baldtree,cagan-baldtree-1,/cfb/players/cagan-baldtree-1.html,FB,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas A&M,2019
+Brian Williams,brian-williams-15,/cfb/players/brian-williams-15.html,DB,9,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas A&M,2019
+Brian Johnson,brian-johnson-7,/cfb/players/brian-johnson-7.html,LB,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas A&M,2019
+Adarious Jones,adarious-jones-1,/cfb/players/adarious-jones-1.html,DL,3,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas A&M,2019

@@ -1,0 +1,34 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Dean Clark,dean-clark-1,/cfb/players/dean-clark-1.html,S,4,19,9,28,0.0,0.0,1,2,2.0,0,2,0,0,0,1,,Kent State,2020
+Zayin West,zayin-west-1,/cfb/players/zayin-west-1.html,DE,4,16,7,23,3.5,2.0,0,0,,0,0,0,0,0,0,,Kent State,2020
+Richie Carpenter Jr.,richie-carpenter-jr-1,/cfb/players/richie-carpenter-jr-1.html,DB,4,13,7,20,2.0,0.0,0,0,,0,0,0,0,0,1,,Kent State,2020
+Brandon Coleman,brandon-coleman-4,/cfb/players/brandon-coleman-4.html,LB,4,11,7,18,4.0,3.0,0,0,,0,0,1,0,0,1,,Kent State,2020
+Tony Butler,tony-butler-2,/cfb/players/tony-butler-2.html,CB,4,11,5,16,0.5,0.0,0,0,,0,2,0,0,0,0,,Kent State,2020
+Sekou Diaby,sekou-diaby-1,/cfb/players/sekou-diaby-1.html,DL,4,10,5,15,0.0,0.0,0,0,,0,0,0,0,0,0,,Kent State,2020
+Jabbar Price,jabbar-price-1,/cfb/players/jabbar-price-1.html,DL,4,10,5,15,1.5,0.0,0,0,,0,0,0,0,0,0,,Kent State,2020
+Manny Lawrence-Burke,manny-lawrence-burke-1,/cfb/players/manny-lawrence-burke-1.html,LB,3,10,4,14,2.0,2.0,0,0,,0,0,0,0,0,0,,Kent State,2020
+Elvis Hines,elvis-hines-1,/cfb/players/elvis-hines-1.html,S,4,11,2,13,0.0,0.0,1,2,2.0,0,3,0,0,0,0,,Kent State,2020
+Khalib Johns,khalib-johns-1,/cfb/players/khalib-johns-1.html,LB,3,5,7,12,1.0,0.0,0,0,,0,0,0,0,0,0,,Kent State,2020
+Jeremiah Salaam,jeremiah-salaam-1,/cfb/players/jeremiah-salaam-1.html,S,4,11,1,12,0.0,0.0,1,-2,-2.0,0,3,0,0,0,0,,Kent State,2020
+Kesean Gamble,kesean-gamble-1,/cfb/players/kesean-gamble-1.html,LB,3,5,7,12,6.0,3.0,0,0,,0,1,0,0,0,0,,Kent State,2020
+C.J. Holmes,cj-holmes-1,/cfb/players/cj-holmes-1.html,DB,4,6,2,8,1.0,0.5,0,0,,0,1,0,0,0,0,,Kent State,2020
+Oly Okombi,oly-okombi-1,/cfb/players/oly-okombi-1.html,DL,4,4,4,8,2.5,1.0,0,0,,0,0,0,0,0,0,,Kent State,2020
+Adin Huntington,adin-huntington-1,/cfb/players/adin-huntington-1.html,DL,3,4,2,6,0.0,0.0,0,0,,0,1,0,0,0,0,,Kent State,2020
+Prince Okituama,prince-okituama-1,/cfb/players/prince-okituama-1.html,LB,2,3,1,4,1.5,0.5,0,0,,0,0,0,0,0,0,,Kent State,2020
+Xavier Williams,xavier-williams-2,/cfb/players/xavier-williams-2.html,RB,4,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Kent State,2020
+Matt Harmon,matt-harmon-3,/cfb/players/matt-harmon-3.html,LB,4,1,2,3,0.0,0.0,0,0,,0,1,0,0,0,0,,Kent State,2020
+Ja'Shaun Poke,jashaun-poke-1,/cfb/players/jashaun-poke-1.html,WR,4,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Kent State,2020
+Isaac Vance,isaac-vance-1,/cfb/players/isaac-vance-1.html,WR,4,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Kent State,2020
+Montre Miller,montre-miller-1,/cfb/players/montre-miller-1.html,CB,4,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Kent State,2020
+Nadir Pineda,nadir-pineda-1,/cfb/players/nadir-pineda-1.html,DT,2,1,1,2,0.5,0.0,0,0,,0,0,0,0,0,0,,Kent State,2020
+Buddha Jones,buddha-jones-1,/cfb/players/buddha-jones-1.html,DT,2,0,2,2,0.0,0.0,0,0,,0,0,1,0,0,0,,Kent State,2020
+Paul Breinz,paul-breinz-1,/cfb/players/paul-breinz-1.html,DB,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kent State,2020
+CJ West,cj-west-1,/cfb/players/cj-west-1.html,DL,3,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kent State,2020
+Dustin Crum,dustin-crum-1,/cfb/players/dustin-crum-1.html,QB,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kent State,2020
+Sebastian Spear,sebastian-spear-1,/cfb/players/sebastian-spear-1.html,LB,3,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kent State,2020
+Robie Glass,robie-glass-1,/cfb/players/robie-glass-1.html,WR,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kent State,2020
+Jaylen DeCoteau,jaylen-decoteau-1,/cfb/players/jaylen-decoteau-1.html,DB,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kent State,2020
+Matthew Trickett,matthew-trickett-1,/cfb/players/matthew-trickett-1.html,K,3,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kent State,2020
+Mario Nunez,mario-nunez-1,/cfb/players/mario-nunez-1.html,DB,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kent State,2020
+Jasper Robinson,jasper-robinson-1,/cfb/players/jasper-robinson-1.html,LB,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kent State,2020
+Luke Murphy,luke-murphy-1,/cfb/players/luke-murphy-1.html,S,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kent State,2020

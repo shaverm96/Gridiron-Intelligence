@@ -1,0 +1,47 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Damone Clark,damone-clark-1,/cfb/players/damone-clark-1.html,LB,12,78,57,135,15.5,5.5,1,0,0.0,0,3,1,35,0,2,,LSU,2021
+Micah Baskerville,micah-baskerville-1,/cfb/players/micah-baskerville-1.html,LB,12,40,43,83,9.0,2.0,1,54,54.0,0,3,0,0,0,0,,LSU,2021
+Jay Ward,jay-ward-2,/cfb/players/jay-ward-2.html,S,11,41,30,71,1.0,0.0,2,33,16.5,0,4,0,0,0,1,,LSU,2021
+BJ Ojulari,bj-ojulari-1,/cfb/players/bj-ojulari-1.html,DE,13,33,22,55,11.5,7.0,0,0,,0,1,0,0,0,0,,LSU,2021
+Cameron Lewis,cameron-lewis-2,/cfb/players/cameron-lewis-2.html,S,11,34,21,55,2.5,1.5,0,0,,0,1,0,0,0,1,,LSU,2021
+Neil Farrell Jr.,neil-farrell-jr-1,/cfb/players/neil-farrell-jr-1.html,DT,12,20,25,45,9.5,2.0,0,0,,0,2,0,0,0,0,,LSU,2021
+Cordale Flott,cordale-flott-1,/cfb/players/cordale-flott-1.html,CB,11,28,13,41,1.0,0.0,1,0,0.0,0,3,0,0,0,1,,LSU,2021
+Mike Jones Jr.,mike-jones-jr-1,/cfb/players/mike-jones-jr-1.html,LB,13,14,20,34,2.5,1.0,0,0,,0,1,0,0,0,0,,LSU,2021
+Dwight McGlothern,dwight-mcglothern-1,/cfb/players/dwight-mcglothern-1.html,CB,10,26,6,32,2.0,0.0,1,37,37.0,1,5,0,0,0,1,,LSU,2021
+Jaquelin Roy,jaquelin-roy-1,/cfb/players/jaquelin-roy-1.html,DT,13,15,15,30,6.0,1.5,0,0,,0,0,2,0,0,1,,LSU,2021
+Soni Fonua,soni-fonua-1,/cfb/players/soni-fonua-1.html,DE,9,16,11,27,6.5,0.5,0,0,,0,1,0,0,0,0,,LSU,2021
+Darren Evans,darren-evans-2,/cfb/players/darren-evans-2.html,CB,13,20,7,27,0.0,0.0,0,0,,0,4,0,0,0,0,,LSU,2021
+Major Burns,major-burns-1,/cfb/players/major-burns-1.html,DB,5,16,9,25,0.0,0.0,1,18,18.0,0,1,0,0,0,0,,LSU,2021
+Ali Gaye,ali-gaye-1,/cfb/players/ali-gaye-1.html,DE,4,13,6,19,2.5,2.5,0,0,,0,1,0,0,0,0,,LSU,2021
+Maason Smith,maason-smith-1,/cfb/players/maason-smith-1.html,DL,9,13,6,19,5.0,4.0,0,0,,0,0,0,0,0,0,,LSU,2021
+Navonteque Strong,navonteque-strong-1,/cfb/players/navonteque-strong-1.html,LB,8,10,7,17,1.5,1.0,0,0,,0,1,0,0,0,0,,LSU,2021
+Todd Harris Jr.,todd-harris-jr-1,/cfb/players/todd-harris-jr-1.html,S,8,4,9,13,0.0,0.0,0,0,,0,1,0,0,0,0,,LSU,2021
+Jordan Toles,jordan-toles-1,/cfb/players/jordan-toles-1.html,S,6,6,6,12,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2021
+Eli Ricks,eli-ricks-1,/cfb/players/eli-ricks-1.html,CB,6,9,2,11,0.5,0.0,1,0,0.0,0,1,0,0,0,0,,LSU,2021
+Greg Penn III,greg-penn-iii-1,/cfb/players/greg-penn-iii-1.html,LB,10,5,6,11,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2021
+Desmond Little,desmond-little-1,/cfb/players/desmond-little-1.html,DE,5,6,4,10,3.0,2.5,0,0,,0,0,0,0,0,0,,LSU,2021
+Glen Logan,glen-logan-1,/cfb/players/glen-logan-1.html,DT,6,4,6,10,1.5,1.0,0,0,,0,0,0,0,0,0,,LSU,2021
+Jacobian Guillory,jacobian-guillory-1,/cfb/players/jacobian-guillory-1.html,DT,11,2,7,9,1.5,0.5,0,0,,0,0,0,0,0,0,,LSU,2021
+Raydarious Jones,raydarious-jones-1,/cfb/players/raydarious-jones-1.html,CB,9,5,4,9,0.5,0.0,0,0,,0,1,0,0,0,0,,LSU,2021
+Andre Anthony,andre-anthony-1,/cfb/players/andre-anthony-1.html,DE,3,3,5,8,4.0,3.5,0,0,,0,0,1,33,1,0,,LSU,2021
+Joseph Evans,joseph-evans-1,/cfb/players/joseph-evans-1.html,DT,5,3,5,8,2.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2021
+Derek Stingley Jr.,derek-stingley-jr-1,/cfb/players/derek-stingley-jr-1.html,CB,3,6,2,8,3.5,0.0,0,0,,0,0,0,0,0,1,,LSU,2021
+Pig Cage,pig-cage-1,/cfb/players/pig-cage-1.html,DB,8,5,2,7,3.0,1.0,0,0,,0,0,0,0,0,0,,LSU,2021
+Sage Ryan,sage-ryan-1,/cfb/players/sage-ryan-1.html,DB,4,2,4,6,0.0,0.0,0,0,,0,2,0,0,0,0,,LSU,2021
+Jarell Cherry,jarell-cherry-1,/cfb/players/jarell-cherry-1.html,DE,5,3,2,5,1.5,1.0,0,0,,0,0,0,0,0,0,,LSU,2021
+Damarius McGhee,damarius-mcghee-1,/cfb/players/damarius-mcghee-1.html,DB,12,3,2,5,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2021
+Jontre Kirklin,jontre-kirklin-1,/cfb/players/jontre-kirklin-1.html,WR,9,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2021
+Zavier Carter,zavier-carter-1,/cfb/players/zavier-carter-1.html,DE,7,3,1,4,1.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2021
+Kayshon Boutte,kayshon-boutte-1,/cfb/players/kayshon-boutte-1.html,WR,6,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2021
+Savion Jones,savion-jones-1,/cfb/players/savion-jones-1.html,DE,3,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2021
+Saivion Jones,saivion-jones-1,/cfb/players/saivion-jones-1.html,,11,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2021
+Nick Demas,nick-demas-1,/cfb/players/nick-demas-1.html,RB,11,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2021
+Derrick Davis Jr.,derrick-davis-jr-1,/cfb/players/derrick-davis-jr-1.html,DB,12,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2021
+Avery Atkins,avery-atkins-2,/cfb/players/avery-atkins-2.html,PK,13,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2021
+Phillip Webb,phillip-webb-1,/cfb/players/phillip-webb-1.html,LB,3,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2021
+Brian Thomas Jr.,brian-thomas-jr-1,/cfb/players/brian-thomas-jr-1.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2021
+Chris Hilton Jr.,chris-hilton-jr-1,/cfb/players/chris-hilton-jr-1.html,WR,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2021
+Deion Smith,deion-smith-2,/cfb/players/deion-smith-2.html,WR,6,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2021
+Spencer Payne,spencer-payne-1,/cfb/players/spencer-payne-1.html,OL,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2021
+Austin Deculus,austin-deculus-1,/cfb/players/austin-deculus-1.html,T,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2021
+Lloyd Cole,lloyd-cole-1,/cfb/players/lloyd-cole-1.html,CB,13,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2021

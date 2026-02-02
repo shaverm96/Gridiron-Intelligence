@@ -1,0 +1,45 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Stratton Brown,stratton-brown-1,/cfb/players/stratton-brown-1.html,DB,12,57,58,115,5.5,1.0,1,0,0.0,0,4,0,0,0,1,,Fresno State,2016
+Jeff Camilli,jeff-camilli-1,/cfb/players/jeff-camilli-1.html,LB,11,53,55,108,9.0,4.0,0,0,,0,2,0,0,0,1,,Fresno State,2016
+DeShawn Potts,deshawn-potts-1,/cfb/players/deshawn-potts-1.html,DB,12,29,30,59,1.0,0.0,0,0,,0,5,1,0,0,0,,Fresno State,2016
+James Bailey,james-bailey-4,/cfb/players/james-bailey-4.html,LB,12,32,26,58,4.5,0.0,0,0,,0,4,1,0,0,0,,Fresno State,2016
+Tyquwan Glass,tyquwan-glass-1,/cfb/players/tyquwan-glass-1.html,DB,11,40,17,57,1.5,0.0,2,0,0.0,0,9,0,0,0,1,,Fresno State,2016
+Robert Stanley,robert-stanley-1,/cfb/players/robert-stanley-1.html,LB,10,29,25,54,3.0,0.0,0,0,,0,0,0,0,0,0,,Fresno State,2016
+Tobenna Okeke,tobenna-okeke-1,/cfb/players/tobenna-okeke-1.html,LB,12,22,31,53,3.0,3.0,0,0,,0,0,0,0,0,1,,Fresno State,2016
+Jamal Ellis,jamal-ellis-2,/cfb/players/jamal-ellis-2.html,DB,12,34,19,53,0.0,0.0,2,0,0.0,0,5,1,0,0,0,,Fresno State,2016
+Nela Otukolo,nela-otukolo-1,/cfb/players/nela-otukolo-1.html,LB,10,27,21,48,5.5,1.5,0,0,,0,1,0,0,0,1,,Fresno State,2016
+Malik Forrester,malik-forrester-1,/cfb/players/malik-forrester-1.html,DL,11,21,17,38,5.0,1.0,0,0,,0,0,0,0,0,0,,Fresno State,2016
+Trent Soechting,trent-soechting-1,/cfb/players/trent-soechting-1.html,LB,12,17,19,36,2.0,0.0,0,0,,0,0,0,0,0,0,,Fresno State,2016
+Mike Bell,mike-bell-11,/cfb/players/mike-bell-11.html,DB,12,17,18,35,2.5,0.0,0,0,,0,1,0,0,0,0,,Fresno State,2016
+Nick Kristofors,nick-kristofors-1,/cfb/players/nick-kristofors-1.html,DL,12,19,9,28,1.0,1.0,0,0,,0,1,1,0,0,0,,Fresno State,2016
+Nathan Madsen,nathan-madsen-1,/cfb/players/nathan-madsen-1.html,DL,12,11,11,22,1.5,1.5,0,0,,0,0,0,0,0,0,,Fresno State,2016
+Brandon Hughes,brandon-hughes-4,/cfb/players/brandon-hughes-4.html,LB,6,10,11,21,4.0,0.0,0,0,,0,0,0,0,0,0,,Fresno State,2016
+Jeffrey Allison,jeffrey-allison-1,/cfb/players/jeffrey-allison-1.html,LB,12,8,13,21,0.0,0.0,0,0,,0,0,0,0,0,0,,Fresno State,2016
+JuJu Hughes,juju-hughes-1,/cfb/players/juju-hughes-1.html,DB,12,8,10,18,1.5,0.0,0,0,,0,0,0,0,0,0,,Fresno State,2016
+Patrick Belony,patrick-beloney-1,/cfb/players/patrick-beloney-1.html,DL,12,6,8,14,1.0,0.0,0,0,,0,1,0,0,0,0,,Fresno State,2016
+Austin Vaimili,austin-vaimili-1,/cfb/players/austin-vaimili-1.html,DE,10,7,5,12,0.5,0.0,0,0,,0,0,0,0,0,0,,Fresno State,2016
+Alan Wright,alan-wright-2,/cfb/players/alan-wright-2.html,DB,12,4,7,11,0.5,0.0,0,0,,0,0,0,0,0,0,,Fresno State,2016
+Kyle Hendrickson,kyle-hendrickson-1,/cfb/players/kyle-hendrickson-1.html,DL,8,2,8,10,0.5,0.0,0,0,,0,0,0,0,0,0,,Fresno State,2016
+Anthoula Kelly,anthoula-kelly-1,/cfb/players/anthoula-kelly-1.html,DB,7,6,2,8,0.0,0.0,0,0,,0,2,0,0,0,0,,Fresno State,2016
+Justin Green,justin-green-4,/cfb/players/justin-green-4.html,LB,12,6,2,8,2.0,1.0,0,0,,0,0,0,0,0,0,,Fresno State,2016
+Josh Hokit,josh-hokit-1,/cfb/players/josh-hokit-1.html,LB,12,5,2,7,0.0,0.0,0,0,,0,0,0,0,0,0,,Fresno State,2016
+George Helmuth,george-helmuth-1,/cfb/players/george-helmuth-1.html,LB,12,3,4,7,0.0,0.0,0,0,,0,0,0,0,0,0,,Fresno State,2016
+Dalen Jones,dalen-jones-1,/cfb/players/dalen-jones-1.html,DB,9,4,3,7,0.0,0.0,0,0,,0,0,0,0,0,0,,Fresno State,2016
+Jaron Bryant,jaron-bryant-1,/cfb/players/jaron-bryant-1.html,DB,11,2,4,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Fresno State,2016
+Brendan Bailey,brendan-bailey-1,/cfb/players/brendan-bailey-1.html,OL,1,1,4,5,0.5,0.0,0,0,,0,1,0,0,0,0,,Fresno State,2016
+Jalen Smith,jalen-smith-1,/cfb/players/jalen-smith-1.html,DB,4,2,2,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Fresno State,2016
+Elijah Piper,elijah-piper-1,/cfb/players/elijah-piper-1.html,DL,8,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Fresno State,2016
+Wyatt McBee,wyatt-mcbee-1,/cfb/players/wyatt-mcbee-1.html,DL,7,1,2,3,1.0,0.0,0,0,,0,0,0,0,0,0,,Fresno State,2016
+Ryan Alvarez,ryan-alvarez-1,/cfb/players/ryan-alvarez-1.html,DB,3,0,3,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Fresno State,2016
+Michael Martens,michael-martens-1,/cfb/players/michael-martens-1.html,WR,10,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Fresno State,2016
+Nick Van Valkenberg,nick-van-valkenberg-1,/cfb/players/nick-van-valkenberg-1.html,K,2,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Fresno State,2016
+Nick Van Valkenburg,nick-van-valkenburg-1,/cfb/players/nick-van-valkenburg-1.html,,9,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Fresno State,2016
+KeeSean Johnson,keesean-johnson-1,/cfb/players/keesean-johnson-1.html,WR,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,1,,Fresno State,2016
+Darrell Fuery,darrell-fuery-1,/cfb/players/darrell-fuery-1.html,WR,10,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Fresno State,2016
+Patrick Williams,patrick-williams-4,/cfb/players/patrick-williams-4.html,LS,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Fresno State,2016
+Jasad Haynes,jasad-haynes-1,/cfb/players/jasad-haynes-1.html,DL,5,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Fresno State,2016
+Jamire Jordan,jamire-jordan-1,/cfb/players/jamire-jordan-1.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Fresno State,2016
+Chason Virgil,chason-virgil-1,/cfb/players/chason-virgil-1.html,QB,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Fresno State,2016
+Treyvon Green,treyvon-green-2,/cfb/players/treyvon-green-2.html,WR,11,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Fresno State,2016
+Aaron Peck,aaron-peck-1,/cfb/players/aaron-peck-1.html,WR,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Fresno State,2016
+Aaron Mitchell,aaron-mitchell-4,/cfb/players/aaron-mitchell-4.html,OL,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Fresno State,2016

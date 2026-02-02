@@ -1,0 +1,43 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Michael Lewis,michael-lewis-2,/cfb/players/michael-lewis-2.html,DB,12,52,44,96,2.0,0.0,1,0,0.0,0,1,1,0,0,1,,UTEP,2019
+Justin Rogers,justin-rogers-2,/cfb/players/justin-rogers-2.html,DB,12,51,22,73,0.0,0.0,2,0,0.0,0,2,3,26,0,1,,UTEP,2019
+Adrian Hynson,adrian-hynson-1,/cfb/players/adrian-hynson-1.html,DB,12,40,17,57,2.0,1.0,0,0,,0,2,0,0,0,0,,UTEP,2019
+Sione Tupou,sione-tupou-1,/cfb/players/sione-tupou-1.html,LB,10,26,27,53,1.0,1.0,0,0,,0,0,0,0,0,0,,UTEP,2019
+Josh Caldwell,josh-caldwell-1,/cfb/players/josh-caldwell-1.html,DB,11,36,16,52,0.0,0.0,0,0,,0,11,0,0,0,0,,UTEP,2019
+Jayson VanHook,jayson-vanhook-1,/cfb/players/jayson-vanhook-1.html,LB,12,32,20,52,4.0,1.0,0,0,,0,0,0,0,0,0,,UTEP,2019
+Dylan Parsee,dylan-parsee-1,/cfb/players/dylan-parsee-1.html,LB,10,12,19,31,0.5,0.0,0,0,,0,1,0,0,0,0,,UTEP,2019
+Praise Amaewhule,praise-amaewhule-1,/cfb/players/praise-amaewhule-1.html,DE,12,16,12,28,5.5,3.0,0,0,,0,3,1,0,1,0,,UTEP,2019
+Christian Richardson,christian-richardson-1,/cfb/players/christian-richardson-1.html,DL,11,12,16,28,0.5,0.0,0,0,,0,2,0,0,0,0,,UTEP,2019
+Justin Prince,justin-prince-1,/cfb/players/justin-prince-1.html,DB,4,18,9,27,2.5,0.0,0,0,,0,1,0,0,0,0,,UTEP,2019
+Josh Ortega,josh-ortega-1,/cfb/players/josh-ortega-1.html,DL,11,11,16,27,3.0,2.0,0,0,,0,1,0,0,0,0,,UTEP,2019
+Duron Lowe,duron-lowe-1,/cfb/players/duron-lowe-1.html,DB,12,20,5,25,0.0,0.0,0,0,,0,6,0,0,0,1,,UTEP,2019
+Stephen Forester,stephen-forester-1,/cfb/players/stephen-forester-1.html,LB,12,17,7,24,3.5,1.0,0,0,,0,0,0,0,0,0,,UTEP,2019
+Denzel Chukwukelu,denzel-chukwukelu-1,/cfb/players/denzel-chukwukelu-1.html,DL,12,14,9,23,5.5,3.0,0,0,,0,2,0,0,0,1,,UTEP,2019
+Ykili Ross,ykili-ross-1,/cfb/players/ykili-ross-1.html,S,9,10,10,20,0.0,0.0,2,0,0.0,0,0,0,0,0,0,,UTEP,2019
+Joe Jay Smith,joe-jay-smith-1,/cfb/players/joe-jay-smith-1.html,LB,11,8,8,16,1.0,0.0,0,0,,0,1,0,0,0,0,,UTEP,2019
+Nathan Logoleo,nathan-logoleo-1,/cfb/players/nathan-logoleo-1.html,DB,9,8,7,15,2.5,0.0,0,0,,0,0,0,0,0,0,,UTEP,2019
+Kalaii Griffin,kalaii-griffin-1,/cfb/players/kalaii-griffin-1.html,LB,6,6,9,15,1.5,0.0,0,0,,0,0,0,0,0,0,,UTEP,2019
+Dedrick Simpson,dedrick-simpson-1,/cfb/players/dedrick-simpson-1.html,DT,12,8,7,15,2.0,1.0,0,0,,0,0,0,0,0,1,,UTEP,2019
+Dy'vonne Inyang,dyvonne-inyang-1,/cfb/players/dyvonne-inyang-1.html,DB,12,9,5,14,0.0,0.0,0,0,,0,0,0,0,0,0,,UTEP,2019
+Gabriel Flynn,gabriel-flynn-1,/cfb/players/gabriel-flynn-1.html,LB,12,4,8,12,0.0,0.0,0,0,,0,0,0,0,0,0,,UTEP,2019
+Dakari Bickham,dakari-bickham-1,/cfb/players/dakari-bickham-1.html,DE,4,3,1,4,0.5,0.0,0,0,,0,0,0,0,0,0,,UTEP,2019
+Deion Hankins,deion-hankins-1,/cfb/players/deion-hankins-1.html,RB,4,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,UTEP,2019
+Tre'shon Wolf,treshon-wolf-1,/cfb/players/treshon-wolf-1.html,WR,12,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,UTEP,2019
+Sani Buckingham,sani-buckingham-1,/cfb/players/sani-buckingham-1.html,DT,6,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,UTEP,2019
+Elijah Ruiz,elijah-ruiz-2,/cfb/players/elijah-ruiz-2.html,LB,4,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,UTEP,2019
+Ray Walters,ray-walters-1,/cfb/players/ray-walters-1.html,DB,8,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,UTEP,2019
+DJ Turner,dj-turner-2,/cfb/players/dj-turner-2.html,LB,7,1,1,2,0.5,0.0,0,0,,0,0,0,0,0,0,,UTEP,2019
+Jerome Wilson Jr.,jerome-wilson-jr-1,/cfb/players/jerome-wilson-jr-1.html,LB,4,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,UTEP,2019
+Deaumonjae Banks,deaumonjae-banks-1,/cfb/players/deaumonjae-banks-1.html,DB,4,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,UTEP,2019
+Christian Johnson,christian-johnson-1,/cfb/players/christian-johnson-1.html,DE,5,1,1,2,1.0,0.0,0,0,,0,0,0,0,0,0,,UTEP,2019
+Andrew Meyer,andrew-meyer-2,/cfb/players/andrew-meyer-2.html,OL,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTEP,2019
+Tiano Tialavea,tiano-tialavea-1,/cfb/players/tiano-tialavea-1.html,DT,8,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTEP,2019
+Barron Wortham Jr.,barron-wortham-jr-1,/cfb/players/barron-wortham-jr-1.html,LB,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTEP,2019
+Bobby Deharo,bobby-deharo-1,/cfb/players/bobby-deharo-1.html,OL,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTEP,2019
+Robert Corner III,robert-corner-iii-1,/cfb/players/robert-corner-iii-1.html,DB,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTEP,2019
+Miles Banks,miles-banks-1,/cfb/players/miles-banks-1.html,DB,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,1,,UTEP,2019
+Kavika Johnson,kavika-johnson-1,/cfb/players/kavika-johnson-1.html,WR,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTEP,2019
+James Tupou,james-tupou-1,/cfb/players/james-tupou-1.html,FB,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTEP,2019
+Kai Locksley,kai-locksley-1,/cfb/players/kai-locksley-1.html,QB,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTEP,2019
+Justin Rone,justin-rone-1,/cfb/players/justin-rone-1.html,DB,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTEP,2019
+Justin Garrett,justin-garrett-3,/cfb/players/justin-garrett-3.html,WR,12,0,1,1,0.0,0.0,1,0,0.0,0,0,0,0,0,0,,UTEP,2019

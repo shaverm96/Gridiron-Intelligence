@@ -1,0 +1,52 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Sage Lewis,sage-lewis-1,/cfb/players/sage-lewis-1.html,LB,13,81,51,132,4.0,1.0,0,0,,0,9,1,61,1,0,,Florida International,2018
+Edwin Freeman,edwin-freeman-1,/cfb/players/edwin-freeman-1.html,LB,13,62,35,97,7.0,1.0,2,7,3.5,0,1,0,0,0,1,,Florida International,2018
+Olin Cushion,olin-cushion-1,/cfb/players/olin-cushion-1.html,DB,13,43,22,65,0.0,0.0,1,20,20.0,0,2,0,0,0,1,,Florida International,2018
+Noah Curtis,noah-curtis-1,/cfb/players/noah-curtis-1.html,DL,13,18,31,49,3.5,1.5,0,0,,0,0,0,0,0,1,,Florida International,2018
+Dorian Hall,dorian-hall-1,/cfb/players/dorian-hall-1.html,S,13,28,18,46,3.0,1.0,3,14,4.7,0,1,0,0,0,1,,Florida International,2018
+Richard Dames,richard-dames-1,/cfb/players/richard-dames-1.html,DB,13,29,16,45,4.0,0.0,3,11,3.7,0,5,0,0,0,0,,Florida International,2018
+Anthony Johnson,anthony-johnson-11,/cfb/players/anthony-johnson-11.html,DL,13,23,17,40,6.5,3.5,0,0,,0,3,0,0,0,0,,Florida International,2018
+Stantley Thomas-Oliver III,stantley-thomas-oliver-iii-1,/cfb/players/stantley-thomas-oliver-iii-1.html,DB,13,27,13,40,3.0,0.0,1,0,0.0,0,10,0,0,0,0,,Florida International,2018
+Jamal Gates,jamal-gates-1,/cfb/players/jamal-gates-1.html,LB,13,22,14,36,1.0,0.0,1,0,0.0,0,0,0,0,0,1,,Florida International,2018
+Jermaine Sheriff,jermaine-sheriff-1,/cfb/players/jermaine-sheriff-1.html,DL,13,18,15,33,5.0,2.5,0,0,,0,0,0,0,0,0,,Florida International,2018
+Isaiah Brown,isaiah-brown-2,/cfb/players/isaiah-brown-2.html,CB,13,25,7,32,1.5,0.0,2,13,6.5,0,5,1,0,0,0,,Florida International,2018
+Emmanuel Lubin,emmanuel-lubin-1,/cfb/players/emmanuel-lubin-1.html,DB,13,26,5,31,2.5,1.0,0,0,,0,4,0,0,0,0,,Florida International,2018
+Jason Mercier,jason-mercier-1,/cfb/players/jason-mercier-1.html,DL,13,13,18,31,1.0,0.0,0,0,,0,0,1,0,0,0,,Florida International,2018
+Tyree Johnson,tyree-johnson-1,/cfb/players/tyree-johnson-1.html,DB,13,23,6,29,2.0,0.0,0,0,,0,0,0,0,0,0,,Florida International,2018
+Kevin Oliver,kevin-oliver-1,/cfb/players/kevin-oliver-1.html,DL,13,10,17,27,2.0,2.0,0,0,,0,0,0,0,0,0,,Florida International,2018
+Josh Little,josh-little-1,/cfb/players/josh-little-1.html,DL,11,16,9,25,2.0,1.0,0,0,,0,0,0,0,0,0,,Florida International,2018
+Rishard Dames,rishard-dames-1,/cfb/players/rishard-dames-1.html,DB,13,16,3,19,1.5,0.0,2,41,20.5,0,1,1,0,0,0,,Florida International,2018
+Teair Tart,teair-tart-1,/cfb/players/teair-tart-1.html,DL,12,14,5,19,7.0,4.0,0,0,,0,1,0,0,0,1,,Florida International,2018
+Rocky Jacques-Louis,rocky-jacques-louis-1,/cfb/players/rocky-jacques-louis-1.html,LB,13,12,3,15,1.0,1.0,2,91,45.5,2,0,0,0,0,0,,Florida International,2018
+Tayland Humphrey,tayland-humphrey-1,/cfb/players/tayland-humphrey-1.html,DL,12,10,5,15,0.5,0.5,0,0,,0,0,0,0,0,0,,Florida International,2018
+Fermin Silva,fermin-silva-1,/cfb/players/fermin-silva-1.html,DL,4,5,6,11,3.0,2.0,0,0,,0,0,0,0,0,1,,Florida International,2018
+Jordan Woods,jordan-woods-1,/cfb/players/jordan-woods-1.html,DL,12,8,2,10,2.0,0.0,0,0,,0,0,0,0,0,1,,Florida International,2018
+Josh Powell,josh-powell-4,/cfb/players/josh-powell-4.html,LB,13,5,5,10,1.0,0.0,0,0,,0,0,0,0,0,0,,Florida International,2018
+Thomas Leo,thomas-leo-1,/cfb/players/thomas-leo-1.html,PK,1,1,7,8,0.0,0.0,0,0,,0,1,0,0,0,0,,Florida International,2018
+Daniel Jackson,daniel-jackson-3,/cfb/players/daniel-jackson-3.html,S,13,5,2,7,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida International,2018
+Benny McCray,benny-mccray-1,/cfb/players/benny-mccray-1.html,CB,12,6,1,7,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida International,2018
+Milord Juste,milord-juste-1,/cfb/players/milord-juste-1.html,DL,7,3,3,6,1.0,1.0,0,0,,0,0,0,0,0,0,,Florida International,2018
+Dimitry Prophete,dimitry-prophete-1,/cfb/players/dimitry-prophete-1.html,LB,13,5,0,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida International,2018
+Shamar Munroe,shamar-munroe-1,/cfb/players/shamar-munroe-1.html,DB,10,2,3,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida International,2018
+Andrew Tarver,andrew-tarver-1,/cfb/players/andrew-tarver-1.html,DT,5,2,2,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida International,2018
+Shawn O'Gorman,shawn-ogorman-1,/cfb/players/shawn-ogorman-1.html,WR,3,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida International,2018
+Romelo Brooks,romelo-brooks-1,/cfb/players/romelo-brooks-1.html,LB,11,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida International,2018
+D'Vonte Price,dvonte-price-1,/cfb/players/dvonte-price-1.html,RB,13,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida International,2018
+Davon Strickland,davon-strickland-1,/cfb/players/davon-strickland-1.html,DL,11,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida International,2018
+Sean Young,sean-young-2,/cfb/players/sean-young-2.html,PK,11,1,0,1,1.0,0.0,0,0,,0,0,0,0,0,0,,Florida International,2018
+Trent McGhee,trent-mcghee-1,/cfb/players/trent-mcghee-1.html,DB,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida International,2018
+Ulice Gillard III,ulice-gillard-iii-1,/cfb/players/ulice-gillard-iii-1.html,S,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida International,2018
+Tony Gaiter IV,tony-gaiter-iv-1,/cfb/players/tony-gaiter-iv-1.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida International,2018
+Napoleon Maxwell,napoleon-maxwell-1,/cfb/players/napoleon-maxwell-1.html,RB,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida International,2018
+Maurice Alexander,maurice-alexander-2,/cfb/players/maurice-alexander-2.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida International,2018
+Lewlin Irving Jr.,lewlin-irving-jr-1,/cfb/players/lewlin-irving-jr-1.html,,1,1,0,1,1.0,0.0,0,0,,0,0,0,0,0,0,,Florida International,2018
+Jose Borregales,jose-borregales-1,/cfb/players/jose-borregales-1.html,PK,13,0,1,1,0.0,0.0,0,0,,0,1,0,0,0,0,,Florida International,2018
+JoJo Louis,jojo-louis-1,/cfb/players/jojo-louis-1.html,,4,1,0,1,1.0,0.0,0,0,,0,0,0,0,0,0,,Florida International,2018
+Isaiah Hill,isaiah-hill-2,/cfb/players/isaiah-hill-2.html,S,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida International,2018
+Estin Thiele,estin-thiele-1,/cfb/players/estin-thiele-1.html,PK,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida International,2018
+Douglas Connell,douglas-connell-1,/cfb/players/douglas-connell-1.html,OL,6,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida International,2018
+Donovan Georges,donovan-georges-1,/cfb/players/donovan-georges-1.html,LB,9,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida International,2018
+DeAndre Williams,deandre-williams-3,/cfb/players/deandre-williams-3.html,,2,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida International,2018
+C.J. Worton,cj-worton-1,/cfb/players/cj-worton-1.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida International,2018
+Austin Maloney,austin-maloney-1,/cfb/players/austin-maloney-1.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida International,2018
+Aris Duffey,aris-duffey-1,/cfb/players/aris-duffey-1.html,DB,5,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida International,2018

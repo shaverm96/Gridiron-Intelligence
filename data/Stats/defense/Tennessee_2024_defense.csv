@@ -1,0 +1,55 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Arion Carter,arion-carter-1,/cfb/players/arion-carter-1.html,LB,13,29,39,68,6.5,0.0,1,15,15.0,0,6,0,0,0,0,,Tennessee,2024
+Will Brooks,will-brooks-1,/cfb/players/will-brooks-1.html,DB,13,35,24,59,4.0,0.5,4,152,38.0,1,5,0,0,0,1,,Tennessee,2024
+Jermod McCoy,jermod-mccoy-1,/cfb/players/jermod-mccoy-1.html,DB,13,26,18,44,0.5,0.0,4,71,17.8,0,9,0,0,0,0,,Tennessee,2024
+Jeremiah Telander,jeremiah-telander-1,/cfb/players/jeremiah-telander-1.html,LB,13,20,23,43,3.5,0.5,0,0,,0,1,3,0,0,0,,Tennessee,2024
+Joshua Josephs,joshua-josephs-1,/cfb/players/joshua-josephs-1.html,DL,13,17,22,39,9.0,1.5,0,0,,0,3,2,0,0,3,,Tennessee,2024
+James Pearce Jr.,james-pearce-jr-1,/cfb/players/james-pearce-jr-1.html,DL,13,23,15,38,13.0,7.5,0,0,,0,1,1,0,0,1,,Tennessee,2024
+Boo Carter,boo-carter-1,/cfb/players/boo-carter-1.html,DB,13,28,10,38,3.0,1.0,1,9,9.0,0,0,0,0,0,0,,Tennessee,2024
+Andre Turrentine,andre-turrentine-1,/cfb/players/andre-turrentine-1.html,DB,13,20,17,37,1.5,0.0,1,0,0.0,0,3,0,0,0,0,,Tennessee,2024
+Jalen Smith,jalen-smith-4,/cfb/players/jalen-smith-4.html,LB,12,13,21,34,1.5,0.0,0,0,,0,0,0,0,0,0,,Tennessee,2024
+Rickey Gibson III,rickey-gibson-iii-1,/cfb/players/rickey-gibson-iii-1.html,DB,12,25,7,32,2.0,0.0,0,0,,0,5,0,0,0,1,,Tennessee,2024
+Keenan Pili,keenan-pili-1,/cfb/players/keenan-pili-1.html,LB,6,11,18,29,1.5,0.0,0,0,,0,0,0,0,0,0,,Tennessee,2024
+Christian Charles,christian-charles-1,/cfb/players/christian-charles-1.html,DB,10,18,10,28,2.0,0.0,0,0,,0,0,0,0,0,0,,Tennessee,2024
+Kalib Perry,kalib-perry-1,/cfb/players/kalib-perry-1.html,LB,12,11,15,26,2.5,0.0,0,0,,0,0,0,0,0,1,,Tennessee,2024
+Dominic Bailey,dominic-bailey-2,/cfb/players/dominic-bailey-2.html,DL,13,10,15,25,3.5,2.0,0,0,,0,0,2,0,0,1,,Tennessee,2024
+Bryson Eason,bryson-eason-1,/cfb/players/bryson-eason-1.html,DL,13,16,8,24,7.0,1.5,0,0,,0,1,0,0,0,0,,Tennessee,2024
+Omari Thomas,omari-thomas-1,/cfb/players/omari-thomas-1.html,DL,13,13,10,23,6.0,1.0,0,0,,0,4,0,0,0,0,,Tennessee,2024
+Jakobe Thomas,jakobe-thomas-1,/cfb/players/jakobe-thomas-1.html,DB,13,14,8,22,3.0,1.0,0,0,,0,2,1,0,0,0,,Tennessee,2024
+Christian Harrison,christian-harrison-1,/cfb/players/christian-harrison-1.html,DB,12,12,8,20,2.5,0.5,0,0,,0,1,0,0,0,0,,Tennessee,2024
+Daevin Hobbs,daevin-hobbs-1,/cfb/players/daevin-hobbs-1.html,DL,13,7,13,20,2.5,1.0,0,0,,0,0,0,0,0,0,,Tennessee,2024
+Omarr Norman-Lott,omarr-norman-lott-1,/cfb/players/omarr-norman-lott-1.html,DL,13,8,10,18,4.0,4.0,0,0,,0,0,0,0,0,0,,Tennessee,2024
+Jaxson Moi,jaxson-moi-1,/cfb/players/jaxson-moi-1.html,DL,13,7,9,16,4.5,2.0,0,0,,0,1,0,0,0,1,,Tennessee,2024
+Tyre West,tyre-west-1,/cfb/players/tyre-west-1.html,DL,12,8,8,16,5.0,2.0,0,0,,0,0,0,0,0,1,,Tennessee,2024
+Jalen McMurray,jalen-mcmurray-1,/cfb/players/jalen-mcmurray-1.html,DB,13,12,2,14,0.0,0.0,0,0,,0,4,0,0,0,0,,Tennessee,2024
+Edrees Farooq,edrees-farooq-1,/cfb/players/edrees-farooq-1.html,DB,13,8,5,13,1.0,0.0,0,0,,0,0,0,0,0,0,,Tennessee,2024
+Elijah Simmons,elijah-simmons-1,/cfb/players/elijah-simmons-1.html,DL,13,4,7,11,1.5,0.0,0,0,,0,0,0,0,0,0,,Tennessee,2024
+Jayson Jenkins,jayson-jenkins-1,/cfb/players/jayson-jenkins-1.html,DL,13,3,6,9,3.5,2.0,0,0,,0,0,0,0,0,1,,Tennessee,2024
+Caleb Herring,caleb-herring-3,/cfb/players/caleb-herring-3.html,DL,12,4,4,8,1.0,0.0,0,0,,0,0,0,0,0,0,,Tennessee,2024
+Edwin Spillman,edwin-spillman-1,/cfb/players/edwin-spillman-1.html,LB,4,3,3,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Tennessee,2024
+Ben Bolton,ben-bolton-1,/cfb/players/ben-bolton-1.html,LB,10,2,3,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Tennessee,2024
+John Slaughter,john-slaughter-1,/cfb/players/john-slaughter-1.html,DB,10,3,2,5,0.5,0.0,1,0,0.0,0,0,0,0,0,0,,Tennessee,2024
+Carson Gentle,carson-gentle-1,/cfb/players/carson-gentle-1.html,DL,3,1,4,5,0.5,0.5,0,0,,0,0,0,0,0,0,,Tennessee,2024
+Eli Purcell,eli-purcell-1,/cfb/players/eli-purcell-1.html,LB,13,0,4,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Tennessee,2024
+Kellen Lindstrom,kellen-lindstrom-1,/cfb/players/kellen-lindstrom-1.html,DL,3,2,2,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Tennessee,2024
+Kaleb Beasley,kaleb-beasley-1,/cfb/players/kaleb-beasley-1.html,DB,13,2,2,4,0.0,0.0,0,0,,0,1,0,0,0,0,,Tennessee,2024
+Jordan Ross,jordan-ross-1,/cfb/players/jordan-ross-1.html,DL,11,1,2,3,1.5,0.0,0,0,,0,0,0,0,0,0,,Tennessee,2024
+Nathan Robinson,nathan-robinson-1,/cfb/players/nathan-robinson-1.html,DL,13,0,3,3,0.5,0.0,0,0,,0,0,0,0,0,0,,Tennessee,2024
+Matthew Salansky,matthew-salansky-1,/cfb/players/matthew-salansky-1.html,LS,13,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Tennessee,2024
+Jordan Matthews,jordan-matthews-2,/cfb/players/jordan-matthews-2.html,DB,12,2,1,3,0.0,0.0,0,0,,0,2,0,0,0,0,,Tennessee,2024
+Ryan Scott,ryan-scott-4,/cfb/players/ryan-scott-4.html,LB,4,2,1,3,1.0,0.0,0,0,,0,0,0,0,0,0,,Tennessee,2024
+Jamal Wallace,jamal-wallace-3,/cfb/players/jamal-wallace-3.html,DL,3,0,3,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Tennessee,2024
+Tyree Weathersby,tyree-weathersby-1,/cfb/players/tyree-weathersby-1.html,DL,13,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Tennessee,2024
+William Wright,william-wright-2,/cfb/players/william-wright-2.html,DB,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Tennessee,2024
+Peyton Lewis,peyton-lewis-1,/cfb/players/peyton-lewis-1.html,RB,13,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Tennessee,2024
+Nico Iamaleava,nico-iamaleava-1,/cfb/players/nico-iamaleava-1.html,QB,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Tennessee,2024
+Nathan Leacock,nathan-leacock-1,/cfb/players/nathan-leacock-1.html,WR,5,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Tennessee,2024
+Mike Bethea II,mike-bethea-ii-1,/cfb/players/mike-bethea-ii-1.html,DL,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Tennessee,2024
+Marcus Goree Jr.,marcus-goree-jr-1,/cfb/players/marcus-goree-jr-1.html,DB,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Tennessee,2024
+Jordan Burns,jordan-burns-1,/cfb/players/jordan-burns-1.html,LB,1,0,1,1,0.5,0.5,0,0,,0,0,0,0,0,0,,Tennessee,2024
+Jackson Mathews,jackson-mathews-1,/cfb/players/jackson-mathews-1.html,DB,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Tennessee,2024
+Grier Short,grier-short-1,/cfb/players/grier-short-1.html,LB,3,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Tennessee,2024
+Gaston Moore,gaston-moore-1,/cfb/players/gaston-moore-1.html,QB,6,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Tennessee,2024
+Dont'e Thornton,donte-thornton-1,/cfb/players/donte-thornton-1.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Tennessee,2024
+Colin Brazzell,colin-brazzell-1,/cfb/players/colin-brazzell-1.html,DB,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Tennessee,2024
+Andrej Karic,andrej-karic-1,/cfb/players/andrej-karic-1.html,OL,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Tennessee,2024

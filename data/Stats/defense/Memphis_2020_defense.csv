@@ -1,0 +1,45 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Quindell Johnson,quindell-johnson-1,/cfb/players/quindell-johnson-1.html,DB,11,60,21,81,2.0,0.0,3,31,10.3,0,5,1,0,0,2,,Memphis,2020
+JJ Russell,jj-russell-1,/cfb/players/jj-russell-1.html,LB,11,39,19,58,3.5,0.0,0,0,,0,3,0,0,0,1,,Memphis,2020
+Thomas Pickens,thomas-pickens-1,/cfb/players/thomas-pickens-1.html,LB,10,36,17,53,5.0,3.0,1,1,1.0,0,2,0,0,0,0,,Memphis,2020
+Rodney Owens,rodney-owens-1,/cfb/players/rodney-owens-1.html,DB,11,37,16,53,2.5,0.0,3,-8,-2.7,0,6,0,0,0,1,,Memphis,2020
+Tyrez Lindsey,tyrez-lindsey-1,/cfb/players/tyrez-lindsey-1.html,DB,11,43,9,52,2.0,0.0,0,0,,0,3,1,0,0,0,,Memphis,2020
+Morris Joseph Jr.,morris-joseph-jr-1,/cfb/players/morris-joseph-jr-1.html,DL,11,39,13,52,10.5,7.0,0,0,,0,0,0,0,0,0,,Memphis,2020
+Cole Mashburn,cole-mashburn-1,/cfb/players/cole-mashburn-1.html,DE,11,27,12,39,3.5,1.0,0,0,,0,0,2,3,0,0,,Memphis,2020
+Sanchez Blake Jr.,sanchez-blake-jr-1,/cfb/players/sanchez-blake-jr-1.html,DB,11,24,13,37,0.0,0.0,0,0,,0,1,0,0,0,1,,Memphis,2020
+Joseph Dorceus,joseph-dorceus-1,/cfb/players/joseph-dorceus-1.html,DL,9,21,9,30,8.5,3.0,0,0,,0,0,0,0,0,0,,Memphis,2020
+Jojo Dorceus,jojo-dorceus-1,/cfb/players/jojo-dorceus-1.html,,11,21,9,30,8.5,3.0,0,0,,0,0,0,0,0,0,,Memphis,2020
+Xavier Cullens,xavier-cullens-1,/cfb/players/xavier-cullens-1.html,LB,9,20,9,29,4.0,2.0,1,0,0.0,0,1,0,0,0,0,,Memphis,2020
+Jacobi Francis,jacobi-francis-1,/cfb/players/jacobi-francis-1.html,CB,9,24,4,28,3.0,0.0,2,28,14.0,0,7,0,0,0,0,,Memphis,2020
+O'Bryan Goodson,obryan-goodson-1,/cfb/players/obryan-goodson-1.html,DL,9,19,9,28,8.0,4.0,0,0,,0,0,1,0,0,2,,Memphis,2020
+Sylvonta Oliver,sylvonta-oliver-1,/cfb/players/sylvonta-oliver-1.html,DB,11,21,5,26,1.0,0.0,1,0,0.0,0,5,0,0,0,0,,Memphis,2020
+John Broussard Jr.,john-broussard-jr-1,/cfb/players/john-broussard-jr-1.html,DB,9,19,2,21,0.0,0.0,0,0,,0,0,1,0,0,2,,Memphis,2020
+Jalil Clemons,jalil-clemons-1,/cfb/players/jalil-clemons-1.html,LB,9,12,7,19,3.0,1.0,0,0,,0,1,0,0,0,0,,Memphis,2020
+Wardalis Ducksworth,wardalis-duckworth-1,/cfb/players/wardalis-duckworth-1.html,DL,11,10,9,19,4.0,4.0,0,0,,0,0,0,0,0,0,,Memphis,2020
+Jaylon Allen,jaylon-allen-1,/cfb/players/jaylon-allen-1.html,DE,11,6,5,11,2.0,1.0,0,0,,0,0,1,85,1,0,,Memphis,2020
+Terrell Carter,terrell-carter-1,/cfb/players/terrell-carter-1.html,DB,7,8,3,11,0.0,0.0,0,0,,0,3,1,0,0,0,,Memphis,2020
+Keith Brown Jr.,keith-brown-jr-1,/cfb/players/keith-brown-jr-1.html,LB,10,9,1,10,0.0,0.0,0,0,,0,0,0,0,0,0,,Memphis,2020
+John Cartwright,john-cartwright-2,/cfb/players/john-cartwright-2.html,DL,5,5,2,7,0.0,0.0,1,6,6.0,0,0,0,0,0,0,,Memphis,2020
+Kajuan Robinson,kajuan-robinson-1,/cfb/players/kajuan-robinson-1.html,DL,11,1,4,5,1.5,0.0,0,0,,0,1,0,0,0,0,,Memphis,2020
+Gabriel Rogers,gabriel-rogers-1,/cfb/players/gabriel-rogers-1.html,DB,11,2,3,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Memphis,2020
+Maurice White,maurice-white-3,/cfb/players/maurice-white-3.html,DL,11,3,1,4,1.0,0.0,0,0,,0,1,0,0,0,0,,Memphis,2020
+Tahj Washington,tahj-washington-1,/cfb/players/tahj-washington-1.html,WR,11,4,0,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Memphis,2020
+Calvin Austin III,calvin-austin-iii-1,/cfb/players/calvin-austin-iii-1.html,WR,11,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Memphis,2020
+Marquavius Weaver,marquavius-weaver-1,/cfb/players/marquavius-weaver-1.html,RB,11,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Memphis,2020
+Nigel Brannon,nigel-brannon-1,/cfb/players/nigel-brannon-1.html,DL,9,1,1,2,1.0,0.0,0,0,,0,0,0,0,0,0,,Memphis,2020
+Harold Nash III,harold-nash-iii-1,/cfb/players/harold-nash-iii-1.html,DB,9,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Memphis,2020
+Cade Mashburn,cade-mashburn-1,/cfb/players/cade-mashburn-1.html,LB,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Memphis,2020
+An'darius Coffey,andarius-coffey-1,/cfb/players/andarius-coffey-1.html,DB,9,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Memphis,2020
+Camron Jackson,camron-jackson-1,/cfb/players/camron-jackson-1.html,DL,9,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Memphis,2020
+Chandler Stump,chandler-stump-1,/cfb/players/chandler-stump-1.html,LB,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Memphis,2020
+Terryen Collins,terryen-collins-1,/cfb/players/terryen-collins-1.html,DB,2,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Memphis,2020
+Dylan Parham,dylan-parham-2,/cfb/players/dylan-parham-2.html,OL,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Memphis,2020
+Evan Fields,evan-fields-2,/cfb/players/evan-fields-2.html,OL,5,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Memphis,2020
+Sean Dykes,sean-dykes-2,/cfb/players/sean-dykes-2.html,TE,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Memphis,2020
+Everitt Cunningham,everitt-cunningham-1,/cfb/players/everitt-cunningham-1.html,DE,4,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Memphis,2020
+Riley Patterson,riley-patterson-1,/cfb/players/riley-patterson-1.html,PK,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Memphis,2020
+Preston Brady,preston-brady-1,/cfb/players/preston-brady-1.html,LS,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Memphis,2020
+Ja'Len Sims,jalen-sims-1,/cfb/players/jalen-sims-1.html,LB,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Memphis,2020
+Jason Ivory,jason-ivory-1,/cfb/players/jason-ivory-1.html,WR,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Memphis,2020
+Joshua Hastings,joshua-hastings-1,/cfb/players/joshua-hastings-1.html,DB,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Memphis,2020
+Kayode Oladele,kayode-oladele-1,/cfb/players/kayode-oladele-1.html,DL,8,1,0,1,1.0,0.0,0,0,,0,0,0,0,0,0,,Memphis,2020

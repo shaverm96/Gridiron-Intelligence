@@ -1,0 +1,40 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Garret Wallow,garret-wallow-1,/cfb/players/garret-wallow-1.html,LB,10,50,40,90,9.0,3.0,0,0,,0,1,0,0,0,3,,Texas Christian,2020
+Dee Winters,dee-winters-1,/cfb/players/dee-winters-1.html,LB,10,40,25,65,9.5,2.0,0,0,,0,2,1,2,1,0,,Texas Christian,2020
+Trevon Moehrig-Woodard,trevon-moehrig-woodard-1,/cfb/players/trevon-moehrig-woodard-1.html,S,10,30,17,47,2.0,0.0,2,0,0.0,0,9,0,0,0,0,,Texas Christian,2020
+Ochaun Mathis,ochaun-mathis-1,/cfb/players/ochaun-mathis-1.html,DE,10,26,20,46,14.0,9.0,0,0,,0,0,1,0,0,1,,Texas Christian,2020
+La'Kendrick Van Zandt,lakendrick-van-zandt-1,/cfb/players/lakendrick-van-zandt-1.html,S,10,29,15,44,5.5,1.0,2,37,18.5,0,4,1,24,1,0,,Texas Christian,2020
+Nook Bradford,nook-bradford-1,/cfb/players/nook-bradford-1.html,S,10,35,9,44,6.5,0.0,0,0,,0,1,0,0,0,0,,Texas Christian,2020
+Ar'Darius Washington,ardarius-washington-1,/cfb/players/ardarius-washington-1.html,S,10,26,12,38,1.0,0.0,0,0,,0,5,0,0,0,0,,Texas Christian,2020
+Khari Coleman,khari-coleman-1,/cfb/players/khari-coleman-1.html,DE,9,19,14,33,15.0,3.0,0,0,,0,0,0,0,0,0,,Texas Christian,2020
+Tre'vius Hodges-Tomlinson,trevius-hodges-tomlinson-1,/cfb/players/trevius-hodges-tomlinson-1.html,CB,10,14,12,26,0.0,0.0,0,0,,0,13,0,0,0,0,,Texas Christian,2020
+Terrell Cooper,terrell-cooper-1,/cfb/players/terrell-cooper-1.html,DT,9,9,14,23,4.5,1.0,0,0,,0,0,0,0,0,0,,Texas Christian,2020
+Noah Daniels,noah-daniels-1,/cfb/players/noah-daniels-1.html,CB,4,14,0,14,1.0,0.0,0,0,,0,4,0,0,0,0,,Texas Christian,2020
+Josh Foster,josh-foster-1,/cfb/players/josh-foster-1.html,S,10,12,2,14,0.0,0.0,1,0,0.0,0,0,0,0,0,0,,Texas Christian,2020
+Hidari Ceasar,hidari-ceasar-1,/cfb/players/hidari-ceasar-1.html,CB,10,11,1,12,0.0,0.0,3,47,15.7,1,4,0,0,0,0,,Texas Christian,2020
+Parker Workman,parker-workman-1,/cfb/players/parker-workman-1.html,DE,10,6,5,11,1.5,1.5,0,0,,0,0,0,0,0,0,,Texas Christian,2020
+George Ellis III,george-ellis-iii-1,/cfb/players/george-ellis-iii-1.html,DT,9,3,8,11,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas Christian,2020
+Earl Barquet,earl-barquet-1,/cfb/players/earl-barquet-1.html,DE,6,6,3,9,2.5,2.5,0,0,,0,0,0,0,0,0,,Texas Christian,2020
+Kee'yon Stewart,keeyon-stewart-1,/cfb/players/keeyon-stewart-1.html,CB,5,6,3,9,1.5,1.0,0,0,,0,1,0,0,0,0,,Texas Christian,2020
+Patrick Jenkins,patrick-jenkins-1,/cfb/players/patrick-jenkins-1.html,DT,6,2,6,8,1.0,1.0,0,0,,0,0,0,0,0,0,,Texas Christian,2020
+Dylan Horton,dylan-horton-1,/cfb/players/dylan-horton-1.html,DE,8,4,4,8,1.0,1.0,0,0,,0,0,0,0,0,1,,Texas Christian,2020
+Corey Bethley,corey-bethley-1,/cfb/players/corey-bethley-1.html,DT,4,4,2,6,2.0,1.0,0,0,,0,0,1,0,0,0,,Texas Christian,2020
+Deshawn McCuin,deshawn-mccuin-1,/cfb/players/deshawn-mccuin-1.html,S,9,5,1,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas Christian,2020
+Colt Ellison,colt-ellison-1,/cfb/players/colt-ellison-1.html,DE,8,4,1,5,1.5,0.0,0,0,,0,0,0,0,0,0,,Texas Christian,2020
+Soni Misi,soni-misi-1,/cfb/players/soni-misi-1.html,DT,8,2,3,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas Christian,2020
+Wyatt Harris,wyatt-harris-1,/cfb/players/wyatt-harris-1.html,LB,9,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas Christian,2020
+Donavann Collins,donavann-collins-1,/cfb/players/donavann-collins-1.html,S,7,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas Christian,2020
+Derius Davis,derius-davis-1,/cfb/players/derius-davis-1.html,WR,9,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas Christian,2020
+Chase Curtis,chase-curtis-1,/cfb/players/chase-curtis-1.html,WR,3,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas Christian,2020
+Bud Clark,bud-clark-1,/cfb/players/bud-clark-1.html,S,10,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas Christian,2020
+Ben Wilson,ben-wilson-3,/cfb/players/ben-wilson-3.html,LB,10,3,0,3,1.0,0.0,0,0,,0,0,0,0,0,0,,Texas Christian,2020
+Marcel Brooks,marcel-brooks-2,/cfb/players/marcel-brooks-2.html,LB,6,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas Christian,2020
+Max Duggan,max-duggan-1,/cfb/players/max-duggan-1.html,QB,10,0,1,1,0.0,0.0,0,0,,0,0,1,0,0,0,,Texas Christian,2020
+Jordy Sandy,jordy-sandy-1,/cfb/players/jordy-sandy-1.html,P,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas Christian,2020
+Emari Demercado,emari-demercado-1,/cfb/players/emari-demercado-1.html,RB,8,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas Christian,2020
+Dylan Jordan,dylan-jordon-1,/cfb/players/dylan-jordon-1.html,LB,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas Christian,2020
+Quentin Johnston,quentin-johnston-1,/cfb/players/quentin-johnston-1.html,WR,9,0,1,1,0.0,0.0,0,0,,0,0,1,0,0,0,,Texas Christian,2020
+Taye Barber,taye-barber-1,/cfb/players/taye-barber-1.html,WR,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas Christian,2020
+Brandon Bowen,brandon-bowen-1,/cfb/players/brandon-bowen-1.html,DE,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas Christian,2020
+Andrew Coker,andrew-coker-1,/cfb/players/andrew-coker-1.html,T,8,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas Christian,2020
+Kendre Miller,kendre-miller-1,/cfb/players/kendre-miller-1.html,RB,9,0,0,0,0.0,0.0,0,0,,0,0,1,0,0,0,,Texas Christian,2020

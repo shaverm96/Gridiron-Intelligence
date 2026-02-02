@@ -1,0 +1,52 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Kristopher Moll,kristopher-moll-1,/cfb/players/kristopher-moll-1.html,LB,13,69,35,104,16.0,9.0,1,11,11.0,0,1,1,0,0,4,,UAB,2019
+Noah Wilder,noah-wilder-1,/cfb/players/noah-wilder-1.html,LB,13,47,38,85,10.5,3.0,0,0,,0,1,1,0,0,1,,UAB,2019
+Will Boler,will-boler-1,/cfb/players/will-boler-1.html,S,14,36,22,58,2.5,0.0,2,0,0.0,0,9,0,0,0,0,,UAB,2019
+Jordan Smith,jordan-smith-5,/cfb/players/jordan-smith-5.html,LB,14,34,19,53,17.5,10.0,0,0,,0,1,0,0,0,4,,UAB,2019
+Dy'Jonn Turner,dyjonn-turner-1,/cfb/players/dyjonn-turner-1.html,S,14,30,15,45,1.5,0.0,1,0,0.0,0,10,0,0,0,1,,UAB,2019
+Garrett Marino,garrett-marino-1,/cfb/players/garrett-marino-1.html,DL,14,29,14,43,13.5,6.0,0,0,,0,7,1,0,0,1,,UAB,2019
+Fitzgerald Mofor,fitzgerald-mofor-1,/cfb/players/fitzgerald-mofor-1.html,LB,14,20,22,42,8.0,3.0,0,0,,0,1,1,0,0,0,,UAB,2019
+Grayson Cash,grayson-cash-1,/cfb/players/grayson-cash-1.html,S,14,33,7,40,2.0,0.0,0,0,,0,3,0,0,0,2,,UAB,2019
+Tony Fair,tony-fair-1,/cfb/players/tony-fair-1.html,DL,14,21,15,36,5.0,1.0,0,0,,0,0,0,0,0,2,,UAB,2019
+Will Dawkins,will-dawkins-1,/cfb/players/will-dawkins-1.html,S,10,18,10,28,1.0,0.0,1,0,0.0,0,2,0,0,0,0,,UAB,2019
+TaDarryl Marshall,tadarryl-marshall-1,/cfb/players/tadarryl-marshall-1.html,CB,14,24,4,28,1.0,0.0,1,76,76.0,1,7,1,0,0,0,,UAB,2019
+Alex Wright,alex-wright-2,/cfb/players/alex-wright-2.html,LB,14,16,12,28,8.5,4.5,0,0,,0,0,2,42,0,1,,UAB,2019
+Starling Thomas V,starling-thomas-1,/cfb/players/starling-thomas-1.html,CB,14,17,10,27,0.0,0.0,1,0,0.0,0,3,1,0,0,0,,UAB,2019
+Antonio Moultrie,antonio-moultrie-1,/cfb/players/antonio-moultrie-1.html,DL,14,10,10,20,1.5,0.0,0,0,,0,1,0,0,0,0,,UAB,2019
+CD Daniels,cd-daniels-1,/cfb/players/cd-daniels-1.html,CB,9,12,3,15,2.0,0.0,0,0,,0,1,0,0,0,0,,UAB,2019
+Adrienne Talan,adrienne-talan-1,/cfb/players/adrienne-talan-1.html,LB,12,8,5,13,3.5,2.5,0,0,,0,0,0,0,0,1,,UAB,2019
+Kyle Harrell,kyle-harrell-1,/cfb/players/kyle-harrell-1.html,LB,14,7,5,12,2.5,1.0,0,0,,0,0,0,0,0,0,,UAB,2019
+Fish Mcwilliams,fish-mcwilliams-1,/cfb/players/fish-mcwilliams-1.html,DL,14,7,4,11,2.5,1.5,0,0,,0,0,2,0,0,0,,UAB,2019
+A.J. Brooks,aj-brooks-2,/cfb/players/aj-brooks-2.html,CB,13,8,2,10,0.0,0.0,0,0,,0,2,0,0,0,0,,UAB,2019
+Thomas Johnston,thomas-johnston-1,/cfb/players/thomas-johnston-1.html,LB,13,7,2,9,1.0,0.0,0,0,,0,0,1,0,0,0,,UAB,2019
+Jarrion Street,jarrion-street-1,/cfb/players/jarrion-street-1.html,S,1,7,1,8,1.0,1.0,0,0,,0,0,0,0,0,0,,UAB,2019
+Nikia Eason,nikia-eason-1,/cfb/players/nikia-eason-1.html,LB,8,4,3,7,0.5,0.5,0,0,,0,0,0,0,0,0,,UAB,2019
+Damien Miller,damien-miller-1,/cfb/players/damien-miller-1.html,CB,12,5,2,7,0.5,0.0,0,0,,0,0,0,0,0,0,,UAB,2019
+Luke Brasher,luke-brasher-1,/cfb/players/luke-brasher-1.html,LB,13,6,1,7,1.0,0.0,0,0,,0,1,0,0,0,0,,UAB,2019
+Keondre Swoopes,keondre-swoopes-1,/cfb/players/keondre-swoopes-1.html,CB,14,4,3,7,0.0,0.0,0,0,,0,5,0,0,0,0,,UAB,2019
+Kobe Griffin,kobe-griffin-1,/cfb/players/kobe-griffin-1.html,LB,12,3,4,7,0.0,0.0,0,0,,0,1,0,0,0,0,,UAB,2019
+Devodric Bynum,devodric-bynum-1,/cfb/players/devodric-bynum-1.html,CB,14,5,1,6,0.0,0.0,0,0,,0,0,0,0,0,0,,UAB,2019
+LJ Smith III,lj-smith-iii-1,/cfb/players/lj-smith-iii-1.html,LB,2,4,0,4,1.0,0.0,0,0,,0,0,0,0,0,1,,UAB,2019
+Jaunta'vius Johnson,jauntavius-johnson-1,/cfb/players/jauntavius-johnson-1.html,DL,14,4,0,4,0.0,0.0,0,0,,0,0,0,0,0,0,,UAB,2019
+Jacob Fuqua,jacob-fuqua-1,/cfb/players/jacob-fuqua-1.html,LS,14,2,2,4,0.0,0.0,0,0,,0,0,1,0,0,0,,UAB,2019
+Mi'Cario Stanley,micario-stanley-1,/cfb/players/micario-stanley-1.html,,10,1,2,3,1.0,0.0,0,0,,0,0,0,0,0,0,,UAB,2019
+Larry Wooden,larry-wooden-1,/cfb/players/larry-wooden-1.html,RB,10,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,1,,UAB,2019
+Rio Stanley,rio-stanley-1,/cfb/players/rio-stanley-1.html,DL,3,1,2,3,1.0,0.0,0,0,,0,0,0,0,0,0,,UAB,2019
+Jaylen Key,jaylen-key-1,/cfb/players/jaylen-key-1.html,S,14,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,UAB,2019
+Kendall Parham,kendall-parham-1,/cfb/players/kendall-parham-1.html,WR,13,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,UAB,2019
+Markus Grossman,markus-grossman-1,/cfb/players/markus-grossman-1.html,WR,13,1,1,2,0.5,0.0,0,0,,0,0,0,0,0,0,,UAB,2019
+Michael Wright,michael-wright-3,/cfb/players/michael-wright-3.html,LB,6,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,UAB,2019
+Myron Mitchell,myron-mitchell-1,/cfb/players/myron-mitchell-1.html,WR,14,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,UAB,2019
+Jonathan Haden,jonathan-haden-1,/cfb/players/jonathan-haden-1.html,RB,13,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,UAB,2019
+Hayden Pittman,hayden-pittman-1,/cfb/players/hayden-pittman-1.html,TE,14,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,UAB,2019
+Rubin Stinson III,rubin-stinson-iii-1,/cfb/players/rubin-stinson-iii-1.html,LB,8,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,UAB,2019
+Spencer Brown,spencer-brown-3,/cfb/players/spencer-brown-3.html,RB,12,2,0,2,0.0,0.0,0,0,,0,1,0,0,0,0,,UAB,2019
+Damon Miller,damon-miller-1,/cfb/players/damon-miller-1.html,S,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UAB,2019
+Tyler Johnston III,tyler-johnston-iii-1,/cfb/players/tyler-johnston-iii-1.html,QB,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UAB,2019
+Deshaun Oliver Jr.,deshaun-oliver-jr-1,/cfb/players/deshaun-oliver-jr-1.html,LB,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UAB,2019
+Terrell McDonald,terrell-mcdonald-1,/cfb/players/terrell-mcdonald-1.html,LB,3,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UAB,2019
+Rashard Revels,rashard-revels-1,/cfb/players/rashard-revels-1.html,S,8,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UAB,2019
+Paul Hammonds,paul-hammonds-1,/cfb/players/paul-hammonds-1.html,LB,2,1,0,1,1.0,1.0,0,0,,0,0,0,0,0,0,,UAB,2019
+Austin Watkins,austin-watkins-1,/cfb/players/austin-watkins-1.html,WR,14,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UAB,2019
+Michael Fairbanks II,michael-fairbanks-ii-1,/cfb/players/michael-fairbanks-ii-1.html,DL,13,0,1,1,0.0,0.0,0,0,,0,0,1,0,0,0,,UAB,2019
+Lucious Stanley,lucious-stanley-1,/cfb/players/lucious-stanley-1.html,RB,12,0,1,1,0.5,0.0,0,0,,0,0,0,0,0,0,,UAB,2019

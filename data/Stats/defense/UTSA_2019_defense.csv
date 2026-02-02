@@ -1,0 +1,45 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Andrew Martel,andrew-martel-1,/cfb/players/andrew-martel-1.html,LB,12,57,26,83,7.0,1.0,0,0,,0,2,0,0,0,1,,UTSA,2019
+Carl Austin III,carl-austin-iii-1,/cfb/players/carl-austin-iii-1.html,S,12,47,20,67,7.5,0.0,0,0,,0,1,0,0,0,1,,UTSA,2019
+Trevor Harmanson,trevor-harmanson-1,/cfb/players/trevor-harmanson-1.html,LB,12,34,14,48,8.5,0.0,0,0,,0,1,1,0,0,0,,UTSA,2019
+Rashad Wisdom,rashad-wisdom-1,/cfb/players/rashad-wisdom-1.html,S,12,31,13,44,5.5,2.0,1,34,34.0,1,1,1,0,0,1,,UTSA,2019
+Jaylon Haynes,jaylon-haynes-1,/cfb/players/jaylon-haynes-1.html,DT,12,25,15,40,12.5,2.0,0,0,,0,2,1,0,0,1,,UTSA,2019
+Savion Harris,savion-harris-1,/cfb/players/savion-harris-1.html,S,11,25,13,38,0.5,0.0,1,0,0.0,0,3,0,0,0,0,,UTSA,2019
+Jarrod Carter-McLin,jarrod-carter-mclin-1,/cfb/players/jarrod-carter-mclin-1.html,DE,12,20,17,37,9.5,4.5,1,2,2.0,0,2,1,0,0,1,,UTSA,2019
+Kelechi Nwachuku,kelechi-nwachuku-1,/cfb/players/kelechi-nwachuku-1.html,S,12,23,13,36,1.0,0.0,0,0,,0,3,0,0,0,0,,UTSA,2019
+Cassius Grady,cassius-grady-1,/cfb/players/cassius-grady-1.html,CB,11,32,3,35,3.0,1.0,2,-3,-1.5,0,7,0,0,0,1,,UTSA,2019
+DeQuarius Henry,dequarius-henry-1,/cfb/players/dequarius-henry-1.html,DE,12,21,8,29,9.0,5.0,0,0,,0,0,0,0,0,1,,UTSA,2019
+Clarence Hicks,clarence-hicks-1,/cfb/players/clarence-hicks-1.html,DE,12,19,6,25,10.0,2.0,0,0,,0,1,0,0,0,1,,UTSA,2019
+Jahmal Sam,jahmal-sam-1,/cfb/players/jahmal-sam-1.html,S,12,19,5,24,0.5,0.0,0,0,,0,0,0,0,0,2,,UTSA,2019
+Eric Banks,eric-banks-1,/cfb/players/eric-banks-1.html,DE,12,15,8,23,3.5,3.0,0,0,,0,2,1,0,0,1,,UTSA,2019
+Lorenzo Dantzler,lorenzo-dantzler-1,/cfb/players/lorenzo-dantzler-1.html,DE,12,13,9,22,6.5,4.5,0,0,,0,1,0,0,0,0,,UTSA,2019
+Baylen Baker,baylen-baker-1,/cfb/players/baylen-baker-1.html,DT,12,12,10,22,4.0,0.0,0,0,,0,2,0,0,0,0,,UTSA,2019
+Clayton Johnson,clayton-johnson-1,/cfb/players/clayton-johnson-1.html,CB,12,15,6,21,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2019
+Corey Mayfield Jr.,corey-mayfield-jr-1,/cfb/players/corey-mayfield-jr-1.html,CB,11,13,6,19,1.0,0.0,0,0,,0,4,0,0,0,0,,UTSA,2019
+Ladarian McFarland,ladarian-mcfarland-1,/cfb/players/ladarian-mcfarland-1.html,LB,12,8,8,16,0.0,0.0,0,0,,0,0,1,0,0,0,,UTSA,2019
+Brandon Matterson,brandon-matterson-1,/cfb/players/brandon-matterson-1.html,DT,9,8,5,13,2.0,0.0,0,0,,0,0,1,0,0,1,,UTSA,2019
+Antonio Parks,antonio-parks-1,/cfb/players/antonio-parks-1.html,CB,11,8,2,10,0.0,0.0,0,0,,0,0,0,0,0,1,,UTSA,2019
+Dadrian Taylor,dadrian-taylor-1,/cfb/players/dadrian-taylor-1.html,S,10,8,1,9,0.0,0.0,1,58,58.0,1,0,0,0,0,0,,UTSA,2019
+Jarrett Preston,jarrett-preston-1,/cfb/players/jarrett-preston-1.html,LB,12,3,4,7,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2019
+Kevin Nelson,kevin-nelson-3,/cfb/players/kevin-nelson-3.html,DT,12,5,2,7,0.0,0.0,0,0,,0,1,1,0,0,0,,UTSA,2019
+King Newton,king-newton-1,/cfb/players/king-newton-1.html,DT,4,2,5,7,0.5,0.0,0,0,,0,0,0,0,0,0,,UTSA,2019
+De'Marco Guidry,demarco-guidry-1,/cfb/players/demarco-guidry-1.html,LB,3,3,3,6,0.0,0.0,0,0,,0,0,1,0,0,0,,UTSA,2019
+Teddrick McGhee,teddrick-mcghee-1,/cfb/players/teddrick-mcghee-1.html,CB,6,5,1,6,1.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2019
+Tyler Mahnke,tyler-mahnke-1,/cfb/players/tyler-mahnke-1.html,LB,12,3,2,5,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2019
+Myles Benning,myles-benning-1,/cfb/players/myles-benning-1.html,FB,12,2,2,4,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2019
+Vance Vallair,vance-vallair-1,/cfb/players/vance-vallair-1.html,S,12,1,1,2,1.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2019
+Trumane Bell II,trumane-bell-ii-1,/cfb/players/trumane-bell-ii-1.html,,12,2,0,2,1.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2019
+Trumane Bell,trumane-bell-2,/cfb/players/trumane-bell-2.html,DE,2,2,0,2,1.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2019
+B.J. Daniels,bj-daniels-2,/cfb/players/bj-daniels-2.html,RB,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2019
+Tariq Woolen,tariq-woolen-1,/cfb/players/tariq-woolen-1.html,WR,9,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2019
+Solomon Wise,solomon-wise-1,/cfb/players/solomon-wise-1.html,DE,8,2,0,2,1.0,1.0,0,0,,0,1,0,0,0,0,,UTSA,2019
+Blaze Moorhead,blaze-moorhead-1,/cfb/players/blaze-moorhead-1.html,WR,12,2,0,2,0.0,0.0,0,0,,0,0,1,0,1,0,,UTSA,2019
+Brenden Brady,brenden-brady-1,/cfb/players/brenden-brady-1.html,RB,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2019
+Matthew Cluck,matthew-cluck-1,/cfb/players/matthew-cluck-1.html,PK,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2019
+Layton Garnett,layton-garnett-1,/cfb/players/layton-garnett-1.html,LB,5,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2019
+Terrell Haynes,terrell-haynes-1,/cfb/players/terrell-haynes-1.html,OL,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2019
+Kevin Davis,kevin-davis-7,/cfb/players/kevin-davis-7.html,OL,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2019
+Ken Robinson,ken-robinson-2,/cfb/players/ken-robinson-2.html,CB,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2019
+Deven Boston,deven-boston-1,/cfb/players/deven-boston-1.html,RB,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2019
+Dominic Sheppard,dominic-sheppard-1,/cfb/players/dominic-sheppard-1.html,LB,3,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2019
+Grant Merka,grant-merka-1,/cfb/players/grant-merka-1.html,LS,9,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2019

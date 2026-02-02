@@ -1,0 +1,231 @@
+Player,Player_ID,Player_Link,team_name_abbr,conf_abbr,games,xpm,xpa,xp_pct,fgm,fga,fg_pct,kick_points,awards,Year
+Bert Auburn,bert-auburn-1,/cfb/players/bert-auburn-1.html,Miami (FL),ACC,6,8,8,100.0,1,1,100.0,11,,2025
+Blake Craig,blake-craig-1,/cfb/players/blake-craig-1.html,Missouri,SEC,1,3,3,100.0,2,2,100.0,9,,2025
+Chase Allen,chase-allen-2,/cfb/players/chase-allen-2.html,Rice,American,7,2,2,100.0,1,1,100.0,5,,2025
+David Barker,david-barker-1,/cfb/players/david-barker-1.html,New Mexico State,CUSA,3,4,5,80.0,3,3,100.0,13,,2025
+Davis Little,davis-little-1,/cfb/players/davis-little-1.html,South Alabama,Sun Belt,5,13,15,86.7,1,1,100.0,16,,2025
+Jack Cassidy,jack-cassidy-2,/cfb/players/jack-cassidy-2.html,Western Kentucky,CUSA,13,0,0,,3,3,100.0,9,,2025
+Kaegan Kent,kaegan-kent-1,/cfb/players/kaegan-kent-1.html,Louisiana Tech,CUSA,3,9,9,100.0,2,2,100.0,15,,2025
+Kyle Lemmermann,kyle-lemmermann-1,/cfb/players/kyle-lemmermann-1.html,Texas Christian,Big 12,2,9,9,100.0,3,3,100.0,18,,2025
+Luke Akers,luke-akers-1,/cfb/players/luke-akers-1.html,Northwestern,Big Ten,13,2,2,100.0,3,3,100.0,11,,2025
+Upton Bellenfant,upton-bellenfant-1,/cfb/players/upton-bellenfant-1.html,Texas Tech,Big 12,7,14,16,87.5,6,6,100.0,32,,2025
+Luke Drzewiecki,luke-drzewiecki-1,/cfb/players/luke-drzewiecki-1.html,New Mexico,MWC,13,36,36,100.0,18,19,94.7,90,,2025
+Nicolas Radicic,nicolas-radicic-1,/cfb/players/nicolas-radicic-1.html,Indiana,Big Ten,16,87,87,100.0,18,19,94.7,141,,2025
+Ryan Barker,ryan-barker-1,/cfb/players/ryan-barker-1.html,Penn State,Big Ten,13,44,45,97.8,18,19,94.7,98,,2025
+Luca Lombardo,luca-lombardo-1,/cfb/players/luca-lombardo-1.html,Boston College,ACC,12,35,35,100.0,16,17,94.1,83,,2025
+Kansei Matsuzawa,kansei-matsuzawa-1,/cfb/players/kansei-matsuzawa-1.html,Hawaii,MWC,13,40,40,100.0,27,29,93.1,121,AA,2025
+Brock Taylor,brock-taylor-1,/cfb/players/brock-taylor-1.html,Vanderbilt,SEC,13,60,61,98.4,13,14,92.9,99,,2025
+Kali Nguma,kali-nguma-1,/cfb/players/kali-nguma-1.html,North Texas,American,13,70,70,100.0,12,13,92.3,106,,2025
+Matthew Schramm,matthew-schramm-1,/cfb/players/matthew-schramm-1.html,Akron,MAC,7,16,17,94.1,12,13,92.3,52,,2025
+Tyler Robles,tyler-robles-1,/cfb/players/tyler-robles-1.html,Texas State,Sun Belt,13,53,54,98.1,21,23,91.3,116,,2025
+Nathan Kirkwood,nathan-kirkwood-1,/cfb/players/nathan-kirkwood-1.html,Navy,American,13,53,53,100.0,10,11,90.9,83,,2025
+Jack Olsen,jack-olsen-1,/cfb/players/jack-olsen-1.html,Northwestern,Big Ten,12,24,25,96.0,19,21,90.5,81,,2025
+Peyton Woodring,peyton-woodring-1,/cfb/players/peyton-woodring-1.html,Georgia,SEC,14,54,54,100.0,17,19,89.5,105,,2025
+Patrick Durkin,patrick-durkin-1,/cfb/players/patrick-durkin-1.html,Tulane,American,14,41,42,97.6,25,28,89.3,116,,2025
+Tate Sandell,tate-sandell-1,/cfb/players/tate-sandell-1.html,Oklahoma,SEC,13,35,35,100.0,24,27,88.9,107,,2025
+Lucas Carneiro,lucas-carneiro-1,/cfb/players/lucas-carneiro-1.html,Ole Miss,SEC,15,56,56,100.0,31,35,88.6,149,,2025
+Chris Freeman,chris-freeman-2,/cfb/players/chris-freeman-2.html,Connecticut,Ind,13,52,52,100.0,23,26,88.5,121,,2025
+Noe Ruelas,noe-ruelas-1,/cfb/players/noe-ruelas-1.html,UCF,Big 12,12,32,33,97.0,15,17,88.2,77,,2025
+Spencer Porath,spencer-porath-1,/cfb/players/spencer-porath-1.html,Purdue,Big Ten,11,24,24,100.0,15,17,88.2,69,,2025
+Sean O'Haire,sean-ohaire-1,/cfb/players/sean-ohaire-1.html,Maryland,Big Ten,12,29,29,100.0,21,24,87.5,92,,2025
+Alex McPherson,alex-mcpherson-1,/cfb/players/alex-mcpherson-1.html,Auburn,SEC,12,35,35,100.0,20,23,87.0,95,,2025
+David Olano,david-olano-1,/cfb/players/david-olano-1.html,Illinois,Big Ten,13,44,44,100.0,20,23,87.0,104,,2025
+Dom Dzioban,dom-dzioban-1,/cfb/players/dom-dzioban-1.html,Miami (OH),MAC,13,34,35,97.1,20,23,87.0,94,,2025
+Trey Butkowski,trey-butkowski-1,/cfb/players/trey-butkowski-1.html,Pitt,ACC,11,43,44,97.7,20,23,87.0,103,,2025
+Luis Rodriguez,luis-rodriguez-1,/cfb/players/luis-rodriguez-1.html,Kansas State,Big 12,12,42,42,100.0,13,15,86.7,81,,2025
+Jackson Kleather,jackson-kleather-1,/cfb/players/jackson-kleather-1.html,Bowling Green,MAC,12,26,26,100.0,19,22,86.4,83,,2025
+Aidan Birr,aidan-birr-1,/cfb/players/aidan-birr-1.html,Georgia Tech,ACC,13,45,45,100.0,25,29,86.2,120,,2025
+Daniel Kinney,daniel-kinney-1,/cfb/players/daniel-kinney-1.html,Kennesaw State,CUSA,4,5,6,83.3,6,7,85.7,23,,2025
+Tripp Woody,tripp-woody-1,/cfb/players/tripp-woody-1.html,Syracuse,ACC,12,22,22,100.0,12,14,85.7,58,,2025
+Kyle Ferrie,kyle-ferrie-1,/cfb/players/kyle-ferrie-1.html,Mississippi State,SEC,13,44,44,100.0,17,20,85.0,95,,2025
+Michael Petro,michael-petro-1,/cfb/players/michael-petro-1.html,UTSA,American,13,56,56,100.0,17,20,85.0,107,,2025
+Tripp Bryant,tripp-bryant-1,/cfb/players/tripp-bryant-1.html,Georgia Southern,Sun Belt,13,42,42,100.0,17,20,85.0,93,,2025
+Garrison Smith,garrison-smith-2,/cfb/players/garrison-smith-2.html,Florida Atlantic,American,12,36,36,100.0,16,19,84.2,84,,2025
+Jack Stevens,jack-stevens-1,/cfb/players/jack-stevens-1.html,Washington State,Ind,13,33,33,100.0,16,19,84.2,81,,2025
+Kyle Cunanan,kyle-cunanan-1,/cfb/players/kyle-cunanan-1.html,Nebraska,Big Ten,13,45,45,100.0,16,19,84.2,93,,2025
+Nick Mazzie,nick-mazzie-1,/cfb/players/nick-mazzie-1.html,East Carolina,American,12,43,43,100.0,16,19,84.2,91,,2025
+Cooper Ranvier,cooper-ranvier-1,/cfb/players/cooper-ranvier-1.html,Louisville,ACC,13,39,41,95.1,21,25,84.0,102,,2025
+Ryon Sayeri,ryon-sayeri-1,/cfb/players/ryon-sayeri-1.html,USC,Big Ten,13,48,48,100.0,21,25,84.0,111,,2025
+Kade Hensley,kade-hensley-1,/cfb/players/kade-hensley-1.html,West Virginia,Big 12,11,31,32,96.9,10,12,83.3,61,,2025
+Kanoah Vinesett,kanoah-vinesett-1,/cfb/players/kanoah-vinesett-1.html,North Carolina State,ACC,12,48,49,98.0,5,6,83.3,63,,2025
+Mason Shipley,mason-shipley-1,/cfb/players/mason-shipley-1.html,Texas,SEC,13,48,48,100.0,20,24,83.3,108,,2025
+Noah Burnette,noah-burnette-1,/cfb/players/noah-burnette-1.html,Notre Dame,Ind,6,20,22,90.9,5,6,83.3,35,,2025
+Damian Ramos,damian-ramos-1,/cfb/players/damian-ramos-1.html,LSU,SEC,13,29,30,96.7,24,29,82.8,101,,2025
+Gabriel Plascencia,gabriel-plascencia-1,/cfb/players/gabriel-plascencia-1.html,San Diego State,MWC,13,35,35,100.0,19,23,82.6,92,,2025
+Rece Verhoff,rece-verhoff-1,/cfb/players/rece-verhoff-1.html,North Carolina,ACC,12,20,20,100.0,19,23,82.6,77,,2025
+Cade Graham,cade-graham-1,/cfb/players/cade-graham-1.html,Central Michigan,MAC,13,35,35,100.0,14,17,82.4,77,,2025
+Jack Howes,jack-howes-1,/cfb/players/jack-howes-1.html,Buffalo,MAC,12,30,30,100.0,14,17,82.4,72,,2025
+Laith Marjan,laith-marjan-1,/cfb/players/laith-marjan-1.html,Kansas,Big 12,12,40,40,100.0,14,17,82.4,82,,2025
+Alejandro Mata,alejandro-mata-1,/cfb/players/alejandro-mata-1.html,Colorado,Big 12,12,30,31,96.8,9,11,81.8,57,,2025
+Connor Calvert,connor-calvert-1,/cfb/players/connor-calvert-1.html,Wake Forest,ACC,13,32,33,97.0,18,22,81.8,86,,2025
+Connor Hawkins,connor-hawkins-1,/cfb/players/connor-hawkins-1.html,Baylor,Big 12,11,37,37,100.0,18,22,81.8,91,,2025
+Trey Smack,trey-smack-1,/cfb/players/trey-smack-1.html,Florida,SEC,12,27,28,96.4,18,22,81.8,81,,2025
+Nolan Hauser,nolan-hauser-1,/cfb/players/nolan-hauser-1.html,Clemson,ACC,13,38,38,100.0,17,21,81.0,89,,2025
+Seth Morgan,seth-morgan-1,/cfb/players/seth-morgan-1.html,Tulsa,American,12,27,27,100.0,17,21,81.0,78,,2025
+Ethan Sanchez,ethan-sanchez-1,/cfb/players/ethan-sanchez-1.html,Houston,Big 12,13,43,43,100.0,21,26,80.8,106,,2025
+Lorcan Quinn,lorcan-quinn-1,/cfb/players/lorcan-quinn-1.html,Marshall,Sun Belt,12,38,39,97.4,21,26,80.8,101,,2025
+Jayden Fielding,jayden-fielding-1,/cfb/players/jayden-fielding-1.html,Ohio State,Big Ten,14,56,56,100.0,16,20,80.0,104,,2025
+Mateen Bhaghani,mateen-bhaghani-1,/cfb/players/mateen-bhaghani-1.html,UCLA,Big Ten,12,22,22,100.0,16,20,80.0,70,,2025
+Will Bettridge,will-bettridge-1,/cfb/players/will-bettridge-1.html,Virginia,ACC,14,49,49,100.0,24,30,80.0,121,,2025
+William Joyce,william-joyce-1,/cfb/players/william-joyce-1.html,South Carolina,SEC,12,31,31,100.0,12,15,80.0,67,,2025
+Atticus Sappington,atticus-sappington-1,/cfb/players/atticus-sappington-1.html,Oregon,Big Ten,15,51,51,100.0,19,24,79.2,108,,2025
+John Cannon,john-cannon-2,/cfb/players/john-cannon-2.html,Western Kentucky,CUSA,13,46,46,100.0,15,19,78.9,91,,2025
+Kian Afrookhteh,kian-afrookhteh-1,/cfb/players/kian-afrookhteh-1.html,Coastal Carolina,Sun Belt,12,32,32,100.0,15,19,78.9,77,,2025
+Andrew Glass,andrew-glass-1,/cfb/players/andrew-glass-1.html,Northern Illinois,MAC,12,20,21,95.2,11,14,78.6,53,,2025
+Carl Hardin,carl-hardin-1,/cfb/players/carl-hardin-1.html,Temple,American,12,40,40,100.0,11,14,78.6,73,,2025
+Drew Stevens,drew-stevens-2,/cfb/players/drew-stevens-2.html,Iowa,Big Ten,13,41,42,97.6,22,28,78.6,107,,2025
+Jacob Hathaway,jacob-hathaway-1,/cfb/players/jacob-hathaway-1.html,Middle Tennessee State,CUSA,12,27,27,100.0,11,14,78.6,60,,2025
+Stone Harrington,stone-harrington-1,/cfb/players/stone-harrington-1.html,Texas Tech,Big 12,14,41,42,97.6,22,28,78.6,107,,2025
+Clune Van Andel,clune-van-andel-1,/cfb/players/clune-van-andel-1.html,Arkansas State,Sun Belt,13,36,37,97.3,21,27,77.8,99,,2025
+Dominic De Freitas,dominic-de-freitas-1,/cfb/players/dominic-de-freitas-1.html,Appalachian State,Sun Belt,13,33,33,100.0,21,27,77.8,96,,2025
+Dylan Lynch,dylan-lynch-1,/cfb/players/dylan-lynch-1.html,Fresno State,MWC,13,34,34,100.0,21,27,77.8,97,,2025
+Kyle Konrardy,kyle-konrardy-1,/cfb/players/kyle-konrardy-1.html,Iowa State,Big 12,9,19,21,90.5,14,18,77.8,61,,2025
+Noah Grant,noah-grant-1,/cfb/players/noah-grant-1.html,Florida International,CUSA,13,27,27,100.0,14,18,77.8,69,,2025
+Reagan Tubbs,reagan-tubbs-1,/cfb/players/reagan-tubbs-1.html,Air Force,MWC,12,14,14,100.0,7,9,77.8,35,,2025
+Scott Starzyk,scott-starzyk-1,/cfb/players/scott-starzyk-1.html,Arkansas,SEC,12,47,47,100.0,14,18,77.8,89,,2025
+Chase Meyer,chase-meyer-1,/cfb/players/chase-meyer-1.html,California,ACC,13,39,39,100.0,10,13,76.9,69,,2025
+Enock Gota,enock-gota-1,/cfb/players/enock-gota-1.html,Rice,American,13,27,27,100.0,10,13,76.9,57,,2025
+Grady Gross,grady-gross-1,/cfb/players/grady-gross-1.html,Washington,Big Ten,13,59,59,100.0,10,13,76.9,89,,2025
+Will Ferrin,will-ferrin-1,/cfb/players/will-ferrin-1.html,BYU,Big 12,14,49,49,100.0,23,30,76.7,118,,2025
+Jacob Kauwe,jacob-kauwe-1,/cfb/players/jacob-kauwe-1.html,Kentucky,SEC,12,32,32,100.0,13,17,76.5,71,,2025
+Stephen Rusnak,stephen-rusnak-1,/cfb/players/stephen-rusnak-1.html,Cincinnati,Big 12,13,47,47,100.0,13,17,76.5,86,,2025
+Emmet Kenney,emmet-kenney-1,/cfb/players/emmet-kenney-1.html,Stanford,ACC,12,21,21,100.0,16,21,76.2,69,,2025
+Joe McFadden,joe-mcfadden-1,/cfb/players/joe-mcfadden-1.html,Nevada,MWC,12,20,20,100.0,19,25,76.0,77,,2025
+Dawson Jones,dawson-jones-1,/cfb/players/dawson-jones-1.html,Army,American,12,35,36,97.2,15,20,75.0,80,,2025
+Garrison Rippa,garrison-rippa-1,/cfb/players/garrison-rippa-1.html,Jacksonville State,CUSA,14,40,40,100.0,21,28,75.0,103,,2025
+Gianni Spetic,gianni-spetic-1,/cfb/players/gianni-spetic-1.html,Memphis,American,13,49,49,100.0,15,20,75.0,94,,2025
+Jay Billingsley,jay-billingsley-1,/cfb/players/jay-billingsley-1.html,Liberty,CUSA,11,33,33,100.0,15,20,75.0,78,,2025
+John Love,john-love-2,/cfb/players/john-love-2.html,Virginia Tech,ACC,12,25,25,100.0,15,20,75.0,70,,2025
+Liam Boyd,liam-boyd-1,/cfb/players/liam-boyd-1.html,Charlotte,American,12,15,15,100.0,9,12,75.0,42,,2025
+Logan Ward,logan-ward-1,/cfb/players/logan-ward-1.html,Oklahoma State,Big 12,12,17,17,100.0,15,20,75.0,62,,2025
+Martin Connington,martin-connington-1,/cfb/players/martin-connington-1.html,Michigan State,Big Ten,11,27,28,96.4,12,16,75.0,63,,2025
+Nate McCashland,nate-mccashland-1,/cfb/players/nate-mccashland-1.html,Texas Christian,Big 12,13,42,42,100.0,9,12,75.0,69,,2025
+Nate Reed,nate-reed-2,/cfb/players/nate-reed-2.html,Delaware,CUSA,13,39,39,100.0,18,24,75.0,93,,2025
+Nico Gramatica,nico-gramatica-1,/cfb/players/nico-gramatica-1.html,South Florida,American,13,59,60,98.3,18,24,75.0,113,,2025
+Ramon Villela,ramon-villela-1,/cfb/players/ramon-villela-1.html,Nevada-Las Vegas,MWC,14,58,58,100.0,15,20,75.0,103,,2025
+Tanner Cragun,tanner-cragun-2,/cfb/players/tanner-cragun-2.html,UTEP,CUSA,7,0,0,,6,8,75.0,18,,2025
+Rudy Kessinger,rudy-kessinger-1,/cfb/players/rudy-kessinger-1.html,Eastern Michigan,MAC,12,28,28,100.0,17,23,73.9,79,,2025
+Max Gilbert,max-gilbert-1,/cfb/players/max-gilbert-1.html,Tennessee,SEC,13,64,64,100.0,14,19,73.7,106,,2025
+Morgan Suarez,morgan-suarez-1,/cfb/players/morgan-suarez-1.html,James Madison,Sun Belt,14,65,65,100.0,14,19,73.7,107,,2025
+Todd Pelino,todd-pelino-1,/cfb/players/todd-pelino-1.html,Duke,ACC,14,56,56,100.0,14,19,73.7,98,,2025
+Colton Boomer,colton-boomer-1,/cfb/players/colton-boomer-1.html,Boise State,MWC,14,46,47,97.9,11,15,73.3,79,,2025
+Dillon Curtis,dillon-curtis-1,/cfb/players/dillon-curtis-1.html,Utah,Big 12,13,68,71,95.8,11,15,73.3,101,,2025
+Jesus Gomez,jesus-gomez-1,/cfb/players/jesus-gomez-1.html,Arizona State,Big 12,13,33,33,100.0,22,30,73.3,99,,2025
+Dylan Cunanan,dylan-cunanan-1,/cfb/players/dylan-cunanan-1.html,Toledo,MAC,12,48,48,100.0,8,11,72.7,72,,2025
+Ryan Hawk,ryan-hawk-2,/cfb/players/ryan-hawk-2.html,New Mexico State,CUSA,10,22,23,95.7,16,22,72.7,70,,2025
+Will Hryszko,will-hryszko-1,/cfb/players/will-hryszko-1.html,Kent State,MAC,12,31,31,100.0,8,11,72.7,55,,2025
+Jai Patel,jai-patel-1,/cfb/players/jai-patel-1.html,Rutgers,Big Ten,12,37,39,94.9,13,18,72.2,76,,2025
+Tanner Rinker,tanner-rinker-1,/cfb/players/tanner-rinker-1.html,Utah State,MWC,13,45,47,95.7,13,18,72.2,84,,2025
+Jonah Delange,jonah-delange-1,/cfb/players/jonah-delange-1.html,UAB,American,12,29,29,100.0,10,14,71.4,59,,2025
+Robert Meyer,robert-meyer-1,/cfb/players/robert-meyer-1.html,Missouri,SEC,11,36,38,94.7,10,14,71.4,66,,2025
+Tony Sterner,tony-sterner-1,/cfb/players/tony-sterner-1.html,Louisiana,Sun Belt,13,38,38,100.0,20,28,71.4,98,,2025
+Carter Davis,carter-davis-1,/cfb/players/carter-davis-1.html,Miami (FL),ACC,16,52,52,100.0,17,24,70.8,103,,2025
+Nathanial Eichner,nathanial-eichner-1,/cfb/players/nathanial-eichner-1.html,Old Dominion,Sun Belt,10,19,19,100.0,7,10,70.0,40,,2025
+Sam Keltner,sam-keltner-1,/cfb/players/sam-keltner-1.html,SMU,ACC,13,36,38,94.7,14,20,70.0,78,,2025
+Conor Talty,conor-talty-1,/cfb/players/conor-talty-1.html,Alabama,SEC,15,48,48,100.0,16,23,69.6,96,,2025
+Scott Taylor Renfroe,scott-taylor-renfroe-1,/cfb/players/scott-taylor-renfroe-1.html,Troy,Sun Belt,14,39,40,97.5,11,16,68.8,72,,2025
+Palmer Domschke,palmer-domschke-1,/cfb/players/palmer-domschke-1.html,Western Michigan,MAC,14,40,42,95.2,13,19,68.4,79,,2025
+Dominic Zvada,dominic-zvada-1,/cfb/players/dominic-zvada-1.html,Michigan,Big Ten,13,43,43,100.0,17,25,68.0,94,,2025
+Abram Murray,abram-murray-1,/cfb/players/abram-murray-1.html,California,ACC,8,0,0,,4,6,66.7,12,,2025
+Brady Denaburg,brady-denaburg-1,/cfb/players/brady-denaburg-1.html,Minnesota,Big Ten,13,33,33,100.0,14,21,66.7,75,,2025
+Chase Smith,chase-smith-3,/cfb/players/chase-smith-3.html,Iowa State,Big 12,6,12,12,100.0,2,3,66.7,18,,2025
+Christian Pavon,christian-pavon-1,/cfb/players/christian-pavon-1.html,Sam Houston,CUSA,12,16,16,100.0,8,12,66.7,40,,2025
+David Dellenbach,david-dellenbach-1,/cfb/players/david-dellenbach-1.html,Ohio,MAC,13,26,29,89.7,4,6,66.7,38,,2025
+DC Pippin,dc-pippin-1,/cfb/players/dc-pippin-1.html,Ball State,MAC,9,5,6,83.3,6,9,66.7,23,,2025
+Hamilton DiBoyan,hamilton-diboyan-1,/cfb/players/hamilton-diboyan-1.html,South Alabama,Sun Belt,12,20,22,90.9,6,9,66.7,38,,2025
+Robert Czeremcha,robert-czeremcha-1,/cfb/players/robert-czeremcha-1.html,Florida International,CUSA,3,12,12,100.0,2,3,66.7,18,,2025
+Robert Hammond III,robert-hammond-iii-1,/cfb/players/robert-hammond-iii-1.html,Toledo,MAC,13,0,0,,2,3,66.7,6,,2025
+Creighton Wilbanks,creighton-wilbanks-1,/cfb/players/creighton-wilbanks-1.html,Southern Mississippi,Sun Belt,10,33,33,100.0,9,14,64.3,60,,2025
+Nathanial Vakos,nathanial-vakos-1,/cfb/players/nathanial-vakos-1.html,Wisconsin,Big Ten,12,19,19,100.0,7,11,63.6,40,,2025
+Yousef Obeid,yousef-obeid-1,/cfb/players/yousef-obeid-1.html,Missouri State,CUSA,13,37,38,97.4,14,22,63.6,79,,2025
+Jake Weinberg,jake-weinberg-1,/cfb/players/jake-weinberg-1.html,Florida State,ACC,12,46,46,100.0,12,19,63.2,82,,2025
+Randy Bond,randy-bond-1,/cfb/players/randy-bond-1.html,Texas A&M,SEC,13,36,36,100.0,12,19,63.2,72,,2025
+Derek Morris,derek-morris-1,/cfb/players/derek-morris-1.html,Massachusetts,MAC,12,13,15,86.7,10,16,62.5,43,,2025
+Reed Harradine,reed-harradine-1,/cfb/players/reed-harradine-1.html,Southern Mississippi,Sun Belt,13,13,13,100.0,5,8,62.5,28,,2025
+Michael Salgado-Medina,michael-salgado-medina-1,/cfb/players/michael-salgado-medina-1.html,Arizona,Big 12,13,47,48,97.9,19,31,61.3,104,,2025
+Oliver Robbins,oliver-robbins-1,/cfb/players/oliver-robbins-1.html,Missouri,SEC,13,3,3,100.0,3,5,60.0,12,,2025
+Jared Zirkel,jared-zirkel-1,/cfb/players/jared-zirkel-1.html,Texas A&M,SEC,9,19,20,95.0,4,7,57.1,31,,2025
+John Hoyet Chance,john-hoyet-chance-1,/cfb/players/john-hoyet-chance-1.html,Louisiana Tech,CUSA,13,3,3,100.0,4,7,57.1,15,,2025
+Mathias Brown,mathias-brown-1,/cfb/players/mathias-brown-1.html,San Jose State,MWC,12,10,11,90.9,4,7,57.1,22,,2025
+Liam Rickman,liam-rickman-1,/cfb/players/liam-rickman-1.html,Georgia State,Sun Belt,9,13,13,100.0,5,9,55.6,28,,2025
+Drew Henderson,drew-henderson-1,/cfb/players/drew-henderson-1.html,Louisiana Tech,CUSA,10,27,29,93.1,6,11,54.5,45,,2025
+Erik Sandvik,erik-sandvik-1,/cfb/players/erik-sandvik-1.html,Wyoming,MWC,12,24,24,100.0,6,11,54.5,42,,2025
+Britton Williams,britton-williams-1,/cfb/players/britton-williams-1.html,Kennesaw State,CUSA,13,38,40,95.0,7,13,53.8,59,,2025
+Riley Callaghan,riley-callaghan-1,/cfb/players/riley-callaghan-1.html,Old Dominion,Sun Belt,10,32,33,97.0,8,15,53.3,56,,2025
+Brack Peacock,brack-peacock-1,/cfb/players/brack-peacock-1.html,Ohio,MAC,6,16,18,88.9,3,6,50.0,25,,2025
+Brayden Beck,brayden-beck-1,/cfb/players/brayden-beck-1.html,Liberty,CUSA,3,2,2,100.0,1,2,50.0,5,,2025
+Brendan Franke,brendan-franke-1,/cfb/players/brendan-franke-1.html,Indiana,Big Ten,9,0,0,,1,2,50.0,3,,2025
+Canaan Moore,canaan-moore-1,/cfb/players/canaan-moore-1.html,Boise State,MWC,1,4,4,100.0,1,2,50.0,7,,2025
+Carlos Arreola,carlos-arreola-1,/cfb/players/carlos-arreola-1.html,UTEP,CUSA,11,27,28,96.4,3,6,50.0,36,,2025
+Denis Lynch,denis-lynch-1,/cfb/players/denis-lynch-1.html,San Jose State,MWC,10,19,19,100.0,8,16,50.0,43,,2025
+Hunter Smith,hunter-smith-8,/cfb/players/hunter-smith-8.html,Western Michigan,MAC,14,0,0,,1,2,50.0,3,,2025
+Isaiah Hankins,isaiah-hankins-1,/cfb/players/isaiah-hankins-1.html,Colorado State,MWC,12,25,25,100.0,5,10,50.0,40,,2025
+Jacob Medina,jacob-medina-1,/cfb/players/jacob-medina-1.html,Air Force,MWC,6,26,26,100.0,3,6,50.0,35,,2025
+Luke Stagg,luke-stagg-2,/cfb/players/luke-stagg-2.html,Louisiana-Monroe,Sun Belt,5,11,13,84.6,2,4,50.0,17,,2025
+Nick Keller,nick-keller-1,/cfb/players/nick-keller-1.html,Louisville,ACC,13,1,2,50.0,2,4,50.0,7,,2025
+Paddy McAteer,paddy-mcateer-1,/cfb/players/paddy-mcateer-1.html,Troy,Sun Belt,14,0,0,,1,2,50.0,3,,2025
+Philippe Laforge,philippe-laforge-1,/cfb/players/philippe-laforge-1.html,Coastal Carolina,Sun Belt,13,1,1,100.0,2,4,50.0,7,,2025
+RJ Lopez,rj-lopez-1,/cfb/players/rj-lopez-1.html,Sam Houston,CUSA,5,6,6,100.0,3,6,50.0,15,,2025
+Caleb Ojeda,caleb-ojeda-1,/cfb/players/caleb-ojeda-1.html,Oregon State,Ind,12,19,19,100.0,6,13,46.2,37,,2025
+Carson Holmer,carson-holmer-1,/cfb/players/carson-holmer-1.html,Ball State,MAC,8,14,14,100.0,3,7,42.9,23,,2025
+Owen Wiley,owen-wiley-1,/cfb/players/owen-wiley-1.html,Akron,MAC,12,11,11,100.0,4,10,40.0,23,,2025
+Nick Koniecznski,nick-koniecznski-1,/cfb/players/nick-koniecznski-1.html,North Carolina State,ACC,7,3,3,100.0,1,3,33.3,6,,2025
+Samuel Carpenter,samuel-carpenter-1,/cfb/players/samuel-carpenter-1.html,Pitt,ACC,9,6,6,100.0,1,3,33.3,9,,2025
+Braeden McAlister,braeden-mcalister-1,/cfb/players/braeden-mcalister-1.html,Georgia State,Sun Belt,12,7,8,87.5,2,7,28.6,13,,2025
+Collin Rogers,collin-rogers-1,/cfb/players/collin-rogers-1.html,SMU,ACC,2,12,12,100.0,1,4,25.0,15,,2025
+Austin Welch,austin-welch-2,/cfb/players/austin-welch-2.html,Oklahoma,SEC,2,0,0,,0,1,0.0,0,,2025
+Buck Buchanan,buck-buchanan-1,/cfb/players/buck-buchanan-1.html,Colorado,Big 12,12,0,0,,0,1,0.0,0,,2025
+Cameron Smith,cameron-smith-10,/cfb/players/cameron-smith-10.html,Oregon State,Ind,1,1,1,100.0,0,1,0.0,1,,2025
+Connor Gibbs,connor-gibbs-1,/cfb/players/connor-gibbs-1.html,Auburn,SEC,10,0,0,,0,1,0.0,0,,2025
+Dane Pizzaro,dane-pizzaro-1,/cfb/players/dane-pizzaro-1.html,Rutgers,Big Ten,2,2,2,100.0,0,1,0.0,2,,2025
+Danny Hagan,danny-hagan-1,/cfb/players/danny-hagan-1.html,Louisiana-Monroe,Sun Belt,1,0,0,,0,1,0.0,0,,2025
+Erik Schmidt,erik-schmidt-1,/cfb/players/erik-schmidt-1.html,Notre Dame,Ind,10,41,42,97.6,0,3,0.0,41,,2025
+Gage Hurych,gage-hurych-1,/cfb/players/gage-hurych-1.html,Oregon,Big Ten,9,16,16,100.0,0,1,0.0,16,,2025
+Jacob Chambliss,jacob-chambliss-1,/cfb/players/jacob-chambliss-1.html,Louisiana-Monroe,Sun Belt,4,8,9,88.9,0,2,0.0,8,,2025
+Keelan Anderson,keelan-anderson-2,/cfb/players/keelan-anderson-2.html,Wyoming,MWC,3,0,0,,0,1,0.0,0,,2025
+Mason Love,mason-love-1,/cfb/players/mason-love-1.html,South Carolina,SEC,12,1,1,100.0,0,1,0.0,1,,2025
+Miguel Arenas,miguel-arenas-1,/cfb/players/miguel-arenas-1.html,North Texas,American,9,7,7,100.0,0,1,0.0,7,,2025
+Ryan Eckley,ryan-eckley-1,/cfb/players/ryan-eckley-1.html,Michigan State,Big Ten,12,0,0,,0,1,0.0,0,,2025
+Towns McGough,towns-mcgough-1,/cfb/players/towns-mcgough-1.html,Auburn,SEC,2,0,0,,0,1,0.0,0,,2025
+Tyler Prasuhn,tyler-prasuhn-1,/cfb/players/tyler-prasuhn-1.html,Arizona,Big 12,1,0,0,,0,1,0.0,0,,2025
+Adam Zouagui,adam-zouagui-1,/cfb/players/adam-zouagui-1.html,South Florida,American,13,3,3,100.0,0,0,,3,,2025
+AJ Seidler,aj-seidler-1,/cfb/players/aj-seidler-1.html,Stanford,ACC,1,1,1,100.0,0,0,,1,,2025
+Andrew Conrad,andrew-conrad-1,/cfb/players/andrew-conrad-1.html,East Carolina,American,5,6,6,100.0,0,0,,6,,2025
+Anthony Ruggles,anthony-ruggles-1,/cfb/players/anthony-ruggles-1.html,Toledo,MAC,2,1,1,100.0,0,0,,1,,2025
+Blake Sislo,blake-sislo-1,/cfb/players/blake-sislo-1.html,Michigan State,Big Ten,3,6,6,100.0,0,0,,6,,2025
+Brunno Reus,brunno-reus-1,/cfb/players/brunno-reus-1.html,Florida State,ACC,4,2,2,100.0,0,0,,2,,2025
+Conor Donaghy,conor-donaghy-1,/cfb/players/conor-donaghy-1.html,Jacksonville State,CUSA,14,1,1,100.0,0,0,,1,,2025
+Dane Efird,dane-efird-1,/cfb/players/dane-efird-1.html,Kansas,Big 12,1,1,1,100.0,0,0,,1,,2025
+Daniel Jackson,daniel-jackson-6,/cfb/players/daniel-jackson-6.html,Minnesota,Big Ten,1,2,2,100.0,0,0,,2,,2025
+Dino Beslagic,dino-beslagic-1,/cfb/players/dino-beslagic-1.html,Cincinnati,Big 12,1,2,2,100.0,0,0,,2,,2025
+Hunter Herring,hunter-herring-1,/cfb/players/hunter-herring-1.html,Louisiana-Monroe,Sun Belt,10,0,1,0.0,0,0,,0,,2025
+Ian Hershey,ian-hershey-1,/cfb/players/ian-hershey-1.html,Texas Tech,Big 12,4,3,3,100.0,0,0,,3,,2025
+Jackson Courville,jackson-courville-1,/cfb/players/jackson-courville-1.html,Ohio State,Big Ten,2,4,4,100.0,0,0,,4,,2025
+Jaffer Murphy,jaffer-murphy-1,/cfb/players/jaffer-murphy-1.html,UTSA,American,13,1,1,100.0,0,0,,1,,2025
+Josh Turbyville,josh-turbyville-1,/cfb/players/josh-turbyville-1.html,Tennessee,SEC,13,3,3,100.0,0,0,,3,,2025
+Justin Dewers,justin-dewers-1,/cfb/players/justin-dewers-1.html,Vanderbilt,SEC,4,1,1,100.0,0,0,,1,,2025
+Kellan McLaughlin,kellan-mclaughlin-1,/cfb/players/kellan-mclaughlin-1.html,Miami (OH),MAC,14,1,1,100.0,0,0,,1,,2025
+Kyle Lowe,kyle-lowe-1,/cfb/players/kyle-lowe-1.html,Virginia Tech,ACC,12,1,1,100.0,0,0,,1,,2025
+Lucas Glassburn,lucas-glassburn-1,/cfb/players/lucas-glassburn-1.html,Temple,American,2,1,1,100.0,0,0,,1,,2025
+Makenzie Ryan,makenzie-ryan-1,/cfb/players/makenzie-ryan-1.html,Louisiana-Monroe,Sun Belt,12,2,2,100.0,0,0,,2,,2025
+Marcello Diomede,marcello-diomede-1,/cfb/players/marcello-diomede-1.html,Notre Dame,Ind,6,2,3,66.7,0,0,,2,,2025
+Marlon Hauck,marlon-hauck-1,/cfb/players/marlon-hauck-1.html,Mississippi State,SEC,12,2,2,100.0,0,0,,2,,2025
+Mason Rohmiller,mason-rohmiller-1,/cfb/players/mason-rohmiller-1.html,Vanderbilt,SEC,2,2,2,100.0,0,0,,2,,2025
+Matthew Dennis,matthew-dennis-1,/cfb/players/matthew-dennis-1.html,Wake Forest,ACC,1,3,3,100.0,0,0,,3,,2025
+Matthew Parker,matthew-parker-1,/cfb/players/matthew-parker-1.html,Penn State,Big Ten,1,1,1,100.0,0,0,,1,,2025
+Mike Baker,mike-baker-2,/cfb/players/mike-baker-2.html,Ole Miss,SEC,3,3,3,100.0,0,0,,3,,2025
+Nick Clegg,nick-clegg-1,/cfb/players/nick-clegg-1.html,San Diego State,MWC,1,1,1,100.0,0,0,,1,,2025
+Noah McGough,noah-mcgough-1,/cfb/players/noah-mcgough-1.html,UCF,Big 12,1,1,1,100.0,0,0,,1,,2025
+Noah Perez,noah-perez-1,/cfb/players/noah-perez-1.html,East Carolina,American,2,2,2,100.0,0,0,,2,,2025
+Peter Notaro,peter-notaro-1,/cfb/players/peter-notaro-1.html,Alabama,SEC,2,5,5,100.0,0,0,,5,,2025
+Quinn Castner,quinn-castner-1,/cfb/players/quinn-castner-1.html,Clemson,ACC,1,3,3,100.0,0,0,,3,,2025
+Reid Schuback,reid-schuback-1,/cfb/players/reid-schuback-1.html,Alabama,SEC,2,1,1,100.0,0,0,,1,,2025
+Ryan Capriotti,ryan-capriotti-1,/cfb/players/ryan-capriotti-1.html,Maryland,Big Ten,5,2,2,100.0,0,0,,2,,2025
+Stone Eby,stone-eby-1,/cfb/players/stone-eby-1.html,SMU,ACC,13,2,2,100.0,0,0,,2,,2025
+Travis Kenner,travis-kenner-1,/cfb/players/travis-kenner-1.html,Bowling Green,MAC,12,1,1,100.0,0,0,,1,,2025
+Tucker Cornelius,tucker-cornelius-1,/cfb/players/tucker-cornelius-1.html,Alabama,SEC,1,1,1,100.0,0,0,,1,,2025
+Will Rocha,will-rocha-1,/cfb/players/will-rocha-1.html,Miami (FL),ACC,1,1,1,100.0,0,0,,1,,2025
+William Weisberg,william-weisberg-1,/cfb/players/william-weisberg-1.html,USC,Big Ten,1,2,2,100.0,0,0,,2,,2025
+Zach Benedict,zach-benedict-1,/cfb/players/zach-benedict-1.html,Middle Tennessee State,CUSA,1,1,1,100.0,0,0,,1,,2025
+Zach Schreiner,zach-schreiner-1,/cfb/players/zach-schreiner-1.html,Kentucky,SEC,1,1,1,100.0,0,0,,1,,2025
+League Average,,,,,,,,98.6,,,76.6,,,2025

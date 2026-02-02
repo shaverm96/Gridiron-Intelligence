@@ -1,0 +1,44 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Damarius Travis,damarius-travis-1,/cfb/players/damarius-travis-1.html,DB,13,56,27,83,5.0,0.0,2,0,0.0,0,4,1,0,0,0,,Minnesota,2016
+Jonathan Celestin,jonathan-celestin-1,/cfb/players/jonathan-celestin-1.html,LB,13,53,27,80,7.0,2.5,0,0,,0,4,0,0,0,1,,Minnesota,2016
+Jack Lynn,jack-lynn-1,/cfb/players/jack-lynn-1.html,LB,13,43,34,77,6.5,0.5,0,0,,0,0,0,0,0,0,,Minnesota,2016
+Daletavious McGhee,daletavious-mcghee-1,/cfb/players/daletavious-mcghee-1.html,DB,12,33,21,54,1.0,0.0,1,0,0.0,0,3,0,0,0,0,,Minnesota,2016
+Antoine Winfield Jr.,antoine-winfield-jr-1,/cfb/players/antoine-winfield-jr-1.html,DB,12,37,15,52,2.5,0.0,1,82,82.0,1,3,2,0,0,0,,Minnesota,2016
+Blake Cashman,blake-cashman-1,/cfb/players/blake-cashman-1.html,LB,13,31,14,45,10.5,7.5,0,0,,0,0,0,0,0,1,,Minnesota,2016
+Jalen Myrick,jalen-myrick-1,/cfb/players/jalen-myrick-1.html,DB,13,29,12,41,3.5,0.0,1,0,0.0,0,11,0,0,0,0,,Minnesota,2016
+KiAnte Hardin,kiante-hardin-1,/cfb/players/kiante-hardin-1.html,DB,8,24,15,39,3.0,0.0,2,31,15.5,0,4,1,0,0,0,,Minnesota,2016
+Nick Rallis,nick-rallis-1,/cfb/players/nick-rallis-1.html,LB,11,23,14,37,6.5,1.0,0,0,,0,0,0,0,0,2,,Minnesota,2016
+Antonio Shenault,antonio-shenault-1,/cfb/players/antonio-shenault-1.html,DB,11,27,5,32,0.5,0.0,0,0,,0,2,0,0,0,0,,Minnesota,2016
+Steven Richardson,steven-richardson-1,/cfb/players/steven-richardson-1.html,DL,13,17,14,31,11.0,7.0,0,0,,0,1,2,0,0,2,,Minnesota,2016
+Julian Huff,julian-huff-1,/cfb/players/julian-huff-1.html,LB,13,16,14,30,2.5,0.0,0,0,,0,1,2,0,0,2,,Minnesota,2016
+Hendrick Ekpe,hendrick-ekpe-1,/cfb/players/hendrick-ekpe-1.html,DL,13,16,12,28,7.5,3.5,0,0,,0,0,0,0,0,2,,Minnesota,2016
+Carter Coughlin,carter-coughlin-1,/cfb/players/carter-coughlin-1.html,LB,11,15,10,25,4.0,2.0,0,0,,0,0,0,0,0,0,,Minnesota,2016
+Cody Poock,cody-poock-1,/cfb/players/cody-poock-1.html,LB,7,13,11,24,3.5,1.0,0,0,,0,1,0,0,0,0,,Minnesota,2016
+Adekunle Ayinde,adekunle-ayinde-1,/cfb/players/adekunle-ayinde-1.html,DB,10,13,10,23,2.0,0.0,1,23,23.0,0,4,0,0,0,0,,Minnesota,2016
+Andrew Stelter,andrew-stelter-1,/cfb/players/andrew-stelter-1.html,DL,13,10,8,18,3.0,1.5,0,0,,0,1,0,0,0,0,,Minnesota,2016
+Scott Ekpe,scott-ekpe-1,/cfb/players/scott-ekpe-1.html,DL,13,9,8,17,4.5,1.0,0,0,,0,0,2,0,0,0,,Minnesota,2016
+Gaelin Elmore,gaelin-elmore-1,/cfb/players/gaelin-elmore-1.html,DL,13,9,7,16,4.0,1.5,0,0,,0,1,3,0,0,0,,Minnesota,2016
+Ray Buford Jr.,ray-buford-jr-1,/cfb/players/ray-buford-jr-1.html,,7,10,6,16,0.0,0.0,0,0,,0,3,0,0,0,0,,Minnesota,2016
+Ray Buford,ray-buford-1,/cfb/players/ray-buford-1.html,DB,5,10,6,16,0.0,0.0,0,0,,0,3,0,0,0,0,,Minnesota,2016
+Winston DeLattiboudere,winston-delattiboudere-1,/cfb/players/winston-delattiboudere-1.html,DL,13,6,9,15,3.5,1.5,0,0,,0,0,1,0,0,0,,Minnesota,2016
+Thomas Barber,thomas-barber-1,/cfb/players/thomas-barber-1.html,LB,11,9,3,12,0.0,0.0,0,0,,0,0,1,0,0,1,,Minnesota,2016
+Kamal Martin,kamal-martin-1,/cfb/players/kamal-martin-1.html,LB,13,7,3,10,0.5,0.5,1,0,0.0,0,1,1,0,0,0,,Minnesota,2016
+Merrick Jackson,merrick-jackson-1,/cfb/players/merrick-jackson-1.html,DL,12,6,2,8,2.0,1.0,0,0,,0,0,0,0,0,0,,Minnesota,2016
+Jaylen Waters,jaylen-waters-1,/cfb/players/jaylen-waters-1.html,LB,13,6,1,7,0.0,0.0,0,0,,0,1,0,0,0,0,,Minnesota,2016
+Yoshoub Timms,yoshoub-timms-1,/cfb/players/yoshoub-timms-1.html,DL,11,4,3,7,2.5,1.0,0,0,,0,0,0,0,0,0,,Minnesota,2016
+Jacob Huff,jacob-huff-1,/cfb/players/jacob-huff-1.html,DB,13,2,4,6,0.5,0.0,0,0,,0,0,0,0,0,0,,Minnesota,2016
+Coney Durr,coney-durr-1,/cfb/players/coney-durr-1.html,CB,7,5,1,6,0.0,0.0,0,0,,0,1,0,0,0,0,,Minnesota,2016
+Tai'yon Devers,taiyon-devers-1,/cfb/players/taiyon-devers-1.html,DL,11,4,1,5,3.0,3.0,0,0,,0,0,0,0,0,3,,Minnesota,2016
+Zo Craighton,zo-craighton-1,/cfb/players/zo-craighton-1.html,DB,8,4,0,4,0.0,0.0,0,0,,0,1,0,0,0,0,,Minnesota,2016
+Payton Jordahl,payton-jordahl-1,/cfb/players/payton-jordahl-1.html,LS,13,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Minnesota,2016
+Mitch Leidner,mitch-leidner-1,/cfb/players/mitch-leidner-1.html,QB,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Minnesota,2016
+Rodney Smith,rodney-smith-5,/cfb/players/rodney-smith-5.html,RB,13,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Minnesota,2016
+Jerry Gibson,jerry-gibson-1,/cfb/players/jerry-gibson-1.html,DL,4,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Minnesota,2016
+Gary Moore,gary-moore-5,/cfb/players/gary-moore-5.html,DL,12,2,0,2,1.0,1.0,0,0,,0,0,0,0,0,1,,Minnesota,2016
+Eric Amoako,eric-amoako-1,/cfb/players/eric-amoako-1.html,,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Minnesota,2016
+Eric Amoaka,eric-amoaka-1,/cfb/players/eric-amoaka-1.html,DB,2,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Minnesota,2016
+Nick Hart,nick-hart-1,/cfb/players/nick-hart-1.html,TE,9,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Minnesota,2016
+Nate Wozniak,nate-wozniak-1,/cfb/players/nate-wozniak-1.html,TE,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Minnesota,2016
+Matt Leidner,matt-leidner-1,/cfb/players/matt-leidner-1.html,OL,6,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Minnesota,2016
+Emmit Carpenter,emmit-carpenter-1,/cfb/players/emmit-carpenter-1.html,K,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Minnesota,2016
+Drew Wolitarsky,drew-wolitarsky-1,/cfb/players/drew-wolitarsky-1.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Minnesota,2016

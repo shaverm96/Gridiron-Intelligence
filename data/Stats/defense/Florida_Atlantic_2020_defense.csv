@@ -1,0 +1,35 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Chase Lasater,chase-lasater-1,/cfb/players/chase-lasater-1.html,LB,9,27,45,72,5.0,1.0,0,0,,0,0,0,0,0,2,,Florida Atlantic,2020
+Ahman Ross,ahman-ross-1,/cfb/players/ahman-ross-1.html,LB,9,34,24,58,5.5,1.0,0,0,,0,3,0,0,0,2,,Florida Atlantic,2020
+Caliph Brice,caliph-brice-1,/cfb/players/caliph-brice-1.html,LB,8,22,32,54,4.0,0.5,0,0,,0,0,2,0,0,0,,Florida Atlantic,2020
+Jordan Helm,jordan-helm-1,/cfb/players/jordan-helm-1.html,S,8,22,29,51,1.5,0.0,1,0,0.0,0,2,0,0,0,0,,Florida Atlantic,2020
+Zyon Gilbert,zyon-gilbert-1,/cfb/players/zyon-gilbert-1.html,CB,9,29,17,46,0.5,0.0,1,11,11.0,0,5,0,0,0,0,,Florida Atlantic,2020
+Leighton McCarthy,leighton-mccarthy-1,/cfb/players/leighton-mccarthy-1.html,LB,8,20,20,40,12.5,9.0,0,0,,0,0,0,0,0,1,,Florida Atlantic,2020
+Jaylen Joyner,jaylen-joyner-1,/cfb/players/jaylen-joyner-1.html,DE,9,14,26,40,7.5,6.0,0,0,,0,0,0,0,0,1,,Florida Atlantic,2020
+Teja Young,teja-young-1,/cfb/players/teja-young-1.html,S,9,18,17,35,0.0,0.0,2,2,1.0,0,1,0,0,0,1,,Florida Atlantic,2020
+Eddie Williams,eddie-williams-5,/cfb/players/eddie-williams-5.html,LB,9,17,13,30,1.0,0.0,0,0,,0,1,0,0,0,0,,Florida Atlantic,2020
+Korel Smith,korel-smith-1,/cfb/players/korel-smith-1.html,CB,9,14,11,25,1.5,1.0,0,0,,0,1,0,0,0,0,,Florida Atlantic,2020
+Roman Mungin,roman-mungin-1,/cfb/players/roman-mungin-1.html,CB,7,15,7,22,1.0,0.0,0,0,,0,4,0,0,0,0,,Florida Atlantic,2020
+Evan Anderson,evan-anderson-2,/cfb/players/evan-anderson-2.html,DL,8,5,16,21,2.0,1.5,0,0,,0,0,1,0,0,0,,Florida Atlantic,2020
+Armani Adams,armani-adams-1,/cfb/players/armani-adams-1.html,S,9,13,5,18,1.0,0.0,0,0,,0,0,1,43,1,0,,Florida Atlantic,2020
+Diashun Moss,diashun-moss-1,/cfb/players/diashun-moss-1.html,CB,8,15,3,18,0.5,0.0,1,6,6.0,0,1,0,0,0,0,,Florida Atlantic,2020
+Alvin Dempsey III,alvin-dempsey-iii-1,/cfb/players/alvin-dempsey-iii-1.html,DL,7,10,4,14,3.0,1.0,0,0,,0,0,0,0,0,0,,Florida Atlantic,2020
+Ryan Veingrad,ryan-veingrad-1,/cfb/players/ryan-veingrad-1.html,DL,9,4,9,13,3.5,1.0,0,0,,0,0,0,0,0,0,,Florida Atlantic,2020
+Marcel Southall,marcel-southall-1,/cfb/players/marcel-southall-1.html,DT,4,4,5,9,1.5,0.0,0,0,,0,0,0,0,0,0,,Florida Atlantic,2020
+Chris Jones,chris-jones-20,/cfb/players/chris-jones-20.html,LB,9,5,4,9,4.0,3.0,0,0,,0,0,0,0,0,0,,Florida Atlantic,2020
+Latrell Jean,latrell-jean-1,/cfb/players/latrell-jean-1.html,DL,8,2,5,7,0.5,0.0,0,0,,0,0,0,0,0,0,,Florida Atlantic,2020
+Ashton McNeal,ashton-mcneal-1,/cfb/players/ashton-mcneal-1.html,CB,8,3,2,5,1.0,0.0,0,0,,0,1,0,0,0,1,,Florida Atlantic,2020
+Marlon Krakue,marlon-krakue-1,/cfb/players/marlon-krakue-1.html,LB,5,0,5,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida Atlantic,2020
+Dwight Toombs II,dwight-toombs-ii-1,/cfb/players/dwight-toombs-ii-1.html,DB,9,2,2,4,0.5,0.0,0,0,,0,1,0,0,0,0,,Florida Atlantic,2020
+Justin McKithen,justin-mckithen-1,/cfb/players/justin-mckithen-1.html,WR,6,2,2,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida Atlantic,2020
+Tyrick Tisdale,tyrick-tisdale-1,/cfb/players/tyrick-tisdale-1.html,LB,6,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida Atlantic,2020
+Antarrius Moultrie,antarrius-moultrie-1,/cfb/players/antarrius-moultrie-1.html,LB,3,0,3,3,0.5,0.0,0,0,,0,1,0,0,0,0,,Florida Atlantic,2020
+Kelvin Dean Jr.,kelvin-dean-jr-1,/cfb/players/kelvin-dean-jr-1.html,RB,9,2,0,2,0.0,0.0,0,0,,0,0,1,0,0,0,,Florida Atlantic,2020
+David Belvin,david-belvin-1,/cfb/players/david-belvin-1.html,LB,5,1,1,2,0.0,0.0,1,11,11.0,0,0,0,0,0,0,,Florida Atlantic,2020
+Nicholas Marino,nicholas-marino-1,/cfb/players/nicholas-marino-1.html,DL,9,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida Atlantic,2020
+Ja'Marquis Johnson,jamarquis-johnson-1,/cfb/players/jamarquis-johnson-1.html,LB,4,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida Atlantic,2020
+Daniel Leconte,daniel-leconte-1,/cfb/players/daniel-leconte-1.html,RB,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida Atlantic,2020
+Marlon Bradley,marlon-bradley-1,/cfb/players/marlon-bradley-1.html,DE,2,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida Atlantic,2020
+Matt Hayball,matt-hayball-1,/cfb/players/matt-hayball-1.html,P,9,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida Atlantic,2020
+B.J. Emmons,bj-emmons-1,/cfb/players/bj-emmons-1.html,RB,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida Atlantic,2020
+Jonathan Francois,jonathan-francois-1,/cfb/players/jonathan-francois-1.html,LB,2,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida Atlantic,2020

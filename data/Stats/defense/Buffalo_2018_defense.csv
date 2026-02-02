@@ -1,0 +1,53 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Khalil Hodge,khalil-hodge-1,/cfb/players/khalil-hodge-1.html,LB,14,58,86,144,7.5,2.5,1,33,33.0,0,3,0,0,0,1,,Buffalo,2018
+James Patterson,james-patterson-3,/cfb/players/james-patterson-3.html,LB,14,40,37,77,9.0,1.0,0,0,,0,2,1,15,0,4,,Buffalo,2018
+Brandon Williams,brandon-williams-13,/cfb/players/brandon-williams-13.html,CB,14,49,15,64,1.5,0.0,3,18,6.0,0,2,1,69,1,1,,Buffalo,2018
+Jordan Collier,jordan-collier-1,/cfb/players/jordan-collier-1.html,LB,14,26,30,56,4.5,2.0,1,0,0.0,0,2,1,0,0,1,,Buffalo,2018
+Tyrone Hill Jr.,tyrone-hill-jr-1,/cfb/players/tyrone-hill-jr-1.html,,14,27,19,46,1.0,0.0,0,0,,0,4,2,93,1,0,,Buffalo,2018
+Tyrone Hill,tyrone-hill-1,/cfb/players/tyrone-hill-1.html,S,14,27,19,46,1.0,0.0,0,0,,0,4,2,0,1,0,,Buffalo,2018
+Charles Harris,charles-harris-7,/cfb/players/charles-harris-7.html,DE,12,20,25,45,7.5,6.5,0,0,,0,1,1,0,0,2,,Buffalo,2018
+Joey Banks,joey-banks-1,/cfb/players/joey-banks-1.html,S,11,21,20,41,0.0,0.0,1,3,3.0,0,6,0,0,0,1,,Buffalo,2018
+Tatum Slack,tatum-slack-1,/cfb/players/tatum-slack-1.html,CB,13,26,7,33,1.0,0.0,2,-2,-1.0,0,4,0,0,0,0,,Buffalo,2018
+Cameron Lewis,cameron-lewis-1,/cfb/players/cameron-lewis-1.html,CB,12,23,9,32,0.5,0.0,3,37,12.3,0,6,1,0,0,0,,Buffalo,2018
+Matt Otwinowski,matt-otwinowski-1,/cfb/players/matt-otwinowski-1.html,LB,14,13,18,31,2.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2018
+Taylor Riggins,taylor-riggins-1,/cfb/players/taylor-riggins-1.html,DE,14,21,10,31,6.5,5.0,0,0,,0,1,0,0,0,0,,Buffalo,2018
+Myles Nicholas,myles-nicholas-1,/cfb/players/myles-nicholas-1.html,DE,14,10,21,31,5.5,4.0,0,0,,0,1,0,0,0,1,,Buffalo,2018
+Malcolm Koonce,malcolm-koonce-1,/cfb/players/malcolm-koonce-1.html,DE,14,16,14,30,4.0,3.0,0,0,,0,1,0,0,0,1,,Buffalo,2018
+Kadofi Wright,kadofi-wright-1,/cfb/players/kadofi-wright-1.html,LB,14,17,10,27,3.5,1.5,0,0,,0,1,1,0,0,1,,Buffalo,2018
+Justin Brandon,justin-brandon-1,/cfb/players/justin-brandon-1.html,DL,14,15,12,27,5.0,3.0,0,0,,0,0,0,0,0,0,,Buffalo,2018
+Dev Lamour,dev-lamour-1,/cfb/players/dev-lamour-1.html,S,11,14,9,23,1.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2018
+Aapri Washington,aapri-washington-1,/cfb/players/aapri-washington-1.html,CB,12,15,6,21,1.0,0.0,2,0,0.0,0,3,0,0,0,0,,Buffalo,2018
+DeShondrick Foxworth,deshondrick-foxworth-1,/cfb/players/deshondrick-foxworth-1.html,DT,13,9,11,20,1.5,1.0,0,0,,0,0,0,0,0,0,,Buffalo,2018
+Tim Terry Jr.,tim-terry-jr-1,/cfb/players/tim-terry-jr-1.html,LB,14,12,8,20,1.0,0.0,0,0,,0,1,0,0,0,0,,Buffalo,2018
+Eddie Wilson,eddie-wilson-2,/cfb/players/eddie-wilson-2.html,DT,14,7,10,17,2.0,1.0,0,0,,0,0,0,0,0,0,,Buffalo,2018
+Chibueze Onwuka,chibueze-onwuka-1,/cfb/players/chibueze-onwuka-1.html,DT,12,9,8,17,5.0,1.5,0,0,,0,0,1,13,0,0,,Buffalo,2018
+Ledarius Mack,ledarius-mack-1,/cfb/players/ledarius-mack-1.html,DE,14,12,4,16,2.5,2.0,0,0,,0,0,0,0,0,1,,Buffalo,2018
+Wesley Scott,wesley-scott-2,/cfb/players/wesley-scott-2.html,DT,14,7,6,13,1.0,1.0,0,0,,0,1,0,0,0,0,,Buffalo,2018
+Roy Baker,roy-baker-1,/cfb/players/roy-baker-1.html,CB,11,7,2,9,1.0,0.0,0,0,,0,1,0,0,0,0,,Buffalo,2018
+Wankeith Akin Jr.,wankeith-akin-jr-1,/cfb/players/wankeith-akin-jr-1.html,CB,11,6,3,9,1.0,0.0,0,0,,0,1,0,0,0,0,,Buffalo,2018
+Ali Abbas,ali-abbas-1,/cfb/players/ali-abbas-1.html,CB,13,4,4,8,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2018
+Jeremiah Dadeboe,jeremiah-dadeboe-1,/cfb/players/jeremiah-dadeboe-1.html,S,14,5,2,7,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2018
+Devon Russell,devon-russell-2,/cfb/players/devon-russell-2.html,CB,5,4,2,6,0.0,0.0,1,5,5.0,0,4,0,0,0,0,,Buffalo,2018
+Kennedy Emesibe,kennedy-emesibe-1,/cfb/players/kennedy-emesibe-1.html,DE,10,3,3,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2018
+Isaiah King,isaiah-king-2,/cfb/players/isaiah-king-2.html,WR,14,4,1,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2018
+Ashton White,ashton-white-1,/cfb/players/ashton-white-1.html,S,9,1,4,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2018
+Ja'Varius Harrison,javarius-harrison-1,/cfb/players/javarius-harrison-1.html,LB,4,1,3,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2018
+Jake Khoury,jake-khoury-1,/cfb/players/jake-khoury-1.html,DT,7,1,3,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2018
+Frendy Darelus,frendy-darelus-1,/cfb/players/frendy-darelus-1.html,DE,5,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2018
+Tyree Jackson,tyree-jackson-1,/cfb/players/tyree-jackson-1.html,QB,14,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,1,,Buffalo,2018
+Nick Gallo,nick-gallo-1,/cfb/players/nick-gallo-1.html,S,11,0,3,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2018
+Jeremiah Riordan,jeremiah-riordan-1,/cfb/players/jeremiah-riordan-1.html,LS,14,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2018
+Antonio Nunn,antonio-nunn-1,/cfb/players/antonio-nunn-1.html,WR,14,0,2,2,0.5,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2018
+Anthony Johnson,anthony-johnson-13,/cfb/players/anthony-johnson-13.html,WR,13,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2018
+K.J. Osborn,kj-osborn-1,/cfb/players/kj-osborn-1.html,WR,14,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2018
+Nicco Ruggerio,nicco-ruggerio-1,/cfb/players/nicco-ruggerio-1.html,LB,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2018
+Jovany Ruiz,jovany-ruiz-1,/cfb/players/jovany-ruiz-1.html,WR,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,1,,Buffalo,2018
+Paul Nosworthy,paul-nosworthy-1,/cfb/players/paul-nosworthy-1.html,OL,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2018
+Jake Fuzak,jake-fuzak-1,/cfb/players/jake-fuzak-1.html,OL,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2018
+Eric Black,eric-black-1,/cfb/players/eric-black-1.html,DE,1,1,0,1,1.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2018
+Emmanuel Reed,emmanuel-reed-1,/cfb/players/emmanuel-reed-1.html,RB,13,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2018
+Tyler Mabry,tyler-mabry-2,/cfb/players/tyler-mabry-2.html,TE,14,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2018
+Dajuan Hudson,dajuan-hudson-1,/cfb/players/dajuan-hudson-1.html,WR,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2018
+Atunaisa Vainikolo,atunaisa-vainikolo-1,/cfb/players/atunaisa-vainikolo-1.html,DT,4,0,1,1,0.5,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2018
+Adam Mitcheson,adam-mitcheson-1,/cfb/players/adam-mitcheson-1.html,PK,14,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2018
+Jacob Gall,jacob-gall-1,/cfb/players/jacob-gall-1.html,OL,13,0,0,0,0.0,0.0,0,0,,0,0,1,0,0,0,,Buffalo,2018

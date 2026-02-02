@@ -1,0 +1,54 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Jahlani Tavai,jahlani-tavai-1,/cfb/players/jahlani-tavai-1.html,LB,12,66,58,124,11.0,5.5,1,8,8.0,0,1,1,15,0,0,,Hawaii,2017
+Solomon Matautia,solomon-matautia-1,/cfb/players/solomon-matautia-1.html,LB,12,50,35,85,4.5,1.0,3,60,20.0,1,1,1,42,1,2,,Hawaii,2017
+Daniel Lewis Jr.,daniel-lewis-jr-2,/cfb/players/daniel-lewis-jr-2.html,DB,12,53,24,77,2.5,0.0,1,24,24.0,0,7,0,0,0,2,,Hawaii,2017
+Trayvon Henderson,trayvon-henderson-1,/cfb/players/trayvon-henderson-1.html,DB,11,39,16,55,4.0,2.0,1,0,0.0,0,3,0,0,1,1,,Hawaii,2017
+Russell Williams Jr.,russell-williams-jr-1,/cfb/players/russell-williams-jr-1.html,LB,12,30,23,53,6.0,1.0,0,0,,0,1,0,0,0,0,,Hawaii,2017
+Rojesterman Farris II,rojesterman-farris-ii-1,/cfb/players/rojesterman-farris-ii-1.html,DB,11,27,16,43,0.5,0.0,1,15,15.0,0,4,0,0,0,0,,Hawaii,2017
+Viane Moala,viane-moala-1,/cfb/players/viane-moala-1.html,DL,10,19,19,38,5.5,0.0,0,0,,0,1,0,0,0,1,,Hawaii,2017
+David Manoa,david-manoa-1,/cfb/players/david-manoa-1.html,DL,12,24,9,33,7.5,3.0,0,0,,0,1,0,0,0,1,,Hawaii,2017
+Meffy Koloamatangi,meffy-koloamatangi-1,/cfb/players/meffy-koloamatangi-1.html,DL,12,20,11,31,6.0,4.0,0,0,,0,1,1,0,0,0,,Hawaii,2017
+Jeremiah Pritchard,jeremiah-pritchard-1,/cfb/players/jeremiah-pritchard-1.html,LB,10,21,10,31,6.5,3.0,0,0,,0,0,0,0,0,0,,Hawaii,2017
+Eugene Ford,eugene-ford-1,/cfb/players/eugene-ford-1.html,DB,12,20,7,27,1.0,0.0,1,19,19.0,0,2,0,0,0,0,,Hawaii,2017
+Keala Santiago,keala-santiago-1,/cfb/players/keala-santiago-1.html,DB,11,15,11,26,1.0,1.0,0,0,,0,0,0,0,0,1,,Hawaii,2017
+Samiuela Akoteu,samiuela-akoteu-1,/cfb/players/samiuela-akoteu-1.html,DL,11,12,14,26,1.0,0.0,0,0,,0,0,0,0,0,0,,Hawaii,2017
+Manu Hudson-Rasmussen,manu-hudson-rasmussen-1,/cfb/players/manu-hudson-rasmussen-1.html,DB,11,14,7,21,1.0,0.0,0,0,,0,4,0,0,0,0,,Hawaii,2017
+Kalen Hicks,kalen-hicks-1,/cfb/players/kalen-hicks-1.html,DB,11,13,6,19,1.5,1.0,0,0,,0,0,0,0,0,0,,Hawaii,2017
+Zeno Choi,zeno-choi-1,/cfb/players/zeno-choi-1.html,DL,12,12,7,19,2.5,0.5,1,4,4.0,0,1,0,0,0,0,,Hawaii,2017
+Terrence Sayles,terrence-sayles-1,/cfb/players/terrence-sayles-1.html,DB,8,9,5,14,2.0,0.0,0,0,,0,0,0,0,0,0,,Hawaii,2017
+Tevarua Eldridge,tevarua-eldridge-1,/cfb/players/tevarua-eldridge-1.html,DL,9,8,6,14,1.0,0.5,0,0,,0,0,0,0,0,0,,Hawaii,2017
+Maxwell Hendrie,maxwell-hendrie-1,/cfb/players/maxwell-hendrie-1.html,DL,9,4,9,13,0.5,0.5,0,0,,0,0,0,0,0,0,,Hawaii,2017
+Penitito Faalologo,penitito-faalologo-1,/cfb/players/penitito-faalologo-1.html,DL,6,3,7,10,0.0,0.0,0,0,,0,0,0,0,0,0,,Hawaii,2017
+Kaimana Padello,kaimana-padello-1,/cfb/players/kaimana-padello-1.html,DL,12,6,4,10,2.5,1.0,0,0,,0,0,0,0,0,0,,Hawaii,2017
+Ikem Okeke,ikem-okeke-1,/cfb/players/ikem-okeke-1.html,LB,12,2,4,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Hawaii,2017
+Mykal Tolliver,mykal-tolliver-1,/cfb/players/mykal-tolliver-1.html,DB,7,4,2,6,1.0,0.0,0,0,,0,0,0,0,0,0,,Hawaii,2017
+Penei Payihi,penei-payihi-1,/cfb/players/penei-payihi-1.html,LB,4,4,1,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Hawaii,2017
+Penei Pavihi,penei-pavihi-1,/cfb/players/penei-pavihi-1.html,,11,4,1,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Hawaii,2017
+Austin Gerard,austin-gerard-1,/cfb/players/austin-gerard-1.html,DB,11,5,0,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Hawaii,2017
+Dany Mulanga,dany-mulanga-1,/cfb/players/dany-mulanga-1.html,LB,6,4,1,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Hawaii,2017
+Jay Dominique,jay-dominique-1,/cfb/players/jay-dominique-1.html,DB,6,2,2,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Hawaii,2017
+Dayton Furuta,dayton-furuta-1,/cfb/players/dayton-furuta-1.html,LB,12,4,0,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Hawaii,2017
+Noah Borden,noah-borden-1,/cfb/players/noah-borden-1.html,LB,10,2,2,4,0.0,0.0,0,0,,0,0,0,0,0,1,,Hawaii,2017
+Keelan Ewaliko,keelan-ewaliko-1,/cfb/players/keelan-ewaliko-1.html,WR,12,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Hawaii,2017
+Eperone Moananu,eperone-moananu-1,/cfb/players/eperone-moananu-1.html,OL,11,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Hawaii,2017
+Rashaan Falemalu,rashaan-falemalu-1,/cfb/players/rashaan-falemalu-1.html,LB,10,2,1,3,0.5,0.0,0,0,,0,0,1,9,0,0,,Hawaii,2017
+Zach Wilson,zach-wilson-1,/cfb/players/zach-wilson-1.html,DB,2,2,1,3,0.5,0.0,0,0,,0,0,0,0,0,0,,Hawaii,2017
+Ben Scruton,ben-scruton-1,/cfb/players/ben-scruton-1.html,DB,11,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Hawaii,2017
+Wesley Faagau,wesley-faagau-1,/cfb/players/wesley-faagau-1.html,DL,10,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Hawaii,2017
+Ryan Meskell,ryan-meskell-1,/cfb/players/ryan-meskell-1.html,PK,12,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Hawaii,2017
+Ammon Barker,ammon-barker-1,/cfb/players/ammon-barker-1.html,WR,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Hawaii,2017
+Cameron Hayes,cameron-hayes-1,/cfb/players/cameron-hayes-1.html,DB,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Hawaii,2017
+Dru Brown,dru-brown-1,/cfb/players/dru-brown-1.html,QB,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Hawaii,2017
+Chris Posa,chris-posa-1,/cfb/players/chris-posa-1.html,OL,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Hawaii,2017
+Stan Gaudion,stan-gaudion-1,/cfb/players/stan-gaudion-1.html,P,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Hawaii,2017
+Scheyenne Sanitoa,scheyenne-sanitoa-1,/cfb/players/scheyenne-sanitoa-1.html,DB,4,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Hawaii,2017
+Ryan Tuiasoa,ryan-tuiasoa-1,/cfb/players/ryan-tuiasoa-1.html,RB,12,1,0,1,0.0,0.0,0,0,,0,0,1,0,0,0,,Hawaii,2017
+La'akea Look,laakea-look-1,/cfb/players/laakea-look-1.html,LB,2,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Hawaii,2017
+Dylan Collie,dylan-collie-1,/cfb/players/dylan-collie-1.html,WR,11,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Hawaii,2017
+Isaiah Bernard,isaiah-bernard-1,/cfb/players/isaiah-bernard-1.html,WR,5,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Hawaii,2017
+Kade Greeley,kade-greeley-1,/cfb/players/kade-greeley-1.html,TE,7,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Hawaii,2017
+Kalakaua Timoteo,kalakaua-timoteo-1,/cfb/players/kalakaua-timoteo-1.html,WR,9,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Hawaii,2017
+Max Broman,max-broman-1,/cfb/players/max-broman-1.html,LB,6,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Hawaii,2017
+Marcus Armstrong-Brown,marcus-armstrong-brown-1,/cfb/players/marcus-armstrong-brown-1.html,WR,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Hawaii,2017
+KK Padello,kk-padello-1,/cfb/players/kk-padello-1.html,LB,1,1,0,1,1.0,1.0,0,0,,0,0,0,0,0,0,,Hawaii,2017
+Dakota Torres,dakota-torres-1,/cfb/players/dakota-torres-1.html,TE,11,0,0,0,0.0,0.0,0,0,,0,0,1,0,0,0,,Hawaii,2017

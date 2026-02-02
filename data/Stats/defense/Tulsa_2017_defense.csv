@@ -1,0 +1,44 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+McKinley Whitfield,mckinley-whitfield-1,/cfb/players/mckinley-whitfield-1.html,S,12,67,46,113,6.0,0.0,1,51,51.0,0,8,0,0,0,0,,Tulsa,2017
+Cooper Edmiston,cooper-edmiston-1,/cfb/players/cooper-edmiston-1.html,LB,12,55,51,106,2.0,0.0,1,0,0.0,0,0,2,0,0,0,,Tulsa,2017
+Craig Suits,craig-suits-1,/cfb/players/craig-suits-1.html,LB,12,38,34,72,9.5,0.0,2,55,27.5,1,1,0,0,0,1,,Tulsa,2017
+Diamon Cannon,diamon-cannon-1,/cfb/players/diamon-cannon-1.html,LB,12,29,31,60,4.5,0.0,1,4,4.0,0,2,1,0,0,2,,Tulsa,2017
+Jeremy Smith,jeremy-smith-3,/cfb/players/jeremy-smith-3.html,DE,12,35,22,57,8.0,6.0,0,0,,0,1,0,0,0,2,,Tulsa,2017
+Jesse Brubaker,jesse-brubaker-1,/cfb/players/jesse-brubaker-1.html,DL,11,28,28,56,6.5,1.0,0,0,,0,0,1,3,0,0,,Tulsa,2017
+Petera Wilson,petera-wilson-1,/cfb/players/petera-wilson-1.html,LB,11,28,26,54,5.5,3.0,0,0,,0,1,2,29,1,0,,Tulsa,2017
+Manny Bunch,manny-bunch-1,/cfb/players/manny-bunch-1.html,S,6,27,18,45,0.5,0.0,1,0,0.0,0,0,0,0,0,0,,Tulsa,2017
+Reginald Robinson II,reginald-robinson-iii-1,/cfb/players/reginald-robinson-iii-1.html,,12,32,6,38,2.5,0.0,0,0,,0,9,0,0,0,0,,Tulsa,2017
+Reginald Robinson II,reginald-robinson-ii-1,/cfb/players/reginald-robinson-ii-1.html,CB,12,32,6,38,2.5,0.0,0,0,,0,9,0,0,0,0,,Tulsa,2017
+Cristian Williams,cristian-williams-1,/cfb/players/cristian-williams-1.html,S,12,25,12,37,1.0,0.0,0,0,,0,3,0,0,0,0,,Tulsa,2017
+Kerwin Thomas,kerwin-thomas-1,/cfb/players/kerwin-thomas-1.html,CB,11,23,11,34,1.5,0.0,0,0,,0,2,0,0,0,0,,Tulsa,2017
+Akayleb Evans,akayleb-evans-1,/cfb/players/akayleb-evans-1.html,DB,9,20,6,26,0.0,0.0,0,0,,0,2,0,0,0,0,,Tulsa,2017
+Robert Revels III,robert-revels-iii-1,/cfb/players/robert-revels-iii-1.html,LB,12,10,15,25,0.5,0.0,0,0,,0,0,0,0,0,0,,Tulsa,2017
+Tyarise Stevenson,tyarise-stevenson-1,/cfb/players/tyarise-stevenson-1.html,DT,11,8,16,24,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulsa,2017
+Shemarr Robinson,shemarr-robinson-1,/cfb/players/shemarr-robinson-1.html,DT,12,8,14,22,1.0,0.0,0,0,,0,0,0,0,0,0,,Tulsa,2017
+Garrett Flanary,garrett-flanary-1,/cfb/players/garrett-flanary-1.html,DL,10,6,11,17,2.0,1.0,0,0,,0,0,0,0,0,0,,Tulsa,2017
+Keidrien Wadley,keidrien-wadley-1,/cfb/players/keidrien-wadley-1.html,CB,9,11,3,14,0.0,0.0,1,37,37.0,0,0,0,0,0,0,,Tulsa,2017
+Myles Mouton,myles-mouton-1,/cfb/players/myles-mouton-1.html,DE,12,7,5,12,2.0,0.0,0,0,,0,0,0,0,0,0,,Tulsa,2017
+Jordan Mitchell,jordan-mitchell-2,/cfb/players/jordan-mitchell-2.html,S,3,7,4,11,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulsa,2017
+Trevis Gipson,trevis-gipson-1,/cfb/players/trevis-gipson-1.html,DE,12,5,6,11,0.5,0.0,0,0,,0,1,0,0,0,1,,Tulsa,2017
+Kolton Shindelar,kolton-shindelar-1,/cfb/players/kolton-shindelar-1.html,DE,5,6,4,10,2.0,1.0,0,0,,0,0,0,0,0,1,,Tulsa,2017
+Samuel Gottsch,samuel-gottsch-1,/cfb/players/samuel-gottsch-1.html,DB,9,6,3,9,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulsa,2017
+Frankie Davis,frankie-davis-1,/cfb/players/frankie-davis-1.html,DE,8,3,6,9,2.5,0.0,0,0,,0,0,0,0,0,0,,Tulsa,2017
+Rob Riederer,rob-riederer-1,/cfb/players/rob-riederer-1.html,TE,12,5,4,9,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulsa,2017
+Cole Neph,cole-neph-1,/cfb/players/cole-neph-1.html,TE,12,6,2,8,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulsa,2017
+Ryan McDaniel,ryan-mcdaniel-2,/cfb/players/ryan-mcdaniel-2.html,S,10,5,2,7,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulsa,2017
+Treyvon Reeves,treyvon-reeves-1,/cfb/players/treyvon-reeves-1.html,LB,12,3,4,7,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulsa,2017
+Allie Green IV,allie-green-iv-1,/cfb/players/allie-green-iv-1.html,DB,11,3,4,7,0.0,0.0,0,0,,0,3,0,0,0,0,,Tulsa,2017
+Rowdy Simon,rowdy-simon-1,/cfb/players/rowdy-simon-1.html,RB,9,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulsa,2017
+Beau Wooden,beau-wooden-1,/cfb/players/beau-wooden-1.html,DL,6,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulsa,2017
+Keylon Stokes,keylon-stokes-1,/cfb/players/keylon-stokes-1.html,WR,9,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulsa,2017
+Nigel Carter,nigel-carter-1,/cfb/players/nigel-carter-1.html,WR,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulsa,2017
+Josh Stewart,josh-stewart-3,/cfb/players/josh-stewart-3.html,WR,11,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulsa,2017
+Jacob Pugh,jacob-pugh-2,/cfb/players/jacob-pugh-2.html,DL,3,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulsa,2017
+Redford Jones,redford-jones-1,/cfb/players/redford-jones-1.html,PK,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulsa,2017
+Payton Prince,payton-prince-1,/cfb/players/payton-prince-1.html,DL,12,0,1,1,0.0,0.0,0,0,,0,1,0,0,0,0,,Tulsa,2017
+Adam Higuera,adam-higuera-1,/cfb/players/adam-higuera-1.html,LS,12,1,0,1,0.0,0.0,0,0,,0,0,1,0,1,0,,Tulsa,2017
+Keenen Johnson,keenen-johnson-1,/cfb/players/keenen-johnson-1.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulsa,2017
+C.J. Gooden,cj-gooden-1,/cfb/players/cj-gooden-1.html,LB,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,1,,Tulsa,2017
+Blake Landon,blake-landon-1,/cfb/players/blake-landon-1.html,LB,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulsa,2017
+Will Hefley,will-hefley-1,/cfb/players/will-hefley-1.html,QB,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulsa,2017
+Zac Uhles,zach-uhles-1,/cfb/players/zach-uhles-1.html,OL,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulsa,2017

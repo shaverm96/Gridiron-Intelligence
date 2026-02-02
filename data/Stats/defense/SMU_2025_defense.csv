@@ -1,0 +1,42 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Ahmaad Moses,ahmaad-moses-1,/cfb/players/ahmaad-moses-1.html,S,13,54,50,104,5.5,1.0,5,110,22.0,1,3,2,0,0,0,,SMU,2025
+Isaiah Nwokobia,isaiah-nwokobia-1,/cfb/players/isaiah-nwokobia-1.html,S,12,41,39,80,2.0,0.0,2,43,21.5,0,7,1,0,0,0,,SMU,2025
+Brandon Booker,brandon-booker-1,/cfb/players/brandon-booker-1.html,LB,13,26,43,69,3.0,0.5,0,0,,0,2,0,0,0,0,,SMU,2025
+Alex Kilgore,alex-kilgore-1,/cfb/players/alex-kilgore-1.html,LB,11,31,29,60,3.5,0.0,2,10,5.0,1,2,0,0,0,0,,SMU,2025
+Isaiah Smith,isaiah-smith-1,/cfb/players/isaiah-smith-1.html,DE,13,31,22,53,18.0,8.5,0,0,,0,1,1,0,0,1,,SMU,2025
+Cam Robertson,cam-robertson-1,/cfb/players/cam-robertson-1.html,DE,10,27,25,52,10.0,5.0,0,0,,0,3,1,0,0,2,,SMU,2025
+Terry Webb,terry-webb-1,/cfb/players/terry-webb-1.html,DT,13,22,24,46,7.0,5.5,0,0,,0,4,0,0,0,1,,SMU,2025
+Brandon Miyazono,brandon-miyazono-1,/cfb/players/brandon-miyazono-1.html,LB,13,23,22,45,4.5,2.0,1,0,0.0,0,8,0,0,0,1,,SMU,2025
+Jeffrey M'ba,jeffrey-mba-1,/cfb/players/jeffrey-mba-1.html,DL,12,16,26,42,7.5,5.0,0,0,,0,0,0,0,0,0,,SMU,2025
+William Nettles,william-nettles-1,/cfb/players/william-nettles-1.html,CB,13,25,12,37,0.5,0.5,1,0,0.0,0,4,0,0,0,0,,SMU,2025
+Deuce Harmon,deuce-harmon-1,/cfb/players/deuce-harmon-1.html,DB,13,23,11,34,1.0,0.0,0,0,,0,7,0,0,0,0,,SMU,2025
+Marcellus Barnes Jr.,marcellus-barnes-jr-1,/cfb/players/marcellus-barnes-jr-1.html,CB,12,21,11,32,2.0,0.0,1,0,0.0,0,6,1,0,0,1,,SMU,2025
+Kyron Chambers,kyron-chambers-1,/cfb/players/kyron-chambers-1.html,CB,12,19,11,30,2.5,0.0,0,0,,0,2,0,0,0,0,,SMU,2025
+Zakye Barker,zakye-barker-1,/cfb/players/zakye-barker-1.html,LB,11,11,16,27,0.0,0.0,0,0,,0,1,0,0,0,1,,SMU,2025
+Justin Medlock,justin-medlock-2,/cfb/players/justin-medlock-2.html,LB,8,12,13,25,1.0,1.0,1,96,96.0,1,1,0,0,0,0,,SMU,2025
+Jaelyn Davis-Robinson,jaelyn-davis-robinson-1,/cfb/players/jaelyn-davis-robinson-1.html,CB,9,20,4,24,0.0,0.0,2,0,0.0,0,3,0,0,0,0,,SMU,2025
+Jahkai Lang,jahkai-lang-1,/cfb/players/jahkai-lang-1.html,DL,13,6,18,24,1.0,0.0,0,0,,0,0,1,0,0,0,,SMU,2025
+Tyren Polley Jr.,tyren-polley-jr-1,/cfb/players/tyren-polley-jr-1.html,S,6,16,4,20,0.0,0.0,2,28,14.0,0,2,0,0,0,0,,SMU,2025
+Jaden Milliner-Jones,jaden-milliner-jones-1,/cfb/players/jaden-milliner-jones-1.html,S,13,12,5,17,0.0,0.0,0,0,,0,0,0,0,0,1,,SMU,2025
+Keveion'ta Spears,keveionta-spears-1,/cfb/players/keveionta-spears-1.html,DL,13,8,7,15,2.5,0.0,0,0,,0,4,0,0,0,0,,SMU,2025
+Jaylen Moses,jaylen-moses-1,/cfb/players/jaylen-moses-1.html,S,13,10,3,13,0.0,0.0,0,0,,0,0,0,0,0,0,,SMU,2025
+Kevin Allen,kevin-allen-2,/cfb/players/kevin-allen-2.html,DL,12,5,7,12,2.5,1.0,0,0,,0,1,0,0,0,0,,SMU,2025
+William Spencer,william-spencer-1,/cfb/players/william-spencer-1.html,DL,13,5,6,11,2.0,0.0,0,0,,0,0,0,0,0,0,,SMU,2025
+La'Modrick Spencer,lamodrick-spencer-1,/cfb/players/lamodrick-spencer-1.html,CB,5,6,3,9,1.0,0.0,0,0,,0,1,0,0,0,0,,SMU,2025
+Abdul Muhammad,abdul-muhammad-2,/cfb/players/abdul-muhammad-2.html,S,11,7,1,8,0.0,0.0,0,0,,0,0,0,0,0,0,,SMU,2025
+Javion Holiday,javion-holiday-1,/cfb/players/javion-holiday-1.html,CB,11,4,2,6,0.0,0.0,0,0,,0,1,0,0,0,0,,SMU,2025
+DJ Warner,dj-warner-1,/cfb/players/dj-warner-1.html,DE,12,2,4,6,1.0,1.0,0,0,,0,1,0,0,0,1,,SMU,2025
+Billy Walton III,billy-walton-iii-1,/cfb/players/billy-walton-iii-1.html,DE,13,2,4,6,2.0,2.0,0,0,,0,0,0,0,0,0,,SMU,2025
+Link Rhodes,link-rhodes-1,/cfb/players/link-rhodes-1.html,WR,12,4,2,6,0.0,0.0,0,0,,0,0,2,0,0,0,,SMU,2025
+Mark Iheanachor,mark-iheanachor-1,/cfb/players/mark-iheanachor-1.html,LB,3,4,0,4,1.0,1.0,0,0,,0,0,0,0,0,0,,SMU,2025
+Morgan Tribbett,morgan-tribbett-1,/cfb/players/morgan-tribbett-1.html,LS,13,2,2,4,0.0,0.0,0,0,,0,0,0,0,0,0,,SMU,2025
+Trey Wilson,trey-wilson-2,/cfb/players/trey-wilson-2.html,DE,7,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,SMU,2025
+Daylon Singleton,daylon-singleton-1,/cfb/players/daylon-singleton-1.html,WR,8,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,SMU,2025
+Dylan Goffney,dylan-goffney-1,/cfb/players/dylan-goffney-1.html,WR,13,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,SMU,2025
+Sael Reyes,sael-reyes-1,/cfb/players/sael-reyes-1.html,S,9,1,1,2,0.0,0.0,1,0,0.0,0,0,0,0,0,0,,SMU,2025
+Blake Burris,blake-burris-1,/cfb/players/blake-burris-1.html,DL,13,1,1,2,0.0,0.0,0,0,,0,1,0,0,0,0,,SMU,2025
+Xavier Wright,xavier-wright-1,/cfb/players/xavier-wright-1.html,LB,4,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,SMU,2025
+Matthew Hibner,matthew-hibner-1,/cfb/players/matthew-hibner-1.html,TE,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,SMU,2025
+Shaadie Clayton-Johnson,shaadie-clayton-1,/cfb/players/shaadie-clayton-1.html,RB,8,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,SMU,2025
+Henry Stickler,henry-stickler-1,/cfb/players/henry-stickler-1.html,WR,6,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,SMU,2025
+Romello Brinson,romello-brinson-1,/cfb/players/romello-brinson-1.html,WR,12,0,0,0,0.0,0.0,0,0,,0,0,1,0,0,0,,SMU,2025

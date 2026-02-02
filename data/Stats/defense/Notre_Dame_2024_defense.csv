@@ -1,0 +1,57 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Jack Kiser,jack-kiser-1,/cfb/players/jack-kiser-1.html,LB,16,55,35,90,5.0,2.0,0,0,,0,1,2,0,0,2,,Notre Dame,2024
+Xavier Watts,xavier-watts-1,/cfb/players/xavier-watts-1.html,S,16,52,30,82,3.5,0.0,6,136,22.7,1,10,1,0,0,1,AA,Notre Dame,2024
+Drayk Bowen,drayk-bowen-1,/cfb/players/drayk-bowen-1.html,LB,16,40,38,78,4.0,1.0,0,0,,0,2,0,0,0,3,,Notre Dame,2024
+Adon Shuler,adon-shuler-1,/cfb/players/adon-shuler-1.html,S,16,36,23,59,3.0,0.0,3,94,31.3,1,5,1,28,0,1,,Notre Dame,2024
+Jaiden Ausberry,jaiden-ausberry-1,/cfb/players/jaiden-ausberry-1.html,LB,16,35,23,58,6.5,0.5,0,0,,0,1,2,0,0,0,,Notre Dame,2024
+Jaylen Sneed,jaylen-sneed-1,/cfb/players/jaylen-sneed-1.html,LB,16,22,29,51,6.0,2.5,0,0,,0,0,1,0,1,2,,Notre Dame,2024
+Leonard Moore,leonard-moore-1,/cfb/players/leonard-moore-1.html,CB,16,34,14,48,2.0,0.0,2,6,3.0,0,11,0,0,0,2,,Notre Dame,2024
+Rylie Mills,rylie-mills-1,/cfb/players/rylie-mills-1.html,DL,13,19,18,37,8.5,7.5,0,0,,0,0,0,0,0,0,,Notre Dame,2024
+Jordan Clark,jordan-clark-1,/cfb/players/jordan-clark-1.html,S,16,29,8,37,2.0,0.0,1,2,2.0,0,5,0,0,0,0,,Notre Dame,2024
+Kyngstonn Viliamu-Asa,kyngstonn-viliamu-asa-1,/cfb/players/kyngstonn-viliamu-asa-1.html,LB,14,9,28,37,2.5,1.0,1,4,4.0,0,1,1,0,0,0,,Notre Dame,2024
+Rod Heard II,rod-heard-ii-1,/cfb/players/rod-heard-ii-1.html,S,16,25,12,37,2.0,1.0,0,0,,0,4,1,0,0,1,,Notre Dame,2024
+Christian Gray,christian-gray-1,/cfb/players/christian-gray-1.html,CB,15,26,9,35,2.5,0.0,3,99,33.0,1,9,0,0,0,1,,Notre Dame,2024
+Donovan Hinish,donovan-hinish-1,/cfb/players/donovan-hinish-1.html,DL,16,19,16,35,4.5,4.5,0,0,,0,1,0,0,0,0,,Notre Dame,2024
+Junior Tuihalamaka,junior-tuihalamaka-1,/cfb/players/junior-tuihalamaka-1.html,LB,16,17,16,33,5.5,3.0,1,0,0.0,0,1,2,0,0,0,,Notre Dame,2024
+Joshua Burnham,joshua-burnham-1,/cfb/players/joshua-burnham-1.html,LB,14,16,14,30,6.5,2.0,0,0,,0,1,1,15,0,1,,Notre Dame,2024
+Howard Cross III,howard-cross-iii-1,/cfb/players/howard-cross-iii-1.html,DL,13,14,14,28,5.5,4.0,0,0,,0,1,0,0,0,0,,Notre Dame,2024
+Gabe Rubio,gabe-rubio-1,/cfb/players/gabe-rubio-1.html,DL,11,12,12,24,2.5,1.0,0,0,,0,1,0,0,0,0,,Notre Dame,2024
+Bryce Young,bryce-young-2,/cfb/players/bryce-young-2.html,DL,16,14,9,23,3.0,1.5,0,0,,0,0,0,0,0,0,,Notre Dame,2024
+Luke Talich,luke-talich-1,/cfb/players/luke-talich-1.html,S,16,14,6,20,0.0,0.0,1,79,79.0,1,0,0,0,0,1,,Notre Dame,2024
+Benjamin Morrison,benjamin-morrison-1,/cfb/players/benjamin-morrison-1.html,CB,6,14,6,20,0.0,0.0,0,0,,0,4,0,0,0,0,,Notre Dame,2024
+R.J. Oben,rj-oben-1,/cfb/players/rj-oben-1.html,DL,16,10,9,19,1.5,1.0,0,0,,0,0,0,0,0,1,,Notre Dame,2024
+Max Hurleman,max-hurleman-1,/cfb/players/max-hurleman-1.html,RB,16,11,2,13,0.0,0.0,0,0,,0,0,1,0,0,0,,Notre Dame,2024
+Kennedy Urlacher,kennedy-urlacher-1,/cfb/players/kennedy-urlacher-1.html,S,14,7,5,12,1.0,0.0,0,0,,0,1,1,3,0,0,,Notre Dame,2024
+Jordan Botelho,jordan-botelho-1,/cfb/players/jordan-botelho-1.html,DL,3,5,7,12,1.0,1.0,0,0,,0,0,0,0,0,0,,Notre Dame,2024
+Boubacar Traore,boubacar-traore-1,/cfb/players/boubacar-traore-1.html,DL,5,8,3,11,5.0,3.0,1,34,34.0,1,0,0,0,0,1,,Notre Dame,2024
+Ben Minich,ben-minich-1,/cfb/players/ben-minich-1.html,S,14,5,3,8,0.5,0.5,0,0,,0,1,0,0,0,0,,Notre Dame,2024
+Jason Onye,jason-onye-2,/cfb/players/jason-onye-2.html,DL,5,4,3,7,1.5,1.5,0,0,,0,1,0,0,0,0,,Notre Dame,2024
+Loghan Thomas,loghan-thomas-1,/cfb/players/loghan-thomas-1.html,DL,15,4,3,7,1.5,1.5,0,0,,0,0,0,0,0,0,,Notre Dame,2024
+Jayden Harrison,jayden-harrison-1,/cfb/players/jayden-harrison-1.html,WR,16,4,0,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Notre Dame,2024
+Armel Mukam,armel-mukam-1,/cfb/players/armel-mukam-1.html,DL,11,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Notre Dame,2024
+Sean Sevillano Jr.,sean-sevillano-jr-1,/cfb/players/sean-sevillano-jr-1.html,DL,3,4,0,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Notre Dame,2024
+Preston Zinter,preston-zinter-1,/cfb/players/preston-zinter-1.html,LB,16,4,0,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Notre Dame,2024
+Jaden Mickey,jaden-mickey-1,/cfb/players/jaden-mickey-1.html,CB,4,2,1,3,0.0,0.0,0,0,,0,1,0,0,0,0,,Notre Dame,2024
+Tae Johnson,tae-johnson-1,/cfb/players/tae-johnson-1.html,S,3,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Notre Dame,2024
+Davis Sherwood,davis-sherwood-1,/cfb/players/davis-sherwood-1.html,TE,15,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Notre Dame,2024
+Andrew Kros,andrew-kros-1,/cfb/players/andrew-kros-1.html,LS,7,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Notre Dame,2024
+Tre Reader,tre-reader-1,/cfb/players/tre-reader-1.html,LB,5,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Notre Dame,2024
+Mitch Jeter,mitch-jeter-1,/cfb/players/mitch-jeter-1.html,K,14,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Notre Dame,2024
+Karson Hobbs,karson-hobbs-1,/cfb/players/karson-hobbs-1.html,CB,9,2,0,2,0.0,0.0,0,0,,0,1,0,0,0,0,,Notre Dame,2024
+Grant Ristoff,grant-ristoff-1,/cfb/players/grant-ristoff-1.html,DL,2,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Notre Dame,2024
+Jordan Faison,jordan-faison-1,/cfb/players/jordan-faison-1.html,WR,13,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Notre Dame,2024
+Chris Salerno,chris-salerno-1,/cfb/players/chris-salerno-1.html,K,16,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Notre Dame,2024
+Ashton Craig,ashton-craig-1,/cfb/players/ashton-craig-1.html,OL,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Notre Dame,2024
+Ty Chan,ty-chan-1,/cfb/players/ty-chan-1.html,OL,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Notre Dame,2024
+Jeremiyah Love,jeremiyah-love-1,/cfb/players/jeremiyah-love-1.html,RB,16,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Notre Dame,2024
+Teddy Rezac,teddy-rezac-1,/cfb/players/teddy-rezac-1.html,LB,8,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Notre Dame,2024
+Jadarian Price,jadarian-price-1,/cfb/players/jadarian-price-1.html,RB,16,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Notre Dame,2024
+Bodie Kahoun,bodie-kahoun-1,/cfb/players/bodie-kahoun-1.html,LB,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Notre Dame,2024
+Brenan Vernon,brenan-vernon-1,/cfb/players/brenan-vernon-1.html,DL,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Notre Dame,2024
+Kobi Onyiuke,kobi-onyiuke-1,/cfb/players/kobi-onyiuke-1.html,DL,9,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Notre Dame,2024
+Joseph Vinci,joseph-vinci-1,/cfb/players/joseph-vinci-1.html,LS,8,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Notre Dame,2024
+Pat Coogan,pat-coogan-1,/cfb/players/pat-coogan-1.html,OL,16,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Notre Dame,2024
+Deion Colzie,deion-colzie-1,/cfb/players/deion-colzie-1.html,WR,16,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Notre Dame,2024
+Eric Goins,eric-goins-1,/cfb/players/eric-goins-1.html,P,9,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Notre Dame,2024
+Devan Houstan,devan-houstan-1,/cfb/players/devan-houstan-1.html,DL,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Notre Dame,2024
+Devyn Ford,devyn-ford-1,/cfb/players/devyn-ford-1.html,RB,13,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Notre Dame,2024

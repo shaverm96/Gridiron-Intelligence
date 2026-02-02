@@ -1,0 +1,53 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Martavius French,martavius-french-2,/cfb/players/martavius-french-2.html,LB,13,52,28,80,17.0,1.0,0,0,,0,3,0,0,0,0,,UTSA,2024
+Elliott Davison,elliott-davison-1,/cfb/players/elliott-davison-1.html,S,13,45,13,58,0.0,0.0,0,0,,0,4,1,0,0,0,,UTSA,2024
+Jamal Ligon,jamal-ligon-1,/cfb/players/jamal-ligon-1.html,LB,13,27,19,46,6.5,3.0,0,0,,0,2,1,3,0,3,,UTSA,2024
+Brevin Randle,brevin-randle-1,/cfb/players/brevin-randle-1.html,LB,13,25,20,45,1.0,0.0,0,0,,0,4,1,0,0,0,,UTSA,2024
+Jimmori Robinson,jimmori-robinson-1,/cfb/players/jimmori-robinson-1.html,LB,12,27,16,43,17.0,10.5,0,0,,0,2,1,0,0,2,,UTSA,2024
+Owen Pewee,owen-pewee-1,/cfb/players/owen-pewee-1.html,LB,13,25,17,42,6.5,2.0,2,11,5.5,0,2,0,0,0,1,,UTSA,2024
+Donyai Taylor,donyai-taylor-1,/cfb/players/donyai-taylor-1.html,LB,11,32,9,41,6.5,2.0,0,0,,0,3,0,0,0,0,,UTSA,2024
+Syrus Dumas,syrus-dumas-1,/cfb/players/syrus-dumas-1.html,CB,10,31,7,38,5.0,0.0,0,0,,0,2,2,0,0,1,,UTSA,2024
+Brandon Brown,brandon-brown-10,/cfb/players/brandon-brown-10.html,DL,13,15,14,29,8.5,4.0,0,0,,0,0,0,0,0,0,,UTSA,2024
+Jer'Marius Lewis,jermarius-lewis-1,/cfb/players/jermarius-lewis-1.html,S,13,19,9,28,1.0,0.0,1,4,4.0,0,2,0,0,0,0,,UTSA,2024
+Ken Robinson,ken-robinson-2,/cfb/players/ken-robinson-2.html,S,6,19,6,25,2.0,0.0,0,0,,0,1,0,0,0,0,,UTSA,2024
+Asyrus Simon,asyrus-simon-1,/cfb/players/asyrus-simon-1.html,DL,13,11,14,25,8.5,3.0,0,0,,0,1,1,0,0,1,,UTSA,2024
+Zah Frazier,zah-frazier-1,/cfb/players/zah-frazier-1.html,CB,12,20,4,24,1.0,0.0,6,10,1.7,0,9,0,0,0,1,,UTSA,2024
+Ronald Triplette,ronald-triplette-2,/cfb/players/ronald-triplette-2.html,DL,12,10,13,23,5.0,4.0,0,0,,0,1,0,0,0,2,,UTSA,2024
+Vic Shaw,vic-shaw-1,/cfb/players/vic-shaw-1.html,LB,13,10,11,21,4.0,2.5,0,0,,0,1,0,0,0,0,,UTSA,2024
+Tyan Milton,tyan-milton-1,/cfb/players/tyan-milton-1.html,CB,12,13,5,18,2.0,1.0,0,0,,0,5,0,0,0,0,,UTSA,2024
+Christian Clayton,christian-clayton-1,/cfb/players/christian-clayton-1.html,DL,13,8,10,18,2.5,0.5,0,0,,0,2,1,0,0,1,,UTSA,2024
+Jameian Buxton,jameian-buxton-1,/cfb/players/jameian-buxton-1.html,DL,13,5,12,17,1.5,1.0,0,0,,0,0,0,0,0,0,,UTSA,2024
+Denver Harris,denver-harris-1,/cfb/players/denver-harris-1.html,CB,11,14,2,16,1.0,0.0,0,0,,0,3,0,0,0,0,,UTSA,2024
+Jonathan Jones,jonathan-jones-7,/cfb/players/jonathan-jones-7.html,DL,12,8,7,15,3.0,1.5,0,0,,0,0,0,0,0,0,,UTSA,2024
+Elijah Newell,elijah-newell-1,/cfb/players/elijah-newell-1.html,S,5,9,5,14,0.0,0.0,0,0,,0,1,0,0,0,0,,UTSA,2024
+Davin Martin,davin-martin-1,/cfb/players/davin-martin-1.html,CB,13,10,2,12,1.0,1.0,0,0,,0,1,1,0,0,0,,UTSA,2024
+Camron Cooper,camron-cooper-1,/cfb/players/camron-cooper-1.html,LB,13,5,7,12,2.0,2.0,0,0,,0,0,0,0,0,1,,UTSA,2024
+Jimmy Wyrick,jimmy-wyrick-2,/cfb/players/jimmy-wyrick-2.html,S,4,7,3,10,0.0,0.0,0,0,,0,0,0,0,0,1,,UTSA,2024
+Marcellus Wilkerson,marcellus-wilkerson-1,/cfb/players/marcellus-wilkerson-1.html,S,5,8,2,10,3.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2024
+Zechariah Robinson,zechariah-robinson-1,/cfb/players/zechariah-robinson-1.html,DL,5,3,5,8,1.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2024
+Daemian Wimberly,daemian-wimberly-1,/cfb/players/daemian-wimberly-1.html,DT,12,6,2,8,0.5,0.0,0,0,,0,1,1,28,1,0,,UTSA,2024
+Bryce Grays,bryce-grays-1,/cfb/players/bryce-grays-1.html,LB,13,6,2,8,1.5,1.0,0,0,,0,1,0,0,0,1,,UTSA,2024
+Chidera Otutu,chidera-otutu-1,/cfb/players/chidera-otutu-1.html,DL,13,3,5,8,2.0,0.0,0,0,,0,0,0,0,0,1,,UTSA,2024
+Kendrick Blackshire,kendrick-blackshire-1,/cfb/players/kendrick-blackshire-1.html,LB,3,2,5,7,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2024
+James Walley Jr.,james-walley-jr-1,/cfb/players/james-walley-jr-1.html,LB,7,3,2,5,1.0,1.0,0,0,,0,0,0,0,0,0,,UTSA,2024
+Joseph Evans,joseph-evans-1,/cfb/players/joseph-evans-1.html,DL,5,1,4,5,1.5,1.0,0,0,,0,0,0,0,0,0,,UTSA,2024
+Zach Morris,zach-morris-2,/cfb/players/zach-morris-2.html,CB,6,5,0,5,0.0,0.0,1,0,0.0,0,1,0,0,0,0,,UTSA,2024
+Jamel Hardy,jamel-hardy-1,/cfb/players/jamel-hardy-1.html,WR,13,3,2,5,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2024
+Jakevian Rodgers,jakevian-rodgers-1,/cfb/players/jakevian-rodgers-1.html,CB,12,2,1,3,0.0,0.0,1,0,0.0,0,0,1,0,0,0,,UTSA,2024
+Chris Bryson,chris-bryson-1,/cfb/players/chris-bryson-1.html,LB,11,0,3,3,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2024
+Tai Leonard,tai-leonard-1,/cfb/players/tai-leonard-1.html,DL,5,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2024
+Kaleb Brown,kaleb-brown-3,/cfb/players/kaleb-brown-3.html,LB,13,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2024
+Kevorian Barnes,kevorian-barnes-1,/cfb/players/kevorian-barnes-1.html,RB,12,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2024
+Cade Collenback,cade-collenback-1,/cfb/players/cade-collenback-1.html,LS,13,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2024
+Ian Jackson,ian-jackson-1,/cfb/players/ian-jackson-1.html,LB,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2024
+Chris Carpenter,chris-carpenter-2,/cfb/players/chris-carpenter-2.html,WR,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2024
+Ronald Link-Milam Jr.,ronald-link-milam-jr-1,/cfb/players/ronald-link-milam-jr-1.html,S,8,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2024
+Caile Hogan,caile-hogan-1,/cfb/players/caile-hogan-1.html,P,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2024
+Buffalo Kruize,buffalo-kruize-1,/cfb/players/buffalo-kruize-1.html,OL,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2024
+CJ James,cj-james-2,/cfb/players/cj-james-2.html,OL,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2024
+Owen McCown,owen-mccown-1,/cfb/players/owen-mccown-1.html,QB,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2024
+Kenyan Kelly,kenyan-kelly-1,/cfb/players/kenyan-kelly-1.html,S,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2024
+Kenny Ozowalu,kenny-ozowalu-1,/cfb/players/kenny-ozowalu-1.html,DL,4,1,0,1,1.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2024
+Dan Dishman,dan-dishman-1,/cfb/players/dan-dishman-1.html,TE,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2024
+Eddie Lee Marburger,eddie-lee-marburger-1,/cfb/players/eddie-lee-marburger-1.html,QB,7,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2024
+Houston Thomas,houston-thomas-1,/cfb/players/houston-thomas-1.html,TE,13,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2024

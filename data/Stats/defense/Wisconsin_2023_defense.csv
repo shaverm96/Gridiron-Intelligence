@@ -1,0 +1,37 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Hunter Wohler,hunter-wohler-1,/cfb/players/hunter-wohler-1.html,S,13,74,46,120,5.5,1.0,2,0,0.0,0,6,0,0,0,0,,Wisconsin,2023
+Jake Chaney,jake-chaney-1,/cfb/players/jake-chaney-1.html,LB,13,50,30,80,7.0,3.0,0,0,,0,0,0,0,0,0,,Wisconsin,2023
+Jordan Turner,jordan-turner-1,/cfb/players/jordan-turner-1.html,LB,11,33,28,61,6.5,3.0,0,0,,0,2,0,0,0,1,,Wisconsin,2023
+C.J. Goetz,cj-goetz-1,/cfb/players/cj-goetz-1.html,LB,13,23,37,60,11.0,4.0,1,0,0.0,0,2,0,0,0,1,,Wisconsin,2023
+Maema Njongmeta,maema-njongmeta-1,/cfb/players/maema-njongmeta-1.html,LB,13,30,29,59,8.5,3.0,0,0,,0,1,3,0,0,0,,Wisconsin,2023
+Preston Zachman,preston-zachman-1,/cfb/players/preston-zachman-1.html,S,13,27,22,49,1.0,0.0,2,0,0.0,0,3,0,0,0,0,,Wisconsin,2023
+Darryl Peterson,darryl-peterson-1,/cfb/players/darryl-peterson-1.html,LB,13,27,20,47,10.0,4.5,0,0,,0,2,0,0,0,0,,Wisconsin,2023
+Nyzier Fourqurean,nyzier-fourqurean-1,/cfb/players/nyzier-fourqurean-1.html,DB,12,26,13,39,3.5,2.0,0,0,,0,2,0,0,0,0,,Wisconsin,2023
+Austin Brown,austin-brown-7,/cfb/players/austin-brown-7.html,S,13,27,10,37,1.0,1.0,0,0,,0,2,0,0,0,0,,Wisconsin,2023
+Ricardo Hallman,ricardo-hallman-1,/cfb/players/ricardo-hallman-1.html,CB,13,27,7,34,3.0,0.0,7,152,21.7,1,5,0,0,0,0,,Wisconsin,2023
+Jason Maitre,jason-maitre-1,/cfb/players/jason-maitre-1.html,CB,12,24,9,33,1.0,0.0,1,19,19.0,0,3,0,0,0,0,,Wisconsin,2023
+James Thompson Jr.,james-thompson-jr-1,/cfb/players/james-thompson-jr-1.html,DE,13,19,10,29,5.5,3.0,0,0,,0,2,0,0,0,0,,Wisconsin,2023
+Alexander Smith,alexander-smith-1,/cfb/players/alexander-smith-1.html,CB,11,15,12,27,2.5,1.0,0,0,,0,5,0,0,0,0,,Wisconsin,2023
+Gio Paez,gio-paez-1,/cfb/players/gio-paez-1.html,DT,13,4,18,22,0.5,0.0,0,0,,0,0,0,0,0,0,,Wisconsin,2023
+Jeff Pietrowski,jeff-pietrowski-1,/cfb/players/jeff-pietrowski-1.html,DE,13,14,7,21,1.5,0.0,0,0,,0,0,0,0,0,0,,Wisconsin,2023
+Rodas Johnson,rodas-johnson-1,/cfb/players/rodas-johnson-1.html,DE,12,7,12,19,3.0,0.5,0,0,,0,0,0,0,0,0,,Wisconsin,2023
+Kamo'i Latu,kamoi-latu-1,/cfb/players/kamoi-latu-1.html,S,11,14,5,19,1.0,0.0,0,0,,0,3,0,0,0,0,,Wisconsin,2023
+Curt Neal,curt-neal-1,/cfb/players/curt-neal-1.html,DT,13,6,7,13,1.5,0.0,0,0,,0,0,0,0,0,0,,Wisconsin,2023
+Ben Barten,ben-barten-1,/cfb/players/ben-barten-1.html,DL,13,5,8,13,1.0,1.0,0,0,,0,1,0,0,0,0,,Wisconsin,2023
+Tatum Grass,tatum-grass-1,/cfb/players/tatum-grass-1.html,LB,12,6,2,8,0.0,0.0,0,0,,0,0,0,0,0,0,,Wisconsin,2023
+Travian Blaylock,travian-blaylock-1,/cfb/players/travian-blaylock-1.html,S,13,4,3,7,0.0,0.0,0,0,,0,1,0,0,0,0,,Wisconsin,2023
+Grover Bortolotti,grover-bortolotti-1,/cfb/players/grover-bortolotti-1.html,RB,13,2,4,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Wisconsin,2023
+Kaden Johnson,kaden-johnson-1,/cfb/players/kaden-johnson-1.html,LB,13,3,2,5,1.0,1.0,0,0,,0,0,0,0,0,1,,Wisconsin,2023
+Christian Alliegro,christian-alliegro-1,/cfb/players/christian-alliegro-1.html,LB,13,3,2,5,1.0,1.0,0,0,,0,1,0,0,0,0,,Wisconsin,2023
+Darian Varner,darian-varner-1,/cfb/players/darian-varner-1.html,DL,11,2,3,5,1.5,0.0,0,0,,0,0,1,0,0,1,,Wisconsin,2023
+Cade McDonald,cade-mcdonald-2,/cfb/players/cade-mcdonald-2.html,DE,10,0,3,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Wisconsin,2023
+Owen Arnett,owen-arnett-1,/cfb/players/owen-arnett-1.html,S,13,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Wisconsin,2023
+Quincy Burroughs,quincy-burroughs-1,/cfb/players/quincy-burroughs-1.html,WR,13,0,3,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Wisconsin,2023
+Jonas Duclona,jonas-duclona-1,/cfb/players/jonas-duclona-1.html,CB,12,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Wisconsin,2023
+Will Pauling,will-pauling-1,/cfb/players/will-pauling-1.html,WR,13,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Wisconsin,2023
+Cade Yacamelli,cade-yacamelli-1,/cfb/players/cade-yacamelli-1.html,RB,9,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Wisconsin,2023
+Tyler Jansey,tyler-jansey-1,/cfb/players/tyler-jansey-1.html,LB,4,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Wisconsin,2023
+Tanner Mordecai,tanner-mordecai-1,/cfb/players/tanner-mordecai-1.html,QB,10,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Wisconsin,2023
+Haakon Anderson,haakon-anderson-1,/cfb/players/haakon-anderson-1.html,WR,13,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Wisconsin,2023
+Aaron Witt,aaron-witt-1,/cfb/players/aaron-witt-1.html,LB,2,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Wisconsin,2023
+Hayden Rucci,hayden-rucci-1,/cfb/players/hayden-rucci-1.html,TE,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Wisconsin,2023

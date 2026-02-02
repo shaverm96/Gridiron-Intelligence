@@ -1,0 +1,43 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Tyren Dupree,tyren-dupree-1,/cfb/players/tyren-dupree-1.html,LB,14,67,57,124,8.0,2.5,2,6,3.0,0,3,1,0,0,0,,Liberty,2023
+Brandon Bishop,brandon-bishop-3,/cfb/players/brandon-bishop-3.html,DB,14,41,20,61,3.0,0.0,3,18,6.0,0,3,1,5,0,0,,Liberty,2023
+Joseph Carter,joseph-carter-3,/cfb/players/joseph-carter-3.html,LB,14,33,26,59,1.5,0.0,1,9,9.0,0,1,0,0,0,0,,Liberty,2023
+Quinton Reese,quinton-reese-1,/cfb/players/quinton-reese-1.html,S,14,33,22,55,3.0,0.0,2,21,10.5,0,1,0,0,0,1,,Liberty,2023
+Jerome Jolly Jr.,jerome-jolly-jr-1,/cfb/players/jerome-jolly-jr-1.html,LB,13,24,31,55,4.0,1.0,2,27,13.5,0,3,0,0,0,2,,Liberty,2023
+CJ Bazile Jr.,cj-bazile-jr-1,/cfb/players/cj-bazile-jr-1.html,DE,14,20,29,49,10.5,3.0,0,0,,0,0,0,0,0,0,,Liberty,2023
+Preston Hodge,preston-hodge-1,/cfb/players/preston-hodge-1.html,DB,13,32,16,48,3.0,0.0,2,62,31.0,1,8,0,0,0,1,,Liberty,2023
+Kobe Singleton,kobe-singleton-1,/cfb/players/kobe-singleton-1.html,CB,14,29,11,40,0.0,0.0,4,36,9.0,1,12,1,0,0,0,,Liberty,2023
+Brylan Green,brylan-green-1,/cfb/players/brylan-green-1.html,S,13,28,10,38,3.0,1.0,5,2,0.4,0,8,0,0,0,1,,Liberty,2023
+Amarian Williams,amarian-williams-1,/cfb/players/amarian-williams-1.html,CB,13,25,12,37,2.0,0.0,0,0,,0,4,0,0,0,0,,Liberty,2023
+Bryce Dixon,bryce-dixon-2,/cfb/players/bryce-dixon-2.html,DT,14,9,26,35,3.5,1.5,0,0,,0,3,0,0,0,1,,Liberty,2023
+TJ Bush,tj-bush-1,/cfb/players/tj-bush-1.html,DE,14,11,21,32,7.0,2.0,0,0,,0,5,0,0,0,0,,Liberty,2023
+Jay Hardy,jay-hardy-1,/cfb/players/jay-hardy-1.html,DT,14,12,19,31,5.0,2.0,0,0,,0,1,0,0,0,0,,Liberty,2023
+Kendy Charles,kendy-charles-1,/cfb/players/kendy-charles-1.html,DT,8,10,16,26,4.5,3.0,0,0,,0,0,1,6,0,0,,Liberty,2023
+Jaylon Jimmerson,jaylon-jimmerson-1,/cfb/players/jaylon-jimmerson-1.html,S,14,15,7,22,4.0,1.0,0,0,,0,2,0,0,0,0,,Liberty,2023
+A'Khori Jones,akhori-jones-1,/cfb/players/akhori-jones-1.html,S,12,9,7,16,0.0,0.0,0,0,,0,2,0,0,0,0,,Liberty,2023
+Chris Boti,chris-boti-1,/cfb/players/chris-boti-1.html,DT,11,4,11,15,3.5,2.5,0,0,,0,0,0,0,0,0,,Liberty,2023
+Marquis Bell,marquis-bell-1,/cfb/players/marquis-bell-1.html,CB,11,11,4,15,0.0,0.0,0,0,,0,3,0,0,0,0,,Liberty,2023
+Grey Carroll,grey-carroll-1,/cfb/players/grey-carroll-1.html,DE,14,5,9,14,3.5,0.0,0,0,,0,0,0,0,0,0,,Liberty,2023
+Bryan Whitehead II,bryan-whitehead-ii-1,/cfb/players/bryan-whitehead-ii-1.html,DE,13,5,9,14,3.0,0.5,0,0,,0,0,0,0,0,0,,Liberty,2023
+Dexter Ricks Jr.,dexter-ricks-jr-1,/cfb/players/dexter-ricks-jr-1.html,CB,14,8,3,11,0.0,0.0,0,0,,0,1,0,0,0,0,,Liberty,2023
+Nick Days,nick-days-1,/cfb/players/nick-days-1.html,LB,14,4,5,9,0.0,0.0,0,0,,0,1,0,0,0,0,,Liberty,2023
+Chike Nwankwo,chike-nwankwo-2,/cfb/players/chike-nwankwo-2.html,LB,12,4,3,7,0.0,0.0,0,0,,0,0,0,0,0,0,,Liberty,2023
+Elijah Auguste,elijah-auguste-1,/cfb/players/elijah-auguste-1.html,DB,12,4,2,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Liberty,2023
+Tysheik Galloway,tysheik-galloway-1,/cfb/players/tysheik-galloway-1.html,DT,10,3,2,5,1.0,1.0,0,0,,0,0,0,0,0,0,,Liberty,2023
+Aakil Washington,aakil-washington-1,/cfb/players/aakil-washington-1.html,LB,4,2,2,4,1.5,0.0,0,0,,0,0,0,0,0,0,,Liberty,2023
+Bryson Jennings,bryson-jennings-1,/cfb/players/bryson-jennings-1.html,DE,13,2,2,4,2.0,1.5,0,0,,0,0,0,0,0,1,,Liberty,2023
+Eliyte Nairne,eliyte-nairne-1,/cfb/players/eliyte-nairne-1.html,DT,4,2,1,3,2.0,2.0,0,0,,0,0,0,0,0,0,,Liberty,2023
+Jayden Sweeney,jayden-sweeney-1,/cfb/players/jayden-sweeney-1.html,S,13,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Liberty,2023
+Elijah Hopkins,elijah-hopkins-1,/cfb/players/elijah-hopkins-1.html,CB,9,2,0,2,0.0,0.0,0,0,,0,1,0,0,0,0,,Liberty,2023
+Max Morgan,max-morgan-2,/cfb/players/max-morgan-2.html,P,14,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Liberty,2023
+Quinton Cooley,quinton-cooley-1,/cfb/players/quinton-cooley-1.html,RB,14,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Liberty,2023
+Olan Robinson,olan-robinson-1,/cfb/players/olan-robinson-1.html,LB,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Liberty,2023
+James Jointer,james-jointer-1,/cfb/players/james-jointer-1.html,RB,9,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Liberty,2023
+Nathan Pirolli,nathan-pirolli-1,/cfb/players/nathan-pirolli-1.html,DT,4,0,1,1,0.5,0.5,0,0,,0,0,0,0,0,0,,Liberty,2023
+Larry Jones III,larry-jones-iii-1,/cfb/players/larry-jones-iii-1.html,DE,7,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Liberty,2023
+Kaidon Salter,kaidon-salter-1,/cfb/players/kaidon-salter-1.html,QB,14,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Liberty,2023
+Jabin Ford,jabin-ford-1,/cfb/players/jabin-ford-1.html,S,4,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Liberty,2023
+Ed Ogle,ed-ogle-1,/cfb/players/ed-ogle-1.html,WR,13,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Liberty,2023
+Bo Burklow,bo-burklow-1,/cfb/players/bo-burklow-1.html,TE,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Liberty,2023
+Austin Turner,austin-turner-1,/cfb/players/austin-turner-1.html,LS,14,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Liberty,2023
+Aaron Bedgood,aaron-bedgood-1,/cfb/players/aaron-bedgood-1.html,WR,14,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Liberty,2023

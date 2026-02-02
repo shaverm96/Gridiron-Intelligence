@@ -1,0 +1,47 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Jhalyn Shuler,jhalyn-shuler-1,/cfb/players/jhalyn-shuler-1.html,LB,13,45,52,97,8.5,2.0,0,0,,0,5,0,0,0,1,,South Florida,2023
+Daquan Evans,daquan-evans-1,/cfb/players/daquan-evans-1.html,DB,13,46,17,63,14.0,4.0,1,34,34.0,0,7,1,0,0,1,,South Florida,2023
+Jaelen Stokes,jaelen-stokes-1,/cfb/players/jaelen-stokes-1.html,DB,13,41,20,61,4.5,2.0,2,31,15.5,0,1,1,0,0,1,,South Florida,2023
+DJ Gordon IV,dj-gordon-iv-1,/cfb/players/dj-gordon-iv-1.html,LB,11,26,32,58,9.0,3.5,0,0,,0,2,0,0,0,0,,South Florida,2023
+Logan Berryhill,logan-berryhill-1,/cfb/players/logan-berryhill-1.html,S,12,36,20,56,0.5,0.0,3,28,9.3,0,2,0,0,0,0,,South Florida,2023
+Jonathan Ross,jonathan-ross-1,/cfb/players/jonathan-ross-1.html,DE,13,29,18,47,6.5,2.0,0,0,,0,1,0,0,0,0,,South Florida,2023
+Rashad Cheney Jr.,rashad-cheney-jr-1,/cfb/players/rashad-cheney-jr-1.html,DL,12,13,29,42,8.5,0.5,0,0,,0,0,0,0,0,0,,South Florida,2023
+Aamaris Brown,aamaris-brown-1,/cfb/players/aamaris-brown-1.html,DB,12,29,11,40,2.0,1.0,2,0,0.0,0,4,1,64,1,0,,South Florida,2023
+Tavin Ward,tavin-ward-1,/cfb/players/tavin-ward-1.html,CB,13,26,12,38,3.0,0.0,2,0,0.0,0,8,0,0,0,1,,South Florida,2023
+D.J. Harris,dj-harris-1,/cfb/players/dj-harris-1.html,DE,13,13,22,35,3.0,0.0,0,0,,0,0,2,11,0,0,,South Florida,2023
+Mac Harris,mac-harris-1,/cfb/players/mac-harris-1.html,LB,13,18,15,33,4.5,0.0,1,20,20.0,0,0,3,2,0,1,,South Florida,2023
+Tramel Logan,tramel-logan-1,/cfb/players/tramel-logan-1.html,DL,13,13,20,33,8.0,1.5,1,22,22.0,1,4,2,131,2,0,,South Florida,2023
+Braxton Clark,braxton-clark-1,/cfb/players/braxton-clark-1.html,CB,10,23,3,26,1.0,0.0,1,35,35.0,0,5,0,0,0,0,,South Florida,2023
+Christopher Townsel,christopher-townsel-1,/cfb/players/christopher-townsel-1.html,S,13,15,10,25,1.0,0.0,0,0,,0,1,0,0,0,0,,South Florida,2023
+Andrew Mata'afa,andrew-mataafa-1,/cfb/players/andrew-mataafa-1.html,LB,10,10,12,22,0.5,0.5,0,0,,0,0,0,0,0,0,,South Florida,2023
+Lloyd Summerall III,lloyd-summerall-iii-1,/cfb/players/lloyd-summerall-iii-1.html,DE,8,9,12,21,4.0,1.0,0,0,,0,0,0,0,0,0,,South Florida,2023
+Doug Blue-Eli,doug-blue-eli-1,/cfb/players/doug-blue-eli-1.html,DL,13,9,10,19,3.0,0.0,0,0,,0,0,0,0,0,1,,South Florida,2023
+Immanuel Hickman,immanuel-hickman-1,/cfb/players/immanuel-hickman-1.html,DT,12,6,13,19,2.5,0.0,0,0,,0,0,0,0,0,0,,South Florida,2023
+Jamie Pettway,jamie-pettway-1,/cfb/players/jamie-pettway-1.html,LB,13,10,9,19,2.5,1.0,0,0,,0,0,0,0,0,1,,South Florida,2023
+Will Jones II,will-jones-ii-1,/cfb/players/will-jones-ii-1.html,DB,10,10,5,15,0.0,0.0,0,0,,0,1,0,0,0,0,,South Florida,2023
+Jayden Curry,jayden-curry-1,/cfb/players/jayden-curry-1.html,DB,13,6,8,14,0.5,0.0,0,0,,0,1,0,0,0,0,,South Florida,2023
+Michael Williams II,michael-williams-ii-1,/cfb/players/michael-williams-ii-1.html,DE,13,9,4,13,3.5,1.0,0,0,,0,1,0,0,0,0,,South Florida,2023
+Matthew Hill,matthew-hill-1,/cfb/players/matthew-hill-1.html,S,13,5,6,11,1.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2023
+Jason Vaughn,jason-vaughn-2,/cfb/players/jason-vaughn-2.html,DL,4,5,5,10,2.5,2.0,0,0,,0,0,0,0,0,0,,South Florida,2023
+Brian Norris Jr.,brian-norris-jr-1,/cfb/players/brian-norris-jr-1.html,LB,9,4,5,9,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2023
+Jacquez Williams,jacquez-williams-1,/cfb/players/jacquez-williams-1.html,DT,11,5,3,8,2.0,1.0,1,5,5.0,0,0,0,0,0,0,,South Florida,2023
+Timarcus Simpson,timarcus-simpson-1,/cfb/players/timarcus-simpson-1.html,CB,10,5,3,8,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2023
+Dominic Gonnella,dominic-gonnella-1,/cfb/players/dominic-gonnella-1.html,RB,12,5,2,7,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2023
+Tawfiq Byard,tawfiq-byard-1,/cfb/players/tawfiq-byard-1.html,S,4,3,2,5,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2023
+Amer Amer,amer-amer-1,/cfb/players/amer-amer-1.html,LB,12,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2023
+Jarvis Lee,jarvis-lee-1,/cfb/players/jarvis-lee-1.html,CB,12,4,0,4,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2023
+Keeon Terrell,keeon-terrell-1,/cfb/players/keeon-terrell-1.html,DE,4,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2023
+Stantavious Smith,stantavious-smith-1,/cfb/players/stantavious-smith-1.html,DT,4,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2023
+Sean Atkins,sean-atkins-1,/cfb/players/sean-atkins-1.html,WR,13,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2023
+Jameel Sanders,jameel-sanders-1,/cfb/players/jameel-sanders-1.html,DB,7,1,1,2,0.0,0.0,0,0,,0,2,0,0,0,0,,South Florida,2023
+De'juan Sease,dejuan-sease-1,/cfb/players/dejuan-sease-1.html,DT,4,1,1,2,1.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2023
+Danny Gonzalez,danny-gonzalez-1,/cfb/players/danny-gonzalez-1.html,DT,2,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2023
+Bryce Bernard,bryce-bernard-1,/cfb/players/bryce-bernard-1.html,LS,13,1,1,2,1.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2023
+Christian Helms,christian-helms-1,/cfb/players/christian-helms-1.html,WR,10,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2023
+Rico Watson III,rico-watson-iii-1,/cfb/players/rico-watson-iii-1.html,DE,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2023
+Byrum Brown,byrum-brown-1,/cfb/players/byrum-brown-1.html,QB,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2023
+Nay'quan Wright,nayquan-wright-1,/cfb/players/nayquan-wright-1.html,RB,13,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2023
+Evan Dangler,evan-dangler-1,/cfb/players/evan-dangler-1.html,DE,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2023
+Kendall Dennis,kendall-dennis-1,/cfb/players/kendall-dennis-1.html,CB,5,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2023
+JeyQuan Smith,jeyquan-smith-1,/cfb/players/jeyquan-smith-1.html,WR,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2023
+Jayson Littlejohn,jayson-littlejohn-1,/cfb/players/jayson-littlejohn-1.html,TE,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2023

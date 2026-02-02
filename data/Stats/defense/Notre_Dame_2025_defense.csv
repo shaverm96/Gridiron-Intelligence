@@ -1,0 +1,50 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Drayk Bowen,drayk-bowen-1,/cfb/players/drayk-bowen-1.html,LB,12,33,34,67,4.5,3.5,0,0,,0,4,0,0,0,0,,Notre Dame,2025
+Adon Shuler,adon-shuler-1,/cfb/players/adon-shuler-1.html,S,12,30,23,53,3.0,1.0,2,46,23.0,0,5,0,0,0,2,,Notre Dame,2025
+Jaiden Ausberry,jaiden-ausberry-1,/cfb/players/jaiden-ausberry-1.html,LB,12,20,31,51,4.0,2.0,0,0,,0,0,0,0,0,1,,Notre Dame,2025
+Tae Johnson,tae-johnson-1,/cfb/players/tae-johnson-1.html,S,10,35,13,48,0.5,0.0,4,73,18.3,1,3,0,0,0,0,,Notre Dame,2025
+Kyngstonn Viliamu-Asa,kyngstonn-viliamu-asa-1,/cfb/players/kyngstonn-viliamu-asa-1.html,LB,11,25,23,48,7.5,3.0,1,14,14.0,0,2,1,0,0,0,,Notre Dame,2025
+Boubacar Traore,boubacar-traore-1,/cfb/players/boubacar-traore-1.html,DL,11,23,14,37,10.0,6.5,0,0,,0,0,0,0,0,1,,Notre Dame,2025
+Jalen Stroman,jalen-stroman-1,/cfb/players/jalen-stroman-1.html,S,12,30,7,37,3.0,1.0,1,44,44.0,1,2,0,0,0,0,,Notre Dame,2025
+Jaylen Sneed,jaylen-sneed-1,/cfb/players/jaylen-sneed-1.html,LB,12,23,12,35,5.0,3.0,0,0,,0,0,0,0,0,1,,Notre Dame,2025
+Leonard Moore,leonard-moore-1,/cfb/players/leonard-moore-1.html,CB,10,23,8,31,0.0,0.0,5,50,10.0,1,7,0,0,0,1,AA,Notre Dame,2025
+Jason Onye,jason-onye-2,/cfb/players/jason-onye-2.html,DL,12,14,12,26,1.5,1.5,0,0,,0,1,0,0,0,0,,Notre Dame,2025
+Luke Talich,luke-talich-1,/cfb/players/luke-talich-1.html,S,12,19,6,25,1.0,0.0,3,4,1.3,0,3,0,0,0,0,,Notre Dame,2025
+Dallas Golden,dallas-golden-1,/cfb/players/dallas-golden-1.html,CB,10,11,11,22,0.5,0.0,1,0,0.0,0,2,0,0,0,0,,Notre Dame,2025
+Elijah Hughes,elijah-hughes-1,/cfb/players/elijah-hughes-1.html,DT,12,14,7,21,3.0,1.0,0,0,,0,0,0,0,0,0,,Notre Dame,2025
+Jordan Botelho,jordan-botelho-1,/cfb/players/jordan-botelho-1.html,DL,12,10,10,20,1.5,1.0,0,0,,0,0,0,0,0,0,,Notre Dame,2025
+Jared Dawson,jared-dawson-1,/cfb/players/jared-dawson-1.html,DL,11,10,10,20,3.5,0.5,0,0,,0,1,0,0,0,0,,Notre Dame,2025
+Devonta Smith,devonta-smith-2,/cfb/players/devonta-smith-2.html,DB,8,18,2,20,1.0,0.0,0,0,,0,3,1,0,0,0,,Notre Dame,2025
+Bryce Young,bryce-young-2,/cfb/players/bryce-young-2.html,DL,12,10,10,20,2.0,2.0,0,0,,0,3,0,0,0,0,,Notre Dame,2025
+Christian Gray,christian-gray-1,/cfb/players/christian-gray-1.html,CB,10,11,6,17,0.0,0.0,2,19,9.5,0,11,0,0,0,0,,Notre Dame,2025
+Joshua Burnham,joshua-burnham-1,/cfb/players/joshua-burnham-1.html,LB,12,10,6,16,6.0,3.0,0,0,,0,1,0,0,0,0,,Notre Dame,2025
+Madden Faraimo,madden-faraimo-1,/cfb/players/madden-faraimo-1.html,LB,12,9,7,16,3.0,2.0,0,0,,0,1,0,0,0,0,,Notre Dame,2025
+Gabe Rubio,gabe-rubio-1,/cfb/players/gabe-rubio-1.html,DL,6,5,8,13,0.5,0.5,0,0,,0,1,0,0,0,0,,Notre Dame,2025
+Donovan Hinish,donovan-hinish-1,/cfb/players/donovan-hinish-1.html,DL,11,6,6,12,1.0,1.0,0,0,,0,0,0,0,0,0,,Notre Dame,2025
+Junior Tuihalamaka,junior-tuihalamaka-1,/cfb/players/junior-tuihalamaka-1.html,DL,12,9,3,12,3.5,1.0,0,0,,0,1,0,0,0,0,,Notre Dame,2025
+Mark Zackery IV,mark-zackery-iv-1,/cfb/players/mark-zackery-iv-1.html,CB,11,7,3,10,0.5,0.0,0,0,,0,2,0,0,0,0,,Notre Dame,2025
+Kahanu Kia,kahanu-kia-1,/cfb/players/kahanu-kia-1.html,LB,12,4,5,9,0.0,0.0,0,0,,0,0,0,0,0,0,,Notre Dame,2025
+Karson Hobbs,karson-hobbs-1,/cfb/players/karson-hobbs-1.html,CB,7,4,1,5,0.0,0.0,1,11,11.0,0,0,0,0,0,0,,Notre Dame,2025
+Armel Mukam,armel-mukam-1,/cfb/players/armel-mukam-1.html,DL,12,2,3,5,1.5,0.0,0,0,,0,0,0,0,0,1,,Notre Dame,2025
+Teddy Rezac,teddy-rezac-1,/cfb/players/teddy-rezac-1.html,LB,12,2,2,4,1.0,0.0,0,0,,0,0,0,0,0,0,,Notre Dame,2025
+Cole Mullins,cole-mullins-1,/cfb/players/cole-mullins-1.html,DL,12,2,2,4,0.5,0.5,0,0,,0,1,0,0,0,0,,Notre Dame,2025
+Ethan Long,ethan-long-2,/cfb/players/ethan-long-2.html,S,4,2,1,3,0.0,0.0,1,9,9.0,0,0,0,0,0,0,,Notre Dame,2025
+Kobi Onyiuke,kobi-onyiuke-1,/cfb/players/kobi-onyiuke-1.html,DL,9,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Notre Dame,2025
+Loghan Thomas,loghan-thomas-1,/cfb/players/loghan-thomas-1.html,DL,11,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Notre Dame,2025
+Preston Zinter,preston-zinter-1,/cfb/players/preston-zinter-1.html,DL,10,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Notre Dame,2025
+Christopher Burgess Jr.,christopher-burgess-jr-1,/cfb/players/christopher-burgess-jr-1.html,DL,1,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Notre Dame,2025
+Joe Otting,joe-otting-1,/cfb/players/joe-otting-1.html,OL,9,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Notre Dame,2025
+Joseph Vinci,joseph-vinci-1,/cfb/players/joseph-vinci-1.html,LS,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Notre Dame,2025
+Cree Thomas,cree-thomas-1,/cfb/players/cree-thomas-1.html,CB,3,1,0,1,0.0,0.0,0,0,,0,1,0,0,0,0,,Notre Dame,2025
+Leo Scheidler,leo-scheidler-1,/cfb/players/leo-scheidler-1.html,WR,7,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Notre Dame,2025
+Ko'o Kia,koo-kia-1,/cfb/players/koo-kia-1.html,LB,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Notre Dame,2025
+Erik Schmidt,erik-schmidt-1,/cfb/players/erik-schmidt-1.html,K,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Notre Dame,2025
+CJ Carr,cj-carr-1,/cfb/players/cj-carr-1.html,QB,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Notre Dame,2025
+Gordy Sulfsted,gordy-sulfsted-1,/cfb/players/gordy-sulfsted-1.html,DL,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Notre Dame,2025
+Bodie Kahoun,bodie-kahoun-1,/cfb/players/bodie-kahoun-1.html,LB,9,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Notre Dame,2025
+Matt Jeffery,matt-jeffery-1,/cfb/players/matt-jeffery-1.html,WR,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Notre Dame,2025
+JaDon Blair,jadon-blair-1,/cfb/players/jadon-blair-1.html,S,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Notre Dame,2025
+Sean Sevillano Jr.,sean-sevillano-jr-1,/cfb/players/sean-sevillano-jr-1.html,DL,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Notre Dame,2025
+Sullivan Absher,sullivan-absher-1,/cfb/players/sullivan-absher-1.html,OL,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Notre Dame,2025
+Ben Minich,ben-minich-1,/cfb/players/ben-minich-1.html,S,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Notre Dame,2025
+Taebron Bennie-Powell,taebron-bennie-powell-1,/cfb/players/taebron-bennie-powell-1.html,S,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Notre Dame,2025

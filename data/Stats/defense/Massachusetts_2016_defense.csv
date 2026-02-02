@@ -1,0 +1,46 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Steve Casali,steve-casali-1,/cfb/players/steve-casali-1.html,LB,12,47,58,105,8.0,3.5,0,0,,0,6,3,20,0,1,,Massachusetts,2016
+Jesse Monteiro,jesse-monteiro-1,/cfb/players/jesse-monteiro-1.html,S,12,45,28,73,5.5,0.5,0,0,,0,4,0,0,0,0,,Massachusetts,2016
+Khary Bailey-Smith,khary-bailey-smith-1,/cfb/players/khary-bailey-smith-1.html,S,11,41,28,69,1.0,0.0,0,0,,0,4,1,0,0,1,,Massachusetts,2016
+Colbert Calhoun,colbert-calhoun-1,/cfb/players/colbert-calhoun-1.html,LB,12,28,30,58,4.0,3.0,0,0,,0,1,1,0,0,3,,Massachusetts,2016
+Da'Sean Downey,dasean-downey-1,/cfb/players/dasean-downey-1.html,LB,10,25,23,48,8.5,6.0,0,0,,0,0,0,0,0,4,,Massachusetts,2016
+Vondell Langston,vondell-langston-1,/cfb/players/vondell-langston-1.html,LB,11,14,33,47,2.0,0.0,0,0,,0,0,0,0,0,0,,Massachusetts,2016
+Lee Moses,lee-moses-1,/cfb/players/lee-moses-1.html,S,11,25,19,44,0.5,0.0,0,0,,0,6,0,0,0,0,,Massachusetts,2016
+Sha-Ki Holines,sha-ki-holines-1,/cfb/players/sha-ki-holines-1.html,DL,12,18,26,44,7.0,2.5,0,0,,0,0,0,0,0,1,,Massachusetts,2016
+Isaiah Rodgers,isaiah-rodgers-1,/cfb/players/isaiah-rodgers-1.html,CB,11,21,19,40,0.5,0.0,2,36,18.0,0,7,1,6,0,1,,Massachusetts,2016
+Ali Ali-Musa,ali-ali-musa-1,/cfb/players/ali-ali-musa-1.html,DL,12,16,21,37,4.5,1.0,0,0,,0,1,0,0,0,2,,Massachusetts,2016
+Tedrick Lowery,tedrick-lowery-1,/cfb/players/tedrick-lowery-1.html,S,9,14,23,37,2.0,1.0,0,0,,0,2,1,0,0,0,,Massachusetts,2016
+Peter Angeh,peter-angeh-1,/cfb/players/peter-angeh-1.html,DL,12,20,13,33,5.5,3.0,0,0,,0,0,1,0,0,0,,Massachusetts,2016
+Peter Ngobidi,peter-ngobidi-1,/cfb/players/peter-ngobidi-1.html,LB,12,15,18,33,3.0,1.0,0,0,,0,1,1,0,0,0,,Massachusetts,2016
+James Allen,james-allen-4,/cfb/players/james-allen-4.html,CB,12,23,10,33,1.0,0.0,0,0,,0,5,0,0,0,0,,Massachusetts,2016
+Charan Singh,charan-singh-1,/cfb/players/charan-singh-1.html,S,9,10,18,28,0.0,0.0,0,0,,0,0,0,0,0,0,,Massachusetts,2016
+James Bowe Jr.,james-bowe-jr-1,/cfb/players/james-bowe-jr-1.html,LB,11,12,14,26,0.0,0.0,0,0,,0,0,0,0,0,0,,Massachusetts,2016
+Jackson Porter,jackson-porter-1,/cfb/players/jackson-porter-1.html,CB,10,18,8,26,0.5,0.0,0,0,,0,4,0,0,0,0,,Massachusetts,2016
+Joe Previte,joe-previte-1,/cfb/players/joe-previte-1.html,DL,8,4,18,22,4.5,1.5,0,0,,0,0,1,0,0,0,,Massachusetts,2016
+Shane Huber,shane-huber-1,/cfb/players/shane-huber-1.html,LB,4,7,13,20,2.5,0.0,1,27,27.0,0,1,0,0,0,0,,Massachusetts,2016
+Lucas Amato,lucas-amato-1,/cfb/players/lucas-amato-1.html,LB,12,8,9,17,1.5,1.0,0,0,,0,0,0,0,0,0,,Massachusetts,2016
+Bakhari Goodson,bakhari-goodson-1,/cfb/players/bakhari-goodson-1.html,CB,11,8,6,14,0.0,0.0,1,21,21.0,0,0,0,0,0,0,,Massachusetts,2016
+Roderick Jones Jr.,roderick-jones-jr-1,/cfb/players/roderick-jones-jr-1.html,LB,10,3,10,13,1.0,0.0,0,0,,0,0,0,0,0,0,,Massachusetts,2016
+Mario Patton,mario-patton-1,/cfb/players/mario-patton-1.html,DL,11,5,7,12,1.0,1.0,0,0,,0,1,0,0,0,0,,Massachusetts,2016
+Tyshaun Ingram,tyshaun-ingram-1,/cfb/players/tyshaun-ingram-1.html,S,11,4,7,11,1.0,0.0,0,0,,0,0,1,0,0,0,,Massachusetts,2016
+Brandon Mangram,brandon-mangram-1,/cfb/players/brandon-mangram-1.html,CB,12,5,5,10,0.0,0.0,0,0,,0,0,0,0,0,0,,Massachusetts,2016
+Jeremy Rodriguez,jeremy-rodriguez-1,/cfb/players/jeremy-rodriguez-1.html,LB,12,3,7,10,0.0,0.0,0,0,,0,0,0,0,0,0,,Massachusetts,2016
+John Robinson-Woodgett,john-robinson-woodgett-1,/cfb/players/john-robinson-woodgett-1.html,FB,11,6,2,8,0.0,0.0,0,0,,0,0,0,0,0,0,,Massachusetts,2016
+Jordin Hamilton,jordin-hamilton-1,/cfb/players/jordin-hamilton-1.html,CB,5,5,3,8,2.0,0.0,0,0,,0,1,0,0,0,0,,Massachusetts,2016
+D'Shan Harley,dshan-harley-1,/cfb/players/dshan-harley-1.html,LB,7,3,3,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Massachusetts,2016
+Nick Orekoya,nick-orekoya-1,/cfb/players/nick-orekoya-1.html,RB,7,3,2,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Massachusetts,2016
+Enock Asante,enock-asante-1,/cfb/players/enock-asante-1.html,DL,11,1,3,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Massachusetts,2016
+Nick Berus,nick-berus-1,/cfb/players/nick-berus-1.html,LS,12,0,3,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Massachusetts,2016
+Mike Caggiano,mike-caggiano-1,/cfb/players/mike-caggiano-1.html,K,12,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Massachusetts,2016
+Marquis Young,marquis-young-1,/cfb/players/marquis-young-1.html,RB,12,2,0,2,1.0,0.0,0,0,,0,0,0,0,0,0,,Massachusetts,2016
+Logan Laurent,logan-laurent-1,/cfb/players/logan-laurent-1.html,P,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Massachusetts,2016
+Andy Isabella,andy-isabella-1,/cfb/players/andy-isabella-1.html,WR,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Massachusetts,2016
+Andrew Libby,andrew-libby-1,/cfb/players/andrew-libby-1.html,FB,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Massachusetts,2016
+Basit Dennis,basit-dennis-1,/cfb/players/basit-dennis-1.html,DL,3,1,0,1,1.0,0.0,0,0,,0,0,0,0,0,1,,Massachusetts,2016
+Micah Morel,micah-morel-1,/cfb/players/micah-morel-1.html,S,8,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Massachusetts,2016
+Bilal Ally,bilal-ally-1,/cfb/players/bilal-ally-1.html,RB,9,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Massachusetts,2016
+Michael Dowe Jr.,michael-dowe-jr-1,/cfb/players/michael-dowe-jr-1.html,LB,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Massachusetts,2016
+Jake Largay,jake-largay-1,/cfb/players/jake-largay-1.html,DL,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Massachusetts,2016
+Cycoby Burch,cycoby-burch-1,/cfb/players/cycoby-burch-1.html,,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Massachusetts,2016
+Jack Driscoll,jack-driscoll-1,/cfb/players/jack-driscoll-1.html,OL,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Massachusetts,2016
+Jack Driscoll,jack-driscoll-2,/cfb/players/jack-driscoll-2.html,,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Massachusetts,2016

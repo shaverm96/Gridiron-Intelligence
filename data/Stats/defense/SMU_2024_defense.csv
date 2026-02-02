@@ -1,0 +1,50 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Kobe Wilson,kobe-wilson-1,/cfb/players/kobe-wilson-1.html,LB,14,54,63,117,6.0,3.0,2,116,58.0,1,2,0,0,0,1,,SMU,2024
+Isaiah Nwokobia,isaiah-nwokobia-1,/cfb/players/isaiah-nwokobia-1.html,S,14,53,47,100,3.5,0.5,3,13,4.3,0,3,0,0,0,0,,SMU,2024
+Ahmad Walker,ahmad-walker-1,/cfb/players/ahmad-walker-1.html,LB,14,44,48,92,8.0,0.5,1,25,25.0,0,3,1,0,0,2,,SMU,2024
+Ahmaad Moses,ahmaad-moses-1,/cfb/players/ahmaad-moses-1.html,S,14,38,35,73,6.0,0.0,3,97,32.3,1,6,0,0,0,1,,SMU,2024
+Jonathan McGill,jonathan-mcgill-1,/cfb/players/jonathan-mcgill-1.html,S,14,29,29,58,2.0,0.0,3,23,7.7,0,7,0,0,0,0,,SMU,2024
+Alex Kilgore,alex-kilgore-1,/cfb/players/alex-kilgore-1.html,LB,14,19,37,56,3.0,1.0,0,0,,0,3,0,0,0,1,,SMU,2024
+Cale Sanders,cale-sanders-1,/cfb/players/cale-sanders-1.html,DB,14,24,24,48,6.0,1.0,0,0,,0,1,0,0,0,0,,SMU,2024
+Jared Harrison-Hunte,jared-harrison-hunte-1,/cfb/players/jared-harrison-hunte-1.html,DL,14,18,24,42,8.5,6.5,1,13,13.0,0,0,0,0,0,0,,SMU,2024
+Brandon Crossley,brandon-crossley-1,/cfb/players/brandon-crossley-1.html,CB,14,19,16,35,1.5,0.0,1,0,0.0,0,8,1,51,1,0,,SMU,2024
+Elijah Roberts,elijah-roberts-1,/cfb/players/elijah-roberts-1.html,DL,13,17,18,35,11.0,7.5,0,0,,0,1,1,0,0,2,,SMU,2024
+Isaiah Smith,isaiah-smith-1,/cfb/players/isaiah-smith-1.html,DE,14,14,18,32,8.0,6.5,0,0,,0,1,0,0,0,0,,SMU,2024
+Cam Robertson,cam-robertson-1,/cfb/players/cam-robertson-1.html,DL,14,13,19,32,7.0,4.0,0,0,,0,0,1,0,0,0,,SMU,2024
+Jahfari Harvey,jahfari-harvey-1,/cfb/players/jahfari-harvey-1.html,DL,14,15,16,31,12.5,7.5,0,0,,0,1,1,9,0,2,,SMU,2024
+Deuce Harmon,deuce-harmon-1,/cfb/players/deuce-harmon-1.html,DB,14,20,11,31,2.5,0.0,1,25,25.0,0,8,0,0,0,0,,SMU,2024
+Kori Roberson,kori-roberson-1,/cfb/players/kori-roberson-1.html,DL,13,10,14,24,1.0,1.0,1,-5,-5.0,0,3,0,0,0,0,,SMU,2024
+Mike Lockhart,mike-lockhart-1,/cfb/players/mike-lockhart-1.html,DL,14,6,17,23,1.5,1.0,0,0,,0,2,0,0,0,0,,SMU,2024
+Jaelyn Davis-Robinson,jaelyn-davis-robinson-1,/cfb/players/jaelyn-davis-robinson-1.html,DB,14,11,11,22,0.0,0.0,0,0,,0,3,0,0,0,0,,SMU,2024
+Anthony Booker Jr.,anthony-booker-jr-1,/cfb/players/anthony-booker-jr-1.html,DL,13,5,12,17,2.5,0.0,0,0,,0,0,1,0,1,0,,SMU,2024
+Jonathan Jefferson,jonathan-jefferson-1,/cfb/players/jonathan-jefferson-1.html,DL,13,6,11,17,2.0,0.0,0,0,,0,2,0,0,0,0,,SMU,2024
+Davaughn Celestine,davaughn-celestine-1,/cfb/players/davaughn-celestine-1.html,S,14,10,5,15,0.0,0.0,0,0,,0,0,0,0,0,0,,SMU,2024
+Brandon Miyazono,brandon-miyazono-1,/cfb/players/brandon-miyazono-1.html,LB,10,5,10,15,3.0,1.0,0,0,,0,0,0,0,0,0,,SMU,2024
+Billy Walton III,billy-walton-iii-1,/cfb/players/billy-walton-iii-1.html,DL,9,6,5,11,0.5,0.0,0,0,,0,0,0,0,0,0,,SMU,2024
+Brandon Booker,brandon-booker-1,/cfb/players/brandon-booker-1.html,LB,14,4,6,10,0.0,0.0,0,0,,0,0,0,0,0,0,,SMU,2024
+Kyron Chambers,kyron-chambers-1,/cfb/players/kyron-chambers-1.html,CB,14,3,7,10,0.0,0.0,0,0,,0,1,0,0,0,0,,SMU,2024
+Abdul Muhammad,abdul-muhammad-2,/cfb/players/abdul-muhammad-2.html,DB,12,2,5,7,0.0,0.0,0,0,,0,1,0,0,0,0,,SMU,2024
+Will Benton,will-benton-1,/cfb/players/will-benton-1.html,LS,14,2,2,4,0.0,0.0,0,0,,0,0,0,0,0,0,,SMU,2024
+AJ Davis,aj-davis-2,/cfb/players/aj-davis-2.html,CB,10,2,2,4,0.0,0.0,0,0,,0,1,0,0,0,0,,SMU,2024
+Jahari Rogers,jahari-rogers-1,/cfb/players/jahari-rogers-1.html,CB,4,3,0,3,0.0,0.0,0,0,,0,3,0,0,0,1,,SMU,2024
+Mike Yoan Sandjo-Njiki,mike-yoan-sandjo-njiki-1,/cfb/players/mike-yoan-sandjo-njiki-1.html,DT,5,2,1,3,1.0,1.0,0,0,,0,0,0,0,0,1,,SMU,2024
+Blake Burris,blake-burris-1,/cfb/players/blake-burris-1.html,DL,12,1,2,3,1.0,0.0,0,0,,0,0,0,0,0,0,,SMU,2024
+William Nettles,william-nettles-1,/cfb/players/william-nettles-1.html,CB,5,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,SMU,2024
+Justin Medlock,justin-medlock-2,/cfb/players/justin-medlock-2.html,LB,10,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,SMU,2024
+Omari Abor,omari-abor-1,/cfb/players/omari-abor-1.html,DE,2,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,SMU,2024
+Matthew Hibner,matthew-hibner-1,/cfb/players/matthew-hibner-1.html,TE,14,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,SMU,2024
+David Abiara,david-abiara-2,/cfb/players/david-abiara-2.html,DE,5,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,SMU,2024
+Keyshawn Smith,keyshawn-smith-1,/cfb/players/keyshawn-smith-1.html,WR,14,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,SMU,2024
+Jordan Hudson,jordan-hudson-1,/cfb/players/jordan-hudson-1.html,WR,14,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,SMU,2024
+Jaden Milliner-Jones,jaden-milliner-jones-1,/cfb/players/jaden-milliner-jones-1.html,S,6,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,SMU,2024
+Brashard Smith,brashard-smith-1,/cfb/players/brashard-smith-1.html,RB,14,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,SMU,2024
+Alexander Rodgers,alexander-rodgers-1,/cfb/players/alexander-rodgers-1.html,CB,2,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,SMU,2024
+Kevin Allen,kevin-allen-2,/cfb/players/kevin-allen-2.html,DL,3,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,SMU,2024
+Logan Parr,logan-parr-1,/cfb/players/logan-parr-1.html,OL,13,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,SMU,2024
+Matt Baer,matt-baer-1,/cfb/players/matt-baer-1.html,DE,1,1,0,1,1.0,1.0,0,0,,0,0,0,0,0,0,,SMU,2024
+Kelvontay Dixon,kelvontay-dixon-1,/cfb/players/kelvontay-dixon-1.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,SMU,2024
+Braeden Flowers,braeden-flowers-1,/cfb/players/braeden-flowers-1.html,DE,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,SMU,2024
+Nate Anderson,nate-anderson-2,/cfb/players/nate-anderson-2.html,OL,14,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,SMU,2024
+Stone Eby,stone-eby-1,/cfb/players/stone-eby-1.html,TE,14,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,SMU,2024
+Tarian Lee Jr.,tarian-lee-jr-1,/cfb/players/tarian-lee-jr-1.html,LB,14,1,0,1,1.0,0.0,0,0,,0,0,0,0,0,0,,SMU,2024
+Carter Campbell,carter-campbell-1,/cfb/players/carter-campbell-1.html,WR,9,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,SMU,2024

@@ -1,0 +1,41 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Devin White,devin-white-1,/cfb/players/devin-white-1.html,LB,13,62,61,123,12.0,3.0,0,0,,0,6,2,29,0,3,AA,LSU,2018
+Jacob Phillips,jacob-phillips-1,/cfb/players/jacob-phillips-1.html,LB,12,32,55,87,5.5,1.0,1,45,45.0,1,3,0,0,0,0,,LSU,2018
+Grant Delpit,grant-delpit-1,/cfb/players/grant-delpit-1.html,S,13,46,28,74,9.5,5.0,5,1,0.2,0,9,1,0,0,1,AA,LSU,2018
+Rashard Lawrence,rashard-lawrence-1,/cfb/players/rashard-lawrence-1.html,DE,13,23,31,54,10.5,4.0,0,0,,0,3,0,0,0,0,,LSU,2018
+Michael Divinity Jr.,michael-divinity-jr-1,/cfb/players/michael-divinity-jr-1.html,LB,12,20,34,54,10.5,5.0,1,31,31.0,0,2,2,58,1,1,,LSU,2018
+Glen Logan,glen-logan-1,/cfb/players/glen-logan-1.html,DE,13,10,36,46,4.5,4.0,0,0,,0,1,0,0,0,0,,LSU,2018
+Patrick Queen,patrick-queen-1,/cfb/players/patrick-queen-1.html,LB,13,20,20,40,5.0,1.0,0,0,,0,0,0,0,0,0,,LSU,2018
+John Battle,john-battle-1,/cfb/players/john-battle-1.html,S,10,13,26,39,0.0,0.0,3,29,9.7,0,2,0,0,0,0,,LSU,2018
+JaCoby Stevens,jacoby-stevens-1,/cfb/players/jacoby-stevens-1.html,S,11,19,16,35,6.5,1.5,1,1,1.0,0,5,1,64,0,0,,LSU,2018
+Greedy Williams,greedy-williams-1,/cfb/players/greedy-williams-1.html,CB,12,23,10,33,0.0,0.0,2,20,10.0,0,9,0,0,0,0,AA,LSU,2018
+Todd Harris Jr.,todd-harris-jr-1,/cfb/players/todd-harris-jr-1.html,S,11,19,12,31,0.0,0.0,1,0,0.0,0,3,0,0,0,0,,LSU,2018
+Kary Vincent Jr.,kary-vincent-jr-1,/cfb/players/kary-vincent-jr-1.html,CB,13,20,11,31,1.5,1.0,1,0,0.0,0,6,0,0,0,0,,LSU,2018
+Edwin Alexander,edwin-alexander-1,/cfb/players/edwin-alexander-1.html,NT,11,6,22,28,3.0,1.0,0,0,,0,1,0,0,0,0,,LSU,2018
+Kristian Fulton,kristian-fulton-1,/cfb/players/kristian-fulton-1.html,CB,10,20,5,25,1.0,0.0,1,0,0.0,0,9,0,0,0,1,,LSU,2018
+Neil Farrell Jr.,neil-farrell-jr-1,/cfb/players/neil-farrell-jr-1.html,DE,10,10,13,23,4.0,1.5,0,0,,0,1,0,0,0,0,,LSU,2018
+Terrence Alexander,terrence-alexander-1,/cfb/players/terrence-alexander-1.html,CB,13,17,6,23,0.0,0.0,0,0,,0,3,0,0,0,0,,LSU,2018
+Rahssan Thornton,rahssan-thornton-1,/cfb/players/rahssan-thornton-1.html,LB,7,7,14,21,2.5,1.0,0,0,,0,0,0,0,0,0,,LSU,2018
+Ray Thornton,ray-thornton-2,/cfb/players/ray-thornton-2.html,,12,7,14,21,2.5,1.0,0,0,,0,0,0,0,0,0,,LSU,2018
+Micah Baskerville,micah-baskerville-1,/cfb/players/micah-baskerville-1.html,LB,8,7,11,18,0.5,0.0,0,0,,0,0,0,0,0,0,,LSU,2018
+Breiden Fehoko,breiden-fehoko-1,/cfb/players/breiden-fehoko-1.html,DE,8,2,14,16,3.0,1.5,0,0,,0,1,0,0,0,0,,LSU,2018
+Andre Anthony,andre-anthony-1,/cfb/players/andre-anthony-1.html,LB,13,5,9,14,0.5,0.5,0,0,,0,0,1,0,0,0,,LSU,2018
+Kelvin Joseph,kelvin-joseph-1,/cfb/players/kelvin-joseph-1.html,CB,11,11,1,12,0.0,0.0,0,0,,0,1,0,0,0,0,,LSU,2018
+Tyler Shelvin,tyler-shelvin-1,/cfb/players/tyler-shelvin-1.html,NT,6,2,7,9,1.5,1.5,0,0,,0,0,0,0,0,0,,LSU,2018
+K'Lavon Chaisson,klavon-chaisson-1,/cfb/players/klavon-chaisson-1.html,LB,1,3,2,5,1.0,1.0,0,0,,0,0,0,0,0,0,,LSU,2018
+Justin Thomas,justin-thomas-7,/cfb/players/justin-thomas-7.html,DE,4,2,2,4,0.5,0.5,0,0,,0,0,0,0,0,0,,LSU,2018
+Ed Paris,ed-paris-1,/cfb/players/ed-paris-1.html,S,12,2,2,4,0.0,0.0,1,0,0.0,0,0,0,0,0,1,,LSU,2018
+Cameron Lewis,cameron-lewis-2,/cfb/players/cameron-lewis-2.html,S,3,1,3,4,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2018
+Mannie Netherly,mannie-netherly-1,/cfb/players/mannie-netherly-1.html,CB,11,0,3,3,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2018
+Davin Cotton,davin-cotton-1,/cfb/players/davin-cotton-1.html,DT,2,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2018
+Lanard Fournette,lanard-fournette-1,/cfb/players/lanard-fournette-1.html,RB,13,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2018
+Foster Moreau,foster-moreau-1,/cfb/players/foster-moreau-1.html,TE,13,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2018
+Blake Ferguson,blake-ferguson-3,/cfb/players/blake-ferguson-3.html,LS,13,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2018
+Racey McMath,racey-mcmath-1,/cfb/players/racey-mcmath-1.html,WR,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2018
+Avery Atkins,avery-atkins-2,/cfb/players/avery-atkins-2.html,PK,13,1,0,1,0.0,0.0,0,0,,0,0,1,0,0,0,,LSU,2018
+Travez Moore,travez-moore-1,/cfb/players/travez-moore-1.html,DE,3,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2018
+Damone Clark,damone-clark-1,/cfb/players/damone-clark-1.html,LB,13,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2018
+Dee Anderson,dee-anderson-1,/cfb/players/dee-anderson-1.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2018
+Nelson Jenkins III,nelson-jenkins-iii-1,/cfb/players/nelson-jenkins-iii-1.html,DT,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2018
+Garrett Brumfield,garrett-brumfield-1,/cfb/players/garrett-brumfield-1.html,G,9,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2018
+Kenan Jones,kenan-jones-1,/cfb/players/kenan-jones-1.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2018

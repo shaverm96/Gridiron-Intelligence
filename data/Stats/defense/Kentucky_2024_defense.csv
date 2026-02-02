@@ -1,0 +1,46 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Jamon Dumas-Johnson,jamon-dumas-johnson-1,/cfb/players/jamon-dumas-johnson-1.html,LB,11,39,28,67,7.0,3.5,1,-5,-5.0,0,0,3,25,1,1,,Kentucky,2024
+Jordan Lovett,jordan-lovett-1,/cfb/players/jordan-lovett-1.html,DB,12,36,27,63,1.0,0.0,2,0,0.0,0,1,0,0,0,0,,Kentucky,2024
+Alex Afari Jr.,alex-afari-jr-1,/cfb/players/alex-afari-jr-1.html,LB,12,35,27,62,11.0,1.5,0,0,,0,1,0,0,0,0,,Kentucky,2024
+Zion Childress,zion-childress-1,/cfb/players/zion-childress-1.html,DB,12,34,21,55,6.0,1.0,0,0,,0,2,0,0,0,1,,Kentucky,2024
+JQ Hardaway,jq-hardaway-1,/cfb/players/jq-hardaway-1.html,DB,12,33,14,47,0.0,0.0,2,-1,-0.5,0,4,0,0,0,1,,Kentucky,2024
+Ty Bryant,ty-bryant-1,/cfb/players/ty-bryant-1.html,DB,12,30,16,46,2.0,0.0,1,16,16.0,0,0,0,0,0,2,,Kentucky,2024
+D'Eryk Jackson,deryk-jackson-1,/cfb/players/deryk-jackson-1.html,LB,8,20,18,38,5.0,1.0,1,1,1.0,0,3,0,0,0,0,,Kentucky,2024
+Deone Walker,deone-walker-1,/cfb/players/deone-walker-1.html,DL,11,13,24,37,5.0,1.5,0,0,,0,2,1,0,0,0,,Kentucky,2024
+Tre'Vonn Rybka,trevonn-rybka-1,/cfb/players/trevonn-rybka-1.html,DL,12,17,17,34,5.0,3.0,0,0,,0,1,0,0,0,1,,Kentucky,2024
+J.J. Weaver,jj-weaver-1,/cfb/players/jj-weaver-1.html,LB,10,17,15,32,7.5,5.0,0,0,,0,1,1,0,0,1,,Kentucky,2024
+Kristian Story,kristian-story-1,/cfb/players/kristian-story-1.html,DB,12,16,11,27,0.0,0.0,1,63,63.0,0,0,0,0,0,1,,Kentucky,2024
+Keeshawn Silver,keeshawn-silver-1,/cfb/players/keeshawn-silver-1.html,DL,12,14,12,26,1.0,1.0,0,0,,0,0,0,0,0,0,,Kentucky,2024
+Octavious Oxendine,octavious-oxendine-1,/cfb/players/octavious-oxendine-1.html,DL,12,10,10,20,5.5,4.0,0,0,,0,0,0,0,0,1,,Kentucky,2024
+Maxwell Hairston,maxwell-hairston-1,/cfb/players/maxwell-hairston-1.html,DB,7,15,4,19,1.0,1.0,1,25,25.0,1,4,0,0,0,2,,Kentucky,2024
+Kahlil Saunders,kahlil-saunders-1,/cfb/players/kahlil-saunders-1.html,DL,11,7,8,15,2.0,0.5,0,0,,0,0,0,0,0,0,,Kentucky,2024
+Tyreese Fearbry,tyreese-fearbry-1,/cfb/players/tyreese-fearbry-1.html,LB,11,6,8,14,0.0,0.0,0,0,,0,0,0,0,0,0,,Kentucky,2024
+DJ Waller,dj-waller-1,/cfb/players/dj-waller-1.html,DB,7,7,6,13,0.0,0.0,0,0,,0,2,0,0,0,0,,Kentucky,2024
+Daveren Rayner,daveren-rayner-1,/cfb/players/daveren-rayner-1.html,LB,4,7,6,13,3.0,0.0,0,0,,0,0,0,0,0,0,,Kentucky,2024
+Terhyon Nichols,terhyon-nichols-1,/cfb/players/terhyon-nichols-1.html,DB,8,8,2,10,0.0,0.0,0,0,,0,5,0,0,0,0,,Kentucky,2024
+Nassir Addison,nassir-addison-1,/cfb/players/nassir-addison-1.html,DB,12,5,4,9,0.0,0.0,0,0,,0,1,0,0,0,0,,Kentucky,2024
+Josaih Hayes,josaih-hayes-1,/cfb/players/josaih-hayes-1.html,DL,3,3,6,9,1.0,0.0,0,0,,0,1,0,0,0,0,,Kentucky,2024
+Grant Godfrey,grant-godfrey-1,/cfb/players/grant-godfrey-1.html,LB,7,3,6,9,0.0,0.0,0,0,,0,0,0,0,0,0,,Kentucky,2024
+Jantzen Dunn,jantzen-dunn-1,/cfb/players/jantzen-dunn-1.html,DB,7,4,4,8,1.0,0.0,0,0,,0,0,0,0,0,0,,Kentucky,2024
+Jerod Smith II,jerod-smith-ii-1,/cfb/players/jerod-smith-ii-1.html,DL,12,4,3,7,0.5,0.0,0,0,,0,0,0,0,0,0,,Kentucky,2024
+Noah Matthews,noah-matthews-1,/cfb/players/noah-matthews-1.html,LB,12,1,6,7,0.5,0.0,0,0,,0,0,1,0,0,0,,Kentucky,2024
+Quay'sheed Scott,quaysheed-scott-1,/cfb/players/quaysheed-scott-1.html,DB,11,5,1,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Kentucky,2024
+Steven Soles Jr.,steven-soles-jr-1,/cfb/players/steven-soles-jr-1.html,LB,11,4,1,5,2.0,1.0,0,0,,0,0,0,0,0,0,,Kentucky,2024
+Kendrick Gilbert,kendrick-gilbert-1,/cfb/players/kendrick-gilbert-1.html,DL,8,2,3,5,1.0,0.0,0,0,,0,0,0,0,0,0,,Kentucky,2024
+Khamari Anderson,khamari-anderson-1,/cfb/players/khamari-anderson-1.html,TE,11,1,3,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Kentucky,2024
+Cam Dooley,cam-dooley-1,/cfb/players/cam-dooley-1.html,DB,12,3,1,4,1.0,0.0,0,0,,0,0,0,0,0,0,,Kentucky,2024
+Willie Rodriguez,willie-rodriguez-1,/cfb/players/willie-rodriguez-1.html,TE,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Kentucky,2024
+Tommy Ziesmer,tommy-ziesmer-1,/cfb/players/tommy-ziesmer-1.html,DL,4,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Kentucky,2024
+Jarard Mosely,jarard-mosely-1,/cfb/players/jarard-mosely-1.html,DB,1,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Kentucky,2024
+Jay Maclin,jay-maclin-1,/cfb/players/jay-maclin-1.html,WR,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Kentucky,2024
+Antwan Smith,antwan-smith-2,/cfb/players/antwan-smith-2.html,LB,7,0,1,1,0.0,0.0,0,0,,0,1,0,0,0,0,,Kentucky,2024
+Caleb Redd,caleb-redd-1,/cfb/players/caleb-redd-1.html,LB,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kentucky,2024
+Demie Sumo,demie-sumo-1,/cfb/players/demie-sumo-1.html,RB,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kentucky,2024
+Alex McLaughlin,alex-mclaughlin-2,/cfb/players/alex-mclaughlin-2.html,LS,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kentucky,2024
+Gavin Wimsatt,gavin-wimsatt-1,/cfb/players/gavin-wimsatt-1.html,QB,8,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kentucky,2024
+Malachi Wood,malachi-wood-1,/cfb/players/malachi-wood-1.html,OL,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kentucky,2024
+Jacob Smith,jacob-smith-5,/cfb/players/jacob-smith-5.html,LB,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kentucky,2024
+Koby Keenum,koby-keenum-1,/cfb/players/koby-keenum-1.html,OL,11,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kentucky,2024
+Kenyatta Hardge II,kenyatta-hardge-ii-1,/cfb/players/kenyatta-hardge-ii-1.html,DL,2,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kentucky,2024
+Jayvant Brown,jayvent-brown-1,/cfb/players/jayvent-brown-1.html,LB,4,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kentucky,2024
+Jackson Schulz,jackson-schulz-1,/cfb/players/jackson-schulz-1.html,DB,8,0,0,0,0.0,0.0,1,0,0.0,0,0,0,0,0,0,,Kentucky,2024

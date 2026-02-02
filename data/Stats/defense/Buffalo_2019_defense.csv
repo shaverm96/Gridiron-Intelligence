@@ -1,0 +1,47 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Joey Banks,joey-banks-1,/cfb/players/joey-banks-1.html,S,13,56,29,85,4.5,1.0,3,70,23.3,1,0,0,0,0,1,,Buffalo,2019
+Matt Otwinowski,matt-otwinowski-1,/cfb/players/matt-otwinowski-1.html,LB,13,38,38,76,3.5,0.5,1,2,2.0,0,1,0,0,0,1,,Buffalo,2019
+Tyrone Hill,tyrone-hill-1,/cfb/players/tyrone-hill-1.html,S,13,47,24,71,3.0,0.0,0,0,,0,10,0,0,0,0,,Buffalo,2019
+Tyrone Hill Jr.,tyrone-hill-jr-1,/cfb/players/tyrone-hill-jr-1.html,,13,47,23,70,3.0,0.0,0,0,,0,10,0,0,0,0,,Buffalo,2019
+Taylor Riggins,taylor-riggins-1,/cfb/players/taylor-riggins-1.html,DE,13,26,24,50,10.5,8.5,0,0,,0,0,3,6,0,1,,Buffalo,2019
+Devon Russell,devon-russell-2,/cfb/players/devon-russell-2.html,CB,13,33,11,44,2.5,2.0,1,0,0.0,0,9,0,0,0,0,,Buffalo,2019
+Chibueze Onwuka,chibueze-onwuka-1,/cfb/players/chibueze-onwuka-1.html,DT,13,25,18,43,8.0,3.5,0,0,,0,0,0,0,0,0,,Buffalo,2019
+Tim Terry Jr.,tim-terry-jr-1,/cfb/players/tim-terry-jr-1.html,LB,13,19,24,43,1.5,1.0,0,0,,0,2,0,0,0,0,,Buffalo,2019
+James Patterson,james-patterson-3,/cfb/players/james-patterson-3.html,LB,10,23,17,40,6.5,1.5,1,20,20.0,0,0,0,0,0,1,,Buffalo,2019
+Cory Gross Jr.,cory-gross-jr-1,/cfb/players/cory-gross-jr-1.html,S,12,19,19,38,0.5,0.0,0,0,,0,1,0,0,0,0,,Buffalo,2019
+Malcolm Koonce,malcolm-koonce-1,/cfb/players/malcolm-koonce-1.html,DE,13,20,14,34,11.0,9.0,0,0,,0,0,0,0,0,3,,Buffalo,2019
+Aapri Washington,aapri-washington-1,/cfb/players/aapri-washington-1.html,CB,13,25,7,32,1.0,0.0,2,10,5.0,0,4,1,0,0,0,,Buffalo,2019
+Kadofi Wright,kadofi-wright-1,/cfb/players/kadofi-wright-1.html,LB,10,18,13,31,2.5,2.0,2,40,20.0,1,0,2,0,1,1,,Buffalo,2019
+Ledarius Mack,ledarius-mack-1,/cfb/players/ledarius-mack-1.html,DE,13,15,9,24,12.0,8.0,0,0,,0,0,2,38,1,3,,Buffalo,2019
+Eddie Wilson,eddie-wilson-2,/cfb/players/eddie-wilson-2.html,DT,13,15,9,24,2.5,1.5,0,0,,0,2,0,0,0,2,,Buffalo,2019
+Roy Baker,roy-baker-1,/cfb/players/roy-baker-1.html,CB,12,15,3,18,0.0,0.0,0,0,,0,4,0,0,0,0,,Buffalo,2019
+Ali Abbas,ali-abbas-1,/cfb/players/ali-abbas-1.html,CB,11,9,6,15,0.0,0.0,0,0,,0,1,0,0,0,0,,Buffalo,2019
+Max Michel,max-michel-1,/cfb/players/max-michel-1.html,LB,13,8,6,14,1.0,1.0,0,0,,0,0,1,0,0,0,,Buffalo,2019
+Ronald McGee,ronald-mcgee-1,/cfb/players/ronald-mcgee-1.html,DT,13,3,8,11,1.0,0.5,0,0,,0,0,0,0,0,0,,Buffalo,2019
+Ja'Varius Harrison,javarius-harrison-1,/cfb/players/javarius-harrison-1.html,LB,13,3,7,10,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2019
+Tyrece Woods Jr.,tyrece-woods-jr-1,/cfb/players/tyrece-woods-jr-1.html,DT,11,3,6,9,2.0,1.5,0,0,,0,1,0,0,0,0,,Buffalo,2019
+Rich Miller,rich-miller-3,/cfb/players/rich-miller-3.html,LB,13,5,4,9,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2019
+Fabian Weitz,fabian-weitz-1,/cfb/players/fabian-weitz-1.html,LB,13,5,3,8,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2019
+Eric Black,eric-black-1,/cfb/players/eric-black-1.html,DE,10,5,1,6,0.0,0.0,0,0,,0,0,1,0,0,0,,Buffalo,2019
+DeShondrick Foxworth,deshondrick-foxworth-1,/cfb/players/deshondrick-foxworth-1.html,DT,4,2,3,5,1.5,0.5,0,0,,0,0,0,0,0,0,,Buffalo,2019
+Theo Anderson,theo-anderson-1,/cfb/players/theo-anderson-1.html,RB,10,2,3,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2019
+Isaiah King,isaiah-king-2,/cfb/players/isaiah-king-2.html,CB,12,2,2,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2019
+Atunaisa Vainikolo,atunaisa-vainikolo-1,/cfb/players/atunaisa-vainikolo-1.html,DT,8,2,2,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2019
+Evan Davis,evan-davis-3,/cfb/players/evan-davis-3.html,LS,13,1,3,4,0.0,0.0,0,0,,0,0,1,0,0,0,,Buffalo,2019
+Dev Lamour,dev-lamour-1,/cfb/players/dev-lamour-1.html,S,10,0,3,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2019
+Frendy Darelus,frendy-darelus-1,/cfb/players/frendy-darelus-1.html,DE,12,3,0,3,1.0,1.0,0,0,,0,0,0,0,0,0,,Buffalo,2019
+Wankeith Akin Jr.,wankeith-akin-jr-1,/cfb/players/wankeith-akin-jr-1.html,CB,12,1,1,2,0.0,0.0,1,10,10.0,0,0,0,0,0,0,,Buffalo,2019
+Evan Finegan,evan-finegan-1,/cfb/players/evan-finegan-1.html,P,3,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2019
+Alex McNulty,alex-mcnulty-1,/cfb/players/alex-mcnulty-1.html,K,13,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2019
+Larry Robbins,larry-robbins-1,/cfb/players/larry-robbins-1.html,CB,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2019
+Marcus Fuqua,marcus-fuqua-1,/cfb/players/marcus-fuqua-1.html,S,2,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2019
+Kevin Marks,kevin-marks-1,/cfb/players/kevin-marks-1.html,RB,13,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2019
+Kayode Awosika,kayode-awosika-1,/cfb/players/kayode-awosika-1.html,OL,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2019
+Justin Mulbah,justin-mulbah-1,/cfb/players/justin-mulbah-1.html,LB,10,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2019
+Jordan Avissey,jordan-avissey-1,/cfb/players/jordan-avissey-1.html,DE,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2019
+Evan Gantley,evan-gantley-1,/cfb/players/evan-gantley-1.html,S,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2019
+Dylan Powell,dylan-powell-2,/cfb/players/dylan-powell-2.html,CB,4,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2019
+Dylan McDuffie,dylan-mcduffie-1,/cfb/players/dylan-mcduffie-1.html,RB,10,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2019
+C.J. Bazile,cj-bazile-1,/cfb/players/cj-bazile-1.html,DE,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2019
+Christian Gonzalez,christian-gonzalez-1,/cfb/players/christian-gonzalez-1.html,DT,1,1,0,1,1.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2019
+Carlton Todd,carlton-todd-1,/cfb/players/carlton-todd-1.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2019

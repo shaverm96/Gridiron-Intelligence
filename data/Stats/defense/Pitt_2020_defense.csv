@@ -1,0 +1,49 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Damar Hamlin,damar-hamlin-1,/cfb/players/damar-hamlin-1.html,DB,10,36,30,66,3.5,0.0,2,4,2.0,0,7,0,0,0,0,,Pitt,2020
+Sirvocea Dennis,sirvocea-dennis-1,/cfb/players/sirvocea-dennis-1.html,LB,10,35,22,57,14.5,4.0,0,0,,0,0,0,0,0,0,,Pitt,2020
+Cam Bright,cam-bright-1,/cfb/players/cam-bright-1.html,LB,11,32,21,53,8.5,4.5,0,0,,0,1,0,0,0,1,,Pitt,2020
+Phil Campbell,phil-campbell-1,/cfb/players/phil-campbell-1.html,LB,11,23,23,46,7.0,4.5,0,0,,0,0,1,0,0,0,,Pitt,2020
+Paris Ford,paris-ford-1,/cfb/players/paris-ford-1.html,DB,7,28,17,45,3.5,0.0,3,34,11.3,0,3,0,0,0,0,,Pitt,2020
+Patrick Jones II,patrick-jones-ii-1,/cfb/players/patrick-jones-ii-1.html,DL,11,23,21,44,13.0,9.0,0,0,,0,3,1,0,0,0,AA,Pitt,2020
+Chase Pine,chase-pine-1,/cfb/players/chase-pine-1.html,LB,11,27,16,43,7.0,1.5,0,0,,0,2,0,0,0,0,,Pitt,2020
+Rashad Weaver,rashad-weaver-1,/cfb/players/rashad-weaver-1.html,DL,9,19,16,35,14.5,7.5,0,0,,0,2,1,5,0,3,AA,Pitt,2020
+Erick Hallett,erick-hallett-1,/cfb/players/erick-hallett-1.html,DB,10,20,10,30,2.0,0.0,2,-2,-1.0,0,4,0,0,0,0,,Pitt,2020
+Brandon Hill,brandon-hill-4,/cfb/players/brandon-hill-4.html,DB,10,17,10,27,1.5,0.0,1,50,50.0,1,1,0,0,0,2,,Pitt,2020
+Calijah Kancey,calijah-kancey-1,/cfb/players/calijah-kancey-1.html,DL,11,12,15,27,7.0,1.5,0,0,,0,2,0,0,0,0,,Pitt,2020
+Marquis Williams,marquis-williams-3,/cfb/players/marquis-williams-3.html,DB,10,16,6,22,0.0,0.0,2,45,22.5,0,4,0,0,0,0,,Pitt,2020
+Devin Danielson,devin-danielson-1,/cfb/players/devin-danielson-1.html,DL,11,5,16,21,3.0,2.0,0,0,,0,0,0,0,0,0,,Pitt,2020
+Jason Pinnock,jason-pinnock-1,/cfb/players/jason-pinnock-1.html,DB,10,17,2,19,1.0,0.0,3,20,6.7,0,5,0,0,0,0,,Pitt,2020
+Deslin Alexandre,deslin-alexandre-1,/cfb/players/deslin-alexandre-1.html,DL,11,12,6,18,6.5,3.0,0,0,,0,2,1,0,0,0,,Pitt,2020
+A.J. Woods,aj-woods-1,/cfb/players/aj-woods-1.html,DB,11,15,2,17,1.0,0.0,1,-1,-1.0,0,2,0,0,0,0,,Pitt,2020
+Brandon George,brandon-george-1,/cfb/players/brandon-george-1.html,LB,11,8,9,17,0.0,0.0,0,0,,0,0,0,0,0,0,,Pitt,2020
+John Morgan,john-morgan-1,/cfb/players/john-morgan-1.html,DL,11,8,5,13,7.0,4.0,0,0,,0,0,0,0,0,0,,Pitt,2020
+David Green,david-green-11,/cfb/players/david-green-11.html,DL,9,5,7,12,2.0,1.5,0,0,,0,0,0,0,0,0,,Pitt,2020
+John Petrishen,john-petrishen-1,/cfb/players/john-petrishen-1.html,LB,11,4,8,12,2.0,0.0,0,0,,0,0,0,0,0,0,,Pitt,2020
+Tyler Bentley,tyler-bentley-1,/cfb/players/tyler-bentley-1.html,DL,9,5,6,11,2.0,0.0,0,0,,0,0,0,0,0,0,,Pitt,2020
+Judson Tallandier,judson-tallandier-1,/cfb/players/judson-tallandier-1.html,DB,11,6,2,8,0.0,0.0,0,0,,0,0,0,0,0,0,,Pitt,2020
+Wendell Davis,wendell-davis-4,/cfb/players/wendell-davis-4.html,LB,2,0,7,7,0.5,0.0,0,0,,0,0,0,0,0,0,,Pitt,2020
+Rashad Battle,rashad-battle-1,/cfb/players/rashad-battle-1.html,DB,11,5,2,7,0.0,0.0,0,0,,0,0,0,0,0,0,,Pitt,2020
+Buddy Mack III,buddy-mack-iii-1,/cfb/players/buddy-mack-iii-1.html,DB,11,6,1,7,0.0,0.0,0,0,,0,0,0,0,0,1,,Pitt,2020
+DeAndre Jules,deandre-jules-1,/cfb/players/deandre-jules-1.html,DL,6,2,4,6,1.5,0.5,0,0,,0,0,0,0,0,0,,Pitt,2020
+Keyshon Camp,keyshon-camp-1,/cfb/players/keyshon-camp-1.html,DL,7,3,3,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Pitt,2020
+Bangally Kamara,bangally-kamara-1,/cfb/players/bangally-kamara-1.html,LB,11,1,4,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Pitt,2020
+Dayon Hayes,dayon-hayes-1,/cfb/players/dayon-hayes-1.html,DL,5,2,1,3,2.5,2.5,0,0,,0,0,0,0,0,1,,Pitt,2020
+Habakkuk Baldonado,habakkuk-baldonado-1,/cfb/players/habakkuk-baldonado-1.html,DL,4,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Pitt,2020
+Shocky Jacques-Louis,shocky-jacques-louis-1,/cfb/players/shocky-jacques-louis-1.html,WR,10,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Pitt,2020
+Nate Temple,nate-temple-1,/cfb/players/nate-temple-1.html,DL,7,1,1,2,0.0,0.0,0,0,,0,1,0,0,0,0,,Pitt,2020
+Noah Palmer,noah-palmer-2,/cfb/players/noah-palmer-2.html,DL,2,0,2,2,0.0,0.0,0,0,,0,0,1,33,0,0,,Pitt,2020
+Paris Brown,paris-brown-1,/cfb/players/paris-brown-1.html,RB,1,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Pitt,2020
+A.J. Roberts,aj-roberts-1,/cfb/players/aj-roberts-1.html,LB,5,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Pitt,2020
+Todd Sibley Jr.,todd-sibley-jr-1,/cfb/players/todd-sibley-jr-1.html,RB,6,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Pitt,2020
+Tre Tipton,tre-tripton-1,/cfb/players/tre-tripton-1.html,WR,9,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Pitt,2020
+Jared Wayne,jared-wayne-1,/cfb/players/jared-wayne-1.html,WR,8,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Pitt,2020
+Taysir Mack,taysir-mack-1,/cfb/players/taysir-mack-1.html,WR,8,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Pitt,2020
+Kenny Pickett,kenny-pickett-1,/cfb/players/kenny-pickett-1.html,QB,9,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Pitt,2020
+Jordan Addison,jordan-addison-1,/cfb/players/jordan-addison-1.html,WR,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Pitt,2020
+A.J. Davis,aj-davis-4,/cfb/players/aj-davis-4.html,RB,9,1,0,1,0.0,0.0,0,0,,0,0,1,0,0,1,,Pitt,2020
+DJ Turner,dj-turner-1,/cfb/players/dj-turner-1.html,WR,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Pitt,2020
+Carson Van Lynn,carson-van-lynn-1,/cfb/players/carson-van-lynn-1.html,OL,11,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Pitt,2020
+Cal Adomitis,cal-adomitis-1,/cfb/players/cal-adomitis-1.html,LS,11,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Pitt,2020
+Blake Zubovic,blake-zubovic-1,/cfb/players/blake-zubovic-1.html,OL,7,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Pitt,2020
+Bam Brima,bam-brima-1,/cfb/players/bam-brima-1.html,DL,4,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Pitt,2020
+A.J. Davis Jr.,aj-davis-jr-1,/cfb/players/aj-davis-jr-1.html,,10,1,0,1,0.0,0.0,0,0,,0,0,1,0,0,1,,Pitt,2020

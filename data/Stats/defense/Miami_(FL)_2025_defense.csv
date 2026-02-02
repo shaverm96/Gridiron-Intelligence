@@ -1,0 +1,42 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Mohamed Toure,mohamed-toure-1,/cfb/players/mohamed-toure-1.html,LB,16,38,46,84,3.0,2.0,0,0,,0,6,0,0,0,0,,Miami (FL),2025
+Jakobe Thomas,jakobe-thomas-1,/cfb/players/jakobe-thomas-1.html,DB,16,46,30,76,4.0,3.5,5,73,14.6,1,6,2,0,0,2,,Miami (FL),2025
+Wesley Bissainthe,wesley-bissainthe-1,/cfb/players/wesley-bissainthe-1.html,LB,16,39,32,71,3.0,1.0,1,32,32.0,0,0,0,0,0,1,,Miami (FL),2025
+Zechariah Poyser,zechariah-poyser-1,/cfb/players/zechariah-poyser-1.html,S,16,42,26,68,3.0,1.0,0,0,,0,6,2,31,0,1,,Miami (FL),2025
+Keionte Scott,keionte-scott-1,/cfb/players/keionte-scott-1.html,DB,14,42,22,64,13.0,5.0,2,110,55.0,2,5,2,0,0,2,,Miami (FL),2025
+Akheem Mesidor,akheem-mesidor-1,/cfb/players/akheem-mesidor-1.html,DL,15,38,25,63,17.5,12.5,0,0,,0,0,0,0,0,4,,Miami (FL),2025
+Rueben Bain Jr.,rueben-bain-jr-1,/cfb/players/rueben-bain-jr-1.html,DL,16,30,24,54,15.5,9.5,1,12,12.0,0,1,0,0,0,1,AA,Miami (FL),2025
+Xavier Lucas,xavier-lucas-1,/cfb/players/xavier-lucas-1.html,CB,16,30,15,45,2.0,1.0,1,0,0.0,0,8,0,0,0,1,,Miami (FL),2025
+Raul Aguirre Jr.,raul-aguirre-jr-1,/cfb/players/raul-aguirre-jr-1.html,LB,16,22,21,43,2.0,0.0,0,0,,0,1,0,0,0,0,,Miami (FL),2025
+Ahmad Moten,ahmad-moten-1,/cfb/players/ahmad-moten-1.html,DL,14,20,11,31,9.0,4.5,0,0,,0,0,0,0,0,0,,Miami (FL),2025
+Chase Smith,chase-smith-1,/cfb/players/chase-smith-1.html,LB,16,15,16,31,0.0,0.0,0,0,,0,2,2,0,0,0,,Miami (FL),2025
+David Blay,david-blay-1,/cfb/players/david-blay-1.html,DL,13,10,18,28,2.5,0.0,0,0,,0,1,0,0,0,0,,Miami (FL),2025
+Ethan O'Connor,ethan-oconnor-1,/cfb/players/ethan-oconnor-1.html,DB,16,22,6,28,3.5,0.0,0,0,,0,5,0,0,0,0,,Miami (FL),2025
+Justin Scott,justin-scott-3,/cfb/players/justin-scott-3.html,DL,15,15,11,26,6.5,1.0,0,0,,0,1,0,0,0,1,,Miami (FL),2025
+Marquise Lightfoot,marquise-lightfoot-1,/cfb/players/marquise-lightfoot-1.html,DL,15,16,9,25,5.5,2.5,0,0,,0,1,0,0,0,0,,Miami (FL),2025
+Damari Brown,damari-brown-1,/cfb/players/damari-brown-1.html,DB,13,16,8,24,0.0,0.0,0,0,,0,1,0,0,0,0,,Miami (FL),2025
+"Romanas Frederique, Jr.",romanas-frederique-jr-1,/cfb/players/romanas-frederique-jr-1.html,DB,10,12,7,19,0.0,0.0,0,0,,0,7,0,0,0,0,,Miami (FL),2025
+Armondo Blount,armondo-blount-1,/cfb/players/armondo-blount-1.html,DL,15,7,10,17,2.5,2.5,0,0,,0,1,1,0,0,0,,Miami (FL),2025
+Bryce Fitzgerald,bryce-fitzgerald-1,/cfb/players/bryce-fitzgerald-1.html,DB,16,10,6,16,1.0,1.0,6,79,13.2,0,2,0,0,0,0,,Miami (FL),2025
+Dylan Day,dylan-day-1,/cfb/players/dylan-day-1.html,DB,16,5,6,11,1.0,1.0,0,0,,0,2,0,0,0,0,,Miami (FL),2025
+Cameron Pruitt,cameron-pruitt-1,/cfb/players/cameron-pruitt-1.html,LB,15,5,5,10,0.5,0.5,0,0,,0,0,0,0,0,0,,Miami (FL),2025
+Isaiah Taylor,isaiah-taylor-2,/cfb/players/isaiah-taylor-2.html,DB,13,6,2,8,3.0,0.0,0,0,,0,1,0,0,0,0,,Miami (FL),2025
+Jaboree Antoine,jaboree-antoine-1,/cfb/players/jaboree-antoine-1.html,DB,12,5,2,7,0.0,0.0,0,0,,0,1,0,0,0,0,,Miami (FL),2025
+Jaylin Alderman,jaylin-alderman-1,/cfb/players/jaylin-alderman-1.html,LB,9,5,2,7,0.0,0.0,0,0,,0,1,0,0,0,0,,Miami (FL),2025
+Daylen Russell,daylen-russell-1,/cfb/players/daylen-russell-1.html,DL,5,3,3,6,1.0,0.0,0,0,,0,0,0,0,0,0,,Miami (FL),2025
+"Kellen Wiley, Jr.",kellen-wiley-jr-1,/cfb/players/kellen-wiley-jr-1.html,LB,8,3,3,6,0.0,0.0,0,0,,0,1,0,0,0,0,,Miami (FL),2025
+Ja'Dais Richard,jadais-richard-1,/cfb/players/jadais-richard-1.html,DB,5,3,2,5,0.5,0.5,0,0,,0,0,0,0,0,0,,Miami (FL),2025
+"Booker Pickett, Jr.",booker-pickett-jr-1,/cfb/players/booker-pickett-jr-1.html,DL,9,2,3,5,1.0,1.0,0,0,,0,0,0,0,0,0,,Miami (FL),2025
+"Donta Simpson, Jr.",donta-simpson-jr-1,/cfb/players/donta-simpson-jr-1.html,DL,8,1,3,4,1.5,0.0,0,0,,0,0,0,0,0,0,,Miami (FL),2025
+Herbert Scroggins III,herbert-scroggins-iii-1,/cfb/players/herbert-scroggins-iii-1.html,DE,11,1,3,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Miami (FL),2025
+Nick Kelly,nick-kelly-3,/cfb/players/nick-kelly-3.html,DB,14,2,2,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Miami (FL),2025
+Adam Booker,adam-booker-1,/cfb/players/adam-booker-1.html,LS,16,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Miami (FL),2025
+Malik Bryant,malik-bryant-2,/cfb/players/malik-bryant-2.html,DE,4,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Miami (FL),2025
+Kamal Bonner,kamal-bonner-1,/cfb/players/kamal-bonner-1.html,LB,9,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Miami (FL),2025
+"Ezekiel Marcelin, Jr.",ezekiel-marcelin-jr-1,/cfb/players/ezekiel-marcelin-jr-1.html,LB,10,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Miami (FL),2025
+Carter Davis,carter-davis-1,/cfb/players/carter-davis-1.html,K,16,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Miami (FL),2025
+Mark Fletcher Jr.,mark-fletcher-jr-1,/cfb/players/mark-fletcher-jr-1.html,RB,14,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Miami (FL),2025
+Malachi Toney,malachi-toney-1,/cfb/players/malachi-toney-1.html,WR,16,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Miami (FL),2025
+Charles Brantley,charles-brantley-1,/cfb/players/charles-brantley-1.html,DB,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Miami (FL),2025
+Tony Johnson,tony-johnson-10,/cfb/players/tony-johnson-10.html,WR,8,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Miami (FL),2025
+CharMar Brown,charmar-brown-1,/cfb/players/charmar-brown-1.html,RB,15,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Miami (FL),2025

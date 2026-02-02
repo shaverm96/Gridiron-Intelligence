@@ -1,0 +1,41 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+John Miller,john-miller-9,/cfb/players/john-miller-9.html,LB,13,39,79,118,10.0,8.0,0,0,,0,3,0,0,0,1,,Utah State,2025
+Brevin Hamblin,brevin-hamblin-1,/cfb/players/brevin-hamblin-1.html,S,13,57,57,114,2.5,1.5,1,38,38.0,1,8,1,0,0,2,,Utah State,2025
+Bronson Olevao,bronson-olevao-1,/cfb/players/bronson-olevao-1.html,LB,13,32,58,90,7.5,4.0,2,20,10.0,0,3,1,20,0,0,,Utah State,2025
+Noah Avinger,noah-avinger-1,/cfb/players/noah-avinger-1.html,CB,12,40,44,84,3.5,1.0,3,11,3.7,0,10,1,0,0,1,,Utah State,2025
+Carson Tujague,carson-tujague-1,/cfb/players/carson-tujague-1.html,DT,13,19,53,72,4.0,0.5,0,0,,0,1,0,0,0,0,,Utah State,2025
+Ike Larsen,ike-larsen-1,/cfb/players/ike-larsen-1.html,S,8,31,25,56,3.0,0.0,1,12,12.0,0,5,0,0,0,0,,Utah State,2025
+Tyree Morris,tyree-morris-1,/cfb/players/tyree-morris-1.html,DT,13,13,35,48,5.5,4.0,0,0,,0,1,0,0,0,0,,Utah State,2025
+William Holmes,william-holmes-1,/cfb/players/william-holmes-1.html,DE,10,22,23,45,6.5,2.0,0,0,,0,0,1,0,0,0,,Utah State,2025
+Chris Joe,chris-joe-1,/cfb/players/chris-joe-1.html,LB,13,18,23,41,6.0,4.0,0,0,,0,1,0,0,0,0,,Utah State,2025
+D' Angelo Mayes,d-angelo-mayes-1,/cfb/players/d-angelo-mayes-1.html,CB,13,28,12,40,2.5,1.0,2,39,19.5,0,2,0,0,0,0,,Utah State,2025
+Gabriel Iniguez,gabriel-iniguez-1,/cfb/players/gabriel-iniguez-1.html,DT,13,4,33,37,1.5,1.0,0,0,,0,0,0,0,0,0,,Utah State,2025
+Mataira Brown,mataira-brown-1,/cfb/players/mataira-brown-1.html,LB,12,9,26,35,1.0,0.5,1,1,1.0,0,1,0,0,0,0,,Utah State,2025
+Dylan Tucker,dylan-tucker-1,/cfb/players/dylan-tucker-1.html,CB,10,21,13,34,2.0,0.0,1,2,2.0,0,1,0,0,0,0,,Utah State,2025
+Bryson Taylor,bryson-taylor-1,/cfb/players/bryson-taylor-1.html,CB,11,15,17,32,2.0,0.0,0,0,,0,5,0,0,0,0,,Utah State,2025
+Noah Flores,noah-flores-1,/cfb/players/noah-flores-1.html,CB,12,13,13,26,0.5,0.5,1,0,0.0,0,2,0,0,0,0,,Utah State,2025
+Bobby Arnold III,bobby-arnold-iii-1,/cfb/players/bobby-arnold-iii-1.html,S,11,10,11,21,0.5,0.0,0,0,,0,1,0,0,0,0,,Utah State,2025
+Enoka Migao,enoka-migao-1,/cfb/players/enoka-migao-1.html,DE,5,3,7,10,1.5,0.0,0,0,,0,0,0,0,0,0,,Utah State,2025
+Bo Maile,bo-maile-1,/cfb/players/bo-maile-1.html,DT,12,4,5,9,1.0,0.0,0,0,,0,0,0,0,0,0,,Utah State,2025
+Tymere Burton,tymere-burton-1,/cfb/players/tymere-burton-1.html,LB,12,2,6,8,0.5,0.5,0,0,,0,1,0,0,0,0,,Utah State,2025
+Tevita Tuha,tevita-tuha-1,/cfb/players/tevita-tuha-1.html,DE,11,5,3,8,1.0,0.0,0,0,,0,0,0,0,0,0,,Utah State,2025
+Charger Doty,charger-doty-1,/cfb/players/charger-doty-1.html,S,8,6,1,7,0.0,0.0,0,0,,0,1,0,0,0,0,,Utah State,2025
+Titan Saxton,titan-saxton-1,/cfb/players/titan-saxton-1.html,S,10,4,3,7,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah State,2025
+Naki Fahina,naki-fahina-1,/cfb/players/naki-fahina-1.html,DT,5,2,5,7,1.0,0.0,0,0,,0,0,0,0,0,0,,Utah State,2025
+Dakota Howell,dakota-howell-1,/cfb/players/dakota-howell-1.html,LB,13,2,2,4,0.5,0.5,0,0,,0,0,0,0,0,0,,Utah State,2025
+Courage Ugo,courage-ugo-1,/cfb/players/courage-ugo-1.html,CB,3,2,2,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah State,2025
+Gio Kafentzis,gio-kafentzis-1,/cfb/players/gio-kafentzis-1.html,S,11,2,2,4,0.0,0.0,1,3,3.0,0,1,0,0,0,0,,Utah State,2025
+Carl Nesmith,carl-nesmith-2,/cfb/players/carl-nesmith-2.html,DE,2,3,1,4,0.0,0.0,0,0,,0,1,0,0,0,0,,Utah State,2025
+Zachary Robbins,zachary-robbins-1,/cfb/players/zachary-robbins-1.html,P,10,0,3,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah State,2025
+Noah White,noah-white-1,/cfb/players/noah-white-1.html,RB,12,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah State,2025
+Zion Andreasen,zion-andreasen-1,/cfb/players/zion-andreasen-1.html,DE,2,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah State,2025
+Luke Durfey,luke-durfey-1,/cfb/players/luke-durfey-1.html,LB,11,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah State,2025
+Joshua Papu,joshua-papu-1,/cfb/players/joshua-papu-1.html,DT,3,0,3,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah State,2025
+D'Andre Barnes,dandre-barnes-1,/cfb/players/dandre-barnes-1.html,DB,11,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah State,2025
+Kone Aumua Uiagalelei,kone-aumua-uiagalelei-1,/cfb/players/kone-aumua-uiagalelei-1.html,DT,4,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah State,2025
+Josh Sterzer,josh-sterzer-1,/cfb/players/josh-sterzer-1.html,TE,12,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah State,2025
+Hyrum Hatch,hyrum-hatch-1,/cfb/players/hyrum-hatch-1.html,LS,13,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah State,2025
+Kahanu Davis,kahanu-davis-1,/cfb/players/kahanu-davis-1.html,WR,13,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah State,2025
+Chika Ebunoha,chika-ebunoha-1,/cfb/players/chika-ebunoha-1.html,S,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah State,2025
+Carter Brown,carter-brown-1,/cfb/players/carter-brown-1.html,K,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah State,2025
+Bryson Barnes,bryson-barnes-1,/cfb/players/bryson-barnes-1.html,QB,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah State,2025

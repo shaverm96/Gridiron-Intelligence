@@ -1,0 +1,43 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+A.J. Haulcy,aj-haulcy-1,/cfb/players/aj-haulcy-1.html,DB,12,73,25,98,1.0,0.0,0,12,,0,4,0,0,0,1,,Houston,2023
+Malik Robinson,malik-robinson-1,/cfb/players/malik-robinson-1.html,LB,12,38,43,81,2.5,0.0,1,3,3.0,0,1,1,0,0,0,,Houston,2023
+Jamal Morris,jamal-morris-1,/cfb/players/jamal-morris-1.html,LB,11,38,26,64,2.0,0.5,0,0,,0,5,1,0,0,1,,Houston,2023
+Isaiah Hamilton,isaiah-hamilton-3,/cfb/players/isaiah-hamilton-3.html,DB,12,38,12,50,3.5,0.0,4,75,18.8,1,4,0,0,0,1,,Houston,2023
+Nelson Ceaser,nelson-ceaser-1,/cfb/players/nelson-ceaser-1.html,DL,11,28,15,43,13.5,9.5,0,0,,0,1,0,0,0,0,,Houston,2023
+Malik Fleming,malik-fleming-1,/cfb/players/malik-fleming-1.html,DB,11,32,9,41,1.5,0.0,3,54,18.0,0,5,0,0,0,0,,Houston,2023
+David Ugwoegbu,david-ugwoegbu-1,/cfb/players/david-ugwoegbu-1.html,DL,12,28,13,41,6.0,3.0,0,0,,0,3,1,0,0,1,,Houston,2023
+Brian George,brian-george-2,/cfb/players/brian-george-2.html,DB,10,25,12,37,0.5,0.0,0,0,,0,1,0,0,0,0,,Houston,2023
+Hasaan Hypolite,hasaan-hypolite-1,/cfb/players/hasaan-hypolite-1.html,DB,12,21,12,33,1.0,0.0,0,0,,0,0,0,0,0,0,,Houston,2023
+Antonio Brooks,antonio-brooks-1,/cfb/players/antonio-brooks-1.html,DB,8,25,7,32,1.0,0.0,0,0,,0,0,0,0,0,0,,Houston,2023
+Treylin Payne,treylin-payne-1,/cfb/players/treylin-payne-1.html,LB,12,13,14,27,2.0,1.0,1,0,0.0,0,0,0,0,0,0,,Houston,2023
+Jamaree Caldwell,jamaree-caldwell-1,/cfb/players/jamaree-caldwell-1.html,DL,11,22,5,27,8.5,6.5,0,0,,0,0,0,0,0,1,,Houston,2023
+Chidozie Nwankwo,chidozie-nwankwo-1,/cfb/players/chidozie-nwankwo-1.html,DL,9,13,12,25,5.0,1.0,0,0,,0,0,0,0,0,0,,Houston,2023
+Trimarcus Cheeks,trimarcus-cheeks-1,/cfb/players/trimarcus-cheeks-1.html,LB,11,12,11,23,1.0,1.0,0,0,,0,2,0,0,0,0,,Houston,2023
+Anthony Holmes Jr.,anthony-holmes-jr-1,/cfb/players/anthony-holmes-jr-1.html,DL,12,13,8,21,4.5,2.5,0,0,,0,0,0,0,0,0,,Houston,2023
+Hakeem Ajijolaiya,hakeem-ajijolaiya-1,/cfb/players/hakeem-ajijolaiya-1.html,DL,12,10,11,21,1.0,0.0,0,0,,0,1,1,0,0,0,,Houston,2023
+Juwon Gaston,juwon-gaston-1,/cfb/players/juwon-gaston-1.html,DB,10,12,6,18,1.0,0.0,0,0,,0,0,0,0,0,0,,Houston,2023
+Alex Hogan,alex-hogan-1,/cfb/players/alex-hogan-1.html,DB,7,14,2,16,1.0,0.0,0,0,,0,3,0,0,0,0,,Houston,2023
+Jalen Garner,jalen-garner-1,/cfb/players/jalen-garner-1.html,LB,9,7,6,13,0.0,0.0,0,0,,0,0,0,0,0,0,,Houston,2023
+Moses Alexander,moses-alexander-1,/cfb/players/moses-alexander-1.html,CB,10,8,3,11,1.0,0.0,0,0,,0,1,0,0,0,0,,Houston,2023
+Taleeq Robbins,taleeq-robbins-2,/cfb/players/taleeq-robbins-2.html,DL,10,4,6,10,1.0,0.0,0,0,,0,0,0,0,0,0,,Houston,2023
+Latreveon McCutchin,latreveon-mccutchin-1,/cfb/players/latreveon-mccutchin-1.html,LB,12,6,4,10,0.0,0.0,0,0,,0,1,0,0,0,0,,Houston,2023
+Jalen Emery,jalen-emery-1,/cfb/players/jalen-emery-1.html,DB,7,6,3,9,0.0,0.0,0,0,,0,1,0,0,0,0,,Houston,2023
+Sedrick Williams,sedrick-williams-1,/cfb/players/sedrick-williams-1.html,DL,12,6,2,8,1.0,1.0,0,0,,0,0,0,0,0,0,,Houston,2023
+Noah Guzman,noah-guzman-1,/cfb/players/noah-guzman-1.html,DB,2,4,3,7,0.0,0.0,0,0,,0,1,0,0,0,0,,Houston,2023
+Nadame Tucker,nadame-tucker-1,/cfb/players/nadame-tucker-1.html,DL,9,5,2,7,1.0,0.0,0,0,,0,0,0,0,0,0,,Houston,2023
+Zykeius Strong,zykeius-strong-1,/cfb/players/zykeius-strong-1.html,DL,12,1,5,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Houston,2023
+Chris Pearson,chris-pearson-2,/cfb/players/chris-pearson-2.html,LB,11,1,3,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Houston,2023
+Justin Benton,justin-benton-1,/cfb/players/justin-benton-1.html,DL,4,3,1,4,1.0,0.0,0,0,,0,0,0,0,0,0,,Houston,2023
+Cavan Tuley,cavan-tuley-1,/cfb/players/cavan-tuley-1.html,DL,7,2,1,3,2.0,0.0,0,0,,0,0,0,0,0,0,,Houston,2023
+Dorian Friend,dorian-friend-1,/cfb/players/dorian-friend-1.html,DB,6,0,3,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Houston,2023
+Joseph Manjack IV,joseph-manjack-iv-1,/cfb/players/joseph-manjack-iv-1.html,WR,10,1,1,2,0.0,0.0,0,0,,0,0,1,0,0,1,,Houston,2023
+C.J. Nelson,cj-nelson-1,/cfb/players/cj-nelson-1.html,WR,2,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Houston,2023
+Aaron Willis,aaron-willis-1,/cfb/players/aaron-willis-1.html,LB,12,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Houston,2023
+Brandon Mack,brandon-mack-3,/cfb/players/brandon-mack-3.html,DL,2,2,0,2,2.0,0.0,0,0,,0,0,0,0,0,0,,Houston,2023
+Laine Wilkins,laine-wilkins-1,/cfb/players/laine-wilkins-1.html,P,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Houston,2023
+Parker Jenkins,parker-jenkins-1,/cfb/players/parker-jenkins-1.html,RB,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Houston,2023
+Peyton Sawyer,peyton-sawyer-1,/cfb/players/peyton-sawyer-1.html,WR,7,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Houston,2023
+Reuben Unije,reuben-unije-1,/cfb/players/reuben-unije-1.html,OL,11,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Houston,2023
+Jalyn Stanford,jalyn-stanford-1,/cfb/players/jalyn-stanford-1.html,DB,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Houston,2023
+Jack Martin,jack-martin-3,/cfb/players/jack-martin-3.html,K,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Houston,2023
+Amipeleasi Langi Jr.,amipeleasi-langi-jr-1,/cfb/players/amipeleasi-langi-jr-1.html,DL,5,0,1,1,0.5,0.0,0,0,,0,2,0,0,0,0,,Houston,2023

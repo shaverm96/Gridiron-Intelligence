@@ -1,0 +1,56 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Mac Harris,mac-harris-1,/cfb/players/mac-harris-1.html,LB,13,54,28,82,12.0,4.0,0,0,,0,2,1,25,1,2,,South Florida,2024
+Tavin Ward,tavin-ward-1,/cfb/players/tavin-ward-1.html,CB,13,41,21,62,2.0,0.0,3,29,9.7,0,3,1,0,0,0,,South Florida,2024
+Jhalyn Shuler,jhalyn-shuler-1,/cfb/players/jhalyn-shuler-1.html,LB,10,34,27,61,7.0,3.5,2,55,27.5,0,1,0,0,0,3,,South Florida,2024
+Jamie Pettway,jamie-pettway-1,/cfb/players/jamie-pettway-1.html,LB,13,25,31,56,6.5,2.0,0,0,,0,2,1,4,0,0,,South Florida,2024
+Tawfiq Byard,tawfiq-byard-1,/cfb/players/tawfiq-byard-1.html,S,12,34,20,54,8.0,2.0,1,12,12.0,0,0,1,0,0,0,,South Florida,2024
+Brent Austin,brent-austin-1,/cfb/players/brent-austin-1.html,CB,13,36,12,48,0.0,0.0,2,14,7.0,1,10,0,0,0,0,,South Florida,2024
+De'Shawn Rucker,deshawn-rucker-1,/cfb/players/deshawn-rucker-1.html,DB,11,36,6,42,2.0,0.0,0,0,,0,7,0,0,0,1,,South Florida,2024
+Decarius Hawthorne,decarius-hawthorne-1,/cfb/players/decarius-hawthorne-1.html,DT,13,18,22,40,10.5,2.5,0,0,,0,2,1,0,0,1,,South Florida,2024
+D'Marco Augustin,dmarco-augustin-1,/cfb/players/dmarco-augustin-1.html,S,11,20,19,39,2.0,0.0,1,22,22.0,0,1,0,0,0,0,,South Florida,2024
+Rico Watson III,rico-watson-iii-1,/cfb/players/rico-watson-iii-1.html,DL,13,21,16,37,6.0,2.5,0,0,,0,0,0,0,0,1,,South Florida,2024
+Bernard Gooden,bernard-gooden-1,/cfb/players/bernard-gooden-1.html,DL,13,14,21,35,10.0,1.5,0,0,,0,2,2,0,0,0,,South Florida,2024
+Michael Williams II,michael-williams-ii-1,/cfb/players/michael-williams-ii-1.html,DE,13,15,15,30,6.5,2.0,0,0,,0,2,0,0,0,0,,South Florida,2024
+Kajuan Banks,kajuan-banks-1,/cfb/players/kajuan-banks-1.html,DB,13,19,11,30,3.0,2.0,0,0,,0,4,0,0,0,0,,South Florida,2024
+DJ Gordon IV,dj-gordon-iv-1,/cfb/players/dj-gordon-iv-1.html,LB,13,15,14,29,1.0,0.5,0,0,,0,0,1,0,0,1,,South Florida,2024
+D.J. Harris,dj-harris-1,/cfb/players/dj-harris-1.html,DE,13,9,17,26,3.5,2.0,0,0,,0,3,0,0,0,1,,South Florida,2024
+Ben Knox,ben-knox-2,/cfb/players/ben-knox-2.html,CB,13,15,7,22,1.0,1.0,0,0,,0,6,1,0,0,2,,South Florida,2024
+Jason Vaughn,jason-vaughn-2,/cfb/players/jason-vaughn-2.html,DL,10,12,10,22,4.0,1.0,0,0,,0,0,0,0,0,0,,South Florida,2024
+Rodney Hill,rodney-hill-2,/cfb/players/rodney-hill-2.html,LB,13,9,9,18,0.5,0.0,0,0,,0,0,0,0,0,0,,South Florida,2024
+Doug Blue-Eli,doug-blue-eli-1,/cfb/players/doug-blue-eli-1.html,DL,10,5,12,17,1.5,0.0,1,0,0.0,0,0,0,0,0,0,,South Florida,2024
+Logan Berryhill,logan-berryhill-1,/cfb/players/logan-berryhill-1.html,S,13,12,4,16,1.0,0.0,0,0,,0,1,1,16,0,0,,South Florida,2024
+Jarvis Lee,jarvis-lee-1,/cfb/players/jarvis-lee-1.html,CB,13,8,6,14,2.5,1.0,0,0,,0,1,1,0,0,2,,South Florida,2024
+Jahari Grant,jahari-grant-1,/cfb/players/jahari-grant-1.html,DT,8,3,10,13,2.0,0.5,0,0,,0,0,0,0,0,0,,South Florida,2024
+Jaelen Stokes,jaelen-stokes-1,/cfb/players/jaelen-stokes-1.html,DB,13,5,8,13,1.0,0.5,0,0,,0,0,0,0,0,1,,South Florida,2024
+Fred Gaskins,fred-gaskins-1,/cfb/players/fred-gaskins-1.html,DB,13,9,3,12,0.0,0.0,1,0,0.0,0,1,0,0,0,0,,South Florida,2024
+James Chenault,james-chenault-1,/cfb/players/james-chenault-1.html,DB,13,11,1,12,0.0,0.0,1,0,0.0,0,2,0,0,0,0,,South Florida,2024
+Dinellson Exume,dinellson-exume-1,/cfb/players/dinellson-exume-1.html,DE,11,6,6,12,1.5,1.0,0,0,,0,0,0,0,0,0,,South Florida,2024
+Ira Singleton,ira-singleton-2,/cfb/players/ira-singleton-2.html,DE,13,5,6,11,2.5,2.5,0,0,,0,0,0,0,0,0,,South Florida,2024
+Jacquez Williams,jacquez-williams-1,/cfb/players/jacquez-williams-1.html,DT,4,4,4,8,1.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2024
+Ryan Jenkins,ryan-jenkins-3,/cfb/players/ryan-jenkins-3.html,DL,6,3,5,8,1.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2024
+Rashad Cheney Jr.,rashad-cheney-jr-1,/cfb/players/rashad-cheney-jr-1.html,DL,3,1,5,6,1.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2024
+JeyQuan Smith,jeyquan-smith-1,/cfb/players/jeyquan-smith-1.html,WR,13,4,1,5,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2024
+Ashton Mosley,ashton-mosley-1,/cfb/players/ashton-mosley-1.html,LB,5,2,2,4,0.5,0.0,0,0,,0,0,0,0,0,0,,South Florida,2024
+Aamaris Brown,aamaris-brown-1,/cfb/players/aamaris-brown-1.html,DB,5,2,2,4,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2024
+Jermaine Dalias,jermaine-dalias-1,/cfb/players/jermaine-dalias-1.html,DB,3,2,1,3,0.0,0.0,0,0,,0,1,0,0,0,0,,South Florida,2024
+Tyree Kelly,tyree-kelly-1,/cfb/players/tyree-kelly-1.html,WR,12,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2024
+Nay'quan Wright,nayquan-wright-1,/cfb/players/nayquan-wright-1.html,RB,13,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2024
+Yasias Young,yasias-young-1,/cfb/players/yasias-young-1.html,RB,12,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2024
+Reggie Johnson II,reggie-johnson-ii-1,/cfb/players/reggie-johnson-ii-1.html,LB,4,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2024
+Amer Amer,amer-amer-1,/cfb/players/amer-amer-1.html,LB,13,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2024
+Langston Long,langston-long-1,/cfb/players/langston-long-1.html,DB,8,1,1,2,1.0,0.0,0,0,,0,0,0,0,0,1,,South Florida,2024
+Garrett Cates,garrett-cates-1,/cfb/players/garrett-cates-1.html,LS,13,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2024
+Lewai Mitchell,lewai-mitchell-1,/cfb/players/lewai-mitchell-1.html,S,5,0,1,1,0.5,0.0,0,0,,0,0,0,0,0,0,,South Florida,2024
+Nico Gramatica,nico-gramatica-1,/cfb/players/nico-gramatica-1.html,K,13,1,0,1,0.0,0.0,0,0,,0,0,1,0,0,0,,South Florida,2024
+Keshaun Singleton,keshaun-singleton-1,/cfb/players/keshaun-singleton-1.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2024
+Gunnar Greenwald,gunnar-greenwald-1,/cfb/players/gunnar-greenwald-1.html,TE,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2024
+RJ Perry,rj-perry-1,/cfb/players/rj-perry-1.html,OL,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2024
+Evan Dangler,evan-dangler-1,/cfb/players/evan-dangler-1.html,TE,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2024
+Deylen Platt,deylen-platt-1,/cfb/players/deylen-platt-1.html,DB,5,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2024
+Sean Atkins,sean-atkins-1,/cfb/players/sean-atkins-1.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2024
+Derek Bowman,derek-bowman-2,/cfb/players/derek-bowman-2.html,OL,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2024
+Chad Elder,chad-elder-1,/cfb/players/chad-elder-1.html,DE,7,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2024
+Ty Ippolito,ty-ippolito-1,/cfb/players/ty-ippolito-1.html,K,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2024
+Braden Chisholm,braden-chisholm-1,/cfb/players/braden-chisholm-1.html,DL,4,0,1,1,0.5,0.0,0,0,,0,0,0,0,0,0,,South Florida,2024
+Andrew Stokes,andrew-stokes-2,/cfb/players/andrew-stokes-2.html,P,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2024
+Zavier Hamilton,zavier-hamilton-1,/cfb/players/zavier-hamilton-1.html,LB,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2024

@@ -1,0 +1,47 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Hugh Davis,hugh-davis-1,/cfb/players/hugh-davis-1.html,LB,12,34,42,76,4.0,1.5,0,0,,0,3,1,0,0,0,,Louisiana Tech,2022
+Maki Carabin,maki-carabin-1,/cfb/players/maki-carabin-1.html,LB,12,37,31,68,0.5,0.0,1,11,11.0,0,2,0,0,0,0,,Louisiana Tech,2022
+Bee Jay Williamson,bee-jay-williamson-1,/cfb/players/bee-jay-williamson-1.html,DB,10,40,17,57,1.0,0.0,1,0,0.0,0,3,0,0,0,1,,Louisiana Tech,2022
+Cecil Singleton,cecil-singleton-1,/cfb/players/cecil-singleton-1.html,DB,12,35,21,56,6.0,2.0,1,0,0.0,0,5,2,0,0,3,,Louisiana Tech,2022
+Jaiden Cole,jaiden-cole-1,/cfb/players/jaiden-cole-1.html,DB,9,26,25,51,4.0,3.5,1,12,12.0,0,3,0,0,0,1,,Louisiana Tech,2022
+Tyler Grubbs,tyler-grubbs-1,/cfb/players/tyler-grubbs-1.html,LB,5,24,24,48,4.5,0.5,0,0,,0,1,0,0,0,0,,Louisiana Tech,2022
+Khiry Morrison,khiry-morrison-1,/cfb/players/khiry-morrison-1.html,DB,12,29,18,47,1.5,1.0,0,0,,0,1,0,0,0,1,,Louisiana Tech,2022
+Kershawn Fisher,kershawn-fisher-1,/cfb/players/kershawn-fisher-1.html,DL,12,26,15,41,6.0,2.0,0,0,,0,0,1,0,0,0,,Louisiana Tech,2022
+Myles Mason,myles-mason-1,/cfb/players/myles-mason-1.html,DB,7,22,15,37,1.5,0.0,0,0,,0,0,0,0,0,1,,Louisiana Tech,2022
+Deshon Hall,deshon-hall-1,/cfb/players/deshon-hall-1.html,DL,11,16,13,29,4.0,0.0,0,0,,0,3,0,0,0,0,,Louisiana Tech,2022
+Myles Brooks,myles-brooks-1,/cfb/players/myles-brooks-1.html,DB,12,22,7,29,3.0,0.0,3,94,31.3,1,8,0,0,0,1,,Louisiana Tech,2022
+Willie Roberts,willie-roberts-3,/cfb/players/willie-roberts-3.html,DB,12,23,6,29,0.0,0.0,4,18,4.5,1,6,0,0,0,0,,Louisiana Tech,2022
+Keivie Rose,keivie-rose-1,/cfb/players/keivie-rose-1.html,DL,12,18,6,24,4.0,2.0,0,0,,0,0,0,0,0,2,,Louisiana Tech,2022
+J'Dan Burnett,jdan-burnett-1,/cfb/players/jdan-burnett-1.html,DL,12,12,7,19,3.5,1.0,0,0,,0,2,3,30,1,2,,Louisiana Tech,2022
+Rasheed Lyles,rasheed-lyles-1,/cfb/players/rasheed-lyles-1.html,DL,11,10,8,18,0.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana Tech,2022
+Reginald Johnson,reginald-johnson-1,/cfb/players/reginald-johnson-1.html,DB,11,12,4,16,0.0,0.0,0,0,,0,4,1,0,0,0,,Louisiana Tech,2022
+Marquallius Turner,marquallius-turner-1,/cfb/players/marquallius-turner-1.html,DB,12,11,4,15,1.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana Tech,2022
+Brodrick Calhoun,brodrick-calhoun-1,/cfb/players/brodrick-calhoun-1.html,DB,11,10,5,15,2.5,0.0,0,0,,0,0,1,0,0,0,,Louisiana Tech,2022
+Mykol Clark,mykol-clark-1,/cfb/players/mykol-clark-1.html,DL,11,7,7,14,1.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana Tech,2022
+Joseph Mason,joseph-mason-1,/cfb/players/joseph-mason-1.html,LB,8,4,8,12,0.5,0.5,0,0,,0,0,0,0,0,0,,Louisiana Tech,2022
+Keveion'ta Spears,keveionta-spears-1,/cfb/players/keveionta-spears-1.html,DL,12,4,6,10,1.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana Tech,2022
+Zion Nason,zion-nason-1,/cfb/players/zion-nason-1.html,DL,6,7,2,9,3.0,2.0,0,0,,0,0,0,0,0,0,,Louisiana Tech,2022
+Kalen Villanueva,kalen-villanueva-1,/cfb/players/kalen-villanueva-1.html,LB,10,5,4,9,1.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana Tech,2022
+Christian Archangel,christian-archangel-1,/cfb/players/christian-archangel-1.html,DB,6,5,2,7,0.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana Tech,2022
+Eric Randall III,eric-randall-iii-1,/cfb/players/eric-randall-iii-1.html,DB,8,4,2,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana Tech,2022
+Jakobe Brock,jakobe-brock-1,/cfb/players/jakobe-brock-1.html,LB,10,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana Tech,2022
+Jakelyn Morgan,jakelyn-morgan-1,/cfb/players/jakelyn-morgan-1.html,DB,7,2,2,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana Tech,2022
+Allen Walker,allen-walker-2,/cfb/players/allen-walker-2.html,LB,10,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,1,,Louisiana Tech,2022
+Buck Buchanan,buck-buchanan-1,/cfb/players/buck-buchanan-1.html,K,12,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,1,,Louisiana Tech,2022
+Cedric Woods,cedric-woods-1,/cfb/players/cedric-woods-1.html,DB,4,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana Tech,2022
+Charvis Thornton,charvis-thornton-1,/cfb/players/charvis-thornton-1.html,RB,12,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana Tech,2022
+Marquis Crosby,marquis-crosby-1,/cfb/players/marquis-crosby-1.html,RB,12,3,0,3,1.0,0.0,0,0,,0,0,0,0,0,1,,Louisiana Tech,2022
+Matthew McCallister,matthew-mccallister-1,/cfb/players/matthew-mccallister-1.html,WR,7,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana Tech,2022
+Tahj Magee,tahj-magee-1,/cfb/players/tahj-magee-1.html,WR,9,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,1,,Louisiana Tech,2022
+Carson Bruno,carson-bruno-1,/cfb/players/carson-bruno-1.html,OL,12,1,1,2,0.0,0.0,0,0,,0,0,1,0,0,0,,Louisiana Tech,2022
+Joriell Washington,joriell-washington-1,/cfb/players/joriell-washington-1.html,DB,7,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana Tech,2022
+Ean Burch,ean-burch-1,/cfb/players/ean-burch-1.html,LS,1,0,2,2,0.5,0.0,0,0,,0,0,0,0,0,0,,Louisiana Tech,2022
+Jhamal Shelby Jr.,jhamal-shelby-jr-1,/cfb/players/jhamal-shelby-jr-1.html,DB,1,0,2,2,0.0,0.0,0,0,,0,1,0,0,0,0,,Louisiana Tech,2022
+Christian Ard,christian-ard-1,/cfb/players/christian-ard-1.html,DB,7,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana Tech,2022
+Kyle Maxwell,kyle-maxwell-2,/cfb/players/kyle-maxwell-2.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana Tech,2022
+Greg Garner,greg-garner-1,/cfb/players/greg-garner-1.html,RB,7,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana Tech,2022
+Griffin Hebert,griffin-hebert-1,/cfb/players/griffin-hebert-1.html,TE,9,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana Tech,2022
+Tre Harris,tre-harris-1,/cfb/players/tre-harris-1.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana Tech,2022
+Calvin Rhines,calvin-rhines-1,/cfb/players/calvin-rhines-1.html,DL,3,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana Tech,2022
+Jack Turner,jack-turner-1,/cfb/players/jack-turner-1.html,QB,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana Tech,2022
+Noah White,noah-white-2,/cfb/players/noah-white-2.html,LS,12,0,0,0,0.0,0.0,0,0,,0,0,1,0,0,0,,Louisiana Tech,2022

@@ -1,0 +1,95 @@
+Player,Player_ID,Player_Link,class,pos,summary,School,Year
+Jeff Smith,jeff-smith-10,/cfb/players/jeff-smith-10.html,FR,QB,"27 Cmp, 82 Att, 253 Yds, 2 TD",Boston College,2015
+John Fadule,john-fadule-1,/cfb/players/john-fadule-1.html,FR,QB,"38 Cmp, 73 Att, 464 Yds, 1 TD",Boston College,2015
+Troy Flutie,troy-flutie-1,/cfb/players/troy-flutie-1.html,FR,QB,"24 Cmp, 49 Att, 382 Yds, 3 TD",Boston College,2015
+Darius Wade,darius-wade-1,/cfb/players/darius-wade-1.html,SO,QB,"21 Cmp, 42 Att, 232 Yds, 2 TD",Boston College,2015
+Elijah Robinson,elijah-robinson-1,/cfb/players/elijah-robinson-1.html,FR,QB,,Boston College,2015
+Tyler Rouse,tyler-rouse-2,/cfb/players/tyler-rouse-2.html,JR,RB,"100 Att, 422 Yds, 4.2 Avg",Boston College,2015
+Myles Willis,myles-willis-1,/cfb/players/myles-willis-1.html,JR,RB,"67 Att, 259 Yds, 3.9 Avg",Boston College,2015
+Marcus Outlow,marcus-outlow-1,/cfb/players/marcus-outlow-1.html,SO,RB,"53 Att, 241 Yds, 4.5 Avg",Boston College,2015
+Jon Hilliman,jon-hilliman-1,/cfb/players/jon-hilliman-1.html,SO,RB,"51 Att, 198 Yds, 3.9 Avg",Boston College,2015
+Jordan Gowins,jordan-gowins-1,/cfb/players/jordan-gowins-1.html,FR,RB,"15 Att, 43 Yds, 2.9 Avg",Boston College,2015
+Sherman Alston,sherman-alston-1,/cfb/players/sherman-alston-1.html,SO,WR,"7 Rec, 77 Yds, 11.0 Avg",Boston College,2015
+Thaddius Smith,thaddius-smith-1,/cfb/players/thaddius-smith-1.html,SO,WR,"17 Rec, 233 Yds, 13.7 Avg",Boston College,2015
+Bobby Swigert,bobby-swigert-1,/cfb/players/bobby-swigert-1.html,SR,WR,"5 Rec, 39 Yds, 7.8 Avg",Boston College,2015
+David Dudeck,david-dudeck-1,/cfb/players/david-dudeck-1.html,SR,WR,"15 Rec, 127 Yds, 8.5 Avg",Boston College,2015
+Charlie Callinan,charlie-callinan-1,/cfb/players/charlie-callinan-1.html,SO,WR,"14 Rec, 192 Yds, 13.7 Avg",Boston College,2015
+Drew Barksdale,drew-barksdale-1,/cfb/players/drew-barksdale-1.html,SO,WR,"3 Rec, 20 Yds, 6.7 Avg",Boston College,2015
+Harrison Jackson,harrison-jackson-1,/cfb/players/harrison-jackson-1.html,JR,WR,"2 Rec, 43 Yds, 21.5 Avg",Boston College,2015
+Nolan Borgersen,nolan-borgersen-1,/cfb/players/nolan-borgersen-1.html,FR,WR,,Boston College,2015
+Chris Garrison,chris-garrison-1,/cfb/players/chris-garrison-1.html,FR,WR,,Boston College,2015
+Chase Pankey,chase-pankey-1,/cfb/players/chase-pankey-1.html,FR,WR,,Boston College,2015
+Tommy Sweeney,tommy-sweeney-1,/cfb/players/tommy-sweeney-1.html,FR,TE,"5 Rec, 68 Yds, 13.6 Avg",Boston College,2015
+Jake Burt,jake-burt-1,/cfb/players/jake-burt-1.html,FR,TE,"1 Rec, 7 Yds, 7.0 Avg",Boston College,2015
+Louie Addazio,louie-addazio-1,/cfb/players/louie-addazio-1.html,SR,TE,,Boston College,2015
+Austin Chapman,austin-chapman-1,/cfb/players/austin-chapman-1.html,SO,TE,,Boston College,2015
+Cameron Croteau,cameron-croteau-1,/cfb/players/cameron-croteau-1.html,JR,TE,,Boston College,2015
+Michael Giacone,michael-giacone-1,/cfb/players/michael-giacone-1.html,SR,TE,,Boston College,2015
+Frank Taylor,frank-taylor-1,/cfb/players/frank-taylor-1.html,JR,OL,,Boston College,2015
+Jon Baker,jon-baker-2,/cfb/players/jon-baker-2.html,SO,OL,,Boston College,2015
+Dave Bowen,dave-bowen-1,/cfb/players/dave-bowen-1.html,SR,OL,,Boston College,2015
+Jim Cashman,jim-cashman-1,/cfb/players/jim-cashman-1.html,SR,OL,,Boston College,2015
+Ryan Conte,ryan-conte-1,/cfb/players/ryan-conte-1.html,FR,OL,,Boston College,2015
+James Hendren,james-hendren-1,/cfb/players/james-hendren-1.html,FR,OL,,Boston College,2015
+Wyatt Knopfke,wyatt-knopfke-1,/cfb/players/wyatt-knopfke-1.html,FR,OL,,Boston College,2015
+Chris Lindstrom,chris-lindstrom-1,/cfb/players/chris-lindstrom-1.html,FR,OL,,Boston College,2015
+Aaron Monteiro,aaron-monteiro-1,/cfb/players/aaron-monteiro-1.html,FR,OL,,Boston College,2015
+Anthony Palazzolo,anthony-palazzolo-1,/cfb/players/anthony-palazzolo-1.html,FR,OL,,Boston College,2015
+John Phillips,john-phillips-2,/cfb/players/john-phillips-2.html,FR,OL,,Boston College,2015
+Sam Schmal,sam-schmal-1,/cfb/players/sam-schmal-1.html,FR,OL,,Boston College,2015
+Austin Stevens,austin-stevens-1,/cfb/players/austin-stevens-1.html,FR,OL,,Boston College,2015
+Harris Williams,harris-williams-1,/cfb/players/harris-williams-1.html,SR,OL,,Boston College,2015
+Mike Knoll,mike-knoll-2,/cfb/players/mike-knoll-2.html,SO,K,,Boston College,2015
+Colton Lichtenberg,colton-lichtenberg-1,/cfb/players/colton-lichtenberg-1.html,FR,K,,Boston College,2015
+Jake Wilhelm,jake-wilhelm-1,/cfb/players/jake-wilhelm-1.html,SR,K,,Boston College,2015
+Mehdi Abdesmad,mehdi-abdesmad-1,/cfb/players/mehdi-abdesmad-1.html,SR,DL,,Boston College,2015
+Jack Cottrell,jack-cottrell-1,/cfb/players/jack-cottrell-1.html,SO,DL,,Boston College,2015
+Truman Gutapfel,truman-gutapfel-1,/cfb/players/truman-gutapfel-1.html,JR,DL,,Boston College,2015
+Evan Kelly,evan-kelly-1,/cfb/players/evan-kelly-1.html,SR,DL,,Boston College,2015
+Harold Landry,harold-landry-1,/cfb/players/harold-landry-1.html,SO,DL,,Boston College,2015
+Noa Merritt,noa-merritt-1,/cfb/players/noa-merritt-1.html,SO,DL,,Boston College,2015
+Joseph Vitiello,joseph-vitiello-1,/cfb/players/joseph-vitiello-1.html,FR,DL,,Boston College,2015
+Connor Wujciak,connor-wujciak-1,/cfb/players/connor-wujciak-1.html,SR,DL,,Boston College,2015
+Kevin Cohee,kevin-cohee-2,/cfb/players/kevin-cohee-2.html,FR,DL,,Boston College,2015
+Jack Kenny,jack-kenny-1,/cfb/players/jack-kenny-1.html,SO,DL,,Boston College,2015
+Kevin Bletzer,kevin-bletzer-1,/cfb/players/kevin-bletzer-1.html,FR,LB,,Boston College,2015
+Colton Cardinal,colton-cardinal-1,/cfb/players/colton-cardinal-1.html,FR,LB,,Boston College,2015
+Steven Daniels,steven-daniels-1,/cfb/players/steven-daniels-1.html,SR,LB,,Boston College,2015
+Sharrieff Grice,sharrieff-grice-1,/cfb/players/sharrieff-grice-1.html,FR,LB,,Boston College,2015
+Matt Milano,matt-milano-1,/cfb/players/matt-milano-1.html,JR,LB,,Boston College,2015
+Ty Schwab,ty-schwab-1,/cfb/players/ty-schwab-1.html,SO,LB,,Boston College,2015
+Connor Strachan,connor-strachan-1,/cfb/players/connor-strachan-1.html,SO,LB,,Boston College,2015
+Grady Higgins,grady-higgins-1,/cfb/players/grady-higgins-1.html,FR,LB,,Boston College,2015
+Tim Joy,tim-joy-1,/cfb/players/tim-joy-1.html,JR,LB,,Boston College,2015
+Tanner Karafa,tanner-karafa-1,/cfb/players/tanner-karafa-1.html,FR,LB,,Boston College,2015
+Jimmy Martin,jimmy-martin-1,/cfb/players/jimmy-martin-1.html,FR,LB,,Boston College,2015
+Michael Walker,michael-walker-2,/cfb/players/michael-walker-2.html,FR,DB,,Boston College,2015
+Justin Simmons,justin-simmons-1,/cfb/players/justin-simmons-1.html,SR,DB,,Boston College,2015
+Mehdi El Attrach,mehdi-el-attrach-1,/cfb/players/mehdi-el-attrach-1.html,FR,DB,,Boston College,2015
+William Harris,william-harris-4,/cfb/players/william-harris-4.html,FR,DB,,Boston College,2015
+John Johnson,john-johnson-9,/cfb/players/john-johnson-9.html,JR,DB,,Boston College,2015
+Christian Lezzer,christian-lezzer-1,/cfb/players/christian-lezzer-1.html,SO,DB,,Boston College,2015
+Gabriel McClary,gabriel-mcclary-1,/cfb/players/gabriel-mcclary-1.html,SO,DB,,Boston College,2015
+Kamrin Moore,kamrin-moore-1,/cfb/players/kamrin-moore-1.html,SO,DB,,Boston College,2015
+Atem Ntantang,atem-ntantang-1,/cfb/players/atem-ntantang-1.html,SO,DB,,Boston College,2015
+Cameron Seward,cameron-seward-1,/cfb/players/cameron-seward-1.html,FR,DB,,Boston College,2015
+Taj-Amir Torres,taj-amir-torres-1,/cfb/players/taj-amir-torres-1.html,FR,DB,,Boston College,2015
+Isaac Yiadom,isaac-yiadom-1,/cfb/players/isaac-yiadom-1.html,SO,DB,,Boston College,2015
+Allen Dawson,allen-dawson-1,/cfb/players/allen-dawson-1.html,FR,DB,,Boston College,2015
+Lukas Denis,lukas-denis-1,/cfb/players/lukas-denis-1.html,FR,DB,,Boston College,2015
+E.J. Fortenberry,ej-fortenberry-1,/cfb/players/ej-fortenberry-1.html,JR,DB,,Boston College,2015
+Alex Howell,alex-howell-1,/cfb/players/alex-howell-1.html,SR,P,,Boston College,2015
+Richard Wilson,richard-wilson-4,/cfb/players/richard-wilson-4.html,FR,FB,,Boston College,2015
+Bobby Wolford,bobby-wolford-1,/cfb/players/bobby-wolford-1.html,JR,FB,,Boston College,2015
+Sean Burke,sean-burke-1,/cfb/players/sean-burke-1.html,SR,FB,,Boston College,2015
+Zach Allen,zach-allen-5,/cfb/players/zach-allen-5.html,FR,DE,,Boston College,2015
+Kevin Kavalec,kevin-kavalec-1,/cfb/players/kevin-kavalec-1.html,JR,DE,,Boston College,2015
+Malachi Moore,malachi-moore-1,/cfb/players/malachi-moore-1.html,JR,DE,,Boston College,2015
+Wyatt Ray,wyatt-ray-1,/cfb/players/wyatt-ray-1.html,FR,DE,,Boston College,2015
+Leonard Skubal,leonard-skubal-1,/cfb/players/leonard-skubal-1.html,JR,LS,,Boston College,2015
+Ray Smith,ray-smith-6,/cfb/players/ray-smith-6.html,FR,DT,,Boston College,2015
+Mike Strizak,mike-strizak-1,/cfb/players/mike-strizak-1.html,JR,DE,,Boston College,2015
+A.J. Caruso,aj-caruso-1,/cfb/players/aj-caruso-1.html,SR,FB,,Boston College,2015
+Michael Fischer,michael-fischer-2,/cfb/players/michael-fischer-2.html,SR,LS,,Boston College,2015
+Ben Glines,ben-glines-1,/cfb/players/ben-glines-1.html,FR,UT,,Boston College,2015
+Joel Rich,joel-rich-1,/cfb/players/joel-rich-1.html,SO,C,,Boston College,2015

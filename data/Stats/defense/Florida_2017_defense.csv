@@ -1,0 +1,39 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+David Reese II,david-reese-3,/cfb/players/david-reese-3.html,LB,11,46,56,102,10.0,1.5,1,4,4.0,0,0,0,0,0,0,,Florida,2017
+Chauncey Gardner,chauncey-gardner-1,/cfb/players/chauncey-gardner-1.html,DB,11,34,24,58,6.0,1.0,2,88,44.0,0,7,0,0,0,0,,Florida,2017
+Vosean Joseph,vosean-joseph-1,/cfb/players/vosean-joseph-1.html,LB,11,22,33,55,4.0,0.0,1,0,0.0,0,1,0,0,0,1,,Florida,2017
+Cece Jefferson,cece-jefferson-1,/cfb/players/cece-jefferson-1.html,DL,11,19,28,47,13.5,4.5,0,0,,0,1,0,0,0,0,,Florida,2017
+Taven Bryan,taven-bryan-1,/cfb/players/taven-bryan-1.html,DL,11,19,21,40,6.0,4.0,0,0,,0,0,0,0,0,0,,Florida,2017
+Duke Dawson,duke-dawson-1,/cfb/players/duke-dawson-1.html,DB,11,23,11,34,2.0,0.0,4,54,13.5,1,9,0,0,0,0,,Florida,2017
+Marco Wilson,marco-wilson-1,/cfb/players/marco-wilson-1.html,CB,11,21,13,34,0.0,0.0,0,0,,0,10,0,0,0,0,,Florida,2017
+Jeawon Taylor,jeawon-taylor-1,/cfb/players/jeawon-taylor-1.html,DB,10,22,12,34,1.5,0.0,1,0,0.0,0,0,0,0,0,0,,Florida,2017
+Jabari Zuniga,jabari-zuniga-1,/cfb/players/jabari-zuniga-1.html,DL,10,12,22,34,8.0,4.0,0,0,,0,0,1,0,0,0,,Florida,2017
+Nick Washington,nick-washington-1,/cfb/players/nick-washington-1.html,DB,5,16,13,29,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida,2017
+Jeremiah Moon,jeremiah-moon-1,/cfb/players/jeremiah-moon-1.html,LB,10,9,14,23,1.0,0.5,0,0,,0,0,0,0,0,0,,Florida,2017
+Jordan Sherit,jordan-sherit-1,/cfb/players/jordan-sherit-1.html,DL,6,10,13,23,5.0,2.5,0,0,,0,1,0,0,0,0,,Florida,2017
+C.J. Henderson,cj-henderson-1,/cfb/players/cj-henderson-1.html,CB,11,14,8,22,0.0,0.0,4,82,20.5,2,4,0,0,0,0,,Florida,2017
+Jachai Polite,jachai-polite-1,/cfb/players/jachai-polite-1.html,DL,7,11,11,22,5.5,2.0,0,0,,0,0,0,0,0,1,,Florida,2017
+Kylan Johnson,kylan-johnson-1,/cfb/players/kylan-johnson-1.html,LB,7,9,8,17,0.5,0.0,0,0,,0,0,0,0,0,0,,Florida,2017
+Cristian Garcia,cristian-garcia-2,/cfb/players/cristian-garcia-2.html,LB,11,6,10,16,2.5,0.0,0,0,,0,1,0,0,0,0,,Florida,2017
+Rayshad Jackson,rayshad-jackson-1,/cfb/players/rayshad-jackson-1.html,LB,11,4,10,14,0.5,0.0,0,0,,0,0,1,0,0,1,,Florida,2017
+Brad Stewart,brad-stewart-3,/cfb/players/brad-stewart-3.html,DB,11,9,4,13,0.0,0.0,1,0,0.0,0,0,0,0,0,0,,Florida,2017
+Khairi Clark,khairi-clark-1,/cfb/players/khairi-clark-1.html,DL,11,1,12,13,1.5,1.0,0,0,,0,0,0,0,0,0,,Florida,2017
+Kyree Campbell,kyree-campbell-1,/cfb/players/kyree-campbell-1.html,DT,9,1,11,12,1.5,1.0,0,0,,0,0,0,0,0,0,,Florida,2017
+Shawn Davis,shawn-davis-3,/cfb/players/shawn-davis-3.html,DB,9,3,8,11,0.5,0.0,0,0,,0,1,1,0,0,0,,Florida,2017
+Tedarrell Slaton,tedarrell-slaton-1,/cfb/players/tedarrell-slaton-1.html,DL,11,5,6,11,1.5,0.0,0,0,,0,0,0,0,0,0,,Florida,2017
+Donovan Stiner,donovan-stiner-1,/cfb/players/donovan-stiner-1.html,S,11,6,3,9,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida,2017
+Antonneous Clayton,antonneous-clayton-1,/cfb/players/antonneous-clayton-1.html,DL,4,2,5,7,1.0,1.0,0,0,,0,0,0,0,0,0,,Florida,2017
+Antonneous Clayton,antonneous-clayton-2,/cfb/players/antonneous-clayton-2.html,,9,2,5,7,1.0,1.0,0,0,,0,0,0,0,0,0,,Florida,2017
+Jospeh Putu,jospeh-putu-1,/cfb/players/jospeh-putu-1.html,DB,10,2,3,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida,2017
+Luke Ancrum,luke-ancrum-1,/cfb/players/luke-ancrum-1.html,DL,11,1,3,4,0.0,0.0,0,0,,0,1,0,0,0,0,,Florida,2017
+Garrett Stephens,garrett-stephens-1,/cfb/players/garrett-stephens-1.html,DB,5,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida,2017
+Johnny Townsend,johnny-townsend-1,/cfb/players/johnny-townsend-1.html,P,11,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida,2017
+Elijah Conliffe,elijah-conliffe-1,/cfb/players/elijah-conliffe-1.html,DE,8,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida,2017
+Ryan Farr,ryan-farr-1,/cfb/players/ryan-farr-1.html,LS,11,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida,2017
+C.J. McWilliams,cj-mcwilliams-1,/cfb/players/cj-mcwilliams-1.html,DB,7,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida,2017
+Adarius Lemons,adarius-lemons-1,/cfb/players/adarius-lemons-1.html,RB,9,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida,2017
+Josh Hammond,josh-hammond-1,/cfb/players/josh-hammond-1.html,WR,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida,2017
+Luke Del Rio,luke-del-rio-1,/cfb/players/luke-del-rio-1.html,QB,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida,2017
+McArthur Burnett,mcarthur-burnett-1,/cfb/players/mcarthur-burnett-1.html,DB,6,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida,2017
+R.J. Raymond,rj-raymond-1,/cfb/players/rj-raymond-1.html,LB,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida,2017
+Austin Perry,austin-perry-1,/cfb/players/austin-perry-1.html,DB,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida,2017

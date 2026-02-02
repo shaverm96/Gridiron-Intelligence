@@ -1,0 +1,41 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Matthew Bailey,matthew-bailey-2,/cfb/players/matthew-bailey-2.html,DB,12,59,17,76,4.0,0.0,0,0,,0,2,1,0,0,2,,Illinois,2025
+Miles Scott,miles-scott-1,/cfb/players/miles-scott-1.html,DB,13,50,14,64,4.0,1.0,3,33,11.0,0,4,0,0,0,0,,Illinois,2025
+Dylan Rosiek,dylan-rosiek-1,/cfb/players/dylan-rosiek-1.html,LB,11,29,25,54,3.5,0.0,1,0,0.0,0,4,0,0,0,1,,Illinois,2025
+Torrie Cox Jr.,torrie-cox-jr-1,/cfb/players/torrie-cox-jr-1.html,DB,13,36,14,50,1.0,0.0,1,0,0.0,0,3,0,0,0,0,,Illinois,2025
+Malachi Hood,malachi-hood-1,/cfb/players/malachi-hood-1.html,LB,13,28,16,44,2.5,1.0,0,0,,0,1,1,0,0,1,,Illinois,2025
+Gabe Jacas,gabe-jacas-1,/cfb/players/gabe-jacas-1.html,DE,12,23,20,43,13.5,11.0,0,0,,0,1,0,0,0,3,,Illinois,2025
+James Thompson Jr.,james-thompson-jr-1,/cfb/players/james-thompson-jr-1.html,DL,13,17,24,41,3.0,2.0,0,0,,0,1,0,0,0,0,,Illinois,2025
+Tanner Heckel,tanner-heckel-1,/cfb/players/tanner-heckel-1.html,DB,13,26,11,37,3.0,1.5,1,-1,-1.0,0,2,0,0,0,1,,Illinois,2025
+Jaheim Clarke,jaheim-clarke-1,/cfb/players/jaheim-clarke-1.html,DB,9,22,8,30,1.0,0.0,0,0,,0,8,1,0,0,0,,Illinois,2025
+James Kreutz,james-kreutz-1,/cfb/players/james-kreutz-1.html,LB,12,15,14,29,3.5,0.0,0,0,,0,3,0,0,0,0,,Illinois,2025
+Jojo Hayden,jojo-hayden-1,/cfb/players/jojo-hayden-1.html,LB,12,13,13,26,1.5,0.0,0,0,,0,0,1,0,0,0,,Illinois,2025
+Alec Bryant,alec-bryant-2,/cfb/players/alec-bryant-2.html,DE,13,9,17,26,3.0,0.5,0,0,,0,0,0,0,0,0,,Illinois,2025
+Kenenna Odeluga,kenenna-odeluga-1,/cfb/players/kenenna-odeluga-1.html,LB,13,13,10,23,0.5,0.0,0,0,,0,1,1,0,0,0,,Illinois,2025
+Saboor Karriem,saboor-karriem-1,/cfb/players/saboor-karriem-1.html,DB,13,15,6,21,1.0,0.0,0,0,,0,0,0,0,0,0,,Illinois,2025
+Joe Barna,joe-barna-1,/cfb/players/joe-barna-1.html,DE,13,7,13,20,2.0,2.0,0,0,,0,2,0,0,0,1,,Illinois,2025
+Leon Lowery,leon-lowery-1,/cfb/players/leon-lowery-1.html,DE,12,11,9,20,3.0,2.0,0,0,,0,0,2,0,1,1,,Illinois,2025
+Mac Resetich,mac-resetich-1,/cfb/players/mac-resetich-1.html,DB,13,12,7,19,0.0,0.0,0,0,,0,0,0,0,0,0,,Illinois,2025
+Angelo McCullom,angelo-mccullom-1,/cfb/players/angelo-mccullom-1.html,DL,13,7,12,19,3.0,1.5,0,0,,0,2,0,0,0,0,,Illinois,2025
+Curt Neal,curt-neal-1,/cfb/players/curt-neal-1.html,DL,13,10,6,16,0.5,0.0,0,0,,0,2,0,0,0,0,,Illinois,2025
+Tomiwa Durojaiye,tomiwa-durojaiye-2,/cfb/players/tomiwa-durojaiye-2.html,DL,12,10,6,16,4.5,2.0,0,0,,0,1,0,0,0,1,,Illinois,2025
+Kaleb Patterson,kaleb-patterson-2,/cfb/players/kaleb-patterson-2.html,DB,10,12,3,15,0.0,0.0,0,0,,0,1,2,0,0,0,,Illinois,2025
+Eli Coenen,eli-coenen-1,/cfb/players/eli-coenen-1.html,DL,13,5,7,12,1.5,1.5,0,0,,0,0,0,0,0,0,,Illinois,2025
+Pat Farrell,pat-farrell-1,/cfb/players/pat-farrell-1.html,DL,13,3,8,11,2.0,1.5,0,0,,0,3,0,0,0,0,,Illinois,2025
+Daniel Brown,daniel-brown-3,/cfb/players/daniel-brown-3.html,DE,9,4,7,11,0.0,0.0,0,0,,0,1,0,0,0,0,,Illinois,2025
+Gentle Hunt,gentle-hunt-1,/cfb/players/gentle-hunt-1.html,DL,13,4,5,9,1.5,1.5,0,0,,0,0,0,0,0,0,,Illinois,2025
+Tyler Strain,tyler-strain-1,/cfb/players/tyler-strain-1.html,DB,13,7,2,9,0.0,0.0,0,0,,0,0,1,0,0,0,,Illinois,2025
+Ismael Kante,ismael-kante-1,/cfb/players/ismael-kante-1.html,DE,13,3,5,8,0.5,0.0,0,0,,0,1,0,0,0,0,,Illinois,2025
+Xavier Scott,xavier-scott-1,/cfb/players/xavier-scott-1.html,DB,3,3,3,6,1.5,0.0,0,0,,0,2,0,0,0,0,,Illinois,2025
+Luke Zardzin,luke-zardzin-1,/cfb/players/luke-zardzin-1.html,LB,4,4,1,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Illinois,2025
+Tyson Rooks,tyson-rooks-1,/cfb/players/tyson-rooks-1.html,DB,13,2,3,5,0.0,0.0,0,0,,0,1,0,0,0,0,,Illinois,2025
+Jeremiah Warren,jeremiah-warren-2,/cfb/players/jeremiah-warren-2.html,DL,11,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Illinois,2025
+Andre Lovett Jr.,andre-lovett-jr-1,/cfb/players/andre-lovett-jr-1.html,DB,9,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Illinois,2025
+Luke Altmyer,luke-altmyer-1,/cfb/players/luke-altmyer-1.html,QB,13,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Illinois,2025
+Grayson Griffin,grayson-griffin-1,/cfb/players/grayson-griffin-1.html,DB,10,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Illinois,2025
+Ben Clawson,ben-clawson-1,/cfb/players/ben-clawson-1.html,DB,5,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Illinois,2025
+Hank Beatty,beatty-hank-1,/cfb/players/beatty-hank-1.html,WR,13,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Illinois,2025
+Josh Gesky,josh-gesky-1,/cfb/players/josh-gesky-1.html,OL,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Illinois,2025
+Grant Beerman,grant-beerman-1,/cfb/players/grant-beerman-1.html,LB,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Illinois,2025
+Collin Dixon,collin-dixon-1,/cfb/players/collin-dixon-1.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Illinois,2025
+Ashton Hollins,ashton-hollins-1,/cfb/players/ashton-hollins-1.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,1,,Illinois,2025

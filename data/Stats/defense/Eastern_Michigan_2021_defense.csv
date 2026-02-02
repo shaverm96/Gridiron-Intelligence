@@ -1,0 +1,52 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Tariq Speights,tariq-speights-1,/cfb/players/tariq-speights-1.html,LB,13,18,74,92,1.5,1.0,0,0,,0,2,0,0,0,1,,Eastern Michigan,2021
+Terry Myrick,terry-myrick-1,/cfb/players/terry-myrick-1.html,LB,13,39,44,83,2.0,1.0,0,0,,0,2,1,0,0,0,,Eastern Michigan,2021
+Jose Ramirez,jose-ramirez-2,/cfb/players/jose-ramirez-2.html,DL,13,32,31,63,12.0,6.5,0,0,,0,4,0,0,0,3,,Eastern Michigan,2021
+Noski LaFleur,noski-lafleur-1,/cfb/players/noski-lafleur-1.html,DB,11,33,18,51,1.5,1.5,0,0,,0,0,1,0,0,1,,Eastern Michigan,2021
+Kempton Shine,kempton-shine-1,/cfb/players/kempton-shine-1.html,DB,10,27,20,47,0.0,0.0,0,0,,0,3,0,0,0,0,,Eastern Michigan,2021
+Blake Bogan,blake-bogan-1,/cfb/players/blake-bogan-1.html,DB,11,21,24,45,1.0,0.0,0,0,,0,2,1,0,0,0,,Eastern Michigan,2021
+Jarrett Paul,jarrett-paul-1,/cfb/players/jarrett-paul-1.html,DB,13,27,17,44,1.0,0.0,0,0,,0,6,0,0,0,1,,Eastern Michigan,2021
+T.J. Peavy,tj-peavy-1,/cfb/players/tj-peavy-1.html,DB,10,20,22,42,0.5,0.0,0,0,,0,1,1,0,0,0,,Eastern Michigan,2021
+Robert Daniel,robert-daniel-1,/cfb/players/robert-daniel-1.html,DB,13,26,16,42,0.0,0.0,1,0,0.0,0,1,2,15,0,0,,Eastern Michigan,2021
+Turan Rush,turan-rush-1,/cfb/players/turan-rush-1.html,DL,12,21,16,37,6.5,4.5,0,0,,0,3,0,0,0,1,,Eastern Michigan,2021
+Woo Scott,woo-scott-1,/cfb/players/woo-scott-1.html,DL,13,14,15,29,4.5,1.0,0,0,,0,0,0,0,0,0,,Eastern Michigan,2021
+Michael Smith,michael-smith-13,/cfb/players/michael-smith-13.html,DL,12,10,18,28,1.5,1.5,1,0,0.0,0,0,0,0,0,0,,Eastern Michigan,2021
+David Carter Jr.,david-carter-jr-1,/cfb/players/david-carter-jr-1.html,DB,12,17,10,27,0.0,0.0,2,115,57.5,1,2,0,0,0,0,,Eastern Michigan,2021
+Mikey Haney,mikey-haney-1,/cfb/players/mikey-haney-1.html,DL,13,7,18,25,3.5,3.0,0,0,,0,3,0,0,0,0,,Eastern Michigan,2021
+Jordan Crawford,jordan-crawford-1,/cfb/players/jordan-crawford-1.html,DL,11,9,12,21,1.0,0.0,0,0,,0,0,0,0,0,0,,Eastern Michigan,2021
+Justin Jefferson,justin-jefferson-2,/cfb/players/justin-jefferson-2.html,LB,12,9,11,20,0.0,0.0,0,0,,0,0,0,0,0,0,,Eastern Michigan,2021
+Grant Trueman,grant-trueman-1,/cfb/players/grant-trueman-1.html,DL,13,7,13,20,1.5,1.5,0,0,,0,0,0,0,0,0,,Eastern Michigan,2021
+Luke Cameron,luke-cameron-1,/cfb/players/luke-cameron-1.html,LB,13,10,9,19,1.0,0.0,0,0,,0,0,0,0,0,0,,Eastern Michigan,2021
+Alex Merritt,alex-merritt-1,/cfb/players/alex-merritt-1.html,DL,12,4,14,18,1.5,0.5,0,0,,0,1,1,0,0,0,,Eastern Michigan,2021
+Freddie McGee,freddie-mcgee-1,/cfb/players/freddie-mcgee-1.html,DB,13,12,5,17,0.0,0.0,0,0,,0,4,0,0,0,0,,Eastern Michigan,2021
+Mark Lee Jr.,mark-lee-jr-1,/cfb/players/mark-lee-jr-1.html,DB,7,11,5,16,1.0,0.0,0,0,,0,4,0,0,0,0,,Eastern Michigan,2021
+EJ Williams,ej-williams-1,/cfb/players/ej-williams-1.html,DB,11,11,4,15,1.5,0.5,0,0,,0,0,0,0,0,0,,Eastern Michigan,2021
+Peyton Price,peyton-price-1,/cfb/players/peyton-price-1.html,DL,11,5,9,14,0.0,0.0,0,0,,0,3,0,0,0,0,,Eastern Michigan,2021
+Jeff Hubbard,jeff-hubbard-1,/cfb/players/jeff-hubbard-1.html,DB,11,8,6,14,1.5,0.5,1,34,34.0,1,2,0,0,0,0,,Eastern Michigan,2021
+Matthew Buschman,matthew-buschman-1,/cfb/players/matthew-buschman-1.html,LB,12,6,6,12,0.0,0.0,0,0,,0,0,1,12,0,0,,Eastern Michigan,2021
+Russ Vaden,russ-vaden-1,/cfb/players/russ-vaden-1.html,DB,8,4,6,10,0.0,0.0,3,17,5.7,0,1,1,0,0,0,,Eastern Michigan,2021
+Brandon Benson,brandon-benson-2,/cfb/players/brandon-benson-2.html,DB,4,4,5,9,0.0,0.0,0,0,,0,0,0,0,0,0,,Eastern Michigan,2021
+Carter Stagner,carter-stagner-1,/cfb/players/carter-stagner-1.html,DL,6,2,5,7,0.0,0.0,0,0,,0,0,0,0,0,0,,Eastern Michigan,2021
+Kendric Nowling,kendric-nowling-1,/cfb/players/kendric-nowling-1.html,DB,9,2,4,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Eastern Michigan,2021
+Aaron Hamilton,aaron-hamilton-1,/cfb/players/aaron-hamilton-1.html,DL,2,1,4,5,0.5,0.0,0,0,,0,0,0,0,0,0,,Eastern Michigan,2021
+Carter Evans,carter-evans-1,/cfb/players/carter-evans-1.html,DL,5,1,3,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Eastern Michigan,2021
+Cameron Smith,cameron-smith-7,/cfb/players/cameron-smith-7.html,DB,3,0,4,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Eastern Michigan,2021
+Quentavius Scandrett,quentavius-scandrett-1,/cfb/players/quentavius-scandrett-1.html,DB,3,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Eastern Michigan,2021
+Dexter Manior,dexter-manior-1,/cfb/players/dexter-manior-1.html,DL,7,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Eastern Michigan,2021
+Dylan Summers,dylan-summers-1,/cfb/players/dylan-summers-1.html,WR,12,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Eastern Michigan,2021
+Steve Bird,steve-bird-1,/cfb/players/steve-bird-1.html,LS,13,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Eastern Michigan,2021
+I'Shawn Stewart,ishawn-stewart-1,/cfb/players/ishawn-stewart-1.html,WR,9,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Eastern Michigan,2021
+Steven Scheidt,steven-scheidt-1,/cfb/players/steven-scheidt-1.html,LB,2,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Eastern Michigan,2021
+Isaiah Watson,isaiah-watson-1,/cfb/players/isaiah-watson-1.html,DB,7,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Eastern Michigan,2021
+Tim Grant-Randall,tim-grant-randall-1,/cfb/players/tim-grant-randall-1.html,DL,1,1,1,2,1.0,0.0,0,0,,0,0,0,0,0,0,,Eastern Michigan,2021
+Melvin Swindle II,melvin-swindle-ii-1,/cfb/players/melvin-swindle-ii-1.html,DL,3,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Eastern Michigan,2021
+Thomas Shorack,thomas-shorack-1,/cfb/players/thomas-shorack-1.html,DB,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Eastern Michigan,2021
+Aaron Jackson,aaron-jackson-4,/cfb/players/aaron-jackson-4.html,TE,6,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Eastern Michigan,2021
+Brian Dooley,brian-dooley-1,/cfb/players/brian-dooley-1.html,OL,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Eastern Michigan,2021
+Tanner Knue,tanner-knue-1,/cfb/players/tanner-knue-1.html,WR,5,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Eastern Michigan,2021
+Bryson Cannon,bryson-cannon-1,/cfb/players/bryson-cannon-1.html,TE,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Eastern Michigan,2021
+Rafe Reyes,rafe-reyes-1,/cfb/players/rafe-reyes-1.html,DL,4,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Eastern Michigan,2021
+Myles McNeal,myles-mcneal-1,/cfb/players/myles-mcneal-1.html,DB,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Eastern Michigan,2021
+DeZaun Brooks,dezaun-brooks-1,/cfb/players/dezaun-brooks-1.html,DL,3,1,0,1,1.0,1.0,0,0,,0,0,0,0,0,0,,Eastern Michigan,2021
+Jalen Weathers,jalen-weathers-1,/cfb/players/jalen-weathers-1.html,DB,7,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Eastern Michigan,2021
+Alex Howie,alex-howie-1,/cfb/players/alex-howie-1.html,OL,8,0,0,0,0.0,0.0,0,0,,0,0,1,0,0,0,,Eastern Michigan,2021

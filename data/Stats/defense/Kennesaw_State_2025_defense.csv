@@ -1,0 +1,48 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Baron Hopson,baron-hopson-1,/cfb/players/baron-hopson-1.html,LB,14,66,72,138,9.0,0.5,1,7,7.0,0,5,0,0,0,1,,Kennesaw State,2025
+Tywon Christopher,tywon-christopher-1,/cfb/players/tywon-christopher-1.html,LB,13,37,44,81,4.5,1.5,1,0,0.0,0,2,0,0,0,1,,Kennesaw State,2025
+Isaac Paul,isaac-paul-1,/cfb/players/isaac-paul-1.html,DB,13,36,28,64,0.0,0.0,1,0,0.0,0,3,0,0,0,0,,Kennesaw State,2025
+Milon Jones,milon-jones-1,/cfb/players/milon-jones-1.html,DB,14,33,24,57,1.5,0.0,1,0,0.0,0,1,1,0,0,0,,Kennesaw State,2025
+JeRico Washington Jr.,jerico-washington-jr-1,/cfb/players/jerico-washington-jr-1.html,DB,14,37,15,52,2.5,1.0,0,0,,0,11,1,20,0,2,,Kennesaw State,2025
+Caleb Offord,caleb-offord-1,/cfb/players/caleb-offord-1.html,CB,12,30,17,47,7.0,0.0,1,12,12.0,0,12,1,0,1,2,,Kennesaw State,2025
+Adam Watkins,adam-watkins-1,/cfb/players/adam-watkins-1.html,DL,14,17,29,46,5.0,0.5,0,0,,0,1,0,0,0,0,,Kennesaw State,2025
+Tylon Dunlap,tylon-dunlap-1,/cfb/players/tylon-dunlap-1.html,DL,13,25,16,41,11.0,5.0,0,0,,0,1,2,0,0,1,,Kennesaw State,2025
+Five Hamilton,five-hamilton-1,/cfb/players/five-hamilton-1.html,DB,14,23,15,38,2.0,0.0,1,0,0.0,0,2,0,0,0,0,,Kennesaw State,2025
+Donovan Westmoreland,donovan-westmoreland-1,/cfb/players/donovan-westmoreland-1.html,LB,14,16,21,37,6.5,4.0,0,0,,0,1,0,0,0,0,,Kennesaw State,2025
+Garland Benyard,garland-benyard-1,/cfb/players/garland-benyard-1.html,LB,7,16,21,37,1.0,0.0,0,0,,0,1,0,0,0,0,,Kennesaw State,2025
+Marcus Patterson,marcus-patterson-2,/cfb/players/marcus-patterson-2.html,DE,14,17,18,35,6.0,2.0,0,0,,0,0,1,0,0,1,,Kennesaw State,2025
+Rod Daniels,rod-daniels-1,/cfb/players/rod-daniels-1.html,DL,14,11,23,34,2.5,1.5,0,0,,0,1,0,0,0,0,,Kennesaw State,2025
+Antonio Stevens,antonio-stevens-1,/cfb/players/antonio-stevens-1.html,DB,12,15,17,32,2.0,0.0,1,0,0.0,0,4,0,0,0,0,,Kennesaw State,2025
+Kody Jones,kody-jones-1,/cfb/players/kody-jones-1.html,DB,12,18,11,29,6.5,2.0,1,29,29.0,0,3,0,0,0,0,,Kennesaw State,2025
+Jaiden Grimes,jaiden-grimes-1,/cfb/players/jaiden-grimes-1.html,DL,14,11,17,28,2.0,1.0,0,0,,0,1,0,0,0,0,,Kennesaw State,2025
+Alex Ford,alex-ford-2,/cfb/players/alex-ford-2.html,DB,12,12,13,25,0.0,0.0,1,81,81.0,0,1,0,0,0,0,,Kennesaw State,2025
+Ugonna Nwoha,ugonna-nwoha-1,/cfb/players/ugonna-nwoha-1.html,DL,14,10,13,23,2.5,1.0,0,0,,0,0,0,0,0,0,,Kennesaw State,2025
+Elijah Hill,elijah-hill-1,/cfb/players/elijah-hill-1.html,DL,14,11,11,22,11.5,9.0,0,0,,0,0,0,0,0,0,,Kennesaw State,2025
+Juandarion Silas,juandarion-silas-1,/cfb/players/juandarion-silas-1.html,LB,10,5,13,18,2.0,1.0,0,0,,0,0,0,0,0,0,,Kennesaw State,2025
+Tayvion Lawson,tayvion-lawson-1,/cfb/players/tayvion-lawson-1.html,DB,14,6,10,16,1.5,0.0,0,0,,0,1,0,0,0,0,,Kennesaw State,2025
+Ethan Tookes,ethan-tookes-1,/cfb/players/ethan-tookes-1.html,CB,13,11,4,15,0.0,0.0,0,0,,0,0,0,0,0,0,,Kennesaw State,2025
+James Ziglor III,james-ziglor-iii-1,/cfb/players/james-ziglor-iii-1.html,DB,14,9,4,13,0.0,0.0,0,0,,0,0,0,0,0,0,,Kennesaw State,2025
+Jaden Kelly,jaden-kelly-1,/cfb/players/jaden-kelly-1.html,LB,6,3,10,13,0.5,0.0,0,0,,0,1,0,0,0,0,,Kennesaw State,2025
+Jamar Rucks,jamar-rucks-1,/cfb/players/jamar-rucks-1.html,DL,11,5,6,11,1.0,0.0,0,0,,0,0,0,0,0,0,,Kennesaw State,2025
+AJ Miller,aj-miller-2,/cfb/players/aj-miller-2.html,DL,11,7,0,7,1.0,0.0,0,0,,0,0,0,0,0,0,,Kennesaw State,2025
+Ebenezer Dibula,ebenezer-dibula-1,/cfb/players/ebenezer-dibula-1.html,DL,6,4,2,6,0.0,0.0,0,0,,0,1,0,0,0,0,,Kennesaw State,2025
+Jackson Cooper,jackson-cooper-1,/cfb/players/jackson-cooper-1.html,DL,14,2,2,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Kennesaw State,2025
+Jaden Martin-Burgess,jaden-martin-burgess-1,/cfb/players/jaden-martin-burgess-1.html,DB,10,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Kennesaw State,2025
+Karson Moss,karson-moss-1,/cfb/players/karson-moss-1.html,LB,13,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Kennesaw State,2025
+Coleman Bennett,coleman-bennett-1,/cfb/players/coleman-bennett-1.html,RB,14,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Kennesaw State,2025
+Mike Jones,mike-jones-26,/cfb/players/mike-jones-26.html,DL,3,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Kennesaw State,2025
+Clayton Coppock,clayton-coppock-1,/cfb/players/clayton-coppock-1.html,WR,12,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Kennesaw State,2025
+Nasir Smith,nasir-smith-1,/cfb/players/nasir-smith-1.html,DL,6,2,1,3,1.0,1.0,0,0,,0,0,0,0,0,0,,Kennesaw State,2025
+Eli Leiataua,eli-leiataua-1,/cfb/players/eli-leiataua-1.html,LB,10,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Kennesaw State,2025
+Devin Ross,devin-ross-3,/cfb/players/devin-ross-3.html,DB,5,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Kennesaw State,2025
+Preston Clemmer,preston-clemmer-1,/cfb/players/preston-clemmer-1.html,QB,13,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Kennesaw State,2025
+Britton Williams,britton-williams-1,/cfb/players/britton-williams-1.html,K,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kennesaw State,2025
+Christian Moss,christian-moss-1,/cfb/players/christian-moss-1.html,WR,14,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kennesaw State,2025
+Alexander Diggs,alexander-diggs-1,/cfb/players/alexander-diggs-1.html,RB,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kennesaw State,2025
+Josh Williamson,josh-williamson-3,/cfb/players/josh-williamson-3.html,WR,9,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kennesaw State,2025
+Lyndon Ravare,lyndon-ravare-1,/cfb/players/lyndon-ravare-1.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kennesaw State,2025
+Dexter Williams II,dexter-williams-ii-1,/cfb/players/dexter-williams-ii-1.html,QB,8,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kennesaw State,2025
+Isaiah Thomas,isaiah-thomas-3,/cfb/players/isaiah-thomas-3.html,DB,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kennesaw State,2025
+Gerard Bullock,gerard-bullock-1,/cfb/players/gerard-bullock-1.html,TE,14,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kennesaw State,2025
+Gabriel Benyard,gabriel-benyard-1,/cfb/players/gabriel-benyard-1.html,WR,14,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kennesaw State,2025
+Erik Ronning,erik-ronning-1,/cfb/players/erik-ronning-1.html,WR,8,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kennesaw State,2025

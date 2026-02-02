@@ -1,0 +1,50 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Major Burns,major-burns-1,/cfb/players/major-burns-1.html,DB,13,41,52,93,3.0,1.0,1,17,17.0,1,3,0,0,0,0,,LSU,2023
+Greg Penn III,greg-penn-iii-1,/cfb/players/greg-penn-iii-1.html,LB,13,34,55,89,6.5,4.0,2,0,0.0,0,1,0,0,0,1,,LSU,2023
+Andre Sam,andre-sam-1,/cfb/players/andre-sam-1.html,S,13,43,42,85,1.0,0.0,3,60,20.0,0,3,0,0,0,0,,LSU,2023
+Harold Perkins,harold-perkins-1,/cfb/players/harold-perkins-1.html,LB,13,43,32,75,13.0,5.5,1,0,0.0,0,5,0,0,0,3,,LSU,2023
+Omar Speights,omar-speights-1,/cfb/players/omar-speights-1.html,LB,10,23,47,70,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2023
+Whit Weeks,whit-weeks-1,/cfb/players/whit-weeks-1.html,LB,11,15,34,49,3.5,0.5,0,0,,0,0,0,0,0,0,,LSU,2023
+Zy Alexander,zy-alexander-1,/cfb/players/zy-alexander-1.html,CB,8,31,13,44,0.0,0.0,2,28,14.0,0,7,0,0,0,0,,LSU,2023
+Sage Ryan,sage-ryan-1,/cfb/players/sage-ryan-1.html,DB,13,26,16,42,4.5,0.0,0,0,,0,5,0,0,0,0,,LSU,2023
+Jordan Jefferson,jordan-jefferson-4,/cfb/players/jordan-jefferson-4.html,DT,13,13,23,36,7.0,2.5,0,0,,0,1,0,0,0,1,,LSU,2023
+Bradyn Swinson,bradyn-swinson-1,/cfb/players/bradyn-swinson-1.html,DE,12,13,22,35,6.5,2.0,0,0,,0,5,0,0,0,2,,LSU,2023
+Ovie Oghoufo,ovie-oghoufo-1,/cfb/players/ovie-oghoufo-1.html,LB,13,12,22,34,4.0,2.5,0,0,,0,1,1,0,0,1,,LSU,2023
+Saivion Jones,saivion-jones-1,/cfb/players/saivion-jones-1.html,DE,13,7,26,33,3.5,2.5,0,0,,0,2,0,0,0,0,,LSU,2023
+Javien Toviano,javien-toviano-1,/cfb/players/javien-toviano-1.html,S,13,20,13,33,0.0,0.0,0,0,,0,1,1,0,0,0,,LSU,2023
+Maason Smith,maason-smith-1,/cfb/players/maason-smith-1.html,DE,12,9,19,28,4.5,2.5,0,0,,0,2,0,0,0,0,,LSU,2023
+Jacobian Guillory,jacobian-guillory-1,/cfb/players/jacobian-guillory-1.html,DL,13,4,23,27,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2023
+Mekhi Wingo,mekhi-wingo-1,/cfb/players/mekhi-wingo-1.html,DT,8,11,14,25,5.0,4.5,0,0,,0,0,0,0,0,0,,LSU,2023
+Ashton Stamps,ashton-stamps-1,/cfb/players/ashton-stamps-1.html,DB,11,16,7,23,0.0,0.0,0,0,,0,2,0,0,0,0,,LSU,2023
+Paris Shand,paris-shand-1,/cfb/players/paris-shand-1.html,DE,12,7,10,17,5.0,2.0,0,0,,0,2,0,0,0,0,,LSU,2023
+West Weeks,west-weeks-1,/cfb/players/west-weeks-1.html,LB,13,3,13,16,0.5,0.0,0,0,,0,0,0,0,0,0,,LSU,2023
+Ryan Yaites,ryan-yaites-1,/cfb/players/ryan-yaites-1.html,DB,13,8,8,16,0.0,0.0,0,0,,0,1,0,0,0,0,,LSU,2023
+Da'Shawn Womack,dashawn-womack-1,/cfb/players/dashawn-womack-1.html,DE,12,6,7,13,1.5,1.5,0,0,,0,0,1,0,0,0,,LSU,2023
+Princeton Malbrue,princeton-malbrue-1,/cfb/players/princeton-malbrue-1.html,DE,13,3,8,11,0.5,0.0,0,0,,0,0,0,0,0,0,,LSU,2023
+Laterrance Welch,laterrance-welch-1,/cfb/players/laterrance-welch-1.html,DB,9,4,5,9,0.5,0.0,0,0,,0,1,0,0,0,0,,LSU,2023
+Greg Brooks Jr.,greg-brooks-jr-1,/cfb/players/greg-brooks-jr-1.html,S,2,1,7,8,0.5,0.0,0,0,,0,2,0,0,0,0,,LSU,2023
+Denver Harris,denver-harris-1,/cfb/players/denver-harris-1.html,CB,5,6,1,7,0.0,0.0,0,0,,0,2,0,0,0,0,,LSU,2023
+Jeremiah Hughes,jeremiah-hughes-1,/cfb/players/jeremiah-hughes-1.html,DB,13,2,4,6,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2023
+Jordan Allen,jordan-allen-5,/cfb/players/jordan-allen-5.html,S,7,4,2,6,0.5,0.0,0,0,,0,0,0,0,0,0,,LSU,2023
+Darian Chestnut,darian-chestnut-1,/cfb/players/darian-chestnut-1.html,CB,4,4,2,6,1.0,0.0,1,2,2.0,0,0,0,0,0,0,,LSU,2023
+Ryan Robinson Jr.,ryan-robinson-jr-1,/cfb/players/ryan-robinson-jr-1.html,DB,4,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2023
+Christian Braithwaite,christian-braithwaite-1,/cfb/players/christian-braithwaite-1.html,LB,5,0,3,3,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2023
+Fitzgerald West Jr.,fitzgerald-west-jr-1,/cfb/players/fitzgerald-west-jr-1.html,DL,2,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2023
+Tygee Hill,tygee-hill-1,/cfb/players/tygee-hill-1.html,DT,6,1,1,2,0.0,0.0,0,0,,0,1,0,0,0,0,,LSU,2023
+Jalen Lee,jalen-lee-1,/cfb/players/jalen-lee-1.html,DT,7,0,2,2,0.0,0.0,0,0,,0,0,1,0,0,0,,LSU,2023
+Kaleb Jackson,kaleb-jackson-1,/cfb/players/kaleb-jackson-1.html,RB,13,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2023
+Bryce Langston,bryce-langston-1,/cfb/players/bryce-langston-1.html,DL,1,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2023
+Jayden Daniels,jayden-daniels-1,/cfb/players/jayden-daniels-1.html,QB,12,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,"H-1,AA,Camp",LSU,2023
+Jaxon Howard,jaxon-howard-1,/cfb/players/jaxon-howard-1.html,DE,5,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2023
+Quency Wiggins,quency-wiggins-1,/cfb/players/quency-wiggins-1.html,DE,4,2,0,2,1.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2023
+Slade Roy,slade-roy-1,/cfb/players/slade-roy-1.html,LS,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2023
+Brian Thomas Jr.,brian-thomas-jr-1,/cfb/players/brian-thomas-jr-1.html,WR,13,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2023
+Miles Frazier,miles-frazier-1,/cfb/players/miles-frazier-1.html,OL,13,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2023
+Nathan Dibert,nathan-dibert-1,/cfb/players/nathan-dibert-1.html,K,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2023
+Dylan Carpenter,dylan-carpenter-2,/cfb/players/dylan-carpenter-2.html,DE,3,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2023
+Mason Taylor,mason-taylor-1,/cfb/players/mason-taylor-1.html,TE,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2023
+Lane Blue,lane-blue-1,/cfb/players/lane-blue-1.html,DE,3,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2023
+Kylin Jackson,kylin-jackson-1,/cfb/players/kylin-jackson-1.html,S,5,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2023
+Josh Williams,josh-williams-10,/cfb/players/josh-williams-10.html,RB,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2023
+Jackson McGohan,jackson-mcgohan-1,/cfb/players/jackson-mcgohan-1.html,TE,8,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2023
+Jake Ibieta,jake-ibieta-1,/cfb/players/jake-ibieta-1.html,DE,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2023

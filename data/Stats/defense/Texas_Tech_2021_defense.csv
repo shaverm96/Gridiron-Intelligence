@@ -1,0 +1,45 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Colin Schooler,colin-schooler-1,/cfb/players/colin-schooler-1.html,LB,13,71,35,106,7.5,2.0,1,11,11.0,0,5,1,9,0,3,,Texas Tech,2021
+Eric Monroe,eric-monroe-1,/cfb/players/eric-monroe-1.html,DB,13,44,39,83,3.5,0.0,2,0,0.0,0,3,0,0,0,1,,Texas Tech,2021
+Riko Jeffers,riko-jeffers-1,/cfb/players/riko-jeffers-1.html,LB,13,40,32,72,1.5,1.0,1,13,13.0,1,3,0,0,0,0,,Texas Tech,2021
+Dadrion Taylor,dadrion-taylor-1,/cfb/players/dadrion-taylor-1.html,DB,11,41,21,62,0.5,0.0,3,4,1.3,0,10,0,0,0,0,,Texas Tech,2021
+Dadrion Taylor-Demerson,dadrion-taylor-demerson-1,/cfb/players/dadrion-taylor-demerson-1.html,,12,41,21,62,0.5,0.0,3,4,1.3,0,10,0,0,0,0,,Texas Tech,2021
+Reggie Pearson Jr.,reggie-pearson-jr-1,/cfb/players/reggie-pearson-jr-1.html,DB,11,38,16,54,1.0,0.0,1,0,0.0,0,3,0,0,0,1,,Texas Tech,2021
+Krishon Merriweather,krishon-merriweather-1,/cfb/players/krishon-merriweather-1.html,LB,13,30,22,52,5.5,1.0,0,0,,0,0,0,0,0,0,,Texas Tech,2021
+Damarcus Fields,damarcus-fields-1,/cfb/players/damarcus-fields-1.html,DB,12,41,9,50,4.0,0.0,0,0,,0,11,1,0,0,0,,Texas Tech,2021
+Jaylon Hutchings,jaylon-hutchings-1,/cfb/players/jaylon-hutchings-1.html,DL,13,22,25,47,6.5,3.5,0,0,,0,0,0,0,0,0,,Texas Tech,2021
+Tyree Wilson,tyree-wilson-1,/cfb/players/tyree-wilson-1.html,DL,13,26,12,38,13.5,7.0,0,0,,0,1,0,0,0,0,,Texas Tech,2021
+Rayshad Williams,rayshad-williams-1,/cfb/players/rayshad-williams-1.html,DB,13,30,8,38,1.5,0.0,0,0,,0,10,0,0,0,0,,Texas Tech,2021
+Devin Drew,devin-drew-1,/cfb/players/devin-drew-1.html,DL,13,21,13,34,0.0,0.0,0,0,,0,0,1,0,0,0,,Texas Tech,2021
+Tony Bradford Jr.,tony-bradford-jr-1,/cfb/players/tony-bradford-jr-1.html,DL,10,15,17,32,8.0,3.5,0,0,,0,2,0,0,0,0,,Texas Tech,2021
+Jesiah Pierre,jesiah-pierre-1,/cfb/players/jesiah-pierre-1.html,LB,11,15,12,27,1.0,0.0,0,0,,0,0,0,0,0,0,,Texas Tech,2021
+Adrian Frye,adrian-frye-1,/cfb/players/adrian-frye-1.html,DB,10,12,8,20,2.0,0.0,1,0,0.0,0,1,0,0,0,0,,Texas Tech,2021
+Brandon Bouyer-Randle,brandon-bouyer-randle-1,/cfb/players/brandon-bouyer-randle-1.html,,10,12,7,19,1.0,0.0,0,0,,0,3,0,0,0,0,,Texas Tech,2021
+Brandon Randle,brandon-randle-1,/cfb/players/brandon-randle-1.html,LB,6,12,7,19,1.0,0.0,0,0,,0,2,0,0,0,0,,Texas Tech,2021
+Philip Blidi,philip-blidi-1,/cfb/players/philip-blidi-1.html,DL,13,8,8,16,1.5,0.0,0,0,,0,0,0,0,0,0,,Texas Tech,2021
+Nelson Mbanasor,nelson-mbanasor-1,/cfb/players/nelson-mbanasor-1.html,DL,9,4,7,11,1.5,0.0,0,0,,0,1,0,0,0,0,,Texas Tech,2021
+Kosi Eldridge,kosi-eldridge-1,/cfb/players/kosi-eldridge-1.html,LB,10,6,4,10,0.5,0.0,0,0,,0,0,0,0,0,1,,Texas Tech,2021
+Marquis Waters,marquis-waters-1,/cfb/players/marquis-waters-1.html,DB,4,5,4,9,1.0,0.0,1,72,72.0,1,0,0,0,0,0,,Texas Tech,2021
+Tyrique Matthews,tyrique-matthews-1,/cfb/players/tyrique-matthews-1.html,LB,13,6,3,9,0.5,0.0,0,0,,0,0,1,0,0,1,,Texas Tech,2021
+Malik Dunlap,malik-dunlap-1,/cfb/players/malik-dunlap-1.html,DB,7,4,3,7,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas Tech,2021
+Jacob Morgenstern,jacob-morgenstern-1,/cfb/players/jacob-morgenstern-1.html,LB,9,6,0,6,1.0,1.0,0,0,,0,0,0,0,0,0,,Texas Tech,2021
+Seth Collins,seth-collins-1,/cfb/players/seth-collins-1.html,DB,11,4,2,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas Tech,2021
+Patrick Curley,patrick-curley-1,/cfb/players/patrick-curley-1.html,LB,13,4,2,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas Tech,2021
+Cam White,cam-white-2,/cfb/players/cam-white-2.html,DB,11,5,0,5,0.0,0.0,0,0,,0,0,0,0,0,1,,Texas Tech,2021
+Bryce Ramirez,bryce-ramirez-1,/cfb/players/bryce-ramirez-1.html,LB,7,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas Tech,2021
+Loic Fouonji,loic-fouonji-1,/cfb/players/loic-fouonji-1.html,WR,10,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas Tech,2021
+Matthew Young,matthew-young-1,/cfb/players/matthew-young-1.html,LB,5,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas Tech,2021
+Nate Floyd,nate-floyd-1,/cfb/players/nate-floyd-1.html,DB,11,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas Tech,2021
+Dalton Rigdon,dalton-rigdon-1,/cfb/players/dalton-rigdon-1.html,WR,12,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas Tech,2021
+Troy Te'o,troy-teo-1,/cfb/players/troy-teo-1.html,DL,6,2,0,2,1.0,1.0,0,0,,0,0,0,0,0,0,,Texas Tech,2021
+L.B. Moore,lb-moore-1,/cfb/players/lb-moore-1.html,DL,3,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas Tech,2021
+Jackson Knotts,jackson-knotts-1,/cfb/players/jackson-knotts-1.html,LS,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas Tech,2021
+Cameron Watts,cameron-watts-1,/cfb/players/cameron-watts-1.html,DB,8,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas Tech,2021
+Dawson Deaton,dawson-deaton-1,/cfb/players/dawson-deaton-1.html,OL,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas Tech,2021
+Derek Lewis II,derek-lewis-ii-1,/cfb/players/derek-lewis-ii-1.html,LB,9,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas Tech,2021
+Erik Ezukanma,erik-ezukanma-1,/cfb/players/erik-ezukanma-1.html,WR,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas Tech,2021
+Kaylon Geiger,kaylon-geiger-1,/cfb/players/kaylon-geiger-1.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas Tech,2021
+J.J. Sparkman,jj-sparkman-1,/cfb/players/jj-sparkman-1.html,WR,9,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas Tech,2021
+Josh Burger,josh-burger-1,/cfb/players/josh-burger-1.html,OL,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas Tech,2021
+Kobee Minor,kobee-minor-1,/cfb/players/kobee-minor-1.html,DB,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas Tech,2021
+McLane Mannix,mclane-mannix-1,/cfb/players/mclane-mannix-1.html,WR,11,0,0,0,0.0,0.0,0,0,,0,0,1,0,0,0,,Texas Tech,2021

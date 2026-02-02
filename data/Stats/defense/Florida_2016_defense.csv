@@ -1,0 +1,46 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Marcell Harris,marcell-harris-1,/cfb/players/marcell-harris-1.html,DB,13,43,30,73,4.0,1.0,2,25,12.5,0,1,1,12,1,1,,Florida,2016
+Jarrad Davis,jarrad-davis-1,/cfb/players/jarrad-davis-1.html,LB,9,29,31,60,6.0,2.0,0,0,,0,4,0,0,0,0,,Florida,2016
+Alex Anzalone,alex-anzalone-1,/cfb/players/alex-anzalone-1.html,LB,8,22,31,53,4.0,3.0,0,0,,0,2,1,0,0,0,,Florida,2016
+Marcus Maye,marcus-maye-1,/cfb/players/marcus-maye-1.html,DB,9,29,21,50,1.5,1.0,1,6,6.0,0,6,0,0,0,0,,Florida,2016
+David Reese II,david-reese-3,/cfb/players/david-reese-3.html,LB,12,14,35,49,2.0,0.0,0,0,,0,0,0,0,0,0,,Florida,2016
+Nick Washington,nick-washington-1,/cfb/players/nick-washington-1.html,DB,10,22,23,45,0.0,0.0,1,0,0.0,0,1,0,0,0,0,,Florida,2016
+Kylan Johnson,kylan-johnson-1,/cfb/players/kylan-johnson-1.html,LB,13,19,20,39,5.0,1.0,0,0,,0,1,1,0,0,0,,Florida,2016
+Jordan Sherit,jordan-sherit-1,/cfb/players/jordan-sherit-1.html,DL,10,16,22,38,5.0,3.5,0,0,,0,0,0,0,0,0,,Florida,2016
+Jalen Tabor,jalen-tabor-1,/cfb/players/jalen-tabor-1.html,DB,12,23,10,33,2.0,1.0,4,47,11.8,1,6,1,0,0,0,,Florida,2016
+Quincy Wilson,quincy-wilson-2,/cfb/players/quincy-wilson-2.html,DB,13,18,15,33,3.5,1.0,3,80,26.7,1,6,0,0,0,0,,Florida,2016
+Chauncey Gardner,chauncey-gardner-1,/cfb/players/chauncey-gardner-1.html,DB,13,20,12,32,0.5,0.0,3,103,34.3,1,3,0,0,0,0,,Florida,2016
+Caleb Brantley,caleb-brantley-1,/cfb/players/caleb-brantley-1.html,DL,13,16,15,31,9.5,2.5,0,0,,0,0,0,0,0,1,,Florida,2016
+Cece Jefferson,cece-jefferson-1,/cfb/players/cece-jefferson-1.html,DL,12,15,15,30,6.5,1.5,0,0,,0,0,0,0,0,0,,Florida,2016
+Daniel McMillian,daniel-mcmillian-1,/cfb/players/daniel-mcmillian-1.html,LB,12,12,17,29,1.0,0.0,1,23,23.0,0,1,0,0,0,0,,Florida,2016
+Keivonnis Davis,keivonnis-davis-1,/cfb/players/keivonnis-davis-1.html,DL,13,6,21,27,3.0,1.5,0,0,,0,0,0,0,0,1,,Florida,2016
+Joey Ivie,joey-ivie-1,/cfb/players/joey-ivie-1.html,DL,11,9,17,26,3.5,2.5,0,0,,0,0,0,0,0,1,,Florida,2016
+Jabari Zuniga,jabari-zuniga-1,/cfb/players/jabari-zuniga-1.html,DL,13,18,7,25,8.5,5.0,0,0,,0,0,0,0,0,1,,Florida,2016
+Duke Dawson,duke-dawson-1,/cfb/players/duke-dawson-1.html,DB,12,18,6,24,3.5,0.0,1,37,37.0,1,7,0,0,0,1,,Florida,2016
+Bryan Cox Jr.,bryan-cox-jr-1,/cfb/players/bryan-cox-jr-1.html,DL,11,10,9,19,2.5,0.5,0,0,,0,0,0,0,0,1,,Florida,2016
+Taven Bryan,taven-bryan-1,/cfb/players/taven-bryan-1.html,DL,13,9,8,17,3.0,1.0,0,0,,0,1,2,0,0,2,,Florida,2016
+Khairi Clark,khairi-clark-1,/cfb/players/khairi-clark-1.html,DL,13,4,12,16,1.0,1.0,0,0,,0,0,0,0,0,0,,Florida,2016
+Vosean Joseph,vosean-joseph-1,/cfb/players/vosean-joseph-1.html,LB,13,7,6,13,1.0,0.0,0,0,,0,1,1,0,0,0,,Florida,2016
+Jachai Polite,jachai-polite-1,/cfb/players/jachai-polite-1.html,DL,12,6,5,11,3.5,2.0,0,0,,0,0,0,0,0,1,,Florida,2016
+Jeawon Taylor,jeawon-taylor-1,/cfb/players/jeawon-taylor-1.html,DB,10,3,4,7,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida,2016
+Chris Thompson,chris-thompson-4,/cfb/players/chris-thompson-4.html,WR,11,5,2,7,0.0,0.0,0,0,,0,0,0,0,0,1,,Florida,2016
+Kalif Jackson,kalif-jackson-1,/cfb/players/kalif-jackson-1.html,WR,2,3,3,6,0.5,0.0,0,0,,0,1,0,0,0,0,,Florida,2016
+Cristian Garcia,cristian-garcia-2,/cfb/players/cristian-garcia-2.html,,13,2,4,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida,2016
+Christian Garcia,christian-garcia-1,/cfb/players/christian-garcia-1.html,LB,3,2,4,6,0.0,0.0,0,15,,0,0,0,0,0,0,,Florida,2016
+Ahmad Fulwood,ahmad-fulwood-1,/cfb/players/ahmad-fulwood-1.html,WR,13,4,1,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida,2016
+Chris Williamson,chris-williamson-1,/cfb/players/chris-williamson-1.html,DB,9,3,2,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida,2016
+Johnny Townsend,johnny-townsend-1,/cfb/players/johnny-townsend-1.html,P,13,2,2,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida,2016
+Jospeh Putu,jospeh-putu-1,/cfb/players/jospeh-putu-1.html,DB,9,1,3,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida,2016
+Luke Ancrum,luke-ancrum-1,/cfb/players/luke-ancrum-1.html,DL,7,0,3,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida,2016
+Antonneous Clayton,antonneous-clayton-1,/cfb/players/antonneous-clayton-1.html,DL,4,0,3,3,0.0,0.0,0,0,,0,0,1,0,0,0,,Florida,2016
+Antonneous Clayton,antonneous-clayton-2,/cfb/players/antonneous-clayton-2.html,,5,0,3,3,0.0,0.0,0,0,,0,0,1,0,0,0,,Florida,2016
+Michael Iorio,michael-iorio-1,/cfb/players/michael-iorio-1.html,DB,3,0,3,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida,2016
+Mark Herndon,mark-herndon-1,/cfb/players/mark-herndon-1.html,RB,8,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida,2016
+Jeremiah Moon,jeremiah-moon-1,/cfb/players/jeremiah-moon-1.html,LB,2,0,3,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida,2016
+Rayshad Jackson,rayshad-jackson-1,/cfb/players/rayshad-jackson-1.html,LB,9,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida,2016
+Mark Norvelis,mark-norvelis-1,/cfb/players/mark-norvelis-1.html,DB,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida,2016
+Mark Thompson,mark-thompson-2,/cfb/players/mark-thompson-2.html,RB,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida,2016
+Brandon Powell,brandon-powell-1,/cfb/players/brandon-powell-1.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida,2016
+DeAndre Goolsby,deandre-goolsby-1,/cfb/players/deandre-goolsby-1.html,TE,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida,2016
+Jordan Scarlett,jordan-scarlett-1,/cfb/players/jordan-scarlett-1.html,RB,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida,2016
+Antonio Callaway,antonio-callaway-1,/cfb/players/antonio-callaway-1.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida,2016

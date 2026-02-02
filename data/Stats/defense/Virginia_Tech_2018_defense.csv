@@ -1,0 +1,40 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Rayshard Ashby,rayshard-ashby-1,/cfb/players/rayshard-ashby-1.html,LB,12,57,48,105,9.5,1.0,0,0,,0,2,1,0,0,2,,Virginia Tech,2018
+Reggie Floyd,reggie-floyd-1,/cfb/players/reggie-floyd-1.html,DB,13,56,32,88,9.5,0.0,2,9,4.5,0,1,0,0,0,0,,Virginia Tech,2018
+Khalil Ladler,khalil-ladler-1,/cfb/players/khalil-ladler-1.html,DB,13,40,26,66,4.5,1.0,0,0,,0,3,2,-10,0,2,,Virginia Tech,2018
+Dax Hollifield,dax-hollifield-1,/cfb/players/dax-hollifield-1.html,LB,13,27,35,62,8.0,2.0,0,0,,0,1,1,0,0,1,,Virginia Tech,2018
+Divine Deablo,divine-deablo-1,/cfb/players/divine-deablo-1.html,DB,11,35,20,55,4.5,0.0,0,0,,0,2,1,0,0,0,,Virginia Tech,2018
+Ricky Walker,ricky-walker-2,/cfb/players/ricky-walker-2.html,DL,13,23,25,48,10.0,2.0,0,0,,0,1,0,0,0,2,,Virginia Tech,2018
+Jovonn Quillen,jovonn-quillen-1,/cfb/players/jovonn-quillen-1.html,DB,13,27,15,42,1.5,1.0,0,0,,0,4,1,0,0,0,,Virginia Tech,2018
+Caleb Farley,caleb-farley-1,/cfb/players/caleb-farley-1.html,DB,13,29,7,36,1.0,1.0,2,0,0.0,0,7,0,0,0,0,,Virginia Tech,2018
+Rico Kearney,rico-kearney-1,/cfb/players/rico-kearney-1.html,LB,10,15,20,35,2.0,0.0,0,0,,0,0,1,0,0,0,,Virginia Tech,2018
+Dylan Rivers,dylan-rivers-1,/cfb/players/dylan-rivers-1.html,LB,10,17,18,35,2.0,1.5,1,18,18.0,0,1,0,0,0,0,,Virginia Tech,2018
+TyJuan Garbutt,tyjuan-garbutt-1,/cfb/players/tyjuan-garbutt-1.html,DL,13,18,13,31,6.5,1.0,0,0,,0,1,1,0,0,0,,Virginia Tech,2018
+Emmanual Belmar,emmanual-belmar-1,/cfb/players/emmanual-belmar-1.html,DL,12,15,14,29,4.0,2.0,0,0,,0,0,1,0,0,1,,Virginia Tech,2018
+Bryce Watts,bryce-watts-1,/cfb/players/bryce-watts-1.html,DB,12,24,0,24,0.0,0.0,1,0,0.0,0,6,0,0,0,0,,Virginia Tech,2018
+Houshun Gaines,houshun-gaines-1,/cfb/players/houshun-gaines-1.html,DL,9,12,7,19,2.5,4.5,0,0,,0,1,2,0,0,2,,Virginia Tech,2018
+Tyree Rodgers,tyree-rodgers-1,/cfb/players/tyree-rodgers-1.html,DB,12,11,7,18,1.0,0.0,0,0,,0,0,0,0,0,1,,Virginia Tech,2018
+Jarrod Hewitt,jarrod-hewitt-1,/cfb/players/jarrod-hewitt-1.html,DL,11,8,7,15,0.5,0.0,0,0,,0,0,1,0,0,0,,Virginia Tech,2018
+Robert Porcher IV,robert-porcher-iv-1,/cfb/players/robert-porcher-iv-1.html,DL,11,5,8,13,2.0,1.0,0,0,,0,0,0,0,0,0,,Virginia Tech,2018
+Chamarri Conner,chamarri-conner-1,/cfb/players/chamarri-conner-1.html,DB,13,8,5,13,0.0,0.0,0,0,,0,0,0,0,0,0,,Virginia Tech,2018
+Vinny Mihota,vinny-mihota-1,/cfb/players/vinny-mihota-1.html,DL,13,4,7,11,0.0,0.0,1,0,0.0,0,0,0,0,0,0,,Virginia Tech,2018
+Trevon Hill,trevon-hill-1,/cfb/players/trevon-hill-1.html,DL,3,6,5,11,4.5,3.5,0,0,,0,1,0,0,0,0,,Virginia Tech,2018
+Devon Hunter,devon-hunter-1,/cfb/players/devon-hunter-1.html,DB,4,4,4,8,1.0,1.0,0,0,,0,0,0,0,0,0,,Virginia Tech,2018
+Zion Debose,zion-debose-1,/cfb/players/zion-debose-1.html,DL,13,2,5,7,0.5,0.0,0,0,,0,0,0,0,0,0,,Virginia Tech,2018
+Xavier Burke,xavier-burke-1,/cfb/players/xavier-burke-1.html,DL,6,2,5,7,0.5,0.0,0,0,,0,0,0,0,0,0,,Virginia Tech,2018
+Jermaine Waller,jermaine-waller-1,/cfb/players/jermaine-waller-1.html,DB,12,7,0,7,0.0,0.0,0,0,,0,1,0,0,0,1,,Virginia Tech,2018
+Nathan Proctor,nathan-proctor-2,/cfb/players/nathan-proctor-2.html,DL,8,1,2,3,0.0,0.0,0,0,,0,1,0,0,0,0,,Virginia Tech,2018
+Jimmie Taylor,jimmie-taylor-1,/cfb/players/jimmie-taylor-1.html,DL,5,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Virginia Tech,2018
+Nasir Peoples,nasir-peoples-1,/cfb/players/nasir-peoples-1.html,,3,1,1,2,0.5,0.5,0,0,,0,0,0,0,0,0,,Virginia Tech,2018
+Damon Hazelton Jr.,damon-hazelton-jr-1,/cfb/players/damon-hazelton-jr-1.html,WR,13,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Virginia Tech,2018
+Coleman Fox,coleman-fox-1,/cfb/players/coleman-fox-1.html,RB,12,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Virginia Tech,2018
+Ryan Willis,ryan-willis-2,/cfb/players/ryan-willis-2.html,QB,12,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Virginia Tech,2018
+Ishmiel Seisay,ishmiel-seisay-1,/cfb/players/ishmiel-seisay-1.html,DB,4,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Virginia Tech,2018
+Oscar Shadley,oscar-shadley-1,/cfb/players/oscar-shadley-1.html,LS,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Virginia Tech,2018
+Kyle Chung,kyle-chung-1,/cfb/players/kyle-chung-1.html,OL,13,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Virginia Tech,2018
+Eric Kumah,eric-kumah-1,/cfb/players/eric-kumah-1.html,WR,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Virginia Tech,2018
+Keshon Artis,keshon-artis-1,/cfb/players/keshon-artis-1.html,LB,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Virginia Tech,2018
+Hezekiah Grimsley,hezekiah-grimsley-1,/cfb/players/hezekiah-grimsley-1.html,WR,11,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Virginia Tech,2018
+Austin Cannon,austin-cannon-1,/cfb/players/austin-cannon-1.html,OL,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Virginia Tech,2018
+Jaylen Griffin,jaylen-griffin-1,/cfb/players/jaylen-griffin-1.html,LB,8,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Virginia Tech,2018
+Zachariah Hoyt,zachariah-hoyt-1,/cfb/players/zachariah-hoyt-1.html,OL,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Virginia Tech,2018

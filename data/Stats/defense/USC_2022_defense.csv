@@ -1,0 +1,42 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Max Williams,max-williams-1,/cfb/players/max-williams-1.html,DB,14,49,30,79,2.0,0.0,2,32,16.0,0,5,0,0,0,2,,USC,2022
+Shane Lee,shane-lee-1,/cfb/players/shane-lee-1.html,LB,13,52,27,79,7.5,3.5,2,41,20.5,1,1,0,0,0,0,,USC,2022
+Eric Gentry,eric-gentry-1,/cfb/players/eric-gentry-1.html,LB,11,50,21,71,4.0,2.0,1,0,0.0,0,3,0,0,0,2,,USC,2022
+Mekhi Blackmon,mekhi-blackmon-1,/cfb/players/mekhi-blackmon-1.html,DB,14,46,21,67,2.0,0.0,3,31,10.3,0,12,1,0,0,1,,USC,2022
+Bryson Shaw,bryson-shaw-1,/cfb/players/bryson-shaw-1.html,DB,14,36,14,50,1.0,0.0,1,17,17.0,0,4,1,0,0,0,,USC,2022
+Calen Bullock,calen-bullock-1,/cfb/players/calen-bullock-1.html,DB,14,29,19,48,0.0,0.0,5,172,34.4,1,5,0,0,0,0,,USC,2022
+Tuli Tuipulotu,tuli-tuipulotu-1,/cfb/players/tuli-tuipulotu-1.html,DL,14,31,15,46,22.0,13.5,0,0,,0,3,0,0,0,2,AA,USC,2022
+Ralen Goforth,ralen-goforth-1,/cfb/players/ralen-goforth-1.html,LB,11,35,8,43,0.0,0.0,1,31,31.0,1,0,1,0,0,0,,USC,2022
+Jaylin Smith,jaylin-smith-1,/cfb/players/jaylin-smith-1.html,DB,11,26,11,37,1.0,0.0,0,0,,0,1,0,0,0,0,,USC,2022
+Ceyair Wright,ceyair-wright-1,/cfb/players/ceyair-wright-1.html,DB,14,21,7,28,0.0,0.0,1,14,14.0,0,2,0,0,0,0,,USC,2022
+Solomon Byrd,solomon-byrd-1,/cfb/players/solomon-byrd-1.html,DL,14,18,10,28,7.5,4.0,0,0,,0,1,2,0,0,1,,USC,2022
+Stanley Ta'ufo'ou,stanley-taufoou-1,/cfb/players/stanley-taufoou-1.html,DL,14,21,6,27,5.5,1.0,0,0,,0,0,2,0,0,0,,USC,2022
+Nick Figueroa,nick-figueroa-1,/cfb/players/nick-figueroa-1.html,DL,14,19,7,26,6.0,5.5,0,0,,0,1,0,0,0,0,,USC,2022
+Tuasivi Nomura,tuasivi-nomura-1,/cfb/players/tuasivi-nomura-1.html,LB,12,12,14,26,1.5,0.0,0,0,,0,1,0,0,0,0,,USC,2022
+Brandon Pili,brandon-pili-1,/cfb/players/brandon-pili-1.html,DL,14,13,12,25,2.5,1.0,0,0,,0,1,0,0,0,0,,USC,2022
+Tyrone Taleni,tyrone-taleni-1,/cfb/players/tyrone-taleni-1.html,DL,12,11,14,25,7.5,5.0,0,0,,0,0,0,0,0,1,,USC,2022
+Latrell McCutchin,latrell-mccutchin-1,/cfb/players/latrell-mccutchin-1.html,DB,14,17,5,22,1.0,1.0,0,0,,0,0,1,6,0,1,,USC,2022
+Jacobe Covington,jacobe-covington-1,/cfb/players/jacobe-covington-1.html,DB,14,13,5,18,0.0,0.0,0,0,,0,4,1,0,0,0,,USC,2022
+De'jon Benton,dejon-benton-1,/cfb/players/dejon-benton-1.html,DL,13,7,7,14,1.5,0.0,0,0,,0,0,0,0,0,0,,USC,2022
+Korey Foreman,korey-foreman-1,/cfb/players/korey-foreman-1.html,DE,12,9,4,13,1.0,0.0,1,1,1.0,0,0,0,0,0,0,,USC,2022
+Anthony Beavers Jr.,anthony-beavers-jr-1,/cfb/players/anthony-beavers-jr-1.html,DB,14,8,4,12,1.5,0.0,0,0,,0,0,0,0,0,0,,USC,2022
+Solomon Tuliaupupu,solomon-tuliaupupu-1,/cfb/players/solomon-tuliaupupu-1.html,DE,14,5,5,10,3.0,2.5,0,0,,0,0,0,0,0,0,,USC,2022
+Xamarion Gordon,xamarion-gordon-1,/cfb/players/xamarion-gordon-1.html,DB,14,8,1,9,0.0,0.0,1,0,0.0,0,0,0,0,0,0,,USC,2022
+Raesjon Davis,raesjon-davis-1,/cfb/players/raesjon-davis-1.html,LB,14,5,3,8,0.0,0.0,0,0,,0,0,0,0,0,0,,USC,2022
+Prophet Brown,prophet-brown-1,/cfb/players/prophet-brown-1.html,DB,14,2,3,5,0.0,0.0,0,0,,0,0,0,0,0,0,,USC,2022
+Alex Stadthaus,alex-stadthaus-1,/cfb/players/alex-stadthaus-1.html,K,14,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,USC,2022
+Clyde Moore,clyde-moore-1,/cfb/players/clyde-moore-1.html,LB,12,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,USC,2022
+Brandon Outlaw,brandon-outlaw-1,/cfb/players/brandon-outlaw-1.html,RB,14,1,3,4,0.0,0.0,0,0,,0,0,0,0,0,0,,USC,2022
+Micah Croom,micah-croom-1,/cfb/players/micah-croom-1.html,DB,14,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,USC,2022
+Jamar Sekona,jamar-sekona-1,/cfb/players/jamar-sekona-1.html,DL,5,3,0,3,1.0,1.0,0,0,,0,0,0,0,0,0,,USC,2022
+Domani Jackson,domani-jackson-1,/cfb/players/domani-jackson-1.html,DB,7,2,0,2,0.0,0.0,0,0,,0,1,0,0,0,0,,USC,2022
+Terrell Bynum,terrell-bynum-1,/cfb/players/terrell-bynum-1.html,WR,12,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,USC,2022
+Kyron Ware-Hudson,kyron-ware-hudson-1,/cfb/players/kyron-ware-hudson-1.html,WR,14,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,USC,2022
+Jac Casasante,jac-casasante-1,/cfb/players/jac-casasante-1.html,LS,14,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,USC,2022
+Chris Thompson Jr.,chris-thompson-jr-1,/cfb/players/chris-thompson-jr-1.html,LB,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,USC,2022
+Tahj Washington,tahj-washington-1,/cfb/players/tahj-washington-1.html,WR,14,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,USC,2022
+Caleb Williams,caleb-williams-3,/cfb/players/caleb-williams-3.html,QB,14,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,"H-1,Maxwell,AA,Camp",USC,2022
+Brenden Rice,brenden-rice-1,/cfb/players/brenden-rice-1.html,WR,14,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,USC,2022
+Aadyn Sleep-Dalton,aadyn-sleep-dalton-1,/cfb/players/aadyn-sleep-dalton-1.html,P,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,USC,2022
+Malcolm Epps,malcolm-epps-1,/cfb/players/malcolm-epps-1.html,TE,14,0,0,0,0.0,0.0,1,0,0.0,0,0,0,0,0,0,,USC,2022
+Raleek Brown,raleek-brown-1,/cfb/players/raleek-brown-1.html,RB,14,0,0,0,0.0,0.0,0,0,,0,0,1,0,0,0,,USC,2022

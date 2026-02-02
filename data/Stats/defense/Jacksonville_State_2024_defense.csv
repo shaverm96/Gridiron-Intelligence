@@ -1,0 +1,51 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Fred Perry,fred-perry-1,/cfb/players/fred-perry-1.html,S,12,47,63,110,10.0,3.0,0,0,,0,2,1,0,0,2,,Jacksonville State,2024
+Antonio Carter II,antonio-carter-ii-1,/cfb/players/antonio-carter-ii-1.html,S,14,55,54,109,4.5,1.0,1,6,6.0,0,3,0,0,0,0,,Jacksonville State,2024
+Laletia Hale,laletia-hale-1,/cfb/players/laletia-hale-1.html,LB,14,29,54,83,8.0,3.5,0,0,,0,3,0,0,0,4,,Jacksonville State,2024
+Reginald Hughes,reginald-hughes-1,/cfb/players/reginald-hughes-1.html,DE,13,31,51,82,9.5,4.5,0,0,,0,0,0,0,0,0,,Jacksonville State,2024
+Zechariah Poyser,zechariah-poyser-1,/cfb/players/zechariah-poyser-1.html,S,13,47,28,75,2.5,0.0,3,0,0.0,0,8,2,0,0,0,,Jacksonville State,2024
+K'won McCray,kwon-mccray-1,/cfb/players/kwon-mccray-1.html,LB,14,22,44,66,4.5,1.0,1,3,3.0,0,4,1,0,0,0,,Jacksonville State,2024
+Curley Young Jr.,curley-young-jr-2,/cfb/players/curley-young-jr-2.html,DE,12,16,34,50,4.0,2.5,0,0,,0,2,0,0,0,0,,Jacksonville State,2024
+Juwaun Campbell,juwaun-campbell-1,/cfb/players/juwaun-campbell-1.html,DL,14,23,24,47,8.0,2.0,0,0,,0,2,1,38,0,1,,Jacksonville State,2024
+Geimere Latimer,geimere-latimer-1,/cfb/players/geimere-latimer-1.html,CB,14,24,22,46,0.0,0.0,3,30,10.0,0,6,0,0,0,0,,Jacksonville State,2024
+J-Rock Swain,j-rock-swain-1,/cfb/players/j-rock-swain-1.html,DE,14,17,28,45,11.0,4.0,0,0,,0,0,3,0,0,1,,Jacksonville State,2024
+Patrick Taylor,patrick-taylor-4,/cfb/players/patrick-taylor-4.html,S,11,9,25,34,0.0,0.0,0,0,,0,0,0,0,0,0,,Jacksonville State,2024
+Jabari Mack,jabari-mack-1,/cfb/players/jabari-mack-1.html,CB,13,20,12,32,1.5,0.0,2,30,15.0,1,11,0,0,0,0,,Jacksonville State,2024
+Derek Carter,derek-carter-5,/cfb/players/derek-carter-5.html,CB,12,21,10,31,1.5,0.0,1,4,4.0,0,1,0,0,0,0,,Jacksonville State,2024
+Darrell Prater,darrell-prater-1,/cfb/players/darrell-prater-1.html,DL,13,4,22,26,1.5,0.0,0,0,,0,0,0,0,0,0,,Jacksonville State,2024
+Talan Carter,talan-carter-1,/cfb/players/talan-carter-1.html,DL,11,12,14,26,2.5,1.0,0,0,,0,0,0,0,0,1,,Jacksonville State,2024
+Ricky Samuel,ricky-samuel-2,/cfb/players/ricky-samuel-2.html,DL,13,1,22,23,2.0,0.5,0,0,,0,0,1,0,0,0,,Jacksonville State,2024
+Jibreel Al-Amin,jibreel-al-amin-1,/cfb/players/jibreel-al-amin-1.html,LB,9,9,14,23,0.0,0.0,0,0,,0,0,1,0,0,1,,Jacksonville State,2024
+Gharin Stansbury,gharin-stansbury-1,/cfb/players/gharin-stansbury-1.html,DL,13,7,15,22,2.0,0.0,0,0,,0,1,0,0,0,1,,Jacksonville State,2024
+Travis Franklin Jr.,travis-franklin-jr-1,/cfb/players/travis-franklin-jr-1.html,S,13,12,7,19,1.0,1.0,1,16,16.0,0,1,1,0,0,1,,Jacksonville State,2024
+Fred Davis II,fred-davis-ii-1,/cfb/players/fred-davis-ii-1.html,CB,14,10,8,18,3.5,0.0,0,0,,0,4,0,0,0,0,,Jacksonville State,2024
+Morven Joseph,morven-joseph-1,/cfb/players/morven-joseph-1.html,LB,11,5,13,18,1.0,0.0,0,0,,0,0,0,0,0,0,,Jacksonville State,2024
+Tee Denson,tee-denson-1,/cfb/players/tee-denson-1.html,S,8,11,6,17,0.0,0.0,0,0,,0,1,0,0,0,0,,Jacksonville State,2024
+Marco Baker,marco-baker-1,/cfb/players/marco-baker-1.html,CB,11,9,4,13,0.0,0.0,0,0,,0,0,0,0,0,0,,Jacksonville State,2024
+Malcolm Jones,malcolm-jones-4,/cfb/players/malcolm-jones-4.html,S,12,5,8,13,0.0,0.0,0,0,,0,0,0,0,0,0,,Jacksonville State,2024
+Dajwon DeLoach,dajwon-deloach-1,/cfb/players/dajwon-deloach-1.html,LB,8,6,7,13,0.0,0.0,0,0,,0,0,0,0,0,0,,Jacksonville State,2024
+Thaxton Gallagher,thaxton-gallagher-1,/cfb/players/thaxton-gallagher-1.html,LB,12,2,5,7,0.0,0.0,0,0,,0,0,1,0,0,0,,Jacksonville State,2024
+Walker O'Steen,walker-osteen-1,/cfb/players/walker-osteen-1.html,S,10,3,3,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Jacksonville State,2024
+Dylan Brown,dylan-brown-3,/cfb/players/dylan-brown-3.html,DL,12,0,6,6,0.5,0.0,0,0,,0,0,0,0,0,0,,Jacksonville State,2024
+Kenney Solomon,kenney-solomon-1,/cfb/players/kenney-solomon-1.html,CB,8,2,2,4,0.0,0.0,0,0,,0,1,0,0,0,0,,Jacksonville State,2024
+Jumarion Larry,jumarion-larry-1,/cfb/players/jumarion-larry-1.html,DE,3,0,4,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Jacksonville State,2024
+Shane Payton Hodges,shane-payton-hodges-1,/cfb/players/shane-payton-hodges-1.html,DE,9,2,2,4,1.0,1.0,0,0,,0,0,0,0,0,0,,Jacksonville State,2024
+Jaleel Birdsong,jaleel-birdsong-1,/cfb/players/jaleel-birdsong-1.html,LB,13,2,2,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Jacksonville State,2024
+Pearson Baldwin,pearson-baldwin-1,/cfb/players/pearson-baldwin-1.html,TE,13,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Jacksonville State,2024
+Cai Mayowa,cai-mayowa-1,/cfb/players/cai-mayowa-1.html,S,6,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Jacksonville State,2024
+Tyler Bride,tyler-bride-1,/cfb/players/tyler-bride-1.html,DB,2,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Jacksonville State,2024
+Cole Fuller,cole-fuller-1,/cfb/players/cole-fuller-1.html,TE,14,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Jacksonville State,2024
+Austin Ambush,austin-ambush-1,/cfb/players/austin-ambush-1.html,S,1,1,1,2,0.5,0.0,0,0,,0,0,0,0,0,0,,Jacksonville State,2024
+Jayke Jones,jayke-jones-1,/cfb/players/jayke-jones-1.html,CB,2,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Jacksonville State,2024
+Anwar Lewis,anwar-lewis-1,/cfb/players/anwar-lewis-1.html,RB,8,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Jacksonville State,2024
+Samario Rudolph,samario-rudolph-1,/cfb/players/samario-rudolph-1.html,WR,14,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Jacksonville State,2024
+Kyler McGrinn,kyler-mcgrinn-1,/cfb/players/kyler-mcgrinn-1.html,S,4,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Jacksonville State,2024
+Garrison Rippa,garrison-rippa-1,/cfb/players/garrison-rippa-1.html,K,14,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Jacksonville State,2024
+Demarcus Lacey,demarcus-lacey-1,/cfb/players/demarcus-lacey-1.html,WR,7,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Jacksonville State,2024
+Corbet Mims,corbet-mims-1,/cfb/players/corbet-mims-1.html,DL,3,0,1,1,0.5,0.0,0,0,,0,0,0,0,0,0,,Jacksonville State,2024
+Tre Stewart,tre-stewart-1,/cfb/players/tre-stewart-1.html,RB,14,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Jacksonville State,2024
+Colton Pitchford,colton-pitchford-1,/cfb/players/colton-pitchford-1.html,WR,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Jacksonville State,2024
+Tyler Huff,tyler-huff-1,/cfb/players/tyler-huff-1.html,QB,14,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Jacksonville State,2024
+Cam Vaughn,cam-vaughn-1,/cfb/players/cam-vaughn-1.html,WR,14,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,1,,Jacksonville State,2024
+Will O'Steen,will-osteen-1,/cfb/players/will-osteen-1.html,OL,14,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Jacksonville State,2024
+Aidan Thompson,aidan-thompson-1,/cfb/players/aidan-thompson-1.html,LB,4,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Jacksonville State,2024

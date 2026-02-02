@@ -1,0 +1,58 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Trey Dean III,trey-dean-iii-1,/cfb/players/trey-dean-iii-1.html,S,13,41,51,92,4.0,1.5,1,12,12.0,0,9,0,0,0,0,,Florida,2021
+Mohamoud Diabate,mohamoud-diabate-1,/cfb/players/mohamoud-diabate-1.html,LB,12,33,56,89,2.5,0.0,0,0,,0,0,0,0,0,0,,Florida,2021
+Rashad Torrence II,rashad-torrence-ii-1,/cfb/players/rashad-torrence-ii-1.html,,13,51,36,87,2.5,0.0,3,1,0.3,0,2,1,0,0,0,,Florida,2021
+Rashad Torrence,rashad-torrence-1,/cfb/players/rashad-torrence-1.html,S,12,53,34,87,3.5,0.0,3,1,0.3,0,2,1,0,0,0,,Florida,2021
+Ty'ron Hopper,tyron-hopper-1,/cfb/players/tyron-hopper-1.html,LB,13,34,31,65,10.0,3.5,0,0,,0,2,0,0,0,1,,Florida,2021
+Gervon Dexter,gervon-dexter-1,/cfb/players/gervon-dexter-1.html,DL,13,19,32,51,4.0,2.5,0,0,,0,1,2,0,0,0,,Florida,2021
+Jeremiah Moon,jeremiah-moon-1,/cfb/players/jeremiah-moon-1.html,LB,10,20,29,49,3.5,2.0,0,0,,0,1,0,0,0,1,,Florida,2021
+Amari Burney,amari-burney-1,/cfb/players/amari-burney-1.html,LB,13,24,20,44,1.0,0.0,0,0,,0,3,0,0,0,0,,Florida,2021
+Brenton Cox,brenton-cox-1,/cfb/players/brenton-cox-1.html,LB,13,26,15,41,14.5,8.5,0,0,,0,4,0,0,0,1,,Florida,2021
+Zachary Carter,zachary-carter-1,/cfb/players/zachary-carter-1.html,DL,12,14,18,32,9.5,8.0,0,0,,0,2,0,0,0,1,,Florida,2021
+Kaiir Elam,kaiir-elam-1,/cfb/players/kaiir-elam-1.html,CB,10,16,13,29,1.5,0.0,1,0,0.0,0,5,0,0,0,0,,Florida,2021
+Jadarrius Perkins,jadarrius-perkins-1,/cfb/players/jadarrius-perkins-1.html,CB,10,15,10,25,1.0,0.0,0,0,,0,2,0,0,0,0,,Florida,2021
+Jason Marshall Jr.,jason-marshall-jr-1,/cfb/players/jason-marshall-jr-1.html,CB,13,15,8,23,2.0,0.0,1,-3,-3.0,0,3,0,0,0,0,,Florida,2021
+Tre'Vez Johnson,trevez-johnson-1,/cfb/players/trevez-johnson-1.html,S,10,15,8,23,4.0,1.0,1,26,26.0,0,2,0,0,0,0,,Florida,2021
+Khris Bogle,khris-bogle-1,/cfb/players/khris-bogle-1.html,LB,11,9,14,23,3.0,1.5,0,0,,0,0,0,0,0,0,,Florida,2021
+Antonio Valentino,antonio-valentino-1,/cfb/players/antonio-valentino-1.html,DL,12,15,8,23,3.0,1.0,0,0,,0,0,0,0,0,0,,Florida,2021
+Avery Helm,avery-helm-1,/cfb/players/avery-helm-1.html,CB,11,16,5,21,0.0,0.0,0,0,,0,3,0,0,0,0,,Florida,2021
+Princely Umanmielen,princely-umanmielen-1,/cfb/players/princely-umanmielen-1.html,DL,13,9,8,17,1.5,1.5,0,0,,0,0,0,0,0,1,,Florida,2021
+Daquan Newkirk,daquan-newkirk-1,/cfb/players/daquan-newkirk-1.html,DL,8,8,8,16,1.5,1.5,1,7,7.0,0,0,0,0,0,0,,Florida,2021
+Mordecai McDaniel,mordecai-mcdaniel-1,/cfb/players/mordecai-mcdaniel-1.html,S,13,7,8,15,0.0,0.0,1,0,0.0,0,0,0,0,0,0,,Florida,2021
+Derek Wingo,derek-wingo-1,/cfb/players/derek-wingo-1.html,LB,13,5,10,15,0.5,0.0,0,0,,0,1,0,0,0,0,,Florida,2021
+Lacedrick Brunson,lacedrick-brunson-1,/cfb/players/lacedrick-brunson-1.html,LB,11,5,8,13,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida,2021
+Tyrone Truesdell,tyrone-truesdell-1,/cfb/players/tyrone-truesdell-1.html,DL,13,6,6,12,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida,2021
+Donovan McMillon,donovan-mcmillon-1,/cfb/players/donovan-mcmillon-1.html,S,13,6,4,10,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida,2021
+Justin Shorter,justin-shorter-1,/cfb/players/justin-shorter-1.html,WR,13,4,6,10,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida,2021
+Jalen Lee,jalen-lee-1,/cfb/players/jalen-lee-1.html,DL,8,4,5,9,1.5,0.0,0,0,,0,0,0,0,0,0,,Florida,2021
+Ventrell Miller,ventrell-miller-1,/cfb/players/ventrell-miller-1.html,LB,2,3,5,8,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida,2021
+Desmond Watson,desmond-watson-1,/cfb/players/desmond-watson-1.html,DL,13,2,5,7,0.5,0.5,0,0,,0,0,0,0,0,0,,Florida,2021
+Dante Zanders,dante-zanders-1,/cfb/players/dante-zanders-1.html,DL,11,2,4,6,0.5,0.5,0,0,,0,0,0,0,0,0,,Florida,2021
+Lloyd Summerall III,lloyd-summerall-iii-1,/cfb/players/lloyd-summerall-iii-1.html,LB,12,0,5,5,1.0,0.5,0,0,,0,0,0,0,0,0,,Florida,2021
+Fenley Graham,fenley-graham-1,/cfb/players/fenley-graham-1.html,S,12,1,4,5,0.0,0.0,0,0,,0,0,0,0,0,1,,Florida,2021
+Antwaun Powell,antwuan-powell-1,/cfb/players/antwuan-powell-1.html,LB,12,3,2,5,1.5,1.5,0,0,,0,0,0,0,0,0,,Florida,2021
+Ja-Quavion Fraziars,ja-quavion-fraziars-1,/cfb/players/ja-quavion-fraziars-1.html,WR,13,4,0,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida,2021
+Ethan Pouncey,ethan-pouncey-1,/cfb/players/ethan-pouncey-1.html,CB,11,2,2,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida,2021
+Diwun Black,diwun-black-1,/cfb/players/diwun-black-1.html,LB,10,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida,2021
+Justus Boone,justus-boone-1,/cfb/players/justus-boone-1.html,DL,2,1,2,3,1.5,0.5,0,0,,0,0,0,0,0,0,,Florida,2021
+Elijah Blades,elijah-blades-1,/cfb/players/elijah-blades-1.html,DB,3,2,1,3,0.0,0.0,0,0,,0,1,0,0,0,0,,Florida,2021
+Scooby Williams,scooby-williams-1,/cfb/players/scooby-williams-1.html,LB,4,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida,2021
+Xzavier Henderson,xzavier-henderson-1,/cfb/players/xzavier-henderson-1.html,WR,13,2,0,2,0.0,0.0,0,0,,0,0,1,0,0,0,,Florida,2021
+Jace Christman,jace-christman-1,/cfb/players/jace-christman-1.html,K,10,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida,2021
+Rick Wells,rick-wells-2,/cfb/players/rick-wells-2.html,WR,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida,2021
+Chief Borders,chief-borders-1,/cfb/players/chief-borders-1.html,LB,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida,2021
+Chris Howard,chris-howard-5,/cfb/players/chris-howard-5.html,K,9,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida,2021
+Anthony Richardson,anthony-richardson-2,/cfb/players/anthony-richardson-2.html,QB,8,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida,2021
+Nay'quan Wright,nayquan-wright-1,/cfb/players/nayquan-wright-1.html,RB,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida,2021
+Corey Collier Jr.,corey-collier-jr-1,/cfb/players/corey-collier-jr-1.html,S,3,1,0,1,1.0,1.0,0,0,,0,0,0,0,0,0,,Florida,2021
+Malik Davis,malik-davis-1,/cfb/players/malik-davis-1.html,RB,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida,2021
+Lorenzo Lingard,lorenzo-lingard-1,/cfb/players/lorenzo-lingard-1.html,RB,13,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida,2021
+Lamar Goods,lamar-goods-1,/cfb/players/lamar-goods-1.html,DL,2,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida,2021
+Dameon Pierce,dameon-pierce-1,/cfb/players/dameon-pierce-1.html,RB,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida,2021
+Keon Zipperer,keon-zipperer-1,/cfb/players/keon-zipperer-1.html,TE,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida,2021
+Jordan Young,jordan-young-4,/cfb/players/jordan-young-4.html,CB,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida,2021
+Jeremy Crawshaw,jeremy-crawshaw-1,/cfb/players/jeremy-crawshaw-1.html,P,13,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida,2021
+David Reese,david-reese-4,/cfb/players/david-reese-4.html,LB,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida,2021
+Ja'Markis Weston,jamarkis-weston-1,/cfb/players/jamarkis-weston-1.html,WR,9,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida,2021
+Jacob Copeland,jacob-copeland-1,/cfb/players/jacob-copeland-1.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida,2021
+Ethan White,ethan-white-1,/cfb/players/ethan-white-1.html,OL,8,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida,2021

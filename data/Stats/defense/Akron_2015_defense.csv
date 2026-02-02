@@ -1,0 +1,47 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Jatavis Brown,jatavis-brown-1,/cfb/players/jatavis-brown-1.html,LB,13,62,54,116,20.0,12.0,1,0,0.0,0,1,0,0,0,4,,Akron,2015
+Dylan Evans,dylan-evans-1,/cfb/players/dylan-evans-1.html,LB,13,66,40,106,12.0,2.5,1,17,17.0,0,6,0,0,0,1,,Akron,2015
+Darryl Monroe,darryl-monroe-1,/cfb/players/darryl-monroe-1.html,LB,13,44,39,83,5.0,2.0,0,0,,0,0,0,0,0,1,,Akron,2015
+Zach Guiser,zach-guiser-1,/cfb/players/zach-guiser-1.html,S,13,40,19,59,0.5,0.0,2,-2,-1.0,0,5,1,0,0,0,,Akron,2015
+Kris Givens,kris-givens-1,/cfb/players/kris-givens-1.html,CB,13,44,10,54,1.5,0.0,2,0,0.0,0,7,0,0,0,0,,Akron,2015
+Bryce Cheek,bryce-cheek-1,/cfb/players/bryce-cheek-1.html,CB,13,31,21,52,1.0,0.0,1,0,0.0,0,6,1,0,0,1,,Akron,2015
+Rodney Coe,rodney-coe-1,/cfb/players/rodney-coe-1.html,DL,12,19,27,46,8.5,2.0,0,0,,0,3,1,56,0,1,,Akron,2015
+Jordan George,jordan-george-1,/cfb/players/jordan-george-1.html,DB,13,27,15,42,2.0,0.0,1,0,0.0,0,3,0,0,0,0,,Akron,2015
+Se'Von Pittman,sevon-pittman-1,/cfb/players/sevon-pittman-1.html,DL,13,17,19,36,7.0,3.0,0,0,,0,2,1,0,0,2,,Akron,2015
+Deandre Scott,deandre-scott-1,/cfb/players/deandre-scott-1.html,CB,13,26,6,32,1.5,0.0,6,14,2.3,0,11,1,0,0,1,,Akron,2015
+Jamal Marcus,jamal-marcus-1,/cfb/players/jamal-marcus-1.html,DL,11,18,12,30,12.5,5.5,0,0,,0,1,1,0,0,1,,Akron,2015
+Cody Grice,cody-grice-1,/cfb/players/cody-grice-1.html,DL,13,12,14,26,5.5,3.0,0,0,,0,0,1,12,0,0,,Akron,2015
+John Senter,john-senter-1,/cfb/players/john-senter-1.html,CB,13,14,4,18,0.0,0.0,0,0,,0,4,2,0,0,0,,Akron,2015
+Daumantas Venckus-Cucchiara,daumantas-venckus-cucchiara-1,/cfb/players/daumantas-venckus-cucchiara-1.html,DE,13,6,7,13,2.0,1.5,0,0,,0,0,0,0,0,0,,Akron,2015
+Ulysees Gilbert III,ulysees-gilbert-iii-1,/cfb/players/ulysees-gilbert-iii-1.html,LB,13,7,4,11,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2015
+John Rachal,john-rachal-1,/cfb/players/john-rachal-1.html,LB,13,6,5,11,0.5,0.0,0,0,,0,0,0,0,0,0,,Akron,2015
+Kyron Brown,kyron-brown-1,/cfb/players/kyron-brown-1.html,CB,13,4,6,10,0.0,0.0,0,0,,0,2,0,0,0,0,,Akron,2015
+Andrew Hauser,andrew-hauser-2,/cfb/players/andrew-hauser-2.html,LB,13,6,4,10,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2015
+Larry Hope,larry-hope-1,/cfb/players/larry-hope-1.html,DB,11,7,1,8,0.0,0.0,1,0,0.0,0,2,0,0,0,0,,Akron,2015
+Alfonso Horner,alfonso-horner-1,/cfb/players/alfonso-horner-1.html,DE,11,4,4,8,1.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2015
+Cory Morrow,cory-morrow-1,/cfb/players/cory-morrow-1.html,S,13,6,2,8,0.0,0.0,0,0,,0,0,0,0,0,1,,Akron,2015
+Brock Boxen,brock-boxen-1,/cfb/players/brock-boxen-1.html,DL,11,4,3,7,2.5,0.5,0,0,,0,0,0,0,0,1,,Akron,2015
+Richard Dorvilus,richard-dorvilus-1,/cfb/players/richard-dorvilus-1.html,DL,11,4,1,5,1.0,1.0,0,0,,0,0,0,0,0,0,,Akron,2015
+Brian Bell,brian-bell-3,/cfb/players/brian-bell-3.html,LB,12,2,2,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2015
+Brennan Williams,brennan-williams-2,/cfb/players/brennan-williams-2.html,DL,4,1,3,4,1.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2015
+Imani Davis,imani-davis-1,/cfb/players/imani-davis-1.html,WR,13,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2015
+A.J. Coney,aj-coney-1,/cfb/players/aj-coney-1.html,WR,12,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2015
+James Turner,james-turner-1,/cfb/players/james-turner-1.html,S,11,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2015
+Chris Bivins Jr.,chris-bivinsjr-1,/cfb/players/chris-bivinsjr-1.html,S,2,1,1,2,0.0,0.0,0,0,,0,1,0,0,0,0,,Akron,2015
+Robert Stein,robert-stein-1,/cfb/players/robert-stein-1.html,K,13,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2015
+Richie Cooper,richie-cooper-1,/cfb/players/richie-cooper-1.html,WR,7,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2015
+Darius Copeland,darius-copeland-1,/cfb/players/darius-copeland-1.html,DL,8,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2015
+Austin Wolf,austin-wolf-1,/cfb/players/austin-wolf-1.html,WR,12,2,0,2,0.0,0.0,0,0,,0,0,1,0,0,0,,Akron,2015
+Anthony Lauro,anthony-lauro-1,/cfb/players/anthony-lauro-1.html,WR,13,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2015
+Andrew Pratt,andrew-pratt-1,/cfb/players/andrew-pratt-1.html,WR,13,1,1,2,0.0,0.0,0,0,,0,0,1,0,0,0,,Akron,2015
+Zach Paul,zach-paul-1,/cfb/players/zach-paul-1.html,P,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2015
+Mikee Hayes,mikee-hayes-1,/cfb/players/mikee-hayes-1.html,CB,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2015
+Michael Buddenberg,michael-buddenberg-1,/cfb/players/michael-buddenberg-1.html,LS,13,1,0,1,0.0,0.0,0,0,,0,0,1,0,0,0,,Akron,2015
+Jerome Lane,jerome-lane-1,/cfb/players/jerome-lane-1.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2015
+Jamal Baggett,jamal-baggett-1,/cfb/players/jamal-baggett-1.html,S,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2015
+Hakeem Lawrence,hakeem-lawrence-1,/cfb/players/hakeem-lawrence-1.html,RB,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2015
+Donnell Alexander,donnell-alexander-1,/cfb/players/donnell-alexander-1.html,RB,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2015
+Danny Seafler,danny-seafler-1,/cfb/players/danny-seafler-1.html,WR,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2015
+Christian Allen,christian-allen-1,/cfb/players/christian-allen-1.html,FB,13,0,1,1,0.0,0.0,0,0,,0,0,1,0,0,0,,Akron,2015
+Bryce Jones,bryce-jones-1,/cfb/players/bryce-jones-1.html,DB,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2015
+Christopher Spruill,christopher-spruill-1,/cfb/players/christopher-spruill-1.html,DL,5,0,0,0,0.0,0.0,0,0,,0,0,1,0,0,0,,Akron,2015

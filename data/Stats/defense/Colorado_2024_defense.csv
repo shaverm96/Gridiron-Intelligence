@@ -1,0 +1,50 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Cam'Ron Silmon-Craig,camron-silmon-craig-1,/cfb/players/camron-silmon-craig-1.html,S,13,66,28,94,10.0,2.0,1,17,17.0,0,3,2,95,1,1,,Colorado,2024
+Nikhai Hill-Green,nikhai-hill-green-1,/cfb/players/nikhai-hill-green-1.html,LB,12,53,29,82,11.5,2.0,2,23,11.5,0,4,0,0,0,0,,Colorado,2024
+Shilo Sanders,shilo-sanders-2,/cfb/players/shilo-sanders-2.html,S,10,44,23,67,2.0,1.0,0,0,,0,2,2,6,1,1,,Colorado,2024
+D.J. McKinney,dj-mckinney-1,/cfb/players/dj-mckinney-1.html,CB,13,44,18,62,3.0,0.0,3,41,13.7,1,9,1,0,0,1,,Colorado,2024
+LaVonta Bentley,lavonta-bentley-1,/cfb/players/lavonta-bentley-1.html,LB,13,34,21,55,4.0,1.0,0,0,,0,0,2,2,0,1,,Colorado,2024
+Carter Stoutmire,carter-stoutmire-1,/cfb/players/carter-stoutmire-1.html,CB,13,33,10,43,0.5,0.0,0,0,,0,7,0,0,0,1,,Colorado,2024
+Travis Hunter,travis-hunter-2,/cfb/players/travis-hunter-2.html,CB,13,25,11,36,1.0,0.0,4,65,16.3,0,11,0,0,0,1,"H-1,Bednarik,AA,Camp",Colorado,2024
+Arden Walker,arden-walker-1,/cfb/players/arden-walker-1.html,DL,13,20,13,33,6.5,4.5,0,0,,0,0,0,0,0,1,,Colorado,2024
+B.J. Green II,bj-green-ii-1,/cfb/players/bj-green-ii-1.html,DL,13,19,14,33,12.0,7.5,0,0,,0,0,1,0,0,2,,Colorado,2024
+Preston Hodge,preston-hodge-1,/cfb/players/preston-hodge-1.html,DB,9,21,12,33,0.5,0.0,2,8,4.0,0,7,0,0,0,0,,Colorado,2024
+Chidozie Nwankwo,chidozie-nwankwo-1,/cfb/players/chidozie-nwankwo-1.html,DL,11,19,13,32,4.5,2.5,0,0,,0,0,1,0,0,1,,Colorado,2024
+Samuel Okunlola,samuel-okunlola-1,/cfb/players/samuel-okunlola-1.html,DL,13,18,12,30,7.0,3.0,0,0,,0,1,0,0,0,0,,Colorado,2024
+Amari McNeill,amari-mcneill-1,/cfb/players/amari-mcneill-1.html,DL,11,12,13,25,6.0,3.5,0,0,,0,0,0,0,0,1,,Colorado,2024
+Colton Hood,colton-hood-1,/cfb/players/colton-hood-1.html,DB,13,20,4,24,1.0,0.0,2,105,52.5,0,6,0,0,0,0,,Colorado,2024
+Taje McCoy,taje-mccoy-1,/cfb/players/taje-mccoy-1.html,LB,13,19,4,23,4.0,4.0,0,0,,0,0,0,0,0,0,,Colorado,2024
+Tawfiq Thomas,tawfiq-thomas-1,/cfb/players/tawfiq-thomas-1.html,DL,13,14,6,20,2.5,1.0,0,0,,0,1,0,0,0,0,,Colorado,2024
+Keaten Wade,keaten-wade-1,/cfb/players/keaten-wade-1.html,LB,6,16,4,20,7.5,4.0,0,0,,0,0,1,0,0,0,,Colorado,2024
+Shane Cokes,shane-cokes-1,/cfb/players/shane-cokes-1.html,DL,10,9,10,19,2.5,1.0,0,0,,0,0,0,0,0,1,,Colorado,2024
+Dayon Hayes,dayon-hayes-1,/cfb/players/dayon-hayes-1.html,DL,4,10,6,16,3.5,2.0,0,0,,0,0,0,0,0,0,,Colorado,2024
+Jaylen Wester,jaylen-wester-1,/cfb/players/jaylen-wester-1.html,LB,11,8,7,15,0.5,0.0,0,0,,0,1,0,0,0,1,,Colorado,2024
+Trevor Woods,trevor-woods-1,/cfb/players/trevor-woods-1.html,S,4,9,5,14,1.0,0.0,0,0,,0,0,0,0,0,0,,Colorado,2024
+Anquin Barnes Jr.,anquin-barnes-jr-1,/cfb/players/anquin-barnes-jr-1.html,DL,12,7,5,12,0.5,0.0,1,9,9.0,0,1,0,0,0,0,,Colorado,2024
+Ben Finneseth,ben-finneseth-1,/cfb/players/ben-finneseth-1.html,S,13,8,4,12,0.0,0.0,0,0,,0,0,0,0,0,0,,Colorado,2024
+Savion Riley,savion-riley-1,/cfb/players/savion-riley-1.html,S,9,10,2,12,1.0,0.0,0,0,,0,0,0,0,0,0,,Colorado,2024
+Brendan Gant,brendan-gant-1,/cfb/players/brendan-gant-1.html,LB,11,10,1,11,0.5,0.0,0,0,,0,1,1,0,0,0,,Colorado,2024
+Jeremiah Brown,jeremiah-brown-3,/cfb/players/jeremiah-brown-3.html,LB,5,4,6,10,0.0,0.0,0,0,,0,1,0,0,0,0,,Colorado,2024
+RJ Johnson,rj-johnson-1,/cfb/players/rj-johnson-1.html,DB,12,5,4,9,0.0,0.0,0,0,,0,0,0,0,0,0,,Colorado,2024
+Ivan Yates,ivan-yates-1,/cfb/players/ivan-yates-1.html,CB,11,4,1,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Colorado,2024
+Isaiah Hardge,isaiah-hardge-1,/cfb/players/isaiah-hardge-1.html,WR,11,3,2,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Colorado,2024
+Herman Smith,herman-smith-1,/cfb/players/herman-smith-1.html,S,12,3,2,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Colorado,2024
+Travis Jay,travis-jay-1,/cfb/players/travis-jay-1.html,DB,4,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Colorado,2024
+Daniel Gerlach,daniel-gerlach-1,/cfb/players/daniel-gerlach-1.html,K,7,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Colorado,2024
+Nathaniel Watson,nathaniel-watson-2,/cfb/players/nathaniel-watson-2.html,S,10,0,3,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Colorado,2024
+Rayyan Buell,rayyan-buell-1,/cfb/players/rayyan-buell-1.html,DT,4,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Colorado,2024
+Cristiano Palazzo,cristiano-palazzo-2,/cfb/players/cristiano-palazzo-2.html,K,3,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Colorado,2024
+Charlie Offerdahl,charlie-offerdahl-1,/cfb/players/charlie-offerdahl-1.html,RB,13,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Colorado,2024
+Brandon Davis-Swain,brandon-davis-swain-1,/cfb/players/brandon-davis-swain-1.html,DE,2,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Colorado,2024
+Jimmy Horn Jr.,jimmy-horn-jr-1,/cfb/players/jimmy-horn-jr-1.html,WR,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Colorado,2024
+Ben Bouzi,ben-bouzi-1,/cfb/players/ben-bouzi-1.html,OG,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Colorado,2024
+Jace Feely,jace-feely-1,/cfb/players/jace-feely-1.html,K,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Colorado,2024
+Taurean Carter,taurean-carter-1,/cfb/players/taurean-carter-1.html,DL,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Colorado,2024
+Bo Simmons-Lapenna,bo-simmons-lapenna-1,/cfb/players/bo-simmons-lapenna-1.html,LB,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Colorado,2024
+Braden Keith,braden-keith-1,/cfb/players/braden-keith-1.html,CB,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Colorado,2024
+Sav'ell Smalls,savell-smalls-1,/cfb/players/savell-smalls-1.html,LB,13,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Colorado,2024
+Kaleb Mathis,kaleb-mathis-1,/cfb/players/kaleb-mathis-1.html,WR,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,1,,Colorado,2024
+Jordan Onovughe,jordan-onovughe-1,/cfb/players/jordan-onovughe-1.html,WR,8,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Colorado,2024
+Quency Wiggins,quency-wiggins-1,/cfb/players/quency-wiggins-1.html,DE,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Colorado,2024
+LaJohntay Wester,lajohntay-wester-1,/cfb/players/lajohntay-wester-1.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Colorado,2024
+Gage Goldberg,gage-goldberg-1,/cfb/players/gage-goldberg-1.html,LB,3,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Colorado,2024

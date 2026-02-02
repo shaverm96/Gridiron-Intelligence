@@ -1,0 +1,43 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Dylan Moses,dylan-moses-1,/cfb/players/dylan-moses-1.html,LB,13,40,40,80,6.5,1.5,1,1,1.0,0,3,0,0,0,1,,Alabama,2020
+Christian Harris,christian-harris-3,/cfb/players/christian-harris-3.html,LB,13,52,27,79,7.0,4.5,1,0,0.0,0,2,0,0,0,0,,Alabama,2020
+Jordan Battle,jordan-battle-1,/cfb/players/jordan-battle-1.html,DB,13,39,27,66,3.0,0.0,1,45,45.0,1,4,0,0,0,0,,Alabama,2020
+Demarcco Hellams,demarcco-hellams-1,/cfb/players/demarcco-hellams-1.html,DB,13,36,26,62,1.5,1.0,0,0,,0,3,0,0,0,0,,Alabama,2020
+Daniel Wright,daniel-wright-1,/cfb/players/daniel-wright-1.html,DB,13,43,17,60,1.0,0.0,2,65,32.5,1,3,0,0,0,0,,Alabama,2020
+Josh Jobe,josh-jobe-1,/cfb/players/josh-jobe-1.html,DB,13,39,16,55,2.5,2.0,0,0,,0,11,0,0,0,2,,Alabama,2020
+Will Anderson Jr.,will-anderson-jr-1,/cfb/players/will-anderson-jr-1.html,LB,13,33,19,52,10.5,7.0,0,0,,0,0,0,0,0,1,,Alabama,2020
+Malachi Moore,malachi-moore-2,/cfb/players/malachi-moore-2.html,DB,11,27,17,44,4.0,0.0,3,42,14.0,0,6,1,28,1,1,,Alabama,2020
+Christopher Allen,christopher-allen-1,/cfb/players/christopher-allen-1.html,LB,13,25,16,41,13.0,6.0,0,0,,0,0,1,0,0,2,,Alabama,2020
+Patrick Surtain II,patrick-surtain-ii-1,/cfb/players/patrick-surtain-ii-1.html,DB,13,22,16,38,3.5,0.0,1,25,25.0,1,12,1,0,0,0,AA,Alabama,2020
+Christian Barmore,christian-barmore-1,/cfb/players/christian-barmore-1.html,DL,12,22,15,37,9.5,8.0,0,0,,0,3,0,0,0,3,,Alabama,2020
+Phidarian Mathis,phidarian-mathis-1,/cfb/players/phidarian-mathis-1.html,DL,12,16,15,31,5.0,1.5,0,0,,0,3,0,0,0,1,,Alabama,2020
+Byron Young,byron-young-1,/cfb/players/byron-young-1.html,DL,12,11,18,29,6.5,1.0,0,0,,0,0,1,0,0,0,,Alabama,2020
+Brian Branch,brian-branch-1,/cfb/players/brian-branch-1.html,DB,12,19,8,27,0.5,0.0,2,30,15.0,0,7,0,0,0,0,,Alabama,2020
+DJ Dale,dj-dale-1,/cfb/players/dj-dale-1.html,DL,12,8,14,22,1.0,0.0,0,0,,0,2,1,0,0,0,,Alabama,2020
+Justin Eboigbe,justin-eboigbe-1,/cfb/players/justin-eboigbe-1.html,DL,12,10,9,19,0.5,0.0,1,4,4.0,0,0,0,0,0,0,,Alabama,2020
+Jaylen Moody,jaylen-moody-1,/cfb/players/jaylen-moody-1.html,LB,13,11,7,18,0.5,0.0,0,0,,0,0,1,0,0,1,,Alabama,2020
+Tim Smith,tim-smith-8,/cfb/players/tim-smith-8.html,DL,8,8,6,14,2.5,1.0,0,0,,0,0,2,0,0,1,,Alabama,2020
+Labryan Ray,labryan-ray-1,/cfb/players/labryan-ray-1.html,DL,8,7,5,12,0.5,0.5,0,0,,0,0,0,0,0,0,,Alabama,2020
+Joshua McMillon,joshua-mcmillon-1,/cfb/players/joshua-mcmillon-1.html,LB,10,4,5,9,1.0,0.0,0,0,,0,1,0,0,0,0,,Alabama,2020
+Drew Sanders,drew-sanders-1,/cfb/players/drew-sanders-1.html,LB,11,4,5,9,0.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2020
+Jamil Burroughs,jamil-burroughs-1,/cfb/players/jamil-burroughs-1.html,DL,6,1,4,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2020
+Najee Harris,najee-harris-1,/cfb/players/najee-harris-1.html,RB,13,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,"H-5,AA",Alabama,2020
+Ben Davis,ben-davis-3,/cfb/players/ben-davis-3.html,LB,10,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2020
+Shane Lee,shane-lee-1,/cfb/players/shane-lee-1.html,LB,5,2,1,3,1.0,1.0,0,0,,0,0,0,0,0,1,,Alabama,2020
+Marcus Banks,marcus-banks-1,/cfb/players/marcus-banks-1.html,DB,8,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2020
+Ale Kaho,ale-kaho-1,/cfb/players/ale-kaho-1.html,LB,11,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2020
+Jalyn Armour-Davis,jalyn-armour-davis-1,/cfb/players/jalyn-armour-davis-1.html,DB,9,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2020
+Chase Allen,chase-allen-2,/cfb/players/chase-allen-2.html,PK,9,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2020
+King Mwikuta,king-mwikuta-1,/cfb/players/king-mwikuta-1.html,LB,10,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2020
+Landon Dickerson,landon-dickerson-1,/cfb/players/landon-dickerson-1.html,OL,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,AA,Alabama,2020
+Kendall Randolph,kendall-randolph-2,/cfb/players/kendall-randolph-2.html,TE,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2020
+Braylen Ingraham,braylen-ingraham-1,/cfb/players/braylen-ingraham-1.html,DL,3,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2020
+Miller Forristall,miller-forristall-1,/cfb/players/miller-forristall-1.html,TE,11,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2020
+John Metchie,john-metchie-1,/cfb/players/john-metchie-1.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,1,,Alabama,2020
+Jaylen Waddle,jaylen-waddle-1,/cfb/players/jaylen-waddle-1.html,WR,6,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2020
+Ronald Williams Jr.,ronald-williams-jr-1,/cfb/players/ronald-williams-jr-1.html,DB,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2020
+DeVonta Smith,devonta-smith-1,/cfb/players/devonta-smith-1.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,1,0,0,0,"H-1,Maxwell,AA,Camp",Alabama,2020
+Stephon Wynn Jr.,stephon-wynn-jr-1,/cfb/players/stephon-wynn-jr-1.html,DL,2,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2020
+Brian Robinson Jr.,brian-robinson-jr-1,/cfb/players/brian-robinson-jr-1.html,RB,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2020
+Trey Sanders,trey-sanders-2,/cfb/players/trey-sanders-2.html,RB,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2020
+Thomas Fletcher,thomas-fletcher-1,/cfb/players/thomas-fletcher-1.html,LS,12,0,0,0,0.0,0.0,0,0,,0,0,1,0,0,0,,Alabama,2020

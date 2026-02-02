@@ -1,0 +1,47 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Anthony Smithson,anthony-smithson-1,/cfb/players/anthony-smithson-1.html,S,11,87,24,111,2.0,0.0,2,22,11.0,0,3,1,66,0,1,,Kansas,2015
+Joe Dineen,joe-dineen-1,/cfb/players/joe-dineen-1.html,LB,12,66,20,86,6.5,3.0,0,0,,0,1,0,0,0,0,,Kansas,2015
+Marcquis Roberts,marcquis-roberts-1,/cfb/players/marcquis-roberts-1.html,LB,12,52,19,71,3.5,1.0,1,83,83.0,1,1,2,5,0,0,,Kansas,2015
+Tevin Shaw,tevin-shaw-1,/cfb/players/tevin-shaw-1.html,S,12,47,18,65,1.0,1.0,0,0,,0,3,0,0,0,0,,Kansas,2015
+Tyrone Miller Jr.,tyrone-miller-jr-1,/cfb/players/tyrone-miller-jr-1.html,CB,12,42,14,56,2.0,0.0,0,0,,0,2,1,0,0,2,,Kansas,2015
+Michael Glatczak,michael-glatczak-1,/cfb/players/michael-glatczak-1.html,S,12,42,13,55,2.5,0.0,1,15,15.0,0,2,1,0,0,0,,Kansas,2015
+Ben Goodman,ben-goodman-1,/cfb/players/ben-goodman-1.html,DL,12,34,17,51,9.5,5.5,0,0,,0,0,0,0,0,0,,Kansas,2015
+Brandon Stewart,brandon-stewart-3,/cfb/players/brandon-stewart-3.html,CB,10,29,6,35,0.5,0.0,0,0,,0,0,0,0,0,1,,Kansas,2015
+Marnez Ogletree,marnez-ogletree-1,/cfb/players/marnez-ogletree-1.html,CB,9,27,5,32,0.0,0.0,0,0,,0,5,0,0,0,0,,Kansas,2015
+Courtney Arnick,courtney-arnick-1,/cfb/players/courtney-arnick-1.html,LB,11,20,9,29,1.0,0.0,1,26,26.0,0,0,0,0,0,1,,Kansas,2015
+Chevy Graham,chevy-graham-1,/cfb/players/chevy-graham-1.html,CB,11,22,6,28,2.5,2.0,0,0,,0,0,0,0,0,0,,Kansas,2015
+Bazie Bates IV,bazie-bates-iv-1,/cfb/players/bazie-bates-iv-1.html,S,11,20,6,26,1.0,0.0,1,0,0.0,0,1,0,0,0,0,,Kansas,2015
+Daniel Wise,daniel-wise-1,/cfb/players/daniel-wise-1.html,DT,12,17,9,26,5.5,3.5,0,0,,0,1,0,0,0,0,,Kansas,2015
+Anthony Olobia,anthony-olobia-1,/cfb/players/anthony-olobia-1.html,DE,12,11,12,23,4.0,1.5,0,0,,0,0,0,0,0,0,,Kansas,2015
+Dorance Armstrong Jr.,dorance-armstrong-jr-1,/cfb/players/dorance-armstrong-jr-1.html,DE,12,16,7,23,5.0,3.5,0,0,,0,4,0,0,0,0,,Kansas,2015
+Corey King,corey-king-1,/cfb/players/corey-king-1.html,DT,11,15,6,21,3.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2015
+Schyler Miles,schyler-miles-1,/cfb/players/schyler-miles-1.html,LB,6,14,3,17,0.0,0.0,0,0,,0,1,0,0,0,0,,Kansas,2015
+Derrick Neal,derrick-neal-1,/cfb/players/derrick-neal-1.html,WR,11,12,2,14,0.0,0.0,1,0,0.0,0,2,0,0,0,1,,Kansas,2015
+Damani Mosby,damani-mosby-1,/cfb/players/damani-mosby-1.html,DE,10,9,5,14,2.5,1.5,0,0,,0,0,1,0,0,0,,Kansas,2015
+Kapil Fletcher,kapil-fletcher-1,/cfb/players/kapil-fletcher-1.html,DT,12,7,6,13,1.5,1.0,0,0,,0,0,0,0,0,0,,Kansas,2015
+Greg Allen,greg-allen-4,/cfb/players/greg-allen-4.html,S,5,10,2,12,0.0,0.0,2,13,6.5,0,0,0,0,0,0,,Kansas,2015
+D.J. Williams,dj-williams-5,/cfb/players/dj-williams-5.html,DL,9,5,6,11,1.5,1.5,0,0,,0,0,0,0,0,1,,Kansas,2015
+Taylor Cox,taylor-cox-1,/cfb/players/taylor-cox-1.html,RB,9,10,1,11,2.0,1.0,0,0,,0,0,0,0,0,0,,Kansas,2015
+Colin Spencer,colin-spencer-1,/cfb/players/colin-spencer-1.html,CB,12,7,1,8,0.0,0.0,0,0,,0,0,1,0,0,0,,Kansas,2015
+Jacky Dezir,jacky-dezir-1,/cfb/players/jacky-dezir-1.html,DT,9,4,3,7,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2015
+Cameron Rosser,cameron-rosser-1,/cfb/players/cameron-rosser-1.html,LB,12,6,1,7,0.0,0.0,0,0,,0,0,1,0,0,0,,Kansas,2015
+Kyron Watson,kyron-watson-1,/cfb/players/kyron-watson-1.html,LB,4,4,2,6,1.0,0.0,0,0,,0,0,1,13,0,0,,Kansas,2015
+Osaze Ogbebor,osaze-ogbebor-1,/cfb/players/osaze-ogbebor-1.html,LB,12,4,0,4,1.0,1.0,0,0,,0,0,0,0,0,0,,Kansas,2015
+T.J. Semke,tj-semke-1,/cfb/players/tj-semke-1.html,DE,12,2,2,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2015
+Kendall Duckworth,kendall-duckworth-1,/cfb/players/kendall-duckworth-1.html,LB,8,1,2,3,1.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2015
+Tyler Holmes,tyler-holmes-2,/cfb/players/tyler-holmes-2.html,DT,1,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2015
+Tyler Patrick,tyler-patrick-1,/cfb/players/tyler-patrick-1.html,WR,12,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2015
+Beau Bell,beau-bell-2,/cfb/players/beau-bell-2.html,LB,11,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2015
+Aaron Plump,aaron-plump-1,/cfb/players/aaron-plump-1.html,LB,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2015
+Steven Sims Jr.,steven-sims-jr-1,/cfb/players/steven-sims-jr-1.html,WR,11,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2015
+Ryan Schadler,ryan-schadler-1,/cfb/players/ryan-schadler-1.html,WR,12,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2015
+Joshua Stanford,joshua-stanford-1,/cfb/players/joshua-stanford-1.html,WR,3,2,0,2,1.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2015
+Ruben Guzman,ruben-guzman-1,/cfb/players/ruben-guzman-1.html,P,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2015
+Ryan Willis,ryan-willis-2,/cfb/players/ryan-willis-2.html,QB,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2015
+Ronnie Davis,ronnie-davis-2,/cfb/players/ronnie-davis-2.html,CB,5,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2015
+Mike Zunica,mike-zunica-1,/cfb/players/mike-zunica-1.html,LB,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2015
+Matthew Wyman,matthew-wyman-1,/cfb/players/matthew-wyman-1.html,K,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2015
+Larry Hughes,larry-hughes-1,/cfb/players/larry-hughes-1.html,OL,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2015
+Jordan Goldenberg,jordan-goldenberg-1,/cfb/players/jordan-goldenberg-1.html,LS,7,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2015
+John Wirtel,john-wirtel-1,/cfb/players/john-wirtel-1.html,LS,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2015
+Hudson Hall,hudson-hall-1,/cfb/players/hudson-hall-1.html,LB,7,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2015

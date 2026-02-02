@@ -1,0 +1,48 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Greg Eisworth,greg-eisworth-1,/cfb/players/greg-eisworth-1.html,DB,12,56,31,87,4.0,1.0,1,37,37.0,0,5,0,0,0,2,,Iowa State,2018
+Willie Harvey,willie-harvey-1,/cfb/players/willie-harvey-1.html,LB,13,46,30,76,9.0,3.5,0,0,,0,3,1,0,0,2,,Iowa State,2018
+Mike Rose,mike-rose-5,/cfb/players/mike-rose-5.html,LB,13,41,34,75,9.0,1.5,0,0,,0,2,1,21,1,0,,Iowa State,2018
+Braxton Lewis,braxton-lewis-1,/cfb/players/braxton-lewis-1.html,DB,13,40,30,70,4.0,1.0,3,0,0.0,0,2,0,0,0,0,,Iowa State,2018
+Marcel Spears Jr.,marcel-spears-jr-1,/cfb/players/marcel-spears-jr-1.html,LB,13,44,25,69,8.0,2.5,2,53,26.5,1,3,1,0,0,0,,Iowa State,2018
+Brian Peavy,brian-peavy-1,/cfb/players/brian-peavy-1.html,DB,13,41,16,57,4.0,1.0,1,19,19.0,0,8,1,0,0,3,,Iowa State,2018
+Lawrence White,lawrence-white-3,/cfb/players/lawrence-white-3.html,DB,11,36,14,50,2.5,1.0,0,0,,0,1,0,0,0,0,,Iowa State,2018
+JaQuan Bailey,jaquan-bailey-1,/cfb/players/jaquan-bailey-1.html,DE,13,16,30,46,14.5,8.0,0,0,,0,5,1,0,0,1,,Iowa State,2018
+D'Andre Payne,dandre-payne-1,/cfb/players/dandre-payne-1.html,DB,11,29,9,38,1.5,1.0,1,0,0.0,0,5,0,0,0,1,,Iowa State,2018
+Ray Lima,ray-lima-1,/cfb/players/ray-lima-1.html,DL,12,15,19,34,3.5,0.0,0,0,,0,1,0,0,0,0,,Iowa State,2018
+Jake Hummel,jake-hummel-1,/cfb/players/jake-hummel-1.html,LB,13,26,5,31,3.5,1.0,0,0,,0,0,0,0,0,0,,Iowa State,2018
+Anthony Johnson,anthony-johnson-15,/cfb/players/anthony-johnson-15.html,DB,12,22,6,28,1.0,0.0,0,0,,0,5,0,0,0,0,,Iowa State,2018
+De'Monte Ruth,demonte-ruth-1,/cfb/players/demonte-ruth-1.html,DB,13,17,10,27,0.0,0.0,0,0,,0,2,0,0,0,1,,Iowa State,2018
+Eyioma Uwazurike,eyioma-uwzurike-1,/cfb/players/eyioma-uwzurike-1.html,DE,9,12,15,27,5.0,1.0,0,0,,0,0,0,0,0,0,,Iowa State,2018
+Reggan Northrup,reggan-northrup-1,/cfb/players/reggan-northrup-1.html,LB,13,15,12,27,0.0,0.0,0,0,,0,0,0,0,0,0,,Iowa State,2018
+O'Rien Vance,orien-vance-1,/cfb/players/orien-vance-1.html,LB,11,14,10,24,4.5,1.5,0,0,,0,0,1,0,0,0,,Iowa State,2018
+Matt Leo,matt-leo-2,/cfb/players/matt-leo-2.html,DE,13,13,6,19,6.0,2.0,0,0,,0,0,0,0,0,0,,Iowa State,2018
+Spencer Benton,spencer-benton-2,/cfb/players/spencer-benton-2.html,DE,13,11,6,17,4.0,3.0,0,0,,0,0,0,0,0,0,,Iowa State,2018
+Jatairis Grant,jatairis-grant-1,/cfb/players/jatairis-grant-1.html,DB,13,7,8,15,0.0,0.0,0,0,,0,0,0,0,0,0,,Iowa State,2018
+Jamahl Johnson,jamahl-johnson-1,/cfb/players/jamahl-johnson-1.html,DL,13,6,7,13,3.0,2.0,0,0,,0,0,1,11,0,0,,Iowa State,2018
+Datrone Young,datrone-young-1,/cfb/players/datrone-young-1.html,DB,8,10,2,12,0.0,0.0,0,0,,0,2,0,0,0,0,,Iowa State,2018
+Arnold Azunna,arnold-azunna-1,/cfb/players/arnold-azunna-1.html,DB,5,8,0,8,0.0,0.0,0,0,,0,1,0,0,0,0,,Iowa State,2018
+Chima Azunna,chima-azunna-1,/cfb/players/chima-azunna-1.html,,11,8,0,8,0.0,0.0,0,0,,0,1,0,0,0,0,,Iowa State,2018
+Richard Bowens III,richard-bowens-iii-1,/cfb/players/richard-bowens-iii-1.html,DB,12,4,2,6,0.0,0.0,0,0,,0,1,1,2,0,0,,Iowa State,2018
+Zach Petersen,zach-petersen-1,/cfb/players/zach-petersen-1.html,DE,7,1,3,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Iowa State,2018
+Dylan Soehner,dylan-soehner-1,/cfb/players/dylan-soehner-1.html,TE,13,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Iowa State,2018
+Will McDonald,will-mcdonald-1,/cfb/players/will-mcdonald-1.html,DE,4,3,0,3,1.0,1.0,0,0,,0,0,0,0,0,1,,Iowa State,2018
+Rory Walling,rory-walling-1,/cfb/players/rory-walling-1.html,LB,2,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Iowa State,2018
+Cordarrius Bailey,cordarrius-bailey-1,/cfb/players/cordarrius-bailey-1.html,LB,13,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Iowa State,2018
+Kamilo Tongamoa,kamilo-tongamoa-1,/cfb/players/kamilo-tongamoa-1.html,DL,9,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Iowa State,2018
+Chris Francis,chris-francis-2,/cfb/players/chris-francis-2.html,PK,12,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Iowa State,2018
+Steve Wirtel,steve-wirtel-1,/cfb/players/steve-wirtel-1.html,,13,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Iowa State,2018
+Tarique Milton,tarique-milton-1,/cfb/players/tarique-milton-1.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Iowa State,2018
+Sheldon Croney Jr.,sheldon-croney-jr-1,/cfb/players/sheldon-croney-jr-1.html,RB,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Iowa State,2018
+Tucker Robertson,tucker-robertson-1,/cfb/players/tucker-robertson-1.html,DL,11,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Iowa State,2018
+Amechie Walker,amechie-walker-1,/cfb/players/amechie-walker-1.html,WR,8,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Iowa State,2018
+Zach Silbermann,zach-silbermann-1,/cfb/players/zach-silbermann-1.html,TE,2,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Iowa State,2018
+Peyton Paddock,peyton-paddock-1,/cfb/players/peyton-paddock-1.html,PK,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Iowa State,2018
+Landen Akers,landen-akers-1,/cfb/players/landen-akers-1.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Iowa State,2018
+Keontae Jones,keontae-jones-1,/cfb/players/keontae-jones-1.html,DB,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Iowa State,2018
+Josh Knipfel,josh-knipfel-1,/cfb/players/josh-knipfel-1.html,OL,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Iowa State,2018
+Johnnie Lang,johnnie-lang-1,/cfb/players/johnnie-lang-1.html,RB,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Iowa State,2018
+Jared Gescheidler,jared-gescheidler-1,/cfb/players/jared-gescheidler-1.html,LB,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Iowa State,2018
+Hakeem Butler,hakeem-butler-1,/cfb/players/hakeem-butler-1.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Iowa State,2018
+Deshaunte Jones,deshaunte-jones-1,/cfb/players/deshaunte-jones-1.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Iowa State,2018
+Conner Greene,conner-greene-1,/cfb/players/conner-greene-1.html,DE,5,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Iowa State,2018
+Charlie Kolar,charlie-kolar-1,/cfb/players/charlie-kolar-1.html,TE,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Iowa State,2018

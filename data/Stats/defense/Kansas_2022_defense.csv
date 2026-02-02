@@ -1,0 +1,48 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Kenny Logan Jr.,kenny-logan-jr-1,/cfb/players/kenny-logan-jr-1.html,S,13,72,34,106,1.5,0.0,2,43,21.5,0,5,1,0,0,1,,Kansas,2022
+Rich Miller,rich-miller-3,/cfb/players/rich-miller-3.html,LB,13,56,38,94,3.0,1.0,1,37,37.0,0,0,0,0,0,0,,Kansas,2022
+Craig Young,craig-young-2,/cfb/players/craig-young-2.html,S,13,42,18,60,5.5,4.5,1,13,13.0,0,3,0,0,0,1,,Kansas,2022
+Lonnie Phelps,lonnie-phelps-1,/cfb/players/lonnie-phelps-1.html,DL,13,45,12,57,11.5,7.0,0,0,,0,1,0,0,0,1,,Kansas,2022
+Ra'Mello Dotson,ramello-dotson-1,/cfb/players/ramello-dotson-1.html,CB,13,41,13,54,1.0,0.0,2,18,9.0,0,6,0,0,0,0,,Kansas,2022
+Marvin Grant,marvin-grant-1,/cfb/players/marvin-grant-1.html,S,13,34,18,52,2.0,0.0,0,0,,0,1,0,0,0,1,,Kansas,2022
+Lorenzo McCaskill,lorenzo-mccaskill-1,/cfb/players/lorenzo-mccaskill-1.html,LB,13,32,18,50,0.5,0.0,0,0,,0,1,1,0,0,0,,Kansas,2022
+O.J. Burroughs,oj-burroughs-1,/cfb/players/oj-burroughs-1.html,S,13,38,11,49,0.5,0.0,2,0,0.0,0,3,0,0,0,1,,Kansas,2022
+Taiwan Berryhill,taiwan-berryhill-1,/cfb/players/taiwan-berryhill-1.html,LB,13,28,18,46,6.0,2.0,0,0,,0,1,0,0,0,0,,Kansas,2022
+Cobee Bryant,jacobee-bryant-1,/cfb/players/jacobee-bryant-1.html,CB,12,32,6,38,0.5,0.0,3,86,28.7,1,9,1,37,0,1,,Kansas,2022
+Jereme Robinson,jereme-robinson-1,/cfb/players/jereme-robinson-1.html,DE,13,22,12,34,8.5,3.0,0,0,,0,0,2,49,0,2,,Kansas,2022
+Malcolm Lee,malcolm-lee-1,/cfb/players/malcolm-lee-1.html,DL,13,19,12,31,3.5,1.0,0,0,,0,2,0,0,0,0,,Kansas,2022
+Caleb Sampson,caleb-sampson-1,/cfb/players/caleb-sampson-1.html,DL,13,14,12,26,4.0,2.5,0,0,,0,2,1,0,0,0,,Kansas,2022
+Eriq Gilyard,eriq-gilyard-1,/cfb/players/eriq-gilyard-1.html,LB,12,18,6,24,2.0,0.0,1,11,11.0,0,1,0,0,0,0,,Kansas,2022
+Hayden Hatcher,hayden-hatcher-1,/cfb/players/hayden-hatcher-1.html,DE,13,9,12,21,2.0,0.5,0,0,,0,1,2,0,0,0,,Kansas,2022
+Kalon Gervin,kalon-gervin-1,/cfb/players/kalon-gervin-1.html,DB,13,17,4,21,1.0,0.0,0,0,,0,4,0,0,0,0,,Kansas,2022
+Eddie Wilson,eddie-wilson-2,/cfb/players/eddie-wilson-2.html,DL,13,9,11,20,1.5,0.0,0,0,,0,1,0,0,0,0,,Kansas,2022
+Sam Burt,sam-burt-2,/cfb/players/sam-burt-2.html,DL,13,11,7,18,1.5,1.5,0,0,,0,0,0,0,0,0,,Kansas,2022
+Caleb Taylor,caleb-taylor-3,/cfb/players/caleb-taylor-3.html,DL,11,2,7,9,1.0,0.5,0,0,,0,0,0,0,0,0,,Kansas,2022
+Tommy Dunn Jr.,tommy-dunn-jr-1,/cfb/players/tommy-dunn-jr-1.html,DL,13,7,2,9,1.5,0.5,0,0,,0,0,0,0,0,0,,Kansas,2022
+Zion Debose,zion-debose-1,/cfb/players/zion-debose-1.html,DE,11,6,2,8,1.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2022
+D.J. Withers,dj-withers-1,/cfb/players/dj-withers-1.html,DL,13,4,2,6,1.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2022
+Andrew Russell,andrew-russell-1,/cfb/players/andrew-russell-1.html,DB,12,5,0,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2022
+Gavin Potter,gavin-potter-1,/cfb/players/gavin-potter-1.html,LB,4,3,2,5,0.5,0.0,0,0,,0,1,0,0,0,0,,Kansas,2022
+Torry Locklin,torry-locklin-1,/cfb/players/torry-locklin-1.html,WR,13,4,1,5,0.0,0.0,0,0,,0,0,2,0,0,0,,Kansas,2022
+Jarrett Paul,jarrett-paul-1,/cfb/players/jarrett-paul-1.html,S,4,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2022
+Dylan Downing,dylan-downing-1,/cfb/players/dylan-downing-1.html,LB,12,4,0,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2022
+Donovan Gaines,donovan-gaines-1,/cfb/players/donovan-gaines-1.html,LB,12,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2022
+Kwinton Lassiter,kwinton-lassiter-1,/cfb/players/kwinton-lassiter-1.html,CB,13,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2022
+Cam'Ron Dabney,camron-dabney-1,/cfb/players/camron-dabney-1.html,CB,12,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2022
+Edwin White-Schultz,edwin-white-schultz-1,/cfb/players/edwin-white-schultz-1.html,S,3,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2022
+Jared Casey,jared-casey-2,/cfb/players/jared-casey-2.html,TE,13,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2022
+Quentin Skinner,quentin-skinner-2,/cfb/players/quentin-skinner-2.html,WR,13,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2022
+Davion Westmoreland,davion-westmoreland-1,/cfb/players/davion-westmoreland-1.html,DE,3,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2022
+Earl Bostick Jr.,earl-bostick-jr-1,/cfb/players/earl-bostick-jr-1.html,OL,13,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2022
+Kelan Robinson,kelan-robinson-1,/cfb/players/kelan-robinson-1.html,WR,10,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2022
+Tristian Fletcher,tristian-fletcher-1,/cfb/players/tristian-fletcher-1.html,LB,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2022
+Jelani Arnold,jelani-arnold-1,/cfb/players/jelani-arnold-1.html,DL,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2022
+Tabor Allen,tabor-allen-1,/cfb/players/tabor-allen-1.html,K,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2022
+Monte' McGary,monte-mcgary-1,/cfb/players/monte-mcgary-1.html,DB,8,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2022
+Mason Fairchild,mason-fairchild-1,/cfb/players/mason-fairchild-1.html,TE,13,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2022
+Landon Nelson,landon-nelson-1,/cfb/players/landon-nelson-1.html,S,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2022
+D'Marion Alexander,dmarion-alexander-1,/cfb/players/dmarion-alexander-1.html,DE,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2022
+Devin Neal,devin-neal-3,/cfb/players/devin-neal-3.html,RB,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2022
+Dean Miller,dean-miller-1,/cfb/players/dean-miller-1.html,DE,3,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2022
+Cole Petrus,cole-petrus-1,/cfb/players/cole-petrus-1.html,DE,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2022
+Brian Dilworth,brian-dilworth-1,/cfb/players/brian-dilworth-1.html,CB,2,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2022

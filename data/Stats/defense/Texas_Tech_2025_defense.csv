@@ -1,0 +1,50 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Jacob Rodriguez,jacob-rodriguez-1,/cfb/players/jacob-rodriguez-1.html,LB,14,63,65,128,11.0,1.0,4,41,10.3,0,6,2,69,1,7,"H-5,Nagurski,Bednarik,AA",Texas Tech,2025
+Ben Roberts,ben-roberts-2,/cfb/players/ben-roberts-2.html,LB,14,44,46,90,4.0,0.0,4,38,9.5,0,6,1,0,0,2,,Texas Tech,2025
+Cole Wisniewski,cole-wisniewski-1,/cfb/players/cole-wisniewski-1.html,S,14,38,40,78,6.0,1.0,0,0,,0,6,1,0,0,2,,Texas Tech,2025
+John Curry,john-curry-1,/cfb/players/john-curry-1.html,LB,14,36,36,72,3.5,0.5,0,0,,0,4,2,10,1,1,,Texas Tech,2025
+Brenden Jordan,brenden-jordan-1,/cfb/players/brenden-jordan-1.html,DB,14,38,21,59,2.0,0.0,1,0,0.0,0,1,0,0,0,1,,Texas Tech,2025
+David Bailey,david-bailey-5,/cfb/players/david-bailey-5.html,LB,14,32,20,52,19.5,14.5,0,0,,0,3,1,0,0,3,AA,Texas Tech,2025
+Brice Pollock,brice-pollock-1,/cfb/players/brice-pollock-1.html,CB,14,30,18,48,4.0,0.0,5,6,1.2,0,8,1,0,0,0,,Texas Tech,2025
+Lee Hunter,lee-hunter-1,/cfb/players/lee-hunter-1.html,DT,14,16,25,41,10.5,2.5,0,0,,0,0,0,0,0,1,,Texas Tech,2025
+Romello Height,romello-height-1,/cfb/players/romello-height-1.html,DE,14,21,17,38,11.5,10.0,0,0,,0,1,1,0,0,2,,Texas Tech,2025
+Anthony Holmes Jr.,anthony-holmes-jr-1,/cfb/players/anthony-holmes-jr-1.html,DL,14,19,19,38,9.0,4.5,0,0,,0,4,2,0,0,1,,Texas Tech,2025
+Amir Boyd-Matthews,amir-boyd-matthews-1,/cfb/players/amir-boyd-matthews-1.html,CB,13,22,5,27,2.0,0.0,2,74,37.0,0,7,0,0,0,0,,Texas Tech,2025
+Jayden Cofield,jayden-cofield-1,/cfb/players/jayden-cofield-1.html,DL,14,8,16,24,3.5,0.5,0,0,,0,0,1,0,0,0,,Texas Tech,2025
+Dontae Balfour,dontae-balfour-1,/cfb/players/dontae-balfour-1.html,DB,13,14,9,23,0.5,0.0,0,0,,0,5,0,0,0,0,,Texas Tech,2025
+Bryce Ramirez,bryce-ramirez-1,/cfb/players/bryce-ramirez-1.html,LB,14,15,7,22,1.0,1.0,0,0,,0,0,1,0,0,1,,Texas Tech,2025
+Aj McCarty,aj-mccarty-1,/cfb/players/aj-mccarty-1.html,DB,14,14,6,20,2.0,0.0,0,0,,0,1,0,0,0,0,,Texas Tech,2025
+Brock Golwas,brock-golwas-1,/cfb/players/brock-golwas-1.html,LB,14,7,9,16,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas Tech,2025
+Skyler Gill-Howard,skyler-gill-howard-1,/cfb/players/skyler-gill-howard-1.html,DT,6,9,4,13,2.5,0.5,1,55,55.0,1,1,0,0,0,0,,Texas Tech,2025
+E'Maurion Banks,emaurion-banks-1,/cfb/players/emaurion-banks-1.html,DL,13,6,6,12,3.0,3.0,0,0,,0,1,0,0,0,1,,Texas Tech,2025
+Peyton Morgan,peyton-morgan-1,/cfb/players/peyton-morgan-1.html,DB,12,5,6,11,0.5,0.0,0,0,,0,3,0,0,0,0,,Texas Tech,2025
+Charles Esters III,charles-esters-iii-1,/cfb/players/charles-esters-iii-1.html,DL,12,3,7,10,3.0,0.0,0,0,,0,2,1,0,0,0,,Texas Tech,2025
+Terrell Tilmon,terrell-tilmon-1,/cfb/players/terrell-tilmon-1.html,LB,13,7,2,9,2.0,1.0,0,0,,0,0,0,0,0,0,,Texas Tech,2025
+Malik Esquerra,malik-esquerra-1,/cfb/players/malik-esquerra-1.html,DB,14,5,3,8,0.0,0.0,0,0,,0,1,0,0,0,0,,Texas Tech,2025
+Amier Washington,amier-washington-1,/cfb/players/amier-washington-1.html,DL,12,2,5,7,1.0,0.0,0,0,,0,0,0,0,0,0,,Texas Tech,2025
+Braylon Rigsby,braylon-rigsby-1,/cfb/players/braylon-rigsby-1.html,DL,14,4,2,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas Tech,2025
+Ashton Hampton,ashton-hampton-1,/cfb/players/ashton-hampton-1.html,DB,13,4,2,6,0.0,0.0,0,0,,0,2,1,0,0,0,,Texas Tech,2025
+Oliver Miles III,oliver-miles-iii-1,/cfb/players/oliver-miles-iii-1.html,RB,14,1,4,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas Tech,2025
+Trent Low,trent-low-1,/cfb/players/trent-low-1.html,LB,14,4,1,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas Tech,2025
+Wesley Smith,wesley-smith-2,/cfb/players/wesley-smith-2.html,LB,14,4,1,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas Tech,2025
+Maurion Horn,maurion-horn-1,/cfb/players/maurion-horn-1.html,DB,7,3,1,4,0.0,0.0,0,0,,0,3,0,0,0,0,,Texas Tech,2025
+Tanner Allen,tanner-allen-1,/cfb/players/tanner-allen-1.html,DL,5,3,0,3,1.0,0.0,0,0,,0,0,0,0,0,0,,Texas Tech,2025
+Tarrion Grant,tarrion-grant-1,/cfb/players/tarrion-grant-1.html,DB,6,3,0,3,0.0,0.0,0,0,,0,1,0,0,0,0,,Texas Tech,2025
+Gage Elder,gage-elder-1,/cfb/players/gage-elder-1.html,LB,14,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas Tech,2025
+Ansel Nedore,ansel-nedore-1,/cfb/players/ansel-nedore-1.html,DL,14,1,1,2,1.0,1.0,0,0,,0,0,0,0,0,0,,Texas Tech,2025
+Cheta Ofili,cheta-ofili-1,/cfb/players/cheta-ofili-1.html,LB,9,1,1,2,1.0,0.0,0,0,,0,0,0,0,0,0,,Texas Tech,2025
+Dylan Spencer,dylan-spencer-3,/cfb/players/dylan-spencer-3.html,LB,3,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas Tech,2025
+Sheridan Wilson,sheridan-wilson-1,/cfb/players/sheridan-wilson-1.html,OL,14,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas Tech,2025
+Will Hammond,will-hammond-1,/cfb/players/will-hammond-1.html,QB,8,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas Tech,2025
+Behren Morton,behren-morton-1,/cfb/players/behren-morton-1.html,QB,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,1,,Texas Tech,2025
+Charles Anderson Jr.,charles-anderson-jr-1,/cfb/players/charles-anderson-jr-1.html,LB,4,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas Tech,2025
+Chief Collins,chief-collins-1,/cfb/players/chief-collins-1.html,DB,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas Tech,2025
+Stone Harrington,stone-harrington-1,/cfb/players/stone-harrington-1.html,K,14,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas Tech,2025
+Daniel Sill,daniel-sill-1,/cfb/players/daniel-sill-1.html,OL,14,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas Tech,2025
+Luke Dillingham,luke-dillingham-1,/cfb/players/luke-dillingham-1.html,DB,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas Tech,2025
+Reginald Virgil,reginald-virgil-1,/cfb/players/reginald-virgil-1.html,WR,14,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas Tech,2025
+Eddy Smith,eddy-smith-1,/cfb/players/eddy-smith-1.html,LB,3,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas Tech,2025
+Jacob Ponton,jacob-ponton-1,/cfb/players/jacob-ponton-1.html,OL,14,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas Tech,2025
+Kasen Long,kasen-long-1,/cfb/players/kasen-long-1.html,LB,2,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas Tech,2025
+Marquez Stevenson,marquez-stevenson-2,/cfb/players/marquez-stevenson-2.html,DB,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas Tech,2025
+Leyton Stone,leyton-stone-1,/cfb/players/leyton-stone-1.html,WR,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas Tech,2025

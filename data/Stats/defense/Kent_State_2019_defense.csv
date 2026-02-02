@@ -1,0 +1,43 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Manny Lawrence-Burke,manny-lawrence-burke-1,/cfb/players/manny-lawrence-burke-1.html,LB,13,52,52,104,5.5,4.0,1,1,1.0,0,2,1,0,0,1,,Kent State,2019
+Cepeda Phillips,cepeda-phillips-1,/cfb/players/cepeda-phillips-1.html,LB,13,40,53,93,6.5,2.0,0,0,,0,0,0,0,0,0,,Kent State,2019
+Keith Sherald Jr.,keith-sherald-1,/cfb/players/keith-sherald-1.html,CB,13,53,33,86,6.0,0.0,3,0,0.0,0,6,0,0,0,1,,Kent State,2019
+Nick Faulkner,nick-faulkner-1,/cfb/players/nick-faulkner-1.html,LB,13,39,41,80,3.5,1.0,0,0,,0,2,0,0,0,0,,Kent State,2019
+Qwuantrezz Knight,qwuantrezz-knight-1,/cfb/players/qwuantrezz-knight-1.html,DB,11,46,28,74,10.5,1.5,0,0,,0,2,0,0,0,1,,Kent State,2019
+Matt Bahr,matt-bahr-3,/cfb/players/matt-bahr-3.html,LB,11,36,26,62,3.0,0.5,0,0,,0,0,2,0,0,0,,Kent State,2019
+Jamal Parker,jamal-parker-1,/cfb/players/jamal-parker-1.html,CB,13,43,19,62,0.0,0.0,3,21,7.0,0,10,0,0,0,0,,Kent State,2019
+Elvis Hines,elvis-hines-1,/cfb/players/elvis-hines-1.html,S,13,41,17,58,1.0,1.0,0,0,,0,7,1,0,0,0,,Kent State,2019
+Kesean Gamble,kesean-gamble-1,/cfb/players/kesean-gamble-1.html,LB,13,28,25,53,4.5,2.5,0,0,,0,0,1,0,0,0,,Kent State,2019
+Zayin West,zayin-west-1,/cfb/players/zayin-west-1.html,DE,13,20,30,50,4.0,2.5,0,0,,0,0,0,0,0,1,,Kent State,2019
+Akeam Peters,akeam-peters-1,/cfb/players/akeam-peters-1.html,S,13,33,12,45,2.0,0.0,0,0,,0,1,0,0,0,2,,Kent State,2019
+Theo Majette,theo-majette-1,/cfb/players/theo-majette-1.html,DL,13,24,16,40,8.5,5.5,0,0,,0,0,0,0,0,1,,Kent State,2019
+Jeremiah Salaam,jeremiah-salaam-1,/cfb/players/jeremiah-salaam-1.html,CB,10,19,12,31,0.5,0.0,0,0,,0,2,0,0,0,0,,Kent State,2019
+Dominic Hill,dominic-hill-1,/cfb/players/dominic-hill-1.html,NT,8,12,8,20,3.0,0.5,0,0,,0,0,1,0,0,0,,Kent State,2019
+Alex Hoag,alex-hoag-1,/cfb/players/alex-hoag-1.html,DE,13,9,10,19,2.5,1.0,0,0,,0,1,1,0,0,0,,Kent State,2019
+Miles Daniel,miles-daniel-1,/cfb/players/miles-daniel-1.html,CB,12,8,3,11,0.0,0.0,0,0,,0,0,0,0,0,0,,Kent State,2019
+Jabbar Price,jabbar-price-1,/cfb/players/jabbar-price-1.html,DL,13,4,6,10,0.0,0.0,0,0,,0,0,1,0,0,0,,Kent State,2019
+A.J. Musolino,aj-musolino-1,/cfb/players/aj-musolino-1.html,LB,11,8,2,10,0.0,0.0,0,0,,0,0,0,0,0,0,,Kent State,2019
+Quentin Jones,quentin-jones-1,/cfb/players/quentin-jones-1.html,DT,7,5,5,10,0.0,0.0,0,0,,0,0,0,0,0,0,,Kent State,2019
+Mario Nunez,mario-nunez-1,/cfb/players/mario-nunez-1.html,DB,5,6,4,10,0.0,0.0,0,0,,0,0,1,0,0,1,,Kent State,2019
+Buddha Jones,buddha-jones-1,/cfb/players/buddha-jones-1.html,,12,5,5,10,0.0,0.0,0,0,,0,0,0,0,0,0,,Kent State,2019
+Sekou Diaby,sekou-diaby-1,/cfb/players/sekou-diaby-1.html,DL,11,8,2,10,3.0,2.0,0,0,,0,0,0,0,0,0,,Kent State,2019
+Montre Miller,montre-miller-1,/cfb/players/montre-miller-1.html,CB,8,6,3,9,0.0,0.0,0,0,,0,0,0,0,0,0,,Kent State,2019
+Will Burns,will-burns-1,/cfb/players/will-burns-1.html,DL,8,4,3,7,1.0,0.0,0,0,,0,0,0,0,0,0,,Kent State,2019
+Dean Clark,dean-clark-1,/cfb/players/dean-clark-1.html,S,13,6,0,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Kent State,2019
+John Schmidt,john-schmidt-1,/cfb/players/john-schmidt-1.html,DB,3,4,1,5,2.0,1.0,0,0,,0,0,0,0,0,0,,Kent State,2019
+Xavier Williams,xavier-williams-2,/cfb/players/xavier-williams-2.html,RB,11,2,3,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Kent State,2019
+Matthew Trickett,matthew-trickett-1,/cfb/players/matthew-trickett-1.html,K,13,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Kent State,2019
+Joey Palumbo,joey-palumbo-1,/cfb/players/joey-palumbo-1.html,LS,12,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Kent State,2019
+Matt Harmon,matt-harmon-3,/cfb/players/matt-harmon-3.html,LB,7,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Kent State,2019
+Matt Bell,matt-bell-3,/cfb/players/matt-bell-3.html,DL,5,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Kent State,2019
+Richie Carpenter Jr.,richie-carpenter-jr-1,/cfb/players/richie-carpenter-jr-1.html,DB,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Kent State,2019
+Sebastian Spear,sebastian-spear-1,/cfb/players/sebastian-spear-1.html,LB,5,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Kent State,2019
+Jaylen DeCoteau,jaylen-decoteau-1,/cfb/players/jaylen-decoteau-1.html,DB,2,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Kent State,2019
+Mike Carrigan,mike-carrigan-1,/cfb/players/mike-carrigan-1.html,WR,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kent State,2019
+Isaac Vance,isaac-vance-1,/cfb/players/isaac-vance-1.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,1,0,0,0,,Kent State,2019
+Adam Dulka,adam-dulka-2,/cfb/players/adam-dulka-2.html,TE,6,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kent State,2019
+Raymond James,raymond-james-1,/cfb/players/raymond-james-1.html,WR,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kent State,2019
+John Bronczek,john-bronczek-1,/cfb/players/john-bronczek-1.html,S,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kent State,2019
+Woody Barrett,woody-barrett-2,/cfb/players/woody-barrett-2.html,QB,9,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kent State,2019
+Adam Dulka,adam-dulka-1,/cfb/players/adam-dulka-1.html,,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kent State,2019
+Kavious Price,kavious-price-1,/cfb/players/kavious-price-1.html,WR,13,0,0,0,0.0,0.0,0,0,,0,0,1,0,0,0,,Kent State,2019

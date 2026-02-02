@@ -1,0 +1,51 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+C.J. Allen,cj-allen-1,/cfb/players/cj-allen-1.html,LB,13,47,41,88,8.0,3.5,0,0,,0,4,1,0,0,2,,Georgia,2025
+KJ Bolden,kj-bolden-1,/cfb/players/kj-bolden-1.html,DB,14,32,44,76,2.5,0.0,2,0,0.0,0,5,1,0,0,0,,Georgia,2025
+Raylen Wilson,raylen-wilson-1,/cfb/players/raylen-wilson-1.html,LB,14,30,44,74,6.5,2.5,0,0,,0,1,0,0,0,0,,Georgia,2025
+Chris Cole,chris-cole-3,/cfb/players/chris-cole-3.html,LB,14,35,24,59,7.0,4.5,0,0,,0,2,0,0,0,0,,Georgia,2025
+Daylen Everette,daylen-everette-1,/cfb/players/daylen-everette-1.html,DB,13,29,21,50,0.0,0.0,1,30,30.0,0,10,1,0,1,0,,Georgia,2025
+JaCorey Thomas,jacorey-thomas-1,/cfb/players/jacorey-thomas-1.html,DB,14,26,19,45,1.0,1.0,0,0,,0,0,0,0,0,0,,Georgia,2025
+Joenel Aguero,joenel-aguero-1,/cfb/players/joenel-aguero-1.html,DB,12,22,17,39,0.5,0.0,1,0,0.0,0,3,0,0,0,0,,Georgia,2025
+Justin Williams,justin-williams-8,/cfb/players/justin-williams-8.html,LB,14,17,19,36,4.0,0.0,0,0,,0,1,0,0,0,0,,Georgia,2025
+Quintavius Johnson,quintavius-johnson-1,/cfb/players/quintavius-johnson-1.html,LB,14,21,14,35,6.0,2.0,0,0,,0,5,0,0,0,1,,Georgia,2025
+Zion Branch,zion-branch-1,/cfb/players/zion-branch-1.html,S,11,19,8,27,1.0,0.0,0,0,,0,2,0,0,0,0,,Georgia,2025
+Gabe Harris Jr.,gabe-harris-jr-1,/cfb/players/gabe-harris-jr-1.html,LB,13,11,15,26,6.5,1.0,0,0,,0,0,0,0,0,0,,Georgia,2025
+Demello Jones,demello-jones-1,/cfb/players/demello-jones-1.html,DB,12,19,5,24,0.5,0.0,0,0,,0,5,0,0,0,0,,Georgia,2025
+Kyron Jones,kyron-jones-1,/cfb/players/kyron-jones-1.html,DB,6,13,11,24,0.0,0.0,0,0,,0,0,1,0,0,0,,Georgia,2025
+Christen Miller,christen-miller-1,/cfb/players/christen-miller-1.html,DL,14,10,13,23,4.0,1.5,0,0,,0,0,0,0,0,0,,Georgia,2025
+Elijah Griffin,elijah-griffin-1,/cfb/players/elijah-griffin-1.html,DL,14,14,8,22,2.5,1.0,0,0,,0,1,0,0,0,1,,Georgia,2025
+Ellis Robinson IV,ellis-robinson-iv-1,/cfb/players/ellis-robinson-iv-1.html,DB,14,13,7,20,0.5,0.0,4,0,0.0,0,7,0,0,0,0,,Georgia,2025
+Xzavier McLeod,xzavier-mcleod-1,/cfb/players/xzavier-mcleod-1.html,DT,14,8,9,17,0.0,0.0,0,0,,0,2,0,0,0,0,,Georgia,2025
+Rasean Dinkins,rasean-dinkins-1,/cfb/players/rasean-dinkins-1.html,DB,13,8,5,13,1.0,0.0,0,0,,0,0,0,0,0,0,,Georgia,2025
+Jordan Hall,jordan-hall-4,/cfb/players/jordan-hall-4.html,DL,8,3,9,12,2.0,0.0,0,0,,0,0,0,0,0,0,,Georgia,2025
+Josh Horton,josh-horton-1,/cfb/players/josh-horton-1.html,DL,14,4,7,11,0.0,0.0,0,0,,0,1,0,0,0,0,,Georgia,2025
+Nnamdi Ogboko,nnamdi-ogboko-1,/cfb/players/nnamdi-ogboko-1.html,DL,13,5,5,10,1.0,1.0,0,0,,0,0,0,0,0,0,,Georgia,2025
+Joseph Jonah-Ajonye,joseph-jonah-ajonye-1,/cfb/players/joseph-jonah-ajonye-1.html,DL,14,5,4,9,0.0,0.0,0,0,,0,1,0,0,0,0,,Georgia,2025
+Elo Modozie,elo-modozie-1,/cfb/players/elo-modozie-1.html,LB,13,4,3,7,0.5,0.0,0,0,,0,0,0,0,0,0,,Georgia,2025
+Kris Jones,kris-jones-1,/cfb/players/kris-jones-1.html,LB,14,1,6,7,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia,2025
+Daniel Harris,daniel-harris-2,/cfb/players/daniel-harris-2.html,DB,8,3,4,7,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia,2025
+Jaden Harris,jaden-harris-2,/cfb/players/jaden-harris-2.html,DB,9,3,3,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia,2025
+Zayden Walker,zayden-walker-1,/cfb/players/zayden-walker-1.html,LB,10,4,2,6,2.0,2.0,0,0,,0,0,0,0,0,1,,Georgia,2025
+Terrell Foster,terrell-foster-1,/cfb/players/terrell-foster-1.html,LB,14,4,1,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia,2025
+Adrian Maddox,adrian-maddox-1,/cfb/players/adrian-maddox-1.html,DB,4,4,0,4,1.0,0.0,0,0,,0,0,0,0,0,0,,Georgia,2025
+Cash Jones,cash-jones-1,/cfb/players/cash-jones-1.html,RB,14,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia,2025
+Dominick Kelly,dominick-kelly-1,/cfb/players/dominick-kelly-1.html,DB,10,2,1,3,0.0,0.0,0,0,,0,3,0,0,0,0,,Georgia,2025
+Talyn Taylor,talyn-taylor-1,/cfb/players/talyn-taylor-1.html,WR,6,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia,2025
+Darren Ikinnagbon,darren-ikinnagbon-1,/cfb/players/darren-ikinnagbon-1.html,LB,5,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia,2025
+Justin Greene,justin-greene-2,/cfb/players/justin-greene-2.html,DE,6,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia,2025
+JJ Hanne,jj-hanne-1,/cfb/players/jj-hanne-1.html,DL,14,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia,2025
+Jordan Thomas,jordan-thomas-9,/cfb/players/jordan-thomas-9.html,DL,5,1,1,2,1.0,0.0,0,0,,0,1,0,0,0,0,,Georgia,2025
+Nasir Johnson,nasir-johnson-1,/cfb/players/nasir-johnson-1.html,DL,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia,2025
+Juan Gaston Jr.,juan-gaston-jr-1,/cfb/players/juan-gaston-jr-1.html,OL,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia,2025
+Noah Thomas,noah-thomas-1,/cfb/players/noah-thomas-1.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia,2025
+Peyton Woodring,peyton-woodring-1,/cfb/players/peyton-woodring-1.html,K,14,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia,2025
+Clinton Barlow,clinton-barlow-1,/cfb/players/clinton-barlow-1.html,DL,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia,2025
+Chase Linton,chase-linton-1,/cfb/players/chase-linton-1.html,LB,4,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia,2025
+Beau Gardner,beau-gardner-1,/cfb/players/beau-gardner-1.html,LS,14,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia,2025
+Ryan Puglisi,ryan-puglisi-1,/cfb/players/ryan-puglisi-1.html,QB,7,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia,2025
+Sacovie White,sacovie-white-1,/cfb/players/sacovie-white-1.html,WR,14,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia,2025
+Cole Speer,cole-speer-1,/cfb/players/cole-speer-1.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia,2025
+Isaiah Gibson,isaiah-gibson-2,/cfb/players/isaiah-gibson-2.html,LB,3,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia,2025
+Drew Bobo,drew-bobo-1,/cfb/players/drew-bobo-1.html,OL,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia,2025
+Dillon Bell,dillon-bell-1,/cfb/players/dillon-bell-1.html,WR,14,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia,2025
+Daniel Okonkwo,daniel-okonkwo-1,/cfb/players/daniel-okonkwo-1.html,DB,1,0,0,0,0.0,0.0,1,0,0.0,0,0,0,0,0,0,,Georgia,2025

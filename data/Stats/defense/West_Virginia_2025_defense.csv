@@ -1,0 +1,56 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Fred Perry,fred-perry-1,/cfb/players/fred-perry-1.html,S,12,51,27,78,10.0,2.0,0,0,,0,3,2,0,0,2,,West Virginia,2025
+Darrian Lewis,darrian-lewis-1,/cfb/players/darrian-lewis-1.html,DB,12,45,30,75,1.0,0.0,2,41,20.5,0,0,0,0,0,1,,West Virginia,2025
+Reid Carrico,reid-carrico-1,/cfb/players/reid-carrico-1.html,LB,12,39,30,69,8.0,4.5,0,0,,0,1,1,0,0,0,,West Virginia,2025
+Chase Wilson,chase-wilson-2,/cfb/players/chase-wilson-2.html,LB,11,23,23,46,4.5,3.0,2,19,9.5,0,2,0,0,0,0,,West Virginia,2025
+Kekoura Tarnue,kekoura-tarnue-1,/cfb/players/kekoura-tarnue-1.html,S,12,25,15,40,4.0,0.0,0,0,,0,2,0,0,0,1,,West Virginia,2025
+Ben Cutter,ben-cutter-1,/cfb/players/ben-cutter-1.html,LB,12,16,22,38,3.5,1.0,2,6,3.0,0,1,1,0,0,0,,West Virginia,2025
+Ben Bogle,ben-bogle-1,/cfb/players/ben-bogle-1.html,LB,12,19,18,37,5.0,3.0,0,0,,0,0,0,0,0,1,,West Virginia,2025
+Jason Chambers,jason-chambers-1,/cfb/players/jason-chambers-1.html,DB,12,29,5,34,3.0,0.0,1,24,24.0,0,4,0,0,0,0,,West Virginia,2025
+Jordan Scruggs,jordan-scruggs-1,/cfb/players/jordan-scruggs-1.html,DB,12,22,11,33,0.5,0.0,1,80,80.0,1,2,0,0,0,1,,West Virginia,2025
+Derek Carter,derek-carter-5,/cfb/players/derek-carter-5.html,CB,11,21,10,31,2.0,0.0,1,20,20.0,0,4,0,0,0,1,,West Virginia,2025
+Michael Coats Jr.,michael-coats-jr-1,/cfb/players/michael-coats-jr-1.html,DB,12,22,8,30,2.0,0.0,0,0,,0,7,1,7,0,0,,West Virginia,2025
+Israel Boyce,israel-boyce-1,/cfb/players/israel-boyce-1.html,S,12,18,12,30,0.0,0.0,0,0,,0,1,0,0,0,1,,West Virginia,2025
+Edward Vesterinen,edward-vesterinen-1,/cfb/players/edward-vesterinen-1.html,DL,12,12,18,30,5.5,2.0,0,0,,0,0,1,5,0,0,,West Virginia,2025
+Eddie Kelly,eddie-kelly-1,/cfb/players/eddie-kelly-1.html,DL,12,6,19,25,1.5,0.5,0,0,,0,3,0,0,0,0,,West Virginia,2025
+Braden Siders,braden-siders-1,/cfb/players/braden-siders-1.html,DL,12,11,13,24,1.0,1.0,0,0,,0,1,1,0,0,2,,West Virginia,2025
+Asani Redwood,asani-redwood-1,/cfb/players/asani-redwood-1.html,DL,12,11,12,23,1.0,0.0,0,0,,0,1,0,0,0,0,,West Virginia,2025
+Curtis Jones Jr.,curtis-jones-jr-1,/cfb/players/curtis-jones-jr-1.html,LB,12,14,9,23,3.0,1.0,0,0,,0,2,0,0,0,1,,West Virginia,2025
+Nick Taylor,nick-taylor-2,/cfb/players/nick-taylor-2.html,CB,11,11,9,20,0.0,0.0,1,0,0.0,0,0,0,0,0,0,,West Virginia,2025
+Devin Grant,devin-grant-3,/cfb/players/devin-grant-3.html,DL,11,12,8,20,4.5,3.0,0,0,,0,1,0,0,0,1,,West Virginia,2025
+Ashton Woods,ashton-woods-1,/cfb/players/ashton-woods-1.html,LB,6,7,8,15,0.0,0.0,0,0,,0,0,0,0,0,0,,West Virginia,2025
+Marshon Oxley,marshon-oxley-1,/cfb/players/marshon-oxley-1.html,LB,11,11,4,15,5.0,2.0,0,0,,0,1,0,0,0,0,,West Virginia,2025
+Nate Gabriel,nate-gabriel-1,/cfb/players/nate-gabriel-1.html,DL,12,3,10,13,1.0,0.0,0,0,,0,1,0,0,0,0,,West Virginia,2025
+Hammond Russell IV,hammond-russell-iv-1,/cfb/players/hammond-russell-iv-1.html,DL,9,6,7,13,2.5,2.0,0,0,,0,0,0,0,0,1,,West Virginia,2025
+Keyshawn Robinson,keyshawn-robinson-1,/cfb/players/keyshawn-robinson-1.html,CB,12,9,4,13,0.0,0.0,0,0,,0,0,0,0,0,0,,West Virginia,2025
+Jordan Walker,jordan-walker-2,/cfb/players/jordan-walker-2.html,S,8,9,4,13,1.0,0.0,1,31,31.0,0,0,0,0,0,0,,West Virginia,2025
+Chris Fileppo,chris-fileppo-1,/cfb/players/chris-fileppo-1.html,S,12,8,4,12,1.0,0.0,0,0,,0,0,0,0,0,0,,West Virginia,2025
+John Lewis,john-lewis-7,/cfb/players/john-lewis-7.html,LB,7,8,3,11,3.0,2.0,0,0,,0,1,0,0,0,0,,West Virginia,2025
+Corey McIntyre Jr.,corey-mcintyre-jr-1,/cfb/players/corey-mcintyre-jr-1.html,DL,9,4,6,10,1.5,0.5,0,0,,0,0,0,0,0,0,,West Virginia,2025
+Jimmori Robinson,jimmori-robinson-1,/cfb/players/jimmori-robinson-1.html,LB,9,5,4,9,2.5,0.5,0,0,,0,1,1,0,0,0,,West Virginia,2025
+Caden Biser,caden-biser-1,/cfb/players/caden-biser-1.html,LB,10,5,4,9,1.0,0.0,0,0,,0,0,0,0,0,0,,West Virginia,2025
+Justin Harrington,justin-harrington-1,/cfb/players/justin-harrington-1.html,DB,8,5,2,7,0.0,0.0,0,0,,0,0,0,0,0,0,,West Virginia,2025
+Adam Tomczyk,adam-tomczyk-1,/cfb/players/adam-tomczyk-1.html,DL,9,0,3,3,0.5,0.0,0,0,,0,0,0,0,0,0,,West Virginia,2025
+Zae Jennings,zae-jennings-1,/cfb/players/zae-jennings-1.html,S,12,3,0,3,1.0,0.0,0,0,,0,0,0,0,0,0,,West Virginia,2025
+Tyrence Crutcher,tyrence-crutcher-1,/cfb/players/tyrence-crutcher-1.html,DB,10,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,West Virginia,2025
+Noah Braham,noah-braham-1,/cfb/players/noah-braham-1.html,TE,12,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,West Virginia,2025
+Jarel Williams,jarel-williams-1,/cfb/players/jarel-williams-1.html,WR,11,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,West Virginia,2025
+Jackson Biser,jackson-biser-1,/cfb/players/jackson-biser-1.html,DL,2,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,West Virginia,2025
+Nick Krahe,nick-krahe-1,/cfb/players/nick-krahe-1.html,OL,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,West Virginia,2025
+Macguire Moss,macguire-moss-1,/cfb/players/macguire-moss-1.html,LS,12,1,1,2,0.0,0.0,0,0,,0,0,1,0,0,0,,West Virginia,2025
+Ty'kieast Crawford,tykieast-crawford-1,/cfb/players/tykieast-crawford-1.html,OL,11,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,West Virginia,2025
+Tyler Jacklich,tyler-jacklich-2,/cfb/players/tyler-jacklich-2.html,RB,6,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,West Virginia,2025
+Quintin Goins,quintin-goins-1,/cfb/players/quintin-goins-1.html,DL,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,West Virginia,2025
+Justin Smith-Brown,justin-smith-brown-1,/cfb/players/justin-smith-brown-1.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,West Virginia,2025
+Ryan Ward,ryan-ward-2,/cfb/players/ryan-ward-2.html,TE,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,West Virginia,2025
+Nicco Marchiol,nicco-marchiol-1,/cfb/players/nicco-marchiol-1.html,QB,4,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,West Virginia,2025
+Landen Livington,landen-livington-1,/cfb/players/landen-livington-1.html,OL,11,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,West Virginia,2025
+Khalil Wilkins,khalil-wilkins-1,/cfb/players/khalil-wilkins-1.html,QB,6,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,West Virginia,2025
+Julien Horton,julien-horton-1,/cfb/players/julien-horton-1.html,S,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,West Virginia,2025
+Cam Torbor,cam-torbor-1,/cfb/players/cam-torbor-1.html,LB,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,West Virginia,2025
+Jeff Weimer,jeff-weimer-1,/cfb/players/jeff-weimer-1.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,West Virginia,2025
+Cam Vaughn,cam-vaughn-1,/cfb/players/cam-vaughn-1.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,West Virginia,2025
+Jarod Bowie,jarod-bowie-1,/cfb/players/jarod-bowie-1.html,WR,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,West Virginia,2025
+Jacob Barrick,jacob-barrick-1,/cfb/players/jacob-barrick-1.html,TE,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,West Virginia,2025
+ChaMarryus Bomar,chamarryus-bomar-1,/cfb/players/chamarryus-bomar-1.html,CB,2,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,West Virginia,2025
+Devonte Golden-Nelson,devonte-golden-nelson-1,/cfb/players/devonte-golden-nelson-1.html,DB,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,West Virginia,2025

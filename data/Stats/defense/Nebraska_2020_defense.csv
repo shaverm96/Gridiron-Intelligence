@@ -1,0 +1,37 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+JoJo Domann,jojo-domann-1,/cfb/players/jojo-domann-1.html,LB,8,35,23,58,6.5,0.0,0,0,,0,5,1,0,0,2,,Nebraska,2020
+Will Honas,will-honas-1,/cfb/players/will-honas-1.html,LB,7,30,27,57,6.5,3.0,0,0,,0,0,0,0,0,0,,Nebraska,2020
+Deontai Williams,deontai-williams-1,/cfb/players/deontai-williams-1.html,S,8,37,14,51,4.0,1.0,0,0,,0,4,1,26,1,1,,Nebraska,2020
+Marquel Dismuke,marquel-dismuke-1,/cfb/players/marquel-dismuke-1.html,S,8,29,18,47,4.0,0.0,0,0,,0,3,0,0,0,0,,Nebraska,2020
+Luke Reimer,luke-reimer-1,/cfb/players/luke-reimer-1.html,LB,6,29,11,40,5.0,2.0,0,0,,0,0,0,0,0,1,,Nebraska,2020
+Garrett Nelson,garrett-nelson-1,/cfb/players/garrett-nelson-1.html,LB,8,16,14,30,4.0,1.5,0,0,,0,0,0,0,0,0,,Nebraska,2020
+Cam Taylor,cam-taylor-1,/cfb/players/cam-taylor-1.html,CB,8,23,5,28,3.0,0.0,2,55,27.5,0,4,0,0,0,0,,Nebraska,2020
+Nick Henrich,nick-henrich-1,/cfb/players/nick-henrich-1.html,LB,7,8,19,27,0.5,0.0,0,0,,0,0,0,0,0,0,,Nebraska,2020
+Collin Miller,collin-miller-1,/cfb/players/collin-miller-1.html,LB,4,9,18,27,2.0,0.0,0,0,,0,0,0,0,0,0,,Nebraska,2020
+Ben Stille,ben-stille-1,/cfb/players/ben-stille-1.html,DL,8,13,14,27,3.0,1.5,0,0,,0,0,0,0,0,0,,Nebraska,2020
+Dicaprio Bootle,dicaprio-bootle-1,/cfb/players/dicaprio-bootle-1.html,CB,8,16,9,25,0.5,0.0,1,2,2.0,0,5,0,0,0,0,,Nebraska,2020
+Casey Rogers,casey-rogers-2,/cfb/players/casey-rogers-2.html,DL,8,9,16,25,3.0,1.0,0,0,,0,2,0,0,0,0,,Nebraska,2020
+Caleb Tannor,caleb-tannor-1,/cfb/players/caleb-tannor-1.html,LB,8,10,13,23,2.5,2.0,0,0,,0,0,0,0,0,1,,Nebraska,2020
+Pheldarius Payne,pheldarius-payne-1,/cfb/players/pheldarius-payne-1.html,DL,8,8,13,21,2.0,1.0,0,0,,0,2,0,0,0,0,,Nebraska,2020
+Damion Daniels,damion-daniels-1,/cfb/players/damion-daniels-1.html,DL,8,10,9,19,4.0,0.0,0,0,,0,0,0,0,0,0,,Nebraska,2020
+Ty Robinson,ty-robinson-1,/cfb/players/ty-robinson-1.html,DL,8,5,12,17,2.0,0.0,0,0,,0,0,0,0,0,0,,Nebraska,2020
+Quinton Newsome,quinton-newsome-1,/cfb/players/quinton-newsome-1.html,CB,8,9,2,11,0.0,0.0,0,0,,0,0,0,0,0,1,,Nebraska,2020
+Myles Farmer,myles-farmer-1,/cfb/players/myles-farmer-1.html,S,5,6,2,8,0.0,0.0,2,45,22.5,0,0,0,0,0,1,,Nebraska,2020
+Damian Jackson,damian-jackson-1,/cfb/players/damian-jackson-1.html,LB,6,1,4,5,0.5,0.0,0,0,,0,0,0,0,0,0,,Nebraska,2020
+Garrett Snodgrass,garrett-snodgrass-1,/cfb/players/garrett-snodgrass-1.html,LB,8,0,5,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Nebraska,2020
+Isaac Gifford,isaac-gifford-1,/cfb/players/isaac-gifford-1.html,S,8,2,2,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Nebraska,2020
+Jahkeem Green,jahkeem-green-1,/cfb/players/jahkeem-green-1.html,DL,5,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Nebraska,2020
+Noa Pola-Gates,noa-pola-gates-1,/cfb/players/noa-pola-gates-1.html,S,8,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Nebraska,2020
+Niko Cooper,niko-cooper-1,/cfb/players/niko-cooper-1.html,LB,7,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Nebraska,2020
+Austin Allen,austin-allen-2,/cfb/players/austin-allen-2.html,TE,8,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Nebraska,2020
+Wyatt Liewer,wyatt-liewer-1,/cfb/players/wyatt-liewer-1.html,WR,7,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Nebraska,2020
+Mosai Newsom,mosai-newsom-1,/cfb/players/mosai-newsom-1.html,DL,3,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Nebraska,2020
+Ethan Piper,ethan-piper-1,/cfb/players/ethan-piper-1.html,OL,8,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Nebraska,2020
+Nadab Joseph,nadab-joseph-1,/cfb/players/nadab-joseph-1.html,CB,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Nebraska,2020
+Marvin Scott III,marvin-scott-iii-1,/cfb/players/marvin-scott-iii-1.html,RB,5,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Nebraska,2020
+Levi Falck,levi-falck-1,/cfb/players/levi-falck-1.html,WR,8,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Nebraska,2020
+Jordon Riley,jordon-riley-1,/cfb/players/jordon-riley-1.html,DL,6,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Nebraska,2020
+Simon Otte,simon-otte-1,/cfb/players/simon-otte-1.html,LB,6,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Nebraska,2020
+Tate Wildeman,tate-wildeman-1,/cfb/players/tate-wildeman-1.html,DL,2,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Nebraska,2020
+Eteva Mauga-Clements,eteva-mauga-clements-1,/cfb/players/eteva-mauga-clements-1.html,LB,7,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Nebraska,2020
+Boe Wilson,boe-wilson-1,/cfb/players/boe-wilson-1.html,OL,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Nebraska,2020

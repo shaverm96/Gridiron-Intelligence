@@ -1,0 +1,52 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Micah Baskerville,micah-baskerville-1,/cfb/players/micah-baskerville-1.html,LB,14,41,48,89,4.5,1.0,1,29,29.0,1,8,0,0,0,0,,LSU,2022
+Greg Penn III,greg-penn-iii-1,/cfb/players/greg-penn-iii-1.html,LB,14,42,36,78,6.0,0.0,0,0,,0,3,1,0,0,0,,LSU,2022
+Harold Perkins,harold-perkins-1,/cfb/players/harold-perkins-1.html,LB,14,39,33,72,13.0,7.5,1,-3,-3.0,0,2,0,0,0,4,,LSU,2022
+Greg Brooks Jr.,greg-brooks-jr-1,/cfb/players/greg-brooks-jr-1.html,S,14,34,32,66,3.0,1.0,2,30,15.0,0,3,0,0,0,1,,LSU,2022
+Jay Ward,jay-ward-2,/cfb/players/jay-ward-2.html,DB,13,43,16,59,2.5,0.0,1,18,18.0,0,4,1,23,1,0,,LSU,2022
+BJ Ojulari,bj-ojulari-1,/cfb/players/bj-ojulari-1.html,DE,11,35,23,58,8.5,5.5,0,0,,0,0,1,0,0,1,,LSU,2022
+Jaquelin Roy,jaquelin-roy-1,/cfb/players/jaquelin-roy-1.html,DL,13,25,24,49,3.5,0.5,0,0,,0,0,1,0,0,0,,LSU,2022
+Mekhi Wingo,mekhi-wingo-1,/cfb/players/mekhi-wingo-1.html,DL,14,25,21,46,6.0,3.0,0,0,,0,4,2,0,0,1,,LSU,2022
+Jarrick Bernard-Converse,jarrick-bernard-converse-1,/cfb/players/jarrick-bernard-converse-1.html,CB,13,29,15,44,0.5,0.0,2,23,11.5,0,3,1,0,0,0,,LSU,2022
+Mekhi Garner,mekhi-garner-1,/cfb/players/mekhi-garner-1.html,DB,13,25,17,42,1.5,0.0,0,0,,0,8,0,0,0,0,,LSU,2022
+Joseph Foucha,joseph-foucha-1,/cfb/players/joseph-foucha-1.html,DB,10,25,15,40,1.0,0.0,1,0,0.0,0,4,0,0,0,1,,LSU,2022
+Major Burns,major-burns-1,/cfb/players/major-burns-1.html,DB,9,22,16,38,3.5,0.0,0,0,,0,3,0,0,0,0,,LSU,2022
+Ali Gaye,ali-gaye-1,/cfb/players/ali-gaye-1.html,DE,13,17,19,36,6.0,2.5,0,0,,0,2,0,0,0,2,,LSU,2022
+West Weeks,west-weeks-1,/cfb/players/west-weeks-1.html,LB,14,15,13,28,3.0,1.5,0,0,,0,0,0,0,0,1,,LSU,2022
+Sage Ryan,sage-ryan-1,/cfb/players/sage-ryan-1.html,DB,14,14,9,23,0.0,0.0,0,0,,0,1,2,0,0,2,,LSU,2022
+Saivion Jones,saivion-jones-1,/cfb/players/saivion-jones-1.html,DE,14,11,12,23,6.0,4.5,0,0,,0,1,0,0,0,1,,LSU,2022
+Mike Jones Jr.,mike-jones-jr-1,/cfb/players/mike-jones-jr-1.html,LB,14,9,12,21,0.5,0.0,0,0,,0,0,0,0,0,0,,LSU,2022
+Jacobian Guillory,jacobian-guillory-1,/cfb/players/jacobian-guillory-1.html,DL,14,4,11,15,0.5,0.0,0,0,,0,0,0,0,0,0,,LSU,2022
+Colby Richardson,colby-richardson-1,/cfb/players/colby-richardson-1.html,DB,12,6,6,12,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2022
+DeMario Tolan,demario-tolan-1,/cfb/players/demario-tolan-1.html,LB,12,3,6,9,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2022
+Jaray Jenkins,jaray-jenkins-1,/cfb/players/jaray-jenkins-1.html,WR,13,4,4,8,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2022
+Desmond Little,desmond-little-1,/cfb/players/desmond-little-1.html,LB,7,2,4,6,0.0,0.0,0,0,,0,1,1,5,0,0,,LSU,2022
+Quency Wiggins,quency-wiggins-1,/cfb/players/quency-wiggins-1.html,DL,5,3,2,5,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2022
+Sevyn Banks,sevyn-banks-1,/cfb/players/sevyn-banks-1.html,DB,2,2,3,5,0.5,0.0,0,0,,0,0,0,0,0,0,,LSU,2022
+Zavier Carter,zavier-carter-1,/cfb/players/zavier-carter-1.html,LB,11,4,1,5,1.0,1.0,0,0,,0,1,0,0,0,1,,LSU,2022
+Princeton Malbrue,princeton-malbrue-1,/cfb/players/princeton-malbrue-1.html,DL,5,2,2,4,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2022
+Kolbe Fields,kolbe-fields-1,/cfb/players/kolbe-fields-1.html,LB,11,2,2,4,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2022
+Derrick Davis Jr.,derrick-davis-jr-1,/cfb/players/derrick-davis-jr-1.html,DB,5,1,3,4,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2022
+Laterrance Welch,laterrance-welch-1,/cfb/players/laterrance-welch-1.html,DB,13,4,0,4,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2022
+Slade Roy,slade-roy-1,/cfb/players/slade-roy-1.html,LS,14,3,1,4,0.0,0.0,0,0,,0,0,1,0,0,0,,LSU,2022
+Jaelyn Davis-Robinson,jaelyn-davis-robinson-1,/cfb/players/jaelyn-davis-robinson-1.html,DB,3,1,3,4,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2022
+Jordan Allen,jordan-allen-5,/cfb/players/jordan-allen-5.html,S,4,2,0,2,1.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2022
+Emery Jones,emery-jones-1,/cfb/players/emery-jones-1.html,OL,13,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2022
+Nick Demas,nick-demas-1,/cfb/players/nick-demas-1.html,RB,9,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2022
+Jack Bech,jack-bech-1,/cfb/players/jack-bech-1.html,WR,12,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2022
+Todd Harris Jr.,todd-harris-jr-1,/cfb/players/todd-harris-jr-1.html,DB,3,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2022
+Jay Bramblett,jay-bramblett-1,/cfb/players/jay-bramblett-1.html,P,14,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2022
+Lane Blue,lane-blue-1,/cfb/players/lane-blue-1.html,LB,8,0,2,2,0.5,0.5,0,0,,0,0,0,0,0,0,,LSU,2022
+Tygee Hill,tygee-hill-1,/cfb/players/tygee-hill-1.html,DL,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2022
+Charles Turner,charles-turner-2,/cfb/players/charles-turner-2.html,OL,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2022
+John Emery Jr.,john-emery-jr-1,/cfb/players/john-emery-jr-1.html,RB,11,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2022
+Bryce Langston,bryce-langston-1,/cfb/players/bryce-langston-1.html,DL,2,0,1,1,0.5,0.5,0,0,,0,0,0,0,0,0,,LSU,2022
+Fitzgerald West Jr.,fitzgerald-west-jr-1,/cfb/players/fitzgerald-west-jr-1.html,DL,5,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2022
+Hunter Faust,hunter-faust-1,/cfb/players/hunter-faust-1.html,LB,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2022
+Nathan Dibert,nathan-dibert-1,/cfb/players/nathan-dibert-1.html,K,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2022
+Jack Mashburn,jack-mashburn-1,/cfb/players/jack-mashburn-1.html,TE,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2022
+Jared Small,jared-small-1,/cfb/players/jared-small-1.html,LB,2,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2022
+Mason Taylor,mason-taylor-1,/cfb/players/mason-taylor-1.html,TE,14,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2022
+Josh Williams,josh-williams-10,/cfb/players/josh-williams-10.html,RB,11,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2022
+Jayden Daniels,jayden-daniels-1,/cfb/players/jayden-daniels-1.html,QB,14,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2022
+Quad Wilson,quad-wilson-1,/cfb/players/quad-wilson-1.html,DB,2,0,0,0,0.0,0.0,1,99,99.0,1,0,0,0,0,0,,LSU,2022

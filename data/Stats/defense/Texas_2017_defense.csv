@@ -1,0 +1,34 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Malik Jefferson,malik-jefferson-1,/cfb/players/malik-jefferson-1.html,LB,13,79,31,110,10.0,4.0,0,0,,0,0,0,0,0,0,,Texas,2017
+DeShon Elliott,deshon-elliott-1,/cfb/players/deshon-elliott-1.html,DB,12,50,13,63,8.5,1.5,6,127,21.2,2,9,1,0,0,3,AA,Texas,2017
+Brandon Jones,brandon-jones-13,/cfb/players/brandon-jones-13.html,DB,12,51,10,61,4.0,0.0,0,0,,0,2,0,0,0,1,,Texas,2017
+Gary Johnson,gary-johnson-4,/cfb/players/gary-johnson-4.html,LB,13,38,22,60,6.0,2.0,0,0,,0,1,0,0,0,1,,Texas,2017
+Kris Boyd,kris-boyd-1,/cfb/players/kris-boyd-1.html,CB,13,38,19,57,0.5,0.0,2,70,35.0,0,15,0,0,0,0,,Texas,2017
+Holton Hill,holton-hill-1,/cfb/players/holton-hill-1.html,DB,9,39,12,51,0.0,0.0,2,76,38.0,2,6,0,0,1,1,,Texas,2017
+Anthony Wheeler,anthony-wheeler-1,/cfb/players/anthony-wheeler-1.html,LB,13,23,24,47,5.5,2.5,0,0,,0,0,1,38,1,0,,Texas,2017
+P.J Locke III,pj-locke-iii-1,/cfb/players/pj-locke-iii-1.html,DB,9,24,15,39,2.5,0.0,0,0,,0,2,0,0,0,1,,Texas,2017
+Malcolm Roach,malcolm-roach-1,/cfb/players/malcolm-roach-1.html,DE,13,17,20,37,4.0,2.0,0,0,,0,1,0,0,0,0,,Texas,2017
+Poona Ford,poona-ford-1,/cfb/players/poona-ford-1.html,DL,13,22,12,34,8.0,1.5,0,0,,0,1,0,0,0,1,,Texas,2017
+Antwuan Davis,antwuan-davis-1,/cfb/players/antwuan-davis-1.html,CB,13,23,9,32,2.0,1.0,2,16,8.0,1,0,2,0,0,1,,Texas,2017
+Naashon Hughes,naashon-hughes-1,/cfb/players/naashon-hughes-1.html,LB,13,21,9,30,3.5,2.0,0,0,,0,2,0,0,0,0,,Texas,2017
+Charles Omenihu,charles-omenihu-1,/cfb/players/charles-omenihu-1.html,DL,13,20,8,28,7.0,4.0,0,0,,0,0,0,0,0,2,,Texas,2017
+Davante Davis,davante-davis-1,/cfb/players/davante-davis-1.html,DB,9,23,3,26,1.0,0.0,2,14,7.0,0,3,0,0,0,1,,Texas,2017
+Breckyn Hager,breckyn-hager-1,/cfb/players/breckyn-hager-1.html,LB,13,21,2,23,9.0,4.0,0,0,,0,4,1,0,0,0,,Texas,2017
+Jason Hall,jason-hall-2,/cfb/players/jason-hall-2.html,DB,13,20,2,22,1.0,1.0,1,25,25.0,0,3,0,0,0,1,,Texas,2017
+John Bonney,john-bonney-1,/cfb/players/john-bonney-1.html,CB,13,12,7,19,0.5,0.5,1,0,0.0,0,3,2,13,0,0,,Texas,2017
+Chris Nelson,chris-nelson-2,/cfb/players/chris-nelson-2.html,DL,12,12,6,18,3.0,1.0,0,0,,0,0,1,0,0,0,,Texas,2017
+Josh Thompson,josh-thompson-4,/cfb/players/josh-thompson-4.html,DB,10,11,2,13,0.0,0.0,0,0,,0,1,0,0,0,0,,Texas,2017
+Jeffrey McCulloch,jeffrey-mcculloch-1,/cfb/players/jeffrey-mcculloch-1.html,LB,10,6,4,10,1.5,1.5,0,0,,0,0,0,0,0,0,,Texas,2017
+Gerald Wilbon,gerald-wilbon-1,/cfb/players/gerald-wilbon-1.html,DL,10,3,4,7,0.5,0.5,0,0,,0,0,0,0,0,0,,Texas,2017
+Edwin Freeman,edwin-freeman-1,/cfb/players/edwin-freeman-1.html,LB,11,5,1,6,1.0,1.0,0,0,,0,0,1,0,0,0,,Texas,2017
+Ta'quon Graham,taquon-graham-1,/cfb/players/taquon-graham-1.html,DL,12,4,2,6,2.0,1.0,0,0,,0,0,0,0,0,0,,Texas,2017
+Kobe Boyce,kobe-boyce-1,/cfb/players/kobe-boyce-1.html,DB,1,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2017
+Jamari Chisholm,jamari-chisholm-1,/cfb/players/jamari-chisholm-1.html,DL,10,1,2,3,1.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2017
+Marqez Bimage,marqez-bimage-1,/cfb/players/marqez-bimage-1.html,LB,11,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2017
+Chris Brown,chris-brown-18,/cfb/players/chris-brown-18.html,DB,11,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2017
+John Burt,john-burt-1,/cfb/players/john-burt-1.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2017
+Joshua Rowland,joshua-rowland-1,/cfb/players/joshua-rowland-1.html,K,16,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2017
+Kendall Moore,kendall-moore-3,/cfb/players/kendall-moore-3.html,TE,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2017
+Lorenzo Joe,lorenzo-joe-1,/cfb/players/lorenzo-joe-1.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2017
+Michael Dickson,michael-dickson-1,/cfb/players/michael-dickson-1.html,P,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,AA,Texas,2017
+Sam Ehlinger,sam-ehlinger-1,/cfb/players/sam-ehlinger-1.html,QB,9,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2017

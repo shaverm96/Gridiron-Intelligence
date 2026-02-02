@@ -1,0 +1,48 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Koa Naotala,koa-naotala-1,/cfb/players/koa-naotala-1.html,LB,12,22,66,88,4.5,3.5,0,0,,0,1,0,0,0,1,,Old Dominion,2024
+Jahron Manning,jahron-manning-1,/cfb/players/jahron-manning-1.html,S,11,34,51,85,5.5,0.5,3,87,29.0,0,3,0,0,0,0,,Old Dominion,2024
+Mario Thompson,mario-thompson-1,/cfb/players/mario-thompson-1.html,LB,12,29,36,65,9.5,4.0,0,0,,0,1,1,0,0,0,,Old Dominion,2024
+Jahleel Culbreath,jahleel-culbreath-1,/cfb/players/jahleel-culbreath-1.html,LB,11,29,33,62,7.5,0.5,0,0,,0,0,0,0,0,0,,Old Dominion,2024
+Denzel Lowry,denzel-lowry-1,/cfb/players/denzel-lowry-1.html,DT,12,12,39,51,3.0,1.5,0,0,,0,0,0,0,0,0,,Old Dominion,2024
+Rasheed Reason,rasheed-reason-1,/cfb/players/rasheed-reason-1.html,CB,12,37,12,49,0.5,0.0,1,0,0.0,0,4,0,0,0,0,,Old Dominion,2024
+Angelo Rankin Jr.,angelo-rankin-jr-1,/cfb/players/angelo-rankin-jr-1.html,DB,10,32,13,45,2.5,0.0,3,0,0.0,0,2,0,0,0,3,,Old Dominion,2024
+Kris Trinidad,kris-trinidad-1,/cfb/players/kris-trinidad-1.html,DE,12,15,30,45,10.5,5.5,0,0,,0,3,1,0,0,2,,Old Dominion,2024
+Will Jones II,will-jones-ii-1,/cfb/players/will-jones-ii-1.html,S,11,21,23,44,3.5,1.0,3,4,1.3,0,3,1,0,0,1,,Old Dominion,2024
+Mario Easterly,mario-easterly-1,/cfb/players/mario-easterly-1.html,S,12,21,22,43,0.0,0.0,0,0,,0,2,0,0,0,0,,Old Dominion,2024
+Patrick Smith,patrick-smith-4,/cfb/players/patrick-smith-4.html,S,10,20,22,42,3.5,1.0,1,0,0.0,0,0,2,37,0,1,,Old Dominion,2024
+Jaylon White-McLain,jaylon-white-mclain-1,/cfb/players/jaylon-white-mclain-1.html,DE,12,14,27,41,3.0,1.0,0,0,,0,2,0,0,0,1,,Old Dominion,2024
+EJ Green,ej-green-1,/cfb/players/ej-green-1.html,LB,8,7,20,27,0.5,0.0,0,0,,0,1,0,0,0,0,,Old Dominion,2024
+Seth Naotala,seth-naotala-1,/cfb/players/seth-naotala-1.html,LB,12,7,19,26,2.0,1.0,0,0,,0,0,0,0,0,0,,Old Dominion,2024
+Ashton Whitner,ashton-whitner-1,/cfb/players/ashton-whitner-1.html,S,6,11,15,26,1.5,0.0,0,0,,0,1,0,0,0,0,,Old Dominion,2024
+Markus Knight,markus-knight-1,/cfb/players/markus-knight-1.html,S,12,11,14,25,0.0,0.0,1,52,52.0,0,2,0,0,0,0,,Old Dominion,2024
+Jerome Carter,jerome-carter-2,/cfb/players/jerome-carter-2.html,S,12,12,11,23,0.0,0.0,0,0,,0,1,0,0,0,0,,Old Dominion,2024
+Jeremy Mack,jeremy-mack-1,/cfb/players/jeremy-mack-1.html,S,12,12,10,22,3.5,3.0,0,0,,0,0,0,0,0,0,,Old Dominion,2024
+Ricardo Williams Jr.,ricardo-williams-jr-1,/cfb/players/ricardo-williams-jr-1.html,DL,12,6,14,20,2.5,1.0,0,0,,0,0,0,0,0,0,,Old Dominion,2024
+Amorie Morrison,amorie-morrison-1,/cfb/players/amorie-morrison-1.html,DE,10,7,12,19,3.5,1.5,0,0,,0,0,0,0,0,0,,Old Dominion,2024
+Khian'dre Harris,khiandre-harris-1,/cfb/players/khiandre-harris-1.html,CB,11,8,8,16,0.0,0.0,0,0,,0,2,0,0,0,0,,Old Dominion,2024
+Cole Daniels,cole-daniels-1,/cfb/players/cole-daniels-1.html,DT,8,7,8,15,1.5,0.5,0,0,,0,0,0,0,0,0,,Old Dominion,2024
+DeAndre Lynch,deandre-lynch-1,/cfb/players/deandre-lynch-1.html,DT,9,5,9,14,1.5,0.0,0,0,,0,0,0,0,0,0,,Old Dominion,2024
+Daevon Iles,daevon-iles-1,/cfb/players/daevon-iles-1.html,S,11,5,9,14,1.5,0.0,0,0,,0,1,0,0,0,0,,Old Dominion,2024
+Michael Devereaux,michael-devereaux-1,/cfb/players/michael-devereaux-1.html,LB,4,2,7,9,3.0,0.5,0,0,,0,0,0,0,0,0,,Old Dominion,2024
+Ja'Mez Drummer,jamez-drummer-1,/cfb/players/jamez-drummer-1.html,LB,2,2,5,7,1.0,0.0,0,0,,0,0,0,0,0,0,,Old Dominion,2024
+Brandon Crutchfield,brandon-crutchfield-1,/cfb/players/brandon-crutchfield-1.html,CB,8,1,4,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Old Dominion,2024
+Zach Hagedon,zach-hagedon-1,/cfb/players/zach-hagedon-1.html,S,11,3,2,5,0.5,0.0,0,0,,0,0,0,0,0,0,,Old Dominion,2024
+Jordan Saunders,jordan-saunders-1,/cfb/players/jordan-saunders-1.html,CB,10,0,4,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Old Dominion,2024
+Dywan Griffin,dywan-griffin-1,/cfb/players/dywan-griffin-1.html,CB,8,2,2,4,0.0,0.0,0,0,,0,3,0,0,0,1,,Old Dominion,2024
+Jason Henderson,jason-henderson-1,/cfb/players/jason-henderson-1.html,LB,1,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Old Dominion,2024
+Kyle Miller,kyle-miller-1,/cfb/players/kyle-miller-1.html,WR,10,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Old Dominion,2024
+Dirrick Goodman,dirrick-goodman-1,/cfb/players/dirrick-goodman-1.html,LB,11,0,3,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Old Dominion,2024
+Ny'Len Ramon Jones,nylen-ramon-jones-1,/cfb/players/nylen-ramon-jones-1.html,LB,3,0,3,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Old Dominion,2024
+Ryan Ramey,ryan-ramey-1,/cfb/players/ryan-ramey-1.html,CB,4,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Old Dominion,2024
+Ethan Chang,ethan-chang-1,/cfb/players/ethan-chang-1.html,K,11,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Old Dominion,2024
+Christopher Spencer,christopher-spencer-1,/cfb/players/christopher-spencer-1.html,DL,6,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Old Dominion,2024
+Bryce Duke,bryce-duke-1,/cfb/players/bryce-duke-1.html,RB,10,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Old Dominion,2024
+Myles Alston,myles-alston-1,/cfb/players/myles-alston-1.html,WR,12,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Old Dominion,2024
+Jed Olotu-Judah,jed-olotu-judah-1,/cfb/players/jed-olotu-judah-1.html,S,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Old Dominion,2024
+Quedrion Miles,quedrion-miles-1,/cfb/players/quedrion-miles-1.html,CB,2,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Old Dominion,2024
+Pat Conroy,pat-conroy-1,/cfb/players/pat-conroy-1.html,TE,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Old Dominion,2024
+Justin McKithen,justin-mckithen-1,/cfb/players/justin-mckithen-1.html,CB,4,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Old Dominion,2024
+Aaron Young,aaron-young-5,/cfb/players/aaron-young-5.html,RB,11,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Old Dominion,2024
+Gage Sawyers,gage-sawyers-1,/cfb/players/gage-sawyers-1.html,LB,12,0,1,1,0.0,0.0,0,0,,0,1,0,0,0,0,,Old Dominion,2024
+Diante Vines,diante-vines-1,/cfb/players/diante-vines-1.html,WR,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Old Dominion,2024
+AJ Ashworth,aj-ashworth-1,/cfb/players/aj-ashworth-1.html,LB,3,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Old Dominion,2024

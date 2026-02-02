@@ -1,0 +1,49 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Khalid McGee,khalid-mcgee-1,/cfb/players/khalid-mcgee-1.html,LB,12,64,47,111,6.5,1.5,0,0,,0,1,0,0,0,1,,South Florida,2018
+Greg Reaves,greg-reaves-1,/cfb/players/greg-reaves-1.html,LB,13,47,42,89,7.0,0.5,0,0,,0,1,1,0,0,0,,South Florida,2018
+Ronnie Hoggins,ronnie-hoggins-1,/cfb/players/ronnie-hoggins-1.html,CB,13,58,23,81,4.0,0.5,2,29,14.5,0,6,0,0,0,0,,South Florida,2018
+Nick Roberts,nick-roberts-1,/cfb/players/nick-roberts-1.html,DB,13,52,20,72,2.0,0.0,3,91,30.3,0,3,0,0,0,0,,South Florida,2018
+Kirk Livingstone,kirk-livingstone-1,/cfb/players/kirk-livingstone-1.html,DE,13,30,26,56,10.0,4.0,0,0,,0,1,0,0,0,1,,South Florida,2018
+Josh Black,josh-black-1,/cfb/players/josh-black-1.html,LB,13,26,27,53,10.0,5.0,0,0,,0,0,1,0,0,2,,South Florida,2018
+Jaymon Thomas,jaymon-thomas-1,/cfb/players/jaymon-thomas-1.html,S,13,34,17,51,1.5,0.0,1,0,0.0,0,0,0,0,0,0,,South Florida,2018
+Mazzi Wilkins,mazzi-wilkins-1,/cfb/players/mazzi-wilkins-1.html,CB,12,38,10,48,1.5,0.0,0,0,,0,9,1,0,0,0,,South Florida,2018
+Mike Hampton,mike-hampton-2,/cfb/players/mike-hampton-2.html,DB,13,35,8,43,2.0,1.0,2,15,7.5,0,16,0,0,0,0,,South Florida,2018
+Nico Sawtelle,nico-sawtelle-1,/cfb/players/nico-sawtelle-1.html,LB,7,20,22,42,7.5,2.0,1,22,22.0,0,1,1,0,0,0,,South Florida,2018
+Kevin Kegler,kevin-kegler-1,/cfb/players/kevin-kegler-1.html,DT,12,17,19,36,7.5,2.5,0,0,,0,0,0,0,0,0,,South Florida,2018
+Mekhi Lapointe,mekhi-lapointe-1,/cfb/players/mekhi-lapointe-1.html,DB,11,23,11,34,2.0,0.0,1,0,0.0,0,1,0,0,0,0,,South Florida,2018
+Kevin Bronson,kevin-bronson-1,/cfb/players/kevin-bronson-1.html,DE,11,14,20,34,4.5,1.5,0,0,,0,0,0,0,0,0,,South Florida,2018
+Bentlee Sanders,bentlee-sanders-1,/cfb/players/bentlee-sanders-1.html,DB,12,16,12,28,0.5,0.0,0,0,,0,0,0,0,0,1,,South Florida,2018
+Vincent Jackson,vincent-jackson-1,/cfb/players/vincent-jackson-1.html,DE,13,15,12,27,1.5,0.5,1,6,6.0,0,0,0,0,0,0,,South Florida,2018
+Brandon Boyce,brandon-boyce-1,/cfb/players/brandon-boyce-1.html,DT,5,14,10,24,3.0,1.0,0,0,,0,0,0,0,0,0,,South Florida,2018
+Dwayne Boyles,dwayne-boyles-1,/cfb/players/dwayne-boyles-1.html,LB,12,11,9,20,1.0,0.0,0,0,,0,1,1,0,0,0,,South Florida,2018
+Naytron Culpepper,naytron-culpepper-1,/cfb/players/naytron-culpepper-1.html,DB,4,12,7,19,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2018
+Tyrone Barber,tyrone-barber-2,/cfb/players/tyrone-barber-2.html,DT,11,10,8,18,2.0,2.0,0,0,,0,0,0,0,0,0,,South Florida,2018
+Juwuan Brown,juwuan-brown-1,/cfb/players/juwuan-brown-1.html,DE,13,12,5,17,8.5,4.0,0,0,,0,1,2,0,0,0,,South Florida,2018
+Vincent Davis,vincent-davis-2,/cfb/players/vincent-davis-2.html,DB,13,13,3,16,0.5,0.0,0,0,,0,1,1,12,1,2,,South Florida,2018
+Kelvin Pinkney Jr.,kelvin-pinkney-jr-1,/cfb/players/kelvin-pinkney-jr-1.html,DT,11,6,9,15,2.5,1.0,0,0,,0,0,0,0,0,1,,South Florida,2018
+Chris Barr,chris-barr-1,/cfb/players/chris-barr-1.html,WR,13,11,2,13,0.0,0.0,0,0,,0,0,1,0,0,0,,South Florida,2018
+Andrew Mims,andrew-mims-1,/cfb/players/andrew-mims-1.html,LB,12,5,6,11,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2018
+Tony Grier Jr.,tony-grier-jr-1,/cfb/players/tony-grier-jr-1.html,LB,11,6,2,8,0.0,0.0,0,0,,0,0,1,0,0,0,,South Florida,2018
+Keirston Johnson,keirston-johnson-1,/cfb/players/keirston-johnson-1.html,LB,8,3,3,6,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2018
+Rashawn Yates,rashawn-yates-1,/cfb/players/rashawn-yates-1.html,DE,8,4,2,6,2.5,2.0,0,0,,0,0,0,0,0,0,,South Florida,2018
+Odunayo Seriki,odunayo-seriki-1,/cfb/players/odunayo-seriki-1.html,WR,10,4,0,4,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2018
+Davion Sutton,davion-sutton-1,/cfb/players/davion-sutton-1.html,RB,13,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2018
+Trevon Sands,trevon-sands-1,/cfb/players/trevon-sands-1.html,RB,8,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2018
+Jernard Phillips,jernard-phillips-1,/cfb/players/jernard-phillips-1.html,WR,6,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2018
+Jeffery Farrar,jeffery-farrar-1,/cfb/players/jeffery-farrar-1.html,DB,11,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2018
+Jernard Phillps,jernard-phillps-1,/cfb/players/jernard-phillps-1.html,,10,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2018
+Jake Stone,jake-stone-2,/cfb/players/jake-stone-2.html,PK,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2018
+Mitchell Wilcox,mitchell-wilcox-1,/cfb/players/mitchell-wilcox-1.html,TE,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2018
+Jordan Cronkrite,jordan-cronkrite-1,/cfb/players/jordan-cronkrite-1.html,RB,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2018
+DeVontres Dukes,devontres-dukes-1,/cfb/players/devontres-dukes-1.html,WR,3,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2018
+Chris Oladokun,chris-oladokun-1,/cfb/players/chris-oladokun-1.html,QB,7,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2018
+Deangleo Antoine,deangleo-antoine-1,/cfb/players/deangleo-antoine-1.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2018
+Zion Roland,zion-roland-1,/cfb/players/zion-roland-1.html,WR,7,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2018
+Randall St. Felix,randall-st-felix-1,/cfb/players/randall-st-felix-1.html,WR,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2018
+Duron Bell Jr.,duron-bell-jr-1,/cfb/players/duron-bell-jr-1.html,RB,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2018
+Fred Lloyd Jr.,fred-lloyd-jr-1,/cfb/players/fred-lloyd-jr-1.html,,11,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2018
+Frederick Lloyd Jr.,frederick-lloyd-jr-1,/cfb/players/frederick-lloyd-jr-1.html,TE,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2018
+Michael Wiggs,michael-wiggs-1,/cfb/players/michael-wiggs-1.html,OL,8,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2018
+Ian Deneen,ian-deneen-1,/cfb/players/ian-deneen-1.html,LS,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2018
+Marquies Price,marquies-price-1,/cfb/players/marquies-price-1.html,DE,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2018
+Johnny Ford,johnny-ford-1,/cfb/players/johnny-ford-1.html,RB,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2018

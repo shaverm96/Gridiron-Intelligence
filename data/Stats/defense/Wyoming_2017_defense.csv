@@ -1,0 +1,49 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Logan Wilson,logan-wilson-1,/cfb/players/logan-wilson-1.html,LB,13,79,40,119,8.0,1.0,1,3,3.0,0,1,1,18,1,2,,Wyoming,2017
+Andrew Wingard,andrew-wingard-1,/cfb/players/andrew-wingard-1.html,S,13,70,44,114,8.0,1.0,5,54,10.8,0,3,1,0,0,2,,Wyoming,2017
+Carl Granderson,carl-granderson-1,/cfb/players/carl-granderson-1.html,DE,13,37,40,77,16.0,9.5,2,43,21.5,0,0,1,58,1,2,,Wyoming,2017
+Cassh Maluia,cassh-maluia-1,/cfb/players/cassh-maluia-1.html,LB,13,33,41,74,3.5,1.0,1,0,0.0,0,3,3,3,0,1,,Wyoming,2017
+Youhanna Ghaifan,youhanna-ghaifan-1,/cfb/players/youhanna-ghaifan-1.html,DT,12,39,30,69,15.5,7.0,0,0,,0,0,0,0,0,2,,Wyoming,2017
+Marcus Epps,marcus-epps-1,/cfb/players/marcus-epps-1.html,S,13,42,26,68,5.0,1.0,4,90,22.5,0,4,1,0,0,1,,Wyoming,2017
+Jalen Ortiz,jalen-ortiz-1,/cfb/players/jalen-ortiz-1.html,LB,13,36,25,61,4.0,1.0,0,0,,0,2,2,0,0,1,,Wyoming,2017
+Rico Gafford,rico-gafford-1,/cfb/players/rico-gafford-1.html,CB,13,29,14,43,1.0,0.0,4,45,11.3,1,6,0,0,0,1,,Wyoming,2017
+Robert Priester,robert-priester-1,/cfb/players/robert-priester-1.html,CB,13,28,11,39,4.0,1.0,0,0,,0,4,0,0,0,2,,Wyoming,2017
+Kevin Prosser,kevin-prosser-1,/cfb/players/kevin-prosser-1.html,DE,12,21,14,35,5.0,2.5,1,28,28.0,1,2,2,0,0,1,,Wyoming,2017
+Garrett Crall,garrett-crall-1,/cfb/players/garrett-crall-1.html,DE,13,19,14,33,5.5,2.5,0,0,,0,2,1,0,0,1,,Wyoming,2017
+Adam Pilapil,adam-pilapli-1,/cfb/players/adam-pilapli-1.html,LB,8,15,16,31,0.0,0.0,0,0,,0,1,0,0,0,0,,Wyoming,2017
+Tyler Hall,tyler-hall-2,/cfb/players/tyler-hall-2.html,CB,13,19,11,30,0.5,0.0,2,-1,-0.5,0,4,0,0,0,2,,Wyoming,2017
+Josiah Hall,josiah-hall-1,/cfb/players/josiah-hall-1.html,DE,12,12,12,24,2.5,0.5,0,0,,0,0,0,0,0,0,,Wyoming,2017
+Javaree Jackson,javaree-jackson-1,/cfb/players/javaree-jackson-1.html,DL,11,8,16,24,1.5,0.0,0,0,,0,0,0,0,0,0,,Wyoming,2017
+Sidney Malauulu,sidney-malauulu-1,/cfb/players/sidney-malauulu-1.html,NT,7,7,15,22,1.5,1.0,0,0,,0,0,2,0,0,0,,Wyoming,2017
+Taniela Lolohea,taniela-lolohea-1,/cfb/players/taniela-lolohea-1.html,DE,12,12,10,22,5.5,4.0,0,0,,0,1,1,0,0,2,,Wyoming,2017
+Alijah Halliburton,alijah-halliburton-1,/cfb/players/alijah-halliburton-1.html,S,13,10,11,21,0.0,0.0,0,0,,0,1,0,0,0,0,,Wyoming,2017
+Ben Wisdorf,ben-wisdorf-1,/cfb/players/ben-wisdorf-1.html,LB,11,5,6,11,2.0,0.0,0,0,,0,0,0,0,0,0,,Wyoming,2017
+Chavez Pownell Jr.,chavez-pownell-jr-1,/cfb/players/chavez-pownell-jr-1.html,LB,13,6,4,10,0.0,0.0,0,0,,0,0,0,0,0,0,,Wyoming,2017
+Ravontae Holt,ravontae-holt-1,/cfb/players/ravontae-holt-1.html,DL,9,2,7,9,1.0,1.0,0,0,,0,0,0,0,0,0,,Wyoming,2017
+Esaias Gandy,esaias-gandy-1,/cfb/players/esaias-gandy-1.html,S,12,4,4,8,0.0,0.0,0,0,,0,0,0,0,0,0,,Wyoming,2017
+Tim Kamana,tim-kamana-1,/cfb/players/tim-kamana-1.html,S,13,5,2,7,0.0,0.0,0,0,,0,0,0,0,0,0,,Wyoming,2017
+Conner Cain,conner-cain-1,/cfb/players/conner-cain-1.html,DT,7,1,6,7,1.0,0.0,0,0,,0,0,0,0,0,1,,Wyoming,2017
+Tyree Mayfield,tyree-mayfield-1,/cfb/players/tyree-mayfield-1.html,TE,13,5,2,7,0.0,0.0,0,0,,0,0,1,3,0,0,,Wyoming,2017
+Braden Smith,braden-smith-3,/cfb/players/braden-smith-3.html,S,11,4,2,6,0.0,0.0,0,0,,0,0,1,0,0,1,,Wyoming,2017
+Austin Lopez,austin-lopez-2,/cfb/players/austin-lopez-2.html,DE,13,2,2,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Wyoming,2017
+Nico Evans,nico-evans-1,/cfb/players/nico-evans-1.html,RB,13,4,0,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Wyoming,2017
+Drew Van Maanen,drew-van-maanen-2,/cfb/players/drew-van-maanen-2.html,FB,13,2,1,3,0.0,0.0,0,0,,0,0,1,0,0,0,,Wyoming,2017
+Cooper Rothe,cooper-rothe-1,/cfb/players/cooper-rothe-1.html,PK,13,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Wyoming,2017
+Ryan Gatoloai-Faupula,ryan-gatoloai-faupula-1,/cfb/players/ryan-gatoloai-faupula-1.html,LB,7,1,2,3,0.0,0.0,0,0,,0,1,0,0,0,0,,Wyoming,2017
+Avante' Cox,avante-cox-1,/cfb/players/avante-cox-1.html,WR,7,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Wyoming,2017
+Jahmari Moore,jahmari-moore-1,/cfb/players/jahmari-moore-1.html,LB,9,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Wyoming,2017
+Milo Hall,milo-hall-1,/cfb/players/milo-hall-1.html,RB,11,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,1,,Wyoming,2017
+Ryan Cummings,ryan-cummings-1,/cfb/players/ryan-cummings-1.html,T,8,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Wyoming,2017
+Sidney Washington Jr.,sidney-washington-jr-36,/cfb/players/sidney-washington-jr-36.html,CB,2,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Wyoming,2017
+Dalton Fields,dalton-fields-1,/cfb/players/dalton-fields-1.html,G,12,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Wyoming,2017
+Zach Wallace,zach-wallace-1,/cfb/players/zach-wallace-1.html,T,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Wyoming,2017
+Kolton Donovan,kolton-donovan-1,/cfb/players/kolton-donovan-1.html,LS,2,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Wyoming,2017
+Kellen Overstreet,kellen-overstreet-1,/cfb/players/kellen-overstreet-1.html,RB,13,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Wyoming,2017
+Justis Borton,justis-borton-1,/cfb/players/justis-borton-1.html,OL,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Wyoming,2017
+Josh Harshman,josh-harshman-1,/cfb/players/josh-harshman-1.html,TE,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Wyoming,2017
+Josh Allen,josh-allen-7,/cfb/players/josh-allen-7.html,QB,11,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Wyoming,2017
+Jaylon Watson,jaylon-watson-1,/cfb/players/jaylon-watson-1.html,FB,13,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Wyoming,2017
+James Price,james-price-3,/cfb/players/james-price-3.html,WR,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Wyoming,2017
+Cole Turner,cole-turner-1,/cfb/players/cole-turner-1.html,G,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Wyoming,2017
+C.J. Johnson,cj-johnson-4,/cfb/players/cj-johnson-4.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Wyoming,2017
+Austin Conway,austin-conway-1,/cfb/players/austin-conway-1.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Wyoming,2017

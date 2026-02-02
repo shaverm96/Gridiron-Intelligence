@@ -1,0 +1,47 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Aaron Casey,aaron-casey-1,/cfb/players/aaron-casey-1.html,LB,11,50,36,86,10.5,1.5,0,0,,0,2,0,0,0,2,,Indiana,2022
+Bryant Fitzgerald,bryant-fitzgerald-1,/cfb/players/bryant-fitzgerald-1.html,DB,11,45,29,74,1.5,0.5,1,0,0.0,0,1,0,0,0,1,,Indiana,2022
+Devon Matthews,devon-matthews-1,/cfb/players/devon-matthews-1.html,DB,12,36,29,65,3.0,0.0,1,0,0.0,0,3,0,0,0,0,,Indiana,2022
+Tiawan Mullen,tiawan-mullen-1,/cfb/players/tiawan-mullen-1.html,DB,12,38,20,58,1.0,0.0,2,0,0.0,0,8,0,0,0,1,,Indiana,2022
+Bradley Jennings Jr.,bradley-jennings-jr-1,/cfb/players/bradley-jennings-jr-1.html,LB,11,23,32,55,4.5,1.0,0,0,,0,5,0,0,0,0,,Indiana,2022
+Cam Jones,cam-jones-1,/cfb/players/cam-jones-1.html,LB,5,24,31,55,3.0,2.0,0,0,,0,1,1,0,0,1,,Indiana,2022
+Dasan McCullough,dasan-mccullough-1,/cfb/players/dasan-mccullough-1.html,DL,12,32,17,49,6.5,4.0,0,0,,0,3,0,0,0,0,,Indiana,2022
+Alfred Bryant,alfred-bryant-1,/cfb/players/alfred-bryant-1.html,DL,12,20,25,45,8.0,4.0,0,0,,0,1,0,0,0,1,,Indiana,2022
+Jonathan Haynes,jonathan-haynes-3,/cfb/players/jonathan-haynes-3.html,DB,10,27,14,41,0.0,0.0,1,0,0.0,0,0,0,0,0,1,,Indiana,2022
+Jaylin Williams,jaylin-williams-2,/cfb/players/jaylin-williams-2.html,DB,10,29,11,40,2.5,0.0,0,0,,0,7,1,0,0,0,,Indiana,2022
+Noah Pierre,noah-pierre-1,/cfb/players/noah-pierre-1.html,DB,12,25,14,39,4.0,3.0,0,0,,0,3,1,8,0,3,,Indiana,2022
+Demarcus Elliott,demarcus-elliott-1,/cfb/players/demarcus-elliott-1.html,DL,12,14,17,31,4.5,1.5,0,0,,0,1,0,0,0,0,,Indiana,2022
+Josh Sanguinetti,josh-sanguinetti-1,/cfb/players/josh-sanguinetti-1.html,DB,11,12,10,22,0.0,0.0,1,0,0.0,0,1,0,0,0,0,,Indiana,2022
+James Head Jr.,james-head-jr-1,/cfb/players/james-head-jr-1.html,DL,10,8,14,22,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2022
+John Henry Tevis,john-henry-tevis-1,/cfb/players/john-henry-tevis-1.html,DE,12,5,15,20,2.0,0.0,0,0,,0,1,0,0,0,0,,Indiana,2022
+Matt Hohlt,matt-hohlt-1,/cfb/players/matt-hohlt-1.html,LB,10,12,7,19,1.5,0.0,0,0,,0,0,0,0,0,0,,Indiana,2022
+Myles Jackson,myles-jackson-2,/cfb/players/myles-jackson-2.html,LB,12,7,11,18,2.0,0.5,1,10,10.0,0,0,2,0,1,0,,Indiana,2022
+Sio Nofoagatoto'a,sio-nofoagatotoa-1,/cfb/players/sio-nofoagatotoa-1.html,DL,11,8,10,18,2.5,0.0,0,0,,0,0,0,0,0,0,,Indiana,2022
+Jared Casey,jared-casey-1,/cfb/players/jared-casey-1.html,LB,8,9,9,18,0.5,0.0,0,0,,0,0,0,0,0,0,,Indiana,2022
+Patrick Lucas Jr.,patrick-lucas-jr-1,/cfb/players/patrick-lucas-jr-1.html,DL,12,8,9,17,0.5,0.0,0,0,,0,0,0,0,0,0,,Indiana,2022
+Christopher Keys,christopher-keys-1,/cfb/players/christopher-keys-1.html,DB,10,10,5,15,0.0,0.0,0,0,,0,1,0,0,0,0,,Indiana,2022
+Kaiden Turner,kaiden-turner-1,/cfb/players/kaiden-turner-1.html,LB,4,8,7,15,0.5,0.0,0,0,,0,0,0,0,0,0,,Indiana,2022
+Bryson Bonds,bryson-bonds-1,/cfb/players/bryson-bonds-1.html,DB,12,8,6,14,0.0,0.0,0,0,,0,0,1,0,0,0,,Indiana,2022
+Beau Robbins,beau-robbins-1,/cfb/players/beau-robbins-1.html,DL,10,4,8,12,1.5,1.0,0,0,,0,0,0,0,0,0,,Indiana,2022
+Brylan Lanier,brylan-lanier-1,/cfb/players/brylan-lanier-1.html,DB,11,8,3,11,1.0,1.0,0,0,,0,0,0,0,0,0,,Indiana,2022
+Jordan Grier,jordan-grier-1,/cfb/players/jordan-grier-1.html,DB,12,5,5,10,0.5,0.0,0,0,,0,0,0,0,0,0,,Indiana,2022
+Lem Watley-Neely,lem-watley-neely-1,/cfb/players/lem-watley-neely-1.html,DB,11,7,2,9,0.0,0.0,0,0,,0,1,0,0,0,0,,Indiana,2022
+Louis Moore,louis-moore-1,/cfb/players/louis-moore-1.html,DB,12,5,4,9,1.0,1.0,0,0,,0,0,0,0,0,1,,Indiana,2022
+LeDarrius Cox,ledarrius-cox-1,/cfb/players/ledarrius-cox-1.html,OL,12,4,5,9,0.5,0.0,0,0,,0,0,0,0,0,0,,Indiana,2022
+Phillip Dunnam,phillip-dunnam-1,/cfb/players/phillip-dunnam-1.html,DB,12,1,4,5,0.0,0.0,0,0,,0,1,0,0,0,0,,Indiana,2022
+Cooper Jones,cooper-jones-3,/cfb/players/cooper-jones-3.html,DL,7,1,3,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2022
+Nick James,nick-james-2,/cfb/players/nick-james-2.html,DL,4,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2022
+Caleb Murphy,caleb-murphy-2,/cfb/players/caleb-murphy-2.html,OL,12,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2022
+Christian Harris,christian-harris-4,/cfb/players/christian-harris-4.html,WR,10,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2022
+Isaiah Jones,isaiah-jones-5,/cfb/players/isaiah-jones-5.html,LB,2,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2022
+Ryan Barnes,ryan-barnes-1,/cfb/players/ryan-barnes-1.html,TE,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2022
+Venson Sneed,venson-sneed-1,/cfb/players/venson-sneed-1.html,DL,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2022
+Malachi Holt-Bennett,malachi-holt-bennett-1,/cfb/players/malachi-holt-bennett-1.html,WR,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2022
+Javon Swinton,javon-swinton-1,/cfb/players/javon-swinton-1.html,WR,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2022
+Donaven McCulley,donaven-mcculley-1,/cfb/players/donaven-mcculley-1.html,WR,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2022
+D.J. Matthews,dj-matthews-1,/cfb/players/dj-matthews-1.html,WR,9,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2022
+Dexter Williams II,dexter-williams-ii-1,/cfb/players/dexter-williams-ii-1.html,QB,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2022
+Charlie Spegal,charlie-spegal-1,/cfb/players/charlie-spegal-1.html,RB,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2022
+Andison Coby,andison-coby-1,/cfb/players/andison-coby-1.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2022
+AJ Barner,aj-barner-1,/cfb/players/aj-barner-1.html,TE,10,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2022
+Jaylin Lucas,jaylin-lucas-1,/cfb/players/jaylin-lucas-1.html,RB,11,0,0,0,0.0,0.0,0,0,,0,0,1,0,0,0,,Indiana,2022

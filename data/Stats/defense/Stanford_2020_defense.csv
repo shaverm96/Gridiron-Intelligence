@@ -1,0 +1,35 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Curtis Robinson,curtis-robinson-1,/cfb/players/curtis-robinson-1.html,LB,6,31,13,44,3.0,0.0,0,0,,0,1,1,0,0,1,,Stanford,2020
+Levani Damuni,levani-damuni-1,/cfb/players/levani-damuni-1.html,LB,6,18,24,42,0.5,0.0,1,0,0.0,0,0,1,12,0,0,,Stanford,2020
+Malik Antoine,malik-antoine-1,/cfb/players/malik-antoine-1.html,S,6,26,12,38,1.0,1.0,1,0,0.0,0,3,0,0,0,0,,Stanford,2020
+Kendall Williamson,kendall-williamson-1,/cfb/players/kendall-williamson-1.html,S,6,19,13,32,1.5,0.0,0,0,,0,0,0,0,0,0,,Stanford,2020
+Gabe Reid,gabe-reid-1,/cfb/players/gabe-reid-1.html,LB,5,12,15,27,4.0,2.0,0,0,,0,0,0,0,0,1,,Stanford,2020
+Thomas Booker,thomas-booker-1,/cfb/players/thomas-booker-1.html,DE,6,15,6,21,3.0,1.0,0,0,,0,2,1,0,0,0,,Stanford,2020
+Kyu Blu Kelly,kyu-blu-kelly-1,/cfb/players/kyu-blu-kelly-1.html,CB,5,15,5,20,0.0,0.0,0,0,,0,1,0,0,0,0,,Stanford,2020
+Thomas Schaffer,thomas-schaffer-1,/cfb/players/thomas-schaffer-1.html,DE,6,15,5,20,4.0,3.0,0,0,,0,0,0,0,0,0,,Stanford,2020
+Salim Turner-Muhammad,salim-turner-muhammad-1,/cfb/players/salim-turner-muhammad-1.html,CB,5,14,3,17,1.0,0.0,0,0,,0,1,0,0,0,1,,Stanford,2020
+Jonathan McGill,jonathan-mcgill-1,/cfb/players/jonathan-mcgill-1.html,S,6,9,8,17,3.0,0.0,0,0,,0,2,0,0,0,0,,Stanford,2020
+Stephen Herron,stephen-herron-1,/cfb/players/stephen-herron-1.html,LB,6,10,4,14,3.0,1.0,0,0,,0,0,0,0,0,1,,Stanford,2020
+Dalyn Wade-Perry,dalyn-wade-perry-1,/cfb/players/dalyn-wade-perry-1.html,DT,5,7,5,12,2.0,1.0,0,0,,0,0,1,0,0,0,,Stanford,2020
+Noah Williams,noah-williams-1,/cfb/players/noah-williams-1.html,S,5,10,2,12,0.0,0.0,0,0,,0,1,0,0,0,0,,Stanford,2020
+Thunder Keck,thunder-keck-1,/cfb/players/thunder-keck-1.html,LB,5,3,6,9,1.0,0.0,0,0,,0,0,0,0,0,0,,Stanford,2020
+Jordan Fox,jordan-fox-1,/cfb/players/jordan-fox-1.html,LB,4,5,4,9,0.0,0.0,0,0,,0,1,0,0,0,0,,Stanford,2020
+Ethan Bonner,ethan-bonner-1,/cfb/players/ethan-bonner-1.html,CB,2,6,2,8,1.0,0.0,0,0,,0,0,0,0,0,0,,Stanford,2020
+Zahran Manley,zahran-manley-1,/cfb/players/zahran-manley-1.html,CB,5,4,2,6,0.0,0.0,0,0,,0,1,0,0,0,0,,Stanford,2020
+Donjae Logan,donjae-logan-1,/cfb/players/donjae-logan-1.html,CB,6,4,1,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Stanford,2020
+Ryan Johnson,ryan-johnson-8,/cfb/players/ryan-johnson-8.html,DE,5,2,2,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Stanford,2020
+Ricky Miezan,ricky-miezan-1,/cfb/players/ricky-miezan-1.html,LB,1,4,0,4,1.0,0.0,0,0,,0,0,0,0,0,0,,Stanford,2020
+Brycen Tremayne,brycen-tremayne-1,/cfb/players/brycen-tremayne-1.html,WR,6,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Stanford,2020
+Andres Fox,andres-fox-1,/cfb/players/andres-fox-1.html,LB,6,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Stanford,2020
+Tucker Fisk,tucker-fisk-1,/cfb/players/tucker-fisk-1.html,TE,6,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Stanford,2020
+Joshua Pakola,joshua-pakola-2,/cfb/players/joshua-pakola-2.html,,2,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Stanford,2020
+J.J. Parson,jj-parson-1,/cfb/players/jj-parson-1.html,S,4,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Stanford,2020
+Omari Porter,omari-porter-1,/cfb/players/omari-porter-1.html,CB,5,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Stanford,2020
+Alaka'i Gilman,alakai-gilman-1,/cfb/players/alakai-gilman-1.html,S,2,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Stanford,2020
+Joshua Pakola,joshua-pakola-1,/cfb/players/joshua-pakola-1.html,DE,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Stanford,2020
+Spencer Jorgensen,spencer-jorgensen-1,/cfb/players/spencer-jorgensen-1.html,S,3,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Stanford,2020
+Elijah Higgins,elijah-higgins-1,/cfb/players/elijah-higgins-1.html,WR,5,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Stanford,2020
+Davis Mills,davis-mills-1,/cfb/players/davis-mills-1.html,QB,5,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Stanford,2020
+Benjamin Yurosek,benjamin-yurosek-1,/cfb/players/benjamin-yurosek-1.html,TE,5,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Stanford,2020
+Alexander Thorpe,alexander-thorpe-1,/cfb/players/alexander-thorpe-1.html,P,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Stanford,2020
+Houston Heimuli,houston-heimuli-1,/cfb/players/houston-heimuli-1.html,FB,5,0,0,0,0.0,0.0,0,0,,0,0,1,0,0,0,,Stanford,2020

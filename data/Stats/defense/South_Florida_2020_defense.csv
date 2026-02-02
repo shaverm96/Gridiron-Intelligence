@@ -1,0 +1,40 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Tony Grier Jr.,tony-grier-jr-1,/cfb/players/tony-grier-jr-1.html,LB,8,34,25,59,5.5,3.0,0,0,,0,0,0,0,0,2,,South Florida,2020
+Dwayne Boyles,dwayne-boyles-1,/cfb/players/dwayne-boyles-1.html,LB,7,28,16,44,5.0,0.0,1,0,0.0,0,2,0,0,0,0,,South Florida,2020
+Nick Roberts,nick-roberts-1,/cfb/players/nick-roberts-1.html,DB,6,22,17,39,0.0,0.0,0,0,,0,1,0,0,0,1,,South Florida,2020
+Andrew Mims,andrew-mims-1,/cfb/players/andrew-mims-1.html,LB,8,24,14,38,4.0,1.0,0,0,,0,0,0,0,0,0,,South Florida,2020
+Thad Mangum,thad-mangum-1,/cfb/players/thad-mangum-1.html,DT,9,20,17,37,4.0,0.0,0,0,,0,0,1,0,0,1,,South Florida,2020
+Vincent Davis,vincent-davis-2,/cfb/players/vincent-davis-2.html,DB,7,19,15,34,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2020
+Mike Hampton,mike-hampton-2,/cfb/players/mike-hampton-2.html,DB,9,22,11,33,0.0,0.0,0,0,,0,4,1,0,0,0,,South Florida,2020
+Mekhi Lapointe,mekhi-lapointe-1,/cfb/players/mekhi-lapointe-1.html,DB,7,28,5,33,2.0,0.0,2,39,19.5,0,2,0,0,0,0,,South Florida,2020
+Christopher Townsel,christopher-townsel-1,/cfb/players/christopher-townsel-1.html,DB,8,23,9,32,2.5,0.0,1,0,0.0,0,1,0,0,0,0,,South Florida,2020
+Daquan Evans,daquan-evans-1,/cfb/players/daquan-evans-1.html,DB,9,23,5,28,1.0,0.0,3,138,46.0,1,1,0,0,0,0,,South Florida,2020
+Demaurez Bellamy,demaurez-bellamy-1,/cfb/players/demaurez-bellamy-1.html,LB,7,17,10,27,2.5,0.0,0,0,,0,3,0,0,0,0,,South Florida,2020
+Bentlee Sanders,bentlee-sanders-1,/cfb/players/bentlee-sanders-1.html,DB,7,21,4,25,2.5,0.0,1,38,38.0,1,2,0,0,0,0,,South Florida,2020
+Mac Harris,mac-harris-1,/cfb/players/mac-harris-1.html,S,7,13,11,24,1.0,0.0,1,2,2.0,0,0,0,0,0,0,,South Florida,2020
+K.J. Sails,kj-sails-1,/cfb/players/kj-sails-1.html,DB,8,17,5,22,1.5,0.0,0,0,,0,2,0,0,0,0,,South Florida,2020
+Blake Green,blake-green-1,/cfb/players/blake-green-1.html,DT,8,9,12,21,1.5,0.0,0,0,,0,0,0,0,0,1,,South Florida,2020
+Rashawn Yates,rashawn-yates-1,/cfb/players/rashawn-yates-1.html,DL,9,12,7,19,2.5,1.0,0,0,,0,0,0,0,0,1,,South Florida,2020
+Brock Nichols,brock-nichols-1,/cfb/players/brock-nichols-1.html,DB,8,13,6,19,0.0,0.0,1,3,3.0,0,0,1,0,0,0,,South Florida,2020
+Brian Norris Jr.,brian-norris-jr-1,/cfb/players/brian-norris-jr-1.html,LB,7,8,8,16,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2020
+Kelvin Pinkney Jr.,kelvin-pinkney-jr-1,/cfb/players/kelvin-pinkney-jr-1.html,DT,9,11,3,14,4.0,1.0,0,0,,0,1,0,0,0,0,,South Florida,2020
+Jason Vaughn,jason-vaughn-2,/cfb/players/jason-vaughn-2.html,DE,9,9,2,11,0.5,0.0,0,0,,0,0,0,0,0,0,,South Florida,2020
+Darrien Grant,darrien-grant-1,/cfb/players/darrien-grant-1.html,DE,9,4,6,10,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2020
+Jayden Curry,jayden-curry-1,/cfb/players/jayden-curry-1.html,DB,9,6,1,7,1.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2020
+Isaiah Cromarty,isaiah-cromarty-1,/cfb/players/isaiah-cromarty-1.html,DB,7,6,1,7,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2020
+Tramel Logan,tramel-logan-1,/cfb/players/tramel-logan-1.html,DE,7,4,2,6,1.0,1.0,0,0,,0,0,0,0,0,0,,South Florida,2020
+Kevin Kegler,kevin-kegler-1,/cfb/players/kevin-kegler-1.html,DT,6,4,0,4,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2020
+Keyon Helton,keyon-helton-1,/cfb/players/keyon-helton-1.html,LB,7,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2020
+DeVontres Dukes,devontres-dukes-1,/cfb/players/devontres-dukes-1.html,WR,9,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2020
+Cody Gentry,cody-gentry-1,/cfb/players/cody-gentry-1.html,DB,2,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2020
+Omarion Dollison,omarion-dollison-1,/cfb/players/omarion-dollison-1.html,WR,9,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2020
+Jordan McCloud,jordan-mccloud-1,/cfb/players/jordan-mccloud-1.html,QB,8,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2020
+Spencer Shrader,spencer-shrader-1,/cfb/players/spencer-shrader-1.html,K,8,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2020
+Trent Schneider,trent-schneider-1,/cfb/players/trent-schneider-1.html,P,8,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2020
+Ryan Thaxton,ryan-thaxton-1,/cfb/players/ryan-thaxton-1.html,DE,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2020
+Randall St. Felix,randall-st-felix-1,/cfb/players/randall-st-felix-1.html,WR,8,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2020
+Mitchell Brinkman,mitchell-brinkman-1,/cfb/players/mitchell-brinkman-1.html,TE,9,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2020
+Jahquez Evans,jahquez-evans-1,/cfb/players/jahquez-evans-1.html,WR,5,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2020
+Bryce Miller,bryce-miller-1,/cfb/players/bryce-miller-1.html,WR,9,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2020
+Bryce Bernard,bryce-bernard-1,/cfb/players/bryce-bernard-1.html,LS,6,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2020
+Ben Knox,ben-knox-2,/cfb/players/ben-knox-2.html,CB,5,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2020

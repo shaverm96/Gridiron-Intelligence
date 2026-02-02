@@ -1,0 +1,41 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Henry To'oto'o,henry-tootoo-1,/cfb/players/henry-tootoo-1.html,LB,10,47,29,76,10.0,1.0,1,32,32.0,1,2,0,0,0,0,,Tennessee,2020
+Trevon Flowers,trevon-flowers-1,/cfb/players/trevon-flowers-1.html,DB,10,36,26,62,2.0,0.0,0,0,,0,3,0,0,0,1,,Tennessee,2020
+Quavaris Crouch,quavaris-crouch-1,/cfb/players/quavaris-crouch-1.html,LB,10,30,27,57,2.0,0.0,0,0,,0,1,0,0,0,2,,Tennessee,2020
+Matthew Butler,matthew-butler-1,/cfb/players/matthew-butler-1.html,DL,10,22,21,43,3.0,2.0,0,0,,0,1,0,0,0,1,,Tennessee,2020
+Jaylen McCollough,jaylen-mccollough-1,/cfb/players/jaylen-mccollough-1.html,DB,10,29,14,43,2.5,0.0,0,0,,0,2,0,0,0,0,,Tennessee,2020
+Bryce Thompson,bryce-thompson-1,/cfb/players/bryce-thompson-1.html,DB,10,27,9,36,2.0,0.0,2,18,9.0,1,2,1,0,0,1,,Tennessee,2020
+Theo Jackson,theo-jackson-1,/cfb/players/theo-jackson-1.html,DB,10,19,12,31,1.0,0.0,1,36,36.0,0,2,1,0,0,0,,Tennessee,2020
+Alontae Taylor,alontae-taylor-1,/cfb/players/alontae-taylor-1.html,DB,8,22,7,29,2.0,0.0,1,45,45.0,0,4,0,0,0,0,,Tennessee,2020
+Deandre Johnson,deandre-johnson-5,/cfb/players/deandre-johnson-5.html,LB,10,17,11,28,6.0,4.5,0,0,,0,0,0,0,0,2,,Tennessee,2020
+Jeremy Banks,jeremy-banks-2,/cfb/players/jeremy-banks-2.html,LB,9,13,15,28,1.0,0.0,0,0,,0,0,0,0,0,0,,Tennessee,2020
+Kenneth George Jr.,kenneth-george-jr-1,/cfb/players/kenneth-george-jr-1.html,DB,8,18,7,25,0.0,0.0,0,0,,0,6,1,0,0,0,,Tennessee,2020
+Kurott Garland,kurott-garland-1,/cfb/players/kurott-garland-1.html,DL,10,11,11,22,1.0,0.0,0,0,,0,0,0,0,0,0,,Tennessee,2020
+Kivon Bennett,kivon-bennett-1,/cfb/players/kivon-bennett-1.html,LB,7,13,9,22,7.5,4.5,0,0,,0,0,1,0,1,0,,Tennessee,2020
+Tyler Baron,tyler-baron-1,/cfb/players/tyler-baron-1.html,LB,10,13,8,21,3.0,1.0,0,0,,0,0,0,0,0,0,,Tennessee,2020
+Warren Burrell,warren-burrell-1,/cfb/players/warren-burrell-1.html,DB,8,15,2,17,0.0,0.0,0,0,,0,1,0,0,0,0,,Tennessee,2020
+Aubrey Solomon,aubrey-solomon-1,/cfb/players/aubrey-solomon-1.html,DL,10,7,10,17,0.0,0.0,0,0,,0,0,0,0,0,0,,Tennessee,2020
+Darel Middleton,darel-middleton-1,/cfb/players/darel-middleton-1.html,DL,9,5,10,15,1.5,1.0,0,0,,0,2,0,0,0,0,,Tennessee,2020
+LaTrell Bumphus,latrell-bumphus-1,/cfb/players/latrell-bumphus-1.html,DL,5,4,10,14,1.5,1.0,0,0,,0,0,0,0,0,0,,Tennessee,2020
+Tamarion McDonald,tamarion-mcdonald-1,/cfb/players/tamarion-mcdonald-1.html,DB,7,5,6,11,0.0,0.0,0,0,,0,1,0,0,0,0,,Tennessee,2020
+Omari Thomas,omari-thomas-1,/cfb/players/omari-thomas-1.html,DL,10,7,3,10,1.0,0.0,0,0,,0,0,0,0,0,0,,Tennessee,2020
+Elijah Simmons,elijah-simmons-1,/cfb/players/elijah-simmons-1.html,DL,10,2,8,10,0.0,0.0,0,0,,0,1,0,0,0,0,,Tennessee,2020
+Shawn Shamburger,shawn-shamburger-1,/cfb/players/shawn-shamburger-1.html,DB,3,6,3,9,0.0,0.0,0,0,,0,0,0,0,0,0,,Tennessee,2020
+John Mincey,john-mincey-1,/cfb/players/john-mincey-1.html,DL,10,4,4,8,0.5,0.0,0,0,,0,0,0,0,0,0,,Tennessee,2020
+Tee Hodge,tee-hodge-1,/cfb/players/tee-hodge-1.html,RB,2,6,2,8,2.5,0.0,0,0,,0,0,0,0,0,0,,Tennessee,2020
+Doneiko Slaughter,doneiko-slaughter-1,/cfb/players/doneiko-slaughter-1.html,DB,10,4,4,8,1.0,1.0,0,0,,0,0,0,0,0,0,,Tennessee,2020
+Key Lawrence,key-lawrence-1,/cfb/players/key-lawrence-1.html,DB,10,3,5,8,0.0,0.0,0,0,,0,1,0,0,0,0,,Tennessee,2020
+Roman Harrison,roman-harrison-1,/cfb/players/roman-harrison-1.html,LB,10,5,2,7,3.0,2.0,0,0,,0,0,0,0,0,0,,Tennessee,2020
+Aaron Beasley,aaron-beasley-2,/cfb/players/aaron-beasley-2.html,LB,8,4,3,7,0.5,0.0,0,0,,0,0,0,0,0,1,,Tennessee,2020
+Ja'Quain Blakely,jaquain-blakely-1,/cfb/players/jaquain-blakely-1.html,DL,10,3,2,5,2.0,2.0,0,0,,0,0,0,0,0,0,,Tennessee,2020
+Matthew Salansky,matthew-salansky-1,/cfb/players/matthew-salansky-1.html,LS,10,0,3,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Tennessee,2020
+Morven Joseph,morven-joseph-1,/cfb/players/morven-joseph-1.html,LB,10,1,1,2,0.5,0.0,0,0,,0,0,0,0,0,0,,Tennessee,2020
+Bryson Eason,bryson-eason-1,/cfb/players/bryson-eason-1.html,LB,6,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Tennessee,2020
+Greg Emerson,greg-emerson-1,/cfb/players/greg-emerson-1.html,DL,8,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Tennessee,2020
+Romello Edwards,romello-edwards-1,/cfb/players/romello-edwards-1.html,DB,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Tennessee,2020
+Kenney Solomon,kenney-solomon-1,/cfb/players/kenney-solomon-1.html,WR,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Tennessee,2020
+Solon Page III,solon-page-iii-1,/cfb/players/solon-page-iii-1.html,LB,3,0,1,1,0.5,0.0,0,0,,0,0,0,0,0,0,,Tennessee,2020
+JT Shrout,jt-shrout-1,/cfb/players/jt-shrout-1.html,QB,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Tennessee,2020
+Cheyenne Labruzza,cheyenne-labruzza-1,/cfb/players/cheyenne-labruzza-1.html,DB,9,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Tennessee,2020
+Jimmy Holiday,jimmy-holiday-1,/cfb/players/jimmy-holiday-1.html,WR,8,0,1,1,0.0,0.0,0,0,,0,0,1,0,0,0,,Tennessee,2020
+Velus Jones Jr.,velus-jones-jr-1,/cfb/players/velus-jones-jr-1.html,WR,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Tennessee,2020

@@ -1,0 +1,45 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Jordyn Brooks,jordyn-brooks-1,/cfb/players/jordyn-brooks-1.html,LB,11,66,42,108,20.0,3.0,0,0,,0,0,2,19,0,1,,Texas Tech,2019
+Riko Jeffers,riko-jeffers-1,/cfb/players/riko-jeffers-1.html,LB,12,53,23,76,9.5,3.0,0,0,,0,1,0,0,0,2,,Texas Tech,2019
+Douglas Coleman,douglas-coleman-1,/cfb/players/douglas-coleman-1.html,DB,12,50,13,63,0.0,0.0,8,79,9.9,0,2,0,-10,0,0,,Texas Tech,2019
+Xavier Benson,xavier-benson-2,/cfb/players/xavier-benson-2.html,,12,36,21,57,4.0,1.0,0,0,,0,0,0,0,0,0,,Texas Tech,2019
+Xavier Benson,xavier-benson-1,/cfb/players/xavier-benson-1.html,LB,11,36,21,57,4.0,1.0,0,0,,0,0,0,0,0,0,,Texas Tech,2019
+Damarcus Fields,damarcus-fields-1,/cfb/players/damarcus-fields-1.html,DB,10,46,8,54,6.0,1.0,3,60,20.0,0,5,0,0,0,0,,Texas Tech,2019
+Zech McPhearson,zech-mcphearson-1,/cfb/players/zech-mcphearson-1.html,DB,12,42,9,51,2.5,0.0,0,0,,0,5,0,0,0,0,,Texas Tech,2019
+Thomas Leggett,thomas-leggett-1,/cfb/players/thomas-leggett-1.html,DB,11,32,10,42,6.0,2.0,0,0,,0,3,0,0,0,0,,Texas Tech,2019
+Adam Beck,adam-beck-1,/cfb/players/adam-beck-1.html,DB,11,29,10,39,3.5,0.5,0,0,,0,1,0,0,0,0,,Texas Tech,2019
+Broderick Washington,broderick-washington-1,/cfb/players/broderick-washington-1.html,DL,12,24,15,39,5.5,2.5,0,0,,0,2,1,0,0,0,,Texas Tech,2019
+Adrian Frye,adrian-frye-1,/cfb/players/adrian-frye-1.html,DB,11,24,5,29,0.5,0.0,1,0,0.0,0,2,0,0,0,1,,Texas Tech,2019
+Jaylon Hutchings,jaylon-hutchings-1,/cfb/players/jaylon-hutchings-1.html,DL,12,18,9,27,3.5,1.5,0,0,,0,0,0,0,0,1,,Texas Tech,2019
+Ja'Marcus Ingram,jamarcus-ingram-1,/cfb/players/jamarcus-ingram-1.html,DB,12,15,7,22,0.0,0.0,1,0,0.0,0,2,0,0,0,0,,Texas Tech,2019
+Eli Howard,eli-howard-1,/cfb/players/eli-howard-1.html,DL,12,14,7,21,6.0,5.0,0,0,,0,2,1,0,0,0,,Texas Tech,2019
+Evan Rambo,evan-rambo-1,/cfb/players/evan-rambo-1.html,LB,6,13,5,18,4.5,1.0,1,23,23.0,0,1,0,0,0,0,,Texas Tech,2019
+Dadrion Taylor-Demerson,dadrion-taylor-demerson-1,/cfb/players/dadrion-taylor-demerson-1.html,,11,12,4,16,1.0,0.0,0,0,,0,0,1,0,0,0,,Texas Tech,2019
+Dadrion Taylor,dadrion-taylor-1,/cfb/players/dadrion-taylor-1.html,DB,7,11,4,15,1.0,0.0,0,0,,0,0,1,0,0,0,,Texas Tech,2019
+Nelson Mbanasor,nelson-mbanasor-1,/cfb/players/nelson-mbanasor-1.html,DL,11,9,6,15,2.5,1.0,0,0,,0,1,0,0,0,0,,Texas Tech,2019
+Tony Bradford Jr.,tony-bradford-jr-1,/cfb/players/tony-bradford-jr-1.html,DL,11,9,4,13,2.0,1.0,0,0,,0,0,0,0,0,0,,Texas Tech,2019
+Nicolas McCann,nicolas-mccann-1,/cfb/players/nicolas-mccann-1.html,,12,6,6,12,1.0,0.0,0,0,,0,0,0,0,0,0,,Texas Tech,2019
+Nick McCann,nick-mccann-1,/cfb/players/nick-mccann-1.html,DL,7,6,6,12,1.0,0.0,0,0,,0,0,0,0,0,0,,Texas Tech,2019
+Tyrique Matthews,tyrique-matthews-1,/cfb/players/tyrique-matthews-1.html,LB,12,6,4,10,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas Tech,2019
+Alex Hogan,alex-hogan-1,/cfb/players/alex-hogan-1.html,DB,8,7,1,8,0.0,0.0,0,0,,0,2,0,0,0,0,,Texas Tech,2019
+Desmon Smith,desmon-smith-1,/cfb/players/desmon-smith-1.html,DB,7,5,3,8,0.0,0.0,0,0,,0,1,0,0,0,0,,Texas Tech,2019
+Brayden Stringer,brayden-stringer-2,/cfb/players/brayden-stringer-2.html,LB,10,3,3,6,1.0,0.5,0,0,,0,0,0,0,0,0,,Texas Tech,2019
+Kosi Eldridge,kosi-eldridge-1,/cfb/players/kosi-eldridge-1.html,LB,10,1,5,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas Tech,2019
+Quentin Yontz,quentin-yontz-1,/cfb/players/quentin-yontz-1.html,DL,12,1,4,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas Tech,2019
+Lonzell Gilmore,lonzell-gilmore-1,/cfb/players/lonzell-gilmore-1.html,DL,5,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas Tech,2019
+Myller Royals,myller-royals-1,/cfb/players/myller-royals-1.html,WR,11,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas Tech,2019
+T.J. Vasher,tj-vasher-1,/cfb/players/tj-vasher-1.html,WR,10,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,1,,Texas Tech,2019
+SaRodorick Thompson,sarodorick-thompson-1,/cfb/players/sarodorick-thompson-1.html,RB,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas Tech,2019
+Weston Wright,weston-wright-1,/cfb/players/weston-wright-1.html,OL,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas Tech,2019
+Houston Miller,houston-miller-1,/cfb/players/houston-miller-1.html,DL,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas Tech,2019
+Connor Killian,connor-killian-1,/cfb/players/connor-killian-1.html,FB,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas Tech,2019
+Patrick Curley,patrick-curley-1,/cfb/players/patrick-curley-1.html,LB,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas Tech,2019
+Simon Gonzalez,simon-gonzalez-1,/cfb/players/simon-gonzalez-1.html,TE,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas Tech,2019
+Caden Leggett,caden-leggett-1,/cfb/players/caden-leggett-1.html,WR,11,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas Tech,2019
+Donta Thompson,donta-thompson-1,/cfb/players/donta-thompson-1.html,TE,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas Tech,2019
+Travis Bruffy,travis-bruffy-1,/cfb/players/travis-bruffy-1.html,OL,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas Tech,2019
+John Davis Jr.,john-davis-jr-1,/cfb/players/john-davis-jr-1.html,DB,4,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas Tech,2019
+KeSean Carter,kesean-carter-1,/cfb/players/kesean-carter-1.html,WR,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas Tech,2019
+Michael Nelson,michael-nelson-1,/cfb/players/michael-nelson-1.html,LB,8,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas Tech,2019
+Austin McNamara,austin-mcnamara-1,/cfb/players/austin-mcnamara-1.html,PK,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas Tech,2019
+Dawson Deaton,dawson-deaton-1,/cfb/players/dawson-deaton-1.html,OL,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas Tech,2019

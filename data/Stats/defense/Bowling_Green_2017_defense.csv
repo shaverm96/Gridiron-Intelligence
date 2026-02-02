@@ -1,0 +1,48 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Fred Garth,fred-garth-1,/cfb/players/fred-garth-1.html,DB,12,58,37,95,1.0,0.0,1,5,5.0,0,4,0,0,0,0,,Bowling Green,2017
+Nate Locke,nate-locke-1,/cfb/players/nate-locke-1.html,LB,12,40,53,93,8.5,2.0,0,0,,0,0,1,0,0,0,,Bowling Green,2017
+Brandon Harris,brandon-harris-10,/cfb/players/brandon-harris-10.html,DB,12,57,35,92,3.5,0.0,0,0,,0,6,3,123,1,3,,Bowling Green,2017
+Marcus Milton,marcus-milton-1,/cfb/players/marcus-milton-1.html,DB,12,37,23,60,1.0,0.0,3,47,15.7,0,6,1,0,0,1,,Bowling Green,2017
+David Konowalski,david-konowalski-1,/cfb/players/david-konowalski-1.html,DL,12,33,23,56,8.5,3.5,0,0,,0,1,1,0,0,3,,Bowling Green,2017
+Armani Posey,armani-posey-1,/cfb/players/armani-posey-1.html,LB,9,23,29,52,1.5,0.0,0,0,,0,1,0,0,0,2,,Bowling Green,2017
+Aaron Banks,aaron-banks-2,/cfb/players/aaron-banks-2.html,LB,11,17,24,41,1.0,0.0,0,0,,0,1,0,0,0,1,,Bowling Green,2017
+Cameron Jefferies,cameron-jefferies-1,/cfb/players/cameron-jefferies-1.html,DB,9,28,8,36,1.0,0.0,1,8,8.0,0,6,1,46,1,0,,Bowling Green,2017
+Kyle Junior,kyle-junior-1,/cfb/players/kyle-junior-1.html,DL,12,16,19,35,6.5,3.5,0,0,,0,1,1,38,0,1,,Bowling Green,2017
+Gus Schwieterman,gus-schwieterman-1,/cfb/players/gus-schwieterman-1.html,DL,11,15,16,31,2.5,0.0,0,0,,0,0,1,0,0,0,,Bowling Green,2017
+Nilijah Ballew,nilijah-ballew-1,/cfb/players/nilijah-ballew-1.html,DB,12,21,8,29,0.5,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2017
+Robert Jackson Jr.,robert-jackson-jr-1,/cfb/players/robert-jackson-jr-1.html,DB,11,14,12,26,1.0,0.0,0,0,,0,3,0,0,0,0,,Bowling Green,2017
+Clint Stephens,clint-stephens-1,/cfb/players/clint-stephens-1.html,DB,9,17,8,25,0.0,0.0,3,0,0.0,0,8,1,7,0,1,,Bowling Green,2017
+Nico Lautanen,nico-lautanen-1,/cfb/players/nico-lautanen-1.html,DL,12,17,8,25,4.5,1.0,0,0,,0,0,1,0,0,1,,Bowling Green,2017
+Brian Sanders,brian-sanders-1,/cfb/players/brian-sanders-1.html,DL,12,14,10,24,1.5,1.0,0,0,,0,0,0,0,0,0,,Bowling Green,2017
+Shannon Smith,shannon-smith-2,/cfb/players/shannon-smith-2.html,DL,8,9,13,22,2.5,2.0,0,0,,0,1,0,0,0,0,,Bowling Green,2017
+Kholbe Coleman,kholbe-coleman-1,/cfb/players/kholbe-coleman-1.html,LB,12,11,10,21,1.5,0.0,0,0,,0,0,1,0,0,0,,Bowling Green,2017
+Dirion Hutchins,dirion-hutchins-1,/cfb/players/dirion-hutchins-1.html,DL,12,7,12,19,1.5,1.0,0,0,,0,0,0,0,0,0,,Bowling Green,2017
+Montre Gregory,montre-gregory-1,/cfb/players/montre-gregory-1.html,DB,12,16,2,18,0.0,0.0,1,18,18.0,0,8,0,0,0,0,,Bowling Green,2017
+Josh Croslen,josh-croslen-1,/cfb/players/josh-croslen-1.html,DL,12,11,5,16,1.5,1.0,0,0,,0,0,0,0,0,0,,Bowling Green,2017
+Torrian Hampton,torrian-hampton-1,/cfb/players/torrian-hampton-1.html,DB,9,6,9,15,0.0,0.0,0,0,,0,1,1,0,0,0,,Bowling Green,2017
+Jack Walz III,jack-walz-iii-1,/cfb/players/jack-walz-iii-1.html,DB,12,10,4,14,1.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2017
+Trevor Roop,trevor-roop-1,/cfb/players/trevor-roop-1.html,WR,12,5,6,11,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2017
+Ben Hale,ben-hale-2,/cfb/players/ben-hale-2.html,DB,9,8,2,10,1.0,0.0,0,0,,0,1,0,0,0,0,,Bowling Green,2017
+Tavarus Wade,tavarus-wade-1,/cfb/players/tavarus-wade-1.html,DB,6,5,4,9,0.0,0.0,0,0,,0,0,0,0,0,1,,Bowling Green,2017
+Jerry McBride III,jerry-mcbride-iii-1,/cfb/players/jerry-mcbride-iii-1.html,DB,9,4,4,8,0.0,0.0,0,0,,0,1,0,0,0,0,,Bowling Green,2017
+Malik Brown,malik-brown-1,/cfb/players/malik-brown-1.html,DL,4,2,3,5,1.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2017
+Ty Redding,ty-redding-1,/cfb/players/ty-redding-1.html,DB,10,4,1,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2017
+Datrin Guyton,datrin-guyton-1,/cfb/players/datrin-guyton-1.html,WR,12,3,2,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2017
+Jonah Harper,jonah-harper-1,/cfb/players/jonah-harper-1.html,DL,7,0,5,5,0.5,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2017
+Antonyo Sotolongo,antonyo-sotolongo-1,/cfb/players/antonyo-sotolongo-1.html,DB,11,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2017
+Caleb Bright,caleb-bright-1,/cfb/players/caleb-bright-1.html,OL,12,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2017
+Dorian Hendrix,dorian-hendrix-1,/cfb/players/dorian-hendrix-1.html,LB,7,3,1,4,0.5,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2017
+Nick Fields,nick-fields-1,/cfb/players/nick-fields-1.html,K,12,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2017
+Deric Phouthavong,deric-phouthavong-1,/cfb/players/deric-phouthavong-1.html,WR,12,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2017
+Andrew Clair,andrew-clair-1,/cfb/players/andrew-clair-1.html,RB,11,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2017
+Terence Stephens Jr.,terence-stephens-jr-1,/cfb/players/terence-stephens-jr-1.html,RB,11,0,2,2,0.5,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2017
+Darius Wortham,darius-wortham-1,/cfb/players/darius-wortham-1.html,DB,4,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2017
+Matt Robinson,matt-robinson-4,/cfb/players/matt-robinson-4.html,DB,5,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2017
+Hunter Folkertsma,hunter-folkertsma-1,/cfb/players/hunter-folkertsma-1.html,TE,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,1,,Bowling Green,2017
+Scott Miller,scott-miller-3,/cfb/players/scott-miller-3.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2017
+Janarvis Pough,janarvis-pough-1,/cfb/players/janarvis-pough-1.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,1,0,0,0,,Bowling Green,2017
+Matthew Wilcox Jr.,matthew-wilcox-jr-1,/cfb/players/matthew-wilcox-jr-1.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2017
+Teo Redding,teo-redding-1,/cfb/players/teo-redding-1.html,WR,11,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2017
+Austin Labus,austin-labus-1,/cfb/players/austin-labus-1.html,OL,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2017
+Matt Naranjo,matt-naranjo-1,/cfb/players/matt-naranjo-1.html,P,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2017
+Jarret Doege,jarret-doege-1,/cfb/players/jarret-doege-1.html,QB,7,0,0,0,0.0,0.0,0,0,,0,0,1,0,0,0,,Bowling Green,2017

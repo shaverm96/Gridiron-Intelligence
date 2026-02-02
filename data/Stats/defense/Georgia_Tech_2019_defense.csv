@@ -1,0 +1,53 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+David Curry,david-curry-1,/cfb/players/david-curry-1.html,LB,12,54,43,97,6.0,2.0,1,8,8.0,0,3,1,0,0,2,,Georgia Tech,2019
+Charlie Thomas,charlie-thomas-2,/cfb/players/charlie-thomas-2.html,LB,12,42,23,65,9.5,2.0,0,0,,0,2,0,0,0,2,,Georgia Tech,2019
+Tariq Carpenter,tariq-carpenter-1,/cfb/players/tariq-carpenter-1.html,DB,11,48,14,62,2.0,0.0,1,0,0.0,0,5,0,0,0,1,,Georgia Tech,2019
+Juanyeh Thomas,juanyeh-thomas-1,/cfb/players/juanyeh-thomas-1.html,DB,12,44,16,60,2.5,0.0,1,0,0.0,0,3,0,0,0,1,,Georgia Tech,2019
+Quez Jackson,quez-jackson-1,/cfb/players/quez-jackson-1.html,LB,12,28,21,49,5.0,0.0,0,0,,0,2,0,0,0,1,,Georgia Tech,2019
+Christian Campbell,christian-campbell-2,/cfb/players/christian-campbell-2.html,DB,12,31,13,44,2.0,0.0,0,0,,0,2,0,0,0,0,,Georgia Tech,2019
+Kaleb Oliver,kaleb-oliver-1,/cfb/players/kaleb-oliver-1.html,DB,11,24,15,39,1.0,0.0,2,-2,-1.0,0,4,0,0,0,1,,Georgia Tech,2019
+T.K. Chimedza,tk-chimedza-1,/cfb/players/tk-chimedza-1.html,DL,12,18,16,34,1.5,1.5,0,0,,0,0,1,2,0,0,,Georgia Tech,2019
+Zamari Walton,zamari-walton-1,/cfb/players/zamari-walton-1.html,DB,12,23,6,29,0.0,0.0,0,0,,0,3,0,0,0,0,,Georgia Tech,2019
+Bruce Jordan-Swilling,bruce-jordan-swilling-1,/cfb/players/bruce-jordan-swilling-1.html,LB,7,14,13,27,3.0,1.5,0,0,,0,0,0,0,0,0,,Georgia Tech,2019
+Djimon Brooks,djimon-brooks-1,/cfb/players/djimon-brooks-1.html,DL,12,13,14,27,2.0,0.0,0,0,,0,0,0,0,0,0,,Georgia Tech,2019
+Kelton Dawson,kelton-dawson-1,/cfb/players/kelton-dawson-1.html,DL,11,15,11,26,3.0,1.0,0,0,,0,0,0,0,0,1,,Georgia Tech,2019
+Jordan Domineck,jordan-domineck-1,/cfb/players/jordan-domineck-1.html,LB,7,12,13,25,3.5,1.5,0,0,,0,0,0,0,0,0,,Georgia Tech,2019
+Tre Swilling,tre-swilling-1,/cfb/players/tre-swilling-1.html,DB,12,18,5,23,2.0,0.0,1,41,41.0,0,10,1,0,0,0,,Georgia Tech,2019
+Antwan Owens,antwan-owens-1,/cfb/players/antwan-owens-1.html,DL,8,10,11,21,2.5,1.0,1,18,18.0,0,1,0,0,0,0,,Georgia Tech,2019
+Ajani Kerr,ajani-kerr-1,/cfb/players/ajani-kerr-1.html,DB,5,15,3,18,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia Tech,2019
+Demetrius Knight II,demetrius-knight-ii-1,/cfb/players/demetrius-knight-ii-1.html,,12,10,8,18,2.0,1.0,0,0,,0,2,0,0,0,1,,Georgia Tech,2019
+Demetrius Knight,demetrius-knight-1,/cfb/players/demetrius-knight-1.html,QB,9,10,8,18,2.0,1.0,0,0,,0,2,0,0,0,1,,Georgia Tech,2019
+Chico Bennett Jr.,chico-bennett-jr-1,/cfb/players/chico-bennett-jr-1.html,LB,6,12,5,17,0.5,0.5,0,0,,0,0,0,0,0,0,,Georgia Tech,2019
+Jaquan Henderson,jaquan-henderson-1,/cfb/players/jaquan-henderson-1.html,DL,11,10,6,16,2.5,0.5,0,0,,0,1,0,0,0,0,,Georgia Tech,2019
+Myles Sims,myles-sims-1,/cfb/players/myles-sims-1.html,DB,10,15,1,16,0.0,0.0,0,0,,0,3,0,0,0,0,,Georgia Tech,2019
+Avery Showell,avery-showell-1,/cfb/players/avery-showell-1.html,DB,11,13,3,16,0.0,0.0,0,0,,0,1,0,0,0,0,,Georgia Tech,2019
+Brentavious Glanton,brentavious-glanton-1,/cfb/players/brentavious-glanton-1.html,DL,12,8,7,15,2.5,1.0,0,0,,0,0,0,0,0,0,,Georgia Tech,2019
+Quon Griffin,quon-griffin-1,/cfb/players/quon-griffin-1.html,DL,8,6,8,14,3.0,2.5,0,0,,0,0,1,0,1,0,,Georgia Tech,2019
+JaQuon Griffin,jaquon-griffin-1,/cfb/players/jaquon-griffin-1.html,,11,6,8,14,3.0,2.5,0,0,,0,0,1,0,1,0,,Georgia Tech,2019
+Jaylon King,jaylon-king-1,/cfb/players/jaylon-king-1.html,DB,12,11,3,14,1.0,0.0,0,0,,0,1,0,0,0,0,,Georgia Tech,2019
+Sylvain Yondjouen,sylvain-yondjouen-1,/cfb/players/sylvain-yondjouen-1.html,DL,11,5,7,12,1.0,0.0,0,0,,0,0,0,0,0,0,,Georgia Tech,2019
+Curtis Ryans,curtis-ryans-1,/cfb/players/curtis-ryans-1.html,DL,7,8,1,9,1.0,0.0,0,0,,0,0,0,0,0,0,,Georgia Tech,2019
+Nate Cottrell,nate-cottrell-1,/cfb/players/nate-cottrell-1.html,RB,12,6,3,9,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia Tech,2019
+Chris Martin,chris-martin-7,/cfb/players/chris-martin-7.html,DL,10,4,4,8,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia Tech,2019
+Justice Dingle,justice-dingle-1,/cfb/players/justice-dingle-1.html,DL,11,5,1,6,1.0,1.0,0,0,,0,0,3,0,0,0,,Georgia Tech,2019
+Kenan Johnson,kenan-johnson-1,/cfb/players/kenan-johnson-1.html,DB,4,5,0,5,1.0,0.0,0,0,,0,0,0,0,0,1,,Georgia Tech,2019
+Jerry Howard,jerry-howard-2,/cfb/players/jerry-howard-2.html,RB,12,1,4,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia Tech,2019
+Jaytlin Askew,jaytlin-askew-1,/cfb/players/jaytlin-askew-1.html,DB,11,4,1,5,0.0,0.0,0,0,,0,0,1,0,0,0,,Georgia Tech,2019
+Wesley Walker,wesley-walker-3,/cfb/players/wesley-walker-3.html,DB,3,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia Tech,2019
+Jordan Mason,jordan-mason-1,/cfb/players/jordan-mason-1.html,RB,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia Tech,2019
+Malachi Carter,malachi-carter-1,/cfb/players/malachi-carter-1.html,WR,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia Tech,2019
+Cade Long,cade-long-1,/cfb/players/cade-long-1.html,LS,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia Tech,2019
+Devin Ellison,devin-ellison-1,/cfb/players/devin-ellison-1.html,RB,2,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia Tech,2019
+Adonicas Sanders,adonicas-sanders-1,/cfb/players/adonicas-sanders-1.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia Tech,2019
+Tyler Cooksey,tyler-cooksey-1,/cfb/players/tyler-cooksey-1.html,TE,12,1,0,1,0.0,0.0,0,0,,0,0,1,0,0,0,,Georgia Tech,2019
+Tyler Davis,tyler-davis-2,/cfb/players/tyler-davis-2.html,TE,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia Tech,2019
+Tobias Oliver,tobias-oliver-1,/cfb/players/tobias-oliver-1.html,QB,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia Tech,2019
+Wesley Wells,wesley-wells-1,/cfb/players/wesley-wells-1.html,PK,7,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia Tech,2019
+Brenton King,brenton-king-1,/cfb/players/brenton-king-1.html,PK,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia Tech,2019
+Pressley Harvin III,pressley-harvin-iii-1,/cfb/players/pressley-harvin-iii-1.html,P,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia Tech,2019
+Mike Lockhart,mike-lockhart-1,/cfb/players/mike-lockhart-1.html,DL,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia Tech,2019
+Jordan Huff,jordan-huff-2,/cfb/players/jordan-huff-2.html,DB,5,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia Tech,2019
+Jamious Griffin,jamious-griffin-1,/cfb/players/jamious-griffin-1.html,RB,9,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia Tech,2019
+Hinson Fowler,hinson-fowler-1,/cfb/players/hinson-fowler-1.html,DL,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia Tech,2019
+Dontae Smith,dontae-smith-1,/cfb/players/dontae-smith-1.html,RB,8,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia Tech,2019
+Devin Smith,devin-smith-6,/cfb/players/devin-smith-6.html,DB,5,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia Tech,2019

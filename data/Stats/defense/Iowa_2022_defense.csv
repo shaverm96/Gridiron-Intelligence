@@ -1,0 +1,43 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Jack Campbell,jack-campbell-1,/cfb/players/jack-campbell-1.html,LB,13,60,68,128,5.5,1.0,2,30,15.0,0,1,1,0,0,1,AA,Iowa,2022
+Seth Benson,seth-benson-1,/cfb/players/seth-benson-1.html,LB,13,41,54,95,4.5,1.0,1,0,0.0,0,0,1,0,0,0,,Iowa,2022
+Cooper DeJean,cooper-dejean-1,/cfb/players/cooper-dejean-1.html,DB,13,56,19,75,3.0,0.0,5,91,18.2,3,8,0,0,0,0,,Iowa,2022
+Quinn Schulte,quinn-schulte-1,/cfb/players/quinn-schulte-1.html,DB,13,43,28,71,0.5,0.0,1,0,0.0,0,6,0,0,0,0,,Iowa,2022
+Logan Lee,logan-lee-2,/cfb/players/logan-lee-2.html,DL,13,21,33,54,8.0,3.0,0,0,,0,3,1,0,0,0,,Iowa,2022
+Riley Moss,riley-moss-1,/cfb/players/riley-moss-1.html,DB,13,31,16,47,1.0,0.0,1,0,0.0,0,11,0,0,0,2,,Iowa,2022
+Kaevon Merriweather,kaevon-merriweather-1,/cfb/players/kaevon-merriweather-1.html,DB,12,34,13,47,2.0,0.0,3,33,11.0,0,3,1,30,1,1,,Iowa,2022
+Noah Shannon,noah-shannon-1,/cfb/players/noah-shannon-1.html,DL,13,24,20,44,8.5,2.0,0,0,,0,1,0,0,0,0,,Iowa,2022
+Joe Evans,joe-evans-2,/cfb/players/joe-evans-2.html,DE,13,15,26,41,8.5,6.5,0,0,,0,0,1,11,1,2,,Iowa,2022
+Jay Higgins,jay-higgins-1,/cfb/players/jay-higgins-1.html,LB,12,20,19,39,1.5,0.5,0,0,,0,0,0,0,0,0,,Iowa,2022
+Lukas Van Ness,lukas-van-ness-1,/cfb/players/lukas-van-ness-1.html,DL,13,17,21,38,11.0,6.5,0,0,,0,0,0,0,0,0,,Iowa,2022
+John Waggoner,john-waggoner-1,/cfb/players/john-waggoner-1.html,DL,13,16,18,34,6.5,1.5,0,0,,0,0,0,0,0,1,,Iowa,2022
+Sebastian Castro,sebastian-castro-1,/cfb/players/sebastian-castro-1.html,DB,13,22,11,33,3.0,1.0,0,0,,0,5,0,0,0,2,,Iowa,2022
+Deontae Craig,deontae-craig-1,/cfb/players/deontae-craig-1.html,DL,13,12,19,31,10.0,6.5,0,0,,0,1,1,0,0,3,,Iowa,2022
+Ethan Hurkett,ethan-hurkett-1,/cfb/players/ethan-hurkett-1.html,DL,13,10,5,15,2.0,1.0,0,0,,0,0,0,0,0,0,,Iowa,2022
+Aaron Graves,aaron-graves-1,/cfb/players/aaron-graves-1.html,DL,12,5,10,15,6.0,3.0,0,0,,0,0,0,0,0,0,,Iowa,2022
+Terry Roberts,terry-roberts-1,/cfb/players/terry-roberts-1.html,DB,5,9,4,13,0.0,0.0,1,0,0.0,0,2,0,0,0,0,,Iowa,2022
+Xavier Nwankpa,xavier-nwankpa-1,/cfb/players/xavier-nwankpa-1.html,DB,12,11,1,12,0.0,0.0,1,52,52.0,1,1,0,0,0,0,,Iowa,2022
+Yahya Black,yahya-black-1,/cfb/players/yahya-black-1.html,DL,8,3,8,11,1.5,1.0,0,0,,0,2,0,0,0,0,,Iowa,2022
+Jamison Heinz,jamison-heinz-1,/cfb/players/jamison-heinz-1.html,DB,13,8,1,9,0.0,0.0,0,0,,0,1,0,0,0,0,,Iowa,2022
+Logan Klemp,logan-klemp-1,/cfb/players/logan-klemp-1.html,LB,13,1,6,7,0.0,0.0,0,0,,0,0,2,0,0,0,,Iowa,2022
+Jestin Jacobs,jestin-jacobs-1,/cfb/players/jestin-jacobs-1.html,LB,2,2,4,6,1.0,0.0,0,0,,0,1,0,0,0,0,,Iowa,2022
+Kyler Fisher,kyler-fisher-1,/cfb/players/kyler-fisher-1.html,LB,13,2,3,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Iowa,2022
+TJ Hall,tj-hall-1,/cfb/players/tj-hall-1.html,DB,13,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Iowa,2022
+Louie Stec,louie-stec-1,/cfb/players/louie-stec-1.html,DT,13,1,3,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Iowa,2022
+Reggie Bracy,reggie-bracy-1,/cfb/players/reggie-bracy-1.html,DB,10,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Iowa,2022
+Jeremiah Pittman,jeremiah-pittman-1,/cfb/players/jeremiah-pittman-1.html,DL,3,3,1,4,1.0,0.0,0,0,,0,0,0,0,0,0,,Iowa,2022
+Chris Reames,chris-reames-1,/cfb/players/chris-reames-1.html,DL,9,1,2,3,1.0,0.0,0,0,,0,0,0,0,0,0,,Iowa,2022
+Max Llewellyn,max-llewellyn-1,/cfb/players/max-llewellyn-1.html,DL,3,1,2,3,0.5,0.0,0,0,,0,0,0,0,0,0,,Iowa,2022
+Sam Laporta,sam-laporta-1,/cfb/players/sam-laporta-1.html,TE,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Iowa,2022
+Addison Ostrenga,addison-ostrenga-1,/cfb/players/addison-ostrenga-1.html,TE,13,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Iowa,2022
+Monte Pottebaum,monte-pottebaum-1,/cfb/players/monte-pottebaum-1.html,FB,12,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Iowa,2022
+Luke Lachey,luke-lachey-1,/cfb/players/luke-lachey-1.html,TE,13,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Iowa,2022
+Luke Elkin,luke-elkin-1,/cfb/players/luke-elkin-1.html,LS,13,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Iowa,2022
+Deavin Hilson,deavin-hilson-1,/cfb/players/deavin-hilson-1.html,DB,8,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Iowa,2022
+Dallas Craddieth,dallas-craddieth-1,/cfb/players/dallas-craddieth-1.html,DB,4,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Iowa,2022
+Nico Ragaini,nico-ragaini-1,/cfb/players/nico-ragaini-1.html,WR,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Iowa,2022
+Leshon Williams,leshon-williams-1,/cfb/players/leshon-williams-1.html,RB,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Iowa,2022
+Koen Entringer,koen-entringer-1,/cfb/players/koen-entringer-1.html,DB,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Iowa,2022
+Karson Sharar,karson-sharar-1,/cfb/players/karson-sharar-1.html,LB,7,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Iowa,2022
+Jaxon Rexroth,jaxon-rexroth-1,/cfb/players/jaxon-rexroth-1.html,DB,10,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Iowa,2022
+Arland Bruce IV,arland-bruce-iv-1,/cfb/players/arland-bruce-iv-1.html,WR,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Iowa,2022

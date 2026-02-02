@@ -1,0 +1,59 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Jason Taylor II,jason-taylor-ii-1,/cfb/players/jason-taylor-ii-1.html,S,13,80,19,99,3.5,0.0,6,44,7.3,0,7,1,0,0,0,,Oklahoma State,2022
+Mason Cobb,mason-cobb-1,/cfb/players/mason-cobb-1.html,LB,12,58,38,96,13.0,2.0,1,13,13.0,0,1,0,0,0,1,,Oklahoma State,2022
+Xavier Benson,xavier-benson-2,/cfb/players/xavier-benson-2.html,LB,13,36,40,76,4.0,0.0,0,0,,0,2,0,0,0,0,,Oklahoma State,2022
+Kendal Daniels,kendal-daniels-1,/cfb/players/kendal-daniels-1.html,S,13,45,26,71,6.5,0.0,3,20,6.7,0,5,0,0,0,1,,Oklahoma State,2022
+Sean Michael Flanagan,sean-michael-flanagan-1,/cfb/players/sean-michael-flanagan-1.html,S,12,45,19,64,1.5,0.0,0,0,,0,4,0,0,0,0,,Oklahoma State,2022
+Jabbar Muhammad,jabbar-muhammad-1,/cfb/players/jabbar-muhammad-1.html,CB,12,32,16,48,0.5,0.0,1,0,0.0,0,9,0,0,0,1,,Oklahoma State,2022
+Brock Martin,brock-martin-1,/cfb/players/brock-martin-1.html,DE,12,31,12,43,12.5,3.5,0,0,,0,1,0,0,0,2,,Oklahoma State,2022
+Thomas Harper,thomas-harper-1,/cfb/players/thomas-harper-1.html,S,7,17,13,30,1.5,0.0,1,11,11.0,0,2,0,0,0,0,,Oklahoma State,2022
+Lamont Bishop,lamont-bishop-1,/cfb/players/lamont-bishop-1.html,LB,13,17,12,29,4.5,0.0,0,0,,0,0,0,0,0,1,,Oklahoma State,2022
+Sione Asi,sione-asi-1,/cfb/players/sione-asi-1.html,DT,13,16,13,29,7.0,1.0,0,0,,0,1,0,0,0,0,,Oklahoma State,2022
+Collin Oliver,collin-oliver-1,/cfb/players/collin-oliver-1.html,DE,13,19,9,28,7.5,5.0,0,0,,0,1,0,0,0,0,,Oklahoma State,2022
+Tyler Lacy,tyler-lacy-1,/cfb/players/tyler-lacy-1.html,DE,9,12,15,27,8.5,3.0,0,0,,0,1,1,0,0,0,,Oklahoma State,2022
+Korie Black,korie-black-1,/cfb/players/korie-black-1.html,CB,13,18,7,25,1.5,0.0,0,0,,0,4,0,0,0,1,,Oklahoma State,2022
+Lyrik Rawls,lyrik-rawls-1,/cfb/players/lyrik-rawls-1.html,S,12,16,8,24,2.0,1.0,0,0,,0,2,0,0,0,1,,Oklahoma State,2022
+Samuela Tuihalamaka,samuela-tuihalamaka-1,/cfb/players/samuela-tuihalamaka-1.html,DT,13,10,13,23,4.0,1.0,0,0,,0,0,0,0,0,0,,Oklahoma State,2022
+Cam Smith,cam-smith-5,/cfb/players/cam-smith-5.html,CB,13,16,6,22,0.0,0.0,0,0,,0,2,0,0,0,0,,Oklahoma State,2022
+Collin Clay,collin-clay-1,/cfb/players/collin-clay-1.html,DT,12,6,10,16,2.0,0.0,0,0,,0,0,0,0,0,0,,Oklahoma State,2022
+Nickolas Martin,nickolas-martin-1,/cfb/players/nickolas-martin-1.html,LB,13,10,5,15,0.0,0.0,0,0,,0,0,0,0,0,0,,Oklahoma State,2022
+Nathan Latu,nathan-latu-1,/cfb/players/nathan-latu-1.html,DE,10,6,8,14,4.5,4.0,0,0,,0,0,1,0,0,0,,Oklahoma State,2022
+Ben Kopenski,ben-kopenski-1,/cfb/players/ben-kopenski-1.html,DE,13,8,6,14,4.0,3.5,0,0,,0,1,0,0,0,0,,Oklahoma State,2022
+Kody Walterscheid,kody-walterscheid-1,/cfb/players/kody-walterscheid-1.html,DE,13,9,2,11,1.0,1.0,0,0,,0,2,2,0,0,0,,Oklahoma State,2022
+Xavier Ross,xavier-ross-1,/cfb/players/xavier-ross-1.html,DT,10,8,3,11,2.0,0.0,0,0,,0,0,0,0,0,0,,Oklahoma State,2022
+Trace Ford,trace-ford-1,/cfb/players/trace-ford-1.html,DE,9,6,2,8,3.0,1.0,0,0,,0,6,0,0,0,0,,Oklahoma State,2022
+Raymond Gay II,raymond-gay-ii-1,/cfb/players/raymond-gay-ii-1.html,S,9,2,5,7,0.0,0.0,0,0,,0,0,0,0,0,0,,Oklahoma State,2022
+Parker Robertson,parker-robertson-1,/cfb/players/parker-robertson-1.html,S,12,4,3,7,0.0,0.0,0,0,,0,0,0,0,0,0,,Oklahoma State,2022
+Ty Williams,ty-williams-3,/cfb/players/ty-williams-3.html,S,12,3,4,7,0.0,0.0,0,0,,0,0,0,0,0,0,,Oklahoma State,2022
+Demarco Jones,demarco-jones-1,/cfb/players/demarco-jones-1.html,CB,8,5,2,7,0.0,0.0,0,0,,0,1,0,0,0,0,,Oklahoma State,2022
+Kanion Williams,kanion-williams-1,/cfb/players/kanion-williams-1.html,S,6,5,1,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Oklahoma State,2022
+Bo Hardy,bo-hardy-2,/cfb/players/bo-hardy-2.html,LB,9,4,0,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Oklahoma State,2022
+Aden Kelley,aden-kelley-1,/cfb/players/aden-kelley-1.html,DT,6,4,0,4,1.0,0.0,0,0,,0,0,0,0,0,0,,Oklahoma State,2022
+Rashod Owens,rashod-owens-1,/cfb/players/rashod-owens-1.html,WR,12,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Oklahoma State,2022
+Logan Ward,logan-ward-1,/cfb/players/logan-ward-1.html,K,12,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Oklahoma State,2022
+Brendon Evers,brendon-evers-1,/cfb/players/brendon-evers-1.html,DT,5,0,3,3,0.5,0.0,0,0,,0,0,0,0,0,0,,Oklahoma State,2022
+Trey Rucker,trey-rucker-1,/cfb/players/trey-rucker-1.html,S,1,2,1,3,0.0,0.0,1,16,16.0,0,1,0,0,0,0,,Oklahoma State,2022
+Cameron Epps,cameron-epps-1,/cfb/players/cameron-epps-1.html,CB,4,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Oklahoma State,2022
+Matt Hembrough,matt-hembrough-1,/cfb/players/matt-hembrough-1.html,LS,13,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Oklahoma State,2022
+Kale Smith,kale-smith-1,/cfb/players/kale-smith-1.html,CB,3,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Oklahoma State,2022
+Braden Cassity,braden-cassity-1,/cfb/players/braden-cassity-1.html,TE,13,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Oklahoma State,2022
+D.J. McKinney,dj-mckinney-1,/cfb/players/dj-mckinney-1.html,CB,4,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Oklahoma State,2022
+Zach Middleton,zach-middleton-1,/cfb/players/zach-middleton-1.html,RB,8,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Oklahoma State,2022
+Jordan Reagan,jordan-reagan-2,/cfb/players/jordan-reagan-2.html,CB,10,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Oklahoma State,2022
+Braylin Presley,braylin-presley-1,/cfb/players/braylin-presley-1.html,WR,7,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Oklahoma State,2022
+Carter Barnard,carter-barnard-1,/cfb/players/carter-barnard-1.html,S,2,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Oklahoma State,2022
+Chance Clements,chance-clements-1,/cfb/players/chance-clements-1.html,LB,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Oklahoma State,2022
+CJ Tate,cj-tate-1,/cfb/players/cj-tate-1.html,WR,8,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Oklahoma State,2022
+Constantino Borrelli,constantino-borrelli-1,/cfb/players/constantino-borrelli-1.html,LB,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Oklahoma State,2022
+De'Kelvion Beamon,dekelvion-beamon-1,/cfb/players/dekelvion-beamon-1.html,CB,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Oklahoma State,2022
+Deondre Jackson,deondre-jackson-1,/cfb/players/deondre-jackson-1.html,RB,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Oklahoma State,2022
+DeSean Brown,desean-brown-1,/cfb/players/desean-brown-1.html,DE,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Oklahoma State,2022
+Ryan Baker,ryan-baker-3,/cfb/players/ryan-baker-3.html,DE,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Oklahoma State,2022
+Donovan Stephens,donovan-stephens-1,/cfb/players/donovan-stephens-1.html,LB,13,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Oklahoma State,2022
+Isreal Isuman-Hundley,isreal-isuman-hundley-1,/cfb/players/isreal-isuman-hundley-1.html,DE,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Oklahoma State,2022
+Jaden Nixon,jaden-nixon-1,/cfb/players/jaden-nixon-1.html,RB,13,1,0,1,0.0,0.0,0,0,,0,0,1,0,0,0,,Oklahoma State,2022
+Ollie Gordon,ollie-gordon-1,/cfb/players/ollie-gordon-1.html,RB,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Oklahoma State,2022
+Jake Schultz,jake-schultz-1,/cfb/players/jake-schultz-1.html,TE,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Oklahoma State,2022
+Jason Brooks Jr.,jason-brooks-jr-1,/cfb/players/jason-brooks-jr-1.html,OL,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Oklahoma State,2022
+Na'Drian Dizadare,nadrian-dizadare-1,/cfb/players/nadrian-dizadare-1.html,LB,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Oklahoma State,2022
+John Paul Richardson,john-paul-richardson-1,/cfb/players/john-paul-richardson-1.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Oklahoma State,2022

@@ -1,0 +1,46 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Jeremiah Johnson,jeremiah-johnson-3,/cfb/players/jeremiah-johnson-3.html,S,12,38,31,69,1.0,0.0,0,0,,0,6,0,0,0,0,,Georgia State,2024
+Josiah Robinson,josiah-robinson-1,/cfb/players/josiah-robinson-1.html,LB,12,33,30,63,7.0,3.5,0,0,,0,3,1,12,0,2,,Georgia State,2024
+Xavier Robinson,xavier-robinson-1,/cfb/players/xavier-robinson-1.html,LB,11,29,30,59,5.0,1.5,0,0,,0,0,0,0,0,0,,Georgia State,2024
+Jyron Gilmore,jyron-gilmore-1,/cfb/players/jyron-gilmore-1.html,DB,12,24,29,53,2.0,0.0,2,0,0.0,0,1,0,0,0,0,,Georgia State,2024
+Kevin Swint,kevin-swint-1,/cfb/players/kevin-swint-1.html,LB,12,32,16,48,10.0,4.5,0,0,,0,4,0,0,0,3,,Georgia State,2024
+Justin Abraham,justin-abraham-1,/cfb/players/justin-abraham-1.html,LB,11,31,13,44,2.0,1.0,0,0,,0,0,0,0,0,0,,Georgia State,2024
+K.D. McDaniel,kd-mcdaniel-1,/cfb/players/kd-mcdaniel-1.html,LB,12,19,23,42,3.0,1.5,0,0,,0,1,1,0,0,1,,Georgia State,2024
+Kenyatta Watson II,kenyatta-watson-ii-1,/cfb/players/kenyatta-watson-ii-1.html,S,12,20,20,40,0.0,0.0,3,38,12.7,0,0,0,0,0,0,,Georgia State,2024
+Damaine Wilson,damaine-wilson-1,/cfb/players/damaine-wilson-1.html,LB,11,17,22,39,1.0,0.0,1,7,7.0,0,0,0,0,0,0,,Georgia State,2024
+Gavin Pringle,gavin-pringle-1,/cfb/players/gavin-pringle-1.html,CB,12,22,12,34,2.0,0.0,1,0,0.0,0,8,0,0,0,0,,Georgia State,2024
+Izaiah Guy,izaiah-guy-1,/cfb/players/izaiah-guy-1.html,CB,11,22,8,30,0.0,0.0,0,0,,0,5,1,2,0,0,,Georgia State,2024
+Henry Bryant,henry-bryant-2,/cfb/players/henry-bryant-2.html,DL,12,18,12,30,5.5,4.0,0,0,,0,1,2,0,0,1,,Georgia State,2024
+Anthony Blume,anthony-blume-1,/cfb/players/anthony-blume-1.html,DL,12,13,14,27,0.0,0.0,0,0,,0,0,1,0,0,0,,Georgia State,2024
+Ian Mathews,ian-mathews-3,/cfb/players/ian-mathews-3.html,DE,11,14,12,26,0.0,0.0,0,0,,0,2,0,0,0,0,,Georgia State,2024
+D-Icey Hopkins,d-icey-hopkins-1,/cfb/players/d-icey-hopkins-1.html,S,12,15,8,23,0.0,0.0,0,0,,0,3,0,0,0,1,,Georgia State,2024
+Cam Williams,cam-williams-1,/cfb/players/cam-williams-1.html,LB,12,13,8,21,5.0,1.0,0,0,,0,0,0,0,0,1,,Georgia State,2024
+Dorian Royal,dorian-royal-1,/cfb/players/dorian-royal-1.html,DL,9,11,9,20,0.5,0.0,0,0,,0,1,0,0,0,0,,Georgia State,2024
+Daniel Heimuli,daniel-heimuli-1,/cfb/players/daniel-heimuli-1.html,LB,11,12,6,18,1.0,0.0,0,0,,0,0,0,0,0,0,,Georgia State,2024
+Fuches Lewis II,fuches-lewis-ii-1,/cfb/players/fuches-lewis-ii-1.html,DL,8,10,7,17,0.0,0.0,0,0,,0,1,0,0,0,0,,Georgia State,2024
+Christian Lorenzo,christian-lorenzo-1,/cfb/players/christian-lorenzo-1.html,DL,12,8,9,17,1.0,1.0,0,0,,0,1,1,0,0,0,,Georgia State,2024
+Ja'Maric Morris,jamaric-morris-1,/cfb/players/jamaric-morris-1.html,S,12,7,4,11,0.0,0.0,2,0,0.0,0,2,0,0,0,0,,Georgia State,2024
+Sir Mells,sir-mells-1,/cfb/players/sir-mells-1.html,DT,9,5,3,8,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia State,2024
+Jaylen Jones,jaylen-jones-3,/cfb/players/jaylen-jones-3.html,S,12,3,5,8,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia State,2024
+Chams Diagne,chams-diagne-1,/cfb/players/chams-diagne-1.html,CB,11,5,1,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia State,2024
+Tavian Brown,tavian-brown-1,/cfb/players/tavian-brown-1.html,LB,5,1,3,4,0.0,0.0,0,0,,0,1,0,0,0,0,,Georgia State,2024
+Sam Lindsey,sam-lindsey-1,/cfb/players/sam-lindsey-1.html,LS,11,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia State,2024
+Deuce Walker,deuce-walker-1,/cfb/players/deuce-walker-1.html,DB,9,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia State,2024
+Isaiah Holland,isaiah-holland-2,/cfb/players/isaiah-holland-2.html,S,5,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia State,2024
+Bishop Thomas,bishop-thomas-1,/cfb/players/bishop-thomas-1.html,DL,3,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia State,2024
+Ted Hurst,ted-hurst-1,/cfb/players/ted-hurst-1.html,WR,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia State,2024
+Michel Dukes,michel-dukes-1,/cfb/players/michel-dukes-1.html,RB,12,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia State,2024
+James Allen,james-allen-5,/cfb/players/james-allen-5.html,P,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia State,2024
+Dorian Fleming,dorian-fleming-1,/cfb/players/dorian-fleming-1.html,TE,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia State,2024
+Derrick Maxey III,derrick-maxey-iii-1,/cfb/players/derrick-maxey-iii-1.html,S,7,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia State,2024
+Jordan Ford,jordan-ford-2,/cfb/players/jordan-ford-2.html,RB,5,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia State,2024
+Freddie Brock,freddie-brock-1,/cfb/players/freddie-brock-1.html,RB,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia State,2024
+Lamarcus Brand,lamarcus-brand-1,/cfb/players/lamarcus-brand-1.html,WR,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia State,2024
+Rykem Laney,rykem-laney-1,/cfb/players/rykem-laney-1.html,WR,12,0,1,1,0.0,0.0,0,0,,0,0,1,0,0,0,,Georgia State,2024
+Donovan Funsch,donovan-funsch-1,/cfb/players/donovan-funsch-1.html,OL,9,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia State,2024
+Sam McCall,sam-mccall-1,/cfb/players/sam-mccall-1.html,CB,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia State,2024
+DJ Riles,dj-riles-1,/cfb/players/dj-riles-1.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia State,2024
+Chris Davis Jr.,chris-davis-jr-2,/cfb/players/chris-davis-jr-2.html,DE,7,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia State,2024
+Victoine Brown,victoine-brown-1,/cfb/players/victoine-brown-1.html,DL,11,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia State,2024
+Braeden McAlister,braeden-mcalister-1,/cfb/players/braeden-mcalister-1.html,K,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia State,2024
+Zach Gibson,zach-gibson-1,/cfb/players/zach-gibson-1.html,QB,7,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia State,2024

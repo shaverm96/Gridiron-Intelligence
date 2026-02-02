@@ -1,0 +1,48 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Colin Schooler,colin-schooler-1,/cfb/players/colin-schooler-1.html,LB,12,64,34,98,11.0,1.5,0,0,,0,2,2,10,0,0,,Arizona,2019
+Tony Fields II,tony-fields-ii-1,/cfb/players/tony-fields-ii-1.html,LB,12,58,36,94,5.0,1.5,1,14,14.0,0,3,0,0,0,1,,Arizona,2019
+Scottie Young Jr.,scottie-young-jr-1,/cfb/players/scottie-young-jr-1.html,S,12,50,16,66,2.5,0.0,1,42,42.0,0,3,0,0,0,0,,Arizona,2019
+Scottie Young,scottie-young-2,/cfb/players/scottie-young-2.html,,12,50,16,66,2.5,0.0,1,42,42.0,0,3,0,0,0,0,,Arizona,2019
+Anthony Pandy,anthony-pandy-1,/cfb/players/anthony-pandy-1.html,LB,12,49,17,66,5.0,2.0,1,27,27.0,0,0,0,0,0,1,,Arizona,2019
+Jace Whittaker,jace-whittaker-1,/cfb/players/jace-whittaker-1.html,CB,12,47,8,55,2.0,1.0,3,17,5.7,0,6,0,0,0,0,,Arizona,2019
+Tristan Cooper,tristan-cooper-2,/cfb/players/tristan-cooper-2.html,S,12,39,8,47,2.0,0.0,0,0,,0,2,0,0,0,0,,Arizona,2019
+Lorenzo Burns,lorenzo-burns-1,/cfb/players/lorenzo-burns-1.html,CB,12,35,12,47,0.5,0.0,4,29,7.3,0,7,0,0,0,0,,Arizona,2019
+Trevon Mason,trevon-mason-1,/cfb/players/trevon-mason-1.html,DL,12,28,16,44,6.0,1.0,0,0,,0,2,0,0,0,0,,Arizona,2019
+Christian Roland-Wallace,christian-roland-wallace-1,/cfb/players/christian-roland-wallace-1.html,CB,12,32,5,37,0.0,0.0,1,0,0.0,0,5,0,0,0,0,,Arizona,2019
+Jalen Harris,jalen-harris-3,/cfb/players/jalen-harris-3.html,DE,12,17,8,25,6.5,4.0,0,0,,0,1,0,0,0,0,,Arizona,2019
+Christian Young,christian-young-2,/cfb/players/christian-young-2.html,S,12,19,6,25,0.0,0.0,0,0,,0,3,1,0,0,2,,Arizona,2019
+Josh Brown,josh-brown-9,/cfb/players/josh-brown-9.html,DE,12,13,8,21,5.0,3.0,0,0,,0,0,0,0,0,0,,Arizona,2019
+Jarrius Wallace,jarrius-wallace-1,/cfb/players/jarrius-wallace-1.html,S,11,16,3,19,0.0,0.0,0,0,,0,0,0,0,0,0,,Arizona,2019
+Finto Connolly,finto-connolly-1,/cfb/players/finto-connolly-1.html,DT,12,9,8,17,2.5,1.0,0,0,,0,0,0,0,0,0,,Arizona,2019
+Kyon Barrs,kyon-barrs-1,/cfb/players/kyon-barrs-1.html,DT,11,11,2,13,0.0,0.0,0,0,,0,0,0,0,0,0,,Arizona,2019
+Myles Tapusoa,myles-tapusoa-1,/cfb/players/myles-tapusoa-1.html,DL,11,6,6,12,2.0,1.0,0,0,,0,0,0,0,0,0,,Arizona,2019
+Dayven Coleman,dayven-coleman-1,/cfb/players/dayven-coleman-1.html,LB,12,7,3,10,0.5,0.0,0,0,,0,0,0,0,0,0,,Arizona,2019
+Xavier Bell,xavier-bell-1,/cfb/players/xavier-bell-1.html,S,10,8,1,9,0.5,0.0,0,0,,0,0,1,0,0,0,,Arizona,2019
+Justin Belknap,justin-belknap-1,/cfb/players/justin-belknap-1.html,DE,12,5,4,9,1.0,1.0,0,0,,0,1,0,0,0,0,,Arizona,2019
+Kylan Wilborn,kylan-wilborn-1,/cfb/players/kylan-wilborn-1.html,DE,12,3,4,7,1.0,0.0,0,0,,0,0,0,0,0,0,,Arizona,2019
+Bobby Wolfe,bobby-wolfe-2,/cfb/players/bobby-wolfe-2.html,CB,9,6,0,6,0.0,0.0,0,0,,0,2,0,0,0,0,,Arizona,2019
+Troy Young,troy-young-1,/cfb/players/troy-young-1.html,S,4,5,0,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Arizona,2019
+Lee Anderson III,lee-anderson-iii-1,/cfb/players/lee-anderson-iii-1.html,DE,6,5,0,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Arizona,2019
+Mykee Irving,mykee-irving-1,/cfb/players/mykee-irving-1.html,OL,6,3,2,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Arizona,2019
+Gary Brightwell,gary-brightwell-1,/cfb/players/gary-brightwell-1.html,RB,11,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Arizona,2019
+Chacho Ulloa,chacho-ulloa-1,/cfb/players/chacho-ulloa-1.html,S,4,2,1,3,0.5,0.0,0,0,,0,0,0,0,0,0,,Arizona,2019
+Brian Casteel,brian-casteel-1,/cfb/players/brian-casteel-1.html,WR,12,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Arizona,2019
+Samari Springs,samari-springs-1,/cfb/players/samari-springs-1.html,S,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Arizona,2019
+McKenzie Barnes,mckenzie-barnes-1,/cfb/players/mckenzie-barnes-1.html,CB,8,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Arizona,2019
+Malik Hausman,malik-hausman-1,/cfb/players/malik-hausman-1.html,CB,2,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Arizona,2019
+Boobie Curry,boobie-curry-1,/cfb/players/boobie-curry-1.html,WR,9,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Arizona,2019
+Derrion Clark,derrion-clark-1,/cfb/players/derrion-clark-1.html,LB,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Arizona,2019
+Jaxen Turner,jaxen-turner-1,/cfb/players/jaxen-turner-1.html,S,6,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Arizona,2019
+Bam Smith,bam-smith-1,/cfb/players/bam-smith-1.html,RB,9,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Arizona,2019
+Thomas Reid III,thomas-reid-iii-1,/cfb/players/thomas-reid-iii-1.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Arizona,2019
+Seth MacKellar,seth-mackellar-1,/cfb/players/seth-mackellar-1.html,LS,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Arizona,2019
+Bryce Coleman,bryce-coleman-1,/cfb/players/bryce-coleman-1.html,RB,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Arizona,2019
+Cedric Peterson,cedric-peterson-1,/cfb/players/cedric-peterson-1.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Arizona,2019
+Quinn Sullivan,quinn-sullivan-1,/cfb/players/quinn-sullivan-1.html,S,9,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Arizona,2019
+Nazar Bombata,nazar-bombata-1,/cfb/players/nazar-bombata-1.html,RB,11,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Arizona,2019
+Michael Wiley,michael-wiley-3,/cfb/players/michael-wiley-3.html,RB,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Arizona,2019
+Malcolm Holland,malcolm-holland-1,/cfb/players/malcolm-holland-1.html,CB,12,0,1,1,0.5,0.0,0,0,,0,0,0,0,0,0,,Arizona,2019
+Dante Smith,dante-smith-3,/cfb/players/dante-smith-3.html,LB,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Arizona,2019
+Kwabena Watson,kwabena-watson-1,/cfb/players/kwabena-watson-1.html,DE,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Arizona,2019
+Josh McCauley,josh-mccauley-1,/cfb/players/josh-mccauley-1.html,OL,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Arizona,2019
+Jamarye Joiner,jamarye-joiner-1,/cfb/players/jamarye-joiner-1.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Arizona,2019

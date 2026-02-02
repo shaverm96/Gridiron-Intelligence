@@ -1,0 +1,50 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Ken Robinson,ken-robinson-2,/cfb/players/ken-robinson-2.html,DB,12,41,25,66,2.0,0.0,0,0,,0,4,0,0,0,0,,UTSA,2023
+Jamal Ligon,jamal-ligon-1,/cfb/players/jamal-ligon-1.html,LB,13,35,27,62,7.0,1.0,0,0,,0,1,0,0,0,1,,UTSA,2023
+Rashad Wisdom,rashad-wisdom-1,/cfb/players/rashad-wisdom-1.html,S,13,49,12,61,2.0,2.0,0,0,,0,5,0,0,0,1,,UTSA,2023
+Martavius French,martavius-french-2,/cfb/players/martavius-french-2.html,LB,13,35,26,61,4.5,1.5,0,0,,0,3,0,0,0,0,,UTSA,2023
+Donyai Taylor,donyai-taylor-1,/cfb/players/donyai-taylor-1.html,LB,13,31,15,46,7.0,2.0,1,78,78.0,0,2,1,19,0,1,,UTSA,2023
+Avery Morris,avery-morris-1,/cfb/players/avery-morris-1.html,LB,13,28,17,45,3.0,2.0,0,0,,0,0,0,0,0,1,,UTSA,2023
+Trey Moore,trey-moore-1,/cfb/players/trey-moore-1.html,LB,12,30,15,45,17.5,14.0,1,3,3.0,0,3,1,0,0,1,,UTSA,2023
+Jimmori Robinson,jimmori-robinson-1,/cfb/players/jimmori-robinson-1.html,LB,13,23,17,40,11.0,4.5,0,0,,0,2,0,0,0,1,,UTSA,2023
+Elliott Davison,elliott-davison-1,/cfb/players/elliott-davison-1.html,S,13,24,16,40,1.0,0.0,2,76,38.0,0,1,0,0,0,0,,UTSA,2023
+Kelechi Nwachuku,kelechi-nwachuku-1,/cfb/players/kelechi-nwachuku-1.html,S,13,23,14,37,0.0,0.0,0,0,,0,1,1,0,0,0,,UTSA,2023
+Kameryn Alexander,kameryn-alexander-1,/cfb/players/kameryn-alexander-1.html,CB,13,32,2,34,2.0,1.0,2,72,36.0,0,15,0,0,0,0,,UTSA,2023
+Owen Pewee,owen-pewee-1,/cfb/players/owen-pewee-1.html,LB,13,20,10,30,6.5,1.0,1,0,0.0,0,2,0,0,0,0,,UTSA,2023
+Nicktroy Fortune,nicktroy-fortune-2,/cfb/players/nicktroy-fortune-2.html,CB,13,20,6,26,1.0,0.0,2,14,7.0,0,9,0,0,0,0,,UTSA,2023
+Dywan Griffin,dywan-griffin-1,/cfb/players/dywan-griffin-1.html,CB,13,18,8,26,2.0,0.0,1,7,7.0,0,4,0,0,0,2,,UTSA,2023
+Brandon Brown,brandon-brown-10,/cfb/players/brandon-brown-10.html,DL,13,9,11,20,4.5,1.0,0,0,,0,0,1,0,0,1,,UTSA,2023
+Joe Evans,joe-evans-3,/cfb/players/joe-evans-3.html,DL,13,11,7,18,2.5,2.0,0,0,,0,0,0,0,0,0,,UTSA,2023
+Nick Booker-Brown,nick-booker-brown-2,/cfb/players/nick-booker-brown-2.html,DL,13,14,4,18,6.5,2.5,0,0,,0,3,0,0,0,0,,UTSA,2023
+Ronald Triplette,ronald-triplette-2,/cfb/players/ronald-triplette-2.html,DL,13,7,9,16,2.0,1.0,0,0,,0,1,2,9,0,0,,UTSA,2023
+Asyrus Simon,asyrus-simon-1,/cfb/players/asyrus-simon-1.html,DL,11,6,10,16,2.5,1.0,0,0,,0,1,0,0,0,0,,UTSA,2023
+Marcellus Wilkerson,marcellus-wilkerson-1,/cfb/players/marcellus-wilkerson-1.html,S,7,9,6,15,1.0,0.0,0,0,,0,1,0,0,0,0,,UTSA,2023
+Brandon Matterson,brandon-matterson-1,/cfb/players/brandon-matterson-1.html,DL,12,7,7,14,6.0,5.0,0,0,,0,0,0,0,0,1,,UTSA,2023
+Rodney Groce Jr.,rodney-groce-jr-2,/cfb/players/rodney-groce-jr-2.html,LB,6,5,6,11,0.0,0.0,0,0,,0,1,0,0,0,0,,UTSA,2023
+Trumane Bell II,trumane-bell-ii-1,/cfb/players/trumane-bell-ii-1.html,DL,13,7,4,11,3.5,2.0,0,0,,0,0,1,0,0,0,,UTSA,2023
+Christian Clayton,christian-clayton-1,/cfb/players/christian-clayton-1.html,DL,13,3,7,10,0.5,0.0,0,0,,0,0,0,0,0,0,,UTSA,2023
+Tai Leonard,tai-leonard-1,/cfb/players/tai-leonard-1.html,DL,13,3,7,10,2.0,2.0,0,0,,0,0,0,0,0,1,,UTSA,2023
+Kaleb Brown,kaleb-brown-3,/cfb/players/kaleb-brown-3.html,LB,10,3,4,7,0.0,0.0,0,0,,0,1,0,0,0,0,,UTSA,2023
+Pig Cage,pig-cage-2,/cfb/players/pig-cage-2.html,DB,4,4,2,6,1.0,0.0,0,0,,0,1,0,0,0,0,,UTSA,2023
+Kyle Wakefield,kyle-wakefield-1,/cfb/players/kyle-wakefield-1.html,LB,13,6,0,6,0.0,0.0,0,0,,0,0,0,0,0,1,,UTSA,2023
+Bryce Grays,bryce-grays-1,/cfb/players/bryce-grays-1.html,S,11,3,3,6,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2023
+Syrus Dumas,syrus-dumas-1,/cfb/players/syrus-dumas-1.html,CB,4,3,2,5,0.0,0.0,0,0,,0,1,0,0,0,0,,UTSA,2023
+Daron Allman,daron-allman-1,/cfb/players/daron-allman-1.html,LB,13,1,3,4,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2023
+Zah Frazier,zah-frazier-1,/cfb/players/zah-frazier-1.html,CB,5,3,0,3,0.0,0.0,0,0,,0,1,0,0,0,0,,UTSA,2023
+Vic Shaw,vic-shaw-1,/cfb/players/vic-shaw-1.html,DL,4,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2023
+Davin Martin,davin-martin-1,/cfb/players/davin-martin-1.html,CB,5,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2023
+Je'Vaun Dabon,jevaun-dabon-1,/cfb/players/jevaun-dabon-1.html,S,10,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2023
+Jameian Buxton,jameian-buxton-1,/cfb/players/jameian-buxton-1.html,DL,10,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2023
+Nnanna Anyanwu,nnanna-anyanwu-1,/cfb/players/nnanna-anyanwu-1.html,LB,2,0,2,2,0.5,0.5,0,0,,0,0,0,0,0,0,,UTSA,2023
+Tate Sandell,tate-sandell-1,/cfb/players/tate-sandell-1.html,K,13,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2023
+Jakevian Rodgers,jakevian-rodgers-1,/cfb/players/jakevian-rodgers-1.html,CB,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2023
+Devin McCuin,devin-mccuin-1,/cfb/players/devin-mccuin-1.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2023
+Xavier Spencer,xavier-spencer-1,/cfb/players/xavier-spencer-1.html,CB,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2023
+Ernesto Almaraz,ernesto-almaraz-1,/cfb/players/ernesto-almaraz-1.html,OL,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2023
+Travon Sylvester,travon-sylvester-1,/cfb/players/travon-sylvester-1.html,DL,6,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2023
+Terrell Haynes,terrell-haynes-1,/cfb/players/terrell-haynes-1.html,OL,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2023
+James Walley Jr.,james-walley-jr-1,/cfb/players/james-walley-jr-1.html,LB,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2023
+Chris Carpenter,chris-carpenter-2,/cfb/players/chris-carpenter-2.html,WR,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2023
+Camron Cooper,camron-cooper-1,/cfb/players/camron-cooper-1.html,TE,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2023
+Lucas Dean,lucas-dean-1,/cfb/players/lucas-dean-1.html,P,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2023
+Owen McCown,owen-mccown-1,/cfb/players/owen-mccown-1.html,QB,7,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2023

@@ -1,0 +1,44 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Cedric Gray,cedric-gray-1,/cfb/players/cedric-gray-1.html,LB,13,53,47,100,7.0,2.5,2,21,10.5,0,3,1,15,0,1,,North Carolina,2021
+Jeremiah Gemmel,jeremiah-gemmel-1,/cfb/players/jeremiah-gemmel-1.html,LB,13,44,31,75,6.5,1.5,1,0,0.0,0,3,0,0,0,1,,North Carolina,2021
+Cam'Ron Kelly,camron-kelly-1,/cfb/players/camron-kelly-1.html,DB,13,40,29,69,0.5,0.0,4,24,6.0,0,3,0,0,0,0,,North Carolina,2021
+Giovanni Biggers,giovanni-biggers-1,/cfb/players/giovanni-biggers-1.html,DB,13,29,19,48,4.5,1.0,0,0,,0,5,0,0,0,0,,North Carolina,2021
+Tony Grimes,tony-grimes-2,/cfb/players/tony-grimes-2.html,DB,13,35,12,47,2.0,0.0,0,0,,0,9,0,0,0,0,,North Carolina,2021
+Trey Morrison,trey-morrison-1,/cfb/players/trey-morrison-1.html,DB,13,34,13,47,1.0,0.0,0,0,,0,4,1,0,1,1,,North Carolina,2021
+Ja'Qurious Conley,jaqurious-conley-1,/cfb/players/jaqurious-conley-1.html,DB,11,37,9,46,3.0,0.0,2,0,0.0,0,0,1,0,0,0,,North Carolina,2021
+Raymond Vohasek,raymond-vohasek-1,/cfb/players/raymond-vohasek-1.html,DL,13,17,21,38,4.0,1.0,0,0,,0,3,0,0,0,0,,North Carolina,2021
+Myles Murphy,myles-murphy-2,/cfb/players/myles-murphy-2.html,DL,13,19,19,38,9.0,4.0,0,0,,0,3,0,0,0,0,,North Carolina,2021
+Tomon Fox,tomon-fox-1,/cfb/players/tomon-fox-1.html,LB,13,23,10,33,10.0,8.5,0,0,,0,0,0,0,0,0,,North Carolina,2021
+Kaimon Rucker,kaimon-rucker-1,/cfb/players/kaimon-rucker-1.html,LB,13,18,13,31,5.5,4.0,0,0,,0,0,0,0,0,1,,North Carolina,2021
+Chris Collins,chris-collins-6,/cfb/players/chris-collins-6.html,LB,12,14,15,29,5.0,2.5,0,0,,0,0,0,0,0,1,,North Carolina,2021
+Don Chapman,don-chapman-1,/cfb/players/don-chapman-1.html,DB,8,17,11,28,0.5,0.0,0,0,,0,3,0,0,0,0,,North Carolina,2021
+Power Echols,power-echols-1,/cfb/players/power-echols-1.html,LB,13,16,9,25,1.0,0.0,1,17,17.0,0,0,0,0,0,0,,North Carolina,2021
+Tomari Fox,tomari-fox-1,/cfb/players/tomari-fox-1.html,DL,12,10,15,25,2.5,1.5,0,0,,0,0,0,0,0,0,,North Carolina,2021
+Jahvaree Ritzie,jahvaree-ritzie-1,/cfb/players/jahvaree-ritzie-1.html,DL,13,9,16,25,1.5,1.0,0,0,,0,0,0,0,0,0,,North Carolina,2021
+Eugene Asante,eugene-asante-1,/cfb/players/eugene-asante-1.html,LB,12,17,6,23,0.5,0.0,0,0,,0,1,0,0,0,0,,North Carolina,2021
+Kevin Hester Jr.,kevin-hester-jr-1,/cfb/players/kevin-hester-jr-1.html,DL,13,6,14,20,2.5,1.5,0,0,,0,1,0,0,0,1,,North Carolina,2021
+Desmond Evans,desmond-evans-1,/cfb/players/desmond-evans-1.html,LB,12,6,12,18,2.5,0.0,0,0,,0,0,1,0,0,0,,North Carolina,2021
+Kyler McMichael,kyler-mcmichael-1,/cfb/players/kyler-mcmichael-1.html,DB,12,12,6,18,1.0,0.0,1,9,9.0,0,1,0,0,0,0,,North Carolina,2021
+Storm Duck,storm-duck-1,/cfb/players/storm-duck-1.html,DB,6,14,2,16,0.0,0.0,0,0,,0,1,0,0,0,0,,North Carolina,2021
+Obi Egbuna,obi-egbuna-1,/cfb/players/obi-egbuna-1.html,DB,13,5,1,6,0.0,0.0,0,0,,0,0,0,0,0,0,,North Carolina,2021
+Cameron Roseman-Sinclair,cameron-roseman-sinclair-1,/cfb/players/cameron-roseman-sinclair-1.html,DB,13,6,0,6,0.0,0.0,0,0,,0,0,0,0,0,0,,North Carolina,2021
+British Brooks,british-brooks-1,/cfb/players/british-brooks-1.html,RB,11,5,1,6,0.0,0.0,0,0,,0,0,0,0,0,0,,North Carolina,2021
+Raneiria Dillworth,raneiria-dillworth-1,/cfb/players/raneiria-dillworth-1.html,LB,12,5,1,6,1.0,0.0,0,0,,0,0,0,0,0,0,,North Carolina,2021
+DeAndre Boykins,deandre-boykins-1,/cfb/players/deandre-boykins-1.html,DB,12,4,1,5,0.0,0.0,0,0,,0,0,0,0,0,0,,North Carolina,2021
+Ladaeson DeAndre Hollins,ladaeson-deandre-hollins-1,/cfb/players/ladaeson-deandre-hollins-1.html,DB,2,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,North Carolina,2021
+Jahlil Taylor,jahlil-taylor-1,/cfb/players/jahlil-taylor-1.html,DL,10,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,North Carolina,2021
+Kristian Varner,kristian-varner-1,/cfb/players/kristian-varner-1.html,DL,6,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,North Carolina,2021
+Justin Olson,justin-olson-1,/cfb/players/justin-olson-1.html,WR,13,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,North Carolina,2021
+Garrett Walston,garrett-walston-1,/cfb/players/garrett-walston-1.html,TE,13,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,North Carolina,2021
+Drew Little,drew-little-1,/cfb/players/drew-little-1.html,LS,13,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,North Carolina,2021
+Tyrone Hopper,tyrone-hopper-1,/cfb/players/tyrone-hopper-1.html,LB,2,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,North Carolina,2021
+Jonathan Kim,jonathan-kim-2,/cfb/players/jonathan-kim-2.html,PK,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,North Carolina,2021
+Ty Chandler,ty-chandler-1,/cfb/players/ty-chandler-1.html,RB,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,North Carolina,2021
+Keeshawn Silver,keeshawn-silver-1,/cfb/players/keeshawn-silver-1.html,DL,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,North Carolina,2021
+Kedrick Bingley-Jones,kedrick-bingley-jones-1,/cfb/players/kedrick-bingley-jones-1.html,DL,11,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,North Carolina,2021
+Kamari Morales,kamari-morales-1,/cfb/players/kamari-morales-1.html,TE,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,North Carolina,2021
+Alex Nobles,alex-nobles-1,/cfb/players/alex-nobles-1.html,LB,9,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,North Carolina,2021
+Dontavius Nash,dontavius-nash-1,/cfb/players/dontavius-nash-1.html,DB,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,North Carolina,2021
+Clyde Pinder Jr.,clyde-pinder-jr-1,/cfb/players/clyde-pinder-jr-1.html,DL,7,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,North Carolina,2021
+Christopher Holliday,christopher-holliday-1,/cfb/players/christopher-holliday-1.html,DB,2,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,North Carolina,2021
+Ben Kiernan,ben-kiernan-1,/cfb/players/ben-kiernan-1.html,P,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,North Carolina,2021

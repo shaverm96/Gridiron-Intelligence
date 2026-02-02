@@ -1,0 +1,51 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Cale Garrett,cale-garrett-1,/cfb/players/cale-garrett-1.html,LB,13,69,43,112,6.5,1.0,0,0,,0,1,0,0,0,0,,Missouri,2018
+Terez Hall,terez-hall-1,/cfb/players/terez-hall-1.html,LB,13,46,28,74,9.0,5.0,1,0,0.0,0,1,0,0,0,1,,Missouri,2018
+Tyree Gillespie,tyree-gillespie-1,/cfb/players/tyree-gillespie-1.html,S,13,37,11,48,1.5,1.0,0,0,,0,1,0,0,0,0,,Missouri,2018
+Brandon Lee,brandon-lee-1,/cfb/players/brandon-lee-1.html,LB,12,24,16,40,2.0,0.0,0,0,,0,1,0,0,0,0,,Missouri,2018
+Khalil Oliver,khalil-oliver-2,/cfb/players/khalil-oliver-2.html,DB,13,28,12,40,2.0,0.0,0,0,,0,1,1,0,0,0,,Missouri,2018
+Adam Sparks,adam-sparks-1,/cfb/players/adam-sparks-1.html,DB,8,31,7,38,2.5,0.0,1,0,0.0,0,2,0,0,0,0,,Missouri,2018
+Christian Holmes,christian-holmes-2,/cfb/players/christian-holmes-2.html,DB,13,27,9,36,1.5,0.0,2,42,21.0,1,12,0,0,0,0,,Missouri,2018
+Terry Beckner Jr.,terry-beckner-jr-1,/cfb/players/terry-beckner-jr-1.html,DL,13,23,11,34,11.0,3.5,0,0,,0,1,0,0,0,1,,Missouri,2018
+Walter Palmore,walter-palmore-1,/cfb/players/walter-palmore-1.html,DL,13,20,11,31,4.0,1.0,0,0,,0,2,0,0,0,0,,Missouri,2018
+Cam Hilton,cam-hilton-1,/cfb/players/cam-hilton-1.html,S,13,26,5,31,2.0,1.0,3,2,0.7,0,5,1,0,0,0,,Missouri,2018
+DeMarkus Acy,demarkus-acy-1,/cfb/players/demarkus-acy-1.html,DB,13,25,5,30,1.0,0.0,3,73,24.3,0,10,0,0,0,0,,Missouri,2018
+Joshuah Bledsoe,joshuah-bledsoe-1,/cfb/players/joshuah-bledsoe-1.html,S,12,19,9,28,0.0,0.0,0,0,,0,2,1,39,1,0,,Missouri,2018
+Chris Turner,chris-turner-4,/cfb/players/chris-turner-4.html,DL,13,15,9,24,3.5,2.0,0,0,,0,0,0,0,0,0,,Missouri,2018
+Jordan Elliott,jordan-elliott-1,/cfb/players/jordan-elliott-1.html,DL,13,16,8,24,8.0,3.0,0,0,,0,1,0,0,0,1,,Missouri,2018
+Nick Bolton,nick-bolton-1,/cfb/players/nick-bolton-1.html,LB,13,12,10,22,1.0,1.0,0,0,,0,0,0,0,0,0,,Missouri,2018
+Nate Anderson,nate-anderson-1,/cfb/players/nate-anderson-1.html,DL,13,11,10,21,1.5,1.0,0,0,,0,1,0,0,0,1,,Missouri,2018
+Akial Byers,akial-byers-1,/cfb/players/akial-byers-1.html,DL,13,14,6,20,1.5,0.0,0,0,,0,0,2,0,1,0,,Missouri,2018
+Tre' Williams,tre-williams-3,/cfb/players/tre-williams-3.html,DL,12,7,13,20,5.0,2.5,0,0,,0,0,0,0,0,0,,Missouri,2018
+Ronnell Perkins,ronnell-perkins-1,/cfb/players/ronnell-perkins-1.html,S,13,12,6,18,2.0,1.0,0,0,,0,0,0,0,0,0,,Missouri,2018
+Tavon Ross,tavon-ross-1,/cfb/players/tavon-ross-1.html,LB,13,9,2,11,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2018
+Kobie Whiteside,kobie-whiteside-1,/cfb/players/kobie-whiteside-1.html,DL,11,6,2,8,2.0,1.0,0,0,,0,0,0,0,0,1,,Missouri,2018
+Trajan Jeffcoat,trajan-jeffcoat-1,/cfb/players/trajan-jeffcoat-1.html,DL,13,6,1,7,1.0,1.0,0,0,,0,0,0,0,0,0,,Missouri,2018
+Jarvis Ware,jarvis-ware-1,/cfb/players/jarvis-ware-1.html,DB,10,6,0,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2018
+Jamal Brooks,jamal-brooks-1,/cfb/players/jamal-brooks-1.html,LB,13,4,2,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2018
+Rashad Brandon,rashad-brandon-1,/cfb/players/rashad-brandon-1.html,DL,9,3,2,5,1.5,1.0,0,0,,0,0,0,0,0,0,,Missouri,2018
+Jacob Trump,jacob-trump-1,/cfb/players/jacob-trump-1.html,LB,13,5,0,5,1.0,1.0,0,0,,0,0,1,0,0,0,,Missouri,2018
+Finis Stribling IV,finis-stribling-iv-1,/cfb/players/finis-stribling-iv-1.html,DB,13,5,0,5,0.0,0.0,0,0,,0,0,0,0,0,1,,Missouri,2018
+Terry Petry,terry-petry-1,/cfb/players/terry-petry-1.html,DB,7,4,1,5,0.0,0.0,0,0,,0,0,0,0,0,1,,Missouri,2018
+Simi Bakare,simi-bakare-1,/cfb/players/simi-bakare-1.html,RB,7,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2018
+Tyrell Jacobs,tyrell-jacobs-1,/cfb/players/tyrell-jacobs-1.html,DL,3,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2018
+Jordan Ulmer,jordan-ulmer-1,/cfb/players/jordan-ulmer-1.html,S,10,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2018
+Kentrell Barber,kentrell-barber-1,/cfb/players/kentrell-barber-1.html,WR,1,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2018
+Johnathon Johnson,johnathon-johnson-2,/cfb/players/johnathon-johnson-2.html,WR,13,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2018
+Aubrey Miller Jr.,aubrey-miller-jr-1,/cfb/players/aubrey-miller-jr-1.html,LB,10,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2018
+Franklin Agbasimere,franklin-agbasimere-1,/cfb/players/franklin-agbasimere-1.html,DL,7,1,1,2,1.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2018
+Dawson Downing,dawson-downing-1,/cfb/players/dawson-downing-1.html,RB,13,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2018
+Dominic Nelson,dominic-nelson-1,/cfb/players/dominic-nelson-1.html,S,6,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2018
+Yasir Durant,yasir-durant-1,/cfb/players/yasir-durant-1.html,OL,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2018
+Markell Utsey,markell-utsey-1,/cfb/players/markell-utsey-1.html,DL,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2018
+Antar Thompson,antar-thompson-1,/cfb/players/antar-thompson-1.html,DL,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2018
+Barrett Banister,barrett-banister-1,/cfb/players/barrett-banister-1.html,WR,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2018
+Tyler Badie,tyler-badie-1,/cfb/players/tyler-badie-1.html,RB,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2018
+Damarea Crockett,damarea-crockett-1,/cfb/players/damarea-crockett-1.html,RB,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2018
+Drew Lock,drew-lock-1,/cfb/players/drew-lock-1.html,QB,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2018
+James Workman,james-workman-1,/cfb/players/james-workman-1.html,LS,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2018
+Jatorian Hansford,jatorian-hansford-1,/cfb/players/jatorian-hansford-1.html,DL,7,1,0,1,1.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2018
+Sam Bailey,sam-bailey-3,/cfb/players/sam-bailey-3.html,OL,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2018
+Joe Britton,joe-britton-1,/cfb/players/joe-britton-1.html,LB,6,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2018
+Noah Robinson,noah-robinson-1,/cfb/players/noah-robinson-1.html,LB,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2018
+Khmari Thompson,khmari-thompson-1,/cfb/players/khmari-thompson-1.html,WR,5,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2018

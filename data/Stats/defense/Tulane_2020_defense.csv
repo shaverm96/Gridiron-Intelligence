@@ -1,0 +1,43 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Dorian Williams,dorian-williams-2,/cfb/players/dorian-williams-2.html,LB,12,65,33,98,16.5,4.5,0,0,,0,3,0,0,0,0,,Tulane,2020
+Nick Anderson,nick-anderson-3,/cfb/players/nick-anderson-3.html,LB,12,56,32,88,10.5,3.5,0,0,,0,0,0,0,0,0,,Tulane,2020
+Chase Kuerschen,chase-kuerschen-1,/cfb/players/chase-kuerschen-1.html,S,11,54,15,69,0.0,0.0,0,0,,0,3,1,0,0,0,,Tulane,2020
+Marvin Moody,marvin-moody-1,/cfb/players/marvin-moody-1.html,LB,10,36,27,63,6.5,0.5,0,0,,0,0,0,0,0,0,,Tulane,2020
+Larry Brooks,larry-brooks-3,/cfb/players/larry-brooks-3.html,S,12,46,12,58,1.0,0.0,3,0,0.0,0,3,2,0,0,1,,Tulane,2020
+Cameron Sample,cameron-sample-1,/cfb/players/cameron-sample-1.html,DE,11,29,23,52,7.5,5.0,0,0,,0,1,0,0,0,1,,Tulane,2020
+Kevin Henry,kevin-henry-3,/cfb/players/kevin-henry-3.html,LB,11,31,17,48,7.0,1.0,0,0,,0,1,0,0,0,1,,Tulane,2020
+Macon Clark,macon-clark-1,/cfb/players/macon-clark-1.html,S,12,30,13,43,6.5,4.0,2,73,36.5,1,4,1,0,0,1,,Tulane,2020
+Patrick Johnson,patrick-johnson-4,/cfb/players/patrick-johnson-4.html,DE,11,28,11,39,14.5,10.0,0,0,,0,2,0,0,0,2,,Tulane,2020
+Jeffery Johnson,jeffery-johnson-2,/cfb/players/jeffery-johnson-2.html,NT,12,17,16,33,6.0,3.5,0,0,,0,0,2,-1,1,0,,Tulane,2020
+Jaylon Monroe,jaylon-monroe-1,/cfb/players/jaylon-monroe-1.html,CB,12,27,6,33,2.0,0.0,0,0,,0,9,0,0,0,0,,Tulane,2020
+Willie Langham,willie-langham-1,/cfb/players/willie-langham-1.html,CB,12,23,5,28,0.0,0.0,2,14,7.0,0,5,0,0,0,0,,Tulane,2020
+Rudy Dyson,rudy-dyson-1,/cfb/players/rudy-dyson-1.html,,10,20,6,26,2.0,0.0,1,3,3.0,0,5,0,0,0,0,,Tulane,2020
+Cornelius Dyson,cornelius-dyson-1,/cfb/players/cornelius-dyson-1.html,DB,9,20,6,26,2.0,0.0,1,3,3.0,0,5,0,0,0,0,,Tulane,2020
+De'Andre Williams,deandre-williams-5,/cfb/players/deandre-williams-5.html,NT,11,16,10,26,4.5,0.0,0,0,,0,0,1,0,0,0,,Tulane,2020
+Eric Hicks Jr.,eric-hicks-jr-1,/cfb/players/eric-hicks-jr-1.html,DL,12,10,10,20,4.5,0.5,0,0,,0,0,0,0,0,0,,Tulane,2020
+Adonis Friloux,adonis-friloux-1,/cfb/players/adonis-friloux-1.html,DL,10,11,8,19,3.5,2.5,0,0,,0,0,0,0,0,0,,Tulane,2020
+Ajani Kerr,ajani-kerr-1,/cfb/players/ajani-kerr-1.html,DB,12,12,7,19,0.0,0.0,0,0,,0,3,0,0,0,0,,Tulane,2020
+Noah Seiden,noah-seiden-1,/cfb/players/noah-seiden-1.html,DE,12,9,5,14,1.0,1.0,0,0,,0,0,0,0,0,0,,Tulane,2020
+Darius Hodges,darius-hodges-1,/cfb/players/darius-hodges-1.html,LB,9,6,7,13,2.0,1.0,0,0,,0,3,1,0,0,0,,Tulane,2020
+Carlos Hatcher,carlos-hatcher-1,/cfb/players/carlos-hatcher-1.html,DE,7,6,4,10,1.5,1.0,0,0,,0,0,0,0,0,0,,Tulane,2020
+Jaetavian Toles,jaetavian-toles-1,/cfb/players/jaetavian-toles-1.html,WR,12,6,1,7,0.0,0.0,0,0,,0,0,2,8,1,1,,Tulane,2020
+Kevaris Hall,kevaris-hall-1,/cfb/players/kevaris-hall-1.html,DB,9,6,1,7,1.0,1.0,1,52,52.0,0,0,0,0,0,0,,Tulane,2020
+Kyle Meyers,kyle-meyers-1,/cfb/players/kyle-meyers-1.html,DB,6,4,2,6,1.5,0.0,0,0,,0,0,0,0,0,0,,Tulane,2020
+Angelo Anderson,angelo-anderson-1,/cfb/players/angelo-anderson-1.html,DL,7,2,2,4,1.0,0.0,0,0,,0,0,0,0,0,0,,Tulane,2020
+Alfred Thomas,alfred-thomas-2,/cfb/players/alfred-thomas-2.html,DE,5,0,4,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulane,2020
+Christian Daniels,christian-daniels-1,/cfb/players/christian-daniels-1.html,TE,12,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulane,2020
+Jesus Machado,jesus-machado-1,/cfb/players/jesus-machado-1.html,LB,6,2,1,3,0.5,0.0,0,0,,0,0,0,0,0,0,,Tulane,2020
+Jha'Quan Jackson,jhaquan-jackson-1,/cfb/players/jhaquan-jackson-1.html,WR,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulane,2020
+Sam Bruchhaus,sam-bruchhaus-1,/cfb/players/sam-bruchhaus-1.html,LB,8,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulane,2020
+Keitha Jones Jr.,keitha-jones-jr-1,/cfb/players/keitha-jones-jr-1.html,TE,10,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulane,2020
+Ethan Hudak,ethan-hudak-1,/cfb/players/ethan-hudak-1.html,LS,12,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulane,2020
+Levi Williams,levi-williams-2,/cfb/players/levi-williams-2.html,DB,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulane,2020
+Kiland Harrison,kiland-harrison-1,/cfb/players/kiland-harrison-1.html,DB,5,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulane,2020
+Jonathan Mestayer II,jonathan-mestayer-ii-1,/cfb/players/jonathan-mestayer-ii-1.html,S,5,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulane,2020
+Caleb Thomas,caleb-thomas-2,/cfb/players/caleb-thomas-2.html,OL,5,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulane,2020
+Brandon Brown,brandon-brown-9,/cfb/players/brandon-brown-9.html,DL,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulane,2020
+Shi'Keem Laister,shikeem-laister-1,/cfb/players/shikeem-laister-1.html,DB,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulane,2020
+Sorrell Brown,sorrell-brown-1,/cfb/players/sorrell-brown-1.html,WR,6,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulane,2020
+Tyrick James,tyrick-james-1,/cfb/players/tyrick-james-1.html,TE,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulane,2020
+Brandon Brown,brandon-brown-10,/cfb/players/brandon-brown-10.html,,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulane,2020
+Ygenio Booker,ygenio-booker-1,/cfb/players/ygenio-booker-1.html,RB,5,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulane,2020

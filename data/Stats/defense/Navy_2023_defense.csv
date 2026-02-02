@@ -1,0 +1,34 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Colin Ramos,colin-ramos-1,/cfb/players/colin-ramos-1.html,LB,12,57,53,110,9.0,2.0,0,0,,0,4,1,0,0,2,,Navy,2023
+Will Harbour,will-harbour-1,/cfb/players/will-harbour-1.html,LB,12,41,43,84,7.5,3.0,0,0,,0,0,0,0,0,1,,Navy,2023
+Rayuan Lane,rayuan-lane-1,/cfb/players/rayuan-lane-1.html,S,12,41,25,66,3.0,0.5,4,122,30.5,1,8,1,0,0,2,,Navy,2023
+Mbiti Williams,mbiti-williams-1,/cfb/players/mbiti-williams-1.html,CB,12,38,25,63,0.0,0.0,1,15,15.0,0,5,0,0,0,1,,Navy,2023
+Luke Pirris,luke-pirris-1,/cfb/players/luke-pirris-1.html,LB,12,35,27,62,10.0,4.5,0,0,,0,3,3,0,0,1,,Navy,2023
+Xavier McDonald,xavier-mcdonald-1,/cfb/players/xavier-mcdonald-1.html,LB,12,31,21,52,6.0,3.0,0,0,,0,0,1,0,0,3,,Navy,2023
+Justin Reed,justin-reed-3,/cfb/players/justin-reed-3.html,DE,12,24,25,49,7.5,4.5,0,0,,0,1,3,0,0,0,,Navy,2023
+Clay Cromwell,clay-cromwell-1,/cfb/players/clay-cromwell-1.html,DT,12,23,24,47,5.0,3.0,0,0,,0,0,0,0,0,1,,Navy,2023
+Eavan Gibbons,eavan-gibbons-1,/cfb/players/eavan-gibbons-1.html,S,12,16,23,39,3.5,1.0,0,0,,0,0,0,0,0,0,,Navy,2023
+Donald Berniard Jr.,donald-berniardjr-1,/cfb/players/donald-berniardjr-1.html,DL,12,8,28,36,1.5,1.5,0,0,,0,0,0,0,0,0,,Navy,2023
+Andrew Duhart,andrew-duhart-1,/cfb/players/andrew-duhart-1.html,CB,12,26,9,35,2.0,1.0,1,0,0.0,0,2,0,0,0,0,,Navy,2023
+Dashaun Peele,dashaun-peele-2,/cfb/players/dashaun-peele-2.html,CB,11,18,16,34,1.0,0.0,4,37,9.3,0,5,1,0,0,0,,Navy,2023
+Landon Robinson,landon-robinson-1,/cfb/players/landon-robinson-1.html,DL,12,17,11,28,4.5,4.0,0,0,,0,0,0,0,0,0,,Navy,2023
+Jordan Sanders,jordan-sanders-1,/cfb/players/jordan-sanders-1.html,LB,11,7,11,18,0.0,0.0,0,0,,0,0,0,0,0,0,,Navy,2023
+Elias Larry,elias-larry-1,/cfb/players/elias-larry-1.html,CB,7,11,4,15,1.0,0.0,0,0,,0,3,0,0,0,0,,Navy,2023
+Jianni Woodson-Brooks,jianni-woodson-brooks-1,/cfb/players/jianni-woodson-brooks-1.html,LB,11,2,10,12,0.0,0.0,0,0,,0,0,0,0,0,0,,Navy,2023
+Trey Jamison,trey-jamison-1,/cfb/players/trey-jamison-1.html,LB,11,9,2,11,0.0,0.0,0,0,,0,0,0,0,0,0,,Navy,2023
+Joe Hutson,joe-hutson-1,/cfb/players/joe-hutson-1.html,S,11,5,4,9,0.0,0.0,0,0,,0,2,0,0,0,0,,Navy,2023
+Kyle Jacob,kyle-jacob-3,/cfb/players/kyle-jacob-3.html,LB,1,7,0,7,1.0,0.0,0,0,,0,0,0,0,0,0,,Navy,2023
+Eli Heidenreich,eli-heidenreich-1,/cfb/players/eli-heidenreich-1.html,RB,12,4,2,6,0.0,0.0,0,0,,0,0,1,0,0,0,,Navy,2023
+Jacob Busic,jacob-busic-1,/cfb/players/jacob-busic-1.html,DE,4,4,0,4,1.0,1.0,0,0,,0,2,1,0,0,0,,Navy,2023
+Tyler Narayan,tyler-narayan-1,/cfb/players/tyler-narayan-1.html,DT,8,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Navy,2023
+Jayden Umbarger,jayden-umbarger-1,/cfb/players/jayden-umbarger-1.html,WR,12,3,1,4,0.0,0.0,0,0,,0,0,1,0,0,0,,Navy,2023
+Marcus Moore,marcus-moore-3,/cfb/players/marcus-moore-3.html,S,3,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Navy,2023
+Cody Howard,cody-howard-1,/cfb/players/cody-howard-1.html,WR,12,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Navy,2023
+Rayne Fry,rayne-fry-1,/cfb/players/rayne-fry-1.html,LS,9,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Navy,2023
+Chreign LaFond,chreign-lafond-1,/cfb/players/chreign-lafond-1.html,DE,7,1,1,2,0.5,0.0,0,0,,0,0,0,0,0,0,,Navy,2023
+Turner Stepp,turner-stepp-1,/cfb/players/turner-stepp-1.html,LB,12,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Navy,2023
+JaSean McLean,jasean-mclean-1,/cfb/players/jasean-mclean-1.html,S,9,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Navy,2023
+Nathan Kent,nathan-kent-1,/cfb/players/nathan-kent-1.html,WR,9,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Navy,2023
+Jaxson Campbell,jaxson-campbell-1,/cfb/players/jaxson-campbell-1.html,WR,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Navy,2023
+Chaisen Buckner,chaisen-buckner-1,/cfb/players/chaisen-buckner-1.html,LB,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Navy,2023
+Adam Walker,adam-walker-2,/cfb/players/adam-walker-2.html,S,11,0,0,0,0.0,0.0,0,0,,0,0,1,0,0,0,,Navy,2023

@@ -1,0 +1,49 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Macon Clark,macon-clark-1,/cfb/players/macon-clark-1.html,S,12,55,18,73,5.0,1.0,4,78,19.5,0,0,0,0,0,0,,Tulane,2021
+Dorian Williams,dorian-williams-2,/cfb/players/dorian-williams-2.html,LB,12,44,29,73,3.0,1.0,0,0,,0,3,1,1,0,0,,Tulane,2021
+Nick Anderson,nick-anderson-3,/cfb/players/nick-anderson-3.html,LB,11,40,16,56,9.5,4.0,0,0,,0,1,1,2,0,1,,Tulane,2021
+Jadon Canady,jadon-canady-1,/cfb/players/jadon-canady-1.html,DB,12,42,13,55,2.5,0.0,2,0,0.0,0,2,0,0,0,0,,Tulane,2021
+Kevin Henry,kevin-henry-3,/cfb/players/kevin-henry-3.html,LB,12,40,12,52,5.0,2.0,2,53,26.5,1,0,0,0,0,0,,Tulane,2021
+Jaylon Monroe,jaylon-monroe-1,/cfb/players/jaylon-monroe-1.html,CB,12,32,16,48,2.0,0.5,0,0,,0,12,1,0,0,2,,Tulane,2021
+Jeffery Johnson,jeffery-johnson-2,/cfb/players/jeffery-johnson-2.html,NT,12,20,24,44,5.0,2.5,0,0,,0,0,0,0,0,0,,Tulane,2021
+Larry Brooks,larry-brooks-3,/cfb/players/larry-brooks-3.html,S,11,33,7,40,2.0,1.0,0,0,,0,2,0,0,0,0,,Tulane,2021
+Darius Hodges,darius-hodges-1,/cfb/players/darius-hodges-1.html,LB,11,33,7,40,16.5,5.0,0,0,,0,1,0,0,0,2,,Tulane,2021
+Marvin Moody,marvin-moody-1,/cfb/players/marvin-moody-1.html,LB,12,24,15,39,4.0,1.5,0,0,,0,0,0,0,0,0,,Tulane,2021
+Jojo Dorceus,jojo-dorceus-1,/cfb/players/jojo-dorceus-1.html,DL,12,27,10,37,7.0,4.5,0,0,,0,0,1,0,0,0,,Tulane,2021
+Derrion Rakestraw,derrion-rakestraw-1,/cfb/players/derrion-rakestraw-1.html,S,12,24,8,32,2.0,0.0,1,12,12.0,0,0,0,0,0,0,,Tulane,2021
+Ajani Kerr,ajani-kerr-1,/cfb/players/ajani-kerr-1.html,DB,12,16,13,29,0.0,0.0,0,0,,0,5,0,0,0,0,,Tulane,2021
+Rudy Dyson,rudy-dyson-1,/cfb/players/rudy-dyson-1.html,DB,12,20,7,27,2.5,0.0,0,0,,0,0,0,0,0,0,,Tulane,2021
+Noah Seiden,noah-seiden-1,/cfb/players/noah-seiden-1.html,DE,12,11,13,24,5.0,3.5,0,0,,0,0,0,0,0,0,,Tulane,2021
+Adonis Friloux,adonis-friloux-1,/cfb/players/adonis-friloux-1.html,DL,8,10,13,23,2.5,1.5,0,0,,0,2,0,0,0,0,,Tulane,2021
+Eric Hicks Jr.,eric-hicks-jr-1,/cfb/players/eric-hicks-jr-1.html,DL,12,7,15,22,2.5,1.0,0,0,,0,0,0,0,0,1,,Tulane,2021
+Angelo Anderson,angelo-anderson-1,/cfb/players/angelo-anderson-1.html,DL,10,12,10,22,3.5,2.0,0,0,,0,0,0,0,0,0,,Tulane,2021
+Keith Cooper Jr.,keith-cooper-jr-1,/cfb/players/keith-cooper-jr-1.html,LB,12,13,5,18,3.5,2.0,0,0,,0,1,0,0,0,1,,Tulane,2021
+Jesus Machado,jesus-machado-1,/cfb/players/jesus-machado-1.html,LB,11,7,3,10,1.0,0.0,0,0,,0,0,0,0,0,0,,Tulane,2021
+Lance Robinson,lance-robinson-1,/cfb/players/lance-robinson-1.html,DB,8,6,3,9,1.0,0.0,1,13,13.0,0,0,0,0,0,0,,Tulane,2021
+Phat Watts,phat-watts-1,/cfb/players/phat-watts-1.html,WR,12,4,1,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulane,2021
+Jaetavian Toles,jaetavian-toles-1,/cfb/players/jaetavian-toles-1.html,WR,12,5,0,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulane,2021
+DJ Douglas,dj-douglas-2,/cfb/players/dj-douglas-2.html,CB,10,3,2,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulane,2021
+Devean Deal,devean-deal-1,/cfb/players/devean-deal-1.html,TE,3,2,1,3,1.0,1.0,0,0,,0,0,0,0,0,0,,Tulane,2021
+Alfred Thomas,alfred-thomas-2,/cfb/players/alfred-thomas-2.html,DE,3,2,1,3,1.0,1.0,0,0,,0,0,0,0,0,0,,Tulane,2021
+Shi'Keem Laister,shikeem-laister-1,/cfb/players/shikeem-laister-1.html,DB,7,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,1,,Tulane,2021
+Kiland Harrison,kiland-harrison-1,/cfb/players/kiland-harrison-1.html,DB,7,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulane,2021
+Reggie Neely,reggie-neely-1,/cfb/players/reggie-neely-1.html,DB,1,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulane,2021
+Rishi Rattan,rishi-rattan-1,/cfb/players/rishi-rattan-1.html,CB,2,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulane,2021
+Armoni Dixon,armoni-dixon-1,/cfb/players/armoni-dixon-1.html,LB,4,2,0,2,1.0,0.0,0,0,,0,0,0,0,0,0,,Tulane,2021
+Jonathan Mestayer II,jonathan-mestayer-ii-1,/cfb/players/jonathan-mestayer-ii-1.html,S,3,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulane,2021
+Casey Glover,casey-glover-1,/cfb/players/casey-glover-1.html,PK,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulane,2021
+Jha'Quan Jackson,jhaquan-jackson-1,/cfb/players/jhaquan-jackson-1.html,WR,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulane,2021
+Corey Platt Jr.,corey-platt-jr-1,/cfb/players/corey-platt-jr-1.html,LB,2,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulane,2021
+Jack Collins,jack-collins-4,/cfb/players/jack-collins-4.html,LB,1,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulane,2021
+Tyrick James,tyrick-james-1,/cfb/players/tyrick-james-1.html,TE,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulane,2021
+Kolby Phillips,kolby-phillips-1,/cfb/players/kolby-phillips-1.html,DB,1,1,0,1,0.0,0.0,0,0,,0,1,0,0,0,0,,Tulane,2021
+Ford Dickerson,ford-dickerson-1,/cfb/players/ford-dickerson-1.html,S,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulane,2021
+Shae Wyatt,shae-wyatt-1,/cfb/players/shae-wyatt-1.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulane,2021
+Gabe Liu,gabe-liu-1,/cfb/players/gabe-liu-1.html,S,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulane,2021
+Rodrek Williams II,rodrek-williams-ii-1,/cfb/players/rodrek-williams-ii-1.html,CB,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulane,2021
+Devin Brumfield,devin-brumfield-1,/cfb/players/devin-brumfield-1.html,RB,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulane,2021
+Mandel Eugene Jr.,mandel-eugene-jr-1,/cfb/players/mandel-eugene-jr-1.html,LB,2,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulane,2021
+Logan Ambroz,logan-ambroz-1,/cfb/players/logan-ambroz-1.html,DL,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulane,2021
+Kevaris Hall,kevaris-hall-1,/cfb/players/kevaris-hall-1.html,DB,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulane,2021
+Brandon Kim,brandon-kim-1,/cfb/players/brandon-kim-1.html,CB,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulane,2021
+Josh Coltrin,josh-coltrin-1,/cfb/players/josh-coltrin-1.html,RB,6,0,0,0,0.0,0.0,0,0,,0,0,1,0,1,0,,Tulane,2021

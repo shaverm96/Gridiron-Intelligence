@@ -1,0 +1,42 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Sonny Styles,sonny-styles-1,/cfb/players/sonny-styles-1.html,LB,14,46,36,82,6.5,1.0,1,5,5.0,0,3,0,0,0,1,,Ohio State,2025
+Arvell Reese,arvell-reese-1,/cfb/players/arvell-reese-1.html,LB,14,34,35,69,10.0,6.5,0,0,,0,2,0,0,0,0,AA,Ohio State,2025
+Caleb Downs,caleb-downs-1,/cfb/players/caleb-downs-1.html,DB,14,45,23,68,5.0,1.0,2,0,0.0,0,2,0,0,0,2,"H-9,AA",Ohio State,2025
+Caden Curry,caden-curry-1,/cfb/players/caden-curry-1.html,DE,14,40,26,66,16.5,11.0,0,0,,0,2,2,0,0,1,,Ohio State,2025
+Kayden McDonald,kayden-mcdonald-1,/cfb/players/kayden-mcdonald-1.html,DT,14,31,34,65,9.0,3.0,0,0,,0,1,1,0,0,2,AA,Ohio State,2025
+Davison Igbinosun,davison-igbinosun-1,/cfb/players/davison-igbinosun-1.html,CB,14,29,24,53,0.5,0.0,2,2,1.0,0,8,0,0,0,0,,Ohio State,2025
+Jaylen McClain,jaylen-mcclain-1,/cfb/players/jaylen-mcclain-1.html,S,14,42,11,53,0.0,0.0,0,0,,0,3,0,0,0,0,,Ohio State,2025
+Payton Pierce,payton-pierce-1,/cfb/players/payton-pierce-1.html,LB,14,23,20,43,1.5,0.0,1,15,15.0,0,0,1,0,0,1,,Ohio State,2025
+Lorenzo Styles Jr.,lorenzo-styles-jr-1,/cfb/players/lorenzo-styles-jr-1.html,CB,12,18,12,30,1.5,0.0,0,0,,0,3,0,0,0,0,,Ohio State,2025
+Kenyatta Jackson,kenyatta-jackson-1,/cfb/players/kenyatta-jackson-1.html,DE,14,16,12,28,11.0,6.5,0,0,,0,2,0,0,0,0,,Ohio State,2025
+Tywone Malone,tywone-malone-1,/cfb/players/tywone-malone-1.html,DT,13,12,14,26,0.0,0.0,0,0,,0,2,0,0,0,0,,Ohio State,2025
+Jermaine Matthews Jr.,jermaine-matthews-jr-1,/cfb/players/jermaine-matthews-jr-1.html,CB,14,20,6,26,1.5,1.0,2,28,14.0,0,3,0,0,0,1,,Ohio State,2025
+Eddrick Houston,eddrick-houston-1,/cfb/players/eddrick-houston-1.html,DE,13,6,15,21,4.0,3.0,0,0,,0,0,0,0,0,1,,Ohio State,2025
+Will Smith Jr.,will-smith-jr-1,/cfb/players/will-smith-jr-1.html,DT,13,9,11,20,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio State,2025
+Devin Sanchez,devin-sanchez-1,/cfb/players/devin-sanchez-1.html,CB,13,12,3,15,0.0,0.0,0,0,,0,2,1,0,0,0,,Ohio State,2025
+Zion Grady,zion-grady-1,/cfb/players/zion-grady-1.html,DL,10,7,6,13,2.0,1.0,0,0,,0,0,0,0,0,0,,Ohio State,2025
+Faheem Delane,faheem-delane-1,/cfb/players/faheem-delane-1.html,S,13,6,6,12,1.0,0.0,0,0,,0,0,0,0,0,0,,Ohio State,2025
+Beau Atkinson,beau-atkinson-1,/cfb/players/beau-atkinson-1.html,DL,11,3,8,11,2.5,1.0,0,0,,0,0,0,0,0,0,,Ohio State,2025
+Bryce West,bryce-west-1,/cfb/players/bryce-west-1.html,CB,13,7,3,10,0.0,0.0,0,0,,0,0,0,0,0,1,,Ohio State,2025
+Leroy Roker,leroy-roker-1,/cfb/players/leroy-roker-1.html,S,14,5,4,9,0.0,0.0,0,0,,0,1,0,0,0,0,,Ohio State,2025
+Aaron Scott Jr.,aaron-scott-jr-1,/cfb/players/aaron-scott-jr-1.html,CB,12,7,2,9,1.0,0.0,0,0,,0,1,0,0,0,0,,Ohio State,2025
+Riley Pettijohn,riley-pettijohn-1,/cfb/players/riley-pettijohn-1.html,LB,13,3,6,9,1.0,0.0,0,0,,0,1,1,23,1,1,,Ohio State,2025
+Jason Moore,jason-moore-6,/cfb/players/jason-moore-6.html,DT,6,1,5,6,1.0,0.0,0,0,,0,0,0,0,0,0,,Ohio State,2025
+TJ Alford,tj-alford-1,/cfb/players/tj-alford-1.html,LB,11,3,3,6,1.0,0.0,0,0,,0,0,0,0,0,0,,Ohio State,2025
+C.J. Hicks,cj-hicks-1,/cfb/players/cj-hicks-1.html,LB,4,2,4,6,1.0,0.0,0,0,,0,0,0,0,0,0,,Ohio State,2025
+Garrett Stover,garrett-stover-1,/cfb/players/garrett-stover-1.html,LB,13,4,1,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio State,2025
+Joshua Mickens,joshua-mickens-1,/cfb/players/joshua-mickens-1.html,DE,8,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio State,2025
+Carnell Tate,carnell-tate-1,/cfb/players/carnell-tate-1.html,WR,11,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio State,2025
+Eric Mensah,eric-mensah-1,/cfb/players/eric-mensah-1.html,DT,1,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio State,2025
+Malik Hartford,malik-hartford-1,/cfb/players/malik-hartford-1.html,S,4,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio State,2025
+Logan George,logan-george-1,/cfb/players/logan-george-1.html,DL,2,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio State,2025
+Eli Lee,eli-lee-1,/cfb/players/eli-lee-1.html,LB,2,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio State,2025
+Dominic Kirks,dominic-kirks-1,/cfb/players/dominic-kirks-1.html,DE,3,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio State,2025
+Nate Roberts,nate-roberts-1,/cfb/players/nate-roberts-1.html,TE,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio State,2025
+Jayden Fielding,jayden-fielding-1,/cfb/players/jayden-fielding-1.html,K,14,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio State,2025
+Ryan Rudzinski,ryan-rudzinski-1,/cfb/players/ryan-rudzinski-1.html,S,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio State,2025
+Epi Sitanilei,epi-sitanilei-1,/cfb/players/epi-sitanilei-1.html,DE,4,0,1,1,0.5,0.0,0,0,,0,0,1,0,0,0,,Ohio State,2025
+Joey Velazquez,joey-velazquez-1,/cfb/players/joey-velazquez-1.html,LB,14,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio State,2025
+Jeremiah Smith,jeremiah-smith-2,/cfb/players/jeremiah-smith-2.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,"H-6,AA",Ohio State,2025
+Jarquez Carter,jarquez-carter-1,/cfb/players/jarquez-carter-1.html,DT,6,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio State,2025
+James Peoples,james-peoples-1,/cfb/players/james-peoples-1.html,RB,14,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio State,2025

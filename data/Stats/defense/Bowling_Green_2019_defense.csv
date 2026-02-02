@@ -1,0 +1,45 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Brandon Perce,brandon-perce-1,/cfb/players/brandon-perce-1.html,LB,11,46,54,100,7.0,2.0,2,1,0.5,0,2,0,0,0,0,,Bowling Green,2019
+Kholbe Coleman,kholbe-coleman-1,/cfb/players/kholbe-coleman-1.html,LB,11,43,53,96,4.5,2.0,0,0,,0,1,1,0,0,2,,Bowling Green,2019
+Jerry Roberts,jerry-roberts-2,/cfb/players/jerry-roberts-2.html,LB,11,33,27,60,6.5,1.5,0,0,,0,0,0,0,0,1,,Bowling Green,2019
+Jamari Bozeman,jamari-bozeman-1,/cfb/players/jamari-bozeman-1.html,DB,10,37,23,60,0.0,0.0,1,0,0.0,0,8,0,0,0,0,,Bowling Green,2019
+Antonyo Sotolongo,antonyo-sotolongo-1,/cfb/players/antonyo-sotolongo-1.html,DB,12,37,19,56,1.0,0.0,0,0,,0,0,0,0,0,1,,Bowling Green,2019
+David Koniwalski,david-koniwalski-1,/cfb/players/david-koniwalski-1.html,DL,11,26,27,53,9.5,3.0,0,0,,0,0,1,0,0,1,,Bowling Green,2019
+David Konowalski,david-konowalski-1,/cfb/players/david-konowalski-1.html,,12,26,27,53,9.5,3.0,0,0,,0,0,2,0,0,1,,Bowling Green,2019
+Jordan Anderson,jordan-anderson-2,/cfb/players/jordan-anderson-2.html,DB,10,27,24,51,2.0,1.0,1,0,0.0,0,7,0,0,0,1,,Bowling Green,2019
+Jajuan Hudson,jajuan-hudson-1,/cfb/players/jajuan-hudson-1.html,DB,10,32,10,42,1.0,0.0,0,0,,0,4,0,0,0,0,,Bowling Green,2019
+Caleb Biggers,caleb-biggers-1,/cfb/players/caleb-biggers-1.html,DB,10,27,12,39,2.0,0.0,0,0,,0,3,1,100,1,0,,Bowling Green,2019
+Karl Brooks,karl-brooks-1,/cfb/players/karl-brooks-1.html,DL,12,16,17,33,8.5,4.5,1,33,33.0,0,1,0,0,0,2,,Bowling Green,2019
+Nico Lautanen,nico-lautanen-1,/cfb/players/nico-lautanen-1.html,DL,12,12,20,32,5.5,3.5,0,0,,0,0,1,0,0,1,,Bowling Green,2019
+Jerry McBride III,jerry-mcbride-iii-1,/cfb/players/jerry-mcbride-iii-1.html,DB,5,18,6,24,1.0,0.0,0,0,,0,2,0,0,0,0,,Bowling Green,2019
+Walter Haire,walter-haire-1,/cfb/players/walter-haire-1.html,DL,12,7,13,20,1.5,0.5,0,0,,0,0,0,0,0,0,,Bowling Green,2019
+Darren Anders,darren-anders-2,/cfb/players/darren-anders-2.html,LB,11,10,10,20,2.5,1.0,0,0,,0,0,0,0,0,0,,Bowling Green,2019
+Roland Walder,roland-walder-1,/cfb/players/roland-walder-1.html,LB,11,12,7,19,1.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2019
+Eldridge Salguero,eldridge-salguero-1,/cfb/players/eldridge-salguero-1.html,LB,9,9,7,16,1.5,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2019
+Ty Redding,ty-redding-1,/cfb/players/ty-redding-1.html,DB,11,9,5,14,0.5,0.0,1,38,38.0,0,0,1,0,0,0,,Bowling Green,2019
+Melvin Jackson,melvin-jackson-2,/cfb/players/melvin-jackson-2.html,DB,8,8,5,13,3.0,3.0,0,0,,0,1,0,0,0,1,,Bowling Green,2019
+Jevon Henderson,jevon-henderson-1,/cfb/players/jevon-henderson-1.html,DL,12,6,7,13,1.5,1.0,0,0,,0,0,0,0,0,0,,Bowling Green,2019
+Davin Wilson,davin-wilson-1,/cfb/players/davin-wilson-1.html,DB,4,10,2,12,0.0,0.0,1,5,5.0,0,3,0,0,0,0,,Bowling Green,2019
+Chris Oliver,chris-oliver-3,/cfb/players/chris-oliver-3.html,DL,11,7,4,11,1.0,0.0,0,0,,0,0,1,0,0,0,,Bowling Green,2019
+Evan Brown,evan-brown-3,/cfb/players/evan-brown-3.html,LB,11,6,1,7,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2019
+Demontae Haigler,demontae-haigler-1,/cfb/players/demontae-haigler-1.html,DL,8,4,2,6,1.0,1.0,0,0,,0,0,0,0,0,0,,Bowling Green,2019
+Sy Dabney,sy-dabney-1,/cfb/players/sy-dabney-1.html,DB,10,3,3,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2019
+Torrian Hampton,torrian-hampton-1,/cfb/players/torrian-hampton-1.html,LB,7,2,3,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2019
+Davon Jones,davon-jones-1,/cfb/players/davon-jones-1.html,RB,9,4,0,4,0.0,0.0,0,0,,0,0,0,0,0,1,,Bowling Green,2019
+Cedric Mitchell,cedric-mitchell-1,/cfb/players/cedric-mitchell-1.html,DB,11,2,2,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2019
+Mason Lawler,mason-lawler-1,/cfb/players/mason-lawler-1.html,P,11,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2019
+Andrew Bench,andrew-bench-1,/cfb/players/andrew-bench-1.html,DL,4,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2019
+Konota Gaskins,konota-gaskins-1,/cfb/players/konota-gaskins-1.html,DB,3,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2019
+Maurice Adika,maurice-adika-1,/cfb/players/maurice-adika-1.html,RB,7,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2019
+Christian Sims,christian-sims-1,/cfb/players/christian-sims-1.html,TE,12,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2019
+Presley Motes,presley-motes-1,/cfb/players/presley-motes-1.html,TE,12,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2019
+Quintin Morris,quintin-morris-1,/cfb/players/quintin-morris-1.html,WR,12,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2019
+James Carolan,james-carolan-1,/cfb/players/james-carolan-1.html,LS,11,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2019
+Patrick Day,patrick-day-1,/cfb/players/patrick-day-1.html,DB,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2019
+Isaiah Johnson-Mack,isaiah-johnson-mack-1,/cfb/players/isaiah-johnson-mack-1.html,DB,5,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2019
+Jack Kramer,jack-kramer-1,/cfb/players/jack-kramer-1.html,OL,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2019
+Sam Neverov,sam-neverov-1,/cfb/players/sam-neverov-1.html,,8,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2019
+RB Marlow III,rb-marlow-iii-1,/cfb/players/rb-marlow-iii-1.html,WR,12,0,1,1,0.0,0.0,0,0,,0,0,1,0,0,0,,Bowling Green,2019
+Antwuan Johnson,antwuan-johnson-1,/cfb/players/antwuan-johnson-1.html,DE,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2019
+Darius Wade,darius-wade-1,/cfb/players/darius-wade-1.html,QB,7,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2019
+Jordan Wayne-Prather,jordan-wayne-prather-1,/cfb/players/jordan-wayne-prather-1.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2019

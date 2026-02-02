@@ -1,0 +1,45 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Peter Jinkens,peter-jinkens-1,/cfb/players/peter-jinkens-1.html,LB,11,46,29,75,9.5,6.5,0,0,,0,0,0,0,0,0,,Texas,2015
+Malik Jefferson,malik-jefferson-1,/cfb/players/malik-jefferson-1.html,LB,11,37,24,61,7.0,2.5,0,0,,0,3,1,26,1,1,,Texas,2015
+Duke Thomas,duke-thomas-1,/cfb/players/duke-thomas-1.html,CB,12,42,16,58,3.0,0.0,1,29,29.0,0,5,0,0,0,0,,Texas,2015
+Naashon Hughes,naashon-hughes-1,/cfb/players/naashon-hughes-1.html,DE,12,40,17,57,9.0,5.5,0,0,,0,1,0,0,0,1,,Texas,2015
+Jason Hall,jason-hall-2,/cfb/players/jason-hall-2.html,S,12,33,18,51,0.5,0.0,2,52,26.0,0,2,0,0,0,1,,Texas,2015
+Holton Hill,holton-hill-1,/cfb/players/holton-hill-1.html,DB,12,37,12,49,1.0,0.0,1,41,41.0,1,4,1,0,0,0,,Texas,2015
+Dylan Haines,dylan-haines-1,/cfb/players/dylan-haines-1.html,S,11,37,10,47,3.0,1.0,5,102,20.4,0,3,0,0,0,0,,Texas,2015
+Poona Ford,poona-ford-1,/cfb/players/poona-ford-1.html,DT,12,22,17,39,6.0,2.5,0,0,,0,1,1,0,0,1,,Texas,2015
+Paul Boyette Jr.,paul-boyette-jr-1,/cfb/players/paul-boyette-jr-1.html,DT,12,26,11,37,8.0,3.0,0,0,,0,2,1,0,0,0,,Texas,2015
+Hassan Ridgeway,hassan-ridgeway-1,/cfb/players/hassan-ridgeway-1.html,DT,11,24,12,36,6.5,3.5,0,0,,0,0,2,26,1,0,,Texas,2015
+Anthony Wheeler,anthony-wheeler-1,/cfb/players/anthony-wheeler-1.html,LB,12,22,14,36,1.0,0.0,0,0,,0,1,1,0,0,0,,Texas,2015
+Davante Davis,davante-davis-1,/cfb/players/davante-davis-1.html,CB,12,30,5,35,1.0,0.0,1,0,0.0,0,7,0,0,0,0,,Texas,2015
+Desmond Jackson,desmond-jackson-2,/cfb/players/desmond-jackson-2.html,DT,11,19,12,31,2.5,1.5,0,0,,0,0,1,7,0,0,,Texas,2015
+John Bonney,john-bonney-1,/cfb/players/john-bonney-1.html,CB,12,24,5,29,2.0,1.0,0,0,,0,1,0,0,0,1,,Texas,2015
+Shiro Davis,shiro-davis-1,/cfb/players/shiro-davis-1.html,DE,11,18,11,29,5.5,2.0,0,0,,0,0,0,0,0,2,,Texas,2015
+Timothy Cole,timothy-cole-1,/cfb/players/timothy-cole-1.html,LB,11,20,7,27,1.0,1.0,0,0,,0,0,0,0,0,0,,Texas,2015
+Bryce Cottrell,bryce-cottrell-1,/cfb/players/bryce-cottrell-1.html,DE,12,16,11,27,6.5,4.0,0,0,,0,1,0,0,0,0,,Texas,2015
+Breckyn Hager,breckyn-hager-1,/cfb/players/breckyn-hager-1.html,LB,9,12,6,18,0.0,0.0,1,10,10.0,0,0,0,0,0,0,,Texas,2015
+Charles Omenihu,charles-omenihu-1,/cfb/players/charles-omenihu-1.html,DE,11,15,2,17,1.0,0.0,0,0,,0,0,1,0,0,1,,Texas,2015
+Kris Boyd,kris-boyd-1,/cfb/players/kris-boyd-1.html,CB,12,9,7,16,0.0,0.0,0,0,,0,0,0,0,0,1,,Texas,2015
+Kevin Vaccaro,kevin-vaccaro-1,/cfb/players/kevin-vaccaro-1.html,S,10,11,4,15,0.0,0.0,0,0,,0,1,0,0,0,1,,Texas,2015
+P.J Locke III,pj-locke-iii-1,/cfb/players/pj-locke-iii-1.html,S,12,10,4,14,1.0,0.0,0,0,,0,1,0,0,0,1,,Texas,2015
+DeShon Elliott,deshon-elliott-1,/cfb/players/deshon-elliott-1.html,S,7,11,2,13,0.0,0.0,2,5,2.5,0,1,0,0,0,1,,Texas,2015
+Edwin Freeman,edwin-freeman-1,/cfb/players/edwin-freeman-1.html,LB,6,9,3,12,3.0,0.0,0,0,,0,0,0,0,0,1,,Texas,2015
+Antwuan Davis,antwuan-davis-1,/cfb/players/antwuan-davis-1.html,CB,12,6,2,8,0.0,0.0,0,0,,0,1,1,0,0,0,,Texas,2015
+Quincy Vasser,quincy-vasser-1,/cfb/players/quincy-vasser-1.html,DE,7,4,3,7,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2015
+Chris Nelson,chris-nelson-2,/cfb/players/chris-nelson-2.html,DT,8,3,4,7,1.0,1.0,0,0,,0,0,0,0,0,0,,Texas,2015
+Derick Roberson,derick-roberson-1,/cfb/players/derick-roberson-1.html,DE,9,4,2,6,2.0,2.0,0,0,,0,0,0,0,0,1,,Texas,2015
+Jake McMillon,jake-mcmillon-1,/cfb/players/jake-mcmillon-1.html,DT,12,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2015
+Dorian Leonard,dorian-leonard-1,/cfb/players/dorian-leonard-1.html,WR,12,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2015
+Bryson Echols,bryson-echols-1,/cfb/players/bryson-echols-1.html,CB,7,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2015
+Jake Oliver,jake-oliver-1,/cfb/players/jake-oliver-1.html,WR,7,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2015
+Caleb Bluiett,caleb-bluiett-1,/cfb/players/caleb-bluiett-1.html,DE,12,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2015
+Ty Templin,ty-templin-1,/cfb/players/ty-templin-1.html,WR,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2015
+Sedrick Flowers,sedrick-flowers-1,/cfb/players/sedrick-flowers-1.html,G,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2015
+Tristian Houston,tristian-houston-1,/cfb/players/tristian-houston-1.html,RB,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2015
+Alex De La Torre,alex-de-la-torre-1,/cfb/players/alex-de-la-torre-1.html,FB,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2015
+Nick Rose,nick-rose-1,/cfb/players/nick-rose-1.html,K,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2015
+Michael Dickson,michael-dickson-1,/cfb/players/michael-dickson-1.html,P,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2015
+Johnathan Gray,johnathan-gray-1,/cfb/players/johnathan-gray-1.html,RB,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2015
+Jacorey Warrick,jacorey-warrick-1,/cfb/players/jacorey-warrick-1.html,WR,6,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2015
+DeAndre McNeal,deandre-mcneal-1,/cfb/players/deandre-mcneal-1.html,TE,9,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2015
+Andrew Beck,andrew-beck-1,/cfb/players/andrew-beck-1.html,TE,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2015
+Kirk Johnson,kirk-johnson-5,/cfb/players/kirk-johnson-5.html,RB,6,0,0,0,0.0,0.0,0,0,,0,0,2,0,0,0,,Texas,2015

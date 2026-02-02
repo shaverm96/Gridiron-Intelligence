@@ -1,0 +1,40 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Trey Taylor,trey-taylor-1,/cfb/players/trey-taylor-1.html,S,10,39,23,62,1.5,1.0,1,0,0.0,0,5,0,0,0,1,,Air Force,2021
+Corvan Taylor,corvan-taylor-1,/cfb/players/corvan-taylor-1.html,S,13,33,27,60,0.0,0.0,3,21,7.0,0,4,2,3,0,0,,Air Force,2021
+Vince Sanford,vince-sanford-1,/cfb/players/vince-sanford-1.html,LB,13,46,13,59,17.0,9.5,0,0,,0,3,1,0,0,4,,Air Force,2021
+Tre Bugg III,milton-bugg-iii-1,/cfb/players/milton-bugg-iii-1.html,DB,12,45,13,58,1.0,0.0,2,8,4.0,0,10,0,0,0,1,,Air Force,2021
+Alec Mock,alec-mock-1,/cfb/players/alec-mock-1.html,LB,11,32,21,53,1.5,1.0,0,0,,0,0,1,0,0,1,,Air Force,2021
+Christopher Herrera,christopher-herrera-1,/cfb/players/christopher-herrera-1.html,DL,13,19,25,44,7.5,3.5,0,0,,0,0,0,0,0,0,,Air Force,2021
+Camby Goff,camby-goff-1,/cfb/players/camby-goff-1.html,S,11,24,18,42,4.5,2.0,0,0,,0,3,0,0,0,2,,Air Force,2021
+Jordan Jackson,jordan-jackson-5,/cfb/players/jordan-jackson-5.html,DT,13,24,17,41,12.5,7.5,0,0,,0,1,0,0,0,1,,Air Force,2021
+Demonte Meeks,demonte-meeks-1,/cfb/players/demonte-meeks-1.html,LB,12,15,21,36,3.5,3.5,0,0,,0,0,0,0,0,0,,Air Force,2021
+Thadius Blackmon,thadius-blackmon-1,/cfb/players/thadius-blackmon-1.html,LB,9,16,17,33,5.0,1.0,0,0,,0,0,0,0,0,1,,Air Force,2021
+Michael Mack II,michael-mack-ii-1,/cfb/players/michael-mack-ii-1.html,CB,9,15,12,27,0.0,0.0,0,0,,0,1,0,0,0,0,,Air Force,2021
+Ethan Erickson,ethan-erickson-2,/cfb/players/ethan-erickson-2.html,S,8,11,4,15,1.0,1.0,0,0,,0,1,0,0,0,0,,Air Force,2021
+Eian Castonguay,eian-castonguay-1,/cfb/players/eian-castonguay-1.html,CB,11,11,4,15,0.0,0.0,0,0,,0,1,0,0,0,0,,Air Force,2021
+Johnathan Youngblood,johnathan-youngblood-1,/cfb/players/johnathan-youngblood-1.html,LB,13,10,5,15,1.0,1.0,0,0,,0,0,0,0,0,0,,Air Force,2021
+Jayden Goodwin,jayden-goodwin-1,/cfb/players/jayden-goodwin-1.html,S,13,10,5,15,0.0,0.0,0,0,,0,3,0,0,0,0,,Air Force,2021
+Bo Richter,bo-richter-1,/cfb/players/bo-richter-1.html,LB,11,5,8,13,1.5,1.5,1,6,6.0,0,1,0,0,0,0,,Air Force,2021
+Zion Kelly,zion-kelly-1,/cfb/players/zion-kelly-1.html,CB,12,8,4,12,1.5,0.5,0,0,,0,0,0,0,0,0,,Air Force,2021
+Elijah Brockman,elijah-brockman-1,/cfb/players/elijah-brockman-1.html,G,10,6,6,12,2.5,1.0,0,0,,0,0,0,0,0,0,,Air Force,2021
+Jayd Thiergood,jayd-thiergood-1,/cfb/players/jayd-thiergood-1.html,DE,8,5,5,10,3.0,1.0,0,0,,0,0,0,0,0,0,,Air Force,2021
+Kalawai'a Pescaia,kalawaia-pescaia-1,/cfb/players/kalawaia-pescaia-1.html,G,8,4,4,8,2.0,0.5,0,0,,0,0,0,0,0,0,,Air Force,2021
+James Jones,james-jones-15,/cfb/players/james-jones-15.html,DB,13,6,2,8,0.0,0.0,1,18,18.0,0,0,1,0,0,0,,Air Force,2021
+Mason Bugg,mason-bugg-1,/cfb/players/mason-bugg-1.html,S,3,5,2,7,0.0,0.0,0,0,,0,2,0,0,0,0,,Air Force,2021
+Jalen Mergerson,jalen-mergerson-1,/cfb/players/jalen-mergerson-1.html,S,11,3,4,7,0.0,0.0,0,0,,0,1,0,0,0,0,,Air Force,2021
+Caleb Humphrey,caleb-humphrey-1,/cfb/players/caleb-humphrey-1.html,LB,5,4,3,7,2.0,1.0,0,0,,0,0,0,0,0,0,,Air Force,2021
+Jace Waters,jace-waters-1,/cfb/players/jace-waters-1.html,LB,5,2,2,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Air Force,2021
+David Eure,david-eure-1,/cfb/players/david-eure-1.html,CB,7,2,2,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Air Force,2021
+Kenny Ngaima,kenny-ngaima-1,/cfb/players/kenny-ngaima-1.html,G,4,1,3,4,0.5,0.5,0,0,,0,0,0,0,0,0,,Air Force,2021
+Brandon Gooding,brandon-gooding-1,/cfb/players/brandon-gooding-1.html,LB,7,2,2,4,1.0,0.0,0,0,,0,0,0,0,0,0,,Air Force,2021
+Brad Roberts,brad-roberts-1,/cfb/players/brad-roberts-1.html,RB,13,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Air Force,2021
+Jamari Bellamy,jamari-bellamy-1,/cfb/players/jamari-bellamy-1.html,S,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Air Force,2021
+Dane Kinamon,dane-kinamon-1,/cfb/players/dane-kinamon-1.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Air Force,2021
+Kyle Patterson,kyle-patterson-1,/cfb/players/kyle-patterson-1.html,TE,4,1,0,1,0.0,0.0,0,0,,0,0,1,0,0,0,,Air Force,2021
+Corey Collins,corey-collins-1,/cfb/players/corey-collins-1.html,DB,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,1,,Air Force,2021
+McKinley O'Neal,mckinley-oneal-1,/cfb/players/mckinley-oneal-1.html,DT,6,1,0,1,1.0,0.0,0,0,,0,1,0,0,0,0,,Air Force,2021
+Charles Bein,charles-bein-1,/cfb/players/charles-bein-1.html,P,11,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Air Force,2021
+Nate Polk,nate-polk-1,/cfb/players/nate-polk-1.html,LB,1,1,0,1,0.0,0.0,0,0,,0,0,1,0,0,0,,Air Force,2021
+Omar Fattah,omar-fattah-1,/cfb/players/omar-fattah-1.html,FB,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Air Force,2021
+Brice Honaker,brice-honaker-1,/cfb/players/brice-honaker-1.html,PK,9,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Air Force,2021
+Alesandro Maxwell,alesandro-maxwell-1,/cfb/players/alesandro-maxwell-1.html,DE,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Air Force,2021

@@ -1,0 +1,44 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Chazz Surratt,chazz-surratt-1,/cfb/players/chazz-surratt-1.html,LB,11,49,42,91,7.5,6.0,1,0,0.0,0,3,1,0,0,1,,North Carolina,2020
+Jeremiah Gemmel,jeremiah-gemmel-1,/cfb/players/jeremiah-gemmel-1.html,LB,12,50,28,78,6.0,2.5,1,0,0.0,0,4,0,0,0,1,,North Carolina,2020
+Cam'Ron Kelly,camron-kelly-1,/cfb/players/camron-kelly-1.html,DB,12,32,23,55,1.0,0.0,0,0,,0,3,0,0,0,1,,North Carolina,2020
+Don Chapman,don-chapman-1,/cfb/players/don-chapman-1.html,DB,11,40,8,48,4.0,2.0,1,0,0.0,0,2,0,0,0,0,,North Carolina,2020
+Tomari Fox,tomari-fox-1,/cfb/players/tomari-fox-1.html,DL,12,23,23,46,6.0,4.0,0,0,,0,0,0,0,0,0,,North Carolina,2020
+Trey Morrison,trey-morrison-1,/cfb/players/trey-morrison-1.html,DB,12,33,6,39,2.0,1.0,1,9,9.0,0,3,0,0,0,0,,North Carolina,2020
+Tomon Fox,tomon-fox-1,/cfb/players/tomon-fox-1.html,LB,12,21,15,36,10.5,7.0,0,0,,0,0,0,0,0,1,,North Carolina,2020
+Ja'Qurious Conley,jaqurious-conley-1,/cfb/players/jaqurious-conley-1.html,DB,10,24,11,35,2.0,1.0,0,0,,0,1,0,0,0,0,,North Carolina,2020
+Raymond Vohasek,raymond-vohasek-1,/cfb/players/raymond-vohasek-1.html,DL,11,15,14,29,7.0,3.5,0,0,,0,2,0,0,0,0,,North Carolina,2020
+Patrice Rene,patrice-rene-1,/cfb/players/patrice-rene-1.html,DB,9,20,8,28,2.0,0.0,0,0,,0,4,0,0,0,1,,North Carolina,2020
+Tyrone Hopper,tyrone-hopper-1,/cfb/players/tyrone-hopper-1.html,LB,11,13,14,27,2.0,2.0,0,0,,0,2,0,0,0,0,,North Carolina,2020
+Eugene Asante,eugene-asante-1,/cfb/players/eugene-asante-1.html,LB,12,14,13,27,0.5,0.0,0,0,,0,0,0,0,0,1,,North Carolina,2020
+Kyler McMichael,kyler-mcmichael-1,/cfb/players/kyler-mcmichael-1.html,DB,9,22,4,26,0.0,0.0,0,0,,0,6,0,0,0,0,,North Carolina,2020
+Kaimon Rucker,kaimon-rucker-1,/cfb/players/kaimon-rucker-1.html,LB,10,12,9,21,3.0,0.0,0,0,,0,0,0,0,0,0,,North Carolina,2020
+Jahlil Taylor,jahlil-taylor-1,/cfb/players/jahlil-taylor-1.html,DL,11,10,8,18,2.5,0.0,0,0,,0,0,0,0,0,0,,North Carolina,2020
+Tony Grimes,tony-grimes-2,/cfb/players/tony-grimes-2.html,DB,12,11,3,14,1.5,1.0,1,0,0.0,0,3,0,0,0,0,,North Carolina,2020
+Chris Collins,chris-collins-6,/cfb/players/chris-collins-6.html,LB,11,8,5,13,3.0,3.0,0,0,,0,1,0,0,0,0,,North Carolina,2020
+Ladaeson DeAndre Hollins,ladaeson-deandre-hollins-1,/cfb/players/ladaeson-deandre-hollins-1.html,DB,10,10,3,13,0.0,0.0,1,43,43.0,0,2,0,0,0,0,,North Carolina,2020
+Desmond Evans,desmond-evans-1,/cfb/players/desmond-evans-1.html,LB,11,2,8,10,2.0,1.0,0,0,,0,0,1,1,0,0,,North Carolina,2020
+Kevin Hester Jr.,kevin-hester-jr-1,/cfb/players/kevin-hester-jr-1.html,DL,7,6,4,10,1.0,0.0,0,0,,0,0,1,0,0,1,,North Carolina,2020
+Obi Egbuna,obi-egbuna-1,/cfb/players/obi-egbuna-1.html,DB,12,7,1,8,0.0,0.0,0,0,,0,2,0,0,0,0,,North Carolina,2020
+Myles Murphy,myles-murphy-2,/cfb/players/myles-murphy-2.html,DL,11,6,2,8,2.0,1.0,0,0,,0,0,0,0,0,0,,North Carolina,2020
+Clyde Pinder Jr.,clyde-pinder-jr-1,/cfb/players/clyde-pinder-jr-1.html,DL,6,4,2,6,1.0,1.0,0,0,,0,0,0,0,0,0,,North Carolina,2020
+Khadry Jackson,khadry-jackson-1,/cfb/players/khadry-jackson-1.html,LB,11,3,3,6,0.5,0.0,0,0,,0,0,0,0,0,0,,North Carolina,2020
+Myles Wolfolk,myles-wolfolk-1,/cfb/players/myles-wolfolk-1.html,DB,2,2,3,5,0.5,0.0,0,0,,0,1,0,0,0,0,,North Carolina,2020
+Storm Duck,storm-duck-1,/cfb/players/storm-duck-1.html,DB,2,4,0,4,0.0,0.0,0,0,,0,2,0,0,0,0,,North Carolina,2020
+Xach Gill,xach-gill-1,/cfb/players/xach-gill-1.html,DL,11,1,3,4,0.0,0.0,0,0,,0,0,0,0,0,0,,North Carolina,2020
+Jonathan Kim,jonathan-kim-2,/cfb/players/jonathan-kim-2.html,PK,11,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,North Carolina,2020
+Giovanni Biggers,giovanni-biggers-1,/cfb/players/giovanni-biggers-1.html,DB,12,3,0,3,0.0,0.0,1,26,26.0,0,0,0,0,0,0,,North Carolina,2020
+Cedric Gray,cedric-gray-1,/cfb/players/cedric-gray-1.html,LB,11,0,3,3,0.0,0.0,0,0,,0,0,0,0,0,0,,North Carolina,2020
+Josh Henderson,josh-henderson-2,/cfb/players/josh-henderson-2.html,RB,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,North Carolina,2020
+Jake Harkleroad,jake-harkleroad-1,/cfb/players/jake-harkleroad-1.html,LB,2,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,North Carolina,2020
+British Brooks,british-brooks-1,/cfb/players/british-brooks-1.html,RB,12,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,North Carolina,2020
+Welton Spottsville,welton-spottsville-1,/cfb/players/welton-spottsville-1.html,DB,10,1,1,2,0.5,0.0,0,0,,0,0,0,0,0,0,,North Carolina,2020
+Kristian Varner,kristian-varner-1,/cfb/players/kristian-varner-1.html,DL,3,1,0,1,1.0,0.0,0,0,,0,0,0,0,0,0,,North Carolina,2020
+Josh Downs,josh-downs-2,/cfb/players/josh-downs-2.html,WR,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,North Carolina,2020
+Alex Nobles,alex-nobles-1,/cfb/players/alex-nobles-1.html,LB,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,North Carolina,2020
+Dyami Brown,dyami-brown-1,/cfb/players/dyami-brown-1.html,WR,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,North Carolina,2020
+Drew Little,drew-little-1,/cfb/players/drew-little-1.html,LS,9,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,North Carolina,2020
+Dazz Newsome,dazz-newsome-1,/cfb/players/dazz-newsome-1.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,North Carolina,2020
+Christopher Holliday,christopher-holliday-1,/cfb/players/christopher-holliday-1.html,DB,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,North Carolina,2020
+Cameron Roseman-Sinclair,cameron-roseman-sinclair-1,/cfb/players/cameron-roseman-sinclair-1.html,DB,6,1,0,1,0.0,0.0,1,13,13.0,0,0,0,0,0,0,,North Carolina,2020
+Ben Kiernan,ben-kiernan-1,/cfb/players/ben-kiernan-1.html,P,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,North Carolina,2020

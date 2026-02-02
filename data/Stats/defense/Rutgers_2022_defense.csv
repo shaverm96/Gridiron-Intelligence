@@ -1,0 +1,42 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Deion Jennings,deion-jennings-1,/cfb/players/deion-jennings-1.html,LB,11,48,43,91,8.5,1.0,0,0,,0,6,0,0,0,0,,Rutgers,2022
+Christian Izien,christian-izien-1,/cfb/players/christian-izien-1.html,DB,12,50,35,85,5.0,1.5,0,0,,0,4,0,0,0,0,,Rutgers,2022
+Avery Young,avery-young-2,/cfb/players/avery-young-2.html,DB,12,46,38,84,2.0,1.0,1,15,15.0,0,4,0,0,0,1,,Rutgers,2022
+Tyreem Powell,tyreem-powell-1,/cfb/players/tyreem-powell-1.html,LB,12,33,38,71,6.0,3.0,0,0,,0,4,0,0,0,0,,Rutgers,2022
+Aaron Lewis,aaron-lewis-4,/cfb/players/aaron-lewis-4.html,DL,11,18,37,55,8.0,1.5,0,0,,0,0,0,0,0,1,,Rutgers,2022
+Desmond Igbinosun,desmond-igbinosun-1,/cfb/players/desmond-igbinosun-1.html,DB,10,32,23,55,3.0,0.0,0,0,,0,4,0,0,0,1,,Rutgers,2022
+Ifeanyi Maijeh,ifeanyi-maijeh-1,/cfb/players/ifeanyi-maijeh-1.html,DL,11,10,31,41,3.0,2.0,0,0,,0,1,0,0,0,1,,Rutgers,2022
+Robert Longerbeam,robert-longerbeam-1,/cfb/players/robert-longerbeam-1.html,DB,10,26,10,36,2.0,1.0,2,5,2.5,0,6,0,0,0,1,,Rutgers,2022
+Christian Braswell,christian-braswell-1,/cfb/players/christian-braswell-1.html,DB,12,25,11,36,1.0,0.0,3,13,4.3,1,11,0,0,0,0,,Rutgers,2022
+Max Melton,max-melton-1,/cfb/players/max-melton-1.html,DB,12,23,10,33,2.0,0.0,2,1,0.5,0,10,1,0,0,0,,Rutgers,2022
+Wesley Bailey,wesley-bailey-2,/cfb/players/wesley-bailey-2.html,DL,12,18,12,30,8.0,3.5,0,0,,0,2,3,0,0,0,,Rutgers,2022
+Shaquan Loyal,shaquan-loyal-1,/cfb/players/shaquan-loyal-1.html,DB,11,13,14,27,1.5,0.0,1,43,43.0,1,2,0,0,0,0,,Rutgers,2022
+Jamier Wright-Collins,jamier-wright-collins-1,/cfb/players/jamier-wright-collins-1.html,LB,12,6,18,24,1.5,0.0,0,0,,0,0,0,0,0,0,,Rutgers,2022
+Kyonte Hamilton,kyonte-hamilton-1,/cfb/players/kyonte-hamilton-1.html,DL,12,6,18,24,3.0,1.0,0,0,,0,0,0,0,0,0,,Rutgers,2022
+Austin Dean,austin-dean-1,/cfb/players/austin-dean-1.html,LB,12,4,15,19,0.0,0.0,0,0,,0,0,0,0,0,0,,Rutgers,2022
+Jordan Thompson,jordan-thompson-5,/cfb/players/jordan-thompson-5.html,DL,12,8,10,18,0.0,0.0,0,0,,0,1,0,0,0,0,,Rutgers,2022
+Elijuwan Mack,elijuwan-mack-1,/cfb/players/elijuwan-mack-1.html,DB,8,6,9,15,0.5,0.0,0,0,,0,0,0,0,0,0,,Rutgers,2022
+Kessawn Abraham,kessawn-abraham-1,/cfb/players/kessawn-abraham-1.html,DB,6,5,4,9,1.0,0.0,0,0,,0,1,0,0,0,0,,Rutgers,2022
+Mayan Ahanotu,mayan-ahanotu-1,/cfb/players/mayan-ahanotu-1.html,DL,12,5,4,9,4.5,2.0,0,0,,0,1,0,0,0,0,,Rutgers,2022
+Troy Rainey,troy-rainey-1,/cfb/players/troy-rainey-1.html,DL,11,3,5,8,1.0,0.0,0,0,,0,0,0,0,0,0,,Rutgers,2022
+Shawn Collins,shawn-collins-1,/cfb/players/shawn-collins-1.html,DL,6,4,2,6,0.0,0.0,0,0,,0,1,1,0,0,0,,Rutgers,2022
+Joe Lusardi,joe-lusardi-1,/cfb/players/joe-lusardi-1.html,DB,10,1,4,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Rutgers,2022
+Kenny Fletcher Jr.,kenny-fletcher-1,/cfb/players/kenny-fletcher-1.html,DL,11,3,2,5,2.5,1.5,0,0,,0,0,0,0,0,0,,Rutgers,2022
+Carnell Davis,carnell-davis-1,/cfb/players/carnell-davis-1.html,DB,10,1,4,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Rutgers,2022
+Rene Konga,rene-konga-1,/cfb/players/rene-konga-1.html,DL,9,2,3,5,1.0,1.0,0,0,,0,2,0,0,0,0,,Rutgers,2022
+Michael Robinson II,michael-robinson-ii-1,/cfb/players/michael-robinson-ii-1.html,DB,8,0,4,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Rutgers,2022
+Shameen Jones,shameen-jones-1,/cfb/players/shameen-jones-1.html,WR,12,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Rutgers,2022
+Aron Cruickshank,aron-cruickshank-1,/cfb/players/aron-cruickshank-1.html,WR,12,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Rutgers,2022
+Zaire Angoy,zaire-angoy-1,/cfb/players/zaire-angoy-1.html,DL,3,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Rutgers,2022
+Evan Simon,evan-simon-1,/cfb/players/evan-simon-1.html,QB,9,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Rutgers,2022
+Damon Matthews,damon-matthews-2,/cfb/players/damon-matthews-2.html,DB,7,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Rutgers,2022
+Andrew Vince,andrew-vince-1,/cfb/players/andrew-vince-1.html,LB,8,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Rutgers,2022
+Rani Abdulaziz,rani-abdulaziz-2,/cfb/players/rani-abdulaziz-2.html,DB,6,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Rutgers,2022
+Nasir Montgomery,nasir-montgomery-1,/cfb/players/nasir-montgomery-1.html,WR,4,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Rutgers,2022
+Jude McAtamney,jude-mcatamney-1,/cfb/players/jude-mcatamney-1.html,K,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Rutgers,2022
+J.D. DiRenzo,jd-direnzo-1,/cfb/players/jd-direnzo-1.html,OL,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Rutgers,2022
+Gavin Wimsatt,gavin-wimsatt-1,/cfb/players/gavin-wimsatt-1.html,QB,8,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Rutgers,2022
+Timmy Ward,timmy-ward-1,/cfb/players/timmy-ward-1.html,DB,9,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Rutgers,2022
+Dariel Djabome,dariel-djabome-1,/cfb/players/dariel-djabome-1.html,LB,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Rutgers,2022
+Willie Tyler,willie-tyler-1,/cfb/players/willie-tyler-1.html,OL,10,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Rutgers,2022
+Amir Byrd,amir-byrd-1,/cfb/players/amir-byrd-1.html,DB,9,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Rutgers,2022

@@ -1,0 +1,34 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Anthony Pandy,anthony-pandy-1,/cfb/players/anthony-pandy-1.html,LB,5,10,20,30,1.0,0.0,2,15,7.5,0,0,0,0,0,0,,Arizona,2020
+Rhedi Short,rhedi-short-1,/cfb/players/rhedi-short-1.html,DB,5,23,7,30,0.0,0.0,0,0,,0,0,0,0,0,0,,Arizona,2020
+Christian Roland-Wallace,christian-roland-wallace-1,/cfb/players/christian-roland-wallace-1.html,DB,5,19,7,26,0.5,0.0,0,0,,0,3,0,0,0,0,,Arizona,2020
+Lorenzo Burns,lorenzo-burns-1,/cfb/players/lorenzo-burns-1.html,DB,5,16,8,24,2.0,0.0,0,0,,0,1,1,0,0,0,,Arizona,2020
+Rourke Freeburg,rourke-freeburg-1,/cfb/players/rourke-freeburg-1.html,LB,5,14,7,21,3.5,0.0,0,0,,0,0,0,0,0,0,,Arizona,2020
+Trevon Mason,trevon-mason-1,/cfb/players/trevon-mason-1.html,DL,5,7,13,20,1.5,0.0,0,0,,0,1,0,0,0,0,,Arizona,2020
+Jaxen Turner,jaxen-turner-1,/cfb/players/jaxen-turner-1.html,DB,5,12,7,19,1.0,0.0,0,0,,0,1,0,0,0,0,,Arizona,2020
+Roy Lopez,roy-lopez-1,/cfb/players/roy-lopez-1.html,DL,5,10,8,18,4.0,1.0,0,0,,0,0,0,0,0,0,,Arizona,2020
+Jalen Harris,jalen-harris-3,/cfb/players/jalen-harris-3.html,LB,4,12,6,18,2.5,0.0,0,0,,0,2,0,0,0,0,,Arizona,2020
+Kyon Barrs,kyon-barrs-1,/cfb/players/kyon-barrs-1.html,DT,5,7,10,17,0.0,0.0,0,0,,0,0,0,0,0,0,,Arizona,2020
+Parker Henley,parker-henley-1,/cfb/players/parker-henley-1.html,LB,5,8,6,14,1.0,0.0,0,0,,0,1,0,0,0,0,,Arizona,2020
+Isaiah Mays,isaiah-mays-1,/cfb/players/isaiah-mays-1.html,DB,5,8,5,13,1.0,0.0,0,0,,0,0,0,0,0,1,,Arizona,2020
+Issaiah Johnson,issaiah-johnson-1,/cfb/players/issaiah-johnson-1.html,DE,5,8,5,13,2.0,0.0,0,0,,0,1,0,0,0,0,,Arizona,2020
+Derick Mourning,derick-mourning-1,/cfb/players/derick-mourning-1.html,LB,5,6,4,10,0.0,0.0,0,0,,0,1,0,0,0,0,,Arizona,2020
+Treydan Stukes,treydan-stukes-1,/cfb/players/treydan-stukes-1.html,DB,3,8,0,8,0.0,0.0,0,0,,0,0,0,0,0,0,,Arizona,2020
+Myles Tapusoa,myles-tapusoa-1,/cfb/players/myles-tapusoa-1.html,DL,5,6,1,7,1.0,0.0,0,0,,0,0,0,0,0,0,,Arizona,2020
+Quinn Sullivan,quinn-sullivan-1,/cfb/players/quinn-sullivan-1.html,DB,4,5,2,7,0.0,0.0,0,0,,0,0,0,0,0,1,,Arizona,2020
+Aaron Blackwell,aaron-blackwell-1,/cfb/players/aaron-blackwell-1.html,DL,5,2,4,6,2.0,0.0,0,0,,0,0,0,0,0,0,,Arizona,2020
+Derrion Clark,derrion-clark-1,/cfb/players/derrion-clark-1.html,LB,4,3,3,6,1.0,0.0,0,0,,0,0,0,0,0,0,,Arizona,2020
+Jaydin Young,jaydin-young-1,/cfb/players/jaydin-young-1.html,DB,4,4,2,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Arizona,2020
+Kwabena Watson,kwabena-watson-1,/cfb/players/kwabena-watson-1.html,LB,5,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Arizona,2020
+Dante Smith,dante-smith-3,/cfb/players/dante-smith-3.html,LB,5,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Arizona,2020
+Malik Hausman,malik-hausman-1,/cfb/players/malik-hausman-1.html,DB,2,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Arizona,2020
+Dion Wilson Jr.,dion-wilson-jr-1,/cfb/players/dion-wilson-jr-1.html,DL,4,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Arizona,2020
+Jarrius Wallace,jarrius-wallace-1,/cfb/players/jarrius-wallace-1.html,DB,1,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Arizona,2020
+Paris Shand,paris-shand-1,/cfb/players/paris-shand-1.html,DL,4,2,0,2,1.0,1.0,0,0,,0,0,0,0,0,0,,Arizona,2020
+McKenzie Barnes,mckenzie-barnes-1,/cfb/players/mckenzie-barnes-1.html,DB,2,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Arizona,2020
+Nazar Bombata,nazar-bombata-1,/cfb/players/nazar-bombata-1.html,RB,5,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Arizona,2020
+Nathan Tilford,nathan-tilford-1,/cfb/players/nathan-tilford-1.html,RB,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Arizona,2020
+Grant Gunnell,grant-gunnell-1,/cfb/players/grant-gunnell-1.html,QB,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Arizona,2020
+Seth MacKellar,seth-mackellar-1,/cfb/players/seth-mackellar-1.html,LS,5,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Arizona,2020
+Ma'jon Wright,majon-wright-1,/cfb/players/majon-wright-1.html,WR,5,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Arizona,2020
+Gary Brightwell,gary-brightwell-1,/cfb/players/gary-brightwell-1.html,RB,5,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Arizona,2020

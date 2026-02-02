@@ -1,0 +1,47 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Jaylan Ford,jaylan-ford-1,/cfb/players/jaylan-ford-1.html,LB,14,47,54,101,10.5,1.0,2,5,2.5,0,2,1,0,0,1,,Texas,2023
+Anthony Hill Jr.,anthony-hill-jr-1,/cfb/players/anthony-hill-jr-1.html,LB,14,40,27,67,8.0,5.0,0,0,,0,2,0,0,0,1,,Texas,2023
+Jahdae Barron,jahdae-barron-1,/cfb/players/jahdae-barron-1.html,DB,14,32,28,60,4.5,0.0,1,16,16.0,0,6,1,0,0,0,,Texas,2023
+David Gbenda,david-gbenda-1,/cfb/players/david-gbenda-1.html,LB,14,23,27,50,3.5,1.5,0,0,,0,1,0,0,0,0,,Texas,2023
+Michael Taaffe,michael-taaffe-1,/cfb/players/michael-taaffe-1.html,DB,14,28,20,48,2.5,0.0,3,45,15.0,0,2,0,0,0,0,,Texas,2023
+T'vondre Sweat,tvondre-sweat-1,/cfb/players/tvondre-sweat-1.html,DL,14,18,27,45,8.0,2.0,0,0,,0,4,0,0,0,0,AA,Texas,2023
+Derek Williams Jr.,derek-williams-jr-1,/cfb/players/derek-williams-jr-1.html,DB,13,24,18,42,2.0,0.0,0,0,,0,2,0,0,0,0,,Texas,2023
+Ethan Burke,ethan-burke-1,/cfb/players/ethan-burke-1.html,DL,13,21,20,41,9.0,5.5,0,0,,0,0,1,0,0,1,,Texas,2023
+Ryan Watts,ryan-watts-1,/cfb/players/ryan-watts-1.html,DB,11,30,8,38,1.0,0.0,0,0,,0,3,0,0,0,0,,Texas,2023
+Jerrin Thompson,jerrin-thompson-1,/cfb/players/jerrin-thompson-1.html,DB,14,19,19,38,0.5,0.0,3,59,19.7,1,7,0,0,0,0,,Texas,2023
+Barryn Sorrell,barryn-sorrell-1,/cfb/players/barryn-sorrell-1.html,DL,14,17,20,37,4.5,4.0,0,0,,0,0,0,0,0,0,,Texas,2023
+Malik Muhammad,malik-muhammad-1,/cfb/players/malik-muhammad-1.html,DB,14,21,10,31,0.0,0.0,1,0,0.0,0,4,0,0,0,0,,Texas,2023
+Byron Murphy II,byron-murphy-ii-1,/cfb/players/byron-murphy-ii-1.html,DL,14,13,16,29,8.5,5.0,0,0,,0,0,0,0,0,0,,Texas,2023
+Kitan Crawford,kitan-crawford-1,/cfb/players/kitan-crawford-1.html,DB,13,18,6,24,1.0,0.0,1,0,0.0,0,1,0,0,0,0,,Texas,2023
+Alfred Collins,alfred-collins-1,/cfb/players/alfred-collins-1.html,DL,14,12,10,22,2.0,2.0,0,0,,0,2,0,0,0,0,,Texas,2023
+Morice Blackwell Jr.,morice-blackwell-jr-1,/cfb/players/morice-blackwell-jr-1.html,DB,11,12,9,21,3.0,0.0,0,0,,0,1,1,0,0,0,,Texas,2023
+Terrance Brooks,terrance-brooks-2,/cfb/players/terrance-brooks-2.html,DB,14,13,7,20,0.0,0.0,3,42,14.0,0,6,0,0,0,0,,Texas,2023
+Vernon Broughton,vernon-broughton-1,/cfb/players/vernon-broughton-1.html,DL,14,7,10,17,4.5,1.0,0,0,,0,1,1,0,0,0,,Texas,2023
+Jett Bush,jett-bush-1,/cfb/players/jett-bush-1.html,LB,14,8,9,17,3.0,2.0,1,43,43.0,1,1,1,0,0,0,,Texas,2023
+Jalen Catalon,jalen-catalon-1,/cfb/players/jalen-catalon-1.html,DB,8,15,2,17,1.0,0.0,0,0,,0,0,0,0,0,1,,Texas,2023
+Gavin Holmes,gavin-holmes-2,/cfb/players/gavin-holmes-2.html,DB,14,13,3,16,0.0,0.0,0,0,,0,2,0,0,0,0,,Texas,2023
+Justice Finkley,justice-finkley-1,/cfb/players/justice-finkley-1.html,DL,14,8,6,14,3.0,2.0,0,0,,0,0,0,0,0,1,,Texas,2023
+DeAngelo Carter,deangelo-carter-1,/cfb/players/deangelo-carter-1.html,DL,13,2,7,9,1.5,1.0,0,0,,0,0,0,0,0,1,,Texas,2023
+J'Mond Tapp,jmond-tapp-1,/cfb/players/jmond-tapp-1.html,DL,7,5,3,8,1.5,0.0,0,0,,0,0,0,0,0,0,,Texas,2023
+Jaylon Guilbeau,jaylon-guilbeau-1,/cfb/players/jaylon-guilbeau-1.html,DB,7,4,3,7,1.0,0.0,0,0,,0,2,0,0,0,0,,Texas,2023
+Tre Wisner,tre-wisner-1,/cfb/players/tre-wisner-1.html,RB,14,3,4,7,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2023
+Liona Lefau,liona-lefau-1,/cfb/players/liona-lefau-1.html,LB,14,3,4,7,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2023
+Will Stone,will-stone-1,/cfb/players/will-stone-1.html,K,14,5,0,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2023
+Jaray Bledsoe,jaray-bledsoe-1,/cfb/players/jaray-bledsoe-1.html,DL,8,2,2,4,1.0,0.0,0,0,,0,0,1,0,0,0,,Texas,2023
+Austin Jordan,austin-jordan-1,/cfb/players/austin-jordan-1.html,DB,12,1,3,4,0.0,0.0,1,0,0.0,0,0,0,0,0,0,,Texas,2023
+Sydir Mitchell,sydir-mitchell-1,/cfb/players/sydir-mitchell-1.html,DL,4,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2023
+Jonathon Brooks,jonathon-brooks-1,/cfb/players/jonathon-brooks-1.html,RB,11,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2023
+Xavier Worthy,xavier-worthy-1,/cfb/players/xavier-worthy-1.html,WR,14,2,0,2,0.0,0.0,0,0,,0,0,1,0,0,0,,Texas,2023
+Keilan Robinson,keilan-robinson-1,/cfb/players/keilan-robinson-1.html,RB,13,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2023
+Jelani McDonald,jelani-mcdonald-1,/cfb/players/jelani-mcdonald-1.html,DB,12,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2023
+Lance St. Louis,lance-st-louis-1,/cfb/players/lance-st-louis-1.html,LS,14,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2023
+Ky Woods,ky-woods-1,/cfb/players/ky-woods-1.html,RB,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2023
+Kristopher Ross,kristopher-ross-1,/cfb/players/kristopher-ross-1.html,DL,3,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2023
+Kelvin Banks Jr.,kelvin-banks-jr-1,/cfb/players/kelvin-banks-jr-1.html,OL,14,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,1,,Texas,2023
+Tannahill Love,tannahill-love-1,/cfb/players/tannahill-love-1.html,LB,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2023
+Jordan Whittington,jordan-whittington-2,/cfb/players/jordan-whittington-2.html,WR,14,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,1,,Texas,2023
+Aaron Bryant,aaron-bryant-3,/cfb/players/aaron-bryant-3.html,DL,7,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2023
+Jaydon Blue,jaydon-blue-1,/cfb/players/jaydon-blue-1.html,RB,14,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2023
+Hayden Conner,hayden-conner-1,/cfb/players/hayden-conner-1.html,OL,14,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2023
+Gunnar Helm,gunnar-helm-1,/cfb/players/gunnar-helm-1.html,TE,14,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2023
+X'Avion Brice,xavion-brice-1,/cfb/players/xavion-brice-1.html,DB,2,1,0,1,0.0,0.0,0,0,,0,1,0,0,0,0,,Texas,2023

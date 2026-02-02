@@ -1,0 +1,56 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Amari Gainer,amari-gainer-1,/cfb/players/amari-gainer-1.html,LB,9,36,29,65,5.0,0.5,0,0,,0,0,1,0,0,1,,Florida State,2020
+Emmett Rice,emmett-rice-1,/cfb/players/emmett-rice-1.html,LB,9,27,35,62,7.5,1.0,0,0,,0,2,0,0,0,0,,Florida State,2020
+Stephen Dix Jr.,stephen-dix-jr-1,/cfb/players/stephen-dix-jr-1.html,LB,9,18,27,45,3.5,0.0,0,0,,0,0,0,0,0,0,,Florida State,2020
+Asante Samuel Jr.,asante-samuel-jr-1,/cfb/players/asante-samuel-jr-1.html,DB,8,23,8,31,1.0,0.0,3,74,24.7,0,6,2,0,0,1,,Florida State,2020
+Brendan Gant,brendan-gant-1,/cfb/players/brendan-gant-1.html,DB,9,22,9,31,1.0,0.0,1,0,0.0,0,0,0,0,0,1,,Florida State,2020
+Jaiden Lars-Woodbey,jaiden-woodbey-1,/cfb/players/jaiden-woodbey-1.html,DB,8,15,13,28,1.5,0.0,0,0,,0,1,0,0,0,0,,Florida State,2020
+Renardo Green,renardo-green-1,/cfb/players/renardo-green-1.html,DB,5,18,9,27,0.5,0.0,0,0,,0,1,0,0,0,1,,Florida State,2020
+Travis Jay,travis-jay-1,/cfb/players/travis-jay-1.html,DB,6,17,9,26,0.0,0.0,1,0,0.0,0,0,0,0,0,1,,Florida State,2020
+Janarius Robinson,janarius-robinson-1,/cfb/players/janarius-robinson-1.html,DE,9,12,14,26,7.0,3.0,0,0,,0,1,0,0,0,0,,Florida State,2020
+Jarvis Brownlee,jarvis-brownlee-1,/cfb/players/jarvis-brownlee-1.html,DB,8,17,9,26,2.0,1.0,1,0,0.0,0,1,0,0,0,0,,Florida State,2020
+Raymond Woodie III,raymond-woodie-iii-1,/cfb/players/raymond-woodie-iii-1.html,DB,9,13,12,25,2.5,0.5,0,0,,0,1,1,0,0,0,,Florida State,2020
+Sidney Williams,sidney-williams-2,/cfb/players/sidney-williams-2.html,DB,8,13,9,22,0.0,0.0,0,0,,0,1,0,0,0,0,,Florida State,2020
+Jarrian Jones,jarrian-jones-1,/cfb/players/jarrian-jones-1.html,DB,8,11,7,18,0.0,0.0,0,0,,0,1,0,0,0,0,,Florida State,2020
+Marvin Wilson,marvin-wilson-1,/cfb/players/marvin-wilson-1.html,DT,6,11,6,17,2.0,1.0,0,0,,0,0,0,0,0,0,,Florida State,2020
+Robert Cooper,robert-cooper-2,/cfb/players/robert-cooper-2.html,DT,8,10,5,15,2.0,0.0,0,0,,0,1,0,0,0,0,,Florida State,2020
+Fabien Lovett,fabien-lovett-1,/cfb/players/fabien-lovett-1.html,DT,8,6,8,14,1.5,1.0,0,0,,0,0,0,0,0,0,,Florida State,2020
+Joshua Kaindoh,joshua-kaindoh-1,/cfb/players/joshua-kaindoh-1.html,DE,8,6,7,13,3.0,0.0,1,25,25.0,1,1,0,0,0,0,,Florida State,2020
+Akeem Dent,akeem-dent-2,/cfb/players/akeem-dent-2.html,DB,7,8,5,13,0.0,0.0,0,0,,0,1,0,0,0,0,,Florida State,2020
+Hamsah Nasirildeen,hamsah-nasirildeen-1,/cfb/players/hamsah-nasirildeen-1.html,DB,2,5,8,13,1.5,0.0,1,25,25.0,0,1,0,0,0,0,,Florida State,2020
+DJ Lundy,dj-lundy-1,/cfb/players/dj-lundy-1.html,LB,7,8,4,12,0.5,0.5,0,0,,0,0,0,0,0,0,,Florida State,2020
+Leonard Warner III,leonard-warner-iii-1,/cfb/players/leonard-warner-iii-1.html,LB,8,6,6,12,1.0,0.0,0,0,,0,0,0,0,0,0,,Florida State,2020
+Meiko Dotson,meiko-dotson-1,/cfb/players/meiko-dotson-1.html,DB,3,6,3,9,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida State,2020
+DeCalon Brooks,decalon-brooks-1,/cfb/players/decalon-brooks-1.html,LB,9,4,4,8,0.0,0.0,0,0,,0,2,0,0,0,0,,Florida State,2020
+Cory Durden,cory-durden-1,/cfb/players/cory-durden-1.html,DT,7,3,4,7,0.5,0.5,0,0,,0,0,0,0,0,1,,Florida State,2020
+Tru Thompson,tru-thompson-1,/cfb/players/tru-thompson-1.html,DT,8,4,3,7,1.0,1.0,0,0,,0,0,0,0,0,0,,Florida State,2020
+Derrick McLendon II,derrick-mclendon-1,/cfb/players/derrick-mclendon-1.html,DE,9,5,2,7,2.5,0.0,0,0,,0,0,0,0,0,0,,Florida State,2020
+Kalen DeLoach,kalen-deloach-1,/cfb/players/kalen-deloach-1.html,LB,9,6,1,7,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida State,2020
+Jaleel McRae,jaleel-mcrae-1,/cfb/players/jaleel-mcrae-1.html,LB,8,5,1,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida State,2020
+Dennis Briggs Jr.,dennis-briggs-jr-1,/cfb/players/dennis-briggs-jr-1.html,DT,5,3,3,6,0.0,0.0,0,0,,0,0,0,0,0,1,,Florida State,2020
+Wyatt Rector,wyatt-rector-1,/cfb/players/wyatt-rector-1.html,TE,9,3,2,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida State,2020
+Josh Griffis,josh-griffis-1,/cfb/players/josh-griffis-1.html,DE,7,1,3,4,1.0,0.0,0,0,,0,0,0,0,0,0,,Florida State,2020
+Quashon Fuller,quashon-fuller-1,/cfb/players/quashon-fuller-1.html,DE,4,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida State,2020
+Tamorrion Terry,tamorrion-terry-1,/cfb/players/tamorrion-terry-1.html,WR,6,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida State,2020
+Malcolm Ray,malcolm-ray-1,/cfb/players/malcolm-ray-1.html,DT,6,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida State,2020
+Deonte Sheffield,deonte-sheffield-1,/cfb/players/deonte-sheffield-1.html,RB,9,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida State,2020
+Ontaria Wilson,ontaria-wilson-1,/cfb/players/ontaria-wilson-1.html,WR,9,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida State,2020
+Parker Grothaus,parker-grothaus-1,/cfb/players/parker-grothaus-1.html,K,9,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida State,2020
+Armani Kerr,armani-kerr-1,/cfb/players/armani-kerr-1.html,LB,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida State,2020
+Baveon Johnson,baveon-johnson-1,/cfb/players/baveon-johnson-1.html,OL,9,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida State,2020
+Robert Scott Jr.,robert-scott-jr-1,/cfb/players/robert-scott-jr-1.html,OL,8,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida State,2020
+Brady Scott,brady-scott-1,/cfb/players/brady-scott-1.html,OL,8,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida State,2020
+Adarius Dent,adarius-dent-1,/cfb/players/adarius-dent-1.html,WR,1,1,0,1,0.0,0.0,0,0,,0,1,0,0,0,0,,Florida State,2020
+Grant Glennon,grant-glennon-1,/cfb/players/grant-glennon-1.html,LS,8,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida State,2020
+Zane Herring,zane-herring-1,/cfb/players/zane-herring-1.html,OL,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida State,2020
+Cyrus Fagan,cyrus-fagan-1,/cfb/players/cyrus-fagan-1.html,DB,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida State,2020
+Preston Daniel,preston-daniel-1,/cfb/players/preston-daniel-1.html,TE,9,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida State,2020
+Keyshawn Helton,keyshawn-helton-1,/cfb/players/keyshawn-helton-1.html,WR,9,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida State,2020
+Kevon Glenn,kevon-glenn-1,/cfb/players/kevon-glenn-1.html,LB,3,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida State,2020
+Kentron Poitier,kentron-poitier-1,/cfb/players/kentron-poitier-1.html,WR,6,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida State,2020
+Jayion McCluster,jayion-mccluster-1,/cfb/players/jayion-mccluster-1.html,LB,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida State,2020
+Jashaun Corbin,jashaun-corbin-1,/cfb/players/jashaun-corbin-1.html,RB,9,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida State,2020
+Jarrett Jackson,jarrett-jackson-1,/cfb/players/jarrett-jackson-1.html,DT,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida State,2020
+Devontay Taylor,devontay-taylor-1,/cfb/players/devontay-taylor-1.html,OL,7,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida State,2020
+Ja'khi Douglas,jakhi-douglas-1,/cfb/players/jakhi-douglas-1.html,RB,8,0,1,1,0.0,0.0,0,0,,0,0,1,0,0,0,,Florida State,2020
+Garrett Murray,garrett-murray-1,/cfb/players/garrett-murray-1.html,LS,9,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida State,2020

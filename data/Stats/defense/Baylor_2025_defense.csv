@@ -1,0 +1,45 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Keaton Thomas,keaton-thomas-1,/cfb/players/keaton-thomas-1.html,LB,12,59,46,105,7.0,1.0,1,14,14.0,0,3,1,24,1,0,,Baylor,2025
+Devyn Bobby,devyn-bobby-1,/cfb/players/devyn-bobby-1.html,S,12,49,31,80,1.0,0.0,0,0,,0,2,0,0,0,0,,Baylor,2025
+Jacob Redding,jacob-redding-1,/cfb/players/jacob-redding-1.html,S,11,38,15,53,0.5,0.0,3,66,22.0,1,2,0,0,0,0,,Baylor,2025
+Kyland Reed,kyland-reed-1,/cfb/players/kyland-reed-1.html,LB,12,27,23,50,1.5,0.0,0,0,,0,1,1,0,0,1,,Baylor,2025
+DJ Coleman,dj-coleman-2,/cfb/players/dj-coleman-2.html,S,12,29,17,46,6.5,0.0,2,28,14.0,0,4,0,0,0,1,,Baylor,2025
+Cooper Lanz,cooper-lanz-1,/cfb/players/cooper-lanz-1.html,DL,11,16,18,34,3.0,1.0,0,0,,0,1,0,0,0,0,,Baylor,2025
+Tyler Turner,tyler-turner-1,/cfb/players/tyler-turner-1.html,S,12,20,12,32,1.0,0.0,0,0,,0,2,0,0,0,0,,Baylor,2025
+LeVar Thornton Jr.,levar-thornton-jr-1,/cfb/players/levar-thornton-jr-1.html,CB,11,17,14,31,0.5,0.0,1,0,0.0,0,7,0,0,0,0,,Baylor,2025
+Jackie Marshall,jackie-marshall-1,/cfb/players/jackie-marshall-1.html,DL,12,12,18,30,4.5,2.0,0,0,,0,0,0,0,0,0,,Baylor,2025
+Emar'rion Winston,emarrion-winston-1,/cfb/players/emarrion-winston-1.html,LB,12,15,10,25,5.5,3.0,0,0,,0,0,0,0,0,0,,Baylor,2025
+Devonte Tezino,devonte-tezino-1,/cfb/players/devonte-tezino-1.html,DL,12,13,11,24,3.5,1.0,0,0,,0,1,0,0,0,1,,Baylor,2025
+Kendrick Simpkins,kendrick-simpkins-1,/cfb/players/kendrick-simpkins-1.html,S,11,18,5,23,2.0,1.0,0,0,,0,0,0,0,0,1,,Baylor,2025
+Micah Gifford,micah-gifford-1,/cfb/players/micah-gifford-1.html,S,12,15,6,21,1.0,1.0,1,0,0.0,0,0,0,0,0,0,,Baylor,2025
+Tevin Williams III,tevin-williams-iii-1,/cfb/players/tevin-williams-iii-1.html,CB,10,15,4,19,2.0,0.0,0,0,,0,2,0,0,0,0,,Baylor,2025
+Kaleb Burns,kaleb-burns-1,/cfb/players/kaleb-burns-1.html,LB,12,15,4,19,1.5,0.0,1,0,0.0,0,0,0,0,0,0,,Baylor,2025
+Matthew Fobbs-White,matthew-fobbs-white-1,/cfb/players/matthew-fobbs-white-1.html,LB,12,8,10,18,1.0,0.0,0,0,,0,0,0,0,0,0,,Baylor,2025
+Kyler Jordan,kyler-jordan-1,/cfb/players/kyler-jordan-1.html,LB,12,12,6,18,2.5,1.0,0,0,,0,1,0,0,0,0,,Baylor,2025
+Caldra Williford,caldra-williford-1,/cfb/players/caldra-williford-1.html,CB,11,15,1,16,1.0,0.0,0,0,,0,5,0,0,0,0,,Baylor,2025
+Reggie Bush,reggie-bush-2,/cfb/players/reggie-bush-2.html,CB,10,12,0,12,0.0,0.0,0,0,,0,2,0,0,0,0,,Baylor,2025
+Travion Barnes,travion-barnes-1,/cfb/players/travion-barnes-1.html,LB,4,9,2,11,1.0,1.0,0,0,,0,0,0,0,0,0,,Baylor,2025
+Phoenix Jackson,phoenix-jackson-1,/cfb/players/phoenix-jackson-1.html,LB,3,2,9,11,0.0,0.0,0,0,,0,0,0,0,0,0,,Baylor,2025
+DK Kalu,dk-kalu-1,/cfb/players/dk-kalu-1.html,DL,9,4,7,11,0.5,0.0,0,0,,0,0,0,0,0,0,,Baylor,2025
+Caden Jenkins,caden-jenkins-1,/cfb/players/caden-jenkins-1.html,CB,8,9,1,10,1.0,0.0,0,0,,0,3,0,0,0,0,,Baylor,2025
+Bo Onu,bo-onu-1,/cfb/players/bo-onu-1.html,S,11,6,3,9,0.0,0.0,0,0,,0,0,0,0,0,0,,Baylor,2025
+Jeremy Evans,jeremy-evans-1,/cfb/players/jeremy-evans-1.html,LB,10,6,1,7,0.0,0.0,0,0,,0,0,0,0,0,0,,Baylor,2025
+Kamauryn Morgan,kamauryn-morgan-1,/cfb/players/kamauryn-morgan-1.html,LB,10,4,2,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Baylor,2025
+Cameren Jenkins,cameren-jenkins-1,/cfb/players/cameren-jenkins-1.html,S,10,3,2,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Baylor,2025
+Adonis Friloux,adonis-friloux-1,/cfb/players/adonis-friloux-1.html,DL,10,4,1,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Baylor,2025
+Placide Djungu-Sungu,placide-djungu-sungu-1,/cfb/players/placide-djungu-sungu-1.html,S,11,4,1,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Baylor,2025
+Dylan Schaub,dylan-schaub-1,/cfb/players/dylan-schaub-1.html,LS,12,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Baylor,2025
+Kyler Beaty,kyler-beaty-1,/cfb/players/kyler-beaty-1.html,CB,6,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Baylor,2025
+Ke'Breion Winston,kebreion-winston-1,/cfb/players/kebreion-winston-1.html,LB,4,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Baylor,2025
+Trent Thomas,trent-thomas-2,/cfb/players/trent-thomas-2.html,DL,8,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Baylor,2025
+Calvin Simpson-Hunt,calvin-simpson-hunt-1,/cfb/players/calvin-simpson-hunt-1.html,CB,7,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Baylor,2025
+Samu Taumanupep,samu-taumanupep-1,/cfb/players/samu-taumanupep-1.html,DL,6,0,2,2,0.0,0.0,0,0,,0,1,0,0,0,0,,Baylor,2025
+Ronnie Mageo,ronnie-mageo-1,/cfb/players/ronnie-mageo-1.html,DL,4,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Baylor,2025
+Kris Wokomah,kris-wokomah-1,/cfb/players/kris-wokomah-1.html,S,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Baylor,2025
+Rhett Armstrong,rhett-armstrong-1,/cfb/players/rhett-armstrong-1.html,K,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Baylor,2025
+Michael Trigg,michael-trigg-1,/cfb/players/michael-trigg-1.html,TE,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Baylor,2025
+Matthew Klopfenstein,matthew-klopfenstein-1,/cfb/players/matthew-klopfenstein-1.html,TE,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Baylor,2025
+Bryson Washington,bryson-washington-3,/cfb/players/bryson-washington-3.html,RB,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Baylor,2025
+Josh Cameron,josh-cameron-1,/cfb/players/josh-cameron-1.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Baylor,2025
+Caden Knighten,caden-knighten-1,/cfb/players/caden-knighten-1.html,RB,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Baylor,2025
+Carl Williams IV,carl-williams-iv-1,/cfb/players/carl-williams-iv-1.html,S,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Baylor,2025

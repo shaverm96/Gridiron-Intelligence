@@ -1,0 +1,38 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Jordan Kwiatkowski,jordan-kwiatkowski-1,/cfb/players/jordan-kwiatkowski-1.html,LB,12,48,48,96,14.0,0.0,1,7,7.0,0,1,0,0,0,0,,Central Michigan,2024
+Caleb Spann,caleb-spann-1,/cfb/players/caleb-spann-1.html,DB,12,40,21,61,4.0,1.5,0,0,,0,6,0,0,0,0,,Central Michigan,2024
+Justin Whiteside,justin-whiteside-1,/cfb/players/justin-whiteside-1.html,LB,12,28,30,58,5.5,3.0,0,0,,0,1,0,0,0,0,,Central Michigan,2024
+Elijah Rikard,elijah-rikard-1,/cfb/players/elijah-rikard-1.html,DB,12,27,29,56,2.5,1.0,0,0,,0,1,1,0,0,0,,Central Michigan,2024
+Dakota Cochran,dakota-cochran-1,/cfb/players/dakota-cochran-1.html,LB,12,29,25,54,10.5,3.5,0,0,,0,0,1,8,0,2,,Central Michigan,2024
+Da'Raun McKinney,daraun-mckinney-2,/cfb/players/daraun-mckinney-2.html,DB,11,41,13,54,1.5,1.0,0,0,,0,11,0,0,0,0,,Central Michigan,2024
+Donte Kent,donte-kent-1,/cfb/players/donte-kent-1.html,DB,12,33,20,53,0.5,0.0,0,0,,0,9,0,0,0,0,,Central Michigan,2024
+Jason Wiliams,jason-wiliams-1,/cfb/players/jason-wiliams-1.html,DL,12,19,22,41,8.5,5.5,0,0,,0,0,1,67,1,0,,Central Michigan,2024
+Lawai'a Brown,lawaia-brown-1,/cfb/players/lawaia-brown-1.html,LB,12,18,20,38,2.5,0.0,0,0,,0,1,0,0,0,1,,Central Michigan,2024
+Jaion Jackson,jaion-jackson-1,/cfb/players/jaion-jackson-1.html,DB,12,25,13,38,2.5,0.0,0,0,,0,4,0,0,0,0,,Central Michigan,2024
+Jonah Pace,jonah-pace-1,/cfb/players/jonah-pace-1.html,DL,12,19,15,34,11.0,4.0,0,0,,0,2,0,0,0,1,,Central Michigan,2024
+Michael Heldman,michael-heldman-1,/cfb/players/michael-heldman-1.html,DL,12,13,15,28,6.0,4.0,0,0,,0,0,0,0,0,0,,Central Michigan,2024
+Fernando Sanchez III,fernando-sanchez-iii-1,/cfb/players/fernando-sanchez-iii-1.html,LB,12,14,13,27,5.5,1.5,0,0,,0,1,0,0,0,0,,Central Michigan,2024
+Kade Kostus,kade-kostus-1,/cfb/players/kade-kostus-1.html,DL,12,10,14,24,4.5,1.5,0,0,,0,0,0,0,0,0,,Central Michigan,2024
+Jaden Davis,jaden-davis-2,/cfb/players/jaden-davis-2.html,DE,12,8,11,19,4.0,2.0,0,0,,0,0,0,0,0,0,,Central Michigan,2024
+Pius Odjugo,pius-odjugo-1,/cfb/players/pius-odjugo-1.html,DL,12,6,9,15,4.0,1.0,0,0,,0,0,0,0,0,0,,Central Michigan,2024
+Jaree Turner-Kinsler,jaree-turner-kinsler-1,/cfb/players/jaree-turner-kinsler-1.html,DB,6,9,6,15,0.0,0.0,0,0,,0,1,0,0,0,0,,Central Michigan,2024
+Brenden Deasfernandes,brenden-deasfernandes-1,/cfb/players/brenden-deasfernandes-1.html,DB,12,9,5,14,1.0,0.0,0,0,,0,1,0,0,0,0,,Central Michigan,2024
+Jayshaun Coffman,jayshaun-coffman-1,/cfb/players/jayshaun-coffman-1.html,DL,12,5,6,11,0.0,0.0,0,0,,0,1,0,0,0,0,,Central Michigan,2024
+Marcus Badgett,marcus-badgett-2,/cfb/players/marcus-badgett-2.html,DB,9,2,6,8,0.0,0.0,0,0,,0,0,0,0,0,0,,Central Michigan,2024
+Keshawn Hayden,keshawn-hayden-1,/cfb/players/keshawn-hayden-1.html,DL,11,6,1,7,1.5,0.0,0,0,,0,0,0,0,0,0,,Central Michigan,2024
+Ed Conoran,ed-conoran-1,/cfb/players/ed-conoran-1.html,DB,11,3,3,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Central Michigan,2024
+Xavier White,xavier-white-2,/cfb/players/xavier-white-2.html,LB,9,1,4,5,1.0,0.0,0,0,,0,0,0,0,0,0,,Central Michigan,2024
+Ke'shon Parker,keshon-parker-1,/cfb/players/keshon-parker-1.html,LB,12,1,3,4,1.0,1.0,0,0,,0,0,0,0,0,0,,Central Michigan,2024
+Malik Denkins,malik-denkins-1,/cfb/players/malik-denkins-1.html,DL,4,1,3,4,0.5,0.5,0,0,,0,0,0,0,0,0,,Central Michigan,2024
+Jonathan Decker,jonathan-decker-1,/cfb/players/jonathan-decker-1.html,DL,5,2,1,3,1.0,0.0,0,0,,0,0,0,0,0,0,,Central Michigan,2024
+Gavin Harris,gavin-harris-1,/cfb/players/gavin-harris-1.html,TE,10,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Central Michigan,2024
+Jamari Allen,jamari-allen-1,/cfb/players/jamari-allen-1.html,DB,4,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Central Michigan,2024
+Bryce Rowe,bryce-rowe-1,/cfb/players/bryce-rowe-1.html,DB,5,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Central Michigan,2024
+Brayden Swartout,brayden-swartout-1,/cfb/players/brayden-swartout-1.html,OL,11,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Central Michigan,2024
+Ben Pratt,ben-pratt-1,/cfb/players/ben-pratt-1.html,LS,12,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Central Michigan,2024
+Joey Labas,joey-labas-1,/cfb/players/joey-labas-1.html,QB,6,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Central Michigan,2024
+David Chapeau,david-chapeau-2,/cfb/players/david-chapeau-2.html,P,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Central Michigan,2024
+Mark-Allen Gay Jr.,mark-allen-gay-jr-1,/cfb/players/mark-allen-gay-jr-1.html,DB,5,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Central Michigan,2024
+Oumar Conde,oumar-conde-1,/cfb/players/oumar-conde-1.html,DL,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Central Michigan,2024
+Solomon Davis,solomon-davis-2,/cfb/players/solomon-davis-2.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Central Michigan,2024
+Aakeem Snell,aakeem-snell-1,/cfb/players/aakeem-snell-1.html,DB,10,1,0,1,0.0,0.0,1,46,46.0,1,0,0,0,0,0,,Central Michigan,2024

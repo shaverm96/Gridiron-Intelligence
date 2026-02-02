@@ -1,0 +1,52 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Rashad Smith,rashad-smith-3,/cfb/players/rashad-smith-3.html,LB,14,58,51,109,11.5,3.5,3,22,7.3,0,2,5,45,1,1,,Florida Atlantic,2019
+Akileis Leroy,akileis-leroy-1,/cfb/players/akileis-leroy-1.html,LB,13,55,46,101,15.5,7.5,3,43,14.3,0,1,0,0,0,5,,Florida Atlantic,2019
+Da'Von Brown,davon-brown-2,/cfb/players/davon-brown-2.html,S,14,54,22,76,5.0,0.0,0,0,,0,3,0,0,0,1,,Florida Atlantic,2019
+Hosea Barnwell V,hosea-barnwell-v-1,/cfb/players/hosea-barnwell-v-1.html,LB,13,22,35,57,0.5,0.0,0,0,,0,0,0,0,0,1,,Florida Atlantic,2019
+Zyon Gilbert,zyon-gilbert-1,/cfb/players/zyon-gilbert-1.html,S,13,35,13,48,0.0,0.0,2,-2,-1.0,0,8,0,0,0,1,,Florida Atlantic,2019
+James Pierre,james-pierre-1,/cfb/players/james-pierre-1.html,CB,13,30,14,44,4.5,0.0,3,33,11.0,0,4,0,0,0,1,,Florida Atlantic,2019
+Ahman Ross,ahman-ross-1,/cfb/players/ahman-ross-1.html,S,14,25,14,39,2.5,0.0,0,0,,0,2,0,0,0,1,,Florida Atlantic,2019
+Chris Tooley,chris-tooley-1,/cfb/players/chris-tooley-1.html,CB,14,27,8,35,1.5,0.0,1,10,10.0,0,11,1,25,1,1,,Florida Atlantic,2019
+Quran Hafiz,quran-hafiz-1,/cfb/players/quran-hafiz-1.html,S,14,17,16,33,0.0,0.0,0,0,,0,0,1,0,0,0,,Florida Atlantic,2019
+Meiko Dotson,meiko-dotson-1,/cfb/players/meiko-dotson-1.html,CB,13,23,7,30,1.0,0.0,9,108,12.0,0,3,0,0,0,0,,Florida Atlantic,2019
+Leighton McCarthy,leighton-mccarthy-1,/cfb/players/leighton-mccarthy-1.html,DE,14,14,16,30,10.5,6.0,0,0,,0,0,0,0,0,0,,Florida Atlantic,2019
+Ray Ellis,ray-ellis-2,/cfb/players/ray-ellis-2.html,DT,14,11,19,30,8.5,4.5,0,0,,0,2,1,0,0,0,,Florida Atlantic,2019
+Caliph Brice,caliph-brice-1,/cfb/players/caliph-brice-1.html,LB,13,11,17,28,1.0,1.0,1,7,7.0,0,0,0,0,0,0,,Florida Atlantic,2019
+Tim Bonner,tim-bonner-1,/cfb/players/tim-bonner-1.html,DE,12,15,10,25,7.5,4.0,0,0,,0,1,0,0,0,1,,Florida Atlantic,2019
+Jordan Helm,jordan-helm-1,/cfb/players/jordan-helm-1.html,S,14,17,6,23,0.0,0.0,0,0,,0,0,1,0,0,0,,Florida Atlantic,2019
+William Davis,william-davis-1,/cfb/players/william-davis-1.html,DT,14,9,12,21,1.5,0.0,0,0,,0,0,1,0,0,0,,Florida Atlantic,2019
+Damian Horton,damian-horton-1,/cfb/players/damian-horton-1.html,DE,14,15,6,21,4.5,2.0,0,0,,0,0,0,0,0,0,,Florida Atlantic,2019
+Noah Jefferson,noah-jefferson-1,/cfb/players/noah-jefferson-1.html,DL,13,8,8,16,3.5,2.0,0,0,,0,0,1,0,0,1,,Florida Atlantic,2019
+Teja Young,teja-young-1,/cfb/players/teja-young-1.html,CB,13,10,5,15,0.5,0.0,0,0,,0,1,0,0,0,0,,Florida Atlantic,2019
+Marcel Southall,marcel-southall-1,/cfb/players/marcel-southall-1.html,DT,13,9,5,14,1.0,0.0,0,0,,0,0,0,0,0,0,,Florida Atlantic,2019
+Eddie Williams,eddie-williams-5,/cfb/players/eddie-williams-5.html,LB,11,10,4,14,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida Atlantic,2019
+Rahmod Smith,rahmod-smith-1,/cfb/players/rahmod-smith-1.html,TE,5,3,10,13,1.0,0.0,1,0,0.0,0,1,0,0,0,0,,Florida Atlantic,2019
+Collin Dell,collin-dell-1,/cfb/players/collin-dell-1.html,DT,13,1,11,12,1.0,1.0,0,0,,0,0,0,0,0,0,,Florida Atlantic,2019
+Armani Adams,armani-adams-1,/cfb/players/armani-adams-1.html,S,13,9,1,10,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida Atlantic,2019
+David Belvin,david-belvin-1,/cfb/players/david-belvin-1.html,DE,13,2,7,9,1.0,0.0,0,0,,0,0,0,0,0,0,,Florida Atlantic,2019
+Kevin McCrary,kevin-mccrary-1,/cfb/players/kevin-mccrary-1.html,DT,13,1,7,8,1.5,1.5,0,0,,0,0,0,0,0,0,,Florida Atlantic,2019
+Anthony Bennett,anthony-bennett-1,/cfb/players/anthony-bennett-1.html,DL,14,4,3,7,3.5,1.0,0,0,,0,0,0,0,0,0,,Florida Atlantic,2019
+Jonathan Francois,jonathan-francois-1,/cfb/players/jonathan-francois-1.html,LB,4,1,5,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida Atlantic,2019
+Roman Mungin,roman-mungin-1,/cfb/players/roman-mungin-1.html,WR,12,3,3,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida Atlantic,2019
+Ladante Harris,ladante-harris-1,/cfb/players/ladante-harris-1.html,DB,14,4,1,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida Atlantic,2019
+Chris Herring,chris-herring-1,/cfb/players/chris-herring-1.html,DB,13,3,2,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida Atlantic,2019
+Tyrick Tisdale,tyrick-tisdale-1,/cfb/players/tyrick-tisdale-1.html,RB,13,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida Atlantic,2019
+Malcolm Davidson,malcolm-davidson-1,/cfb/players/malcolm-davidson-1.html,RB,11,2,2,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida Atlantic,2019
+Jeff James,jeff-james-jr-157,/cfb/players/jeff-james-jr-157.html,S,8,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida Atlantic,2019
+Korel Smith,korel-smith-1,/cfb/players/korel-smith-1.html,CB,4,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida Atlantic,2019
+Dwight Toombs II,dwight-toombs-ii-1,/cfb/players/dwight-toombs-ii-1.html,DB,3,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida Atlantic,2019
+Diashun Moss,diashun-moss-1,/cfb/players/diashun-moss-1.html,CB,10,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida Atlantic,2019
+Kelvin Dean Jr.,kelvin-dean-jr-1,/cfb/players/kelvin-dean-jr-1.html,RB,6,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida Atlantic,2019
+Logan Peterson,logan-peterson-1,/cfb/players/logan-peterson-1.html,TE,13,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida Atlantic,2019
+Jaylen Joyner,jaylen-joyner-1,/cfb/players/jaylen-joyner-1.html,DE,4,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida Atlantic,2019
+James Brunson,james-brunson-1,/cfb/players/james-brunson-1.html,WR,13,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida Atlantic,2019
+Daniel Leconte,daniel-leconte-1,/cfb/players/daniel-leconte-1.html,RB,13,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida Atlantic,2019
+Chauncey Mason,chauncey-mason-1,/cfb/players/chauncey-mason-1.html,RB,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida Atlantic,2019
+Cecil Rolle Jr.,cecil-rolle-jr-1,/cfb/players/cecil-rolle-jr-1.html,LB,2,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida Atlantic,2019
+Malike Vigille,malike-vigille-1,/cfb/players/malike-vigille-1.html,CB,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida Atlantic,2019
+Kaelen Skipper,kaelen-skipper-1,/cfb/players/kaelen-skipper-1.html,,1,0,1,1,0.5,0.0,0,0,,0,0,0,0,0,0,,Florida Atlantic,2019
+James Charles,james-charles-1,/cfb/players/james-charles-1.html,RB,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida Atlantic,2019
+Ryan Veingrad,ryan-veingrad-1,/cfb/players/ryan-veingrad-1.html,DL,14,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida Atlantic,2019
+Ashton McNeal,ashton-mcneal-1,/cfb/players/ashton-mcneal-1.html,CB,7,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida Atlantic,2019
+Dante Cousart,dante-cousart-1,/cfb/players/dante-cousart-1.html,WR,14,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida Atlantic,2019
+Willie Wright,willie-wright-4,/cfb/players/willie-wright-4.html,WR,11,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida Atlantic,2019

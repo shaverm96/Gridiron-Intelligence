@@ -1,0 +1,47 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Marvin Ham II,marvin-ham-ii-1,/cfb/players/marvin-ham-ii-1.html,LB,13,51,47,98,9.5,1.5,0,0,,0,1,2,0,0,1,,Arkansas State,2024
+Justin Parks,justin-parks-1,/cfb/players/justin-parks-1.html,S,13,57,40,97,5.5,0.0,2,6,3.0,0,3,0,0,0,2,,Arkansas State,2024
+Charles Willekes,charles-willekes-1,/cfb/players/charles-willekes-1.html,LB,13,48,44,92,8.5,1.0,1,30,30.0,0,3,0,0,0,2,,Arkansas State,2024
+Trevian Thomas,trevian-thomas-1,/cfb/players/trevian-thomas-1.html,S,13,46,33,79,1.0,0.0,5,17,3.4,0,4,1,0,0,0,,Arkansas State,2024
+Websley Etienne,websley-etienne-1,/cfb/players/websley-etienne-1.html,S,13,35,21,56,1.5,0.0,2,10,5.0,0,5,0,0,0,0,,Arkansas State,2024
+Dontay Joyner,dontay-joyner-1,/cfb/players/dontay-joyner-1.html,CB,12,33,17,50,0.5,0.0,2,34,17.0,0,7,0,0,0,0,,Arkansas State,2024
+Justin Hodges,justin-hodges-1,/cfb/players/justin-hodges-1.html,DB,13,25,10,35,1.0,0.0,0,0,,0,2,0,0,0,0,,Arkansas State,2024
+Tim Hardiman,tim-hardiman-1,/cfb/players/tim-hardiman-1.html,DL,13,16,15,31,1.5,0.5,0,0,,0,0,0,0,0,0,,Arkansas State,2024
+Nate Martey,nate-martey-1,/cfb/players/nate-martey-1.html,DL,10,12,15,27,1.5,0.0,0,0,,0,1,0,0,0,0,,Arkansas State,2024
+Noah Collins,noah-collins-1,/cfb/players/noah-collins-1.html,DE,11,13,13,26,4.5,2.0,0,0,,0,0,1,0,0,0,,Arkansas State,2024
+Jayden Jones,jayden-jones-1,/cfb/players/jayden-jones-1.html,DE,8,16,9,25,7.0,4.0,1,10,10.0,0,0,0,0,0,1,,Arkansas State,2024
+Bryan Whitehead II,bryan-whitehead-ii-1,/cfb/players/bryan-whitehead-ii-1.html,DE,13,16,8,24,10.5,4.0,0,0,,0,0,1,4,0,1,,Arkansas State,2024
+Cam Jeffery,cam-jeffery-1,/cfb/players/cam-jeffery-1.html,LB,13,12,9,21,0.0,0.0,0,0,,0,0,0,0,0,0,,Arkansas State,2024
+Ian Jeffries,ian-jeffries-1,/cfb/players/ian-jeffries-1.html,DL,13,12,9,21,4.5,3.5,0,0,,0,0,0,0,0,1,,Arkansas State,2024
+Brandon Greil,brandon-greil-1,/cfb/players/brandon-greil-1.html,S,13,9,10,19,0.0,0.0,0,0,,0,0,0,0,0,0,,Arkansas State,2024
+Jordan Mahoney,jordan-mahoney-1,/cfb/players/jordan-mahoney-1.html,DB,11,14,5,19,0.5,0.0,1,0,0.0,0,4,0,0,0,0,,Arkansas State,2024
+Kamari Stephens,kamari-stephens-1,/cfb/players/kamari-stephens-1.html,DL,10,8,7,15,3.0,1.0,0,0,,0,1,0,0,0,0,,Arkansas State,2024
+Dane Motley,dane-motley-1,/cfb/players/dane-motley-1.html,LB,12,8,4,12,0.0,0.0,0,0,,0,0,0,0,0,0,,Arkansas State,2024
+Blayne Toll,blayne-toll-1,/cfb/players/blayne-toll-1.html,DE,12,3,6,9,0.5,0.5,0,0,,0,0,0,0,0,0,,Arkansas State,2024
+Marcus Bradley,marcus-bradley-1,/cfb/players/marcus-bradley-1.html,DL,11,4,3,7,1.0,0.0,0,0,,0,1,0,0,0,1,,Arkansas State,2024
+James Reed III,james-reed-iii-1,/cfb/players/james-reed-iii-1.html,CB,3,1,6,7,0.5,0.0,0,0,,0,2,0,0,0,0,,Arkansas State,2024
+Brandon Barnes,brandon-barnes-4,/cfb/players/brandon-barnes-4.html,S,9,6,1,7,0.0,0.0,0,0,,0,0,0,0,0,0,,Arkansas State,2024
+Kyle Taylor,kyle-taylor-3,/cfb/players/kyle-taylor-3.html,LB,13,1,5,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Arkansas State,2024
+Chris Pearson,chris-pearson-2,/cfb/players/chris-pearson-2.html,LB,12,2,4,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Arkansas State,2024
+Adrian Cole,adrian-cole-1,/cfb/players/adrian-cole-1.html,DB,6,4,1,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Arkansas State,2024
+Tennel Bryant,tennel-bryant-1,/cfb/players/tennel-bryant-1.html,WR,13,4,0,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Arkansas State,2024
+Eathan Hassler,eathan-hassler-1,/cfb/players/eathan-hassler-1.html,DL,2,3,1,4,0.0,0.0,0,0,,0,1,0,0,0,0,,Arkansas State,2024
+Jordan Sample,jordan-sample-1,/cfb/players/jordan-sample-1.html,LB,13,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Arkansas State,2024
+Reed Linder,reed-linder-1,/cfb/players/reed-linder-1.html,WR,12,0,3,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Arkansas State,2024
+DeAubry Hood,deaubry-hood-1,/cfb/players/deaubry-hood-1.html,CB,5,0,3,3,0.5,0.0,0,0,,0,0,0,0,0,0,,Arkansas State,2024
+Adam Jones,adam-jones-2,/cfb/players/adam-jones-2.html,WR,13,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Arkansas State,2024
+Micaiah Overton,micaiah-overton-1,/cfb/players/micaiah-overton-1.html,DT,3,2,0,2,1.0,1.0,0,0,,0,0,0,0,0,0,,Arkansas State,2024
+Malik Hornsby,malik-hornsby-1,/cfb/players/malik-hornsby-1.html,WR,13,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Arkansas State,2024
+Lucas Banks,lucas-banks-1,/cfb/players/lucas-banks-1.html,DT,9,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Arkansas State,2024
+Emmanual Stevenson,emmanual-stevenson-1,/cfb/players/emmanual-stevenson-1.html,TE,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Arkansas State,2024
+Mason Myers,mason-myers-2,/cfb/players/mason-myers-2.html,OL,9,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Arkansas State,2024
+Mekhi Butler,mekhi-butler-1,/cfb/players/mekhi-butler-1.html,OL,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Arkansas State,2024
+Ezra Burgess,ezra-burgess-1,/cfb/players/ezra-burgess-1.html,TE,12,1,0,1,1.0,0.0,0,0,,0,0,0,0,0,0,,Arkansas State,2024
+Corey Rucker,corey-rucker-1,/cfb/players/corey-rucker-1.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Arkansas State,2024
+Noah Smith,noah-smith-2,/cfb/players/noah-smith-2.html,OL,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Arkansas State,2024
+Kemari Nix,kemari-nix-1,/cfb/players/kemari-nix-1.html,S,5,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Arkansas State,2024
+Takare Lipscomb,takare-lipscomb-1,/cfb/players/takare-lipscomb-1.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Arkansas State,2024
+Ja'Quez Cross,jaquez-cross-1,/cfb/players/jaquez-cross-1.html,RB,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Arkansas State,2024
+Cameron Ambrose,cameron-ambrose-1,/cfb/players/cameron-ambrose-1.html,OL,13,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Arkansas State,2024
+AJ Beale,aj-beale-1,/cfb/players/aj-beale-1.html,CB,9,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Arkansas State,2024
+Josh Stone,josh-stone-1,/cfb/players/josh-stone-1.html,CB,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Arkansas State,2024

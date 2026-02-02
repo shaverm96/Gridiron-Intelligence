@@ -1,0 +1,45 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Bubba Arslanian,bubba-arslanian-1,/cfb/players/bubba-arslanian-1.html,LB,6,47,27,74,4.0,3.0,0,0,,0,0,1,0,0,1,,Akron,2020
+A.J. Watts,aj-watts-1,/cfb/players/aj-watts-1.html,CB,6,22,7,29,0.0,0.0,2,44,22.0,0,2,0,0,0,1,,Akron,2020
+Brandon Bischof,brandon-bischof-1,/cfb/players/brandon-bischof-1.html,LB,6,21,6,27,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2020
+Adetutu Daranijo,adetutu-daranijo-1,/cfb/players/adetutu-daranijo-1.html,S,5,14,9,23,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2020
+Julian Richardson,julian-richardson-1,/cfb/players/julian-richardson-1.html,LB,6,9,9,18,3.0,3.0,0,0,,0,0,0,0,0,0,,Akron,2020
+Jaylen Kelly-Powell,jaylen-kelly-powell-1,/cfb/players/jaylen-kelly-powell-1.html,S,5,11,7,18,0.0,0.0,0,0,,0,2,0,0,0,0,,Akron,2020
+Randy Cochran Jr.,randy-cochran-jr-1,/cfb/players/randy-cochran-jr-1.html,CB,6,10,7,17,1.0,1.0,0,0,,0,1,1,0,0,0,,Akron,2020
+Jordyn Riley,jordyn-riley-1,/cfb/players/jordyn-riley-1.html,CB,5,11,3,14,0.0,0.0,0,0,,0,2,0,0,0,0,,Akron,2020
+Corey Thomas Jr.,corey-thomas-jr-1,/cfb/players/corey-thomas-jr-1.html,S,5,9,2,11,0.0,0.0,0,0,,0,0,1,0,0,0,,Akron,2020
+Ryan McClain,ryan-mcclain-1,/cfb/players/ryan-mcclain-1.html,LB,4,4,7,11,1.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2020
+Eric Bentley,eric-bentley-2,/cfb/players/eric-bentley-2.html,DL,4,5,5,10,1.0,0.0,0,0,,0,1,0,0,0,0,,Akron,2020
+Michael Snowden,michael-snowden-2,/cfb/players/michael-snowden-2.html,LB,6,7,3,10,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2020
+John Mitchell,john-mitchell-3,/cfb/players/john-mitchell-3.html,DL,5,5,5,10,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2020
+Nazir Sy,nazir-sy-1,/cfb/players/nazir-sy-1.html,DL,5,3,6,9,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2020
+Jaquize Cross,jaquize-cross-2,/cfb/players/jaquize-cross-2.html,DL,4,5,3,8,3.0,1.0,0,0,,0,0,0,0,0,0,,Akron,2020
+Reggie Corner Jr.,reggie-corner-jr-1,/cfb/players/reggie-corner-jr-1.html,LB,3,6,1,7,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2020
+Bryce Wilson,bryce-wilson-1,/cfb/players/bryce-wilson-1.html,DL,4,5,2,7,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2020
+Michael Scott,michael-scott-4,/cfb/players/michael-scott-4.html,LB,3,5,2,7,1.0,1.0,0,0,,0,0,0,0,0,0,,Akron,2020
+Charles Amankwaa,charles-amankwaa-1,/cfb/players/charles-amankwaa-1.html,DB,4,6,0,6,0.0,0.0,0,0,,0,1,0,0,0,0,,Akron,2020
+Chukwudifu Ogbonna,chukwudifu-ogbonna-1,/cfb/players/chukwudifu-ogbonna-1.html,CB,4,4,2,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2020
+MyJaden Horton,myjaden-horton-1,/cfb/players/myjaden-horton-1.html,S,3,6,0,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2020
+Logan Hawkins,logan-hawkins-1,/cfb/players/logan-hawkins-1.html,DL,6,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2020
+Ronald Jackson Jr.,ronald-jackson-jr-1,/cfb/players/ronald-jackson-jr-1.html,CB,3,4,0,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2020
+Janirr Wade,janirr-wade-1,/cfb/players/janirr-wade-1.html,DL,4,2,2,4,1.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2020
+Jerry Fitschen,jerry-fitschen-1,/cfb/players/jerry-fitschen-1.html,PK,6,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2020
+Quevan Lawson,quevan-lawson-1,/cfb/players/quevan-lawson-1.html,LB,3,1,2,3,1.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2020
+Shawn Naim,shawn-naim-1,/cfb/players/shawn-naim-1.html,WR,6,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2020
+Jamason Jodway,jamason-jodway-1,/cfb/players/jamason-jodway-1.html,RB,3,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2020
+Zach DiLauro,zach-dilauro-1,/cfb/players/zach-dilauro-1.html,LB,3,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2020
+Anthony Grimes,anthony-grimes-1,/cfb/players/anthony-grimes-1.html,WR,6,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2020
+Xavior Gray,xavior-gray-1,/cfb/players/xavior-gray-1.html,OL,6,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2020
+Tyson Durant,tyson-durant-1,/cfb/players/tyson-durant-1.html,CB,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2020
+Cory Smigel,cory-smigel-1,/cfb/players/cory-smigel-1.html,PK,6,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2020
+Ryan Beckman,ryan-beckman-2,/cfb/players/ryan-beckman-2.html,OL,6,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2020
+George Qualls Jr.,george-qualls-jr-1,/cfb/players/george-qualls-jr-1.html,WR,6,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2020
+Angelo Howze,angelo-howze-1,/cfb/players/angelo-howze-1.html,DL,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2020
+Nate Williams,nate-williams-8,/cfb/players/nate-williams-8.html,OL,6,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2020
+Michiah Burton,michiah-burton-1,/cfb/players/michiah-burton-1.html,RB,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2020
+Bryce Profitt,bryce-profitt-1,/cfb/players/bryce-profitt-1.html,WR,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2020
+Marco Donatelli,marco-donatelli-1,/cfb/players/marco-donatelli-1.html,LB,5,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2020
+Cameron Lyons,cameron-lyons-1,/cfb/players/cameron-lyons-1.html,LS,6,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2020
+Kyle Romenick,kyle-romenick-1,/cfb/players/kyle-romenick-1.html,P,5,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2020
+Kendal Marshall,kendal-marshall-1,/cfb/players/kendal-marshall-1.html,LB,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2020
+Gavin Blunt,gavin-blunt-1,/cfb/players/gavin-blunt-1.html,WR,4,0,0,0,0.0,0.0,0,0,,0,0,1,0,0,0,,Akron,2020

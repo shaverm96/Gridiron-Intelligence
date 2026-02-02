@@ -1,0 +1,53 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Jordan Hall,jordan-hall-2,/cfb/players/jordan-hall-2.html,LB,12,47,41,88,4.5,2.5,1,0,0.0,0,1,1,0,0,3,,Michigan State,2025
+Wayne Matthews,wayne-matthews-1,/cfb/players/wayne-matthews-1.html,LB,12,32,41,73,4.5,0.0,1,0,0.0,0,1,0,0,0,0,,Michigan State,2025
+Alex VanSumeren,alex-vansumeren-1,/cfb/players/alex-vansumeren-1.html,DT,12,18,34,52,2.0,1.5,0,0,,0,1,0,0,0,0,,Michigan State,2025
+Malik Spencer,malik-spencer-1,/cfb/players/malik-spencer-1.html,S,12,35,17,52,3.0,2.0,1,0,0.0,0,5,0,0,0,1,,Michigan State,2025
+Malcolm Bell,malcolm-bell-1,/cfb/players/malcolm-bell-1.html,DB,12,31,18,49,5.0,1.0,0,0,,0,6,0,0,0,0,,Michigan State,2025
+Armorion Smith,armorion-smith-1,/cfb/players/armorion-smith-1.html,DB,12,21,14,35,0.5,0.0,1,0,0.0,0,1,1,0,0,1,,Michigan State,2025
+Darius Snow,darius-snow-1,/cfb/players/darius-snow-1.html,LB,12,17,17,34,3.0,1.0,0,0,,0,0,0,0,0,0,,Michigan State,2025
+Jalen Thompson,jalen-thompson-3,/cfb/players/jalen-thompson-3.html,DL,11,16,14,30,6.5,2.5,0,0,,0,1,0,0,0,0,,Michigan State,2025
+Isaac Smith,isaac-smith-3,/cfb/players/isaac-smith-3.html,LB,12,16,10,26,1.0,1.0,0,0,,0,0,0,0,0,0,,Michigan State,2025
+Quindarius Dunnigan,quindarius-dunnigan-1,/cfb/players/quindarius-dunnigan-1.html,DL,12,14,11,25,5.0,2.5,0,0,,0,0,0,0,0,1,,Michigan State,2025
+Grady Kelly,grady-kelly-1,/cfb/players/grady-kelly-1.html,DL,11,7,18,25,3.5,1.0,0,0,,0,2,1,0,0,0,,Michigan State,2025
+Nikai Martinez,nikai-martinez-1,/cfb/players/nikai-martinez-1.html,DB,4,17,7,24,0.0,0.0,0,0,,0,0,0,0,0,0,,Michigan State,2025
+David Santiago,david-santiago-1,/cfb/players/david-santiago-1.html,LB,12,10,14,24,2.5,1.5,0,0,,0,1,1,0,0,1,,Michigan State,2025
+Joshua Eaton,joshua-eaton-1,/cfb/players/joshua-eaton-1.html,CB,12,13,6,19,0.0,0.0,0,0,,0,2,0,0,0,0,,Michigan State,2025
+Aydan West,aydan-west-1,/cfb/players/aydan-west-1.html,DB,12,13,6,19,1.0,0.5,0,0,,0,1,0,0,0,0,,Michigan State,2025
+Ade Willie,ade-willie-1,/cfb/players/ade-willie-1.html,DB,4,8,8,16,2.0,0.0,0,0,,0,1,0,0,0,0,,Michigan State,2025
+Jalen Satchell,jalen-satchell-1,/cfb/players/jalen-satchell-1.html,DL,8,8,7,15,0.5,0.5,0,0,,0,1,0,0,0,0,,Michigan State,2025
+Aveon Grose,aveon-grose-1,/cfb/players/aveon-grose-1.html,DB,12,12,3,15,0.0,0.0,1,0,0.0,0,0,0,0,0,0,,Michigan State,2025
+Ru'Quan Buckley,ruquan-buckley-1,/cfb/players/ruquan-buckley-1.html,DL,11,11,3,14,2.0,2.0,0,0,,0,0,0,0,0,0,,Michigan State,2025
+Dontavius Nash,dontavius-nash-1,/cfb/players/dontavius-nash-1.html,DB,8,5,9,14,1.0,0.0,0,0,,0,0,0,0,0,0,,Michigan State,2025
+Cam Williams,cam-williams-1,/cfb/players/cam-williams-1.html,DE,12,6,8,14,1.0,0.5,0,0,,0,1,0,0,0,0,,Michigan State,2025
+Aisea Moa,aisea-moa-1,/cfb/players/aisea-moa-1.html,LB,12,9,3,12,1.0,0.0,0,0,,0,2,0,0,0,0,,Michigan State,2025
+Ben Roberts,ben-roberts-1,/cfb/players/ben-roberts-1.html,DL,7,4,7,11,0.0,0.0,0,0,,0,0,0,0,0,0,,Michigan State,2025
+Devynn Cromwell,devynn-cromwell-1,/cfb/players/devynn-cromwell-1.html,DB,12,5,3,8,0.0,0.0,0,0,,0,0,0,0,0,0,,Michigan State,2025
+Marcellius Pulliam,marcellius-pulliam-1,/cfb/players/marcellius-pulliam-1.html,LB,4,4,4,8,0.0,0.0,0,0,,0,0,0,0,0,0,,Michigan State,2025
+Anelu Lafaele,anelu-lafaele-1,/cfb/players/anelu-lafaele-1.html,LB,5,6,1,7,2.0,2.0,0,0,,0,0,0,0,0,1,,Michigan State,2025
+Chance Rucker,chance-rucker-1,/cfb/players/chance-rucker-1.html,DB,9,5,2,7,0.0,0.0,0,0,,0,2,0,0,0,0,,Michigan State,2025
+Semaj Bridgeman,semaj-bridgeman-1,/cfb/players/semaj-bridgeman-1.html,LB,12,4,2,6,1.0,0.0,0,0,,0,0,0,0,0,0,,Michigan State,2025
+Kekai Burnett,kekai-burnett-1,/cfb/players/kekai-burnett-1.html,DL,10,3,3,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Michigan State,2025
+Brady Pretzlaff,brady-pretzlaff-1,/cfb/players/brady-pretzlaff-1.html,LB,3,4,0,4,1.0,0.0,0,0,,0,2,0,0,0,0,,Michigan State,2025
+Sam Edwards,sam-edwards-2,/cfb/players/sam-edwards-2.html,LB,12,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Michigan State,2025
+Jay Coyne,jay-coyne-1,/cfb/players/jay-coyne-1.html,FB,12,0,3,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Michigan State,2025
+Jeremiah Hughes,jeremiah-hughes-1,/cfb/players/jeremiah-hughes-1.html,DB,4,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Michigan State,2025
+Khalil Majeed,khalil-majeed-1,/cfb/players/khalil-majeed-1.html,DB,12,1,2,3,0.5,0.0,0,0,,0,1,0,0,0,0,,Michigan State,2025
+Omari Kelly,omari-kelly-1,/cfb/players/omari-kelly-1.html,WR,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Michigan State,2025
+Tyler Gillison,tyler-gillison-1,/cfb/players/tyler-gillison-1.html,DL,9,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Michigan State,2025
+Keshawn Williams,keshawn-williams-3,/cfb/players/keshawn-williams-3.html,DB,4,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Michigan State,2025
+Justin Denson Jr.,justin-denson-jr-1,/cfb/players/justin-denson-jr-1.html,DB,3,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Michigan State,2025
+Caleb Gash,caleb-gash-1,/cfb/players/caleb-gash-1.html,DB,1,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Michigan State,2025
+Jack Wills,jack-wills-1,/cfb/players/jack-wills-1.html,LS,12,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Michigan State,2025
+Derrick Simmons,derrick-simmons-1,/cfb/players/derrick-simmons-1.html,DL,4,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Michigan State,2025
+Dorian Davis,dorian-davis-3,/cfb/players/dorian-davis-3.html,DB,1,1,1,2,1.0,0.0,0,0,,0,0,0,0,0,0,,Michigan State,2025
+Jack Velling,jack-velling-1,/cfb/players/jack-velling-1.html,TE,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Michigan State,2025
+Terrance Edwards Jr.,terrance-edwards-jr-1,/cfb/players/terrance-edwards-jr-1.html,DB,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Michigan State,2025
+Ryan Eckley,ryan-eckley-1,/cfb/players/ryan-eckley-1.html,P,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Michigan State,2025
+Rakeem Johnson,rakeem-johnson-1,/cfb/players/rakeem-johnson-1.html,OL,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Michigan State,2025
+George Mullins,george-mullins-1,/cfb/players/george-mullins-1.html,CB,3,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Michigan State,2025
+Elijah Tau-Tolliver,elijah-tau-tolliver-1,/cfb/players/elijah-tau-tolliver-1.html,RB,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Michigan State,2025
+Brennan Parachek,brennan-parachek-1,/cfb/players/brennan-parachek-1.html,TE,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Michigan State,2025
+Brandon Tullis,brandon-tullis-1,/cfb/players/brandon-tullis-1.html,RB,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Michigan State,2025
+Anthony Pinnace III,anthony-pinnace-iii-1,/cfb/players/anthony-pinnace-iii-1.html,DB,9,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Michigan State,2025
+Aidan Chiles,aidan-chiles-1,/cfb/players/aidan-chiles-1.html,QB,9,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Michigan State,2025

@@ -1,0 +1,46 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Diego Fagot,diego-fagot-1,/cfb/players/diego-fagot-1.html,LB,12,49,45,94,11.0,1.0,1,0,0.0,0,1,1,20,1,1,,Navy,2021
+John Marshall,john-marshall-2,/cfb/players/john-marshall-2.html,LB,12,29,25,54,3.5,1.0,0,0,,0,1,1,0,0,0,,Navy,2021
+Jamal Glenn,jamal-glenn-1,/cfb/players/jamal-glenn-1.html,CB,12,35,18,53,2.5,1.0,1,1,1.0,0,2,1,0,0,0,,Navy,2021
+Michael McMorris,michael-mcmorris-1,/cfb/players/michael-mcmorris-1.html,CB,12,31,19,50,3.0,2.0,0,0,,0,6,0,0,0,5,,Navy,2021
+Johnny Hodges,johnny-hodges-1,/cfb/players/johnny-hodges-1.html,LB,9,22,28,50,3.0,1.0,1,0,0.0,0,4,0,0,0,1,,Navy,2021
+Tyler Fletcher,tyler-fletcher-1,/cfb/players/tyler-fletcher-1.html,LB,12,29,18,47,4.0,1.0,0,0,,0,1,0,0,0,0,,Navy,2021
+Jay Warren,jay-warren-2,/cfb/players/jay-warren-2.html,DT,12,19,20,39,4.0,1.5,0,0,,0,1,0,0,0,0,,Navy,2021
+Rayuan Lane,rayuan-lane-1,/cfb/players/rayuan-lane-1.html,S,12,23,14,37,2.0,0.0,1,0,0.0,0,4,0,0,0,1,,Navy,2021
+Eavan Gibbons,eavan-gibbons-1,/cfb/players/eavan-gibbons-1.html,S,8,24,11,35,1.0,0.0,0,0,,0,1,0,0,0,0,,Navy,2021
+Nick Straw,nick-straw-1,/cfb/players/nick-straw-1.html,LB,12,18,15,33,6.0,1.0,0,0,,0,1,0,0,0,1,,Navy,2021
+Taylor Robinson,taylor-robinson-2,/cfb/players/taylor-robinson-2.html,S,11,14,11,25,1.0,0.0,1,0,0.0,0,0,1,0,0,0,,Navy,2021
+Donald Berniard Jr.,donald-berniard-jr-1,/cfb/players/donald-berniard-jr-1.html,G,10,14,9,23,2.5,1.0,0,0,,0,0,0,0,0,0,,Navy,2021
+Donald Berniard Jr.,donald-berniardjr-1,/cfb/players/donald-berniardjr-1.html,,12,14,9,23,2.5,1.0,0,0,,0,0,0,0,0,0,,Navy,2021
+Will Harbour,will-harbour-1,/cfb/players/will-harbour-1.html,LB,6,10,11,21,1.5,0.0,0,0,,0,1,0,0,0,0,,Navy,2021
+Kevin Brennan,kevin-brennan-2,/cfb/players/kevin-brennan-2.html,S,5,6,14,20,0.0,0.0,1,15,15.0,0,1,1,0,0,0,,Navy,2021
+Jacob Busic,jacob-busic-1,/cfb/players/jacob-busic-1.html,DE,12,12,8,20,5.5,2.0,0,0,,0,1,0,0,0,0,,Navy,2021
+Clay Cromwell,clay-cromwell-1,/cfb/players/clay-cromwell-1.html,DE,12,11,4,15,7.0,2.5,0,0,,0,0,0,0,0,2,,Navy,2021
+Xavier McDonald,xavier-mcdonald-1,/cfb/players/xavier-mcdonald-1.html,LB,10,4,7,11,0.5,0.0,0,0,,0,1,0,0,0,0,,Navy,2021
+Mitchell West,mitchell-west-1,/cfb/players/mitchell-west-1.html,S,2,6,4,10,0.0,0.0,0,0,,0,1,0,0,0,1,,Navy,2021
+Colin Ramos,colin-ramos-1,/cfb/players/colin-ramos-1.html,LB,8,7,2,9,1.0,0.0,0,0,,0,0,0,0,0,1,,Navy,2021
+Marcus Moore,marcus-moore-3,/cfb/players/marcus-moore-3.html,S,4,5,4,9,0.0,0.0,0,0,,0,0,0,0,0,0,,Navy,2021
+Willie Collins V,willie-collins-v-1,/cfb/players/willie-collins-v-1.html,S,11,4,4,8,0.0,0.0,0,0,,0,0,0,0,0,0,,Navy,2021
+Deondrae Williams,deondrae-williams-1,/cfb/players/deondrae-williams-1.html,DT,12,3,4,7,1.0,0.0,0,0,,0,0,0,0,0,0,,Navy,2021
+Daniel Taylor,daniel-taylor-2,/cfb/players/daniel-taylor-2.html,SB,10,3,4,7,0.0,0.0,0,0,,0,0,0,0,0,0,,Navy,2021
+Elias Larry,elias-larry-1,/cfb/players/elias-larry-1.html,CB,8,4,2,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Navy,2021
+Chance Warren,chance-warren-1,/cfb/players/chance-warren-1.html,SB,12,3,3,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Navy,2021
+John Kelly III,john-kelly-lll-1,/cfb/players/john-kelly-lll-1.html,LB,12,4,1,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Navy,2021
+Justin Reed,justin-reed-3,/cfb/players/justin-reed-3.html,DE,12,4,1,5,2.0,1.0,0,0,,0,0,0,0,0,0,,Navy,2021
+Maquel Haywood,maquel-haywood-1,/cfb/players/maquel-haywood-1.html,SB,8,5,0,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Navy,2021
+Jianni Woodson-Brooks,jianni-woodson-brooks-1,/cfb/players/jianni-woodson-brooks-1.html,LB,9,2,2,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Navy,2021
+Joshua Adams,joshua-adams-2,/cfb/players/joshua-adams-2.html,S,9,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Navy,2021
+Colin O'Connor,colin-oconnor-1,/cfb/players/colin-oconnor-1.html,S,4,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Navy,2021
+Mbiti Williams,mbiti-williams-1,/cfb/players/mbiti-williams-1.html,CB,10,0,3,3,0.0,0.0,1,7,7.0,0,0,0,0,0,0,,Navy,2021
+Isaac Ruoss,isaac-ruoss-1,/cfb/players/isaac-ruoss-1.html,FB,12,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Navy,2021
+Max Sandlin,max-sandlin-1,/cfb/players/max-sandlin-1.html,LB,11,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Navy,2021
+Max Meeuwsen,max-meeuwsen-1,/cfb/players/max-meeuwsen-1.html,DE,3,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Navy,2021
+Terrell Adams,terrell-adams-1,/cfb/players/terrell-adams-1.html,LB,2,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Navy,2021
+Bryce Texeira,bryce-texeira-1,/cfb/players/bryce-texeira-1.html,T,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Navy,2021
+Bijan Nichols,bijan-nichols-1,/cfb/players/bijan-nichols-1.html,K,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Navy,2021
+Daniel Jones,daniel-jones-5,/cfb/players/daniel-jones-5.html,SB,7,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Navy,2021
+Mark Walker,mark-walker-5,/cfb/players/mark-walker-5.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Navy,2021
+Marcus Bleazard,marcus-bleazard-1,/cfb/players/marcus-bleazard-1.html,LB,3,0,1,1,0.0,0.0,0,0,,0,0,1,0,0,0,,Navy,2021
+Marcell Gleaton,marcell-gleaton-1,/cfb/players/marcell-gleaton-1.html,WR,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Navy,2021
+Ebissa Sambo,ebissa-sambo-1,/cfb/players/ebissa-sambo-1.html,CB,9,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Navy,2021
+James Harris II,james-harris-ll-1,/cfb/players/james-harris-ll-1.html,FB,12,0,0,0,0.0,0.0,0,0,,0,0,1,0,0,0,,Navy,2021

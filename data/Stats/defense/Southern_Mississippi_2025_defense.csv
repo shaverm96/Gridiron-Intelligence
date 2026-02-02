@@ -1,0 +1,43 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Chris Jones,chris-jones-21,/cfb/players/chris-jones-21.html,LB,13,51,84,135,9.5,3.5,1,2,2.0,0,2,0,0,0,1,,Southern Mississippi,2025
+Michael Montgomery,michael-montgomery-1,/cfb/players/michael-montgomery-1.html,LB,12,30,75,105,6.0,3.0,2,21,10.5,0,2,0,0,0,1,,Southern Mississippi,2025
+Corey Myrick,corey-myrick-1,/cfb/players/corey-myrick-1.html,S,13,47,45,92,4.5,0.0,2,50,25.0,0,4,0,0,0,1,,Southern Mississippi,2025
+Ian Foster,ian-foster-1,/cfb/players/ian-foster-1.html,CB,13,28,44,72,3.5,1.0,3,171,57.0,2,7,1,0,0,0,,Southern Mississippi,2025
+J'Mond Tapp,jmond-tapp-1,/cfb/players/jmond-tapp-1.html,DL,13,19,51,70,12.0,7.5,0,0,,0,2,0,0,0,0,,Southern Mississippi,2025
+Josh Moten,josh-moten-2,/cfb/players/josh-moten-2.html,DB,13,38,21,59,1.0,0.0,5,25,5.0,0,11,0,0,0,0,,Southern Mississippi,2025
+Brodarius Lewis,brodarius-lewis-1,/cfb/players/brodarius-lewis-1.html,DL,13,15,42,57,3.0,0.5,0,0,,0,4,0,0,0,0,,Southern Mississippi,2025
+Joseph Harper,joseph-harper-2,/cfb/players/joseph-harper-2.html,LB,13,20,30,50,1.5,0.0,0,0,,0,2,0,0,0,0,,Southern Mississippi,2025
+Ahmere Foster,ahmere-foster-1,/cfb/players/ahmere-foster-1.html,CB,13,16,31,47,0.5,0.0,3,54,18.0,0,2,0,0,0,0,,Southern Mississippi,2025
+Mathias Haygood,mathias-haygood-1,/cfb/players/mathias-haygood-1.html,LB,13,17,27,44,4.0,1.0,1,18,18.0,0,1,0,0,0,0,,Southern Mississippi,2025
+Garrick Ponder,garrick-ponder-1,/cfb/players/garrick-ponder-1.html,LB,13,16,21,37,11.5,3.5,0,0,,0,0,1,0,0,1,,Southern Mississippi,2025
+Josh Battle,josh-battle-1,/cfb/players/josh-battle-1.html,DB,10,17,16,33,1.5,1.0,0,0,,0,0,0,0,0,0,,Southern Mississippi,2025
+Jameer Lewis,jameer-lewis-1,/cfb/players/jameer-lewis-1.html,LB,12,14,18,32,4.5,3.0,0,0,,0,0,0,0,0,0,,Southern Mississippi,2025
+"Anthony Richard, Jr.",anthony-richard-jr-1,/cfb/players/anthony-richard-jr-1.html,CB,13,14,17,31,0.5,0.0,2,0,0.0,0,8,0,0,0,0,,Southern Mississippi,2025
+Dylan King,dylan-king-2,/cfb/players/dylan-king-2.html,S,12,15,12,27,0.0,0.0,0,0,,0,1,0,0,0,0,,Southern Mississippi,2025
+Jaden McKinney,jaden-mckinney-1,/cfb/players/jaden-mckinney-1.html,DL,13,7,20,27,2.0,0.5,0,0,,0,0,0,0,0,0,,Southern Mississippi,2025
+Isaiah Gibson,isaiah-gibson-1,/cfb/players/isaiah-gibson-1.html,DL,13,4,22,26,1.5,0.0,0,0,,0,1,0,0,0,0,,Southern Mississippi,2025
+JJ Hawkins,jj-hawkins-1,/cfb/players/jj-hawkins-1.html,DE,13,8,13,21,5.5,3.0,1,10,10.0,0,0,0,0,0,2,,Southern Mississippi,2025
+Jabari Ishmael,jabari-ishmael-1,/cfb/players/jabari-ishmael-1.html,DE,11,6,14,20,2.0,0.5,0,0,,0,2,1,0,0,0,,Southern Mississippi,2025
+Jonathan Pennix,jonathan-pennix-1,/cfb/players/jonathan-pennix-1.html,CB,13,13,7,20,0.0,0.0,2,37,18.5,0,6,0,0,0,0,,Southern Mississippi,2025
+Mason Clinton,mason-clinton-1,/cfb/players/mason-clinton-1.html,DL,12,6,10,16,1.5,0.0,0,0,,0,1,0,0,0,0,,Southern Mississippi,2025
+Avery Sledge,avery-sledge-1,/cfb/players/avery-sledge-1.html,LB,12,6,9,15,0.5,0.0,0,0,,0,0,1,0,0,0,,Southern Mississippi,2025
+Charles Montgomery,charles-montgomery-1,/cfb/players/charles-montgomery-1.html,WR,12,5,2,7,0.0,0.0,0,0,,0,0,0,0,0,0,,Southern Mississippi,2025
+Guylijah Theodale,guylijah-theodale-1,/cfb/players/guylijah-theodale-1.html,CB,9,3,3,6,0.0,0.0,0,0,,0,1,1,0,0,0,,Southern Mississippi,2025
+Eric Thomas Jr.,eric-thomas-jr-1,/cfb/players/eric-thomas-jr-1.html,DL,9,4,2,6,1.0,1.0,0,0,,0,0,0,0,0,0,,Southern Mississippi,2025
+Najae Hallenbeck,najae-hallenbeck-1,/cfb/players/najae-hallenbeck-1.html,DL,12,1,4,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Southern Mississippi,2025
+MaLik Caswell,malik-caswell-1,/cfb/players/malik-caswell-1.html,S,12,1,4,5,0.5,0.0,1,23,23.0,0,0,0,0,0,0,,Southern Mississippi,2025
+Malakai Murphy,malakai-murphy-1,/cfb/players/malakai-murphy-1.html,CB,13,2,3,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Southern Mississippi,2025
+Brendon Toles,brendon-toles-1,/cfb/players/brendon-toles-1.html,DB,9,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Southern Mississippi,2025
+Zach Ruffin,zach-ruffin-1,/cfb/players/zach-ruffin-1.html,LB,13,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Southern Mississippi,2025
+Khalil Foster,khalil-foster-1,/cfb/players/khalil-foster-1.html,S,2,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Southern Mississippi,2025
+Jeffery Pittman,jeffery-pittman-1,/cfb/players/jeffery-pittman-1.html,RB,11,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Southern Mississippi,2025
+Dominick Hill,dominick-hill-1,/cfb/players/dominick-hill-1.html,S,13,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Southern Mississippi,2025
+Tychaun Chapman,tychaun-chapman-1,/cfb/players/tychaun-chapman-1.html,WR,13,2,0,2,0.0,0.0,0,0,,0,0,1,0,0,0,,Southern Mississippi,2025
+Luke Beard,luke-beard-1,/cfb/players/luke-beard-1.html,LS,13,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Southern Mississippi,2025
+Ishmael Ibraheem,ishmael-ibraheem-1,/cfb/players/ishmael-ibraheem-1.html,DB,1,1,0,1,0.0,0.0,0,0,,0,2,0,0,0,0,,Southern Mississippi,2025
+Matt Jones,matt-jones-9,/cfb/players/matt-jones-9.html,RB,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Southern Mississippi,2025
+Carl Chester,carl-chester-1,/cfb/players/carl-chester-1.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Southern Mississippi,2025
+Quin Warren,quin-warren-1,/cfb/players/quin-warren-1.html,DL,9,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Southern Mississippi,2025
+Reed Harradine,reed-harradine-1,/cfb/players/reed-harradine-1.html,K,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Southern Mississippi,2025
+Robert Briggs,robert-briggs-1,/cfb/players/robert-briggs-1.html,RB,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Southern Mississippi,2025
+Cannon McClain,cannon-mcclain-1,/cfb/players/cannon-mcclain-1.html,DB,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Southern Mississippi,2025

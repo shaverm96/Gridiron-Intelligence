@@ -1,0 +1,46 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Gabe Taylor,gabe-taylor-1,/cfb/players/gabe-taylor-1.html,S,12,34,23,57,7.0,3.0,3,12,4.0,0,7,0,0,0,2,,Rice,2024
+Ty Anthony Morris,ty-anthony-morris-1,/cfb/players/ty-anthony-morris-1.html,LB,12,27,29,56,7.5,4.0,0,0,,0,0,0,0,0,0,,Rice,2024
+Andrew Awe,andrew-awe-1,/cfb/players/andrew-awe-1.html,LB,12,33,19,52,4.0,1.0,0,0,,0,0,0,0,0,0,,Rice,2024
+Sean Fresch,sean-fresch-1,/cfb/players/sean-fresch-1.html,CB,12,45,7,52,1.0,0.0,1,0,0.0,0,9,0,0,0,0,,Rice,2024
+Daveon Hook,daveon-hook-1,/cfb/players/daveon-hook-1.html,S,12,41,8,49,1.5,0.0,0,0,,0,2,0,0,0,0,,Rice,2024
+Charles Looes,charles-looes-1,/cfb/players/charles-looes-1.html,DL,12,19,24,43,8.5,3.5,0,0,,0,1,2,0,0,1,,Rice,2024
+Josh Pearcy,josh-pearcy-1,/cfb/players/josh-pearcy-1.html,LB,12,21,21,42,6.0,3.5,0,0,,0,1,1,4,0,0,,Rice,2024
+Blake Boenisch,blake-boenisch-1,/cfb/players/blake-boenisch-1.html,DL,11,25,17,42,3.5,0.0,0,0,,0,1,0,0,0,0,,Rice,2024
+Tyson Flowers,tyson-flowers-1,/cfb/players/tyson-flowers-1.html,S,10,25,13,38,3.0,0.0,2,40,20.0,1,2,0,0,0,1,,Rice,2024
+Max Ahoia,max-ahoia-1,/cfb/players/max-ahoia-1.html,CB,12,28,9,37,0.5,0.0,0,0,,0,8,0,0,0,1,,Rice,2024
+Blaise Tita,blaise-tita-1,/cfb/players/blaise-tita-1.html,LB,12,14,23,37,2.5,2.0,0,0,,0,0,1,0,0,0,,Rice,2024
+Myron Morrison,myron-morrison-2,/cfb/players/myron-morrison-2.html,LB,10,24,10,34,6.0,1.5,0,0,,0,0,0,0,0,1,,Rice,2024
+DJ Arkansas,dj-arkansas-1,/cfb/players/dj-arkansas-1.html,LB,11,17,11,28,1.5,0.0,0,0,,0,0,0,0,0,0,,Rice,2024
+Izeya Floyd,izeya-floyd-1,/cfb/players/izeya-floyd-1.html,DL,12,10,16,26,2.0,1.0,0,0,,0,1,0,0,0,0,,Rice,2024
+Peyton Stevenson,peyton-stevenson-1,/cfb/players/peyton-stevenson-1.html,S,12,13,6,19,2.0,1.0,0,0,,0,1,0,0,0,0,,Rice,2024
+Michael Larbie,michael-larbie-1,/cfb/players/michael-larbie-1.html,DT,12,5,11,16,5.5,3.5,0,0,,0,1,0,0,0,0,,Rice,2024
+Michael Daley,michael-daley-1,/cfb/players/michael-daley-1.html,DE,10,9,5,14,5.5,3.0,0,0,,0,0,0,0,0,2,,Rice,2024
+Chike Anigbogu,chike-anigbogu-1,/cfb/players/chike-anigbogu-1.html,S,12,9,3,12,4.0,1.0,0,0,,0,2,0,0,0,0,,Rice,2024
+Elroyal Morris Jr.,elroyal-morris-jr-1,/cfb/players/elroyal-morris-jr-1.html,DL,11,8,4,12,1.5,1.5,0,0,,0,0,0,0,0,1,,Rice,2024
+Joseph Mutombo,joseph-mutombo-1,/cfb/players/joseph-mutombo-1.html,DL,12,8,3,11,3.0,2.0,1,9,9.0,0,0,0,0,0,1,,Rice,2024
+Jonathan Jean,jonathan-jean-3,/cfb/players/jonathan-jean-3.html,DB,8,7,4,11,1.5,0.0,0,0,,0,2,0,0,0,0,,Rice,2024
+Demone Green,demone-green-1,/cfb/players/demone-green-1.html,DL,3,4,6,10,1.5,1.5,0,0,,0,1,0,0,0,0,,Rice,2024
+Faybian Marks,faybian-marks-1,/cfb/players/faybian-marks-1.html,CB,8,6,3,9,0.0,0.0,0,0,,0,2,0,0,0,0,,Rice,2024
+Aquantis Clemmons,aquantis-clemmons-1,/cfb/players/aquantis-clemmons-1.html,DL,8,2,6,8,0.5,0.0,0,0,,0,0,0,0,0,0,,Rice,2024
+Chibby Nwajuaku,chibby-nwajuaku-1,/cfb/players/chibby-nwajuaku-1.html,DL,6,4,3,7,0.5,0.0,0,0,,0,0,0,0,0,0,,Rice,2024
+Plae Wyatt,plae-wyatt-1,/cfb/players/plae-wyatt-1.html,S,1,3,2,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Rice,2024
+Marcus Williams,marcus-williams-19,/cfb/players/marcus-williams-19.html,S,3,1,3,4,0.0,0.0,1,11,11.0,0,0,0,0,0,1,,Rice,2024
+Lamont Narcisse,lamont-narcisse-1,/cfb/players/lamont-narcisse-1.html,CB,5,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Rice,2024
+Christian Edgar,christian-edgar-1,/cfb/players/christian-edgar-1.html,S,12,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Rice,2024
+Cooper King,cooper-king-1,/cfb/players/cooper-king-1.html,LB,6,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Rice,2024
+Brant Banks,brant-banks-1,/cfb/players/brant-banks-1.html,OL,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Rice,2024
+Enock Gota,enock-gota-1,/cfb/players/enock-gota-1.html,K,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Rice,2024
+Kobie Campbell,kobie-campbell-1,/cfb/players/kobie-campbell-1.html,WR,12,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Rice,2024
+AJ Stephens,aj-stephens-1,/cfb/players/aj-stephens-1.html,DB,3,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Rice,2024
+Weston Kropp,weston-kropp-1,/cfb/players/weston-kropp-1.html,OL,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Rice,2024
+Shepard Bowling,shepard-bowling-1,/cfb/players/shepard-bowling-1.html,LB,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Rice,2024
+Matt Sykes,matt-sykes-1,/cfb/players/matt-sykes-1.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Rice,2024
+Jalen Hargrove,jalen-hargrove-1,/cfb/players/jalen-hargrove-1.html,DL,6,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Rice,2024
+Ethan Onianwa,ethan-onianwa-1,/cfb/players/ethan-onianwa-1.html,OL,9,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Rice,2024
+Ephraim Dotson,ephraim-dotson-1,/cfb/players/ephraim-dotson-1.html,CB,2,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Rice,2024
+Dean Connors,dean-connors-1,/cfb/players/dean-connors-1.html,RB,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Rice,2024
+David Stickle,david-stickle-1,/cfb/players/david-stickle-1.html,OL,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Rice,2024
+Braylen Walker,braylen-walker-1,/cfb/players/braylen-walker-1.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Rice,2024
+Beau Barton,beau-barton-1,/cfb/players/beau-barton-1.html,LB,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Rice,2024
+Ashton Ojiaku,ashton-ojiaku-1,/cfb/players/ashton-ojiaku-1.html,S,6,1,0,1,0.0,0.0,0,0,,0,1,0,0,0,0,,Rice,2024

@@ -1,0 +1,42 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Kenny Logan Jr.,kenny-logan-jr-1,/cfb/players/kenny-logan-jr-1.html,S,13,64,31,95,7.0,0.0,1,30,30.0,1,6,0,0,0,1,,Kansas,2023
+Rich Miller,rich-miller-3,/cfb/players/rich-miller-3.html,LB,13,41,17,58,4.0,2.0,0,0,,0,2,0,0,0,0,,Kansas,2023
+JB Brown,jb-brown-3,/cfb/players/jb-brown-3.html,LB,13,39,18,57,6.0,2.0,0,0,,0,2,1,0,0,2,,Kansas,2023
+Austin Booker,austin-booker-1,/cfb/players/austin-booker-1.html,DL,12,40,16,56,12.0,8.0,0,0,,0,1,0,0,0,2,,Kansas,2023
+Marvin Grant,marvin-grant-1,/cfb/players/marvin-grant-1.html,S,13,35,17,52,4.0,0.0,0,0,,0,1,0,0,0,1,,Kansas,2023
+O.J. Burroughs,oj-burroughs-1,/cfb/players/oj-burroughs-1.html,S,13,41,10,51,1.5,0.0,1,0,0.0,0,4,0,0,0,0,,Kansas,2023
+Ra'Mello Dotson,ramello-dotson-1,/cfb/players/ramello-dotson-1.html,CB,13,37,11,48,3.0,1.0,4,90,22.5,2,11,0,0,0,0,,Kansas,2023
+Craig Young,craig-young-2,/cfb/players/craig-young-2.html,S,12,29,12,41,5.0,1.5,1,0,0.0,0,3,0,0,0,0,,Kansas,2023
+Taiwan Berryhill,taiwan-berryhill-1,/cfb/players/taiwan-berryhill-1.html,LB,11,27,10,37,2.0,1.0,0,0,,0,0,0,0,0,0,,Kansas,2023
+Cobee Bryant,jacobee-bryant-1,/cfb/players/jacobee-bryant-1.html,CB,13,30,2,32,5.0,1.0,4,48,12.0,0,5,1,22,1,1,,Kansas,2023
+Hayden Hatcher,hayden-hatcher-1,/cfb/players/hayden-hatcher-1.html,DE,12,12,17,29,4.0,0.5,0,0,,0,0,0,0,0,0,,Kansas,2023
+Cornell Wheeler,cornell-wheeler-1,/cfb/players/cornell-wheeler-1.html,LB,12,17,11,28,4.0,1.0,1,6,6.0,0,0,1,0,0,1,,Kansas,2023
+Jereme Robinson,jereme-robinson-1,/cfb/players/jereme-robinson-1.html,DE,13,23,2,25,6.0,4.5,0,0,,0,6,0,0,0,0,,Kansas,2023
+Gage Keys,gage-keys-1,/cfb/players/gage-keys-1.html,DL,12,13,8,21,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2023
+Kwinton Lassiter,kwinton-lassiter-1,/cfb/players/kwinton-lassiter-1.html,CB,13,13,7,20,0.5,0.0,2,3,1.5,0,1,0,0,0,1,,Kansas,2023
+Jayson Gilliom,jayson-gilliom-1,/cfb/players/jayson-gilliom-1.html,LB,13,12,7,19,1.0,1.0,0,0,,0,1,0,0,0,0,,Kansas,2023
+Patrick Joyner,patrick-joyner-1,/cfb/players/patrick-joyner-1.html,DE,13,12,6,18,2.5,2.0,0,0,,0,0,0,0,0,0,,Kansas,2023
+Kalon Gervin,kalon-gervin-1,/cfb/players/kalon-gervin-1.html,DB,13,11,3,14,0.0,0.0,0,0,,0,4,0,0,0,0,,Kansas,2023
+Devin Phillips,devin-phillips-1,/cfb/players/devin-phillips-1.html,DL,11,10,3,13,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2023
+Tommy Dunn Jr.,tommy-dunn-jr-1,/cfb/players/tommy-dunn-jr-1.html,DL,12,9,4,13,1.5,0.0,0,0,,0,0,0,0,0,1,,Kansas,2023
+D.J. Withers,dj-withers-1,/cfb/players/dj-withers-1.html,DL,12,6,4,10,1.5,0.0,0,0,,0,0,1,6,0,0,,Kansas,2023
+Caleb Taylor,caleb-taylor-3,/cfb/players/caleb-taylor-3.html,DL,13,3,3,6,1.5,0.5,0,0,,0,1,0,0,0,0,,Kansas,2023
+Dylan Brooks,dylan-brooks-3,/cfb/players/dylan-brooks-3.html,DE,7,3,2,5,1.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2023
+Kenean Caldwell,kenean-caldwell-1,/cfb/players/kenean-caldwell-1.html,DL,13,2,2,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2023
+Torry Locklin,torry-locklin-1,/cfb/players/torry-locklin-1.html,WR,13,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2023
+Davion Westmoreland,davion-westmoreland-1,/cfb/players/davion-westmoreland-1.html,DE,9,2,2,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2023
+Dean Miller,dean-miller-1,/cfb/players/dean-miller-1.html,DE,13,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2023
+Donovan Gaines,donovan-gaines-1,/cfb/players/donovan-gaines-1.html,LB,13,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2023
+Tristian Fletcher,tristian-fletcher-1,/cfb/players/tristian-fletcher-1.html,LB,3,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2023
+Kaleb Purdy,kaleb-purdy-1,/cfb/players/kaleb-purdy-1.html,S,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2023
+Trevor Wilson,trevor-wilson-1,/cfb/players/trevor-wilson-1.html,WR,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2023
+Trevor Kardell,trevor-kardell-1,/cfb/players/trevor-kardell-1.html,TE,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2023
+Cole Petrus,cole-petrus-1,/cfb/players/cole-petrus-1.html,DE,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2023
+Tanaka Scott,tanaka-scott-1,/cfb/players/tanaka-scott-1.html,WR,9,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2023
+Damarius McGhee,damarius-mcghee-1,/cfb/players/damarius-mcghee-1.html,DB,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2023
+Quentin Skinner,quentin-skinner-2,/cfb/players/quentin-skinner-2.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2023
+Dominick Puni,dominick-puni-1,/cfb/players/dominick-puni-1.html,OL,9,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2023
+Michael Ford Jr.,michael-ford-jr-1,/cfb/players/michael-ford-jr-1.html,OL,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2023
+Mason Fairchild,mason-fairchild-1,/cfb/players/mason-fairchild-1.html,TE,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2023
+Dylan Downing,dylan-downing-1,/cfb/players/dylan-downing-1.html,LB,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2023
+Dylan McDuffie,dylan-mcduffie-1,/cfb/players/dylan-mcduffie-1.html,RB,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,1,,Kansas,2023

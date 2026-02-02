@@ -1,0 +1,38 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Brandon Shook,brandon-shook-1,/cfb/players/brandon-shook-1.html,LB,6,30,30,60,3.0,0.0,1,0,0.0,0,1,0,0,0,2,,New Mexico,2020
+Tavian Combs,tavian-combs-1,/cfb/players/tavian-combs-1.html,S,7,24,27,51,0.5,0.5,0,0,,0,1,0,0,0,1,,New Mexico,2020
+Joey Noble,joey-noble-1,/cfb/players/joey-noble-1.html,DE,7,19,21,40,5.0,4.0,0,0,,0,0,1,0,0,1,,New Mexico,2020
+Devin Sanders,devin-sanders-2,/cfb/players/devin-sanders-2.html,LB,7,20,13,33,1.0,0.0,0,0,,0,1,0,0,0,2,,New Mexico,2020
+Jerrick Reed II,jerrick-reed-ii-1,/cfb/players/jerrick-reed-ii-1.html,S,7,25,8,33,1.0,0.0,4,58,14.5,0,3,1,0,0,0,,New Mexico,2020
+Patrick Peek,patrick-peek-1,/cfb/players/patrick-peek-1.html,S,7,19,13,32,2.5,0.5,1,18,18.0,0,3,1,0,0,0,,New Mexico,2020
+Kameron Miller,kameron-miller-1,/cfb/players/kameron-miller-1.html,LB,7,10,19,29,4.0,2.0,0,0,,0,0,0,0,0,1,,New Mexico,2020
+Nico Bolden,nico-bolden-1,/cfb/players/nico-bolden-1.html,S,4,15,10,25,1.0,0.0,0,0,,0,0,0,0,0,3,,New Mexico,2020
+Tony Collier,tony-collier-2,/cfb/players/tony-collier-2.html,CB,6,19,5,24,1.0,0.0,0,0,,0,1,0,0,0,0,,New Mexico,2020
+Letayveon Beaton,letayveon-beaton-1,/cfb/players/letayveon-beaton-1.html,S,5,12,4,16,1.0,0.0,0,0,,0,1,0,0,0,1,,New Mexico,2020
+Jake Saltonstall,jake-saltonstall-1,/cfb/players/jake-saltonstall-1.html,DE,7,5,7,12,2.0,2.0,0,0,,0,1,2,0,0,0,,New Mexico,2020
+Ray Leutele,ray-leutele-1,/cfb/players/ray-leutele-1.html,LB,7,7,4,11,2.5,0.0,0,0,,0,0,0,0,0,0,,New Mexico,2020
+Reco Hannah,reco-hannah-1,/cfb/players/reco-hannah-1.html,LB,3,7,4,11,0.5,0.0,0,0,,0,0,0,0,0,0,,New Mexico,2020
+Ben Gansallo,ben-gansallo-1,/cfb/players/ben-gansallo-1.html,NT,4,3,6,9,3.0,3.0,0,0,,0,0,0,0,0,0,,New Mexico,2020
+Donte Martin,donte-martin-1,/cfb/players/donte-martin-1.html,CB,5,9,0,9,1.0,1.0,0,0,,0,3,0,0,0,0,,New Mexico,2020
+Michael LoVett III,michael-lovett-iii-1,/cfb/players/michael-lovett-iii-1.html,CB,3,7,0,7,0.0,0.0,0,0,,0,0,0,0,0,0,,New Mexico,2020
+Michael Lovett III,michael-lovett-iii-2,/cfb/players/michael-lovett-iii-2.html,,5,7,0,7,0.0,0.0,0,0,,0,0,0,0,0,0,,New Mexico,2020
+Elmer Pauni,elmer-pauni-1,/cfb/players/elmer-pauni-1.html,NT,5,1,6,7,0.5,0.0,0,0,,0,0,0,0,0,0,,New Mexico,2020
+Dion Hunter,dion-hunter-1,/cfb/players/dion-hunter-1.html,LB,4,5,2,7,0.5,0.0,0,0,,0,0,0,0,0,0,,New Mexico,2020
+Nic Wilson,nic-wilson-1,/cfb/players/nic-wilson-1.html,CB,1,5,2,7,0.0,0.0,0,0,,0,0,0,0,0,0,,New Mexico,2020
+Antonio Hunt,antonio-hunt-1,/cfb/players/antonio-hunt-1.html,CB,7,5,2,7,0.0,0.0,0,0,,0,1,0,0,0,0,,New Mexico,2020
+Shaddrick Lowery,shaddrick-lowery-1,/cfb/players/shaddrick-lowery-1.html,S,4,3,3,6,0.0,0.0,0,0,,0,0,0,0,0,0,,New Mexico,2020
+Syaire Riley,syaire-riley-1,/cfb/players/syaire-riley-1.html,LB,7,4,2,6,0.0,0.0,0,0,,0,0,0,0,0,0,,New Mexico,2020
+Omar Darame,omar-darame-1,/cfb/players/omar-darame-1.html,DE,6,2,2,4,1.0,0.0,0,0,,0,0,0,0,0,0,,New Mexico,2020
+Ian Shewell,ian-shewell-1,/cfb/players/ian-shewell-1.html,DL,6,1,2,3,0.0,0.0,0,0,,0,0,1,0,0,0,,New Mexico,2020
+Bobby Cole,bobby-cole-3,/cfb/players/bobby-cole-3.html,RB,7,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,New Mexico,2020
+Ben Bertram,ben-bertram-1,/cfb/players/ben-bertram-1.html,DE,3,1,2,3,1.0,1.0,0,0,,0,0,0,0,0,0,,New Mexico,2020
+Josh Foley,josh-foley-1,/cfb/players/josh-foley-1.html,RB,1,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,New Mexico,2020
+Marquae Kirkendoll,marquae-kirkendoll-1,/cfb/players/marquae-kirkendoll-1.html,S,6,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,New Mexico,2020
+Joshua Woisin,joshua-woisin-1,/cfb/players/joshua-woisin-1.html,LB,7,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,New Mexico,2020
+Corey Hightower,corey-hightower-1,/cfb/players/corey-hightower-1.html,S,7,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,New Mexico,2020
+Bryce Santana,bryce-santana-1,/cfb/players/bryce-santana-1.html,DE,3,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,New Mexico,2020
+Quinn Potts,quinn-potts-1,/cfb/players/quinn-potts-1.html,S,2,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,New Mexico,2020
+Andrew Erickson,andrew-erickson-1,/cfb/players/andrew-erickson-1.html,WR,7,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,New Mexico,2020
+Donovan Murphree,donovan-murphree-1,/cfb/players/donovan-murphree-1.html,PK,7,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,New Mexico,2020
+Bryson Carroll,bryson-carroll-1,/cfb/players/bryson-carroll-1.html,RB,7,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,New Mexico,2020
+Troy Sicaeros,troy-sicaeros-1,/cfb/players/troy-sicaeros-1.html,LS,7,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,New Mexico,2020

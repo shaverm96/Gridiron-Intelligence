@@ -1,0 +1,49 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Delano Robinson,delano-robinson-1,/cfb/players/delano-robinson-1.html,LB,10,51,26,77,6.0,3.0,0,0,,0,1,0,0,0,0,,SMU,2020
+Richard McBryde,richard-mcbryde-1,/cfb/players/richard-mcbryde-1.html,LB,10,42,10,52,8.0,3.0,0,0,,0,2,0,0,0,0,,SMU,2020
+Chace Cromartie,chace-cromartie-1,/cfb/players/chace-cromartie-1.html,S,10,29,17,46,2.5,0.0,0,0,,0,2,0,0,0,1,,SMU,2020
+Brandon Stephens,brandon-stephens-2,/cfb/players/brandon-stephens-2.html,DB,10,36,7,43,1.0,0.0,1,0,0.0,0,10,1,0,0,0,,SMU,2020
+Trevor Denbow,trevor-denbow-1,/cfb/players/trevor-denbow-1.html,S,10,26,11,37,7.0,1.0,1,11,11.0,0,1,0,0,0,3,,SMU,2020
+Donald Clay,donald-clay-1,/cfb/players/donald-clay-1.html,S,10,31,5,36,1.0,0.0,0,0,,0,3,0,0,0,0,,SMU,2020
+Chevin Calloway,chevin-calloway-1,/cfb/players/chevin-calloway-1.html,CB,10,21,12,33,3.0,0.0,0,0,,0,2,1,0,0,0,,SMU,2020
+Ar'mani Johnson,armani-johnson-1,/cfb/players/armani-johnson-1.html,CB,10,23,6,29,1.0,0.0,0,0,,0,3,0,0,0,0,,SMU,2020
+Shaine Hailey,shaine-hailey-1,/cfb/players/shaine-hailey-1.html,LB,10,22,7,29,4.5,0.5,0,0,,0,0,1,0,0,0,,SMU,2020
+Elijah Chatman,elijah-chatman-1,/cfb/players/elijah-chatman-1.html,DT,10,22,3,25,7.5,3.0,0,0,,0,0,2,0,0,0,,SMU,2020
+Gary Wiley,gary-wiley-1,/cfb/players/gary-wiley-1.html,DE,10,13,11,24,5.5,0.0,0,0,,0,0,1,0,0,1,,SMU,2020
+Jimmy Phillips Jr.,jimmy-phillips-jr-1,/cfb/players/jimmy-phillips-jr-1.html,LB,10,19,4,23,1.5,1.0,1,2,2.0,0,0,0,0,0,0,,SMU,2020
+Turner Coxe,turner-coxe-1,/cfb/players/turner-coxe-1.html,DE,10,13,9,22,5.0,3.5,0,0,,0,1,0,0,0,0,,SMU,2020
+Brandon Crossley,brandon-crossley-1,/cfb/players/brandon-crossley-1.html,CB,10,18,3,21,2.0,0.0,4,35,8.8,1,5,0,0,0,0,,SMU,2020
+Nelson Paul,nelson-paul-1,/cfb/players/nelson-paul-1.html,DE,9,11,8,19,4.5,2.5,0,0,,0,0,1,0,0,0,,SMU,2020
+Junior Aho,junior-aho-1,/cfb/players/junior-aho-1.html,DL,10,11,7,18,5.5,4.0,0,0,,0,0,0,0,0,1,,SMU,2020
+Roderick Roberson Jr.,roderick-roberson-jr-1,/cfb/players/roderick-roberson-jr-1.html,S,8,9,5,14,0.0,0.0,0,0,,0,2,0,0,0,1,,SMU,2020
+Tony Ndukwe,tony-ndukwe-1,/cfb/players/tony-ndukwe-1.html,DE,10,5,6,11,1.0,0.0,0,0,,0,0,0,0,0,0,,SMU,2020
+Will Jones,will-jones-2,/cfb/players/will-jones-2.html,DT,10,6,5,11,3.5,2.5,0,0,,0,0,0,0,0,0,,SMU,2020
+Brian Holloway,brian-holloway-1,/cfb/players/brian-holloway-1.html,LB,9,6,3,9,0.0,0.0,0,0,,0,1,0,0,0,0,,SMU,2020
+Cam'ron Jones,camron-jones-1,/cfb/players/camron-jones-1.html,DB,3,9,0,9,1.0,0.0,0,0,,0,0,0,0,0,0,,SMU,2020
+JC Rispress,jc-rispress-1,/cfb/players/jc-rispress-1.html,LB,6,6,1,7,0.0,0.0,0,0,,0,0,0,0,0,0,,SMU,2020
+Devere Levelston,devere-levelston-1,/cfb/players/devere-levelston-1.html,DT,9,4,2,6,1.0,1.0,0,0,,0,0,0,0,0,0,,SMU,2020
+Terrance Newman,terrance-newman-1,/cfb/players/terrance-newman-1.html,DT,10,3,3,6,2.0,0.0,0,0,,0,0,1,0,0,1,,SMU,2020
+Bryan Massey,bryan-massey-1,/cfb/players/bryan-massey-1.html,CB,8,6,0,6,0.0,0.0,0,0,,0,1,0,0,0,0,,SMU,2020
+Mike Williams,mike-williams-27,/cfb/players/mike-williams-27.html,DT,7,3,3,6,0.0,0.0,0,0,,0,0,0,0,0,0,,SMU,2020
+Harrison Loveless,harrison-loveless-1,/cfb/players/harrison-loveless-1.html,DT,10,2,2,4,1.0,1.0,0,0,,0,0,0,0,0,0,,SMU,2020
+Preston Ellison,preston-ellison-1,/cfb/players/preston-ellison-1.html,LB,4,2,0,2,1.0,0.0,0,0,,0,1,0,0,0,0,,SMU,2020
+Will Benton,will-benton-1,/cfb/players/will-benton-1.html,LS,10,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,SMU,2020
+Karl Taylor,karl-taylor-1,/cfb/players/karl-taylor-1.html,DB,1,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,SMU,2020
+Judah Bell,judah-bell-1,/cfb/players/judah-bell-1.html,WR,10,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,SMU,2020
+TaMerik Williams,tamerik-williams-1,/cfb/players/tamerik-williams-1.html,RB,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,SMU,2020
+Armando Fitz,armando-fitz-2,/cfb/players/armando-fitz-2.html,LB,8,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,SMU,2020
+Warren Walls,warren-walls-1,/cfb/players/warren-walls-1.html,DE,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,SMU,2020
+Tyler Lavine,tyler-lavine-1,/cfb/players/tyler-lavine-1.html,RB,10,1,0,1,0.0,0.0,0,0,,0,0,1,0,0,0,,SMU,2020
+Austin Upshaw,austin-upshaw-1,/cfb/players/austin-upshaw-1.html,WR,10,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,SMU,2020
+Beau Morris,beau-morris-1,/cfb/players/beau-morris-1.html,OL,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,SMU,2020
+Jacob Pugh,jacob-pugh-2,/cfb/players/jacob-pugh-2.html,DT,6,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,SMU,2020
+TJ McDaniel,tj-mcdaniel-1,/cfb/players/tj-mcdaniel-1.html,RB,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,SMU,2020
+Keke Burns,keke-burns-1,/cfb/players/keke-burns-1.html,WR,9,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,SMU,2020
+Shane Buechele,shane-buechele-1,/cfb/players/shane-buechele-1.html,QB,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,SMU,2020
+Sam Westfall,sam-westfall-1,/cfb/players/sam-westfall-1.html,CB,5,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,SMU,2020
+Richard Moore,richard-moore-2,/cfb/players/richard-moore-2.html,LB,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,SMU,2020
+Christian Davis,christian-davis-1,/cfb/players/christian-davis-1.html,CB,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,SMU,2020
+Reggie Roberson Jr.,reggie-roberson-jr-1,/cfb/players/reggie-roberson-jr-1.html,WR,5,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,SMU,2020
+Ra-Sun Kazadi,ra-sun-kazadi-1,/cfb/players/ra-sun-kazadi-1.html,S,3,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,SMU,2020
+Darren Brown,darren-brown-3,/cfb/players/darren-brown-3.html,DT,3,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,SMU,2020
+Terry Keys III,terry-keys-iii-1,/cfb/players/terry-keys-iii-1.html,CB,1,0,0,0,0.0,0.0,0,0,,0,0,1,0,0,0,,SMU,2020

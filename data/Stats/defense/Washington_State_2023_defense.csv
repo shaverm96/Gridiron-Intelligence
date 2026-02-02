@@ -1,0 +1,41 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Kyle Thornton,kyle-thornton-1,/cfb/players/kyle-thornton-1.html,LB,12,35,52,87,4.5,1.0,0,0,,0,1,0,0,0,1,,Washington State,2023
+Jaden Hicks,jaden-hicks-1,/cfb/players/jaden-hicks-1.html,DB,12,49,30,79,6.0,2.5,2,37,18.5,1,4,0,0,0,1,,Washington State,2023
+Sam Lockett III,sam-lockett-iii-1,/cfb/players/sam-lockett-iii-1.html,DB,12,43,30,73,3.0,0.5,2,27,13.5,0,1,1,3,0,1,,Washington State,2023
+Devin Richardson,devin-richardson-1,/cfb/players/devin-richardson-1.html,LB,12,31,31,62,2.5,1.0,0,0,,0,0,0,0,0,1,,Washington State,2023
+Ron Stone Jr.,ron-stone-jr-1,/cfb/players/ron-stone-jr-1.html,DE,12,28,31,59,11.0,5.0,0,0,,0,1,1,0,0,3,,Washington State,2023
+Brennan Jackson,brennan-jackson-1,/cfb/players/brennan-jackson-1.html,DL,12,26,31,57,12.5,8.5,0,0,,0,3,4,116,3,1,,Washington State,2023
+Taariq Al-Uqdah,taariq-al-uqdah-1,/cfb/players/taariq-al-uqdah-1.html,LB,11,22,18,40,2.0,0.0,1,10,10.0,0,2,0,0,0,0,,Washington State,2023
+Kapena Gushiken,kapena-gushiken-1,/cfb/players/kapena-gushiken-1.html,DB,12,16,20,36,1.5,1.0,1,88,88.0,1,5,0,0,0,0,,Washington State,2023
+Chau Smith-Wade,chau-smith-wade-1,/cfb/players/chau-smith-wade-1.html,DB,7,22,13,35,2.0,0.0,0,0,,0,6,0,0,0,0,,Washington State,2023
+Cam Lampkin,cam-lampkin-1,/cfb/players/cam-lampkin-1.html,DB,12,16,18,34,1.5,0.0,0,0,,0,8,0,0,0,0,,Washington State,2023
+Jackson Lataimua,jackson-lataimua-1,/cfb/players/jackson-lataimua-1.html,DB,12,19,13,32,1.0,0.0,1,0,0.0,0,1,1,0,0,0,,Washington State,2023
+Na'im Rodman,naim-rodman-1,/cfb/players/naim-rodman-1.html,DL,12,11,19,30,2.0,0.0,0,0,,0,0,0,0,0,0,,Washington State,2023
+David Gusta,david-gusta-1,/cfb/players/david-gusta-1.html,DL,11,10,20,30,2.0,0.5,0,0,,0,0,0,0,0,0,,Washington State,2023
+Nusi Malani,nusi-malani-1,/cfb/players/nusi-malani-1.html,DL,12,10,14,24,4.0,2.5,0,0,,0,1,0,0,0,0,,Washington State,2023
+Stephen Hall,stephen-hall-1,/cfb/players/stephen-hall-1.html,DB,11,10,10,20,3.0,0.0,0,0,,0,1,0,0,0,0,,Washington State,2023
+Raam Stevenson,raam-stevenson-1,/cfb/players/raam-stevenson-1.html,DE,10,6,10,16,0.5,0.0,0,0,,0,0,0,0,0,0,,Washington State,2023
+Javan Robinson,javan-robinson-1,/cfb/players/javan-robinson-1.html,RB,7,9,3,12,1.5,0.0,0,0,,0,1,0,0,0,0,,Washington State,2023
+Khalil Laufau,khalil-laufau-1,/cfb/players/khalil-laufau-1.html,DL,9,4,8,12,0.0,0.0,0,0,,0,0,0,0,0,0,,Washington State,2023
+Jamorri Colson,jamorri-colson-1,/cfb/players/jamorri-colson-1.html,DB,8,5,3,8,0.0,0.0,1,0,0.0,0,3,0,0,0,0,,Washington State,2023
+Andrew Edson,andrew-edson-1,/cfb/players/andrew-edson-1.html,DE,12,4,4,8,0.5,0.5,0,0,,0,0,0,0,0,0,,Washington State,2023
+Quinn Roff,quinn-roff-1,/cfb/players/quinn-roff-1.html,DE,6,6,2,8,1.0,1.0,0,0,,0,0,0,0,0,0,,Washington State,2023
+Reece Sylvester,reece-sylvester-1,/cfb/players/reece-sylvester-1.html,DB,3,4,3,7,0.0,0.0,0,0,,0,0,0,0,0,0,,Washington State,2023
+Hudson Cedarland,hudson-cedarland-1,/cfb/players/hudson-cedarland-1.html,LB,12,2,4,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Washington State,2023
+Adrian Wilson,adrian-wilson-3,/cfb/players/adrian-wilson-3.html,DB,4,3,3,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Washington State,2023
+Chris Jackson,chris-jackson-13,/cfb/players/chris-jackson-13.html,DB,10,1,3,4,0.0,0.0,0,0,,0,1,0,0,0,0,,Washington State,2023
+Jernias Tafia,jernias-tafia-1,/cfb/players/jernias-tafia-1.html,DL,12,1,3,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Washington State,2023
+Joshua Erling,joshua-erling-1,/cfb/players/joshua-erling-1.html,LB,9,2,2,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Washington State,2023
+Tanner Moku,tanner-moku-1,/cfb/players/tanner-moku-1.html,DB,8,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Washington State,2023
+Warren Smith Jr.,warren-smith-jr-1,/cfb/players/warren-smith-jr-1.html,DB,1,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Washington State,2023
+Ahmad Mccullough,ahmad-mccullough-1,/cfb/players/ahmad-mccullough-1.html,LB,9,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Washington State,2023
+Ansel Din-Mbuh,ansel-din-mbuh-1,/cfb/players/ansel-din-mbuh-1.html,DL,10,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Washington State,2023
+Tsion Nunnally,tsion-nunnally-1,/cfb/players/tsion-nunnally-1.html,WR,12,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Washington State,2023
+Nakia Watson,nakia-watson-1,/cfb/players/nakia-watson-1.html,RB,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Washington State,2023
+Leyton Smithson,leyton-smithson-1,/cfb/players/leyton-smithson-1.html,WR,9,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Washington State,2023
+Joseph Roback,joseph-roback-1,/cfb/players/joseph-roback-1.html,LB,6,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Washington State,2023
+Cooper Mathers,cooper-mathers-1,/cfb/players/cooper-mathers-1.html,TE,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Washington State,2023
+Colton Theaker,colton-theaker-1,/cfb/players/colton-theaker-1.html,K,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Washington State,2023
+Cole Norah,cole-norah-1,/cfb/players/cole-norah-1.html,DB,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Washington State,2023
+Billy Riviere,billy-riviere-1,/cfb/players/billy-riviere-1.html,TE,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Washington State,2023
+Andre Dollar,andre-dollar-1,/cfb/players/andre-dollar-1.html,TE,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Washington State,2023

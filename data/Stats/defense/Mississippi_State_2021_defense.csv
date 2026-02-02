@@ -1,0 +1,42 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Jett Johnson,jett-johnson-1,/cfb/players/jett-johnson-1.html,LB,13,37,49,86,6.0,0.0,1,48,48.0,0,3,2,12,0,1,,Mississippi State,2021
+Nathaniel Watson,nathaniel-watson-1,/cfb/players/nathaniel-watson-1.html,LB,12,33,51,84,6.0,5.0,0,0,,0,1,0,0,0,0,,Mississippi State,2021
+Fred Peters,fred-peters-1,/cfb/players/fred-peters-1.html,S,11,34,45,79,0.5,0.0,2,12,6.0,0,1,0,0,0,0,,Mississippi State,2021
+Emmanuel Forbes,emmanuel-forbes-1,/cfb/players/emmanuel-forbes-1.html,CB,13,46,14,60,5.0,1.0,3,33,11.0,0,5,0,0,0,1,,Mississippi State,2021
+Aaron Brule,aaron-brule-1,/cfb/players/aaron-brule-1.html,LB,12,23,29,52,7.5,2.5,0,0,,0,0,0,0,0,0,,Mississippi State,2021
+Cameron Young,cameron-young-2,/cfb/players/cameron-young-2.html,DT,12,18,33,51,2.5,0.0,1,5,5.0,0,2,0,0,0,0,,Mississippi State,2021
+Martin Emerson,martin-emerson-1,/cfb/players/martin-emerson-1.html,CB,12,31,18,49,3.0,0.0,0,0,,0,3,0,0,0,0,,Mississippi State,2021
+Tyrus Wheat,tyrus-wheat-1,/cfb/players/tyrus-wheat-1.html,LB,13,20,26,46,10.5,7.5,1,0,0.0,0,2,1,0,0,1,,Mississippi State,2021
+Collin Duncan,collin-duncan-1,/cfb/players/collin-duncan-1.html,S,13,21,25,46,1.5,0.0,0,0,,0,4,0,0,0,0,,Mississippi State,2021
+Jalen Green,jalen-green-3,/cfb/players/jalen-green-3.html,S,12,22,19,41,1.5,0.0,2,0,0.0,0,4,1,0,0,0,,Mississippi State,2021
+Randy Charlton,randy-charlton-1,/cfb/players/randy-charlton-1.html,DE,12,14,21,35,5.0,4.0,0,0,,0,0,0,0,0,1,,Mississippi State,2021
+Shawn Preston Jr.,shawn-preston-jr-1,/cfb/players/shawn-preston-jr-1.html,S,11,11,18,29,0.0,0.0,1,1,1.0,0,1,0,0,0,0,,Mississippi State,2021
+Nathan Pickering,nathan-pickering-1,/cfb/players/nathan-pickering-1.html,DT,13,13,14,27,7.0,4.0,0,0,,0,0,0,0,0,0,,Mississippi State,2021
+Jaden Crumedy,jaden-crumedy-1,/cfb/players/jaden-crumedy-1.html,DT,12,8,12,20,2.0,1.0,0,0,,0,1,0,0,0,1,,Mississippi State,2021
+Aaron Odom,aaron-odom-1,/cfb/players/aaron-odom-1.html,DE,12,5,12,17,4.0,3.0,0,0,,0,0,1,0,0,1,,Mississippi State,2021
+Decamerion Richardson,decamerion-richardson-1,/cfb/players/decamerion-richardson-1.html,CB,13,13,0,13,0.0,0.0,0,0,,0,0,0,0,0,0,,Mississippi State,2021
+De'Monte Russell,demonte-russell-1,/cfb/players/demonte-russell-1.html,DE,11,6,7,13,2.5,0.0,0,0,,0,0,0,0,0,1,,Mississippi State,2021
+Sherman Timbs,sherman-timbs-1,/cfb/players/sherman-timbs-1.html,LB,13,4,8,12,1.0,0.0,0,0,,0,0,0,0,0,0,,Mississippi State,2021
+Corey Ellington,corey-ellington-1,/cfb/players/corey-ellington-1.html,S,8,8,4,12,0.0,0.0,0,0,,0,0,0,0,0,0,,Mississippi State,2021
+DeShawn Page,deshawn-page-1,/cfb/players/deshawn-page-1.html,LB,13,2,9,11,1.5,0.0,0,0,,0,0,0,0,0,0,,Mississippi State,2021
+Jack Harris,jack-harris-2,/cfb/players/jack-harris-2.html,DE,5,1,8,9,1.5,0.0,0,0,,0,0,0,0,0,0,,Mississippi State,2021
+Ty Cooper,ty-cooper-1,/cfb/players/ty-cooper-1.html,LB,8,1,6,7,0.5,0.0,0,0,,0,0,0,0,0,0,,Mississippi State,2021
+Daniel Greek,daniel-greek-1,/cfb/players/daniel-greek-1.html,QB,1,3,3,6,1.0,0.0,0,0,,0,0,0,0,0,0,,Mississippi State,2021
+Dylan Lawrence,dylan-lawrence-1,/cfb/players/dylan-lawrence-1.html,S,11,2,3,5,1.0,0.0,0,0,,0,0,0,0,0,1,,Mississippi State,2021
+Jevon Banks,jevon-banks-1,/cfb/players/jevon-banks-1.html,DE,6,3,2,5,1.0,0.0,0,0,,0,0,0,0,0,0,,Mississippi State,2021
+Esaias Furdge,esaias-furdge-1,/cfb/players/esaias-furdge-1.html,CB,6,1,3,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Mississippi State,2021
+Janari Dean,janari-dean-1,/cfb/players/janari-dean-1.html,S,9,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Mississippi State,2021
+Jay Jimison,jay-jimison-1,/cfb/players/jay-jimison-1.html,S,7,2,1,3,0.0,0.0,0,0,,0,1,0,0,0,0,,Mississippi State,2021
+John Lewis,john-lewis-7,/cfb/players/john-lewis-7.html,LB,5,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Mississippi State,2021
+Nic Mitchell,nic-mitchell-1,/cfb/players/nic-mitchell-1.html,LB,2,0,3,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Mississippi State,2021
+Makai Polk,makai-polk-1,/cfb/players/makai-polk-1.html,WR,13,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Mississippi State,2021
+Lideatrick Griffin,lideatrick-griffin-1,/cfb/players/lideatrick-griffin-1.html,WR,10,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Mississippi State,2021
+J.P. Purvis,jp-purvis-1,/cfb/players/jp-purvis-1.html,LB,5,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Mississippi State,2021
+Jaden Walley,jaden-walley-1,/cfb/players/jaden-walley-1.html,WR,13,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Mississippi State,2021
+Izuchukwu King Ani,izuchukwu-king-ani-1,/cfb/players/izuchukwu-king-ani-1.html,DE,3,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Mississippi State,2021
+Omni Wells,omni-wells-1,/cfb/players/omni-wells-1.html,RB,6,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Mississippi State,2021
+Rufus Harvey,rufus-harvey-1,/cfb/players/rufus-harvey-1.html,WR,5,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Mississippi State,2021
+Jo'quavious Marks,joquavious-marks-1,/cfb/players/joquavious-marks-1.html,RB,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Mississippi State,2021
+Tucker Day,tucker-day-1,/cfb/players/tucker-day-1.html,P,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Mississippi State,2021
+Grant Jackson,grant-jackson-1,/cfb/players/grant-jackson-1.html,OL,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Mississippi State,2021
+Aiden Martin,aiden-martin-1,/cfb/players/aiden-martin-1.html,K,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Mississippi State,2021

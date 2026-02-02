@@ -1,0 +1,45 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Silas Kelly,silas-kelly-1,/cfb/players/silas-kelly-1.html,LB,12,39,41,80,6.5,5.0,1,0,0.0,0,0,1,0,0,0,,Coastal Carolina,2020
+Teddy Gallagher,teddy-gallagher-1,/cfb/players/teddy-gallagher-1.html,LB,12,33,43,76,4.0,0.5,0,0,,0,0,1,0,0,1,,Coastal Carolina,2020
+Enock Makonzo,enock-makonzo-1,/cfb/players/enock-makonzo-1.html,LB,12,47,29,76,10.5,2.0,0,0,,0,0,1,0,0,2,,Coastal Carolina,2020
+C.J. Brewer,cj-brewer-2,/cfb/players/cj-brewer-2.html,DT,12,27,33,60,11.0,6.5,0,0,,0,0,1,0,0,1,,Coastal Carolina,2020
+Alex Spillum,alex-spillum-1,/cfb/players/alex-spillum-1.html,S,12,39,21,60,1.5,0.0,4,101,25.3,0,4,2,0,0,0,,Coastal Carolina,2020
+Jeffrey Gunter,jeffrey-gunter-1,/cfb/players/jeffrey-gunter-1.html,LB,12,35,23,58,12.5,6.5,1,3,3.0,0,1,0,0,0,6,,Coastal Carolina,2020
+Tarron Jackson,tarron-jackson-1,/cfb/players/tarron-jackson-1.html,DE,12,25,29,54,14.0,8.5,0,0,,0,0,1,0,0,3,AA,Coastal Carolina,2020
+Derick Bush,derick-bush-1,/cfb/players/derick-bush-1.html,CB,12,26,15,41,4.5,1.0,2,50,25.0,0,6,0,0,0,0,,Coastal Carolina,2020
+Brayden Matts,brayden-matts-1,/cfb/players/brayden-matts-1.html,S,12,26,13,39,0.0,0.0,2,3,1.5,0,4,2,0,0,0,,Coastal Carolina,2020
+Jerrod Clark,jerrod-clark-1,/cfb/players/jerrod-clark-1.html,,12,10,21,31,4.0,2.0,0,0,,0,1,0,0,0,0,,Coastal Carolina,2020
+Jarrod Clark,jarrod-clark-1,/cfb/players/jarrod-clark-1.html,NT,10,10,21,31,4.0,2.0,0,0,,0,1,0,0,0,0,,Coastal Carolina,2020
+D'Jordan Strong,djordan-strong-1,/cfb/players/djordan-strong-1.html,CB,12,23,7,30,2.0,0.0,5,68,13.6,1,7,0,0,0,1,,Coastal Carolina,2020
+Jordan Morris,jordan-morris-1,/cfb/players/jordan-morris-1.html,CB,12,16,5,21,0.0,0.0,1,2,2.0,0,1,0,0,0,0,,Coastal Carolina,2020
+Travis Geiger Jr.,travis-geiger-jr-1,/cfb/players/travis-geiger-jr-1.html,,12,2,17,19,0.5,0.5,0,0,,0,0,0,0,0,0,,Coastal Carolina,2020
+Travis Geiger,travis-geiger-1,/cfb/players/travis-geiger-1.html,NT,9,2,17,19,0.5,0.5,0,0,,0,0,0,0,0,0,,Coastal Carolina,2020
+Kendricks Gladney,kendricks-gladney-1,/cfb/players/kendricks-gladney-1.html,LB,12,10,9,19,1.0,0.0,0,0,,0,1,0,0,0,1,,Coastal Carolina,2020
+E.J. Porter,ej-porter-1,/cfb/players/ej-porter-1.html,LB,12,3,11,14,1.0,0.0,0,0,,0,0,0,0,0,0,,Coastal Carolina,2020
+Mateo Sudipo,mateo-sudipo-1,/cfb/players/mateo-sudipo-1.html,S,11,11,2,13,0.0,0.0,0,0,,0,0,0,0,0,0,,Coastal Carolina,2020
+Shane Bruce,shane-bruce-1,/cfb/players/shane-bruce-1.html,LB,7,5,7,12,0.0,0.0,0,0,,0,0,0,0,0,0,,Coastal Carolina,2020
+Kennedy Roberts,kennedy-roberts-1,/cfb/players/kennedy-roberts-1.html,DT,12,3,8,11,1.0,0.5,0,0,,0,0,0,0,0,0,,Coastal Carolina,2020
+JT Killen,jt-killen-1,/cfb/players/jt-killen-1.html,LB,12,4,6,10,0.0,0.0,0,0,,0,0,0,0,0,0,,Coastal Carolina,2020
+KJ Johnson II,kj-johnson-ii-1,/cfb/players/kj-johnson-ii-1.html,S,9,8,1,9,0.5,0.0,0,0,,0,1,0,0,0,0,,Coastal Carolina,2020
+Myles Olufemi,myles-olufemi-1,/cfb/players/myles-olufemi-1.html,LB,11,5,3,8,2.0,1.0,0,0,,0,0,0,0,0,0,,Coastal Carolina,2020
+Rolan Wooden II,rolan-wooden-ii-1,/cfb/players/rolan-wooden-ii-1.html,DT,11,3,4,7,0.0,0.0,0,0,,0,0,0,0,0,1,,Coastal Carolina,2020
+Manny Stokes Jr.,manny-stokes-jr-1,/cfb/players/manny-stokes-jr-1.html,CB,12,4,3,7,0.0,0.0,0,0,,0,0,0,0,0,0,,Coastal Carolina,2020
+Shi'heem Watkins,shiheem-watkins-1,/cfb/players/shiheem-watkins-1.html,S,12,4,1,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Coastal Carolina,2020
+Isaiah Stephens,isaiah-stephens-1,/cfb/players/isaiah-stephens-1.html,LB,12,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Coastal Carolina,2020
+Jamar Darboe,jamar-darboe-1,/cfb/players/jamar-darboe-1.html,LB,2,1,3,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Coastal Carolina,2020
+Damari Kelly,damari-kelly-1,/cfb/players/damari-kelly-1.html,CB,12,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Coastal Carolina,2020
+Charles Steele,charles-steele-1,/cfb/players/charles-steele-1.html,LB,10,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Coastal Carolina,2020
+James Thompson,james-thompson-7,/cfb/players/james-thompson-7.html,OL,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Coastal Carolina,2020
+Willie Lampkin,willie-lampkin-1,/cfb/players/willie-lampkin-1.html,OL,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Coastal Carolina,2020
+Greg Latushko,greg-latushko-1,/cfb/players/greg-latushko-1.html,WR,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Coastal Carolina,2020
+Jaivon Heiligh,jaivon-heiligh-1,/cfb/players/jaivon-heiligh-1.html,WR,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Coastal Carolina,2020
+C.J. Marable,torrance-marable-1,/cfb/players/torrance-marable-1.html,RB,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Coastal Carolina,2020
+Chris Evans,chris-evans-3,/cfb/players/chris-evans-3.html,LB,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Coastal Carolina,2020
+CJ Schrimpf,cj-schrimpf-1,/cfb/players/cj-schrimpf-1.html,LS,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Coastal Carolina,2020
+Kameron Burton,kameron-burton-1,/cfb/players/kameron-burton-1.html,S,8,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Coastal Carolina,2020
+Jayden Perry,jayden-perry-1,/cfb/players/jayden-perry-1.html,LS,3,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Coastal Carolina,2020
+Davon Bomar,davon-bomar-1,/cfb/players/davon-bomar-1.html,DE,5,0,1,1,0.5,0.0,0,0,,0,0,0,0,0,0,,Coastal Carolina,2020
+Myles Baker,myles-baker-1,/cfb/players/myles-baker-1.html,CB,7,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Coastal Carolina,2020
+Michael McFarlane,michael-mcfarlene-1,/cfb/players/michael-mcfarlene-1.html,TE,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Coastal Carolina,2020
+Massimo Biscardi,massimo-biscardi-1,/cfb/players/massimo-biscardi-1.html,PK,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Coastal Carolina,2020
+Coleman Reich,coleman-reich-1,/cfb/players/coleman-reich-1.html,LB,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Coastal Carolina,2020

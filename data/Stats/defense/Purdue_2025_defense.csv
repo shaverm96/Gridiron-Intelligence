@@ -1,0 +1,42 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Mani Powell,mani-powell-1,/cfb/players/mani-powell-1.html,LB,12,53,57,110,12.0,5.0,0,0,,0,2,0,0,0,1,,Purdue,2025
+Tahj Ra-El,tahj-ra-el-1,/cfb/players/tahj-ra-el-1.html,DB,12,59,51,110,2.5,0.0,0,0,,0,5,1,0,0,0,,Purdue,2025
+Charles Correa,charles-correa-1,/cfb/players/charles-correa-1.html,LB,12,39,57,96,7.5,3.0,0,0,,0,2,0,0,0,0,,Purdue,2025
+Myles Slusher,myles-slusher-1,/cfb/players/myles-slusher-1.html,DB,10,39,23,62,2.0,1.0,1,18,18.0,0,3,0,0,0,1,,Purdue,2025
+Alex Sanford,alex-sanford-1,/cfb/players/alex-sanford-1.html,LB,12,17,29,46,3.5,0.0,0,0,,0,1,1,13,0,0,,Purdue,2025
+CJ Nunnally IV,cj-mcnunnally-1,/cfb/players/cj-mcnunnally-1.html,DL,12,30,14,44,10.5,5.0,1,0,0.0,0,1,1,0,0,2,,Purdue,2025
+Tony Grimes,tony-grimes-2,/cfb/players/tony-grimes-2.html,DB,11,20,14,34,0.0,0.0,0,0,,0,5,0,0,0,0,,Purdue,2025
+Hudauri Hines,hudauri-hines-1,/cfb/players/hudauri-hines-1.html,DB,12,23,10,33,1.5,0.0,1,0,0.0,0,8,0,0,0,0,,Purdue,2025
+Smiley Bradford,smiley-bradford-1,/cfb/players/smiley-bradford-1.html,DB,12,22,8,30,5.0,0.0,1,0,0.0,0,6,0,0,0,0,,Purdue,2025
+Hershey McLaurin,hershey-mclaurin-1,/cfb/players/hershey-mclaurin-1.html,DB,5,15,10,25,1.0,1.0,0,0,,0,1,0,0,0,2,,Purdue,2025
+Breeon Ishmail,breeon-ishmail-1,/cfb/players/breeon-ishmail-1.html,DE,12,10,13,23,2.0,1.0,0,0,,0,0,1,0,0,0,,Purdue,2025
+Demeco Kennedy,demeco-kennedy-1,/cfb/players/demeco-kennedy-1.html,DL,12,8,13,21,3.0,1.5,0,0,,0,0,0,0,0,0,,Purdue,2025
+Ian Jeffries,ian-jeffries-1,/cfb/players/ian-jeffries-1.html,DL,12,5,15,20,3.0,1.0,0,0,,0,0,0,0,0,0,,Purdue,2025
+C.J. Madden,cj-madden-1,/cfb/players/cj-madden-1.html,DE,12,5,11,16,2.5,0.5,0,0,,0,0,0,0,0,0,,Purdue,2025
+Trey Smith,trey-smith-7,/cfb/players/trey-smith-7.html,DE,12,7,8,15,1.0,1.0,0,0,,0,0,0,0,0,0,,Purdue,2025
+An'darius Coffey,andarius-coffey-1,/cfb/players/andarius-coffey-1.html,DB,11,9,4,13,0.0,0.0,0,0,,0,0,0,0,0,0,,Purdue,2025
+Jamarrion Harkless,jamarrion-harkless-1,/cfb/players/jamarrion-harkless-1.html,DL,12,4,9,13,2.5,2.5,0,0,,0,0,0,0,0,0,,Purdue,2025
+Ryan Turner,ryan-turner-1,/cfb/players/ryan-turner-1.html,DB,7,5,5,10,0.5,0.5,0,0,,0,0,0,0,0,0,,Purdue,2025
+Vi'Naz Cobb,vinaz-cobb-1,/cfb/players/vinaz-cobb-1.html,DB,5,7,2,9,0.0,0.0,0,0,,0,0,0,0,0,0,,Purdue,2025
+Crew Wakley,crew-wakley-1,/cfb/players/crew-wakley-1.html,DB,4,6,3,9,1.0,0.0,0,0,,0,1,0,0,0,0,,Purdue,2025
+Traveon Wright,traveon-wright-1,/cfb/players/traveon-wright-1.html,DB,11,4,3,7,0.0,0.0,0,0,,0,2,0,0,0,0,,Purdue,2025
+Isaiah Needam,isaiah-needam-1,/cfb/players/isaiah-needam-1.html,DB,11,4,2,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Purdue,2025
+Winston Berglund,winston-berglund-1,/cfb/players/winston-berglund-1.html,LB,11,3,3,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Purdue,2025
+Sanders Ellis,sanders-ellis-1,/cfb/players/sanders-ellis-1.html,LB,11,2,4,6,0.5,0.5,0,0,,0,0,0,0,0,0,,Purdue,2025
+Breylon Charles,breylon-charles-1,/cfb/players/breylon-charles-1.html,DL,5,2,3,5,0.5,0.5,0,0,,0,0,0,0,0,0,,Purdue,2025
+T.J. Lindsey,tj-lindsey-1,/cfb/players/tj-lindsey-1.html,DL,3,4,1,5,1.0,0.0,0,0,,0,0,0,0,0,0,,Purdue,2025
+Jamarius Dinkins,jamarius-dinkins-1,/cfb/players/jamarius-dinkins-1.html,DL,8,2,1,3,1.0,0.0,0,0,,0,0,0,0,0,0,,Purdue,2025
+Richard Toney,richard-toney-1,/cfb/players/richard-toney-1.html,DB,3,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Purdue,2025
+Luke Raab,luke-raab-1,/cfb/players/luke-raab-1.html,LS,12,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Purdue,2025
+Chalil Cummings,chalil-cummings-1,/cfb/players/chalil-cummings-1.html,DB,9,2,1,3,0.0,0.0,0,0,,0,2,0,0,0,0,,Purdue,2025
+Sterling Smith,sterling-smith-1,/cfb/players/sterling-smith-1.html,S,12,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Purdue,2025
+D'Mon Marable,dmon-marable-1,/cfb/players/dmon-marable-1.html,DB,12,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Purdue,2025
+Marcus Moore Jr.,marcus-moore-jr-1,/cfb/players/marcus-moore-jr-1.html,DL,3,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Purdue,2025
+Corey Smith,corey-smith-9,/cfb/players/corey-smith-9.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Purdue,2025
+Hank Purvis,hank-purvis-1,/cfb/players/hank-purvis-1.html,OL,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Purdue,2025
+Christian Moore,christian-moore-1,/cfb/players/christian-moore-1.html,TE,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Purdue,2025
+Jaxon Ott,jaxon-ott-1,/cfb/players/jaxon-ott-1.html,LB,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Purdue,2025
+Ryan Browne,ryan-browne-1,/cfb/players/ryan-browne-1.html,QB,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Purdue,2025
+Rico Walker,rico-walker-1,/cfb/players/rico-walker-1.html,TE,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Purdue,2025
+Devin Mockobee,devin-mockobee-1,/cfb/players/devin-mockobee-1.html,RB,8,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Purdue,2025
+Miles Mitchell,miles-mitchell-1,/cfb/players/miles-mitchell-1.html,DL,7,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Purdue,2025

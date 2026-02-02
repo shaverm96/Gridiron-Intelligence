@@ -1,0 +1,46 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Trenton Greene,trenton-greene-1,/cfb/players/trenton-greene-1.html,LB,12,54,57,111,8.5,4.0,1,0,0.0,0,2,1,0,0,3,,Bowling Green,2016
+Jamari Bozeman,jamari-bozeman-1,/cfb/players/jamari-bozeman-1.html,DB,12,42,29,71,1.5,0.0,3,5,1.7,0,3,0,0,0,1,,Bowling Green,2016
+Brandon Harris,brandon-harris-10,/cfb/players/brandon-harris-10.html,DB,12,34,25,59,3.0,1.0,2,76,38.0,1,4,1,0,0,1,,Bowling Green,2016
+Austin Valdez,austin-valdez-1,/cfb/players/austin-valdez-1.html,LB,10,21,37,58,1.0,0.0,0,0,,0,2,0,0,0,0,,Bowling Green,2016
+David Konowalski,david-konowalski-1,/cfb/players/david-konowalski-1.html,DL,12,22,27,49,3.0,2.5,0,0,,0,1,0,0,0,0,,Bowling Green,2016
+Izaah Lunsford,izaah-lunsford-1,/cfb/players/izaah-lunsford-1.html,DL,12,21,27,48,3.5,1.0,0,0,,0,1,1,0,0,0,,Bowling Green,2016
+Terrance Bush,terrance-bush-1,/cfb/players/terrance-bush-1.html,DL,12,19,29,48,3.0,2.5,0,0,,0,1,0,0,0,0,,Bowling Green,2016
+Robert Jackson Jr.,robert-jackson-jr-1,/cfb/players/robert-jackson-jr-1.html,DB,10,28,19,47,0.0,0.0,0,0,,0,2,0,0,0,2,,Bowling Green,2016
+Tavarus Wade,tavarus-wade-1,/cfb/players/tavarus-wade-1.html,DB,11,31,9,40,1.0,0.0,0,0,,0,2,0,0,0,1,,Bowling Green,2016
+Alfonso Mack,alfonso-mack-1,/cfb/players/alfonso-mack-1.html,DB,11,23,12,35,1.0,0.0,1,47,47.0,0,5,0,0,0,0,,Bowling Green,2016
+Gus Schwieterman,gus-schwieterman-1,/cfb/players/gus-schwieterman-1.html,DL,12,20,8,28,12.0,5.0,0,0,,0,0,1,0,0,0,,Bowling Green,2016
+Nate Locke,nate-locke-1,/cfb/players/nate-locke-1.html,LB,12,18,10,28,1.5,0.5,0,0,,0,1,0,0,0,0,,Bowling Green,2016
+Antonyo Sotolongo,antonyo-sotolongo-1,/cfb/players/antonyo-sotolongo-1.html,DB,9,13,12,25,0.0,0.0,1,7,7.0,0,0,0,0,0,0,,Bowling Green,2016
+Tyrik Jones,tyrik-jones-1,/cfb/players/tyrik-jones-1.html,DL,10,17,7,24,5.0,4.5,0,0,,0,0,0,0,0,0,,Bowling Green,2016
+Will Watson,will-watson-1,/cfb/players/will-watson-1.html,DB,6,13,9,22,0.5,0.0,0,0,,0,4,1,0,0,0,,Bowling Green,2016
+Jerry McBride III,jerry-mcbride-iii-1,/cfb/players/jerry-mcbride-iii-1.html,DB,11,17,4,21,0.5,0.0,0,0,,0,1,0,0,0,0,,Bowling Green,2016
+James Sanford,james-sanford-1,/cfb/players/james-sanford-1.html,LB,12,13,6,19,0.5,0.0,0,0,,0,1,1,0,0,0,,Bowling Green,2016
+Cameron Jefferies,cameron-jefferies-1,/cfb/players/cameron-jefferies-1.html,DB,12,13,5,18,0.0,0.0,0,0,,0,3,0,0,0,0,,Bowling Green,2016
+Nilijah Ballew,nilijah-ballew-1,/cfb/players/nilijah-ballew-1.html,DB,12,14,4,18,2.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2016
+Shannon Smith,shannon-smith-2,/cfb/players/shannon-smith-2.html,DL,11,7,7,14,2.0,1.0,0,0,,0,0,0,0,0,1,,Bowling Green,2016
+Marcus Milton,marcus-milton-1,/cfb/players/marcus-milton-1.html,DB,10,11,3,14,0.0,0.0,1,0,0.0,0,1,1,76,1,0,,Bowling Green,2016
+Kyle Junior,kyle-junior-1,/cfb/players/kyle-junior-1.html,DL,12,4,7,11,0.5,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2016
+Montre Gregory,montre-gregory-1,/cfb/players/montre-gregory-1.html,DB,8,8,3,11,0.0,0.0,0,0,,0,2,0,0,0,0,,Bowling Green,2016
+Dorian Hendrix,dorian-hendrix-1,/cfb/players/dorian-hendrix-1.html,LB,11,8,3,11,2.0,1.0,0,0,,0,0,0,0,0,0,,Bowling Green,2016
+Trevor Roop,trevor-roop-1,/cfb/players/trevor-roop-1.html,WR,10,7,2,9,0.0,0.0,0,0,,0,0,0,0,0,1,,Bowling Green,2016
+Brian Sanders,brian-sanders-1,/cfb/players/brian-sanders-1.html,DL,11,7,2,9,1.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2016
+Matt Robinson,matt-robinson-4,/cfb/players/matt-robinson-4.html,DB,12,4,4,8,0.0,0.0,0,0,,0,0,1,0,0,0,,Bowling Green,2016
+Malik Brown,malik-brown-1,/cfb/players/malik-brown-1.html,DL,11,3,3,6,0.0,0.0,0,0,,0,0,0,0,0,1,,Bowling Green,2016
+Ben Hale,ben-hale-2,/cfb/players/ben-hale-2.html,DB,1,5,0,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2016
+Nico Lautanen,nico-lautanen-1,/cfb/players/nico-lautanen-1.html,DL,9,5,0,5,2.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2016
+Zach Bartman,zach-bartman-1,/cfb/players/zach-bartman-1.html,LB,12,4,0,4,0.0,0.0,0,0,,0,0,0,0,0,1,,Bowling Green,2016
+Jonah Harper,jonah-harper-1,/cfb/players/jonah-harper-1.html,DL,1,1,2,3,1.0,0.0,1,0,0.0,0,0,0,0,0,0,,Bowling Green,2016
+Aaron Banks,aaron-banks-2,/cfb/players/aaron-banks-2.html,LB,11,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2016
+Greg Hohenstein,greg-hohenstein-1,/cfb/players/greg-hohenstein-1.html,LS,12,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2016
+Scott Miller,scott-miller-3,/cfb/players/scott-miller-3.html,WR,12,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2016
+Donovan Wilson,donovan-wilson-1,/cfb/players/donovan-wilson-1.html,RB,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2016
+Nick Fields,nick-fields-1,/cfb/players/nick-fields-1.html,K,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2016
+Grant Coffey,grant-coffey-1,/cfb/players/grant-coffey-1.html,DL,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2016
+Ronnie Moore,ronnie-moore-3,/cfb/players/ronnie-moore-3.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2016
+Fred Coppet,fred-coppet-1,/cfb/players/fred-coppet-1.html,RB,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2016
+Jack Walz III,jack-walz-iii-1,/cfb/players/jack-walz-iii-1.html,DB,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2016
+Teo Redding,teo-redding-1,/cfb/players/teo-redding-1.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2016
+Marquis Zimmerman,marquis-zimmerman-1,/cfb/players/marquis-zimmerman-1.html,WR,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2016
+Ben Steward,ben-steward-1,/cfb/players/ben-steward-1.html,OL,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2016
+Logan Dietz,logan-dietz-1,/cfb/players/logan-dietz-1.html,OL,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2016

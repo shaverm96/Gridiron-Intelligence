@@ -1,0 +1,45 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Jordan Magee,jordan-magee-1,/cfb/players/jordan-magee-1.html,LB,11,45,35,80,14.0,3.5,0,0,,0,4,0,0,0,1,,Temple,2023
+Tywan Francis,tywan-francis-1,/cfb/players/tywan-francis-1.html,S,11,58,20,78,6.0,0.0,2,2,1.0,0,5,0,0,0,0,,Temple,2023
+Yvandy Rigby,yvandy-rigby-1,/cfb/players/yvandy-rigby-1.html,LB,8,31,37,68,1.5,0.0,0,0,,0,1,1,0,0,0,,Temple,2023
+Jacob Hollins,jacob-hollins-1,/cfb/players/jacob-hollins-1.html,LB,12,28,28,56,4.0,2.0,1,0,0.0,0,1,0,0,0,0,,Temple,2023
+Alex Odom,alex-odom-1,/cfb/players/alex-odom-1.html,S,10,26,26,52,1.5,0.0,0,0,,0,1,0,0,0,0,,Temple,2023
+Dominick Hill,dominick-hill-1,/cfb/players/dominick-hill-1.html,CB,11,29,18,47,0.0,0.0,0,0,,0,4,0,0,0,1,,Temple,2023
+Brenyen Scott,brenyen-scott-1,/cfb/players/brenyen-scott-1.html,S,12,24,16,40,1.5,0.0,0,0,,0,0,0,0,0,0,,Temple,2023
+Elijah Deravil,elijah-deravil-1,/cfb/players/elijah-deravil-1.html,S,12,25,15,40,1.5,0.0,0,0,,0,1,0,0,0,0,,Temple,2023
+Jalen McMurray,jalen-mcmurray-1,/cfb/players/jalen-mcmurray-1.html,CB,11,24,15,39,1.5,0.0,0,0,,0,4,0,0,0,0,,Temple,2023
+Corey Yeoman,corey-yeoman-1,/cfb/players/corey-yeoman-1.html,LB,12,19,16,35,0.5,0.5,0,0,,0,0,0,0,0,0,,Temple,2023
+Tra Thomas,tra-thomas-1,/cfb/players/tra-thomas-1.html,DL,12,8,22,30,5.0,3.0,0,0,,0,0,0,0,0,0,,Temple,2023
+Diwun Black,diwun-black-1,/cfb/players/diwun-black-1.html,LB,11,17,12,29,9.5,3.5,0,0,,0,0,1,0,0,2,,Temple,2023
+Jerquavion Mahone,jerquavion-mahone-1,/cfb/players/jerquavion-mahone-1.html,DL,11,13,13,26,2.0,1.0,0,0,,0,0,0,0,0,0,,Temple,2023
+Layton Jordan,layton-jordan-1,/cfb/players/layton-jordan-1.html,LB,11,14,10,24,3.5,2.5,0,0,,0,0,0,0,0,0,,Temple,2023
+D.J. Woodbury,dj-woodbury-1,/cfb/players/dj-woodbury-1.html,LB,5,10,14,24,1.5,0.0,0,0,,0,0,0,0,0,0,,Temple,2023
+Davion Hood,davion-hood-1,/cfb/players/davion-hood-1.html,DL,12,10,11,21,3.5,1.0,0,0,,0,0,0,0,0,0,,Temple,2023
+Conlan Greene,conlan-greene-1,/cfb/players/conlan-greene-1.html,DL,12,11,8,19,1.0,1.0,0,0,,0,0,0,0,0,0,,Temple,2023
+Ben Osueke,ben-osueke-1,/cfb/players/ben-osueke-1.html,CB,12,13,6,19,0.0,0.0,0,0,,0,1,0,0,0,1,,Temple,2023
+Sam Martin,sam-martin-4,/cfb/players/sam-martin-4.html,S,12,4,13,17,0.5,0.0,0,0,,0,0,0,0,0,0,,Temple,2023
+Zymir Cobbs,zymir-cobbs-1,/cfb/players/zymir-cobbs-1.html,DL,9,6,6,12,0.0,0.0,0,0,,0,0,0,0,0,0,,Temple,2023
+Allan Haye Jr.,allan-haye-jr-1,/cfb/players/allan-haye-jr-1.html,DL,5,7,5,12,2.0,1.0,0,0,,0,0,0,0,0,0,,Temple,2023
+Daiyaan Hawkins,daiyaan-hawkins-1,/cfb/players/daiyaan-hawkins-1.html,CB,7,8,2,10,0.0,0.0,0,0,,0,0,0,0,0,0,,Temple,2023
+Elijah Clark,elijah-clark-1,/cfb/players/elijah-clark-1.html,CB,8,2,7,9,0.5,0.0,0,0,,0,0,0,0,0,0,,Temple,2023
+Antwone Santiago,antwone-santiago-1,/cfb/players/antwone-santiago-1.html,LB,7,6,3,9,1.0,0.0,0,0,,0,0,0,0,0,0,,Temple,2023
+Demerick Morris,demerick-morris-1,/cfb/players/demerick-morris-1.html,DL,2,2,5,7,0.5,0.0,0,0,,0,0,0,0,0,0,,Temple,2023
+Joseph Appiah Darkwa,joseph-appiah-darkwa-1,/cfb/players/joseph-appiah-darkwa-1.html,DL,8,3,4,7,2.0,1.0,0,0,,0,0,0,0,0,0,,Temple,2023
+Kamar Wilcoxson,kamar-wilcoxson-1,/cfb/players/kamar-wilcoxson-1.html,S,9,1,5,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Temple,2023
+Jordan Montgomery,jordan-montgomery-2,/cfb/players/jordan-montgomery-2.html,LB,4,2,2,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Temple,2023
+Zyil Powell,zyil-powell-1,/cfb/players/zyil-powell-1.html,S,4,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Temple,2023
+Chevez Trask,chevez-trask-1,/cfb/players/chevez-trask-1.html,DL,8,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Temple,2023
+Corey Cuascut-Palmer,corey-cuascut-palmer-1,/cfb/players/corey-cuascut-palmer-1.html,WR,9,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Temple,2023
+Lancine Turay,lancine-turay-1,/cfb/players/lancine-turay-1.html,DL,10,2,1,3,1.5,1.0,0,0,,0,0,0,0,0,1,,Temple,2023
+Edward Saydee,edward-saydee-1,/cfb/players/edward-saydee-1.html,RB,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Temple,2023
+Zamar Grove,zamar-grove-1,/cfb/players/zamar-grove-1.html,DL,7,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Temple,2023
+Darvon Hubbard,darvon-hubbard-1,/cfb/players/darvon-hubbard-1.html,RB,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,1,,Temple,2023
+David Martin-Robinson,david-martin-robinson-1,/cfb/players/david-martin-robinson-1.html,TE,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Temple,2023
+Eric Wilson Jr.,eric-wilson-jr-1,/cfb/players/eric-wilson-jr-1.html,RB,6,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Temple,2023
+John Adams,john-adams-7,/cfb/players/john-adams-7.html,WR,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Temple,2023
+Chris Van Eekeren,chris-van-eekeren-1,/cfb/players/chris-van-eekeren-1.html,K,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Temple,2023
+Darrell Sweeting,darrell-sweeting-1,/cfb/players/darrell-sweeting-1.html,CB,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Temple,2023
+Tyrese Whitaker,tyrese-whitaker-1,/cfb/players/tyrese-whitaker-1.html,DL,3,1,0,1,1.0,1.0,0,0,,0,0,0,0,0,0,,Temple,2023
+Amad Anderson Jr.,amad-anderson-jr-1,/cfb/players/amad-anderson-jr-1.html,WR,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Temple,2023
+Ihsim Smith-Marsette,ihsim-smith-marsette-1,/cfb/players/ihsim-smith-marsette-1.html,S,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Temple,2023
+Gensley Auguste,gensley-auguste-1,/cfb/players/gensley-auguste-1.html,DL,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Temple,2023

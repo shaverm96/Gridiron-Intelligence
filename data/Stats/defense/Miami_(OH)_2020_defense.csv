@@ -1,0 +1,29 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Ryan McWood,ryan-mcwood-1,/cfb/players/ryan-mcwood-1.html,LB,3,14,20,34,3.0,1.0,1,18,18.0,0,0,0,0,0,0,,Miami (OH),2020
+Ivan Pace Jr.,ivan-pace-jr-1,/cfb/players/ivan-pace-jr-1.html,LB,3,12,14,26,0.5,0.0,0,0,,0,2,0,0,0,0,,Miami (OH),2020
+Sterling Weatherford,sterling-weatherford-1,/cfb/players/sterling-weatherford-1.html,DB,3,15,3,18,1.0,0.0,0,0,,0,4,0,0,0,0,,Miami (OH),2020
+Kameron Butler,kameron-butler-1,/cfb/players/kameron-butler-1.html,DL,3,8,8,16,3.5,2.5,0,0,,0,1,0,0,0,0,,Miami (OH),2020
+Mike Brown,mike-brown-20,/cfb/players/mike-brown-20.html,DB,3,8,5,13,1.5,1.0,0,0,,0,0,0,0,0,0,,Miami (OH),2020
+Manny Rugamba,manny-rugamba-1,/cfb/players/manny-rugamba-1.html,DB,3,7,4,11,1.0,0.0,1,62,62.0,1,1,0,0,0,1,,Miami (OH),2020
+Ben Kimpler,ben-kimpler-1,/cfb/players/ben-kimpler-1.html,DL,3,5,4,9,1.5,1.5,0,0,,0,0,0,0,0,0,,Miami (OH),2020
+Cedric Boswell,cedric-boswell-1,/cfb/players/cedric-boswell-1.html,DB,3,8,1,9,0.0,0.0,0,0,,0,2,0,0,0,0,,Miami (OH),2020
+Dominique Robinson,dominique-robinson-1,/cfb/players/dominique-robinson-1.html,DL,3,5,4,9,2.5,2.0,0,0,,0,1,0,0,0,0,,Miami (OH),2020
+Cecil Singleton,cecil-singleton-1,/cfb/players/cecil-singleton-1.html,DB,3,4,4,8,1.0,1.0,0,0,,0,0,0,0,0,0,,Miami (OH),2020
+Lonnie Phelps,lonnie-phelps-1,/cfb/players/lonnie-phelps-1.html,DL,3,4,4,8,2.0,2.0,0,0,,0,0,0,0,0,0,,Miami (OH),2020
+Matthew Salopek,matthew-salopek-1,/cfb/players/matthew-salopek-1.html,DB,3,6,1,7,1.0,1.0,0,0,,0,0,0,0,0,0,,Miami (OH),2020
+Mehki Miller,mehki-miller-1,/cfb/players/mehki-miller-1.html,DB,3,3,3,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Miami (OH),2020
+Luke Bolden,luke-bolden-1,/cfb/players/luke-bolden-1.html,LB,3,1,5,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Miami (OH),2020
+Camden Rogers,camden-rogers-1,/cfb/players/camden-rogers-1.html,LB,3,3,2,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Miami (OH),2020
+Anthony Collier II,anthony-collier-ii-1,/cfb/players/anthony-collier-ii-1.html,,3,1,2,3,0.5,0.0,0,0,,0,0,0,0,0,0,,Miami (OH),2020
+Ja'don Rucker-Furlow,jadon-rucker-furlow-1,/cfb/players/jadon-rucker-furlow-1.html,DB,2,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Miami (OH),2020
+Anthony Collier,anthony-collier-1,/cfb/players/anthony-collier-1.html,DL,2,1,2,3,0.5,0.0,0,0,,0,0,0,0,0,0,,Miami (OH),2020
+John Saunders Jr.,john-saunders-jr-1,/cfb/players/john-saunders-jr-1.html,DB,1,2,0,2,0.0,0.0,0,0,,0,1,0,0,0,0,,Miami (OH),2020
+Richie Hagarty,richie-hagarty-1,/cfb/players/richie-hagarty-1.html,DL,3,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Miami (OH),2020
+Austin Ertl,austin-ertl-1,/cfb/players/austin-ertl-1.html,DL,3,1,1,2,0.0,0.0,0,0,,0,1,0,0,0,0,,Miami (OH),2020
+Seth Currens,seth-currens-1,/cfb/players/seth-currens-1.html,TE,3,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Miami (OH),2020
+Zach Kahn,zach-kahn-1,/cfb/players/zach-kahn-1.html,RB,3,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Miami (OH),2020
+Kyle Bryant,kyle-bryant-3,/cfb/players/kyle-bryant-3.html,DL,3,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Miami (OH),2020
+James Burns,james-burns-2,/cfb/players/james-burns-2.html,WR,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Miami (OH),2020
+Jacob Snell,jacob-snell-1,/cfb/players/jacob-snell-1.html,DL,2,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Miami (OH),2020
+Jack Coldiron,jack-coldiron-1,/cfb/players/jack-coldiron-1.html,TE,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Miami (OH),2020
+Ryan Newton,ryan-newton-1,/cfb/players/ryan-newton-1.html,DL,2,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Miami (OH),2020

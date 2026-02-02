@@ -1,0 +1,36 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Asauni Rufus,asauni-rufus-1,/cfb/players/asauni-rufus-1.html,DB,13,58,47,105,0.0,0.0,1,29,29.0,0,2,0,0,0,1,,Nevada,2015
+Jordan Dobrich,jordan-dobrich-1,/cfb/players/jordan-dobrich-1.html,LB,12,58,42,100,6.5,1.0,2,49,24.5,1,2,1,0,0,1,,Nevada,2015
+Matthew Lyons,matthew-lyons-1,/cfb/players/matthew-lyons-1.html,LB,12,44,37,81,6.0,1.0,0,0,,0,0,1,30,1,0,,Nevada,2015
+Dameon Baber,dameon-baber-1,/cfb/players/dameon-baber-1.html,DB,10,45,20,65,0.5,0.0,6,0,0.0,0,2,0,0,0,0,,Nevada,2015
+Bryan Lane Jr.,bryan-lanejr-1,/cfb/players/bryan-lanejr-1.html,LB,12,35,19,54,2.5,1.0,1,14,14.0,0,3,0,0,0,0,,Nevada,2015
+Fie Faaituala,fie-faaituala-1,/cfb/players/fie-faaituala-1.html,LB,13,28,21,49,2.0,0.0,0,0,,0,4,0,0,0,0,,Nevada,2015
+Lenny Jones,lenny-jones-1,/cfb/players/lenny-jones-1.html,DE,13,37,11,48,12.5,7.0,0,0,,0,4,1,0,0,0,,Nevada,2015
+Kendall Johnson,kendall-johnson-1,/cfb/players/kendall-johnson-1.html,DB,13,28,20,48,0.0,0.0,0,0,,0,2,0,0,0,0,,Nevada,2015
+Ian Seau,ian-seau-1,/cfb/players/ian-seau-1.html,DE,13,27,16,43,18.5,10.0,0,0,,0,4,1,0,0,5,,Nevada,2015
+Elijah Mitchell,elijah-mitchell-1,/cfb/players/elijah-mitchell-1.html,DB,13,28,8,36,2.0,0.0,1,0,0.0,0,4,0,0,0,0,,Nevada,2015
+Ahki Muhammad,ahki-muhammad-1,/cfb/players/ahki-muhammad-1.html,DB,13,23,11,34,0.5,0.0,0,0,,0,3,0,0,0,0,,Nevada,2015
+Rykeem Yates,rykeem-yates-1,/cfb/players/rykeem-yates-1.html,DL,12,16,16,32,5.0,2.0,0,0,,0,1,1,9,0,0,,Nevada,2015
+Alex Bertrando,alex-bertrando-1,/cfb/players/alex-bertrando-1.html,LB,9,18,12,30,1.0,0.0,0,0,,0,1,1,0,0,0,,Nevada,2015
+Kevin McReynolds,kevin-mcreynolds-1,/cfb/players/kevin-mcreynolds-1.html,DL,13,13,14,27,3.0,0.0,0,0,,0,0,0,0,0,1,,Nevada,2015
+Salesa Faraimo,salesa-faraimo-1,/cfb/players/salesa-faraimo-1.html,DL,12,9,14,23,4.0,1.0,0,0,,0,1,0,0,0,0,,Nevada,2015
+L.J. Jackson,lj-jackson-1,/cfb/players/lj-jackson-1.html,LB,12,16,4,20,1.0,0.0,0,0,,0,0,0,0,0,0,,Nevada,2015
+Malik Reed,malik-reed-1,/cfb/players/malik-reed-1.html,DE,13,12,6,18,3.5,1.0,0,0,,0,1,0,0,0,0,,Nevada,2015
+Randy Uzoma,randy-uzoma-1,/cfb/players/randy-uzoma-1.html,DB,13,8,7,15,0.0,0.0,0,0,,0,1,1,0,0,0,,Nevada,2015
+Elijah Moody,elijah-moody-1,/cfb/players/elijah-moody-1.html,DB,12,12,3,15,0.0,0.0,1,2,2.0,0,3,1,4,0,0,,Nevada,2015
+Jaden Sawyer,jaden-sawyer-1,/cfb/players/jaden-sawyer-1.html,DB,13,8,5,13,0.0,0.0,1,10,10.0,0,0,0,0,0,1,,Nevada,2015
+Korey Rush,korey-rush-1,/cfb/players/korey-rush-1.html,DE,12,7,6,13,2.0,1.0,0,0,,0,1,0,0,0,0,,Nevada,2015
+Trevor Taft,trevor-taft-1,/cfb/players/trevor-taft-1.html,LB,12,10,0,10,0.0,0.0,0,0,,0,0,0,0,0,0,,Nevada,2015
+Patrick Choudja,patrick-choudja-1,/cfb/players/patrick-choudja-1.html,DE,13,4,6,10,0.0,0.0,0,0,,0,1,0,0,0,0,,Nevada,2015
+Travis Wilson,travis-wilson-6,/cfb/players/travis-wilson-6.html,LB,8,4,0,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Nevada,2015
+Kalei Meyer,kalei-meyer-1,/cfb/players/kalei-meyer-1.html,DL,12,1,2,3,0.5,0.0,0,0,,0,0,0,0,0,0,,Nevada,2015
+Tere Calloway,tere-calloway-1,/cfb/players/tere-calloway-1.html,DB,10,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Nevada,2015
+Jarid Joseph,jarid-joseph-1,/cfb/players/jarid-joseph-1.html,DE,9,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Nevada,2015
+Colton Concellos,colton-concellos-1,/cfb/players/colton-concellos-1.html,LB,5,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Nevada,2015
+Wes Farnsworth,wes-farnsworth-1,/cfb/players/wes-farnsworth-1.html,LS,13,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Nevada,2015
+Wyatt Demps,wyatt-demps-1,/cfb/players/wyatt-demps-1.html,WR,13,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Nevada,2015
+Nolan Dambacher,nolan-dambacher-1,/cfb/players/nolan-dambacher-1.html,DE,4,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Nevada,2015
+Jarred Gipson,jarred-gipson-1,/cfb/players/jarred-gipson-1.html,TE,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Nevada,2015
+Jake Lacaden,jake-lacaden-1,/cfb/players/jake-lacaden-1.html,LB,10,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Nevada,2015
+Don Jackson,don-jackson-2,/cfb/players/don-jackson-2.html,RB,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Nevada,2015
+Austin Carrow,austin-carrow-1,/cfb/players/austin-carrow-1.html,TE,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Nevada,2015

@@ -1,0 +1,36 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Christian Sam,christian-sam-1,/cfb/players/christian-sam-1.html,LB,12,87,40,127,9.5,3.0,1,11,11.0,0,1,0,0,0,1,,Arizona State,2017
+D.J. Calhoun,dj-calhoun-1,/cfb/players/dj-calhoun-1.html,LB,13,65,34,99,12.0,5.5,0,0,,0,3,0,0,0,0,,Arizona State,2017
+J'Marcus Rhodes,jmarcus-rhodes-1,/cfb/players/jmarcus-rhodes-1.html,DB,13,48,23,71,3.5,1.0,1,6,6.0,0,1,1,0,0,1,,Arizona State,2017
+Chad Adams,chad-adams-1,/cfb/players/chad-adams-1.html,DB,13,58,11,69,2.5,0.0,2,0,0.0,0,2,0,0,0,0,,Arizona State,2017
+Chase Lucas,chase-lucas-1,/cfb/players/chase-lucas-1.html,DB,12,46,13,59,1.0,0.0,2,2,1.0,0,8,0,0,0,0,,Arizona State,2017
+Jay Jay Wilson,jay-jay-wilson-1,/cfb/players/jay-jay-wilson-1.html,TE,13,28,18,46,4.0,2.0,1,20,20.0,1,2,1,0,0,0,,Arizona State,2017
+JoJo Wicker,jojo-wicker-1,/cfb/players/jojo-wicker-1.html,DL,13,30,12,42,13.0,6.0,0,0,,0,1,1,0,0,1,,Arizona State,2017
+Alani Latu,alani-latu-1,/cfb/players/alani-latu-1.html,LB,11,21,16,37,10.0,7.0,0,0,,0,2,0,0,0,1,,Arizona State,2017
+Tashon Smallwood,tashon-smallwood-1,/cfb/players/tashon-smallwood-1.html,DL,13,20,17,37,8.0,4.0,0,0,,0,1,0,0,0,1,,Arizona State,2017
+Kobe Williams,kobe-williams-1,/cfb/players/kobe-williams-1.html,DB,13,29,8,37,2.0,0.0,1,49,49.0,1,5,0,0,0,0,,Arizona State,2017
+Demonte King,demonte-king-1,/cfb/players/demonte-king-1.html,DB,7,22,15,37,1.0,0.0,1,11,11.0,0,2,0,0,0,0,,Arizona State,2017
+Desmond Tautalatasi,desmond-tautalatasi-1,/cfb/players/desmond-tautalatasi-1.html,DB,11,18,4,22,0.0,0.0,0,0,,0,3,1,0,0,0,,Arizona State,2017
+Renell Wren,renell-wren-1,/cfb/players/renell-wren-1.html,DL,13,12,9,21,3.0,0.5,1,-4,-4.0,0,0,0,0,0,0,,Arizona State,2017
+Khaylan Thomas,khaylan-thomas-1,/cfb/players/khaylan-thomas-1.html,LB,13,12,5,17,1.5,1.0,0,0,,0,0,0,0,0,0,,Arizona State,2017
+Evan Fields,evan-fields-1,/cfb/players/evan-fields-1.html,DB,10,12,4,16,0.5,0.0,0,0,,0,0,0,0,0,0,,Arizona State,2017
+Joey Bryant,joey-bryant-1,/cfb/players/joey-bryant-1.html,DB,4,14,1,15,1.0,1.0,1,0,0.0,0,2,0,0,0,0,,Arizona State,2017
+Koron Crump,koron-crump-1,/cfb/players/koron-crump-1.html,LB,3,11,2,13,4.0,4.0,0,0,,0,0,0,0,0,0,,Arizona State,2017
+Malik Lawal,malik-lawal-1,/cfb/players/malik-lawal-1.html,LB,13,7,2,9,0.0,0.0,0,0,,0,0,0,0,0,0,,Arizona State,2017
+George Lea,george-lea-1,/cfb/players/george-lea-1.html,DL,6,2,6,8,1.5,1.0,0,0,,0,0,0,0,0,0,,Arizona State,2017
+Langston Frederick,langston-frederick-1,/cfb/players/langston-frederick-1.html,CB,11,6,2,8,0.0,0.0,0,0,,0,0,1,0,0,0,,Arizona State,2017
+Abraham Thompson,abraham-thompson-1,/cfb/players/abraham-thompson-1.html,LB,13,4,3,7,0.0,0.0,0,0,,0,0,1,0,0,0,,Arizona State,2017
+Shannon Forman,shannon-forman-1,/cfb/players/shannon-forman-1.html,DL,9,3,2,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Arizona State,2017
+Deion Guignard,deion-guignard-1,/cfb/players/deion-guignard-1.html,DB,12,4,1,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Arizona State,2017
+Tyler Whiley,tyler-whiley-1,/cfb/players/tyler-whiley-1.html,DB,13,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Arizona State,2017
+Maurice Chandler,maurice-chandler-1,/cfb/players/maurice-chandler-1.html,DB,8,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Arizona State,2017
+Dougladson Subtyl,dougladson-subtyl-1,/cfb/players/dougladson-subtyl-1.html,DL,4,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Arizona State,2017
+Mitchell Fraboni,mitchell-fraboni-1,/cfb/players/mitchell-fraboni-1.html,LS,13,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Arizona State,2017
+Manny Wilkins,manny-wilkins-1,/cfb/players/manny-wilkins-1.html,QB,13,1,0,1,0.0,0.0,0,0,,0,0,0,5,0,0,,Arizona State,2017
+Darien Cornay,darien-cornay-1,/cfb/players/darien-cornay-1.html,DB,2,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Arizona State,2017
+Kalen Ballage,kalen-ballage-1,/cfb/players/kalen-ballage-1.html,RB,13,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Arizona State,2017
+Ryan Jenkins,ryan-jenkins-1,/cfb/players/ryan-jenkins-1.html,WR,4,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Arizona State,2017
+Demario Richard,demario-richard-1,/cfb/players/demario-richard-1.html,RB,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Arizona State,2017
+Jalen Harvey,jalen-harvey-2,/cfb/players/jalen-harvey-2.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Arizona State,2017
+Tommy Hudson,tommy-hudson-1,/cfb/players/tommy-hudson-1.html,TE,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Arizona State,2017
+Eno Benjamin,eno-benjamin-1,/cfb/players/eno-benjamin-1.html,RB,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Arizona State,2017

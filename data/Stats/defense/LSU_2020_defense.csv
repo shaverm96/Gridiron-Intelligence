@@ -1,0 +1,42 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Damone Clark,damone-clark-1,/cfb/players/damone-clark-1.html,LB,10,28,35,63,4.0,1.0,0,0,,0,1,0,0,0,0,,LSU,2020
+JaCoby Stevens,jacoby-stevens-1,/cfb/players/jacoby-stevens-1.html,S,10,33,30,63,6.0,3.0,0,0,,0,4,3,0,0,1,,LSU,2020
+Jabril Cox,jabril-cox-1,/cfb/players/jabril-cox-1.html,LB,10,39,19,58,6.5,1.0,3,64,21.3,1,5,1,0,0,0,,LSU,2020
+Micah Baskerville,micah-baskerville-1,/cfb/players/micah-baskerville-1.html,LB,8,30,25,55,4.5,0.0,0,0,,0,0,0,0,0,1,,LSU,2020
+Cordale Flott,cordale-flott-1,/cfb/players/cordale-flott-1.html,CB,10,31,12,43,4.5,0.0,0,0,,0,4,0,0,0,1,,LSU,2020
+Ali Gaye,ali-gaye-1,/cfb/players/ali-gaye-1.html,DL,10,19,13,32,9.5,2.0,1,0,0.0,0,6,1,0,0,1,,LSU,2020
+Todd Harris Jr.,todd-harris-jr-1,/cfb/players/todd-harris-jr-1.html,S,10,20,10,30,0.0,0.0,2,34,17.0,0,0,0,0,0,1,,LSU,2020
+Jay Ward,jay-ward-2,/cfb/players/jay-ward-2.html,CB,9,22,7,29,0.0,0.0,3,47,15.7,1,6,0,0,0,1,,LSU,2020
+Maurice Hampton Jr.,maurice-hampton-jr-1,/cfb/players/maurice-hampton-jr-1.html,S,8,21,6,27,2.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2020
+Derek Stingley Jr.,derek-stingley-jr-1,/cfb/players/derek-stingley-jr-1.html,CB,7,19,8,27,2.5,0.0,0,0,,0,5,1,2,0,1,,LSU,2020
+Neil Farrell Jr.,neil-farrell-jr-1,/cfb/players/neil-farrell-jr-1.html,DE,10,9,16,25,2.5,1.0,0,0,,0,1,0,0,0,1,,LSU,2020
+Andre Anthony,andre-anthony-1,/cfb/players/andre-anthony-1.html,LB,10,15,9,24,5.5,5.5,0,0,,0,1,0,0,0,0,,LSU,2020
+Eli Ricks,eli-ricks-1,/cfb/players/eli-ricks-1.html,CB,10,11,9,20,0.5,0.0,4,113,28.3,2,5,0,0,0,0,,LSU,2020
+Jaquelin Roy,jaquelin-roy-1,/cfb/players/jaquelin-roy-1.html,DL,9,6,12,18,4.0,2.0,0,0,,0,0,0,0,0,0,,LSU,2020
+Glen Logan,glen-logan-1,/cfb/players/glen-logan-1.html,DE,8,5,12,17,0.5,0.0,0,0,,0,0,0,0,0,0,,LSU,2020
+BJ Ojulari,bj-ojulari-1,/cfb/players/bj-ojulari-1.html,LB,10,12,4,16,5.0,4.0,0,0,,0,1,1,6,0,1,,LSU,2020
+Joseph Evans,joseph-evans-1,/cfb/players/joseph-evans-1.html,OL,7,3,10,13,0.5,0.5,0,0,,0,0,0,0,0,0,,LSU,2020
+Dwight McGlothern,dwight-mcglothern-1,/cfb/players/dwight-mcglothern-1.html,CB,6,8,1,9,0.0,0.0,0,0,,0,2,0,0,0,0,,LSU,2020
+Cameron Lewis,cameron-lewis-2,/cfb/players/cameron-lewis-2.html,S,9,3,5,8,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2020
+Soni Fonua,soni-fonua-1,/cfb/players/soni-fonua-1.html,LB,7,2,5,7,0.5,0.0,0,0,,0,0,0,0,0,0,,LSU,2020
+Darren Evans,darren-evans-2,/cfb/players/darren-evans-2.html,CB,9,5,1,6,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2020
+Josh White,josh-white-2,/cfb/players/josh-white-2.html,LB,10,2,4,6,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2020
+Siaki Ika,siaki-ika-1,/cfb/players/siaki-ika-1.html,NT,4,3,2,5,1.0,1.0,0,0,,0,0,0,0,0,0,,LSU,2020
+Ray Thornton,ray-thornton-2,/cfb/players/ray-thornton-2.html,,9,4,1,5,2.0,2.0,0,0,,0,0,0,0,0,1,,LSU,2020
+Rahssan Thornton,rahssan-thornton-1,/cfb/players/rahssan-thornton-1.html,LB,4,4,1,5,2.0,2.0,0,0,,0,0,0,0,0,1,,LSU,2020
+Jordan Toles,jordan-toles-1,/cfb/players/jordan-toles-1.html,S,8,2,2,4,0.5,0.0,0,0,,0,0,0,0,0,0,,LSU,2020
+Travez Moore,travez-moore-1,/cfb/players/travez-moore-1.html,LB,3,1,2,3,1.0,1.0,0,0,,0,0,0,0,0,0,,LSU,2020
+Racey McMath,racey-mcmath-1,/cfb/players/racey-mcmath-1.html,WR,6,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,1,,LSU,2020
+TJ Finley,tj-finley-1,/cfb/players/tj-finley-1.html,QB,5,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2020
+Avery Atkins,avery-atkins-2,/cfb/players/avery-atkins-2.html,PK,10,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2020
+Tory Carter,tory-carter-1,/cfb/players/tory-carter-1.html,FB,7,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2020
+Lloyd Cole,lloyd-cole-1,/cfb/players/lloyd-cole-1.html,CB,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2020
+Kayshon Boutte,kayshon-boutte-1,/cfb/players/kayshon-boutte-1.html,WR,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2020
+Josh Williams,josh-williams-10,/cfb/players/josh-williams-10.html,RB,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2020
+Nick Storz,nick-storz-1,/cfb/players/nick-storz-1.html,TE,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2020
+Nick Storz,nick-storz-2,/cfb/players/nick-storz-2.html,,10,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2020
+Jontre Kirklin,jontre-kirklin-1,/cfb/players/jontre-kirklin-1.html,WR,10,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2020
+Jarell Cherry,jarell-cherry-1,/cfb/players/jarell-cherry-1.html,DE,2,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2020
+Evan Francioni,evan-francioni-1,/cfb/players/evan-francioni-1.html,WR,7,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2020
+Corren Norman,corren-norman-1,/cfb/players/corren-norman-1.html,RB,5,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2020
+Quentin Skinner,quentin-skinner-1,/cfb/players/quentin-skinner-1.html,LS,10,0,0,0,0.0,0.0,0,0,,0,0,1,0,0,0,,LSU,2020

@@ -1,0 +1,54 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Taurean York,taurean-york-1,/cfb/players/taurean-york-1.html,LB,13,32,41,73,7.5,1.0,0,0,,0,3,1,0,0,0,,Texas A&M,2025
+Marcus Ratcliffe,marcus-ratcliffe-1,/cfb/players/marcus-ratcliffe-1.html,S,13,32,33,65,3.0,0.0,0,0,,0,3,0,0,0,0,,Texas A&M,2025
+Dalton Brooks,dalton-brooks-1,/cfb/players/dalton-brooks-1.html,S,12,42,20,62,6.5,4.0,1,39,39.0,0,1,2,38,0,1,,Texas A&M,2025
+Daymion Sanford,daymion-sanford-1,/cfb/players/daymion-sanford-1.html,LB,13,25,32,57,9.5,3.5,1,10,10.0,0,2,1,0,0,2,,Texas A&M,2025
+Will Lee III,will-lee-iii-1,/cfb/players/will-lee-iii-1.html,CB,13,39,11,50,2.0,1.0,0,0,,0,8,0,0,0,0,,Texas A&M,2025
+Albert Regis,albert-regis-1,/cfb/players/albert-regis-1.html,DT,13,18,31,49,3.0,2.0,0,0,,0,3,0,0,0,1,,Texas A&M,2025
+Tyler Onyedim,tyler-onyedim-1,/cfb/players/tyler-onyedim-1.html,DT,13,18,30,48,8.5,2.5,0,0,,0,0,0,0,0,1,,Texas A&M,2025
+Tyreek Chappell,tyreek-chappell-1,/cfb/players/tyreek-chappell-1.html,CB,13,23,11,34,3.0,0.0,0,0,,0,4,0,0,0,0,,Texas A&M,2025
+T.J. Searcy,tj-searcy-1,/cfb/players/tj-searcy-1.html,DE,13,13,18,31,6.5,1.5,0,0,,0,2,0,0,0,0,,Texas A&M,2025
+Cashius Howell,cashius-howell-1,/cfb/players/cashius-howell-1.html,DE,13,20,11,31,14.0,11.5,0,0,,0,6,0,0,0,1,AA,Texas A&M,2025
+Dezz Ricks,dezz-ricks-1,/cfb/players/dezz-ricks-1.html,CB,13,23,3,26,1.0,0.0,0,0,,0,6,0,0,0,0,,Texas A&M,2025
+DJ Hicks,dj-hicks-1,/cfb/players/dj-hicks-1.html,DT,13,12,14,26,6.5,3.0,0,0,,0,0,0,0,0,0,,Texas A&M,2025
+Marco Jones,marco-jones-2,/cfb/players/marco-jones-2.html,DE,13,10,11,21,3.5,2.5,0,0,,0,0,0,0,0,0,,Texas A&M,2025
+Scooby Williams,scooby-williams-1,/cfb/players/scooby-williams-1.html,LB,7,8,11,19,4.0,1.0,1,3,3.0,0,0,0,0,0,1,,Texas A&M,2025
+Dayon Hayes,dayon-hayes-1,/cfb/players/dayon-hayes-1.html,DE,13,13,5,18,5.0,4.5,0,0,,0,1,1,0,0,1,,Texas A&M,2025
+Jordan Shaw,jordan-shaw-1,/cfb/players/jordan-shaw-1.html,CB,11,12,6,18,2.5,0.0,0,0,,0,1,0,0,0,1,,Texas A&M,2025
+Noah Mikhail,noah-mikhail-1,/cfb/players/noah-mikhail-1.html,LB,13,6,10,16,2.5,0.0,0,0,,0,0,0,0,0,0,,Texas A&M,2025
+Ryan Kennedy,ryan-kennedy-4,/cfb/players/ryan-kennedy-4.html,DE,13,8,6,14,3.5,2.0,0,0,,0,1,0,0,0,0,,Texas A&M,2025
+Jarred Kerr,jarred-kerr-1,/cfb/players/jarred-kerr-1.html,S,13,7,6,13,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas A&M,2025
+Jordan Lockhart,jordan-lockhart-1,/cfb/players/jordan-lockhart-1.html,LB,11,8,4,12,3.5,1.0,0,0,,0,0,0,0,0,0,,Texas A&M,2025
+Bryce Anderson,bryce-anderson-1,/cfb/players/bryce-anderson-1.html,S,5,4,6,10,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas A&M,2025
+Landon Rink,landon-rink-1,/cfb/players/landon-rink-1.html,DT,10,3,6,9,1.5,0.0,0,0,,0,0,0,0,0,0,,Texas A&M,2025
+Dealyn Evans,dealyn-evans-1,/cfb/players/dealyn-evans-1.html,DT,13,5,3,8,1.5,0.0,0,0,,0,0,0,0,0,0,,Texas A&M,2025
+Julian Humphrey,julian-humphrey-1,/cfb/players/julian-humphrey-1.html,CB,10,3,4,7,1.5,0.0,0,0,,0,1,0,0,0,0,,Texas A&M,2025
+Solomon Williams,solomon-williams-1,/cfb/players/solomon-williams-1.html,DE,12,6,1,7,3.0,0.0,0,0,,0,0,0,0,0,0,,Texas A&M,2025
+Myles Davis,myles-davis-3,/cfb/players/myles-davis-3.html,S,12,1,6,7,1.0,0.0,0,0,,0,0,1,0,0,0,,Texas A&M,2025
+DJ Sanders,dj-sanders-2,/cfb/players/dj-sanders-2.html,DT,5,2,3,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas A&M,2025
+Bravion Rogers,bravion-rogers-1,/cfb/players/bravion-rogers-1.html,CB,13,4,0,4,1.0,0.0,0,0,,0,0,0,0,0,0,,Texas A&M,2025
+Tristan Jernigan,tristan-jernigan-1,/cfb/players/tristan-jernigan-1.html,LB,2,2,1,3,1.0,0.0,0,0,,0,0,0,0,0,0,,Texas A&M,2025
+Nana Boadi-Owusu,nana-boadi-owusu-1,/cfb/players/nana-boadi-owusu-1.html,DE,13,3,0,3,1.0,1.0,0,0,,0,1,0,0,0,0,,Texas A&M,2025
+Adam Graham,adam-graham-1,/cfb/players/adam-graham-1.html,CB,1,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas A&M,2025
+Sam M'Pemba,sam-mpemba-1,/cfb/players/sam-mpemba-1.html,DE,4,1,1,2,1.5,1.0,0,0,,0,0,1,0,0,1,,Texas A&M,2025
+Jacob Graham,jacob-graham-1,/cfb/players/jacob-graham-1.html,LS,13,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,1,,Texas A&M,2025
+Theo Melin Öhrström,theo-melin-öhrström-1,/cfb/players/theo-melin-öhrström-1.html,TE,13,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas A&M,2025
+Mario Craver,mario-craver-1,/cfb/players/mario-craver-1.html,WR,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas A&M,2025
+Jared Zirkel,jared-zirkel-1,/cfb/players/jared-zirkel-1.html,K,9,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas A&M,2025
+Tommy Colligan,tommy-colligan-1,/cfb/players/tommy-colligan-1.html,LB,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas A&M,2025
+Ashton Bethel-Roman,ashton-bethel-roman-1,/cfb/players/ashton-bethel-roman-1.html,WR,13,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas A&M,2025
+Terry Bussey,terry-bussey-1,/cfb/players/terry-bussey-1.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas A&M,2025
+Amari Daniels,amari-daniels-1,/cfb/players/amari-daniels-1.html,RB,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas A&M,2025
+Aaron Herrera,aidan-herrera-1,/cfb/players/aidan-herrera-1.html,LB,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas A&M,2025
+Wesley Watson,wesley-watson-1,/cfb/players/wesley-watson-1.html,WR,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas A&M,2025
+Adonyss Currie,adonyss-currie-1,/cfb/players/adonyss-currie-1.html,CB,3,0,1,1,0.5,0.0,0,0,,0,0,0,0,0,0,,Texas A&M,2025
+Isaiah Willis,isaiah-willis-1,/cfb/players/isaiah-willis-1.html,S,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas A&M,2025
+Rueben Owens,rueben-owens-1,/cfb/players/rueben-owens-1.html,RB,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas A&M,2025
+Rashad Johnson Jr.,rashad-johnson-jr-1,/cfb/players/rashad-johnson-jr-1.html,S,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas A&M,2025
+Jadon Scarlett,jadon-scarlett-1,/cfb/players/jadon-scarlett-1.html,DT,1,0,1,1,0.5,0.0,0,0,,0,0,0,0,0,0,,Texas A&M,2025
+Jamarion Morrow,jamarion-morrow-1,/cfb/players/jamarion-morrow-1.html,RB,13,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas A&M,2025
+Jayvon Thomas,jayvon-thomas-1,/cfb/players/jayvon-thomas-1.html,CB,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas A&M,2025
+Marcel Reed,marcel-reed-1,/cfb/players/marcel-reed-1.html,QB,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas A&M,2025
+Layne Gerke,layne-gerke-1,/cfb/players/layne-gerke-1.html,S,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas A&M,2025
+Jordan Pride,jordan-pride-1,/cfb/players/jordan-pride-1.html,S,2,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas A&M,2025
+Kendall Jackson,kendall-jackson-1,/cfb/players/kendall-jackson-1.html,DE,3,0,1,1,0.5,0.0,0,0,,0,0,0,0,0,0,,Texas A&M,2025

@@ -1,0 +1,44 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Blaze Alldredge,blaze-alldredge-1,/cfb/players/blaze-alldredge-1.html,LB,14,58,45,103,17.5,4.5,0,0,,0,0,0,0,0,1,,Missouri,2021
+Martez Manuel,martez-manuel-1,/cfb/players/martez-manuel-1.html,DB,12,60,17,77,8.0,4.5,1,0,0.0,0,3,0,0,0,1,,Missouri,2021
+Isaiah McGuire,isaiah-mcguire-1,/cfb/players/isaiah-mcguire-1.html,DL,14,47,21,68,16.0,6.0,0,0,,0,1,1,0,0,1,,Missouri,2021
+Jaylon Carlies,jaylon-carlies-1,/cfb/players/jaylon-carlies-1.html,DB,13,55,13,68,3.0,0.0,4,51,12.8,0,0,0,0,0,1,,Missouri,2021
+Chad Bailey,chad-bailey-1,/cfb/players/chad-bailey-1.html,LB,14,42,22,64,5.5,1.0,0,0,,0,0,2,0,0,0,,Missouri,2021
+Devin Nicholson,devin-nicholson-1,/cfb/players/devin-nicholson-1.html,LB,14,34,19,53,5.0,2.0,0,0,,0,0,0,0,0,1,,Missouri,2021
+Kris Abrams-Draine,kris-abrams-draine-1,/cfb/players/kris-abrams-draine-1.html,DB,14,31,10,41,1.0,0.0,3,0,0.0,0,7,1,0,0,0,,Missouri,2021
+Shawn Robinson,shawn-robinson-2,/cfb/players/shawn-robinson-2.html,DB,9,21,18,39,3.5,1.0,1,0,0.0,0,1,0,0,0,0,,Missouri,2021
+Trajan Jeffcoat,trajan-jeffcoat-1,/cfb/players/trajan-jeffcoat-1.html,DL,14,24,12,36,10.0,3.5,0,0,,0,1,1,0,1,1,,Missouri,2021
+Mekhi Wingo,mekhi-wingo-1,/cfb/players/mekhi-wingo-1.html,DL,13,16,17,33,2.0,1.0,1,40,40.0,1,0,0,0,0,0,,Missouri,2021
+Allie Green IV,allie-green-iv-1,/cfb/players/allie-green-iv-1.html,DB,13,25,6,31,0.0,0.0,0,0,,0,4,0,0,0,0,,Missouri,2021
+Akayleb Evans,akayleb-evans-1,/cfb/players/akayleb-evans-1.html,DB,11,27,3,30,1.0,0.0,1,0,0.0,0,6,0,0,0,2,,Missouri,2021
+Darius Robinson,darius-robinson-2,/cfb/players/darius-robinson-2.html,DL,11,12,17,29,1.0,0.0,0,0,,0,1,0,0,0,0,,Missouri,2021
+Kobie Whiteside,kobie-whiteside-1,/cfb/players/kobie-whiteside-1.html,DL,12,15,9,24,3.0,1.0,0,0,,0,0,0,0,0,0,,Missouri,2021
+Akial Byers,akial-byers-1,/cfb/players/akial-byers-1.html,DL,12,16,7,23,3.5,1.5,0,0,,0,0,0,0,0,0,,Missouri,2021
+Jalani Williams,jalani-williams-1,/cfb/players/jalani-williams-1.html,DB,13,10,11,21,2.0,0.0,0,0,,0,2,0,0,0,0,,Missouri,2021
+DJ Jackson,dj-jackson-3,/cfb/players/dj-jackson-3.html,DB,12,13,3,16,1.0,0.0,0,0,,0,6,0,0,0,0,,Missouri,2021
+Realus George Jr.,realus-george-jr-1,/cfb/players/realus-george-jr-1.html,DL,10,8,5,13,1.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2021
+Ennis Rakestraw Jr.,ennis-rakestraw-jr-1,/cfb/players/ennis-rakestraw-jr-1.html,DB,4,10,3,13,0.0,0.0,0,0,,0,2,0,0,0,0,,Missouri,2021
+Stacy Brown,stacy-brown-1,/cfb/players/stacy-brown-1.html,DB,12,7,4,11,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2021
+Jamie Pettway,jamie-pettway-1,/cfb/players/jamie-pettway-1.html,LB,7,6,4,10,1.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2021
+Johhny Walker Jr.,johhny-walker-jr-1,/cfb/players/johhny-walker-jr-1.html,DL,7,6,3,9,2.0,2.0,0,0,,0,0,0,0,0,0,,Missouri,2021
+Chris Turner,chris-turner-4,/cfb/players/chris-turner-4.html,DL,7,5,4,9,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2021
+Jatorian Hansford,jatorian-hansford-1,/cfb/players/jatorian-hansford-1.html,DL,11,7,1,8,1.0,1.0,0,0,,0,1,0,0,0,0,,Missouri,2021
+Ishmael Burdine,ishmael-burdine-1,/cfb/players/ishmael-burdine-1.html,DB,5,6,1,7,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2021
+Arden Walker,arden-walker-1,/cfb/players/arden-walker-1.html,DL,4,3,2,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2021
+Chris Shearin,chris-shearin-1,/cfb/players/chris-shearin-1.html,DB,9,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2021
+Tyler Badie,tyler-badie-1,/cfb/players/tyler-badie-1.html,RB,12,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2021
+Daylan Carnell,daylan-carnell-1,/cfb/players/daylan-carnell-1.html,DB,5,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2021
+Javian Hester,javian-hester-1,/cfb/players/javian-hester-1.html,WR,14,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2021
+Chritauskie Dove,chritauskie-dove-1,/cfb/players/chritauskie-dove-1.html,WR,14,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2021
+Brady Cook,brady-cook-1,/cfb/players/brady-cook-1.html,QB,6,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2021
+Daniel Robledo,daniel-robledo-1,/cfb/players/daniel-robledo-1.html,DL,2,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2021
+Travion Ford,travion-ford-1,/cfb/players/travion-ford-1.html,DL,1,2,0,2,1.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2021
+Keke Chism,keke-chism-1,/cfb/players/keke-chism-1.html,WR,14,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2021
+Chance May,chance-may-1,/cfb/players/chance-may-1.html,LB,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2021
+Chance Luper,chance-luper-1,/cfb/players/chance-luper-1.html,WR,8,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2021
+Mason Pack,mason-pack-1,/cfb/players/mason-pack-1.html,DB,6,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2021
+Barrett Banister,barrett-banister-1,/cfb/players/barrett-banister-1.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2021
+Dawson Downing,dawson-downing-1,/cfb/players/dawson-downing-1.html,RB,14,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2021
+Stephen Benson,stephen-benson-1,/cfb/players/stephen-benson-1.html,RB,8,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2021
+Andrew Serrano,andrew-serrano-1,/cfb/players/andrew-serrano-1.html,DL,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2021
+Dominic Lovett,dominic-lovett-1,/cfb/players/dominic-lovett-1.html,WR,14,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2021

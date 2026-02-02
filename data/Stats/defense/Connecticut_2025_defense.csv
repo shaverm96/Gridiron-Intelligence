@@ -1,0 +1,41 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Bryun Parham,byrun-parham-1,/cfb/players/byrun-parham-1.html,LB,13,63,63,126,15.5,10.5,1,0,0.0,0,1,3,0,0,3,,Connecticut,2025
+Oumar Diomande,oumar-diomande-1,/cfb/players/oumar-diomande-1.html,LB,13,65,51,116,8.0,5.0,0,0,,0,1,0,0,0,0,,Connecticut,2025
+Malachi McLean,malachi-mclean-1,/cfb/players/malachi-mclean-1.html,DB,10,38,41,79,2.0,1.0,1,3,3.0,0,2,0,0,0,0,,Connecticut,2025
+Cam Chadwick,cam-chadwick-1,/cfb/players/cam-chadwick-1.html,DB,13,43,24,67,2.5,1.0,4,11,2.8,0,4,0,0,0,0,,Connecticut,2025
+Lee Molette III,lee-molette-iii-1,/cfb/players/lee-molette-iii-1.html,DB,12,29,36,65,2.5,0.0,1,0,0.0,0,3,0,0,0,0,,Connecticut,2025
+D'Mon Brinson,dmon-brinson-1,/cfb/players/dmon-brinson-1.html,DB,13,37,21,58,5.5,0.0,1,0,0.0,0,6,0,0,0,0,,Connecticut,2025
+Devin Pringle,devin-pringle-1,/cfb/players/devin-pringle-1.html,DB,12,29,16,45,4.0,1.0,1,5,5.0,0,4,0,0,0,0,,Connecticut,2025
+Tyquan King,tyquan-king-1,/cfb/players/tyquan-king-1.html,LB,13,27,15,42,3.5,3.0,0,0,,0,2,0,0,0,0,,Connecticut,2025
+Antoineo Harris Jr.,antoineo-harris-jr-1,/cfb/players/antoineo-harris-jr-1.html,DL,13,13,17,30,3.0,2.0,0,0,,0,1,0,0,0,0,,Connecticut,2025
+Donovan Branch,donovan-branch-1,/cfb/players/donovan-branch-1.html,LB,12,19,11,30,5.0,3.5,0,0,,0,1,0,0,0,0,,Connecticut,2025
+Trent Jones,trent-jones-3,/cfb/players/trent-jones-3.html,DE,8,13,15,28,2.5,0.5,0,0,,0,0,2,0,0,0,,Connecticut,2025
+Vincent Carroll-Jackson,vincent-carroll-jackson-1,/cfb/players/vincent-carroll-jackson-1.html,DL,11,12,16,28,1.0,0.0,0,0,,0,0,0,0,0,1,,Connecticut,2025
+Aaron Key,aaron-key-1,/cfb/players/aaron-key-1.html,LB,13,18,10,28,5.0,1.0,1,0,0.0,0,2,0,0,0,0,,Connecticut,2025
+Stephon Wright,stephon-wright-1,/cfb/players/stephon-wright-1.html,DL,11,9,18,27,2.5,1.0,0,0,,0,2,0,0,0,0,,Connecticut,2025
+Tyrece Mills,tyrece-mills-1,/cfb/players/tyrece-mills-1.html,DB,9,15,10,25,2.0,1.0,0,0,,0,5,0,0,0,1,,Connecticut,2025
+Amir Renwick,amir-renwick-1,/cfb/players/amir-renwick-1.html,LB,13,12,12,24,2.5,2.5,1,27,27.0,0,0,0,0,0,0,,Connecticut,2025
+Matt Hoffman,matt-hoffman-1,/cfb/players/matt-hoffman-1.html,DL,12,13,9,22,2.5,0.0,0,0,,0,1,1,0,0,0,,Connecticut,2025
+Ben Smiley III,ben-smiley-iii-1,/cfb/players/ben-smiley-iii-1.html,DL,10,7,14,21,2.0,0.0,0,0,,0,0,0,0,0,0,,Connecticut,2025
+Osiris Gilbert,osiris-gilbert-1,/cfb/players/osiris-gilbert-1.html,DB,12,12,7,19,0.5,0.0,0,0,,0,3,0,0,0,1,,Connecticut,2025
+Kamo'i Latu,kamoi-latu-1,/cfb/players/kamoi-latu-1.html,DB,11,5,9,14,0.0,0.0,0,0,,0,1,0,0,0,0,,Connecticut,2025
+Marquis Black,marquis-black-2,/cfb/players/marquis-black-2.html,DL,12,8,5,13,3.5,2.0,0,0,,0,0,0,0,0,0,,Connecticut,2025
+Kervins Choute,kervins-choute-1,/cfb/players/kervins-choute-1.html,DL,12,6,6,12,0.5,0.0,0,0,,0,0,0,0,0,0,,Connecticut,2025
+Kylish Hicks,kylish-hicks-1,/cfb/players/kylish-hicks-1.html,DB,13,7,2,9,0.0,0.0,0,0,,0,0,0,0,0,0,,Connecticut,2025
+Brandon Kelly,brandon-kelly-2,/cfb/players/brandon-kelly-2.html,DL,7,2,6,8,2.5,1.5,0,0,,0,0,0,0,0,0,,Connecticut,2025
+Jon Morris,jon-morris-1,/cfb/players/jon-morris-1.html,LB,12,2,3,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Connecticut,2025
+Cleto Chol,cleto-chol-1,/cfb/players/cleto-chol-1.html,DL,8,1,3,4,0.5,0.5,0,0,,0,0,0,0,0,0,,Connecticut,2025
+Ethan Hogg,ethan-hogg-2,/cfb/players/ethan-hogg-2.html,LB,8,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Connecticut,2025
+Sione Moa,sione-moa-1,/cfb/players/sione-moa-1.html,LB,12,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Connecticut,2025
+Jeremiah Lomax,jeremiah-lomax-1,/cfb/players/jeremiah-lomax-1.html,DB,5,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Connecticut,2025
+Hayden Pegg,hayden-pegg-1,/cfb/players/hayden-pegg-1.html,LB,9,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Connecticut,2025
+Zach Christinat,zach-christinat-1,/cfb/players/zach-christinat-1.html,LS,13,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Connecticut,2025
+Wes Hoeh,wes-hoeh-1,/cfb/players/wes-hoeh-1.html,OL,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Connecticut,2025
+Ben Murawski,ben-murawski-1,/cfb/players/ben-murawski-1.html,OL,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Connecticut,2025
+Victor Rosa,victor-rosa-1,/cfb/players/victor-rosa-1.html,RB,13,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Connecticut,2025
+Chris Freeman,chris-freeman-2,/cfb/players/chris-freeman-2.html,K,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Connecticut,2025
+Drew Buckley,drew-buckley-1,/cfb/players/drew-buckley-1.html,DB,7,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Connecticut,2025
+Spencer Sullins,spencer-sullins-1,/cfb/players/spencer-sullins-1.html,P,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Connecticut,2025
+Saxton Suchanic,saxton-suchanic-1,/cfb/players/saxton-suchanic-1.html,DB,4,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Connecticut,2025
+Reymello Murphy,reymello-murphy-1,/cfb/players/reymello-murphy-1.html,WR,13,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Connecticut,2025
+Nader Chirchi,nader-chirchi-1,/cfb/players/nader-chirchi-1.html,TE,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Connecticut,2025

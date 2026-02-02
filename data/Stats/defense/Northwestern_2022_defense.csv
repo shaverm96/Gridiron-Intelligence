@@ -1,0 +1,44 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Bryce Gallagher,bryce-gallagher-1,/cfb/players/bryce-gallagher-1.html,LB,11,58,42,100,5.0,1.5,1,0,0.0,0,1,1,0,0,1,,Northwestern,2022
+Xander Mueller,xander-mueller-1,/cfb/players/xander-mueller-1.html,LB,12,52,35,87,10.5,2.5,2,0,0.0,0,2,1,0,0,0,,Northwestern,2022
+Jeremiah Lewis,jeremiah-lewis-1,/cfb/players/jeremiah-lewis-1.html,DB,12,48,22,70,3.0,0.0,0,0,,0,4,1,0,0,0,,Northwestern,2022
+Rod Heard II,rod-heard-ii-1,/cfb/players/rod-heard-ii-1.html,DB,12,47,20,67,4.0,1.0,1,0,0.0,0,2,0,0,0,1,,Northwestern,2022
+Cameron Mitchell,cameron-mitchell-2,/cfb/players/cameron-mitchell-2.html,DB,11,38,14,52,2.5,1.0,1,33,33.0,0,9,1,0,0,1,,Northwestern,2022
+Grayson Metz,grayson-metz-1,/cfb/players/grayson-metz-1.html,LB,12,29,12,41,1.0,0.0,0,0,,0,0,1,0,0,1,,Northwestern,2022
+Adetomiwa Adebawore,adetomiwa-adebawore-1,/cfb/players/adetomiwa-adebawore-1.html,DL,12,27,11,38,9.0,5.0,0,0,,0,1,0,0,0,2,,Northwestern,2022
+Devin Turner,devin-turner-1,/cfb/players/devin-turner-1.html,DB,8,24,8,32,1.0,0.0,0,0,,0,0,0,0,0,1,,Northwestern,2022
+Sean McLaughlin,sean-mclaughlin-1,/cfb/players/sean-mclaughlin-1.html,DL,12,17,14,31,4.0,0.0,0,0,,0,1,0,0,0,1,,Northwestern,2022
+Devin O'Rourke,devin-orourke-1,/cfb/players/devin-orourke-1.html,DL,11,14,14,28,3.0,1.5,0,0,,0,1,0,0,0,0,,Northwestern,2022
+Najee Story,najee-story-1,/cfb/players/najee-story-1.html,DL,12,12,13,25,2.0,1.0,0,0,,0,0,0,0,0,0,,Northwestern,2022
+Garnett Hollis Jr.,garnett-hollis-jr-1,/cfb/players/garnett-hollis-jr-1.html,DB,8,15,9,24,0.0,0.0,1,0,0.0,0,3,0,0,0,1,,Northwestern,2022
+A.J. Hampton,aj-hampton-1,/cfb/players/aj-hampton-1.html,DB,7,18,3,21,1.0,0.0,0,0,,0,0,1,0,0,0,,Northwestern,2022
+Coco Azema,coco-azema-1,/cfb/players/coco-azema-1.html,DB,3,16,4,20,2.0,1.0,0,0,,0,0,0,0,0,0,,Northwestern,2022
+Aidan Hubbard,aidan-hubbard-1,/cfb/players/aidan-hubbard-1.html,DL,11,12,5,17,1.0,1.0,0,0,,0,0,0,0,0,0,,Northwestern,2022
+Theran Johnson,theran-johnson-1,/cfb/players/theran-johnson-1.html,DB,11,11,2,13,0.0,0.0,0,0,,0,3,0,0,0,0,,Northwestern,2022
+Mac Uihlein,mac-uihlein-1,/cfb/players/mac-uihlein-1.html,LB,11,7,5,12,0.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2022
+Taishan Holmes,taishan-holmes-1,/cfb/players/taishan-holmes-1.html,DL,6,5,7,12,0.5,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2022
+Declan Carr,declan-carr-1,/cfb/players/declan-carr-1.html,LB,8,4,6,10,0.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2022
+Jaylen Pate,jaylen-pate-1,/cfb/players/jaylen-pate-1.html,DE,8,8,2,10,1.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2022
+Garner Wallace,garner-wallace-1,/cfb/players/garner-wallace-1.html,DB,9,7,2,9,0.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2022
+Jaheem Joseph,jaheem-joseph-1,/cfb/players/jaheem-joseph-1.html,DB,2,7,2,9,0.0,0.0,0,0,,0,1,0,0,0,0,,Northwestern,2022
+Ore Adeyi,ore-adeyi-1,/cfb/players/ore-adeyi-1.html,DB,10,5,1,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2022
+Raymond Niro III,raymond-niro-iii-1,/cfb/players/raymond-niro-iii-1.html,WR,12,6,0,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2022
+Ryan Johnson,ryan-johnson-8,/cfb/players/ryan-johnson-8.html,DL,6,6,0,6,3.0,2.0,0,0,,0,3,0,0,0,0,,Northwestern,2022
+Jordan Butler,jordan-butler-3,/cfb/players/jordan-butler-3.html,DT,6,1,4,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2022
+Carmine Bastone,carmine-bastone-1,/cfb/players/carmine-bastone-1.html,DL,6,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2022
+Austin Firestone,austin-firestone-1,/cfb/players/austin-firestone-1.html,DL,3,2,1,3,1.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2022
+Jason Gold Jr.,jason-gold-jr-1,/cfb/players/jason-gold-jr-1.html,DL,3,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2022
+Nigel Williams,nigel-williams-2,/cfb/players/nigel-williams-2.html,DB,10,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2022
+Wendell Davis,wendell-davis-4,/cfb/players/wendell-davis-4.html,LB,3,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2022
+Cam Porter,cam-porter-1,/cfb/players/cam-porter-1.html,RB,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2022
+Ethan Wiederkehr,ethan-wiederkehr-1,/cfb/players/ethan-wiederkehr-1.html,OL,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2022
+Malik Washington,malik-washington-1,/cfb/players/malik-washington-1.html,WR,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2022
+PJ Spencer,pj-spencer-1,/cfb/players/pj-spencer-1.html,DL,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2022
+Brendan Flakes,brendan-flakes-1,/cfb/players/brendan-flakes-1.html,DL,2,0,1,1,0.5,0.5,0,0,,0,0,0,0,0,0,,Northwestern,2022
+Marshall Lang,marshall-lang-2,/cfb/players/marshall-lang-2.html,TE,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2022
+Josh Priebe,josh-priebe-1,/cfb/players/josh-priebe-1.html,OL,8,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2022
+Henrik Barndt,henrik-barndt-1,/cfb/players/henrik-barndt-1.html,DL,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2022
+Trent Carrington,trent-carrington-1,/cfb/players/trent-carrington-1.html,DB,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2022
+Donny Navarro III,donny-navarro-iii-1,/cfb/players/donny-navarro-iii-1.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2022
+William Halkyard,william-halkyard-1,/cfb/players/william-halkyard-1.html,LS,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2022
+Anthony Tyus III,anthony-tyus-iii-1,/cfb/players/anthony-tyus-iii-1.html,RB,10,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2022

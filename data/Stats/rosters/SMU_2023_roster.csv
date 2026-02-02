@@ -1,0 +1,128 @@
+Player,Player_ID,Player_Link,class,pos,summary,School,Year
+Preston Stone,preston-stone-1,/cfb/players/preston-stone-1.html,SO,QB,"206 Cmp, 344 Att, 3197 Yds, 28 TD",SMU,2023
+Kevin Jennings,kevin-jennings-2,/cfb/players/kevin-jennings-2.html,FR,QB,"61 Cmp, 105 Att, 618 Yds, 5 TD",SMU,2023
+Alex Padilla,alex-padilla-1,/cfb/players/alex-padilla-1.html,SR,QB,"5 Cmp, 7 Att, 59 Yds, 0 TD",SMU,2023
+Keldric Luster,keldric-luster-1,/cfb/players/keldric-luster-1.html,FR,QB,"2 Cmp, 6 Att, 23 Yds, 0 TD",SMU,2023
+Owen Easley,owen-easley-1,/cfb/players/owen-easley-1.html,SR,QB,,SMU,2023
+William Fierro,william-fierro-1,/cfb/players/william-fierro-1.html,FR,QB,,SMU,2023
+Charlie Fiser,charlie-fiser-1,/cfb/players/charlie-fiser-1.html,FR,QB,,SMU,2023
+Clyde Pittman,clyde-pittman-1,/cfb/players/clyde-pittman-1.html,FR,QB,,SMU,2023
+Jaylan Knighton,jaylan-knighton-1,/cfb/players/jaylan-knighton-1.html,SR,RB,"136 Att, 745 Yds, 5.5 Avg",SMU,2023
+LJ Johnson Jr.,lj-johnson-jr-2,/cfb/players/lj-johnson-jr-2.html,SO,RB,"108 Att, 576 Yds, 5.3 Avg",SMU,2023
+Camar Wheaton,camar-wheaton-1,/cfb/players/camar-wheaton-1.html,SO,RB,"83 Att, 410 Yds, 4.9 Avg",SMU,2023
+Tyler Lavine,tyler-lavine-1,/cfb/players/tyler-lavine-1.html,SR,RB,"39 Att, 168 Yds, 4.3 Avg",SMU,2023
+Velton Gardner,velton-gardner-1,/cfb/players/velton-gardner-1.html,SR,RB,"32 Att, 137 Yds, 4.3 Avg",SMU,2023
+Zane Minors,zane-minors-1,/cfb/players/zane-minors-1.html,SO,RB,"24 Att, 101 Yds, 4.2 Avg",SMU,2023
+Roderick Daniels Jr.,roderick-daniels-jr-1,/cfb/players/roderick-daniels-jr-1.html,JR,WR,"24 Rec, 370 Yds, 15.4 Avg",SMU,2023
+Jake Bailey,jake-bailey-2,/cfb/players/jake-bailey-2.html,SR,WR,"42 Rec, 528 Yds, 12.6 Avg",SMU,2023
+Kelvontay Dixon,kelvontay-dixon-1,/cfb/players/kelvontay-dixon-1.html,JR,WR,"25 Rec, 441 Yds, 17.6 Avg",SMU,2023
+Jordan Hudson,jordan-hudson-1,/cfb/players/jordan-hudson-1.html,SO,WR,"30 Rec, 425 Yds, 14.2 Avg",SMU,2023
+Romello Brinson,romello-brinson-1,/cfb/players/romello-brinson-1.html,JR,WR,"28 Rec, 431 Yds, 15.4 Avg",SMU,2023
+Keyshawn Smith,keyshawn-smith-1,/cfb/players/keyshawn-smith-1.html,SR,WR,"25 Rec, 392 Yds, 15.7 Avg",SMU,2023
+Jordan Kerley,jordan-kerley-1,/cfb/players/jordan-kerley-1.html,SR,WR,"18 Rec, 319 Yds, 17.7 Avg",SMU,2023
+Carter Campbell,carter-campbell-1,/cfb/players/carter-campbell-1.html,JR,WR,"2 Rec, 28 Yds, 14.0 Avg",SMU,2023
+Joey Bruszer,joey-bruszer-1,/cfb/players/joey-bruszer-1.html,FR,WR,"1 Rec, 23 Yds, 23.0 Avg",SMU,2023
+Jamarion Carroll,jamarion-carroll-1,/cfb/players/jamarion-carroll-1.html,FR,WR,"1 Rec, 7 Yds, 7.0 Avg",SMU,2023
+Keaton Cheves,keaton-cheves-1,/cfb/players/keaton-cheves-1.html,FR,WR,"1 Rec, 3 Yds, 3.0 Avg",SMU,2023
+Jaxson Lavender,jaxson-lavender-1,/cfb/players/jaxson-lavender-1.html,FR,WR,"1 Rec, 20 Yds, 20.0 Avg",SMU,2023
+Nic Heck,nic-heck-1,/cfb/players/nic-heck-1.html,SR,WR,,SMU,2023
+Case Holleron,case-holleron-1,/cfb/players/case-holleron-1.html,FR,WR,,SMU,2023
+Teddy Knox,teddy-knox-1,/cfb/players/teddy-knox-1.html,SO,WR,,SMU,2023
+Cooper Reed,cooper-reed-1,/cfb/players/cooper-reed-1.html,FR,WR,,SMU,2023
+Henry Stickler,henry-stickler-1,/cfb/players/henry-stickler-1.html,FR,WR,,SMU,2023
+Maddox Fuller,maddox-fuller-1,/cfb/players/maddox-fuller-1.html,FR,WR,,SMU,2023
+Will Kuehne,will-kuehne-1,/cfb/players/will-kuehne-1.html,SR,WR,,SMU,2023
+Meyer Pereira,meyer-pereira-1,/cfb/players/meyer-pereira-1.html,FR,WR,,SMU,2023
+RJ Maryland,rj-maryland-1,/cfb/players/rj-maryland-1.html,SO,TE,"34 Rec, 518 Yds, 15.2 Avg",SMU,2023
+Adam Moore,adam-moore-1,/cfb/players/adam-moore-1.html,FR,TE,"6 Rec, 98 Yds, 16.3 Avg",SMU,2023
+Micah Hilts,micah-hilts-1,/cfb/players/micah-hilts-1.html,SR,TE,"1 Rec, 7 Yds, 7.0 Avg",SMU,2023
+Nolan Matthews-Harris,nolan-matthews-harris-1,/cfb/players/nolan-matthews-harris-1.html,JR,TE,"1 Rec, 9 Yds, 9.0 Avg",SMU,2023
+Tripp Riordan,tripp-riordan-1,/cfb/players/tripp-riordan-1.html,FR,TE,"1 Rec, 26 Yds, 26.0 Avg",SMU,2023
+Markus Schumacher,markus-schumacher-1,/cfb/players/markus-schumacher-1.html,FR,TE,"1 Rec, 0 Yds, 0.0 Avg",SMU,2023
+Ned Righellis,ned-righellis-1,/cfb/players/ned-righellis-1.html,FR,TE,,SMU,2023
+Kam Allen,kam-allen-1,/cfb/players/kam-allen-1.html,SO,TE,,SMU,2023
+Davis Hawkins,davis-hawkins-1,/cfb/players/davis-hawkins-1.html,JR,TE,,SMU,2023
+Lonnie Johnson,lonnie-johnson-5,/cfb/players/lonnie-johnson-5.html,FR,TE,,SMU,2023
+Nate Bennett,nate-bennett-2,/cfb/players/nate-bennett-2.html,FR,OL,,SMU,2023
+Paxton Briggle,paxton-briggle-1,/cfb/players/paxton-briggle-1.html,FR,OL,,SMU,2023
+Marcus Bryant,marcus-bryant-1,/cfb/players/marcus-bryant-1.html,SR,OL,,SMU,2023
+Jakai Clark,jakai-clark-2,/cfb/players/jakai-clark-2.html,SR,OL,,SMU,2023
+Cameron Ervin,cameron-ervin-3,/cfb/players/cameron-ervin-3.html,SR,OL,,SMU,2023
+Reagan Gill,reagan-gill-1,/cfb/players/reagan-gill-1.html,FR,OL,,SMU,2023
+Branson Hickman,branson-hickman-1,/cfb/players/branson-hickman-1.html,JR,OL,,SMU,2023
+Caleb Johnson,caleb-johnson-5,/cfb/players/caleb-johnson-5.html,SO,OL,,SMU,2023
+Jack Laphen,jack-laphen-1,/cfb/players/jack-laphen-1.html,FR,OL,,SMU,2023
+Justin Osborne,justin-osborne-1,/cfb/players/justin-osborne-1.html,SR,OL,,SMU,2023
+Logan Parr,logan-parr-1,/cfb/players/logan-parr-1.html,SO,OL,,SMU,2023
+Dalton Perdue,dalton-perdue-1,/cfb/players/dalton-perdue-1.html,JR,OL,,SMU,2023
+Jackson Ritz,jackson-ritz-1,/cfb/players/jackson-ritz-1.html,JR,OL,,SMU,2023
+Keaton Schultz,keaton-schultz-1,/cfb/players/keaton-schultz-1.html,SO,OL,,SMU,2023
+Sean Scott,sean-scott-5,/cfb/players/sean-scott-5.html,FR,OL,,SMU,2023
+Ben Sparks,ben-sparks-1,/cfb/players/ben-sparks-1.html,JR,OL,,SMU,2023
+Jacob Waller,jacob-waller-1,/cfb/players/jacob-waller-1.html,FR,OL,,SMU,2023
+Hyrin White,hyrin-white-1,/cfb/players/hyrin-white-1.html,SR,OL,,SMU,2023
+PJ Williams,pj-williams-2,/cfb/players/pj-williams-2.html,FR,OL,,SMU,2023
+Alex Woods,alex-woods-2,/cfb/players/alex-woods-2.html,FR,OL,,SMU,2023
+Max Yao,max-yao-1,/cfb/players/max-yao-1.html,JR,OL,,SMU,2023
+Henry Douglass,henry-douglass-1,/cfb/players/henry-douglass-1.html,FR,OL,,SMU,2023
+Hunter Ryan,hunter-ryan-1,/cfb/players/hunter-ryan-1.html,FR,OL,,SMU,2023
+Collin Rogers,collin-rogers-1,/cfb/players/collin-rogers-1.html,SO,K,,SMU,2023
+Michael Tadros,michael-tadros-1,/cfb/players/michael-tadros-1.html,FR,K,,SMU,2023
+Jordan Miller,jordan-miller-4,/cfb/players/jordan-miller-4.html,SR,DL,,SMU,2023
+Kori Roberson,kori-roberson-1,/cfb/players/kori-roberson-1.html,SR,DL,,SMU,2023
+Elijah Roberts,elijah-roberts-1,/cfb/players/elijah-roberts-1.html,JR,DL,,SMU,2023
+Cam Robertson,cam-robertson-1,/cfb/players/cam-robertson-1.html,SO,DL,,SMU,2023
+Kevin Allen,kevin-allen-2,/cfb/players/kevin-allen-2.html,FR,DL,,SMU,2023
+Stephon Wright,stephon-wright-1,/cfb/players/stephon-wright-1.html,SR,DL,,SMU,2023
+Chris Adimora,chris-adimora-1,/cfb/players/chris-adimora-1.html,SR,LB,,SMU,2023
+Jaqwondis Burns,jaqwondis-burns-1,/cfb/players/jaqwondis-burns-1.html,JR,LB,,SMU,2023
+Alex Kilgore,alex-kilgore-1,/cfb/players/alex-kilgore-1.html,FR,LB,,SMU,2023
+Brandon Miyazono,brandon-miyazono-1,/cfb/players/brandon-miyazono-1.html,FR,LB,,SMU,2023
+Ahmad Walker,ahmad-walker-1,/cfb/players/ahmad-walker-1.html,JR,LB,,SMU,2023
+IV Webb,iv-webb-1,/cfb/players/iv-webb-1.html,FR,LB,,SMU,2023
+Kobe Wilson,kobe-wilson-1,/cfb/players/kobe-wilson-1.html,JR,LB,,SMU,2023
+Sean Kane,sean-kane-1,/cfb/players/sean-kane-1.html,FR,LB,,SMU,2023
+Jaelyn Davis-Robinson,jaelyn-davis-robinson-1,/cfb/players/jaelyn-davis-robinson-1.html,FR,DB,,SMU,2023
+Abdul Muhammad,abdul-muhammad-2,/cfb/players/abdul-muhammad-2.html,FR,DB,,SMU,2023
+Cale Sanders,cale-sanders-1,/cfb/players/cale-sanders-1.html,JR,DB,,SMU,2023
+Ryan Bujcevski,ryan-bujcevski-1,/cfb/players/ryan-bujcevski-1.html,SR,P,,SMU,2023
+Sam Eccles,sam-eccles-1,/cfb/players/sam-eccles-1.html,FR,P,,SMU,2023
+Johnny Schifano,johnny-schifano-1,/cfb/players/johnny-schifano-1.html,JR,P,,SMU,2023
+Stone Eby,stone-eby-1,/cfb/players/stone-eby-1.html,SO,FB,,SMU,2023
+David Abiara,david-abiara-2,/cfb/players/david-abiara-2.html,SO,DE,,SMU,2023
+Matt Baer,matt-baer-1,/cfb/players/matt-baer-1.html,FR,DE,,SMU,2023
+Will Benton,will-benton-1,/cfb/players/will-benton-1.html,SR,LS,,SMU,2023
+Jovoni Borbon,jovoni-borbon-1,/cfb/players/jovoni-borbon-1.html,SO,LS,,SMU,2023
+Kyron Chambers,kyron-chambers-1,/cfb/players/kyron-chambers-1.html,SO,CB,,SMU,2023
+Elijah Chatman,elijah-chatman-1,/cfb/players/elijah-chatman-1.html,SR,DT,,SMU,2023
+Brandon Crossley,brandon-crossley-1,/cfb/players/brandon-crossley-1.html,SR,CB,,SMU,2023
+AJ Davis,aj-davis-2,/cfb/players/aj-davis-2.html,FR,CB,,SMU,2023
+Michael De Hoyos,michael-de-hoyos-1,/cfb/players/michael-de-hoyos-1.html,FR,CB,,SMU,2023
+Braeden Flowers,braeden-flowers-1,/cfb/players/braeden-flowers-1.html,FR,DE,,SMU,2023
+Brock Foster,brock-foster-1,/cfb/players/brock-foster-1.html,FR,CB,,SMU,2023
+Dylan Frazier,dylan-frazier-1,/cfb/players/dylan-frazier-1.html,FR,DT,,SMU,2023
+Will Goldberg,will-goldberg-1,/cfb/players/will-goldberg-1.html,JR,S,,SMU,2023
+Kevaris Hall,kevaris-hall-2,/cfb/players/kevaris-hall-2.html,JR,CB,,SMU,2023
+Jayden Jones,jayden-jones-1,/cfb/players/jayden-jones-1.html,SO,DE,,SMU,2023
+Devere Levelston,devere-levelston-1,/cfb/players/devere-levelston-1.html,SR,DT,,SMU,2023
+Bryan Massey,bryan-massey-1,/cfb/players/bryan-massey-1.html,SR,S,,SMU,2023
+Jonathan McGill,jonathan-mcgill-1,/cfb/players/jonathan-mcgill-1.html,SR,S,,SMU,2023
+Bryce McMorris,bryce-mcmorris-1,/cfb/players/bryce-mcmorris-1.html,SO,CB,,SMU,2023
+Chris Megginson,chris-megginson-1,/cfb/players/chris-megginson-1.html,SR,CB,,SMU,2023
+Nate Monticure,nate-monticure-1,/cfb/players/nate-monticure-1.html,JR,S,,SMU,2023
+Ahmaad Moses,ahmaad-moses-1,/cfb/players/ahmaad-moses-1.html,SO,S,,SMU,2023
+Isaiah Nwokobia,isaiah-nwokobia-1,/cfb/players/isaiah-nwokobia-1.html,SO,S,,SMU,2023
+Ford Parker,ford-parker-1,/cfb/players/ford-parker-1.html,SR,CB,,SMU,2023
+Nelson Paul,nelson-paul-1,/cfb/players/nelson-paul-1.html,SR,DE,,SMU,2023
+Jahari Rogers,jahari-rogers-1,/cfb/players/jahari-rogers-1.html,JR,CB,,SMU,2023
+Je'lin Samuels,jelin-samuels-1,/cfb/players/jelin-samuels-1.html,SO,DE,,SMU,2023
+Alex Sickafoose,alex-sickafoose-1,/cfb/players/alex-sickafoose-1.html,SR,DE,,SMU,2023
+Isaiah Smith,isaiah-smith-1,/cfb/players/isaiah-smith-1.html,SO,DE,,SMU,2023
+Daemian Wimberly,daemian-wimberly-1,/cfb/players/daemian-wimberly-1.html,FR,DT,,SMU,2023
+Charles Woods,charles-woods-4,/cfb/players/charles-woods-4.html,SR,S,,SMU,2023
+Mike Yoan Sandjo-Njiki,mike-yoan-sandjo-njiki-1,/cfb/players/mike-yoan-sandjo-njiki-1.html,JR,DT,,SMU,2023
+Marcus Chan,marcus-chan-1,/cfb/players/marcus-chan-1.html,FR,LS,,SMU,2023
+Dylan Hinshaw,dylan-hinshaw-1,/cfb/players/dylan-hinshaw-1.html,FR,DE,,SMU,2023
+Braylen Jackson,braylen-jackson-1,/cfb/players/braylen-jackson-1.html,FR,DT,,SMU,2023
+Keyshon Mills,keyshon-mills-1,/cfb/players/keyshon-mills-1.html,SO,CB,,SMU,2023
+John Porter,john-porter-3,/cfb/players/john-porter-3.html,SR,CB,,SMU,2023

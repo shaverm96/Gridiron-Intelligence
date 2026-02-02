@@ -1,0 +1,55 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Daniel Scott,daniel-scott-1,/cfb/players/daniel-scott-1.html,S,12,60,22,82,4.5,1.0,3,6,2.0,1,2,0,0,0,1,,California,2021
+Elijah Hicks,elijah-hicks-1,/cfb/players/elijah-hicks-1.html,S,12,49,23,72,5.5,1.0,3,2,0.7,0,2,0,0,0,4,,California,2021
+Muelu Iosefa,muelu-iosefa-1,/cfb/players/muelu-iosefa-1.html,LB,10,27,32,59,7.0,0.0,0,0,,0,0,0,0,0,0,,California,2021
+Josh Drayden,josh-drayden-1,/cfb/players/josh-drayden-1.html,CB,12,30,18,48,3.0,0.0,0,0,,0,5,0,0,0,0,,California,2021
+Cameron Goode,cameron-goode-1,/cfb/players/cameron-goode-1.html,LB,11,29,17,46,9.0,7.5,0,0,,0,4,1,0,0,0,,California,2021
+Luc Bequette,luc-bequette-1,/cfb/players/luc-bequette-1.html,DL,11,15,25,40,4.5,3.5,0,0,,0,4,0,0,0,0,,California,2021
+Marqez Bimage,marqez-bimage-1,/cfb/players/marqez-bimage-1.html,LB,12,23,17,40,7.5,2.0,0,0,,0,2,3,0,0,2,,California,2021
+Femi Oladejo,femi-oladejo-1,/cfb/players/femi-oladejo-1.html,LB,10,21,17,38,2.5,0.0,0,0,,0,0,0,0,0,0,,California,2021
+John Henry Tevis,john-henry-tevis-1,/cfb/players/john-henry-tevis-1.html,DE,12,19,18,37,5.5,1.0,0,0,,0,3,0,0,0,0,,California,2021
+Nate Ruchena,nate-ruchena-1,/cfb/players/nate-ruchena-1.html,LB,8,22,13,35,3.0,0.0,3,6,2.0,0,3,0,0,0,0,,California,2021
+Nate Rutchena,nate-rutchena-1,/cfb/players/nate-rutchena-1.html,,7,23,12,35,3.0,0.0,3,6,2.0,0,3,0,0,0,0,,California,2021
+Evan Tattersall,evan-tattersall-1,/cfb/players/evan-tattersall-1.html,LB,10,19,13,32,1.0,1.0,1,10,10.0,0,1,0,0,0,0,,California,2021
+Collin Gamble,collin-gamble-1,/cfb/players/collin-gamble-1.html,CB,10,21,10,31,0.0,0.0,1,4,4.0,0,5,0,0,0,0,,California,2021
+Lu-Magia Hearns,lu-magia-hearns-1,/cfb/players/lu-magia-hearns-1.html,CB,11,21,7,28,0.0,0.0,1,0,0.0,0,10,1,0,0,0,,California,2021
+Trey Paster,trey-paster-1,/cfb/players/trey-paster-1.html,,8,15,10,25,4.5,1.0,0,0,,0,3,2,55,1,0,,California,2021
+Trey Pastor,trey-pastor-1,/cfb/players/trey-pastor-1.html,LB,8,15,10,25,4.5,1.0,0,0,,0,3,1,0,1,0,,California,2021
+Braxten Croteau,braxten-croteau-1,/cfb/players/braxten-croteau-1.html,LB,12,8,16,24,0.5,0.0,0,0,,0,0,0,0,0,0,,California,2021
+Ethan Saunders,ethan-saunders-1,/cfb/players/ethan-saunders-1.html,DE,12,12,8,20,4.5,3.5,0,0,,0,0,0,0,0,2,,California,2021
+Chigpzie Anusiem,chigozie-anusiem-1,/cfb/players/chigozie-anusiem-1.html,CB,7,12,1,13,0.0,0.0,0,0,,0,2,0,0,0,0,,California,2021
+Ricky Correia,ricky-correia-1,/cfb/players/ricky-correia-1.html,G,10,5,6,11,0.0,0.0,0,0,,0,0,0,0,0,0,,California,2021
+Fatuvalu Iosefa,fatuvalu-iosefa-1,/cfb/players/fatuvalu-iosefa-1.html,S,1,4,6,10,1.0,0.0,0,0,,0,0,0,0,0,0,,California,2021
+Isaiah Young,isaiah-young-1,/cfb/players/isaiah-young-1.html,CB,6,9,0,9,0.0,0.0,0,0,,0,5,0,0,0,0,,California,2021
+Raymond Woodie III,raymond-woodie-iii-1,/cfb/players/raymond-woodie-iii-1.html,S,12,3,4,7,0.0,0.0,0,0,,0,0,0,0,0,0,,California,2021
+Nick Alftin,nick-alftin-1,/cfb/players/nick-alftin-1.html,TE,12,5,1,6,0.0,0.0,0,0,,0,0,0,0,0,0,,California,2021
+Branden Smith,branden-smith-2,/cfb/players/branden-smith-2.html,CB,11,3,3,6,0.0,0.0,0,0,,0,0,0,0,0,0,,California,2021
+Ryan Puskas,ryan-puskas-1,/cfb/players/ryan-puskas-1.html,LB,5,4,1,5,0.0,0.0,0,0,,0,0,0,0,0,0,,California,2021
+Jaedon Roberts,jaedon-roberts-1,/cfb/players/jaedon-roberts-1.html,DE,12,3,2,5,1.0,1.0,0,0,,0,0,0,0,0,0,,California,2021
+Myles Jerningan,myles-jerningan-1,/cfb/players/myles-jerningan-1.html,,8,1,4,5,0.0,0.0,0,0,,0,0,0,0,0,0,,California,2021
+Myles Jernigan,myles-jernigan-1,/cfb/players/myles-jernigan-1.html,LB,3,1,4,5,0.0,0.0,0,0,,0,0,0,0,0,0,,California,2021
+Elijah Mojarro,elijah-mojarro-1,/cfb/players/elijah-mojarro-1.html,TE,11,3,2,5,0.0,0.0,0,0,,0,0,0,0,0,0,,California,2021
+Kuony Deng,kuony-deng-1,/cfb/players/kuony-deng-1.html,LB,2,1,3,4,0.0,0.0,0,0,,0,0,0,0,0,0,,California,2021
+Dario Longhetto,dario-longhetto-1,/cfb/players/dario-longhetto-1.html,PK,11,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,California,2021
+Miles Williams,miles-williams-2,/cfb/players/miles-williams-2.html,S,12,2,1,3,0.0,0.0,1,0,0.0,0,0,0,0,0,0,,California,2021
+Gunnar Rask,gunnar-rask-1,/cfb/players/gunnar-rask-1.html,NT,3,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,California,2021
+Orin Patu,orin-patu-1,/cfb/players/orin-patu-1.html,LB,10,3,0,3,1.0,1.0,0,0,,0,0,0,0,0,0,,California,2021
+J. Michael Sturdivant,j-michael-sturdivant-1,/cfb/players/j-michael-sturdivant-1.html,WR,4,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,California,2021
+Trevon Clark,trevon-clark-1,/cfb/players/trevon-clark-1.html,WR,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,California,2021
+Stanley McKenzie,stanley-mckenzie-1,/cfb/players/stanley-mckenzie-1.html,NT,4,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,California,2021
+DeCarlos Brooks,decarlos-brooks-1,/cfb/players/decarlos-brooks-1.html,RB,7,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,California,2021
+Nikko Remigio,nikko-remigio-1,/cfb/players/nikko-remigio-1.html,WR,11,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,California,2021
+Derek Wilkins,derek-wilkins-1,/cfb/players/derek-wilkins-1.html,DE,3,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,California,2021
+Slater Zellers,slater-zellers-1,/cfb/players/slater-zellers-1.html,LS,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,California,2021
+Valentino Daltoso,valentino-daltoso-1,/cfb/players/valentino-daltoso-1.html,OL,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,California,2021
+Collin Moore,collin-moore-1,/cfb/players/collin-moore-1.html,TE,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,California,2021
+Ben Coleman,ben-coleman-2,/cfb/players/ben-coleman-2.html,OL,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,California,2021
+Jamieson Sheahan,jamieson-sheahan-1,/cfb/players/jamieson-sheahan-1.html,P,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,California,2021
+Darius Long,darius-long-1,/cfb/players/darius-long-1.html,DL,9,0,1,1,0.5,0.5,0,0,,0,0,0,0,0,0,,California,2021
+Dejuan Butler,dejuan-butler-1,/cfb/players/dejuan-butler-1.html,S,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,California,2021
+McKyle So'oto,mckyle-sooto-1,/cfb/players/mckyle-sooto-1.html,LB,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,California,2021
+Matt Horwitz,matt-horwitz-1,/cfb/players/matt-horwitz-1.html,LB,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,California,2021
+Gavin Reinwald,gavin-reinwald-1,/cfb/players/gavin-reinwald-1.html,TE,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,California,2021
+Hunter Barth,hunter-barth-1,/cfb/players/hunter-barth-1.html,S,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,California,2021
+Justin Baker,justin-baker-1,/cfb/players/justin-baker-1.html,WR,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,California,2021
+Jaylen Martin,jaylen-martin-1,/cfb/players/jaylen-martin-1.html,CB,2,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,California,2021

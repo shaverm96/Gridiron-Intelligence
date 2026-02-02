@@ -1,0 +1,45 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Shamari Simmons,shamari-simmons-1,/cfb/players/shamari-simmons-1.html,DB,12,54,19,73,1.5,1.0,1,0,0.0,0,6,2,3,0,0,,Arizona State,2023
+Chris Edmonds,chris-edmonds-2,/cfb/players/chris-edmonds-2.html,DB,12,39,32,71,0.0,0.0,0,0,,0,2,0,0,0,0,,Arizona State,2023
+Travion Brown,travion-brown-1,/cfb/players/travion-brown-1.html,LB,11,29,24,53,3.0,0.5,1,32,32.0,0,1,0,0,0,0,,Arizona State,2023
+Tate Romney,tate-romney-1,/cfb/players/tate-romney-1.html,LB,12,29,23,52,4.0,1.0,0,0,,0,4,1,0,0,0,,Arizona State,2023
+Caleb McCullough,caleb-mccullough-1,/cfb/players/caleb-mccullough-1.html,LB,12,26,26,52,4.5,1.0,0,0,,0,1,0,0,0,1,,Arizona State,2023
+Jordan Clark,jordan-clark-1,/cfb/players/jordan-clark-1.html,DB,11,30,20,50,1.5,0.0,0,0,,0,9,0,0,0,0,,Arizona State,2023
+Dashaun Mallory,dashaun-mallory-1,/cfb/players/dashaun-mallory-1.html,DL,12,26,22,48,10.0,2.0,0,0,,0,4,0,0,0,0,,Arizona State,2023
+B.J. Green II,bj-green-ii-1,/cfb/players/bj-green-ii-1.html,DL,12,21,18,39,11.5,6.0,0,0,,0,0,0,0,0,1,,Arizona State,2023
+Ro Torrence,ro-torrence-1,/cfb/players/ro-torrence-1.html,DB,12,23,14,37,2.0,2.0,1,0,0.0,0,3,0,0,0,0,,Arizona State,2023
+Edward Woods,edward-woods-1,/cfb/players/edward-woods-1.html,DB,12,27,6,33,3.0,0.0,1,15,15.0,0,4,0,0,0,2,,Arizona State,2023
+Demetries Ford,demetries-ford-1,/cfb/players/demetries-ford-1.html,DB,12,25,6,31,1.5,0.0,0,0,,0,5,0,0,0,1,,Arizona State,2023
+Prince Dorbah,prince-dorbah-1,/cfb/players/prince-dorbah-1.html,DL,10,14,16,30,9.5,6.0,0,0,,0,1,0,0,0,0,,Arizona State,2023
+Alphonso Taylor,alphonso-taylor-2,/cfb/players/alphonso-taylor-2.html,DB,11,17,10,27,0.0,0.0,0,0,,0,0,0,0,0,2,,Arizona State,2023
+Clayton Smith,clayton-smith-1,/cfb/players/clayton-smith-1.html,DL,11,9,12,21,5.5,4.5,0,0,,0,1,0,0,0,0,,Arizona State,2023
+James Djonkam,james-djonkam-1,/cfb/players/james-djonkam-1.html,LB,12,7,13,20,0.5,0.0,0,0,,0,0,0,0,0,0,,Arizona State,2023
+C.J. Fite,cj-fite-1,/cfb/players/cj-fite-1.html,DL,11,6,9,15,1.5,0.0,0,0,,0,1,1,0,0,0,,Arizona State,2023
+Macen Williams,macen-williams-1,/cfb/players/macen-williams-1.html,DB,9,8,5,13,0.5,0.0,0,0,,0,1,0,0,0,0,,Arizona State,2023
+Anthonie Cooper,anthonie-cooper-1,/cfb/players/anthonie-cooper-1.html,DL,6,4,8,12,1.0,0.5,0,0,,0,0,0,0,0,0,,Arizona State,2023
+Elijah O'Neil,elijah-oneil-1,/cfb/players/elijah-oneil-1.html,DL,12,6,5,11,1.5,0.5,0,0,,0,0,0,0,0,0,,Arizona State,2023
+Tristan Monday,tristan-monday-1,/cfb/players/tristan-monday-1.html,DE,11,2,7,9,0.5,0.0,0,0,,0,0,0,0,0,0,,Arizona State,2023
+Sam Benjamin,sam-benjamin-1,/cfb/players/sam-benjamin-1.html,DL,10,2,4,6,0.5,0.0,0,0,,0,0,0,0,0,0,,Arizona State,2023
+RJ Regan,rj-regan-1,/cfb/players/rj-regan-1.html,DB,8,2,4,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Arizona State,2023
+Gharin Stansbury,gharin-stansbury-1,/cfb/players/gharin-stansbury-1.html,DL,3,0,5,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Arizona State,2023
+Will Shaffer,will-shaffer-1,/cfb/players/will-shaffer-1.html,LB,4,2,3,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Arizona State,2023
+Blazen Lono-Wong,blazen-lono-wong-1,/cfb/players/blazen-lono-wong-1.html,DL,9,0,5,5,0.5,0.0,0,0,,0,0,0,0,0,0,,Arizona State,2023
+Michael Matus,michael-matus-1,/cfb/players/michael-matus-1.html,DL,9,3,2,5,0.5,0.5,0,0,,0,0,0,0,0,0,,Arizona State,2023
+Kyson Brown,kyson-brown-1,/cfb/players/kyson-brown-1.html,RB,12,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Arizona State,2023
+Tevin White,tevin-white-1,/cfb/players/tevin-white-1.html,RB,11,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Arizona State,2023
+Andre Johnson,andre-johnson-4,/cfb/players/andre-johnson-4.html,WR,9,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Arizona State,2023
+Xavier Guillory,xavier-guillory-1,/cfb/players/xavier-guillory-1.html,WR,9,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Arizona State,2023
+Josiah Cox,josiah-cox-1,/cfb/players/josiah-cox-1.html,DB,10,1,2,3,0.5,0.5,0,0,,0,0,0,0,0,0,,Arizona State,2023
+Keith Abney II,keith-abney-ii-1,/cfb/players/keith-abney-ii-1.html,DB,8,1,1,2,0.0,0.0,1,0,0.0,0,0,0,0,0,0,,Arizona State,2023
+Ryan Morgan,ryan-morgan-1,/cfb/players/ryan-morgan-1.html,TE,12,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Arizona State,2023
+Messiah Swinson,messiah-swinson-1,/cfb/players/messiah-swinson-1.html,TE,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Arizona State,2023
+Montana Warren,montana-warren-1,/cfb/players/montana-warren-1.html,DB,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Arizona State,2023
+Melquan Stovall,melquan-stovall-1,/cfb/players/melquan-stovall-1.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Arizona State,2023
+K'Vion Thunderbird,kvion-thunderbird-1,/cfb/players/kvion-thunderbird-1.html,LB,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Arizona State,2023
+Joseph McGinnis II,joseph-mcginnis-ii-1,/cfb/players/joseph-mcginnis-ii-1.html,DB,2,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Arizona State,2023
+Jalin Conyers,jalin-conyers-1,/cfb/players/jalin-conyers-1.html,TE,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Arizona State,2023
+Ian Hershey,ian-hershey-1,/cfb/players/ian-hershey-1.html,K,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Arizona State,2023
+Giovanni Sanders,giovanni-sanders-1,/cfb/players/giovanni-sanders-1.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Arizona State,2023
+Elijhah Badger,elijhah-badger-1,/cfb/players/elijhah-badger-1.html,WR,11,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Arizona State,2023
+Damon Williamson,damon-williamson-1,/cfb/players/damon-williamson-1.html,DB,4,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Arizona State,2023
+Cameron Skattebo,cameron-skattebo-1,/cfb/players/cameron-skattebo-1.html,RB,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Arizona State,2023

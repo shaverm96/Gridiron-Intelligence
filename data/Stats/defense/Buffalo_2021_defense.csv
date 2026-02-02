@@ -1,0 +1,42 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+James Patterson,james-patterson-3,/cfb/players/james-patterson-3.html,LB,12,49,66,115,12.0,4.5,1,11,11.0,0,0,0,0,0,1,,Buffalo,2021
+Cory Gross Jr.,cory-gross-jr-1,/cfb/players/cory-gross-jr-1.html,S,12,34,35,69,0.0,0.0,0,0,,0,1,0,0,0,0,,Buffalo,2021
+Marcus Fuqua,marcus-fuqua-1,/cfb/players/marcus-fuqua-1.html,S,11,31,29,60,1.5,0.0,0,0,,0,3,0,0,0,1,,Buffalo,2021
+Kadofi Wright,kadofi-wright-1,/cfb/players/kadofi-wright-1.html,LB,11,29,20,49,6.5,2.5,1,0,0.0,0,6,1,0,0,1,,Buffalo,2021
+Daymond Williams,daymond-williams-1,/cfb/players/daymond-williams-1.html,DL,12,19,27,46,10.5,6.5,0,0,,0,3,0,0,0,0,,Buffalo,2021
+Ja'Marcus Ingram,jamarcus-ingram-1,/cfb/players/jamarcus-ingram-1.html,DB,11,35,11,46,1.5,0.0,0,0,,0,3,0,0,0,1,,Buffalo,2021
+Aapri Washington,aapri-washington-1,/cfb/players/aapri-washington-1.html,CB,12,24,17,41,2.0,1.0,0,0,,0,6,2,0,0,0,,Buffalo,2021
+Shaun Dolac,shaun-dolac-1,/cfb/players/shaun-dolac-1.html,LB,12,20,17,37,6.0,1.5,0,0,,0,0,0,0,0,0,,Buffalo,2021
+Max Michel,max-michel-1,/cfb/players/max-michel-1.html,DE,8,15,21,36,5.5,4.0,0,0,,0,2,1,0,0,2,,Buffalo,2021
+E.J. Brown,ej-brown-1,/cfb/players/ej-brown-1.html,S,9,18,14,32,2.5,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2021
+C.J. Bazile,cj-bazile-1,/cfb/players/cj-bazile-1.html,DE,12,13,18,31,2.5,1.0,0,0,,0,2,0,0,0,1,,Buffalo,2021
+Josh Rogers,josh-rogers-3,/cfb/players/josh-rogers-3.html,DT,11,9,15,24,3.5,0.5,0,0,,0,0,0,0,0,0,,Buffalo,2021
+Taylor Riggins,taylor-riggins-1,/cfb/players/taylor-riggins-1.html,DE,5,13,10,23,7.0,4.0,0,0,,0,0,0,0,0,2,,Buffalo,2021
+George Wolo,george-wolo-1,/cfb/players/george-wolo-1.html,DT,12,7,15,22,2.5,2.5,0,0,,0,0,1,0,0,1,,Buffalo,2021
+Kyler Laing,kyler-laing-1,/cfb/players/kyler-laing-1.html,DE,9,13,8,21,5.0,4.5,0,0,,0,0,1,0,0,1,,Buffalo,2021
+Tim Terry Jr.,tim-terry-jr-1,/cfb/players/tim-terry-jr-1.html,LB,11,10,11,21,1.5,0.0,0,0,,0,0,1,67,1,0,,Buffalo,2021
+Isaiah King,isaiah-king-2,/cfb/players/isaiah-king-2.html,CB,12,14,6,20,0.5,0.0,0,0,,0,2,0,0,0,1,,Buffalo,2021
+Dylan Powell,dylan-powell-2,/cfb/players/dylan-powell-2.html,S,7,9,11,20,0.5,0.0,0,0,,0,1,0,0,0,0,,Buffalo,2021
+Daishon Folsom,daishon-folsom-1,/cfb/players/daishon-folsom-1.html,DL,11,9,10,19,2.5,2.0,0,0,,0,0,0,0,0,0,,Buffalo,2021
+Eric Black,eric-black-1,/cfb/players/eric-black-1.html,DE,10,7,10,17,2.5,2.5,0,0,,0,0,1,0,0,1,,Buffalo,2021
+Caleb Tate,caleb-tate-1,/cfb/players/caleb-tate-1.html,LB,12,5,8,13,1.5,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2021
+Logic Hudgens,logic-hudgens-1,/cfb/players/logic-hudgens-1.html,CB,4,9,2,11,0.0,0.0,1,8,8.0,0,1,0,0,0,0,,Buffalo,2021
+Tra Wilkins,tra-wilkins-1,/cfb/players/tra-wilkins-1.html,LB,8,3,5,8,0.5,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2021
+Mark Davis,mark-davis-3,/cfb/players/mark-davis-3.html,CB,8,5,2,7,0.0,0.0,0,0,,0,2,0,0,0,0,,Buffalo,2021
+Jibrahn Claude,jibrahn-claude-1,/cfb/players/jibrahn-claude-1.html,S,2,5,1,6,0.0,0.0,0,0,,0,0,0,0,0,1,,Buffalo,2021
+Fabian Weitz,fabian-weitz-1,/cfb/players/fabian-weitz-1.html,LB,11,2,3,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2021
+Keith Woetzel,keith-woetzel-2,/cfb/players/keith-woetzel-2.html,LB,11,4,1,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2021
+Jake Fuzak,jake-fuzak-1,/cfb/players/jake-fuzak-1.html,OL,12,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2021
+Tajay Ahmed,tajay-ahmed-1,/cfb/players/tajay-ahmed-1.html,RB,10,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2021
+Anton Ricumstrict,anton-ricumstrict-1,/cfb/players/anton-ricumstrict-1.html,DE,2,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2021
+Ron Cook Jr.,ron-cook-jr-1,/cfb/players/ron-cook-jr-1.html,RB,12,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2021
+Solomanie Bambara,solomanie-bambara-1,/cfb/players/solomanie-bambara-1.html,DE,3,0,1,1,0.0,0.0,0,0,,0,1,0,0,0,0,,Buffalo,2021
+Trevor Borland,trevor-borland-1,/cfb/players/trevor-borland-1.html,TE,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2021
+Matt Myers,matt-myers-2,/cfb/players/matt-myers-2.html,QB,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2021
+Marlyn Johnson,marlyn-johnson-1,/cfb/players/marlyn-johnson-1.html,WR,8,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2021
+Jalen McNair,jalen-mcnair-1,/cfb/players/jalen-mcnair-1.html,S,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2021
+Jake Molinich,jake-molinich-1,/cfb/players/jake-molinich-1.html,TE,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2021
+Gabe Wallace,gabe-wallace-1,/cfb/players/gabe-wallace-1.html,OL,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2021
+Evan Davis,evan-davis-3,/cfb/players/evan-davis-3.html,LS,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2021
+Dominic Johnson,dominic-johnson-1,/cfb/players/dominic-johnson-1.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2021
+Ali Abbas,ali-abbas-1,/cfb/players/ali-abbas-1.html,CB,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2021

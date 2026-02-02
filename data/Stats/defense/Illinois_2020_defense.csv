@@ -1,0 +1,41 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Jake Hansen,jake-hansen-1,/cfb/players/jake-hansen-1.html,LB,8,36,32,68,10.0,2.5,2,12,6.0,0,2,2,0,0,2,,Illinois,2020
+Tony Adams,tony-adams-6,/cfb/players/tony-adams-6.html,DB,6,25,26,51,0.0,0.0,1,23,23.0,0,1,0,0,0,0,,Illinois,2020
+Khalan Tolson,khalan-tolson-1,/cfb/players/khalan-tolson-1.html,LB,7,15,24,39,6.0,1.5,0,0,,0,2,1,0,0,2,,Illinois,2020
+Jartavius Martin,jartavius-martin-1,/cfb/players/jartavius-martin-1.html,DB,8,25,13,38,0.0,0.0,0,0,,0,2,0,0,0,1,,Illinois,2020
+Sydney Brown,sydney-brown-1,/cfb/players/sydney-brown-1.html,DB,6,20,16,36,0.5,0.0,0,0,,0,0,0,0,0,1,,Illinois,2020
+Devon Witherspoon,devon-witherspoon-1,/cfb/players/devon-witherspoon-1.html,DB,7,19,14,33,1.0,0.0,2,0,0.0,0,0,3,0,0,1,,Illinois,2020
+Nate Hobbs,nate-hobbs-1,/cfb/players/nate-hobbs-1.html,DB,5,22,9,31,2.0,0.0,1,26,26.0,0,2,0,0,0,0,,Illinois,2020
+Owen Carney Jr.,owen-carney-jr-1,/cfb/players/owen-carney-jr-1.html,DL,8,14,14,28,7.0,5.0,0,0,,0,0,0,0,0,1,,Illinois,2020
+Milo Eifler,milo-eifler-1,/cfb/players/milo-eifler-1.html,LB,6,19,8,27,3.5,1.0,0,0,,0,1,0,0,0,0,,Illinois,2020
+Tarique Barnes,tarique-barnes-1,/cfb/players/tarique-barnes-1.html,LB,5,12,13,25,1.5,1.0,1,0,0.0,0,0,1,39,1,0,,Illinois,2020
+Jer'Zhan Newton,jerzhan-newton-1,/cfb/players/jerzhan-newton-1.html,DL,8,6,17,23,1.5,1.5,0,0,,0,0,0,0,0,1,,Illinois,2020
+Derrick Smith,derrick-smith-4,/cfb/players/derrick-smith-4.html,DB,8,15,7,22,1.0,0.0,0,0,,0,0,0,0,0,0,,Illinois,2020
+Kerby Joseph,kerby-joseph-1,/cfb/players/kerby-joseph-1.html,WR,7,12,7,19,0.0,0.0,0,0,,0,0,0,0,0,0,,Illinois,2020
+Isaiah Gay,isaiah-gay-1,/cfb/players/isaiah-gay-1.html,DL,7,11,8,19,3.0,2.5,0,0,,0,2,1,0,0,0,,Illinois,2020
+Roderick Perry,roderick-perry-1,/cfb/players/roderick-perry-1.html,DL,6,5,12,17,2.5,2.0,0,0,,0,1,0,0,0,0,,Illinois,2020
+Michael Marchese,michael-marchese-1,/cfb/players/michael-marchese-1.html,DB,4,10,6,16,0.0,0.0,0,0,,0,1,0,0,0,0,,Illinois,2020
+Calvin Avery,calvin-avery-1,/cfb/players/calvin-avery-1.html,DL,7,10,4,14,1.0,1.0,0,0,,0,0,0,0,0,0,,Illinois,2020
+Seth Coleman,seth-coleman-1,/cfb/players/seth-coleman-1.html,DL,8,7,6,13,3.5,0.0,0,0,,0,0,0,0,0,0,,Illinois,2020
+Delano Ware,delano-ware-1,/cfb/players/delano-ware-1.html,LB,5,7,4,11,0.0,0.0,0,0,,0,1,0,0,0,0,,Illinois,2020
+Keith Randolph Jr.,keith-randolph-jr-1,/cfb/players/keith-randolph-jr-1.html,DL,5,4,4,8,0.0,0.0,0,0,,0,1,0,0,0,0,,Illinois,2020
+Marquez Beason,marquez-beason-1,/cfb/players/marquez-beason-1.html,DB,7,5,2,7,0.0,0.0,0,0,,0,0,0,0,0,0,,Illinois,2020
+Kendall Smith,kendall-smith-2,/cfb/players/kendall-smith-2.html,DB,8,3,4,7,0.0,0.0,0,0,,0,1,0,0,0,0,,Illinois,2020
+Christian Bobak,christian-bobak-1,/cfb/players/christian-bobak-1.html,DB,6,4,2,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Illinois,2020
+Alec McEachern,alec-mceachern-1,/cfb/players/alec-mceachern-1.html,LB,8,4,1,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Illinois,2020
+Sean Coghlan,sean-coghlan-1,/cfb/players/sean-coghlan-1.html,LB,8,2,2,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Illinois,2020
+Jamal Woods,jamal-woods-1,/cfb/players/jamal-woods-1.html,DL,4,2,2,4,0.5,0.0,0,0,,0,0,0,0,0,0,,Illinois,2020
+Deon Pate,deon-pate-1,/cfb/players/deon-pate-1.html,DL,8,1,3,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Illinois,2020
+Marc Mondesir,marc-mondesir-1,/cfb/players/marc-mondesir-1.html,DL,4,2,1,3,0.5,0.0,0,0,,0,0,0,0,0,0,,Illinois,2020
+Shammond Cooper,shammond-cooper-1,/cfb/players/shammond-cooper-1.html,LB,4,2,1,3,0.5,0.0,0,0,,0,0,0,0,0,0,,Illinois,2020
+Bryce Barnes,bryce-barnes-1,/cfb/players/bryce-barnes-1.html,DL,8,0,3,3,0.5,0.0,0,0,,0,0,0,0,0,0,,Illinois,2020
+Nick Fedanzo,nick-fedanzo-1,/cfb/players/nick-fedanzo-1.html,RB,7,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Illinois,2020
+Dalevon Campbell,dalevon-campbell-1,/cfb/players/dalevon-campbell-1.html,WR,7,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Illinois,2020
+Tre'Von Riggins,trevon-riggins-1,/cfb/players/trevon-riggins-1.html,DL,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Illinois,2020
+Ryan Meed,ryan-meed-1,/cfb/players/ryan-meed-1.html,LB,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Illinois,2020
+Mike Epstein,mike-epstein-2,/cfb/players/mike-epstein-2.html,RB,7,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Illinois,2020
+Ezekiel Holmes,ezekiel-holmes-1,/cfb/players/ezekiel-holmes-1.html,DL,4,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Illinois,2020
+Daniel Barker,daniel-barker-1,/cfb/players/daniel-barker-1.html,TE,8,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Illinois,2020
+Chase Brown,chase-brown-3,/cfb/players/chase-brown-3.html,RB,8,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Illinois,2020
+Alex Pihlstrom,alex-pihlstrom-1,/cfb/players/alex-pihlstrom-1.html,OL,8,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Illinois,2020
+Alex Palczewski,alex-palczewski-1,/cfb/players/alex-palczewski-1.html,OL,4,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Illinois,2020

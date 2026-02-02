@@ -1,0 +1,516 @@
+Player,Player_ID,Player_Link,team_name_abbr,conf_abbr,games,pass_cmp,pass_att,pass_cmp_pct,pass_yds,pass_td,pass_td_pct,pass_int,pass_int_pct,pass_yds_per_att,pass_adj_yds_per_att,pass_yds_per_cmp,pass_yds_per_g,pass_rating,awards,Year
+Brandon Doughty,brandon-doughty-1,/cfb/players/brandon-doughty-1.html,Western Kentucky,CUSA,14,388,540,71.9,5055,48,8.9,9,1.7,9.4,10.39,13.0,361.1,176.5,,2015
+Matt Johnson,matt-johnson-3,/cfb/players/matt-johnson-3.html,Bowling Green,MAC,14,383,569,67.3,4946,46,8.1,8,1.4,8.7,9.68,12.9,353.3,164.2,,2015
+Jared Goff,jared-goff-1,/cfb/players/jared-goff-1.html,California,Pac-12,13,341,529,64.5,4719,43,8.1,13,2.5,8.9,9.44,13.8,363.0,161.3,,2015
+Patrick Mahomes,patrick-mahomes-1,/cfb/players/patrick-mahomes-1.html,Texas Tech,Big 12,13,364,573,63.5,4653,36,6.3,15,2.6,8.1,8.20,12.8,357.9,147.2,,2015
+Luke Falk,luke-falk-1,/cfb/players/luke-falk-1.html,Washington State,Pac-12,12,448,645,69.5,4566,38,5.9,8,1.2,7.1,7.70,10.2,380.5,145.9,,2015
+Nick Mullens,nick-mullens-1,/cfb/players/nick-mullens-1.html,Southern Mississippi,CUSA,14,331,521,63.5,4476,38,7.3,12,2.3,8.6,9.01,13.5,319.7,155.2,,2015
+Nick Arbuckle,nick-arbuckle-1,/cfb/players/nick-arbuckle-1.html,Georgia State,Sun Belt,13,307,486,63.2,4368,28,5.8,12,2.5,9.0,9.03,14.2,336.0,152.7,,2015
+Dane Evans,dane-evans-1,/cfb/players/dane-evans-1.html,Tulsa,American,13,305,485,62.9,4332,25,5.2,8,1.6,8.9,9.22,14.2,333.2,151.6,,2015
+Deshaun Watson,deshaun-watson-1,/cfb/players/deshaun-watson-1.html,Clemson,ACC,15,333,491,67.8,4104,35,7.1,13,2.6,8.4,8.59,12.3,273.6,156.3,"H-3,AA",2015
+Chad Kelly,chad-kelly-1,/cfb/players/chad-kelly-1.html,Ole Miss,SEC,13,298,458,65.1,4042,31,6.8,13,2.8,8.8,8.90,13.6,310.9,155.9,,2015
+Jeff Driskel,jeff-driskel-1,/cfb/players/jeff-driskel-1.html,Louisiana Tech,CUSA,13,281,450,62.4,4033,27,6.0,8,1.8,9.0,9.36,14.4,310.2,154.0,,2015
+Brent Stockstill,brent-stockstill-1,/cfb/players/brent-stockstill-1.html,Middle Tennessee State,CUSA,13,327,490,66.7,4005,30,6.1,9,1.8,8.2,8.57,12.2,308.1,151.9,,2015
+Mike Bercovici,mike-bercovici-1,/cfb/players/mike-bercovici-1.html,Arizona State,Pac-12,13,319,532,60.0,3861,30,5.6,9,1.7,7.3,7.62,12.1,297.0,136.2,,2015
+Cooper Rush,cooper-rush-1,/cfb/players/cooper-rush-1.html,Central Michigan,MAC,13,324,489,66.3,3848,25,5.1,11,2.2,7.9,7.88,11.9,296.0,144.7,,2015
+Dak Prescott,dak-prescott-1,/cfb/players/dak-prescott-1.html,Mississippi State,SEC,13,316,477,66.2,3793,29,6.1,5,1.0,8.0,8.70,12.0,291.8,151.0,,2015
+Paxton Lynch,paxton-lynch-1,/cfb/players/paxton-lynch-1.html,Memphis,American,13,296,443,66.8,3776,28,6.3,4,0.9,8.5,9.38,12.8,290.5,157.5,,2015
+Mason Rudolph,mason-rudolph-1,/cfb/players/mason-rudolph-1.html,Oklahoma State,Big 12,13,264,424,62.3,3770,21,5.0,9,2.1,8.9,8.93,14.3,290.0,149.1,,2015
+Baker Mayfield,baker-mayfield-1,/cfb/players/baker-mayfield-1.html,Oklahoma,Big 12,13,269,395,68.1,3700,36,9.1,7,1.8,9.4,10.39,13.8,284.6,173.3,H-4,2015
+Josh Rosen,josh-rosen-1,/cfb/players/josh-rosen-1.html,UCLA,Pac-12,13,292,487,60.0,3670,23,4.7,11,2.3,7.5,7.46,12.6,282.3,134.3,,2015
+Trevone Boykin,trevone-boykin-1,/cfb/players/trevone-boykin-1.html,Texas Christian,Big 12,11,257,396,64.9,3575,31,7.8,10,2.5,9.0,9.46,13.9,325.0,161.5,H-10,2015
+Nate Sudfeld,nate-sudfeld-1,/cfb/players/nate-sudfeld-1.html,Indiana,Big Ten,12,247,412,60.0,3573,27,6.6,7,1.7,8.7,9.22,14.5,297.8,151.0,,2015
+Cody Kessler,cody-kessler-1,/cfb/players/cody-kessler-1.html,USC,Pac-12,14,298,446,66.8,3536,29,6.5,7,1.6,7.9,8.52,11.9,252.6,151.7,,2015
+Zach Terrell,zach-terrell-1,/cfb/players/zach-terrell-1.html,Western Michigan,MAC,13,262,391,67.0,3510,29,7.4,9,2.3,9.0,9.42,13.4,270.0,162.3,,2015
+Brandon Allen,brandon-allen-2,/cfb/players/brandon-allen-2.html,Arkansas,SEC,13,244,370,65.9,3440,30,8.1,8,2.2,9.3,9.95,14.1,264.6,166.5,,2015
+Tanner Mangum,tanner-mangum-1,/cfb/players/tanner-mangum-1.html,BYU,Ind,13,267,446,59.9,3377,23,5.2,10,2.2,7.6,7.59,12.6,259.8,136.0,,2015
+Brett Rypien,brett-rypien-1,/cfb/players/brett-rypien-1.html,Boise State,MWC,11,273,430,63.5,3353,20,4.7,8,1.9,7.8,7.89,12.3,304.8,140.6,,2015
+Brad Kaaya,brad-kaaya-1,/cfb/players/brad-kaaya-1.html,Miami (FL),ACC,12,239,390,61.3,3242,16,4.1,5,1.3,8.3,8.56,13.6,270.2,142.1,,2015
+Skyler Howard,skyler-howard-1,/cfb/players/skyler-howard-1.html,West Virginia,Big 12,13,221,403,54.8,3145,26,6.5,14,3.5,7.8,7.53,14.2,241.9,134.7,,2015
+Connor Cook,connor-cook-1,/cfb/players/connor-cook-1.html,Michigan State,Big Ten,13,229,408,56.1,3131,24,5.9,7,1.7,7.7,8.08,13.7,240.8,136.6,H-9,2015
+Jake Coker,jake-coker-1,/cfb/players/jake-coker-1.html,Alabama,SEC,15,263,393,66.9,3110,21,5.3,8,2.0,7.9,8.07,11.8,207.3,147.0,,2015
+Marquise Williams,marquise-williams-1,/cfb/players/marquise-williams-1.html,North Carolina,ACC,14,219,357,61.3,3072,24,6.7,10,2.8,8.6,8.69,14.0,219.4,150.2,,2015
+Tommy Armstrong Jr.,tommy-armstrong-jr-1,/cfb/players/tommy-armstrong-jr-1.html,Nebraska,Big Ten,12,222,402,55.2,3030,22,5.5,16,4.0,7.5,6.84,13.6,252.5,128.6,,2015
+Jake Rudock,jake-rudock-1,/cfb/players/jake-rudock-1.html,Michigan,Big Ten,13,249,389,64.0,3017,20,5.1,9,2.3,7.8,7.74,12.1,232.1,141.5,,2015
+Matt Linehan,matt-linehan-1,/cfb/players/matt-linehan-1.html,Idaho,Sun Belt,11,248,391,63.4,2992,16,4.1,11,2.8,7.7,7.20,12.1,272.0,135.6,,2015
+P.J. Walker,pj-walker-1,/cfb/players/pj-walker-1.html,Temple,American,14,246,433,56.8,2973,19,4.4,8,1.8,6.9,6.91,12.1,212.4,125.3,,2015
+Joe Licata,joe-licata-1,/cfb/players/joe-licata-1.html,Buffalo,MAC,12,280,449,62.4,2969,16,3.6,15,3.3,6.6,5.82,10.6,247.4,123.0,,2015
+Phillip Ely,phillip-ely-1,/cfb/players/phillip-ely-1.html,Toledo,MAC,12,226,403,56.1,2965,23,5.7,10,2.5,7.4,7.38,13.1,247.1,131.8,,2015
+Jake Browning,jake-browning-1,/cfb/players/jake-browning-1.html,Washington,Pac-12,12,233,368,63.3,2955,16,4.3,10,2.7,8.0,7.68,12.7,246.3,139.7,,2015
+Blake Frohnapfel,blake-frohnapfel-1,/cfb/players/blake-frohnapfel-1.html,Massachusetts,MAC,12,266,472,56.4,2919,16,3.4,13,2.8,6.2,5.62,11.0,243.3,114.0,,2015
+DeShone Kizer,deshone-kizer-1,/cfb/players/deshone-kizer-1.html,Notre Dame,Ind,13,211,335,63.0,2884,21,6.3,10,3.0,8.6,8.52,13.7,221.8,150.0,,2015
+Kevin Hogan,kevin-hogan-2,/cfb/players/kevin-hogan-2.html,Stanford,Pac-12,14,206,304,67.8,2867,27,8.9,8,2.6,9.4,10.02,13.9,204.8,171.0,,2015
+Greg Ward Jr.,greg-ward-jr-1,/cfb/players/greg-ward-jr-1.html,Houston,American,14,232,345,67.2,2828,17,4.9,6,1.7,8.2,8.40,12.2,202.0,148.9,,2015
+Matt Johns,matt-johns-1,/cfb/players/matt-johns-1.html,Virginia,ACC,12,247,403,61.3,2810,20,5.0,17,4.2,7.0,6.07,11.4,234.2,127.8,,2015
+C.J. Beathard,cj-beathard-1,/cfb/players/cj-beathard-1.html,Iowa,Big Ten,14,223,362,61.6,2809,17,4.7,5,1.4,7.8,8.08,12.6,200.6,139.5,,2015
+Gunner Kiel,gunner-kiel-1,/cfb/players/gunner-kiel-1.html,Cincinnati,American,10,206,316,65.2,2777,19,6.0,11,3.5,8.8,8.42,13.5,277.7,151.9,,2015
+Wes Lunt,wes-lunt-1,/cfb/players/wes-lunt-1.html,Illinois,Big Ten,12,270,481,56.1,2761,14,2.9,6,1.2,5.7,5.76,10.2,230.1,111.5,,2015
+Alex McGough,alex-mcgough-1,/cfb/players/alex-mcgough-1.html,Florida International,CUSA,12,269,420,64.0,2722,21,5.0,8,1.9,6.5,6.62,10.1,226.8,131.2,,2015
+Mitch Leidner,mitch-leidner-1,/cfb/players/mitch-leidner-1.html,Minnesota,Big Ten,13,242,407,59.5,2701,14,3.4,11,2.7,6.6,6.11,11.2,207.8,121.2,,2015
+Joel Stave,joel-stave-1,/cfb/players/joel-stave-1.html,Wisconsin,Big Ten,13,225,370,60.8,2687,11,3.0,11,3.0,7.3,6.52,11.9,206.7,125.7,,2015
+Nick Stevens,nick-stevens-1,/cfb/players/nick-stevens-1.html,Colorado State,MWC,13,211,347,60.8,2679,21,6.1,12,3.5,7.7,7.37,12.7,206.1,138.7,,2015
+Anu Solomon,anu-solomon-1,/cfb/players/anu-solomon-1.html,Arizona,Pac-12,11,205,330,62.1,2667,20,6.1,5,1.5,8.1,8.61,13.0,242.5,147.0,,2015
+Jacoby Brissett,jacoby-brissett-2,/cfb/players/jacoby-brissett-2.html,North Carolina State,ACC,13,237,395,60.0,2662,20,5.1,6,1.5,6.7,7.07,11.2,204.8,130.3,,2015
+Blake Kemp,blake-kemp-1,/cfb/players/blake-kemp-1.html,East Carolina,American,11,260,375,69.3,2658,16,4.3,10,2.7,7.1,6.74,10.2,241.6,137.6,,2015
+Vernon Adams,vernon-adams-1,/cfb/players/vernon-adams-1.html,Oregon,Pac-12,10,168,259,64.9,2643,26,10.0,6,2.3,10.2,11.17,15.7,264.3,179.1,,2015
+Thomas Sirk,thomas-sirk-1,/cfb/players/thomas-sirk-1.html,Duke,ACC,12,251,427,58.8,2625,16,3.7,8,1.9,6.1,6.05,10.5,218.8,119.0,,2015
+Chase Litton,chase-litton-1,/cfb/players/chase-litton-1.html,Marshall,CUSA,11,230,383,60.1,2605,23,6.0,8,2.1,6.8,7.06,11.3,236.8,132.8,,2015
+Christian Hackenberg,christian-hackenberg-1,/cfb/players/christian-hackenberg-1.html,Penn State,Big Ten,13,192,359,53.5,2525,16,4.5,6,1.7,7.0,7.17,13.2,194.2,123.9,,2015
+Tyler Jones,tyler-jones-4,/cfb/players/tyler-jones-4.html,Texas State,Sun Belt,12,223,382,58.4,2517,14,3.7,10,2.6,6.6,6.14,11.3,209.8,120.6,,2015
+Sefo Liufau,sefo-liufau-1,/cfb/players/sefo-liufau-1.html,Colorado,Pac-12,11,214,344,62.2,2418,9,2.6,6,1.7,7.0,6.77,11.3,219.8,126.4,,2015
+Taylor Lamb,taylor-lamb-1,/cfb/players/taylor-lamb-1.html,Appalachian State,Sun Belt,13,170,283,60.1,2387,31,11.0,9,3.2,8.4,9.19,14.0,183.6,160.7,,2015
+Brandon Silvers,brandon-silvers-2,/cfb/players/brandon-silvers-2.html,Troy,Sun Belt,11,202,330,61.2,2378,20,6.1,7,2.1,7.2,7.46,11.8,216.2,137.5,,2015
+Driphus Jackson,driphus-jackson-1,/cfb/players/driphus-jackson-1.html,Rice,CUSA,12,185,316,58.5,2348,18,5.7,7,2.2,7.4,7.57,12.7,195.7,135.3,,2015
+Brogan Roback,brogan-roback-1,/cfb/players/brogan-roback-1.html,Eastern Michigan,MAC,12,211,346,61.0,2304,16,4.6,11,3.2,6.7,6.15,10.9,192.0,125.8,,2015
+Quinton Flowers,quinton-flowers-1,/cfb/players/quinton-flowers-1.html,South Florida,American,13,163,276,59.1,2296,22,8.0,8,2.9,8.3,8.61,14.1,176.6,149.4,,2015
+Joshua Dobbs,joshua-dobbs-1,/cfb/players/joshua-dobbs-1.html,Tennessee,SEC,13,205,344,59.6,2291,15,4.4,5,1.5,6.7,6.88,11.2,176.2,127.0,,2015
+Nathan Peterman,nathan-peterman-1,/cfb/players/nathan-peterman-1.html,Pitt,ACC,13,193,314,61.5,2287,20,6.4,8,2.5,7.3,7.41,11.8,175.9,138.6,,2015
+Riley Neal,riley-neal-1,/cfb/players/riley-neal-1.html,Ball State,MAC,11,228,391,58.3,2276,16,4.1,6,1.5,5.8,5.95,10.0,206.9,117.6,,2015
+Cody Clements,cody-clements-1,/cfb/players/cody-clements-1.html,South Alabama,Sun Belt,12,171,324,52.8,2272,13,4.0,15,4.6,7.0,5.73,13.3,189.3,115.7,,2015
+Matt Davis,matt-davis-4,/cfb/players/matt-davis-4.html,SMU,American,12,183,336,54.5,2263,16,4.8,7,2.1,6.7,6.75,12.4,188.6,122.6,,2015
+Chris Laviano,chris-laviano-1,/cfb/players/chris-laviano-1.html,Rutgers,Big Ten,12,187,307,60.9,2247,16,5.2,12,3.9,7.3,6.60,12.0,187.3,131.8,,2015
+Kyle Allen,kyle-allen-1,/cfb/players/kyle-allen-1.html,Texas A&M,SEC,11,160,283,56.5,2210,17,6.0,7,2.5,7.8,7.90,13.8,200.9,137.0,,2015
+Tommy Woodson,tommy-woodson-1,/cfb/players/tommy-woodson-1.html,Akron,MAC,13,162,307,52.8,2202,16,5.2,11,3.6,7.2,6.60,13.6,169.4,123.1,,2015
+Brandon Harris,brandon-harris-4,/cfb/players/brandon-harris-4.html,LSU,SEC,12,149,277,53.8,2165,13,4.7,6,2.2,7.8,7.78,14.5,180.4,130.6,,2015
+Patrick Towles,patrick-towles-1,/cfb/players/patrick-towles-1.html,Kentucky,SEC,11,183,326,56.1,2148,9,2.8,14,4.3,6.6,5.21,11.7,195.3,112.0,,2015
+Tyler Stewart,tyler-stewart-1,/cfb/players/tyler-stewart-1.html,Nevada,MWC,13,186,326,57.1,2139,15,4.6,7,2.1,6.6,6.52,11.5,164.5,123.1,,2015
+Seth Russell,seth-russell-1,/cfb/players/seth-russell-1.html,Baylor,Big 12,7,119,200,59.5,2104,29,14.5,6,3.0,10.5,12.07,17.7,300.6,189.7,,2015
+Travis Wilson,travis-wilson-4,/cfb/players/travis-wilson-4.html,Utah,Pac-12,12,195,314,62.1,2095,13,4.1,10,3.2,6.7,6.07,10.7,174.6,125.4,,2015
+Bryant Shirreffs,bryant-shirreffs-1,/cfb/players/bryant-shirreffs-1.html,Connecticut,American,12,168,279,60.2,2078,9,3.2,8,2.9,7.4,6.80,12.4,173.2,127.7,,2015
+Garrett Smith,garrett-smith-2,/cfb/players/garrett-smith-2.html,Louisiana-Monroe,Sun Belt,10,191,333,57.4,2033,17,5.1,11,3.3,6.1,5.64,10.6,203.3,118.9,,2015
+Kenny Potter,kenny-potter-1,/cfb/players/kenny-potter-1.html,San Jose State,MWC,11,182,270,67.4,1984,15,5.6,7,2.6,7.3,7.29,10.9,180.4,142.3,,2015
+Drew Hare,drew-hare-1,/cfb/players/drew-hare-1.html,Northern Illinois,MAC,9,164,257,63.8,1962,14,5.4,4,1.6,7.6,8.02,12.0,218.0,142.8,,2015
+Greyson Lambert,greyson-lambert-1,/cfb/players/greyson-lambert-1.html,Georgia,SEC,12,162,256,63.3,1959,12,4.7,2,0.8,7.7,8.24,12.1,163.3,141.5,,2015
+Cameron Coffman,cameron-coffman-1,/cfb/players/cameron-coffman-1.html,Wyoming,MWC,9,152,241,63.1,1951,18,7.5,10,4.1,8.1,7.72,12.8,216.8,147.4,,2015
+Perry Orth,perry-orth-1,/cfb/players/perry-orth-1.html,South Carolina,SEC,12,143,261,54.8,1929,12,4.6,9,3.4,7.4,6.76,13.5,160.8,125.1,,2015
+Hayden Moore,hayden-moore-1,/cfb/players/hayden-moore-1.html,Cincinnati,American,9,133,225,59.1,1885,9,4.0,11,4.9,8.4,6.98,14.2,209.4,132.9,,2015
+Lamar Jackson,lamar-jackson-1,/cfb/players/lamar-jackson-1.html,Louisville,ACC,12,135,247,54.7,1840,12,4.9,8,3.2,7.4,6.96,13.6,153.3,126.8,,2015
+Joe Hubener,joe-hubener-1,/cfb/players/joe-hubener-1.html,Kansas State,Big 12,13,131,275,47.6,1837,9,3.3,10,3.6,6.7,5.70,14.0,141.3,107.3,,2015
+Fredi Knighten,fredi-knighten-1,/cfb/players/fredi-knighten-1.html,Arkansas State,Sun Belt,10,136,251,54.2,1835,19,7.6,9,3.6,7.3,7.21,13.5,183.5,133.4,,2015
+Derrius Vick,derrius-vick-1,/cfb/players/derrius-vick-1.html,Ohio,MAC,10,158,247,64.0,1809,10,4.0,6,2.4,7.3,7.04,11.4,180.9,134.0,,2015
+John Wolford,john-wolford-1,/cfb/players/john-wolford-1.html,Wake Forest,ACC,11,142,233,60.9,1791,9,3.9,11,4.7,7.7,6.33,12.6,162.8,128.8,,2015
+Everett Golson,everett-golson-1,/cfb/players/everett-golson-1.html,Florida State,ACC,9,147,219,67.1,1778,11,5.0,3,1.4,8.1,8.51,12.1,197.6,149.2,,2015
+Ryan Willis,ryan-willis-2,/cfb/players/ryan-willis-2.html,Kansas,Big 12,10,164,315,52.1,1719,9,2.9,10,3.2,5.5,4.60,10.5,171.9,101.0,,2015
+Blake Decker,blake-decker-1,/cfb/players/blake-decker-1.html,Nevada-Las Vegas,MWC,9,120,209,57.4,1713,12,5.7,8,3.8,8.2,7.62,14.3,190.3,137.6,,2015
+Michael Brewer,michael-brewer-2,/cfb/players/michael-brewer-2.html,Virginia Tech,ACC,8,126,216,58.3,1703,13,6.0,7,3.2,7.9,7.63,13.5,212.9,137.9,,2015
+Treon Harris,treon-harris-1,/cfb/players/treon-harris-1.html,Florida,SEC,12,119,235,50.6,1676,9,3.8,6,2.6,7.1,6.75,14.1,139.7,118.1,,2015
+Tanner Lee,tanner-lee-1,/cfb/players/tanner-lee-1.html,Tulane,American,9,143,276,51.8,1639,11,4.0,7,2.5,5.9,5.59,11.5,182.1,109.8,,2015
+Karson Roberts,karson-roberts-1,/cfb/players/karson-roberts-1.html,Air Force,MWC,14,77,148,52.0,1595,11,7.4,11,7.4,10.8,8.92,20.7,113.9,152.2,,2015
+Kent Myers,kent-myers-1,/cfb/players/kent-myers-1.html,Utah State,MWC,9,121,199,60.8,1593,16,8.0,3,1.5,8.0,8.93,13.2,177.0,151.6,,2015
+Jaquez Johnson,jaquez-johnson-1,/cfb/players/jaquez-johnson-1.html,Florida Atlantic,CUSA,10,129,241,53.5,1592,9,3.7,7,2.9,6.6,6.05,12.3,159.2,115.5,,2015
+David Blough,david-blough-1,/cfb/players/david-blough-1.html,Purdue,Big Ten,10,169,293,57.7,1574,10,3.4,8,2.7,5.4,4.83,9.3,157.4,108.6,,2015
+Max Wittek,max-wittek-1,/cfb/players/max-wittek-1.html,Hawaii,MWC,9,128,271,47.2,1542,7,2.6,15,5.5,5.7,3.72,12.0,171.3,92.5,,2015
+Johnny McCrary,johnny-mccrary-1,/cfb/players/johnny-mccrary-1.html,Vanderbilt,SEC,10,146,267,54.7,1533,6,2.2,12,4.5,5.7,4.17,10.5,153.3,101.3,,2015
+Andrew Allen,andrew-allen-1,/cfb/players/andrew-allen-1.html,New Mexico State,Sun Belt,8,115,214,53.7,1529,16,7.5,8,3.7,7.1,6.96,13.3,191.1,131.0,,2015
+Maxwell Smith,maxwell-smith-1,/cfb/players/maxwell-smith-1.html,San Diego State,MWC,12,110,200,55.0,1529,13,6.5,2,1.0,7.6,8.50,13.9,127.4,138.7,,2015
+Clayton Thorson,clayton-thorson-1,/cfb/players/clayton-thorson-1.html,Northwestern,Big Ten,13,150,295,50.8,1522,7,2.4,9,3.1,5.2,4.26,10.1,117.1,95.9,,2015
+Sean Maguire,sean-maguire-1,/cfb/players/sean-maguire-1.html,Florida State,ACC,8,112,189,59.3,1520,11,5.8,6,3.2,8.0,7.78,13.6,190.0,139.7,,2015
+Cardale Jones,cardale-jones-1,/cfb/players/cardale-jones-1.html,Ohio State,Big Ten,10,110,176,62.5,1460,8,4.5,5,2.8,8.3,7.93,13.3,146.0,141.5,,2015
+Sam B. Richardson,sam-b-richardson-1,/cfb/players/sam-b-richardson-1.html,Iowa State,Big 12,8,128,214,59.8,1443,8,3.7,8,3.7,6.7,5.81,11.3,180.4,121.3,,2015
+Shuler Bentley,shuler-bentley-1,/cfb/players/shuler-bentley-1.html,Old Dominion,CUSA,10,140,269,52.0,1432,12,4.5,6,2.2,5.3,5.21,10.2,143.2,107.0,,2015
+Billy Bahl,billy-bahl-1,/cfb/players/billy-bahl-1.html,Miami (OH),MAC,11,99,221,44.8,1416,8,3.6,13,5.9,6.4,4.48,14.3,128.7,98.8,,2015
+Brooks Haack,brooks-haack-1,/cfb/players/brooks-haack-1.html,Louisiana,Sun Belt,10,123,201,61.2,1407,5,2.5,7,3.5,7.0,5.93,11.4,140.7,121.2,,2015
+Justin Holman,justin-holman-1,/cfb/players/justin-holman-1.html,UCF,American,9,127,250,50.8,1379,7,2.8,14,5.6,5.5,3.56,10.9,153.2,95.2,,2015
+Dalton Sturm,dalton-sturm-1,/cfb/players/dalton-sturm-1.html,UTSA,CUSA,10,125,212,59.0,1354,13,6.1,7,3.3,6.4,6.13,10.8,135.4,126.2,,2015
+Justin Thomas,justin-thomas-3,/cfb/players/justin-thomas-3.html,Georgia Tech,ACC,12,75,180,41.7,1345,13,7.2,8,4.4,7.5,6.92,17.9,112.1,119.4,,2015
+Drew Lock,drew-lock-1,/cfb/players/drew-lock-1.html,Missouri,SEC,12,129,263,49.0,1332,4,1.5,8,3.0,5.1,4.00,10.3,111.0,90.5,,2015
+Eric Dungey,eric-dungey-1,/cfb/players/eric-dungey-1.html,Syracuse,ACC,8,105,176,59.7,1298,11,6.3,5,2.8,7.4,7.35,12.4,162.3,136.6,,2015
+Jarrett Stidham,jarrett-stidham-1,/cfb/players/jarrett-stidham-1.html,Baylor,Big 12,10,75,109,68.8,1265,12,11.0,2,1.8,11.6,12.98,16.9,126.5,199.0,,2015
+Austin Appleby,austin-appleby-1,/cfb/players/austin-appleby-1.html,Purdue,Big Ten,5,119,207,57.5,1260,8,3.9,8,3.9,6.1,5.12,10.6,252.0,113.6,,2015
+Joel Lanning,joel-lanning-2,/cfb/players/joel-lanning-2.html,Iowa State,Big 12,11,107,193,55.4,1247,10,5.2,4,2.1,6.5,6.56,11.7,113.4,122.7,,2015
+Mack Leftwich,mack-leftwich-1,/cfb/players/mack-leftwich-1.html,UTEP,CUSA,7,105,192,54.7,1228,9,4.7,3,1.6,6.4,6.63,11.7,175.4,120.8,,2015
+Jerrod Heard,jerrod-heard-1,/cfb/players/jerrod-heard-1.html,Texas,Big 12,12,92,159,57.9,1214,5,3.1,5,3.1,7.6,6.85,13.2,101.2,126.1,,2015
+Will Grier,will-grier-1,/cfb/players/will-grier-1.html,Florida,SEC,6,106,161,65.8,1204,10,6.2,3,1.9,7.5,7.88,11.4,200.7,145.4,,2015
+Keenan Reynolds,keenan-reynolds-1,/cfb/players/keenan-reynolds-1.html,Navy,American,13,61,115,53.0,1203,8,7.0,1,0.9,10.5,11.46,19.7,92.5,162.1,H-5,2015
+Sean White,sean-white-3,/cfb/players/sean-white-3.html,Auburn,SEC,7,83,143,58.0,1166,1,0.7,4,2.8,8.2,7.03,14.0,166.6,123.2,,2015
+Brenden Motley,brenden-motley-1,/cfb/players/brenden-motley-1.html,Virginia Tech,ACC,10,92,164,56.1,1155,11,6.7,7,4.3,7.0,6.46,12.6,115.5,128.9,,2015
+David Washington,david-washington-4,/cfb/players/david-washington-4.html,Old Dominion,CUSA,10,94,161,58.4,1155,8,5.0,3,1.9,7.2,7.33,12.3,115.5,131.3,,2015
+Kyle Bolin,kyle-bolin-1,/cfb/players/kyle-bolin-1.html,Louisville,ACC,7,78,137,56.9,1154,7,5.1,6,4.4,8.4,7.47,14.8,164.9,135.8,,2015
+Jeremy Johnson,jeremy-johnson-5,/cfb/players/jeremy-johnson-5.html,Auburn,SEC,12,95,157,60.5,1054,10,6.4,7,4.5,6.7,5.98,11.1,87.8,129.0,,2015
+Lamar Jordan,lamar-jordan-1,/cfb/players/lamar-jordan-1.html,New Mexico,MWC,12,61,118,51.7,1045,5,4.2,8,6.8,8.9,6.65,17.1,87.1,126.5,,2015
+Damarcus Smith,damarcus-smith-1,/cfb/players/damarcus-smith-1.html,North Texas,CUSA,10,99,212,46.7,1010,8,3.8,5,2.4,4.8,4.46,10.2,101.0,94.5,,2015
+Chuckie Keeton,chuckie-keeton-1,/cfb/players/chuckie-keeton-1.html,Utah State,MWC,7,104,199,52.3,1006,4,2.0,7,3.5,5.1,3.87,9.7,143.7,94.3,,2015
+Perry Hills,perry-hills-1,/cfb/players/perry-hills-1.html,Maryland,Big Ten,9,90,180,50.0,1001,8,4.4,13,7.2,5.6,3.20,11.1,111.2,96.9,,2015
+J.T. Barrett,jt-barrett-1,/cfb/players/jt-barrett-1.html,Ohio State,Big Ten,11,93,147,63.3,992,11,7.5,4,2.7,6.7,7.02,10.7,90.2,139.2,,2015
+Tyler Rogers,tyler-rogers-1,/cfb/players/tyler-rogers-1.html,New Mexico State,Sun Belt,4,72,135,53.3,974,7,5.2,3,2.2,7.2,7.25,13.5,243.5,126.6,,2015
+Jason Driskel,jason-driskel-1,/cfb/players/jason-driskel-1.html,Florida Atlantic,CUSA,10,77,151,51.0,965,3,2.0,4,2.6,6.4,5.60,12.5,96.5,105.9,,2015
+Seth Collins,seth-collins-1,/cfb/players/seth-collins-1.html,Oregon State,Pac-12,8,83,160,51.9,935,6,3.8,4,2.5,5.8,5.47,11.3,116.9,108.3,,2015
+Kendall Hinton,kendall-hinton-1,/cfb/players/kendall-hinton-1.html,Wake Forest,ACC,9,93,179,52.0,929,4,2.2,5,2.8,5.2,4.38,10.0,103.2,97.3,,2015
+J.D. Sprague,jd-sprague-1,/cfb/players/jd-sprague-1.html,Ohio,MAC,7,63,114,55.3,912,7,6.1,3,2.6,8.0,8.04,14.5,130.3,137.5,,2015
+Ikaika Woolsey,ikaika-woolsey-1,/cfb/players/ikaika-woolsey-1.html,Hawaii,MWC,13,73,149,49.0,908,5,3.4,6,4.0,6.1,4.95,12.4,69.8,103.2,,2015
+Colin Reardon,colin-reardon-1,/cfb/players/colin-reardon-1.html,Kent State,MAC,9,81,176,46.0,901,7,4.0,4,2.3,5.1,4.89,11.1,100.1,97.6,,2015
+Ryan Metz,ryan-metz-1,/cfb/players/ryan-metz-1.html,UTEP,CUSA,8,82,140,58.6,900,6,4.3,7,5.0,6.4,5.04,11.0,112.5,116.7,,2015
+Blake Bogenschutz,blake-bogenschutz-1,/cfb/players/blake-bogenschutz-1.html,UTSA,CUSA,5,81,137,59.1,897,4,2.9,4,2.9,6.5,5.82,11.1,179.4,117.9,,2015
+Caleb Rowe,caleb-rowe-1,/cfb/players/caleb-rowe-1.html,Maryland,Big Ten,10,76,165,46.1,894,6,3.6,15,9.1,5.4,2.05,11.8,89.4,85.4,,2015
+Drew Kummer,drew-kummer-1,/cfb/players/drew-kummer-1.html,Miami (OH),MAC,7,58,122,47.5,890,7,5.7,6,4.9,7.3,6.23,15.3,127.1,117.9,,2015
+Lee McNeill,lee-mcneill-1,/cfb/players/lee-mcneill-1.html,Charlotte,CUSA,12,100,189,52.9,878,1,0.5,10,5.3,4.6,2.37,8.8,73.2,83.1,,2015
+Zack Greenlee,zack-greenlee-1,/cfb/players/zack-greenlee-1.html,Fresno State,MWC,7,74,156,47.4,866,13,8.3,6,3.8,5.6,5.49,11.7,123.7,113.9,,2015
+Joe Gray,joe-gray-1,/cfb/players/joe-gray-1.html,San Jose State,MWC,6,73,105,69.5,839,6,5.7,4,3.8,8.0,7.42,11.5,139.8,147.9,,2015
+Jalen Nixon,jalen-nixon-1,/cfb/players/jalen-nixon-1.html,Louisiana,Sun Belt,11,76,142,53.5,828,7,4.9,5,3.5,5.8,5.23,10.9,75.3,111.7,,2015
+Andrew McNulty,andrew-mcnulty-1,/cfb/players/andrew-mcnulty-1.html,North Texas,CUSA,8,81,170,47.6,820,3,1.8,4,2.4,4.8,4.12,10.1,102.5,89.3,,2015
+Kilton Anderson,kilton-anderson-1,/cfb/players/kilton-anderson-1.html,Fresno State,MWC,8,78,157,49.7,817,2,1.3,5,3.2,5.2,4.03,10.5,102.1,91.2,,2015
+Kurt Palandech,kurt-palandech-1,/cfb/players/kurt-palandech-1.html,Nevada-Las Vegas,MWC,11,75,152,49.3,794,9,5.9,5,3.3,5.2,4.93,10.6,72.2,106.2,,2015
+James Tabary,james-tabary-1,/cfb/players/james-tabary-1.html,Arkansas State,Sun Belt,8,65,105,61.9,788,4,3.8,6,5.7,7.5,5.70,12.1,98.5,126.1,,2015
+J.W. Walsh,jw-walsh-1,/cfb/players/jw-walsh-1.html,Oklahoma State,Big 12,13,57,85,67.1,787,13,15.3,1,1.2,9.3,11.79,13.8,60.5,193.0,,2015
+Matt Johnson,matt-johnson-10,/cfb/players/matt-johnson-10.html,Charlotte,CUSA,11,47,87,54.0,771,7,8.0,8,9.2,8.9,6.33,16.4,70.1,136.6,,2015
+George Bollas,george-bollas-1,/cfb/players/george-bollas-1.html,Kent State,MAC,12,94,167,56.3,756,2,1.2,6,3.6,4.5,3.15,8.0,63.0,91.1,,2015
+Montell Cozart,montell-cozart-1,/cfb/players/montell-cozart-1.html,Kansas,Big 12,5,66,105,62.9,752,2,1.9,1,1.0,7.2,7.11,11.4,150.4,127.4,,2015
+Austin Apodaca,austin-apodaca-1,/cfb/players/austin-apodaca-1.html,New Mexico,MWC,11,57,109,52.3,723,1,0.9,6,5.5,6.6,4.34,12.7,65.7,100.0,,2015
+Bram Kohlhausen,bram-kohlhausen-1,/cfb/players/bram-kohlhausen-1.html,Texas Christian,Big 12,8,55,88,62.5,720,5,5.7,2,2.3,8.2,8.30,13.1,90.0,145.4,,2015
+Ryan Graham,ryan-graham-1,/cfb/players/ryan-graham-1.html,Northern Illinois,MAC,10,55,102,53.9,691,6,5.9,3,2.9,6.8,6.63,12.6,69.1,124.4,,2015
+Kyler Murray,kyler-murray-1,/cfb/players/kyler-murray-1.html,Texas A&M,SEC,8,72,121,59.5,686,5,4.1,7,5.8,5.7,3.89,9.5,85.8,109.2,,2015
+James Summers,james-summers-1,/cfb/players/james-summers-1.html,East Carolina,American,10,60,94,63.8,683,5,5.3,2,2.1,7.3,7.37,11.4,68.3,138.2,,2015
+Maty Mauk,maty-mauk-1,/cfb/players/maty-mauk-1.html,Missouri,SEC,5,57,110,51.8,654,6,5.5,4,3.6,5.9,5.40,11.5,130.8,112.5,,2015
+Jordy Joseph,jordy-joseph-1,/cfb/players/jordy-joseph-1.html,Tulane,American,6,46,91,50.5,619,6,6.6,3,3.3,6.8,6.64,13.5,103.2,122.9,,2015
+Kevin Ellison,kevin-ellison-3,/cfb/players/kevin-ellison-3.html,Georgia Southern,Sun Belt,11,40,89,44.9,597,4,4.5,5,5.6,6.7,5.08,14.9,54.3,104.9,,2015
+Cade Apsay,cade-apsay-1,/cfb/players/cade-apsay-1.html,Colorado,Pac-12,5,59,92,64.1,582,3,3.3,5,5.4,6.3,4.53,9.9,116.4,117.2,,2015
+Jeff Lockie,jeff-lockie-1,/cfb/players/jeff-lockie-1.html,Oregon,Pac-12,6,61,99,61.6,580,5,5.1,4,4.0,5.9,5.05,9.5,96.7,119.4,,2015
+Parker Boehme,parker-boehme-1,/cfb/players/parker-boehme-1.html,Duke,ACC,10,43,78,55.1,579,2,2.6,1,1.3,7.4,7.36,13.5,57.9,123.4,,2015
+Nick Mitchell,nick-mitchell-3,/cfb/players/nick-mitchell-3.html,Oregon State,Pac-12,5,51,113,45.1,571,3,2.7,4,3.5,5.1,3.99,11.2,114.2,89.3,,2015
+Mitch Trubisky,mitch-trubisky-1,/cfb/players/mitch-trubisky-1.html,North Carolina,ACC,9,40,47,85.1,555,6,12.8,0,0.0,11.8,14.36,13.9,61.7,226.4,,2015
+Earnest Carrington,earnest-carrington-1,/cfb/players/earnest-carrington-1.html,Louisiana-Monroe,Sun Belt,8,56,119,47.1,539,5,4.2,7,5.9,4.5,2.72,9.6,67.4,87.2,,2015
+Tyrone Swoopes,tyrone-swoopes-1,/cfb/players/tyrone-swoopes-1.html,Texas,Big 12,11,47,93,50.5,537,4,4.3,1,1.1,5.8,6.15,11.4,48.8,111.1,,2015
+Zack Mahoney,zack-mahoney-1,/cfb/players/zack-mahoney-1.html,Syracuse,ACC,8,54,117,46.2,535,7,6.0,2,1.7,4.6,5.00,9.9,66.9,100.9,,2015
+Bo Schneider,bo-schneider-1,/cfb/players/bo-schneider-1.html,UCF,American,8,54,105,51.4,534,2,1.9,7,6.7,5.1,2.47,9.9,66.8,87.1,,2015
+Nick Jeanty,nick-jeanty-1,/cfb/players/nick-jeanty-1.html,New Mexico State,Sun Belt,7,54,101,53.5,531,3,3.0,2,2.0,5.3,4.96,9.8,75.9,103.5,,2015
+Jerrard Randall,jerrard-randall-1,/cfb/players/jerrard-randall-1.html,Arizona,Pac-12,11,47,95,49.5,518,5,5.3,3,3.2,5.5,5.08,11.0,47.1,106.3,,2015
+Kyle Shurmur,kyle-shurmur-1,/cfb/players/kyle-shurmur-1.html,Vanderbilt,SEC,6,44,103,42.7,503,5,4.9,3,2.9,4.9,4.54,11.4,83.8,93.9,,2015
+Peyton Bender,peyton-bender-1,/cfb/players/peyton-bender-1.html,Washington State,Pac-12,5,53,91,58.2,498,3,3.3,4,4.4,5.5,4.15,9.4,99.6,106.3,,2015
+Ryan Finley,ryan-finley-1,/cfb/players/ryan-finley-1.html,Boise State,MWC,3,46,70,65.7,485,1,1.4,4,5.7,6.9,4.64,10.5,161.7,117.2,,2015
+John Fadule,john-fadule-1,/cfb/players/john-fadule-1.html,Boston College,ACC,3,38,73,52.1,464,1,1.4,4,5.5,6.4,4.16,12.2,154.7,99.0,,2015
+Kyle Postma,kyle-postma-1,/cfb/players/kyle-postma-1.html,Houston,American,9,43,68,63.2,453,3,4.4,1,1.5,6.7,6.88,10.5,50.3,130.8,,2015
+Kody Cook,kody-cook-1,/cfb/players/kody-cook-1.html,Kansas State,Big 12,13,30,66,45.5,447,4,6.1,3,4.5,6.8,5.94,14.9,34.4,113.3,,2015
+Brooks Barden,brooks-barden-1,/cfb/players/brooks-barden-1.html,Charlotte,CUSA,7,49,99,49.5,440,4,4.0,5,5.1,4.4,2.98,9.0,62.9,90.1,,2015
+Ryker Fyfe,ryker-fyfe-1,/cfb/players/ryker-fyfe-1.html,Nebraska,Big Ten,2,34,55,61.8,440,5,9.1,5,9.1,8.0,5.73,12.9,220.0,140.8,,2015
+Christian Chapman,christian-chapman-1,/cfb/players/christian-chapman-1.html,San Diego State,MWC,9,29,49,59.2,436,2,4.1,1,2.0,8.9,8.80,15.0,48.4,143.3,,2015
+Ahmad Bradshaw,ahmad-bradshaw-2,/cfb/players/ahmad-bradshaw-2.html,Army,Ind,8,23,48,47.9,429,5,10.4,2,4.2,8.9,9.15,18.7,53.6,149.0,,2015
+Malik Zaire,malik-zaire-1,/cfb/players/malik-zaire-1.html,Notre Dame,Ind,2,26,40,65.0,428,4,10.0,0,0.0,10.7,12.70,16.5,214.0,187.9,,2015
+Marcus McMaryion,marcus-mcmaryion-1,/cfb/players/marcus-mcmaryion-1.html,Oregon State,Pac-12,7,27,67,40.3,403,1,1.5,3,4.5,6.0,4.30,14.9,57.6,86.8,,2015
+Jake Hubenak,jake-hubenak-1,/cfb/players/jake-hubenak-1.html,Texas A&M,SEC,6,40,75,53.3,399,3,4.0,1,1.3,5.3,5.52,10.0,66.5,108.6,,2015
+Jake Luton,jake-luton-1,/cfb/players/jake-luton-1.html,Idaho,Sun Belt,8,49,78,62.8,383,1,1.3,4,5.1,4.9,2.86,7.8,47.9,98.0,,2015
+Troy Flutie,troy-flutie-1,/cfb/players/troy-flutie-1.html,Boston College,ACC,8,24,49,49.0,382,3,6.1,1,2.0,7.8,8.10,15.9,47.8,130.6,,2015
+Lorenzo Nunez,lorenzo-nunez-1,/cfb/players/lorenzo-nunez-1.html,South Carolina,SEC,8,32,52,61.5,376,3,5.8,3,5.8,7.2,5.79,11.8,47.0,129.8,,2015
+Michael Birdsong,michael-birdsong-1,/cfb/players/michael-birdsong-1.html,Marshall,CUSA,6,43,82,52.4,365,2,2.4,4,4.9,4.5,2.74,8.5,60.8,88.1,,2015
+Drew Barker,drew-barker-1,/cfb/players/drew-barker-1.html,Kentucky,SEC,5,35,70,50.0,364,1,1.4,2,2.9,5.2,4.20,10.4,72.8,92.7,,2015
+Chris Carter,chris-carter-7,/cfb/players/chris-carter-7.html,Army,Ind,2,13,21,61.9,348,2,9.5,2,9.5,16.6,14.19,26.8,174.0,213.5,,2015
+Jack Milas,jack-milas-1,/cfb/players/jack-milas-1.html,Ball State,MAC,12,35,67,52.2,343,1,1.5,3,4.5,5.1,3.40,9.8,28.6,91.2,,2015
+Malik Rosier,malik-rosier-1,/cfb/players/malik-rosier-1.html,Miami (FL),ACC,7,29,57,50.9,338,2,3.5,3,5.3,5.9,4.26,11.7,48.3,101.7,,2015
+Brandon Dawkins,brandon-dawkins-2,/cfb/players/brandon-dawkins-2.html,Arizona,Pac-12,5,20,38,52.6,334,2,5.3,2,5.3,8.8,7.47,16.7,66.8,133.3,,2015
+Tyler Stehling,tyler-stehling-1,/cfb/players/tyler-stehling-1.html,Rice,CUSA,6,24,48,50.0,320,1,2.1,2,4.2,6.7,5.21,13.3,53.3,104.5,,2015
+Reggie Bell,reggie-bell-1,/cfb/players/reggie-bell-1.html,Eastern Michigan,MAC,7,35,59,59.3,318,2,3.4,3,5.1,5.4,3.78,9.1,45.4,105.6,,2015
+Tyler Harris,tyler-harris-2,/cfb/players/tyler-harris-2.html,UCF,American,6,26,61,42.6,308,4,6.6,2,3.3,5.0,4.89,11.8,51.3,100.1,,2015
+Trevor Knight,trevor-knight-1,/cfb/players/trevor-knight-1.html,Oklahoma,Big 12,6,22,40,55.0,305,2,5.0,2,5.0,7.6,6.38,13.9,50.8,125.6,,2015
+Chris Johnson,chris-johnson-13,/cfb/players/chris-johnson-13.html,Baylor,Big 12,9,22,50,44.0,302,3,6.0,3,6.0,6.0,4.54,13.7,33.6,102.5,,2015
+A.J. Schurr,aj-schurr-1,/cfb/players/aj-schurr-1.html,Army,Ind,7,11,29,37.9,300,3,10.3,4,13.8,10.3,6.21,27.3,42.9,131.4,,2015
+Davis Webb,davis-webb-1,/cfb/players/davis-webb-1.html,Texas Tech,Big 12,5,22,41,53.7,300,2,4.9,0,0.0,7.3,8.29,13.6,60.0,131.2,,2015
+Chason Virgil,chason-virgil-1,/cfb/players/chason-virgil-1.html,Fresno State,MWC,3,31,56,55.4,298,3,5.4,3,5.4,5.3,3.98,9.6,99.3,107.0,,2015
+Dallas Tidwell,dallas-tidwell-1,/cfb/players/dallas-tidwell-1.html,Troy,Sun Belt,9,25,54,46.3,298,1,1.9,2,3.7,5.5,4.22,11.9,33.1,91.4,,2015
+Greg Windham,greg-windham-1,/cfb/players/greg-windham-1.html,Ohio,MAC,10,19,40,47.5,298,1,2.5,4,10.0,7.5,3.45,15.7,29.8,98.3,,2015
+Cooper Bateman,cooper-bateman-1,/cfb/players/cooper-bateman-1.html,Alabama,SEC,15,37,52,71.2,291,1,1.9,2,3.8,5.6,4.25,7.9,19.4,116.8,,2015
+Bart Houston,bart-houston-1,/cfb/players/bart-houston-1.html,Wisconsin,Big Ten,7,27,47,57.4,281,3,6.4,2,4.3,6.0,5.34,10.4,40.1,120.2,,2015
+Tim Boyle,tim-boyle-1,/cfb/players/tim-boyle-1.html,Connecticut,American,10,31,60,51.7,281,0,0.0,2,3.3,4.7,3.18,9.1,28.1,84.3,,2015
+Taysom Hill,taysom-hill-1,/cfb/players/taysom-hill-1.html,BYU,Ind,1,21,34,61.8,268,1,2.9,1,2.9,7.9,7.15,12.8,268.0,131.8,,2015
+Zack Oliver,zack-oliver-1,/cfb/players/zack-oliver-1.html,Northwestern,Big Ten,6,23,53,43.4,267,1,1.9,4,7.5,5.0,2.02,11.6,44.5,76.8,,2015
+Tommy Fiedler,tommy-fiedler-1,/cfb/players/tommy-fiedler-1.html,Northern Illinois,MAC,2,21,45,46.7,265,2,4.4,3,6.7,5.9,3.78,12.6,132.5,97.5,,2015
+Jordan Davis,jordan-davis-5,/cfb/players/jordan-davis-5.html,Louisiana,Sun Belt,4,26,41,63.4,256,1,2.4,0,0.0,6.2,6.73,9.8,64.0,123.9,,2015
+Jeff Smith,jeff-smith-10,/cfb/players/jeff-smith-10.html,Boston College,ACC,9,27,82,32.9,253,2,2.4,3,3.7,3.1,1.93,9.4,28.1,59.6,,2015
+Coleman Key,coleman-key-1,/cfb/players/coleman-key-1.html,Colorado State,MWC,6,21,44,47.7,251,3,6.8,3,6.8,5.7,4.00,12.0,41.8,104.5,,2015
+Brice Ramsey,brice-ramsey-1,/cfb/players/brice-ramsey-1.html,Georgia,SEC,11,21,35,60.0,249,1,2.9,2,5.7,7.1,5.11,11.9,22.6,117.8,,2015
+Nick Smith,nick-smith-4,/cfb/players/nick-smith-4.html,Wyoming,MWC,5,27,60,45.0,245,2,3.3,1,1.7,4.1,4.00,9.1,49.0,87.0,,2015
+Connor White,connor-white-1,/cfb/players/connor-white-1.html,Texas State,Sun Belt,5,26,47,55.3,235,1,2.1,2,4.3,5.0,3.51,9.0,47.0,95.8,,2015
+Nick Fitzgerald,nick-fitzgerald-2,/cfb/players/nick-fitzgerald-2.html,Mississippi State,SEC,8,11,14,78.6,235,3,21.4,0,0.0,16.8,21.07,21.4,29.4,290.3,,2015
+Hayden Rettig,hayden-rettig-1,/cfb/players/hayden-rettig-1.html,Rutgers,Big Ten,5,14,25,56.0,233,2,8.0,0,0.0,9.3,10.92,16.6,46.6,160.7,,2015
+Darius Wade,darius-wade-1,/cfb/players/darius-wade-1.html,Boston College,ACC,3,21,42,50.0,232,2,4.8,1,2.4,5.5,5.40,11.0,77.3,107.4,,2015
+Favian Upshaw,favian-upshaw-1,/cfb/players/favian-upshaw-1.html,Georgia Southern,Sun Belt,13,19,48,39.6,227,0,0.0,5,10.4,4.7,0.04,11.9,17.5,58.5,,2015
+Kendal Thompson,kendal-thompson-1,/cfb/players/kendal-thompson-1.html,Utah,Pac-12,4,28,36,77.8,220,1,2.8,1,2.8,6.1,5.42,7.9,55.0,132.7,,2015
+Kavika Johnson,kavika-johnson-1,/cfb/players/kavika-johnson-1.html,UTEP,CUSA,9,27,53,50.9,218,3,5.7,0,0.0,4.1,5.25,8.1,24.2,104.2,,2015
+Quinten Dormady,quinten-dormady-1,/cfb/players/quinten-dormady-1.html,Tennessee,SEC,6,13,22,59.1,209,1,4.5,0,0.0,9.5,10.41,16.1,34.8,153.9,,2015
+Darrel Colbert,darrel-colbert-1,/cfb/players/darrel-colbert-1.html,SMU,American,7,15,21,71.4,203,1,4.8,0,0.0,9.7,10.62,13.5,29.0,168.3,,2015
+Gus Ragland,gus-ragland-1,/cfb/players/gus-ragland-1.html,Miami (OH),MAC,11,20,29,69.0,196,3,10.3,0,0.0,6.8,8.83,9.8,17.8,159.9,,2015
+Reggie Bonnafon,reggie-bonnafon-1,/cfb/players/reggie-bonnafon-1.html,Louisville,ACC,10,14,24,58.3,192,2,8.3,1,4.2,8.0,7.79,13.7,19.2,144.7,,2015
+Tom Flacco,tom-flacco-1,/cfb/players/tom-flacco-1.html,Western Michigan,MAC,7,10,12,83.3,188,1,8.3,0,0.0,15.7,17.33,18.8,26.9,242.4,,2015
+Trace McSorley,trace-mcsorley-1,/cfb/players/trace-mcsorley-1.html,Penn State,Big Ten,7,20,40,50.0,185,2,5.0,0,0.0,4.6,5.63,9.3,26.4,105.4,,2015
+Clay Holgorsen,clay-holgorsen-1,/cfb/players/clay-holgorsen-1.html,Memphis,American,4,14,20,70.0,177,1,5.0,1,5.0,8.9,7.60,12.6,44.3,150.8,,2015
+Nick Schuessler,nick-schuessler-1,/cfb/players/nick-schuessler-1.html,Clemson,ACC,5,13,23,56.5,177,0,0.0,1,4.3,7.7,5.74,13.6,35.4,112.5,,2015
+Steven Bench,steven-bench-1,/cfb/players/steven-bench-1.html,South Florida,American,8,14,22,63.6,177,2,9.1,1,4.5,8.0,7.82,12.6,22.1,152.1,,2015
+James Knapke,james-knapke-1,/cfb/players/james-knapke-1.html,Bowling Green,MAC,13,14,20,70.0,173,1,5.0,0,0.0,8.7,9.65,12.4,13.3,159.2,,2015
+Ross Comis,ross-comis-1,/cfb/players/ross-comis-1.html,Massachusetts,MAC,6,15,21,71.4,171,2,9.5,0,0.0,8.1,10.05,11.4,28.5,171.3,,2015
+Zander Diamont,zander-diamont-1,/cfb/players/zander-diamont-1.html,Indiana,Big Ten,2,15,31,48.4,166,0,0.0,0,0.0,5.4,5.35,11.1,83.0,93.4,,2015
+Connor Mitch,connor-mitch-1,/cfb/players/connor-mitch-1.html,South Carolina,SEC,2,13,29,44.8,165,1,3.4,0,0.0,5.7,6.38,12.7,82.5,104.0,,2015
+Chase Forrest,chase-forrest-1,/cfb/players/chase-forrest-1.html,California,Pac-12,3,10,18,55.6,162,1,5.6,1,5.6,9.0,7.61,16.2,54.0,138.4,,2015
+Chayce Crouch,chayce-crouch-1,/cfb/players/chayce-crouch-1.html,Illinois,Big Ten,10,15,34,44.1,160,2,5.9,1,2.9,4.7,4.56,10.7,16.0,97.2,,2015
+Dontreal Pruitt,dontreal-pruitt-1,/cfb/players/dontreal-pruitt-1.html,Troy,Sun Belt,9,20,31,64.5,160,0,0.0,2,6.5,5.2,2.26,8.0,17.8,95.0,,2015
+Ford Childress,ford-childress-1,/cfb/players/ford-childress-1.html,Fresno State,MWC,2,19,34,55.9,159,2,5.9,2,5.9,4.7,3.21,8.4,79.5,102.8,,2015
+Devin Powell,devin-powell-1,/cfb/players/devin-powell-1.html,Tulane,American,5,16,36,44.4,157,1,2.8,0,0.0,4.4,4.92,9.8,31.4,90.2,,2015
+Tra'Von Chapman,travon-chapman-1,/cfb/players/travon-chapman-1.html,Akron,MAC,4,10,35,28.6,157,1,2.9,1,2.9,4.5,3.77,15.7,39.3,70.0,,2015
+Foster Sawyer,foster-sawyer-1,/cfb/players/foster-sawyer-1.html,Texas Christian,Big 12,5,11,27,40.7,155,2,7.4,3,11.1,5.7,2.22,14.1,31.0,91.2,,2015
+Faton Bauta,faton-bauta-1,/cfb/players/faton-bauta-1.html,Georgia,SEC,12,15,33,45.5,154,0,0.0,4,12.1,4.7,-0.79,10.3,12.8,60.4,,2015
+Nate Romine,nate-romine-1,/cfb/players/nate-romine-1.html,Air Force,MWC,3,7,18,38.9,143,2,11.1,1,5.6,7.9,7.67,20.4,47.7,131.2,,2015
+Ryan Higgins,ryan-higgins-1,/cfb/players/ryan-higgins-1.html,Louisiana Tech,CUSA,7,15,25,60.0,138,1,4.0,3,12.0,5.5,0.92,9.2,19.7,95.6,,2015
+Beau Hoge,beau-hoge-1,/cfb/players/beau-hoge-1.html,BYU,Ind,3,10,17,58.8,137,1,5.9,1,5.9,8.1,6.59,13.7,45.7,134.2,,2015
+Kyle Pohl,kyle-pohl-1,/cfb/players/kyle-pohl-1.html,Akron,MAC,5,11,27,40.7,135,0,0.0,0,0.0,5.0,5.00,12.3,27.0,82.7,,2015
+Laquon Treadwell,laquon-treadwell-1,/cfb/players/laquon-treadwell-1.html,Ole Miss,SEC,13,3,3,100.0,134,1,33.3,0,0.0,44.7,51.33,44.7,10.3,585.2,,2015
+Tyler O'Connor,tyler-oconnor-1,/cfb/players/tyler-oconnor-1.html,Michigan State,Big Ten,6,13,24,54.2,133,2,8.3,1,4.2,5.5,5.33,10.2,22.2,119.9,,2015
+Deondre Ford,deondre-ford-1,/cfb/players/deondre-ford-1.html,Kansas,Big 12,2,11,23,47.8,132,0,0.0,1,4.3,5.7,3.78,12.0,66.0,87.3,,2015
+Trey Anderson,trey-anderson-1,/cfb/players/trey-anderson-1.html,Florida International,CUSA,7,5,20,25.0,132,1,5.0,0,0.0,6.6,7.60,26.4,18.9,96.9,,2015
+Adam Schulz,adam-schulz-1,/cfb/players/adam-schulz-1.html,Houston,American,2,7,13,53.8,129,0,0.0,0,0.0,9.9,9.92,18.4,64.5,137.2,,2015
+Jalen Greene,jalen-greene-1,/cfb/players/jalen-greene-1.html,USC,Pac-12,14,3,4,75.0,127,1,25.0,0,0.0,31.8,36.75,42.3,9.1,424.2,,2015
+K.J. Carta-Samuels,kj-carta-samuels-1,/cfb/players/kj-carta-samuels-1.html,Washington,Pac-12,8,10,24,41.7,124,0,0.0,1,4.2,5.2,3.29,12.4,15.5,76.7,,2015
+William Crest,william-crest-1,/cfb/players/william-crest-1.html,West Virginia,Big 12,10,11,25,44.0,124,0,0.0,1,4.0,5.0,3.16,11.3,12.4,77.7,,2015
+Jordan Gehrke,jordan-gehrke-1,/cfb/players/jordan-gehrke-1.html,Colorado,Pac-12,3,12,24,50.0,116,1,4.2,1,4.2,4.8,3.79,9.7,38.7,96.0,,2015
+Daxx Garman,daxx-garman-1,/cfb/players/daxx-garman-1.html,Maryland,Big Ten,2,6,18,33.3,115,1,5.6,1,5.6,6.4,5.00,19.2,57.5,94.2,,2015
+Thomas Stuart,thomas-stuart-1,/cfb/players/thomas-stuart-1.html,Boise State,MWC,9,12,18,66.7,114,1,5.6,0,0.0,6.3,7.44,9.5,12.7,138.2,,2015
+Max Browne,max-browne-1,/cfb/players/max-browne-1.html,USC,Pac-12,3,8,12,66.7,113,0,0.0,0,0.0,9.4,9.42,14.1,37.7,145.8,,2015
+Chad Voytik,chad-voytik-1,/cfb/players/chad-voytik-1.html,Pitt,ACC,7,16,24,66.7,112,1,4.2,1,4.2,4.7,3.63,7.0,16.0,111.3,,2015
+Tyler Matthews,tyler-matthews-1,/cfb/players/tyler-matthews-1.html,Southern Mississippi,CUSA,5,5,7,71.4,112,1,14.3,0,0.0,16.0,18.86,22.4,22.4,253.0,,2015
+J.P. Caruso,jp-caruso-1,/cfb/players/jp-caruso-1.html,Appalachian State,Sun Belt,5,8,12,66.7,109,2,16.7,0,0.0,9.1,12.42,13.6,21.8,198.0,,2015
+Dallas Davis,dallas-davis-2,/cfb/players/dallas-davis-2.html,South Alabama,Sun Belt,6,11,23,47.8,108,1,4.3,1,4.3,4.7,3.61,9.8,18.0,92.9,,2015
+Brian Williams,brian-williams-14,/cfb/players/brian-williams-14.html,Louisiana-Monroe,Sun Belt,6,5,10,50.0,101,3,30.0,1,10.0,10.1,11.60,20.2,16.8,213.8,,2015
+Josh Greer,josh-greer-1,/cfb/players/josh-greer-1.html,North Texas,CUSA,4,8,23,34.8,97,0,0.0,2,8.7,4.2,0.30,12.1,24.3,52.8,,2015
+Ryan Buchanan,ryan-buchanan-1,/cfb/players/ryan-buchanan-1.html,Ole Miss,SEC,12,8,13,61.5,96,2,15.4,1,7.7,7.4,7.00,12.0,8.0,159.0,,2015
+Taylor Alie,taylor-alie-2,/cfb/players/taylor-alie-2.html,Oregon,Pac-12,12,6,14,42.9,96,1,7.1,0,0.0,6.9,8.29,16.0,8.0,124.0,,2015
+Matthew Jordan,matthew-jordan-1,/cfb/players/matthew-jordan-1.html,Georgia Tech,ACC,5,5,9,55.6,94,1,11.1,1,11.1,10.4,7.67,18.8,18.8,157.7,,2015
+Shane Cockerille,shane-cockerille-1,/cfb/players/shane-cockerille-1.html,Maryland,Big Ten,11,11,23,47.8,82,0,0.0,0,0.0,3.6,3.57,7.5,7.5,77.8,,2015
+Devante Kincade,devante-kincade-1,/cfb/players/devante-kincade-1.html,Ole Miss,SEC,3,9,15,60.0,79,1,6.7,0,0.0,5.3,6.60,8.8,26.3,126.2,,2015
+Xavier Jones,xavier-jones-2,/cfb/players/xavier-jones-2.html,SMU,American,12,2,2,100.0,79,2,100.0,0,0.0,39.5,59.50,39.5,6.6,761.8,,2015
+Jalen Robinette,jalen-robinette-1,/cfb/players/jalen-robinette-1.html,Air Force,MWC,14,2,3,66.7,76,2,66.7,0,0.0,25.3,38.67,38.0,5.4,499.5,,2015
+Nacarius Fant,nacarius-fant-1,/cfb/players/nacarius-fant-1.html,Western Kentucky,CUSA,14,2,3,66.7,76,2,66.7,0,0.0,25.3,38.67,38.0,5.4,499.5,,2015
+Courtland Sutton,courtland-sutton-1,/cfb/players/courtland-sutton-1.html,SMU,American,12,2,2,100.0,75,0,0.0,0,0.0,37.5,37.50,37.5,6.3,415.0,,2015
+Damion Hobbs,damion-hobbs-1,/cfb/players/damion-hobbs-1.html,Utah State,MWC,7,4,5,80.0,73,1,20.0,0,0.0,14.6,18.60,18.3,10.4,268.6,,2015
+Wilton Speight,wilton-speight-1,/cfb/players/wilton-speight-1.html,Michigan,Big Ten,7,9,25,36.0,73,1,4.0,1,4.0,2.9,1.92,8.1,10.4,65.7,,2015
+Jakeem Grant,jakeem-grant-1,/cfb/players/jakeem-grant-1.html,Texas Tech,Big 12,13,1,1,100.0,72,1,100.0,0,0.0,72.0,92.00,72.0,5.5,1034.8,,2015
+Michael Julian,michael-julian-1,/cfb/players/michael-julian-1.html,Toledo,MAC,4,5,7,71.4,71,1,14.3,0,0.0,10.1,13.00,14.2,17.8,203.8,,2015
+Nelson Fishback,nelson-fishback-1,/cfb/players/nelson-fishback-1.html,Western Kentucky,CUSA,6,7,8,87.5,70,0,0.0,0,0.0,8.8,8.75,10.0,11.7,161.0,,2015
+Jalan McClendon,jalan-mcclendon-1,/cfb/players/jalan-mcclendon-1.html,North Carolina State,ACC,7,8,14,57.1,69,0,0.0,0,0.0,4.9,4.93,8.6,9.9,98.5,,2015
+Tyler Boyd,tyler-boyd-1,/cfb/players/tyler-boyd-1.html,Pitt,ACC,12,2,3,66.7,67,0,0.0,0,0.0,22.3,22.33,33.5,5.6,254.3,,2015
+Lynx Hawthorne,lynx-hawthorne-1,/cfb/players/lynx-hawthorne-1.html,Baylor,Big 12,13,11,23,47.8,66,0,0.0,2,8.7,2.9,-1.04,6.0,5.1,54.5,,2015
+Danny Cameron,danny-cameron-1,/cfb/players/danny-cameron-1.html,Indiana,Big Ten,1,6,16,37.5,65,0,0.0,1,6.3,4.1,1.25,10.8,65.0,59.1,,2015
+D'Ernest Johnson,dernest-johnson-1,/cfb/players/dernest-johnson-1.html,South Florida,American,13,2,2,100.0,63,2,100.0,0,0.0,31.5,51.50,31.5,4.8,694.6,,2015
+Keller Chryst,keller-chryst-1,/cfb/players/keller-chryst-1.html,Stanford,Pac-12,4,5,9,55.6,59,1,11.1,0,0.0,6.6,8.78,11.8,14.8,147.3,,2015
+Malik Watson,malik-watson-1,/cfb/players/malik-watson-1.html,San Jose State,MWC,3,9,15,60.0,59,0,0.0,1,6.7,3.9,0.93,6.6,19.7,79.7,,2015
+Jauan Jennings,jauan-jennings-1,/cfb/players/jauan-jennings-1.html,Tennessee,SEC,11,1,2,50.0,58,1,50.0,0,0.0,29.0,39.00,58.0,5.3,458.6,,2015
+Jesse Kroll,jesse-kroll-1,/cfb/players/jesse-kroll-1.html,Central Michigan,MAC,13,2,3,66.7,57,0,0.0,0,0.0,19.0,19.00,28.5,4.4,226.3,,2015
+Koy Detmer Jr.,koy-detmer-jr-1,/cfb/players/koy-detmer-jr-1.html,BYU,Ind,1,3,3,100.0,57,0,0.0,0,0.0,19.0,19.00,19.0,57.0,259.6,,2015
+Garrett Anderson,garrett-anderson-2,/cfb/players/garrett-anderson-2.html,Connecticut,American,2,2,2,100.0,53,1,50.0,0,0.0,26.5,36.50,26.5,26.5,487.6,,2015
+Jerry Neuheisel,jerry-neuheisel-1,/cfb/players/jerry-neuheisel-1.html,UCLA,Pac-12,8,5,18,27.8,53,0,0.0,2,11.1,2.9,-2.06,10.6,6.6,30.3,,2015
+Shane Williams-Rhodes,shane-williams-rhodes-1,/cfb/players/shane-williams-rhodes-1.html,Boise State,MWC,11,1,2,50.0,53,1,50.0,0,0.0,26.5,36.50,53.0,4.8,437.6,,2015
+Dwayne Lawson,dwayne-lawson-1,/cfb/players/dwayne-lawson-1.html,Virginia Tech,ACC,4,3,9,33.3,51,0,0.0,0,0.0,5.7,5.67,17.0,12.8,80.9,,2015
+Elijah Staley,elijah-staley-1,/cfb/players/elijah-staley-1.html,Mississippi State,SEC,2,3,5,60.0,51,1,20.0,0,0.0,10.2,14.20,17.0,25.5,211.7,,2015
+Josh Allen,josh-allen-7,/cfb/players/josh-allen-7.html,Wyoming,MWC,2,4,6,66.7,51,0,0.0,0,0.0,8.5,8.50,12.8,25.5,138.1,,2015
+Makoa Camanse-Stevens,makoa-camanse-stevens-1,/cfb/players/makoa-camanse-stevens-1.html,Hawaii,MWC,13,1,2,50.0,51,0,0.0,0,0.0,25.5,25.50,51.0,3.9,264.2,,2015
+Bentlee Critcher,bentlee-critcher-1,/cfb/players/bentlee-critcher-1.html,Appalachian State,Sun Belt,13,2,2,100.0,50,0,0.0,0,0.0,25.0,25.00,25.0,3.8,310.0,,2015
+Austin Wilson,austin-wilson-2,/cfb/players/austin-wilson-2.html,Syracuse,ACC,2,4,8,50.0,49,1,12.5,1,12.5,6.1,3.00,12.3,24.5,117.7,,2015
+Demarcus Ayers,demarcus-ayers-1,/cfb/players/demarcus-ayers-1.html,Houston,American,14,2,3,66.7,49,2,66.7,0,0.0,16.3,29.67,24.5,3.5,423.9,,2015
+Cody Tuttle,cody-tuttle-1,/cfb/players/cody-tuttle-1.html,Eastern Michigan,MAC,12,1,1,100.0,48,0,0.0,0,0.0,48.0,48.00,48.0,4.0,503.2,,2015
+Shawn White,shawn-white-1,/cfb/players/shawn-white-1.html,Navy,American,13,1,1,100.0,47,0,0.0,0,0.0,47.0,47.00,47.0,3.6,494.8,,2015
+Zach Pascal,zach-pascal-1,/cfb/players/zach-pascal-1.html,Old Dominion,CUSA,12,1,1,100.0,47,0,0.0,0,0.0,47.0,47.00,47.0,3.9,494.8,,2015
+Nick Scott,nick-scott-1,/cfb/players/nick-scott-1.html,Penn State,Big Ten,13,2,2,100.0,46,1,50.0,0,0.0,23.0,33.00,23.0,3.5,458.2,,2015
+Austin Grammer,austin-grammer-1,/cfb/players/austin-grammer-1.html,Middle Tennessee State,CUSA,13,6,9,66.7,45,1,11.1,1,11.1,5.0,2.22,7.5,3.5,123.1,,2015
+K.D. Edenfield,kd-edenfield-1,/cfb/players/kd-edenfield-1.html,Troy,Sun Belt,12,1,1,100.0,45,0,0.0,0,0.0,45.0,45.00,45.0,3.8,478.0,,2015
+Phil Mayhue,phil-mayhue-1,/cfb/players/phil-mayhue-1.html,Memphis,American,13,1,2,50.0,44,1,50.0,0,0.0,22.0,32.00,44.0,3.4,399.8,,2015
+Terry Godwin,terry-godwin-1,/cfb/players/terry-godwin-1.html,Georgia,SEC,13,1,1,100.0,44,1,100.0,0,0.0,44.0,64.00,44.0,3.4,799.6,,2015
+Shannon Brooks,shannon-brooks-1,/cfb/players/shannon-brooks-1.html,Minnesota,Big Ten,12,1,1,100.0,42,1,100.0,0,0.0,42.0,62.00,42.0,3.5,782.8,,2015
+Frank Nutile,frank-nutile-1,/cfb/players/frank-nutile-1.html,Temple,American,3,3,3,100.0,40,1,33.3,0,0.0,13.3,20.00,13.3,13.3,322.0,,2015
+Bralon Addison,bralon-addison-1,/cfb/players/bralon-addison-1.html,Oregon,Pac-12,13,1,2,50.0,39,1,50.0,0,0.0,19.5,29.50,39.0,3.0,378.8,,2015
+Christian McCaffrey,christian-mccaffrey-1,/cfb/players/christian-mccaffrey-1.html,Stanford,Pac-12,14,2,3,66.7,39,2,66.7,0,0.0,13.0,26.33,19.5,2.8,395.9,"H-2,AA",2015
+Russell Bellomy,russell-bellomy-1,/cfb/players/russell-bellomy-1.html,UTSA,CUSA,3,4,10,40.0,39,0,0.0,0,0.0,3.9,3.90,9.8,13.0,72.8,,2015
+Cameron Birse,cameron-birse-1,/cfb/players/cameron-birse-1.html,Arkansas State,Sun Belt,8,4,4,100.0,37,0,0.0,0,0.0,9.3,9.25,9.3,4.6,177.7,,2015
+Kevin Phillips,kevin-phillips-1,/cfb/players/kevin-phillips-1.html,Auburn,SEC,13,1,1,100.0,37,0,0.0,0,0.0,37.0,37.00,37.0,2.8,410.8,,2015
+Quinshad Davis,quinshad-davis-1,/cfb/players/quinshad-davis-1.html,North Carolina,ACC,14,1,1,100.0,37,1,100.0,0,0.0,37.0,57.00,37.0,2.6,740.8,,2015
+Austin Allen,austin-allen-1,/cfb/players/austin-allen-1.html,Arkansas,SEC,3,1,3,33.3,35,1,33.3,0,0.0,11.7,18.33,35.0,11.7,241.3,,2015
+Deon Cain,deon-cain-1,/cfb/players/deon-cain-1.html,Clemson,ACC,13,1,1,100.0,35,0,0.0,0,0.0,35.0,35.00,35.0,2.7,394.0,,2015
+Joe Hansley,joe-hansley-1,/cfb/players/joe-hansley-1.html,Colorado State,MWC,13,1,1,100.0,35,0,0.0,0,0.0,35.0,35.00,35.0,2.7,394.0,,2015
+Torii Hunter Jr.,torii-hunter-jr-1,/cfb/players/torii-hunter-jr-1.html,Notre Dame,Ind,13,1,3,33.3,35,0,0.0,0,0.0,11.7,11.67,35.0,2.7,131.3,,2015
+Connor Brewer,connor-brewer-1,/cfb/players/connor-brewer-1.html,Virginia,ACC,2,4,8,50.0,34,0,0.0,1,12.5,4.3,-1.38,8.5,17.0,60.7,,2015
+Demry Croft,demry-croft-1,/cfb/players/demry-croft-1.html,Minnesota,Big Ten,3,7,17,41.2,34,0,0.0,0,0.0,2.0,2.00,4.9,11.3,58.0,,2015
+Fred Ross,fred-ross-1,/cfb/players/fred-ross-1.html,Mississippi State,SEC,13,1,1,100.0,34,0,0.0,0,0.0,34.0,34.00,34.0,2.6,385.6,,2015
+Zay Jones,isaiah-jones-2,/cfb/players/isaiah-jones-2.html,East Carolina,American,12,1,1,100.0,34,0,0.0,0,0.0,34.0,34.00,34.0,2.8,385.6,,2015
+Tyler Williams,tyler-williams-5,/cfb/players/tyler-williams-5.html,Air Force,MWC,12,1,1,100.0,33,0,0.0,0,0.0,33.0,33.00,33.0,2.8,377.2,,2015
+Geno Lewis,geno-lewis-1,/cfb/players/geno-lewis-1.html,Penn State,Big Ten,13,1,2,50.0,32,1,50.0,0,0.0,16.0,26.00,32.0,2.5,349.4,,2015
+Tyler Wiegers,tyler-wiegers-1,/cfb/players/tyler-wiegers-1.html,Iowa,Big Ten,4,3,4,75.0,32,0,0.0,0,0.0,8.0,8.00,10.7,8.0,142.2,,2015
+Tyrell Clay,tyrell-clay-1,/cfb/players/tyrell-clay-1.html,UTSA,CUSA,11,1,1,100.0,31,0,0.0,0,0.0,31.0,31.00,31.0,2.8,360.4,,2015
+Andy Teasdall,andy-teasdall-1,/cfb/players/andy-teasdall-1.html,Clemson,ACC,15,2,2,100.0,30,0,0.0,0,0.0,15.0,15.00,15.0,2.0,226.0,,2015
+Brandon Presley,brandon-presley-1,/cfb/players/brandon-presley-1.html,Nevada-Las Vegas,MWC,11,1,1,100.0,30,0,0.0,0,0.0,30.0,30.00,30.0,2.7,352.0,,2015
+Brandon Pressley,brandon-pressley-1,/cfb/players/brandon-pressley-1.html,Nevada-Las Vegas,MWC,4,1,1,100.0,30,0,0.0,0,0.0,30.0,30.00,30.0,7.5,352.0,,2015
+Hyleck Foster,hyleck-foster-1,/cfb/players/hyleck-foster-1.html,Marshall,CUSA,12,1,1,100.0,30,0,0.0,0,0.0,30.0,30.00,30.0,2.5,352.0,,2015
+Price Wilson,price-wilson-1,/cfb/players/price-wilson-1.html,Louisiana Tech,CUSA,1,1,3,33.3,30,0,0.0,0,0.0,10.0,10.00,30.0,30.0,117.3,,2015
+Tago Smith,tago-smith-1,/cfb/players/tago-smith-1.html,Navy,American,8,2,3,66.7,30,1,33.3,1,33.3,10.0,1.67,15.0,3.8,194.0,,2015
+Shaun Nixon,shaun-nixon-1,/cfb/players/shaun-nixon-1.html,Texas Christian,Big 12,13,1,1,100.0,29,1,100.0,0,0.0,29.0,49.00,29.0,2.2,673.6,,2015
+Tra Carson,tra-carson-1,/cfb/players/tra-carson-1.html,Texas A&M,SEC,13,1,2,50.0,28,0,0.0,0,0.0,14.0,14.00,28.0,2.2,167.6,,2015
+Tyler Sarrazin,tyler-sarrazin-1,/cfb/players/tyler-sarrazin-1.html,Southern Mississippi,CUSA,14,2,3,66.7,28,1,33.3,0,0.0,9.3,16.00,14.0,2.0,255.1,,2015
+J.J. Cosentino,jj-cosentino-1,/cfb/players/jj-cosentino-1.html,Florida State,ACC,3,5,10,50.0,27,0,0.0,0,0.0,2.7,2.70,5.4,9.0,72.7,,2015
+Kelly Bryant,kelly-bryant-1,/cfb/players/kelly-bryant-1.html,Clemson,ACC,8,7,9,77.8,27,0,0.0,1,11.1,3.0,-2.00,3.9,3.4,80.8,,2015
+Marvin Hall,marvin-hall-1,/cfb/players/marvin-hall-1.html,Washington,Pac-12,12,1,1,100.0,27,1,100.0,0,0.0,27.0,47.00,27.0,2.3,656.8,,2015
+Matt Haack,matt-haack-1,/cfb/players/matt-haack-1.html,Arizona State,Pac-12,13,1,1,100.0,27,0,0.0,0,0.0,27.0,27.00,27.0,2.1,326.8,,2015
+Thomas Sperbeck,thomas-sperbeck-1,/cfb/players/thomas-sperbeck-1.html,Boise State,MWC,13,2,4,50.0,27,1,25.0,0,0.0,6.8,11.75,13.5,2.1,189.2,,2015
+Herb Waters,herb-waters-1,/cfb/players/herb-waters-1.html,Miami (FL),ACC,13,1,1,100.0,26,0,0.0,0,0.0,26.0,26.00,26.0,2.0,318.4,,2015
+Holden Kramer,holden-kramer-1,/cfb/players/holden-kramer-1.html,Iowa State,Big 12,6,2,2,100.0,26,0,0.0,0,0.0,13.0,13.00,13.0,4.3,209.2,,2015
+Kelvin White,kelvin-white-2,/cfb/players/kelvin-white-2.html,Army,Ind,12,1,5,20.0,26,0,0.0,0,0.0,5.2,5.20,26.0,2.2,63.7,,2015
+Wade Freebeck,wade-freebeck-1,/cfb/players/wade-freebeck-1.html,Vanderbilt,SEC,1,2,6,33.3,26,0,0.0,1,16.7,4.3,-3.17,13.0,26.0,36.4,,2015
+Brayle Brown,brayle-brown-1,/cfb/players/brayle-brown-1.html,Louisiana-Monroe,Sun Belt,9,3,11,27.3,25,0,0.0,0,0.0,2.3,2.27,8.3,2.8,46.4,,2015
+Cayleb Jones,cayleb-jones-2,/cfb/players/cayleb-jones-2.html,Arizona,Pac-12,13,1,1,100.0,25,0,0.0,0,0.0,25.0,25.00,25.0,1.9,310.0,,2015
+Devontae Booker,devontae-booker-1,/cfb/players/devontae-booker-1.html,Utah,Pac-12,10,1,1,100.0,25,1,100.0,0,0.0,25.0,45.00,25.0,2.5,640.0,,2015
+Joe Walker,joe-walker-4,/cfb/players/joe-walker-4.html,Army,Ind,10,1,1,100.0,25,0,0.0,0,0.0,25.0,25.00,25.0,2.5,310.0,,2015
+John Christopher,john-christopher-1,/cfb/players/john-christopher-1.html,Temple,American,14,1,3,33.3,25,0,0.0,0,0.0,8.3,8.33,25.0,1.8,103.3,,2015
+Nick Patti,nick-patti-1,/cfb/players/nick-patti-1.html,UCF,American,12,4,8,50.0,25,0,0.0,0,0.0,3.1,3.13,6.3,2.1,76.3,,2015
+Tony Daniel,tony-daniel-1,/cfb/players/tony-daniel-1.html,Buffalo,MAC,4,3,5,60.0,25,0,0.0,1,20.0,5.0,-4.00,8.3,6.3,62.0,,2015
+Alvin Kamara,alvin-kamara-1,/cfb/players/alvin-kamara-1.html,Tennessee,SEC,13,1,1,100.0,24,0,0.0,0,0.0,24.0,24.00,24.0,1.8,301.6,,2015
+Johnny Jefferson,johnny-jefferson-1,/cfb/players/johnny-jefferson-1.html,Baylor,Big 12,11,1,4,25.0,24,0,0.0,0,0.0,6.0,6.00,24.0,2.2,75.4,,2015
+Tres Houston,tres-houston-1,/cfb/players/tres-houston-1.html,Arkansas State,Sun Belt,13,1,3,33.3,24,0,0.0,0,0.0,8.0,8.00,24.0,1.8,100.5,,2015
+Tim Byerly,tim-byerly-1,/cfb/players/tim-byerly-1.html,Georgia Tech,ACC,1,1,1,100.0,23,0,0.0,0,0.0,23.0,23.00,23.0,23.0,293.2,,2015
+Corey Davis,corey-davis-3,/cfb/players/corey-davis-3.html,Western Michigan,MAC,13,1,1,100.0,22,0,0.0,0,0.0,22.0,22.00,22.0,1.7,284.8,,2015
+Mike Fafaul,mike-fafaul-1,/cfb/players/mike-fafaul-1.html,UCLA,Pac-12,1,2,2,100.0,21,0,0.0,0,0.0,10.5,10.50,10.5,21.0,188.2,,2015
+Tevaun Smith,tevaun-smith-1,/cfb/players/tevaun-smith-1.html,Iowa,Big Ten,12,1,1,100.0,21,0,0.0,0,0.0,21.0,21.00,21.0,1.8,276.4,,2015
+Keaton Perry,keaton-perry-1,/cfb/players/keaton-perry-1.html,Kansas,Big 12,2,2,6,33.3,20,1,16.7,1,16.7,3.3,-0.83,10.0,10.0,83.0,,2015
+Tony James,tony-james-3,/cfb/players/tony-james-3.html,Texas Christian,Big 12,7,1,1,100.0,20,0,0.0,0,0.0,20.0,20.00,20.0,2.9,268.0,,2015
+Austin Hays,austin-hays-1,/cfb/players/austin-hays-1.html,Oklahoma State,Big 12,12,1,1,100.0,19,1,100.0,0,0.0,19.0,39.00,19.0,1.6,589.6,,2015
+K.J. Brent,kj-brent-1,/cfb/players/kj-brent-1.html,Wake Forest,ACC,12,1,1,100.0,19,0,0.0,0,0.0,19.0,19.00,19.0,1.6,259.6,,2015
+KaVontae Turpin,kavontae-turpin-1,/cfb/players/kavontae-turpin-1.html,Texas Christian,Big 12,13,1,2,50.0,18,0,0.0,0,0.0,9.0,9.00,18.0,1.4,125.6,,2015
+Linell Bonner,linell-bonner-1,/cfb/players/linell-bonner-1.html,Houston,American,12,1,1,100.0,18,0,0.0,0,0.0,18.0,18.00,18.0,1.5,251.2,,2015
+Nic Shimonek,nic-shimonek-1,/cfb/players/nic-shimonek-1.html,Texas Tech,Big 12,2,1,2,50.0,18,0,0.0,0,0.0,9.0,9.00,18.0,9.0,125.6,,2015
+Brandon Wimbush,brandon-wimbush-1,/cfb/players/brandon-wimbush-1.html,Notre Dame,Ind,2,3,5,60.0,17,0,0.0,0,0.0,3.4,3.40,5.7,8.5,88.6,,2015
+Donnel Pumphrey,donnel-pumphrey-1,/cfb/players/donnel-pumphrey-1.html,San Diego State,MWC,14,1,1,100.0,16,1,100.0,0,0.0,16.0,36.00,16.0,1.1,564.4,,2015
+K.J. Maye,kj-maye-1,/cfb/players/kj-maye-1.html,Minnesota,Big Ten,13,1,1,100.0,16,0,0.0,0,0.0,16.0,16.00,16.0,1.2,234.4,,2015
+Luke Wright,luke-wright-1,/cfb/players/luke-wright-1.html,Cincinnati,American,4,1,3,33.3,16,0,0.0,0,0.0,5.3,5.33,16.0,4.0,78.1,,2015
+Mitchell Paige,mitchell-paige-1,/cfb/players/mitchell-paige-1.html,Indiana,Big Ten,13,1,2,50.0,16,0,0.0,0,0.0,8.0,8.00,16.0,1.2,117.2,,2015
+Ryan Burbrink,ryan-burbrink-1,/cfb/players/ryan-burbrink-1.html,Bowling Green,MAC,13,1,3,33.3,16,0,0.0,0,0.0,5.3,5.33,16.0,1.2,78.1,,2015
+Damion Terry,damion-terry-1,/cfb/players/damion-terry-1.html,Michigan State,Big Ten,10,2,7,28.6,15,0,0.0,0,0.0,2.1,2.14,7.5,1.5,46.6,,2015
+Olamide Zaccheaus,olamide-zaccheaus-1,/cfb/players/olamide-zaccheaus-1.html,Virginia,ACC,12,1,1,100.0,15,1,100.0,0,0.0,15.0,35.00,15.0,1.3,556.0,,2015
+Remington Peck,remington-peck-1,/cfb/players/remington-peck-1.html,BYU,Ind,13,1,1,100.0,15,1,100.0,0,0.0,15.0,35.00,15.0,1.2,556.0,,2015
+Isaiah Ford,isaiah-ford-1,/cfb/players/isaiah-ford-1.html,Virginia Tech,ACC,13,1,2,50.0,14,0,0.0,0,0.0,7.0,7.00,14.0,1.1,108.8,,2015
+Tyrell Goodman,tyrell-goodman-1,/cfb/players/tyrell-goodman-1.html,Akron,MAC,10,1,1,100.0,14,1,100.0,0,0.0,14.0,34.00,14.0,1.4,547.6,,2015
+Sam Rogers,sam-rogers-1,/cfb/players/sam-rogers-1.html,Virginia Tech,ACC,13,1,2,50.0,13,0,0.0,0,0.0,6.5,6.50,13.0,1.0,104.6,,2015
+Luke Turner,luke-turner-1,/cfb/players/luke-turner-1.html,Rice,CUSA,12,2,3,66.7,12,1,33.3,0,0.0,4.0,10.67,6.0,1.0,210.3,,2015
+Matt Alviti,matt-alviti-1,/cfb/players/matt-alviti-1.html,Northwestern,Big Ten,2,1,3,33.3,12,0,0.0,0,0.0,4.0,4.00,12.0,6.0,66.9,,2015
+Nelson Spruce,nelson-spruce-1,/cfb/players/nelson-spruce-1.html,Colorado,Pac-12,13,1,4,25.0,12,0,0.0,0,0.0,3.0,3.00,12.0,0.9,50.2,,2015
+Ryan Winslow,ryan-winslow-1,/cfb/players/ryan-winslow-1.html,Pitt,ACC,13,1,1,100.0,12,0,0.0,0,0.0,12.0,12.00,12.0,0.9,200.8,,2015
+Damon Mitchell,damon-mitchell-1,/cfb/players/damon-mitchell-1.html,Arkansas,SEC,12,1,1,100.0,11,0,0.0,0,0.0,11.0,11.00,11.0,0.9,192.4,,2015
+Nate German,nate-german-1,/cfb/players/nate-german-1.html,Rice,CUSA,8,1,2,50.0,11,0,0.0,0,0.0,5.5,5.50,11.0,1.4,96.2,,2015
+Pharoh Cooper,pharoh-cooper-1,/cfb/players/pharoh-cooper-1.html,South Carolina,SEC,12,2,5,40.0,11,1,20.0,0,0.0,2.2,6.20,5.5,0.9,124.5,,2015
+Ryan Switzer,ryan-switzer-1,/cfb/players/ryan-switzer-1.html,North Carolina,ACC,14,1,2,50.0,11,0,0.0,0,0.0,5.5,5.50,11.0,0.8,96.2,,2015
+Vic Enwere,vic-enwere-1,/cfb/players/vic-enwere-1.html,California,Pac-12,13,1,1,100.0,11,0,0.0,0,0.0,11.0,11.00,11.0,0.8,192.4,,2015
+Drew Eckels,drew-eckels-1,/cfb/players/drew-eckels-1.html,Western Kentucky,CUSA,1,1,1,100.0,10,0,0.0,0,0.0,10.0,10.00,10.0,10.0,184.0,,2015
+Josh Grady,josh-grady-1,/cfb/players/josh-grady-1.html,Florida,SEC,5,2,3,66.7,10,0,0.0,0,0.0,3.3,3.33,5.0,2.0,94.7,,2015
+A.J. Cole III,aj-cole-iii-1,/cfb/players/aj-cole-iii-1.html,North Carolina State,ACC,13,1,1,100.0,9,0,0.0,0,0.0,9.0,9.00,9.0,0.7,175.6,,2015
+Bilal Marshall,bilal-marshall-1,/cfb/players/bilal-marshall-1.html,Purdue,Big Ten,9,1,1,100.0,9,0,0.0,0,0.0,9.0,9.00,9.0,1.0,175.6,,2015
+Gunnar Holcombe,gunnar-holcombe-1,/cfb/players/gunnar-holcombe-1.html,Marshall,CUSA,1,1,3,33.3,9,0,0.0,1,33.3,3.0,-12.00,9.0,9.0,-8.1,,2015
+J.D. McKissic,jd-mckissic-1,/cfb/players/jd-mckissic-1.html,Arkansas State,Sun Belt,13,1,1,100.0,9,0,0.0,0,0.0,9.0,9.00,9.0,0.7,175.6,,2015
+Michael Scarnecchia,michael-scarnecchia-1,/cfb/players/michael-scarnecchia-1.html,South Carolina,SEC,1,1,1,100.0,9,0,0.0,0,0.0,9.0,9.00,9.0,9.0,175.6,,2015
+Teddy Ruben,teddy-ruben-1,/cfb/players/teddy-ruben-1.html,Troy,Sun Belt,12,1,1,100.0,9,0,0.0,0,0.0,9.0,9.00,9.0,0.8,175.6,,2015
+Taylor Cornelius,taylor-cornelius-1,/cfb/players/taylor-cornelius-1.html,Oklahoma State,Big 12,2,2,5,40.0,8,0,0.0,0,0.0,1.6,1.60,4.0,4.0,53.4,,2015
+Chris Carson,chris-carson-1,/cfb/players/chris-carson-1.html,Oklahoma State,Big 12,12,1,1,100.0,7,0,0.0,0,0.0,7.0,7.00,7.0,0.6,158.8,,2015
+D.J. Vinson,dj-vinson-1,/cfb/players/dj-vinson-1.html,South Alabama,Sun Belt,12,1,1,100.0,7,0,0.0,0,0.0,7.0,7.00,7.0,0.6,158.8,,2015
+Gerald Everett,gerald-everett-1,/cfb/players/gerald-everett-1.html,South Alabama,Sun Belt,12,1,1,100.0,7,1,100.0,0,0.0,7.0,27.00,7.0,0.6,488.8,,2015
+Johnny Townsend,johnny-townsend-1,/cfb/players/johnny-townsend-1.html,Florida,SEC,14,1,2,50.0,7,0,0.0,1,50.0,3.5,-19.00,7.0,0.5,-20.6,,2015
+Lloyd Mills,lloyd-mills-1,/cfb/players/lloyd-mills-1.html,San Diego State,MWC,8,1,1,100.0,7,1,100.0,0,0.0,7.0,27.00,7.0,0.9,488.8,,2015
+Alec Morris,alec-morris-1,/cfb/players/alec-morris-1.html,Alabama,SEC,3,1,1,100.0,6,0,0.0,0,0.0,6.0,6.00,6.0,2.0,150.4,,2015
+Carlos Harris,carlos-harris-1,/cfb/players/carlos-harris-1.html,North Texas,CUSA,12,1,1,100.0,6,1,100.0,0,0.0,6.0,26.00,6.0,0.5,480.4,,2015
+Chris Qualls,chris-qualls-1,/cfb/players/chris-qualls-1.html,Louisiana-Monroe,Sun Belt,13,1,1,100.0,5,0,0.0,0,0.0,5.0,5.00,5.0,0.4,142.0,,2015
+Jake Hall,jake-hall-1,/cfb/players/jake-hall-1.html,UCLA,Pac-12,1,1,1,100.0,5,0,0.0,0,0.0,5.0,5.00,5.0,5.0,142.0,,2015
+Janarion Grant,janarion-grant-1,/cfb/players/janarion-grant-1.html,Rutgers,Big Ten,12,1,1,100.0,5,1,100.0,0,0.0,5.0,25.00,5.0,0.4,472.0,,2015
+Aaron Banks,aaron-banks-3,/cfb/players/aaron-banks-3.html,Purdue,Big Ten,1,1,1,100.0,4,0,0.0,0,0.0,4.0,4.00,4.0,4.0,133.6,,2015
+Deontae Cooper,deontae-cooper-1,/cfb/players/deontae-cooper-1.html,Washington,Pac-12,10,1,1,100.0,4,0,0.0,0,0.0,4.0,4.00,4.0,0.4,133.6,,2015
+Eric Keena,eric-keena-1,/cfb/players/eric-keena-1.html,North Texas,CUSA,12,1,1,100.0,4,0,0.0,0,0.0,4.0,4.00,4.0,0.3,133.6,,2015
+Glenn Gronkowski,glenn-gronkowski-1,/cfb/players/glenn-gronkowski-1.html,Kansas State,Big 12,13,1,2,50.0,4,1,50.0,0,0.0,2.0,12.00,4.0,0.3,231.8,,2015
+Braxton Miller,braxton-miller-1,/cfb/players/braxton-miller-1.html,Ohio State,Big Ten,13,1,1,100.0,3,0,0.0,0,0.0,3.0,3.00,3.0,0.2,125.2,,2015
+David Dudeck,david-dudeck-1,/cfb/players/david-dudeck-1.html,Boston College,ACC,12,1,1,100.0,3,0,0.0,0,0.0,3.0,3.00,3.0,0.3,125.2,,2015
+Devin Chafin,devin-chafin-1,/cfb/players/devin-chafin-1.html,Baylor,Big 12,10,1,2,50.0,3,0,0.0,0,0.0,1.5,1.50,3.0,0.3,62.6,,2015
+Jonathan Giles,jonathan-giles-1,/cfb/players/jonathan-giles-1.html,Texas Tech,Big 12,12,1,1,100.0,3,0,0.0,0,0.0,3.0,3.00,3.0,0.3,125.2,,2015
+Antonio Callaway,antonio-callaway-1,/cfb/players/antonio-callaway-1.html,Florida,SEC,14,1,1,100.0,2,1,100.0,0,0.0,2.0,22.00,2.0,0.1,446.8,,2015
+Nolan Genovese,nolan-genovese-1,/cfb/players/nolan-genovese-1.html,Middle Tennessee State,CUSA,4,1,1,100.0,2,0,0.0,0,0.0,2.0,2.00,2.0,0.5,116.8,,2015
+Cody Thomas,cody-thomas-1,/cfb/players/cody-thomas-1.html,Oklahoma,Big 12,3,1,3,33.3,1,0,0.0,0,0.0,0.3,0.33,1.0,0.3,36.1,,2015
+Tion Green,tion-green-1,/cfb/players/tion-green-1.html,Cincinnati,American,13,1,1,100.0,1,1,100.0,0,0.0,1.0,21.00,1.0,0.1,438.4,,2015
+Ajalen Holley,ajalen-holley-1,/cfb/players/ajalen-holley-1.html,Louisiana-Monroe,Sun Belt,12,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2015
+Alex Tardieu,alex-tardieu-1,/cfb/players/alex-tardieu-1.html,Army,Ind,12,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2015
+Alvin Bailey,alvin-bailey-2,/cfb/players/alvin-bailey-2.html,Florida,SEC,9,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2015
+Alvonta Jenkins,alvonta-jenkins-1,/cfb/players/alvonta-jenkins-1.html,Miami (OH),MAC,8,0,2,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2015
+Andrew Scanlan,andrew-scanlan-1,/cfb/players/andrew-scanlan-1.html,Northwestern,Big Ten,9,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2015
+Anthony Nash,anthony-nash-1,/cfb/players/anthony-nash-1.html,Duke,ACC,11,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2015
+Anthony Wales,anthony-wales-1,/cfb/players/anthony-wales-1.html,Western Kentucky,CUSA,11,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2015
+Anthony Williams,anthony-williams-14,/cfb/players/anthony-williams-14.html,Nevada-Las Vegas,MWC,12,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2015
+Austin Rehkow,austin-rehkow-1,/cfb/players/austin-rehkow-1.html,Idaho,Sun Belt,12,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2015
+Brad Stewart,brad-stewart-2,/cfb/players/brad-stewart-2.html,Georgia Tech,ACC,12,0,1,0.0,0,0,0.0,1,100.0,0.0,-45.00,,0.0,-200.0,,2015
+Brendan Cope,brendan-cope-1,/cfb/players/brendan-cope-1.html,Ohio,MAC,13,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2015
+Brent VanderVeen,brent-vanderveen-1,/cfb/players/brent-vanderveen-1.html,Oregon State,Pac-12,9,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2015
+Caleb Henderson,caleb-henderson-1,/cfb/players/caleb-henderson-1.html,North Carolina,ACC,2,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2015
+Cam Serigne,cam-serigne-1,/cfb/players/cam-serigne-1.html,Wake Forest,ACC,12,0,2,0.0,0,0,0.0,1,50.0,0.0,-22.50,,0.0,-100.0,,2015
+Cameron Johnston,cameron-johnston-1,/cfb/players/cameron-johnston-1.html,Ohio State,Big Ten,13,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2015
+Chad President,chad-president-1,/cfb/players/chad-president-1.html,Tulsa,American,6,0,3,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2015
+Charleston Girley,charleston-girley-1,/cfb/players/charleston-girley-1.html,Arkansas State,Sun Belt,11,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2015
+Chase Hansen,chase-hansen-1,/cfb/players/chase-hansen-1.html,Utah,Pac-12,10,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2015
+Chris Merchant,chris-merchant-1,/cfb/players/chris-merchant-1.html,Buffalo,MAC,1,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2015
+Conner Floyd,conner-floyd-1,/cfb/players/conner-floyd-1.html,Tulsa,American,13,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2015
+Dan Monteroso,dan-monteroso-1,/cfb/players/dan-monteroso-1.html,Purdue,Big Ten,8,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2015
+Darion Griswold,darion-griswold-1,/cfb/players/darion-griswold-1.html,Arkansas State,Sun Belt,13,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2015
+David Anaya,david-anaya-1,/cfb/players/david-anaya-1.html,New Mexico,MWC,13,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2015
+Deandre Bell,deandre-bell-1,/cfb/players/deandre-bell-1.html,Army,Ind,12,0,2,0.0,0,0,0.0,1,50.0,0.0,-22.50,,0.0,-100.0,,2015
+Demarcus Robinson,demarcus-robinson-3,/cfb/players/demarcus-robinson-3.html,Florida,SEC,13,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2015
+Desmond Cain,desmond-cain-1,/cfb/players/desmond-cain-1.html,Illinois,Big Ten,12,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2015
+Devin Fuller,devin-fuller-1,/cfb/players/devin-fuller-1.html,UCLA,Pac-12,11,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2015
+Devin Lucien,devin-lucien-1,/cfb/players/devin-lucien-1.html,Arizona State,Pac-12,13,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2015
+Devontae McNeal,devontae-mcneal-1,/cfb/players/devontae-mcneal-1.html,Louisiana-Monroe,Sun Belt,13,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2015
+D.J. Moore,dj-moore-3,/cfb/players/dj-moore-3.html,Maryland,Big Ten,12,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2015
+Dontae Strickland,dontae-strickland-2,/cfb/players/dontae-strickland-2.html,Syracuse,ACC,12,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2015
+Eddie Daugherty,eddie-daugherty-1,/cfb/players/eddie-daugherty-1.html,Eastern Michigan,MAC,12,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2015
+Elijah McGuire,elijah-mcguire-1,/cfb/players/elijah-mcguire-1.html,Louisiana,Sun Belt,12,0,2,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2015
+Emanuel Byrd,emanuel-byrd-1,/cfb/players/emanuel-byrd-1.html,Marshall,CUSA,10,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2015
+Emiere Scaife,emiere-scaife-1,/cfb/players/emiere-scaife-1.html,Georgia State,Sun Belt,3,0,8,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2015
+Gabe Myles,gabe-myles-1,/cfb/players/gabe-myles-1.html,Mississippi State,SEC,10,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2015
+Garrett Krstich,garrett-krstich-1,/cfb/players/garrett-krstich-1.html,SMU,American,11,1,2,50.0,0,0,0.0,1,50.0,0.0,-22.50,0.0,0.0,-50.0,,2015
+Gehrig Dieter,gehrig-dieter-1,/cfb/players/gehrig-dieter-1.html,Bowling Green,MAC,14,0,2,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2015
+Geronimo Allison,geronimo-allison-1,/cfb/players/geronimo-allison-1.html,Illinois,Big Ten,12,0,1,0.0,0,0,0.0,1,100.0,0.0,-45.00,,0.0,-200.0,,2015
+Hunter Fralick,hunter-fralick-1,/cfb/players/hunter-fralick-1.html,Nevada,MWC,3,0,3,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2015
+Ian Sadler,ian-sadler-1,/cfb/players/ian-sadler-1.html,Texas Tech,Big 12,10,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2015
+Ian Wheeler,ian-wheeler-2,/cfb/players/ian-wheeler-2.html,Oregon,Pac-12,11,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2015
+Jabrill Peppers,jabrill-peppers-1,/cfb/players/jabrill-peppers-1.html,Michigan,Big Ten,12,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2015
+Jack Rhoades,jack-rhoades-1,/cfb/players/jack-rhoades-1.html,Texas State,Sun Belt,12,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2015
+Jamal Turner,jamal-turner-1,/cfb/players/jamal-turner-1.html,Nebraska,Big Ten,12,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2015
+Jason Smith,jason-smith-5,/cfb/players/jason-smith-5.html,Auburn,SEC,15,0,2,0.0,0,0,0.0,1,50.0,0.0,-22.50,,0.0,-100.0,,2015
+Jaydon Mickens,jaydon-mickens-1,/cfb/players/jaydon-mickens-1.html,Washington,Pac-12,13,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2015
+Jerico Richardson,jerico-richardson-1,/cfb/players/jerico-richardson-1.html,Nevada,MWC,13,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2015
+Joey Mangili,joey-mangili-1,/cfb/players/joey-mangili-1.html,North Carolina,ACC,13,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2015
+John Johnson,john-johnson-14,/cfb/players/john-johnson-14.html,Troy,Sun Belt,12,1,1,100.0,0,0,0.0,0,0.0,0.0,0.00,0.0,0.0,100.0,,2015
+Joseph Yearby,joseph-yearby-1,/cfb/players/joseph-yearby-1.html,Miami (FL),ACC,13,0,1,0.0,0,0,0.0,1,100.0,0.0,-45.00,,0.0,-200.0,,2015
+Josh Magee,josh-magee-1,/cfb/players/josh-magee-1.html,South Alabama,Sun Belt,12,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2015
+Kareem Coles,kareem-coles-1,/cfb/players/kareem-coles-1.html,Idaho,Sun Belt,6,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2015
+Kaylon Watson,kaylon-watson-1,/cfb/players/kaylon-watson-1.html,Louisiana-Monroe,Sun Belt,13,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2015
+Kyle Hicks,kyle-hicks-1,/cfb/players/kyle-hicks-1.html,Texas Christian,Big 12,13,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2015
+Logan Piper,logan-piper-1,/cfb/players/logan-piper-1.html,Houston,American,14,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2015
+Luke Langdon,luke-langdon-1,/cfb/players/luke-langdon-1.html,Army,Ind,2,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2015
+Martez Walker,martez-walker-1,/cfb/players/martez-walker-1.html,Central Michigan,MAC,11,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2015
+Marvin Shinn,marvin-shinn-1,/cfb/players/marvin-shinn-1.html,South Alabama,Sun Belt,12,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2015
+Max Morrison,max-morrison-1,/cfb/players/max-morrison-1.html,Cincinnati,American,13,0,2,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2015
+Mitchell Juergens,mitchell-juergens-1,/cfb/players/mitchell-juergens-1.html,BYU,Ind,13,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2015
+Nicodem Pierre,nicodem-pierre-1,/cfb/players/nicodem-pierre-1.html,Duke,ACC,11,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2015
+Nyheim Hines,nyheim-hines-1,/cfb/players/nyheim-hines-1.html,North Carolina State,ACC,13,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2015
+Patrick Ashford,patrick-ashford-1,/cfb/players/patrick-ashford-1.html,Tennessee,SEC,12,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2015
+Penny Hart,penny-hart-1,/cfb/players/penny-hart-1.html,Georgia State,Sun Belt,13,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2015
+Rayvean Moore,rayvean-moore-1,/cfb/players/rayvean-moore-1.html,New Mexico State,Sun Belt,9,0,2,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2015
+Richard McQuarley,richard-mcquarley-1,/cfb/players/richard-mcquarley-1.html,New Mexico,MWC,12,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2015
+Ricky Seals-Jones,ricky-seals-jones-1,/cfb/players/ricky-seals-jones-1.html,Texas A&M,SEC,13,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2015
+Ryan Rodwell,ryan-rodwell-1,/cfb/players/ryan-rodwell-1.html,Georgia Tech,ACC,12,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2015
+Sam Bergen,sam-bergen-1,/cfb/players/sam-bergen-1.html,Rutgers,Big Ten,12,1,1,100.0,0,0,0.0,0,0.0,0.0,0.00,0.0,0.0,100.0,,2015
+Sean Avant,sean-avant-1,/cfb/players/sean-avant-1.html,Syracuse,ACC,8,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2015
+Shaun Wilson,shaun-wilson-1,/cfb/players/shaun-wilson-1.html,Duke,ACC,11,0,1,0.0,0,0,0.0,1,100.0,0.0,-45.00,,0.0,-200.0,,2015
+Steven Sims Jr.,steven-sims-jr-1,/cfb/players/steven-sims-jr-1.html,Kansas,Big 12,11,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2015
+Tabari Hines,tabari-hines-1,/cfb/players/tabari-hines-1.html,Wake Forest,ACC,12,0,1,0.0,0,0,0.0,1,100.0,0.0,-45.00,,0.0,-200.0,,2015
+Taquan Mizzell,taquan-mizzell-1,/cfb/players/taquan-mizzell-1.html,Virginia,ACC,12,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2015
+Teldrick Morgan,teldrick-morgan-1,/cfb/players/teldrick-morgan-1.html,New Mexico State,Sun Belt,9,0,1,0.0,0,0,0.0,1,100.0,0.0,-45.00,,0.0,-200.0,,2015
+Terrel Hunt,terrel-hunt-1,/cfb/players/terrel-hunt-1.html,Syracuse,ACC,1,0,2,0.0,0,0,0.0,1,50.0,0.0,-22.50,,0.0,-100.0,,2015
+Terry Googer,terry-googer-1,/cfb/players/terry-googer-1.html,South Carolina,SEC,11,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2015
+Tim Crawley,tim-crawley-1,/cfb/players/tim-crawley-1.html,San Jose State,MWC,13,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2015
+T.J. Millweard,tj-millweard-1,/cfb/players/tj-millweard-1.html,Kansas,Big 12,2,0,1,0.0,0,0,0.0,1,100.0,0.0,-45.00,,0.0,-200.0,,2015
+Tony Thomas,tony-thomas-1,/cfb/players/tony-thomas-1.html,Florida Atlantic,CUSA,11,0,1,0.0,0,0,0.0,1,100.0,0.0,-45.00,,0.0,-200.0,,2015
+Trent Taylor,trent-taylor-2,/cfb/players/trent-taylor-2.html,Louisiana Tech,CUSA,13,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2015
+Troy Hawthorne,troy-hawthorne-1,/cfb/players/troy-hawthorne-1.html,Nevada-Las Vegas,MWC,12,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2015
+Tyler Cameron,tyler-cameron-1,/cfb/players/tyler-cameron-1.html,Florida Atlantic,CUSA,12,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2015
+V'Angelo Bentley,vangelo-bentley-1,/cfb/players/vangelo-bentley-1.html,Illinois,Big Ten,12,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2015
+Victor Bolden,victor-bolden-1,/cfb/players/victor-bolden-1.html,Oregon State,Pac-12,12,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2015
+Will Monday,will-monday-1,/cfb/players/will-monday-1.html,Duke,ACC,13,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2015
+Zach Davidson,zach-davidson-2,/cfb/players/zach-davidson-2.html,Kansas State,Big 12,1,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2015
+Zack Rogers,zach-rogers-3,/cfb/players/zach-rogers-3.html,New Mexico,MWC,13,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2015
+Zach Wright,zach-wright-1,/cfb/players/zach-wright-1.html,Rice,CUSA,12,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2015
+Riley Dixon,riley-dixon-1,/cfb/players/riley-dixon-1.html,Syracuse,ACC,12,1,1,100.0,-1,0,0.0,0,0.0,-1.0,-1.00,-1.0,-0.1,91.6,,2015
+Wil Lutz,wil-lutz-1,/cfb/players/wil-lutz-1.html,Georgia State,Sun Belt,13,1,1,100.0,-1,0,0.0,0,0.0,-1.0,-1.00,-1.0,-0.1,91.6,,2015
+Shaq Vann,shaq-vann-1,/cfb/players/shaq-vann-1.html,Eastern Michigan,MAC,12,2,2,100.0,-4,0,0.0,0,0.0,-2.0,-2.00,-2.0,-0.3,83.2,,2015
+League Average,,,,,,,,59.0,,,5.2,,2.8,7.3,7.08,12.4,77.2,131.9,,2015

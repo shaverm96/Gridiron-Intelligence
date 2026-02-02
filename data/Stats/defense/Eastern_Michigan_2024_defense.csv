@@ -1,0 +1,48 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+James Djonkam,james-djonkam-1,/cfb/players/james-djonkam-1.html,LB,10,34,64,98,11.5,3.0,0,0,,0,4,0,0,0,1,,Eastern Michigan,2024
+Luke Murphy,luke-murphy-1,/cfb/players/luke-murphy-1.html,LB,12,38,56,94,6.0,0.0,1,0,0.0,0,0,1,0,0,0,,Eastern Michigan,2024
+Quentavius Scandrett,quentavius-scandrett-1,/cfb/players/quentavius-scandrett-1.html,DB,12,28,27,55,0.0,0.0,1,0,0.0,0,3,0,0,0,0,,Eastern Michigan,2024
+Peyton Price,peyton-price-1,/cfb/players/peyton-price-1.html,DL,12,16,37,53,10.0,5.0,0,0,,0,0,0,0,0,2,,Eastern Michigan,2024
+David Carter Jr.,david-carter-jr-1,/cfb/players/david-carter-jr-1.html,DB,12,26,16,42,0.0,0.0,1,12,12.0,0,2,1,99,1,0,,Eastern Michigan,2024
+Justin Jefferson,justin-jefferson-2,/cfb/players/justin-jefferson-2.html,LB,12,10,26,36,4.5,4.0,0,0,,0,0,1,0,0,0,,Eastern Michigan,2024
+JT Killen,jt-killen-1,/cfb/players/jt-killen-1.html,LB,6,10,21,31,2.5,0.0,0,0,,0,0,1,0,0,2,,Eastern Michigan,2024
+Daiquan White,daiquan-white-1,/cfb/players/daiquan-white-1.html,DB,12,17,13,30,0.5,0.0,0,0,,0,6,0,0,0,0,,Eastern Michigan,2024
+Joseph Zelinsky,joseph-zelinsky-1,/cfb/players/joseph-zelinsky-1.html,DL,12,12,17,29,5.5,2.0,0,0,,0,2,1,0,0,2,,Eastern Michigan,2024
+Dylan Shelton,dylan-shelton-1,/cfb/players/dylan-shelton-1.html,DL,12,6,22,28,4.5,2.0,0,0,,0,0,1,0,0,1,,Eastern Michigan,2024
+Barry Manning,barry-manning-1,/cfb/players/barry-manning-1.html,DB,9,11,16,27,2.5,0.0,0,0,,0,2,1,0,0,1,,Eastern Michigan,2024
+Zach Mowchan,zach-mowchan-1,/cfb/players/zach-mowchan-1.html,LB,3,10,16,26,0.5,0.0,0,0,,0,0,0,0,0,0,,Eastern Michigan,2024
+Dramarian McNulty,dramarian-mcnulty-1,/cfb/players/dramarian-mcnulty-1.html,DB,10,18,7,25,1.0,0.0,1,0,0.0,0,2,0,0,0,1,,Eastern Michigan,2024
+Jefferson Adam,jefferson-adam-1,/cfb/players/jefferson-adam-1.html,DE,12,15,10,25,5.5,3.5,0,0,,0,0,0,0,0,0,,Eastern Michigan,2024
+Jaivian Norman,jaivian-norman-1,/cfb/players/jaivian-norman-1.html,DB,12,14,11,25,1.5,0.5,0,0,,0,2,0,0,0,0,,Eastern Michigan,2024
+Trey Laing,trey-laing-2,/cfb/players/trey-laing-2.html,DL,12,10,12,22,5.5,2.5,0,0,,0,1,0,0,0,0,,Eastern Michigan,2024
+Donovan Green,donovan-green-2,/cfb/players/donovan-green-2.html,DT,12,4,17,21,1.0,0.5,0,0,,0,0,0,0,0,1,,Eastern Michigan,2024
+Jordan Toney,jordan-toney-1,/cfb/players/jordan-toney-1.html,DB,10,11,7,18,0.5,0.0,0,0,,0,0,1,0,0,0,,Eastern Michigan,2024
+Tyrell Martin,tyrell-martin-1,/cfb/players/tyrell-martin-1.html,DL,12,5,11,16,2.0,0.0,0,0,,0,0,1,0,0,0,,Eastern Michigan,2024
+Tyrelle Deener,tyrelle-deener-1,/cfb/players/tyrelle-deener-1.html,DB,10,8,8,16,1.0,0.0,0,0,,0,0,0,0,0,0,,Eastern Michigan,2024
+Carter Evans,carter-evans-1,/cfb/players/carter-evans-1.html,DE,12,8,7,15,2.5,1.0,0,0,,0,1,0,0,0,0,,Eastern Michigan,2024
+Melvin Swindle II,melvin-swindle-ii-1,/cfb/players/melvin-swindle-ii-1.html,DL,8,4,8,12,0.0,0.0,0,0,,0,0,0,0,0,0,,Eastern Michigan,2024
+Kendric Nowling,kendric-nowling-1,/cfb/players/kendric-nowling-1.html,DB,10,9,3,12,0.0,0.0,0,0,,0,0,0,0,0,0,,Eastern Michigan,2024
+Sterling Miles,sterling-miles-1,/cfb/players/sterling-miles-1.html,DL,11,3,8,11,2.0,1.0,0,0,,0,0,0,0,0,0,,Eastern Michigan,2024
+Bryce Llewellyn,bryce-llewellyn-1,/cfb/players/bryce-llewellyn-1.html,DB,4,3,6,9,0.0,0.0,0,0,,0,2,0,0,0,0,,Eastern Michigan,2024
+Malik Tullis,malik-tullis-1,/cfb/players/malik-tullis-1.html,DL,8,2,7,9,0.0,0.0,0,0,,0,0,0,0,0,1,,Eastern Michigan,2024
+Nick Devereaux,nick-devereaux-1,/cfb/players/nick-devereaux-1.html,WR,11,3,3,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Eastern Michigan,2024
+Zion Fonua,zion-fonua-1,/cfb/players/zion-fonua-1.html,LB,4,3,3,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Eastern Michigan,2024
+Elijah Jackson-Anderson,elijah-jackson-anderson-1,/cfb/players/elijah-jackson-anderson-1.html,RB,12,3,3,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Eastern Michigan,2024
+Jaylyn Monds,jaylyn-monds-1,/cfb/players/jaylyn-monds-1.html,DB,3,4,1,5,2.5,0.0,0,0,,0,0,0,0,0,0,,Eastern Michigan,2024
+Jaden Price,jaden-price-1,/cfb/players/jaden-price-1.html,DB,8,5,0,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Eastern Michigan,2024
+Jaheim Jenkins,jaheim-jenkins-1,/cfb/players/jaheim-jenkins-1.html,DB,6,2,2,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Eastern Michigan,2024
+Jesse Vasquez,jesse-vasquez-2,/cfb/players/jesse-vasquez-2.html,DB,7,2,1,3,0.0,0.0,0,0,,0,1,0,0,0,0,,Eastern Michigan,2024
+Soloman Bell,soloman-bell-1,/cfb/players/soloman-bell-1.html,DB,12,3,0,3,0.0,0.0,0,0,,0,1,0,0,0,0,,Eastern Michigan,2024
+Luke Fletcher,luke-fletcher-1,/cfb/players/luke-fletcher-1.html,DL,2,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Eastern Michigan,2024
+Delbert Mimms,delbert-mimms-1,/cfb/players/delbert-mimms-1.html,RB,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,1,,Eastern Michigan,2024
+Terry Lockett Jr.,terry-lockett-jr-1,/cfb/players/terry-lockett-jr-1.html,WR,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Eastern Michigan,2024
+Jason Morbitzer,jason-morbitzer-1,/cfb/players/jason-morbitzer-1.html,DL,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Eastern Michigan,2024
+Mitchell Dietzel,mitchell-dietzel-1,/cfb/players/mitchell-dietzel-1.html,LS,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Eastern Michigan,2024
+Messiah Blair,messiah-blair-1,/cfb/players/messiah-blair-1.html,DL,5,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Eastern Michigan,2024
+Max Reese,max-reese-1,/cfb/players/max-reese-1.html,TE,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Eastern Michigan,2024
+Jesus Gomez,jesus-gomez-1,/cfb/players/jesus-gomez-1.html,K,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Eastern Michigan,2024
+Joey Mattord,joey-mattord-1,/cfb/players/joey-mattord-1.html,RB,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Eastern Michigan,2024
+Daniel Warnsman,daniel-warnsman-1,/cfb/players/daniel-warnsman-1.html,OL,12,0,1,1,0.0,0.0,0,0,,0,0,1,0,0,0,,Eastern Michigan,2024
+Cole Snyder,cole-snyder-2,/cfb/players/cole-snyder-2.html,QB,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Eastern Michigan,2024
+Cole McElvany,cole-mcelvany-1,/cfb/players/cole-mcelvany-1.html,LB,9,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Eastern Michigan,2024
+Ali Abdul-Barr,ali-abdul-barr-1,/cfb/players/ali-abdul-barr-1.html,LB,5,0,0,0,0.0,0.0,1,11,11.0,0,0,0,0,0,0,,Eastern Michigan,2024

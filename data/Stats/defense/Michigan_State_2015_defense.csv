@@ -1,0 +1,42 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Riley Bullough,riley-bullough-1,/cfb/players/riley-bullough-1.html,LB,14,48,58,106,7.5,4.0,2,61,30.5,1,2,2,13,0,2,,Michigan State,2015
+Darien Harris,darien-harris-1,/cfb/players/darien-harris-1.html,LB,14,42,48,90,9.0,0.0,0,0,,0,3,0,0,0,0,,Michigan State,2015
+Montae Nicholson,montae-nicholson-1,/cfb/players/montae-nicholson-1.html,S,14,52,31,83,2.5,0.0,3,60,20.0,0,2,0,0,0,1,,Michigan State,2015
+Demetrious Cox,demetrious-cox-1,/cfb/players/demetrious-cox-1.html,DB,14,48,31,79,2.0,0.0,3,14,4.7,0,7,1,77,1,0,,Michigan State,2015
+Jon Reschke,jon-reschke-1,/cfb/players/jon-reschke-1.html,LB,14,31,44,75,5.5,2.0,0,0,,0,2,0,0,0,0,,Michigan State,2015
+Shilique Calhoun,shilique-calhoun-1,/cfb/players/shilique-calhoun-1.html,DE,14,22,27,49,15.0,10.5,0,0,,0,3,0,0,0,1,,Michigan State,2015
+Arjen Colquhoun,arjen-colquhoun-1,/cfb/players/arjen-colquhoun-1.html,CB,14,31,14,45,1.5,1.0,2,7,3.5,0,10,1,0,0,2,,Michigan State,2015
+Malik McDowell,malik-mcdowell-1,/cfb/players/malik-mcdowell-1.html,DL,14,21,20,41,13.0,4.5,1,13,13.0,1,0,0,0,0,2,,Michigan State,2015
+Lawrence Thomas,lawrence-thomas-1,/cfb/players/lawrence-thomas-1.html,DL,14,11,27,38,5.0,3.0,0,0,,0,6,0,0,0,0,,Michigan State,2015
+Darian Hicks,darian-hicks-1,/cfb/players/darian-hicks-1.html,CB,11,18,15,33,0.5,0.0,0,0,,0,3,0,0,0,0,,Michigan State,2015
+Joel Heath,joel-heath-1,/cfb/players/joel-heath-1.html,DL,12,13,18,31,5.5,2.0,0,0,,0,1,1,0,0,1,,Michigan State,2015
+Rj Williamson,rj-williamson-1,/cfb/players/rj-williamson-1.html,S,6,11,13,24,2.0,0.0,2,9,4.5,0,1,1,64,1,0,,Michigan State,2015
+Jermaine Edmondson,jermaine-edmondson-1,/cfb/players/jermaine-edmondson-1.html,CB,14,15,9,24,2.5,0.0,0,0,,0,3,2,0,0,0,,Michigan State,2015
+Grayson Miller,grayson-miller-1,/cfb/players/grayson-miller-1.html,S,12,16,8,24,1.0,0.0,1,0,0.0,0,0,0,0,0,0,,Michigan State,2015
+Chris Frey,chris-frey-1,/cfb/players/chris-frey-1.html,LB,14,12,11,23,5.0,2.5,0,0,,0,0,1,0,0,0,,Michigan State,2015
+Shane Jones,shane-jones-2,/cfb/players/shane-jones-2.html,LB,13,12,11,23,1.5,0.0,0,0,,0,0,0,0,0,2,,Michigan State,2015
+Andrew Dowell,andrew-dowell-1,/cfb/players/andrew-dowell-1.html,LB,13,9,13,22,1.0,0.0,0,0,,0,0,1,2,0,0,,Michigan State,2015
+Demetrius Cooper,demetrius-cooper-1,/cfb/players/demetrius-cooper-1.html,DE,13,11,11,22,6.5,5.0,0,0,,0,0,1,0,0,2,,Michigan State,2015
+Craig Evans,craig-evans-1,/cfb/players/craig-evans-1.html,DT,14,9,12,21,3.5,1.0,0,0,,0,0,0,0,0,0,,Michigan State,2015
+Damon Knox,damon-knox-1,/cfb/players/damon-knox-1.html,DL,14,5,10,15,1.5,0.5,0,0,,0,0,1,0,0,0,,Michigan State,2015
+Byron Bullough,byron-bullough-1,/cfb/players/byron-bullough-1.html,LB,11,4,8,12,1.5,0.5,1,0,0.0,0,0,0,0,0,0,,Michigan State,2015
+Khari Willis,khari-willis-1,/cfb/players/khari-willis-1.html,S,9,2,9,11,0.0,0.0,0,0,,0,1,0,0,0,0,,Michigan State,2015
+Vayante Copeland,vayante-copeland-1,/cfb/players/vayante-copeland-1.html,CB,2,6,1,7,2.0,0.0,1,0,0.0,0,1,0,0,0,0,,Michigan State,2015
+Evan Jones,evan-jones-1,/cfb/players/evan-jones-1.html,DE,13,2,5,7,0.5,0.0,0,0,,0,0,0,0,0,0,,Michigan State,2015
+Gerald Holmes,gerald-holmes-1,/cfb/players/gerald-holmes-1.html,RB,13,3,2,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Michigan State,2015
+Tyson Smith,tyson-smith-3,/cfb/players/tyson-smith-3.html,CB,7,2,3,5,0.0,0.0,0,0,,0,1,0,0,0,0,,Michigan State,2015
+Matt Morrissey,matt-morrissey-1,/cfb/players/matt-morrissey-1.html,S,12,3,2,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Michigan State,2015
+Jalen Watts-Jackson,jalen-watts-jackson-1,/cfb/players/jalen-watts-jackson-1.html,DB,7,2,3,5,0.0,0.0,0,0,,0,0,1,38,1,0,,Michigan State,2015
+Mark Meyers,mark-meyers-1,/cfb/players/mark-meyers-1.html,S,6,0,3,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Michigan State,2015
+Taybor Pepper,taybor-pepper-1,/cfb/players/taybor-pepper-1.html,LS,14,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Michigan State,2015
+T.J. Harrell,tj-harrell-1,/cfb/players/tj-harrell-1.html,LB,9,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Michigan State,2015
+Kevin Cronin,kevin-cronin-1,/cfb/players/kevin-cronin-1.html,K,14,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Michigan State,2015
+Brian Allen,brian-allen-8,/cfb/players/brian-allen-8.html,OL,14,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Michigan State,2015
+Chris Laneaux,chris-laneaux-1,/cfb/players/chris-laneaux-1.html,S,5,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Michigan State,2015
+Aaron Burbridge,aaron-burbridge-1,/cfb/players/aaron-burbridge-1.html,WR,14,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Michigan State,2015
+R.J. Shelton,rj-shelton-1,/cfb/players/rj-shelton-1.html,WR,14,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Michigan State,2015
+Nick Tompkins,nick-tompkins-1,/cfb/players/nick-tompkins-1.html,RB,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Michigan State,2015
+Monty Madaris,monty-madaris-1,/cfb/players/monty-madaris-1.html,WR,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Michigan State,2015
+Enoch Smith Jr.,enoch-smith-jr-1,/cfb/players/enoch-smith-jr-1.html,DL,3,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Michigan State,2015
+Macgarrett Kings Jr.,macgarrett-kings-jr-1,/cfb/players/macgarrett-kings-jr-1.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Michigan State,2015
+Drake Martinez,drake-martinez-1,/cfb/players/drake-martinez-1.html,LB,2,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Michigan State,2015

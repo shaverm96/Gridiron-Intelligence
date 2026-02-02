@@ -1,0 +1,48 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Ivan Pace Jr.,ivan-pace-jr-1,/cfb/players/ivan-pace-jr-1.html,LB,13,56,81,137,21.5,10.0,0,0,,0,4,0,0,0,3,AA,Cincinnati,2022
+Ty Van Fossen,ty-van-fossen-1,/cfb/players/ty-van-fossen-1.html,LB,13,29,49,78,4.0,0.5,0,0,,0,4,0,0,0,2,,Cincinnati,2022
+Jaheim Thomas,jaheim-thomas-1,/cfb/players/jaheim-thomas-1.html,LB,13,25,45,70,6.5,2.0,0,0,,0,0,0,0,0,0,,Cincinnati,2022
+Ja'Von Hicks,javon-hicks-1,/cfb/players/javon-hicks-1.html,DB,13,29,38,67,1.0,0.0,3,64,21.3,1,4,0,0,0,0,,Cincinnati,2022
+Deshawn Pace,deshawn-pace-1,/cfb/players/deshawn-pace-1.html,LB,13,31,31,62,5.0,1.0,1,18,18.0,1,1,1,0,0,0,,Cincinnati,2022
+Jowon Briggs,jowon-briggs-1,/cfb/players/jowon-briggs-1.html,DL,13,17,44,61,4.5,3.0,0,0,,0,0,0,0,0,0,,Cincinnati,2022
+Bryon Threats,bryon-threats-1,/cfb/players/bryon-threats-1.html,DB,13,37,21,58,4.0,1.5,2,28,14.0,0,2,0,0,0,0,,Cincinnati,2022
+Wilson Huber,wilson-huber-1,/cfb/players/wilson-huber-1.html,LB,13,21,33,54,6.5,1.0,0,0,,0,1,0,0,0,0,,Cincinnati,2022
+Jaquan Sheppard,jaquan-sheppard-1,/cfb/players/jaquan-sheppard-1.html,DB,12,33,17,50,4.5,1.0,0,0,,0,10,0,0,0,0,,Cincinnati,2022
+Dontay Corleone,dontay-corleone-1,/cfb/players/dontay-corleone-1.html,DL,11,19,26,45,5.5,3.0,0,0,,0,0,2,0,0,2,,Cincinnati,2022
+Eric Phillips,eric-phillips-2,/cfb/players/eric-phillips-2.html,DL,13,16,22,38,8.0,3.0,0,0,,0,4,1,0,0,1,,Cincinnati,2022
+Jabari Taylor,jabari-taylor-1,/cfb/players/jabari-taylor-1.html,DL,12,13,22,35,4.0,2.5,0,0,,0,2,1,0,1,1,,Cincinnati,2022
+Arquon Bush,arquon-bush-1,/cfb/players/arquon-bush-1.html,DB,13,27,7,34,0.0,0.0,2,15,7.5,0,5,0,0,0,1,,Cincinnati,2022
+Justin Wodtly,justin-wodtly-1,/cfb/players/justin-wodtly-1.html,DL,13,14,17,31,4.5,3.0,0,0,,0,1,0,0,0,0,,Cincinnati,2022
+Armorion Smith,armorion-smith-1,/cfb/players/armorion-smith-1.html,DB,12,18,2,20,0.0,0.0,1,20,20.0,0,0,0,0,0,0,,Cincinnati,2022
+Taj Ward,taj-ward-1,/cfb/players/taj-ward-1.html,DB,13,12,8,20,2.5,0.0,1,4,4.0,0,4,0,0,0,0,,Cincinnati,2022
+Sammy Anderson,sammy-anderson-2,/cfb/players/sammy-anderson-2.html,DB,13,15,4,19,2.5,0.0,0,0,,0,1,0,0,0,1,,Cincinnati,2022
+Noah Potter,noah-potter-1,/cfb/players/noah-potter-1.html,DL,12,7,11,18,4.0,2.5,0,0,,0,0,1,0,0,1,,Cincinnati,2022
+Jacob Dingle,jacob-dingle-1,/cfb/players/jacob-dingle-1.html,DB,12,2,16,18,0.0,0.0,1,0,0.0,0,1,0,0,0,0,,Cincinnati,2022
+Jack Dingle,jack-dingle-1,/cfb/players/jack-dingle-1.html,LB,12,0,13,13,0.5,0.0,0,0,,0,0,0,0,0,0,,Cincinnati,2022
+Ryan Mullaney,ryan-mullaney-2,/cfb/players/ryan-mullaney-2.html,DL,13,2,10,12,0.0,0.0,0,0,,0,0,2,0,0,0,,Cincinnati,2022
+Justin Harris,justin-harris-9,/cfb/players/justin-harris-9.html,DB,8,3,6,9,0.0,0.0,0,0,,0,1,0,0,0,0,,Cincinnati,2022
+Ethan Wright,ethan-wright-1,/cfb/players/ethan-wright-1.html,RB,8,2,7,9,1.0,0.0,0,0,,0,0,0,0,0,0,,Cincinnati,2022
+JQ Hardaway,jq-hardaway-1,/cfb/players/jq-hardaway-1.html,DB,11,4,3,7,2.0,1.0,0,0,,0,0,0,0,0,0,,Cincinnati,2022
+Daved Jones Jr.,daved-jones-jr-1,/cfb/players/daved-jones-jr-1.html,LB,13,2,4,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Cincinnati,2022
+Drew Donley,drew-donley-1,/cfb/players/drew-donley-1.html,WR,11,3,2,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Cincinnati,2022
+Rob Jackson,rob-jackson-2,/cfb/players/rob-jackson-2.html,DL,4,1,3,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Cincinnati,2022
+Tre Tucker,tre-tucker-1,/cfb/players/tre-tucker-1.html,WR,12,1,3,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Cincinnati,2022
+Dominique Perry,dominique-perry-1,/cfb/players/dominique-perry-1.html,DL,6,1,3,4,0.0,0.0,0,0,,0,0,1,0,1,0,,Cincinnati,2022
+Cameron Junior,cameron-junior-1,/cfb/players/cameron-junior-1.html,LB,2,0,3,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Cincinnati,2022
+Tyler Scott,tyler-scott-3,/cfb/players/tyler-scott-3.html,WR,11,3,0,3,0.0,0.0,0,0,,0,0,1,0,0,0,,Cincinnati,2022
+Isiah Cox,isiah-cox-2,/cfb/players/isiah-cox-2.html,DB,10,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Cincinnati,2022
+Malik Vann,malik-vann-1,/cfb/players/malik-vann-1.html,DL,2,3,0,3,1.0,0.0,0,0,,0,0,0,0,0,0,,Cincinnati,2022
+Todd Bumphis,todd-bumphis-1,/cfb/players/todd-bumphis-1.html,DB,8,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Cincinnati,2022
+Cayson Pfeiffer,cayson-pfeiffer-1,/cfb/players/cayson-pfeiffer-1.html,LS,13,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Cincinnati,2022
+Will Pauling,will-pauling-1,/cfb/players/will-pauling-1.html,WR,9,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Cincinnati,2022
+Joe Huber,joe-huber-1,/cfb/players/joe-huber-1.html,OL,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Cincinnati,2022
+Ryan Coe,ryan-coe-1,/cfb/players/ryan-coe-1.html,K,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Cincinnati,2022
+Leroy Bowers,leroy-bowers-1,/cfb/players/leroy-bowers-1.html,LB,3,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Cincinnati,2022
+Bryce Burton,bryce-burton-1,/cfb/players/bryce-burton-1.html,K,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Cincinnati,2022
+Josh Whyle,josh-whyle-1,/cfb/players/josh-whyle-1.html,TE,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Cincinnati,2022
+James Tunstall,james-tunstall-1,/cfb/players/james-tunstall-1.html,OL,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Cincinnati,2022
+Jadon Thompson,jadon-thompson-1,/cfb/players/jadon-thompson-1.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Cincinnati,2022
+Jackson Bruscianelli,jackson-bruscianelli-1,/cfb/players/jackson-bruscianelli-1.html,LB,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Cincinnati,2022
+Charles McClelland,charles-mcclelland-1,/cfb/players/charles-mcclelland-1.html,RB,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Cincinnati,2022
+Gavin Gerhardt,gavin-gerhardt-1,/cfb/players/gavin-gerhardt-1.html,OL,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Cincinnati,2022
+Cincear Lewis,cincear-lewis-1,/cfb/players/cincear-lewis-1.html,DB,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Cincinnati,2022

@@ -1,0 +1,56 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Baylon Spector,baylon-spector-1,/cfb/players/baylon-spector-1.html,LB,12,34,31,65,10.5,4.5,0,0,,0,1,1,0,0,1,,Clemson,2020
+Nolan Turner,nolan-turner-1,/cfb/players/nolan-turner-1.html,S,12,38,16,54,6.0,0.0,3,52,17.3,0,2,0,0,0,0,,Clemson,2020
+Joseph Charleston,joseph-charleston-1,/cfb/players/joseph-charleston-1.html,S,11,29,15,44,2.0,0.0,0,0,,0,2,0,0,0,0,,Clemson,2020
+Myles Murphy,myles-murphy-1,/cfb/players/myles-murphy-1.html,DE,12,18,23,41,12.0,4.0,0,0,,0,1,0,0,0,3,,Clemson,2020
+James Skalski,james-skalski-1,/cfb/players/james-skalski-1.html,LB,9,22,13,35,3.5,1.5,0,0,,0,2,1,17,1,0,,Clemson,2020
+Jake Venables,jake-venables-1,/cfb/players/jake-venables-1.html,LB,9,16,15,31,5.5,2.5,0,0,,0,1,0,0,0,1,,Clemson,2020
+Trenton Simpson,trenton-simpson-1,/cfb/players/trenton-simpson-1.html,LB,11,16,12,28,6.5,4.0,0,0,,0,0,0,0,0,1,,Clemson,2020
+Andrew Booth Jr.,andrew-booth-jr-1,/cfb/players/andrew-booth-jr-1.html,CB,11,21,6,27,2.5,1.0,2,0,0.0,0,4,1,21,1,0,,Clemson,2020
+Mike Jones Jr.,mike-jones-jr-1,/cfb/players/mike-jones-jr-1.html,LB,10,13,13,26,4.0,0.5,2,40,20.0,0,2,0,0,0,1,,Clemson,2020
+Lannden Zanders,lannden-zanders-1,/cfb/players/lannden-zanders-1.html,S,10,22,3,25,2.5,1.0,0,0,,0,1,0,0,0,1,,Clemson,2020
+Bryan Bresee,bryan-bresee-1,/cfb/players/bryan-bresee-1.html,DL,12,13,10,23,6.5,4.0,0,0,,0,2,0,0,0,1,,Clemson,2020
+K.J. Henry,kj-henry-1,/cfb/players/kj-henry-1.html,DE,12,13,10,23,6.5,3.5,0,0,,0,2,1,0,0,0,,Clemson,2020
+Nyles Pinckney,nyles-pinckney-1,/cfb/players/nyles-pinckney-1.html,DT,12,12,10,22,3.0,1.0,0,0,,0,0,1,0,0,0,,Clemson,2020
+Justin Mascoll,justin-mascoll-1,/cfb/players/justin-mascoll-1.html,DE,12,8,10,18,4.5,2.0,0,0,,0,0,1,0,0,0,,Clemson,2020
+Derion Kendrick,derion-kendrick-1,/cfb/players/derion-kendrick-1.html,CB,9,12,5,17,1.0,1.0,1,0,0.0,0,6,1,66,1,0,,Clemson,2020
+Kane Patterson,kane-patterson-1,/cfb/players/kane-patterson-1.html,LB,12,14,3,17,2.0,0.0,1,8,8.0,0,0,1,57,0,0,,Clemson,2020
+Sheridan Jones,sheridan-jones-1,/cfb/players/sheridan-jones-1.html,CB,11,13,3,16,1.5,0.0,1,0,0.0,0,1,0,0,0,0,,Clemson,2020
+Regan Upshaw,regan-upshaw-2,/cfb/players/regan-upshaw-2.html,DE,9,6,10,16,3.5,2.5,0,0,,0,1,0,0,0,0,,Clemson,2020
+Malcolm Greene,malcolm-greene-1,/cfb/players/malcolm-greene-1.html,CB,12,11,5,16,1.5,1.5,1,8,8.0,0,2,0,0,0,0,,Clemson,2020
+Ray Thornton III,ray-thornton-iii-1,/cfb/players/ray-thornton-iii-1.html,S,12,11,4,15,0.0,0.0,0,0,,0,0,0,0,0,0,,Clemson,2020
+Keith Maguire,keith-maguire-1,/cfb/players/keith-maguire-1.html,LB,10,10,5,15,3.0,0.0,0,0,,0,1,0,0,0,1,,Clemson,2020
+Tyler Venables,tyler-venables-1,/cfb/players/tyler-venables-1.html,S,11,9,5,14,1.0,0.0,0,0,,0,0,0,0,0,0,,Clemson,2020
+LaVonta Bentley,lavonta-bentley-1,/cfb/players/lavonta-bentley-1.html,LB,11,10,4,14,4.5,3.5,0,0,,0,0,0,0,0,1,,Clemson,2020
+Fred Davis II,fred-davis-ii-1,/cfb/players/fred-davis-ii-1.html,CB,10,10,3,13,0.0,0.0,0,0,,0,2,0,0,0,0,,Clemson,2020
+Tyler Davis,tyler-davis-4,/cfb/players/tyler-davis-4.html,DT,7,10,3,13,5.0,2.0,0,0,,0,0,0,0,0,0,,Clemson,2020
+Mario Goodrich,mario-goodrich-1,/cfb/players/mario-goodrich-1.html,CB,8,6,7,13,0.0,0.0,2,5,2.5,0,1,1,0,0,0,,Clemson,2020
+Jalyn Phillips,jalyn-phillips-1,/cfb/players/jalyn-phillips-1.html,S,10,7,5,12,0.5,0.0,1,5,5.0,0,1,0,0,0,0,,Clemson,2020
+Leanthony Williams,leanthony-williams-1,/cfb/players/leanthony-williams-1.html,CB,10,8,1,9,0.0,0.0,0,0,,0,0,0,0,0,0,,Clemson,2020
+Xavier Thomas,xavier-thomas-1,/cfb/players/xavier-thomas-1.html,DE,7,5,4,9,4.0,3.5,0,0,,0,0,0,0,0,1,,Clemson,2020
+Jordan Williams,jordan-williams-7,/cfb/players/jordan-williams-7.html,DT,10,4,4,8,1.0,0.0,0,0,,0,0,0,0,0,0,,Clemson,2020
+Greg Williams,greg-williams-14,/cfb/players/greg-williams-14.html,DE,7,3,2,5,1.0,1.0,0,0,,0,0,0,0,0,0,,Clemson,2020
+Darnell Jefferies,darnell-jefferies-1,/cfb/players/darnell-jefferies-1.html,DT,7,2,3,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Clemson,2020
+Elijah Turner,elijah-turner-2,/cfb/players/elijah-turner-2.html,S,11,4,1,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Clemson,2020
+Carson Donnelly,carson-donnelly-1,/cfb/players/carson-donnelly-1.html,S,11,5,0,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Clemson,2020
+Tre Williams,tre-williams-4,/cfb/players/tre-williams-4.html,DT,2,3,1,4,1.0,0.0,0,0,,0,0,0,0,0,0,,Clemson,2020
+Kevin Swint,kevin-swint-1,/cfb/players/kevin-swint-1.html,LB,9,1,2,3,0.5,0.5,0,0,,0,0,0,0,0,0,,Clemson,2020
+Demonte Capehart,demonte-capehart-1,/cfb/players/demonte-capehart-1.html,DL,4,2,1,3,2.0,1.0,0,0,,0,0,0,0,0,0,,Clemson,2020
+Cornell Powell,cornell-powell-1,/cfb/players/cornell-powell-1.html,WR,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Clemson,2020
+Sergio Allen,sergio-allen-1,/cfb/players/sergio-allen-1.html,LB,5,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Clemson,2020
+Davis Allen,davis-allen-1,/cfb/players/davis-allen-1.html,TE,12,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Clemson,2020
+Cade Stewart,cade-stewart-1,/cfb/players/cade-stewart-1.html,OL,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Clemson,2020
+B.T. Potter,bt-potter-1,/cfb/players/bt-potter-1.html,PK,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Clemson,2020
+Joseph Ngata,joseph-ngata-1,/cfb/players/joseph-ngata-1.html,WR,7,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Clemson,2020
+James Edwards,james-edwards-2,/cfb/players/james-edwards-2.html,DT,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Clemson,2020
+R.J. Mickens,rj-mickens-1,/cfb/players/rj-mickens-1.html,S,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Clemson,2020
+Sage Ennis,sage-ennis-1,/cfb/players/sage-ennis-1.html,TE,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Clemson,2020
+Matthew Maloney,matthew-maloney-1,/cfb/players/matthew-maloney-1.html,LB,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Clemson,2020
+Jack Maddox,jack-maddox-1,/cfb/players/jack-maddox-1.html,LS,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Clemson,2020
+Darien Rencher,darien-rencher-1,/cfb/players/darien-rencher-1.html,RB,12,0,1,1,0.5,0.0,0,0,,0,0,0,0,0,0,,Clemson,2020
+Brannon Spector,brannon-spector-1,/cfb/players/brannon-spector-1.html,WR,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Clemson,2020
+Aidan Swanson,aidan-swanson-1,/cfb/players/aidan-swanson-1.html,P,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Clemson,2020
+Frank Ladson Jr.,frank-ladson-jr-1,/cfb/players/frank-ladson-jr-1.html,WR,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Clemson,2020
+Will Putnam,will-putnam-2,/cfb/players/will-putnam-2.html,OL,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Clemson,2020
+Will Swinney,will-swinney-1,/cfb/players/will-swinney-1.html,WR,11,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Clemson,2020
+Etinosa Reuben,etinosa-reuben-1,/cfb/players/etinosa-reuben-1.html,DT,7,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Clemson,2020

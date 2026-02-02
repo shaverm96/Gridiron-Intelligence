@@ -1,0 +1,56 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+David Griffith,david-griffith-1,/cfb/players/david-griffith-1.html,LB,12,44,48,92,15.5,5.0,0,0,,0,0,0,0,0,1,,Louisiana-Monroe,2018
+Collin Turner,collin-turner-1,/cfb/players/collin-turner-1.html,S,11,42,30,72,6.0,1.5,0,0,,0,4,0,0,0,0,,Louisiana-Monroe,2018
+Cortez Sisco Jr.,cortez-sisco-jr-1,/cfb/players/cortez-sisco-jr-1.html,LB,9,26,27,53,4.5,1.5,1,46,46.0,0,3,1,0,0,0,,Louisiana-Monroe,2018
+Jabari Johnson,jabari-johnson-4,/cfb/players/jabari-johnson-4.html,S,10,31,20,51,1.5,1.0,1,0,0.0,0,2,0,0,0,0,,Louisiana-Monroe,2018
+Austin Hawley,austin-hawley-1,/cfb/players/austin-hawley-1.html,S,11,26,24,50,0.0,0.0,0,0,,0,2,0,0,0,0,,Louisiana-Monroe,2018
+Chase Day,chase-day-1,/cfb/players/chase-day-1.html,LB,12,25,23,48,6.5,1.0,0,0,,0,0,0,0,0,1,,Louisiana-Monroe,2018
+Rashaad Harding,rashaad-harding-1,/cfb/players/rashaad-harding-1.html,LB,10,23,20,43,1.5,1.5,0,0,,0,0,0,0,0,0,,Louisiana-Monroe,2018
+Kerry Starks,kerry-starks-1,/cfb/players/kerry-starks-1.html,DE,12,16,23,39,11.0,5.0,0,0,,0,2,0,0,0,2,,Louisiana-Monroe,2018
+Marcus Hubbard,marcus-hubbard-1,/cfb/players/marcus-hubbard-1.html,CB,12,31,6,37,4.0,2.0,1,-2,-2.0,0,5,1,0,0,0,,Louisiana-Monroe,2018
+Jaylen Veasley,jaylen-veasley-1,/cfb/players/jaylen-veasley-1.html,DT,12,10,24,34,3.5,1.0,0,0,,0,0,0,0,0,0,,Louisiana-Monroe,2018
+Nick Ingram,nick-ingram-1,/cfb/players/nick-ingram-1.html,S,10,20,13,33,3.5,0.0,0,0,,0,1,0,0,0,0,,Louisiana-Monroe,2018
+Mason Husmann,mason-husmann-1,/cfb/players/mason-husmann-1.html,DT,12,12,19,31,3.5,1.0,0,0,,0,1,1,0,0,0,,Louisiana-Monroe,2018
+Donald Louis Jr.,donald-louis-jr-1,/cfb/players/donald-louis-jr-1.html,DL,12,15,16,31,6.5,4.5,0,0,,0,0,0,0,0,1,,Louisiana-Monroe,2018
+Corey Straughter,corey-straughter-1,/cfb/players/corey-straughter-1.html,CB,12,18,11,29,0.0,0.0,2,116,58.0,1,6,0,0,0,0,,Louisiana-Monroe,2018
+Ty Shelby,ty-shelby-1,/cfb/players/ty-shelby-1.html,DE,12,12,14,26,5.0,2.0,0,0,,0,0,0,0,0,0,,Louisiana-Monroe,2018
+Larance Shaw,larance-shaw-1,/cfb/players/larance-shaw-1.html,DL,12,15,11,26,5.0,1.0,0,0,,0,1,0,0,0,0,,Louisiana-Monroe,2018
+Wesley Thompson,wesley-thompson-1,/cfb/players/wesley-thompson-1.html,S,11,9,14,23,0.0,0.0,0,0,,0,0,1,0,0,0,,Louisiana-Monroe,2018
+Traveion Webster,traveion-webster-1,/cfb/players/traveion-webster-1.html,S,12,11,12,23,1.5,1.0,0,0,,0,0,0,0,0,0,,Louisiana-Monroe,2018
+Derion Ford,derion-ford-1,/cfb/players/derion-ford-1.html,DT,9,9,11,20,4.0,1.0,0,0,,0,0,0,0,0,0,,Louisiana-Monroe,2018
+Sam Miller,sam-miller-5,/cfb/players/sam-miller-5.html,DE,11,12,4,16,4.5,3.0,0,0,,0,0,2,0,1,1,,Louisiana-Monroe,2018
+Tyler Johnson,tyler-johnson-3,/cfb/players/tyler-johnson-3.html,DT,10,4,11,15,1.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana-Monroe,2018
+Logan Latin,logan-latin-1,/cfb/players/logan-latin-1.html,DB,10,7,7,14,0.5,0.5,0,0,,0,0,0,0,0,0,,Louisiana-Monroe,2018
+Hunter Smith,hunter-smith-3,/cfb/players/hunter-smith-3.html,LB,10,8,3,11,0.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana-Monroe,2018
+Kenderick Marbles,kenderick-marbles-1,/cfb/players/kenderick-marbles-1.html,CB,9,5,4,9,0.0,0.0,0,0,,0,5,0,0,0,0,,Louisiana-Monroe,2018
+Floyd Connell,floyd-connell-1,/cfb/players/floyd-connell-1.html,CB,9,6,1,7,0.0,0.0,0,0,,0,3,0,0,0,0,,Louisiana-Monroe,2018
+Tyler Glass,tyler-glass-1,/cfb/players/tyler-glass-1.html,S,4,2,4,6,1.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana-Monroe,2018
+Cal Kee III,cal-kee-iii-1,/cfb/players/cal-kee-iii-1.html,S,7,2,4,6,2.0,0.5,0,0,,0,0,0,0,0,0,,Louisiana-Monroe,2018
+Korian Reynaud,korian-reynaud-1,/cfb/players/korian-reynaud-1.html,S,11,5,1,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana-Monroe,2018
+Shaquille Warren,shaquille-warren-1,/cfb/players/shaquille-warren-1.html,DL,7,4,1,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana-Monroe,2018
+Andy Becker,andy-becker-1,/cfb/players/andy-becker-1.html,LB,12,1,4,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana-Monroe,2018
+Semaj Franklin,semaj-franklin-1,/cfb/players/semaj-franklin-1.html,CB,11,2,2,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana-Monroe,2018
+Austin Vaughn,austin-vaughn-1,/cfb/players/austin-vaughn-1.html,RB,12,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana-Monroe,2018
+Markis McCray,markis-mccray-1,/cfb/players/markis-mccray-1.html,WR,12,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana-Monroe,2018
+Jared Doyle,jared-doyle-1,/cfb/players/jared-doyle-1.html,CB,11,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana-Monroe,2018
+Jordan Oilver,jordan-oilver-1,/cfb/players/jordan-oilver-1.html,CB,3,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana-Monroe,2018
+Bobby Reynolds,bobby-reynolds-3,/cfb/players/bobby-reynolds-3.html,OL,11,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana-Monroe,2018
+Luke Hedrick,luke-hedrick-1,/cfb/players/luke-hedrick-1.html,,1,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana-Monroe,2018
+Caleb Evans,caleb-evans-2,/cfb/players/caleb-evans-2.html,QB,12,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana-Monroe,2018
+Sloan Spiller,sloan-spiller-1,/cfb/players/sloan-spiller-1.html,TE,6,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana-Monroe,2018
+Xavier Brown,xavier-brown-2,/cfb/players/xavier-brown-2.html,WR,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana-Monroe,2018
+Zachari Jackson,zachari-jackson-1,/cfb/players/zachari-jackson-1.html,WR,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana-Monroe,2018
+Walker Easton,walker-easton-1,/cfb/players/walker-easton-1.html,LS,11,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana-Monroe,2018
+Myles Cole,myles-cole-1,/cfb/players/myles-cole-1.html,DE,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana-Monroe,2018
+Matt Gardner,matt-gardner-1,/cfb/players/matt-gardner-1.html,QB,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana-Monroe,2018
+Marcus Green,marcus-green-6,/cfb/players/marcus-green-6.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana-Monroe,2018
+Kevin Jones,kevin-jones-9,/cfb/players/kevin-jones-9.html,,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana-Monroe,2018
+Josh Pederson,josh-pederson-1,/cfb/players/josh-pederson-1.html,TE,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana-Monroe,2018
+John Washington,john-washington-4,/cfb/players/john-washington-4.html,,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana-Monroe,2018
+Jarell Brown,jarell-brown-1,/cfb/players/jarell-brown-1.html,CB,4,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana-Monroe,2018
+D'Marius Gillespie,dmarius-gillespie-1,/cfb/players/dmarius-gillespie-1.html,WR,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana-Monroe,2018
+Devin Jackson Jr.,devin-jackson-jr-1,/cfb/players/devin-jackson-jr-1.html,OL,11,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana-Monroe,2018
+Derrick Gore,derrick-gore-1,/cfb/players/derrick-gore-1.html,RB,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana-Monroe,2018
+Brandius Batiste,brandius-batiste-1,/cfb/players/brandius-batiste-1.html,WR,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana-Monroe,2018
+Barry Howard Jr.,barry-howard-jr-1,/cfb/players/barry-howard-jr-1.html,,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana-Monroe,2018
+Bacari Middleton,bacari-middleton-1,/cfb/players/bacari-middleton-1.html,S,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana-Monroe,2018

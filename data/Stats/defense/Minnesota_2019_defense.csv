@@ -1,0 +1,43 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Antoine Winfield Jr.,antoine-winfield-jr-1,/cfb/players/antoine-winfield-jr-1.html,DB,13,62,26,88,3.5,3.0,7,111,15.9,1,1,0,0,0,2,AA,Minnesota,2019
+Thomas Barber,thomas-barber-1,/cfb/players/thomas-barber-1.html,LB,13,35,31,66,5.0,0.5,0,0,,0,1,2,0,0,0,,Minnesota,2019
+Kamal Martin,kamal-martin-1,/cfb/players/kamal-martin-1.html,LB,8,36,30,66,2.5,1.0,2,14,7.0,0,1,0,0,0,2,,Minnesota,2019
+Jordan Howden,jordan-howden-1,/cfb/players/jordan-howden-1.html,DB,13,40,17,57,0.5,0.0,1,0,0.0,0,6,0,0,0,0,,Minnesota,2019
+Chris Williamson,chris-williamson-1,/cfb/players/chris-williamson-1.html,DB,13,37,20,57,4.0,2.5,1,43,43.0,1,3,0,0,0,0,,Minnesota,2019
+Carter Coughlin,carter-coughlin-1,/cfb/players/carter-coughlin-1.html,LB,13,29,20,49,9.5,4.5,0,0,,0,4,1,0,0,2,,Minnesota,2019
+Benjamin St-Juste,benjamin-st-juste-1,/cfb/players/benjamin-st-juste-1.html,DB,13,36,9,45,1.5,0.0,0,0,,0,10,0,0,0,0,,Minnesota,2019
+Sam Renner,sam-renner-1,/cfb/players/sam-renner-1.html,DL,13,24,19,43,8.5,5.0,0,0,,0,4,0,0,0,0,,Minnesota,2019
+Mariano Sori-Marin,mariano-sori-marin-1,/cfb/players/mariano-sori-marin-1.html,LB,13,18,24,42,2.0,0.0,0,0,,0,0,0,0,0,0,,Minnesota,2019
+Coney Durr,coney-durr-1,/cfb/players/coney-durr-1.html,DB,13,21,12,33,1.0,0.0,1,72,72.0,1,10,0,0,0,0,,Minnesota,2019
+Winston DeLattiboudere,winston-delattiboudere-1,/cfb/players/winston-delattiboudere-1.html,DL,13,12,18,30,2.0,0.5,0,0,,0,0,1,0,0,2,,Minnesota,2019
+Braelen Oliver,braelen-oliver-1,/cfb/players/braelen-oliver-1.html,LB,13,14,8,22,3.5,3.0,0,0,,0,1,1,0,0,0,,Minnesota,2019
+Kiondre Thomas,kiondre-thomas-1,/cfb/players/kiondre-thomas-1.html,DB,13,15,7,22,1.0,0.0,1,0,0.0,0,3,0,0,0,0,,Minnesota,2019
+Esezi Otomewo,esezi-otomewo-1,/cfb/players/esezi-otomewo-1.html,DL,13,6,16,22,5.0,2.5,0,0,,0,0,0,0,0,0,,Minnesota,2019
+Keonte Schad,keonte-schad-1,/cfb/players/keonte-schad-1.html,DL,13,7,14,21,2.5,0.0,0,0,,0,0,0,0,0,0,,Minnesota,2019
+Jamaal Teague,jamaal-teague-1,/cfb/players/jamaal-teague-1.html,DL,13,4,12,16,1.5,0.0,0,0,,0,0,0,0,0,0,,Minnesota,2019
+Boye Mafe,boye-mafe-1,/cfb/players/boye-mafe-1.html,DL,13,8,6,14,3.5,3.0,0,0,,0,0,0,0,0,0,,Minnesota,2019
+Micah Dew-Treadway,micah-dew-treadway-1,/cfb/players/micah-dew-treadway-1.html,DL,13,3,10,13,2.5,0.5,0,0,,0,1,0,0,0,0,,Minnesota,2019
+Terell Smith,terell-smith-1,/cfb/players/terell-smith-1.html,DB,9,7,2,9,0.0,0.0,0,0,,0,1,0,0,0,0,,Minnesota,2019
+Tai'yon Devers,taiyon-devers-1,/cfb/players/taiyon-devers-1.html,DL,13,2,6,8,2.0,2.0,0,0,,0,0,0,0,0,0,,Minnesota,2019
+Calvin Swenson,calvin-swenson-1,/cfb/players/calvin-swenson-1.html,DB,13,6,2,8,0.0,0.0,0,0,,0,0,0,0,0,0,,Minnesota,2019
+Tyler Nubin,tyler-nubin-1,/cfb/players/tyler-nubin-1.html,DB,12,4,2,6,0.0,0.0,0,0,,0,2,0,0,0,0,,Minnesota,2019
+Justus Harris,justus-harris-1,/cfb/players/justus-harris-1.html,DB,13,4,2,6,0.0,0.0,0,0,,0,0,0,0,0,1,,Minnesota,2019
+Alex Strazzanti,alex-strazzanti-1,/cfb/players/alex-strazzanti-1.html,LB,9,1,4,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Minnesota,2019
+Austin Winfield,austin-winfield-1,/cfb/players/austin-winfield-1.html,DB,2,4,1,5,0.0,0.0,0,13,,0,0,0,0,0,0,,Minnesota,2019
+Phillip Howard,phillip-howard-1,/cfb/players/phillip-howard-1.html,DB,11,2,3,5,0.5,0.0,1,0,0.0,0,0,0,0,0,1,,Minnesota,2019
+Jon Santaga,jon-santaga-1,/cfb/players/jon-santaga-1.html,QB,11,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Minnesota,2019
+Bailey Schoenfelder,bailey-schoenfelder-1,/cfb/players/bailey-schoenfelder-1.html,LB,6,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Minnesota,2019
+Thomas Rush,thomas-rush-1,/cfb/players/thomas-rush-1.html,LB,13,1,2,3,0.0,0.0,0,0,,0,1,0,0,0,0,,Minnesota,2019
+DJ Gordon IV,dj-gordon-iv-1,/cfb/players/dj-gordon-iv-1.html,,4,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Minnesota,2019
+Tyler Johnson,tyler-johnson-6,/cfb/players/tyler-johnson-6.html,WR,11,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Minnesota,2019
+Noah Hickcox,noah-hickcox-1,/cfb/players/noah-hickcox-1.html,DL,13,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Minnesota,2019
+Rashod Bateman,rashod-bateman-1,/cfb/players/rashod-bateman-1.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Minnesota,2019
+Solomon Brown,solomon-brown-1,/cfb/players/solomon-brown-1.html,DB,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Minnesota,2019
+Mayan Ahanotu,mayan-ahanotu-1,/cfb/players/mayan-ahanotu-1.html,DL,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Minnesota,2019
+Tanner Morgan,tanner-morgan-2,/cfb/players/tanner-morgan-2.html,QB,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Minnesota,2019
+Chris Autman-Bell,chris-autman-bell-1,/cfb/players/chris-autman-bell-1.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Minnesota,2019
+Clay Geary,clay-geary-1,/cfb/players/clay-geary-1.html,WR,10,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Minnesota,2019
+DeAngelo Carter,deangelo-carter-1,/cfb/players/deangelo-carter-1.html,DL,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Minnesota,2019
+James Gordon IV,james-gordon-iv-1,/cfb/players/james-gordon-iv-1.html,LB,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Minnesota,2019
+Donald Willis,donald-willis-2,/cfb/players/donald-willis-2.html,LB,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Minnesota,2019
+Benny Sapp III,benny-sapp-iii-1,/cfb/players/benny-sapp-iii-1.html,DB,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Minnesota,2019

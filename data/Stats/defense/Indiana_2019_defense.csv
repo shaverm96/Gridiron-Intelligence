@@ -1,0 +1,39 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Micah McFadden,micah-mcfadden-1,/cfb/players/micah-mcfadden-1.html,LB,13,42,19,61,10.0,1.5,2,14,7.0,0,1,0,0,0,0,,Indiana,2019
+Reakwon Jones,reakwon-jones-1,/cfb/players/reakwon-jones-1.html,LB,13,39,16,55,3.5,1.0,0,0,,0,2,1,17,1,0,,Indiana,2019
+Khalil Bryant,khalil-bryant-1,/cfb/players/khalil-bryant-1.html,DB,13,32,21,53,1.0,0.0,0,0,,0,0,1,0,0,0,,Indiana,2019
+Marcelino Ball,marcelino-ball-1,/cfb/players/marcelino-ball-1.html,DB,13,29,18,47,3.0,2.0,0,0,,0,2,0,0,0,0,,Indiana,2019
+Jerome Johnson,jerome-johnson-3,/cfb/players/jerome-johnson-3.html,DL,13,21,22,43,7.5,5.0,0,0,,0,0,0,0,0,0,,Indiana,2019
+Devon Matthews,devon-matthews-1,/cfb/players/devon-matthews-1.html,DB,13,26,11,37,0.0,0.0,0,0,,0,2,0,0,0,0,,Indiana,2019
+Cam Jones,cam-jones-1,/cfb/players/cam-jones-1.html,LB,12,23,12,35,4.5,2.0,1,44,44.0,1,2,0,0,0,1,,Indiana,2019
+Demarcus Elliott,demarcus-elliott-1,/cfb/players/demarcus-elliott-1.html,DL,13,27,8,35,5.0,3.0,0,0,,0,0,0,0,0,1,,Indiana,2019
+Michael Ziemba,michael-ziemba-1,/cfb/players/michael-ziemba-1.html,DL,13,20,13,33,6.5,0.0,0,0,,0,0,2,0,0,0,,Indiana,2019
+James Miller,james-miller-1,/cfb/players/james-miller-1.html,LB,13,20,11,31,4.5,0.5,0,0,,0,0,0,0,0,2,,Indiana,2019
+Raheem Layne,raheem-layne-1,/cfb/players/raheem-layne-1.html,DB,13,28,2,30,2.0,0.0,0,0,,0,3,0,0,0,0,,Indiana,2019
+Juwan Burgess,juwan-burgess-1,/cfb/players/juwan-burgess-1.html,DB,13,22,7,29,2.0,0.0,0,0,,0,2,2,0,0,2,,Indiana,2019
+Tiawan Mullen,tiawan-mullen-1,/cfb/players/tiawan-mullen-1.html,DB,13,25,4,29,3.5,0.0,0,0,,0,13,2,0,0,2,,Indiana,2019
+Bryant Fitzgerald,bryant-fitzgerald-1,/cfb/players/bryant-fitzgerald-1.html,DB,13,24,3,27,1.0,0.0,0,0,,0,3,0,0,0,0,,Indiana,2019
+Allen Stallings,allen-stallings-1,/cfb/players/allen-stallings-1.html,DL,13,15,11,26,6.0,5.0,0,0,,0,0,1,68,0,0,,Indiana,2019
+Jamar Johnson,jamar-johnson-1,/cfb/players/jamar-johnson-1.html,DB,13,18,7,25,4.5,3.0,2,72,36.0,1,2,0,0,0,1,,Indiana,2019
+Alfred Bryant,alfred-bryant-1,/cfb/players/alfred-bryant-1.html,DL,13,14,11,25,4.0,0.0,0,0,,0,0,1,5,0,1,,Indiana,2019
+James Head Jr.,james-head-jr-1,/cfb/players/james-head-jr-1.html,DL,13,14,6,20,4.0,2.5,0,0,,0,3,0,0,0,1,,Indiana,2019
+Jaylin Williams,jaylin-williams-2,/cfb/players/jaylin-williams-2.html,DB,13,15,4,19,0.0,0.0,1,29,29.0,0,3,0,0,0,0,,Indiana,2019
+Andre Brown Jr.,andre-brown-jr-1,/cfb/players/andre-brown-jr-1.html,DB,13,15,2,17,1.0,0.0,0,0,,0,2,0,0,0,0,,Indiana,2019
+Thomas Allen,thomas-allen-1,/cfb/players/thomas-allen-1.html,LB,8,9,8,17,0.5,0.0,0,0,,0,0,0,0,0,0,,Indiana,2019
+Reese Taylor,reese-taylor-1,/cfb/players/reese-taylor-1.html,DB,11,13,0,13,1.0,0.0,1,0,0.0,0,2,0,0,0,0,,Indiana,2019
+Sio Nofoagatoto'a,sio-nofoagatotoa-1,/cfb/players/sio-nofoagatotoa-1.html,DL,10,3,6,9,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2019
+Shamar Jones,shamar-jones-1,/cfb/players/shamar-jones-1.html,DL,12,2,6,8,2.0,0.5,0,0,,0,0,0,0,0,0,,Indiana,2019
+Noah Pierre,noah-pierre-1,/cfb/players/noah-pierre-1.html,DB,10,3,3,6,0.5,0.0,0,0,,0,0,0,0,0,0,,Indiana,2019
+Aaron Casey,aaron-casey-1,/cfb/players/aaron-casey-1.html,LB,13,4,1,5,1.5,1.0,0,0,,0,0,0,0,0,0,,Indiana,2019
+C.J. Person,cj-person-1,/cfb/players/cj-person-1.html,DL,4,3,1,4,1.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2019
+Juan Harris,juan-harris-1,/cfb/players/juan-harris-1.html,DL,4,0,3,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2019
+Gavin Everett,gavin-everett-1,/cfb/players/gavin-everett-1.html,DL,13,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2019
+Tramar Reece,tramar-reece-1,/cfb/players/tramar-reece-1.html,DL,4,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2019
+Gavin McCabe,gavin-mccabe-1,/cfb/players/gavin-mccabe-1.html,DL,3,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2019
+Peyton Hendershot,peyton-hendershot-1,/cfb/players/peyton-hendershot-1.html,TE,13,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2019
+Whop Philyor,whop-philyor-1,/cfb/players/whop-philyor-1.html,WR,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2019
+Ty Fryfogle,ty-fryfogle-1,/cfb/players/ty-fryfogle-1.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2019
+Josh Sanguinetti,josh-sanguinetti-1,/cfb/players/josh-sanguinetti-1.html,DB,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2019
+Harry Crider,harry-crider-1,/cfb/players/harry-crider-1.html,OL,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2019
+D.K. Bonhomme,dk-bonhomme-1,/cfb/players/dk-bonhomme-1.html,LB,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2019
+Caleb Jones,caleb-jones-2,/cfb/players/caleb-jones-2.html,OL,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2019

@@ -1,0 +1,46 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Travion Barnes,travion-barnes-1,/cfb/players/travion-barnes-1.html,LB,11,59,70,129,10.5,3.0,2,85,42.5,1,0,1,0,0,0,,Florida International,2024
+Elijah Anderson-Taylor,elijah-anderson-taylor-1,/cfb/players/elijah-anderson-taylor-1.html,LB,12,41,53,94,2.0,0.5,0,0,,0,1,0,0,0,0,,Florida International,2024
+Jojo Evans,jojo-evans-1,/cfb/players/jojo-evans-1.html,DB,12,52,41,93,2.5,0.0,2,14,7.0,0,7,1,0,0,1,,Florida International,2024
+Jamal Potts,jamal-potts-1,/cfb/players/jamal-potts-1.html,DB,12,41,40,81,3.5,1.0,1,0,0.0,0,6,0,0,0,1,,Florida International,2024
+CJ Christian,cj-christian-1,/cfb/players/cj-christian-1.html,DB,11,40,40,80,2.5,0.0,1,0,0.0,0,3,1,0,0,1,,Florida International,2024
+Hezekiah Masses,hezekiah-masses-1,/cfb/players/hezekiah-masses-1.html,DB,12,24,14,38,1.0,0.0,1,42,42.0,0,4,0,0,0,1,,Florida International,2024
+Jeramy Passmore,jeramy-passmore-1,/cfb/players/jeramy-passmore-1.html,DL,12,16,19,35,3.5,1.5,0,0,,0,1,0,0,0,0,,Florida International,2024
+Giovanni Davis,giovanni-davis-1,/cfb/players/giovanni-davis-1.html,DL,12,19,13,32,1.5,1.0,0,0,,0,0,0,0,0,0,,Florida International,2024
+Keegan Davis,keegan-davis-1,/cfb/players/keegan-davis-1.html,LB,12,12,18,30,4.0,3.5,0,0,,0,0,0,0,0,0,,Florida International,2024
+Eddie Walls III,eddie-walls-iii-1,/cfb/players/eddie-walls-iii-1.html,DL,11,15,15,30,6.0,5.0,0,0,,0,1,0,0,0,1,,Florida International,2024
+Brian Blades,brian-blades-2,/cfb/players/brian-blades-2.html,DB,12,21,8,29,1.0,0.0,1,21,21.0,1,6,0,0,0,0,,Florida International,2024
+Percy Courtney Jr.,percy-courtney-jr-1,/cfb/players/percy-courtney-jr-1.html,LB,12,10,15,25,0.5,0.0,1,16,16.0,0,0,1,0,0,0,,Florida International,2024
+Quaylen Hill,quaylen-hill-1,/cfb/players/quaylen-hill-1.html,DL,12,8,14,22,1.0,0.0,0,0,,0,0,0,0,0,0,,Florida International,2024
+Jamarrion Solomon,jamarrion-solomon-1,/cfb/players/jamarrion-solomon-1.html,DL,12,6,14,20,2.5,1.0,0,0,,0,0,0,0,0,0,,Florida International,2024
+Antonio Patterson,antonio-patterson-1,/cfb/players/antonio-patterson-1.html,DB,11,12,4,16,0.0,0.0,1,76,76.0,0,0,0,0,0,0,,Florida International,2024
+Victor Evans III,victor-evans-iii-1,/cfb/players/victor-evans-iii-1.html,DB,9,8,7,15,2.0,0.0,0,0,,0,0,0,0,0,1,,Florida International,2024
+Marquez Tatum,marquez-tatum-1,/cfb/players/marquez-tatum-1.html,DL,12,4,10,14,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida International,2024
+Dwight Nunoo,dwight-nunoo-1,/cfb/players/dwight-nunoo-1.html,LB,4,7,6,13,2.0,1.0,0,0,,0,0,0,0,0,0,,Florida International,2024
+Bobby Salla,bobby-salla-1,/cfb/players/bobby-salla-1.html,DB,12,3,9,12,0.0,0.0,1,32,32.0,0,0,0,0,0,0,,Florida International,2024
+Ross Fournet,ross-fournet-1,/cfb/players/ross-fournet-1.html,WR,12,8,3,11,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida International,2024
+Germaine Carter,germaine-carter-1,/cfb/players/germaine-carter-1.html,DL,12,3,7,10,0.5,0.5,0,0,,0,0,0,0,0,0,,Florida International,2024
+Steven Shannon,steven-shannon-1,/cfb/players/steven-shannon-1.html,DL,11,3,6,9,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida International,2024
+Shamir Sterlin,shamir-sterlin-1,/cfb/players/shamir-sterlin-1.html,DB,3,2,7,9,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida International,2024
+Atavious Weaver,atavious-weaver-1,/cfb/players/atavious-weaver-1.html,LB,7,2,6,8,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida International,2024
+Alejandro Prado,alejandro-prado-1,/cfb/players/alejandro-prado-1.html,K,11,4,1,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida International,2024
+Landon Hale,landon-hale-1,/cfb/players/landon-hale-1.html,DB,12,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida International,2024
+J.T. Anderson,jt-anderson-1,/cfb/players/jt-anderson-1.html,DB,8,0,4,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida International,2024
+Josiah Taylor,josiah-taylor-1,/cfb/players/josiah-taylor-1.html,LB,12,0,4,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida International,2024
+Cole Gustafson,cole-gustafson-1,/cfb/players/cole-gustafson-1.html,DL,10,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida International,2024
+Eric Rivers,eric-rivers-2,/cfb/players/eric-rivers-2.html,WR,12,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida International,2024
+Clinton Mahoni,clinton-mahoni-1,/cfb/players/clinton-mahoni-1.html,DL,8,0,2,2,0.5,0.0,0,0,,0,0,0,0,0,0,,Florida International,2024
+Preston Thompson,preston-thompson-1,/cfb/players/preston-thompson-1.html,DB,3,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida International,2024
+Kyle McNeal,kyle-mcneal-1,/cfb/players/kyle-mcneal-1.html,WR,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida International,2024
+Mister Clark,mister-clark-1,/cfb/players/mister-clark-1.html,DB,4,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida International,2024
+Dean Patterson,dean-patterson-1,/cfb/players/dean-patterson-1.html,WR,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida International,2024
+Daton Montiel,daton-montiel-1,/cfb/players/daton-montiel-1.html,K,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida International,2024
+Ben Shellenback,ben-shellenback-1,/cfb/players/ben-shellenback-1.html,OL,8,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida International,2024
+Reggie Peterson,reggie-peterson-1,/cfb/players/reggie-peterson-1.html,LB,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida International,2024
+Robert Williams,robert-williams-12,/cfb/players/robert-williams-12.html,DL,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida International,2024
+Jamari Holliman,jamari-holliman-1,/cfb/players/jamari-holliman-1.html,DB,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida International,2024
+Jaden Williams,jaden-williams-3,/cfb/players/jaden-williams-3.html,DB,4,0,1,1,0.0,0.0,0,0,,0,0,1,0,0,0,,Florida International,2024
+Ja'Coby Matthews,jacoby-matthews-1,/cfb/players/jacoby-matthews-1.html,WR,3,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida International,2024
+T.J. Snowden,tj-snowden-1,/cfb/players/tj-snowden-1.html,RB,11,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida International,2024
+Toddrick Brewton,toddrick-brewton-1,/cfb/players/toddrick-brewton-1.html,LB,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida International,2024
+Jackson Lee,jackson-lee-1,/cfb/players/jackson-lee-1.html,LS,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida International,2024

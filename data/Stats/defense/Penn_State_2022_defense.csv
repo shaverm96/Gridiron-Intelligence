@@ -1,0 +1,51 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Ji'ayir Brown,jiayir-brown-1,/cfb/players/jiayir-brown-1.html,S,13,56,18,74,7.0,4.5,4,114,28.5,0,3,1,0,1,2,,Penn State,2022
+Abdul Carter,abdul-carter-1,/cfb/players/abdul-carter-1.html,LB,13,36,20,56,10.5,6.5,0,0,,0,4,0,0,0,2,,Penn State,2022
+Curtis Jacobs,curtis-jacobs-1,/cfb/players/curtis-jacobs-1.html,LB,12,29,23,52,7.5,4.0,1,47,47.0,1,2,2,0,0,1,,Penn State,2022
+Tyler Elsdon,tyler-elsdon-1,/cfb/players/tyler-elsdon-1.html,LB,13,25,19,44,3.0,1.0,0,0,,0,1,1,0,0,0,,Penn State,2022
+Kobe King,kobe-king-1,/cfb/players/kobe-king-1.html,LB,13,20,21,41,4.0,0.0,0,0,,0,3,1,14,1,0,,Penn State,2022
+PJ Mustipher,pj-mustipher-1,/cfb/players/pj-mustipher-1.html,DT,13,19,19,38,1.0,0.0,0,0,,0,0,0,0,0,0,,Penn State,2022
+Jonathan Sutherland,jonathan-sutherland-1,/cfb/players/jonathan-sutherland-1.html,LB,13,24,14,38,1.5,1.0,0,0,,0,1,1,0,0,0,,Penn State,2022
+Jaylen Reed,jaylen-reed-1,/cfb/players/jaylen-reed-1.html,S,13,23,8,31,2.0,0.0,0,0,,0,3,0,0,0,0,,Penn State,2022
+Kalen King,kalen-king-1,/cfb/players/kalen-king-1.html,CB,13,23,7,30,3.0,0.0,3,0,0.0,0,18,1,1,0,1,,Penn State,2022
+Dominic Deluca,dominic-deluca-1,/cfb/players/dominic-deluca-1.html,LB,13,18,11,29,2.0,1.0,0,0,,0,1,0,0,0,0,,Penn State,2022
+Adisa Isaac,adisa-isaac-1,/cfb/players/adisa-isaac-1.html,DE,13,15,13,28,11.0,4.0,0,0,,0,0,0,0,0,0,,Penn State,2022
+Zakee Wheatley,zakee-wheatley-1,/cfb/players/zakee-wheatley-1.html,S,13,21,6,27,0.0,0.0,2,34,17.0,0,1,0,0,0,1,,Penn State,2022
+Joey Porter Jr.,joey-porter-jr-1,/cfb/players/joey-porter-jr-1.html,CB,10,21,6,27,0.0,0.0,0,0,,0,11,1,0,0,0,,Penn State,2022
+Demeioun Robinson,demeioun-robinson-1,/cfb/players/demeioun-robinson-1.html,DE,12,19,7,26,10.0,5.5,0,0,,0,2,1,0,0,1,,Penn State,2022
+Keaton Ellis,keaton-ellis-1,/cfb/players/keaton-ellis-1.html,S,13,15,9,24,2.0,0.0,0,0,,0,7,0,0,0,0,,Penn State,2022
+Johnny Dixon,johnny-dixon-2,/cfb/players/johnny-dixon-2.html,CB,13,17,6,23,4.5,3.0,2,10,5.0,0,10,0,0,0,1,,Penn State,2022
+Nick Tarburton,nick-tarburton-1,/cfb/players/nick-tarburton-1.html,DE,13,11,11,22,5.5,2.0,0,0,,0,2,1,0,0,1,,Penn State,2022
+Marquis Wilson,marquis-wilson-2,/cfb/players/marquis-wilson-2.html,CB,11,12,8,20,1.5,0.0,0,0,,0,2,0,0,0,1,,Penn State,2022
+Dani Dennis-Sutton,dani-dennis-sutton-1,/cfb/players/dani-dennis-sutton-1.html,DE,13,11,6,17,3.5,3.0,1,20,20.0,0,1,0,0,0,0,,Penn State,2022
+Hakeem Beamon,hakeem-beamon-1,/cfb/players/hakeem-beamon-1.html,DT,13,8,8,16,6.0,0.0,0,0,,0,4,0,0,0,0,,Penn State,2022
+Amin Vanover,amin-vanover-1,/cfb/players/amin-vanover-1.html,DE,13,9,7,16,4.5,1.0,0,0,,0,3,0,0,0,0,,Penn State,2022
+Kevin Winston,kevin-winston-1,/cfb/players/kevin-winston-1.html,S,12,11,5,16,1.0,0.0,0,0,,0,0,0,0,0,0,,Penn State,2022
+Dvon Ellies,dvon-ellies-1,/cfb/players/dvon-ellies-1.html,DL,13,6,9,15,2.0,1.0,0,0,,0,1,0,0,0,1,,Penn State,2022
+Daequan Hardy,daequan-hardy-1,/cfb/players/daequan-hardy-1.html,CB,13,9,4,13,0.5,0.5,1,18,18.0,0,4,0,0,0,1,,Penn State,2022
+Charlie Katshir,charlie-katshir-1,/cfb/players/charlie-katshir-1.html,LB,7,6,4,10,2.0,0.0,0,0,,0,0,0,0,0,0,,Penn State,2022
+Coziah Izzard,coziah-izzard-1,/cfb/players/coziah-izzard-1.html,DT,9,7,3,10,4.0,2.0,0,0,,0,0,0,0,0,0,,Penn State,2022
+Jordan Van Den Berg,jordan-van-den-berg-1,/cfb/players/jordan-van-den-berg-1.html,DT,13,4,5,9,1.5,1.5,0,0,,0,0,0,0,0,1,,Penn State,2022
+Jamari Buddin,jamari-buddin-1,/cfb/players/jamari-buddin-1.html,LB,9,4,4,8,1.5,0.0,0,0,,0,0,1,0,0,0,,Penn State,2022
+Cam Miller,cam-miller-1,/cfb/players/cam-miller-1.html,CB,11,3,2,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Penn State,2022
+Zane Durant,zane-durant-1,/cfb/players/zane-durant-1.html,DT,13,1,4,5,1.0,1.0,0,0,,0,0,0,0,0,0,,Penn State,2022
+Sebastain Costantini,sebastain-costantini-1,/cfb/players/sebastain-costantini-1.html,S,13,4,1,5,0.0,0.0,0,0,,0,1,0,0,0,0,,Penn State,2022
+Robbie Dwyer,robbie-dwyer-1,/cfb/players/robbie-dwyer-1.html,LB,11,2,3,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Penn State,2022
+Malick Meiga,malick-meiga-1,/cfb/players/malick-meiga-1.html,WR,12,2,2,4,0.0,0.0,0,0,,0,0,0,0,0,1,,Penn State,2022
+Davon Townley Jr.,davon-townley-jr-1,/cfb/players/davon-townley-jr-1.html,DE,7,0,3,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Penn State,2022
+Zuriah Fisher,zuriah-fisher-1,/cfb/players/zuriah-fisher-1.html,DE,2,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Penn State,2022
+Jake Pinegar,jake-pinegar-1,/cfb/players/jake-pinegar-1.html,K,13,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Penn State,2022
+Brenton Strange,brenton-strange-1,/cfb/players/brenton-strange-1.html,TE,13,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Penn State,2022
+Keon Wylie,keon-wylie-1,/cfb/players/keon-wylie-1.html,LB,3,1,1,2,0.5,0.5,0,0,,0,0,0,0,0,0,,Penn State,2022
+Sander Sahaydak,sander-sahaydak-1,/cfb/players/sander-sahaydak-1.html,K,7,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Penn State,2022
+Devyn Ford,devyn-ford-1,/cfb/players/devyn-ford-1.html,RB,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Penn State,2022
+Harrison Wallace III,harrison-wallace-iii-1,/cfb/players/harrison-wallace-iii-1.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Penn State,2022
+Theo Johnson,theo-johnson-1,/cfb/players/theo-johnson-1.html,TE,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Penn State,2022
+Kaytron Allen,kaytron-allen-1,/cfb/players/kaytron-allen-1.html,RB,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Penn State,2022
+Sean Clifford,sean-clifford-1,/cfb/players/sean-clifford-1.html,QB,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Penn State,2022
+Rodney McGraw,rodney-mcgraw-2,/cfb/players/rodney-mcgraw-2.html,DT,5,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Penn State,2022
+Cody Romano,cody-romano-1,/cfb/players/cody-romano-1.html,LB,6,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Penn State,2022
+Jake Wilson,jake-wilson-3,/cfb/players/jake-wilson-3.html,DE,13,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Penn State,2022
+Liam Clifford,liam-clifford-1,/cfb/players/liam-clifford-1.html,WR,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Penn State,2022
+Gabe Nwosu,gabe-nwosu-1,/cfb/players/gabe-nwosu-1.html,P,8,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Penn State,2022
+Tyler Warren,tyler-warren-1,/cfb/players/tyler-warren-1.html,TE,12,0,0,0,0.0,0.0,0,0,,0,0,1,0,0,0,,Penn State,2022

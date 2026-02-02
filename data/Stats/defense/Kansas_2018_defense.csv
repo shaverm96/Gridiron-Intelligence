@@ -1,0 +1,46 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Joe Dineen,joe-dineen-1,/cfb/players/joe-dineen-1.html,LB,12,108,39,147,11.0,3.0,1,1,1.0,0,2,2,0,0,0,,Kansas,2018
+Bryce Torneden,bryce-torneden-1,/cfb/players/bryce-torneden-1.html,S,12,57,34,91,5.5,2.0,1,39,39.0,1,0,2,0,0,0,,Kansas,2018
+Keith Loneker Jr.,keith-loneker-jr-1,/cfb/players/keith-loneker-jr-1.html,LB,12,42,27,69,6.0,1.0,1,2,2.0,0,3,0,0,0,0,,Kansas,2018
+Mike Lee,mike-lee-6,/cfb/players/mike-lee-6.html,S,11,49,19,68,0.0,0.0,1,31,31.0,1,0,1,0,0,3,,Kansas,2018
+Corione Harris,corione-harris-1,/cfb/players/corione-harris-1.html,CB,12,33,10,43,1.0,0.0,1,0,0.0,0,6,0,0,0,1,,Kansas,2018
+Hasan Defense,hasan-defense-1,/cfb/players/hasan-defense-1.html,CB,12,31,12,43,2.0,0.0,3,125,41.7,0,7,1,7,0,0,,Kansas,2018
+Daniel Wise,daniel-wise-1,/cfb/players/daniel-wise-1.html,DT,12,26,8,34,12.5,5.0,0,0,,0,0,0,0,0,0,,Kansas,2018
+Shakial Taylor,shakial-taylor-1,/cfb/players/shakial-taylor-1.html,CB,12,28,5,33,1.0,0.0,3,68,22.7,1,2,0,0,0,1,,Kansas,2018
+Brian Lipscomb,brian-lipscomb-1,/cfb/players/brian-lipscomb-1.html,DE,12,21,6,27,6.0,3.0,0,0,,0,1,0,0,0,1,,Kansas,2018
+KeyShaun Simmons,keyshaun-simmons-1,/cfb/players/keyshaun-simmons-1.html,DL,12,13,13,26,1.5,0.5,0,0,,0,0,1,0,0,0,,Kansas,2018
+Jeremiah Mccullough,jeremiah-mccullough-1,/cfb/players/jeremiah-mccullough-1.html,S,10,14,9,23,0.0,0.0,1,1,1.0,0,0,0,0,0,0,,Kansas,2018
+Kyron Johnson,kyron-johnson-3,/cfb/players/kyron-johnson-3.html,LB,12,10,6,16,4.0,2.0,0,0,,0,2,1,0,0,2,,Kansas,2018
+Azur Kamara,azur-kamara-1,/cfb/players/azur-kamara-1.html,DL,12,12,4,16,5.0,1.0,0,0,,0,1,0,0,0,1,,Kansas,2018
+Elmore Hempstead Jr.,elmore-hempstead-jr-1,/cfb/players/elmore-hempstead-jr-1.html,CB,9,8,3,11,0.0,0.0,1,21,21.0,0,2,0,0,0,0,,Kansas,2018
+Isi Holani,isi-holani-1,/cfb/players/isi-holani-1.html,DT,12,7,4,11,2.0,2.0,0,0,,0,0,0,0,0,0,,Kansas,2018
+Ricky Thomas,ricky-thomas-4,/cfb/players/ricky-thomas-4.html,CB,8,10,1,11,1.0,0.0,1,0,0.0,0,0,0,0,0,0,,Kansas,2018
+Osaze Ogbebor,osaze-ogbebor-1,/cfb/players/osaze-ogbebor-1.html,LB,12,4,5,9,1.0,0.5,0,0,,0,0,0,0,0,1,,Kansas,2018
+DeAnte Ford,deante-ford-1,/cfb/players/deante-ford-1.html,CB,11,7,2,9,1.0,0.0,0,0,,0,1,0,0,0,1,,Kansas,2018
+J.J. Holmes,jj-holmes-1,/cfb/players/jj-holmes-1.html,DT,12,4,5,9,1.5,0.0,0,0,,0,0,1,0,0,0,,Kansas,2018
+Denzel Feaster,denzel-feaster-1,/cfb/players/denzel-feaster-1.html,LB,12,6,2,8,1.0,0.0,0,0,,0,0,1,0,0,0,,Kansas,2018
+Codey Cole,cody-cole-1,/cfb/players/cody-cole-1.html,DT,12,4,4,8,2.0,1.0,0,0,,0,0,0,0,0,0,,Kansas,2018
+Emmanuel Moore,emmanuel-moore-1,/cfb/players/emmanuel-moore-1.html,S,12,6,1,7,0.0,0.0,0,0,,0,0,0,0,0,1,,Kansas,2018
+Tyler Patrick,tyler-patrick-1,/cfb/players/tyler-patrick-1.html,WR,12,6,0,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2018
+Darrius Moragne,darrius-moragne-1,/cfb/players/darrius-moragne-1.html,DE,12,5,1,6,1.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2018
+Jelani Brown,jelani-brown-1,/cfb/players/jelani-brown-1.html,DE,12,5,1,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2018
+Davon Ferguson,davon-ferguson-1,/cfb/players/davon-ferguson-1.html,S,5,5,1,6,0.0,0.0,1,12,12.0,0,0,0,0,0,0,,Kansas,2018
+Dru Prox,dru-prox-1,/cfb/players/dru-prox-1.html,LB,12,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2018
+Tyrone Miller Jr.,tyrone-miller-jr-1,/cfb/players/tyrone-miller-jr-1.html,S,12,3,1,4,0.0,0.0,0,0,,0,1,0,0,0,0,,Kansas,2018
+Willie McCaleb,willie-mccaleb-1,/cfb/players/willie-mccaleb-1.html,DE,8,3,0,3,0.0,0.0,0,0,,0,0,1,0,0,0,,Kansas,2018
+Kyle Mayberry,kyle-mayberry-1,/cfb/players/kyle-mayberry-1.html,CB,3,2,1,3,0.0,0.0,0,0,,0,1,0,0,0,0,,Kansas,2018
+Zach Nachbar,zach-nachbar-1,/cfb/players/zach-nachbar-1.html,WR,3,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2018
+Liam Jones,liam-jones-1,/cfb/players/liam-jones-1.html,K,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2018
+Elijah Jones,elijah-jones-5,/cfb/players/elijah-jones-5.html,CB,3,2,0,2,0.0,0.0,0,0,,0,1,0,0,0,0,,Kansas,2018
+Drew Harvey,drew-harvey-1,/cfb/players/drew-harvey-1.html,LB,5,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2018
+Kerr Johnson Jr.,kerr-johnson-jr-1,/cfb/players/kerr-johnson-jr-1.html,WR,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2018
+Najee Stevens-Mckenzie,najee-stevens-mckenzie-1,/cfb/players/najee-stevens-mckenzie-1.html,DE,11,0,1,1,0.0,0.0,1,4,4.0,0,0,0,0,0,0,,Kansas,2018
+Kendall Morris,kendall-morris-1,/cfb/players/kendall-morris-1.html,RB,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2018
+Jay Dineen,jay-dineen-1,/cfb/players/jay-dineen-1.html,LB,8,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2018
+Robert Topps III,robert-topps-iii-1,/cfb/players/robert-topps-iii-1.html,,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2018
+Ryan Schadler,ryan-schadler-1,/cfb/players/ryan-schadler-1.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2018
+Shaquille Richmond,shaquille-richmond-1,/cfb/players/shaquille-richmond-1.html,S,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2018
+Tom Barrett,tom-barrett-1,/cfb/players/tom-barrett-1.html,S,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2018
+Antione Frazier,antione-frazier-1,/cfb/players/antione-frazier-1.html,OL,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2018
+Andru Tovi,andru-tovi-1,/cfb/players/andru-tovi-1.html,OL,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2018
+Alex Fontana,alex-fontana-1,/cfb/players/alex-fontana-1.html,OL,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2018

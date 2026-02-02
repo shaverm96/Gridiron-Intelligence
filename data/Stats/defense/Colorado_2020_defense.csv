@@ -1,0 +1,39 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Nate Landman,nate-landman-1,/cfb/players/nate-landman-1.html,LB,5,39,14,53,9.0,4.0,0,0,,0,1,1,0,0,0,,Colorado,2020
+Carson Wells,carson-wells-1,/cfb/players/carson-wells-1.html,LB,6,23,14,37,16.0,6.5,1,14,14.0,0,4,0,0,0,0,,Colorado,2020
+Derrion Rakestraw,derrion-rakestraw-1,/cfb/players/derrion-rakestraw-1.html,S,6,25,11,36,1.5,0.0,0,0,,0,1,1,0,0,1,,Colorado,2020
+Isaiah Lewis,isaiah-lewis-3,/cfb/players/isaiah-lewis-3.html,S,6,22,11,33,2.5,1.0,0,0,,0,7,0,0,0,0,,Colorado,2020
+Akil Jones,akil-jones-1,/cfb/players/akil-jones-1.html,LB,5,13,14,27,5.0,0.0,0,0,,0,1,0,0,0,0,,Colorado,2020
+Christian Gonzalez,christian-gonzalez-2,/cfb/players/christian-gonzalez-2.html,CB,6,23,2,25,0.0,0.0,0,0,,0,5,0,0,0,0,,Colorado,2020
+Mustafa Johnson,mustafa-johnson-2,/cfb/players/mustafa-johnson-2.html,DE,6,9,11,20,6.0,3.0,0,0,,0,0,0,0,0,0,,Colorado,2020
+Jonathan Van Diest,jonathan-van-diest-1,/cfb/players/jonathan-van-diest-1.html,LB,6,13,6,19,0.0,0.0,0,0,,0,0,0,0,0,0,,Colorado,2020
+Mekhi Blackmon,mekhi-blackmon-1,/cfb/players/mekhi-blackmon-1.html,CB,6,13,2,15,1.0,0.0,1,1,1.0,0,6,0,0,0,0,,Colorado,2020
+Guy Thomas,guy-thomas-1,/cfb/players/guy-thomas-1.html,LB,5,4,6,10,1.0,0.0,0,0,,0,0,0,0,0,0,,Colorado,2020
+Mark Perry,mark-perry-3,/cfb/players/mark-perry-3.html,S,5,7,2,9,0.0,0.0,0,0,,0,0,0,0,0,0,,Colorado,2020
+Janaz Jordan,janaz-jordan-1,/cfb/players/janaz-jordan-1.html,DT,5,3,6,9,0.0,0.0,0,0,,0,0,0,0,0,0,,Colorado,2020
+Terrance Lang,terrance-lang-1,/cfb/players/terrance-lang-1.html,DE,5,4,5,9,4.0,0.5,0,0,,0,1,0,0,0,0,,Colorado,2020
+Jamar Montgomery,jamar-montgomery-1,/cfb/players/jamar-montgomery-1.html,LB,6,6,0,6,2.0,0.0,0,0,,0,0,1,0,0,1,,Colorado,2020
+Quinn Perry,quinn-perry-1,/cfb/players/quinn-perry-1.html,LB,6,5,1,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Colorado,2020
+K.J. Trujillo,kj-trujillo-1,/cfb/players/kj-trujillo-1.html,CB,6,5,0,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Colorado,2020
+Jalen Sami,jalen-sami-1,/cfb/players/jalen-sami-1.html,DT,5,2,2,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Colorado,2020
+Joshka Gustav,joshka-gustav-1,/cfb/players/joshka-gustav-1.html,LB,6,1,3,4,0.0,0.0,0,0,,0,1,0,0,0,0,,Colorado,2020
+Nigel Bethel Jr.,nigel-bethel-jr-1,/cfb/players/nigel-bethel-jr-1.html,CB,4,3,0,3,0.0,0.0,1,2,2.0,0,1,0,0,0,0,,Colorado,2020
+Jaylon Jackson,jaylon-jackson-1,/cfb/players/jaylon-jackson-1.html,WR,6,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Colorado,2020
+Na'im Rodman,naim-rodman-1,/cfb/players/naim-rodman-1.html,DT,6,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Colorado,2020
+Ray Robinson,ray-robinson-2,/cfb/players/ray-robinson-2.html,LB,6,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Colorado,2020
+Toren Pittman,toren-pittman-1,/cfb/players/toren-pittman-1.html,S,5,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Colorado,2020
+Mister Williams,mister-williams-1,/cfb/players/mister-williams-1.html,LB,5,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Colorado,2020
+Alec Pell,alec-pell-1,/cfb/players/alec-pell-1.html,TE,5,2,0,2,0.0,0.0,0,0,,0,0,1,0,0,0,,Colorado,2020
+Joe Davis,joe-davis-7,/cfb/players/joe-davis-7.html,RB,6,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Colorado,2020
+Jeremiah Doss,jeremiah-doss-1,/cfb/players/jeremiah-doss-1.html,DE,6,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Colorado,2020
+Curtis Appleton II,curtis-appleton-ii-1,/cfb/players/curtis-appleton-ii-1.html,,6,0,2,2,0.0,0.0,1,6,6.0,0,1,0,0,0,0,,Colorado,2020
+Curtis Appleton,curtis-appleton-1,/cfb/players/curtis-appleton-1.html,S,3,0,2,2,0.0,0.0,1,6,6.0,0,0,0,0,0,0,,Colorado,2020
+Chris Miller,chris-miller-12,/cfb/players/chris-miller-12.html,S,2,2,0,2,1.0,0.0,0,0,,0,0,0,0,0,0,,Colorado,2020
+Matt Lynch,matt-lynch-1,/cfb/players/matt-lynch-1.html,TE,5,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Colorado,2020
+Mac Willis,mac-willis-1,/cfb/players/mac-willis-1.html,PK,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Colorado,2020
+Joshua Jynes,joshua-jynes-1,/cfb/players/joshua-jynes-1.html,C,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Colorado,2020
+Jarek Broussard,jarek-broussard-1,/cfb/players/jarek-broussard-1.html,RB,6,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Colorado,2020
+Sam Noyer,sam-noyer-1,/cfb/players/sam-noyer-1.html,QB,6,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Colorado,2020
+Anthony Lyle,anthony-lyle-1,/cfb/players/anthony-lyle-1.html,DB,6,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Colorado,2020
+Alvin Williams,alvin-williams-1,/cfb/players/alvin-williams-1.html,LB,6,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Colorado,2020
+William Sherman,william-sherman-1,/cfb/players/william-sherman-1.html,OL,6,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Colorado,2020

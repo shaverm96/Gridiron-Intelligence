@@ -1,0 +1,46 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Francisco Mauigoa,francisco-mauigoa-1,/cfb/players/francisco-mauigoa-1.html,LB,13,51,45,96,11.0,2.0,1,2,2.0,0,5,0,0,0,1,,Miami (FL),2024
+Wesley Bissainthe,wesley-bissainthe-1,/cfb/players/wesley-bissainthe-1.html,LB,13,36,23,59,5.0,2.0,1,0,0.0,0,1,0,0,0,0,,Miami (FL),2024
+Jaden Harris,jaden-harris-2,/cfb/players/jaden-harris-2.html,DB,13,26,14,40,3.5,1.5,1,0,0.0,0,2,0,0,0,0,,Miami (FL),2024
+Tyler Baron,tyler-baron-1,/cfb/players/tyler-baron-1.html,DL,13,18,20,38,11.0,5.5,0,0,,0,0,0,0,0,1,,Miami (FL),2024
+Mishael Powell,mishael-powell-1,/cfb/players/mishael-powell-1.html,CB,13,28,10,38,2.0,1.0,5,145,29.0,1,6,0,0,0,0,,Miami (FL),2024
+D'Yoni Hill,dyoni-hill-1,/cfb/players/dyoni-hill-1.html,DB,11,29,4,33,1.0,0.0,0,0,,0,1,0,0,0,0,,Miami (FL),2024
+Akheem Mesidor,akheem-mesidor-1,/cfb/players/akheem-mesidor-1.html,DL,13,17,15,32,9.0,5.5,0,0,,0,0,0,0,0,0,,Miami (FL),2024
+Simeon Barrow,simeon-barrow-1,/cfb/players/simeon-barrow-1.html,DL,13,13,17,30,8.0,5.5,0,0,,0,1,0,0,0,1,,Miami (FL),2024
+"Romanas Frederique, Jr.",romanas-frederique-jr-1,/cfb/players/romanas-frederique-jr-1.html,DB,13,23,7,30,1.0,0.0,1,30,30.0,0,7,0,0,0,0,,Miami (FL),2024
+Daryl Porter Jr.,daryl-porter-jr-1,/cfb/players/daryl-porter-jr-1.html,CB,12,18,10,28,0.0,0.0,0,0,,0,7,0,0,0,0,,Miami (FL),2024
+Raul Aguirre Jr.,raul-aguirre-jr-1,/cfb/players/raul-aguirre-jr-1.html,LB,10,13,14,27,1.5,1.0,0,0,,0,0,1,0,1,0,,Miami (FL),2024
+Ja'Dais Richard,jadais-richard-1,/cfb/players/jadais-richard-1.html,DB,9,22,5,27,1.5,0.0,1,15,15.0,0,3,0,0,0,1,,Miami (FL),2024
+Jaylin Alderman,jaylin-alderman-1,/cfb/players/jaylin-alderman-1.html,LB,11,11,13,24,3.5,1.0,0,0,,0,0,0,0,0,0,,Miami (FL),2024
+Rueben Bain Jr.,rueben-bain-jr-1,/cfb/players/rueben-bain-jr-1.html,DL,9,14,9,23,5.5,3.5,0,0,,0,0,0,0,0,0,,Miami (FL),2024
+Elijah Alston,elijah-alston-1,/cfb/players/elijah-alston-1.html,DL,8,11,8,19,3.5,2.5,1,3,3.0,0,1,0,0,0,0,,Miami (FL),2024
+C.J. Clark,cj-clark-1,/cfb/players/cj-clark-1.html,DT,13,7,12,19,2.0,0.5,0,0,,0,0,0,0,0,0,,Miami (FL),2024
+Zaquan Patterson,zaquan-patterson-1,/cfb/players/zaquan-patterson-1.html,DB,12,15,4,19,0.0,0.0,0,0,,0,3,0,0,0,0,,Miami (FL),2024
+Ahmad Moten,ahmad-moten-1,/cfb/players/ahmad-moten-1.html,DL,13,7,11,18,3.5,1.0,0,0,,0,2,0,0,0,0,,Miami (FL),2024
+Malik Bryant,malik-bryant-2,/cfb/players/malik-bryant-2.html,LB,12,5,12,17,5.0,1.5,0,0,,0,0,0,0,0,0,,Miami (FL),2024
+Markeith Williams,markeith-williams-1,/cfb/players/markeith-williams-1.html,DB,12,6,7,13,0.0,0.0,0,0,,0,1,0,0,0,0,,Miami (FL),2024
+Chase Smith,chase-smith-1,/cfb/players/chase-smith-1.html,LB,13,6,7,13,1.0,0.0,0,0,,0,1,0,0,0,0,,Miami (FL),2024
+Cameron Pruitt,cameron-pruitt-1,/cfb/players/cameron-pruitt-1.html,LB,13,6,5,11,1.5,0.0,1,0,0.0,0,1,3,2,0,1,,Miami (FL),2024
+Marley Cook,marley-cook-1,/cfb/players/marley-cook-1.html,DL,12,2,7,9,0.0,0.0,0,0,,0,0,0,0,0,0,,Miami (FL),2024
+Robert Stafford,robert-stafford-1,/cfb/players/robert-stafford-1.html,DB,12,2,5,7,0.0,0.0,0,0,,0,1,0,0,0,0,,Miami (FL),2024
+Justin Scott,justin-scott-3,/cfb/players/justin-scott-3.html,DL,12,4,3,7,2.0,1.0,0,0,,0,0,0,0,0,0,,Miami (FL),2024
+Dylan Day,dylan-day-1,/cfb/players/dylan-day-1.html,DB,12,6,1,7,0.0,0.0,0,0,,0,0,0,0,0,1,,Miami (FL),2024
+Nick Kelly,nick-kelly-3,/cfb/players/nick-kelly-3.html,DB,11,2,3,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Miami (FL),2024
+Josh Horton,josh-horton-1,/cfb/players/josh-horton-1.html,DL,5,2,2,4,0.5,0.0,0,0,,0,0,0,0,0,0,,Miami (FL),2024
+Adarius Hayes,adarius-hayes-1,/cfb/players/adarius-hayes-1.html,LB,11,1,3,4,0.0,0.0,1,25,25.0,0,1,0,0,0,0,,Miami (FL),2024
+Jacolby George,jacolby-george-1,/cfb/players/jacolby-george-1.html,WR,13,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Miami (FL),2024
+Bobby Washington Jr.,bobby-washington-jr-1,/cfb/players/bobby-washington-jr-1.html,LB,10,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Miami (FL),2024
+Robby Washington,robby-washington-1,/cfb/players/robby-washington-1.html,WR,7,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Miami (FL),2024
+Damari Brown,damari-brown-1,/cfb/players/damari-brown-1.html,DB,2,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Miami (FL),2024
+Isaiah Taylor,isaiah-taylor-2,/cfb/players/isaiah-taylor-2.html,DB,4,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Miami (FL),2024
+Armondo Blount,armondo-blount-1,/cfb/players/armondo-blount-1.html,DL,4,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Miami (FL),2024
+Myles Mooyoung,myles-mooyoung-1,/cfb/players/myles-mooyoung-1.html,DB,3,1,1,2,0.0,0.0,1,0,0.0,0,0,0,0,0,0,,Miami (FL),2024
+"Booker Pickett, Jr.",booker-pickett-jr-1,/cfb/players/booker-pickett-jr-1.html,DL,4,2,0,2,1.0,1.0,0,0,,0,0,0,0,0,0,,Miami (FL),2024
+Anthony Campbell,anthony-campbell-2,/cfb/players/anthony-campbell-2.html,DE,8,0,1,1,0.5,0.0,0,0,,0,1,0,0,0,0,,Miami (FL),2024
+Mason Napper,mason-napper-1,/cfb/players/mason-napper-1.html,LS,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Miami (FL),2024
+Braylon Lamar,braylon-lamar-1,/cfb/players/braylon-lamar-1.html,LB,3,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Miami (FL),2024
+Riley Williams,riley-williams-3,/cfb/players/riley-williams-3.html,TE,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Miami (FL),2024
+Cameron Ward,cameron-ward-1,/cfb/players/cameron-ward-1.html,QB,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,"H-4,AA",Miami (FL),2024
+Elias Rudolph,elias-rudolph-1,/cfb/players/elias-rudolph-1.html,DL,2,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Miami (FL),2024
+Cole McConathy II,cole-mcconathy-ii-1,/cfb/players/cole-mcconathy-ii-1.html,DL,8,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Miami (FL),2024
+Elijah Arroyo,elijah-arroyo-1,/cfb/players/elijah-arroyo-1.html,TE,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Miami (FL),2024

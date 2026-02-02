@@ -1,0 +1,48 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Shilo Sanders,shilo-sanders-2,/cfb/players/shilo-sanders-2.html,S,11,55,15,70,0.5,0.0,1,80,80.0,1,3,1,0,0,4,,Colorado,2023
+LaVonta Bentley,lavonta-bentley-1,/cfb/players/lavonta-bentley-1.html,LB,12,40,28,68,11.0,5.0,0,0,,0,2,0,0,0,0,,Colorado,2023
+Trevor Woods,trevor-woods-1,/cfb/players/trevor-woods-1.html,S,9,42,14,56,0.5,0.5,2,0,0.0,0,3,1,0,0,1,,Colorado,2023
+Rodrick Ward,rodrick-ward-1,/cfb/players/rodrick-ward-1.html,S,12,37,15,52,1.0,0.0,0,0,,0,2,0,0,0,1,,Colorado,2023
+Jordan Domineck,jordan-domineck-1,/cfb/players/jordan-domineck-1.html,DL,12,31,20,51,12.0,5.0,0,0,,0,2,1,5,0,0,,Colorado,2023
+Cam'Ron Silmon-Craig,camron-silmon-craig-1,/cfb/players/camron-silmon-craig-1.html,S,12,32,12,44,2.0,1.0,3,4,1.3,0,2,1,0,0,0,,Colorado,2023
+Omarion Cooper,omarion-cooper-1,/cfb/players/omarion-cooper-1.html,DB,9,32,5,37,2.0,1.0,0,0,,0,5,1,0,0,1,,Colorado,2023
+Marvin Ham II,marvin-ham-ii-1,/cfb/players/marvin-ham-ii-1.html,LB,11,24,12,36,1.5,1.0,0,0,,0,1,0,0,0,0,,Colorado,2023
+Juwan Mitchell,juwan-mitchell-1,/cfb/players/juwan-mitchell-1.html,LB,7,21,11,32,2.5,0.0,0,0,,0,0,0,0,0,0,,Colorado,2023
+Amari McNeill,amari-mcneill-1,/cfb/players/amari-mcneill-1.html,DL,12,22,9,31,7.0,3.0,0,0,,0,1,0,0,0,1,,Colorado,2023
+Travis Hunter,travis-hunter-2,/cfb/players/travis-hunter-2.html,CB,9,22,8,30,2.0,0.0,3,-10,-3.3,0,5,0,0,0,0,AA,Colorado,2023
+Shane Cokes,shane-cokes-1,/cfb/players/shane-cokes-1.html,DL,12,12,17,29,0.0,0.0,0,0,,0,1,0,0,0,0,,Colorado,2023
+Jaden Milliner-Jones,jaden-milliner-jones-1,/cfb/players/jaden-milliner-jones-1.html,S,12,19,6,25,0.0,0.0,0,0,,0,3,0,0,0,0,,Colorado,2023
+Taijh Alston,taijh-alston-1,/cfb/players/taijh-alston-1.html,DE,11,14,9,23,5.0,2.5,0,0,,0,2,0,0,0,0,,Colorado,2023
+Myles Slusher,myles-slusher-1,/cfb/players/myles-slusher-1.html,DB,4,16,1,17,1.5,1.0,0,0,,0,1,0,0,0,0,,Colorado,2023
+Derrick McLendon II,derrick-mclendon-1,/cfb/players/derrick-mclendon-1.html,DE,12,10,4,14,1.5,1.5,0,0,,0,0,2,0,0,0,,Colorado,2023
+Deeve Harris,deeve-harris-1,/cfb/players/deeve-harris-1.html,DE,12,5,9,14,1.0,0.0,0,0,,0,0,0,0,0,0,,Colorado,2023
+Cormani McClain,cormani-mcclain-1,/cfb/players/cormani-mcclain-1.html,CB,9,6,7,13,1.0,0.0,0,0,,0,2,0,0,0,0,,Colorado,2023
+Demouy Kennedy,demouy-kennedy-1,/cfb/players/demouy-kennedy-1.html,LB,10,4,9,13,2.0,0.0,0,0,,0,0,0,0,0,0,,Colorado,2023
+Arden Walker,arden-walker-1,/cfb/players/arden-walker-1.html,DL,12,5,7,12,1.5,1.0,0,0,,0,0,1,0,0,0,,Colorado,2023
+Kyndrich Breedlove,kyndrich-breedlove-1,/cfb/players/kyndrich-breedlove-1.html,CB,9,11,1,12,1.0,0.0,0,0,,0,0,0,0,0,1,,Colorado,2023
+Carter Stoutmire,carter-stoutmire-1,/cfb/players/carter-stoutmire-1.html,CB,9,11,0,11,1.0,0.0,0,0,,0,0,0,0,0,0,,Colorado,2023
+Jeremiah Brown,jeremiah-brown-3,/cfb/players/jeremiah-brown-3.html,LB,12,7,4,11,0.0,0.0,0,0,,0,1,0,0,0,0,,Colorado,2023
+Chazz Wallace,chazz-wallace-1,/cfb/players/chazz-wallace-1.html,DT,10,4,6,10,1.5,1.5,0,0,,0,0,0,0,0,0,,Colorado,2023
+Leonard Payne,leonard-payne-1,/cfb/players/leonard-payne-1.html,DL,12,6,4,10,2.0,2.0,0,0,,0,1,0,0,0,1,,Colorado,2023
+Jahquez Robinson,jahquez-robinson-1,/cfb/players/jahquez-robinson-1.html,DB,7,6,3,9,1.0,0.0,1,0,0.0,0,0,0,0,0,0,,Colorado,2023
+Khairi Manns,khairi-manns-1,/cfb/players/khairi-manns-1.html,DL,11,6,3,9,1.0,1.0,0,0,,0,0,0,0,0,0,,Colorado,2023
+Bishop Thomas,bishop-thomas-1,/cfb/players/bishop-thomas-1.html,DL,9,6,0,6,2.0,0.0,0,0,,0,1,1,0,0,0,,Colorado,2023
+JJ Hawkins,jj-hawkins-1,/cfb/players/jj-hawkins-1.html,DE,10,3,2,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Colorado,2023
+Brendan Gant,brendan-gant-1,/cfb/players/brendan-gant-1.html,DB,4,4,1,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Colorado,2023
+Kavosiey Smoke,kavosiey-smoke-1,/cfb/players/kavosiey-smoke-1.html,RB,10,5,0,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Colorado,2023
+Anthony Hankerson,anthony-hankerson-1,/cfb/players/anthony-hankerson-1.html,RB,12,3,2,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Colorado,2023
+Adam Hopkins,adam-hopkins-1,/cfb/players/adam-hopkins-1.html,DB,3,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Colorado,2023
+Jaylen Ellis,jaylen-ellis-1,/cfb/players/jaylen-ellis-1.html,WR,7,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Colorado,2023
+Sav'ell Smalls,savell-smalls-1,/cfb/players/savell-smalls-1.html,LB,4,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Colorado,2023
+Taje McCoy,taje-mccoy-1,/cfb/players/taje-mccoy-1.html,LB,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Colorado,2023
+Travis Jay,travis-jay-1,/cfb/players/travis-jay-1.html,DB,4,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Colorado,2023
+Xavier Weaver,xavier-weaver-1,/cfb/players/xavier-weaver-1.html,WR,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Colorado,2023
+Noah Young,noah-young-2,/cfb/players/noah-young-2.html,LB,2,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Colorado,2023
+Mark Vassett,mark-vassett-1,/cfb/players/mark-vassett-1.html,P,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Colorado,2023
+Kaleb Mathis,kaleb-mathis-1,/cfb/players/kaleb-mathis-1.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Colorado,2023
+Jimmy Horn Jr.,jimmy-horn-jr-1,/cfb/players/jimmy-horn-jr-1.html,WR,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Colorado,2023
+Javon Antonio,javon-antonio-1,/cfb/players/javon-antonio-1.html,WR,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Colorado,2023
+Jace Feely,jace-feely-1,/cfb/players/jace-feely-1.html,K,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Colorado,2023
+Charlie Offerdahl,charlie-offerdahl-1,/cfb/players/charlie-offerdahl-1.html,RB,8,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Colorado,2023
+Cameron Warchuck,cameron-warchuck-1,/cfb/players/cameron-warchuck-1.html,LS,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Colorado,2023
+Ahmir McGee,ahmir-mcgee-1,/cfb/players/ahmir-mcgee-1.html,RB,3,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Colorado,2023

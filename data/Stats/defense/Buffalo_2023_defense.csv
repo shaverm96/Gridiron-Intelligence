@@ -1,0 +1,42 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Joe Andreessen,joe-andreessen-1,/cfb/players/joe-andreessen-1.html,LB,12,55,35,90,12.0,1.0,0,0,,0,2,0,0,0,1,,Buffalo,2023
+Devin Grant,devin-grant-2,/cfb/players/devin-grant-2.html,S,12,55,24,79,1.5,0.0,5,167,33.4,2,4,2,3,0,1,,Buffalo,2023
+Khalil Murdock,khalil-murdock-1,/cfb/players/khalil-murdock-1.html,LB,12,36,24,60,9.5,2.0,0,0,,0,0,0,0,0,4,,Buffalo,2023
+Marcus Fuqua,marcus-fuqua-1,/cfb/players/marcus-fuqua-1.html,DB,12,38,19,57,4.0,0.0,0,0,,0,1,2,5,0,0,,Buffalo,2023
+Max Michel,max-michel-1,/cfb/players/max-michel-1.html,DE,11,25,21,46,9.5,5.0,0,0,,0,4,1,0,0,4,,Buffalo,2023
+Charles McCartherens,charles-mccartherens-1,/cfb/players/charles-mccartherens-1.html,CB,12,27,7,34,1.0,0.0,3,32,10.7,0,3,0,0,0,1,,Buffalo,2023
+Shaun Dolac,shaun-dolac-1,/cfb/players/shaun-dolac-1.html,LB,4,17,15,32,2.5,0.0,1,32,32.0,0,0,0,0,0,0,,Buffalo,2023
+Dion Crawford,dion-crawford-1,/cfb/players/dion-crawford-1.html,LB,11,23,8,31,1.0,0.0,0,0,,0,1,0,0,0,0,,Buffalo,2023
+Solomon Brown,solomon-brown-1,/cfb/players/solomon-brown-1.html,DB,8,16,10,26,0.5,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2023
+Jyaire Stevens,jyaire-stevens-1,/cfb/players/jyaire-stevens-1.html,DE,12,13,12,25,4.0,1.0,0,0,,0,2,0,0,0,0,,Buffalo,2023
+George Wolo,george-wolo-1,/cfb/players/george-wolo-1.html,DL,12,12,11,23,4.5,3.5,0,0,,0,1,0,0,0,0,,Buffalo,2023
+Daymond Williams,daymond-williams-1,/cfb/players/daymond-williams-1.html,DT,12,9,13,22,5.0,1.0,0,0,,0,2,1,0,0,0,,Buffalo,2023
+Clevester Hines,clevester-hines-1,/cfb/players/clevester-hines-1.html,CB,10,17,5,22,2.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2023
+Devonyal Lofton,devonyal-lofton-1,/cfb/players/devonyal-lofton-1.html,DE,12,12,8,20,3.0,1.0,0,0,,0,0,0,0,0,0,,Buffalo,2023
+C.J. Bazile,cj-bazile-1,/cfb/players/cj-bazile-1.html,DL,12,12,8,20,3.5,2.0,0,0,,0,0,0,0,0,0,,Buffalo,2023
+Jayden Oliver,jayden-oliver-1,/cfb/players/jayden-oliver-1.html,CB,8,12,6,18,0.5,0.0,1,1,1.0,0,5,0,0,0,0,,Buffalo,2023
+Daishon Folsom,daishon-folsom-1,/cfb/players/daishon-folsom-1.html,DT,12,8,8,16,1.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2023
+Demetrius Harris,demetrius-harris-2,/cfb/players/demetrius-harris-2.html,S,7,9,5,14,2.0,0.0,0,0,,0,2,0,0,0,0,,Buffalo,2023
+Jaylon Bass,jaylon-bass-1,/cfb/players/jaylon-bass-1.html,DT,12,5,9,14,3.0,1.5,1,0,0.0,0,1,1,0,0,1,,Buffalo,2023
+Caleb Offord,caleb-offord-1,/cfb/players/caleb-offord-1.html,CB,4,10,2,12,0.0,0.0,0,0,,0,4,0,0,0,0,,Buffalo,2023
+Amonte' Strothers,amonte-strothers-1,/cfb/players/amonte-strothers-1.html,CB,7,9,3,12,1.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2023
+Victor Snow,victor-snow-1,/cfb/players/victor-snow-1.html,WR,10,9,2,11,0.0,0.0,0,0,,0,0,0,0,0,1,,Buffalo,2023
+Jonathan Capo,jonathan-capo-1,/cfb/players/jonathan-capo-1.html,S,12,4,4,8,0.0,0.0,0,0,,0,0,1,0,0,0,,Buffalo,2023
+Al-Jay Henderson,al-jay-henderson-1,/cfb/players/al-jay-henderson-1.html,RB,10,1,3,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2023
+Jalen McNair,jalen-mcnair-1,/cfb/players/jalen-mcnair-1.html,DB,1,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2023
+Tadd Barr,tadd-barr-1,/cfb/players/tadd-barr-1.html,WR,12,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2023
+Kameron Olds,kameron-olds-1,/cfb/players/kameron-olds-1.html,DE,10,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2023
+Gio De Leon,gio-de-leon-1,/cfb/players/gio-de-leon-1.html,LB,6,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2023
+Evan Davis,evan-davis-3,/cfb/players/evan-davis-3.html,LS,12,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2023
+Darrell Harding Jr.,darrell-harding-jr-1,/cfb/players/darrell-harding-jr-1.html,WR,12,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2023
+Cornell Evans,cornell-evans-1,/cfb/players/cornell-evans-1.html,DT,5,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2023
+Trevor Brock,trevor-brock-1,/cfb/players/trevor-brock-1.html,OL,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2023
+Jake Zimmer,jake-zimmer-1,/cfb/players/jake-zimmer-1.html,LB,5,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2023
+Ron Cook Jr.,ron-cook-jr-1,/cfb/players/ron-cook-jr-1.html,RB,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2023
+Mike Washington,mike-washington-5,/cfb/players/mike-washington-5.html,RB,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2023
+Micah Woods,micah-woods-1,/cfb/players/micah-woods-1.html,WR,2,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2023
+Marlyn Johnson,marlyn-johnson-1,/cfb/players/marlyn-johnson-1.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2023
+Joseph Giggie,joseph-giggie-1,/cfb/players/joseph-giggie-1.html,RB,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2023
+Isaiah Wright,isaiah-wright-3,/cfb/players/isaiah-wright-3.html,OL,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2023
+Anthony Venneri,anthony-venneri-1,/cfb/players/anthony-venneri-1.html,K,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2023
+Alex McNulty,alex-mcnulty-1,/cfb/players/alex-mcnulty-1.html,K,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2023

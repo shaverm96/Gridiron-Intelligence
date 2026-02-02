@@ -1,0 +1,47 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Devin Lloyd,devin-lloyd-1,/cfb/players/devin-lloyd-1.html,LB,14,65,45,110,22.0,8.0,4,36,9.0,2,6,1,0,0,0,AA,Utah,2021
+Nephi Sewell,nephi-sewell-1,/cfb/players/nephi-sewell-1.html,LB,13,54,35,89,6.5,0.0,1,13,13.0,0,0,0,0,0,1,,Utah,2021
+Brandon McKinney,brandon-mckinney-3,/cfb/players/brandon-mckinney-3.html,S,14,38,25,63,4.0,1.0,0,0,,0,2,0,0,0,1,,Utah,2021
+Clark Phillips III,clark-phillips-iii-1,/cfb/players/clark-phillips-iii-1.html,CB,14,46,17,63,1.0,0.0,2,54,27.0,1,13,0,0,0,2,,Utah,2021
+Vonte Davis,vonte-davis-1,/cfb/players/vonte-davis-1.html,S,14,49,13,62,0.5,0.0,1,30,30.0,0,0,0,0,0,1,,Utah,2021
+Cole Bishop,cole-bishop-1,/cfb/players/cole-bishop-1.html,S,11,35,20,55,9.0,3.0,0,0,,0,5,1,0,0,0,,Utah,2021
+Mika Tafua,mika-tafua-1,/cfb/players/mika-tafua-1.html,DE,14,31,18,49,13.0,9.5,0,0,,0,3,1,0,0,1,,Utah,2021
+Karene Reid,karene-reid-1,/cfb/players/karene-reid-1.html,LB,10,22,23,45,2.0,1.0,1,13,13.0,0,2,0,0,0,0,,Utah,2021
+Van Fillinger,van-fillinger-1,/cfb/players/van-fillinger-1.html,DE,14,25,17,42,9.5,5.5,0,0,,0,0,0,0,0,0,,Utah,2021
+Junior Tafuna,junior-tafuna-1,/cfb/players/junior-tafuna-1.html,DT,13,22,11,33,5.5,4.5,0,0,,0,1,1,0,0,0,,Utah,2021
+Malone Mataele,malone-mataele-1,/cfb/players/malone-mataele-1.html,CB,11,17,11,28,2.5,0.0,1,3,3.0,0,2,0,0,0,0,,Utah,2021
+Zemaiah Vaughn,zemaiah-vaughn-1,/cfb/players/zemaiah-vaughn-1.html,S,13,21,4,25,3.0,0.5,0,0,,0,4,0,0,0,0,,Utah,2021
+Faybian Marks,faybian-marks-1,/cfb/players/faybian-marks-1.html,CB,10,20,5,25,0.0,0.0,0,0,,0,2,0,0,0,0,,Utah,2021
+Kamo'i Latu,kamoi-latu-1,/cfb/players/kamoi-latu-1.html,S,14,11,8,19,0.0,0.0,0,0,,0,3,0,0,0,0,,Utah,2021
+Xavier Carlton,xavier-carlton-1,/cfb/players/xavier-carlton-1.html,DE,11,9,9,18,4.0,1.0,0,0,,0,1,0,0,0,0,,Utah,2021
+Hauati Pututau,hauati-pututau-1,/cfb/players/hauati-pututau-1.html,DT,14,12,6,18,4.5,3.0,0,0,,0,4,0,0,0,0,,Utah,2021
+Jonah Elliss,jonah-elliss-1,/cfb/players/jonah-elliss-1.html,LB,14,9,6,15,1.0,1.0,0,0,,0,0,2,0,0,0,,Utah,2021
+Devin Kaufusi,devin-kaufusi-1,/cfb/players/devin-kaufusi-1.html,DT,14,4,9,13,1.5,0.0,0,0,,0,1,0,0,0,0,,Utah,2021
+Hayden Furey,hayden-furey-1,/cfb/players/hayden-furey-1.html,LB,14,9,4,13,2.0,0.0,0,0,,0,2,0,0,0,0,,Utah,2021
+Micah Bernard,micah-bernard-1,/cfb/players/micah-bernard-1.html,RB,14,10,2,12,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah,2021
+Aliki Vimahi,aliki-vimahi-1,/cfb/players/aliki-vimahi-1.html,DT,10,9,3,12,2.0,2.0,0,0,,0,3,0,0,0,0,,Utah,2021
+Connor O'Toole,connor-otoole-1,/cfb/players/connor-otoole-1.html,WR,14,5,5,10,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah,2021
+Jatravis Broughton,jatravis-broughton-1,/cfb/players/jatravis-broughton-1.html,CB,2,7,2,9,1.0,0.0,0,0,,0,3,0,0,0,0,,Utah,2021
+Trey Reynolds,trey-reynolds-1,/cfb/players/trey-reynolds-1.html,LB,14,2,4,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah,2021
+Andrew Mata'afa,andrew-mataafa-1,/cfb/players/andrew-mataafa-1.html,LB,13,4,1,5,0.0,0.0,0,0,,0,1,0,0,0,0,,Utah,2021
+Viane Moala,viane-moala-1,/cfb/players/viane-moala-1.html,DT,3,1,3,4,0.0,0.0,0,0,,0,1,0,0,0,0,,Utah,2021
+Kyrese Rowan,kyrese-rowan-1,/cfb/players/kyrese-rowan-1.html,WR,11,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah,2021
+Tennessee Pututau,tennessee-pututau-1,/cfb/players/tennessee-pututau-1.html,DT,9,2,2,4,1.0,1.0,0,0,,0,0,0,0,0,0,,Utah,2021
+Miki Suguturaga,miki-suguturaga-1,/cfb/players/miki-suguturaga-1.html,DE,7,3,1,4,1.0,1.0,0,0,,0,0,0,0,0,1,,Utah,2021
+Aaron Lowe,aaron-lowe-1,/cfb/players/aaron-lowe-1.html,CB,4,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah,2021
+Thomas Yassmin,thomas-yassmin-1,/cfb/players/thomas-yassmin-1.html,TE,13,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah,2021
+Caine Savage,caine-savage-1,/cfb/players/caine-savage-1.html,CB,9,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah,2021
+LaCarea Pleasant-Johnson,lacarea-pleasant-johnson-1,/cfb/players/lacarea-pleasant-johnson-1.html,CB,6,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah,2021
+Faysal Aden,faysal-aden-1,/cfb/players/faysal-aden-1.html,RB,3,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah,2021
+Bryson Reeves,bryson-reeves-1,/cfb/players/bryson-reeves-1.html,WR,6,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah,2021
+Devaughn Vele,devaughn-vele-1,/cfb/players/devaughn-vele-1.html,WR,14,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah,2021
+Cameron Peasley,cameron-peasley-1,/cfb/players/cameron-peasley-1.html,P,9,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah,2021
+Cameron Rising,cameron-rising-1,/cfb/players/cameron-rising-1.html,QB,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah,2021
+Nick Ford,nick-ford-2,/cfb/players/nick-ford-2.html,OL,14,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah,2021
+Solomon Enis,solomon-enis-1,/cfb/players/solomon-enis-1.html,WR,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah,2021
+Charlie Brewer,charlie-brewer-1,/cfb/players/charlie-brewer-1.html,QB,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah,2021
+Dalton Kincaid,dalton-kincaid-1,/cfb/players/dalton-kincaid-1.html,TE,14,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah,2021
+Britain Covey,britain-covey-1,/cfb/players/britain-covey-1.html,WR,14,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah,2021
+Braedon E. Daniels,braedon-e-daniels-1,/cfb/players/braedon-e-daniels-1.html,OL,14,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah,2021
+Zach Vaughn,zach-vaughn-1,/cfb/players/zach-vaughn-1.html,WR,1,1,0,1,0.0,0.0,0,0,,0,1,0,0,0,0,,Utah,2021
+Fua Pututau,fua-pututau-1,/cfb/players/fua-pututau-1.html,DT,3,0,1,1,0.5,0.0,0,0,,0,1,0,0,0,0,,Utah,2021

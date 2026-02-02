@@ -1,0 +1,44 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Kevin Winston,kevin-winston-1,/cfb/players/kevin-winston-1.html,S,13,34,27,61,2.5,0.0,1,0,0.0,0,5,2,1,0,0,,Penn State,2023
+Kobe King,kobe-king-1,/cfb/players/kobe-king-1.html,LB,13,39,20,59,6.0,1.5,0,0,,0,0,1,0,0,0,,Penn State,2023
+Curtis Jacobs,curtis-jacobs-1,/cfb/players/curtis-jacobs-1.html,LB,13,31,18,49,9.0,2.5,0,0,,0,0,2,0,0,0,,Penn State,2023
+Abdul Carter,abdul-carter-1,/cfb/players/abdul-carter-1.html,LB,13,25,23,48,5.5,4.5,1,18,18.0,0,5,0,0,0,1,,Penn State,2023
+Jaylen Reed,jaylen-reed-1,/cfb/players/jaylen-reed-1.html,S,13,32,14,46,4.0,1.0,2,17,8.5,0,1,0,0,0,0,,Penn State,2023
+Adisa Isaac,adisa-isaac-1,/cfb/players/adisa-isaac-1.html,DE,13,23,14,37,16.0,7.5,0,0,,0,0,1,0,0,1,,Penn State,2023
+Kalen King,kalen-king-1,/cfb/players/kalen-king-1.html,CB,12,20,9,29,1.5,0.0,0,0,,0,2,0,0,0,0,,Penn State,2023
+Dominic Deluca,dominic-deluca-1,/cfb/players/dominic-deluca-1.html,LB,13,17,12,29,4.5,1.0,2,61,30.5,1,3,0,0,0,2,,Penn State,2023
+Johnny Dixon,johnny-dixon-2,/cfb/players/johnny-dixon-2.html,CB,12,20,6,26,5.5,4.5,1,21,21.0,0,3,0,0,0,1,,Penn State,2023
+Dvon Ellies,dvon-ellies-1,/cfb/players/dvon-ellies-1.html,DT,13,14,12,26,5.0,0.0,0,0,,0,0,0,0,0,0,,Penn State,2023
+Dani Dennis-Sutton,dani-dennis-sutton-1,/cfb/players/dani-dennis-sutton-1.html,DE,13,17,9,26,6.0,3.5,0,0,,0,1,1,0,0,2,,Penn State,2023
+Zakee Wheatley,zakee-wheatley-1,/cfb/players/zakee-wheatley-1.html,S,13,14,10,24,0.5,0.0,0,0,,0,0,0,0,0,0,,Penn State,2023
+Cam Miller,cam-miller-1,/cfb/players/cam-miller-1.html,CB,13,19,5,24,4.0,3.0,1,0,0.0,0,3,0,0,0,0,,Penn State,2023
+Tony Rojas,tony-rojas-1,/cfb/players/tony-rojas-1.html,LB,13,8,14,22,3.5,0.0,1,20,20.0,0,0,0,0,0,1,,Penn State,2023
+Daequan Hardy,daequan-hardy-1,/cfb/players/daequan-hardy-1.html,CB,11,12,10,22,3.0,1.0,2,34,17.0,0,7,0,0,0,0,,Penn State,2023
+Tyler Elsdon,tyler-elsdon-1,/cfb/players/tyler-elsdon-1.html,LB,13,16,5,21,1.0,0.0,0,0,,0,2,1,0,0,0,,Penn State,2023
+Keon Wylie,keon-wylie-1,/cfb/players/keon-wylie-1.html,LB,13,13,4,17,5.0,3.0,0,0,,0,0,0,0,0,0,,Penn State,2023
+Keaton Ellis,keaton-ellis-1,/cfb/players/keaton-ellis-1.html,S,13,13,4,17,0.0,0.0,1,6,6.0,0,0,0,0,0,1,,Penn State,2023
+Zane Durant,zane-durant-1,/cfb/players/zane-durant-1.html,DT,13,12,5,17,5.5,2.0,0,0,,0,0,1,14,0,0,,Penn State,2023
+Zuriah Fisher,zuriah-fisher-1,/cfb/players/zuriah-fisher-1.html,DE,13,10,6,16,3.5,3.5,0,0,,0,0,1,0,0,0,,Penn State,2023
+Coziah Izzard,coziah-izzard-1,/cfb/players/coziah-izzard-1.html,DT,11,7,9,16,3.5,3.0,0,0,,0,0,0,0,0,1,,Penn State,2023
+Demeioun Robinson,demeioun-robinson-1,/cfb/players/demeioun-robinson-1.html,DE,10,12,3,15,7.5,4.0,0,0,,0,1,1,0,0,2,,Penn State,2023
+Zion Tracy,zion-tracy-1,/cfb/players/zion-tracy-1.html,CB,13,10,3,13,0.0,0.0,0,0,,0,0,0,0,0,0,,Penn State,2023
+Hakeem Beamon,hakeem-beamon-1,/cfb/players/hakeem-beamon-1.html,DT,13,8,4,12,1.5,1.0,0,0,,0,0,0,0,0,0,,Penn State,2023
+Jordan Van Den Berg,jordan-van-den-berg-1,/cfb/players/jordan-van-den-berg-1.html,DT,11,6,5,11,0.5,0.0,0,0,,0,0,1,0,0,0,,Penn State,2023
+Elliot Washington II,elliot-washington-ii-1,/cfb/players/elliot-washington-ii-1.html,CB,10,6,3,9,1.0,0.0,0,0,,0,0,0,0,0,0,,Penn State,2023
+Jameial Lyons,jameial-lyons-1,/cfb/players/jameial-lyons-1.html,DE,8,2,4,6,2.5,1.0,0,0,,0,0,0,0,0,0,,Penn State,2023
+Amin Vanover,amin-vanover-1,/cfb/players/amin-vanover-1.html,DE,8,3,3,6,1.5,1.5,0,0,,0,0,0,0,0,1,,Penn State,2023
+Tyler Duzansky,tyler-duzansky-1,/cfb/players/tyler-duzansky-1.html,LS,13,5,1,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Penn State,2023
+Kaleb Artis,kaleb-artis-1,/cfb/players/kaleb-artis-1.html,DT,13,0,3,3,0.5,0.0,0,0,,0,0,0,0,0,0,,Penn State,2023
+Audavion Collins,audavion-collins-1,/cfb/players/audavion-collins-1.html,CB,5,3,0,3,1.0,0.0,0,0,,0,0,0,0,0,0,,Penn State,2023
+King Mack,king-mack-1,/cfb/players/king-mack-1.html,S,13,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Penn State,2023
+Mehki Flowers,mehki-flowers-1,/cfb/players/mehki-flowers-1.html,S,3,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Penn State,2023
+Ta'Mere Robinson,tamere-robinson-1,/cfb/players/tamere-robinson-1.html,LB,2,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Penn State,2023
+Malik McClain,malik-mcclain-1,/cfb/players/malik-mcclain-1.html,WR,13,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Penn State,2023
+Cristian Driver,cristian-driver-1,/cfb/players/cristian-driver-1.html,WR,6,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Penn State,2023
+Tyrece Mills,tyrece-mills-1,/cfb/players/tyrece-mills-1.html,S,5,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Penn State,2023
+Jake Wilson,jake-wilson-3,/cfb/players/jake-wilson-3.html,DE,13,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Penn State,2023
+Theo Johnson,theo-johnson-1,/cfb/players/theo-johnson-1.html,TE,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Penn State,2023
+Davon Townley Jr.,davon-townley-jr-1,/cfb/players/davon-townley-jr-1.html,DT,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Penn State,2023
+Treyson Potts,treyson-potts-1,/cfb/players/treyson-potts-1.html,RB,13,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Penn State,2023
+Kolin Dinkins,kolin-dinkins-1,/cfb/players/kolin-dinkins-1.html,CB,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Penn State,2023
+Kaveion Keys,kaveion-keys-1,/cfb/players/kaveion-keys-1.html,LB,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Penn State,2023

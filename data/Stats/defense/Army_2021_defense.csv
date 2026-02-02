@@ -1,0 +1,46 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Arik Smith,arik-smith-1,/cfb/players/arik-smith-1.html,LB,14,47,52,99,13.5,6.0,0,0,,0,1,1,0,0,1,,Army,2021
+Marquel Broughton,marquel-broughton-1,/cfb/players/marquel-broughton-1.html,DB,14,42,51,93,3.0,0.0,2,24,12.0,0,7,0,0,0,2,,Army,2021
+Cedrick Cunningham Jr.,cedrick-cunningham-jr-1,/cfb/players/cedrick-cunningham-jr-1.html,DB,14,43,33,76,0.0,0.0,1,0,0.0,0,4,1,4,0,1,,Army,2021
+Malkelm Morrison,malkelm-morrison-1,/cfb/players/malkelm-morrison-1.html,LB,14,33,31,64,6.5,0.0,0,0,,0,3,0,0,0,1,,Army,2021
+Jabari Moore,jabari-moore-2,/cfb/players/jabari-moore-2.html,CB,14,40,20,60,0.0,0.0,2,23,11.5,0,8,0,0,0,0,,Army,2021
+Andre Carter II,andre-carter-ii-1,/cfb/players/andre-carter-ii-1.html,LB,14,36,11,47,20.5,16.5,1,17,17.0,0,2,2,3,0,4,,Army,2021
+Leo Lowin,leo-lowin-1,/cfb/players/leo-lowin-1.html,DB,14,25,19,44,5.0,1.0,0,0,,0,1,0,0,0,0,,Army,2021
+Nolan Cockrill,nolan-cockrill-1,/cfb/players/nolan-cockrill-1.html,DL,14,14,25,39,7.0,2.5,0,0,,0,1,2,0,0,0,,Army,2021
+Julian McDuffie,julian-mcduffle-1,/cfb/players/julian-mcduffle-1.html,CB,7,22,15,37,1.5,0.0,0,0,,0,1,0,0,0,0,,Army,2021
+Kwabena Bonsu,kwabena-bonsu-1,/cfb/players/kwabena-bonsu-1.html,DL,14,14,19,33,2.5,1.0,0,0,,0,0,0,0,0,0,,Army,2021
+Cameron Jones,cameron-jones-6,/cfb/players/cameron-jones-6.html,CB,12,22,7,29,2.0,0.0,2,45,22.5,0,2,1,0,0,1,,Army,2021
+Chris Frey,chris-frey-2,/cfb/players/chris-frey-2.html,DL,14,3,22,25,1.0,0.0,0,0,,0,0,0,0,0,0,,Army,2021
+Spencer Jones,spencer-jones-2,/cfb/players/spencer-jones-2.html,LB,8,6,18,24,2.0,1.0,0,0,,0,0,0,0,0,0,,Army,2021
+Kemonte Yow,kemonte-yow-1,/cfb/players/kemonte-yow-1.html,LB,9,8,16,24,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2021
+Jaylen Jacobs,jaylen-jacobs-1,/cfb/players/jaylen-jacobs-1.html,LB,14,7,10,17,2.5,2.0,1,30,30.0,0,0,0,0,0,0,,Army,2021
+Ryan Duran III,ryan-duran-iii-1,/cfb/players/ryan-duran-iii-1.html,DL,11,3,9,12,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2021
+Isaiah Morris,isaiah-morris-1,/cfb/players/isaiah-morris-1.html,CB,12,11,0,11,1.0,0.0,0,0,,0,4,0,0,0,0,,Army,2021
+Fabrice Voyne,fabrice-voyne-1,/cfb/players/fabrice-voyne-1.html,LB,13,7,2,9,1.0,0.0,0,0,,0,0,0,0,0,0,,Army,2021
+Nathaniel Smith,nathaniel-smith-1,/cfb/players/nathaniel-smith-1.html,LB,13,2,7,9,2.5,2.0,0,0,,0,2,0,0,0,0,,Army,2021
+Quindrelin Hammonds,quindrelin-hammonds-1,/cfb/players/quindrelin-hammonds-1.html,DB,10,5,3,8,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2021
+Peyton Hampton,peyton-hampton-1,/cfb/players/peyton-hampton-1.html,LB,8,2,5,7,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2021
+Bo Nicolas-Paul,bo-nicolas-paul-1,/cfb/players/bo-nicolas-paul-1.html,CB,8,2,4,6,0.0,0.0,1,2,2.0,0,0,0,0,0,0,,Army,2021
+Wilson Catoe,wilson-catoe-1,/cfb/players/wilson-catoe-1.html,FB,11,2,3,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2021
+Cade Barnard,cade-barnard-1,/cfb/players/cade-barnard-1.html,RB,13,5,0,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2021
+Jimmy Ciarlo,jimmy-ciarlo-1,/cfb/players/jimmy-ciarlo-1.html,LB,11,1,3,4,0.5,0.0,0,0,,0,1,0,0,0,0,,Army,2021
+D'andre Tobias,dandre-tobias-1,/cfb/players/dandre-tobias-1.html,DB,3,2,2,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2021
+Max DiDomenico,max-didomenico-1,/cfb/players/max-didomenico-1.html,DB,8,3,1,4,0.0,0.0,0,0,,0,1,0,0,0,0,,Army,2021
+Ay'Juan Marshall,ayjuan-marshall-1,/cfb/players/ayjuan-marshall-1.html,RB,5,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2021
+Darius Richardson,darius-richardson-1,/cfb/players/darius-richardson-1.html,DL,8,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2021
+Cole Mabry,cole-mabry-2,/cfb/players/cole-mabry-2.html,LB,8,1,2,3,1.0,1.0,0,0,,0,1,0,0,0,0,,Army,2021
+Brian Burton,brian-burton-1,/cfb/players/brian-burton-1.html,LB,3,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2021
+Cole Caterbone,cole-caterbone-1,/cfb/players/cole-caterbone-1.html,WR,13,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2021
+Austin Hill,austin-hill-5,/cfb/players/austin-hill-5.html,DL,7,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2021
+Brett Gerena,brett-gerena-1,/cfb/players/brett-gerena-1.html,LB,2,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2021
+Markens Pierre,markens-pierre-1,/cfb/players/markens-pierre-1.html,RB,4,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2021
+Hamilton Baker,hamilton-baker-1,/cfb/players/hamilton-baker-1.html,LB,5,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2021
+Anthony Adkins,anthony-adkins-1,/cfb/players/anthony-adkins-1.html,RB,14,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2021
+Andre Miller,andre-miller-1,/cfb/players/andre-miller-1.html,,2,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2021
+Tavores Pearson,tavores-pearson-1,/cfb/players/tavores-pearson-1.html,DB,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2021
+Tyler Komorowski,tyler-komorowski-1,/cfb/players/tyler-komorowski-1.html,DL,2,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2021
+Brandon Walters,brandon-walters-1,/cfb/players/brandon-walters-1.html,RB,14,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2021
+Cade Patton,cade-patton-1,/cfb/players/cade-patton-1.html,DB,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2021
+Daryan McDonald,daryan-mcdonald-1,/cfb/players/daryan-mcdonald-1.html,LB,5,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2021
+Deante Bernard,deante-bernard-1,/cfb/players/deante-bernard-1.html,DB,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2021
+Dre Miller,dre-miller-1,/cfb/players/dre-miller-1.html,DL,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2021

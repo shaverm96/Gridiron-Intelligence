@@ -1,0 +1,43 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Caleb Downs,caleb-downs-1,/cfb/players/caleb-downs-1.html,DB,14,70,37,107,3.5,0.0,2,11,5.5,0,4,1,12,0,1,,Alabama,2023
+Deontae Lawson,deontae-lawson-1,/cfb/players/deontae-lawson-1.html,LB,11,32,35,67,5.5,3.0,0,0,,0,4,0,0,0,0,,Alabama,2023
+Jihaad Campbell,jihaad-campbell-1,/cfb/players/jihaad-campbell-1.html,LB,13,34,32,66,4.0,0.5,1,2,2.0,0,3,2,24,1,0,,Alabama,2023
+Justin Eboigbe,justin-eboigbe-1,/cfb/players/justin-eboigbe-1.html,DL,14,29,35,64,11.5,7.0,0,0,,0,1,0,0,0,0,,Alabama,2023
+Terrion Arnold,terrion-arnold-1,/cfb/players/terrion-arnold-1.html,DB,14,40,23,63,6.5,1.0,5,69,13.8,0,12,0,0,0,1,,Alabama,2023
+Jaylen Key,jaylen-key-1,/cfb/players/jaylen-key-1.html,DB,12,35,25,60,1.5,0.0,1,13,13.0,0,1,0,0,0,0,,Alabama,2023
+Trezmen Marshall,trezmen-marshall-1,/cfb/players/trezmen-marshall-1.html,LB,13,27,29,56,4.5,2.5,0,0,,0,0,1,0,0,0,,Alabama,2023
+Dallas Turner,dallas-turner-1,/cfb/players/dallas-turner-1.html,LB,14,28,25,53,14.5,10.0,0,0,,0,1,0,0,0,2,AA,Alabama,2023
+Malachi Moore,malachi-moore-2,/cfb/players/malachi-moore-2.html,DB,13,30,22,52,5.0,0.0,1,0,0.0,0,5,0,0,0,0,,Alabama,2023
+Chris Braswell,chris-braswell-1,/cfb/players/chris-braswell-1.html,LB,14,16,26,42,10.5,8.0,1,28,28.0,1,1,0,0,0,3,,Alabama,2023
+Tim Keenan III,tim-keenan-iii-1,/cfb/players/tim-keenan-iii-1.html,DL,14,17,21,38,1.5,1.0,0,0,,0,1,0,0,0,0,,Alabama,2023
+Kool-Aid McKinstry,kool-aid-mckinstry-1,/cfb/players/kool-aid-mckinstry-1.html,DB,14,24,8,32,2.0,0.0,0,0,,0,7,0,0,0,0,,Alabama,2023
+Tim Smith,tim-smith-8,/cfb/players/tim-smith-8.html,DL,14,15,16,31,2.0,2.0,0,0,,0,0,0,0,0,0,,Alabama,2023
+Jaheim Oatis,jaheim-oatis-1,/cfb/players/jaheim-oatis-1.html,DL,13,9,17,26,1.0,0.5,0,0,,0,2,0,0,0,0,,Alabama,2023
+Quandarrius Robinson,quandarrius-robinson-1,/cfb/players/quandarrius-robinson-1.html,LB,14,16,8,24,2.5,1.5,0,0,,0,0,1,0,0,0,,Alabama,2023
+Kendrick Blackshire,kendrick-blackshire-1,/cfb/players/kendrick-blackshire-1.html,LB,8,9,7,16,1.0,0.0,0,0,,0,0,1,2,0,1,,Alabama,2023
+Kristian Story,kristian-story-1,/cfb/players/kristian-story-1.html,DB,13,9,6,15,1.0,0.0,1,2,2.0,0,2,0,0,0,0,,Alabama,2023
+Trey Amos,trey-amos-1,/cfb/players/trey-amos-1.html,DB,14,6,6,12,0.5,0.0,0,0,,0,5,0,0,0,0,,Alabama,2023
+Damon Payne Jr.,damon-payne-jr-1,/cfb/players/damon-payne-jr-1.html,DL,14,1,8,9,1.0,0.5,0,0,,0,0,0,0,0,0,,Alabama,2023
+Jah-Marien Latham,jah-marien-latham-1,/cfb/players/jah-marien-latham-1.html,DL,14,2,6,8,1.5,1.5,0,0,,0,1,0,0,0,0,,Alabama,2023
+Justin Jefferson,justin-jefferson-3,/cfb/players/justin-jefferson-3.html,LB,14,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,1,,Alabama,2023
+Devonta Smith,devonta-smith-2,/cfb/players/devonta-smith-2.html,DB,4,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2023
+Keanu Koht,keanu-koht-1,/cfb/players/keanu-koht-1.html,LB,3,2,2,4,1.5,0.0,0,0,,0,0,0,0,0,0,,Alabama,2023
+Roydell Williams,roydell-williams-2,/cfb/players/roydell-williams-2.html,RB,14,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2023
+Jamarion Miller,jamarion-miller-1,/cfb/players/jamarion-miller-1.html,RB,14,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2023
+Jordan Renaud,jordan-renaud-1,/cfb/players/jordan-renaud-1.html,DL,2,0,3,3,0.5,0.0,0,0,,0,0,0,0,0,0,,Alabama,2023
+Jeremiah Alexander,jeremiah-alexander-1,/cfb/players/jeremiah-alexander-1.html,LB,14,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2023
+Shawn Murphy,shawn-murphy-3,/cfb/players/shawn-murphy-3.html,LB,13,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2023
+CJ Dippre,cj-dippre-1,/cfb/players/cj-dippre-1.html,TE,14,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2023
+Kendrick Law,kendrick-law-1,/cfb/players/kendrick-law-1.html,WR,13,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2023
+Earl Little,earl-little-2,/cfb/players/earl-little-2.html,DB,8,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2023
+James Smith,james-smith-9,/cfb/players/james-smith-9.html,DL,9,1,1,2,0.0,0.0,0,0,,0,0,1,0,0,0,,Alabama,2023
+Emmanuel Henderson,emmanuel-henderson-1,/cfb/players/emmanuel-henderson-1.html,WR,9,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2023
+Bray Hubbard,bray-hubbard-1,/cfb/players/bray-hubbard-1.html,DB,9,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2023
+Tony Mitchell,tony-mitchell-2,/cfb/players/tony-mitchell-2.html,DB,7,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2023
+Edric Hill,edric-hill-1,/cfb/players/edric-hill-1.html,DL,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2023
+Ja'Corey Brooks,jacorey-brooks-1,/cfb/players/jacorey-brooks-1.html,WR,9,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2023
+Jalen Milroe,jalen-milroe-1,/cfb/players/jalen-milroe-1.html,QB,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,H-6,Alabama,2023
+Malik Benson,malik-benson-1,/cfb/players/malik-benson-1.html,WR,14,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2023
+Conor Talty,conor-talty-1,/cfb/players/conor-talty-1.html,K,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2023
+Kneeland Hibbett,kneeland-hibbett-1,/cfb/players/kneeland-hibbett-1.html,LS,14,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2023
+Justice Haynes,justice-haynes-1,/cfb/players/justice-haynes-1.html,RB,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2023

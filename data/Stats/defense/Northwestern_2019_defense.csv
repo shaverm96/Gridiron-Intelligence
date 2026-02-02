@@ -1,0 +1,48 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Paddy Fisher,paddy-fisher-1,/cfb/players/paddy-fisher-1.html,LB,12,39,49,88,6.0,1.0,1,7,7.0,0,3,0,0,0,1,,Northwestern,2019
+Blake Gallagher,blake-gallagher-1,/cfb/players/blake-gallagher-1.html,LB,12,46,42,88,4.5,0.0,3,40,13.3,0,1,0,0,0,0,,Northwestern,2019
+Chris Bergin,chris-bergin-1,/cfb/players/chris-bergin-1.html,LB,12,40,46,86,6.0,0.5,0,0,,0,2,0,0,1,0,,Northwestern,2019
+Travis Whillock,travis-whillock-1,/cfb/players/travis-whillock-1.html,DB,12,42,36,78,3.0,1.0,0,0,,0,1,2,0,0,1,,Northwestern,2019
+Joe Gaziano,joe-gaziano-1,/cfb/players/joe-gaziano-1.html,DL,12,34,15,49,17.0,9.0,0,0,,0,5,2,0,0,3,,Northwestern,2019
+Cameron Ruiz,cameron-ruiz-1,/cfb/players/cameron-ruiz-1.html,DB,11,35,9,44,3.0,0.0,1,0,0.0,0,6,0,0,0,1,,Northwestern,2019
+JR Pace,jr-pace-1,/cfb/players/jr-pace-1.html,DB,12,25,17,42,0.0,0.0,1,0,0.0,0,3,0,0,0,0,,Northwestern,2019
+Alex Miller,alex-miller-1,/cfb/players/alex-miller-1.html,DL,12,19,22,41,7.5,4.0,0,0,,0,1,0,0,0,0,,Northwestern,2019
+Greg Newsome II,greg-newsome-ii-1,/cfb/players/greg-newsome-ii-1.html,DB,9,28,8,36,0.5,0.0,0,0,,0,11,1,18,0,0,,Northwestern,2019
+Sam Miller,sam-miller-6,/cfb/players/sam-miller-6.html,DL,8,18,11,29,2.5,0.5,0,0,,0,1,0,0,0,0,,Northwestern,2019
+Bryce Jackson,bryce-jackson-1,/cfb/players/bryce-jackson-1.html,DB,12,14,6,20,0.0,0.0,0,0,,0,1,1,0,0,0,,Northwestern,2019
+Trae Williams,trae-williams-2,/cfb/players/trae-williams-2.html,DB,9,16,2,18,0.0,0.0,0,0,,0,5,0,0,0,0,,Northwestern,2019
+Earnest Brown IV,earnest-brown-iv-1,/cfb/players/earnest-brown-iv-1.html,DE,6,9,7,16,2.5,2.0,0,0,,0,2,0,0,0,1,,Northwestern,2019
+Trent Goens,trent-goens-1,/cfb/players/trent-goens-1.html,SB,12,11,3,14,4.0,1.0,0,0,,0,1,0,0,0,1,,Northwestern,2019
+Jake Saunders,jake-saunders-1,/cfb/players/jake-saunders-1.html,DT,11,7,7,14,2.0,1.0,0,0,,0,0,0,0,0,0,,Northwestern,2019
+Joe Bergin,joe-bergin-2,/cfb/players/joe-bergin-2.html,DB,12,10,3,13,0.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2019
+Andrew Leota,andrew-leota-1,/cfb/players/andrew-leota-1.html,DL,10,6,6,12,4.5,2.5,0,0,,0,1,0,0,0,1,,Northwestern,2019
+A.J. Hampton,aj-hampton-1,/cfb/players/aj-hampton-1.html,DB,12,9,2,11,0.0,0.0,1,0,0.0,0,1,0,0,0,0,,Northwestern,2019
+Roderick Campbell,roderick-campbell-1,/cfb/players/roderick-campbell-1.html,DB,10,8,1,9,0.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2019
+Jason Gold Jr.,jason-gold-jr-1,/cfb/players/jason-gold-jr-1.html,DE,6,5,3,8,2.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2019
+Joe Spivak,joe-spivak-1,/cfb/players/joe-spivak-1.html,DL,12,2,6,8,1.0,0.5,0,0,,0,0,0,0,0,0,,Northwestern,2019
+Trevor Kent,trevor-kent-1,/cfb/players/trevor-kent-1.html,DE,7,3,5,8,1.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2019
+Erik Mueller,erik-mueller-1,/cfb/players/erik-mueller-1.html,LB,12,5,2,7,0.5,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2019
+Aiden Smith,aiden-smith-1,/cfb/players/aiden-smith-1.html,QB,9,5,1,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2019
+Adetomiwa Adebawore,adetomiwa-adebawore-1,/cfb/players/adetomiwa-adebawore-1.html,DL,8,5,1,6,1.0,1.0,0,0,,0,0,0,0,0,0,,Northwestern,2019
+Ramaud Chiaokhiao-Bowman,ramaud-chiaokhiao-bowman-1,/cfb/players/ramaud-chiaokhiao-bowman-1.html,WR,12,3,2,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2019
+Brandon Joseph,brandon-joseph-2,/cfb/players/brandon-joseph-2.html,DB,4,4,0,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2019
+Coco Azema,coco-azema-1,/cfb/players/coco-azema-1.html,DB,4,2,2,4,0.0,0.0,0,0,,0,0,0,0,0,1,,Northwestern,2019
+Bryce Gallagher,bryce-gallagher-1,/cfb/players/bryce-gallagher-1.html,LB,5,1,2,3,0.5,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2019
+Kyric McGowan,kyric-mcgowan-1,/cfb/players/kyric-mcgowan-1.html,WR,9,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2019
+Raymond Niro III,raymond-niro-iii-1,/cfb/players/raymond-niro-iii-1.html,WR,11,2,1,3,0.0,0.0,0,0,,0,0,1,0,0,0,,Northwestern,2019
+Brian Bullock,brian-bullock-1,/cfb/players/brian-bullock-1.html,DB,4,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2019
+Peter Mclntyre,peter-mclntyre-1,/cfb/players/peter-mclntyre-1.html,LB,11,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2019
+Rashawn Slater,rashawn-slater-1,/cfb/players/rashawn-slater-1.html,OL,11,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2019
+PJ Spencer,pj-spencer-1,/cfb/players/pj-spencer-1.html,DL,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2019
+Ben Skowronek,ben-skowronek-1,/cfb/players/ben-skowronek-1.html,WR,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2019
+Cameron Mitchell,cameron-mitchell-2,/cfb/players/cameron-mitchell-2.html,DB,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2019
+Rod Heard II,rod-heard-ii-1,/cfb/players/rod-heard-ii-1.html,,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2019
+Rod Heard,rod-heard-1,/cfb/players/rod-heard-1.html,DB,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2019
+Jared Thomas,jared-thomas-1,/cfb/players/jared-thomas-1.html,OL,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2019
+Malik Washington,malik-washington-1,/cfb/players/malik-washington-1.html,WR,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2019
+Evan Hull,evan-hull-2,/cfb/players/evan-hull-2.html,RB,5,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2019
+Grayson Mann,grayson-mann-1,/cfb/players/grayson-mann-1.html,LB,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2019
+Jace James,jace-james-1,/cfb/players/jace-james-1.html,WR,9,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2019
+Jake Genyk,jake-genyk-1,/cfb/players/jake-genyk-1.html,,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2019
+Jesse Brown,jesse-brown-3,/cfb/players/jesse-brown-3.html,RB,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2019
+JJ Jefferson,jj-jefferson-1,/cfb/players/jj-jefferson-1.html,WR,7,0,0,0,0.0,0.0,1,0,0.0,0,0,0,0,0,0,,Northwestern,2019

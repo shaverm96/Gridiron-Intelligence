@@ -1,0 +1,43 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Duke Wheeler,duke-wheeler-1,/cfb/players/duke-wheeler-1.html,S,11,62,31,93,1.0,0.0,0,0,,0,3,0,0,0,1,,UTSA,2015
+Drew Douglas,drew-douglas-1,/cfb/players/drew-douglas-1.html,LB,10,32,50,82,4.5,1.0,0,0,,0,2,0,0,0,0,,UTSA,2015
+Nate Gaines,nate-gaines-1,/cfb/players/nate-gaines-1.html,S,10,48,28,76,0.5,0.0,3,11,3.7,0,6,1,0,0,0,,UTSA,2015
+Marcos Curry,marcos-curry-1,/cfb/players/marcos-curry-1.html,LB,12,40,34,74,4.5,2.0,0,0,,0,2,1,3,0,1,,UTSA,2015
+Michael Egwuagu,michael-egwuagu-1,/cfb/players/michael-egwuagu-1.html,S,12,37,25,62,3.5,1.5,3,83,27.7,2,5,0,0,0,0,,UTSA,2015
+Jason Neill,jason-neill-1,/cfb/players/jason-neill-1.html,DT,12,36,20,56,11.0,8.5,0,0,,0,0,0,0,0,1,,UTSA,2015
+Marcus Davenport,marcus-davenport-1,/cfb/players/marcus-davenport-1.html,DE,11,30,19,49,7.5,4.0,0,0,,0,3,0,0,0,2,,UTSA,2015
+Bennett Okotcha,bennett-okotcha-1,/cfb/players/bennett-okotcha-1.html,CB,12,39,8,47,0.0,0.0,4,39,9.8,0,9,1,0,0,1,,UTSA,2015
+Mauricio Sanchez,mauricio-sanchez-1,/cfb/players/mauricio-sanchez-1.html,S,10,23,14,37,1.0,0.0,1,0,0.0,0,1,1,0,0,2,,UTSA,2015
+Brian Price,brian-price-2,/cfb/players/brian-price-2.html,DT,10,15,18,33,2.0,1.0,0,0,,0,0,0,0,0,0,,UTSA,2015
+Kevin Strong Jr.,kevin-strong-1,/cfb/players/kevin-strong-1.html,DT,12,12,19,31,6.5,2.5,0,0,,0,2,0,0,0,0,,UTSA,2015
+Jonathan Tuiolosega,jonathan-tuiolosega-1,/cfb/players/jonathan-tuiolosega-1.html,DT,11,6,23,29,2.5,0.5,0,0,,0,1,1,0,0,0,,UTSA,2015
+Stanley Dye Jr.,stanley-dye-jr-1,/cfb/players/stanley-dye-jr-1.html,CB,12,11,9,20,0.5,0.0,0,0,,0,0,1,5,0,0,,UTSA,2015
+Trevor Baker,trevor-baker-1,/cfb/players/trevor-baker-1.html,CB,8,13,5,18,2.0,0.0,3,85,28.3,0,7,0,0,0,0,,UTSA,2015
+Romario Napoles,romario-napoles-1,/cfb/players/romario-napoles-1.html,DE,12,10,6,16,2.0,1.0,0,0,,0,0,0,0,0,0,,UTSA,2015
+Darryl Godfrey,darryl-godfrey-1,/cfb/players/darryl-godfrey-1.html,S,10,9,6,15,0.0,0.0,0,0,,0,1,0,0,0,1,,UTSA,2015
+Dalton Miller,dalton-miller-1,/cfb/players/dalton-miller-1.html,LB,9,4,9,13,0.0,0.0,0,0,,0,1,0,0,0,0,,UTSA,2015
+Aneas Henricks,aneas-henricks-1,/cfb/players/aneas-henricks-1.html,CB,12,9,3,12,0.0,0.0,0,0,,0,2,0,0,0,0,,UTSA,2015
+Justin Chavez,justin-chavez-1,/cfb/players/justin-chavez-1.html,S,7,5,6,11,0.0,0.0,0,0,,0,0,1,0,0,0,,UTSA,2015
+Vontrell King-Williams,vontrell-king-williams-1,/cfb/players/vontrell-king-williams-1.html,DT,12,5,5,10,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2015
+Carl Austin III,carl-austin-iii-1,/cfb/players/carl-austin-iii-1.html,S,11,5,4,9,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2015
+C.J. Levine,cj-levine-1,/cfb/players/cj-levine-1.html,S,12,6,3,9,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2015
+Justyn Eddins,justyn-eddins-1,/cfb/players/justyn-eddins-1.html,DE,10,7,2,9,0.5,0.0,0,0,,0,0,0,0,0,0,,UTSA,2015
+Kevin Garcia,kevin-garcia-1,/cfb/players/kevin-garcia-1.html,LB,10,3,6,9,0.5,0.0,0,0,,0,0,0,0,0,0,,UTSA,2015
+Kennedy Ubabuike,kennedy-ubabuike-1,/cfb/players/kennedy-ubabuike-1.html,DT,8,5,3,8,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2015
+Ben Kane,ben-kane-1,/cfb/players/ben-kane-1.html,DE,10,4,3,7,1.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2015
+Baylen Baker,baylen-baker-1,/cfb/players/baylen-baker-1.html,DT,2,2,2,4,0.0,0.0,1,0,0.0,0,4,0,0,0,0,,UTSA,2015
+JaColbie Butler,jacolbie-butler-1,/cfb/players/jacolbie-butler-1.html,CB,8,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2015
+Steven Holman,steven-holman-1,/cfb/players/steven-holman-1.html,LB,4,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2015
+David Morgan,david-morgan-1,/cfb/players/david-morgan-1.html,TE,12,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2015
+Deandre Williams,deandre-williams-2,/cfb/players/deandre-williams-2.html,CB,3,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2015
+Derrick Dick,derrick-dick-1,/cfb/players/derrick-dick-1.html,WR,12,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2015
+Isaiah Santos,isaiah-santos-1,/cfb/players/isaiah-santos-1.html,S,11,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2015
+Daniel Portillo,daniel-portillo-1,/cfb/players/daniel-portillo-1.html,K,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2015
+Matt Bayliss,matt-bayliss-1,/cfb/players/matt-bayliss-1.html,S,12,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2015
+Aaron Grubb,aaron-grubb-1,/cfb/players/aaron-grubb-1.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2015
+Brady Jones,brady-jones-2,/cfb/players/brady-jones-2.html,WR,9,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2015
+Reed Darragh,reed-darragh-1,/cfb/players/reed-darragh-1.html,T,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2015
+Cade Laufer,cade-laufer-1,/cfb/players/cade-laufer-1.html,TE,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2015
+Cedric Haley,cedric-haley-1,/cfb/players/cedric-haley-1.html,LB,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2015
+Kerry Thomas,kerry-thomas-1,/cfb/players/kerry-thomas-1.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2015
+Jarveon Williams,jarveon-williams-1,/cfb/players/jarveon-williams-1.html,RB,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2015

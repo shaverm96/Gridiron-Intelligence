@@ -1,0 +1,42 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+AJ DeShazor,aj-deshazor-1,/cfb/players/aj-deshazor-1.html,LB,12,30,34,64,2.0,1.0,0,0,,0,1,1,0,0,1,,South Alabama,2021
+Keith Gallmon,keith-gallmon-1,/cfb/players/keith-gallmon-1.html,S,12,37,22,59,2.5,0.0,1,0,0.0,0,2,1,26,0,0,,South Alabama,2021
+Wy'Kevious Thomas,wykevious-thomas-1,/cfb/players/wykevious-thomas-1.html,WR,12,20,29,49,4.5,2.5,0,0,,0,0,2,0,0,0,,South Alabama,2021
+Tre Young,tre-young-1,/cfb/players/tre-young-1.html,S,12,29,20,49,1.5,0.0,3,40,13.3,0,2,0,0,0,0,,South Alabama,2021
+Yamarus Banks,yamarus-banks-1,/cfb/players/yamarus-banks-1.html,S,12,27,22,49,4.5,0.5,0,0,,0,2,1,0,0,2,,South Alabama,2021
+Quentin Wilfawn,quentin-wilfawn-1,/cfb/players/quentin-wilfawn-1.html,LB,11,18,27,45,2.5,1.0,0,0,,0,0,1,0,0,1,,South Alabama,2021
+Jamal Brooks,jamal-brooks-1,/cfb/players/jamal-brooks-1.html,LB,11,19,23,42,5.5,1.0,1,56,56.0,0,0,1,0,0,1,,South Alabama,2021
+Trey Kiser,trey-kiser-1,/cfb/players/trey-kiser-1.html,LB,12,15,19,34,1.0,1.0,0,0,,0,0,0,0,0,0,,South Alabama,2021
+Chris Henderson,chris-henderson-1,/cfb/players/chris-henderson-1.html,LB,12,15,18,33,4.0,3.0,0,0,,0,0,1,0,0,1,,South Alabama,2021
+Charles Coleman III,charles-coleman-iii-1,/cfb/players/charles-coleman-iii-1.html,DL,12,10,22,32,6.0,4.5,0,0,,0,1,0,0,0,0,,South Alabama,2021
+Shawn Jennings,shawn-jennings-1,/cfb/players/shawn-jennings-1.html,LB,9,13,15,28,3.0,2.0,0,0,,0,1,0,0,0,2,,South Alabama,2021
+Davyn Flenord,davyn-flenord-1,/cfb/players/davyn-flenord-1.html,CB,12,14,12,26,0.5,0.0,2,48,24.0,1,0,0,0,0,0,,South Alabama,2021
+Devin Rockette,devin-rockette-1,/cfb/players/devin-rockette-1.html,CB,12,18,6,24,0.5,0.0,2,0,0.0,0,3,1,0,0,0,,South Alabama,2021
+Gi'Narious Johnson,ginarious-johnson-1,/cfb/players/ginarious-johnson-1.html,DL,12,8,15,23,2.0,1.0,0,0,,0,0,0,0,0,0,,South Alabama,2021
+Brock Higdon,brock-higdon-1,/cfb/players/brock-higdon-1.html,DL,12,9,13,22,1.0,0.0,0,0,,0,0,0,0,0,2,,South Alabama,2021
+Christian Bell,christian-bell-1,/cfb/players/christian-bell-1.html,LB,12,8,13,21,4.5,3.0,0,0,,0,0,0,0,0,1,,South Alabama,2021
+Darrell Luter Jr.,darrell-luter-jr-1,/cfb/players/darrell-luter-jr-1.html,CB,10,12,8,20,1.0,0.0,4,29,7.3,0,10,0,0,0,0,,South Alabama,2021
+Jamall Hickbottom,jamall-hickbottom-1,/cfb/players/jamall-hickbottom-1.html,DL,12,11,9,20,3.5,2.5,0,0,,0,0,0,0,0,1,,South Alabama,2021
+Terry Perry,terry-perry-1,/cfb/players/terry-perry-1.html,DL,10,6,8,14,2.0,2.0,0,0,,0,0,0,0,0,0,,South Alabama,2021
+Ke'Shun Brown,keshun-brown-1,/cfb/players/keshun-brown-1.html,LB,11,9,5,14,2.0,1.0,0,0,,0,0,0,0,0,1,,South Alabama,2021
+CJ Rias,cj-rias-1,/cfb/players/cj-rias-1.html,LB,11,9,4,13,3.5,3.5,1,0,0.0,0,0,0,0,0,0,,South Alabama,2021
+CJ Thompson,cj-thompson-1,/cfb/players/cj-thompson-1.html,S,10,7,5,12,0.0,0.0,0,0,,0,1,0,0,0,0,,South Alabama,2021
+Carlos Johnson,carlos-johnson-3,/cfb/players/carlos-johnson-3.html,DL,9,4,6,10,2.0,2.0,0,0,,0,0,0,0,0,0,,South Alabama,2021
+Zeke Chapman,zeke-chapman-1,/cfb/players/zeke-chapman-1.html,DL,12,2,7,9,1.5,0.0,0,0,,0,0,0,0,0,0,,South Alabama,2021
+Kwameh Lewis,kwameh-lewis-1,/cfb/players/kwameh-lewis-1.html,S,10,7,2,9,0.0,0.0,0,0,,0,2,0,0,0,0,,South Alabama,2021
+Ryan Melton,ryan-melton-2,/cfb/players/ryan-melton-2.html,CB,8,7,2,9,0.0,0.0,0,0,,0,1,0,0,0,0,,South Alabama,2021
+Shawn Steele II,shawn-steele-ii-1,/cfb/players/shawn-steele-ii-1.html,S,9,6,3,9,0.0,0.0,1,0,0.0,0,2,0,0,0,0,,South Alabama,2021
+Dallas Gamble,dallas-gamble-1,/cfb/players/dallas-gamble-1.html,CB,11,5,2,7,0.0,0.0,0,0,,0,0,0,0,0,0,,South Alabama,2021
+Travis Drosos,travis-drosos-1,/cfb/players/travis-drosos-1.html,LS,11,2,2,4,0.0,0.0,0,0,,0,0,0,0,0,0,,South Alabama,2021
+Atanza Vongor,atanza-vongor-1,/cfb/players/atanza-vongor-1.html,S,3,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,South Alabama,2021
+Lamondre Brooks,lamondre-brooks-1,/cfb/players/lamondre-brooks-1.html,DE,3,1,2,3,0.5,0.5,0,0,,0,0,0,0,0,0,,South Alabama,2021
+Todd Justice,todd-justice-1,/cfb/players/todd-justice-1.html,TE,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,South Alabama,2021
+Ed Smith IV,ed-smith-iv-1,/cfb/players/ed-smith-iv-1.html,DL,3,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,South Alabama,2021
+Lincoln Sefcik,lincoln-sefcik-1,/cfb/players/lincoln-sefcik-1.html,TE,12,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,South Alabama,2021
+Diego Guajardo,diego-guajardo-1,/cfb/players/diego-guajardo-1.html,PK,12,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,South Alabama,2021
+Jacob Hopper,jacob-hopper-1,/cfb/players/jacob-hopper-1.html,TE,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,South Alabama,2021
+Zyon Walker,zyon-walker-1,/cfb/players/zyon-walker-1.html,DL,1,0,1,1,0.5,0.0,0,0,,0,0,0,0,0,0,,South Alabama,2021
+Doug Sullivan,doug-sullivan-1,/cfb/players/doug-sullivan-1.html,S,9,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,South Alabama,2021
+Devin Voisin,devin-voisin-1,/cfb/players/devin-voisin-1.html,WR,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,1,,South Alabama,2021
+Bryan Hill,bryan-hill-2,/cfb/players/bryan-hill-2.html,RB,10,1,0,1,1.0,0.0,0,0,,0,0,0,0,0,0,,South Alabama,2021
+AJ Phillips,aj-phillips-1,/cfb/players/aj-phillips-1.html,RB,8,1,0,1,0.0,0.0,0,0,,0,0,1,3,0,0,,South Alabama,2021

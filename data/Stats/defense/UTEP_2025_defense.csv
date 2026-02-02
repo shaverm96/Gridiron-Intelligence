@@ -1,0 +1,47 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Micah Davey,micah-davey-1,/cfb/players/micah-davey-1.html,LB,12,64,67,131,9.0,1.0,0,0,,0,0,1,0,0,0,,UTEP,2025
+Jayden Wilson,jayden-wilson-1,/cfb/players/jayden-wilson-1.html,LB,12,35,57,92,8.0,0.5,1,0,0.0,0,0,1,34,0,3,,UTEP,2025
+Solo Barnes,solo-barnes-1,/cfb/players/solo-barnes-1.html,S,12,38,28,66,2.5,1.0,2,5,2.5,0,4,1,0,0,1,,UTEP,2025
+Xavier Smith,xavier-smith-8,/cfb/players/xavier-smith-8.html,S,10,20,40,60,1.5,0.0,1,5,5.0,0,4,0,0,0,0,,UTEP,2025
+KD Johnson,kd-johnson-1,/cfb/players/kd-johnson-1.html,DL,12,22,38,60,12.0,3.5,0,0,,0,2,0,0,0,1,,UTEP,2025
+Justin Content,justin-content-1,/cfb/players/justin-content-1.html,CB,12,32,26,58,5.5,0.0,1,0,0.0,0,6,0,0,0,0,,UTEP,2025
+Neil Campbell,neil-campbell-2,/cfb/players/neil-campbell-2.html,CB,9,26,30,56,6.0,2.0,0,0,,0,3,0,0,0,1,,UTEP,2025
+Udoka Ezeani,udoka-ezeani-1,/cfb/players/udoka-ezeani-1.html,LB,12,23,23,46,11.0,5.0,0,0,,0,1,0,0,0,2,,UTEP,2025
+Kode Lowe,kode-lowe-1,/cfb/players/kode-lowe-1.html,S,12,17,21,38,4.0,0.0,0,0,,0,0,1,0,0,1,,UTEP,2025
+Donte Thompson,donte-thompson-1,/cfb/players/donte-thompson-1.html,CB,11,16,15,31,1.0,0.0,0,0,,0,3,0,0,0,0,,UTEP,2025
+Lantz Russell,lantz-russell-1,/cfb/players/lantz-russell-1.html,S,12,13,15,28,1.0,1.0,0,0,,0,3,0,0,0,0,,UTEP,2025
+Ashton Coker,ashton-coker-1,/cfb/players/ashton-coker-1.html,DT,11,9,16,25,4.0,0.0,0,0,,0,0,0,0,0,0,,UTEP,2025
+Elijah Baldwin,elijah-baldwin-1,/cfb/players/elijah-baldwin-1.html,DL,12,11,14,25,5.0,3.5,0,0,,0,4,0,0,0,0,,UTEP,2025
+Ashaad Hall,ashaad-hall-1,/cfb/players/ashaad-hall-1.html,DL,11,8,16,24,4.0,3.0,0,0,,0,1,0,0,0,0,,UTEP,2025
+Shakaun Bowser,shakaun-bowser-1,/cfb/players/shakaun-bowser-1.html,DL,11,9,14,23,3.0,2.0,0,0,,0,0,1,0,0,0,,UTEP,2025
+Yessman Green,yessman-green-1,/cfb/players/yessman-green-1.html,CB,9,14,6,20,0.5,0.5,0,0,,0,0,0,0,0,0,,UTEP,2025
+Stratton Shufelt,stratton-shufelt-1,/cfb/players/stratton-shufelt-1.html,LB,11,3,15,18,0.0,0.0,0,0,,0,2,0,0,0,0,,UTEP,2025
+Joshua Rudolph,joshua-rudolph-1,/cfb/players/joshua-rudolph-1.html,LB,3,5,13,18,1.0,0.5,0,0,,0,0,1,0,0,0,,UTEP,2025
+Cole Gustafson,cole-gustafson-1,/cfb/players/cole-gustafson-1.html,DL,12,4,14,18,2.5,1.5,0,0,,0,2,0,0,0,0,,UTEP,2025
+Marcell Blocker,marcell-blocker-1,/cfb/players/marcell-blocker-1.html,CB,10,14,4,18,0.0,0.0,0,0,,0,3,0,0,0,0,,UTEP,2025
+Tyler Scott,tyler-scott-5,/cfb/players/tyler-scott-5.html,DL,12,5,7,12,0.5,0.0,0,0,,0,0,0,0,0,0,,UTEP,2025
+Ekow Taylor,ekow-taylor-1,/cfb/players/ekow-taylor-1.html,LB,11,9,3,12,2.0,2.0,0,0,,0,0,1,63,0,1,,UTEP,2025
+TJ Tillman,tj-tillman-1,/cfb/players/tj-tillman-1.html,CB,11,6,5,11,0.0,0.0,0,0,,0,0,0,0,0,0,,UTEP,2025
+Garrett Hawkins,garrett-hawkins-1,/cfb/players/garrett-hawkins-1.html,LB,3,4,6,10,0.5,0.0,0,0,,0,0,0,0,0,0,,UTEP,2025
+Vashon Brunswick II,vashon-brunswick-ii-1,/cfb/players/vashon-brunswick-ii-1.html,LB,7,7,1,8,1.5,1.0,0,0,,0,0,0,0,0,0,,UTEP,2025
+Alex Szczesniak,alex-szczesniak-1,/cfb/players/alex-szczesniak-1.html,TE,12,7,0,7,0.0,0.0,0,0,,0,0,0,0,0,0,,UTEP,2025
+Darnell Williams,darnell-williams-1,/cfb/players/darnell-williams-1.html,S,7,4,1,5,0.0,0.0,0,0,,0,0,0,0,0,1,,UTEP,2025
+Josh Hancock,josh-hancock-1,/cfb/players/josh-hancock-1.html,LS,12,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,UTEP,2025
+Dylan Brown-Turner,dylan-brown-turner-1,/cfb/players/dylan-brown-turner-1.html,LB,4,2,2,4,0.0,0.0,0,0,,0,0,0,0,0,0,,UTEP,2025
+Wondame Davis Jr.,wondame-davis-jr-1,/cfb/players/wondame-davis-jr-1.html,WR,11,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,UTEP,2025
+Nikolas Henry,nikolas-henry-1,/cfb/players/nikolas-henry-1.html,WR,8,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,UTEP,2025
+Judah Ezinwa,judah-ezinwa-1,/cfb/players/judah-ezinwa-1.html,TE,5,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,UTEP,2025
+Kenny Odom,kenny-odom-1,/cfb/players/kenny-odom-1.html,WR,11,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,UTEP,2025
+Jake Utley,jake-utley-1,/cfb/players/jake-utley-1.html,OL,10,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,UTEP,2025
+Allen Gant,allen-gant-2,/cfb/players/allen-gant-2.html,S,2,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,UTEP,2025
+Mason Ferguson,mason-ferguson-1,/cfb/players/mason-ferguson-1.html,WR,4,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTEP,2025
+Josh Schuchts,josh-schuchts-1,/cfb/players/josh-schuchts-1.html,WR,8,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTEP,2025
+Jaime Guerrero,jaime-guerrero-1,/cfb/players/jaime-guerrero-1.html,S,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTEP,2025
+Ivan Escobar,ivan-escobar-1,/cfb/players/ivan-escobar-1.html,OC,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTEP,2025
+Toric Goins Jr.,toric-goins-jr-1,/cfb/players/toric-goins-jr-1.html,WR,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTEP,2025
+Tyler Jones,tyler-jones-8,/cfb/players/tyler-jones-8.html,S,8,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTEP,2025
+Hahsaun Wilson,hashaun-wilson-1,/cfb/players/hashaun-wilson-1.html,RB,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTEP,2025
+David Wilson,david-wilson-4,/cfb/players/david-wilson-4.html,DB,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTEP,2025
+Caleb Walker,caleb-walker-2,/cfb/players/caleb-walker-2.html,S,6,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTEP,2025
+Ashton Nickelberry,ashton-nickelberry-1,/cfb/players/ashton-nickelberry-1.html,WR,5,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTEP,2025
+Ashten Emory,ashten-emory-1,/cfb/players/ashten-emory-1.html,RB,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTEP,2025

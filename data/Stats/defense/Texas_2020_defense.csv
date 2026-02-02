@@ -1,0 +1,46 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Juwan Mitchell,juwan-mitchell-1,/cfb/players/juwan-mitchell-1.html,LB,10,32,30,62,4.5,0.0,0,0,,0,1,1,0,0,0,,Texas,2020
+Demarvion Overshown,demarvion-overshown-1,/cfb/players/demarvion-overshown-1.html,LB,10,32,28,60,7.0,1.0,2,29,14.5,0,7,1,0,0,2,,Texas,2020
+Joseph Ossai,joseph-ossai-1,/cfb/players/joseph-ossai-1.html,LB,9,26,29,55,16.0,5.0,0,0,,0,2,1,0,0,3,AA,Texas,2020
+Caden Sterns,caden-sterns-1,/cfb/players/caden-sterns-1.html,DB,7,30,22,52,1.5,0.0,1,0,0.0,0,3,0,0,0,0,,Texas,2020
+Chris Brown,chris-brown-18,/cfb/players/chris-brown-18.html,DB,9,43,4,47,2.0,0.0,1,22,22.0,0,7,1,0,0,1,,Texas,2020
+Chris Adimora,chris-adimora-1,/cfb/players/chris-adimora-1.html,DB,10,29,17,46,1.5,0.0,1,71,71.0,0,3,0,0,0,0,,Texas,2020
+B.J. Foster,bj-foster-1,/cfb/players/bj-foster-1.html,DB,9,25,16,41,1.0,0.0,0,0,,0,3,0,0,0,0,,Texas,2020
+D'Shawn Jamison,dshawn-jamison-1,/cfb/players/dshawn-jamison-1.html,DB,10,25,6,31,0.5,0.0,0,0,,0,6,0,0,0,0,,Texas,2020
+Jacoby Jones,jacoby-jones-2,/cfb/players/jacoby-jones-2.html,DL,9,12,17,29,3.0,2.0,0,0,,0,1,2,0,0,0,,Texas,2020
+Josh Thompson,josh-thompson-4,/cfb/players/josh-thompson-4.html,DB,10,19,9,28,3.0,0.0,1,0,0.0,0,3,0,0,0,0,,Texas,2020
+Keondre Coburn,keondre-coburn-1,/cfb/players/keondre-coburn-1.html,DL,10,13,12,25,4.5,1.0,0,0,,0,2,0,0,0,0,,Texas,2020
+Ta'quon Graham,taquon-graham-1,/cfb/players/taquon-graham-1.html,DL,9,12,11,23,7.0,2.0,0,0,,0,0,1,0,0,0,,Texas,2020
+T'vondre Sweat,tvondre-sweat-1,/cfb/players/tvondre-sweat-1.html,DL,10,6,16,22,4.0,1.0,0,0,,0,1,1,0,0,1,,Texas,2020
+Alfred Collins,alfred-collins-1,/cfb/players/alfred-collins-1.html,DL,10,12,10,22,2.0,1.0,1,0,0.0,0,3,0,0,0,0,,Texas,2020
+Moro Ojomo,moro-ojomo-1,/cfb/players/moro-ojomo-1.html,DL,10,10,11,21,2.5,2.0,0,0,,0,1,0,0,0,0,,Texas,2020
+David Gbenda,david-gbenda-1,/cfb/players/david-gbenda-1.html,LB,10,10,9,19,0.0,0.0,1,0,0.0,0,0,0,0,0,0,,Texas,2020
+Anthony Cook,anthony-cook-1,/cfb/players/anthony-cook-1.html,DB,10,10,8,18,1.5,0.0,0,0,,0,0,0,0,0,0,,Texas,2020
+Cort Jaquess,cort-jaquess-1,/cfb/players/cort-jaquess-1.html,LB,8,7,8,15,2.5,0.0,0,0,,0,0,0,0,0,0,,Texas,2020
+Jett Bush,jett-bush-1,/cfb/players/jett-bush-1.html,LB,9,9,5,14,1.0,0.0,0,0,,0,0,0,0,0,1,,Texas,2020
+Jerrin Thompson,jerrin-thompson-1,/cfb/players/jerrin-thompson-1.html,DB,10,10,4,14,0.0,0.0,1,21,21.0,0,1,0,0,0,0,,Texas,2020
+Jalen Green,jalen-green-3,/cfb/players/jalen-green-3.html,DB,9,11,3,14,1.0,0.0,1,41,41.0,0,2,0,0,0,0,,Texas,2020
+Jaylan Ford,jaylan-ford-1,/cfb/players/jaylan-ford-1.html,LB,10,5,9,14,1.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2020
+Ayodele Adeoye,ayodele-adeoye-1,/cfb/players/ayodele-adeoye-1.html,LB,4,6,4,10,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2020
+Kitan Crawford,kitan-crawford-1,/cfb/players/kitan-crawford-1.html,DB,10,5,2,7,1.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2020
+Reese Leitao,reese-leitao-1,/cfb/players/reese-leitao-1.html,DL,8,3,3,6,1.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2020
+Xavion Alford,xavion-alford-1,/cfb/players/xavion-alford-1.html,DB,3,4,0,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2020
+Kenyatta Watson II,kenyatta-watson-ii-1,/cfb/players/kenyatta-watson-ii-1.html,DB,4,2,1,3,0.5,0.0,0,0,,0,1,0,0,0,0,,Texas,2020
+Jahdae Barron,jahdae-barron-1,/cfb/players/jahdae-barron-1.html,DB,5,3,0,3,0.0,0.0,0,0,,0,1,0,0,0,0,,Texas,2020
+Tyler Owens,tyler-owens-2,/cfb/players/tyler-owens-2.html,DB,9,2,1,3,0.5,0.0,0,0,,0,1,0,0,0,0,,Texas,2020
+Marcus Tillman Jr.,marcus-tillman-jr-1,/cfb/players/marcus-tillman-jr-1.html,LB,2,2,1,3,1.0,1.0,0,0,,0,0,0,0,0,0,,Texas,2020
+Luke Brockermeyer,luke-brockermeyer-1,/cfb/players/luke-brockermeyer-1.html,LB,5,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2020
+Montrell Estrell,montrell-estrell-1,/cfb/players/montrell-estrell-1.html,DB,4,2,0,2,1.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2020
+Ryan Bujcevski,ryan-bujcevski-1,/cfb/players/ryan-bujcevski-1.html,P,7,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2020
+Brenden Schooler,brenden-schooler-1,/cfb/players/brenden-schooler-1.html,WR,9,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2020
+Christian Jones,christian-jones-4,/cfb/players/christian-jones-4.html,OL,10,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2020
+Vernon Broughton,vernon-broughton-1,/cfb/players/vernon-broughton-1.html,DL,2,2,0,2,1.0,1.0,0,0,,0,0,0,0,0,0,,Texas,2020
+Christian Tschauner,christian-tschauner-1,/cfb/players/christian-tschauner-1.html,DB,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2020
+Cade Brewer,cade-brewer-1,/cfb/players/cade-brewer-1.html,TE,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2020
+Prince Dorbah,prince-dorbah-1,/cfb/players/prince-dorbah-1.html,LB,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2020
+Derek Kerstetter,derek-kerstetter-1,/cfb/players/derek-kerstetter-1.html,OL,9,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2020
+Roschon Johnson,roschon-johnson-1,/cfb/players/roschon-johnson-1.html,RB,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2020
+Sawyer Goram-Welch,sawyer-goram-welch-1,/cfb/players/sawyer-goram-welch-1.html,DL,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2020
+Jaden Hullaby,jaden-hullaby-1,/cfb/players/jaden-hullaby-1.html,LB,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2020
+Kai Money,kai-money-1,/cfb/players/kai-money-1.html,WR,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2020
+Sam Ehlinger,sam-ehlinger-1,/cfb/players/sam-ehlinger-1.html,QB,10,0,0,0,0.0,0.0,0,0,,0,0,1,0,0,0,,Texas,2020

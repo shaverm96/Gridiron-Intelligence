@@ -1,0 +1,50 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Marcus Oliver,marcus-oliver-2,/cfb/players/marcus-oliver-2.html,LB,13,65,47,112,6.5,1.0,2,46,23.0,0,4,1,0,0,4,,Indiana,2015
+Jonathan Crawford,jonathan-crawford-1,/cfb/players/jonathan-crawford-1.html,S,13,48,28,76,1.0,1.0,4,33,8.3,0,1,0,0,0,1,,Indiana,2015
+T.J. Simmons,tj-simmons-2,/cfb/players/tj-simmons-2.html,LB,13,34,39,73,6.0,3.0,0,0,,0,1,0,0,0,0,,Indiana,2015
+Tegray Scales,tegray-scales-1,/cfb/players/tegray-scales-1.html,LB,11,40,24,64,5.5,3.0,2,37,18.5,0,4,0,0,0,0,,Indiana,2015
+Chase Dutra,chase-dutra-1,/cfb/players/chase-dutra-1.html,S,9,38,23,61,4.0,0.0,0,0,,0,2,1,0,0,1,,Indiana,2015
+Zack Shaw,zack-shaw-1,/cfb/players/zack-shaw-1.html,LB,13,37,16,53,11.5,4.0,0,0,,0,4,0,0,0,0,,Indiana,2015
+Rashard Fant,rashard-fant-1,/cfb/players/rashard-fant-1.html,CB,13,48,4,52,1.5,0.0,1,0,0.0,0,22,1,0,0,0,,Indiana,2015
+Nick Mangieri,nick-mangieri-1,/cfb/players/nick-mangieri-1.html,DE,13,32,20,52,12.0,9.5,0,0,,0,6,1,0,0,2,,Indiana,2015
+Clyde Newton,clyde-newton-1,/cfb/players/clyde-newton-1.html,LB,13,28,22,50,2.0,0.0,0,0,,0,0,1,0,0,1,,Indiana,2015
+Andre Brown Jr.,andre-brown-jr-1,/cfb/players/andre-brown-jr-1.html,CB,9,27,8,35,0.0,0.0,0,0,,0,4,1,0,0,0,,Indiana,2015
+Darius Latham,darius-latham-1,/cfb/players/darius-latham-1.html,DL,11,16,17,33,10.0,4.0,1,6,6.0,0,1,0,0,0,0,,Indiana,2015
+Dawson Fletcher,dawson-fletcher-1,/cfb/players/dawson-fletcher-1.html,LB,13,17,8,25,2.0,0.0,0,0,,0,1,1,0,0,0,,Indiana,2015
+Tony Fields,tony-fields-2,/cfb/players/tony-fields-2.html,S,13,15,4,19,0.0,0.0,1,20,20.0,1,0,0,0,0,0,,Indiana,2015
+Robert McCray III,robert-mccray-iii-1,/cfb/players/robert-mccray-iii-1.html,DT,11,11,6,17,5.5,1.5,0,0,,0,1,1,0,0,0,,Indiana,2015
+Will Dawkins,will-dawkins-1,/cfb/players/will-dawkins-1.html,S,9,12,5,17,0.0,0.0,0,0,,0,1,0,0,0,0,,Indiana,2015
+Ralph Green III,ralph-green-iii-1,/cfb/players/ralph-green-iii-1.html,NT,12,9,8,17,3.5,1.0,0,0,,0,6,0,0,0,0,,Indiana,2015
+Tyler Green,tyler-green-1,/cfb/players/tyler-green-1.html,CB,8,14,2,16,1.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2015
+Jameel Cook Jr.,jameel-cook-jr-1,/cfb/players/jameel-cook-jr-1.html,S,8,11,5,16,0.0,0.0,1,96,96.0,1,1,0,0,0,0,,Indiana,2015
+Dameon Willis Jr.,dameon-willis-jr-1,/cfb/players/dameon-willis-jr-1.html,LB,13,8,8,16,0.0,0.0,0,0,,0,0,1,0,0,1,,Indiana,2015
+Adarius Rayner,adarius-rayner-1,/cfb/players/adarius-rayner-1.html,NT,13,7,8,15,3.0,0.0,0,0,,0,2,1,0,0,0,,Indiana,2015
+Shawn Heffern,shawn-heffern-1,/cfb/players/shawn-heffern-1.html,DT,12,8,7,15,1.0,1.0,0,0,,0,0,0,0,0,0,,Indiana,2015
+Kiante Walton,kiante-walton-1,/cfb/players/kiante-walton-1.html,S,2,10,3,13,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2015
+Greg Gooch,greg-gooch-1,/cfb/players/greg-gooch-1.html,LB,12,9,3,12,1.0,1.0,0,0,,0,0,0,0,0,1,,Indiana,2015
+Ben Bach,ben-bach-1,/cfb/players/ben-bach-1.html,CB,13,8,4,12,1.0,0.0,0,0,,0,1,0,0,0,0,,Indiana,2015
+Leon Thornton III,leon-thornton-iii-1,/cfb/players/leon-thornton-iii-1.html,CB,12,7,3,10,1.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2015
+Zeke Walker,zeke-walker-1,/cfb/players/zeke-walker-1.html,LB,4,4,5,9,1.0,0.0,0,0,,0,0,0,0,0,1,,Indiana,2015
+Noel Padmore,noel-padmore-1,/cfb/players/noel-padmore-1.html,CB,13,2,6,8,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2015
+Dan Godsil,dan-godsil-1,/cfb/players/dan-godsil-1.html,LS,13,5,2,7,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2015
+Mario Swann,mario-swann-1,/cfb/players/mario-swann-1.html,S,13,6,0,6,1.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2015
+Jacob Robinson,jacob-robinson-1,/cfb/players/jacob-robinson-1.html,DL,12,5,0,5,1.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2015
+Nile Sykes,nile-sykes-1,/cfb/players/nile-sykes-1.html,LB,12,4,1,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2015
+Devonte Williams,devonte-williams-1,/cfb/players/devonte-williams-1.html,CB,3,3,2,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2015
+Andre Booker,andre-booker-2,/cfb/players/andre-booker-2.html,WR,11,2,2,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2015
+Chris Covington,chris-covington-1,/cfb/players/chris-covington-1.html,LB,7,1,3,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2015
+Nate Hoff,nate-hoff-1,/cfb/players/nate-hoff-1.html,NT,12,4,0,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2015
+Isaac Griffith,isaac-griffith-1,/cfb/players/isaac-griffith-1.html,WR,5,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2015
+Alex Rodriguez,alex-rodriguez-2,/cfb/players/alex-rodriguez-2.html,RB,7,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,1,,Indiana,2015
+Damon Graham,damon-graham-1,/cfb/players/damon-graham-1.html,WR,13,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2015
+Griffin Oakes,griffin-oakes-1,/cfb/players/griffin-oakes-1.html,K,13,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2015
+Ricky Jones,ricky-jones-1,/cfb/players/ricky-jones-1.html,WR,13,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2015
+Marqui Hawkins,marqui-hawkins-1,/cfb/players/marqui-hawkins-1.html,WR,2,1,1,2,0.0,0.0,0,0,,0,0,1,0,0,0,,Indiana,2015
+Kenny Arnold,kenny-arnold-1,/cfb/players/kenny-arnold-1.html,LB,7,1,1,2,1.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2015
+Gabe Estes,gabe-estes-1,/cfb/players/gabe-estes-1.html,LB,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2015
+Simmie Cobbs,simmie-cobbs-1,/cfb/players/simmie-cobbs-1.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2015
+Donavan Hale,donavan-hale-1,/cfb/players/donavan-hale-1.html,WR,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2015
+Kyle Loechel,kyle-loechel-1,/cfb/players/kyle-loechel-1.html,LB,5,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2015
+Jacob Bailey,jacob-bailey-1,/cfb/players/jacob-bailey-1.html,OL,7,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2015
+Patrick Dougherty,patrick-dougherty-1,/cfb/players/patrick-dougherty-1.html,DE,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2015
+Michael Cooper,michael-cooper-3,/cfb/players/michael-cooper-3.html,TE,13,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2015

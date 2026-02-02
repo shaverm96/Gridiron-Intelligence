@@ -1,0 +1,53 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Dwayne Boyles,dwayne-boyles-1,/cfb/players/dwayne-boyles-1.html,LB,12,48,27,75,12.5,3.0,0,0,,0,2,0,0,0,0,,South Florida,2019
+Devin Studstill,devin-studstill-1,/cfb/players/devin-studstill-1.html,DB,12,46,28,74,4.0,0.0,1,40,40.0,0,3,2,0,0,0,,South Florida,2019
+Patrick Macon,patrick-macon-1,/cfb/players/patrick-macon-1.html,LB,10,39,28,67,8.0,2.0,0,0,,0,1,0,0,0,2,,South Florida,2019
+Nick Roberts,nick-roberts-1,/cfb/players/nick-roberts-1.html,DB,12,43,20,63,5.0,2.0,2,62,31.0,0,5,0,0,0,1,,South Florida,2019
+Greg Reaves,greg-reaves-1,/cfb/players/greg-reaves-1.html,DE,12,36,27,63,10.0,4.0,1,48,48.0,0,2,2,0,0,0,,South Florida,2019
+Tony Grier Jr.,tony-grier-jr-1,/cfb/players/tony-grier-jr-1.html,LB,12,35,23,58,8.5,4.0,0,0,,0,1,0,0,0,1,,South Florida,2019
+Mike Hampton,mike-hampton-2,/cfb/players/mike-hampton-2.html,DB,12,42,8,50,2.0,0.0,0,0,,0,6,0,0,0,0,,South Florida,2019
+K.J. Sails,kj-sails-1,/cfb/players/kj-sails-1.html,DB,12,34,8,42,2.5,0.0,3,68,22.7,0,6,2,9,0,1,,South Florida,2019
+Bentlee Sanders,bentlee-sanders-1,/cfb/players/bentlee-sanders-1.html,DB,12,31,9,40,4.5,2.0,1,5,5.0,0,3,0,0,0,2,,South Florida,2019
+Kirk Livingstone,kirk-livingstone-1,/cfb/players/kirk-livingstone-1.html,DE,12,24,14,38,10.0,3.0,0,0,,0,0,2,0,0,1,,South Florida,2019
+Vincent Davis,vincent-davis-2,/cfb/players/vincent-davis-2.html,DB,11,25,8,33,2.0,0.0,1,1,1.0,0,0,1,0,0,0,,South Florida,2019
+Darius Slade,darius-slade-1,/cfb/players/darius-slade-1.html,DE,12,20,12,32,4.5,2.0,0,0,,0,0,1,0,0,1,,South Florida,2019
+Andrew Mims,andrew-mims-1,/cfb/players/andrew-mims-1.html,LB,9,22,9,31,3.0,1.0,0,0,,0,0,0,0,0,1,,South Florida,2019
+Blake Green,blake-green-1,/cfb/players/blake-green-1.html,DT,12,11,12,23,1.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2019
+Demaurez Bellamy,demaurez-bellamy-1,/cfb/players/demaurez-bellamy-1.html,LB,11,15,5,20,1.0,1.0,0,0,,0,0,0,0,0,1,,South Florida,2019
+Brian Norris Jr.,brian-norris-jr-1,/cfb/players/brian-norris-jr-1.html,LB,10,10,6,16,1.0,1.0,0,0,,0,0,0,0,0,1,,South Florida,2019
+Rashawn Yates,rashawn-yates-1,/cfb/players/rashawn-yates-1.html,DL,12,8,8,16,3.5,2.0,0,0,,0,0,0,0,0,0,,South Florida,2019
+Tyrone Barber,tyrone-barber-2,/cfb/players/tyrone-barber-2.html,DT,10,5,10,15,2.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2019
+Mekhi Lapointe,mekhi-lapointe-1,/cfb/players/mekhi-lapointe-1.html,DB,9,9,5,14,0.0,0.0,0,0,,0,1,0,0,0,0,,South Florida,2019
+Jason Vaughn,jason-vaughn-2,/cfb/players/jason-vaughn-2.html,DE,12,10,4,14,3.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2019
+Kelvin Pinkney Jr.,kelvin-pinkney-jr-1,/cfb/players/kelvin-pinkney-jr-1.html,DT,9,5,8,13,2.0,1.0,0,0,,0,0,0,0,0,0,,South Florida,2019
+Brock Nichols,brock-nichols-1,/cfb/players/brock-nichols-1.html,DB,12,9,4,13,0.0,0.0,1,0,0.0,0,0,0,0,0,0,,South Florida,2019
+Kevin Kegler,kevin-kegler-1,/cfb/players/kevin-kegler-1.html,DT,8,8,4,12,4.5,0.0,0,0,,0,0,1,0,0,0,,South Florida,2019
+Eugene Bowman,eugene-bowman-1,/cfb/players/eugene-bowman-1.html,DB,11,10,1,11,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2019
+Daquan Evans,daquan-evans-1,/cfb/players/daquan-evans-1.html,DB,12,9,1,10,0.0,0.0,1,52,52.0,0,0,0,0,0,0,,South Florida,2019
+Darrien Grant,darrien-grant-1,/cfb/players/darrien-grant-1.html,DE,10,3,5,8,1.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2019
+Trey Laing,trey-laing-2,/cfb/players/trey-laing-2.html,,4,3,3,6,1.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2019
+Tyrik Jones,tyrik-jones-1,/cfb/players/tyrik-jones-1.html,DE,7,5,1,6,1.0,1.0,0,0,,0,0,1,20,0,0,,South Florida,2019
+Trey Laing,trey-laing-1,/cfb/players/trey-laing-1.html,LB,2,3,3,6,1.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2019
+Stacy Kirby Jr.,stacy-kirby-jr-1,/cfb/players/stacy-kirby-jr-1.html,DL,7,2,3,5,0.5,0.0,1,3,3.0,0,0,0,0,0,0,,South Florida,2019
+DeVontres Dukes,devontres-dukes-1,/cfb/players/devontres-dukes-1.html,WR,12,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2019
+Ryan Thaxton,ryan-thaxton-1,/cfb/players/ryan-thaxton-1.html,DL,3,0,3,3,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2019
+Trevon Sands,trevon-sands-1,/cfb/players/trevon-sands-1.html,RB,8,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2019
+Mitchell Wilcox,mitchell-wilcox-1,/cfb/players/mitchell-wilcox-1.html,TE,12,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2019
+Zion Roland,zion-roland-1,/cfb/players/zion-roland-1.html,WR,7,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2019
+Chris Carter,chris-carter-8,/cfb/players/chris-carter-8.html,DE,12,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2019
+Jabreel Stephens,jabreel-stephens-1,/cfb/players/jabreel-stephens-1.html,DE,6,2,1,3,1.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2019
+Fred Lloyd Jr.,fred-lloyd-jr-1,/cfb/players/fred-lloyd-jr-1.html,,11,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2019
+Frederick Lloyd Jr.,frederick-lloyd-jr-1,/cfb/players/frederick-lloyd-jr-1.html,TE,2,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2019
+Jordan McCloud,jordan-mccloud-1,/cfb/players/jordan-mccloud-1.html,QB,12,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2019
+Armon Williams,armon-williams-2,/cfb/players/armon-williams-2.html,DT,2,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2019
+Bryce Miller,bryce-miller-1,/cfb/players/bryce-miller-1.html,WR,12,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2019
+David Small,david-small-2,/cfb/players/david-small-2.html,LB,7,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2019
+Ian Deneen,ian-deneen-1,/cfb/players/ian-deneen-1.html,LS,12,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2019
+John Waller,john-waller-2,/cfb/players/john-waller-2.html,DT,5,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2019
+Jordan Cronkrite,jordan-cronkrite-1,/cfb/players/jordan-cronkrite-1.html,RB,10,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2019
+McArthur Burnett,mcarthur-burnett-1,/cfb/players/mcarthur-burnett-1.html,DB,3,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2019
+Trent Shaw,trent-shaw-1,/cfb/players/trent-shaw-1.html,,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2019
+Tae'aviion Gray,taeaviion-gray-1,/cfb/players/taeaviion-gray-1.html,LB,9,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2019
+Isaiah Cromarty,isaiah-cromarty-1,/cfb/players/isaiah-cromarty-1.html,,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2019
+Spencer Shrader,spencer-shrader-1,/cfb/players/spencer-shrader-1.html,K,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2019
+Andrew Beardall,andrew-beardall-1,/cfb/players/andrew-beardall-1.html,LS,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,South Florida,2019

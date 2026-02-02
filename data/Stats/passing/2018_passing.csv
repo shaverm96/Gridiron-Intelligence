@@ -1,0 +1,539 @@
+Player,Player_ID,Player_Link,team_name_abbr,conf_abbr,games,pass_cmp,pass_att,pass_cmp_pct,pass_yds,pass_td,pass_td_pct,pass_int,pass_int_pct,pass_yds_per_att,pass_adj_yds_per_att,pass_yds_per_cmp,pass_yds_per_g,pass_rating,awards,Year
+Dwayne Haskins,dwayne-haskins-1,/cfb/players/dwayne-haskins-1.html,Ohio State,Big Ten,14,373,533,70.0,4831,50,9.4,8,1.5,9.1,10.26,13.0,345.1,174.1,H-3,2018
+Gardner Minshew,gardner-minshew-1,/cfb/players/gardner-minshew-1.html,Washington State,Pac-12,13,468,662,70.7,4779,38,5.7,9,1.4,7.2,7.76,10.2,367.6,147.6,H-5,2018
+Kyler Murray,kyler-murray-1,/cfb/players/kyler-murray-1.html,Oklahoma,Big 12,14,260,377,69.0,4361,42,11.1,7,1.9,11.6,12.96,16.8,311.5,199.2,H-1,2018
+Taylor Cornelius,taylor-cornelius-1,/cfb/players/taylor-cornelius-1.html,Oklahoma State,Big 12,13,288,485,59.4,3978,32,6.6,13,2.7,8.2,8.32,13.8,306.0,144.7,,2018
+Tua Tagovailoa,tua-tagovailoa-1,/cfb/players/tua-tagovailoa-1.html,Alabama,SEC,15,245,355,69.0,3966,43,12.1,6,1.7,11.2,12.83,16.2,264.4,199.4,"H-2,Maxwell,AA,Camp",2018
+Ryan Finley,ryan-finley-1,/cfb/players/ryan-finley-1.html,North Carolina State,ACC,13,326,484,67.4,3928,25,5.2,11,2.3,8.1,8.13,12.0,302.2,148.0,,2018
+Jordan Ta'amu,jordan-taamu-1,/cfb/players/jordan-taamu-1.html,Ole Miss,SEC,12,266,418,63.6,3918,19,4.5,8,1.9,9.4,9.42,14.7,326.5,153.5,,2018
+Cole McDonald,cole-mcdonald-1,/cfb/players/cole-mcdonald-1.html,Hawaii,MWC,13,285,484,58.9,3875,36,7.4,10,2.1,8.0,8.56,13.6,298.1,146.5,,2018
+Will Grier,will-grier-1,/cfb/players/will-grier-1.html,West Virginia,Big 12,11,266,397,67.0,3864,37,9.3,8,2.0,9.7,10.69,14.5,351.3,175.5,H-4,2018
+Mason Fine,mason-fine-1,/cfb/players/mason-fine-1.html,North Texas,CUSA,13,303,469,64.6,3793,27,5.8,5,1.1,8.1,8.76,12.5,291.8,149.4,,2018
+Brett Rypien,brett-rypien-1,/cfb/players/brett-rypien-1.html,Boise State,MWC,13,301,447,67.3,3705,30,6.7,7,1.6,8.3,8.93,12.3,285.0,156.0,,2018
+David Blough,david-blough-1,/cfb/players/david-blough-1.html,Purdue,Big Ten,13,305,462,66.0,3705,25,5.4,10,2.2,8.0,8.13,12.1,285.0,146.9,,2018
+Marcus McMaryion,marcus-mcmaryion-1,/cfb/players/marcus-mcmaryion-1.html,Fresno State,MWC,14,293,427,68.6,3629,25,5.9,5,1.2,8.5,9.14,12.4,259.2,157.0,,2018
+Jordan Love,jordan-love-2,/cfb/players/jordan-love-2.html,Utah State,MWC,13,267,417,64.0,3567,32,7.7,6,1.4,8.6,9.44,13.4,274.4,158.3,,2018
+Brent Stockstill,brent-stockstill-1,/cfb/players/brent-stockstill-1.html,Middle Tennessee State,CUSA,14,326,464,70.3,3544,29,6.3,10,2.2,7.6,7.92,10.9,253.1,150.7,,2018
+K.J. Costello,kj-costello-1,/cfb/players/kj-costello-1.html,Stanford,Pac-12,13,269,413,65.1,3540,29,7.0,11,2.7,8.6,8.78,13.2,272.3,155.0,,2018
+Drew Lock,drew-lock-1,/cfb/players/drew-lock-1.html,Missouri,SEC,13,275,437,62.9,3498,28,6.4,8,1.8,8.0,8.46,12.7,269.1,147.7,,2018
+Justice Hansen,justice-hansen-1,/cfb/players/justice-hansen-1.html,Arkansas State,Sun Belt,13,286,434,65.9,3447,27,6.2,9,2.1,7.9,8.25,12.1,265.2,149.0,,2018
+Ty Gangi,ty-gangi-1,/cfb/players/ty-gangi-1.html,Nevada,MWC,12,268,443,60.5,3331,24,5.4,13,2.9,7.5,7.28,12.4,277.6,135.7,,2018
+Brady White,brady-white-1,/cfb/players/brady-white-1.html,Memphis,American,14,246,392,62.8,3296,26,6.6,9,2.3,8.4,8.70,13.4,235.4,150.7,,2018
+Sam Ehlinger,sam-ehlinger-1,/cfb/players/sam-ehlinger-1.html,Texas,Big 12,14,275,425,64.7,3292,25,5.9,5,1.2,7.7,8.39,12.0,235.1,146.8,,2018
+Trevor Lawrence,trevor-lawrence-1,/cfb/players/trevor-lawrence-1.html,Clemson,ACC,15,259,397,65.2,3280,30,7.6,4,1.0,8.3,9.32,12.7,218.7,157.6,,2018
+Jake Browning,jake-browning-1,/cfb/players/jake-browning-1.html,Washington,Pac-12,14,252,388,64.9,3192,16,4.1,10,2.6,8.2,7.89,12.7,228.0,142.5,,2018
+Clayton Thorson,clayton-thorson-1,/cfb/players/clayton-thorson-1.html,Northwestern,Big Ten,14,299,489,61.1,3183,17,3.5,15,3.1,6.5,5.82,10.6,227.4,121.2,,2018
+Jake Bentley,jake-bentley-2,/cfb/players/jake-bentley-2.html,South Carolina,SEC,13,240,388,61.9,3171,27,7.0,14,3.6,8.2,7.94,13.2,243.9,146.3,,2018
+J'mar Smith,jmar-smith-1,/cfb/players/jmar-smith-1.html,Louisiana Tech,CUSA,13,264,461,57.3,3160,15,3.3,10,2.2,6.9,6.53,12.0,243.1,121.2,,2018
+Justin Herbert,justin-herbert-1,/cfb/players/justin-herbert-1.html,Oregon,Pac-12,13,240,404,59.4,3151,29,7.2,8,2.0,7.8,8.34,13.1,242.4,144.6,,2018
+Tyree Jackson,tyree-jackson-1,/cfb/players/tyree-jackson-1.html,Buffalo,MAC,14,225,407,55.3,3131,28,6.9,12,2.9,7.7,7.74,13.9,223.6,136.7,,2018
+Kyle Shurmur,kyle-shurmur-1,/cfb/players/kyle-shurmur-1.html,Vanderbilt,SEC,13,254,406,62.6,3130,24,5.9,6,1.5,7.7,8.23,12.3,240.8,143.9,,2018
+Kellen Mond,kellen-mond-1,/cfb/players/kellen-mond-1.html,Texas A&M,SEC,13,238,415,57.3,3107,24,5.8,9,2.2,7.5,7.67,13.1,239.0,135.0,,2018
+Stephen Calvert,stephen-calvert-1,/cfb/players/stephen-calvert-1.html,Liberty,Ind,12,240,439,54.7,3068,21,4.8,18,4.1,7.0,6.10,12.8,255.7,121.0,,2018
+Manny Wilkins,manny-wilkins-1,/cfb/players/manny-wilkins-1.html,Arizona State,Pac-12,13,247,393,62.8,3025,20,5.1,6,1.5,7.7,8.03,12.2,232.7,141.2,,2018
+Charlie Brewer,charlie-brewer-1,/cfb/players/charlie-brewer-1.html,Baylor,Big 12,13,240,390,61.5,3019,19,4.9,9,2.3,7.7,7.68,12.6,232.2,138.0,,2018
+Blake LaRussa,blake-larussa-1,/cfb/players/blake-larussa-1.html,Old Dominion,CUSA,11,249,393,63.4,3015,19,4.8,10,2.5,7.7,7.49,12.1,274.1,138.7,,2018
+D'Eriq King,deriq-king-1,/cfb/players/deriq-king-1.html,Houston,American,11,219,345,63.5,2982,36,10.4,6,1.7,8.6,9.95,13.6,271.1,167.0,,2018
+Joe Burrow,joe-burrow-1,/cfb/players/joe-burrow-1.html,LSU,SEC,13,219,379,57.8,2894,16,4.2,5,1.3,7.6,7.89,13.2,222.6,133.2,,2018
+Peyton Ramsey,peyton-ramsey-1,/cfb/players/peyton-ramsey-1.html,Indiana,Big Ten,12,295,447,66.0,2875,19,4.3,13,2.9,6.4,5.97,9.7,239.6,128.2,,2018
+Caleb Evans,caleb-evans-2,/cfb/players/caleb-evans-2.html,Louisiana-Monroe,Sun Belt,12,231,374,61.8,2869,16,4.3,12,3.2,7.7,7.08,12.4,239.1,133.9,,2018
+Eric Dungey,eric-dungey-1,/cfb/players/eric-dungey-1.html,Syracuse,ACC,13,226,371,60.9,2868,18,4.9,9,2.4,7.7,7.61,12.7,220.6,137.0,,2018
+Nathan Stanley,nathan-stanley-2,/cfb/players/nathan-stanley-2.html,Iowa,Big Ten,13,235,396,59.3,2852,26,6.6,10,2.5,7.2,7.38,12.1,219.4,136.5,,2018
+Steven Montez,steven-montez-1,/cfb/players/steven-montez-1.html,Colorado,Pac-12,12,258,399,64.7,2849,19,4.8,9,2.3,7.1,7.08,11.0,237.4,135.8,,2018
+Jarrett Stidham,jarrett-stidham-1,/cfb/players/jarrett-stidham-1.html,Auburn,SEC,13,224,369,60.7,2794,18,4.9,5,1.4,7.6,7.94,12.5,214.9,137.7,,2018
+Jake Fromm,jake-fromm-1,/cfb/players/jake-fromm-1.html,Georgia,SEC,14,206,306,67.3,2749,30,9.8,6,2.0,9.0,10.06,13.3,196.4,171.2,,2018
+Deondre Francois,deondre-francois-1,/cfb/players/deondre-francois-1.html,Florida State,ACC,11,227,396,57.3,2731,15,3.8,12,3.0,6.9,6.29,12.0,248.3,121.7,,2018
+James Morgan,james-morgan-1,/cfb/players/james-morgan-1.html,Florida International,CUSA,12,213,326,65.3,2727,26,8.0,7,2.1,8.4,8.99,12.8,227.3,157.6,,2018
+Ryan Willis,ryan-willis-2,/cfb/players/ryan-willis-2.html,Virginia Tech,ACC,12,213,364,58.5,2716,24,6.6,9,2.5,7.5,7.67,12.8,226.3,138.0,,2018
+Blake Barnett,blake-barnett-2,/cfb/players/blake-barnett-2.html,South Florida,American,11,214,350,61.1,2705,12,3.4,11,3.1,7.7,7.00,12.6,245.9,131.1,,2018
+Bryce Perkins,bryce-perkins-1,/cfb/players/bryce-perkins-1.html,Virginia,ACC,13,225,349,64.5,2680,25,7.2,9,2.6,7.7,7.95,11.9,206.2,147.5,,2018
+Daniel Jones,daniel-jones-4,/cfb/players/daniel-jones-4.html,Duke,ACC,11,237,392,60.5,2674,22,5.6,9,2.3,6.8,6.91,11.3,243.1,131.7,,2018
+JT Daniels,jt-daniels-1,/cfb/players/jt-daniels-1.html,USC,Pac-12,11,216,363,59.5,2672,14,3.9,10,2.8,7.4,6.89,12.4,242.9,128.6,,2018
+McKenzie Milton,mckenzie-milton-1,/cfb/players/mckenzie-milton-1.html,UCF,American,10,171,289,59.2,2663,25,8.7,6,2.1,9.2,10.01,15.6,266.3,161.0,H-6,2018
+Jarret Doege,jarret-doege-1,/cfb/players/jarret-doege-1.html,Bowling Green,MAC,12,242,389,62.2,2660,27,6.9,12,3.1,6.8,6.84,11.0,221.7,136.4,,2018
+Alan Bowman,alan-bowman-1,/cfb/players/alan-bowman-1.html,Texas Tech,Big 12,8,227,327,69.4,2638,17,5.2,7,2.1,8.1,8.14,11.6,329.8,150.1,,2018
+Ian Book,ian-book-1,/cfb/players/ian-book-1.html,Notre Dame,Ind,12,214,314,68.2,2628,19,6.1,7,2.2,8.4,8.58,12.3,219.0,154.0,,2018
+Adrian Martinez,adrian-martinez-2,/cfb/players/adrian-martinez-2.html,Nebraska,Big Ten,11,224,347,64.6,2617,17,4.9,8,2.3,7.5,7.48,11.7,237.9,139.5,,2018
+Shea Patterson,shea-patterson-1,/cfb/players/shea-patterson-1.html,Michigan,Big Ten,13,210,325,64.6,2600,22,6.8,7,2.2,8.0,8.38,12.4,200.0,149.8,,2018
+Ben Hicks,ben-hicks-1,/cfb/players/ben-hicks-1.html,SMU,American,12,208,372,55.9,2582,19,5.1,7,1.9,6.9,7.12,12.4,215.2,127.3,,2018
+Anthony Russo,anthony-russo-3,/cfb/players/anthony-russo-3.html,Temple,American,13,198,345,57.4,2563,14,4.1,14,4.1,7.4,6.41,12.9,197.2,125.1,,2018
+Josh Adkins,josh-adkins-1,/cfb/players/josh-adkins-1.html,New Mexico State,Ind,10,222,393,56.5,2563,13,3.3,9,2.3,6.5,6.15,11.5,256.3,117.6,,2018
+Gus Ragland,gus-ragland-1,/cfb/players/gus-ragland-1.html,Miami (OH),MAC,12,226,371,60.9,2547,17,4.6,5,1.3,6.9,7.18,11.3,212.3,131.0,,2018
+Chris Robison,chris-robison-1,/cfb/players/chris-robison-1.html,Florida Atlantic,CUSA,12,192,304,63.2,2533,12,3.9,12,3.9,8.3,7.35,13.2,211.1,138.3,,2018
+Khalil Tate,khalil-tate-1,/cfb/players/khalil-tate-1.html,Arizona,Pac-12,11,170,302,56.3,2530,26,8.6,8,2.6,8.4,8.91,14.9,230.0,149.8,,2018
+Trace McSorley,trace-mcsorley-1,/cfb/players/trace-mcsorley-1.html,Penn State,Big Ten,13,192,361,53.2,2530,18,5.0,7,1.9,7.0,7.13,13.2,194.6,124.6,,2018
+Isaiah Green,isaiah-green-2,/cfb/players/isaiah-green-2.html,Marshall,CUSA,10,187,330,56.7,2459,15,4.5,10,3.0,7.5,7.00,13.1,245.9,128.2,,2018
+Feleipe Franks,feleipe-franks-1,/cfb/players/feleipe-franks-1.html,Florida,SEC,13,188,322,58.4,2457,24,7.5,6,1.9,7.6,8.28,13.1,189.0,143.4,,2018
+Desmond Ridder,desmond-ridder-1,/cfb/players/desmond-ridder-1.html,Cincinnati,American,13,194,311,62.4,2445,20,6.4,5,1.6,7.9,8.42,12.6,188.1,146.4,,2018
+Nathan Rourke,nathan-rourke-1,/cfb/players/nathan-rourke-1.html,Ohio,MAC,13,165,275,60.0,2431,23,8.4,8,2.9,8.8,9.20,14.7,187.0,156.0,,2018
+Jack Abraham,jack-abraham-1,/cfb/players/jack-abraham-1.html,Southern Mississippi,CUSA,9,223,305,73.1,2347,15,4.9,10,3.3,7.7,7.20,10.5,260.8,147.4,,2018
+Woody Barrett,woody-barrett-2,/cfb/players/woody-barrett-2.html,Kent State,MAC,12,229,390,58.7,2339,11,2.8,9,2.3,6.0,5.52,10.2,194.9,113.8,,2018
+Kato Nelson,kato-nelson-1,/cfb/players/kato-nelson-1.html,Akron,MAC,11,178,342,52.0,2329,15,4.4,8,2.3,6.8,6.63,13.1,211.7,119.0,,2018
+Andre Nunez,andre-nunez-1,/cfb/players/andre-nunez-1.html,Louisiana,Sun Belt,14,182,287,63.4,2272,20,7.0,12,4.2,7.9,7.43,12.5,162.3,144.5,,2018
+K.J. Carta-Samuels,kj-carta-samuels-1,/cfb/players/kj-carta-samuels-1.html,Colorado State,MWC,10,183,296,61.8,2261,19,6.4,9,3.0,7.6,7.55,12.4,226.1,141.1,,2018
+Brock Purdy,brock-purdy-1,/cfb/players/brock-purdy-1.html,Iowa State,Big 12,10,146,220,66.4,2250,16,7.3,7,3.2,10.2,10.25,15.4,225.0,169.9,,2018
+Marcus Childers,marcus-childers-1,/cfb/players/marcus-childers-1.html,Northern Illinois,MAC,14,234,397,58.9,2175,15,3.8,10,2.5,5.5,5.10,9.3,155.4,112.4,,2018
+Nathan Elliott,nathan-elliott-1,/cfb/players/nathan-elliott-1.html,North Carolina,ACC,10,201,325,61.8,2169,11,3.4,9,2.8,6.7,6.10,10.8,216.9,123.5,,2018
+Anthony Brown,anthony-brown-11,/cfb/players/anthony-brown-11.html,Boston College,ACC,12,158,285,55.4,2121,20,7.0,9,3.2,7.4,7.42,13.4,176.8,134.8,,2018
+Dan Ellington,dan-ellington-1,/cfb/players/dan-ellington-1.html,Georgia State,Sun Belt,11,174,292,59.6,2119,12,4.1,5,1.7,7.3,7.31,12.2,192.6,130.7,,2018
+Brian Lewerke,brian-lewerke-1,/cfb/players/brian-lewerke-1.html,Michigan State,Big Ten,11,184,339,54.3,2040,8,2.4,11,3.2,6.0,5.03,11.1,185.5,106.1,,2018
+Zac Thomas,zac-thomas-2,/cfb/players/zac-thomas-2.html,Appalachian State,Sun Belt,12,159,254,62.6,2039,21,8.3,6,2.4,8.0,8.62,12.8,169.9,152.6,,2018
+Jon Wassink,jon-wassink-1,/cfb/players/jon-wassink-1.html,Western Michigan,MAC,9,151,245,61.6,1994,16,6.5,6,2.4,8.1,8.34,13.2,221.6,146.7,,2018
+Sam Hartman,sam-hartman-1,/cfb/players/sam-hartman-1.html,Wake Forest,ACC,9,161,291,55.3,1984,16,5.5,8,2.7,6.8,6.68,12.3,220.4,125.2,,2018
+Kenny Pickett,kenny-pickett-1,/cfb/players/kenny-pickett-1.html,Pitt,ACC,14,180,310,58.1,1969,12,3.9,6,1.9,6.4,6.25,10.9,140.6,120.3,,2018
+Josh Love,josh-love-1,/cfb/players/josh-love-1.html,San Jose State,MWC,8,162,289,56.1,1963,14,4.8,9,3.1,6.8,6.36,12.1,245.4,122.9,,2018
+David Pindell,david-pindell-1,/cfb/players/david-pindell-1.html,Connecticut,American,12,186,314,59.2,1962,19,6.1,13,4.1,6.2,5.60,10.5,163.5,123.4,,2018
+Jawon Pass,jawon-pass-1,/cfb/players/jawon-pass-1.html,Louisville,ACC,11,162,300,54.0,1960,8,2.7,12,4.0,6.5,5.27,12.1,178.2,109.7,,2018
+Riley Neal,riley-neal-1,/cfb/players/riley-neal-1.html,Ball State,MAC,9,194,335,57.9,1917,11,3.3,4,1.2,5.7,5.84,9.9,213.0,114.4,,2018
+Jarrett Guarantano,jarrett-guarantano-1,/cfb/players/jarrett-guarantano-1.html,Tennessee,SEC,12,153,246,62.2,1907,12,4.9,3,1.2,7.8,8.18,12.5,158.9,141.0,,2018
+Peyton Bender,peyton-bender-1,/cfb/players/peyton-bender-1.html,Kansas,Big 12,11,183,321,57.0,1894,13,4.0,3,0.9,5.9,6.29,10.3,172.2,118.1,,2018
+Terry Wilson,terry-wilson-3,/cfb/players/terry-wilson-3.html,Kentucky,SEC,13,180,268,67.2,1889,11,4.1,8,3.0,7.0,6.53,10.5,145.3,133.9,,2018
+Tyler Wiegers,tyler-wiegers-1,/cfb/players/tyler-wiegers-1.html,Eastern Michigan,MAC,12,171,264,64.8,1887,11,4.2,3,1.1,7.1,7.47,11.0,157.3,136.3,,2018
+Eli Peters,eli-peters-1,/cfb/players/eli-peters-1.html,Toledo,MAC,12,146,265,55.1,1837,18,6.8,7,2.6,6.9,7.10,12.6,153.1,130.5,,2018
+Ross Comis,ross-comis-1,/cfb/players/ross-comis-1.html,Massachusetts,Ind,11,122,194,62.9,1799,14,7.2,3,1.5,9.3,10.02,14.7,163.5,161.5,,2018
+Evan Orth,evan-orth-1,/cfb/players/evan-orth-1.html,South Alabama,Sun Belt,10,145,222,65.3,1795,11,5.0,6,2.7,8.1,7.86,12.4,179.5,144.2,,2018
+Tyler Huntley,tyler-huntley-1,/cfb/players/tyler-huntley-1.html,Utah,Pac-12,9,150,234,64.1,1788,12,5.1,6,2.6,7.6,7.51,11.9,198.7,140.1,,2018
+Holton Ahlers,holton-ahlers-1,/cfb/players/holton-ahlers-1.html,East Carolina,American,10,127,263,48.3,1785,12,4.6,3,1.1,6.8,7.19,14.1,178.5,118.1,,2018
+Nick Fitzgerald,nick-fitzgerald-2,/cfb/players/nick-fitzgerald-2.html,Mississippi State,SEC,12,145,281,51.6,1767,16,5.7,9,3.2,6.3,5.99,12.2,147.3,116.8,,2018
+Sawyer Smith,sawyer-smith-1,/cfb/players/sawyer-smith-1.html,Troy,Sun Belt,13,144,229,62.9,1669,14,6.1,6,2.6,7.3,7.33,11.6,128.4,139.0,,2018
+Jake Luton,jake-luton-1,/cfb/players/jake-luton-1.html,Oregon State,Pac-12,8,140,224,62.5,1660,10,4.5,4,1.8,7.4,7.50,11.9,207.5,135.9,,2018
+Ryan Agnew,ryan-agnew-1,/cfb/players/ryan-agnew-1.html,San Diego State,MWC,12,115,223,51.6,1651,10,4.5,6,2.7,7.4,7.09,14.4,137.6,123.2,,2018
+Reid Herring,reid-herring-1,/cfb/players/reid-herring-1.html,East Carolina,American,9,154,288,53.5,1607,6,2.1,10,3.5,5.6,4.43,10.4,178.6,100.3,,2018
+Ty Storey,ty-storey-1,/cfb/players/ty-storey-1.html,Arkansas,SEC,10,143,250,57.2,1584,11,4.4,10,4.0,6.3,5.42,11.1,158.4,116.9,,2018
+Zach Wilson,zach-wilson-3,/cfb/players/zach-wilson-3.html,BYU,Ind,9,120,182,65.9,1578,12,6.6,3,1.6,8.7,9.25,13.2,175.3,157.2,,2018
+A.J. Erdely,aj-erdely-1,/cfb/players/aj-erdely-1.html,UAB,CUSA,9,111,198,56.1,1539,7,3.5,7,3.5,7.8,6.89,13.9,171.0,125.9,,2018
+Alex Hornibrook,alex-hornibrook-1,/cfb/players/alex-hornibrook-1.html,Wisconsin,Big Ten,9,122,205,59.5,1532,13,6.3,11,5.4,7.5,6.33,12.6,170.2,132.5,,2018
+Wilton Speight,wilton-speight-1,/cfb/players/wilton-speight-1.html,UCLA,Pac-12,7,126,208,60.6,1527,6,2.9,6,2.9,7.3,6.62,12.1,218.1,126.0,,2018
+Chase Garbers,chase-garbers-1,/cfb/players/chase-garbers-1.html,California,Pac-12,12,159,260,61.2,1506,14,5.4,10,3.8,5.8,5.14,9.5,125.5,119.9,,2018
+Sheriron Jones,sheriron-jones-1,/cfb/players/sheriron-jones-1.html,New Mexico,MWC,11,102,187,54.5,1422,13,7.0,12,6.4,7.6,6.11,13.9,129.3,128.5,,2018
+AJ Bush,aj-bush-1,/cfb/players/aj-bush-1.html,Illinois,Big Ten,10,117,217,53.9,1413,6,2.8,10,4.6,6.5,4.99,12.1,141.3,108.5,,2018
+Tanner Morgan,tanner-morgan-2,/cfb/players/tanner-morgan-2.html,Minnesota,Big Ten,9,89,152,58.6,1401,9,5.9,6,3.9,9.2,8.63,15.7,155.7,147.6,,2018
+Max Gilliam,max-gilliam-1,/cfb/players/max-gilliam-1.html,Nevada-Las Vegas,MWC,11,125,226,55.3,1394,14,6.2,8,3.5,6.2,5.81,11.2,126.7,120.5,,2018
+Skylar Thompson,skylar-thompson-1,/cfb/players/skylar-thompson-1.html,Kansas State,Big 12,11,122,208,58.7,1391,9,4.3,4,1.9,6.7,6.69,11.4,126.5,125.3,,2018
+Collin Hill,collin-hill-1,/cfb/players/collin-hill-1.html,Colorado State,MWC,10,119,202,58.9,1387,7,3.5,7,3.5,6.9,6.00,11.7,138.7,121.1,,2018
+Seth Boomer,seth-boomer-1,/cfb/players/seth-boomer-1.html,Tulsa,American,9,101,198,51.0,1378,9,4.5,4,2.0,7.0,6.96,13.6,153.1,120.4,,2018
+Andrew Ford,andrew-ford-1,/cfb/players/andrew-ford-1.html,Massachusetts,Ind,7,115,177,65.0,1366,9,5.1,5,2.8,7.7,7.46,11.9,195.1,140.9,,2018
+Shawn Robinson,shawn-robinson-2,/cfb/players/shawn-robinson-2.html,Texas Christian,Big 12,7,124,204,60.8,1334,9,4.4,8,3.9,6.5,5.66,10.8,190.6,122.4,,2018
+Shawn Stankavage,shawn-stankavage-1,/cfb/players/shawn-stankavage-1.html,Rice,CUSA,10,124,219,56.6,1328,10,4.6,10,4.6,6.1,4.92,10.7,132.8,113.5,,2018
+Tyler Johnston III,tyler-johnston-iii-1,/cfb/players/tyler-johnston-iii-1.html,UAB,CUSA,13,80,140,57.1,1323,11,7.9,9,6.4,9.5,8.13,16.5,101.8,149.6,,2018
+Dorian Thompson-Robinson,dorian-thompson-robinson-1,/cfb/players/dorian-thompson-robinson-1.html,UCLA,Pac-12,10,112,194,57.7,1311,7,3.6,4,2.1,6.8,6.55,11.7,131.1,122.3,,2018
+Tyler Vander Waal,tyler-vander-waal-1,/cfb/players/tyler-vander-waal-1.html,Wyoming,MWC,10,120,246,48.8,1310,5,2.0,4,1.6,5.3,5.00,10.9,131.0,97.0,,2018
+Justin McMillan,justin-mcmillan-1,/cfb/players/justin-mcmillan-1.html,Tulane,American,9,79,154,51.3,1304,10,6.5,4,2.6,8.5,8.60,16.5,144.9,138.7,,2018
+Zack Annexstad,zack-annexstad-1,/cfb/players/zack-annexstad-1.html,Minnesota,Big Ten,8,97,187,51.9,1277,9,4.8,7,3.7,6.8,6.11,13.2,159.6,117.6,,2018
+Jett Duffey,jett-duffey-1,/cfb/players/jett-duffey-1.html,Texas Tech,Big 12,8,104,154,67.5,1221,8,5.2,6,3.9,7.9,7.21,11.7,152.6,143.5,,2018
+Chris Reynolds,chris-reynolds-1,/cfb/players/chris-reynolds-1.html,Charlotte,CUSA,6,100,154,64.9,1173,6,3.9,2,1.3,7.6,7.81,11.7,195.5,139.2,,2018
+Jason Shelley,jason-shelley-2,/cfb/players/jason-shelley-2.html,Utah,Pac-12,9,98,168,58.3,1162,5,3.0,6,3.6,6.9,5.90,11.9,129.1,119.1,,2018
+Tyler Vitt,tyler-vitt-1,/cfb/players/tyler-vitt-1.html,Texas State,Sun Belt,9,116,191,60.7,1159,7,3.7,10,5.2,6.1,4.45,10.0,128.8,113.3,,2018
+Artur Sitkowski,artur-sitkowski-1,/cfb/players/artur-sitkowski-1.html,Rutgers,Big Ten,11,134,273,49.1,1158,4,1.5,18,6.6,4.2,1.57,8.6,105.3,76.4,,2018
+Conor Blount,conor-blount-1,/cfb/players/conor-blount-1.html,Oregon State,Pac-12,9,95,153,62.1,1117,7,4.6,2,1.3,7.3,7.63,11.8,124.1,135.9,,2018
+Tanner Mangum,tanner-mangum-1,/cfb/players/tanner-mangum-1.html,BYU,Ind,8,114,186,61.3,1104,5,2.7,4,2.2,5.9,5.51,9.7,138.0,115.7,,2018
+Kaleb Eleby,kaleb-eleby-1,/cfb/players/kaleb-eleby-1.html,Western Michigan,MAC,5,92,147,62.6,1092,4,2.7,3,2.0,7.4,7.05,11.9,218.4,129.9,,2018
+N'Kosi Perry,nkosi-perry-1,/cfb/players/nkosi-perry-1.html,Miami (FL),ACC,11,97,191,50.8,1091,13,6.8,6,3.1,5.7,5.66,11.2,99.2,114.9,,2018
+Jamie Newman,jamie-newman-1,/cfb/players/jamie-newman-1.html,Wake Forest,ACC,6,84,141,59.6,1083,9,6.4,4,2.8,7.7,7.68,12.9,180.5,139.5,,2018
+Kasim Hill,kasim-hill-1,/cfb/players/kasim-hill-1.html,Maryland,Big Ten,10,84,170,49.4,1083,9,5.3,4,2.4,6.4,6.37,12.9,108.3,115.7,,2018
+Jonathan Banks,jonathan-banks-1,/cfb/players/jonathan-banks-1.html,Tulane,American,7,72,139,51.8,1074,5,3.6,2,1.4,7.7,7.80,14.9,153.4,125.7,,2018
+Steven Duncan,steven-duncan-1,/cfb/players/steven-duncan-1.html,Western Kentucky,CUSA,9,108,187,57.8,1071,9,4.8,7,3.7,5.7,5.01,9.9,119.0,114.3,,2018
+Michael Collins,michael-collins-4,/cfb/players/michael-collins-4.html,Texas Christian,Big 12,9,79,140,56.4,1059,6,4.3,2,1.4,7.6,7.78,13.4,117.7,131.3,,2018
+Malik Rosier,malik-rosier-1,/cfb/players/malik-rosier-1.html,Miami (FL),ACC,8,82,156,52.6,1053,6,3.8,8,5.1,6.8,5.21,12.8,131.6,111.7,,2018
+Mitchell Guadagni,mitchell-guadagni-1,/cfb/players/mitchell-guadagni-1.html,Toledo,MAC,7,69,120,57.5,1053,13,10.8,3,2.5,8.8,9.82,15.3,150.4,162.0,,2018
+Kelvin Hopkins Jr.,kelvin-hopkins-jr-1,/cfb/players/kelvin-hopkins-jr-1.html,Army,Ind,12,51,93,54.8,1026,6,6.5,3,3.2,11.0,10.87,20.1,85.5,162.3,,2018
+Mike Glass III,mike-glass-iii-1,/cfb/players/mike-glass-iii-1.html,Eastern Michigan,MAC,8,72,117,61.5,1024,9,7.7,1,0.9,8.8,9.91,14.2,128.0,158.7,,2018
+Kaleb Barker,kaleb-barker-1,/cfb/players/kaleb-barker-1.html,Troy,Sun Belt,6,92,126,73.0,1013,10,7.9,2,1.6,8.0,8.91,11.0,168.8,163.6,,2018
+Kilton Anderson,kilton-anderson-1,/cfb/players/kilton-anderson-1.html,Coastal Carolina,Sun Belt,9,76,131,58.0,1010,8,6.1,3,2.3,7.7,7.90,13.3,112.2,138.4,,2018
+Drew Plitt,drew-plitt-1,/cfb/players/drew-plitt-1.html,Ball State,MAC,8,85,131,64.9,1008,6,4.6,8,6.1,7.7,5.86,11.9,126.0,132.4,,2018
+Cordale Grundy,cordale-grundy-1,/cfb/players/cordale-grundy-1.html,UTSA,CUSA,9,111,220,50.5,989,5,2.3,3,1.4,4.5,4.34,8.9,109.9,93.0,,2018
+Shai Werts,shai-werts-1,/cfb/players/shai-werts-1.html,Georgia Southern,Sun Belt,13,69,116,59.5,987,10,8.6,0,0.0,8.5,10.23,14.3,75.9,159.4,,2018
+Willie Jones III,willie-jones-iii-1,/cfb/players/willie-jones-iii-1.html,Texas State,Sun Belt,8,74,131,56.5,984,7,5.3,2,1.5,7.5,7.89,13.3,123.0,134.2,,2018
+Davis Shanley,davis-shanley-1,/cfb/players/davis-shanley-1.html,Western Kentucky,CUSA,9,96,141,68.1,942,3,2.1,2,1.4,6.7,6.47,9.8,104.7,128.4,,2018
+Kai Locksley,kai-locksley-1,/cfb/players/kai-locksley-1.html,UTEP,CUSA,9,83,169,49.1,937,3,1.8,9,5.3,5.5,3.50,11.3,104.1,90.9,,2018
+TaQuon Marshall,taquon-marshall-1,/cfb/players/taquon-marshall-1.html,Georgia Tech,ACC,12,48,109,44.0,900,5,4.6,4,3.7,8.3,7.52,18.8,75.0,121.2,,2018
+Isaiah Sanders,isaiah-sanders-1,/cfb/players/isaiah-sanders-1.html,Air Force,MWC,8,48,78,61.5,844,4,5.1,3,3.8,10.8,10.12,17.6,105.5,161.7,,2018
+Clayton Tune,clayton-tune-1,/cfb/players/clayton-tune-1.html,Houston,American,5,59,117,50.4,795,8,6.8,2,1.7,6.8,7.39,13.5,159.0,126.6,,2018
+Christian Chapman,christian-chapman-1,/cfb/players/christian-chapman-1.html,San Diego State,MWC,7,51,89,57.3,782,4,4.5,1,1.1,8.8,9.18,15.3,111.7,143.7,,2018
+Jalen Hurts,jalen-hurts-1,/cfb/players/jalen-hurts-1.html,Alabama,SEC,13,51,70,72.9,765,8,11.4,2,2.9,10.9,11.93,15.0,58.8,196.7,,2018
+Brandon McIlwain,brandon-mcilwain-1,/cfb/players/brandon-mcilwain-1.html,California,Pac-12,10,80,129,62.0,763,2,1.6,8,6.2,5.9,3.43,9.5,76.3,104.4,,2018
+Rocky Lombardi,rocky-lombardi-1,/cfb/players/rocky-lombardi-1.html,Michigan State,Big Ten,8,68,154,44.2,738,3,1.9,3,1.9,4.8,4.31,10.9,92.3,86.9,,2018
+Zeb Noland,zeb-noland-1,/cfb/players/zeb-noland-1.html,Iowa State,Big 12,5,70,110,63.6,722,4,3.6,1,0.9,6.6,6.88,10.3,144.4,129.0,,2018
+Brandon Wimbush,brandon-wimbush-1,/cfb/players/brandon-wimbush-1.html,Notre Dame,Ind,6,54,102,52.9,719,4,3.9,6,5.9,7.0,5.19,13.3,119.8,113.3,,2018
+Luke Skipper,luke-skipper-1,/cfb/players/luke-skipper-1.html,Tulsa,American,4,68,116,58.6,716,4,3.4,6,5.2,6.2,4.53,10.5,179.0,111.5,,2018
+Jalan McClendon,jalan-mcclendon-1,/cfb/players/jalan-mcclendon-1.html,Baylor,Big 12,9,55,91,60.4,715,3,3.3,3,3.3,7.9,7.03,13.0,79.4,130.7,,2018
+Tommy Lazzaro,tommy-lazzaro-1,/cfb/players/tommy-lazzaro-1.html,Central Michigan,MAC,7,68,141,48.2,711,5,3.5,10,7.1,5.0,2.56,10.5,101.6,88.1,,2018
+Drew Eckels,drew-eckels-1,/cfb/players/drew-eckels-1.html,Western Kentucky,CUSA,3,50,99,50.5,709,3,3.0,0,0.0,7.2,7.77,14.2,236.3,120.7,,2018
+Fred Payton,fred-payton-1,/cfb/players/fred-payton-1.html,Coastal Carolina,Sun Belt,7,49,75,65.3,677,6,8.0,2,2.7,9.0,9.43,13.8,96.7,162.2,,2018
+Brandon Jones,brandon-jones-16,/cfb/players/brandon-jones-16.html,UTEP,CUSA,6,42,85,49.4,673,4,4.7,5,5.9,7.9,6.21,16.0,112.2,119.7,,2018
+Michael Carrillo,michael-carrillo-1,/cfb/players/michael-carrillo-1.html,San Jose State,MWC,6,48,80,60.0,644,5,6.3,3,3.8,8.1,7.61,13.4,107.3,140.7,,2018
+Evan Shirreffs,evan-shirreffs-1,/cfb/players/evan-shirreffs-1.html,Charlotte,CUSA,6,54,104,51.9,631,2,1.9,4,3.8,6.1,4.72,11.7,105.2,101.5,,2018
+Tony Poljan,tony-poljan-1,/cfb/players/tony-poljan-1.html,Central Michigan,MAC,12,76,147,51.7,625,2,1.4,5,3.4,4.3,2.99,8.2,52.1,85.1,,2018
+William Brown,william-brown-2,/cfb/players/william-brown-2.html,SMU,American,7,53,85,62.4,625,7,8.2,1,1.2,7.4,8.47,11.8,89.3,148.9,,2018
+Donald Hammond III,donald-hammond-iii-1,/cfb/players/donald-hammond-iii-1.html,Air Force,MWC,9,38,72,52.8,623,5,6.9,2,2.8,8.7,8.79,16.4,69.2,142.8,,2018
+Wiley Green,wiley-green-1,/cfb/players/wiley-green-1.html,Rice,CUSA,4,45,88,51.1,621,3,3.4,4,4.5,7.1,5.69,13.8,155.3,112.6,,2018
+D.J. Mack Jr.,dj-mack-jr-1,/cfb/players/dj-mack-jr-1.html,UCF,American,10,51,100,51.0,619,3,3.0,1,1.0,6.2,6.34,12.1,61.9,110.9,,2018
+Matt Romero,matt-romero-1,/cfb/players/matt-romero-1.html,New Mexico State,Ind,4,72,131,55.0,609,3,2.3,6,4.6,4.6,3.05,8.5,152.3,92.4,,2018
+Armani Rogers,armani-rogers-1,/cfb/players/armani-rogers-1.html,Nevada-Las Vegas,MWC,6,52,117,44.4,601,10,8.5,4,3.4,5.1,5.31,11.6,100.2,109.0,,2018
+Frank Nutile,frank-nutile-1,/cfb/players/frank-nutile-1.html,Temple,American,6,42,75,56.0,585,4,5.3,5,6.7,7.8,5.87,13.9,97.5,125.8,,2018
+Levi Lewis,levi-lewis-1,/cfb/players/levi-lewis-1.html,Louisiana,Sun Belt,14,37,59,62.7,585,7,11.9,2,3.4,9.9,10.76,15.8,41.8,178.4,,2018
+Ryan Metz,ryan-metz-1,/cfb/players/ryan-metz-1.html,UTEP,CUSA,6,35,69,50.7,576,3,4.3,5,7.2,8.3,5.96,16.5,96.0,120.7,,2018
+Josh Jackson,josh-jackson-3,/cfb/players/josh-jackson-3.html,Virginia Tech,ACC,3,36,58,62.1,575,5,8.6,1,1.7,9.9,10.86,16.0,191.7,170.3,,2018
+Tyrrell Pigrome,tyrrell-pigrome-1,/cfb/players/tyrrell-pigrome-1.html,Maryland,Big Ten,11,37,67,55.2,561,2,3.0,1,1.5,8.4,8.30,15.2,51.0,132.4,,2018
+Alex Delton,alex-delton-1,/cfb/players/alex-delton-1.html,Kansas State,Big 12,7,44,80,55.0,554,2,2.5,2,2.5,6.9,6.30,12.6,79.1,116.4,,2018
+M.J. Rivers II,mj-rivers-ii-1,/cfb/players/mj-rivers-ii-1.html,Illinois,Big Ten,8,56,101,55.4,547,3,3.0,3,3.0,5.4,4.67,9.8,68.4,104.8,,2018
+Tommy Devito,tommy-devito-1,/cfb/players/tommy-devito-1.html,Syracuse,ACC,8,44,87,50.6,525,4,4.6,3,3.4,6.0,5.40,11.9,65.6,109.5,,2018
+Cole Garvin,cole-garvin-1,/cfb/players/cole-garvin-1.html,South Alabama,Sun Belt,5,48,78,61.5,524,5,6.4,3,3.8,6.7,6.27,10.9,104.8,131.4,,2018
+Rhett Rodriguez,rhett-rodriguez-1,/cfb/players/rhett-rodriguez-1.html,Arizona,Pac-12,7,43,83,51.8,516,3,3.6,2,2.4,6.2,5.86,12.0,73.7,111.1,,2018
+Jack Coan,jack-coan-1,/cfb/players/jack-coan-1.html,Wisconsin,Big Ten,5,56,93,60.2,515,5,5.4,3,3.2,5.5,5.16,9.2,103.0,118.0,,2018
+James Blackman,james-blackman-1,/cfb/players/james-blackman-1.html,Florida State,ACC,4,33,51,64.7,510,5,9.8,1,2.0,10.0,11.08,15.5,127.5,177.1,,2018
+Steven Williams,steven-williams-2,/cfb/players/steven-williams-2.html,Old Dominion,CUSA,4,41,81,50.6,507,2,2.5,2,2.5,6.3,5.64,12.4,126.8,106.4,,2018
+Alex Thomson,alex-thomson-1,/cfb/players/alex-thomson-1.html,Marshall,CUSA,4,53,100,53.0,506,5,5.0,3,3.0,5.1,4.71,9.5,126.5,106.0,,2018
+Montel Aaron,montel-aaron-1,/cfb/players/montel-aaron-1.html,San Jose State,MWC,7,44,75,58.7,500,2,2.7,0,0.0,6.7,7.20,11.4,71.4,123.5,,2018
+Garret Lewis,garret-lewis-1,/cfb/players/garret-lewis-1.html,Navy,American,11,33,74,44.6,479,2,2.7,2,2.7,6.5,5.80,14.5,43.5,102.5,,2018
+Malik Cunningham,malik-cunningham-1,/cfb/players/malik-cunningham-1.html,Louisville,ACC,10,40,67,59.7,473,1,1.5,1,1.5,7.1,6.69,11.8,47.3,120.9,,2018
+Bryce Carpenter,bryce-carpenter-1,/cfb/players/bryce-carpenter-1.html,Coastal Carolina,Sun Belt,7,37,55,67.3,464,5,9.1,2,3.6,8.4,8.62,12.5,66.3,160.9,,2018
+Bryce Rivers,bryce-rivers-1,/cfb/players/bryce-rivers-1.html,UTSA,CUSA,3,37,64,57.8,463,2,3.1,2,3.1,7.2,6.45,12.5,154.3,122.6,,2018
+Kelly Bryant,kelly-bryant-1,/cfb/players/kelly-bryant-1.html,Clemson,ACC,4,36,54,66.7,461,2,3.7,1,1.9,8.5,8.44,12.8,115.3,146.9,,2018
+Keytaon Thompson,keytaon-thompson-1,/cfb/players/keytaon-thompson-1.html,Mississippi State,SEC,9,18,39,46.2,458,6,15.4,1,2.6,11.7,13.67,25.4,50.9,190.4,,2018
+Cole Kelley,cole-kelley-1,/cfb/players/cole-kelley-1.html,Arkansas,SEC,9,35,67,52.2,455,5,7.5,5,7.5,6.8,4.93,13.0,50.6,119.0,,2018
+Tate Whatley,tate-whatley-1,/cfb/players/tate-whatley-1.html,Southern Mississippi,CUSA,6,42,75,56.0,451,4,5.3,1,1.3,6.0,6.48,10.7,75.2,121.4,,2018
+Keller Chryst,keller-chryst-1,/cfb/players/keller-chryst-1.html,Tennessee,SEC,8,23,51,45.1,450,3,5.9,2,3.9,8.8,8.24,19.6,56.3,130.8,,2018
+Chase Brice,chase-brice-1,/cfb/players/chase-brice-1.html,Clemson,ACC,12,32,51,62.7,442,5,9.8,3,5.9,8.7,7.98,13.8,36.8,156.1,,2018
+Tevaka Tuioti,tevaka-tuioti-1,/cfb/players/tevaka-tuioti-1.html,New Mexico,MWC,3,24,43,55.8,439,5,11.6,2,4.7,10.2,10.44,18.3,146.3,170.6,,2018
+Quentin Harris,quentin-harris-2,/cfb/players/quentin-harris-2.html,Duke,ACC,12,34,68,50.0,437,7,10.3,1,1.5,6.4,7.82,12.9,36.4,135.0,,2018
+Christian Alexander,christian-alexander-1,/cfb/players/christian-alexander-1.html,Florida International,CUSA,10,36,55,65.5,427,1,1.8,1,1.8,7.8,7.31,11.9,42.7,133.0,,2018
+Michael Curtis,michael-curtis-2,/cfb/players/michael-curtis-2.html,Massachusetts,Ind,6,26,40,65.0,412,4,10.0,2,5.0,10.3,10.05,15.8,68.7,174.5,,2018
+Cade Fortin,cade-fortin-1,/cfb/players/cade-fortin-1.html,North Carolina,ACC,4,32,65,49.2,388,1,1.5,1,1.5,6.0,5.58,12.1,97.0,101.4,,2018
+Chevan Cordeiro,chevan-cordeiro-1,/cfb/players/chevan-cordeiro-1.html,Hawaii,MWC,4,30,49,61.2,384,6,12.2,2,4.1,7.8,8.45,12.8,96.0,159.3,,2018
+Giovanni Rescigno,giovanni-rescigno-1,/cfb/players/giovanni-rescigno-1.html,Rutgers,Big Ten,7,35,74,47.3,370,1,1.4,3,4.1,5.0,3.45,10.6,52.9,85.6,,2018
+Hasaan Klugh,hasaan-klugh-1,/cfb/players/hasaan-klugh-1.html,Charlotte,CUSA,11,28,43,65.1,362,2,4.7,2,4.7,8.4,7.26,12.9,32.9,141.9,,2018
+Grayson Muehlstein,grayson-muehlstein-1,/cfb/players/grayson-muehlstein-1.html,Texas Christian,Big 12,5,35,63,55.6,355,3,4.8,4,6.3,5.6,3.73,10.1,71.0,105.9,,2018
+Michael Scarnecchia,michael-scarnecchia-1,/cfb/players/michael-scarnecchia-1.html,South Carolina,SEC,4,29,51,56.9,353,4,7.8,0,0.0,6.9,8.49,12.2,88.3,140.9,,2018
+Jack Allison,jack-allison-1,/cfb/players/jack-allison-1.html,West Virginia,Big 12,7,23,45,51.1,352,1,2.2,2,4.4,7.8,6.27,15.3,50.3,115.3,,2018
+Aaron Winchester,aaron-winchester-2,/cfb/players/aaron-winchester-2.html,Georgia State,Sun Belt,6,31,57,54.4,348,3,5.3,1,1.8,6.1,6.37,11.2,58.0,119.5,,2018
+Justin Fields,justin-fields-2,/cfb/players/justin-fields-2.html,Georgia,SEC,12,27,39,69.2,328,4,10.3,0,0.0,8.4,10.46,12.1,27.3,173.7,,2018
+Hayden Moore,hayden-moore-1,/cfb/players/hayden-moore-1.html,Cincinnati,American,8,27,51,52.9,327,2,3.9,1,2.0,6.4,6.31,12.1,40.9,115.8,,2018
+Andrew Bunch,andrew-bunch-2,/cfb/players/andrew-bunch-2.html,Nebraska,Big Ten,5,31,47,66.0,320,2,4.3,2,4.3,6.8,5.74,10.3,64.0,128.7,,2018
+McLane Carter,mclane-carter-1,/cfb/players/mclane-carter-1.html,Texas Tech,Big 12,5,28,51,54.9,318,2,3.9,2,3.9,6.2,5.25,11.4,63.6,112.4,,2018
+Carter Stanley,carter-stanley-1,/cfb/players/carter-stanley-1.html,Kansas,Big 12,6,34,47,72.3,304,3,6.4,1,2.1,6.5,6.79,8.9,50.7,143.5,,2018
+Chris Oladokun,chris-oladokun-1,/cfb/players/chris-oladokun-1.html,South Florida,American,7,22,44,50.0,285,3,6.8,1,2.3,6.5,6.82,13.0,40.7,122.4,,2018
+Elijah Sindelar,elijah-sindelar-1,/cfb/players/elijah-sindelar-1.html,Purdue,Big Ten,2,26,44,59.1,283,2,4.5,3,6.8,6.4,4.27,10.9,141.5,114.5,,2018
+EJ Perry,ej-perry-1,/cfb/players/ej-perry-1.html,Boston College,ACC,5,27,39,69.2,277,2,5.1,0,0.0,7.1,8.13,10.3,55.4,145.8,,2018
+Quinton Maxwell,quinton-maxwell-1,/cfb/players/quinton-maxwell-1.html,Ohio,MAC,7,20,36,55.6,276,2,5.6,0,0.0,7.7,8.78,13.8,39.4,138.3,,2018
+Shane Buechele,shane-buechele-1,/cfb/players/shane-buechele-1.html,Texas,Big 12,2,30,44,68.2,273,2,4.5,1,2.3,6.2,6.09,9.1,136.5,130.8,,2018
+Tate Martell,tate-martell-1,/cfb/players/tate-martell-1.html,Ohio State,Big Ten,6,23,28,82.1,269,1,3.6,0,0.0,9.6,10.32,11.7,44.8,174.6,,2018
+Coltin Gerhart,coltin-gerhart-1,/cfb/players/coltin-gerhart-1.html,New Mexico,MWC,5,27,56,48.2,266,3,5.4,3,5.4,4.8,3.41,9.9,53.2,95.1,,2018
+Sean Chambers,sean-chambers-1,/cfb/players/sean-chambers-1.html,Wyoming,MWC,4,15,25,60.0,266,3,12.0,0,0.0,10.6,13.04,17.7,66.5,189.0,,2018
+Connor Noland,connor-noland-1,/cfb/players/connor-noland-1.html,Arkansas,SEC,5,21,42,50.0,255,1,2.4,2,4.8,6.1,4.40,12.1,51.0,99.3,,2018
+Zach Abey,zach-abey-1,/cfb/players/zach-abey-1.html,Navy,American,12,12,28,42.9,246,1,3.6,2,7.1,8.8,6.29,20.5,20.5,114.2,,2018
+Jordan Weeks,jordan-weeks-1,/cfb/players/jordan-weeks-1.html,UTSA,CUSA,4,26,58,44.8,241,1,1.7,0,0.0,4.2,4.50,9.3,60.3,85.4,,2018
+Henry Colombi,henry-colombi-1,/cfb/players/henry-colombi-1.html,Utah State,MWC,6,33,40,82.5,239,0,0.0,0,0.0,6.0,5.98,7.2,39.8,132.7,,2018
+Matt Corral,matt-corral-1,/cfb/players/matt-corral-1.html,Ole Miss,SEC,4,16,22,72.7,239,2,9.1,1,4.5,10.9,10.64,14.9,59.8,184.9,,2018
+Jack Sears,jack-sears-1,/cfb/players/jack-sears-1.html,USC,Pac-12,1,20,28,71.4,235,2,7.1,0,0.0,8.4,9.82,11.8,235.0,165.5,,2018
+D.J. Gillins,dj-gillins-1,/cfb/players/dj-gillins-1.html,UTSA,CUSA,6,30,61,49.2,225,1,1.6,5,8.2,3.7,0.33,7.5,37.5,69.2,,2018
+Malcolm Perry,malcolm-perry-1,/cfb/players/malcolm-perry-1.html,Navy,American,13,9,25,36.0,222,2,8.0,1,4.0,8.9,8.68,24.7,17.1,129.0,,2018
+Michael Penix Jr.,michael-penix-jr-1,/cfb/players/michael-penix-jr-1.html,Indiana,Big Ten,3,21,34,61.8,219,1,2.9,0,0.0,6.4,7.03,10.4,73.0,125.6,,2018
+Jacob Huesman,jacob-huesman-1,/cfb/players/jacob-huesman-1.html,Appalachian State,Sun Belt,7,21,38,55.3,206,2,5.3,4,10.5,5.4,1.74,9.8,29.4,97.1,,2018
+Jack Colletto,jack-colletto-1,/cfb/players/jack-colletto-1.html,Oregon State,Pac-12,8,23,47,48.9,201,0,0.0,3,6.4,4.3,1.40,8.7,25.1,72.1,,2018
+Cristian Solano,cristian-solano-1,/cfb/players/cristian-solano-1.html,Nevada,MWC,11,23,45,51.1,200,0,0.0,4,8.9,4.4,0.44,8.7,18.2,70.7,,2018
+Sean Clifford,sean-clifford-1,/cfb/players/sean-clifford-1.html,Penn State,Big Ten,4,5,7,71.4,195,2,28.6,0,0.0,27.9,33.57,39.0,48.8,399.7,,2018
+Peyton Derrick,peyton-derrick-1,/cfb/players/peyton-derrick-1.html,Appalachian State,Sun Belt,6,13,22,59.1,186,2,9.1,2,9.1,8.5,6.18,14.3,31.0,141.9,,2018
+Grant Loy,grant-loy-1,/cfb/players/grant-loy-1.html,Bowling Green,MAC,10,7,12,58.3,180,2,16.7,1,8.3,15.0,14.58,25.7,18.0,222.7,,2018
+Dustin Crum,dustin-crum-1,/cfb/players/dustin-crum-1.html,Kent State,MAC,9,16,27,59.3,176,2,7.4,0,0.0,6.5,8.00,11.0,19.6,138.5,,2018
+Nick Starkel,nick-starkel-1,/cfb/players/nick-starkel-1.html,Texas A&M,SEC,5,15,22,68.2,169,1,4.5,0,0.0,7.7,8.59,11.3,33.8,147.7,,2018
+TJ Green,tj-green-2,/cfb/players/tj-green-2.html,Northwestern,Big Ten,9,20,36,55.6,169,0,0.0,1,2.8,4.7,3.44,8.5,18.8,89.4,,2018
+Gunnar Hoak,gunnar-hoak-1,/cfb/players/gunnar-hoak-1.html,Kentucky,SEC,5,13,26,50.0,167,2,7.7,1,3.8,6.4,6.23,12.8,33.4,121.6,,2018
+Tobias Oliver,tobias-oliver-1,/cfb/players/tobias-oliver-1.html,Georgia Tech,ACC,12,7,16,43.8,167,2,12.5,0,0.0,10.4,12.94,23.9,13.9,172.7,,2018
+Logan Bonner,logan-bonner-1,/cfb/players/logan-bonner-1.html,Arkansas State,Sun Belt,5,15,32,46.9,165,1,3.1,1,3.1,5.2,4.38,11.0,33.0,94.3,,2018
+Evan Marshman,evan-marshman-1,/cfb/players/evan-marshman-1.html,Rice,CUSA,4,17,31,54.8,164,0,0.0,1,3.2,5.3,3.84,9.6,41.0,92.8,,2018
+Kyle Trask,kyle-trask-1,/cfb/players/kyle-trask-1.html,Florida,SEC,4,14,22,63.6,162,1,4.5,0,0.0,7.4,8.27,11.6,40.5,140.5,,2018
+Deandre Johnson,deandre-johnson-4,/cfb/players/deandre-johnson-4.html,Florida Atlantic,CUSA,8,13,23,56.5,161,2,8.7,1,4.3,7.0,6.78,12.4,20.1,135.3,,2018
+Kyle Kempt,kyle-kempt-1,/cfb/players/kyle-kempt-1.html,Iowa State,Big 12,5,21,31,67.7,160,0,0.0,1,3.2,5.2,3.71,7.6,32.0,104.6,,2018
+Austin Hergott,austin-hergott-1,/cfb/players/austin-hergott-1.html,Central Michigan,MAC,3,19,45,42.2,155,1,2.2,2,4.4,3.4,1.89,8.2,51.7,69.6,,2018
+Todd Centeio,todd-centeio-1,/cfb/players/todd-centeio-1.html,Temple,American,11,12,18,66.7,149,2,11.1,0,0.0,8.3,10.50,12.4,13.5,172.9,,2018
+Marvin Washington,marvin-washington-1,/cfb/players/marvin-washington-1.html,Connecticut,American,3,9,24,37.5,147,1,4.2,3,12.5,6.1,1.33,16.3,49.0,77.7,,2018
+Rafe Peavey,rafe-peavey-1,/cfb/players/rafe-peavey-1.html,Florida Atlantic,CUSA,5,20,34,58.8,147,0,0.0,2,5.9,4.3,1.68,7.4,29.4,83.4,,2018
+Brett Kean,brett-kean-1,/cfb/players/brett-kean-1.html,South Florida,American,3,15,34,44.1,140,1,2.9,0,0.0,4.1,4.71,9.3,46.7,88.4,,2018
+Taylor Powell,taylor-powell-1,/cfb/players/taylor-powell-1.html,Missouri,SEC,6,6,14,42.9,134,0,0.0,0,0.0,9.6,9.57,22.3,22.3,123.3,,2018
+Jackson Tyner,jackson-tyner-1,/cfb/players/jackson-tyner-1.html,Rice,CUSA,4,9,20,45.0,132,0,0.0,1,5.0,6.6,4.35,14.7,33.0,90.4,,2018
+Dylan McCaffrey,dylan-mccaffrey-1,/cfb/players/dylan-mccaffrey-1.html,Michigan,Big Ten,6,8,15,53.3,126,2,13.3,0,0.0,8.4,11.07,15.8,21.0,167.9,,2018
+Emory Jones,emory-jones-1,/cfb/players/emory-jones-1.html,Florida,SEC,4,12,16,75.0,125,2,12.5,0,0.0,7.8,10.31,10.4,31.3,181.9,,2018
+Kason Martin,kason-martin-1,/cfb/players/kason-martin-1.html,North Texas,CUSA,2,8,13,61.5,125,1,7.7,0,0.0,9.6,11.15,15.6,62.5,167.7,,2018
+Mac Jones,mac-jones-1,/cfb/players/mac-jones-1.html,Alabama,SEC,14,5,13,38.5,123,1,7.7,0,0.0,9.5,11.00,24.6,8.8,143.3,,2018
+Austin Kendall,austin-kendall-1,/cfb/players/austin-kendall-1.html,Oklahoma,Big 12,6,12,17,70.6,122,1,5.9,0,0.0,7.2,8.35,10.2,20.3,150.3,,2018
+Cephus Johnson,cephus-johnson-2,/cfb/players/cephus-johnson-2.html,South Alabama,Sun Belt,8,7,19,36.8,120,3,15.8,1,5.3,6.3,7.11,17.1,15.0,131.5,,2018
+Matt McDonald,matt-mcdonald-1,/cfb/players/matt-mcdonald-1.html,Boston College,ACC,2,7,8,87.5,118,2,25.0,0,0.0,14.8,19.75,16.9,59.0,293.9,,2018
+Asher O'Hara,asher-ohara-1,/cfb/players/asher-ohara-1.html,Middle Tennessee State,CUSA,2,9,20,45.0,114,0,0.0,1,5.0,5.7,3.45,12.7,57.0,82.9,,2018
+Jorge Reyna,jorge-reyna-1,/cfb/players/jorge-reyna-1.html,Fresno State,MWC,10,8,12,66.7,111,1,8.3,0,0.0,9.3,10.92,13.9,11.1,171.9,,2018
+Tommy Stevens,tommy-stevens-1,/cfb/players/tommy-stevens-1.html,Penn State,Big Ten,7,8,11,72.7,110,1,9.1,1,9.1,10.0,7.73,13.8,15.7,168.5,,2018
+Jake Haener,jake-haener-1,/cfb/players/jake-haener-1.html,Washington,Pac-12,4,9,13,69.2,107,1,7.7,1,7.7,8.2,6.31,11.9,26.8,148.4,,2018
+Miles Kendrick,miles-kendrick-1,/cfb/players/miles-kendrick-1.html,Kansas,Big 12,4,11,19,57.9,100,1,5.3,0,0.0,5.3,6.32,9.1,25.0,119.5,,2018
+George Pearson,george-pearson-2,/cfb/players/george-pearson-2.html,Central Michigan,MAC,1,12,24,50.0,94,1,4.2,1,4.2,3.9,2.88,7.8,94.0,88.3,,2018
+Toa Taua,toa-taua-1,/cfb/players/toa-taua-1.html,Nevada,MWC,13,4,4,100.0,93,1,25.0,0,0.0,23.3,28.25,23.3,7.2,377.8,,2018
+Colby Suits,colby-suits-1,/cfb/players/colby-suits-1.html,Louisiana-Monroe,Sun Belt,1,6,10,60.0,91,1,10.0,0,0.0,9.1,11.10,15.2,91.0,169.4,,2018
+Brady McBride,brady-mcbride-1,/cfb/players/brady-mcbride-1.html,Memphis,American,5,8,14,57.1,88,0,0.0,1,7.1,6.3,3.07,11.0,17.6,95.7,,2018
+Matthew Downing,matthew-downing-1,/cfb/players/matthew-downing-1.html,Georgia,SEC,4,8,10,80.0,88,0,0.0,0,0.0,8.8,8.80,11.0,22.0,153.9,,2018
+Matt McKay,matt-mckay-1,/cfb/players/matt-mckay-1.html,North Carolina State,ACC,6,7,8,87.5,87,0,0.0,0,0.0,10.9,10.88,12.4,14.5,178.9,,2018
+Peyton Mansell,peyton-mansell-1,/cfb/players/peyton-mansell-1.html,Iowa,Big Ten,5,5,8,62.5,83,0,0.0,1,12.5,10.4,4.75,16.6,16.6,124.7,,2018
+Jace Ruder,jace-ruder-1,/cfb/players/jace-ruder-1.html,North Carolina,ACC,1,4,5,80.0,80,1,20.0,0,0.0,16.0,20.00,20.0,80.0,280.4,,2018
+Arion Worthman,arion-worthman-1,/cfb/players/arion-worthman-1.html,Air Force,MWC,4,6,16,37.5,77,0,0.0,0,0.0,4.8,4.81,12.8,19.3,77.9,,2018
+Jeremy Moussa,jeremy-moussa-1,/cfb/players/jeremy-moussa-1.html,Hawaii,MWC,2,4,9,44.4,77,1,11.1,0,0.0,8.6,10.78,19.3,38.5,153.0,,2018
+Ben Bryant,ben-bryant-1,/cfb/players/ben-bryant-1.html,Cincinnati,American,1,6,8,75.0,75,0,0.0,1,12.5,9.4,3.75,12.5,75.0,128.8,,2018
+Britain Covey,britain-covey-1,/cfb/players/britain-covey-1.html,Utah,Pac-12,13,3,3,100.0,71,2,66.7,0,0.0,23.7,37.00,23.7,5.5,518.8,,2018
+Chase Forrest,chase-forrest-1,/cfb/players/chase-forrest-1.html,California,Pac-12,1,5,14,35.7,71,0,0.0,2,14.3,5.1,-1.36,14.2,71.0,49.7,,2018
+Jordan Travis,jordan-travis-1,/cfb/players/jordan-travis-1.html,Louisville,ACC,3,4,14,28.6,71,1,7.1,1,7.1,5.1,3.29,17.8,23.7,80.5,,2018
+Chase Cord,chase-cord-1,/cfb/players/chase-cord-1.html,Boise State,MWC,4,6,9,66.7,67,1,11.1,1,11.1,7.4,4.67,11.2,16.8,143.6,,2018
+Corey Lacanaria,corey-lacanaria-1,/cfb/players/corey-lacanaria-1.html,Ball State,MAC,12,4,4,100.0,67,0,0.0,0,0.0,16.8,16.75,16.8,5.6,240.7,,2018
+Jeff Smith,jeff-smith-10,/cfb/players/jeff-smith-10.html,Boston College,ACC,12,3,5,60.0,67,1,20.0,0,0.0,13.4,17.40,22.3,5.6,238.6,,2018
+Myles Brennan,myles-brennan-1,/cfb/players/myles-brennan-1.html,LSU,SEC,1,4,6,66.7,65,0,0.0,0,0.0,10.8,10.83,16.3,65.0,157.7,,2018
+Trey Tinsley,trey-tinsley-1,/cfb/players/trey-tinsley-1.html,Washington State,Pac-12,5,7,9,77.8,63,1,11.1,0,0.0,7.0,9.22,9.0,12.6,173.2,,2018
+Brennan Armstrong,brennan-armstrong-1,/cfb/players/brennan-armstrong-1.html,Virginia,ACC,4,2,5,40.0,62,1,20.0,0,0.0,12.4,16.40,31.0,15.5,210.2,,2018
+Alex Ramart,alex-ramart-1,/cfb/players/alex-ramart-1.html,Akron,MAC,6,9,32,28.1,61,1,3.1,6,18.8,1.9,-5.91,6.8,10.2,17.0,,2018
+Sam Noyer,sam-noyer-1,/cfb/players/sam-noyer-1.html,Colorado,Pac-12,5,8,14,57.1,60,0,0.0,2,14.3,4.3,-2.14,7.5,12.0,64.6,,2018
+Isiah Pacheco,isaih-pacheco-1,/cfb/players/isaih-pacheco-1.html,Rutgers,Big Ten,12,2,3,66.7,58,0,0.0,1,33.3,19.3,4.33,29.0,4.8,162.4,,2018
+Joe Milton,joe-milton-2,/cfb/players/joe-milton-2.html,Michigan,Big Ten,4,3,4,75.0,58,0,0.0,1,25.0,14.5,3.25,19.3,14.5,146.8,,2018
+Ross Bowers,ross-bowers-1,/cfb/players/ross-bowers-1.html,California,Pac-12,1,8,17,47.1,56,0,0.0,0,0.0,3.3,3.29,7.0,56.0,74.7,,2018
+Thayer Thomas,thayer-thomas-1,/cfb/players/thayer-thomas-1.html,North Carolina State,ACC,13,1,2,50.0,56,0,0.0,0,0.0,28.0,28.00,56.0,4.3,285.2,,2018
+Tyler Lytle,tyler-lytle-1,/cfb/players/tyler-lytle-1.html,Colorado,Pac-12,4,4,5,80.0,55,0,0.0,1,20.0,11.0,2.00,13.8,13.8,132.4,,2018
+Carter Bradley,carter-bradley-1,/cfb/players/carter-bradley-1.html,Toledo,MAC,3,4,8,50.0,54,0,0.0,0,0.0,6.8,6.75,13.5,18.0,106.7,,2018
+Chris Katrenick,chris-katrenick-1,/cfb/players/chris-katrenick-1.html,Duke,ACC,2,5,12,41.7,54,1,8.3,0,0.0,4.5,6.17,10.8,27.0,107.0,,2018
+Quinn Shanbour,quinn-shanbour-1,/cfb/players/quinn-shanbour-1.html,North Texas,CUSA,13,6,16,37.5,53,0,0.0,3,18.8,3.3,-5.13,8.8,4.1,27.8,,2018
+Luke Whittemore,luke-whittemore-1,/cfb/players/luke-whittemore-1.html,Troy,Sun Belt,13,2,2,100.0,51,1,50.0,0,0.0,25.5,35.50,25.5,3.9,479.2,,2018
+Manny Miles,manny-miles-1,/cfb/players/manny-miles-1.html,North Carolina,ACC,9,2,4,50.0,50,1,25.0,0,0.0,12.5,17.50,25.0,5.6,237.5,,2018
+Dontae Strickland,dontae-strickland-2,/cfb/players/dontae-strickland-2.html,Syracuse,ACC,13,1,1,100.0,48,0,0.0,0,0.0,48.0,48.00,48.0,3.7,503.2,,2018
+Aaron Allen,aaron-allen-1,/cfb/players/aaron-allen-1.html,Louisiana Tech,CUSA,2,3,6,50.0,47,1,16.7,1,16.7,7.8,3.67,15.7,23.5,137.5,,2018
+Darveon Brown,darveon-brown-1,/cfb/players/darveon-brown-1.html,Arkansas State,Sun Belt,12,2,2,100.0,47,0,0.0,0,0.0,23.5,23.50,23.5,3.9,297.4,,2018
+Matt Fink,matt-fink-1,/cfb/players/matt-fink-1.html,USC,Pac-12,4,7,9,77.8,46,1,11.1,0,0.0,5.1,7.33,6.6,11.5,157.4,,2018
+Gunnar Watson,gunnar-watson-1,/cfb/players/gunnar-watson-1.html,Troy,Sun Belt,2,8,12,66.7,45,0,0.0,0,0.0,3.8,3.75,5.6,22.5,98.2,,2018
+Colt Garrett,colt-garrett-1,/cfb/players/colt-garrett-1.html,Texas Tech,Big 12,2,1,1,100.0,44,1,100.0,0,0.0,44.0,64.00,44.0,22.0,799.6,,2018
+Benjamin Snell Jr.,benjamin-snell-jr-1,/cfb/players/benjamin-snell-jr-1.html,Kentucky,SEC,13,1,1,100.0,43,1,100.0,0,0.0,43.0,63.00,43.0,3.3,791.2,,2018
+Braxton Burmeister,braxton-burmeister-1,/cfb/players/braxton-burmeister-1.html,Oregon,Pac-12,4,5,10,50.0,43,0,0.0,0,0.0,4.3,4.30,8.6,10.8,86.1,,2018
+Dazz Newsome,dazz-newsome-1,/cfb/players/dazz-newsome-1.html,North Carolina,ACC,11,1,1,100.0,43,0,0.0,0,0.0,43.0,43.00,43.0,3.9,461.2,,2018
+John Paddock,john-paddock-1,/cfb/players/john-paddock-1.html,Ball State,MAC,1,5,6,83.3,43,0,0.0,0,0.0,7.2,7.17,8.6,43.0,143.5,,2018
+Ryan Davis,ryan-davis-5,/cfb/players/ryan-davis-5.html,Auburn,SEC,13,2,2,100.0,43,2,100.0,0,0.0,21.5,41.50,21.5,3.3,610.6,,2018
+Quadry Jones,quadry-jones-1,/cfb/players/quadry-jones-1.html,UCF,American,1,1,1,100.0,42,1,100.0,0,0.0,42.0,62.00,42.0,42.0,782.8,,2018
+Maurice Alexander,maurice-alexander-2,/cfb/players/maurice-alexander-2.html,Florida International,CUSA,13,2,2,100.0,40,0,0.0,0,0.0,20.0,20.00,20.0,3.1,268.0,,2018
+Neil Pau'u,neil-pauu-1,/cfb/players/neil-pauu-1.html,BYU,Ind,13,1,1,100.0,40,0,0.0,0,0.0,40.0,40.00,40.0,3.1,436.0,,2018
+Obe Fortune,obe-fortune-1,/cfb/players/obe-fortune-1.html,Georgia Southern,Sun Belt,13,1,1,100.0,40,0,0.0,0,0.0,40.0,40.00,40.0,3.1,436.0,,2018
+D.J. Stubbs,dj-stubbs-1,/cfb/players/dj-stubbs-1.html,Liberty,Ind,12,1,2,50.0,39,0,0.0,0,0.0,19.5,19.50,39.0,3.3,213.8,,2018
+Westin Elliott,westin-elliott-1,/cfb/players/westin-elliott-1.html,Louisiana Tech,CUSA,1,4,8,50.0,39,0,0.0,0,0.0,4.9,4.88,9.8,39.0,91.0,,2018
+Malik Williams,malik-williams-2,/cfb/players/malik-williams-2.html,Appalachian State,Sun Belt,13,2,2,100.0,38,2,100.0,0,0.0,19.0,39.00,19.0,2.9,589.6,,2018
+Mo Hasan,mo-hasan-1,/cfb/players/mo-hasan-1.html,Vanderbilt,SEC,5,4,6,66.7,38,0,0.0,0,0.0,6.3,6.33,9.5,7.6,119.9,,2018
+Tyree McCants,tyree-mccants-1,/cfb/players/tyree-mccants-1.html,South Florida,American,13,1,1,100.0,38,1,100.0,0,0.0,38.0,58.00,38.0,2.9,749.2,,2018
+Tanner Mordecai,tanner-mordecai-1,/cfb/players/tanner-mordecai-1.html,Oklahoma,Big 12,2,2,4,50.0,37,0,0.0,0,0.0,9.3,9.25,18.5,18.5,127.7,,2018
+Connor Heyward,connor-heyward-1,/cfb/players/connor-heyward-1.html,Michigan State,Big Ten,13,1,1,100.0,36,0,0.0,0,0.0,36.0,36.00,36.0,2.8,402.4,,2018
+Jared Atkinson,jared-atkinson-1,/cfb/players/jared-atkinson-1.html,Baylor,Big 12,4,1,1,100.0,36,0,0.0,0,0.0,36.0,36.00,36.0,9.0,402.4,,2018
+Seth Green,seth-green-1,/cfb/players/seth-green-1.html,Minnesota,Big Ten,13,4,5,80.0,36,2,40.0,1,20.0,7.2,6.20,9.0,2.8,232.5,,2018
+Tyler Vaughns,tyler-vaughns-1,/cfb/players/tyler-vaughns-1.html,USC,Pac-12,12,1,1,100.0,36,1,100.0,0,0.0,36.0,56.00,36.0,3.0,732.4,,2018
+Isaac Holder,isaac-holder-1,/cfb/players/isaac-holder-1.html,Eastern Michigan,MAC,13,1,2,50.0,34,1,50.0,0,0.0,17.0,27.00,34.0,2.6,357.8,,2018
+Joseph Saucier,joseph-saucier-1,/cfb/players/joseph-saucier-1.html,Air Force,MWC,11,1,1,100.0,32,1,100.0,0,0.0,32.0,52.00,32.0,2.9,698.8,,2018
+Leki Nunn,leki-nunn-1,/cfb/players/leki-nunn-1.html,San Jose State,MWC,9,2,2,100.0,32,0,0.0,0,0.0,16.0,16.00,16.0,3.6,234.4,,2018
+Aleva Hifo,aleva-hifo-1,/cfb/players/aleva-hifo-1.html,BYU,Ind,13,1,1,100.0,31,1,100.0,0,0.0,31.0,51.00,31.0,2.4,690.4,,2018
+Hutch White,hutch-white-1,/cfb/players/hutch-white-1.html,Texas State,Sun Belt,12,2,3,66.7,31,1,33.3,0,0.0,10.3,17.00,15.5,2.6,263.5,,2018
+Jay MacIntyre,jay-macintyre-1,/cfb/players/jay-macintyre-1.html,Colorado,Pac-12,10,1,1,100.0,31,0,0.0,0,0.0,31.0,31.00,31.0,3.1,360.4,,2018
+Keenen Johnson,keenen-johnson-1,/cfb/players/keenen-johnson-1.html,Tulsa,American,12,2,3,66.7,31,0,0.0,0,0.0,10.3,10.33,15.5,2.6,153.5,,2018
+Marquez Stevenson,marquez-stevenson-1,/cfb/players/marquez-stevenson-1.html,Houston,American,13,1,1,100.0,31,0,0.0,0,0.0,31.0,31.00,31.0,2.4,360.4,,2018
+Mason Cunningham,mason-cunningham-1,/cfb/players/mason-cunningham-1.html,Liberty,Ind,3,4,7,57.1,31,0,0.0,0,0.0,4.4,4.43,7.8,10.3,94.3,,2018
+Jonathan Ward,jonathan-ward-3,/cfb/players/jonathan-ward-3.html,Central Michigan,MAC,9,1,2,50.0,29,1,50.0,0,0.0,14.5,24.50,29.0,3.2,336.8,,2018
+Noah Vedral,noah-vedral-1,/cfb/players/noah-vedral-1.html,Nebraska,Big Ten,1,2,9,22.2,29,0,0.0,1,11.1,3.2,-1.78,14.5,29.0,27.1,,2018
+Sean McCormack,sean-mccormack-1,/cfb/players/sean-mccormack-1.html,Louisville,ACC,3,4,13,30.8,29,0,0.0,1,7.7,2.2,-1.23,7.3,9.7,34.1,,2018
+Blake Maimone,blake-maimone-1,/cfb/players/blake-maimone-1.html,Oregon,Pac-12,13,1,1,100.0,28,0,0.0,0,0.0,28.0,28.00,28.0,2.2,335.2,,2018
+Jamie Sackville,jamie-sackville-1,/cfb/players/jamie-sackville-1.html,SMU,American,12,3,3,100.0,26,1,33.3,0,0.0,8.7,15.33,8.7,2.2,282.8,,2018
+Keondre Wudtee,keondre-wudtee-1,/cfb/players/keondre-wudtee-1.html,Oklahoma State,Big 12,2,2,5,40.0,26,1,20.0,0,0.0,5.2,9.20,13.0,13.0,149.7,,2018
+Bryson Smith,bryson-smith-1,/cfb/players/bryson-smith-1.html,Houston,American,12,2,5,40.0,25,1,20.0,1,20.0,5.0,0.00,12.5,2.1,108.0,,2018
+Logan Burnett,logan-burnett-1,/cfb/players/logan-burnett-1.html,Mississippi State,SEC,2,1,1,100.0,25,0,0.0,0,0.0,25.0,25.00,25.0,12.5,310.0,,2018
+Patrick Laird,patrick-laird-2,/cfb/players/patrick-laird-2.html,California,Pac-12,13,2,2,100.0,25,0,0.0,0,0.0,12.5,12.50,12.5,1.9,205.0,,2018
+Malik Willis,malik-willis-1,/cfb/players/malik-willis-1.html,Auburn,SEC,8,5,7,71.4,24,0,0.0,0,0.0,3.4,3.43,4.8,3.0,100.2,,2018
+Scott Miller,scott-miller-3,/cfb/players/scott-miller-3.html,Bowling Green,MAC,11,1,1,100.0,24,0,0.0,0,0.0,24.0,24.00,24.0,2.2,301.6,,2018
+Marlon Williams,marlon-williams-5,/cfb/players/marlon-williams-5.html,UCF,American,13,1,1,100.0,23,0,0.0,0,0.0,23.0,23.00,23.0,1.8,293.2,,2018
+Aaron Fuller,aaron-fuller-1,/cfb/players/aaron-fuller-1.html,Washington,Pac-12,14,1,1,100.0,22,1,100.0,0,0.0,22.0,42.00,22.0,1.6,614.8,,2018
+Cord Sandberg,cord-sandberg-1,/cfb/players/cord-sandberg-1.html,Auburn,SEC,1,1,1,100.0,22,0,0.0,0,0.0,22.0,22.00,22.0,22.0,284.8,,2018
+James Graham,james-graham-1,/cfb/players/james-graham-1.html,Georgia Tech,ACC,3,1,1,100.0,22,0,0.0,0,0.0,22.0,22.00,22.0,7.3,284.8,,2018
+Terry Juniel,terry-juniel-1,/cfb/players/terry-juniel-1.html,UTEP,CUSA,12,1,1,100.0,22,0,0.0,0,0.0,22.0,22.00,22.0,1.8,284.8,,2018
+T.J. Rahming,tj-rahming-1,/cfb/players/tj-rahming-1.html,Duke,ACC,13,1,1,100.0,22,1,100.0,0,0.0,22.0,42.00,22.0,1.7,614.8,,2018
+Drayton Arnold,drayton-arnold-1,/cfb/players/drayton-arnold-1.html,Old Dominion,CUSA,2,1,2,50.0,21,0,0.0,0,0.0,10.5,10.50,21.0,10.5,138.2,,2018
+Ja'Marcus Bradley,jamarcus-bradley-1,/cfb/players/jamarcus-bradley-1.html,Louisiana,Sun Belt,14,1,1,100.0,21,0,0.0,0,0.0,21.0,21.00,21.0,1.5,276.4,,2018
+Jonah Fitzgerald,jonah-fitzgerald-1,/cfb/players/jonah-fitzgerald-1.html,Old Dominion,CUSA,1,2,3,66.7,21,0,0.0,0,0.0,7.0,7.00,10.5,21.0,125.5,,2018
+Kingsley Ifedi,kingsley-ifedi-1,/cfb/players/kingsley-ifedi-1.html,East Carolina,American,5,3,9,33.3,21,0,0.0,2,22.2,2.3,-7.67,7.0,4.2,8.5,,2018
+Tre Watson,tre-watson-2,/cfb/players/tre-watson-2.html,Texas,Big 12,14,1,1,100.0,21,0,0.0,0,0.0,21.0,21.00,21.0,1.5,276.4,,2018
+Tylan Wallace,tylan-wallace-1,/cfb/players/tylan-wallace-1.html,Oklahoma State,Big 12,13,2,2,100.0,21,0,0.0,0,0.0,10.5,10.50,10.5,1.6,188.2,,2018
+Jeshaun Jones,jeshaun-jones-1,/cfb/players/jeshaun-jones-1.html,Maryland,Big Ten,12,1,1,100.0,20,1,100.0,0,0.0,20.0,40.00,20.0,1.7,598.0,,2018
+Kadarius Toney,kadarius-toney-1,/cfb/players/kadarius-toney-1.html,Florida,SEC,12,1,1,100.0,20,1,100.0,0,0.0,20.0,40.00,20.0,1.7,598.0,,2018
+Kyle Vantrease,kyle-vantrease-1,/cfb/players/kyle-vantrease-1.html,Buffalo,MAC,3,4,9,44.4,20,0,0.0,0,0.0,2.2,2.22,5.0,6.7,63.1,,2018
+Andrew Peasley,andrew-peasley-1,/cfb/players/andrew-peasley-1.html,Utah State,MWC,3,3,8,37.5,19,0,0.0,0,0.0,2.4,2.38,6.3,6.3,57.5,,2018
+Desmond Phillips,desmond-phillips-1,/cfb/players/desmond-phillips-1.html,Toledo,MAC,13,1,2,50.0,19,1,50.0,1,50.0,9.5,-3.00,19.0,1.5,194.8,,2018
+John Stephen Jones,john-stephen-jones-1,/cfb/players/john-stephen-jones-1.html,Arkansas,SEC,3,2,8,25.0,18,0,0.0,1,12.5,2.3,-3.38,9.0,6.0,18.9,,2018
+Kavious Price,kavious-price-1,/cfb/players/kavious-price-1.html,Kent State,MAC,11,1,2,50.0,18,1,50.0,1,50.0,9.0,-3.50,18.0,1.6,190.6,,2018
+Lil'Jordan Humphrey,liljordan-humphrey-1,/cfb/players/liljordan-humphrey-1.html,Texas,Big 12,14,3,4,75.0,18,1,25.0,0,0.0,4.5,9.50,6.0,1.3,195.3,,2018
+Anthony Gordon,anthony-gordon-2,/cfb/players/anthony-gordon-2.html,Washington State,Pac-12,3,3,5,60.0,17,0,0.0,1,20.0,3.4,-5.60,5.7,5.7,48.6,,2018
+Cade Pearson,cade-pearson-1,/cfb/players/cade-pearson-1.html,North Texas,CUSA,1,4,4,100.0,17,0,0.0,0,0.0,4.3,4.25,4.3,17.0,135.7,,2018
+Chance Thrasher,chance-thrasher-1,/cfb/players/chance-thrasher-1.html,Coastal Carolina,Sun Belt,3,2,2,100.0,17,0,0.0,0,0.0,8.5,8.50,8.5,5.7,171.4,,2018
+Connor Adair,connor-adair-1,/cfb/players/connor-adair-1.html,Memphis,American,2,1,2,50.0,17,1,50.0,0,0.0,8.5,18.50,17.0,8.5,286.4,,2018
+Jack Fox,jack-fox-1,/cfb/players/jack-fox-1.html,Rice,CUSA,13,1,1,100.0,17,0,0.0,0,0.0,17.0,17.00,17.0,1.3,242.8,,2018
+Jamarye Joiner,jamarye-joiner-1,/cfb/players/jamarye-joiner-1.html,Arizona,Pac-12,2,3,4,75.0,17,0,0.0,0,0.0,4.3,4.25,5.7,8.5,110.7,,2018
+Jarren Williams,jarren-williams-1,/cfb/players/jarren-williams-1.html,Miami (FL),ACC,1,1,3,33.3,17,0,0.0,0,0.0,5.7,5.67,17.0,17.0,80.9,,2018
+Trenard Davis,trenard-davis-1,/cfb/players/trenard-davis-1.html,Illinois,Big Ten,12,1,2,50.0,17,1,50.0,0,0.0,8.5,18.50,17.0,1.4,286.4,,2018
+Tyler Page,tyler-page-1,/cfb/players/tyler-page-1.html,SMU,American,12,2,3,66.7,17,1,33.3,0,0.0,5.7,12.33,8.5,1.4,224.3,,2018
+Tyler Page,tyler-page-2,/cfb/players/tyler-page-2.html,SMU,American,8,2,3,66.7,17,1,33.3,0,0.0,5.7,12.33,8.5,2.1,224.3,,2018
+Tyler Davis,tyler-davis-2,/cfb/players/tyler-davis-2.html,Connecticut,American,12,1,1,100.0,16,0,0.0,0,0.0,16.0,16.00,16.0,1.3,234.4,,2018
+Tyler Desue,tyler-desue-1,/cfb/players/tyler-desue-1.html,Maryland,Big Ten,3,2,2,100.0,16,0,0.0,0,0.0,8.0,8.00,8.0,5.3,167.2,,2018
+Cam Thomas,cam-thomas-3,/cfb/players/cam-thomas-3.html,Army,Ind,8,1,3,33.3,15,1,33.3,0,0.0,5.0,11.67,15.0,1.9,185.3,,2018
+Lucas Krull,lucas-krull-1,/cfb/players/lucas-krull-1.html,Florida,SEC,13,1,1,100.0,15,0,0.0,0,0.0,15.0,15.00,15.0,1.2,226.0,,2018
+Ricky Town,ricky-town-1,/cfb/players/ricky-town-1.html,Pitt,ACC,3,1,1,100.0,15,0,0.0,0,0.0,15.0,15.00,15.0,5.0,226.0,,2018
+Stefan Flintoft,stefan-flintoft-1,/cfb/players/stefan-flintoft-1.html,UCLA,Pac-12,11,1,1,100.0,15,0,0.0,0,0.0,15.0,15.00,15.0,1.4,226.0,,2018
+Wade Lees,wade-lees-1,/cfb/players/wade-lees-1.html,Maryland,Big Ten,12,1,1,100.0,15,0,0.0,0,0.0,15.0,15.00,15.0,1.3,226.0,,2018
+Andre Baccellia,andre-baccellia-1,/cfb/players/andre-baccellia-1.html,Washington,Pac-12,14,1,2,50.0,14,0,0.0,1,50.0,7.0,-15.50,14.0,1.0,8.8,,2018
+Cade Weldon,cade-weldon-1,/cfb/players/cade-weldon-1.html,Miami (FL),ACC,4,2,3,66.7,14,0,0.0,0,0.0,4.7,4.67,7.0,3.5,105.9,,2018
+Jack Walker,jack-walker-1,/cfb/players/jack-walker-1.html,Georgia State,Sun Belt,3,2,3,66.7,14,0,0.0,0,0.0,4.7,4.67,7.0,4.7,105.9,,2018
+Jaylon Henderson,jaylon-henderson-2,/cfb/players/jaylon-henderson-2.html,Boise State,MWC,3,1,1,100.0,14,0,0.0,0,0.0,14.0,14.00,14.0,4.7,217.6,,2018
+Deebo Samuel,deebo-samuel-1,/cfb/players/deebo-samuel-1.html,South Carolina,SEC,12,1,1,100.0,13,1,100.0,0,0.0,13.0,33.00,13.0,1.1,539.2,,2018
+Daniel Rodriguez,daniel-rodriguez-3,/cfb/players/daniel-rodriguez-3.html,Oregon State,Pac-12,12,1,1,100.0,12,0,0.0,0,0.0,12.0,12.00,12.0,1.0,200.8,,2018
+Deon Jackson,deon-jackson-1,/cfb/players/deon-jackson-1.html,Duke,ACC,13,1,1,100.0,12,0,0.0,0,0.0,12.0,12.00,12.0,0.9,200.8,,2018
+Grant Perry,grant-perry-1,/cfb/players/grant-perry-1.html,Michigan,Big Ten,13,1,1,100.0,12,0,0.0,0,0.0,12.0,12.00,12.0,0.9,200.8,,2018
+Jaylen Gipson,jaylen-gipson-1,/cfb/players/jaylen-gipson-1.html,Texas State,Sun Belt,5,3,6,50.0,12,0,0.0,0,0.0,2.0,2.00,4.0,2.4,66.8,,2018
+Brandon Bisack,brandon-bisack-1,/cfb/players/brandon-bisack-1.html,Connecticut,American,2,1,7,14.3,11,0,0.0,1,14.3,1.6,-4.86,11.0,5.5,-1.1,,2018
+Clyde Edwards-Helaire,clyde-edwards-helaire-1,/cfb/players/clyde-edwards-helaire-1.html,LSU,SEC,13,1,1,100.0,11,1,100.0,0,0.0,11.0,31.00,11.0,0.8,522.4,,2018
+Colten Rastetter,colten-rastetter-1,/cfb/players/colten-rastetter-1.html,Iowa,Big Ten,13,2,2,100.0,11,1,50.0,0,0.0,5.5,15.50,5.5,0.8,311.2,,2018
+Jerrod Heard,jerrod-heard-1,/cfb/players/jerrod-heard-1.html,Texas,Big 12,14,1,1,100.0,11,0,0.0,0,0.0,11.0,11.00,11.0,0.8,192.4,,2018
+Matt Robinson,matt-robinson-6,/cfb/players/matt-robinson-6.html,Illinois,Big Ten,3,3,6,50.0,11,0,0.0,1,16.7,1.8,-5.67,3.7,3.7,32.1,,2018
+Ryan Stonehouse,ryan-stonehouse-1,/cfb/players/ryan-stonehouse-1.html,Colorado State,MWC,12,1,1,100.0,11,0,0.0,0,0.0,11.0,11.00,11.0,0.9,192.4,,2018
+Sidney Davis,sidney-davis-1,/cfb/players/sidney-davis-1.html,Troy,Sun Belt,13,1,1,100.0,11,0,0.0,0,0.0,11.0,11.00,11.0,0.8,192.4,,2018
+Steven Krajewski,steven-krajewski-1,/cfb/players/steven-krajewski-1.html,Connecticut,American,1,2,3,66.7,11,0,0.0,0,0.0,3.7,3.67,5.5,11.0,97.5,,2018
+Austin Upshaw,austin-upshaw-1,/cfb/players/austin-upshaw-1.html,SMU,American,1,2,3,66.7,10,0,0.0,0,0.0,3.3,3.33,5.0,10.0,94.7,,2018
+Chazz Surratt,chazz-surratt-1,/cfb/players/chazz-surratt-1.html,North Carolina,ACC,1,4,10,40.0,10,0,0.0,3,30.0,1.0,-12.50,2.5,10.0,-11.6,,2018
+JT Jackson,jt-jackson-1,/cfb/players/jt-jackson-1.html,Louisiana-Monroe,Sun Belt,3,2,3,66.7,10,0,0.0,0,0.0,3.3,3.33,5.0,3.3,94.7,,2018
+Khalil Shakir,khalil-shakir-1,/cfb/players/khalil-shakir-1.html,Boise State,MWC,10,2,2,100.0,10,0,0.0,0,0.0,5.0,5.00,5.0,1.0,142.0,,2018
+Myles Washington,myles-washington-1,/cfb/players/myles-washington-1.html,Kent State,MAC,11,1,1,100.0,10,0,0.0,0,0.0,10.0,10.00,10.0,0.9,184.0,,2018
+Nick Jeanty,nick-jeanty-1,/cfb/players/nick-jeanty-1.html,New Mexico State,Ind,5,3,13,23.1,10,0,0.0,1,7.7,0.8,-2.69,3.3,2.0,14.2,,2018
+Parker Towns,parker-towns-1,/cfb/players/parker-towns-1.html,Rice,CUSA,2,1,4,25.0,10,0,0.0,0,0.0,2.5,2.50,10.0,5.0,46.0,,2018
+Seth Collins,seth-collins-1,/cfb/players/seth-collins-1.html,Texas Tech,Big 12,12,1,2,50.0,10,0,0.0,0,0.0,5.0,5.00,10.0,0.8,92.0,,2018
+Tyler Sumpter,tyler-sumpter-1,/cfb/players/tyler-sumpter-1.html,Troy,Sun Belt,13,1,1,100.0,10,0,0.0,0,0.0,10.0,10.00,10.0,0.8,184.0,,2018
+Tyler Sumpter,tyler-sumpter-2,/cfb/players/tyler-sumpter-2.html,Troy,Sun Belt,13,1,1,100.0,10,0,0.0,0,0.0,10.0,10.00,10.0,0.8,184.0,,2018
+Jalen Mayden,jalen-mayden-1,/cfb/players/jalen-mayden-1.html,Mississippi State,SEC,3,1,2,50.0,9,0,0.0,0,0.0,4.5,4.50,9.0,3.0,87.8,,2018
+JaTarvious Whitlow,jatarvious-whitlow-1,/cfb/players/jatarvious-whitlow-1.html,Auburn,SEC,13,1,1,100.0,9,1,100.0,0,0.0,9.0,29.00,9.0,0.7,505.6,,2018
+Jay Urich,jay-urich-1,/cfb/players/jay-urich-1.html,South Carolina,SEC,1,1,1,100.0,9,0,0.0,0,0.0,9.0,9.00,9.0,9.0,175.6,,2018
+Olamide Zaccheaus,olamide-zaccheaus-1,/cfb/players/olamide-zaccheaus-1.html,Virginia,ACC,13,1,1,100.0,9,0,0.0,0,0.0,9.0,9.00,9.0,0.7,175.6,,2018
+Pooka Williams,pooka-williams-1,/cfb/players/pooka-williams-1.html,Kansas,Big 12,11,1,2,50.0,9,1,50.0,0,0.0,4.5,14.50,9.0,0.8,252.8,,2018
+Quincy Patterson,quincy-patterson-1,/cfb/players/quincy-patterson-1.html,Virginia Tech,ACC,3,1,5,20.0,9,0,0.0,0,0.0,1.8,1.80,9.0,3.0,35.1,,2018
+Zeb Speir,zeb-speir-1,/cfb/players/zeb-speir-1.html,Appalachian State,Sun Belt,3,1,3,33.3,9,0,0.0,0,0.0,3.0,3.00,9.0,3.0,58.5,,2018
+Brandon Peters,brandon-peters-1,/cfb/players/brandon-peters-1.html,Michigan,Big Ten,4,1,2,50.0,8,0,0.0,1,50.0,4.0,-18.50,8.0,2.0,-16.4,,2018
+Connor Blumrick,connor-blumrick-1,/cfb/players/connor-blumrick-1.html,Texas A&M,SEC,1,1,1,100.0,8,0,0.0,0,0.0,8.0,8.00,8.0,8.0,167.2,,2018
+Kolney Cassel,kolney-cassel-1,/cfb/players/kolney-cassel-1.html,Hawaii,MWC,1,1,1,100.0,8,0,0.0,0,0.0,8.0,8.00,8.0,8.0,167.2,,2018
+Marcelo Rodriguez,marcelo-rodriguez-1,/cfb/players/marcelo-rodriguez-1.html,Southern Mississippi,CUSA,2,3,5,60.0,8,0,0.0,2,40.0,1.6,-16.40,2.7,4.0,-6.6,,2018
+Quinten Dormady,quinten-dormady-1,/cfb/players/quinten-dormady-1.html,Houston,American,2,2,5,40.0,8,0,0.0,0,0.0,1.6,1.60,4.0,4.0,53.4,,2018
+Chance Lachappelle,chance-lachappelle-1,/cfb/players/chance-lachappelle-1.html,San Jose State,MWC,2,2,2,100.0,7,0,0.0,0,0.0,3.5,3.50,3.5,3.5,129.4,,2018
+Jared Sparks,jared-sparks-1,/cfb/players/jared-sparks-1.html,Purdue,Big Ten,13,1,1,100.0,7,1,100.0,0,0.0,7.0,27.00,7.0,0.5,488.8,,2018
+Kenyon Oblad,kenyon-oblad-1,/cfb/players/kenyon-oblad-1.html,Nevada-Las Vegas,MWC,1,1,5,20.0,7,0,0.0,0,0.0,1.4,1.40,7.0,7.0,31.8,,2018
+Cody White,cody-white-3,/cfb/players/cody-white-3.html,Michigan State,Big Ten,9,1,1,100.0,6,0,0.0,0,0.0,6.0,6.00,6.0,0.7,150.4,,2018
+Jack Richardson,jack-richardson-2,/cfb/players/jack-richardson-2.html,Stanford,Pac-12,3,1,1,100.0,6,0,0.0,0,0.0,6.0,6.00,6.0,2.0,150.4,,2018
+Caiden Norman,caiden-norman-1,/cfb/players/caiden-norman-1.html,East Carolina,American,2,1,2,50.0,4,0,0.0,0,0.0,2.0,2.00,4.0,2.0,66.8,,2018
+Darrell Henderson,darrell-henderson-1,/cfb/players/darrell-henderson-1.html,Memphis,American,13,1,2,50.0,4,1,50.0,0,0.0,2.0,12.00,4.0,0.3,231.8,"H-10,AA",2018
+Darrell Stewart Jr.,darrell-stewart-jr-1,/cfb/players/darrell-stewart-jr-1.html,Michigan State,Big Ten,11,1,1,100.0,4,1,100.0,0,0.0,4.0,24.00,4.0,0.4,463.6,,2018
+Dominic Johnson,dominic-johnson-1,/cfb/players/dominic-johnson-1.html,Buffalo,MAC,4,1,2,50.0,4,0,0.0,1,50.0,2.0,-20.50,4.0,1.0,-33.2,,2018
+Jack West,jack-west-4,/cfb/players/jack-west-4.html,Stanford,Pac-12,2,1,5,20.0,4,0,0.0,0,0.0,0.8,0.80,4.0,2.0,26.7,,2018
+Danny Vanden Boom,danny-vanden-boom-1,/cfb/players/danny-vanden-boom-1.html,Wisconsin,Big Ten,3,1,1,100.0,3,1,100.0,0,0.0,3.0,23.00,3.0,1.0,455.2,,2018
+Devin Singletary,devin-singletary-1,/cfb/players/devin-singletary-1.html,Florida Atlantic,CUSA,12,1,1,100.0,3,0,0.0,0,0.0,3.0,3.00,3.0,0.3,125.2,,2018
+Dillon Stoner,dillon-stoner-1,/cfb/players/dillon-stoner-1.html,Oklahoma State,Big 12,12,1,1,100.0,3,0,0.0,0,0.0,3.0,3.00,3.0,0.3,125.2,,2018
+Nick Sipe,nick-sipe-1,/cfb/players/nick-sipe-1.html,Purdue,Big Ten,3,1,1,100.0,3,0,0.0,0,0.0,3.0,3.00,3.0,1.0,125.2,,2018
+Hunter Renfrow,hunter-renfrow-1,/cfb/players/hunter-renfrow-1.html,Clemson,ACC,15,1,2,50.0,2,0,0.0,0,0.0,1.0,1.00,2.0,0.1,58.4,,2018
+Isaac Stiebeling,isaac-stiebeling-1,/cfb/players/isaac-stiebeling-1.html,Eastern Michigan,MAC,4,2,2,100.0,2,0,0.0,0,0.0,1.0,1.00,1.0,0.5,108.4,,2018
+Kendall Hinton,kendall-hinton-1,/cfb/players/kendall-hinton-1.html,Wake Forest,ACC,5,2,8,25.0,2,0,0.0,1,12.5,0.3,-5.38,1.0,0.4,2.1,,2018
+Myles Gaskin,myles-gaskin-1,/cfb/players/myles-gaskin-1.html,Washington,Pac-12,12,1,1,100.0,2,1,100.0,0,0.0,2.0,22.00,2.0,0.2,446.8,,2018
+Dakereon Joyner,dakereon-joyner-1,/cfb/players/dakereon-joyner-1.html,South Carolina,SEC,1,1,2,50.0,1,0,0.0,0,0.0,0.5,0.50,1.0,1.0,54.2,,2018
+Jeff George Jr.,jeff-george-jr-1,/cfb/players/jeff-george-jr-1.html,Pitt,ACC,3,1,3,33.3,1,0,0.0,0,0.0,0.3,0.33,1.0,0.3,36.1,,2018
+Justin Rogers,justin-rogers-3,/cfb/players/justin-rogers-3.html,Texas Christian,Big 12,1,1,1,100.0,1,0,0.0,0,0.0,1.0,1.00,1.0,1.0,108.4,,2018
+Adam Williams,adam-williams-2,/cfb/players/adam-williams-2.html,Memphis,American,14,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2018
+Aidan Willard,aidan-willard-1,/cfb/players/aidan-willard-1.html,Oregon State,Pac-12,1,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2018
+Alex Malzone,alex-malzone-1,/cfb/players/alex-malzone-1.html,Miami (OH),MAC,3,0,4,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2018
+Alex Mussat,alex-mussat-1,/cfb/players/alex-mussat-1.html,Western Michigan,MAC,2,0,3,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2018
+Amari Rodgers,amari-rodgers-1,/cfb/players/amari-rodgers-1.html,Clemson,ACC,15,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2018
+Andre Wilson,andre-wilson-1,/cfb/players/andre-wilson-1.html,UAB,CUSA,14,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2018
+Andrew Smith,andrew-smith-6,/cfb/players/andrew-smith-6.html,Air Force,MWC,12,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2018
+Anthony Johnson,anthony-johnson-13,/cfb/players/anthony-johnson-13.html,Buffalo,MAC,13,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2018
+Anthony Ratliff-Williams,anthony-ratliff-williams-1,/cfb/players/anthony-ratliff-williams-1.html,North Carolina,ACC,11,0,2,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2018
+Austin Conway,austin-conway-1,/cfb/players/austin-conway-1.html,Wyoming,MWC,12,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2018
+Austin Trammell,austin-trammell-1,/cfb/players/austin-trammell-1.html,Rice,CUSA,13,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2018
+Beau Corrales,beau-corrales-1,/cfb/players/beau-corrales-1.html,North Carolina,ACC,8,0,1,0.0,0,0,0.0,1,100.0,0.0,-45.00,,0.0,-200.0,,2018
+Brandon Childress,brandon-childress-1,/cfb/players/brandon-childress-1.html,Central Michigan,MAC,12,0,2,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2018
+Brenden Brady,brenden-brady-1,/cfb/players/brenden-brady-1.html,UTSA,CUSA,12,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2018
+Bryson Carroll,bryson-carroll-1,/cfb/players/bryson-carroll-1.html,New Mexico,MWC,3,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2018
+Cam Akers,cam-akers-1,/cfb/players/cam-akers-1.html,Florida State,ACC,12,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2018
+CeeDee Lamb,ceedee-lamb-1,/cfb/players/ceedee-lamb-1.html,Oklahoma,Big 12,14,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2018
+Chase Cunningham,chase-cunningham-1,/cfb/players/chase-cunningham-1.html,Middle Tennessee State,CUSA,4,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2018
+Colby Moore,colby-moore-1,/cfb/players/colby-moore-1.html,Kansas State,Big 12,12,0,2,0.0,0,0,0.0,1,50.0,0.0,-22.50,,0.0,-100.0,,2018
+CT Thomas,ct-thomas-1,/cfb/players/ct-thomas-1.html,Boise State,MWC,13,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2018
+Dane Ledford,dane-ledford-1,/cfb/players/dane-ledford-1.html,Tulane,American,3,0,4,0.0,0,0,0.0,1,25.0,0.0,-11.25,,0.0,-50.0,,2018
+Davis Mills,davis-mills-1,/cfb/players/davis-mills-1.html,Stanford,Pac-12,1,0,2,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2018
+Deejay Dallas,deejay-dallas-1,/cfb/players/deejay-dallas-1.html,Miami (FL),ACC,13,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2018
+Demari Simpkins,demari-simpkins-1,/cfb/players/demari-simpkins-1.html,Utah,Pac-12,14,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2018
+Derion Kendrick,derion-kendrick-1,/cfb/players/derion-kendrick-1.html,Clemson,ACC,15,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2018
+De'Vion Warren,devion-warren-1,/cfb/players/devion-warren-1.html,Arkansas,SEC,9,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2018
+Devon Spalding,devon-spalding-1,/cfb/players/devon-spalding-1.html,Central Michigan,MAC,10,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2018
+Dillon Sterling-Cole,dillon-sterling-cole-1,/cfb/players/dillon-sterling-cole-1.html,Arizona State,Pac-12,2,0,2,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2018
+D.J. Matthews,dj-matthews-1,/cfb/players/dj-matthews-1.html,Florida State,ACC,12,0,2,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2018
+Drew Galitz,drew-galitz-1,/cfb/players/drew-galitz-1.html,Baylor,Big 12,12,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2018
+Fred Cooper Jr.,fred-cooper-jr-1,/cfb/players/fred-cooper-jr-1.html,Army,Ind,4,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2018
+Gerry Bohanon,gerry-bohanon-1,/cfb/players/gerry-bohanon-1.html,Baylor,Big 12,3,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2018
+Hasise Dubois,hasise-dubois-1,/cfb/players/hasise-dubois-1.html,Virginia,ACC,13,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2018
+Ike Ogbogu,ike-ogbogu-1,/cfb/players/ike-ogbogu-1.html,Houston,American,1,1,1,100.0,0,0,0.0,0,0.0,0.0,0.00,0.0,0.0,100.0,,2018
+Isaiah Wright,isaiah-wright-1,/cfb/players/isaiah-wright-1.html,Temple,American,13,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2018
+Jacob Herbers,jacob-herbers-1,/cfb/players/jacob-herbers-1.html,Minnesota,Big Ten,13,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2018
+Jake Sopko,jake-sopko-1,/cfb/players/jake-sopko-1.html,Cincinnati,American,3,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2018
+Jake Stoshak,jake-stoshak-1,/cfb/players/jake-stoshak-1.html,Florida Atlantic,CUSA,11,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2018
+Jakobi Meyers,jakobi-meyers-1,/cfb/players/jakobi-meyers-1.html,North Carolina State,ACC,12,0,2,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2018
+James Proche,james-proche-1,/cfb/players/james-proche-1.html,SMU,American,12,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2018
+James Williams,james-williams-13,/cfb/players/james-williams-13.html,Washington State,Pac-12,13,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2018
+JaQuan Blackwell,jaquan-blackwell-1,/cfb/players/jaquan-blackwell-1.html,San Jose State,MWC,10,0,1,0.0,0,0,0.0,1,100.0,0.0,-45.00,,0.0,-200.0,,2018
+Jason Bean,jason-bean-1,/cfb/players/jason-bean-1.html,North Texas,CUSA,1,0,2,0.0,0,0,0.0,1,50.0,0.0,-22.50,,0.0,-100.0,,2018
+Jauan Wesley,jauan-wesley-1,/cfb/players/jauan-wesley-1.html,Northern Illinois,MAC,14,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2018
+Joey Gatewood,joey-gatewood-1,/cfb/players/joey-gatewood-1.html,Auburn,SEC,1,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2018
+John Williams,john-williams-16,/cfb/players/john-williams-16.html,Memphis,American,14,0,2,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2018
+Josh Hokit,josh-hokit-1,/cfb/players/josh-hokit-1.html,Fresno State,MWC,13,0,1,0.0,0,0,0.0,1,100.0,0.0,-45.00,,0.0,-200.0,,2018
+Jovon Durante,jovon-durante-1,/cfb/players/jovon-durante-1.html,Florida Atlantic,CUSA,12,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2018
+Kaleb Fossum,kaleb-fossum-1,/cfb/players/kaleb-fossum-1.html,Nevada,MWC,13,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2018
+KaVontae Turpin,kavontae-turpin-1,/cfb/players/kavontae-turpin-1.html,Texas Christian,Big 12,7,0,1,0.0,0,0,0.0,1,100.0,0.0,-45.00,,0.0,-200.0,,2018
+Keaontay Ingram,keaontay-ingram-1,/cfb/players/keaontay-ingram-1.html,Texas,Big 12,13,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2018
+Kevaris Thomas,kevaris-thomas-1,/cfb/players/kevaris-thomas-1.html,Western Kentucky,CUSA,4,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2018
+Khalil Herbert,khalil-herbert-1,/cfb/players/khalil-herbert-1.html,Kansas,Big 12,12,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2018
+Lucky Jackson,lucky-jackson-1,/cfb/players/lucky-jackson-1.html,Western Kentucky,CUSA,12,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2018
+Luke Langdon,luke-langdon-1,/cfb/players/luke-langdon-1.html,Army,Ind,4,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2018
+Lynn Bowden Jr.,lynn-bowden-jr-1,/cfb/players/lynn-bowden-jr-1.html,Kentucky,SEC,13,0,1,0.0,0,0,0.0,1,100.0,0.0,-45.00,,0.0,-200.0,,2018
+Matt Considine,matt-considine-1,/cfb/players/matt-considine-1.html,Wake Forest,ACC,2,0,2,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2018
+Matt Ference,matt-ference-1,/cfb/players/matt-ference-1.html,Northern Illinois,MAC,14,0,1,0.0,0,0,0.0,1,100.0,0.0,-45.00,,0.0,-200.0,,2018
+Matt Hadley,matt-hadley-1,/cfb/players/matt-hadley-1.html,BYU,Ind,11,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2018
+Matthew Considine,matthew-considine-1,/cfb/players/matthew-considine-1.html,Wake Forest,ACC,1,0,2,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2018
+Maurice Washington,maurice-washington-2,/cfb/players/maurice-washington-2.html,Nebraska,Big Ten,11,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2018
+Neil McLaurin,neil-mclaurin-1,/cfb/players/neil-mclaurin-1.html,Southern Mississippi,CUSA,11,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2018
+Nick Basquine,nick-basquine-1,/cfb/players/nick-basquine-1.html,Oklahoma,Big 12,14,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2018
+Nick Smith,nick-smith-4,/cfb/players/nick-smith-4.html,Wyoming,MWC,3,0,2,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2018
+Nick Sproles,nick-sproles-1,/cfb/players/nick-sproles-1.html,Florida,SEC,3,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2018
+N'Keal Harry,nkeal-harry-1,/cfb/players/nkeal-harry-1.html,Arizona State,Pac-12,12,0,1,0.0,0,0,0.0,1,100.0,0.0,-45.00,,0.0,-200.0,,2018
+Nykeim Johnson,nykeim-johnson-1,/cfb/players/nykeim-johnson-1.html,Syracuse,ACC,12,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2018
+Nyqwan Murray,nyqwan-murray-1,/cfb/players/nyqwan-murray-1.html,Florida State,ACC,12,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2018
+Qadree Ollison,oadree-ollison-1,/cfb/players/oadree-ollison-1.html,Pitt,ACC,14,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2018
+OJ Davis,oj-davis-1,/cfb/players/oj-davis-1.html,Navy,American,13,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2018
+Parker Thome,parker-thome-1,/cfb/players/parker-thome-1.html,Vanderbilt,SEC,13,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2018
+Phil Jurkovec,phil-jurkovec-1,/cfb/players/phil-jurkovec-1.html,Notre Dame,Ind,2,0,2,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2018
+Quin Jernighan,quin-jernighan-1,/cfb/players/quin-jernighan-1.html,Western Kentucky,CUSA,11,0,1,0.0,0,0,0.0,1,100.0,0.0,-45.00,,0.0,-200.0,,2018
+Rodrigo Blankenship,rodrigo-blankenship-1,/cfb/players/rodrigo-blankenship-1.html,Georgia,SEC,14,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2018
+Rondale Moore,rondale-moore-1,/cfb/players/rondale-moore-1.html,Purdue,Big Ten,13,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,AA,2018
+Rontavious Groves,rontavious-groves-1,/cfb/players/rontavious-groves-1.html,North Carolina,ACC,9,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2018
+Rontavius Groves,rontavius-groves-1,/cfb/players/rontavius-groves-1.html,North Carolina,ACC,8,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2018
+Ryan Nuss,ryan-nuss-1,/cfb/players/ryan-nuss-1.html,Western Kentucky,CUSA,10,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2018
+Sean Savoy,sean-savoy-1,/cfb/players/sean-savoy-1.html,Virginia Tech,ACC,9,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2018
+Spencer Petras,spencer-petras-1,/cfb/players/spencer-petras-1.html,Iowa,Big Ten,2,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2018
+Steven Sims Jr.,steven-sims-jr-1,/cfb/players/steven-sims-jr-1.html,Kansas,Big 12,12,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2018
+Taj Harris,taj-harris-1,/cfb/players/taj-harris-1.html,Syracuse,ACC,12,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2018
+Timmy Hernandez,timmy-hernandez-1,/cfb/players/timmy-hernandez-1.html,Oregon State,Pac-12,12,0,4,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2018
+Travon McMillian,travon-mcmillian-1,/cfb/players/travon-mcmillian-1.html,Colorado,Pac-12,12,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2018
+Trestan Ebner,trestan-ebner-1,/cfb/players/trestan-ebner-1.html,Baylor,Big 12,13,0,1,0.0,0,0,0.0,1,100.0,0.0,-45.00,,0.0,-200.0,,2018
+Trevon Wesco,trevon-wesco-1,/cfb/players/trevon-wesco-1.html,West Virginia,Big 12,12,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2018
+Trey Lowe III,trey-lowe-iii-1,/cfb/players/trey-lowe-iii-1.html,West Virginia,Big 12,1,2,2,100.0,0,0,0.0,0,0.0,0.0,0.00,0.0,0.0,100.0,,2018
+Trey Sneed,trey-sneed-1,/cfb/players/trey-sneed-1.html,Rutgers,Big Ten,12,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2018
+Tyler Johnson,tyler-johnson-6,/cfb/players/tyler-johnson-6.html,Minnesota,Big Ten,13,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2018
+Tyre Brady,tyre-brady-1,/cfb/players/tyre-brady-1.html,Marshall,CUSA,13,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2018
+Warren Wand,warren-wand-1,/cfb/players/warren-wand-1.html,Arkansas State,Sun Belt,13,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2018
+Xavier Gaines,xavier-gaines-2,/cfb/players/xavier-gaines-2.html,Marshall,CUSA,13,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2018
+Zach Von Rosenberg,zach-von-rosenberg-1,/cfb/players/zach-von-rosenberg-1.html,LSU,SEC,13,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2018
+Kwadra Griggs,kwadra-griggs-1,/cfb/players/kwadra-griggs-1.html,Southern Mississippi,CUSA,2,1,2,50.0,-1,0,0.0,0,0.0,-0.5,-0.50,-1.0,-0.5,45.8,,2018
+Van Jefferson,van-jefferson-1,/cfb/players/van-jefferson-1.html,Florida,SEC,13,1,1,100.0,-3,0,0.0,0,0.0,-3.0,-3.00,-3.0,-0.2,74.8,,2018
+Anthony Thompson,anthony-thompson-3,/cfb/players/anthony-thompson-3.html,Northern Illinois,MAC,2,1,1,100.0,-5,0,0.0,0,0.0,-5.0,-5.00,-5.0,-2.5,58.0,,2018
+Jared Cornelius,jared-cornelius-1,/cfb/players/jared-cornelius-1.html,Arkansas,SEC,11,1,1,100.0,-5,0,0.0,0,0.0,-5.0,-5.00,-5.0,-0.5,58.0,,2018
+Ty Lee,ty-lee-1,/cfb/players/ty-lee-1.html,Middle Tennessee State,CUSA,14,1,1,100.0,-8,0,0.0,0,0.0,-8.0,-8.00,-8.0,-0.6,32.8,,2018
+League Average,,,,,,,,60.0,,,5.5,,2.7,7.4,7.30,12.4,82.4,135.0,,2018

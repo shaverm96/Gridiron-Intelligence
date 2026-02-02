@@ -1,0 +1,45 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Tyquan King,tyquan-king-1,/cfb/players/tyquan-king-1.html,LB,12,54,58,112,6.0,3.0,0,0,,0,0,0,0,0,1,,Temple,2024
+D.J. Woodbury,dj-woodbury-1,/cfb/players/dj-woodbury-1.html,LB,12,66,38,104,5.0,2.0,1,42,42.0,0,0,0,0,0,0,,Temple,2024
+Andreas Keaton,andreas-keaton-1,/cfb/players/andreas-keaton-1.html,S,12,39,28,67,0.0,0.0,1,0,0.0,0,3,1,0,0,0,,Temple,2024
+Javier Morton,javier-morton-1,/cfb/players/javier-morton-1.html,S,11,34,14,48,0.0,0.0,1,0,0.0,0,1,0,0,0,0,,Temple,2024
+Jamel Johnson,jamel-johnson-4,/cfb/players/jamel-johnson-4.html,CB,12,38,9,47,2.5,0.0,2,0,0.0,0,9,0,0,0,1,,Temple,2024
+Elijah Deravil,elijah-deravil-1,/cfb/players/elijah-deravil-1.html,S,12,25,21,46,4.0,0.5,1,25,25.0,0,2,1,0,0,0,,Temple,2024
+Jaylen Lewis,jaylen-lewis-1,/cfb/players/jaylen-lewis-1.html,CB,11,31,12,43,2.0,0.0,1,12,12.0,0,6,0,0,0,1,,Temple,2024
+Tra Thomas,tra-thomas-1,/cfb/players/tra-thomas-1.html,DE,12,15,13,28,4.5,2.0,1,0,0.0,0,0,1,0,0,1,,Temple,2024
+Ben Osueke,ben-osueke-1,/cfb/players/ben-osueke-1.html,CB,10,23,3,26,0.0,0.0,0,0,,0,4,0,0,0,1,,Temple,2024
+Antwone Santiago,antwone-santiago-1,/cfb/players/antwone-santiago-1.html,LB,12,13,12,25,0.0,0.0,0,0,,0,0,0,0,0,0,,Temple,2024
+Diwun Black,diwun-black-1,/cfb/players/diwun-black-1.html,DE,8,19,4,23,6.0,3.0,0,0,,0,3,0,0,0,2,,Temple,2024
+Torrey Richardson,torrey-richardson-1,/cfb/players/torrey-richardson-1.html,CB,10,22,1,23,1.0,0.0,1,0,0.0,0,3,0,0,0,0,,Temple,2024
+Latrell Jean,latrell-jean-1,/cfb/players/latrell-jean-1.html,DT,12,10,11,21,5.0,2.0,0,0,,0,0,0,0,0,0,,Temple,2024
+Sekou Kromah,sekou-kromah-1,/cfb/players/sekou-kromah-1.html,DT,12,8,12,20,1.5,0.5,0,0,,0,0,0,0,0,0,,Temple,2024
+Cam'Ron Stewart,camron-stewart-1,/cfb/players/camron-stewart-1.html,DE,6,10,8,18,5.0,0.5,0,0,,0,0,0,0,0,0,,Temple,2024
+Louis Frye,louis-frye-1,/cfb/players/louis-frye-1.html,S,11,10,6,16,0.0,0.0,0,0,,0,1,0,0,0,0,,Temple,2024
+K.J. Miles,kj-miles-2,/cfb/players/kj-miles-2.html,DT,11,5,9,14,1.0,0.0,0,0,,0,0,0,0,0,0,,Temple,2024
+Demerick Morris,demerick-morris-1,/cfb/players/demerick-morris-1.html,DT,11,4,9,13,0.5,0.5,0,0,,0,0,1,0,0,0,,Temple,2024
+Tyree Alualu,tyree-alualu-1,/cfb/players/tyree-alualu-1.html,LB,11,6,5,11,0.5,0.0,0,0,,0,0,0,0,0,1,,Temple,2024
+Sultan Badmus,sultan-badmus-1,/cfb/players/sultan-badmus-1.html,DE,12,4,6,10,1.0,0.0,0,0,,0,0,0,0,0,0,,Temple,2024
+Allan Haye Jr.,allan-haye-jr-1,/cfb/players/allan-haye-jr-1.html,DT,10,2,7,9,0.0,0.0,0,0,,0,0,0,0,0,0,,Temple,2024
+Eric Stuart,eric-stuart-1,/cfb/players/eric-stuart-1.html,LB,3,4,3,7,0.0,0.0,0,0,,0,0,0,0,0,0,,Temple,2024
+Zyil Powell,zyil-powell-1,/cfb/players/zyil-powell-1.html,S,5,6,0,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Temple,2024
+Tyrese Whitaker,tyrese-whitaker-1,/cfb/players/tyrese-whitaker-1.html,DE,6,4,2,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Temple,2024
+Joseph Auzenne,joseph-auzenne-1,/cfb/players/joseph-auzenne-1.html,DT,10,3,2,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Temple,2024
+John Adams,john-adams-7,/cfb/players/john-adams-7.html,WR,12,4,1,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Temple,2024
+Ihsim Smith-Marsette,ihsim-smith-marsette-1,/cfb/players/ihsim-smith-marsette-1.html,S,11,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Temple,2024
+Katin Surprenant,katin-surprenant-1,/cfb/players/katin-surprenant-1.html,LB,11,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Temple,2024
+Jordan Montgomery,jordan-montgomery-2,/cfb/players/jordan-montgomery-2.html,DE,8,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Temple,2024
+Wesley Brown,wesley-brown-2,/cfb/players/wesley-brown-2.html,LB,2,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Temple,2024
+Conlan Greene,conlan-greene-1,/cfb/players/conlan-greene-1.html,DT,12,1,1,2,0.5,0.0,0,0,,0,0,0,0,0,0,,Temple,2024
+Khalil Poteat,khalil-poteat-1,/cfb/players/khalil-poteat-1.html,DE,6,2,0,2,0.0,0.0,0,0,,0,1,0,0,0,0,,Temple,2024
+DeVonta Owens,devonta-owens-1,/cfb/players/devonta-owens-1.html,CB,4,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Temple,2024
+Tyler Stewart,tyler-stewart-2,/cfb/players/tyler-stewart-2.html,WR,8,1,1,2,0.0,0.0,0,0,,0,0,1,0,0,0,,Temple,2024
+Torren Wright,torren-wright-1,/cfb/players/torren-wright-1.html,LB,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Temple,2024
+Eric King,eric-king-4,/cfb/players/eric-king-4.html,OL,9,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Temple,2024
+Tyler Lepolo,tyler-lepolo-1,/cfb/players/tyler-lepolo-1.html,LB,4,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Temple,2024
+James Della Pesca,james-della-pesca-1,/cfb/players/james-della-pesca-1.html,TE,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Temple,2024
+Russell Sykes,russell-sykes-1,/cfb/players/russell-sykes-1.html,DE,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Temple,2024
+Darrell Sweeting,darrell-sweeting-1,/cfb/players/darrell-sweeting-1.html,CB,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Temple,2024
+Dante Wright,dante-wright-1,/cfb/players/dante-wright-1.html,WR,9,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Temple,2024
+Maddux Trujillo,maddux-trujillo-1,/cfb/players/maddux-trujillo-1.html,K,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Temple,2024
+Wisdom Quarshie,wisdom-quarshie-1,/cfb/players/wisdom-quarshie-1.html,OL,9,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Temple,2024
+Kian Johnson,kian-johnson-1,/cfb/players/kian-johnson-1.html,WR,9,0,0,0,0.0,0.0,0,0,,0,0,1,0,0,0,,Temple,2024

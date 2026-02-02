@@ -1,0 +1,47 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Josiah Trotter,josiah-trotter-1,/cfb/players/josiah-trotter-1.html,LB,12,43,41,84,13.0,2.0,0,0,,0,1,0,0,0,0,,Missouri,2025
+Nicholas Rodriguez,nicholas-rodriguez-1,/cfb/players/nicholas-rodriguez-1.html,LB,13,27,35,62,4.0,1.5,0,0,,0,7,0,0,0,0,,Missouri,2025
+Santana Banner,santana-banner-1,/cfb/players/santana-banner-1.html,S,13,30,29,59,1.0,0.0,1,7,7.0,0,3,0,0,0,0,,Missouri,2025
+Marvin Burks,marvin-burks-1,/cfb/players/marvin-burks-1.html,S,13,27,22,49,1.5,0.0,1,28,28.0,1,1,1,0,0,1,,Missouri,2025
+Chris McClellan,chris-mcclellan-1,/cfb/players/chris-mcclellan-1.html,DL,13,15,33,48,8.0,6.0,0,0,,0,2,0,0,0,0,,Missouri,2025
+Khalil Jacobs,khalil-jacobs-1,/cfb/players/khalil-jacobs-1.html,LB,13,19,28,47,5.0,3.0,0,0,,0,2,0,0,0,0,,Missouri,2025
+Triston Newson,triston-newson-1,/cfb/players/triston-newson-1.html,LB,13,22,22,44,2.5,0.5,0,0,,0,2,0,0,0,0,,Missouri,2025
+Zion Young,zion-young-1,/cfb/players/zion-young-1.html,DE,13,20,22,42,16.5,6.5,0,0,,0,2,0,0,0,2,,Missouri,2025
+Daylan Carnell,daylan-carnell-1,/cfb/players/daylan-carnell-1.html,DB,13,22,19,41,6.5,0.0,1,0,0.0,0,4,0,0,0,0,,Missouri,2025
+Jalen Catalon,jalen-catalon-1,/cfb/players/jalen-catalon-1.html,S,13,17,22,39,0.0,0.0,0,0,,0,1,0,0,0,0,,Missouri,2025
+Stephen Hall,stephen-hall-1,/cfb/players/stephen-hall-1.html,CB,13,20,6,26,1.0,0.0,0,0,,0,3,0,0,0,0,,Missouri,2025
+Toriano Pride Jr.,toriano-pride-jr-1,/cfb/players/toriano-pride-jr-1.html,CB,13,17,7,24,1.5,0.0,2,21,10.5,1,4,1,62,0,0,,Missouri,2025
+Dreyden Norwood,dreyden-norwood-1,/cfb/players/dreyden-norwood-1.html,DB,13,15,9,24,1.5,0.0,0,0,,0,5,0,0,0,0,,Missouri,2025
+Damon Wilson II,damon-wilson-ii-1,/cfb/players/damon-wilson-ii-1.html,DE,13,9,14,23,9.5,9.0,1,3,3.0,0,2,1,0,0,0,,Missouri,2025
+Sterling Webb,sterling-webb-1,/cfb/players/sterling-webb-1.html,DL,12,8,12,20,3.5,2.0,0,0,,0,0,0,0,0,0,,Missouri,2025
+Jeremiah Beasley,jeremiah-beasley-1,/cfb/players/jeremiah-beasley-1.html,LB,13,12,7,19,0.0,0.0,0,0,,0,0,0,0,0,1,,Missouri,2025
+Jalen Marshall,jalen-marshall-1,/cfb/players/jalen-marshall-1.html,DL,13,4,13,17,1.0,0.5,0,0,,0,0,0,0,0,0,,Missouri,2025
+Darris Smith,darris-smith-1,/cfb/players/darris-smith-1.html,DE,13,10,6,16,5.5,4.0,0,0,,0,2,0,0,0,0,,Missouri,2025
+Marquis Gracial,marquis-gracial-1,/cfb/players/marquis-gracial-1.html,DT,13,8,8,16,2.0,0.0,0,0,,0,1,0,0,0,1,,Missouri,2025
+Langden Kitchen,langden-kitchen-1,/cfb/players/langden-kitchen-1.html,DE,12,7,7,14,1.0,0.5,0,0,,0,0,0,0,0,0,,Missouri,2025
+Nicholas Deloach,nicholas-deloach-1,/cfb/players/nicholas-deloach-1.html,CB,13,6,2,8,0.0,0.0,0,0,,0,1,0,0,0,0,,Missouri,2025
+Daeden Hopkins,daeden-hopkins-1,/cfb/players/daeden-hopkins-1.html,DE,4,3,4,7,1.0,0.5,0,0,,0,0,0,0,0,0,,Missouri,2025
+Dante McClellan,dante-mcclellan-1,/cfb/players/dante-mcclellan-1.html,LB,12,1,6,7,0.0,0.0,1,83,83.0,1,1,0,0,0,0,,Missouri,2025
+Trajen Greco,trajen-greco-1,/cfb/players/trajen-greco-1.html,S,13,3,4,7,1.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2025
+Nate Johnson,nate-johnson-5,/cfb/players/nate-johnson-5.html,LB,9,4,2,6,1.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2025
+Jude James,jude-james-1,/cfb/players/jude-james-1.html,TE,13,4,2,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2025
+Bralen Henderson,bralen-henderson-1,/cfb/players/bralen-henderson-1.html,DT,12,1,4,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2025
+Mose Phillips III,mose-phillips-iii-1,/cfb/players/mose-phillips-iii-1.html,S,13,2,3,5,0.5,0.0,0,0,,0,1,0,0,0,1,,Missouri,2025
+Jamal Roberts,jamal-roberts-2,/cfb/players/jamal-roberts-2.html,RB,13,4,1,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2025
+Brian Huff,brian-huff-1,/cfb/players/brian-huff-1.html,LB,13,3,2,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2025
+Elias Williams,elias-williams-2,/cfb/players/elias-williams-2.html,DL,3,1,3,4,1.0,0.0,0,0,,0,1,0,0,0,0,,Missouri,2025
+Caleb Flagg,caleb-flagg-1,/cfb/players/caleb-flagg-1.html,S,4,3,1,4,0.0,0.0,0,0,,0,2,0,0,0,0,,Missouri,2025
+CJ Bass III,cj-bass-iii-1,/cfb/players/cj-bass-iii-1.html,S,3,1,3,4,0.0,0.0,0,0,,0,1,0,0,0,0,,Missouri,2025
+Jason Dowell,jason-dowell-1,/cfb/players/jason-dowell-1.html,DT,3,0,3,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2025
+Jackson Hancock,jackson-hancock-1,/cfb/players/jackson-hancock-1.html,S,12,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2025
+Cameron Keys,cameron-keys-1,/cfb/players/cameron-keys-1.html,CB,13,0,2,2,0.0,0.0,0,0,,0,1,1,0,0,0,,Missouri,2025
+Shamar McNeil,shamar-mcneil-1,/cfb/players/shamar-mcneil-1.html,CB,2,1,0,1,0.0,0.0,0,0,,0,1,0,0,0,0,,Missouri,2025
+Xavier Loyd,xavier-loyd-1,/cfb/players/xavier-loyd-1.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2025
+Brett Le Blanc,brett-le-blanc-1,/cfb/players/brett-le-blanc-1.html,LS,13,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2025
+Tommy Reese,tommy-reese-1,/cfb/players/tommy-reese-1.html,LB,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2025
+Tavorus Jones,tavorus-jones-1,/cfb/players/tavorus-jones-1.html,RB,11,1,0,1,0.0,0.0,0,0,,0,0,1,0,0,0,,Missouri,2025
+Kevin Coleman Jr.,kevin-coleman-jr-1,/cfb/players/kevin-coleman-jr-1.html,WR,13,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2025
+Sam Williams,sam-williams-7,/cfb/players/sam-williams-7.html,DT,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2025
+Nassir Pogue,nassir-pogue-1,/cfb/players/nassir-pogue-1.html,CB,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2025
+Javion Hilson,javion-hilson-1,/cfb/players/javion-hilson-1.html,DE,3,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2025
+Brady Hultman,brady-hultman-1,/cfb/players/brady-hultman-1.html,LB,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2025

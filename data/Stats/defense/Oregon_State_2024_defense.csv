@@ -1,0 +1,43 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Skyler Thomas,skyler-thomas-2,/cfb/players/skyler-thomas-2.html,DB,12,48,33,81,0.0,0.0,1,15,15.0,0,9,2,0,0,1,,Oregon State,2024
+Isaiah Chisom,isaiah-chisom-1,/cfb/players/isaiah-chisom-1.html,LB,12,30,45,75,5.0,0.0,0,0,,0,1,0,0,0,1,,Oregon State,2024
+Nikko Taylor,nikko-taylor-1,/cfb/players/nikko-taylor-1.html,LB,12,23,23,46,7.5,2.5,0,0,,0,3,2,0,0,2,,Oregon State,2024
+Melvin Jordan IV,melvin-jordan-iv-1,/cfb/players/melvin-jordan-iv-1.html,LB,10,21,24,45,2.5,0.0,0,0,,0,1,0,0,0,0,,Oregon State,2024
+Dexter Foster,dexter-foster-1,/cfb/players/dexter-foster-1.html,LB,12,12,31,43,2.0,1.0,0,0,,0,0,0,0,0,0,,Oregon State,2024
+Jaden Robinson,jaden-robinson-1,/cfb/players/jaden-robinson-1.html,DB,8,28,10,38,1.5,0.0,0,0,,0,3,1,0,0,0,,Oregon State,2024
+Tyrice Ivy Jr.,tyrice-ivy-jr-1,/cfb/players/tyrice-ivy-jr-1.html,DB,12,19,16,35,1.0,0.0,0,0,,0,1,0,0,0,0,,Oregon State,2024
+Semisi Saluni,semisi-saluni-1,/cfb/players/semisi-saluni-1.html,DL,12,18,16,34,4.5,1.0,0,0,,0,2,0,0,0,0,,Oregon State,2024
+Jack Kane,jack-kane-1,/cfb/players/jack-kane-1.html,DB,12,14,18,32,0.0,0.0,2,29,14.5,0,2,0,0,0,1,,Oregon State,2024
+Sai Vadrawale,sai-vadrawale-1,/cfb/players/sai-vadrawale-1.html,DB,12,20,10,30,1.0,0.0,1,24,24.0,0,4,0,0,0,0,,Oregon State,2024
+Andre Jordan,andre-jordan-1,/cfb/players/andre-jordan-1.html,DB,11,16,11,27,2.0,0.0,0,0,,0,4,0,0,0,0,,Oregon State,2024
+Zakaih Saez,zakaih-saez-1,/cfb/players/zakaih-saez-1.html,LB,9,11,13,24,2.5,1.0,1,20,20.0,1,0,1,0,0,0,,Oregon State,2024
+Exodus Ayers,exodus-ayers-1,/cfb/players/exodus-ayers-1.html,DB,8,13,8,21,1.5,0.0,0,0,,0,2,0,0,0,1,,Oregon State,2024
+Jaheim Patterson,jaheim-patterson-1,/cfb/players/jaheim-patterson-1.html,DB,9,13,5,18,1.0,0.0,0,0,,0,0,0,0,0,0,,Oregon State,2024
+Mason White,mason-white-2,/cfb/players/mason-white-2.html,CB,12,11,6,17,1.5,0.0,0,0,,0,0,0,0,0,0,,Oregon State,2024
+Jacob Schuster,jacob-schuster-1,/cfb/players/jacob-schuster-1.html,DL,10,5,12,17,2.0,0.0,0,0,,0,1,0,0,0,0,,Oregon State,2024
+Andy Alfieri,andy-alfieri-1,/cfb/players/andy-alfieri-1.html,TE,12,7,10,17,3.0,0.0,0,0,,0,0,0,0,0,0,,Oregon State,2024
+Tevita Pome'e,tevita-pomee-1,/cfb/players/tevita-pomee-1.html,DL,11,4,11,15,0.5,0.0,0,0,,0,0,0,0,0,0,,Oregon State,2024
+Oluwaseyi Omotosho,oluwaseyi-omotosho-1,/cfb/players/oluwaseyi-omotosho-1.html,LB,9,6,8,14,1.0,1.0,0,0,,0,0,0,0,0,0,,Oregon State,2024
+Thomas Collins,thomas-collins-2,/cfb/players/thomas-collins-2.html,DL,9,9,5,14,2.5,0.5,0,0,,0,0,1,0,0,0,,Oregon State,2024
+Tyree Blake,tyree-blake-1,/cfb/players/tyree-blake-1.html,LB,7,4,7,11,0.5,0.0,0,0,,0,0,0,0,0,0,,Oregon State,2024
+Shamar Meikle,shamar-meikle-1,/cfb/players/shamar-meikle-1.html,LB,10,2,8,10,1.0,0.0,0,0,,0,0,0,0,0,0,,Oregon State,2024
+Josiah Johnson,josiah-johnson-2,/cfb/players/josiah-johnson-2.html,DB,4,7,1,8,0.0,0.0,0,0,,0,0,0,0,0,0,,Oregon State,2024
+Aiden Sullivan,aiden-sullivan-1,/cfb/players/aiden-sullivan-1.html,LB,4,3,5,8,0.0,0.0,0,0,,0,0,0,0,0,0,,Oregon State,2024
+Alton Julian,alton-julian-1,/cfb/players/alton-julian-1.html,DB,4,3,4,7,0.0,0.0,0,0,,0,0,0,0,0,0,,Oregon State,2024
+Jake Reichle,jake-reichle-1,/cfb/players/jake-reichle-1.html,RB,12,4,2,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Oregon State,2024
+Kobe Singleton,kobe-singleton-1,/cfb/players/kobe-singleton-1.html,CB,4,3,2,5,0.0,0.0,0,0,,0,3,0,0,0,0,,Oregon State,2024
+Jojo Johnson,jojo-johnson-2,/cfb/players/jojo-johnson-2.html,DL,8,2,3,5,1.0,0.0,0,0,,0,0,0,0,0,0,,Oregon State,2024
+Clive Pond,clive-pond-1,/cfb/players/clive-pond-1.html,LB,4,1,3,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Oregon State,2024
+Gyriece Goodman,gyriece-goodman-1,/cfb/players/gyriece-goodman-1.html,LB,4,0,4,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Oregon State,2024
+Drake Vickers,drake-vickers-1,/cfb/players/drake-vickers-1.html,DB,10,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Oregon State,2024
+Amarion York,amarion-york-1,/cfb/players/amarion-york-1.html,DB,4,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Oregon State,2024
+DJ Wesolak,dj-wesolak-1,/cfb/players/dj-wesolak-1.html,DL,3,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Oregon State,2024
+Dylan Sikorski,dylan-sikorski-1,/cfb/players/dylan-sikorski-1.html,OL,4,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Oregon State,2024
+Noble Thomas,noble-thomas-1,/cfb/players/noble-thomas-1.html,DB,1,0,2,2,0.0,0.0,0,0,,0,2,0,0,0,0,,Oregon State,2024
+Jaydin Young,jaydin-young-1,/cfb/players/jaydin-young-1.html,DB,9,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Oregon State,2024
+Gabe Milbourn,gabe-milbourn-1,/cfb/players/gabe-milbourn-1.html,TE,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Oregon State,2024
+Jackson Robertson,jackson-robertson-2,/cfb/players/jackson-robertson-2.html,LS,9,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Oregon State,2024
+Tastean Reddicks,tastean-reddicks-1,/cfb/players/tastean-reddicks-1.html,WR,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Oregon State,2024
+Austin Ratliff,austin-ratliff-1,/cfb/players/austin-ratliff-1.html,DB,11,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Oregon State,2024
+Anthony Hankerson,anthony-hankerson-1,/cfb/players/anthony-hankerson-1.html,RB,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Oregon State,2024
+Joshua Gray,joshua-gray-1,/cfb/players/joshua-gray-1.html,OL,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Oregon State,2024

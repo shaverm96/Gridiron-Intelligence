@@ -1,0 +1,42 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Deshaun Davis,deshaun-davis-1,/cfb/players/deshaun-davis-1.html,LB,14,37,45,82,6.5,3.5,0,0,,0,1,2,1,0,0,,Auburn,2017
+Tray Matthews,tray-matthews-1,/cfb/players/tray-matthews-1.html,DB,13,36,23,59,2.0,1.0,1,0,0.0,0,2,1,13,0,0,,Auburn,2017
+Darrell Williams,darrell-williams-10,/cfb/players/darrell-williams-10.html,LB,14,28,29,57,4.0,0.5,0,0,,0,0,2,0,0,0,,Auburn,2017
+Derrick Brown,derrick-brown-6,/cfb/players/derrick-brown-6.html,DL,14,28,28,56,9.0,3.5,0,0,,0,1,0,0,0,2,,Auburn,2017
+Tre' Williams,tre-williams-1,/cfb/players/tre-williams-1.html,LB,11,24,26,50,2.5,2.5,0,0,,0,0,1,0,0,0,,Auburn,2017
+Stephen Roberts,stephen-roberts-2,/cfb/players/stephen-roberts-2.html,DB,14,30,20,50,6.0,0.0,0,0,,0,7,0,0,0,1,,Auburn,2017
+Jeremiah Dinson,jeremiah-dinson-1,/cfb/players/jeremiah-dinson-1.html,DB,14,32,15,47,2.5,1.0,0,0,,0,4,1,0,0,0,,Auburn,2017
+Dontavius Russell,dontavius-russell-1,/cfb/players/dontavius-russell-1.html,DL,14,21,25,46,6.5,3.0,0,0,,0,2,0,0,0,1,,Auburn,2017
+Jeff Holland,jeff-holland-1,/cfb/players/jeff-holland-1.html,LB,14,27,18,45,13.0,10.0,0,0,,0,1,1,0,0,4,,Auburn,2017
+Marlon Davidson,marlon-davidson-1,/cfb/players/marlon-davidson-1.html,DL,13,18,25,43,6.5,3.5,0,0,,0,1,1,33,0,1,,Auburn,2017
+Montavious Atkinson,montavious-atkinson-1,/cfb/players/montavious-atkinson-1.html,LB,14,17,26,43,1.5,1.0,0,0,,0,1,0,0,0,1,,Auburn,2017
+Jamel Dean,jamel-dean-1,/cfb/players/jamel-dean-1.html,DB,14,23,20,43,2.5,0.0,0,0,,0,8,0,0,0,0,,Auburn,2017
+Andrew Williams,andrew-williams-5,/cfb/players/andrew-williams-5.html,DL,14,13,25,38,1.5,0.0,0,0,,0,0,0,0,0,0,,Auburn,2017
+Carlton Davis,carlton-davis-1,/cfb/players/carlton-davis-1.html,DB,13,27,9,36,0.5,0.0,1,0,0.0,0,11,1,12,0,1,,Auburn,2017
+Daniel Thomas,daniel-thomas-3,/cfb/players/daniel-thomas-3.html,DB,14,19,16,35,0.0,0.0,1,0,0.0,0,3,1,0,0,0,,Auburn,2017
+Nick Coe,nick-coe-1,/cfb/players/nick-coe-1.html,DL,14,15,14,29,4.5,2.0,0,0,,0,1,0,0,0,0,,Auburn,2017
+Javaris Davis,javaris-davis-1,/cfb/players/javaris-davis-1.html,DB,11,19,10,29,1.0,0.0,2,37,18.5,1,6,0,0,0,1,,Auburn,2017
+Nick Ruffin,nick-ruffin-1,/cfb/players/nick-ruffin-1.html,DB,14,17,10,27,0.0,0.0,1,45,45.0,1,1,1,0,0,0,,Auburn,2017
+Jordyn Peters,jordyn-peters-1,/cfb/players/jordyn-peters-1.html,DB,14,11,13,24,1.5,1.0,0,0,,0,2,0,0,0,1,,Auburn,2017
+T.D. Moultry,td-moultry-1,/cfb/players/td-moultry-1.html,LB,13,11,4,15,2.5,1.5,0,0,,0,0,0,0,0,0,,Auburn,2017
+Richard McBryde,richard-mcbryde-1,/cfb/players/richard-mcbryde-1.html,LB,14,12,1,13,2.0,0.0,0,0,,0,0,0,0,0,0,,Auburn,2017
+Paul James,paul-james-2,/cfb/players/paul-james-2.html,DL,9,5,4,9,1.0,0.0,0,0,,0,0,0,0,0,0,,Auburn,2017
+Chandler Wooten,chandler-wooten-1,/cfb/players/chandler-wooten-1.html,LB,8,4,4,8,0.0,0.0,0,0,,0,0,0,0,0,0,,Auburn,2017
+John Broussard Jr.,john-broussard-jr-1,/cfb/players/john-broussard-jr-1.html,DB,9,6,0,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Auburn,2017
+Traivon Leonard,traivon-leonard-1,/cfb/players/traivon-leonard-1.html,DB,7,2,3,5,0.0,0.0,0,0,,0,1,0,0,0,0,,Auburn,2017
+Tyrone Truesdell,tyrone-truesdell-1,/cfb/players/tyrone-truesdell-1.html,DL,8,4,1,5,1.0,0.0,0,0,,0,0,1,0,0,0,,Auburn,2017
+Big Kat Bryant,big-kat-bryant-1,/cfb/players/big-kat-bryant-1.html,LB,13,4,1,5,2.5,2.0,0,0,,0,0,0,0,0,1,,Auburn,2017
+K.J. Britt,kj-britt-1,/cfb/players/kj-britt-1.html,LB,14,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Auburn,2017
+Jason Smith,jason-smith-5,/cfb/players/jason-smith-5.html,DB,7,0,3,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Auburn,2017
+Byron Cowart,byron-cowart-1,/cfb/players/byron-cowart-1.html,DE,3,1,2,3,0.5,0.0,0,0,,0,0,0,0,0,0,,Auburn,2017
+Marquis McClain,marquis-mcclain-1,/cfb/players/marquis-mcclain-1.html,WR,14,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Auburn,2017
+Nate Craig-Myers,nate-craig-myers-1,/cfb/players/nate-craig-myers-1.html,WR,14,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Auburn,2017
+Casey Dunn,casey-dunn-1,/cfb/players/casey-dunn-1.html,OL,12,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Auburn,2017
+Jacob Rogers,jacob-rogers-4,/cfb/players/jacob-rogers-4.html,DB,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Auburn,2017
+Ike Powell,ike-powell-1,/cfb/players/ike-powell-1.html,LS,14,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Auburn,2017
+Devin Guice,devin-guice-2,/cfb/players/devin-guice-2.html,DB,3,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Auburn,2017
+Ryan Davis,ryan-davis-5,/cfb/players/ryan-davis-5.html,WR,14,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Auburn,2017
+Devan Barrett,devan-barrett-1,/cfb/players/devan-barrett-1.html,RB,14,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Auburn,2017
+Darius James,darius-james-1,/cfb/players/darius-james-1.html,OL,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Auburn,2017
+Daniel Carlson,daniel-carlson-1,/cfb/players/daniel-carlson-1.html,K,14,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Auburn,2017
+Tyler Carter,tyler-carter-1,/cfb/players/tyler-carter-1.html,DL,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Auburn,2017

@@ -1,0 +1,51 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Tatum Bethune,tatum-bethune-1,/cfb/players/tatum-bethune-1.html,LB,13,32,38,70,5.5,0.0,1,0,0.0,0,3,0,0,0,0,,Florida State,2023
+Kalen DeLoach,kalen-deloach-1,/cfb/players/kalen-deloach-1.html,LB,13,33,35,68,10.5,7.0,1,6,6.0,0,2,1,56,1,2,,Florida State,2023
+DJ Lundy,dj-lundy-1,/cfb/players/dj-lundy-1.html,LB,13,17,37,54,6.0,2.0,1,0,0.0,0,4,0,0,0,0,,Florida State,2023
+Shyheim Brown,shyheim-brown-1,/cfb/players/shyheim-brown-1.html,DB,14,25,28,53,2.0,2.0,1,0,0.0,0,4,1,0,0,0,,Florida State,2023
+Akeem Dent,akeem-dent-2,/cfb/players/akeem-dent-2.html,DB,11,25,19,44,2.5,0.5,0,0,,0,1,0,0,0,2,,Florida State,2023
+Patrick Payton,patrick-payton-1,/cfb/players/patrick-payton-1.html,DL,14,29,15,44,14.5,7.0,0,0,,0,10,0,0,0,2,,Florida State,2023
+Braden Fiske,braden-fiske-1,/cfb/players/braden-fiske-1.html,DL,13,17,26,43,9.0,6.0,0,0,,0,0,0,0,0,0,,Florida State,2023
+Renardo Green,renardo-green-1,/cfb/players/renardo-green-1.html,DB,13,32,11,43,2.5,0.5,1,0,0.0,0,13,0,0,0,0,,Florida State,2023
+Jared Verse,jared-verse-1,/cfb/players/jared-verse-1.html,DL,13,23,18,41,12.5,9.0,0,0,,0,3,1,11,0,1,,Florida State,2023
+Fentrell Cypress II,fentrell-cypress-ii-1,/cfb/players/fentrell-cypress-ii-1.html,DB,14,28,12,40,1.5,0.0,0,0,,0,8,1,0,0,1,,Florida State,2023
+Joshua Farmer,joshua-farmer-1,/cfb/players/joshua-farmer-1.html,DL,13,10,22,32,7.0,5.0,0,0,,0,2,0,0,0,1,,Florida State,2023
+Kevin Knowles II,kevin-knowles-ii-1,/cfb/players/kevin-knowles-ii-1.html,DB,13,15,16,31,0.5,0.0,0,0,,0,3,0,0,0,0,,Florida State,2023
+Azareye'h Thomas,azareyeh-thomas-1,/cfb/players/azareyeh-thomas-1.html,DB,14,21,8,29,4.5,0.5,0,0,,0,10,1,0,0,1,,Florida State,2023
+Byron Turner,byron-turner-1,/cfb/players/byron-turner-1.html,DL,13,12,14,26,2.0,1.0,0,0,,0,0,0,0,0,0,,Florida State,2023
+Jarrian Jones,jarrian-jones-1,/cfb/players/jarrian-jones-1.html,DB,12,16,9,25,5.0,1.0,3,32,10.7,1,3,1,3,0,1,,Florida State,2023
+Omar Graham Jr.,omar-graham-jr-1,/cfb/players/omar-graham-jr-1.html,LB,14,12,11,23,2.0,0.0,0,0,,0,0,0,0,0,0,,Florida State,2023
+Gilber Edmond,gilber-edmond-1,/cfb/players/gilber-edmond-1.html,DL,14,8,15,23,1.5,1.0,0,0,,0,0,0,0,0,1,,Florida State,2023
+Fabien Lovett,fabien-lovett-1,/cfb/players/fabien-lovett-1.html,DL,13,10,12,22,4.0,1.0,0,0,,0,3,0,0,0,0,,Florida State,2023
+Conrad Hussey,conrad-hussey-1,/cfb/players/conrad-hussey-1.html,DB,14,13,9,22,0.0,0.0,1,2,2.0,0,2,1,0,0,2,,Florida State,2023
+Malcolm Ray,malcolm-ray-1,/cfb/players/malcolm-ray-1.html,DL,14,5,14,19,2.0,0.0,0,0,,0,2,0,0,0,0,,Florida State,2023
+Greedy Vance,greedy-vance-1,/cfb/players/greedy-vance-1.html,DB,14,11,7,18,0.0,0.0,1,13,13.0,0,3,0,0,0,0,,Florida State,2023
+Blake Nichelson,blake-nichelson-1,/cfb/players/blake-nichelson-1.html,LB,14,4,13,17,0.0,0.0,0,0,,0,1,0,0,0,0,,Florida State,2023
+Daniel Lyons,daniel-lyons-1,/cfb/players/daniel-lyons-1.html,DL,14,6,10,16,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida State,2023
+Dennis Briggs Jr.,dennis-briggs-jr-1,/cfb/players/dennis-briggs-jr-1.html,DL,10,3,11,14,1.5,1.5,0,0,,0,0,0,0,0,0,,Florida State,2023
+Justin Cryer,justin-cryer-1,/cfb/players/justin-cryer-1.html,LB,13,5,7,12,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida State,2023
+Ashlynd Barker,ashlynd-barker-1,/cfb/players/ashlynd-barker-1.html,DB,14,9,2,11,1.0,1.0,0,0,,0,0,0,0,0,0,,Florida State,2023
+Dante Anderson,dante-anderson-1,/cfb/players/dante-anderson-1.html,DL,6,6,3,9,1.0,0.0,0,0,,0,0,0,0,0,0,,Florida State,2023
+CJ Campbell,cj-campbell-1,/cfb/players/cj-campbell-1.html,RB,10,4,3,7,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida State,2023
+AJ Cottrill,aj-cottrill-1,/cfb/players/aj-cottrill-1.html,LB,14,4,2,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida State,2023
+Quindarrius Jones,quindarrius-jones-1,/cfb/players/quindarrius-jones-1.html,DB,10,5,1,6,1.0,0.0,0,0,,0,0,0,0,0,0,,Florida State,2023
+KJ Sampson,kj-sampson-1,/cfb/players/kj-sampson-1.html,DL,5,2,3,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida State,2023
+Donny Hiebert,donny-hiebert-1,/cfb/players/donny-hiebert-1.html,DB,14,3,2,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida State,2023
+Ja'Bril Rawls,jabril-rawls-1,/cfb/players/jabril-rawls-1.html,DB,3,3,1,4,0.0,0.0,0,0,,0,1,0,0,0,0,,Florida State,2023
+K.J. Kirkland,kj-kirkland-1,/cfb/players/kj-kirkland-1.html,DB,5,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida State,2023
+Darrell Jackson,darrell-jackson-3,/cfb/players/darrell-jackson-3.html,DL,1,1,2,3,0.5,0.0,0,0,,0,0,0,0,0,0,,Florida State,2023
+DeMarco Ward,demarco-ward-1,/cfb/players/demarco-ward-1.html,LB,2,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida State,2023
+Jackson West,jackson-west-2,/cfb/players/jackson-west-2.html,TE,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida State,2023
+Jaden Jones,jaden-jones-2,/cfb/players/jaden-jones-2.html,DL,5,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida State,2023
+Caziah Holmes,caziah-holmes-1,/cfb/players/caziah-holmes-1.html,RB,14,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida State,2023
+Brian Courtney,brian-courtney-1,/cfb/players/brian-courtney-1.html,TE,14,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida State,2023
+Keon Coleman,keon-coleman-1,/cfb/players/keon-coleman-1.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida State,2023
+Jaden Floyd,jaden-floyd-1,/cfb/players/jaden-floyd-1.html,DB,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida State,2023
+Kyle Morlock,kyle-morlock-1,/cfb/players/kyle-morlock-1.html,TE,14,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida State,2023
+Liam McCormick,liam-mccormick-1,/cfb/players/liam-mccormick-1.html,DL,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida State,2023
+Malakai Menzer,malakai-menzer-1,/cfb/players/malakai-menzer-1.html,DL,14,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida State,2023
+Grant Fielder,grant-fielder-1,/cfb/players/grant-fielder-1.html,DL,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida State,2023
+Edwin Joseph,edwin-joseph-1,/cfb/players/edwin-joseph-1.html,DB,4,1,0,1,0.0,0.0,0,0,,0,2,0,0,0,0,,Florida State,2023
+Ayobami Tifase,ayobami-tifase-1,/cfb/players/ayobami-tifase-1.html,DL,3,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida State,2023
+Dylan Brown,dylan-brown-3,/cfb/players/dylan-brown-3.html,DL,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida State,2023
+Darion Williamson,darion-williamson-1,/cfb/players/darion-williamson-1.html,WR,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida State,2023

@@ -1,0 +1,37 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Jack Gibbens,jack-gibbens-1,/cfb/players/jack-gibbens-1.html,LB,13,56,36,92,3.0,0.0,0,0,,0,3,0,0,0,1,,Minnesota,2021
+Mariano Sori-Marin,mariano-sori-marin-1,/cfb/players/mariano-sori-marin-1.html,LB,13,45,40,85,4.5,0.0,1,10,10.0,0,3,0,0,0,2,,Minnesota,2021
+Tyler Nubin,tyler-nubin-1,/cfb/players/tyler-nubin-1.html,DB,13,38,14,52,1.0,1.0,3,42,14.0,0,2,0,0,0,0,,Minnesota,2021
+Jordan Howden,jordan-howden-1,/cfb/players/jordan-howden-1.html,DB,12,34,9,43,1.5,0.0,0,0,,0,5,0,0,0,0,,Minnesota,2021
+Coney Durr,coney-durr-1,/cfb/players/coney-durr-1.html,DB,13,27,13,40,3.5,1.5,0,0,,0,5,1,0,0,0,,Minnesota,2021
+Boye Mafe,boye-mafe-1,/cfb/players/boye-mafe-1.html,DL,13,26,8,34,10.0,7.0,0,0,,0,0,0,0,0,1,,Minnesota,2021
+Justus Harris,justus-harris-1,/cfb/players/justus-harris-1.html,DB,13,21,11,32,3.5,0.0,0,0,,0,2,2,0,0,1,,Minnesota,2021
+Thomas Rush,thomas-rush-1,/cfb/players/thomas-rush-1.html,DL,13,19,12,31,7.5,5.5,0,0,,0,1,0,0,0,0,,Minnesota,2021
+Esezi Otomewo,esezi-otomewo-1,/cfb/players/esezi-otomewo-1.html,DL,13,24,6,30,4.5,3.0,0,0,,0,0,0,0,0,0,,Minnesota,2021
+Justin Walley,justin-walley-1,/cfb/players/justin-walley-1.html,DB,13,21,8,29,0.0,0.0,1,0,0.0,0,7,2,25,1,1,,Minnesota,2021
+Nyles Pinckney,nyles-pinckney-1,/cfb/players/nyles-pinckney-1.html,DL,13,18,11,29,3.5,2.5,0,0,,0,0,0,0,0,1,,Minnesota,2021
+Braelen Oliver,braelen-oliver-1,/cfb/players/braelen-oliver-1.html,LB,13,20,4,24,0.0,0.0,0,0,,0,1,0,0,0,1,,Minnesota,2021
+DeAngelo Carter,deangelo-carter-1,/cfb/players/deangelo-carter-1.html,DL,12,12,8,20,5.0,1.0,0,0,,0,2,0,0,0,0,,Minnesota,2021
+Donald Willis,donald-willis-2,/cfb/players/donald-willis-2.html,LB,13,13,3,16,0.5,0.0,0,0,,0,2,0,0,0,0,,Minnesota,2021
+Micah Dew-Treadway,micah-dew-treadway-1,/cfb/players/micah-dew-treadway-1.html,DL,13,8,8,16,2.0,0.5,0,0,,0,1,0,0,0,0,,Minnesota,2021
+Terell Smith,terell-smith-1,/cfb/players/terell-smith-1.html,DB,10,11,5,16,0.0,0.0,1,23,23.0,0,2,1,0,0,0,,Minnesota,2021
+Phillip Howard,phillip-howard-1,/cfb/players/phillip-howard-1.html,DB,13,11,3,14,0.0,0.0,1,24,24.0,0,1,0,0,0,0,,Minnesota,2021
+Michael Dixon,michael-dixon-1,/cfb/players/michael-dixon-1.html,DB,13,7,5,12,0.0,0.0,1,0,0.0,0,0,0,0,0,0,,Minnesota,2021
+Bishop Mcdonald,bishop-mcdonald-1,/cfb/players/bishop-mcdonald-1.html,DB,12,5,3,8,0.0,0.0,0,0,,0,0,1,0,0,1,,Minnesota,2021
+MJ Anderson,mj-anderson-1,/cfb/players/mj-anderson-1.html,DL,10,3,4,7,1.0,1.0,0,0,,0,2,0,0,0,0,,Minnesota,2021
+Val Martin,val-martin-1,/cfb/players/val-martin-1.html,DL,8,4,2,6,1.0,0.0,0,0,,0,0,1,0,0,0,,Minnesota,2021
+DJ Gordon IV,dj-gordon-iv-1,/cfb/players/dj-gordon-iv-1.html,,12,5,0,5,0.0,0.0,0,0,,0,0,0,0,0,1,,Minnesota,2021
+James Gordon IV,james-gordon-iv-1,/cfb/players/james-gordon-iv-1.html,LB,3,4,0,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Minnesota,2021
+Jaqwondis Burns,jaqwondis-burns-1,/cfb/players/jaqwondis-burns-1.html,LB,7,1,2,3,1.0,1.0,0,0,,0,0,0,0,0,0,,Minnesota,2021
+Rashad Cheney Jr.,rashad-cheney-jr-1,/cfb/players/rashad-cheney-jr-1.html,DL,6,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Minnesota,2021
+Cody Lindenberg,cody-lindenberg-1,/cfb/players/cody-lindenberg-1.html,LB,3,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Minnesota,2021
+Calvin Swenson,calvin-swenson-1,/cfb/players/calvin-swenson-1.html,DB,13,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Minnesota,2021
+Brady Weeks,brady-weeks-1,/cfb/players/brady-weeks-1.html,LS,13,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Minnesota,2021
+Logan Richter,logan-richter-1,/cfb/players/logan-richter-1.html,DL,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Minnesota,2021
+Bucky Irving,markeise-irving-1,/cfb/players/markeise-irving-1.html,RB,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Minnesota,2021
+Jalen Glaze,jalen-glaze-1,/cfb/players/jalen-glaze-1.html,DB,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Minnesota,2021
+Jah Joyner,jah-joyner-1,/cfb/players/jah-joyner-1.html,DL,4,1,0,1,1.0,1.0,0,0,,0,0,0,0,0,0,,Minnesota,2021
+Nick Kallerup,nick-kallerup-1,/cfb/players/nick-kallerup-1.html,TE,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Minnesota,2021
+Derik LeCaptain,derik-lecaptain-1,/cfb/players/derik-lecaptain-1.html,LB,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Minnesota,2021
+Danny Striggow,danny-striggow-1,/cfb/players/danny-striggow-1.html,DL,12,1,0,1,1.0,0.0,0,0,,0,0,0,0,0,0,,Minnesota,2021
+Daniel Jackson,daniel-jackson-5,/cfb/players/daniel-jackson-5.html,WR,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Minnesota,2021

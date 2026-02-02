@@ -1,0 +1,44 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Cameron Smith,cameron-smith-3,/cfb/players/cameron-smith-3.html,LB,10,58,23,81,7.5,1.0,0,0,,0,4,0,0,0,0,,USC,2018
+John Houston Jr.,john-houston-jr-1,/cfb/players/john-houston-jr-1.html,LB,11,35,32,67,2.5,1.0,0,0,,0,5,0,0,0,1,,USC,2018
+Ajene Harris,ajene-harris-1,/cfb/players/ajene-harris-1.html,CB,12,33,24,57,3.0,0.0,1,6,6.0,1,7,0,0,0,1,,USC,2018
+Marvell Tell III,marvell-tell-iii-1,/cfb/players/marvell-tell-iii-1.html,S,10,39,18,57,1.0,0.0,1,-4,-4.0,0,5,0,0,0,1,,USC,2018
+Talanoa Hufanga,talanoa-hufanga-1,/cfb/players/talanoa-hufanga-1.html,S,8,31,20,51,3.5,0.0,0,0,,0,4,0,0,0,0,,USC,2018
+Christian Rector,christian-rector-1,/cfb/players/christian-rector-1.html,DL,12,23,25,48,9.0,4.5,0,0,,0,2,1,0,0,1,,USC,2018
+Iman Marshall,iman-marshall-1,/cfb/players/iman-marshall-1.html,CB,12,37,11,48,5.5,0.0,0,0,,0,9,0,0,0,1,,USC,2018
+Isaiah Langley,isaiah-langley-1,/cfb/players/isaiah-langley-1.html,CB,12,36,10,46,0.0,0.0,1,0,0.0,0,7,0,0,0,0,,USC,2018
+Jordan Iosefa,jordan-iosefa-1,/cfb/players/jordan-iosefa-1.html,LB,12,22,16,38,4.0,2.0,0,0,,0,4,1,0,0,0,,USC,2018
+Palaie Gaoteote IV,palaie-gaoteote-iv-1,/cfb/players/palaie-gaoteote-iv-1.html,LB,10,19,19,38,4.5,2.0,0,0,,0,0,0,0,0,0,,USC,2018
+Marlon Tuipulotu,marlon-tuipulotu-1,/cfb/players/marlon-tuipulotu-1.html,DL,12,13,20,33,5.5,4.5,0,0,,0,0,0,0,0,0,,USC,2018
+Porter Gustin,porter-gustin-1,/cfb/players/porter-gustin-1.html,LB,6,18,10,28,10.0,7.0,0,0,,0,1,1,0,0,0,,USC,2018
+Malik Dorton,malik-dorton-1,/cfb/players/malik-dorton-1.html,DT,12,10,17,27,2.0,1.5,0,0,,0,3,0,0,0,0,,USC,2018
+Jay Tufele,jay-tufele-1,/cfb/players/jay-tufele-1.html,DL,12,14,9,23,4.5,3.0,0,0,,0,0,1,48,1,0,,USC,2018
+Johathan Lockett,johathan-lockett-1,/cfb/players/johathan-lockett-1.html,CB,11,18,4,22,1.5,0.0,0,0,,0,1,1,0,0,0,,USC,2018
+Greg Johnson,greg-johnson-10,/cfb/players/greg-johnson-10.html,CB,10,11,4,15,1.0,0.0,0,0,,0,3,1,0,0,0,,USC,2018
+Jacob Lichtenstein,jacob-lichtenstein-1,/cfb/players/jacob-lichtenstein-1.html,DL,11,6,9,15,2.0,0.0,0,0,,0,1,0,0,0,0,,USC,2018
+Kana'i Mauga,kanai-mauga-1,/cfb/players/kanai-mauga-1.html,LB,12,4,10,14,1.0,0.0,0,0,,0,2,0,0,0,0,,USC,2018
+Vi Jones,levi-jones-1,/cfb/players/levi-jones-1.html,LB,8,10,3,13,3.0,0.0,0,0,,0,3,0,0,0,0,,USC,2018
+C.J. Pollard,cj-pollard-1,/cfb/players/cj-pollard-1.html,S,11,3,9,12,1.5,0.5,0,0,,0,1,0,0,0,0,,USC,2018
+Brandon Pili,brandon-pili-1,/cfb/players/brandon-pili-1.html,DL,12,3,9,12,2.5,1.0,0,0,,0,0,0,0,0,0,,USC,2018
+Ruben Peters,ruben-peters-1,/cfb/players/ruben-peters-1.html,FB,12,7,4,11,2.0,0.0,0,0,,0,0,0,0,0,0,,USC,2018
+Isaiah Pola-Mao,isaiah-pola-mao-1,/cfb/players/isaiah-pola-mao-1.html,S,2,4,4,8,0.0,0.0,0,0,,0,0,0,0,0,1,,USC,2018
+Olaijah Griffin,olaijah-griffin-1,/cfb/players/olaijah-griffin-1.html,QB,8,7,1,8,1.0,0.0,0,0,,0,1,0,0,0,0,,USC,2018
+Hunter Echols,hunter-echols-1,/cfb/players/hunter-echols-1.html,LB,11,2,4,6,0.0,0.0,0,0,,0,0,0,0,0,0,,USC,2018
+Liam Jimmons,liam-jimmons-1,/cfb/players/liam-jimmons-1.html,DL,11,4,2,6,2.5,1.0,0,0,,0,0,0,0,0,0,,USC,2018
+Chase Williams,chase-williams-2,/cfb/players/chase-williams-2.html,CB,4,3,1,4,1.0,0.0,0,0,,0,0,0,0,0,0,,USC,2018
+Caleb Tremblay,caleb-tremblay-1,/cfb/players/caleb-tremblay-1.html,DL,3,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,USC,2018
+Connor Murphy,connor-murphy-1,/cfb/players/connor-murphy-1.html,DL,4,1,1,2,0.5,0.0,0,0,,0,0,0,0,0,0,,USC,2018
+Vavae Malepeai,vavae-malepeai-1,/cfb/players/vavae-malepeai-1.html,RB,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,USC,2018
+Raymond Scott,raymond-scott-1,/cfb/players/raymond-scott-1.html,LB,9,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,USC,2018
+Reid Budrovich,reid-budrovich-1,/cfb/players/reid-budrovich-1.html,P,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,USC,2018
+Velus Jones Jr.,velus-jones-jr-1,/cfb/players/velus-jones-jr-1.html,WR,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,USC,2018
+Michael Pittman Jr.,michael-pittman-jr-1,/cfb/players/michael-pittman-jr-1.html,WR,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,USC,2018
+Markese Stepp,markese-stepp-1,/cfb/players/markese-stepp-1.html,RB,4,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,USC,2018
+Juliano Falaniko,juliano-falaniko-1,/cfb/players/juliano-falaniko-1.html,LB,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,USC,2018
+Jordan McMillan,jordan-mcmillan-1,/cfb/players/jordan-mcmillan-1.html,S,2,1,0,1,0.0,0.0,1,0,0.0,0,0,0,0,0,0,,USC,2018
+Isaac Franco,isaac-franco-1,/cfb/players/isaac-franco-1.html,LB,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,USC,2018
+Eli'jah Winston,elijah-winston-1,/cfb/players/elijah-winston-1.html,LB,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,USC,2018
+Devon Williams,devon-williams-2,/cfb/players/devon-williams-2.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,USC,2018
+Damon Johnson,damon-johnson-1,/cfb/players/damon-johnson-1.html,,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,USC,2018
+Amon-Ra St. Brown,amon-ra-st-brown-1,/cfb/players/amon-ra-st-brown-1.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,USC,2018
+Alex Stadthaus,alex-stadthaus-1,/cfb/players/alex-stadthaus-1.html,K,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,USC,2018

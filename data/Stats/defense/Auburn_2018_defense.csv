@@ -1,0 +1,43 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Deshaun Davis,deshaun-davis-1,/cfb/players/deshaun-davis-1.html,LB,13,57,59,116,15.0,3.5,0,0,,0,2,0,0,0,0,,Auburn,2018
+Darrell Williams,darrell-williams-10,/cfb/players/darrell-williams-10.html,LB,13,37,37,74,7.0,1.0,1,26,26.0,1,2,1,0,0,0,,Auburn,2018
+Daniel Thomas,daniel-thomas-3,/cfb/players/daniel-thomas-3.html,DB,13,48,26,74,2.0,0.0,2,29,14.5,1,3,1,40,0,2,,Auburn,2018
+Jeremiah Dinson,jeremiah-dinson-1,/cfb/players/jeremiah-dinson-1.html,DB,13,31,33,64,4.0,1.0,2,3,1.5,0,3,0,0,0,1,,Auburn,2018
+Noah Igbinoghene,noah-igbinoghene-1,/cfb/players/noah-igbinoghene-1.html,WR,13,39,11,50,1.5,0.0,1,0,0.0,0,11,0,0,0,1,,Auburn,2018
+Derrick Brown,derrick-brown-6,/cfb/players/derrick-brown-6.html,DL,13,24,24,48,10.5,4.5,0,0,,0,2,1,0,0,1,,Auburn,2018
+Marlon Davidson,marlon-davidson-1,/cfb/players/marlon-davidson-1.html,DL,13,20,26,46,4.5,3.5,0,0,,0,3,1,0,0,0,,Auburn,2018
+Montavious Atkinson,montavious-atkinson-1,/cfb/players/montavious-atkinson-1.html,LB,13,14,27,41,1.0,0.5,0,0,,0,0,0,0,0,0,,Auburn,2018
+Javaris Davis,javaris-davis-1,/cfb/players/javaris-davis-1.html,DB,12,36,5,41,3.0,1.0,2,72,36.0,0,8,0,0,0,0,,Auburn,2018
+Dontavius Russell,dontavius-russell-1,/cfb/players/dontavius-russell-1.html,DL,13,13,23,36,6.0,1.5,0,0,,0,0,0,0,0,0,,Auburn,2018
+Jamel Dean,jamel-dean-1,/cfb/players/jamel-dean-1.html,DB,12,21,9,30,2.0,1.0,2,0,0.0,0,9,1,0,0,0,,Auburn,2018
+Nick Coe,nick-coe-1,/cfb/players/nick-coe-1.html,DL,11,15,12,27,13.5,7.0,0,0,,0,0,0,0,0,2,,Auburn,2018
+Christian Tutt,christian-tutt-1,/cfb/players/christian-tutt-1.html,DB,11,17,8,25,1.0,1.0,1,23,23.0,0,0,0,0,0,0,,Auburn,2018
+Jordyn Peters,jordyn-peters-1,/cfb/players/jordyn-peters-1.html,DB,13,12,12,24,3.5,1.0,0,0,,0,1,1,0,0,0,,Auburn,2018
+K.J. Britt,kj-britt-1,/cfb/players/kj-britt-1.html,LB,13,15,8,23,2.0,0.0,0,0,,0,1,0,0,0,0,,Auburn,2018
+Jamien Sherwood,jamien-sherwood-1,/cfb/players/jamien-sherwood-1.html,DB,13,12,11,23,1.5,1.5,1,0,0.0,0,3,0,0,0,0,,Auburn,2018
+Big Kat Bryant,big-kat-bryant-1,/cfb/players/big-kat-bryant-1.html,LB,13,10,8,18,4.0,3.5,1,20,20.0,1,3,0,0,0,1,,Auburn,2018
+Andrew Williams,andrew-williams-5,/cfb/players/andrew-williams-5.html,DL,13,4,12,16,3.0,1.0,0,0,,0,0,0,0,0,0,,Auburn,2018
+Smoke Monday,smoke-monday-1,/cfb/players/smoke-monday-1.html,DB,13,7,8,15,2.0,2.0,1,0,0.0,0,0,0,0,0,0,,Auburn,2018
+T.D. Moultry,td-moultry-1,/cfb/players/td-moultry-1.html,LB,13,5,6,11,2.5,1.5,0,0,,0,0,0,0,0,1,,Auburn,2018
+Chandler Wooten,chandler-wooten-1,/cfb/players/chandler-wooten-1.html,LB,9,2,8,10,0.0,0.0,0,0,,0,0,0,0,0,0,,Auburn,2018
+Tyrone Truesdell,tyrone-truesdell-1,/cfb/players/tyrone-truesdell-1.html,DL,12,5,4,9,0.5,0.0,0,0,,0,1,0,0,0,0,,Auburn,2018
+Richard Jibunor,richard-jibunor-1,/cfb/players/richard-jibunor-1.html,LB,10,6,2,8,3.0,2.0,0,0,,0,0,0,0,0,1,,Auburn,2018
+Daquan Newkirk,daquan-newkirk-1,/cfb/players/daquan-newkirk-1.html,DL,8,2,5,7,0.0,0.0,0,0,,0,0,0,0,0,0,,Auburn,2018
+Coynis Miller Jr.,coynis-miller-jr-1,/cfb/players/coynis-miller-jr-1.html,DL,9,2,3,5,1.0,0.0,0,0,,0,0,0,0,0,0,,Auburn,2018
+Roger McCreary,roger-mccreary-1,/cfb/players/roger-mccreary-1.html,DB,7,2,3,5,0.0,0.0,0,0,,0,1,0,0,0,0,,Auburn,2018
+Zakoby McClain,zakoby-mcclain-1,/cfb/players/zakoby-mcclain-1.html,LB,13,3,1,4,0.0,0.0,0,0,,0,1,0,0,0,0,,Auburn,2018
+Alec Jackson,alec-jackson-1,/cfb/players/alec-jackson-1.html,DL,11,1,3,4,1.0,0.0,0,0,,0,0,0,0,0,0,,Auburn,2018
+Devin Guice,devin-guice-2,/cfb/players/devin-guice-2.html,DB,3,3,0,3,1.0,0.0,0,0,,0,0,0,0,0,0,,Auburn,2018
+Anthony Schwartz,anthony-schwartz-1,/cfb/players/anthony-schwartz-1.html,WR,13,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Auburn,2018
+Devan Barrett,devan-barrett-1,/cfb/players/devan-barrett-1.html,RB,4,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Auburn,2018
+Michael Harris,michael-harris-5,/cfb/players/michael-harris-5.html,LB,2,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Auburn,2018
+Gary Walker,gary-walker-4,/cfb/players/gary-walker-4.html,DL,6,0,2,2,0.0,0.0,0,0,,0,0,1,0,0,0,,Auburn,2018
+Caleb Johnson,caleb-johnson-2,/cfb/players/caleb-johnson-2.html,DL,2,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Auburn,2018
+Mike Horton,mike-horton-2,/cfb/players/mike-horton-2.html,OL,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Auburn,2018
+Matthew Hill,matthew-hill-1,/cfb/players/matthew-hill-1.html,WR,4,0,1,1,0.0,0.0,0,0,,0,0,1,3,0,0,,Auburn,2018
+Chandler Cox,chandler-cox-1,/cfb/players/chandler-cox-1.html,FB,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Auburn,2018
+Ryan Davis,ryan-davis-5,/cfb/players/ryan-davis-5.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Auburn,2018
+Sam Sherrod,sam-sherrod-2,/cfb/players/sam-sherrod-2.html,DB,3,0,1,1,0.0,0.0,0,0,,0,1,0,0,0,0,,Auburn,2018
+Seth Williams,seth-williams-1,/cfb/players/seth-williams-1.html,WR,13,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Auburn,2018
+Josh Marsh,josh-marsh-3,/cfb/players/josh-marsh-3.html,LB,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,1,,Auburn,2018
+Jaunta'vius Johnson,jauntavius-johnson-1,/cfb/players/jauntavius-johnson-1.html,DL,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Auburn,2018

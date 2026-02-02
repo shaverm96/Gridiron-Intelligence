@@ -1,0 +1,48 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Lawrence Garner,lawrence-garner-1,/cfb/players/lawrence-garner-1.html,LB,12,67,44,111,7.0,1.0,0,0,,0,2,1,0,0,1,,Old Dominion,2019
+Jordan Young,jordan-young-3,/cfb/players/jordan-young-3.html,LB,12,38,48,86,4.0,0.0,1,7,7.0,0,3,0,0,0,0,,Old Dominion,2019
+Geronda Hall,geronda-hall-1,/cfb/players/geronda-hall-1.html,CB,12,32,37,69,1.0,0.0,2,32,16.0,0,4,2,0,0,1,,Old Dominion,2019
+Keion White,keion-white-1,/cfb/players/keion-white-1.html,DE,12,32,32,64,19.0,3.5,1,0,0.0,0,1,2,22,0,1,,Old Dominion,2019
+Calvin Brewton,calvin-brewton-1,/cfb/players/calvin-brewton-1.html,S,12,19,40,59,1.0,0.0,0,0,,0,2,0,0,0,0,,Old Dominion,2019
+Harrell Blackmon,harrell-blackmon-1,/cfb/players/harrell-blackmon-1.html,S,9,24,18,42,1.0,0.0,1,22,22.0,0,1,1,0,0,1,,Old Dominion,2019
+Derek Wilder,derek-wilder-1,/cfb/players/derek-wilder-1.html,DE,12,21,18,39,7.0,3.0,0,0,,0,0,1,0,0,1,,Old Dominion,2019
+Lance Boykin,lance-boykin-1,/cfb/players/lance-boykin-1.html,CB,11,16,14,30,0.0,0.0,1,11,11.0,0,1,0,0,0,0,,Old Dominion,2019
+Joe Joe Headen,joe-joe-headen-1,/cfb/players/joe-joe-headen-1.html,CB,12,19,11,30,0.0,0.0,0,0,,0,1,0,0,0,0,,Old Dominion,2019
+Juwan Ross,juwan-ross-1,/cfb/players/juwan-ross-1.html,DT,8,11,18,29,9.5,3.5,0,0,,0,0,0,0,0,1,,Old Dominion,2019
+Kaleb Ford-Dement,kaleb-ford-dement-1,/cfb/players/kaleb-ford-dement-1.html,CB,12,16,10,26,0.0,0.0,2,42,21.0,0,13,0,0,0,0,,Old Dominion,2019
+Tobias Moss,tobias-moss-1,/cfb/players/tobias-moss-1.html,S,9,18,7,25,2.0,1.0,0,0,,0,4,0,0,0,1,,Old Dominion,2019
+Jeremy Meiser,jeremy-meiser-1,/cfb/players/jeremy-meiser-1.html,DT,10,11,13,24,4.5,0.0,0,0,,0,0,0,0,0,0,,Old Dominion,2019
+Will Brocchini,will-brocchini-1,/cfb/players/will-brocchini-1.html,CB,8,15,6,21,0.5,0.0,1,18,18.0,0,1,0,0,0,1,,Old Dominion,2019
+Marcus Haynes,marcus-haynes-1,/cfb/players/marcus-haynes-1.html,DE,12,14,7,21,6.5,3.5,0,0,,0,0,1,0,0,2,,Old Dominion,2019
+Justinn Richardson,justinn-richardson-1,/cfb/players/justinn-richardson-1.html,S,9,11,10,21,0.0,0.0,0,0,,0,0,0,0,0,1,,Old Dominion,2019
+Terez Dickerson,terez-dickerson-1,/cfb/players/terez-dickerson-1.html,LB,10,8,12,20,1.0,0.0,0,0,,0,0,0,0,0,0,,Old Dominion,2019
+Demetrius Stitmon,demetrius-stitmon-1,/cfb/players/demetrius-stitmon-1.html,LB,11,5,10,15,1.5,0.0,0,0,,0,0,1,0,0,0,,Old Dominion,2019
+James Valle III,james-valle-iii-1,/cfb/players/james-valle-iii-1.html,DE,11,2,10,12,2.0,0.0,0,0,,0,0,0,0,0,0,,Old Dominion,2019
+Robert Scott,robert-scott-5,/cfb/players/robert-scott-5.html,CB,11,5,3,8,1.0,0.0,0,0,,0,0,0,0,0,0,,Old Dominion,2019
+Tyre Bibby,tyre-bibby-1,/cfb/players/tyre-bibby-1.html,DT,11,4,3,7,0.0,0.0,0,0,,0,0,0,0,0,0,,Old Dominion,2019
+Mufu Taiwo,mufu-taiwo-1,/cfb/players/mufu-taiwo-1.html,DT,9,2,5,7,3.0,0.5,0,0,,0,0,0,0,0,0,,Old Dominion,2019
+Cameron Washington,cameron-washington-1,/cfb/players/cameron-washington-1.html,DT,11,2,4,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Old Dominion,2019
+Darius Savedge,darius-savedge-1,/cfb/players/darius-savedge-1.html,WR,12,3,3,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Old Dominion,2019
+Cory Jackson,cory-jackson-2,/cfb/players/cory-jackson-2.html,LB,10,3,2,5,1.5,1.0,0,0,,0,0,0,0,0,0,,Old Dominion,2019
+Estefano Feliciano Jr.,estefano-feliciano-jr-1,/cfb/players/estefano-feliciano-jr-1.html,LB,4,1,3,4,0.5,0.0,0,0,,0,0,0,0,0,0,,Old Dominion,2019
+Estefano Feliciano,estefano-feliciano-1,/cfb/players/estefano-feliciano-1.html,,6,1,3,4,0.5,0.0,0,0,,0,0,0,0,0,0,,Old Dominion,2019
+B.R. Hatcher,br-hatcher-1,/cfb/players/br-hatcher-1.html,LS,11,1,3,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Old Dominion,2019
+Nick Rice,nick-rice-1,/cfb/players/nick-rice-1.html,K,12,0,3,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Old Dominion,2019
+Ryan Henry,ryan-henry-3,/cfb/players/ryan-henry-3.html,LB,4,3,0,3,1.0,0.0,0,0,,0,0,0,0,0,0,,Old Dominion,2019
+Ty-Kee McCullers,ty-kee-mccullers-1,/cfb/players/ty-kee-mccullers-1.html,DT,8,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Old Dominion,2019
+Jake Herslow,jake-herslow-1,/cfb/players/jake-herslow-1.html,WR,10,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Old Dominion,2019
+Terry Jones,terry-jones-3,/cfb/players/terry-jones-3.html,S,4,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Old Dominion,2019
+R'Tarriun Johnson,rtarriun-johnson-1,/cfb/players/rtarriun-johnson-1.html,S,4,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Old Dominion,2019
+Isaiah Spencer,isaiah-spencer-2,/cfb/players/isaiah-spencer-2.html,WR,11,1,1,2,1.0,0.0,0,0,,0,0,0,0,0,0,,Old Dominion,2019
+Bailey Cate,bailey-cate-1,/cfb/players/bailey-cate-1.html,P,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Old Dominion,2019
+Anthony Resek,anthony-resek-1,/cfb/players/anthony-resek-1.html,LB,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Old Dominion,2019
+Nick Saldiveri,nick-saldiveri-1,/cfb/players/nick-saldiveri-1.html,,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Old Dominion,2019
+Matt Geiger,matt-geiger-1,/cfb/players/matt-geiger-1.html,RB,9,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Old Dominion,2019
+Marcus Joyner,marcus-joyner-1,/cfb/players/marcus-joyner-1.html,TE,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Old Dominion,2019
+Carson Ramos,carson-ramos-1,/cfb/players/carson-ramos-1.html,DL,2,0,1,1,0.5,0.0,0,0,,0,0,0,0,0,0,,Old Dominion,2019
+Damion Charity,damion-charity-1,/cfb/players/damion-charity-1.html,S,3,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Old Dominion,2019
+Darrell Brown,darrell-brown-4,/cfb/players/darrell-brown-4.html,WR,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,1,,Old Dominion,2019
+Joshua Burdsall,joshua-burdsall-1,/cfb/players/joshua-burdsall-1.html,CB,4,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Old Dominion,2019
+Eric Kumah,eric-kumah-1,/cfb/players/eric-kumah-1.html,WR,4,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Old Dominion,2019
+Isaac Weaver,isaac-weaver-1,/cfb/players/isaac-weaver-1.html,OL,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Old Dominion,2019
+Hasaan Patterson,hasaan-patterson-1,/cfb/players/hasaan-patterson-1.html,WR,9,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Old Dominion,2019

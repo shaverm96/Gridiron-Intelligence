@@ -1,0 +1,39 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Riley Cole,riley-cole-1,/cfb/players/riley-cole-1.html,LB,10,54,42,96,6.5,2.0,0,0,,0,0,2,0,0,2,,South Alabama,2020
+Nick Mobley,nick-mobley-1,/cfb/players/nick-mobley-1.html,LB,11,41,53,94,1.0,0.0,1,15,15.0,0,2,1,0,0,0,,South Alabama,2020
+Keith Gallmon,keith-gallmon-1,/cfb/players/keith-gallmon-1.html,S,11,59,25,84,1.0,0.0,1,5,5.0,0,10,0,0,0,1,,South Alabama,2020
+AJ DeShazor,aj-deshazor-1,/cfb/players/aj-deshazor-1.html,LB,11,30,18,48,3.0,0.0,0,0,,0,1,0,0,0,0,,South Alabama,2020
+Dewayne Betts Jr.,dewayne-betts-jr-1,/cfb/players/dewayne-betts-jr-1.html,S,11,28,11,39,1.0,0.0,1,0,0.0,0,2,0,0,0,2,,South Alabama,2020
+Jeremiah Littles,jeremiah-littles-1,/cfb/players/jeremiah-littles-1.html,DL,9,19,13,32,5.5,3.0,0,0,,0,0,0,0,0,0,,South Alabama,2020
+Darrell Luter Jr.,darrell-luter-jr-1,/cfb/players/darrell-luter-jr-1.html,CB,11,15,13,28,0.0,0.0,0,0,,0,1,0,0,0,1,,South Alabama,2020
+Devin Rockette,devin-rockette-1,/cfb/players/devin-rockette-1.html,CB,11,23,5,28,1.0,0.0,2,95,47.5,1,3,0,0,0,0,,South Alabama,2020
+Gi'Narious Johnson,ginarious-johnson-1,/cfb/players/ginarious-johnson-1.html,DL,11,11,12,23,3.0,1.0,0,0,,0,1,0,0,0,0,,South Alabama,2020
+Ryan Melton,ryan-melton-2,/cfb/players/ryan-melton-2.html,CB,11,16,6,22,1.0,0.0,0,0,,0,3,0,0,0,0,,South Alabama,2020
+Davyn Flenord,davyn-flenord-1,/cfb/players/davyn-flenord-1.html,CB,11,18,3,21,2.0,0.0,0,0,,0,5,0,0,0,1,,South Alabama,2020
+Jamie Sheriff,jamie-sheriff-1,/cfb/players/jamie-sheriff-1.html,DL,11,11,10,21,1.0,1.0,0,0,,0,0,0,0,0,0,,South Alabama,2020
+Chris Henderson,chris-henderson-1,/cfb/players/chris-henderson-1.html,LB,10,13,7,20,4.5,1.0,0,0,,0,0,0,0,0,1,,South Alabama,2020
+Tre Young,tre-young-1,/cfb/players/tre-young-1.html,S,9,11,6,17,1.0,0.0,0,0,,0,2,0,0,0,1,,South Alabama,2020
+Kelvin Johnson,kelvin-johnson-2,/cfb/players/kelvin-johnson-2.html,LB,10,9,7,16,1.0,0.0,0,0,,0,0,1,8,0,0,,South Alabama,2020
+Christian Bell,christian-bell-1,/cfb/players/christian-bell-1.html,LB,10,7,8,15,0.0,0.0,1,4,4.0,0,0,0,0,0,0,,South Alabama,2020
+Maurice Strong Jr.,maurice-strong-jr-1,/cfb/players/maurice-strong-jr-1.html,DL,11,8,6,14,3.0,0.0,0,0,,0,0,1,0,0,0,,South Alabama,2020
+Doug Sullivan,doug-sullivan-1,/cfb/players/doug-sullivan-1.html,LB,11,11,2,13,2.0,0.0,0,0,,0,0,1,0,0,0,,South Alabama,2020
+Shawn Jennings,shawn-jennings-1,/cfb/players/shawn-jennings-1.html,LB,10,9,4,13,4.0,2.0,1,15,15.0,0,0,0,0,0,1,,South Alabama,2020
+Wy'Kevious Thomas,wykevious-thomas-1,/cfb/players/wykevious-thomas-1.html,DL,11,5,7,12,1.5,1.0,0,0,,0,0,0,0,0,0,,South Alabama,2020
+Quentin Wilfawn,quentin-wilfawn-1,/cfb/players/quentin-wilfawn-1.html,LB,7,5,7,12,1.0,0.0,0,0,,0,1,0,0,0,0,,South Alabama,2020
+Keon Voisin,keon-voisin-1,/cfb/players/keon-voisin-1.html,S,11,9,3,12,0.0,0.0,0,0,,0,3,1,0,0,0,,South Alabama,2020
+Charles Coleman III,charles-coleman-iii-1,/cfb/players/charles-coleman-iii-1.html,DL,11,4,5,9,2.0,1.0,0,0,,0,3,0,0,0,1,,South Alabama,2020
+Jamall Hickbottom,jamall-hickbottom-1,/cfb/players/jamall-hickbottom-1.html,DL,9,2,2,4,0.0,0.0,0,0,,0,0,0,0,0,0,,South Alabama,2020
+Jake Harwell,jake-harwell-1,/cfb/players/jake-harwell-1.html,LS,11,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,South Alabama,2020
+Zeke Chapman,zeke-chapman-1,/cfb/players/zeke-chapman-1.html,DL,10,0,3,3,0.0,0.0,0,0,,0,0,0,0,0,0,,South Alabama,2020
+Cade Sutherland,cade-sutherland-1,/cfb/players/cade-sutherland-1.html,WR,11,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,South Alabama,2020
+Kawaan Baker,kawaan-baker-1,/cfb/players/kawaan-baker-1.html,WR,11,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,South Alabama,2020
+Roy Yancey,roy-yancey-1,/cfb/players/roy-yancey-1.html,LB,8,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,South Alabama,2020
+Yamarus Banks,yamarus-banks-1,/cfb/players/yamarus-banks-1.html,CB,7,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,South Alabama,2020
+Patrick Rosette,patrick-rosette-1,/cfb/players/patrick-rosette-1.html,S,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,South Alabama,2020
+Joshua Carter,joshua-carter-1,/cfb/players/joshua-carter-1.html,LB,7,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,South Alabama,2020
+Jalen Wayne,jalen-wayne-1,/cfb/players/jalen-wayne-1.html,WR,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,South Alabama,2020
+Jaden Voisin,jaden-voisin-1,/cfb/players/jaden-voisin-1.html,CB,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,South Alabama,2020
+Diego Guajardo,diego-guajardo-1,/cfb/players/diego-guajardo-1.html,PK,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,South Alabama,2020
+Tony Brown,tony-brown-11,/cfb/players/tony-brown-11.html,RB,7,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,South Alabama,2020
+Devin Voisin,devin-voisin-1,/cfb/players/devin-voisin-1.html,WR,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,1,,South Alabama,2020
+Danley Exilhomme,danley-exilhomme-1,/cfb/players/danley-exilhomme-1.html,S,9,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,South Alabama,2020

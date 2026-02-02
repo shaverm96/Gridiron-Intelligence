@@ -1,0 +1,48 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Derrell Farrar,derrell-farrar-1,/cfb/players/derrell-farrar-1.html,LB,11,38,33,71,4.0,1.0,0,0,,0,2,0,0,0,1,,Liberty,2025
+Joseph Carter,joseph-carter-3,/cfb/players/joseph-carter-3.html,LB,7,23,30,53,3.5,0.0,0,0,,0,0,0,0,0,1,,Liberty,2025
+Damond Harmon,damond-harmon-1,/cfb/players/damond-harmon-1.html,CB,12,36,12,48,2.0,0.5,1,26,26.0,0,6,0,0,0,0,,Liberty,2025
+Christian Bodnar,christian-bodnar-1,/cfb/players/christian-bodnar-1.html,CB,12,35,9,44,2.0,2.0,0,0,,0,2,0,0,0,0,,Liberty,2025
+Nathan Pirolli,nathan-pirolli-1,/cfb/players/nathan-pirolli-1.html,DT,12,17,25,42,2.0,1.0,0,0,,0,1,0,0,0,0,,Liberty,2025
+Elijah Auguste,elijah-auguste-1,/cfb/players/elijah-auguste-1.html,S,12,25,16,41,1.5,0.0,0,0,,0,0,0,0,0,0,,Liberty,2025
+Brylan Green,brylan-green-1,/cfb/players/brylan-green-1.html,S,10,32,7,39,1.0,0.0,1,0,0.0,0,5,1,21,0,0,,Liberty,2025
+A'Khori Jones,akhori-jones-1,/cfb/players/akhori-jones-1.html,S,12,26,13,39,3.5,1.0,1,28,28.0,0,2,0,0,0,1,,Liberty,2025
+Amarian Williams,amarian-williams-1,/cfb/players/amarian-williams-1.html,CB,11,20,9,29,0.5,0.0,2,12,6.0,0,5,0,0,0,0,,Liberty,2025
+Micah Pollard,micah-pollard-1,/cfb/players/micah-pollard-1.html,LB,12,16,12,28,0.0,0.0,0,0,,0,0,0,0,0,1,,Liberty,2025
+Brenton Williams,brenton-williams-1,/cfb/players/brenton-williams-1.html,DE,12,11,16,27,4.0,3.0,0,0,,0,0,1,0,0,0,,Liberty,2025
+CJ Bazile Jr.,cj-bazile-jr-1,/cfb/players/cj-bazile-jr-1.html,DE,11,12,15,27,5.5,1.5,0,0,,0,0,1,0,0,1,,Liberty,2025
+Aidan Vaughan,aidan-vaughan-1,/cfb/players/aidan-vaughan-1.html,LB,9,16,11,27,0.5,0.0,0,0,,0,0,0,0,0,0,,Liberty,2025
+Mike Jarvis,mike-jarvis-1,/cfb/players/mike-jarvis-1.html,DL,12,10,15,25,3.0,0.0,0,0,,0,1,0,0,0,0,,Liberty,2025
+Bryce Dixon,bryce-dixon-2,/cfb/players/bryce-dixon-2.html,DT,11,10,12,22,1.5,1.0,0,0,,0,1,1,0,0,0,,Liberty,2025
+Devin Henderson,devin-henderson-3,/cfb/players/devin-henderson-3.html,S,11,14,4,18,0.0,0.0,0,0,,0,1,0,0,0,0,,Liberty,2025
+Dexter Ricks Jr.,dexter-ricks-jr-1,/cfb/players/dexter-ricks-jr-1.html,CB,12,13,5,18,1.0,0.0,0,0,,0,4,2,0,0,0,,Liberty,2025
+Eldric Griffin,eldric-griffin-2,/cfb/players/eldric-griffin-2.html,S,12,8,9,17,0.5,0.0,1,0,0.0,0,0,0,0,0,1,,Liberty,2025
+Deuce Spurlock,deuce-spurlock-1,/cfb/players/deuce-spurlock-1.html,LB,9,6,9,15,0.0,0.0,0,0,,0,0,0,0,0,0,,Liberty,2025
+Donovan Dozier,donovan-dozier-1,/cfb/players/donovan-dozier-1.html,DE,12,4,11,15,1.5,0.0,0,0,,0,0,0,0,0,0,,Liberty,2025
+Ethan Crisp,ethan-crisp-1,/cfb/players/ethan-crisp-1.html,LB,12,3,8,11,1.5,0.0,0,0,,0,1,0,0,0,0,,Liberty,2025
+Eli Hall,eli-hall-1,/cfb/players/eli-hall-1.html,DL,12,6,5,11,4.5,4.0,0,0,,0,3,0,0,0,0,,Liberty,2025
+Aaron Hester,aaron-hester-2,/cfb/players/aaron-hester-2.html,DL,12,2,8,10,0.5,0.0,0,0,,0,1,0,0,0,0,,Liberty,2025
+Markus Clark,markus-clark-1,/cfb/players/markus-clark-1.html,DL,9,7,3,10,0.0,0.0,0,0,,0,0,0,0,0,0,,Liberty,2025
+DJ Jackson,dj-jackson-5,/cfb/players/dj-jackson-5.html,DL,7,4,6,10,1.0,0.0,0,0,,0,0,0,0,0,0,,Liberty,2025
+Dillano Glaud,dillano-glaud-1,/cfb/players/dillano-glaud-1.html,LB,10,5,4,9,0.0,0.0,0,0,,0,0,0,0,0,0,,Liberty,2025
+Jalon Rock,jalon-rock-1,/cfb/players/jalon-rock-1.html,S,10,6,2,8,0.0,0.0,0,0,,0,1,0,0,0,0,,Liberty,2025
+Bryson Jennings,bryson-jennings-1,/cfb/players/bryson-jennings-1.html,DE,8,6,1,7,1.0,0.0,0,0,,0,0,0,0,0,0,,Liberty,2025
+Elijah Hopkins,elijah-hopkins-1,/cfb/players/elijah-hopkins-1.html,CB,4,4,2,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Liberty,2025
+Samuel Cohen,samuel-cohen-1,/cfb/players/samuel-cohen-1.html,DE,11,2,4,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Liberty,2025
+Kam Cullins,kam-cullins-1,/cfb/players/kam-cullins-1.html,DL,9,4,2,6,0.0,0.0,0,0,,0,1,0,0,0,0,,Liberty,2025
+Quavo Marshall,quavo-marshall-1,/cfb/players/quavo-marshall-1.html,CB,12,3,2,5,0.0,0.0,1,70,70.0,0,0,0,0,0,0,,Liberty,2025
+Joe Strickland,joe-strickland-1,/cfb/players/joe-strickland-1.html,DL,12,1,4,5,1.0,1.0,0,0,,0,0,0,0,0,0,,Liberty,2025
+Caleb Ryan,caleb-ryan-1,/cfb/players/caleb-ryan-1.html,TE,12,2,2,4,0.0,0.0,0,0,,0,0,0,0,0,1,,Liberty,2025
+Seneca Moore,seneca-moore-1,/cfb/players/seneca-moore-1.html,LB,9,2,1,3,1.0,0.0,0,0,,0,0,0,0,0,0,,Liberty,2025
+Jamal Miles,jamal-miles-2,/cfb/players/jamal-miles-2.html,CB,5,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Liberty,2025
+Jaylon Coleman,jaylon-coleman-1,/cfb/players/jaylon-coleman-1.html,RB,7,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Liberty,2025
+Ryan Manis,ryan-manis-1,/cfb/players/ryan-manis-1.html,LS,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Liberty,2025
+"Ronald Moore, Jr.",ronald-moore-jr-1,/cfb/players/ronald-moore-jr-1.html,S,8,1,0,1,0.0,0.0,0,0,,0,1,0,0,0,0,,Liberty,2025
+Tre Lawing,tre-lawing-1,/cfb/players/tre-lawing-1.html,S,7,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Liberty,2025
+Tyson Mobley,tyson-mobley-1,/cfb/players/tyson-mobley-1.html,WR,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Liberty,2025
+Myke Gunn,myke-gunn-1,/cfb/players/myke-gunn-1.html,CB,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Liberty,2025
+Max Morgan,max-morgan-2,/cfb/players/max-morgan-2.html,P,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Liberty,2025
+Jayden Whaley,jayden-whaley-1,/cfb/players/jayden-whaley-1.html,S,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Liberty,2025
+Jay Billingsley,jay-billingsley-1,/cfb/players/jay-billingsley-1.html,K,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Liberty,2025
+Erwil Anthony,erwil-anthony-1,/cfb/players/erwil-anthony-1.html,OL,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Liberty,2025
+Ethan Vasko,ethan-vasko-1,/cfb/players/ethan-vasko-1.html,QB,10,0,0,0,0.0,0.0,0,0,,0,0,1,0,0,0,,Liberty,2025

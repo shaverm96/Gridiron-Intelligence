@@ -1,0 +1,44 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Bryan Longwell,bryan-longwell-1,/cfb/players/bryan-longwell-1.html,LB,13,36,35,71,9.0,1.0,1,7,7.0,0,2,0,0,0,0,,Vanderbilt,2025
+CJ Heard,cj-heard-1,/cfb/players/cj-heard-1.html,S,13,46,25,71,3.5,2.0,1,0,0.0,0,3,1,0,0,1,,Vanderbilt,2025
+Langston Patterson,langston-patterson-1,/cfb/players/langston-patterson-1.html,LB,13,27,42,69,1.5,0.0,0,0,,0,0,0,0,0,1,,Vanderbilt,2025
+Randon Fontenette,randon-fontenette-1,/cfb/players/randon-fontenette-1.html,S,13,31,21,52,6.5,0.0,0,0,,0,6,0,0,0,1,,Vanderbilt,2025
+Marlen Sewell,marlen-sewell-1,/cfb/players/marlen-sewell-1.html,S,13,28,24,52,1.5,0.5,0,0,,0,2,0,0,0,0,,Vanderbilt,2025
+Nicholas Rinaldi,nicholas-rinaldi-1,/cfb/players/nicholas-rinaldi-1.html,DL,13,20,27,47,7.0,3.5,0,0,,0,1,0,0,0,0,,Vanderbilt,2025
+Miles Capers,miles-capers-1,/cfb/players/miles-capers-1.html,DE,13,17,23,40,9.5,4.5,0,0,,0,2,1,7,0,1,,Vanderbilt,2025
+Martel Hight,martel-hight-1,/cfb/players/martel-hight-1.html,CB,13,24,11,35,0.5,0.0,4,71,17.8,0,2,0,0,0,0,,Vanderbilt,2025
+Dontae Carter,dontae-carter-1,/cfb/players/dontae-carter-1.html,S,13,18,15,33,0.0,0.0,0,0,,0,1,0,0,0,0,,Vanderbilt,2025
+Bryce Cowan,bryce-cowan-1,/cfb/players/bryce-cowan-1.html,LB,13,20,11,31,4.0,3.0,0,0,,0,1,0,0,0,5,,Vanderbilt,2025
+Khordae Sydnor,khordae-sydnor-1,/cfb/players/khordae-sydnor-1.html,DL,13,12,18,30,8.5,3.5,0,0,,0,2,1,0,0,0,,Vanderbilt,2025
+Joshua Singh,joshua-singh-1,/cfb/players/joshua-singh-1.html,DL,12,11,16,27,6.0,1.0,0,0,,0,1,0,0,0,0,,Vanderbilt,2025
+Zaylin Wood,zaylin-wood-1,/cfb/players/zaylin-wood-1.html,DL,13,11,16,27,4.5,4.0,1,11,11.0,0,2,0,0,0,0,,Vanderbilt,2025
+Kolbey Taylor,kolbey-taylor-1,/cfb/players/kolbey-taylor-1.html,CB,13,23,2,25,1.0,0.0,1,4,4.0,0,3,1,0,0,0,,Vanderbilt,2025
+Mark Davis,mark-davis-4,/cfb/players/mark-davis-4.html,CB,12,13,10,23,2.0,0.0,0,0,,0,4,0,0,0,0,,Vanderbilt,2025
+Jaylon Stone,jaylon-stone-1,/cfb/players/jaylon-stone-1.html,DL,13,6,16,22,2.0,0.0,0,0,,0,2,1,0,0,1,,Vanderbilt,2025
+Jordan Matthews,jordan-matthews-2,/cfb/players/jordan-matthews-2.html,CB,13,18,2,20,1.0,0.0,0,0,,0,3,1,0,0,1,,Vanderbilt,2025
+Glenn Seabrooks III,glenn-seabrooks-iii-1,/cfb/players/glenn-seabrooks-iii-1.html,DL,13,9,10,19,0.5,0.0,0,0,,0,1,0,0,0,0,,Vanderbilt,2025
+Prince Kollie,prince-kollie-1,/cfb/players/prince-kollie-1.html,LB,13,9,6,15,1.0,0.0,0,0,,0,0,0,0,0,0,,Vanderbilt,2025
+Linus Zunk,linus-zunk-1,/cfb/players/linus-zunk-1.html,DL,13,7,8,15,3.5,3.0,0,0,,0,0,0,0,0,0,,Vanderbilt,2025
+Jaylin Lackey,jaylin-lackey-1,/cfb/players/jaylin-lackey-1.html,CB,13,9,2,11,0.0,0.0,0,0,,0,0,0,0,0,0,,Vanderbilt,2025
+Keanu Koht,keanu-koht-1,/cfb/players/keanu-koht-1.html,DE,13,5,6,11,4.0,3.0,0,0,,0,1,0,0,0,0,,Vanderbilt,2025
+Carson Lawrence,carson-lawrence-1,/cfb/players/carson-lawrence-1.html,S,13,8,1,9,0.0,0.0,0,0,,0,1,0,0,0,0,,Vanderbilt,2025
+Marlon Jones Jr.,marlon-jones-jr-1,/cfb/players/marlon-jones-jr-1.html,CB,9,5,4,9,0.0,0.0,0,0,,0,0,0,0,0,0,,Vanderbilt,2025
+Bradley Mann,bradley-mann-1,/cfb/players/bradley-mann-1.html,DL,13,4,4,8,0.0,0.0,0,0,,0,0,0,0,0,0,,Vanderbilt,2025
+Jamison Curtis,jamison-curtis-1,/cfb/players/jamison-curtis-1.html,LB,8,4,4,8,0.0,0.0,0,0,,0,0,0,0,0,0,,Vanderbilt,2025
+Austin Howard,austin-howard-1,/cfb/players/austin-howard-1.html,LB,13,3,5,8,1.0,0.0,0,0,,0,0,0,0,0,0,,Vanderbilt,2025
+Cayden Daniels,cayden-daniels-1,/cfb/players/cayden-daniels-1.html,CB,5,3,3,6,0.0,0.0,0,0,,0,1,0,0,0,0,,Vanderbilt,2025
+Mason Nelson,mason-nelson-1,/cfb/players/mason-nelson-1.html,DL,10,2,4,6,1.0,1.0,0,0,,0,0,0,0,0,0,,Vanderbilt,2025
+Aaron Bryant,aaron-bryant-3,/cfb/players/aaron-bryant-3.html,DL,11,1,2,3,1.0,0.0,0,0,,0,0,0,0,0,0,,Vanderbilt,2025
+Vanzale Hinton,vanzale-hinton-1,/cfb/players/vanzale-hinton-1.html,DB,6,3,0,3,0.0,0.0,0,0,,0,1,0,0,0,1,,Vanderbilt,2025
+Jalen Gilbert,jalen-gilbert-1,/cfb/players/jalen-gilbert-1.html,S,13,3,0,3,0.0,0.0,0,0,,0,2,0,0,0,0,,Vanderbilt,2025
+Mason Carter,mason-carter-1,/cfb/players/mason-carter-1.html,DE,13,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Vanderbilt,2025
+Jailen Ruth,jailen-ruth-1,/cfb/players/jailen-ruth-1.html,DB,13,1,1,2,0.0,0.0,0,0,,0,0,1,0,0,0,,Vanderbilt,2025
+Brycen Coleman,brycen-coleman-1,/cfb/players/brycen-coleman-1.html,TE,13,2,0,2,1.0,0.0,0,0,,0,0,0,0,0,1,,Vanderbilt,2025
+Joseph McVay,joseph-mcvay-1,/cfb/players/joseph-mcvay-1.html,WR,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Vanderbilt,2025
+Hayden Bray,hayden-bray-1,/cfb/players/hayden-bray-1.html,DL,6,1,1,2,1.0,1.0,0,0,,0,0,0,0,0,0,,Vanderbilt,2025
+Payne Daniel,payne-daniel-1,/cfb/players/payne-daniel-1.html,S,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Vanderbilt,2025
+Emmanuel Adebi,emmanuel-adebi-1,/cfb/players/emmanuel-adebi-1.html,TE,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Vanderbilt,2025
+Gabe Fisher,gabe-fisher-1,/cfb/players/gabe-fisher-1.html,FB,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Vanderbilt,2025
+Tate Hamby,tate-hamby-1,/cfb/players/tate-hamby-1.html,DB,13,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Vanderbilt,2025
+Tre Richardson,tre-richardson-1,/cfb/players/tre-richardson-1.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Vanderbilt,2025
+Yilanan Outtara,yilanan-outtara-1,/cfb/players/yilanan-outtara-1.html,DL,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Vanderbilt,2025

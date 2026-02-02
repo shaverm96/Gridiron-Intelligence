@@ -1,0 +1,42 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Josh Allen,josh-allen-6,/cfb/players/josh-allen-6.html,LB,13,56,32,88,21.5,17.0,0,0,,0,4,2,0,0,5,"Nagurski,Bednarik,AA",Kentucky,2018
+Darius West,darius-west-1,/cfb/players/darius-west-1.html,S,13,47,39,86,1.0,0.0,3,51,17.0,0,6,1,40,1,0,,Kentucky,2018
+Kash Daniel,kash-daniel-1,/cfb/players/kash-daniel-1.html,LB,13,42,42,84,7.5,1.0,0,0,,0,1,0,0,0,0,,Kentucky,2018
+Mike Edwards,mike-edwards-8,/cfb/players/mike-edwards-8.html,S,13,56,26,82,9.0,0.0,2,79,39.5,1,6,1,0,0,1,,Kentucky,2018
+Jordan Jones,jordan-jones-2,/cfb/players/jordan-jones-2.html,LB,12,31,37,68,5.5,1.5,0,0,,0,4,1,0,0,1,,Kentucky,2018
+Davonte Robinson,davonte-robinson-1,/cfb/players/davonte-robinson-1.html,S,13,28,14,42,3.0,0.0,0,0,,0,4,2,30,1,0,,Kentucky,2018
+Derrick Baity,derrick-baity-1,/cfb/players/derrick-baity-1.html,CB,13,27,11,38,2.5,0.0,1,-3,-3.0,0,7,0,0,0,1,,Kentucky,2018
+DeAndre Square,deandre-square-1,/cfb/players/deandre-square-1.html,LB,13,15,20,35,3.5,1.0,0,0,,0,1,0,0,0,1,,Kentucky,2018
+Chris Oats,chris-oats-1,/cfb/players/chris-oats-1.html,LB,13,17,10,27,3.0,2.0,0,0,,0,0,2,0,0,1,,Kentucky,2018
+Calvin Taylor,calvin-taylor-2,/cfb/players/calvin-taylor-2.html,DE,13,19,7,26,6.0,1.0,0,0,,0,1,1,0,0,0,,Kentucky,2018
+Jamar Watson,jamar-watson-1,/cfb/players/jamar-watson-1.html,LB,12,15,9,24,5.0,5.0,0,0,,0,3,0,0,0,1,,Kentucky,2018
+Lonnie Johnson,lonnie-johnson-4,/cfb/players/lonnie-johnson-4.html,CB,13,17,6,23,0.0,0.0,1,24,24.0,0,4,0,0,0,1,,Kentucky,2018
+Phil Hoskins,phil-hoskins-1,/cfb/players/phil-hoskins-1.html,DT,13,9,12,21,3.5,3.0,0,0,,0,0,0,0,0,1,,Kentucky,2018
+Chris Westry,chris-westry-1,/cfb/players/chris-westry-1.html,CB,13,19,2,21,1.0,1.0,0,0,,0,2,0,0,0,0,,Kentucky,2018
+Quinton Bohanna,quinton-bohanna-1,/cfb/players/quinton-bohanna-1.html,NT,12,8,9,17,4.0,1.0,0,0,,0,0,1,0,0,1,,Kentucky,2018
+T.J. Carter,tj-carter-1,/cfb/players/tj-carter-1.html,DE,13,9,7,16,2.5,1.0,0,0,,0,3,0,0,0,0,,Kentucky,2018
+Kordell Looney,kordell-looney-1,/cfb/players/kordell-looney-1.html,DT,13,6,9,15,1.0,0.0,0,0,,0,1,0,0,0,0,,Kentucky,2018
+Tymere Dubose,tymere-dubose-1,/cfb/players/tymere-dubose-1.html,DT,12,3,10,13,1.5,0.5,0,0,,0,0,0,0,0,0,,Kentucky,2018
+Jordan Griffin,jordan-griffin-2,/cfb/players/jordan-griffin-2.html,S,11,8,5,13,0.0,0.0,0,0,,0,3,0,0,0,0,,Kentucky,2018
+Tyrell Ajian,tyrell-ajian-1,/cfb/players/tyrell-ajian-1.html,S,12,5,5,10,0.0,0.0,1,35,35.0,0,3,0,0,0,0,,Kentucky,2018
+Jamin Davis,jamin-davis-1,/cfb/players/jamin-davis-1.html,LB,12,6,4,10,0.0,0.0,1,18,18.0,0,1,0,0,0,0,,Kentucky,2018
+Adrian Middleton,adrian-middleton-1,/cfb/players/adrian-middleton-1.html,DT,13,7,3,10,3.5,2.0,0,0,,0,0,0,0,0,0,,Kentucky,2018
+Zach Johnson,zach-johnson-6,/cfb/players/zach-johnson-6.html,RB,12,5,3,8,0.0,0.0,0,0,,0,0,0,0,0,0,,Kentucky,2018
+Yusuf Corker,yusuf-corker-1,/cfb/players/yusuf-corker-1.html,S,12,4,4,8,0.0,0.0,0,0,,0,0,0,0,0,0,,Kentucky,2018
+Marquan McCall,marquan-mccall-1,/cfb/players/marquan-mccall-1.html,DL,7,3,2,5,1.5,1.0,0,0,,0,0,0,0,0,1,,Kentucky,2018
+Kengera Daniel,kengera-daniel-1,/cfb/players/kengera-daniel-1.html,DE,4,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Kentucky,2018
+Jordan Wright,jordan-wright-3,/cfb/players/jordan-wright-3.html,LB,9,3,1,4,0.0,0.0,0,0,,0,1,0,0,0,0,,Kentucky,2018
+Drew Schlegel,drew-schlegel-1,/cfb/players/drew-schlegel-1.html,TE,10,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Kentucky,2018
+Joshua Paschal,joshua-paschal-1,/cfb/players/joshua-paschal-1.html,DE,3,2,1,3,1.0,0.0,0,0,,0,0,0,0,0,0,,Kentucky,2018
+Michael Nesbitt,michael-nesbitt-1,/cfb/players/michael-nesbitt-1.html,CB,9,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Kentucky,2018
+Lynn Bowden Jr.,lynn-bowden-jr-1,/cfb/players/lynn-bowden-jr-1.html,WR,13,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Kentucky,2018
+C.J. Conrad,cj-conrad-1,/cfb/players/cj-conrad-1.html,TE,13,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Kentucky,2018
+Logan Stenberg,logan-stenberg-1,/cfb/players/logan-stenberg-1.html,G,12,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Kentucky,2018
+Justin Rigg,justin-rigg-1,/cfb/players/justin-rigg-1.html,TE,13,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Kentucky,2018
+Tristan Yeomans,tristan-yeomans-1,/cfb/players/tristan-yeomans-1.html,LS,12,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Kentucky,2018
+Max Duffy,max-duffy-1,/cfb/players/max-duffy-1.html,P,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kentucky,2018
+Tavin Richardson,tavin-richardson-1,/cfb/players/tavin-richardson-1.html,WR,13,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kentucky,2018
+Josh Ali,josh-ali-1,/cfb/players/josh-ali-1.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kentucky,2018
+Grant McKinniss,grant-mckinniss-1,/cfb/players/grant-mckinniss-1.html,P,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kentucky,2018
+George Asafo-Adjei,george-asafo-adjei-1,/cfb/players/george-asafo-adjei-1.html,T,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kentucky,2018
+Allen Dailey Jr.,allen-dailey-jr-1,/cfb/players/allen-dailey-jr-1.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kentucky,2018

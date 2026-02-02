@@ -1,0 +1,53 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+John Lako,john-lako-1,/cfb/players/john-lako-1.html,LB,12,60,78,138,9.5,1.0,1,64,64.0,1,2,1,25,0,0,,Akron,2019
+Bubba Arslanian,bubba-arslanian-1,/cfb/players/bubba-arslanian-1.html,LB,12,51,74,125,4.0,2.0,0,0,,0,2,0,0,0,1,,Akron,2019
+Alvin Davis,alvin-davis-4,/cfb/players/alvin-davis-4.html,DB,11,42,38,80,5.0,0.0,0,0,,0,2,0,0,0,1,,Akron,2019
+Josh Ward,josh-ward-3,/cfb/players/josh-ward-3.html,DE,12,17,31,48,4.0,2.5,0,0,,0,1,0,0,0,0,,Akron,2019
+Dylan Meeks,dylan-meeks-1,/cfb/players/dylan-meeks-1.html,DE,11,14,33,47,1.0,0.5,0,0,,0,1,0,0,0,1,,Akron,2019
+Shawn Featherstone,shawn-featherstone-1,/cfb/players/shawn-featherstone-1.html,DB,8,15,26,41,0.5,0.0,1,40,40.0,0,1,0,0,0,0,,Akron,2019
+Randy Cochran Jr.,randy-cochran-jr-1,/cfb/players/randy-cochran-jr-1.html,CB,11,32,9,41,2.0,0.0,0,0,,0,5,0,0,0,1,,Akron,2019
+Davon'te Jest,davonte-jest-1,/cfb/players/davonte-jest-1.html,DL,10,17,23,40,4.0,1.0,0,0,,0,0,1,0,0,1,,Akron,2019
+Jalen Hooks,jalen-hooks-1,/cfb/players/jalen-hooks-1.html,S,12,22,13,35,1.0,0.5,0,0,,0,2,0,0,0,0,,Akron,2019
+A.J. Watts,aj-watts-1,/cfb/players/aj-watts-1.html,DB,11,19,14,33,2.5,0.0,0,0,,0,6,1,0,0,1,,Akron,2019
+Jordyn Riley,jordyn-riley-1,/cfb/players/jordyn-riley-1.html,CB,11,20,7,27,1.0,0.0,1,15,15.0,0,5,0,0,0,0,,Akron,2019
+Eric Bentley,eric-bentley-2,/cfb/players/eric-bentley-2.html,OL,10,8,18,26,2.5,0.0,0,0,,0,0,1,0,0,1,,Akron,2019
+DeMarkus Glover,demarkus-glover-1,/cfb/players/demarkus-glover-1.html,LB,11,11,12,23,0.0,0.0,1,1,1.0,0,1,1,-1,0,0,,Akron,2019
+Michael Scott,michael-scott-4,/cfb/players/michael-scott-4.html,LB,12,12,11,23,2.0,0.0,0,0,,0,1,0,0,0,1,,Akron,2019
+Jaquize Cross,jaquize-cross-2,/cfb/players/jaquize-cross-2.html,DL,12,9,14,23,1.5,1.5,0,0,,0,0,0,0,0,0,,Akron,2019
+John Mitchell,john-mitchell-3,/cfb/players/john-mitchell-3.html,DL,12,14,8,22,2.0,1.0,0,0,,0,0,0,0,0,0,,Akron,2019
+Andy Jean-Baptiste,andy-jean-baptiste-2,/cfb/players/andy-jean-baptiste-2.html,DL,12,11,9,20,1.0,0.0,0,0,,0,1,0,0,0,0,,Akron,2019
+Julian Richardson,julian-richardson-1,/cfb/players/julian-richardson-1.html,LB,11,12,8,20,3.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2019
+Adetutu Daranijo,adetutu-daranijo-1,/cfb/players/adetutu-daranijo-1.html,DB,5,10,5,15,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2019
+DeMarcus Lloyd,demarcus-lloyd-1,/cfb/players/demarcus-lloyd-1.html,LB,8,4,6,10,1.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2019
+Reggie Corner Jr.,reggie-corner-jr-1,/cfb/players/reggie-corner-jr-1.html,LB,3,8,2,10,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2019
+Bryce Wilson,bryce-wilson-1,/cfb/players/bryce-wilson-1.html,DL,7,8,1,9,1.0,0.0,0,0,,0,0,0,0,0,1,,Akron,2019
+Brandon Bischof,brandon-bischof-1,/cfb/players/brandon-bischof-1.html,LB,10,3,4,7,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2019
+Jerome Cooper,jerome-cooper-1,/cfb/players/jerome-cooper-1.html,LB,10,6,1,7,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2019
+Zaire Jacobs,zaire-jacobs-1,/cfb/players/zaire-jacobs-1.html,S,3,4,1,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2019
+Logan Hawkins,logan-hawkins-1,/cfb/players/logan-hawkins-1.html,DL,9,3,2,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2019
+Demetrick Watts,demetrick-watts-1,/cfb/players/demetrick-watts-1.html,LB,4,2,3,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2019
+Jaquavis Dixon,jaquavis-dixon-1,/cfb/players/jaquavis-dixon-1.html,WR,7,2,2,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2019
+Tyler Gilchrist,tyler-gilchrist-1,/cfb/players/tyler-gilchrist-1.html,DB,9,1,3,4,0.5,0.0,0,0,,0,0,0,0,0,0,,Akron,2019
+James King,james-king-6,/cfb/players/james-king-6.html,LB,5,4,0,4,1.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2019
+Tyson McDonald,tyson-mcdonald-1,/cfb/players/tyson-mcdonald-1.html,DB,2,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2019
+Quevan Lawson,quevan-lawson-1,/cfb/players/quevan-lawson-1.html,LB,4,1,2,3,0.5,0.0,0,0,,0,0,0,0,0,0,,Akron,2019
+M.J. McGriff,mj-mcgriff-2,/cfb/players/mj-mcgriff-2.html,WR,8,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2019
+Zach DiLauro,zach-dilauro-1,/cfb/players/zach-dilauro-1.html,LB,3,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2019
+Gavin Blunt,gavin-blunt-1,/cfb/players/gavin-blunt-1.html,WR,11,1,1,2,0.0,0.0,0,0,,0,0,1,0,0,0,,Akron,2019
+Nick Johns,nick-johns-1,/cfb/players/nick-johns-1.html,TE,7,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2019
+Nate Stewart,nate-stewart-1,/cfb/players/nate-stewart-1.html,WR,12,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2019
+Corey Thomas Jr.,corey-thomas-jr-1,/cfb/players/corey-thomas-jr-1.html,DB,3,1,1,2,0.0,0.0,1,0,0.0,0,0,0,0,0,0,,Akron,2019
+Keyshawn Swanson,keyshawn-swanson-1,/cfb/players/keyshawn-swanson-1.html,DB,3,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2019
+Kato Nelson,kato-nelson-1,/cfb/players/kato-nelson-1.html,QB,10,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2019
+Justin Sampson,justin-sampson-1,/cfb/players/justin-sampson-1.html,DE,7,1,1,2,0.0,0.0,0,0,,0,1,0,0,0,0,,Akron,2019
+Michiah Burton,michiah-burton-1,/cfb/players/michiah-burton-1.html,RB,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2019
+Jerry Fitschen,jerry-fitschen-1,/cfb/players/jerry-fitschen-1.html,PK,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2019
+Michael Mathison,michael-mathison-1,/cfb/players/michael-mathison-1.html,WR,10,0,1,1,0.5,0.0,0,0,,0,0,0,0,0,0,,Akron,2019
+Maverick Wolfley,maverick-wolfley-1,/cfb/players/maverick-wolfley-1.html,TE,7,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2019
+Kevin Walls,kevin-walls-1,/cfb/players/kevin-walls-1.html,WR,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2019
+Dean Ramicone,dean-ramicone-1,/cfb/players/dean-ramicone-1.html,LB,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2019
+Devanier Floyd,devanier-floyd-1,/cfb/players/devanier-floyd-1.html,RB,2,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2019
+Timothy Scippio,timothy-scippio-1,/cfb/players/timothy-scippio-1.html,WR,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2019
+Xavior Gray,xavior-gray-1,/cfb/players/xavior-gray-1.html,OL,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2019
+Julian Hicks,julian-hicks-1,/cfb/players/julian-hicks-1.html,WR,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2019
+Brandon Lee,brandon-lee-2,/cfb/players/brandon-lee-2.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2019

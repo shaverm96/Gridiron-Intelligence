@@ -1,0 +1,37 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Josey Jewell,josey-jewell-1,/cfb/players/josey-jewell-1.html,LB,14,62,64,126,7.5,2.5,4,63,15.8,1,6,1,0,0,1,,Iowa,2015
+Cole Fisher,cole-fisher-1,/cfb/players/cole-fisher-1.html,LB,14,60,56,116,5.5,2.5,1,10,10.0,0,6,0,0,0,1,,Iowa,2015
+Jordan Lomax,jordan-lomax-1,/cfb/players/jordan-lomax-1.html,DB,14,46,50,96,1.0,0.0,1,0,0.0,0,6,0,0,0,1,,Iowa,2015
+Nate Meier,nate-meier-1,/cfb/players/nate-meier-1.html,DE,14,31,45,76,10.5,6.5,0,0,,0,1,1,0,0,1,,Iowa,2015
+Desmond King,desmond-king-1,/cfb/players/desmond-king-1.html,DB,14,46,26,72,1.0,0.0,8,118,14.8,1,13,0,0,0,0,AA,Iowa,2015
+Miles Taylor,miles-taylor-1,/cfb/players/miles-taylor-1.html,DB,14,38,31,69,2.5,0.5,1,12,12.0,0,4,1,0,0,0,,Iowa,2015
+Greg Mabin,greg-mabin-1,/cfb/players/greg-mabin-1.html,DB,14,37,17,54,0.5,0.0,2,26,13.0,0,8,0,0,0,1,,Iowa,2015
+Ben Niemann,ben-niemann-1,/cfb/players/ben-niemann-1.html,LB,14,22,23,45,6.5,3.0,0,0,,0,2,0,0,0,0,,Iowa,2015
+Jaleel Johnson,jaleel-johnson-1,/cfb/players/jaleel-johnson-1.html,DL,14,22,23,45,5.5,3.5,0,0,,0,1,1,0,0,0,,Iowa,2015
+Parker Hesse,parker-hesse-1,/cfb/players/parker-hesse-1.html,LB,14,24,20,44,3.0,2.0,1,4,4.0,1,2,1,0,0,1,,Iowa,2015
+Nathan Bazata,nathan-bazata-1,/cfb/players/nathan-bazata-1.html,DL,14,18,24,42,5.0,2.0,0,0,,0,1,1,0,0,0,,Iowa,2015
+Maurice Fleming,maurice-fleming-1,/cfb/players/maurice-fleming-1.html,DB,14,9,8,17,0.0,0.0,0,0,,0,5,0,0,0,0,,Iowa,2015
+Bo Bower,bo-bower-1,/cfb/players/bo-bower-1.html,LB,14,4,11,15,1.5,1.0,1,88,88.0,1,1,0,0,0,0,,Iowa,2015
+Matt Nelson,matt-nelson-4,/cfb/players/matt-nelson-4.html,DE,13,9,5,14,1.5,0.5,0,0,,0,0,1,0,0,1,,Iowa,2015
+Faith Ekakitie,faith-ekakitie-1,/cfb/players/faith-ekakitie-1.html,DL,12,5,8,13,1.5,0.5,0,0,,0,0,1,0,0,0,,Iowa,2015
+Travis Perry,travis-perry-1,/cfb/players/travis-perry-1.html,LB,14,5,7,12,0.0,0.0,0,0,,0,0,0,0,0,0,,Iowa,2015
+Brandon Snyder,brandon-snyder-1,/cfb/players/brandon-snyder-1.html,DB,13,6,5,11,0.0,0.0,0,0,,0,0,0,0,0,0,,Iowa,2015
+Drew Ott,drew-ott-1,/cfb/players/drew-ott-1.html,DL,6,8,3,11,7.5,5.0,0,0,,0,0,0,0,0,3,,Iowa,2015
+Anthony Gair,anthony-gair-1,/cfb/players/anthony-gair-1.html,DB,10,5,3,8,0.0,0.0,0,0,,0,0,0,0,0,0,,Iowa,2015
+Joshua Jackson,joshua-jackson-3,/cfb/players/joshua-jackson-3.html,WR,14,8,0,8,0.0,0.0,0,0,,0,2,0,0,0,0,,Iowa,2015
+Sean Draper,sean-draper-1,/cfb/players/sean-draper-1.html,DB,13,3,2,5,0.0,0.0,0,0,,0,2,0,0,0,0,,Iowa,2015
+Aaron Mends,aaron-mends-1,/cfb/players/aaron-mends-1.html,FB,12,1,3,4,0.5,0.5,0,0,,0,0,0,0,0,0,,Iowa,2015
+Kevin Ward,kevin-ward-4,/cfb/players/kevin-ward-4.html,DB,14,3,1,4,1.0,0.0,0,0,,0,0,0,0,0,0,,Iowa,2015
+Marshall Koehn,marshall-koehn-1,/cfb/players/marshall-koehn-1.html,K,14,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Iowa,2015
+Kyle Terlouw,kyle-terlouw-1,/cfb/players/kyle-terlouw-1.html,DL,9,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Iowa,2015
+Henry Krieger-Coble,henry-krieger-coble-1,/cfb/players/henry-krieger-coble-1.html,TE,14,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Iowa,2015
+Melvin Spears,melvin-spears-1,/cfb/players/melvin-spears-1.html,DE,6,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Iowa,2015
+Jack Hockaday,jack-hockaday-1,/cfb/players/jack-hockaday-1.html,LB,8,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Iowa,2015
+Riley McCarron,riley-mccarron-1,/cfb/players/riley-mccarron-1.html,WR,14,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Iowa,2015
+Jake Gervase,jake-gervase-1,/cfb/players/jake-gervase-1.html,DB,6,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Iowa,2015
+Macon Plewa,macon-plewa-1,/cfb/players/macon-plewa-1.html,FB,14,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Iowa,2015
+Matt Vandeberg,matt-vandeberg-1,/cfb/players/matt-vandeberg-1.html,WR,14,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Iowa,2015
+Drake Kulick,drake-kulick-1,/cfb/players/drake-kulick-1.html,LB,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Iowa,2015
+Derrick Mitchell Jr.,derrick-mitchell-jr-1,/cfb/players/derrick-mitchell-jr-1.html,RB,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Iowa,2015
+Nick Wilson,nick-wilson-3,/cfb/players/nick-wilson-3.html,LB,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Iowa,2015
+Jameer Outsey,jameer-outsey-1,/cfb/players/jameer-outsey-1.html,TE,8,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Iowa,2015

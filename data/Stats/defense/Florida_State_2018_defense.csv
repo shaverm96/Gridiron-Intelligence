@@ -1,0 +1,44 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Hamsah Nasirildeen,hamsah-nasirildeen-1,/cfb/players/hamsah-nasirildeen-1.html,DB,12,51,40,91,0.5,0.0,1,1,1.0,0,2,0,0,0,0,,Florida State,2018
+Dontavious Jackson,dontavious-jackson-1,/cfb/players/dontavious-jackson-1.html,LB,12,46,29,75,7.0,1.0,1,5,5.0,0,3,0,0,0,1,,Florida State,2018
+A.J. Westbrook,aj-westbrook-1,/cfb/players/aj-westbrook-1.html,DB,12,37,28,65,1.5,0.5,2,33,16.5,0,5,0,0,0,0,,Florida State,2018
+Jaiden Lars-Woodbey,jaiden-woodbey-1,/cfb/players/jaiden-woodbey-1.html,DB,12,24,34,58,4.5,1.0,0,0,,0,8,0,0,0,1,,Florida State,2018
+Stanford Samuels III,stanford-samuels-iii-1,/cfb/players/stanford-samuels-iii-1.html,DB,12,37,21,58,1.0,0.0,4,23,5.8,0,4,0,0,0,0,,Florida State,2018
+Brian Burns,brian-burns-2,/cfb/players/brian-burns-2.html,DE,12,31,21,52,15.5,10.0,0,0,,0,3,1,14,0,3,,Florida State,2018
+DeCalon Brooks,decalon-brooks-1,/cfb/players/decalon-brooks-1.html,LB,11,17,29,46,3.0,1.0,0,0,,0,2,1,0,0,1,,Florida State,2018
+Marvin Wilson,marvin-wilson-1,/cfb/players/marvin-wilson-1.html,DT,12,17,25,42,4.5,3.5,0,0,,0,2,0,0,0,1,,Florida State,2018
+Leonard Warner III,leonard-warner-iii-1,/cfb/players/leonard-warner-iii-1.html,LB,12,20,18,38,1.5,0.0,0,0,,0,1,0,0,0,0,,Florida State,2018
+Kyle Meyers,kyle-meyers-1,/cfb/players/kyle-meyers-1.html,DB,12,25,4,29,4.0,2.0,2,0,0.0,0,4,0,0,0,1,,Florida State,2018
+Demarcus Christmas,demarcus-christmas-1,/cfb/players/demarcus-christmas-1.html,DT,11,14,14,28,3.0,0.0,0,0,,0,2,0,0,0,0,,Florida State,2018
+Janarius Robinson,janarius-robinson-1,/cfb/players/janarius-robinson-1.html,DE,12,18,9,27,3.0,1.0,0,0,,0,1,0,0,0,0,,Florida State,2018
+Frederick Jones,frederick-jones-1,/cfb/players/frederick-jones-1.html,DT,10,13,13,26,4.0,2.0,0,0,,0,3,0,0,0,0,,Florida State,2018
+Cyrus Fagan,cyrus-fagan-1,/cfb/players/cyrus-fagan-1.html,DB,12,16,8,24,0.0,0.0,0,0,,0,2,1,0,0,0,,Florida State,2018
+Cory Durden,cory-durden-1,/cfb/players/cory-durden-1.html,DT,12,10,12,22,6.0,2.0,0,0,,0,1,0,0,0,0,,Florida State,2018
+Zaquandre White,zaquandre-white-1,/cfb/players/zaquandre-white-1.html,LB,11,10,12,22,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida State,2018
+Joshua Kaindoh,joshua-kaindoh-1,/cfb/players/joshua-kaindoh-1.html,DE,12,14,6,20,5.0,3.5,0,0,,0,1,0,0,0,0,,Florida State,2018
+Levonta Taylor,levonta-taylor-1,/cfb/players/levonta-taylor-1.html,DB,8,15,4,19,1.0,0.0,1,63,63.0,1,3,0,0,0,1,,Florida State,2018
+Asante Samuel Jr.,asante-samuel-jr-1,/cfb/players/asante-samuel-jr-1.html,DB,12,14,3,17,1.0,0.0,0,0,,0,9,0,0,0,0,,Florida State,2018
+Adonis Thomas,adonis-thomas-2,/cfb/players/adonis-thomas-2.html,LB,10,7,9,16,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida State,2018
+Walvenski Aime,walvenski-aime-1,/cfb/players/walvenski-aime-1.html,DE,11,12,3,15,1.0,0.0,0,0,,0,0,0,0,0,0,,Florida State,2018
+A.J. Lytton,aj-lytton-1,/cfb/players/aj-lytton-1.html,DB,10,9,5,14,1.0,0.0,1,0,0.0,0,2,0,0,0,0,,Florida State,2018
+Robert Cooper,robert-cooper-2,/cfb/players/robert-cooper-2.html,DL,11,3,7,10,0.5,0.0,0,0,,0,0,0,0,0,0,,Florida State,2018
+Anthony Grant,anthony-grant-1,/cfb/players/anthony-grant-1.html,RB,12,6,3,9,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida State,2018
+Tamorrion Terry,tamorrion-terry-1,/cfb/players/tamorrion-terry-1.html,WR,12,5,1,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida State,2018
+Emmett Rice,emmett-rice-1,/cfb/players/emmett-rice-1.html,LB,4,1,4,5,0.5,0.5,0,0,,0,0,0,0,0,0,,Florida State,2018
+Johnathan Vickers,johnathan-vickers-1,/cfb/players/johnathan-vickers-1.html,TE,12,4,0,4,0.0,0.0,0,0,,0,0,0,0,0,1,,Florida State,2018
+Logan Tyler,logan-tyler-1,/cfb/players/logan-tyler-1.html,P,12,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida State,2018
+D.J. Matthews,dj-matthews-1,/cfb/players/dj-matthews-1.html,WR,12,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida State,2018
+Keyshawn Helton,keyshawn-helton-1,/cfb/players/keyshawn-helton-1.html,WR,11,0,3,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida State,2018
+Camren McDonald,camren-mcdonald-1,/cfb/players/camren-mcdonald-1.html,TE,11,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida State,2018
+Amir Rasul,amir-rasul-1,/cfb/players/amir-rasul-1.html,RB,11,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida State,2018
+Dennis Briggs Jr.,dennis-briggs-jr-1,/cfb/players/dennis-briggs-jr-1.html,DE,4,0,2,2,0.0,0.0,0,0,,0,1,0,0,0,0,,Florida State,2018
+Deondre Francois,deondre-francois-1,/cfb/players/deondre-francois-1.html,QB,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida State,2018
+Cam Akers,cam-akers-1,/cfb/players/cam-akers-1.html,RB,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida State,2018
+Mike Arnold,mike-arnold-2,/cfb/players/mike-arnold-2.html,OL,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida State,2018
+Derrick Kelly,derrick-kelly-1,/cfb/players/derrick-kelly-1.html,OL,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida State,2018
+Armani Kerr,armani-kerr-1,/cfb/players/armani-kerr-1.html,LB,1,1,0,1,1.0,0.0,0,0,,0,0,0,0,0,0,,Florida State,2018
+Jacques Patrick,jacques-patrick-1,/cfb/players/jacques-patrick-1.html,RB,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida State,2018
+Gabe Nabers,gabe-nabers-1,/cfb/players/gabe-nabers-1.html,TE,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida State,2018
+Xavier Peters,xavier-peters-1,/cfb/players/xavier-peters-1.html,DE,1,1,0,1,0.0,0.0,0,0,,0,1,0,0,0,0,,Florida State,2018
+Xavier Peters,xavier-peters-2,/cfb/players/xavier-peters-2.html,,2,1,0,1,0.0,0.0,0,0,,0,1,0,0,0,0,,Florida State,2018
+Grant Glennon,grant-glennon-1,/cfb/players/grant-glennon-1.html,LS,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida State,2018

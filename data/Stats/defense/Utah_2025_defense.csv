@@ -1,0 +1,42 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Johnathan Hall,johnathan-hall-1,/cfb/players/johnathan-hall-1.html,LB,13,43,24,67,6.0,2.5,1,4,4.0,0,4,0,0,0,1,,Utah,2025
+Jackson Bennee,jackson-bennee-1,/cfb/players/jackson-bennee-1.html,S,13,43,21,64,4.0,0.5,4,103,25.8,1,5,0,0,0,0,,Utah,2025
+Lander Barton,lander-barton-1,/cfb/players/lander-barton-1.html,LB,13,25,30,55,3.5,1.5,1,0,0.0,0,1,1,0,0,0,,Utah,2025
+Tao Johnson,tao-johnson-1,/cfb/players/tao-johnson-1.html,S,13,27,24,51,2.5,0.0,2,3,1.5,0,4,0,0,0,0,,Utah,2025
+John Henry Daley,john-henry-daley-1,/cfb/players/john-henry-daley-1.html,DE,11,24,24,48,17.5,11.5,0,0,,0,1,0,0,0,2,,Utah,2025
+Levani Damuni,levani-damuni-1,/cfb/players/levani-damuni-1.html,LB,13,24,21,45,4.0,1.0,0,0,,0,0,1,6,0,0,,Utah,2025
+Logan Fano,logan-fano-1,/cfb/players/logan-fano-1.html,DE,11,30,14,44,7.5,4.5,0,0,,0,2,0,0,0,0,,Utah,2025
+Jonah Lea'ea,jonah-leaea-1,/cfb/players/jonah-leaea-1.html,DT,13,23,15,38,2.5,1.0,0,0,,0,1,1,0,0,1,,Utah,2025
+Smith Snowden,smith-snowden-1,/cfb/players/smith-snowden-1.html,CB,13,24,13,37,2.0,0.0,2,41,20.5,0,9,0,0,0,0,,Utah,2025
+Kash Dillon,kash-dillon-1,/cfb/players/kash-dillon-1.html,DE,13,20,15,35,4.5,3.5,0,0,,0,0,0,0,0,1,,Utah,2025
+Elijah Davis,elijah-davis-22,/cfb/players/elijah-davis-22.html,CB,13,25,9,34,1.5,0.0,2,162,81.0,2,2,0,0,0,0,,Utah,2025
+Blake Cotton,blake-cotton-1,/cfb/players/blake-cotton-1.html,CB,13,22,8,30,2.0,0.0,0,0,,0,7,0,0,0,0,,Utah,2025
+Aliki Vimahi,aliki-vimahi-1,/cfb/players/aliki-vimahi-1.html,DT,12,13,17,30,2.5,1.0,0,0,,0,2,0,0,0,0,,Utah,2025
+Trey Reynolds,trey-reynolds-1,/cfb/players/trey-reynolds-1.html,LB,13,14,14,28,6.0,1.5,2,51,25.5,0,0,0,0,0,0,,Utah,2025
+Lance Holtzclaw,lance-holtzclaw-1,/cfb/players/lance-holtzclaw-1.html,DE,13,17,9,26,4.0,1.5,0,0,,0,3,0,0,0,0,,Utah,2025
+Nate Ritchie,nate-ritchie-2,/cfb/players/nate-ritchie-2.html,S,5,16,9,25,3.5,0.0,0,0,,0,1,0,0,0,0,,Utah,2025
+Elijah Elliss,elijah-elliss-1,/cfb/players/elijah-elliss-1.html,LB,13,10,8,18,3.0,2.0,0,0,,0,0,0,0,0,0,,Utah,2025
+Nate Tilmon,nate-tilmon-1,/cfb/players/nate-tilmon-1.html,S,11,6,11,17,1.0,1.0,0,0,,0,0,0,0,0,0,,Utah,2025
+Cyrus Polu,cyrus-polu-1,/cfb/players/cyrus-polu-1.html,LB,13,7,7,14,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah,2025
+Pupu Sepulona,pupu-sepulona-1,/cfb/players/pupu-sepulona-1.html,DT,11,6,7,13,1.0,0.0,0,0,,0,1,0,0,0,0,,Utah,2025
+Karson Kaufusi,karson-kaufusi-1,/cfb/players/karson-kaufusi-1.html,DT,12,5,8,13,0.5,0.5,0,0,,0,0,0,0,0,0,,Utah,2025
+Moroni Anae,moroni-anae-1,/cfb/players/moroni-anae-1.html,LB,10,4,8,12,0.0,0.0,0,0,,0,1,0,0,0,0,,Utah,2025
+Paul Fitzgerald,paul-fitzgerald-2,/cfb/players/paul-fitzgerald-2.html,DE,4,5,6,11,1.5,0.5,0,0,,0,0,0,0,0,0,,Utah,2025
+Dallas Vakalahi,dallas-vakalahi-1,/cfb/players/dallas-vakalahi-1.html,DT,9,3,8,11,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah,2025
+Jeremiah Caldwell,jeremiah-caldwell-1,/cfb/players/jeremiah-caldwell-1.html,DB,12,7,2,9,1.0,0.0,1,0,0.0,0,1,0,0,0,0,,Utah,2025
+Brock Fonoimoana,brock-fonoimoana-1,/cfb/players/brock-fonoimoana-1.html,S,11,5,4,9,0.5,0.0,0,0,,0,0,0,0,0,0,,Utah,2025
+Donovan Saunders,donovan-saunders-1,/cfb/players/donovan-saunders-1.html,CB,8,4,3,7,0.0,0.0,0,0,,0,2,0,0,0,0,,Utah,2025
+JC Hart,jc-hart-1,/cfb/players/jc-hart-1.html,DB,13,5,1,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah,2025
+Mateaki Helu,mateaki-helu-1,/cfb/players/mateaki-helu-1.html,LB,13,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah,2025
+Money Thompson,money-thompson-1,/cfb/players/money-thompson-1.html,CB,13,2,2,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah,2025
+Jason Stokes Jr.,jason-stokes-jr-1,/cfb/players/jason-stokes-jr-1.html,DB,13,2,1,3,0.0,0.0,0,0,,0,1,0,0,0,0,,Utah,2025
+Luca Caldarella,luca-caldarella-1,/cfb/players/luca-caldarella-1.html,WR,13,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah,2025
+Mike Tauteoli,mike-tauteoli-1,/cfb/players/mike-tauteoli-1.html,DT,5,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah,2025
+Kana'i Lopes,kanai-lopes-1,/cfb/players/kanai-lopes-1.html,LB,13,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah,2025
+Omar Shah,omar-shah-1,/cfb/players/omar-shah-1.html,RB,13,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah,2025
+Creed Whittemore,creed-whittemore-1,/cfb/players/creed-whittemore-1.html,WR,9,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah,2025
+Larry Simmons,larry-simmons-3,/cfb/players/larry-simmons-3.html,WR,13,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah,2025
+Daniel Bray,daniel-bray-1,/cfb/players/daniel-bray-1.html,RB,9,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah,2025
+Caleb Lomu,caleb-lomu-1,/cfb/players/caleb-lomu-1.html,OL,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah,2025
+Bryce Duke,bryce-duke-1,/cfb/players/bryce-duke-1.html,RB,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah,2025
+Tobias Merriweather,tobias-merriweather-1,/cfb/players/tobias-merriweather-1.html,WR,7,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah,2025

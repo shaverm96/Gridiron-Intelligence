@@ -1,0 +1,50 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Jacquez Jones,jacquez-jones-2,/cfb/players/jacquez-jones-2.html,LB,12,40,46,86,3.5,0.5,1,0,0.0,0,4,1,0,0,1,,Kentucky,2021
+Yusuf Corker,yusuf-corker-1,/cfb/players/yusuf-corker-1.html,DB,13,44,37,81,3.5,1.0,0,0,,0,8,0,0,0,0,,Kentucky,2021
+DeAndre Square,deandre-square-1,/cfb/players/deandre-square-1.html,LB,13,40,40,80,9.5,3.0,1,0,0.0,0,1,0,0,0,1,,Kentucky,2021
+Carrington Valentine,carrington-valentine-1,/cfb/players/carrington-valentine-1.html,DB,13,46,15,61,1.5,1.0,0,0,,0,5,0,0,0,0,,Kentucky,2021
+Joshua Paschal,joshua-paschal-1,/cfb/players/joshua-paschal-1.html,DE,12,24,29,53,15.5,5.5,0,0,,0,0,0,0,0,1,,Kentucky,2021
+Tyrell Ajian,tyrell-ajian-1,/cfb/players/tyrell-ajian-1.html,G,13,27,19,46,0.0,0.0,1,95,95.0,1,4,0,0,0,0,,Kentucky,2021
+Davonte Robinson,davonte-robinson-1,/cfb/players/davonte-robinson-1.html,DB,13,26,19,45,4.0,1.0,0,0,,0,1,0,0,0,1,,Kentucky,2021
+J.J. Weaver,jj-weaver-1,/cfb/players/jj-weaver-1.html,LB,12,19,15,34,10.0,6.0,2,21,10.5,0,1,0,0,0,1,,Kentucky,2021
+Trevin Wallace,trevin-wallace-1,/cfb/players/trevin-wallace-1.html,LB,12,16,16,32,4.0,2.0,0,0,,0,1,0,0,0,1,,Kentucky,2021
+Jordan Wright,jordan-wright-3,/cfb/players/jordan-wright-3.html,LB,9,15,15,30,4.0,1.0,0,0,,0,6,0,0,0,0,,Kentucky,2021
+Quandre Mosely,quandre-mosely-1,/cfb/players/quandre-mosely-1.html,DB,13,20,6,26,2.0,0.0,2,38,19.0,1,5,0,0,0,0,,Kentucky,2021
+Vito Tisdale,vito-tisdale-1,/cfb/players/vito-tisdale-1.html,S,9,12,9,21,1.5,1.0,0,0,,0,1,0,0,0,0,,Kentucky,2021
+Cedrick Dort Jr.,cedrick-dort-jr-1,/cfb/players/cedrick-dort-jr-1.html,DB,13,12,7,19,0.0,0.0,0,0,,0,0,0,0,0,0,,Kentucky,2021
+D'Eryk Jackson,deryk-jackson-1,/cfb/players/deryk-jackson-1.html,LB,4,13,5,18,0.0,0.0,1,3,3.0,0,0,0,0,0,0,,Kentucky,2021
+Jalen Geiger,jalen-geiger-1,/cfb/players/jalen-geiger-1.html,DB,13,11,7,18,1.0,0.0,1,31,31.0,1,1,0,0,0,0,,Kentucky,2021
+Justin Rogers,justin-rogers-4,/cfb/players/justin-rogers-4.html,DL,13,5,11,16,2.5,1.5,0,0,,0,0,0,0,0,0,,Kentucky,2021
+Tre'Vonn Rybka,trevonn-rybka-1,/cfb/players/trevonn-rybka-1.html,DL,12,6,9,15,0.5,0.0,0,0,,0,0,0,0,0,0,,Kentucky,2021
+Octavious Oxendine,octavious-oxendine-1,/cfb/players/octavious-oxendine-1.html,DT,6,6,9,15,3.5,2.0,0,0,,0,0,0,0,0,0,,Kentucky,2021
+Josaih Hayes,josaih-hayes-1,/cfb/players/josaih-hayes-1.html,DL,13,4,10,14,1.5,1.0,0,0,,0,0,1,0,0,0,,Kentucky,2021
+K.D. McDaniel,kd-mcdaniel-1,/cfb/players/kd-mcdaniel-1.html,LB,10,6,7,13,0.0,0.0,0,0,,0,0,0,0,0,0,,Kentucky,2021
+Abule Abadi-Fitzgerald,abule-abadi-fitzgerald-1,/cfb/players/abule-abadi-fitzgerald-1.html,DT,12,5,7,12,2.5,2.5,0,0,,0,0,0,0,0,1,,Kentucky,2021
+Jared Casey,jared-casey-1,/cfb/players/jared-casey-1.html,LB,13,4,5,9,0.0,0.0,0,0,,0,0,0,0,0,0,,Kentucky,2021
+Marquez Bembry,marquez-bembry-1,/cfb/players/marquez-bembry-1.html,LB,12,4,5,9,1.0,0.0,0,0,,0,0,0,0,0,0,,Kentucky,2021
+Marquan McCall,marquan-mccall-1,/cfb/players/marquan-mccall-1.html,NT,9,4,5,9,3.5,0.0,0,0,,0,0,0,0,0,0,,Kentucky,2021
+Martez Thrower,martez-thrower-1,/cfb/players/martez-thrower-1.html,LB,8,1,5,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Kentucky,2021
+Taj Dodson,taj-dodson-1,/cfb/players/taj-dodson-1.html,DB,11,5,1,6,0.0,0.0,0,0,,0,1,0,0,0,0,,Kentucky,2021
+Isaiah Gibson,isaiah-gibson-1,/cfb/players/isaiah-gibson-1.html,DE,7,1,4,5,0.5,0.0,0,0,,0,0,0,0,0,0,,Kentucky,2021
+Moses Douglass,moses-douglass-1,/cfb/players/moses-douglass-1.html,DB,3,4,0,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Kentucky,2021
+Andru Phillips,andru-phillips-1,/cfb/players/andru-phillips-1.html,DB,9,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Kentucky,2021
+Zach Johnson,zach-johnson-6,/cfb/players/zach-johnson-6.html,DB,13,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Kentucky,2021
+Kahlil Saunders,kahlil-saunders-1,/cfb/players/kahlil-saunders-1.html,DL,4,2,0,2,2.0,0.0,0,0,,0,0,0,0,0,0,,Kentucky,2021
+Zac Berezowitz,zac-berezowitz-1,/cfb/players/zac-berezowitz-1.html,DB,10,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Kentucky,2021
+Joel Williams,joel-williams-2,/cfb/players/joel-williams-2.html,DB,7,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Kentucky,2021
+Sam Anaele,sam-anaele-1,/cfb/players/sam-anaele-1.html,DE,3,1,1,2,1.0,0.0,0,0,,0,0,0,0,0,0,,Kentucky,2021
+Kavosiey Smoke,kavosiey-smoke-1,/cfb/players/kavosiey-smoke-1.html,RB,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Kentucky,2021
+Darian Kinnard,darian-kinnard-1,/cfb/players/darian-kinnard-1.html,T,13,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,AA,Kentucky,2021
+Austin Dotson,austin-dotson-1,/cfb/players/austin-dotson-1.html,G,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kentucky,2021
+William Nalty,william-nalty-1,/cfb/players/william-nalty-1.html,LB,13,0,1,1,0.0,0.0,0,0,,0,0,1,0,0,0,,Kentucky,2021
+Wan'Dale Robinson,wandale-robinson-1,/cfb/players/wandale-robinson-1.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kentucky,2021
+Chance Poore,chance-poore-1,/cfb/players/chance-poore-1.html,K,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kentucky,2021
+Chaucey Magwood,chaucey-magwood-1,/cfb/players/chaucey-magwood-1.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kentucky,2021
+Chris Oats,chris-oats-1,/cfb/players/chris-oats-1.html,LB,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kentucky,2021
+Christopher Rodriguez Jr.,christopher-rodriguez-jr-1,/cfb/players/christopher-rodriguez-jr-1.html,RB,13,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kentucky,2021
+Rickey Hyatt Jr.,rickey-hyatt-jr-1,/cfb/players/rickey-hyatt-jr-1.html,DB,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kentucky,2021
+Izayah Cummings,izayah-cummings-1,/cfb/players/izayah-cummings-1.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kentucky,2021
+Jamarius Dinkins,jamarius-dinkins-1,/cfb/players/jamarius-dinkins-1.html,DT,3,0,1,1,0.5,0.0,0,0,,0,0,0,0,0,0,,Kentucky,2021
+Jordan Lovett,jordan-lovett-1,/cfb/players/jordan-lovett-1.html,DB,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kentucky,2021
+Justice Dingle,justice-dingle-1,/cfb/players/justice-dingle-1.html,LB,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kentucky,2021
+La'Vell Wright,lavell-wright-1,/cfb/players/lavell-wright-1.html,RB,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kentucky,2021

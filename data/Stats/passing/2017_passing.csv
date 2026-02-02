@@ -1,0 +1,523 @@
+Player,Player_ID,Player_Link,team_name_abbr,conf_abbr,games,pass_cmp,pass_att,pass_cmp_pct,pass_yds,pass_td,pass_td_pct,pass_int,pass_int_pct,pass_yds_per_att,pass_adj_yds_per_att,pass_yds_per_cmp,pass_yds_per_g,pass_rating,awards,Year
+Mason Rudolph,mason-rudolph-1,/cfb/players/mason-rudolph-1.html,Oklahoma State,Big 12,13,318,489,65.0,4904,37,7.6,9,1.8,10.0,10.71,15.4,377.2,170.6,H-7,2017
+Baker Mayfield,baker-mayfield-1,/cfb/players/baker-mayfield-1.html,Oklahoma,Big 12,14,285,404,70.5,4627,43,10.6,6,1.5,11.5,12.91,16.2,330.5,198.9,"H-1,Maxwell,AA,Camp",2017
+Riley Ferguson,riley-ferguson-1,/cfb/players/riley-ferguson-1.html,Memphis,American,13,299,474,63.1,4257,38,8.0,9,1.9,9.0,9.73,14.2,327.5,161.2,,2017
+Mike White,mike-white-6,/cfb/players/mike-white-6.html,Western Kentucky,CUSA,13,368,560,65.7,4177,26,4.6,8,1.4,7.5,7.74,11.4,321.3,140.8,,2017
+Sam Darnold,sam-darnold-1,/cfb/players/sam-darnold-1.html,USC,Pac-12,14,303,480,63.1,4143,26,5.4,13,2.7,8.6,8.50,13.7,295.9,148.1,,2017
+Mason Fine,mason-fine-1,/cfb/players/mason-fine-1.html,North Texas,CUSA,14,324,511,63.4,4052,31,6.1,15,2.9,7.9,7.82,12.5,289.4,144.2,,2017
+McKenzie Milton,mckenzie-milton-1,/cfb/players/mckenzie-milton-1.html,UCF,American,13,265,395,67.1,4037,37,9.4,9,2.3,10.2,11.07,15.2,310.5,179.3,H-8,2017
+Tyler Rogers,tyler-rogers-1,/cfb/players/tyler-rogers-1.html,New Mexico State,Sun Belt,12,348,566,61.5,4016,27,4.8,18,3.2,7.1,6.62,11.5,334.7,130.5,,2017
+Justice Hansen,justice-hansen-1,/cfb/players/justice-hansen-1.html,Arkansas State,Sun Belt,12,305,487,62.6,3967,37,7.6,16,3.3,8.1,8.19,13.0,330.6,149.6,,2017
+Drew Lock,drew-lock-1,/cfb/players/drew-lock-1.html,Missouri,SEC,13,242,419,57.8,3964,44,10.5,13,3.1,9.5,10.16,16.4,304.9,165.7,,2017
+Nic Shimonek,nic-shimonek-1,/cfb/players/nic-shimonek-1.html,Texas Tech,Big 12,13,328,493,66.5,3963,33,6.7,10,2.0,8.0,8.46,12.1,304.8,152.1,,2017
+Logan Woodside,logan-woodside-1,/cfb/players/logan-woodside-1.html,Toledo,MAC,14,264,411,64.2,3882,28,6.8,8,1.9,9.4,9.93,14.7,277.3,162.2,,2017
+Nick Stevens,nick-stevens-1,/cfb/players/nick-stevens-1.html,Colorado State,MWC,13,284,459,61.9,3799,29,6.3,10,2.2,8.3,8.56,13.4,292.2,147.9,,2017
+Josh Rosen,josh-rosen-1,/cfb/players/josh-rosen-1.html,UCLA,Pac-12,11,283,452,62.6,3756,26,5.8,10,2.2,8.3,8.46,13.3,341.5,147.0,,2017
+Lamar Jackson,lamar-jackson-1,/cfb/players/lamar-jackson-1.html,Louisville,ACC,13,254,430,59.1,3660,27,6.3,10,2.3,8.5,8.72,14.4,281.5,146.6,H-3,2017
+Luke Falk,luke-falk-1,/cfb/players/luke-falk-1.html,Washington State,Pac-12,12,357,534,66.9,3593,30,5.6,13,2.4,6.7,6.76,10.1,299.4,137.0,,2017
+Trace McSorley,trace-mcsorley-1,/cfb/players/trace-mcsorley-1.html,Penn State,Big Ten,13,284,427,66.5,3570,28,6.6,10,2.3,8.4,8.62,12.6,274.6,153.7,,2017
+Ben Hicks,ben-hicks-1,/cfb/players/ben-hicks-1.html,SMU,American,13,276,472,58.5,3569,33,7.0,12,2.5,7.6,7.82,12.9,274.5,140.0,,2017
+Ryan Finley,ryan-finley-1,/cfb/players/ryan-finley-1.html,North Carolina State,ACC,13,312,479,65.1,3518,17,3.5,6,1.3,7.3,7.49,11.3,270.6,136.0,,2017
+Will Grier,will-grier-1,/cfb/players/will-grier-1.html,West Virginia,Big 12,11,250,388,64.4,3490,34,8.8,12,3.1,9.0,9.36,14.0,317.3,162.7,,2017
+Brandon Silvers,brandon-silvers-2,/cfb/players/brandon-silvers-2.html,Troy,Sun Belt,13,283,443,63.9,3290,17,3.8,7,1.6,7.4,7.48,11.6,253.1,135.8,,2017
+Manny Wilkins,manny-wilkins-1,/cfb/players/manny-wilkins-1.html,Arizona State,Pac-12,13,260,410,63.4,3270,20,4.9,8,2.0,8.0,8.07,12.6,251.5,142.6,,2017
+Shane Morris,shane-morris-1,/cfb/players/shane-morris-1.html,Central Michigan,MAC,13,249,446,55.8,3237,27,6.1,17,3.8,7.3,6.75,13.0,249.0,129.1,,2017
+Kurt Benkert,kurt-benkert-1,/cfb/players/kurt-benkert-1.html,Virginia,ACC,13,298,509,58.5,3207,25,4.9,9,1.8,6.3,6.49,10.8,246.7,124.1,,2017
+John Wolford,john-wolford-1,/cfb/players/john-wolford-1.html,Wake Forest,ACC,12,239,374,63.9,3192,29,7.8,6,1.6,8.5,9.36,13.4,266.0,158.0,,2017
+Jarrett Stidham,jarrett-stidham-1,/cfb/players/jarrett-stidham-1.html,Auburn,SEC,14,246,370,66.5,3158,18,4.9,6,1.6,8.5,8.78,12.8,225.6,151.0,,2017
+Kenny Hill,kenny-hill-1,/cfb/players/kenny-hill-1.html,Texas Christian,Big 12,13,269,400,67.3,3152,23,5.8,8,2.0,7.9,8.13,11.7,242.5,148.4,,2017
+Conner Manning,conner-manning-1,/cfb/players/conner-manning-1.html,Georgia State,Sun Belt,12,259,403,64.3,3146,14,3.5,7,1.7,7.8,7.72,12.1,262.2,137.8,,2017
+Tanner Lee,tanner-lee-1,/cfb/players/tanner-lee-1.html,Nebraska,Big Ten,12,246,428,57.5,3143,23,5.4,16,3.7,7.3,6.74,12.8,261.9,129.4,,2017
+Malik Rosier,malik-rosier-1,/cfb/players/malik-rosier-1.html,Miami (FL),ACC,13,224,415,54.0,3120,26,6.3,14,3.4,7.5,7.25,13.9,240.0,131.1,,2017
+Chase Litton,chase-litton-1,/cfb/players/chase-litton-1.html,Marshall,CUSA,13,266,443,60.0,3115,25,5.6,14,3.2,7.0,6.74,11.7,239.6,131.4,,2017
+J.T. Barrett,jt-barrett-1,/cfb/players/jt-barrett-1.html,Ohio State,Big Ten,14,240,371,64.7,3053,35,9.4,9,2.4,8.2,9.02,12.7,218.1,160.1,,2017
+Ross Bowers,ross-bowers-1,/cfb/players/ross-bowers-1.html,California,Pac-12,12,272,461,59.0,3039,18,3.9,12,2.6,6.6,6.20,11.2,253.3,122.1,,2017
+Josh Jackson,josh-jackson-3,/cfb/players/josh-jackson-3.html,Virginia Tech,ACC,13,236,396,59.6,2991,20,5.1,9,2.3,7.6,7.54,12.7,230.1,135.2,,2017
+Steven Montez,steven-montez-1,/cfb/players/steven-montez-1.html,Colorado,Pac-12,12,228,377,60.5,2975,18,4.8,9,2.4,7.9,7.77,13.0,247.9,137.7,,2017
+J'mar Smith,jmar-smith-1,/cfb/players/jmar-smith-1.html,Louisiana Tech,CUSA,13,229,409,56.0,2974,16,3.9,5,1.2,7.3,7.50,13.0,228.8,127.5,,2017
+Andrew Ford,andrew-ford-1,/cfb/players/andrew-ford-1.html,Massachusetts,Ind,11,223,353,63.2,2924,22,6.2,4,1.1,8.3,9.02,13.1,265.8,151.1,,2017
+Quinton Flowers,quinton-flowers-1,/cfb/players/quinton-flowers-1.html,South Florida,American,12,188,354,53.1,2911,25,7.1,6,1.7,8.2,8.87,15.5,242.6,142.1,,2017
+Brogan Roback,brogan-roback-1,/cfb/players/brogan-roback-1.html,Eastern Michigan,MAC,12,245,409,59.9,2890,19,4.6,15,3.7,7.1,6.34,11.8,240.8,127.3,,2017
+Brett Rypien,brett-rypien-1,/cfb/players/brett-rypien-1.html,Boise State,MWC,13,218,348,62.6,2877,16,4.6,6,1.7,8.3,8.41,13.2,221.3,143.8,,2017
+Caleb Evans,caleb-evans-2,/cfb/players/caleb-evans-2.html,Louisiana-Monroe,Sun Belt,12,211,344,61.3,2868,17,4.9,6,1.7,8.3,8.54,13.6,239.0,144.2,,2017
+Clayton Thorson,clayton-thorson-1,/cfb/players/clayton-thorson-1.html,Northwestern,Big Ten,13,262,434,60.4,2844,15,3.5,12,2.8,6.6,6.00,10.9,218.8,121.3,,2017
+Kyle Shurmur,kyle-shurmur-1,/cfb/players/kyle-shurmur-1.html,Vanderbilt,SEC,12,220,380,57.9,2823,26,6.8,10,2.6,7.4,7.61,12.8,235.3,137.6,,2017
+Kelly Bryant,kelly-bryant-1,/cfb/players/kelly-bryant-1.html,Clemson,ACC,14,262,398,65.8,2802,13,3.3,8,2.0,7.0,6.79,10.7,200.1,131.7,,2017
+Alex McGough,alex-mcgough-1,/cfb/players/alex-mcgough-1.html,Florida International,CUSA,13,232,355,65.4,2798,17,4.8,8,2.3,7.9,7.83,12.1,215.2,142.9,,2017
+Jake Bentley,jake-bentley-2,/cfb/players/jake-bentley-2.html,South Carolina,SEC,13,245,394,62.2,2794,18,4.6,12,3.0,7.1,6.63,11.4,214.9,130.7,,2017
+Brian Lewerke,brian-lewerke-1,/cfb/players/brian-lewerke-1.html,Michigan State,Big Ten,13,246,417,59.0,2793,20,4.8,7,1.7,6.7,6.90,11.4,214.8,127.7,,2017
+Dru Brown,dru-brown-1,/cfb/players/dru-brown-1.html,Hawaii,MWC,12,254,412,61.7,2785,18,4.4,8,1.9,6.8,6.76,11.0,232.1,129.0,,2017
+Ty Gangi,ty-gangi-1,/cfb/players/ty-gangi-1.html,Nevada,MWC,10,228,374,61.0,2746,25,6.7,11,2.9,7.3,7.36,12.0,274.6,138.8,,2017
+Taylor Lamb,taylor-lamb-1,/cfb/players/taylor-lamb-1.html,Appalachian State,Sun Belt,13,206,337,61.1,2737,27,8.0,6,1.8,8.1,8.92,13.3,210.5,152.2,,2017
+Marcus McMaryion,marcus-mcmaryion-1,/cfb/players/marcus-mcmaryion-1.html,Fresno State,MWC,14,218,351,62.1,2726,14,4.0,5,1.4,7.8,7.92,12.5,194.7,137.7,,2017
+Jake Browning,jake-browning-1,/cfb/players/jake-browning-1.html,Washington,Pac-12,13,230,336,68.5,2719,19,5.7,5,1.5,8.1,8.55,11.8,209.2,152.1,,2017
+Daniel Jones,daniel-jones-4,/cfb/players/daniel-jones-4.html,Duke,ACC,13,257,453,56.7,2691,14,3.1,11,2.4,5.9,5.47,10.5,207.0,112.0,,2017
+Alex Hornibrook,alex-hornibrook-1,/cfb/players/alex-hornibrook-1.html,Wisconsin,Big Ten,14,198,318,62.3,2644,25,7.9,15,4.7,8.3,7.76,13.4,188.9,148.6,,2017
+Jake Fromm,jake-fromm-1,/cfb/players/jake-fromm-1.html,Georgia,SEC,15,181,291,62.2,2615,24,8.2,7,2.4,9.0,9.55,14.4,174.3,160.1,,2017
+Hayden Moore,hayden-moore-1,/cfb/players/hayden-moore-1.html,Cincinnati,American,12,239,424,56.4,2562,20,4.7,9,2.1,6.0,6.03,10.7,213.5,118.4,,2017
+Eric Dungey,eric-dungey-1,/cfb/players/eric-dungey-1.html,Syracuse,ACC,9,225,377,59.7,2495,14,3.7,9,2.4,6.6,6.29,11.1,277.2,122.8,,2017
+Danny Etling,danny-etling-1,/cfb/players/danny-etling-1.html,LSU,SEC,13,165,275,60.0,2463,16,5.8,2,0.7,9.0,9.79,14.9,189.5,153.0,,2017
+Nathan Stanley,nathan-stanley-2,/cfb/players/nathan-stanley-2.html,Iowa,Big Ten,13,196,351,55.8,2437,26,7.4,6,1.7,6.9,7.66,12.4,187.5,135.2,,2017
+Tyler Huntley,tyler-huntley-1,/cfb/players/tyler-huntley-1.html,Utah,Pac-12,10,199,312,63.8,2411,15,4.8,10,3.2,7.7,7.25,12.1,241.1,138.1,,2017
+A.J. Erdely,aj-erdely-1,/cfb/players/aj-erdely-1.html,UAB,CUSA,13,205,338,60.7,2331,16,4.7,4,1.2,6.9,7.31,11.4,179.3,131.8,,2017
+Stephen Johnson,stephen-johnson-8,/cfb/players/stephen-johnson-8.html,Kentucky,SEC,13,189,316,59.8,2305,10,3.2,6,1.9,7.3,7.07,12.2,177.3,127.7,,2017
+Bryant Shirreffs,bryant-shirreffs-1,/cfb/players/bryant-shirreffs-1.html,Connecticut,American,9,171,260,65.8,2287,14,5.4,5,1.9,8.8,9.01,13.4,254.1,153.6,,2017
+Shea Patterson,shea-patterson-1,/cfb/players/shea-patterson-1.html,Ole Miss,SEC,7,166,260,63.8,2259,17,6.5,9,3.5,8.7,8.44,13.6,322.7,151.5,,2017
+Jason Driskel,jason-driskel-1,/cfb/players/jason-driskel-1.html,Florida Atlantic,CUSA,13,185,278,66.5,2247,15,5.4,4,1.4,8.1,8.51,12.1,172.8,149.4,,2017
+James Blackman,james-blackman-1,/cfb/players/james-blackman-1.html,Florida State,ACC,13,173,297,58.2,2230,19,6.4,11,3.7,7.5,7.12,12.9,171.5,135.0,,2017
+Nathan Rourke,nathan-rourke-1,/cfb/players/nathan-rourke-1.html,Ohio,MAC,13,161,292,55.1,2203,17,5.8,7,2.4,7.5,7.63,13.7,169.5,132.9,,2017
+Dalton Sturm,dalton-sturm-1,/cfb/players/dalton-sturm-1.html,UTSA,CUSA,11,185,297,62.3,2185,15,5.1,5,1.7,7.4,7.61,11.8,198.6,137.4,,2017
+Gardner Minshew,gardner-minshew-1,/cfb/players/gardner-minshew-1.html,East Carolina,American,10,174,304,57.2,2140,16,5.3,7,2.3,7.0,7.06,12.3,214.0,129.1,,2017
+Elijah Sindelar,elijah-sindelar-1,/cfb/players/elijah-sindelar-1.html,Purdue,Big Ten,12,187,329,56.8,2099,18,5.5,7,2.1,6.4,6.52,11.2,174.9,124.2,,2017
+Tyree Jackson,tyree-jackson-1,/cfb/players/tyree-jackson-1.html,Buffalo,MAC,9,143,237,60.3,2096,12,5.1,3,1.3,8.8,9.29,14.7,232.9,148.8,,2017
+Jalen Hurts,jalen-hurts-1,/cfb/players/jalen-hurts-1.html,Alabama,SEC,14,154,254,60.6,2081,17,6.7,1,0.4,8.2,9.35,13.5,148.6,150.7,,2017
+Damian Williams,damian-williams-3,/cfb/players/damian-williams-3.html,Texas State,Sun Belt,12,194,333,58.3,2061,12,3.6,9,2.7,6.2,5.69,10.6,171.8,116.7,,2017
+Matt Linehan,matt-linehan-1,/cfb/players/matt-linehan-1.html,Idaho,Sun Belt,9,173,281,61.6,2056,16,5.7,4,1.4,7.3,7.81,11.9,228.4,139.0,,2017
+Gus Ragland,gus-ragland-1,/cfb/players/gus-ragland-1.html,Miami (OH),MAC,9,150,268,56.0,2032,19,7.1,7,2.6,7.6,7.82,13.5,225.8,137.8,,2017
+Justin Herbert,justin-herbert-1,/cfb/players/justin-herbert-1.html,Oregon,Pac-12,8,139,206,67.5,1983,15,7.3,5,2.4,9.6,9.99,14.3,247.9,167.5,,2017
+Richard Lagow,richard-lagow-1,/cfb/players/richard-lagow-1.html,Indiana,Big Ten,10,172,295,58.3,1936,15,5.1,8,2.7,6.6,6.36,11.3,193.6,124.8,,2017
+Sam Ehlinger,sam-ehlinger-1,/cfb/players/sam-ehlinger-1.html,Texas,Big 12,9,158,275,57.5,1915,11,4.0,7,2.5,7.0,6.62,12.1,212.8,124.1,,2017
+Kwadra Griggs,kwadra-griggs-1,/cfb/players/kwadra-griggs-1.html,Southern Mississippi,CUSA,10,148,265,55.8,1879,16,6.0,2,0.8,7.1,7.96,12.7,187.9,133.8,,2017
+Christian Chapman,christian-chapman-1,/cfb/players/christian-chapman-1.html,San Diego State,MWC,13,146,243,60.1,1873,13,5.3,4,1.6,7.7,8.04,12.8,144.1,139.2,,2017
+Brandon Wimbush,brandon-wimbush-1,/cfb/players/brandon-wimbush-1.html,Notre Dame,Ind,12,136,275,49.5,1870,16,5.8,6,2.2,6.8,6.98,13.8,155.8,121.4,,2017
+Josh Allen,josh-allen-7,/cfb/players/josh-allen-7.html,Wyoming,MWC,11,152,270,56.3,1812,16,5.9,6,2.2,6.7,6.90,11.9,164.7,127.8,,2017
+Jonathan Banks,jonathan-banks-1,/cfb/players/jonathan-banks-1.html,Tulane,American,11,124,219,56.6,1797,12,5.5,5,2.3,8.2,8.27,14.5,163.4,139.1,,2017
+Nick Starkel,nick-starkel-1,/cfb/players/nick-starkel-1.html,Texas A&M,SEC,7,123,205,60.0,1793,14,6.8,6,2.9,8.7,8.80,14.6,256.1,150.2,,2017
+Kyle Kempt,kyle-kempt-1,/cfb/players/kyle-kempt-1.html,Iowa State,Big 12,9,161,243,66.3,1787,15,6.2,3,1.2,7.4,8.03,11.1,198.6,145.9,,2017
+Nick Fitzgerald,nick-fitzgerald-2,/cfb/players/nick-fitzgerald-2.html,Mississippi State,SEC,12,159,286,55.6,1782,15,5.2,11,3.8,6.2,5.55,11.2,148.5,117.5,,2017
+Tommy Woodson,tommy-woodson-1,/cfb/players/tommy-woodson-1.html,Akron,MAC,10,159,278,57.2,1777,14,5.0,9,3.2,6.4,5.94,11.2,177.7,121.0,,2017
+Jordan Ta'amu,jordan-taamu-1,/cfb/players/jordan-taamu-1.html,Ole Miss,SEC,8,115,173,66.5,1682,11,6.4,4,2.3,9.7,9.95,14.6,210.3,164.5,,2017
+Marcus Childers,marcus-childers-1,/cfb/players/marcus-childers-1.html,Northern Illinois,MAC,12,152,265,57.4,1674,16,6.0,5,1.9,6.3,6.68,11.0,139.5,126.6,,2017
+Brent Stockstill,brent-stockstill-1,/cfb/players/brent-stockstill-1.html,Middle Tennessee State,CUSA,7,138,239,57.7,1672,16,6.7,8,3.3,7.0,6.83,12.1,238.9,131.9,,2017
+Logan Marchi,logan-marchi-1,/cfb/players/logan-marchi-1.html,Temple,American,7,136,245,55.5,1658,9,3.7,8,3.3,6.8,6.03,12.2,236.9,117.9,,2017
+Thomas Sirk,thomas-sirk-1,/cfb/players/thomas-sirk-1.html,East Carolina,American,11,132,238,55.5,1655,9,3.8,9,3.8,7.0,6.01,12.5,150.5,118.8,,2017
+Jordan Love,jordan-love-2,/cfb/players/jordan-love-2.html,Utah State,MWC,12,129,235,54.9,1631,8,3.4,6,2.6,6.9,6.47,12.6,135.9,119.3,,2017
+Peyton Bender,peyton-bender-1,/cfb/players/peyton-bender-1.html,Kansas,Big 12,10,148,273,54.2,1609,10,3.7,10,3.7,5.9,4.98,10.9,160.9,108.5,,2017
+Frank Nutile,frank-nutile-1,/cfb/players/frank-nutile-1.html,Temple,American,8,122,199,61.3,1600,12,6.0,7,3.5,8.0,7.66,13.1,200.0,141.7,,2017
+Khalil Tate,khalil-tate-1,/cfb/players/khalil-tate-1.html,Arizona,Pac-12,11,111,179,62.0,1591,14,7.8,9,5.0,8.9,8.19,14.3,144.6,152.4,,2017
+K.J. Costello,kj-costello-1,/cfb/players/kj-costello-1.html,Stanford,Pac-12,11,124,211,58.8,1573,14,6.6,4,1.9,7.5,7.93,12.7,143.0,139.5,,2017
+Charlie Brewer,charlie-brewer-1,/cfb/players/charlie-brewer-1.html,Baylor,Big 12,8,139,204,68.1,1562,11,5.4,4,2.0,7.7,7.85,11.2,195.3,146.3,,2017
+Tanner Mangum,tanner-mangum-1,/cfb/players/tanner-mangum-1.html,BYU,Ind,8,147,257,57.2,1540,8,3.1,9,3.5,6.0,5.04,10.5,192.5,110.8,,2017
+Montel Aaron,montel-aaron-1,/cfb/players/montel-aaron-1.html,San Jose State,MWC,10,126,225,56.0,1531,8,3.6,10,4.4,6.8,5.52,12.2,153.1,116.0,,2017
+Steven Williams,steven-williams-2,/cfb/players/steven-williams-2.html,Old Dominion,CUSA,10,147,263,55.9,1528,6,2.3,11,4.2,5.8,4.38,10.4,152.8,103.9,,2017
+Hasaan Klugh,hasaan-klugh-1,/cfb/players/hasaan-klugh-1.html,Charlotte,CUSA,11,133,279,47.7,1524,10,3.6,13,4.7,5.5,4.08,11.5,138.5,96.1,,2017
+John Urzua,john-urzua-1,/cfb/players/john-urzua-1.html,Middle Tennessee State,CUSA,6,136,220,61.8,1522,7,3.2,9,4.1,6.9,5.71,11.2,253.7,122.2,,2017
+Cole Garvin,cole-garvin-1,/cfb/players/cole-garvin-1.html,South Alabama,Sun Belt,8,122,232,52.6,1490,7,3.0,7,3.0,6.4,5.67,12.2,186.3,110.5,,2017
+Armani Rogers,armani-rogers-1,/cfb/players/armani-rogers-1.html,Nevada-Las Vegas,MWC,10,99,189,52.4,1471,6,3.2,5,2.6,7.8,7.23,14.9,147.1,122.9,,2017
+Zach Smith,zach-smith-6,/cfb/players/zach-smith-6.html,Baylor,Big 12,9,105,201,52.2,1471,8,4.0,8,4.0,7.3,6.32,14.0,163.4,118.9,,2017
+Darell Garretson,darell-garretson-1,/cfb/players/darell-garretson-1.html,Oregon State,Pac-12,10,128,221,57.9,1465,6,2.7,8,3.6,6.6,5.54,11.4,146.5,115.3,,2017
+Tyler Keane,tyler-keane-1,/cfb/players/tyler-keane-1.html,Coastal Carolina,Sun Belt,10,100,170,58.8,1440,11,6.5,5,2.9,8.5,8.44,14.4,144.0,145.4,,2017
+Feleipe Franks,feleipe-franks-1,/cfb/players/feleipe-franks-1.html,Florida,SEC,11,125,229,54.6,1438,9,3.9,8,3.5,6.3,5.49,11.5,130.7,113.3,,2017
+Austin Allen,austin-allen-1,/cfb/players/austin-allen-1.html,Arkansas,SEC,8,105,187,56.1,1427,10,5.3,5,2.7,7.6,7.50,13.6,178.4,132.5,,2017
+Shane Buechele,shane-buechele-1,/cfb/players/shane-buechele-1.html,Texas,Big 12,9,137,213,64.3,1405,7,3.3,4,1.9,6.6,6.41,10.3,156.1,126.8,,2017
+Jon Wassink,jon-wassink-1,/cfb/players/jon-wassink-1.html,Western Michigan,MAC,8,124,193,64.2,1391,14,7.3,4,2.1,7.2,7.73,11.2,173.9,144.6,,2017
+Jordan Davis,jordan-davis-5,/cfb/players/jordan-davis-5.html,Louisiana,Sun Belt,10,122,215,56.7,1386,10,4.7,8,3.7,6.4,5.70,11.4,138.6,118.8,,2017
+Jarret Doege,jarret-doege-1,/cfb/players/jarret-doege-1.html,Bowling Green,MAC,7,120,188,63.8,1381,12,6.4,3,1.6,7.3,7.90,11.5,197.3,143.4,,2017
+Kellen Mond,kellen-mond-1,/cfb/players/kellen-mond-1.html,Texas A&M,SEC,11,117,227,51.5,1375,8,3.5,6,2.6,6.1,5.57,11.8,125.0,108.8,,2017
+Anthony Brown,anthony-brown-11,/cfb/players/anthony-brown-11.html,Boston College,ACC,10,134,258,51.9,1367,11,4.3,9,3.5,5.3,4.58,10.2,136.7,103.5,,2017
+Dallas Davis,dallas-davis-2,/cfb/players/dallas-davis-2.html,South Alabama,Sun Belt,9,100,175,57.1,1355,8,4.6,7,4.0,7.7,6.86,13.6,150.6,129.3,,2017
+Chazz Surratt,chazz-surratt-1,/cfb/players/chazz-surratt-1.html,North Carolina,ACC,9,107,183,58.5,1342,8,4.4,3,1.6,7.3,7.47,12.5,149.1,131.2,,2017
+Max Bortenschlager,max-bortenschlager-1,/cfb/players/max-bortenschlager-1.html,Maryland,Big Ten,12,121,233,51.9,1313,10,4.3,5,2.1,5.6,5.53,10.9,109.4,109.1,,2017
+Kent Myers,kent-myers-1,/cfb/players/kent-myers-1.html,Utah State,MWC,10,124,197,62.9,1278,8,4.1,7,3.6,6.5,5.70,10.3,127.8,123.7,,2017
+Jeff George Jr.,jeff-george-jr-1,/cfb/players/jeff-george-jr-1.html,Illinois,Big Ten,7,94,181,51.9,1273,7,3.9,10,5.5,7.0,5.32,13.5,181.9,112.7,,2017
+D'Eriq King,deriq-king-1,/cfb/players/deriq-king-1.html,Houston,American,10,90,139,64.7,1260,7,5.0,2,1.4,9.1,9.42,14.0,126.0,154.6,,2017
+James Morgan,james-morgan-1,/cfb/players/james-morgan-1.html,Bowling Green,MAC,7,96,212,45.3,1260,9,4.2,7,3.3,5.9,5.31,13.1,180.0,102.6,,2017
+Peyton Ramsey,peyton-ramsey-1,/cfb/players/peyton-ramsey-1.html,Indiana,Big Ten,9,134,205,65.4,1252,10,4.9,5,2.4,6.1,5.99,9.3,139.1,127.9,,2017
+Keon Howard,keon-howard-1,/cfb/players/keon-howard-1.html,Southern Mississippi,CUSA,9,96,170,56.5,1199,8,4.7,5,2.9,7.1,6.67,12.5,133.2,125.4,,2017
+Jacob Park,jacob-park-1,/cfb/players/jacob-park-1.html,Iowa State,Big 12,4,100,162,61.7,1181,9,5.6,5,3.1,7.3,7.01,11.8,295.3,135.1,,2017
+Tyler Hilinski,tyler-hilinski-1,/cfb/players/tyler-hilinski-1.html,Washington State,Pac-12,8,130,179,72.6,1176,7,3.9,7,3.9,6.6,5.59,9.0,147.0,132.9,,2017
+Luke Skipper,luke-skipper-1,/cfb/players/luke-skipper-1.html,Tulsa,American,7,71,127,55.9,1141,3,2.4,4,3.1,9.0,8.04,16.1,163.0,132.9,,2017
+George Bollas,george-bollas-1,/cfb/players/george-bollas-1.html,Kent State,MAC,11,88,182,48.4,1133,4,2.2,12,6.6,6.2,3.70,12.9,103.0,94.7,,2017
+Kyle Postma,kyle-postma-1,/cfb/players/kyle-postma-1.html,Houston,American,7,111,167,66.5,1125,5,3.0,6,3.6,6.7,5.72,10.1,160.7,125.7,,2017
+Carter Stanley,carter-stanley-1,/cfb/players/carter-stanley-1.html,Kansas,Big 12,9,101,185,54.6,1108,4,2.2,7,3.8,6.0,4.72,11.0,123.1,104.5,,2017
+David Blough,david-blough-1,/cfb/players/david-blough-1.html,Purdue,Big Ten,9,102,157,65.0,1103,9,5.7,4,2.5,7.0,7.03,10.8,122.6,137.8,,2017
+Arion Worthman,arion-worthman-1,/cfb/players/arion-worthman-1.html,Air Force,MWC,10,54,109,49.5,1100,10,9.2,4,3.7,10.1,10.28,20.4,110.0,157.2,,2017
+Ben DiNucci,ben-dinucci-1,/cfb/players/ben-dinucci-1.html,Pitt,ACC,10,88,158,55.7,1091,5,3.2,5,3.2,6.9,6.11,12.4,109.1,117.8,,2017
+Drew Anderson,drew-anderson-1,/cfb/players/drew-anderson-1.html,Buffalo,MAC,5,66,106,62.3,1039,10,9.4,1,0.9,9.8,11.26,15.7,207.8,173.8,,2017
+Cole Kelley,cole-kelley-1,/cfb/players/cole-kelley-1.html,Arkansas,SEC,9,87,151,57.6,1038,8,5.3,4,2.6,6.9,6.74,11.9,115.3,127.5,,2017
+Jarrett Guarantano,jarrett-guarantano-1,/cfb/players/jarrett-guarantano-1.html,Tennessee,SEC,9,86,139,61.9,997,4,2.9,2,1.4,7.2,7.10,11.6,110.8,128.7,,2017
+Max Browne,max-browne-1,/cfb/players/max-browne-1.html,Pitt,ACC,6,96,135,71.1,997,5,3.7,2,1.5,7.4,7.46,10.4,166.2,142.4,,2017
+Kato Nelson,kato-nelson-1,/cfb/players/kato-nelson-1.html,Akron,MAC,10,70,140,50.0,989,8,5.7,2,1.4,7.1,7.56,14.1,98.9,125.3,,2017
+John O'Korn,john-okorn-1,/cfb/players/john-okorn-1.html,Michigan,Big Ten,10,84,157,53.5,973,2,1.3,6,3.8,6.2,4.73,11.6,97.3,102.1,,2017
+Jack Milas,jack-milas-1,/cfb/players/jack-milas-1.html,Ball State,MAC,12,110,207,53.1,970,2,1.0,8,3.9,4.7,3.14,8.8,80.8,88.0,,2017
+Keller Chryst,keller-chryst-1,/cfb/players/keller-chryst-1.html,Stanford,Pac-12,7,78,144,54.2,962,8,5.6,4,2.8,6.7,6.54,12.3,137.4,123.1,,2017
+David Pindell,david-pindell-1,/cfb/players/david-pindell-1.html,Connecticut,American,9,84,159,52.8,937,4,2.5,6,3.8,5.9,4.70,11.2,104.1,103.1,,2017
+Jesse Ertz,jesse-ertz-1,/cfb/players/jesse-ertz-1.html,Kansas State,Big 12,5,55,100,55.0,930,7,7.0,3,3.0,9.3,9.35,16.9,186.0,150.2,,2017
+Shai Werts,shai-werts-1,/cfb/players/shai-werts-1.html,Georgia Southern,Sun Belt,11,85,152,55.9,929,7,4.6,5,3.3,6.1,5.55,10.9,84.5,115.9,,2017
+Josh Love,josh-love-1,/cfb/players/josh-love-1.html,San Jose State,MWC,9,92,170,54.1,928,5,2.9,7,4.1,5.5,4.19,10.1,103.1,101.4,,2017
+TaQuon Marshall,taquon-marshall-1,/cfb/players/taquon-marshall-1.html,Georgia Tech,ACC,11,43,116,37.1,927,10,8.6,5,4.3,8.0,7.78,21.6,84.3,124.0,,2017
+Nathan Elliott,nathan-elliott-1,/cfb/players/nathan-elliott-1.html,North Carolina,ACC,5,75,146,51.4,926,10,6.8,5,3.4,6.3,6.17,12.3,185.2,120.4,,2017
+Quinten Dormady,quinten-dormady-1,/cfb/players/quinten-dormady-1.html,Tennessee,SEC,6,76,137,55.5,925,6,4.4,6,4.4,6.8,5.66,12.2,154.2,117.9,,2017
+Chad President,chad-president-1,/cfb/players/chad-president-1.html,Tulsa,American,12,83,157,52.9,921,3,1.9,2,1.3,5.9,5.68,11.1,76.8,105.9,,2017
+Jake Luton,jake-luton-1,/cfb/players/jake-luton-1.html,Oregon State,Pac-12,4,83,135,61.5,853,4,3.0,4,3.0,6.3,5.58,10.3,213.3,118.4,,2017
+Conor Rhoda,conor-rhoda-1,/cfb/players/conor-rhoda-1.html,Minnesota,Big Ten,7,59,109,54.1,839,5,4.6,4,3.7,7.7,6.96,14.2,119.9,126.6,,2017
+Billy Bahl,billy-bahl-1,/cfb/players/billy-bahl-1.html,Miami (OH),MAC,4,61,117,52.1,820,5,4.3,4,3.4,7.0,6.32,13.4,205.0,118.3,,2017
+Zack Greenlee,zack-greenlee-1,/cfb/players/zack-greenlee-1.html,UTEP,CUSA,9,72,151,47.7,818,4,2.6,6,4.0,5.4,4.16,11.4,90.9,94.0,,2017
+Troy Williams,troy-williams-2,/cfb/players/troy-williams-2.html,Utah,Pac-12,8,60,110,54.5,812,2,1.8,4,3.6,7.4,6.11,13.5,101.5,115.3,,2017
+Zach Abey,zach-abey-1,/cfb/players/zach-abey-1.html,Navy,American,12,31,72,43.1,805,7,9.7,7,9.7,11.2,8.75,26.0,67.1,149.6,,2017
+Andre Nunez,andre-nunez-1,/cfb/players/andre-nunez-1.html,Louisiana,Sun Belt,4,61,99,61.6,783,4,4.0,2,2.0,7.9,7.81,12.8,195.8,137.3,,2017
+Montell Cozart,montell-cozart-1,/cfb/players/montell-cozart-1.html,Boise State,MWC,14,61,97,62.9,754,10,10.3,1,1.0,7.8,9.37,12.4,53.9,160.1,,2017
+Kyle Allen,kyle-allen-1,/cfb/players/kyle-allen-1.html,Houston,American,5,80,105,76.2,751,4,3.8,4,3.8,7.2,6.20,9.4,150.2,141.2,,2017
+Kilton Anderson,kilton-anderson-1,/cfb/players/kilton-anderson-1.html,Coastal Carolina,Sun Belt,6,49,109,45.0,743,7,6.4,3,2.8,6.8,6.86,15.2,123.8,117.9,,2017
+Darius Wade,darius-wade-1,/cfb/players/darius-wade-1.html,Boston College,ACC,10,62,102,60.8,736,3,2.9,3,2.9,7.2,6.48,11.9,73.6,125.2,,2017
+Brandon Dawkins,brandon-dawkins-2,/cfb/players/brandon-dawkins-2.html,Arizona,Pac-12,7,70,114,61.4,732,5,4.4,4,3.5,6.4,5.72,10.5,104.6,122.8,,2017
+Johnny Stanton,johnny-stanton-1,/cfb/players/johnny-stanton-1.html,Nevada-Las Vegas,MWC,8,55,88,62.5,724,4,4.5,2,2.3,8.2,8.11,13.2,90.5,142.1,,2017
+Daniel Santacaterina,daniel-santacaterina-1,/cfb/players/daniel-santacaterina-1.html,Northern Illinois,MAC,6,62,97,63.9,712,7,7.2,5,5.2,7.3,6.46,11.5,118.7,139.1,,2017
+Kyle Bolin,kyle-bolin-1,/cfb/players/kyle-bolin-1.html,Rutgers,Big Ten,6,73,133,54.9,711,3,2.3,6,4.5,5.3,3.77,9.7,118.5,98.2,,2017
+Tevaka Tuioti,tevaka-tuioti-1,/cfb/players/tevaka-tuioti-1.html,New Mexico,MWC,8,57,118,48.3,705,4,3.4,6,5.1,6.0,4.36,12.4,88.1,99.5,,2017
+Skylar Thompson,skylar-thompson-1,/cfb/players/skylar-thompson-1.html,Kansas State,Big 12,8,51,83,61.4,689,5,6.0,3,3.6,8.3,7.88,13.5,86.1,143.8,,2017
+Demry Croft,demry-croft-1,/cfb/players/demry-croft-1.html,Minnesota,Big Ten,9,51,123,41.5,674,4,3.3,7,5.7,5.5,3.57,13.2,74.9,86.8,,2017
+Brandon Peters,brandon-peters-1,/cfb/players/brandon-peters-1.html,Michigan,Big Ten,6,57,108,52.8,672,4,3.7,2,1.9,6.2,6.13,11.8,112.0,113.6,,2017
+Devon Modster,devon-modster-1,/cfb/players/devon-modster-1.html,UCLA,Pac-12,5,51,79,64.6,671,4,5.1,0,0.0,8.5,9.51,13.2,134.2,152.6,,2017
+Riley Neal,riley-neal-1,/cfb/players/riley-neal-1.html,Ball State,MAC,3,67,99,67.7,659,6,6.1,3,3.0,6.7,6.51,9.8,219.7,137.5,,2017
+Ross Comis,ross-comis-1,/cfb/players/ross-comis-1.html,Massachusetts,Ind,10,49,87,56.3,646,4,4.6,1,1.1,7.4,7.83,13.2,64.6,131.6,,2017
+Joe Critchlow,joe-critchlow-1,/cfb/players/joe-critchlow-1.html,BYU,Ind,6,55,101,54.5,642,3,3.0,4,4.0,6.4,5.17,11.7,107.0,109.7,,2017
+Alex Delton,alex-delton-1,/cfb/players/alex-delton-1.html,Kansas State,Big 12,7,49,85,57.6,637,3,3.5,2,2.4,7.5,7.14,13.0,91.0,127.5,,2017
+Ryan Metz,ryan-metz-1,/cfb/players/ryan-metz-1.html,UTEP,CUSA,8,63,130,48.5,637,3,2.3,6,4.6,4.9,3.28,10.1,79.6,88.0,,2017
+Tua Tagovailoa,tua-tagovailoa-1,/cfb/players/tua-tagovailoa-1.html,Alabama,SEC,9,49,77,63.6,636,11,14.3,2,2.6,8.3,9.95,13.0,70.7,175.0,,2017
+Miklo Smalls,miklo-smalls-1,/cfb/players/miklo-smalls-1.html,Rice,CUSA,6,43,75,57.3,623,1,1.3,5,6.7,8.3,5.57,14.5,103.8,118.2,,2017
+Lamar Jordan,lamar-jordan-1,/cfb/players/lamar-jordan-1.html,New Mexico,MWC,11,46,93,49.5,604,3,3.2,6,6.5,6.5,4.24,13.1,54.9,101.8,,2017
+Jackson Tyner,jackson-tyner-1,/cfb/players/jackson-tyner-1.html,Rice,CUSA,7,46,97,47.4,598,2,2.1,5,5.2,6.2,4.26,13.0,85.4,95.7,,2017
+Daniel Parr,daniel-parr-1,/cfb/players/daniel-parr-1.html,Florida Atlantic,CUSA,9,43,75,57.3,588,4,5.3,2,2.7,7.8,7.71,13.7,65.3,135.5,,2017
+Garrett Smith,garrett-smith-2,/cfb/players/garrett-smith-2.html,Louisiana-Monroe,Sun Belt,4,35,60,58.3,584,5,8.3,3,5.0,9.7,9.15,16.7,146.0,157.6,,2017
+Wilton Speight,wilton-speight-1,/cfb/players/wilton-speight-1.html,Michigan,Big Ten,4,44,81,54.3,581,3,3.7,2,2.5,7.2,6.80,13.2,145.3,121.9,,2017
+Dwayne Haskins,dwayne-haskins-1,/cfb/players/dwayne-haskins-1.html,Ohio State,Big Ten,8,40,57,70.2,565,4,7.0,1,1.8,9.9,10.53,14.1,70.6,173.1,,2017
+Reece Goddard,reece-goddard-1,/cfb/players/reece-goddard-1.html,Western Michigan,MAC,7,44,96,45.8,542,3,3.1,3,3.1,5.6,4.86,12.3,77.4,97.3,,2017
+Reece Goodard,reece-goodard-1,/cfb/players/reece-goodard-1.html,Western Michigan,MAC,8,44,96,45.8,542,3,3.1,3,3.1,5.6,4.86,12.3,67.8,97.3,,2017
+Chris Chugunov,chris-chugunov-1,/cfb/players/chris-chugunov-1.html,West Virginia,Big 12,5,43,90,47.8,536,3,3.3,2,2.2,6.0,5.62,12.5,107.2,104.4,,2017
+Zeb Noland,zeb-noland-1,/cfb/players/zeb-noland-1.html,Iowa State,Big 12,4,36,66,54.5,533,2,3.0,1,1.5,8.1,8.00,14.8,133.3,129.4,,2017
+Chason Virgil,chason-virgil-1,/cfb/players/chason-virgil-1.html,Fresno State,MWC,12,48,83,57.8,524,3,3.6,2,2.4,6.3,5.95,10.9,43.7,118.0,,2017
+Rex Culpepper,rex-culpepper-1,/cfb/players/rex-culpepper-1.html,Syracuse,ACC,12,45,75,60.0,518,2,2.7,3,4.0,6.9,5.64,11.5,43.2,118.8,,2017
+Giovanni Rescigno,giovanni-rescigno-1,/cfb/players/giovanni-rescigno-1.html,Rutgers,Big Ten,9,47,100,47.0,517,2,2.0,1,1.0,5.2,5.12,11.0,57.4,95.0,,2017
+Kenny Pickett,kenny-pickett-1,/cfb/players/kenny-pickett-1.html,Pitt,ACC,4,39,66,59.1,509,1,1.5,1,1.5,7.7,7.33,13.1,127.3,125.8,,2017
+Sam Glaesmann,sam-glaesmann-1,/cfb/players/sam-glaesmann-1.html,Rice,CUSA,6,32,72,44.4,500,3,4.2,6,8.3,6.9,4.03,15.6,83.3,99.9,,2017
+Nick Smith,nick-smith-4,/cfb/players/nick-smith-4.html,Wyoming,MWC,7,40,74,54.1,471,2,2.7,2,2.7,6.4,5.69,11.8,67.3,111.0,,2017
+Zack Mahoney,zack-mahoney-1,/cfb/players/zack-mahoney-1.html,Syracuse,ACC,7,46,90,51.1,471,3,3.3,4,4.4,5.2,3.90,10.2,67.3,97.2,,2017
+Ian Book,ian-book-1,/cfb/players/ian-book-1.html,Notre Dame,Ind,10,46,75,61.3,456,4,5.3,4,5.3,6.1,4.75,9.9,45.6,119.3,,2017
+Chayce Crouch,chayce-crouch-1,/cfb/players/chayce-crouch-1.html,Illinois,Big Ten,7,45,91,49.5,443,1,1.1,4,4.4,4.9,3.11,9.8,63.3,85.2,,2017
+Drew Plitt,drew-plitt-1,/cfb/players/drew-plitt-1.html,Ball State,MAC,5,42,84,50.0,430,3,3.6,3,3.6,5.1,4.23,10.2,86.0,97.6,,2017
+Blake LaRussa,blake-larussa-1,/cfb/players/blake-larussa-1.html,Old Dominion,CUSA,5,38,67,56.7,420,3,4.5,3,4.5,6.3,5.15,11.1,84.0,115.2,,2017
+Anu Solomon,anu-solomon-1,/cfb/players/anu-solomon-1.html,Baylor,Big 12,2,24,55,43.6,399,4,7.3,2,3.6,7.3,7.07,16.6,199.5,121.3,,2017
+Kendall Hinton,kendall-hinton-1,/cfb/players/kendall-hinton-1.html,Wake Forest,ACC,5,27,47,57.4,399,4,8.5,0,0.0,8.5,10.19,14.8,79.8,156.8,,2017
+Colton Richardson,colton-richardson-1,/cfb/players/colton-richardson-1.html,Idaho,Sun Belt,2,34,63,54.0,395,2,3.2,1,1.6,6.3,6.19,11.6,197.5,113.9,,2017
+Nick Jeanty,nick-jeanty-1,/cfb/players/nick-jeanty-1.html,New Mexico State,Sun Belt,3,48,72,66.7,389,1,1.4,4,5.6,5.4,3.18,8.1,129.7,105.5,,2017
+Keytaon Thompson,keytaon-thompson-1,/cfb/players/keytaon-thompson-1.html,Mississippi State,SEC,10,32,66,48.5,388,2,3.0,2,3.0,5.9,5.12,12.1,38.8,101.8,,2017
+Levi Lewis,levi-lewis-1,/cfb/players/levi-lewis-1.html,Louisiana,Sun Belt,4,28,54,51.9,377,2,3.7,1,1.9,7.0,6.89,13.5,94.3,119.0,,2017
+Cam Thomas,cam-thomas-4,/cfb/players/cam-thomas-4.html,Illinois,Big Ten,4,28,66,42.4,375,0,0.0,5,7.6,5.7,2.27,13.4,93.8,75.0,,2017
+Kyler Murray,kyler-murray-1,/cfb/players/kyler-murray-1.html,Oklahoma,Big 12,7,18,21,85.7,359,3,14.3,0,0.0,17.1,19.95,19.9,51.3,276.5,,2017
+McLane Carter,mclane-carter-1,/cfb/players/mclane-carter-1.html,Texas Tech,Big 12,5,23,46,50.0,359,2,4.3,2,4.3,7.8,6.72,15.6,71.8,121.2,,2017
+Kyle Vantrease,kyle-vantrease-1,/cfb/players/kyle-vantrease-1.html,Buffalo,MAC,2,25,57,43.9,355,2,3.5,2,3.5,6.2,5.35,14.2,177.5,100.7,,2017
+Kado Brown,kado-brown-1,/cfb/players/kado-brown-1.html,Georgia Southern,Sun Belt,6,18,30,60.0,354,1,3.3,2,6.7,11.8,9.47,19.7,59.0,156.8,,2017
+Malik Zaire,malik-zaire-1,/cfb/players/malik-zaire-1.html,Florida,SEC,4,32,56,57.1,349,0,0.0,1,1.8,6.2,5.43,10.9,87.3,105.9,,2017
+Brandon Harris,brandon-harris-4,/cfb/players/brandon-harris-4.html,North Carolina,ACC,6,35,71,49.3,346,1,1.4,8,11.3,4.9,0.08,9.9,57.7,72.3,,2017
+Braxton Burmeister,braxton-burmeister-1,/cfb/players/braxton-burmeister-1.html,Oregon,Pac-12,7,44,77,57.1,330,2,2.6,6,7.8,4.3,1.30,7.5,47.1,86.1,,2017
+Ahmad Bradshaw,ahmad-bradshaw-2,/cfb/players/ahmad-bradshaw-2.html,Army,Ind,13,14,43,32.6,285,1,2.3,2,4.7,6.6,5.00,20.4,21.9,86.6,,2017
+Willie Jones III,willie-jones-iii-1,/cfb/players/willie-jones-iii-1.html,Texas State,Sun Belt,10,18,37,48.6,281,0,0.0,1,2.7,7.6,6.38,15.6,28.1,107.0,,2017
+Noah Vedral,noah-vedral-1,/cfb/players/noah-vedral-1.html,UCF,American,8,22,29,75.9,276,1,3.4,0,0.0,9.5,10.21,12.5,34.5,167.2,,2017
+Beau Hoge,beau-hoge-1,/cfb/players/beau-hoge-1.html,BYU,Ind,3,19,39,48.7,257,2,5.1,3,7.7,6.6,4.15,13.5,85.7,105.6,,2017
+Zerrick Cooper,zerrick-cooper-1,/cfb/players/zerrick-cooper-1.html,Clemson,ACC,10,25,41,61.0,256,2,4.9,0,0.0,6.2,7.22,10.2,25.6,129.5,,2017
+Mason Petrino,mason-petrino-1,/cfb/players/mason-petrino-1.html,Idaho,Sun Belt,9,23,33,69.7,248,3,9.1,2,6.1,7.5,6.61,10.8,27.6,150.7,,2017
+Jawon Pass,jawon-pass-1,/cfb/players/jawon-pass-1.html,Louisville,ACC,6,23,33,69.7,238,2,6.1,0,0.0,7.2,8.42,10.3,39.7,150.3,,2017
+Hunter Johnson,hunter-johnson-2,/cfb/players/hunter-johnson-2.html,Clemson,ACC,7,21,27,77.8,234,2,7.4,1,3.7,8.7,8.48,11.1,33.4,167.6,,2017
+Dustin Crum,dustin-crum-1,/cfb/players/dustin-crum-1.html,Kent State,MAC,10,16,30,53.3,232,1,3.3,2,6.7,7.7,5.40,14.5,23.2,116.0,,2017
+Kasim Hill,kasim-hill-1,/cfb/players/kasim-hill-1.html,Maryland,Big Ten,3,18,21,85.7,230,2,9.5,0,0.0,11.0,12.86,12.8,76.7,209.1,,2017
+Quinton Maxwell,quinton-maxwell-1,/cfb/players/quinton-maxwell-1.html,Ohio,MAC,7,15,27,55.6,230,2,7.4,2,7.4,8.5,6.67,15.3,32.9,136.7,,2017
+Kaymen Cureton,kaymen-cureton-1,/cfb/players/kaymen-cureton-1.html,Nevada,MWC,3,20,38,52.6,213,3,7.9,1,2.6,5.6,6.00,10.7,71.0,120.5,,2017
+Deondre Francois,deondre-francois-1,/cfb/players/deondre-francois-1.html,Florida State,ACC,1,19,33,57.6,210,1,3.0,2,6.1,6.4,4.24,11.1,210.0,108.9,,2017
+Ryan Brand,ryan-brand-1,/cfb/players/ryan-brand-1.html,Maryland,Big Ten,5,24,47,51.1,204,1,2.1,2,4.3,4.3,2.85,8.5,40.8,86.0,,2017
+Garret Lewis,garret-lewis-1,/cfb/players/garret-lewis-1.html,Navy,American,7,10,23,43.5,195,2,8.7,2,8.7,8.5,6.30,19.5,27.9,126.0,,2017
+Patrick O'Brien,patrick-obrien-1,/cfb/players/patrick-obrien-1.html,Nebraska,Big Ten,4,18,30,60.0,192,0,0.0,1,3.3,6.4,4.90,10.7,48.0,107.1,,2017
+Ryan Graham,ryan-graham-1,/cfb/players/ryan-graham-1.html,Northern Illinois,MAC,2,15,38,39.5,190,2,5.3,1,2.6,5.0,4.87,12.7,95.0,93.6,,2017
+Shawn Robinson,shawn-robinson-2,/cfb/players/shawn-robinson-2.html,Texas Christian,Big 12,5,13,27,48.1,184,3,11.1,0,0.0,6.8,9.04,14.2,36.8,142.1,,2017
+Myles Brennan,myles-brennan-1,/cfb/players/myles-brennan-1.html,LSU,SEC,6,14,24,58.3,182,1,4.2,2,8.3,7.6,4.67,13.0,30.3,119.1,,2017
+Coltin Gerhart,coltin-gerhart-1,/cfb/players/coltin-gerhart-1.html,New Mexico,MWC,10,17,29,58.6,180,1,3.4,2,6.9,6.2,3.79,10.6,18.0,108.3,,2017
+Robbie Kelley,robbie-kelley-1,/cfb/players/robbie-kelley-1.html,Akron,MAC,7,12,26,46.2,179,2,7.7,0,0.0,6.9,8.42,14.9,25.6,129.4,,2017
+Tyrrell Pigrome,tyrrell-pigrome-1,/cfb/players/tyrrell-pigrome-1.html,Maryland,Big Ten,1,9,12,75.0,175,2,16.7,1,8.3,14.6,14.17,19.4,175.0,235.8,,2017
+Maurice Alexander,maurice-alexander-2,/cfb/players/maurice-alexander-2.html,Florida International,CUSA,9,18,39,46.2,174,0,0.0,2,5.1,4.5,2.15,9.7,19.3,73.4,,2017
+Johnathan Lewis,johnathan-lewis-2,/cfb/players/johnathan-lewis-2.html,Rutgers,Big Ten,7,14,38,36.8,167,2,5.3,4,10.5,4.4,0.71,11.9,23.9,70.1,,2017
+Grant Loy,grant-loy-1,/cfb/players/grant-loy-1.html,Bowling Green,MAC,6,9,16,56.3,161,0,0.0,2,12.5,10.1,4.44,17.9,26.8,115.8,,2017
+Tommy Stevens,tommy-stevens-1,/cfb/players/tommy-stevens-1.html,Penn State,Big Ten,9,14,27,51.9,158,3,11.1,0,0.0,5.9,8.07,11.3,17.6,137.7,,2017
+Matt Alviti,matt-alviti-1,/cfb/players/matt-alviti-1.html,Northwestern,Big Ten,5,11,22,50.0,155,1,4.5,0,0.0,7.0,7.95,14.1,31.0,124.2,,2017
+Will McBride,will-mcbride-1,/cfb/players/will-mcbride-1.html,Tennessee,SEC,3,17,40,42.5,152,1,2.5,2,5.0,3.8,2.05,8.9,50.7,72.7,,2017
+Taylor Cornelius,taylor-cornelius-1,/cfb/players/taylor-cornelius-1.html,Oklahoma State,Big 12,5,6,10,60.0,148,0,0.0,0,0.0,14.8,14.80,24.7,29.6,184.3,,2017
+Kaleb Barker,kaleb-barker-1,/cfb/players/kaleb-barker-1.html,Troy,Sun Belt,13,8,13,61.5,143,1,7.7,0,0.0,11.0,12.54,17.9,11.0,179.3,,2017
+Luke Del Rio,luke-del-rio-1,/cfb/players/luke-del-rio-1.html,Florida,SEC,2,16,25,64.0,138,1,4.0,1,4.0,5.5,4.52,8.6,69.0,115.6,,2017
+Taylor Alie,taylor-alie-2,/cfb/players/taylor-alie-2.html,Oregon,Pac-12,8,19,27,70.4,134,0,0.0,1,3.7,5.0,3.30,7.1,16.8,104.7,,2017
+Nate Romine,nate-romine-1,/cfb/players/nate-romine-1.html,Air Force,MWC,5,9,16,56.3,133,0,0.0,1,6.3,8.3,5.50,14.8,26.6,113.6,,2017
+Mark Torrez,mark-torrez-1,/cfb/players/mark-torrez-1.html,UTEP,CUSA,7,14,48,29.2,126,0,0.0,2,4.2,2.6,0.75,9.0,18.0,42.9,,2017
+Brooks Barden,brooks-barden-1,/cfb/players/brooks-barden-1.html,Charlotte,CUSA,4,13,30,43.3,119,0,0.0,2,6.7,4.0,0.97,9.2,29.8,63.3,,2017
+Sam Noyer,sam-noyer-1,/cfb/players/sam-noyer-1.html,Colorado,Pac-12,4,13,27,48.1,119,0,0.0,0,0.0,4.4,4.41,9.2,29.8,85.2,,2017
+Rafe Peavey,rafe-peavey-1,/cfb/players/rafe-peavey-1.html,SMU,American,3,4,4,100.0,116,1,25.0,0,0.0,29.0,34.00,29.0,38.7,426.1,,2017
+Isaac Holder,isaac-holder-1,/cfb/players/isaac-holder-1.html,Eastern Michigan,MAC,11,3,3,100.0,106,1,33.3,0,0.0,35.3,42.00,35.3,9.6,506.8,,2017
+Nick Holley,nick-holley-1,/cfb/players/nick-holley-1.html,Kent State,MAC,3,9,20,45.0,106,2,10.0,0,0.0,5.3,7.30,11.8,35.3,122.5,,2017
+Aaron Winchester,aaron-winchester-2,/cfb/players/aaron-winchester-2.html,Georgia State,Sun Belt,6,6,9,66.7,102,1,11.1,1,11.1,11.3,8.56,17.0,17.0,176.3,,2017
+Johnathan Brantley,johnathan-brantley-1,/cfb/players/johnathan-brantley-1.html,Tulane,American,6,10,17,58.8,101,0,0.0,1,5.9,5.9,3.29,10.1,16.8,97.0,,2017
+AJ Bush,aj-bush-1,/cfb/players/aj-bush-1.html,Virginia Tech,ACC,5,7,11,63.6,99,1,9.1,0,0.0,9.0,10.82,14.1,19.8,169.2,,2017
+Jake Hubenak,jake-hubenak-1,/cfb/players/jake-hubenak-1.html,Texas A&M,SEC,3,13,17,76.5,98,0,0.0,0,0.0,5.8,5.76,7.5,32.7,124.9,,2017
+David Cornwell,david-cornwell-1,/cfb/players/david-cornwell-1.html,Nevada,MWC,2,13,25,52.0,97,0,0.0,3,12.0,3.9,-1.52,7.5,48.5,60.6,,2017
+Deuce Wallace,deuce-wallace-2,/cfb/players/deuce-wallace-2.html,Vanderbilt,SEC,4,11,22,50.0,94,1,4.5,0,0.0,4.3,5.18,8.5,23.5,100.9,,2017
+Lynn Bowden Jr.,lynn-bowden-jr-1,/cfb/players/lynn-bowden-jr-1.html,Kentucky,SEC,13,3,4,75.0,92,0,0.0,1,25.0,23.0,11.75,30.7,7.1,218.2,,2017
+Koy Detmer Jr.,koy-detmer-jr-1,/cfb/players/koy-detmer-jr-1.html,BYU,Ind,2,7,20,35.0,91,0,0.0,3,15.0,4.6,-2.20,13.0,45.5,43.2,,2017
+Anthony Ratliff-Williams,anthony-ratliff-williams-1,/cfb/players/anthony-ratliff-williams-1.html,North Carolina,ACC,12,3,4,75.0,86,2,50.0,0,0.0,21.5,31.50,28.7,7.2,420.6,,2017
+Drew Eckels,drew-eckels-1,/cfb/players/drew-eckels-1.html,Western Kentucky,CUSA,8,8,11,72.7,86,0,0.0,1,9.1,7.8,3.73,10.8,10.8,120.2,,2017
+Kamrin Solomon,kamrin-solomon-1,/cfb/players/kamrin-solomon-1.html,Florida Atlantic,CUSA,12,2,2,100.0,82,2,100.0,0,0.0,41.0,61.00,41.0,6.8,774.4,,2017
+K.J. Carta-Samuels,kj-carta-samuels-1,/cfb/players/kj-carta-samuels-1.html,Washington,Pac-12,8,8,10,80.0,82,0,0.0,0,0.0,8.2,8.20,10.3,10.3,148.9,,2017
+Josh Hokit,josh-hokit-1,/cfb/players/josh-hokit-1.html,Fresno State,MWC,14,2,3,66.7,81,2,66.7,0,0.0,27.0,40.33,40.5,5.8,513.5,,2017
+Tony Poljan,tony-poljan-1,/cfb/players/tony-poljan-1.html,Central Michigan,MAC,13,13,21,61.9,78,0,0.0,0,0.0,3.7,3.71,6.0,6.0,93.1,,2017
+Andrew Celis,andrew-celis-1,/cfb/players/andrew-celis-1.html,Nevada,MWC,12,3,5,60.0,76,1,20.0,0,0.0,15.2,19.20,25.3,6.3,253.7,,2017
+D.J. Gillins,dj-gillins-1,/cfb/players/dj-gillins-1.html,SMU,American,6,1,4,25.0,76,1,25.0,0,0.0,19.0,24.00,76.0,12.7,267.1,,2017
+Kelvin Hopkins Jr.,kelvin-hopkins-jr-1,/cfb/players/kelvin-hopkins-jr-1.html,Army,Ind,7,6,18,33.3,76,1,5.6,1,5.6,4.2,2.83,12.7,10.9,76.0,,2017
+Jordan Hoy,jordan-hoy-2,/cfb/players/jordan-hoy-2.html,Old Dominion,CUSA,3,8,19,42.1,73,0,0.0,0,0.0,3.8,3.84,9.1,24.3,74.4,,2017
+Quentin Harris,quentin-harris-2,/cfb/players/quentin-harris-2.html,Duke,ACC,10,7,10,70.0,73,1,10.0,0,0.0,7.3,9.30,10.4,7.3,164.3,,2017
+John Johnson,john-johnson-14,/cfb/players/john-johnson-14.html,Troy,Sun Belt,13,2,2,100.0,72,1,50.0,0,0.0,36.0,46.00,36.0,5.5,567.4,,2017
+Logan Bonner,logan-bonner-1,/cfb/players/logan-bonner-1.html,Arkansas State,Sun Belt,4,9,21,42.9,70,1,4.8,1,4.8,3.3,2.14,7.8,17.5,77.0,,2017
+Jaylin Nelson,jaylin-nelson-1,/cfb/players/jaylin-nelson-1.html,Texas State,Sun Belt,7,1,1,100.0,69,1,100.0,0,0.0,69.0,89.00,69.0,9.9,1009.6,,2017
+KaVontae Turpin,kavontae-turpin-1,/cfb/players/kavontae-turpin-1.html,Texas Christian,Big 12,14,2,2,100.0,68,1,50.0,0,0.0,34.0,44.00,34.0,4.9,550.6,,2017
+Zack Blair,zack-blair-1,/cfb/players/zack-blair-1.html,Ball State,MAC,4,9,15,60.0,67,0,0.0,0,0.0,4.5,4.47,7.4,16.8,97.5,,2017
+Brett Kean,brett-kean-1,/cfb/players/brett-kean-1.html,South Florida,American,6,7,11,63.6,64,0,0.0,0,0.0,5.8,5.82,9.1,10.7,112.5,,2017
+David Moore,david-moore-5,/cfb/players/david-moore-5.html,Memphis,American,5,7,10,70.0,63,1,10.0,0,0.0,6.3,8.30,9.0,12.6,155.9,,2017
+Ryan Davis,ryan-davis-5,/cfb/players/ryan-davis-5.html,Auburn,SEC,14,1,2,50.0,62,1,50.0,0,0.0,31.0,41.00,62.0,4.4,475.4,,2017
+Joe Burrow,joe-burrow-1,/cfb/players/joe-burrow-1.html,Ohio State,Big Ten,5,7,11,63.6,61,0,0.0,0,0.0,5.5,5.55,8.7,12.2,110.2,,2017
+Jeff Smith,jeff-smith-10,/cfb/players/jeff-smith-10.html,Boston College,ACC,13,2,4,50.0,59,2,50.0,0,0.0,14.8,24.75,29.5,4.5,338.9,,2017
+J.J. Cosentino,jj-cosentino-1,/cfb/players/jj-cosentino-1.html,Florida State,ACC,6,8,11,72.7,58,1,9.1,0,0.0,5.3,7.09,7.3,9.7,147.0,,2017
+Hutch White,hutch-white-1,/cfb/players/hutch-white-1.html,Texas State,Sun Belt,12,2,2,100.0,57,2,100.0,0,0.0,28.5,48.50,28.5,4.8,669.4,,2017
+Kelton Moore,kelton-moore-1,/cfb/players/kelton-moore-1.html,Nevada,MWC,12,1,1,100.0,57,1,100.0,0,0.0,57.0,77.00,57.0,4.8,908.8,,2017
+Ryan Burns,ryan-burns-1,/cfb/players/ryan-burns-1.html,Stanford,Pac-12,7,5,7,71.4,57,1,14.3,0,0.0,8.1,11.00,11.4,8.1,187.0,,2017
+Cristian Solano,cristian-solano-1,/cfb/players/cristian-solano-1.html,Nevada,MWC,2,5,6,83.3,56,0,0.0,0,0.0,9.3,9.33,11.2,28.0,161.7,,2017
+Devin Butler,devin-butler-2,/cfb/players/devin-butler-2.html,Syracuse,ACC,12,4,6,66.7,54,1,16.7,0,0.0,9.0,12.33,13.5,4.5,197.3,,2017
+Tre Walker,tre-walker-3,/cfb/players/tre-walker-3.html,San Jose State,MWC,12,1,1,100.0,54,1,100.0,0,0.0,54.0,74.00,54.0,4.5,883.6,,2017
+Chase Forrest,chase-forrest-1,/cfb/players/chase-forrest-1.html,California,Pac-12,3,5,10,50.0,53,0,0.0,0,0.0,5.3,5.30,10.6,17.7,94.5,,2017
+Andre Baccellia,andre-baccellia-1,/cfb/players/andre-baccellia-1.html,Washington,Pac-12,8,1,1,100.0,52,0,0.0,0,0.0,52.0,52.00,52.0,6.5,536.8,,2017
+Chance Thrasher,chance-thrasher-1,/cfb/players/chance-thrasher-1.html,Coastal Carolina,Sun Belt,3,5,10,50.0,52,0,0.0,2,20.0,5.2,-3.80,10.4,17.3,53.7,,2017
+Nacarius Fant,nacarius-fant-1,/cfb/players/nacarius-fant-1.html,Western Kentucky,CUSA,13,2,3,66.7,51,1,33.3,1,33.3,17.0,8.67,25.5,3.9,252.8,,2017
+Kadarius Toney,kadarius-toney-1,/cfb/players/kadarius-toney-1.html,Florida,SEC,8,1,2,50.0,50,0,0.0,0,0.0,25.0,25.00,50.0,6.3,260.0,,2017
+Drew Barker,drew-barker-1,/cfb/players/drew-barker-1.html,Kentucky,SEC,4,4,7,57.1,49,0,0.0,0,0.0,7.0,7.00,12.3,12.3,115.9,,2017
+Isaac Stiebeling,isaac-stiebeling-1,/cfb/players/isaac-stiebeling-1.html,Eastern Michigan,MAC,2,8,17,47.1,49,0,0.0,0,0.0,2.9,2.88,6.1,24.5,71.3,,2017
+John Franklin III,john-franklin-iii-1,/cfb/players/john-franklin-iii-1.html,Florida Atlantic,CUSA,13,1,2,50.0,49,0,0.0,0,0.0,24.5,24.50,49.0,3.8,255.8,,2017
+Kyle Banks,kyle-banks-1,/cfb/players/kyle-banks-1.html,Middle Tennessee State,CUSA,7,6,11,54.5,49,0,0.0,0,0.0,4.5,4.45,8.2,7.0,92.0,,2017
+Kurt Palandech,kurt-palandech-1,/cfb/players/kurt-palandech-1.html,Nevada-Las Vegas,MWC,12,8,19,42.1,48,0,0.0,2,10.5,2.5,-2.21,6.0,4.0,42.3,,2017
+Micah Wilson,micah-wilson-1,/cfb/players/micah-wilson-1.html,Missouri,SEC,5,5,10,50.0,48,0,0.0,1,10.0,4.8,0.30,9.6,9.6,70.3,,2017
+Cam Akers,cam-akers-1,/cfb/players/cam-akers-1.html,Florida State,ACC,13,1,1,100.0,47,0,0.0,0,0.0,47.0,47.00,47.0,3.6,494.8,,2017
+Joel Lanning,joel-lanning-2,/cfb/players/joel-lanning-2.html,Iowa State,Big 12,13,3,4,75.0,47,1,25.0,0,0.0,11.8,16.75,15.7,3.6,256.2,,2017
+Ryan Agnew,ryan-agnew-1,/cfb/players/ryan-agnew-1.html,San Diego State,MWC,7,4,7,57.1,47,0,0.0,0,0.0,6.7,6.71,11.8,6.7,113.5,,2017
+Cedrick Wilson Jr.,cedrick-wilson-2,/cfb/players/cedrick-wilson-2.html,Boise State,MWC,14,2,3,66.7,46,0,0.0,0,0.0,15.3,15.33,23.0,3.3,195.5,,2017
+Malik Willis,malik-willis-1,/cfb/players/malik-willis-1.html,Auburn,SEC,7,6,7,85.7,45,1,14.3,0,0.0,6.4,9.29,7.5,6.4,186.9,,2017
+Joe Schopper,joe-schopper-1,/cfb/players/joe-schopper-1.html,Purdue,Big Ten,13,2,2,100.0,44,0,0.0,0,0.0,22.0,22.00,22.0,3.4,284.8,,2017
+Bryce Rivers,bryce-rivers-1,/cfb/players/bryce-rivers-1.html,UTSA,CUSA,3,5,8,62.5,43,0,0.0,2,25.0,5.4,-5.88,8.6,14.3,57.7,,2017
+Jaron Johnson,jaron-johnson-1,/cfb/players/jaron-johnson-1.html,Eastern Michigan,MAC,12,1,1,100.0,43,1,100.0,0,0.0,43.0,63.00,43.0,3.6,791.2,,2017
+Matt Fink,matt-fink-1,/cfb/players/matt-fink-1.html,USC,Pac-12,3,6,9,66.7,43,0,0.0,0,0.0,4.8,4.78,7.2,14.3,106.8,,2017
+Trey Sermon,trey-sermon-1,/cfb/players/trey-sermon-1.html,Oklahoma,Big 12,14,1,1,100.0,42,0,0.0,0,0.0,42.0,42.00,42.0,3.0,452.8,,2017
+Blake Barnett,blake-barnett-2,/cfb/players/blake-barnett-2.html,Arizona State,Pac-12,3,3,5,60.0,40,0,0.0,1,20.0,8.0,-1.00,13.3,13.3,87.2,,2017
+Keishawn Watson,keishawn-watson-1,/cfb/players/keishawn-watson-1.html,Western Michigan,MAC,12,2,2,100.0,40,2,100.0,0,0.0,20.0,40.00,20.0,3.3,598.0,,2017
+Sam Allen,sam-allen-1,/cfb/players/sam-allen-1.html,San Jose State,MWC,5,5,13,38.5,40,0,0.0,2,15.4,3.1,-3.85,8.0,8.0,33.5,,2017
+Caleb Wilson,caleb-wilson-2,/cfb/players/caleb-wilson-2.html,UCLA,Pac-12,5,1,1,100.0,39,0,0.0,0,0.0,39.0,39.00,39.0,7.8,427.6,,2017
+Cameron Echols-Luper,cameron-echols-luper-1,/cfb/players/cameron-echols-luper-1.html,Western Kentucky,CUSA,10,1,1,100.0,39,0,0.0,0,0.0,39.0,39.00,39.0,3.9,427.6,,2017
+Kavika Johnson,kavika-johnson-1,/cfb/players/kavika-johnson-1.html,UTEP,CUSA,12,1,1,100.0,38,0,0.0,0,0.0,38.0,38.00,38.0,3.2,419.2,,2017
+Dante Pettis,dante-pettis-1,/cfb/players/dante-pettis-1.html,Washington,Pac-12,13,1,1,100.0,36,0,0.0,0,0.0,36.0,36.00,36.0,2.8,402.4,AA,2017
+Jack Coan,jack-coan-1,/cfb/players/jack-coan-1.html,Wisconsin,Big Ten,6,5,5,100.0,36,0,0.0,0,0.0,7.2,7.20,7.2,6.0,160.5,,2017
+Saquon Barkley,saquon-barkley-1,/cfb/players/saquon-barkley-1.html,Penn State,Big Ten,13,2,2,100.0,36,1,50.0,0,0.0,18.0,28.00,18.0,2.8,416.2,"H-4,AA",2017
+Anthony Miller,anthony-miller-6,/cfb/players/anthony-miller-6.html,Memphis,American,13,1,3,33.3,35,0,0.0,0,0.0,11.7,11.67,35.0,2.7,131.3,AA,2017
+Thomas Owens,thomas-owens-1,/cfb/players/thomas-owens-1.html,Florida International,CUSA,9,1,1,100.0,35,1,100.0,0,0.0,35.0,55.00,35.0,3.9,724.0,,2017
+Chauncey Mason,chauncey-mason-1,/cfb/players/chauncey-mason-1.html,Arkansas State,Sun Belt,9,1,1,100.0,34,0,0.0,0,0.0,34.0,34.00,34.0,3.8,385.6,,2017
+Quinn Shanbour,quinn-shanbour-1,/cfb/players/quinn-shanbour-1.html,North Texas,CUSA,14,4,6,66.7,34,1,16.7,0,0.0,5.7,9.00,8.5,2.4,169.3,,2017
+Trey Quinn,trey-quinn-1,/cfb/players/trey-quinn-1.html,SMU,American,13,1,2,50.0,34,0,0.0,1,50.0,17.0,-5.50,34.0,2.6,92.8,,2017
+Colten Rastetter,colten-rastetter-1,/cfb/players/colten-rastetter-1.html,Iowa,Big Ten,13,2,2,100.0,33,0,0.0,0,0.0,16.5,16.50,16.5,2.5,238.6,,2017
+Isaiah Sanders,isaiah-sanders-1,/cfb/players/isaiah-sanders-1.html,Air Force,MWC,3,4,15,26.7,33,0,0.0,1,6.7,2.2,-0.80,8.3,11.0,31.8,,2017
+Zac Thomas,zac-thomas-2,/cfb/players/zac-thomas-2.html,Appalachian State,Sun Belt,4,6,10,60.0,33,0,0.0,0,0.0,3.3,3.30,5.5,8.3,87.7,,2017
+Ross Trail,ross-trail-1,/cfb/players/ross-trail-1.html,Cincinnati,American,2,5,9,55.6,31,0,0.0,0,0.0,3.4,3.44,6.2,15.5,84.5,,2017
+Tyler Williams,tyler-williams-5,/cfb/players/tyler-williams-5.html,Air Force,MWC,7,1,1,100.0,31,0,0.0,0,0.0,31.0,31.00,31.0,4.4,360.4,,2017
+Monteo Garrett,monteo-garrett-1,/cfb/players/monteo-garrett-1.html,Georgia Southern,Sun Belt,12,1,1,100.0,30,0,0.0,0,0.0,30.0,30.00,30.0,2.5,352.0,,2017
+Aaren Vaughns,aaren-vaughns-1,/cfb/players/aaren-vaughns-1.html,Utah State,MWC,12,1,2,50.0,29,1,50.0,0,0.0,14.5,24.50,29.0,2.4,336.8,,2017
+Jacob Eason,jacob-eason-1,/cfb/players/jacob-eason-1.html,Georgia,SEC,5,4,7,57.1,28,0,0.0,0,0.0,4.0,4.00,7.0,5.6,90.7,,2017
+Ke'Mon Freeman,kemon-freemon-1,/cfb/players/kemon-freemon-1.html,SMU,American,13,1,3,33.3,28,0,0.0,0,0.0,9.3,9.33,28.0,2.2,111.7,,2017
+Dalton Demos,dalton-demos-1,/cfb/players/dalton-demos-1.html,Coastal Carolina,Sun Belt,7,3,11,27.3,27,0,0.0,1,9.1,2.5,-1.64,9.0,3.9,29.7,,2017
+Desmon White,desmon-white-1,/cfb/players/desmon-white-1.html,Texas Christian,Big 12,14,1,1,100.0,27,1,100.0,0,0.0,27.0,47.00,27.0,1.9,656.8,,2017
+Lil'Jordan Humphrey,liljordan-humphrey-1,/cfb/players/liljordan-humphrey-1.html,Texas,Big 12,12,1,3,33.3,27,0,0.0,0,0.0,9.0,9.00,27.0,2.3,108.9,,2017
+Malik Williams,malik-williams-2,/cfb/players/malik-williams-2.html,Appalachian State,Sun Belt,13,1,3,33.3,27,1,33.3,0,0.0,9.0,15.67,27.0,2.1,218.9,,2017
+Lindell Stone,lindell-stone-1,/cfb/players/lindell-stone-1.html,Virginia,ACC,1,2,9,22.2,26,0,0.0,2,22.2,2.9,-7.11,13.0,26.0,2.0,,2017
+Patrick Smith,patrick-smith-1,/cfb/players/patrick-smith-1.html,Middle Tennessee State,CUSA,11,1,1,100.0,26,0,0.0,0,0.0,26.0,26.00,26.0,2.4,318.4,,2017
+Tuli Wily-Matagi,tuli-wily-matagi-1,/cfb/players/tuli-wily-matagi-1.html,Oregon State,Pac-12,12,1,1,100.0,26,1,100.0,0,0.0,26.0,46.00,26.0,2.2,648.4,,2017
+Jaylen Samuels,jaylen-samuels-1,/cfb/players/jaylen-samuels-1.html,North Carolina State,ACC,13,1,2,50.0,25,0,0.0,0,0.0,12.5,12.50,25.0,1.9,155.0,,2017
+Zac Everett,zac-everett-1,/cfb/players/zac-everett-1.html,Southern Mississippi,CUSA,12,1,1,100.0,25,0,0.0,0,0.0,25.0,25.00,25.0,2.1,310.0,,2017
+Geraud Sanders,geraud-sanders-1,/cfb/players/geraud-sanders-1.html,Air Force,MWC,11,1,1,100.0,24,0,0.0,0,0.0,24.0,24.00,24.0,2.2,301.6,,2017
+Jackson Anthrop,jackson-anthrop-1,/cfb/players/jackson-anthrop-1.html,Purdue,Big Ten,13,1,1,100.0,24,0,0.0,0,0.0,24.0,24.00,24.0,1.8,301.6,,2017
+Jeremy Larkin,jeremy-larkin-1,/cfb/players/jeremy-larkin-1.html,Northwestern,Big Ten,13,1,1,100.0,24,0,0.0,0,0.0,24.0,24.00,24.0,1.8,301.6,,2017
+Stone Wilson,stone-wilson-1,/cfb/players/stone-wilson-1.html,Florida International,CUSA,13,1,1,100.0,24,1,100.0,0,0.0,24.0,44.00,24.0,1.8,631.6,,2017
+Christian Blake,christian-blake-1,/cfb/players/christian-blake-1.html,Northern Illinois,MAC,13,2,4,50.0,23,0,0.0,0,0.0,5.8,5.75,11.5,1.8,98.3,,2017
+Westin Elliott,westin-elliott-1,/cfb/players/westin-elliott-1.html,Louisiana Tech,CUSA,4,4,9,44.4,23,1,11.1,0,0.0,2.6,4.78,5.8,5.8,102.6,,2017
+Austin Conway,austin-conway-1,/cfb/players/austin-conway-1.html,Wyoming,MWC,13,2,2,100.0,22,0,0.0,0,0.0,11.0,11.00,11.0,1.7,192.4,,2017
+Charles Nelson,charles-nelson-2,/cfb/players/charles-nelson-2.html,Oregon,Pac-12,10,1,1,100.0,22,1,100.0,0,0.0,22.0,42.00,22.0,2.2,614.8,,2017
+Chase Mummau,chase-mummau-1,/cfb/players/chase-mummau-1.html,Virginia Tech,ACC,1,1,1,100.0,22,0,0.0,0,0.0,22.0,22.00,22.0,22.0,284.8,,2017
+Cole McDonald,cole-mcdonald-1,/cfb/players/cole-mcdonald-1.html,Hawaii,MWC,6,5,9,55.6,22,1,11.1,0,0.0,2.4,4.67,4.4,3.7,112.8,,2017
+Cody Grace,cody-grace-1,/cfb/players/cody-grace-1.html,Arkansas State,Sun Belt,11,1,1,100.0,21,0,0.0,0,0.0,21.0,21.00,21.0,1.9,276.4,,2017
+Michael Carrillo,michael-carrillo-1,/cfb/players/michael-carrillo-1.html,San Jose State,MWC,3,2,3,66.7,21,1,33.3,0,0.0,7.0,13.67,10.5,7.0,235.5,,2017
+Michael Julian,michael-julian-1,/cfb/players/michael-julian-1.html,Toledo,MAC,10,2,6,33.3,21,0,0.0,0,0.0,3.5,3.50,10.5,2.1,62.7,,2017
+Casey Marksberry,casey-marksberry-1,/cfb/players/casey-marksberry-1.html,Colorado,Pac-12,1,2,3,66.7,20,0,0.0,0,0.0,6.7,6.67,10.0,20.0,122.7,,2017
+Gavin Locklear,gavin-locklear-1,/cfb/players/gavin-locklear-1.html,North Carolina State,ACC,12,1,1,100.0,20,0,0.0,0,0.0,20.0,20.00,20.0,1.7,268.0,,2017
+Jared Atkinson,jared-atkinson-1,/cfb/players/jared-atkinson-1.html,Baylor,Big 12,12,1,1,100.0,20,0,0.0,0,0.0,20.0,20.00,20.0,1.7,268.0,,2017
+Reid Herring,reid-herring-1,/cfb/players/reid-herring-1.html,East Carolina,American,2,1,1,100.0,20,1,100.0,0,0.0,20.0,40.00,20.0,10.0,598.0,,2017
+Todd Centeio,todd-centeio-1,/cfb/players/todd-centeio-1.html,Temple,American,2,2,2,100.0,20,0,0.0,0,0.0,10.0,10.00,10.0,10.0,184.0,,2017
+Darius Hoggins,darius-hoggins-1,/cfb/players/darius-hoggins-1.html,Louisiana,Sun Belt,10,1,1,100.0,19,0,0.0,0,0.0,19.0,19.00,19.0,1.9,259.6,,2017
+Demari Simpkins,demari-simpkins-1,/cfb/players/demari-simpkins-1.html,Utah,Pac-12,13,2,4,50.0,19,1,25.0,0,0.0,4.8,9.75,9.5,1.5,172.4,,2017
+Allen Staggers,allen-staggers-1,/cfb/players/allen-staggers-1.html,Southern Mississippi,CUSA,13,1,2,50.0,18,0,0.0,0,0.0,9.0,9.00,18.0,1.4,125.6,,2017
+Jerrod Heard,jerrod-heard-1,/cfb/players/jerrod-heard-1.html,Texas,Big 12,12,2,3,66.7,18,0,0.0,0,0.0,6.0,6.00,9.0,1.5,117.1,,2017
+Matthew Wilcox Jr.,matthew-wilcox-jr-1,/cfb/players/matthew-wilcox-jr-1.html,Bowling Green,MAC,12,1,1,100.0,18,0,0.0,0,0.0,18.0,18.00,18.0,1.5,251.2,,2017
+Tanner Schafer,tanner-schafer-1,/cfb/players/tanner-schafer-1.html,Oklahoma,Big 12,1,3,5,60.0,18,0,0.0,0,0.0,3.6,3.60,6.0,18.0,90.2,,2017
+Braxton Berrios,braxton-berrios-1,/cfb/players/braxton-berrios-1.html,Miami (FL),ACC,13,1,1,100.0,17,0,0.0,0,0.0,17.0,17.00,17.0,1.3,242.8,,2017
+Conner Cramer,conner-cramer-1,/cfb/players/conner-cramer-1.html,New Mexico State,Sun Belt,13,1,2,50.0,17,1,50.0,0,0.0,8.5,18.50,17.0,1.3,286.4,,2017
+Jalan McClendon,jalan-mcclendon-1,/cfb/players/jalan-mcclendon-1.html,North Carolina State,ACC,3,2,3,66.7,17,0,0.0,0,0.0,5.7,5.67,8.5,5.7,114.3,,2017
+Jeffery Mead,jeffery-mead-1,/cfb/players/jeffery-mead-1.html,Oklahoma,Big 12,10,1,1,100.0,17,0,0.0,0,0.0,17.0,17.00,17.0,1.7,242.8,,2017
+Parker Smith,parker-smith-1,/cfb/players/parker-smith-1.html,Rice,CUSA,10,1,1,100.0,17,0,0.0,0,0.0,17.0,17.00,17.0,1.7,242.8,,2017
+Evan Shirreffs,evan-shirreffs-1,/cfb/players/evan-shirreffs-1.html,Miami (FL),ACC,4,2,7,28.6,16,0,0.0,0,0.0,2.3,2.29,8.0,4.0,47.8,,2017
+Jay Tyler,jay-tyler-1,/cfb/players/jay-tyler-1.html,Stanford,Pac-12,12,1,1,100.0,16,0,0.0,0,0.0,16.0,16.00,16.0,1.3,234.4,,2017
+Jett Duffey,jett-duffey-1,/cfb/players/jett-duffey-1.html,Texas Tech,Big 12,1,2,2,100.0,16,0,0.0,0,0.0,8.0,8.00,8.0,16.0,167.2,,2017
+Mitchell Guadagni,mitchell-guadagni-1,/cfb/players/mitchell-guadagni-1.html,Toledo,MAC,9,1,6,16.7,16,0,0.0,1,16.7,2.7,-4.83,16.0,1.8,5.7,,2017
+Andrew Meyer,andrew-meyer-1,/cfb/players/andrew-meyer-1.html,Ohio,MAC,12,1,1,100.0,15,0,0.0,0,0.0,15.0,15.00,15.0,1.3,226.0,,2017
+D.J. Moore,dj-moore-3,/cfb/players/dj-moore-3.html,Maryland,Big Ten,12,2,2,100.0,15,0,0.0,0,0.0,7.5,7.50,7.5,1.3,163.0,,2017
+Ryan Winslow,ryan-winslow-1,/cfb/players/ryan-winslow-1.html,Pitt,ACC,12,1,1,100.0,15,1,100.0,0,0.0,15.0,35.00,15.0,1.3,556.0,,2017
+Vic Wharton,vic-wharton-1,/cfb/players/vic-wharton-1.html,California,Pac-12,12,1,2,50.0,15,1,50.0,0,0.0,7.5,17.50,15.0,1.3,278.0,,2017
+Will Hefley,will-hefley-1,/cfb/players/will-hefley-1.html,Tulsa,American,1,2,6,33.3,15,0,0.0,2,33.3,2.5,-12.50,7.5,15.0,-12.3,,2017
+Darveon Brown,darveon-brown-1,/cfb/players/darveon-brown-1.html,Arkansas State,Sun Belt,11,1,1,100.0,14,0,0.0,0,0.0,14.0,14.00,14.0,1.3,217.6,,2017
+Jacob Huesman,jacob-huesman-1,/cfb/players/jacob-huesman-1.html,Appalachian State,Sun Belt,2,2,3,66.7,14,0,0.0,0,0.0,4.7,4.67,7.0,7.0,105.9,,2017
+N'Keal Harry,nkeal-harry-1,/cfb/players/nkeal-harry-1.html,Arizona State,Pac-12,13,1,1,100.0,14,1,100.0,0,0.0,14.0,34.00,14.0,1.1,547.6,,2017
+Tyler Johnston III,tyler-johnston-iii-1,/cfb/players/tyler-johnston-iii-1.html,UAB,CUSA,6,1,2,50.0,13,0,0.0,0,0.0,6.5,6.50,13.0,2.2,104.6,,2017
+Chris Oladokun,chris-oladokun-1,/cfb/players/chris-oladokun-1.html,South Florida,American,2,1,1,100.0,12,0,0.0,0,0.0,12.0,12.00,12.0,6.0,200.8,,2017
+Devin Singletary,devin-singletary-1,/cfb/players/devin-singletary-1.html,Florida Atlantic,CUSA,14,1,1,100.0,12,0,0.0,0,0.0,12.0,12.00,12.0,0.9,200.8,,2017
+Justin Jackson,justin-jackson-5,/cfb/players/justin-jackson-5.html,Northwestern,Big Ten,13,1,1,100.0,12,1,100.0,0,0.0,12.0,32.00,12.0,0.9,530.8,,2017
+Bryce Bobo,bryce-bobo-1,/cfb/players/bryce-bobo-1.html,Colorado,Pac-12,12,1,1,100.0,11,1,100.0,0,0.0,11.0,31.00,11.0,0.9,522.4,,2017
+Glen Cuiellette,glen-cuiellette-1,/cfb/players/glen-cuiellette-1.html,Tulane,American,11,1,1,100.0,11,0,0.0,0,0.0,11.0,11.00,11.0,1.0,192.4,,2017
+Khalil McClain,khalil-mcclain-1,/cfb/players/khalil-mcclain-1.html,Tulane,American,2,1,3,33.3,11,0,0.0,0,0.0,3.7,3.67,11.0,5.5,64.1,,2017
+Matt Lynch,matt-lynch-1,/cfb/players/matt-lynch-1.html,UCLA,Pac-12,1,2,3,66.7,11,1,33.3,0,0.0,3.7,10.33,5.5,11.0,207.5,,2017
+Brice Ramsey,brice-ramsey-1,/cfb/players/brice-ramsey-1.html,Georgia,SEC,4,1,4,25.0,10,0,0.0,2,50.0,2.5,-20.00,10.0,2.5,-54.0,,2017
+Donavan Tate,donavan-tate-1,/cfb/players/donavan-tate-1.html,Arizona,Pac-12,2,1,1,100.0,10,0,0.0,0,0.0,10.0,10.00,10.0,5.0,184.0,,2017
+John Kelly,john-kelly-6,/cfb/players/john-kelly-6.html,Tennessee,SEC,11,1,1,100.0,10,0,0.0,0,0.0,10.0,10.00,10.0,0.9,184.0,,2017
+Rhett Rodriguez,rhett-rodriguez-1,/cfb/players/rhett-rodriguez-1.html,Arizona,Pac-12,2,1,1,100.0,10,0,0.0,0,0.0,10.0,10.00,10.0,5.0,184.0,,2017
+Timmy Hernandez,timmy-hernandez-1,/cfb/players/timmy-hernandez-1.html,Oregon State,Pac-12,12,1,1,100.0,10,0,0.0,0,0.0,10.0,10.00,10.0,0.8,184.0,,2017
+Garrett Groshek,garrett-groshek-1,/cfb/players/garrett-groshek-1.html,Wisconsin,Big Ten,14,1,1,100.0,9,0,0.0,0,0.0,9.0,9.00,9.0,0.6,175.6,,2017
+Jonathan Ward,jonathan-ward-3,/cfb/players/jonathan-ward-3.html,Central Michigan,MAC,13,1,2,50.0,9,0,0.0,0,0.0,4.5,4.50,9.0,0.7,87.8,,2017
+Billy Fessler,billy-fessler-1,/cfb/players/billy-fessler-1.html,Penn State,Big Ten,13,1,2,50.0,8,0,0.0,0,0.0,4.0,4.00,8.0,0.6,83.6,,2017
+Jamie Newman,jamie-newman-1,/cfb/players/jamie-newman-1.html,Wake Forest,ACC,3,2,4,50.0,8,0,0.0,1,25.0,2.0,-9.25,4.0,2.7,16.8,,2017
+Austin Wilson,austin-wilson-2,/cfb/players/austin-wilson-2.html,Coastal Carolina,Sun Belt,2,1,4,25.0,7,0,0.0,0,0.0,1.8,1.75,7.0,3.5,39.7,,2017
+Cole Brownholtz,cole-brownholtz-1,/cfb/players/cole-brownholtz-1.html,Hawaii,MWC,1,1,1,100.0,7,0,0.0,0,0.0,7.0,7.00,7.0,7.0,158.8,,2017
+Keondre Wudtee,keondre-wudtee-1,/cfb/players/keondre-wudtee-1.html,Oklahoma State,Big 12,2,1,3,33.3,7,0,0.0,0,0.0,2.3,2.33,7.0,3.5,52.9,,2017
+LaBaron Anthony,labaron-anthony-1,/cfb/players/labaron-anthony-1.html,Georgia Southern,Sun Belt,3,1,10,10.0,7,0,0.0,0,0.0,0.7,0.70,7.0,2.3,15.9,,2017
+Sam Geraci,sam-geraci-1,/cfb/players/sam-geraci-1.html,Louisiana,Sun Belt,12,1,1,100.0,7,0,0.0,0,0.0,7.0,7.00,7.0,0.6,158.8,,2017
+Trenard Davis,trenard-davis-1,/cfb/players/trenard-davis-1.html,Illinois,Big Ten,9,1,1,100.0,7,0,0.0,0,0.0,7.0,7.00,7.0,0.8,158.8,,2017
+Jake Arceneaux,jake-arceneaux-1,/cfb/players/jake-arceneaux-1.html,Louisiana,Sun Belt,2,1,1,100.0,6,0,0.0,0,0.0,6.0,6.00,6.0,3.0,150.4,,2017
+Jake Rizzo,jake-rizzo-1,/cfb/players/jake-rizzo-1.html,Florida State,ACC,1,1,2,50.0,6,0,0.0,0,0.0,3.0,3.00,6.0,6.0,75.2,,2017
+Parker Boehme,parker-boehme-1,/cfb/players/parker-boehme-1.html,Duke,ACC,13,1,2,50.0,6,0,0.0,0,0.0,3.0,3.00,6.0,0.5,75.2,,2017
+Quayvon Skanes,quayvon-skanes-1,/cfb/players/quayvon-skanes-1.html,Connecticut,American,12,1,2,50.0,6,0,0.0,0,0.0,3.0,3.00,6.0,0.5,75.2,,2017
+Shawn Stankavage,shawn-stankavage-1,/cfb/players/shawn-stankavage-1.html,Vanderbilt,SEC,1,1,1,100.0,6,0,0.0,0,0.0,6.0,6.00,6.0,6.0,150.4,,2017
+Alex Mussat,alex-mussat-1,/cfb/players/alex-mussat-1.html,Western Michigan,MAC,3,1,1,100.0,5,0,0.0,0,0.0,5.0,5.00,5.0,1.7,142.0,,2017
+Deandre Johnson,deandre-johnson-4,/cfb/players/deandre-johnson-4.html,Florida Atlantic,CUSA,4,2,3,66.7,5,0,0.0,1,33.3,1.7,-13.33,2.5,1.3,14.0,,2017
+Malcolm Perry,malcolm-perry-1,/cfb/players/malcolm-perry-1.html,Navy,American,12,1,2,50.0,5,1,50.0,1,50.0,2.5,-10.00,5.0,0.4,136.0,,2017
+Manny Miles,manny-miles-1,/cfb/players/manny-miles-1.html,North Carolina,ACC,11,1,1,100.0,5,0,0.0,0,0.0,5.0,5.00,5.0,0.5,142.0,,2017
+TJ Green,tj-green-2,/cfb/players/tj-green-2.html,Northwestern,Big Ten,2,1,1,100.0,5,0,0.0,0,0.0,5.0,5.00,5.0,2.5,142.0,,2017
+Trishton Jackson,trishton-jackson-1,/cfb/players/trishton-jackson-1.html,Michigan State,Big Ten,12,1,1,100.0,5,0,0.0,0,0.0,5.0,5.00,5.0,0.4,142.0,,2017
+Will Spiers,will-spiers-1,/cfb/players/will-spiers-1.html,Clemson,ACC,14,1,2,50.0,5,0,0.0,0,0.0,2.5,2.50,5.0,0.4,71.0,,2017
+Mike Boone,mike-boone-2,/cfb/players/mike-boone-2.html,Cincinnati,American,10,1,1,100.0,4,0,0.0,0,0.0,4.0,4.00,4.0,0.4,133.6,,2017
+Nick Johns,nick-johns-1,/cfb/players/nick-johns-1.html,Akron,MAC,8,1,2,50.0,4,0,0.0,0,0.0,2.0,2.00,4.0,0.5,66.8,,2017
+Shaun Wilson,shaun-wilson-1,/cfb/players/shaun-wilson-1.html,Duke,ACC,13,1,2,50.0,4,1,50.0,1,50.0,2.0,-10.50,4.0,0.3,131.8,,2017
+Alex Barnes,alex-barnes-1,/cfb/players/alex-barnes-1.html,Kansas State,Big 12,13,1,1,100.0,3,1,100.0,0,0.0,3.0,23.00,3.0,0.2,455.2,,2017
+Brendan Cope,brendan-cope-1,/cfb/players/brendan-cope-1.html,Ohio,MAC,10,1,1,100.0,3,1,100.0,0,0.0,3.0,23.00,3.0,0.3,455.2,,2017
+Collin Lisa,collin-lisa-1,/cfb/players/collin-lisa-1.html,UAB,CUSA,13,1,1,100.0,3,0,0.0,0,0.0,3.0,3.00,3.0,0.2,125.2,,2017
+Jake Funk,jake-funk-1,/cfb/players/jake-funk-1.html,Maryland,Big Ten,12,1,1,100.0,3,0,0.0,0,0.0,3.0,3.00,3.0,0.3,125.2,,2017
+Kerryon Johnson,kerryon-johnson-1,/cfb/players/kerryon-johnson-1.html,Auburn,SEC,12,1,1,100.0,3,1,100.0,0,0.0,3.0,23.00,3.0,0.3,455.2,H-9,2017
+Tyler Wiegers,tyler-wiegers-1,/cfb/players/tyler-wiegers-1.html,Iowa,Big Ten,5,1,2,50.0,3,1,50.0,0,0.0,1.5,11.50,3.0,0.6,227.6,,2017
+Yannis Routsas,yannis-routsas-1,/cfb/players/yannis-routsas-1.html,UTSA,CUSA,11,1,2,50.0,3,0,0.0,0,0.0,1.5,1.50,3.0,0.3,62.6,,2017
+CeeDee Lamb,ceedee-lamb-1,/cfb/players/ceedee-lamb-1.html,Oklahoma,Big 12,14,1,1,100.0,2,1,100.0,0,0.0,2.0,22.00,2.0,0.1,446.8,,2017
+Steven Duncan,steven-duncan-1,/cfb/players/steven-duncan-1.html,Western Kentucky,CUSA,1,2,2,100.0,2,0,0.0,0,0.0,1.0,1.00,1.0,2.0,108.4,,2017
+Dymond Lee,dymond-lee-1,/cfb/players/dymond-lee-1.html,UCLA,Pac-12,2,1,1,100.0,1,0,0.0,0,0.0,1.0,1.00,1.0,0.5,108.4,,2017
+Justin Rankin,justin-rankin-1,/cfb/players/justin-rankin-1.html,Kent State,MAC,12,1,1,100.0,1,1,100.0,0,0.0,1.0,21.00,1.0,0.1,438.4,,2017
+Nick Porebski,nick-porebski-1,/cfb/players/nick-porebski-1.html,Oregon State,Pac-12,12,1,1,100.0,1,0,0.0,0,0.0,1.0,1.00,1.0,0.1,108.4,,2017
+Oscar Bradburn,oscar-bradburn-1,/cfb/players/oscar-bradburn-1.html,Virginia Tech,ACC,13,1,1,100.0,1,0,0.0,0,0.0,1.0,1.00,1.0,0.1,108.4,,2017
+Andrew Smith,andrew-smith-6,/cfb/players/andrew-smith-6.html,Air Force,MWC,3,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2017
+Arthur Hart,arthur-hart-1,/cfb/players/arthur-hart-1.html,Charlotte,CUSA,12,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2017
+Austin Kafentzis,austin-kafentzis-1,/cfb/players/austin-kafentzis-1.html,BYU,Ind,10,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2017
+Austin Proehl,austin-proehl-1,/cfb/players/austin-proehl-1.html,North Carolina,ACC,6,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2017
+Benjamin Snell Jr.,benjamin-snell-jr-1,/cfb/players/benjamin-snell-jr-1.html,Kentucky,SEC,13,0,2,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2017
+Blake Johnson,blake-johnson-1,/cfb/players/blake-johnson-1.html,Arkansas,SEC,12,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2017
+Brandon Presley,brandon-presley-1,/cfb/players/brandon-presley-1.html,Nevada-Las Vegas,MWC,12,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2017
+Byron Pringle,byron-pringle-1,/cfb/players/byron-pringle-1.html,Kansas State,Big 12,12,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2017
+Caleb Henderson,caleb-henderson-1,/cfb/players/caleb-henderson-1.html,Maryland,Big Ten,2,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2017
+Cam Phillips,cam-phillips-1,/cfb/players/cam-phillips-1.html,Virginia Tech,ACC,12,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2017
+Chris Montgomery,chris-montgomery-3,/cfb/players/chris-montgomery-3.html,Charlotte,CUSA,12,0,1,0.0,0,0,0.0,1,100.0,0.0,-45.00,,0.0,-200.0,,2017
+Chris Warren III,chris-warren-iii-1,/cfb/players/chris-warren-iii-1.html,Texas,Big 12,12,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2017
+Cole Kmet,cole-kmet-1,/cfb/players/cole-kmet-1.html,Notre Dame,Ind,13,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2017
+Connor Heyward,connor-heyward-1,/cfb/players/connor-heyward-1.html,Michigan State,Big Ten,12,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2017
+Craig Scott,craig-scott-1,/cfb/players/craig-scott-1.html,Navy,American,13,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2017
+Daiyan Henley,daiyan-henley-1,/cfb/players/daiyan-henley-1.html,Nevada,MWC,12,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2017
+Damion Terry,damion-terry-1,/cfb/players/damion-terry-1.html,Michigan State,Big Ten,3,0,4,0.0,0,0,0.0,1,25.0,0.0,-11.25,,0.0,-50.0,,2017
+D'Andre Swift,dandre-swift-1,/cfb/players/dandre-swift-1.html,Georgia,SEC,15,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2017
+Darren Carrington,darren-carrington-1,/cfb/players/darren-carrington-1.html,Utah,Pac-12,12,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2017
+Darryl Bonner,darryl-bonner-1,/cfb/players/darryl-bonner-1.html,Navy,American,11,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2017
+David Montgomery,david-montgomery-1,/cfb/players/david-montgomery-1.html,Iowa State,Big 12,13,0,2,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2017
+Deejay Dallas,deejay-dallas-1,/cfb/players/deejay-dallas-1.html,Miami (FL),ACC,12,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2017
+Dion Ray,dion-ray-1,/cfb/players/dion-ray-1.html,Louisiana,Sun Belt,9,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2017
+Dontrell Hilliard,dontrell-hilliard-1,/cfb/players/dontrell-hilliard-1.html,Tulane,American,12,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2017
+Eltoro Allen,eltoro-allen-1,/cfb/players/eltoro-allen-1.html,Utah State,MWC,9,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2017
+Evan Orth,evan-orth-1,/cfb/players/evan-orth-1.html,South Alabama,Sun Belt,2,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2017
+Gary Jennings,gary-jennings-1,/cfb/players/gary-jennings-1.html,West Virginia,Big 12,13,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2017
+Glenn Smith,glenn-smith-2,/cfb/players/glenn-smith-2.html,Georgia State,Sun Belt,12,0,1,0.0,0,0,0.0,1,100.0,0.0,-45.00,,0.0,-200.0,,2017
+Greg Dortch,greg-dortch-1,/cfb/players/greg-dortch-1.html,Wake Forest,ACC,8,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2017
+Hayden Hurst,hayden-hurst-1,/cfb/players/hayden-hurst-1.html,South Carolina,SEC,13,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2017
+Ivan Oraha,ivan-oraha-1,/cfb/players/ivan-oraha-1.html,Eastern Michigan,MAC,11,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2017
+Jalen McCleskey,jalen-mccleskey-1,/cfb/players/jalen-mccleskey-1.html,Oklahoma State,Big 12,13,0,1,0.0,0,0,0.0,1,100.0,0.0,-45.00,,0.0,-200.0,,2017
+Ja'Marcus Bradley,jamarcus-bradley-1,/cfb/players/jamarcus-bradley-1.html,Louisiana,Sun Belt,12,0,3,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2017
+Jamauri Bogan,jamauri-bogan-1,/cfb/players/jamauri-bogan-1.html,Western Michigan,MAC,9,1,1,100.0,0,0,0.0,0,0.0,0.0,0.00,0.0,0.0,100.0,,2017
+James Sherman,james-sherman-1,/cfb/players/james-sherman-1.html,Texas State,Sun Belt,12,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2017
+JaQuan Blackwell,jaquan-blackwell-1,/cfb/players/jaquan-blackwell-1.html,San Jose State,MWC,12,0,1,0.0,0,0,0.0,1,100.0,0.0,-45.00,,0.0,-200.0,,2017
+Jarvion Franklin,jarvion-franklin-1,/cfb/players/jarvion-franklin-1.html,Western Michigan,MAC,12,0,1,0.0,0,0,0.0,1,100.0,0.0,-45.00,,0.0,-200.0,,2017
+Joe Thompson,joe-thompson-4,/cfb/players/joe-thompson-4.html,Charlotte,CUSA,1,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2017
+John Burt,john-burt-1,/cfb/players/john-burt-1.html,Texas,Big 12,13,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2017
+Jon Hilliman,jon-hilliman-1,/cfb/players/jon-hilliman-1.html,Boston College,ACC,13,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2017
+Jordan Jones,jordan-jones-1,/cfb/players/jordan-jones-1.html,Arkansas,SEC,12,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2017
+Josh Smith,josh-smith-10,/cfb/players/josh-smith-10.html,Tennessee,SEC,6,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2017
+J'Yvon Brown,jyvon-brown-1,/cfb/players/jyvon-brown-1.html,Massachusetts,Ind,5,0,1,0.0,0,0,0.0,1,100.0,0.0,-45.00,,0.0,-200.0,,2017
+Kavious Price,kavious-price-1,/cfb/players/kavious-price-1.html,Kent State,MAC,10,0,1,0.0,0,0,0.0,1,100.0,0.0,-45.00,,0.0,-200.0,,2017
+Keelan Ewaliko,keelan-ewaliko-1,/cfb/players/keelan-ewaliko-1.html,Hawaii,MWC,12,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2017
+Keenen Johnson,keenen-johnson-1,/cfb/players/keenen-johnson-1.html,Tulsa,American,12,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2017
+Kjetil Cline,kjetil-cline-1,/cfb/players/kjetil-cline-1.html,Army,Ind,12,0,1,0.0,0,0,0.0,1,100.0,0.0,-45.00,,0.0,-200.0,,2017
+Kylen Binn,kylen-binn-1,/cfb/players/kylen-binn-1.html,UAB,CUSA,13,0,1,0.0,0,0,0.0,1,100.0,0.0,-45.00,,0.0,-200.0,,2017
+Lorenzo Harrison,lorenzo-harrison-1,/cfb/players/lorenzo-harrison-1.html,Maryland,Big Ten,12,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2017
+Luke Langdon,luke-langdon-1,/cfb/players/luke-langdon-1.html,Army,Ind,6,0,2,0.0,0,0,0.0,2,100.0,0.0,-45.00,,0.0,-200.0,,2017
+Malik Roberson,malik-roberson-1,/cfb/players/malik-roberson-1.html,San Jose State,MWC,13,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2017
+Mason Moran,mason-moran-1,/cfb/players/mason-moran-1.html,Oregon State,Pac-12,1,0,2,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2017
+Matt Ference,matt-ference-1,/cfb/players/matt-ference-1.html,Northern Illinois,MAC,13,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2017
+Matthew Jordan,matthew-jordan-1,/cfb/players/matthew-jordan-1.html,Georgia Tech,ACC,5,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2017
+Michael Jacquet,michael-jacquet-1,/cfb/players/michael-jacquet-1.html,Louisiana,Sun Belt,11,0,1,0.0,0,0,0.0,1,100.0,0.0,-45.00,,0.0,-200.0,,2017
+Mike Fiacable,mike-fiacable-1,/cfb/players/mike-fiacable-1.html,Indiana,Big Ten,3,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2017
+Mike Majette,mike-majette-1,/cfb/players/mike-majette-1.html,Indiana,Big Ten,5,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2017
+Pressley Harvin III,pressley-harvin-iii-1,/cfb/players/pressley-harvin-iii-1.html,Georgia Tech,ACC,11,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2017
+Quinton Conaway,quinton-conaway-1,/cfb/players/quinton-conaway-1.html,Nevada,MWC,12,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2017
+Randall West,randall-west-1,/cfb/players/randall-west-1.html,Massachusetts,Ind,2,0,2,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2017
+Reggie Bonnafon,reggie-bonnafon-1,/cfb/players/reggie-bonnafon-1.html,Louisville,ACC,13,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2017
+Reginald Todd,reginald-todd-1,/cfb/players/reginald-todd-1.html,Mississippi State,SEC,13,0,1,0.0,0,0,0.0,1,100.0,0.0,-45.00,,0.0,-200.0,,2017
+Richard McQuarley,richard-mcquarley-1,/cfb/players/richard-mcquarley-1.html,New Mexico,MWC,10,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2017
+Richie James,richie-james-1,/cfb/players/richie-james-1.html,Middle Tennessee State,CUSA,5,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2017
+Riley Lees,riley-lees-1,/cfb/players/riley-lees-1.html,Northwestern,Big Ten,13,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2017
+Riley Patterson,riley-patterson-1,/cfb/players/riley-patterson-1.html,Memphis,American,13,0,1,0.0,0,0,0.0,1,100.0,0.0,-45.00,,0.0,-200.0,,2017
+Russell Gage,russell-gage-1,/cfb/players/russell-gage-1.html,LSU,SEC,13,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2017
+Sean Modster,sean-modster-1,/cfb/players/sean-modster-1.html,Boise State,MWC,14,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2017
+Steven Sims Jr.,steven-sims-jr-1,/cfb/players/steven-sims-jr-1.html,Kansas,Big 12,12,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2017
+Sy Slater,sy-slater-1,/cfb/players/sy-slater-1.html,New Mexico State,Sun Belt,4,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2017
+Tavien Feaster,tavien-feaster-1,/cfb/players/tavien-feaster-1.html,Clemson,ACC,14,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2017
+Teddy Veal,teddy-veal-1,/cfb/players/teddy-veal-1.html,Louisiana Tech,CUSA,13,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2017
+Tez Parks,tez-parks-1,/cfb/players/tez-parks-1.html,Southern Mississippi,CUSA,10,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2017
+T.J. Patterson,tj-patterson-3,/cfb/players/tj-patterson-3.html,Colorado,Pac-12,10,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2017
+T.J. Rahming,tj-rahming-1,/cfb/players/tj-rahming-1.html,Duke,ACC,13,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2017
+Tony Nicholson,tony-nicholson-1,/cfb/players/tony-nicholson-1.html,Baylor,Big 12,11,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2017
+Travis Levy,travis-levy-1,/cfb/players/travis-levy-1.html,Boston College,ACC,13,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2017
+Tra'Von Chapman,travon-chapman-1,/cfb/players/travon-chapman-1.html,Akron,MAC,14,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2017
+Tyler Byrd,tyler-byrd-1,/cfb/players/tyler-byrd-1.html,Tennessee,SEC,11,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2017
+Wesley Kennedy III,wesley-kennedy-iii-1,/cfb/players/wesley-kennedy-iii-1.html,Georgia Southern,Sun Belt,10,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2017
+Zach Potter,zach-potter-2,/cfb/players/zach-potter-2.html,Army,Ind,4,0,1,0.0,0,0,0.0,0,0.0,0.0,0.00,,0.0,0.0,,2017
+Austin Fort,austin-fort-1,/cfb/players/austin-fort-1.html,Wyoming,MWC,8,1,1,100.0,-1,0,0.0,0,0.0,-1.0,-1.00,-1.0,-0.1,91.6,,2017
+Devin Adams,devin-adams-1,/cfb/players/devin-adams-1.html,Auburn,SEC,1,1,2,50.0,-1,0,0.0,0,0.0,-0.5,-0.50,-1.0,-1.0,45.8,,2017
+Isaiah Wright,isaiah-wright-1,/cfb/players/isaiah-wright-1.html,Temple,American,13,2,4,50.0,-5,0,0.0,0,0.0,-1.3,-1.25,-2.5,-0.4,39.5,,2017
+Kennedy McKoy,kennedy-mckoy-1,/cfb/players/kennedy-mckoy-1.html,West Virginia,Big 12,12,1,1,100.0,-5,0,0.0,0,0.0,-5.0,-5.00,-5.0,-0.4,58.0,,2017
+Tavares Thomas,tavares-thomas-1,/cfb/players/tavares-thomas-1.html,Middle Tennessee State,CUSA,12,1,1,100.0,-5,0,0.0,0,0.0,-5.0,-5.00,-5.0,-0.4,58.0,,2017
+Zack Darlington,zack-darlington-1,/cfb/players/zack-darlington-1.html,Nebraska,Big Ten,9,1,1,100.0,-5,0,0.0,0,0.0,-5.0,-5.00,-5.0,-0.6,58.0,,2017
+Hunter Hayek,hunter-hayek-1,/cfb/players/hunter-hayek-1.html,Rutgers,Big Ten,12,1,1,100.0,-8,0,0.0,0,0.0,-8.0,-8.00,-8.0,-0.7,32.8,,2017
+JK Scott,jk-scott-3,/cfb/players/jk-scott-3.html,Alabama,SEC,14,1,1,100.0,-9,0,0.0,0,0.0,-9.0,-9.00,-9.0,-0.6,24.4,,2017
+League Average,,,,,,,,59.3,,,5.3,,2.7,7.4,7.20,12.5,80.2,133.2,,2017

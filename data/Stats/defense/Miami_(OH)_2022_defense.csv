@@ -1,0 +1,39 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Ryan McWood,ryan-mcwood-1,/cfb/players/ryan-mcwood-1.html,LB,12,51,84,135,6.0,0.5,1,26,26.0,0,3,1,0,0,1,,Miami (OH),2022
+Matthew Salopek,matthew-salopek-1,/cfb/players/matthew-salopek-1.html,LB,13,61,63,124,9.0,3.5,0,0,,0,1,1,0,0,1,,Miami (OH),2022
+Michael Dowell,michael-dowell-1,/cfb/players/michael-dowell-1.html,S,13,49,48,97,5.0,2.0,0,0,,0,6,1,0,0,1,,Miami (OH),2022
+Jacquez Warren,jacquez-warren-1,/cfb/players/jacquez-warren-1.html,DB,13,34,29,63,1.0,0.0,2,66,33.0,1,1,0,0,0,1,,Miami (OH),2022
+John Saunders Jr.,john-saunders-jr-1,/cfb/players/john-saunders-jr-1.html,DB,11,34,18,52,0.5,0.0,2,7,3.5,0,10,0,0,0,1,,Miami (OH),2022
+Brian Ugwu,brian-ugwu-1,/cfb/players/brian-ugwu-1.html,DL,13,18,25,43,10.0,5.0,1,6,6.0,0,0,0,0,0,0,,Miami (OH),2022
+Ambe' Caldwell,ambe-caldwell-1,/cfb/players/ambe-caldwell-1.html,DB,12,25,12,37,1.0,0.0,0,0,,0,5,2,0,0,0,,Miami (OH),2022
+Yahsyn McKee,yahsyn-mckee-1,/cfb/players/yahsyn-mckee-1.html,DB,8,25,10,35,0.0,0.0,2,18,9.0,0,6,1,0,0,1,,Miami (OH),2022
+Austin Ertl,austin-ertl-1,/cfb/players/austin-ertl-1.html,DL,12,9,26,35,2.5,1.0,0,0,,0,2,0,0,0,0,,Miami (OH),2022
+Kobe Hilton,kobe-hilton-1,/cfb/players/kobe-hilton-1.html,DL,13,13,19,32,2.5,1.0,0,0,,0,0,1,0,0,0,,Miami (OH),2022
+Corey Suttle,corey-suttle-1,/cfb/players/corey-suttle-1.html,DE,13,15,16,31,6.0,6.0,1,0,0.0,0,1,0,0,0,1,,Miami (OH),2022
+Ja'von Kimpson,javon-kimpson-1,/cfb/players/javon-kimpson-1.html,DB,13,24,7,31,0.0,0.0,0,0,,0,4,1,0,0,1,,Miami (OH),2022
+Caiden Woullard,caiden-woullard-1,/cfb/players/caiden-woullard-1.html,DL,13,14,15,29,5.0,4.0,0,0,,0,3,0,0,0,1,,Miami (OH),2022
+Eli Blakey,eli-blakey-1,/cfb/players/eli-blakey-1.html,DB,5,13,14,27,0.0,0.0,1,5,5.0,0,6,1,0,0,0,,Miami (OH),2022
+Ty Wise,ty-wise-1,/cfb/players/ty-wise-1.html,LB,8,11,13,24,4.5,2.0,0,0,,0,1,0,0,0,1,,Miami (OH),2022
+Nolan Johnson,nolan-johnson-1,/cfb/players/nolan-johnson-1.html,CB,11,17,5,22,2.0,1.0,0,0,,0,3,1,0,0,1,,Miami (OH),2022
+Dominic Nardone,dominic-nardone-1,/cfb/players/dominic-nardone-1.html,LB,11,6,11,17,0.0,0.0,0,0,,0,1,0,0,0,1,,Miami (OH),2022
+Oscar McWood,oscar-mcwood-1,/cfb/players/oscar-mcwood-1.html,LB,4,7,8,15,0.5,0.0,0,0,,0,0,0,0,0,0,,Miami (OH),2022
+Camden Rogers,camden-rogers-1,/cfb/players/camden-rogers-1.html,LB,12,3,6,9,1.0,1.0,0,0,,0,0,0,0,0,0,,Miami (OH),2022
+Reginald Virgil,reginald-virgil-1,/cfb/players/reginald-virgil-1.html,WR,11,4,4,8,0.0,0.0,0,0,,0,0,0,0,0,0,,Miami (OH),2022
+Nasir Washington,nasir-washington-1,/cfb/players/nasir-washington-1.html,DL,12,2,5,7,0.0,0.0,0,0,,0,0,1,0,0,0,,Miami (OH),2022
+Anthony Collier II,anthony-collier-ii-1,/cfb/players/anthony-collier-ii-1.html,DL,9,1,6,7,0.5,0.0,0,0,,0,0,0,0,0,0,,Miami (OH),2022
+Rowan Zolman,rowan-zolman-1,/cfb/players/rowan-zolman-1.html,DB,9,5,1,6,0.0,0.0,1,45,45.0,0,0,0,0,0,0,,Miami (OH),2022
+Marlon Dawson Jr.,marlon-dawson-jr-1,/cfb/players/marlon-dawson-jr-1.html,DL,7,1,2,3,1.0,1.0,0,0,,0,0,0,0,0,1,,Miami (OH),2022
+Blaine Riley,blaine-riley-1,/cfb/players/blaine-riley-1.html,LB,11,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Miami (OH),2022
+Jacob Snell,jacob-snell-1,/cfb/players/jacob-snell-1.html,DL,1,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Miami (OH),2022
+Corban Hondru,corban-hondru-1,/cfb/players/corban-hondru-1.html,LB,12,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Miami (OH),2022
+Ryan Kahn,ryan-kahn-1,/cfb/players/ryan-kahn-1.html,DB,1,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Miami (OH),2022
+Jaylon Bester,jaylon-bester-1,/cfb/players/jaylon-bester-1.html,RB,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Miami (OH),2022
+Kenny Tracy,kenny-tracy-1,/cfb/players/kenny-tracy-1.html,RB,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Miami (OH),2022
+Keyon Mozee,keyon-mozee-1,/cfb/players/keyon-mozee-1.html,RB,11,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Miami (OH),2022
+Jalen Walker,jalen-walker-2,/cfb/players/jalen-walker-2.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Miami (OH),2022
+Jack Coldiron,jack-coldiron-1,/cfb/players/jack-coldiron-1.html,TE,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Miami (OH),2022
+Graham Nicholson,graham-nicholson-1,/cfb/players/graham-nicholson-1.html,K,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Miami (OH),2022
+Brett Gabbert,brett-gabbert-1,/cfb/players/brett-gabbert-1.html,QB,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Miami (OH),2022
+Brendan Beattle,brendan-beattle-1,/cfb/players/brendan-beattle-1.html,LS,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Miami (OH),2022
+Aveon Smith,aveon-smith-1,/cfb/players/aveon-smith-1.html,QB,10,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Miami (OH),2022
+Austin Robinson,austin-robinson-2,/cfb/players/austin-robinson-2.html,WR,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Miami (OH),2022

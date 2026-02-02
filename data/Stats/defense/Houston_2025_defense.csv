@@ -1,0 +1,41 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Carlos Allen,carlos-allen-1,/cfb/players/carlos-allen-1.html,DL,13,33,47,80,7.5,1.5,0,0,,0,3,0,0,0,1,,Houston,2025
+Jalen Garner,jalen-garner-1,/cfb/players/jalen-garner-1.html,LB,13,40,37,77,3.5,2.0,0,0,,0,2,0,0,0,2,,Houston,2025
+Kentrell Webb,kentrell-webb-1,/cfb/players/kentrell-webb-1.html,DB,13,51,20,71,3.0,0.0,1,0,0.0,0,4,0,0,0,1,,Houston,2025
+Eddie Walls III,eddie-walls-iii-1,/cfb/players/eddie-walls-iii-1.html,DL,13,31,31,62,11.5,7.0,0,0,,0,5,0,0,0,0,,Houston,2025
+Sione Fotu,sione-fotu-2,/cfb/players/sione-fotu-2.html,LB,13,26,30,56,0.5,0.5,0,0,,0,0,3,0,0,0,,Houston,2025
+Latrell McCutchin,latrell-mccutchin-1,/cfb/players/latrell-mccutchin-1.html,DB,13,38,13,51,3.0,1.0,0,0,,0,10,1,0,0,1,,Houston,2025
+Wrook Brown,wrook-brown-1,/cfb/players/wrook-brown-1.html,DB,13,25,23,48,6.0,2.5,2,40,20.0,0,2,0,0,0,1,,Houston,2025
+Jordan Allen,jordan-allen-5,/cfb/players/jordan-allen-5.html,DB,13,35,13,48,1.5,0.5,0,0,,0,2,1,0,0,0,,Houston,2025
+Corey Platt Jr.,corey-platt-jr-1,/cfb/players/corey-platt-jr-1.html,LB,12,20,20,40,5.0,3.0,0,0,,0,2,0,0,0,1,,Houston,2025
+Khalil Laufau,khalil-laufau-1,/cfb/players/khalil-laufau-1.html,DL,12,18,21,39,3.0,2.0,0,0,,0,1,0,0,0,1,,Houston,2025
+Will James,will-james-2,/cfb/players/will-james-2.html,DB,13,31,7,38,4.0,0.0,3,37,12.3,1,8,1,0,0,2,,Houston,2025
+Latreveon McCutchin,latreveon-mccutchin-1,/cfb/players/latreveon-mccutchin-1.html,DE,12,18,17,35,2.5,1.0,2,45,22.5,1,2,0,0,0,1,,Houston,2025
+Brandon Mack,brandon-mack-3,/cfb/players/brandon-mack-3.html,DE,13,18,15,33,6.0,5.0,0,0,,0,0,0,0,0,2,,Houston,2025
+Marc Stampley II,marc-stampley-ii-1,/cfb/players/marc-stampley-ii-1.html,DB,13,15,13,28,2.0,1.0,2,17,8.5,0,3,0,0,0,0,,Houston,2025
+Carmycah Glass,carmycah-glass-2,/cfb/players/carmycah-glass-2.html,LB,13,14,13,27,1.0,1.0,0,0,,0,2,0,0,0,1,,Houston,2025
+Zelmar Vedder,zelmar-vedder-1,/cfb/players/zelmar-vedder-1.html,DB,13,14,6,20,0.0,0.0,0,0,,0,7,0,0,0,1,,Houston,2025
+Blake Thompson,blake-thompson-3,/cfb/players/blake-thompson-3.html,DB,11,16,2,18,0.0,0.0,1,0,0.0,0,0,0,0,0,1,,Houston,2025
+C.J. Douglas,cj-douglas-1,/cfb/players/cj-douglas-1.html,DB,12,7,4,11,0.0,0.0,1,0,0.0,0,0,0,0,0,0,,Houston,2025
+Johnsley Barbas,johnsley-barbas-1,/cfb/players/johnsley-barbas-1.html,DB,13,6,3,9,0.0,0.0,0,0,,0,0,0,0,0,0,,Houston,2025
+Jesus Machado,jesus-machado-1,/cfb/players/jesus-machado-1.html,LB,4,3,4,7,0.0,0.0,0,0,,0,0,0,0,0,0,,Houston,2025
+Zavian Tibbs,zavian-tibbs-1,/cfb/players/zavian-tibbs-1.html,DL,9,5,1,6,0.0,0.0,0,0,,0,1,0,0,0,0,,Houston,2025
+Darius Washington,darius-washington-2,/cfb/players/darius-washington-2.html,DL,4,1,5,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Houston,2025
+Myles Parker,myles-parker-1,/cfb/players/myles-parker-1.html,DL,12,1,4,5,1.0,0.0,0,0,,0,0,0,0,0,0,,Houston,2025
+JayShon Ridgle,jayshon-ridgle-1,/cfb/players/jayshon-ridgle-1.html,RB,8,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Houston,2025
+Travis Buhake,travis-buhake-1,/cfb/players/travis-buhake-1.html,DL,3,1,3,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Houston,2025
+Koby Young,koby-young-1,/cfb/players/koby-young-1.html,WR,13,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Houston,2025
+Keany Parks,keany-parks-1,/cfb/players/keany-parks-1.html,DB,9,4,0,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Houston,2025
+Reshad Sterling,reshad-sterling-1,/cfb/players/reshad-sterling-1.html,DL,1,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Houston,2025
+Chance Bryant,chance-bryant-1,/cfb/players/chance-bryant-1.html,DL,13,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Houston,2025
+Jamaal Shaw,jamaal-shaw-1,/cfb/players/jamaal-shaw-1.html,DB,10,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Houston,2025
+Dalton Marryman,dalton-marryman-1,/cfb/players/dalton-marryman-1.html,OL,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Houston,2025
+Christian Braithwaite,christian-braithwaite-1,/cfb/players/christian-braithwaite-1.html,LB,10,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Houston,2025
+Xavier Stillman,xavier-stillman-1,/cfb/players/xavier-stillman-1.html,DL,13,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Houston,2025
+Liam Dougherty,liam-dougherty-1,/cfb/players/liam-dougherty-1.html,P,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Houston,2025
+Dean Connors,dean-connors-1,/cfb/players/dean-connors-1.html,RB,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Houston,2025
+Harvey Broussard,harvey-broussard-1,/cfb/players/harvey-broussard-1.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Houston,2025
+Stephon Johnson Jr.,stephon-johnson-jr-1,/cfb/players/stephon-johnson-jr-1.html,WR,6,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Houston,2025
+Jacob Garza,jacob-garza-1,/cfb/players/jacob-garza-1.html,LS,13,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Houston,2025
+Zac Yoakam,zac-yoakam-1,/cfb/players/zac-yoakam-1.html,K,13,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Houston,2025
+Amare Thomas,amare-thomas-1,/cfb/players/amare-thomas-1.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Houston,2025

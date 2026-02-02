@@ -1,0 +1,34 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+John Marshall,john-marshall-2,/cfb/players/john-marshall-2.html,LB,12,44,52,96,19.5,11.5,1,0,0.0,0,7,0,0,0,2,,Navy,2022
+Colin Ramos,colin-ramos-1,/cfb/players/colin-ramos-1.html,LB,12,34,45,79,8.5,4.0,1,5,5.0,0,0,1,0,0,2,,Navy,2022
+Rayuan Lane,rayuan-lane-1,/cfb/players/rayuan-lane-1.html,S,12,43,28,71,2.5,1.0,0,0,,0,4,2,0,0,2,,Navy,2022
+Nick Straw,nick-straw-1,/cfb/players/nick-straw-1.html,LB,12,26,29,55,4.5,1.5,1,18,18.0,0,3,0,0,0,0,,Navy,2022
+Eavan Gibbons,eavan-gibbons-1,/cfb/players/eavan-gibbons-1.html,S,12,29,25,54,5.0,1.0,0,0,,0,1,1,0,0,2,,Navy,2022
+Mbiti Williams,mbiti-williams-1,/cfb/players/mbiti-williams-1.html,CB,12,24,18,42,2.5,0.5,1,31,31.0,0,5,1,0,0,0,,Navy,2022
+Jianni Woodson-Brooks,jianni-woodson-brooks-1,/cfb/players/jianni-woodson-brooks-1.html,LB,12,24,18,42,1.0,0.0,0,0,,0,1,1,5,1,0,,Navy,2022
+Jacob Busic,jacob-busic-1,/cfb/players/jacob-busic-1.html,DE,11,16,22,38,8.5,6.0,0,0,,0,0,1,0,0,2,,Navy,2022
+Donald Berniard Jr.,donald-berniardjr-1,/cfb/players/donald-berniardjr-1.html,DL,12,9,26,35,4.5,0.5,0,0,,0,1,1,0,0,0,,Navy,2022
+Tyler Fletcher,tyler-fletcher-1,/cfb/players/tyler-fletcher-1.html,LB,11,15,16,31,5.0,4.0,1,0,0.0,0,2,0,0,0,0,,Navy,2022
+Will Harbour,will-harbour-1,/cfb/players/will-harbour-1.html,LB,11,14,16,30,3.5,1.5,0,0,,0,0,0,0,0,0,,Navy,2022
+Clay Cromwell,clay-cromwell-1,/cfb/players/clay-cromwell-1.html,DT,11,5,24,29,6.0,1.5,0,0,,0,0,0,0,0,0,,Navy,2022
+Elias Larry,elias-larry-1,/cfb/players/elias-larry-1.html,CB,11,11,8,19,1.0,0.0,2,3,1.5,0,2,0,0,0,0,,Navy,2022
+Joe Hutson,joe-hutson-1,/cfb/players/joe-hutson-1.html,S,12,6,10,16,0.0,0.0,0,0,,0,1,1,0,0,0,,Navy,2022
+Justin Reed,justin-reed-3,/cfb/players/justin-reed-3.html,DE,12,3,11,14,0.5,0.0,0,0,,0,0,1,0,0,0,,Navy,2022
+Dashaun Peele,dashaun-peele-2,/cfb/players/dashaun-peele-2.html,CB,5,9,5,14,3.0,1.0,1,0,0.0,0,3,0,0,0,0,,Navy,2022
+Kyle Jacob,kyle-jacob-3,/cfb/players/kyle-jacob-3.html,LB,12,5,6,11,0.5,0.0,0,0,,0,0,0,0,0,0,,Navy,2022
+Willie Collins V,willie-collins-v-1,/cfb/players/willie-collins-v-1.html,CB,10,10,1,11,0.0,0.0,0,0,,0,0,0,0,0,0,,Navy,2022
+Marcus Moore,marcus-moore-3,/cfb/players/marcus-moore-3.html,S,7,2,5,7,0.5,0.0,0,0,,0,2,0,0,0,0,,Navy,2022
+Nolan Barber,nolan-barber-1,/cfb/players/nolan-barber-1.html,DL,12,1,5,6,0.5,0.0,0,0,,0,0,0,0,0,1,,Navy,2022
+Matthew Peters,matthew-peters-1,/cfb/players/matthew-peters-1.html,CB,9,3,1,4,1.0,0.0,0,0,,0,1,0,0,0,0,,Navy,2022
+Max Sandlin,max-sandlin-1,/cfb/players/max-sandlin-1.html,LB,12,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Navy,2022
+Turner Stepp,turner-stepp-1,/cfb/players/turner-stepp-1.html,LB,12,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Navy,2022
+Jayden Umbarger,jayden-umbarger-1,/cfb/players/jayden-umbarger-1.html,WR,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Navy,2022
+Xavier McDonald,xavier-mcdonald-1,/cfb/players/xavier-mcdonald-1.html,LB,11,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Navy,2022
+Nathan Kent,nathan-kent-1,/cfb/players/nathan-kent-1.html,WR,6,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Navy,2022
+Nazir Rogers,nazir-rogers-1,/cfb/players/nazir-rogers-1.html,WR,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Navy,2022
+Andrew Duhart,andrew-duhart-1,/cfb/players/andrew-duhart-1.html,CB,8,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Navy,2022
+Tai Lavatai,tai-lavatai-1,/cfb/players/tai-lavatai-1.html,QB,8,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Navy,2022
+Taylor Robinson,taylor-robinson-2,/cfb/players/taylor-robinson-2.html,S,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Navy,2022
+Trent Shiraki,trent-shiraki-2,/cfb/players/trent-shiraki-2.html,LB,6,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Navy,2022
+Jordan Sanders,jordan-sanders-1,/cfb/players/jordan-sanders-1.html,LB,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Navy,2022
+Daba Fofana,daba-fofana-1,/cfb/players/daba-fofana-1.html,FB,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Navy,2022

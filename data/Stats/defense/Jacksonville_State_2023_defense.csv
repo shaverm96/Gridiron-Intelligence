@@ -1,0 +1,51 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Quae Drake,quae-drake-1,/cfb/players/quae-drake-1.html,LB,13,48,44,92,6.5,2.0,1,0,0.0,0,2,1,0,0,1,,Jacksonville State,2023
+Kolbi Fuqua,kolbi-fuqua-2,/cfb/players/kolbi-fuqua-2.html,S,13,46,41,87,6.0,2.5,1,1,1.0,0,1,0,0,0,1,,Jacksonville State,2023
+Fred Perry,fred-perry-1,/cfb/players/fred-perry-1.html,S,13,49,26,75,4.0,0.0,1,18,18.0,0,5,0,0,0,3,,Jacksonville State,2023
+Jeremiah Harris,jeremiah-harris-2,/cfb/players/jeremiah-harris-2.html,S,13,39,26,65,1.0,0.0,2,62,31.0,0,3,0,0,0,0,,Jacksonville State,2023
+Larry Worth,larry-worth-1,/cfb/players/larry-worth-1.html,LB,13,28,35,63,6.0,3.0,1,0,0.0,0,2,1,0,0,1,,Jacksonville State,2023
+Chris Hardie,chris-hardie-1,/cfb/players/chris-hardie-1.html,DE,13,33,27,60,16.0,8.5,1,58,58.0,0,1,0,0,0,0,,Jacksonville State,2023
+Laletia Hale,laletia-hale-1,/cfb/players/laletia-hale-1.html,LB,13,32,28,60,5.5,1.0,0,0,,0,0,0,0,0,1,,Jacksonville State,2023
+Kekoura Tarnue,kekoura-tarnue-1,/cfb/players/kekoura-tarnue-1.html,CB,13,47,6,53,2.0,1.0,3,36,12.0,0,4,0,0,0,0,,Jacksonville State,2023
+Derek Carter,derek-carter-5,/cfb/players/derek-carter-5.html,CB,13,26,18,44,2.0,0.0,0,0,,0,8,0,0,0,0,,Jacksonville State,2023
+Jeff Marks,jeff-marks-1,/cfb/players/jeff-marks-1.html,DL,13,13,23,36,4.5,1.5,0,0,,0,0,2,0,0,1,,Jacksonville State,2023
+Curley Young Jr.,curley-young-jr-2,/cfb/players/curley-young-jr-2.html,DE,12,20,12,32,4.5,3.5,0,0,,0,0,1,26,1,2,,Jacksonville State,2023
+J-Rock Swain,j-rock-swain-1,/cfb/players/j-rock-swain-1.html,DE,10,14,16,30,6.5,4.0,0,0,,0,2,2,7,0,1,,Jacksonville State,2023
+Jackson Luttrell,jackson-luttrell-1,/cfb/players/jackson-luttrell-1.html,DL,13,9,19,28,3.0,1.5,0,0,,0,1,0,0,0,0,,Jacksonville State,2023
+K'won McCray,kwon-mccray-1,/cfb/players/kwon-mccray-1.html,S,12,14,12,26,0.5,0.0,1,0,0.0,0,1,0,0,0,0,,Jacksonville State,2023
+Marco Baker,marco-baker-1,/cfb/players/marco-baker-1.html,CB,12,12,7,19,2.0,1.0,0,0,,0,3,0,0,0,0,,Jacksonville State,2023
+Jabari Mack,jabari-mack-1,/cfb/players/jabari-mack-1.html,CB,8,11,6,17,0.0,0.0,1,34,34.0,0,3,0,0,0,0,,Jacksonville State,2023
+Cam Williams,cam-williams-1,/cfb/players/cam-williams-1.html,DE,12,6,11,17,1.5,1.0,0,0,,0,1,0,0,0,1,,Jacksonville State,2023
+Jibreel Al-Amin,jibreel-al-amin-1,/cfb/players/jibreel-al-amin-1.html,LB,12,13,3,16,1.0,1.0,0,0,,0,0,0,0,0,0,,Jacksonville State,2023
+Darrell Prater,darrell-prater-1,/cfb/players/darrell-prater-1.html,DL,12,8,6,14,1.5,1.0,0,0,,0,0,0,0,0,0,,Jacksonville State,2023
+Devin Baldwin,devin-baldwin-1,/cfb/players/devin-baldwin-1.html,DL,12,8,5,13,6.5,0.0,0,0,,0,0,0,0,0,0,,Jacksonville State,2023
+Jalen Bustamante,jalen-bustamante-1,/cfb/players/jalen-bustamante-1.html,S,12,9,4,13,1.0,0.0,1,18,18.0,0,1,1,0,0,0,,Jacksonville State,2023
+Jaden Thomas,jaden-thomas-2,/cfb/players/jaden-thomas-2.html,LB,12,6,6,12,2.0,1.0,0,0,,0,0,0,0,0,0,,Jacksonville State,2023
+Kamari Stephens,kamari-stephens-1,/cfb/players/kamari-stephens-1.html,DL,12,6,6,12,5.5,3.5,0,0,,0,1,0,0,0,2,,Jacksonville State,2023
+Austin Ambush,austin-ambush-1,/cfb/players/austin-ambush-1.html,S,11,3,8,11,0.5,0.0,0,0,,0,1,0,0,0,0,,Jacksonville State,2023
+Geimere Latimer,geimere-latimer-1,/cfb/players/geimere-latimer-1.html,CB,13,7,3,10,0.0,0.0,1,0,0.0,0,0,0,0,0,1,,Jacksonville State,2023
+Travis Franklin Jr.,travis-franklin-jr-1,/cfb/players/travis-franklin-jr-1.html,S,12,4,3,7,0.0,0.0,1,22,22.0,0,0,0,0,0,0,,Jacksonville State,2023
+Javarius Hoskins,javarius-hoskins-1,/cfb/players/javarius-hoskins-1.html,DE,9,3,2,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Jacksonville State,2023
+Keyon Clark,keyon-clark-1,/cfb/players/keyon-clark-1.html,DL,2,1,4,5,1.0,0.0,0,0,,0,0,0,0,0,0,,Jacksonville State,2023
+Yessman Green,yessman-green-1,/cfb/players/yessman-green-1.html,S,9,2,2,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Jacksonville State,2023
+Ricky Samuel,ricky-samuel-2,/cfb/players/ricky-samuel-2.html,DL,11,1,3,4,1.0,1.0,0,0,,0,0,0,0,0,0,,Jacksonville State,2023
+Quin Warren,quin-warren-1,/cfb/players/quin-warren-1.html,DL,3,1,3,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Jacksonville State,2023
+Anwar Lewis,anwar-lewis-1,/cfb/players/anwar-lewis-1.html,RB,9,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Jacksonville State,2023
+Xavier Morrow,xavier-morrow-1,/cfb/players/xavier-morrow-1.html,LB,6,1,2,3,0.5,0.0,0,0,,0,0,1,0,0,0,,Jacksonville State,2023
+Pearson Baldwin,pearson-baldwin-1,/cfb/players/pearson-baldwin-1.html,TE,12,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Jacksonville State,2023
+Jamari Jemison,jamari-jemison-1,/cfb/players/jamari-jemison-1.html,CB,4,2,0,2,0.0,0.0,0,0,,0,1,0,0,0,0,,Jacksonville State,2023
+Terrance Thomas Jr.,terrance-thomas-jr-1,/cfb/players/terrance-thomas-jr-1.html,S,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Jacksonville State,2023
+Zion Webb,zion-webb-1,/cfb/players/zion-webb-1.html,QB,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Jacksonville State,2023
+Jamarye Joiner,jamarye-joiner-1,/cfb/players/jamarye-joiner-1.html,WR,13,1,0,1,0.0,0.0,0,0,,0,1,0,0,0,0,,Jacksonville State,2023
+Tristan Wells,tristan-wells-1,/cfb/players/tristan-wells-1.html,LB,4,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Jacksonville State,2023
+Treylen Brown,treylen-brown-1,/cfb/players/treylen-brown-1.html,OL,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Jacksonville State,2023
+Garrison Rippa,garrison-rippa-1,/cfb/players/garrison-rippa-1.html,K,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Jacksonville State,2023
+Travis Collier,travis-collier-2,/cfb/players/travis-collier-2.html,CB,8,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Jacksonville State,2023
+Logan Smothers,logan-smothers-1,/cfb/players/logan-smothers-1.html,QB,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Jacksonville State,2023
+Sean Brown,sean-brown-10,/cfb/players/sean-brown-10.html,TE,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Jacksonville State,2023
+Dajwon DeLoach,dajwon-deloach-1,/cfb/players/dajwon-deloach-1.html,LB,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Jacksonville State,2023
+Cole Fuller,cole-fuller-1,/cfb/players/cole-fuller-1.html,TE,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Jacksonville State,2023
+Jaylen Williams,jaylen-williams-2,/cfb/players/jaylen-williams-2.html,WR,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Jacksonville State,2023
+Nick Covington,nick-covington-1,/cfb/players/nick-covington-1.html,DB,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Jacksonville State,2023
+Brad Harper,brad-harper-1,/cfb/players/brad-harper-1.html,LB,2,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Jacksonville State,2023
+Zechariah Poyser,zechariah-poyser-1,/cfb/players/zechariah-poyser-1.html,S,5,0,0,0,0.0,0.0,1,0,0.0,0,0,0,0,0,0,,Jacksonville State,2023

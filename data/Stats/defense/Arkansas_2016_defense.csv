@@ -1,0 +1,51 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Brooks Ellis,brooks-ellis-1,/cfb/players/brooks-ellis-1.html,LB,13,38,45,83,7.0,1.0,1,47,47.0,1,5,1,0,0,0,,Arkansas,2016
+Josh Liddell,josh-liddell-1,/cfb/players/josh-liddell-1.html,DB,13,35,28,63,2.0,0.0,2,2,1.0,0,4,0,0,0,1,,Arkansas,2016
+Deatrich Wise Jr.,deatrich-wise-jr-1,/cfb/players/deatrich-wise-jr-1.html,DL,13,21,28,49,5.5,3.5,0,0,,0,3,0,0,0,1,,Arkansas,2016
+Jeremiah Ledbetter,jeremiah-ledbetter-1,/cfb/players/jeremiah-ledbetter-1.html,DL,13,17,32,49,7.5,5.5,0,0,,0,2,0,0,0,1,,Arkansas,2016
+Ryan Pulley,ryan-pulley-1,/cfb/players/ryan-pulley-1.html,DB,13,33,14,47,0.5,0.0,2,75,37.5,1,13,1,0,0,0,,Arkansas,2016
+Henre' Toliver,henre-toliver-1,/cfb/players/henre-toliver-1.html,DB,13,30,15,45,1.0,0.0,2,70,35.0,1,6,0,0,0,0,,Arkansas,2016
+Dwayne Eugene,dwayne-eugene-1,/cfb/players/dwayne-eugene-1.html,LB,13,20,24,44,1.0,0.0,1,8,8.0,0,0,2,0,0,0,,Arkansas,2016
+Santos Ramirez,santos-ramirez-1,/cfb/players/santos-ramirez-1.html,DB,12,30,13,43,0.0,0.0,1,24,24.0,1,2,0,0,0,2,,Arkansas,2016
+Dre Greenlaw,dre-greenlaw-1,/cfb/players/dre-greenlaw-1.html,LB,7,22,20,42,1.5,0.0,1,3,3.0,0,0,2,0,0,0,,Arkansas,2016
+Jared Collins,jared-collins-1,/cfb/players/jared-collins-1.html,DB,13,25,16,41,1.0,0.0,0,0,,0,12,0,0,0,0,,Arkansas,2016
+De'Andre Coley,deandre-coley-1,/cfb/players/deandre-coley-1.html,DB,12,20,17,37,0.5,0.0,0,0,,0,0,2,0,0,2,,Arkansas,2016
+De'Jon Harris,dejon-harris-1,/cfb/players/dejon-harris-1.html,LB,12,18,19,37,2.0,1.0,0,0,,0,0,0,0,0,1,,Arkansas,2016
+Taiwan Johnson,taiwan-johnson-1,/cfb/players/taiwan-johnson-1.html,DL,13,9,20,29,5.0,2.0,0,0,,0,1,0,0,0,0,,Arkansas,2016
+McTelvin Agim,mctelvin-agim-1,/cfb/players/mctelvin-agim-1.html,DL,13,8,19,27,5.5,2.5,0,0,,0,0,0,0,0,0,,Arkansas,2016
+D.J. Dean,dj-dean-2,/cfb/players/dj-dean-2.html,DB,11,9,15,24,0.0,0.0,0,0,,0,1,0,0,0,0,,Arkansas,2016
+Randy Ramsey,randy-ramsey-1,/cfb/players/randy-ramsey-1.html,DE,12,13,10,23,5.5,2.5,0,0,,0,0,1,0,0,3,,Arkansas,2016
+Tevin Beanum,tevin-beanum-1,/cfb/players/tevin-beanum-1.html,DL,12,6,15,21,0.0,0.0,0,0,,0,0,0,0,0,0,,Arkansas,2016
+Jamichael Winston,jamichael-winston-1,/cfb/players/jamichael-winston-1.html,DL,13,8,13,21,2.0,2.0,0,0,,0,0,0,0,0,0,,Arkansas,2016
+Ryder Lucas,ryder-lucas-1,/cfb/players/ryder-lucas-1.html,DB,13,5,7,12,0.0,0.0,0,0,,0,0,0,0,0,0,,Arkansas,2016
+Austin Capps,austin-capps-1,/cfb/players/austin-capps-1.html,DL,12,3,9,12,1.5,0.5,0,0,,0,0,0,0,0,0,,Arkansas,2016
+Reid Miller,reid-miller-1,/cfb/players/reid-miller-1.html,DB,13,3,6,9,0.0,0.0,0,0,,0,0,0,0,0,0,,Arkansas,2016
+Brandon Lewis,brandon-lewis-2,/cfb/players/brandon-lewis-2.html,DL,5,2,7,9,2.5,0.5,0,0,,0,0,0,0,0,0,,Arkansas,2016
+Bijhon Jackson,bijhon-jackson-1,/cfb/players/bijhon-jackson-1.html,DL,13,4,5,9,4.5,2.5,0,0,,0,0,0,0,0,0,,Arkansas,2016
+Cody Hollister,cody-hollister-1,/cfb/players/cody-hollister-1.html,WR,12,6,2,8,0.0,0.0,0,0,,0,0,2,0,0,0,,Arkansas,2016
+Josh Harris,josh-harris-7,/cfb/players/josh-harris-7.html,LB,12,5,3,8,0.0,0.0,0,0,,0,0,0,0,0,0,,Arkansas,2016
+Kevin Richardson II,kevin-richardson-ii-1,/cfb/players/kevin-richardson-ii-1.html,,1,2,5,7,0.0,0.0,0,0,,0,0,0,0,0,0,,Arkansas,2016
+Kevin Richardson,kevin-richardson-2,/cfb/players/kevin-richardson-2.html,DB,1,2,5,7,0.0,0.0,0,0,,0,0,0,0,0,0,,Arkansas,2016
+Karl Roesler,karl-roesler-1,/cfb/players/karl-roesler-1.html,DL,13,4,3,7,1.5,1.5,0,0,,0,0,0,0,0,0,,Arkansas,2016
+Damon Mitchell,damon-mitchell-1,/cfb/players/damon-mitchell-1.html,RB,12,1,5,6,0.0,0.0,0,0,,0,0,0,0,0,1,,Arkansas,2016
+Khalia Hackett,khalia-hackett-1,/cfb/players/khalia-hackett-1.html,LB,8,2,4,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Arkansas,2016
+Paul Ramirez,paul-ramirez-1,/cfb/players/paul-ramirez-1.html,OL,5,5,0,5,0.0,0.0,0,0,,0,1,0,0,0,0,,Arkansas,2016
+T.J. Smith,tj-smith-5,/cfb/players/tj-smith-5.html,DL,5,1,3,4,1.5,0.0,0,0,,0,0,0,0,0,0,,Arkansas,2016
+Byron Keaton,byron-keaton-1,/cfb/players/byron-keaton-1.html,DB,12,2,2,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Arkansas,2016
+Austin Cantrell,austin-cantrell-1,/cfb/players/austin-cantrell-1.html,TE,13,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,1,,Arkansas,2016
+Rawleigh Williams III,rawleigh-williams-iii-1,/cfb/players/rawleigh-williams-iii-1.html,RB,13,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Arkansas,2016
+Matt Emrich,matt-emrich-1,/cfb/players/matt-emrich-1.html,LS,12,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Arkansas,2016
+Toby Baker,toby-baker-1,/cfb/players/toby-baker-1.html,P,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Arkansas,2016
+Adam McFain,adam-mcfain-1,/cfb/players/adam-mcfain-1.html,K,11,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Arkansas,2016
+Nate Dalton,nate-dalton-1,/cfb/players/nate-dalton-1.html,DB,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Arkansas,2016
+Keon Hatcher,keon-hatcher-1,/cfb/players/keon-hatcher-1.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Arkansas,2016
+Josh Williams,josh-williams-7,/cfb/players/josh-williams-7.html,LB,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,1,,Arkansas,2016
+Jake Hall,jake-hall-2,/cfb/players/jake-hall-2.html,OL,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Arkansas,2016
+Frank Ragnow,frank-ragnow-1,/cfb/players/frank-ragnow-1.html,OL,13,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Arkansas,2016
+D'Vone McClure,dvone-mcclure-2,/cfb/players/dvone-mcclure-2.html,,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Arkansas,2016
+D'Vone McClure,dvone-mcclure-1,/cfb/players/dvone-mcclure-1.html,WR,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Arkansas,2016
+Connor Limpert,connor-limpert-1,/cfb/players/connor-limpert-1.html,K,9,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Arkansas,2016
+Colton Jackson,colton-jackson-2,/cfb/players/colton-jackson-2.html,OL,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Arkansas,2016
+Briston Guidry,briston-guidry-1,/cfb/players/briston-guidry-1.html,DL,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Arkansas,2016
+Austin Allen,austin-allen-1,/cfb/players/austin-allen-1.html,QB,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Arkansas,2016
+Armon Watts,armon-watts-1,/cfb/players/armon-watts-1.html,DL,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Arkansas,2016

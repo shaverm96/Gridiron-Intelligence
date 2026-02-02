@@ -1,0 +1,43 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Plae Wyatt,plae-wyatt-1,/cfb/players/plae-wyatt-1.html,S,13,43,37,80,3.0,1.0,0,0,,0,6,1,0,0,0,,Rice,2023
+Myron Morrison,myron-morrison-2,/cfb/players/myron-morrison-2.html,LB,13,36,44,80,2.5,1.0,0,0,,0,0,1,3,0,1,,Rice,2023
+Gabe Taylor,gabe-taylor-1,/cfb/players/gabe-taylor-1.html,DB,12,39,22,61,1.0,1.0,2,72,36.0,0,9,0,0,0,1,,Rice,2023
+Chris Conti,chris-conti-1,/cfb/players/chris-conti-1.html,LB,8,23,30,53,2.5,0.5,1,15,15.0,0,0,0,0,0,0,,Rice,2023
+Sean Fresch,sean-fresch-1,/cfb/players/sean-fresch-1.html,CB,13,38,12,50,3.0,1.0,0,0,,0,7,0,0,0,1,,Rice,2023
+Coleman Coco,coleman-coco-1,/cfb/players/coleman-coco-1.html,DE,13,17,30,47,9.0,4.0,0,0,,0,0,0,0,0,0,,Rice,2023
+De'braylon Carroll,debraylon-carroll-1,/cfb/players/debraylon-carroll-1.html,DL,13,18,29,47,9.0,3.5,0,0,,0,0,1,0,0,0,,Rice,2023
+Tre'shon Devones,treshon-devones-1,/cfb/players/treshon-devones-1.html,DB,13,29,16,45,2.5,0.0,2,11,5.5,0,11,1,0,0,0,,Rice,2023
+Josh Pearcy,josh-pearcy-1,/cfb/players/josh-pearcy-1.html,LB,12,28,16,44,7.0,1.0,0,0,,0,1,0,0,0,1,,Rice,2023
+Jonathan Jean,jonathan-jean-3,/cfb/players/jonathan-jean-3.html,DB,11,30,11,41,3.0,1.0,0,0,,0,3,0,0,0,1,,Rice,2023
+DJ Arkansas,dj-arkansas-1,/cfb/players/dj-arkansas-1.html,LB,13,21,13,34,2.5,1.5,0,0,,0,0,1,0,0,0,,Rice,2023
+Izeya Floyd,izeya-floyd-1,/cfb/players/izeya-floyd-1.html,DL,13,6,22,28,0.0,0.0,0,0,,0,0,1,6,0,1,,Rice,2023
+Chike Anigbogu,chike-anigbogu-1,/cfb/players/chike-anigbogu-1.html,S,13,19,7,26,4.0,2.0,0,0,,0,0,0,0,0,1,,Rice,2023
+Blake Boenisch,blake-boenisch-1,/cfb/players/blake-boenisch-1.html,DL,13,11,15,26,2.5,0.0,0,0,,0,0,0,0,0,0,,Rice,2023
+Tyson Flowers,tyson-flowers-1,/cfb/players/tyson-flowers-1.html,S,11,16,9,25,2.0,1.0,0,0,,0,5,0,0,0,1,,Rice,2023
+Marcus Williams,marcus-williams-19,/cfb/players/marcus-williams-19.html,S,6,15,10,25,1.0,0.0,0,0,,0,1,1,0,0,0,,Rice,2023
+Andrew Awe,andrew-awe-1,/cfb/players/andrew-awe-1.html,LB,11,9,11,20,2.0,0.0,0,0,,0,1,0,0,0,0,,Rice,2023
+Daveon Hook,daveon-hook-1,/cfb/players/daveon-hook-1.html,S,13,11,5,16,1.0,0.0,0,0,,0,3,0,0,0,1,,Rice,2023
+Demone Green,demone-green-1,/cfb/players/demone-green-1.html,DL,13,7,5,12,5.0,2.0,0,0,,0,0,0,0,0,0,,Rice,2023
+Ty Anthony Morris,ty-anthony-morris-1,/cfb/players/ty-anthony-morris-1.html,LB,12,6,4,10,0.5,0.5,0,0,,0,1,0,0,0,0,,Rice,2023
+Lamont Narcisse,lamont-narcisse-1,/cfb/players/lamont-narcisse-1.html,CB,11,4,5,9,1.0,0.0,0,0,,0,2,0,0,0,0,,Rice,2023
+Michael Larbie,michael-larbie-1,/cfb/players/michael-larbie-1.html,DT,12,4,3,7,1.0,1.0,0,0,,0,0,0,0,0,0,,Rice,2023
+Jordan Campbell,jordan-campbell-2,/cfb/players/jordan-campbell-2.html,DE,10,1,5,6,1.0,1.0,0,0,,0,0,0,0,0,0,,Rice,2023
+Elroyal Morris Jr.,elroyal-morris-jr-1,/cfb/players/elroyal-morris-jr-1.html,DL,4,4,1,5,2.5,0.0,0,0,,0,0,0,0,0,0,,Rice,2023
+Van Heitmann,van-heitmann-1,/cfb/players/van-heitmann-1.html,DL,13,4,1,5,1.0,0.0,0,0,,0,0,0,0,0,0,,Rice,2023
+Ari Broussard,ari-broussard-1,/cfb/players/ari-broussard-1.html,RB,13,1,3,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Rice,2023
+Luke McCaffrey,luke-mccaffrey-1,/cfb/players/luke-mccaffrey-1.html,WR,13,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Rice,2023
+Max Ahoia,max-ahoia-1,/cfb/players/max-ahoia-1.html,CB,10,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Rice,2023
+Chibby Nwajuaku,chibby-nwajuaku-1,/cfb/players/chibby-nwajuaku-1.html,DL,2,1,2,3,0.5,0.0,0,0,,0,0,0,0,0,0,,Rice,2023
+Kenny Seymour Jr.,kenny-seymour-jr-1,/cfb/players/kenny-seymour-jr-1.html,LB,13,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Rice,2023
+Peyton Stevenson,peyton-stevenson-1,/cfb/players/peyton-stevenson-1.html,S,13,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Rice,2023
+Geron Hargon,geron-hargon-1,/cfb/players/geron-hargon-1.html,FB,13,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Rice,2023
+Beau Barton,beau-barton-1,/cfb/players/beau-barton-1.html,LB,4,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Rice,2023
+Landon Ransom-Goelz,landon-ransom-goelz-1,/cfb/players/landon-ransom-goelz-1.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Rice,2023
+Juma Otoviano,juma-otoviano-1,/cfb/players/juma-otoviano-1.html,RB,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Rice,2023
+Jovoni Johnson,jovoni-johnson-1,/cfb/players/jovoni-johnson-1.html,TE,8,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Rice,2023
+Joseph Mutombo,joseph-mutombo-1,/cfb/players/joseph-mutombo-1.html,DL,1,1,0,1,1.0,0.0,0,0,,0,0,0,0,0,0,,Rice,2023
+Quinton Jackson,quinton-jackson-1,/cfb/players/quinton-jackson-1.html,RB,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Rice,2023
+Elijah Mojarro,elijah-mojarro-1,/cfb/players/elijah-mojarro-1.html,TE,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Rice,2023
+Tim Horn,tim-horn-3,/cfb/players/tim-horn-3.html,K,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Rice,2023
+Colin Giffen,colin-giffen-2,/cfb/players/colin-giffen-2.html,FB,10,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Rice,2023
+Boden Groen,boden-groen-1,/cfb/players/boden-groen-1.html,TE,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Rice,2023

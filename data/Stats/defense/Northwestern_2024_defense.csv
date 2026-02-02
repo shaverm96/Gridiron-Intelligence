@@ -1,0 +1,46 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Mac Uihlein,mac-uihlein-1,/cfb/players/mac-uihlein-1.html,LB,12,49,36,85,3.5,2.0,0,0,,0,1,0,0,0,1,,Northwestern,2024
+Xander Mueller,xander-mueller-1,/cfb/players/xander-mueller-1.html,LB,9,30,27,57,4.5,1.0,1,25,25.0,0,4,1,0,0,1,,Northwestern,2024
+Theran Johnson,theran-johnson-1,/cfb/players/theran-johnson-1.html,DB,11,40,13,53,3.5,0.0,2,85,42.5,1,10,0,0,0,0,,Northwestern,2024
+Devin Turner,devin-turner-1,/cfb/players/devin-turner-1.html,DB,11,33,18,51,1.5,0.0,3,13,4.3,1,3,0,0,0,0,,Northwestern,2024
+Robert Fitzgerald,robert-fitzgerald-1,/cfb/players/robert-fitzgerald-1.html,DB,12,31,15,46,1.0,1.0,1,0,0.0,0,0,1,0,0,0,,Northwestern,2024
+Damon Walters,damon-walters-1,/cfb/players/damon-walters-1.html,DB,10,26,16,42,3.5,0.0,1,33,33.0,0,2,1,0,0,0,,Northwestern,2024
+Josh Fussell,josh-fussell-2,/cfb/players/josh-fussell-2.html,DB,12,30,9,39,1.0,0.0,0,0,,0,5,0,0,0,0,,Northwestern,2024
+Braden Turner,braden-turner-1,/cfb/players/braden-turner-1.html,DB,12,27,10,37,1.0,0.0,0,0,,0,2,1,0,0,0,,Northwestern,2024
+Aidan Hubbard,aidan-hubbard-1,/cfb/players/aidan-hubbard-1.html,DL,12,12,21,33,7.0,6.0,0,0,,0,1,1,2,1,0,,Northwestern,2024
+Grayson Metz,grayson-metz-1,/cfb/players/grayson-metz-1.html,LB,12,22,11,33,2.0,1.0,0,0,,0,1,0,0,0,2,,Northwestern,2024
+Coco Azema,coco-azema-1,/cfb/players/coco-azema-1.html,DB,12,24,8,32,1.0,0.0,1,12,12.0,0,3,0,0,0,0,,Northwestern,2024
+Evan Smith,evan-smith-1,/cfb/players/evan-smith-1.html,DB,12,23,5,28,2.0,0.0,1,0,0.0,0,3,0,0,0,0,,Northwestern,2024
+Najee Story,najee-story-1,/cfb/players/najee-story-1.html,DL,12,12,12,24,3.5,1.5,0,0,,0,0,1,0,0,0,,Northwestern,2024
+Reginald Pearson,reginald-pearson-1,/cfb/players/reginald-pearson-1.html,DL,12,13,8,21,4.0,1.5,0,0,,0,0,0,0,0,0,,Northwestern,2024
+Michael Kilbane,michael-kilbane-1,/cfb/players/michael-kilbane-1.html,DL,12,9,11,20,3.0,2.5,0,0,,0,0,0,0,0,0,,Northwestern,2024
+Kenny Soares Jr.,kenny-soares-jr-1,/cfb/players/kenny-soares-jr-1.html,LB,12,13,7,20,1.5,0.5,0,0,,0,1,0,0,0,0,,Northwestern,2024
+Jaylen Pate,jaylen-pate-1,/cfb/players/jaylen-pate-1.html,DE,12,13,5,18,5.0,0.0,0,0,,0,1,0,0,0,0,,Northwestern,2024
+Anto Saka,anto-saka-1,/cfb/players/anto-saka-1.html,DL,11,9,6,15,4.5,3.5,0,0,,0,0,0,0,0,0,,Northwestern,2024
+Sean McLaughlin,sean-mclaughlin-1,/cfb/players/sean-mclaughlin-1.html,DL,12,8,6,14,0.5,0.0,0,0,,0,2,0,0,0,0,,Northwestern,2024
+Braydon Brus,braydon-brus-1,/cfb/players/braydon-brus-1.html,LB,12,8,4,12,1.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2024
+Brendan Flakes,brendan-flakes-1,/cfb/players/brendan-flakes-1.html,DL,8,4,7,11,0.0,0.0,0,0,,0,2,0,0,0,0,,Northwestern,2024
+Carmine Bastone,carmine-bastone-1,/cfb/players/carmine-bastone-1.html,DL,7,6,3,9,1.5,1.5,0,0,,0,0,0,0,0,1,,Northwestern,2024
+Garner Wallace,garner-wallace-1,/cfb/players/garner-wallace-1.html,DB,11,3,5,8,0.0,0.0,0,0,,0,1,0,0,0,0,,Northwestern,2024
+Joe Dehaan,joe-dehaan-1,/cfb/players/joe-dehaan-1.html,DB,12,5,3,8,0.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2024
+Jaiden Cameron,jaiden-cameron-1,/cfb/players/jaiden-cameron-1.html,DL,11,1,4,5,0.0,0.0,0,0,,0,1,0,0,0,0,,Northwestern,2024
+Dylan Roberts,dylan-roberts-1,/cfb/players/dylan-roberts-1.html,DL,7,1,3,4,1.0,1.0,0,0,,0,0,0,0,0,0,,Northwestern,2024
+Tyler Gant,tyler-gant-1,/cfb/players/tyler-gant-1.html,DL,9,2,2,4,0.0,0.0,0,0,,0,2,0,0,0,0,,Northwestern,2024
+Luke Akers,luke-akers-1,/cfb/players/luke-akers-1.html,P,12,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2024
+Thomas Gordon,thomas-gordon-3,/cfb/players/thomas-gordon-3.html,TE,12,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2024
+Drew Wagner,drew-wagner-1,/cfb/players/drew-wagner-1.html,WR,6,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2024
+Noah Taylor,noah-taylor-3,/cfb/players/noah-taylor-3.html,LB,10,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2024
+Jason Reynolds II,jason-reynolds-ii-1,/cfb/players/jason-reynolds-ii-1.html,LB,4,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2024
+Jackson Carsello,jackson-carsello-1,/cfb/players/jackson-carsello-1.html,OL,11,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2024
+Hank Knez,hank-knez-1,/cfb/players/hank-knez-1.html,DL,5,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2024
+Ben Wrather,ben-wrather-1,/cfb/players/ben-wrather-1.html,OL,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2024
+Braxton Strong,braxton-strong-1,/cfb/players/braxton-strong-1.html,DL,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2024
+William Halkyard,william-halkyard-1,/cfb/players/william-halkyard-1.html,LS,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2024
+Grissim Anderson,grissim-anderson-1,/cfb/players/grissim-anderson-1.html,RB,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2024
+Miles Crutchley,miles-crutchley-1,/cfb/players/miles-crutchley-1.html,LB,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2024
+CJ Johnson II,cj-johnson-ii-1,/cfb/players/cj-johnson-ii-1.html,WR,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2024
+Marshall Lang,marshall-lang-2,/cfb/players/marshall-lang-2.html,TE,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2024
+Cole Shivers,cole-shivers-1,/cfb/players/cole-shivers-1.html,DB,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2024
+Lawson Albright,lawson-albright-1,/cfb/players/lawson-albright-1.html,TE,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2024
+Jake Arthurs,jake-arthurs-1,/cfb/players/jake-arthurs-1.html,RB,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2024
+Hayden Eligon II,hayden-eligon-ii-1,/cfb/players/hayden-eligon-ii-1.html,WR,9,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2024

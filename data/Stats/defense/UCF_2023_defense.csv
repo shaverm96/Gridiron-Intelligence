@@ -1,0 +1,47 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Jason Johnson,jason-johnson-7,/cfb/players/jason-johnson-7.html,LB,13,65,49,114,6.5,3.0,0,0,,0,2,1,0,0,0,,UCF,2023
+Walter Yates,walter-yates-1,/cfb/players/walter-yates-1.html,LB,12,46,34,80,1.5,0.0,0,0,,0,2,0,0,0,0,,UCF,2023
+Lee Hunter,lee-hunter-1,/cfb/players/lee-hunter-1.html,DL,13,38,31,69,11.0,3.0,0,0,,0,1,0,0,0,0,,UCF,2023
+Tre'mon Morris-Brash,tremon-morris-brash-1,/cfb/players/tremon-morris-brash-1.html,DL,13,38,18,56,20.5,8.5,0,0,,0,1,0,0,0,0,,UCF,2023
+Nikai Martinez,nikai-martinez-1,/cfb/players/nikai-martinez-1.html,DB,13,40,14,54,1.5,0.0,3,94,31.3,0,1,0,0,0,0,,UCF,2023
+Josh Celiscar,josh-celiscar-1,/cfb/players/josh-celiscar-1.html,DL,13,25,22,47,4.0,0.0,0,0,,0,0,0,0,0,0,,UCF,2023
+Jireh Wilson,jireh-wilson-1,/cfb/players/jireh-wilson-1.html,S,12,29,17,46,0.5,0.0,0,0,,0,2,0,0,0,1,,UCF,2023
+Demari Henderson,demari-henderson-1,/cfb/players/demari-henderson-1.html,DB,10,29,16,45,0.0,0.0,3,0,0.0,0,3,3,87,1,2,,UCF,2023
+Quadric Bullard,quadric-bullard-1,/cfb/players/quadric-bullard-1.html,DB,13,28,6,34,0.0,0.0,1,27,27.0,0,3,0,0,0,0,,UCF,2023
+Corey Thornton,corey-thornton-1,/cfb/players/corey-thornton-1.html,DB,12,23,4,27,0.0,0.0,3,4,1.3,0,9,0,0,0,0,,UCF,2023
+Malachi Lawrence,malachi-lawrence-1,/cfb/players/malachi-lawrence-1.html,DL,13,17,10,27,10.5,7.5,0,0,,0,1,0,0,0,0,,UCF,2023
+John Walker,john-walker-9,/cfb/players/john-walker-9.html,DL,13,14,10,24,5.0,0.5,0,0,,0,1,0,0,0,0,,UCF,2023
+Decorian Patterson,decorian-patterson-1,/cfb/players/decorian-patterson-1.html,CB,12,20,3,23,1.5,0.0,0,0,,0,2,0,0,0,0,,UCF,2023
+Braeden Marshall,braeden-marshall-1,/cfb/players/braeden-marshall-1.html,DB,13,14,8,22,2.0,0.0,1,10,10.0,0,1,0,0,0,0,,UCF,2023
+Brandon Adams,brandon-adams-2,/cfb/players/brandon-adams-2.html,DB,13,16,5,21,1.5,0.0,0,0,,0,4,0,0,0,0,,UCF,2023
+Ricky Barber,ricky-barber-1,/cfb/players/ricky-barber-1.html,DL,10,8,10,18,2.0,1.5,0,0,,0,1,0,0,0,0,,UCF,2023
+Matthew Alexander,matthew-alexander-1,/cfb/players/matthew-alexander-1.html,DL,13,6,10,16,1.0,1.0,0,0,,0,1,0,0,0,0,,UCF,2023
+Rian Davis,rian-davis-1,/cfb/players/rian-davis-1.html,LB,7,6,8,14,0.0,0.0,0,0,,0,0,0,0,0,0,,UCF,2023
+Shaun Peterson Jr.,shaun-peterson-jr-2,/cfb/players/shaun-peterson-jr-2.html,LB,12,10,4,14,1.0,1.0,0,0,,0,0,0,0,0,1,,UCF,2023
+William Wells,william-wells-1,/cfb/players/william-wells-1.html,DB,10,10,4,14,0.0,0.0,0,0,,0,0,0,0,0,1,,UCF,2023
+Kam Moore,kam-moore-1,/cfb/players/kam-moore-1.html,LB,12,6,5,11,0.0,0.0,0,0,,0,1,0,0,0,0,,UCF,2023
+Ja'Cari Henderson,jacari-henderson-1,/cfb/players/jacari-henderson-1.html,DB,6,9,2,11,0.0,0.0,0,0,,0,1,0,0,0,0,,UCF,2023
+DeJordan Mask,dejordan-mask-1,/cfb/players/dejordan-mask-1.html,S,6,8,3,11,0.0,0.0,1,0,0.0,0,0,0,0,0,0,,UCF,2023
+Kervins Choute,kervins-choute-1,/cfb/players/kervins-choute-1.html,DL,6,2,5,7,0.5,0.5,0,0,,0,0,0,0,0,0,,UCF,2023
+Andrew Harris,andrew-harris-3,/cfb/players/andrew-harris-3.html,LB,10,2,3,5,0.0,0.0,0,0,,0,0,0,0,0,0,,UCF,2023
+Johnny Richardson,johnny-richardson-4,/cfb/players/johnny-richardson-4.html,RB,13,4,0,4,0.0,0.0,0,0,,0,0,0,0,0,0,,UCF,2023
+Randy Pittman Jr.,randy-pittman-jr-1,/cfb/players/randy-pittman-jr-1.html,TE,13,4,0,4,0.0,0.0,0,0,,0,0,0,0,0,0,,UCF,2023
+Jarrad Baker,jarrad-baker-1,/cfb/players/jarrad-baker-1.html,WR,12,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,UCF,2023
+Tyler Griffin,tyler-griffin-3,/cfb/players/tyler-griffin-3.html,WR,10,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,UCF,2023
+Colton Boomer,colton-boomer-1,/cfb/players/colton-boomer-1.html,K,13,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,UCF,2023
+Alec Holler,alec-holler-1,/cfb/players/alec-holler-1.html,TE,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UCF,2023
+Javon Baker,javon-baker-1,/cfb/players/javon-baker-1.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UCF,2023
+Tylan Grable,tylan-grable-1,/cfb/players/tylan-grable-1.html,OL,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UCF,2023
+Bula Schmidt,bula-schmidt-1,/cfb/players/bula-schmidt-1.html,OL,8,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UCF,2023
+TJ Bullard,tj-bullard-1,/cfb/players/tj-bullard-1.html,LB,8,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UCF,2023
+Camden Vining,camden-vining-1,/cfb/players/camden-vining-1.html,LB,3,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UCF,2023
+Gage King,gage-king-1,/cfb/players/gage-king-1.html,LS,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UCF,2023
+Isaiah Nixon,isaiah-nixon-1,/cfb/players/isaiah-nixon-1.html,DL,2,0,1,1,0.5,0.5,0,0,,0,0,0,0,0,0,,UCF,2023
+Isaiah Paul,isaiah-paul-1,/cfb/players/isaiah-paul-1.html,LB,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UCF,2023
+Lokahi Pauole,lokahi-pauole-1,/cfb/players/lokahi-pauole-1.html,OL,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UCF,2023
+Jamaal Johnson,jamaal-johnson-2,/cfb/players/jamaal-johnson-2.html,DE,5,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UCF,2023
+Kobe Hudson,kobe-hudson-1,/cfb/players/kobe-hudson-1.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UCF,2023
+Keshaun Hudson,keshaun-hudson-1,/cfb/players/keshaun-hudson-1.html,DT,2,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UCF,2023
+K.D. McDaniel,kd-mcdaniel-1,/cfb/players/kd-mcdaniel-1.html,DE,5,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UCF,2023
+Kaven Call,kaven-call-1,/cfb/players/kaven-call-1.html,DE,13,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UCF,2023
+Jordan McDonald,jordan-mcdonald-1,/cfb/players/jordan-mcdonald-1.html,RB,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UCF,2023

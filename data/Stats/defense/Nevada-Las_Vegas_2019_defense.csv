@@ -1,0 +1,49 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Rayshad Jackson,rayshad-jackson-1,/cfb/players/rayshad-jackson-1.html,LB,12,61,38,99,14.0,2.0,0,0,,0,4,0,0,0,2,,Nevada-Las Vegas,2019
+Even Austrie,even-austrie-1,/cfb/players/even-austrie-1.html,DB,12,61,20,81,5.0,2.0,0,0,,0,6,0,0,0,2,,Nevada-Las Vegas,2019
+Javin White,javin-white-1,/cfb/players/javin-white-1.html,LB,12,54,25,79,8.5,1.5,3,43,14.3,0,11,1,11,0,2,,Nevada-Las Vegas,2019
+Farrell Hester II,farrell-hester-ii-1,/cfb/players/farrell-hester-ii-1.html,LB,12,39,31,70,2.0,0.0,0,0,,0,1,0,0,0,0,,Nevada-Las Vegas,2019
+Jericho Flowers,jericho-flowers-1,/cfb/players/jericho-flowers-1.html,DB,12,54,14,68,3.0,1.0,4,45,11.3,0,9,1,0,0,0,,Nevada-Las Vegas,2019
+Greg Francis,greg-francis-1,/cfb/players/greg-francis-1.html,DB,11,22,20,42,0.0,0.0,0,0,,0,2,0,0,0,0,,Nevada-Las Vegas,2019
+Aaron Lewis,aaron-lewis-3,/cfb/players/aaron-lewis-3.html,DB,12,25,7,32,0.0,0.0,0,0,,0,3,0,0,0,0,,Nevada-Las Vegas,2019
+Gabe McCoy,gabe-mccoy-1,/cfb/players/gabe-mccoy-1.html,LB,11,22,10,32,8.0,2.0,0,0,,0,0,0,0,0,0,,Nevada-Las Vegas,2019
+Myles Plummer,myles-plummer-1,/cfb/players/myles-plummer-1.html,DB,11,28,3,31,2.5,0.0,0,0,,0,4,0,0,0,0,,Nevada-Las Vegas,2019
+Kolo Uasike,kolo-uasike-1,/cfb/players/kolo-uasike-1.html,DL,12,18,8,26,1.5,0.0,1,0,0.0,0,0,1,0,0,0,,Nevada-Las Vegas,2019
+Bryce Jackson,bryce-jackson-2,/cfb/players/bryce-jackson-2.html,DB,12,19,4,23,2.0,2.0,0,0,,0,0,0,0,0,1,,Nevada-Las Vegas,2019
+Victor Viramontes,victor-viramontes-1,/cfb/players/victor-viramontes-1.html,LB,9,14,6,20,1.0,0.0,0,0,,0,0,0,0,0,0,,Nevada-Las Vegas,2019
+Demitrious Gibbs,demitrious-gibbs-1,/cfb/players/demitrious-gibbs-1.html,DB,12,12,7,19,3.0,0.0,0,0,,0,0,0,0,0,0,,Nevada-Las Vegas,2019
+Montrice Johns,montrice-johns-2,/cfb/players/montrice-johns-2.html,DL,12,10,6,16,2.0,1.0,0,0,,0,0,0,0,0,0,,Nevada-Las Vegas,2019
+Drew Tejchman,drew-tejchman-1,/cfb/players/drew-tejchman-1.html,DB,4,13,2,15,0.0,0.0,0,0,,0,0,0,0,0,0,,Nevada-Las Vegas,2019
+Austin Ajiake,austin-ajiake-1,/cfb/players/austin-ajiake-1.html,LB,12,9,5,14,0.0,0.0,0,0,,0,0,0,0,0,0,,Nevada-Las Vegas,2019
+Nick Dehdashtian,nick-dehdashtian-1,/cfb/players/nick-dehdashtian-1.html,DL,7,5,9,14,1.5,0.0,0,0,,0,1,0,0,0,0,,Nevada-Las Vegas,2019
+Jacoby Windmon,jacoby-windmon-1,/cfb/players/jacoby-windmon-1.html,LB,12,5,7,12,0.5,0.5,0,0,,0,1,0,0,0,0,,Nevada-Las Vegas,2019
+Malakai Salu,malakai-salu-1,/cfb/players/malakai-salu-1.html,LB,12,7,3,10,1.0,0.0,0,0,,0,0,0,0,0,1,,Nevada-Las Vegas,2019
+Dominion Ezinwa,dominion-ezinwa-1,/cfb/players/dominion-ezinwa-1.html,DL,11,3,6,9,1.0,0.0,0,0,,0,0,0,0,0,0,,Nevada-Las Vegas,2019
+JD Alexander,jd-alexander-1,/cfb/players/jd-alexander-1.html,LB,12,2,7,9,0.0,0.0,0,0,,0,0,0,0,0,0,,Nevada-Las Vegas,2019
+Nate Neal,nate-neal-1,/cfb/players/nate-neal-1.html,DL,12,1,7,8,0.5,0.0,0,0,,0,0,1,25,0,0,,Nevada-Las Vegas,2019
+Jalen Graves,jalen-graves-1,/cfb/players/jalen-graves-1.html,DL,9,4,3,7,2.0,0.0,1,7,7.0,0,0,0,0,0,0,,Nevada-Las Vegas,2019
+Tavis Malakius,tavis-malakius-1,/cfb/players/tavis-malakius-1.html,DL,4,3,4,7,0.5,0.0,0,0,,0,0,0,0,0,0,,Nevada-Las Vegas,2019
+Jamel Hamm,jamel-hamm-1,/cfb/players/jamel-hamm-1.html,DB,8,4,2,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Nevada-Las Vegas,2019
+Jamaal Neal,jamaal-neal-1,/cfb/players/jamaal-neal-1.html,TE,11,4,2,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Nevada-Las Vegas,2019
+Naki Fahina,naki-fahina-1,/cfb/players/naki-fahina-1.html,DL,7,2,3,5,0.5,0.0,0,0,,0,0,0,0,0,0,,Nevada-Las Vegas,2019
+Kyle Beaudry,kyle-beaudry-1,/cfb/players/kyle-beaudry-1.html,LB,12,3,2,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Nevada-Las Vegas,2019
+Kyle Moses,kyle-moses-1,/cfb/players/kyle-moses-1.html,DB,2,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Nevada-Las Vegas,2019
+Tyree Jackson,tyree-jackson-3,/cfb/players/tyree-jackson-3.html,RB,12,1,3,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Nevada-Las Vegas,2019
+Chad Magyar,chad-magyar-1,/cfb/players/chad-magyar-1.html,RB,8,4,0,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Nevada-Las Vegas,2019
+Daniel Godfrey,daniel-godfrey-1,/cfb/players/daniel-godfrey-1.html,FB,11,3,1,4,0.0,0.0,0,0,,0,0,1,0,0,0,,Nevada-Las Vegas,2019
+Chris Manoa,chris-manoa-1,/cfb/players/chris-manoa-1.html,DL,7,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Nevada-Las Vegas,2019
+Christian Minor,christian-minor-1,/cfb/players/christian-minor-1.html,DB,9,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Nevada-Las Vegas,2019
+Giovanni Fauolo,giovanni-fauolo-1,/cfb/players/giovanni-fauolo-1.html,TE,12,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Nevada-Las Vegas,2019
+Soli Afalava,soli-afalava-1,/cfb/players/soli-afalava-1.html,DB,8,1,2,3,0.5,0.5,0,0,,0,0,0,0,0,0,,Nevada-Las Vegas,2019
+Darren Woods Jr.,darren-woods-jr-1,/cfb/players/darren-woods-jr-1.html,WR,10,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,1,,Nevada-Las Vegas,2019
+Hayes Hicken,hayes-hicken-1,/cfb/players/hayes-hicken-1.html,PK,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Nevada-Las Vegas,2019
+Noah McGregor,noah-mcgregor-1,/cfb/players/noah-mcgregor-1.html,DL,1,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Nevada-Las Vegas,2019
+Phillip Hill,phillip-hill-1,/cfb/players/phillip-hill-1.html,DB,1,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Nevada-Las Vegas,2019
+Armani Rogers,armani-rogers-1,/cfb/players/armani-rogers-1.html,QB,5,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Nevada-Las Vegas,2019
+Tavai Tuitasi,tavai-tuitasi-1,/cfb/players/tavai-tuitasi-1.html,DL,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Nevada-Las Vegas,2019
+Sir Oliver Everett,sir-oliver-everett-1,/cfb/players/sir-oliver-everett-1.html,DB,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Nevada-Las Vegas,2019
+Rodney Jones,rodney-jones-4,/cfb/players/rodney-jones-4.html,DL,5,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Nevada-Las Vegas,2019
+Rex Goossen,rex-goossen-1,/cfb/players/rex-goossen-1.html,LS,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Nevada-Las Vegas,2019
+Biaggio Ali Walsh,biaggio-ali-walsh-1,/cfb/players/biaggio-ali-walsh-1.html,RB,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Nevada-Las Vegas,2019
+Charles Williams,charles-williams-8,/cfb/players/charles-williams-8.html,RB,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Nevada-Las Vegas,2019
+Kenyon Oblad,kenyon-oblad-1,/cfb/players/kenyon-oblad-1.html,QB,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Nevada-Las Vegas,2019

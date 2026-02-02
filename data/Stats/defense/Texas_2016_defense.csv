@@ -1,0 +1,47 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Breckyn Hager,breckyn-hager-1,/cfb/players/breckyn-hager-1.html,LB,12,41,24,65,13.5,6.0,0,0,,0,1,0,0,0,1,,Texas,2016
+Anthony Wheeler,anthony-wheeler-1,/cfb/players/anthony-wheeler-1.html,LB,11,38,25,63,2.5,0.5,0,0,,0,2,0,0,0,2,,Texas,2016
+Malik Jefferson,malik-jefferson-1,/cfb/players/malik-jefferson-1.html,LB,11,42,17,59,8.5,5.5,0,0,,0,3,0,0,0,1,,Texas,2016
+Poona Ford,poona-ford-1,/cfb/players/poona-ford-1.html,DT,12,41,13,54,5.5,0.0,0,0,,0,0,1,0,0,1,,Texas,2016
+Jason Hall,jason-hall-2,/cfb/players/jason-hall-2.html,S,11,32,20,52,4.5,3.0,0,0,,0,3,0,0,0,0,,Texas,2016
+Kris Boyd,kris-boyd-1,/cfb/players/kris-boyd-1.html,CB,12,45,6,51,1.5,0.0,1,0,0.0,0,5,2,0,0,2,,Texas,2016
+Edwin Freeman,edwin-freeman-1,/cfb/players/edwin-freeman-1.html,LB,12,43,4,47,9.0,3.0,2,37,18.5,0,0,1,0,0,0,,Texas,2016
+Chris Nelson,chris-nelson-2,/cfb/players/chris-nelson-2.html,DT,12,28,17,45,5.5,1.5,0,0,,0,0,0,0,0,1,,Texas,2016
+Dylan Haines,dylan-haines-1,/cfb/players/dylan-haines-1.html,S,11,31,11,42,0.0,0.0,4,38,9.5,0,2,1,0,0,0,,Texas,2016
+John Bonney,john-bonney-1,/cfb/players/john-bonney-1.html,CB,12,31,8,39,0.5,0.0,0,0,,0,9,0,0,0,1,,Texas,2016
+Paul Boyette Jr.,paul-boyette-jr-1,/cfb/players/paul-boyette-jr-1.html,DT,12,22,13,35,5.5,2.0,0,0,,0,1,0,0,0,2,,Texas,2016
+P.J Locke III,pj-locke-iii-1,/cfb/players/pj-locke-iii-1.html,S,12,25,8,33,2.0,1.0,2,2,1.0,0,6,1,0,0,0,,Texas,2016
+Malcolm Roach,malcolm-roach-1,/cfb/players/malcolm-roach-1.html,LB,12,25,8,33,8.0,3.0,0,0,,0,0,0,0,0,0,,Texas,2016
+DeShon Elliott,deshon-elliott-1,/cfb/players/deshon-elliott-1.html,S,11,24,6,30,3.0,1.0,1,24,24.0,0,4,2,4,0,0,,Texas,2016
+Charles Omenihu,charles-omenihu-1,/cfb/players/charles-omenihu-1.html,DE,12,17,10,27,4.5,3.5,0,0,,0,0,0,0,0,0,,Texas,2016
+Timothy Cole,timothy-cole-1,/cfb/players/timothy-cole-1.html,LB,12,16,10,26,1.0,1.0,0,0,,0,1,0,0,0,0,,Texas,2016
+Naashon Hughes,naashon-hughes-1,/cfb/players/naashon-hughes-1.html,DE,12,20,6,26,3.5,3.5,0,0,,0,2,0,0,0,1,,Texas,2016
+Holton Hill,holton-hill-1,/cfb/players/holton-hill-1.html,DB,6,16,6,22,0.0,0.0,0,0,,0,1,0,0,0,1,,Texas,2016
+Jeffrey McCulloch,jeffrey-mcculloch-1,/cfb/players/jeffrey-mcculloch-1.html,LB,11,15,6,21,2.0,1.0,0,0,,0,0,1,0,0,1,,Texas,2016
+Davante Davis,davante-davis-1,/cfb/players/davante-davis-1.html,CB,12,13,3,16,1.5,0.0,0,0,,0,2,0,0,0,1,,Texas,2016
+Kevin Vaccaro,kevin-vaccaro-1,/cfb/players/kevin-vaccaro-1.html,S,12,12,4,16,2.0,2.0,0,0,,0,0,0,0,0,0,,Texas,2016
+Brandon Jones,brandon-jones-13,/cfb/players/brandon-jones-13.html,DB,12,11,4,15,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2016
+Bryce Cottrell,bryce-cottrell-1,/cfb/players/bryce-cottrell-1.html,DE,10,9,4,13,3.5,2.5,0,0,,0,0,0,0,0,0,,Texas,2016
+Antwuan Davis,antwuan-davis-1,/cfb/players/antwuan-davis-1.html,CB,10,8,1,9,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2016
+Sheroid Evans,sheroid-evans-1,/cfb/players/sheroid-evans-1.html,CB,9,7,1,8,0.0,0.0,0,0,,0,4,0,0,0,0,,Texas,2016
+Jordan Elliott,jordan-elliott-1,/cfb/players/jordan-elliott-1.html,DL,6,4,4,8,1.5,0.0,0,0,,0,0,0,0,0,0,,Texas,2016
+D'Andre Christmas,dandre-christmas-1,/cfb/players/dandre-christmas-1.html,DL,9,3,2,5,1.0,1.0,0,0,,0,0,1,0,0,0,,Texas,2016
+Gerald Wilbon,gerald-wilbon-1,/cfb/players/gerald-wilbon-1.html,DL,8,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2016
+Jake Oliver,jake-oliver-1,/cfb/players/jake-oliver-1.html,WR,12,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2016
+Cameron Townsend,cameron-townsend-1,/cfb/players/cameron-townsend-1.html,LB,10,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2016
+Quincy Vasser,quincy-vasser-1,/cfb/players/quincy-vasser-1.html,DE,11,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2016
+Matthew Merrick,matthew-merrick-1,/cfb/players/matthew-merrick-1.html,QB,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2016
+Shane Buechele,shane-buechele-1,/cfb/players/shane-buechele-1.html,QB,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2016
+Chris Warren III,chris-warren-iii-1,/cfb/players/chris-warren-iii-1.html,RB,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2016
+Collin Johnson,collin-johnson-2,/cfb/players/collin-johnson-2.html,WR,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2016
+Connor Williams,connor-williams-2,/cfb/players/connor-williams-2.html,OL,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,AA,Texas,2016
+Mitchell Becker,mitchell-becker-1,/cfb/players/mitchell-becker-1.html,P,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2016
+Michael Dickson,michael-dickson-1,/cfb/players/michael-dickson-1.html,P,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2016
+Devin Duvernay,devin-duvernay-1,/cfb/players/devin-duvernay-1.html,WR,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2016
+D'Onta Foreman,donta-foreman-1,/cfb/players/donta-foreman-1.html,RB,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,"H-8,AA",Texas,2016
+Dorian Leonard,dorian-leonard-1,/cfb/players/dorian-leonard-1.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2016
+Erick Fowler,erick-fowler-1,/cfb/players/erick-fowler-1.html,LB,9,1,0,1,1.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2016
+Kent Perkins,kent-perkins-1,/cfb/players/kent-perkins-1.html,G,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2016
+Josh Covey,josh-covey-1,/cfb/players/josh-covey-1.html,WR,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2016
+Johnny Tseng,johnny-tseng-1,/cfb/players/johnny-tseng-1.html,LB,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2016
+Jak Holbrook,jak-holbrook-1,/cfb/players/jak-holbrook-1.html,S,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2016

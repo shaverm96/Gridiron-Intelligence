@@ -1,0 +1,54 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Anthony Smithson,anthony-smithson-1,/cfb/players/anthony-smithson-1.html,S,12,70,23,93,2.5,1.0,4,5,1.3,0,7,1,0,0,2,,Kansas,2016
+Mike Lee,mike-lee-6,/cfb/players/mike-lee-6.html,S,11,70,7,77,1.5,0.0,1,35,35.0,0,3,0,0,0,2,,Kansas,2016
+Courtney Arnick,courtney-arnick-1,/cfb/players/courtney-arnick-1.html,LB,12,44,22,66,7.0,2.0,0,0,,0,3,1,0,0,1,,Kansas,2016
+Tevin Shaw,tevin-shaw-1,/cfb/players/tevin-shaw-1.html,S,12,40,16,56,4.5,0.0,0,0,,0,5,0,0,0,0,,Kansas,2016
+Dorance Armstrong Jr.,dorance-armstrong-jr-1,/cfb/players/dorance-armstrong-jr-1.html,DE,12,40,16,56,20.0,10.0,0,0,,0,0,2,7,0,3,,Kansas,2016
+Keith Loneker Jr.,keith-loneker-jr-1,/cfb/players/keith-loneker-jr-1.html,LB,12,28,15,43,1.0,0.0,0,0,,0,4,0,0,0,0,,Kansas,2016
+Daniel Wise,daniel-wise-1,/cfb/players/daniel-wise-1.html,DT,11,31,7,38,10.0,3.0,0,0,,0,1,1,6,0,0,,Kansas,2016
+Marcquis Roberts,marcquis-roberts-1,/cfb/players/marcquis-roberts-1.html,LB,7,27,8,35,6.5,1.0,0,0,,0,4,0,0,0,0,,Kansas,2016
+Marnez Ogletree,marnez-ogletree-1,/cfb/players/marnez-ogletree-1.html,CB,12,28,6,34,1.0,0.0,0,0,,0,8,0,0,0,0,,Kansas,2016
+DeeIsaac Davis,deeisaac-davis-1,/cfb/players/deeisaac-davis-1.html,DT,12,22,9,31,2.5,2.0,0,0,,0,1,0,0,0,0,,Kansas,2016
+Brandon Stewart,brandon-stewart-3,/cfb/players/brandon-stewart-3.html,CB,12,22,3,25,0.0,0.0,3,71,23.7,1,5,0,0,0,0,,Kansas,2016
+Damani Mosby,damani-mosby-1,/cfb/players/damani-mosby-1.html,DE,12,16,9,25,7.0,1.0,0,0,,0,0,2,0,0,2,,Kansas,2016
+Bazie Bates IV,bazie-bates-iv-1,/cfb/players/bazie-bates-iv-1.html,S,11,17,3,20,1.0,0.0,1,0,0.0,0,2,0,0,0,0,,Kansas,2016
+Joe Dineen,joe-dineen-1,/cfb/players/joe-dineen-1.html,LB,3,10,6,16,3.0,0.0,0,0,,0,1,0,0,0,0,,Kansas,2016
+Tyrone Miller Jr.,tyrone-miller-jr-1,/cfb/players/tyrone-miller-jr-1.html,S,8,11,4,15,1.0,0.0,0,0,,0,1,0,0,0,0,,Kansas,2016
+Derrick Neal,derrick-neal-1,/cfb/players/derrick-neal-1.html,CB,12,13,2,15,0.0,0.0,0,0,,0,2,0,0,0,0,,Kansas,2016
+Anthony Olobia,anthony-olobia-1,/cfb/players/anthony-olobia-1.html,DE,10,11,3,14,4.0,1.0,0,0,,0,0,0,0,0,0,,Kansas,2016
+Cameron Rosser,cameron-rosser-1,/cfb/players/cameron-rosser-1.html,LB,12,14,0,14,7.0,4.0,0,0,,0,1,1,0,0,1,,Kansas,2016
+Osaze Ogbebor,osaze-ogbebor-1,/cfb/players/osaze-ogbebor-1.html,LB,6,8,4,12,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2016
+Isi Holani,isi-holani-1,/cfb/players/isi-holani-1.html,DT,11,9,2,11,1.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2016
+Isaiah Bean,isaiah-bean-1,/cfb/players/isaiah-bean-1.html,DE,12,8,3,11,3.0,2.0,0,0,,0,0,0,0,0,0,,Kansas,2016
+Chevy Graham,chevy-graham-1,/cfb/players/chevy-graham-1.html,CB,12,7,3,10,0.5,0.0,0,0,,0,1,1,0,0,0,,Kansas,2016
+Bryce Torneden,bryce-torneden-1,/cfb/players/bryce-torneden-1.html,S,11,8,1,9,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2016
+Denzel Feaster,denzel-feaster-1,/cfb/players/denzel-feaster-1.html,LB,7,7,1,8,0.0,0.0,0,0,,0,0,1,0,0,1,,Kansas,2016
+Shaquille Richmond,shaquille-richmond-1,/cfb/players/shaquille-richmond-1.html,S,7,5,3,8,1.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2016
+Colin Spencer,colin-spencer-1,/cfb/players/colin-spencer-1.html,CB,12,7,1,8,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2016
+Greg Allen,greg-allen-4,/cfb/players/greg-allen-4.html,S,7,2,3,5,0.0,0.0,1,20,20.0,0,0,0,0,0,0,,Kansas,2016
+Tyler Patrick,tyler-patrick-1,/cfb/players/tyler-patrick-1.html,WR,12,4,1,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2016
+Jacky Dezir,jacky-dezir-1,/cfb/players/jacky-dezir-1.html,DT,8,3,1,4,1.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2016
+Emmanuel Moore,emmanuel-moore-1,/cfb/players/emmanuel-moore-1.html,WR,11,4,0,4,1.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2016
+Steven Sims Jr.,steven-sims-jr-1,/cfb/players/steven-sims-jr-1.html,WR,12,4,0,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2016
+Lay'Trion Jones,laytrion-jones-1,/cfb/players/laytrion-jones-1.html,DT,1,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2016
+DeAnte Ford,deante-ford-1,/cfb/players/deante-ford-1.html,CB,7,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2016
+Josh Ehambe,josh-ehambe-1,/cfb/players/josh-ehambe-1.html,DE,11,3,0,3,1.0,1.0,0,0,,0,0,0,0,0,1,,Kansas,2016
+Mike Zunica,mike-zunica-1,/cfb/players/mike-zunica-1.html,FB,12,2,1,3,0.0,0.0,0,0,,0,0,1,0,0,0,,Kansas,2016
+D.J. Williams,dj-williams-5,/cfb/players/dj-williams-5.html,DT,6,3,0,3,1.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2016
+Evan Fairs,evan-fairs-1,/cfb/players/evan-fairs-1.html,WR,8,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2016
+Ryan Willis,ryan-willis-2,/cfb/players/ryan-willis-2.html,QB,7,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2016
+Kyle Mayberry,kyle-mayberry-1,/cfb/players/kyle-mayberry-1.html,CB,8,2,0,2,0.0,0.0,0,0,,0,1,0,0,0,0,,Kansas,2016
+Carter Stanley,carter-stanley-1,/cfb/players/carter-stanley-1.html,QB,9,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2016
+Jace Sternberger,jace-sternberger-1,/cfb/players/jace-sternberger-1.html,TE,10,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2016
+Laquvionte Gonzalez,laquvionte-gonzalez-1,/cfb/players/laquvionte-gonzalez-1.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2016
+Logan Klusman,logan-klusman-1,/cfb/players/logan-klusman-1.html,LS,9,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2016
+Cole Moos,cole-moos-1,/cfb/players/cole-moos-1.html,P,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2016
+Ben Johnson,ben-johnson-2,/cfb/players/ben-johnson-2.html,TE,9,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2016
+Khalil Herbert,khalil-herbert-1,/cfb/players/khalil-herbert-1.html,RB,8,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2016
+Kendall Duckworth,kendall-duckworth-1,/cfb/players/kendall-duckworth-1.html,LB,6,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2016
+Kellen Ash,kellen-ash-1,/cfb/players/kellen-ash-1.html,DE,3,1,0,1,1.0,0.0,0,0,,0,0,1,0,0,0,,Kansas,2016
+Shakiem Barbel,shakiem-barbel-1,/cfb/players/shakiem-barbel-1.html,WR,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2016
+Denzell Evans,denzell-evans-1,/cfb/players/denzell-evans-1.html,RB,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2016
+Taylor Martin,taylor-martin-1,/cfb/players/taylor-martin-1.html,RB,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2016
+Austin Moses,austin-moses-1,/cfb/players/austin-moses-1.html,WR,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2016
+Ke'aun Kinner,keaun-kinner-1,/cfb/players/keaun-kinner-1.html,RB,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2016

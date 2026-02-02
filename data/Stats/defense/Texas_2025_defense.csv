@@ -1,0 +1,48 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Jelani McDonald,jelani-mcdonald-1,/cfb/players/jelani-mcdonald-1.html,DB,13,49,31,80,4.0,0.0,3,27,9.0,0,3,1,24,0,0,,Texas,2025
+Michael Taaffe,michael-taaffe-1,/cfb/players/michael-taaffe-1.html,DB,10,38,32,70,1.0,1.0,2,0,0.0,0,1,0,0,0,0,,Texas,2025
+Anthony Hill Jr.,anthony-hill-jr-1,/cfb/players/anthony-hill-jr-1.html,LB,10,37,32,69,7.0,4.0,2,3,1.5,0,1,1,21,0,3,,Texas,2025
+Liona Lefau,liona-lefau-1,/cfb/players/liona-lefau-1.html,LB,12,27,42,69,3.0,1.0,0,0,,0,3,1,52,1,0,,Texas,2025
+Ty'Anthony Smith,tyanthony-smith-1,/cfb/players/tyanthony-smith-1.html,LB,13,39,21,60,5.5,2.0,2,10,5.0,0,1,1,0,0,2,,Texas,2025
+Graceson Littleton,graceson-littleton-1,/cfb/players/graceson-littleton-1.html,DB,13,33,14,47,3.0,0.0,2,11,5.5,0,6,0,0,0,2,,Texas,2025
+Colin Simmons,colin-simmons-1,/cfb/players/colin-simmons-1.html,DE,13,23,20,43,15.5,12.0,0,0,,0,2,1,0,0,3,,Texas,2025
+Ethan Burke,ethan-burke-1,/cfb/players/ethan-burke-1.html,DE,12,17,23,40,7.0,3.0,0,0,,0,1,0,0,0,1,,Texas,2025
+Jaylon Guilbeau,jaylon-guilbeau-1,/cfb/players/jaylon-guilbeau-1.html,DB,12,22,18,40,1.0,0.0,1,0,0.0,0,3,0,0,0,0,,Texas,2025
+Trey Moore,trey-moore-1,/cfb/players/trey-moore-1.html,LB,12,22,13,35,5.0,3.0,0,0,,0,3,1,21,0,0,,Texas,2025
+Hero Kanu,hero-kanu-1,/cfb/players/hero-kanu-1.html,DT,13,8,22,30,4.0,2.0,0,0,,0,1,0,0,0,0,,Texas,2025
+Malik Muhammad,malik-muhammad-1,/cfb/players/malik-muhammad-1.html,DB,11,23,7,30,2.5,1.0,2,0,0.0,0,4,0,0,0,0,,Texas,2025
+Derek Williams Jr.,derek-williams-jr-1,/cfb/players/derek-williams-jr-1.html,DB,12,10,13,23,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2025
+Maraad Watson,maraad-watson-1,/cfb/players/maraad-watson-1.html,DL,12,6,17,23,1.5,1.5,0,0,,0,0,0,0,0,0,,Texas,2025
+Kade Phillips,kade-phillips-1,/cfb/players/kade-phillips-1.html,DB,12,16,6,22,2.0,0.0,0,0,,0,6,0,0,0,0,,Texas,2025
+Brad Spence,brad-spence-1,/cfb/players/brad-spence-1.html,DE,12,12,9,21,6.0,3.0,0,0,,0,0,0,0,0,0,,Texas,2025
+Warren Roberson,warren-roberson-1,/cfb/players/warren-roberson-1.html,DB,12,15,4,19,0.0,0.0,0,0,,0,2,0,0,0,0,,Texas,2025
+Alex January,alex-january-1,/cfb/players/alex-january-1.html,DL,10,9,10,19,2.5,1.5,0,0,,0,1,1,0,0,0,,Texas,2025
+Cole Brevard,cole-brevard-1,/cfb/players/cole-brevard-1.html,DL,13,9,9,18,1.0,0.0,0,0,,0,2,0,0,0,0,,Texas,2025
+Xavier Filsaime,xavier-filsaime-1,/cfb/players/xavier-filsaime-1.html,DB,10,7,9,16,0.0,0.0,0,0,,0,1,0,0,0,0,,Texas,2025
+Lance Jackson,lance-jackson-2,/cfb/players/lance-jackson-2.html,DE,13,6,10,16,2.0,2.0,0,0,,0,0,0,0,0,0,,Texas,2025
+Kobe Black,kobe-black-1,/cfb/players/kobe-black-1.html,DB,11,13,2,15,0.0,0.0,1,0,0.0,0,1,0,0,0,0,,Texas,2025
+Travis Shaw,travis-shaw-1,/cfb/players/travis-shaw-1.html,DT,13,3,10,13,1.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2025
+Zina Umeozulu,zina-umeozulu-1,/cfb/players/zina-umeozulu-1.html,DE,12,4,9,13,3.0,2.0,0,0,,0,0,0,0,0,0,,Texas,2025
+Jordan Johnson-Rubell,jordan-johnson-rubell-1,/cfb/players/jordan-johnson-rubell-1.html,DB,13,6,3,9,0.0,0.0,0,0,,0,2,0,0,0,0,,Texas,2025
+Jonah Williams,jonah-williams-5,/cfb/players/jonah-williams-5.html,DB,8,5,4,9,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2025
+Justus Terry,justus-terry-1,/cfb/players/justus-terry-1.html,DL,10,4,4,8,1.5,0.0,0,0,,0,0,0,0,0,0,,Texas,2025
+Marshall Landwehr,marshall-landwehr-1,/cfb/players/marshall-landwehr-1.html,LB,13,2,5,7,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2025
+Wardell Mack,wardell-mack-1,/cfb/players/wardell-mack-1.html,DB,7,6,0,6,0.0,0.0,1,0,0.0,0,0,0,0,0,0,,Texas,2025
+Lavon Johnson,lavon-johnson-1,/cfb/players/lavon-johnson-1.html,DL,7,3,2,5,1.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2025
+Ryan Niblett,ryan-niblett-1,/cfb/players/ryan-niblett-1.html,WR,13,1,3,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2025
+"Elijah ""Bo"" Barnes",elijah-bo-barnes-1,/cfb/players/elijah-bo-barnes-1.html,LB,4,4,0,4,1.0,1.0,0,0,,0,0,0,0,0,0,,Texas,2025
+Jonathan Cunningham,jonathan-cunningham-1,/cfb/players/jonathan-cunningham-1.html,LB,5,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2025
+Colton Vasek,colton-vasek-1,/cfb/players/colton-vasek-1.html,DE,13,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2025
+DeAndre Moore Jr.,deandre-moore-jr-1,/cfb/players/deandre-moore-jr-1.html,WR,11,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2025
+Myron Charles,myron-charles-1,/cfb/players/myron-charles-1.html,DL,2,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2025
+Brady Sarkisian,brady-sarkisian-1,/cfb/players/brady-sarkisian-1.html,LB,1,0,1,1,0.5,0.0,0,0,,0,0,0,0,0,0,,Texas,2025
+Christian Clark,christian-clark-1,/cfb/players/christian-clark-1.html,RB,8,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2025
+Tre Wisner,tre-wisner-1,/cfb/players/tre-wisner-1.html,RB,9,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2025
+Emmett Mosley V,emmett-mosley-v-1,/cfb/players/emmett-mosley-v-1.html,WR,9,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2025
+Smith Orogbo,smith-orogbo-1,/cfb/players/smith-orogbo-1.html,DE,3,1,0,1,1.0,1.0,0,0,,0,0,0,0,0,1,,Texas,2025
+Santana Wilson,santana-wilson-1,/cfb/players/santana-wilson-1.html,DB,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2025
+Graham Gillespie,graham-gillespie-1,/cfb/players/graham-gillespie-1.html,DB,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2025
+Melvin Hills III,melvin-hills-iii-1,/cfb/players/melvin-hills-iii-1.html,DL,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2025
+Mason Shipley,mason-shipley-1,/cfb/players/mason-shipley-1.html,K,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2025
+Isaiah Coleman,isaiah-coleman-1,/cfb/players/isaiah-coleman-1.html,DL,1,0,1,1,0.5,0.0,0,0,,0,0,0,0,0,0,,Texas,2025
+Josiah Sharma,josiah-sharma-1,/cfb/players/josiah-sharma-1.html,DL,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas,2025

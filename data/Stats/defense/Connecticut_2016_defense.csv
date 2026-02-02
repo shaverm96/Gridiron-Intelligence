@@ -1,0 +1,36 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Obi Melifonwu,obi-melifonwu-1,/cfb/players/obi-melifonwu-1.html,S,12,73,45,118,2.5,0.0,4,6,1.5,0,3,1,0,0,0,,Connecticut,2016
+Vontae Diggs,vontae-diggs-1,/cfb/players/vontae-diggs-1.html,LB,12,43,41,84,8.0,1.0,0,0,,0,2,0,0,0,1,,Connecticut,2016
+Junior Joseph,junior-joseph-1,/cfb/players/junior-joseph-1.html,LB,12,46,35,81,1.5,0.0,0,0,,0,2,0,0,0,0,,Connecticut,2016
+Matthew Walsh,matthew-walsh-1,/cfb/players/matthew-walsh-1.html,LB,12,45,27,72,2.0,0.0,0,0,,0,0,1,0,0,0,,Connecticut,2016
+Jamar Summers,jamar-summers-1,/cfb/players/jamar-summers-1.html,CB,12,42,17,59,4.0,0.0,2,0,0.0,0,9,1,86,1,0,,Connecticut,2016
+Jhavon Williams,jhavon-williams-1,/cfb/players/jhavon-williams-1.html,CB,12,37,18,55,2.0,0.0,1,0,0.0,0,7,0,0,0,2,,Connecticut,2016
+Mikal Myers,mikal-myers-1,/cfb/players/mikal-myers-1.html,DL,12,25,26,51,2.5,1.0,0,0,,0,0,1,0,0,2,,Connecticut,2016
+Folorunso Fatukasi,folorunso-fatukasi-1,/cfb/players/folorunso-fatukasi-1.html,DL,12,22,21,43,2.5,2.5,0,0,,0,0,0,0,0,0,,Connecticut,2016
+Luke Carrezola,luke-carrezola-1,/cfb/players/luke-carrezola-1.html,LB,12,32,11,43,11.0,3.0,0,0,,0,2,0,0,0,0,,Connecticut,2016
+E. J. Levenberry,e-j-levenberry-1,/cfb/players/e-j-levenberry-1.html,LB,11,22,15,37,5.0,3.5,0,0,,0,1,0,0,0,1,,Connecticut,2016
+John Green,john-green-4,/cfb/players/john-green-4.html,CB,11,24,5,29,0.0,0.0,0,0,,0,6,0,0,0,0,,Connecticut,2016
+Cole Ormsby,cole-ormsby-1,/cfb/players/cole-ormsby-1.html,DL,12,17,9,26,8.5,4.0,0,0,,0,0,0,0,0,0,,Connecticut,2016
+Anthony Watkins,anthony-watkins-2,/cfb/players/anthony-watkins-2.html,S,9,12,9,21,0.0,0.0,0,0,,0,1,0,0,0,0,,Connecticut,2016
+Brice McAllister,brice-mcallister-1,/cfb/players/brice-mcallister-1.html,S,12,11,7,18,1.0,0.0,0,0,,0,1,0,0,0,0,,Connecticut,2016
+Cameron Stapleton,cameron-stapleton-1,/cfb/players/cameron-stapleton-1.html,LB,11,9,5,14,1.5,0.0,0,0,,0,0,0,0,0,0,,Connecticut,2016
+Sean Marinan,sean-marinan-1,/cfb/players/sean-marinan-1.html,DL,11,7,4,11,2.0,1.0,0,0,,0,0,0,0,0,0,,Connecticut,2016
+Kevin Murphy,kevin-murphy-7,/cfb/players/kevin-murphy-7.html,DL,11,2,6,8,0.5,0.5,0,0,,0,0,0,0,0,0,,Connecticut,2016
+John Robinson IV,john-robinson-iv-1,/cfb/players/john-robinson-iv-1.html,CB,12,6,1,7,0.0,0.0,0,0,,0,0,0,0,0,0,,Connecticut,2016
+Chris Britton,chris-britton-1,/cfb/players/chris-britton-1.html,LB,12,4,3,7,0.0,0.0,0,0,,0,0,0,0,0,1,,Connecticut,2016
+Sheriden Lawley,sheriden-lawley-1,/cfb/players/sheriden-lawley-1.html,DL,12,1,4,5,0.5,0.5,0,0,,0,0,0,0,0,0,,Connecticut,2016
+Nick Vitale,nick-vitale-1,/cfb/players/nick-vitale-1.html,CB,11,2,3,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Connecticut,2016
+Nicholas Lensender,nicholas-lensender-1,/cfb/players/nicholas-lensender-1.html,TE,4,1,3,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Connecticut,2016
+Aaron McLean,aaron-mclean-1,/cfb/players/aaron-mclean-1.html,WR,11,2,2,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Connecticut,2016
+Nicholas Lensander,nicholas-lensander-1,/cfb/players/nicholas-lensander-1.html,,7,1,3,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Connecticut,2016
+Marshe Terry,marshe-terry-1,/cfb/players/marshe-terry-1.html,S,9,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Connecticut,2016
+Bryan Coney,bryan-coney-1,/cfb/players/bryan-coney-1.html,WR,11,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Connecticut,2016
+Omaine Stephens,omaine-stephens-1,/cfb/players/omaine-stephens-1.html,LB,5,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Connecticut,2016
+Tyraiq Beals,tyraiq-beals-1,/cfb/players/tyraiq-beals-1.html,WR,11,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Connecticut,2016
+Garrett Anderson,garrett-anderson-2,/cfb/players/garrett-anderson-2.html,QB,8,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Connecticut,2016
+Jon Hicks,jon-hicks-1,/cfb/players/jon-hicks-1.html,LB,8,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Connecticut,2016
+Harrison Newman,harrison-newman-1,/cfb/players/harrison-newman-1.html,OL,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Connecticut,2016
+Ron Johnson,ron-johnson-8,/cfb/players/ron-johnson-8.html,RB,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,1,,Connecticut,2016
+Arkeel Newsome,arkeel-newsome-1,/cfb/players/arkeel-newsome-1.html,RB,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Connecticut,2016
+Jalen Stevens,jalen-stevens-1,/cfb/players/jalen-stevens-1.html,LB,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Connecticut,2016
+Aaron Garland,aaron-garland-1,/cfb/players/aaron-garland-1.html,S,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Connecticut,2016

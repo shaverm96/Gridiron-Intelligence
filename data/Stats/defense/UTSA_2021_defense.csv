@@ -1,0 +1,50 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Rashad Wisdom,rashad-wisdom-1,/cfb/players/rashad-wisdom-1.html,S,14,67,21,88,3.0,0.0,0,0,,0,6,0,0,0,1,,UTSA,2021
+Jamal Ligon,jamal-ligon-1,/cfb/players/jamal-ligon-1.html,LB,12,28,35,63,1.0,1.0,1,0,0.0,0,1,0,0,0,0,,UTSA,2021
+Trevor Harmanson,trevor-harmanson-1,/cfb/players/trevor-harmanson-1.html,LB,13,35,22,57,2.0,1.0,1,40,40.0,1,0,0,0,0,1,,UTSA,2021
+Antonio Parks,antonio-parks-1,/cfb/players/antonio-parks-1.html,S,14,35,14,49,1.0,0.0,2,54,27.0,0,4,0,0,0,0,,UTSA,2021
+Dadrian Taylor,dadrian-taylor-1,/cfb/players/dadrian-taylor-1.html,LB,14,30,13,43,5.5,2.5,1,51,51.0,1,0,0,0,0,0,,UTSA,2021
+Ken Robinson,ken-robinson-2,/cfb/players/ken-robinson-2.html,CB,14,27,14,41,2.5,0.0,0,0,,0,7,0,0,0,0,,UTSA,2021
+Denzel Feaster,denzel-feaster-1,/cfb/players/denzel-feaster-1.html,LB,14,25,16,41,1.5,0.0,0,0,,0,0,1,0,0,1,,UTSA,2021
+Clarence Hicks,clarence-hicks-1,/cfb/players/clarence-hicks-1.html,LB,14,25,12,37,16.5,10.5,1,0,0.0,0,2,0,0,0,1,,UTSA,2021
+Corey Mayfield Jr.,corey-mayfield-jr-1,/cfb/players/corey-mayfield-jr-1.html,CB,14,34,3,37,3.0,1.0,2,49,24.5,1,3,0,0,0,1,,UTSA,2021
+Charles Wiley,charles-wiley-2,/cfb/players/charles-wiley-2.html,LB,14,18,18,36,8.0,3.5,0,0,,0,1,2,8,1,0,,UTSA,2021
+Jahmal Sam,jahmal-sam-1,/cfb/players/jahmal-sam-1.html,S,10,23,13,36,3.0,1.0,2,6,3.0,0,2,1,0,0,0,,UTSA,2021
+Jaylon Haynes,jaylon-haynes-1,/cfb/players/jaylon-haynes-1.html,DL,14,15,19,34,3.5,1.0,0,0,,0,0,0,0,0,0,,UTSA,2021
+Kelechi Nwachuku,kelechi-nwachuku-1,/cfb/players/kelechi-nwachuku-1.html,S,14,19,13,32,1.0,0.0,0,0,,0,1,2,0,0,1,,UTSA,2021
+Asyrus Simon,asyrus-simon-1,/cfb/players/asyrus-simon-1.html,DL,14,8,18,26,1.5,0.5,0,0,,0,0,0,0,0,0,,UTSA,2021
+Tariq Woolen,tariq-woolen-1,/cfb/players/tariq-woolen-1.html,CB,9,17,8,25,2.5,0.0,1,0,0.0,0,5,0,0,0,0,,UTSA,2021
+Brandon Matterson,brandon-matterson-1,/cfb/players/brandon-matterson-1.html,DL,14,9,14,23,1.0,0.5,0,0,,0,1,1,0,0,1,,UTSA,2021
+Brandon Brown,brandon-brown-10,/cfb/players/brandon-brown-10.html,DL,14,12,11,23,3.0,0.0,0,0,,0,3,0,0,0,1,,UTSA,2021
+Trumane Bell II,trumane-bell-ii-1,/cfb/players/trumane-bell-ii-1.html,,14,11,8,19,7.5,5.0,0,0,,0,0,0,0,0,1,,UTSA,2021
+Trumane Bell,trumane-bell-2,/cfb/players/trumane-bell-2.html,DL,11,11,8,19,7.5,5.0,0,0,,0,0,0,0,0,1,,UTSA,2021
+Christian Clayton,christian-clayton-1,/cfb/players/christian-clayton-1.html,DL,14,4,15,19,1.5,0.0,0,0,,0,0,0,0,0,0,,UTSA,2021
+Clifford Chattman,clifford-chattman-1,/cfb/players/clifford-chattman-1.html,S,4,14,4,18,0.5,0.5,0,0,,0,2,0,0,0,1,,UTSA,2021
+Donyai Taylor,donyai-taylor-1,/cfb/players/donyai-taylor-1.html,LB,14,6,11,17,1.5,0.0,0,0,,0,0,1,0,0,0,,UTSA,2021
+Dru Prox,dru-prox-1,/cfb/players/dru-prox-1.html,LB,9,6,11,17,2.0,1.5,0,0,,0,1,0,0,0,1,,UTSA,2021
+DeQuarius Henry,dequarius-henry-1,/cfb/players/dequarius-henry-1.html,LB,13,8,7,15,4.5,1.5,0,0,,0,0,0,0,0,0,,UTSA,2021
+Avery Morris,avery-morris-1,/cfb/players/avery-morris-1.html,LB,10,3,12,15,1.0,0.0,0,0,,0,0,0,0,0,1,,UTSA,2021
+Lamonte McDougle,lamonte-mcdougle-1,/cfb/players/lamonte-mcdougle-1.html,DL,13,3,9,12,1.5,0.0,0,0,,0,0,1,0,0,0,,UTSA,2021
+Ryan Shockency,ryan-shockency-1,/cfb/players/ryan-shockency-1.html,S,14,7,4,11,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2021
+Tyler Mahnke,tyler-mahnke-1,/cfb/players/tyler-mahnke-1.html,LB,14,5,6,11,1.5,0.0,0,0,,0,0,0,0,0,0,,UTSA,2021
+Lorenzo Dantzler,lorenzo-dantzler-1,/cfb/players/lorenzo-dantzler-1.html,DL,12,5,4,9,2.0,2.0,0,0,,0,1,3,3,1,0,,UTSA,2021
+Xavier Spencer,xavier-spencer-1,/cfb/players/xavier-spencer-1.html,CB,13,5,2,7,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2021
+Sean Berry,sean-berry-1,/cfb/players/sean-berry-1.html,CB,11,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2021
+Jarrett Preston,jarrett-preston-1,/cfb/players/jarrett-preston-1.html,S,7,3,0,3,1.0,0.0,1,0,0.0,0,0,0,0,0,0,,UTSA,2021
+Caleb Cantrell,caleb-cantrell-1,/cfb/players/caleb-cantrell-1.html,LS,14,1,2,3,0.0,0.0,0,0,,0,0,1,0,0,0,,UTSA,2021
+Malik Jones,malik-jones-4,/cfb/players/malik-jones-4.html,LB,14,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2021
+De'Corian Clark,decorian-clark-1,/cfb/players/decorian-clark-1.html,WR,14,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2021
+B.J. Daniels,bj-daniels-2,/cfb/players/bj-daniels-2.html,RB,14,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2021
+Jimmori Robinson,jimmori-robinson-1,/cfb/players/jimmori-robinson-1.html,LB,3,0,2,2,0.0,0.0,0,0,,0,1,0,0,0,0,,UTSA,2021
+Hunter Duplessis,hunter-duplessis-1,/cfb/players/hunter-duplessis-1.html,PK,14,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2021
+Gregory Clayton Jr.,gregory-clayton-jr-1,/cfb/players/gregory-clayton-jr-1.html,WR,1,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2021
+Oscar Cardenas,oscar-cardenas-1,/cfb/players/oscar-cardenas-1.html,TE,14,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2021
+Kyle Wakefield,kyle-wakefield-1,/cfb/players/kyle-wakefield-1.html,TE,11,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2021
+Sincere McCormick,sincere-mccormick-1,/cfb/players/sincere-mccormick-1.html,RB,14,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2021
+Caden Holt,caden-holt-1,/cfb/players/caden-holt-1.html,LB,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2021
+Trey Moore,trey-moore-1,/cfb/players/trey-moore-1.html,LB,3,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2021
+Frank Harris,frank-harris-3,/cfb/players/frank-harris-3.html,QB,14,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,1,,UTSA,2021
+Walker Baty,walker-baty-1,/cfb/players/walker-baty-1.html,DL,4,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2021
+Xavier Player,xavier-player-1,/cfb/players/xavier-player-1.html,CB,9,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2021
+De'Anthony Lewis,deanthony-lewis-1,/cfb/players/deanthony-lewis-1.html,RB,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2021
+Zakhari Franklin,zakhari-franklin-1,/cfb/players/zakhari-franklin-1.html,WR,13,0,0,0,0.0,0.0,0,0,,0,0,1,0,0,0,,UTSA,2021

@@ -1,0 +1,48 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Darren Anders,darren-anders-2,/cfb/players/darren-anders-2.html,LB,13,43,42,85,10.5,4.5,0,0,,0,2,2,17,0,2,,Bowling Green,2023
+Joseph Sipp Jr.,joseph-sipp-jr-1,/cfb/players/joseph-sipp-jr-1.html,LB,13,38,35,73,3.5,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2023
+Jalen Huskey,jalen-huskey-1,/cfb/players/jalen-huskey-1.html,CB,12,30,22,52,1.0,0.0,4,42,10.5,0,6,1,0,0,0,,Bowling Green,2023
+Davon Ferguson,davon-ferguson-1,/cfb/players/davon-ferguson-1.html,CB,13,32,18,50,7.5,2.5,2,0,0.0,0,6,1,0,0,0,,Bowling Green,2023
+Patrick Day,patrick-day-1,/cfb/players/patrick-day-1.html,DB,13,30,18,48,1.5,1.0,0,0,,0,2,1,0,0,0,,Bowling Green,2023
+Darius Lorfils,darius-lorfils-1,/cfb/players/darius-lorfils-1.html,CB,13,30,16,46,0.0,0.0,2,33,16.5,0,3,1,11,0,0,,Bowling Green,2023
+Dontrez Brown,dontrez-brown-1,/cfb/players/dontrez-brown-1.html,DL,13,23,13,36,2.5,2.0,0,0,,0,3,2,20,0,1,,Bowling Green,2023
+Trent Simms,trent-simms-1,/cfb/players/trent-simms-1.html,DB,9,16,18,34,0.0,0.0,1,19,19.0,0,3,1,0,0,2,,Bowling Green,2023
+Anthony Hawkins,anthony-hawkins-2,/cfb/players/anthony-hawkins-2.html,DL,13,15,16,31,4.5,2.0,0,0,,0,2,0,0,0,1,,Bowling Green,2023
+Jordan Oladokun,jordan-oladokun-1,/cfb/players/jordan-oladokun-1.html,CB,11,21,9,30,1.0,0.0,4,82,20.5,1,6,0,0,0,0,,Bowling Green,2023
+Evan Branch-Haynes,evan-branch-haynes-1,/cfb/players/evan-branch-haynes-1.html,DL,13,12,17,29,0.5,0.5,0,0,,0,1,1,0,0,0,,Bowling Green,2023
+Cashius Howell,cashius-howell-1,/cfb/players/cashius-howell-1.html,LB,13,16,12,28,10.5,9.5,0,0,,0,1,0,0,0,1,,Bowling Green,2023
+Chace Davis,chace-davis-1,/cfb/players/chace-davis-1.html,DL,12,13,11,24,1.5,1.5,0,0,,0,2,0,0,0,0,,Bowling Green,2023
+Ali Saad,ali-saad-1,/cfb/players/ali-saad-1.html,DL,13,13,11,24,3.0,1.5,0,0,,0,0,0,0,0,2,,Bowling Green,2023
+Deshawn Jones Jr.,deshawn-jones-jr-1,/cfb/players/deshawn-jones-jr-1.html,DB,12,19,2,21,1.0,0.0,2,102,51.0,1,0,0,0,0,0,,Bowling Green,2023
+Brock Horne,brock-horne-1,/cfb/players/brock-horne-1.html,LB,13,7,14,21,0.5,0.0,0,0,,0,1,0,0,0,0,,Bowling Green,2023
+Dierre Kelly,dierre-kelly-1,/cfb/players/dierre-kelly-1.html,DL,13,11,9,20,4.0,2.5,0,0,,0,0,0,0,0,0,,Bowling Green,2023
+Charles Rosser,charles-rosser-1,/cfb/players/charles-rosser-1.html,LB,13,10,10,20,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2023
+Jordan Porter,jordan-porter-2,/cfb/players/jordan-porter-2.html,DL,13,10,8,18,3.5,3.0,0,0,,0,1,0,0,0,1,,Bowling Green,2023
+Davion Daniels,davion-daniels-1,/cfb/players/davion-daniels-1.html,DB,13,11,3,14,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2023
+Davonte Miles,davonte-miles-1,/cfb/players/davonte-miles-1.html,DL,11,8,6,14,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2023
+Davian Mayo,davian-mayo-1,/cfb/players/davian-mayo-1.html,LB,12,6,8,14,1.0,0.0,0,0,,0,1,0,0,0,0,,Bowling Green,2023
+Adrian Wilson,adrian-wilson-2,/cfb/players/adrian-wilson-2.html,DL,13,8,5,13,2.0,1.0,0,0,,0,0,0,0,0,0,,Bowling Green,2023
+Pasean Wimberly,pasean-wimberly-1,/cfb/players/pasean-wimberly-1.html,RB,13,6,5,11,1.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2023
+Avi McGary,avi-mcgary-1,/cfb/players/avi-mcgary-1.html,DB,13,6,4,10,0.0,0.0,2,4,2.0,0,1,0,0,0,0,,Bowling Green,2023
+Jordan Jackson,jordan-jackson-7,/cfb/players/jordan-jackson-7.html,S,10,6,4,10,2.0,0.0,0,0,,0,1,0,0,0,1,,Bowling Green,2023
+Diego Neri,diego-neri-1,/cfb/players/diego-neri-1.html,LB,13,3,5,8,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2023
+Demetrius Hardamon,demetrius-hardamon-1,/cfb/players/demetrius-hardamon-1.html,LB,3,3,5,8,2.0,0.5,0,0,,0,0,0,0,0,0,,Bowling Green,2023
+Shamoun Duncan-Niusulu,shamoun-duncan-niusulu-1,/cfb/players/shamoun-duncan-niusulu-1.html,S,12,4,2,6,0.0,0.0,0,0,,0,2,0,0,0,0,,Bowling Green,2023
+Jalen Burton,jalen-burton-1,/cfb/players/jalen-burton-1.html,CB,11,5,1,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2023
+Myles Bradley,myles-bradley-1,/cfb/players/myles-bradley-1.html,LB,3,2,2,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2023
+Abdul-Fatai Ibrahim,abdul-fatai-ibrahim-1,/cfb/players/abdul-fatai-ibrahim-1.html,WR,13,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2023
+Dom Grguric,dom-grguric-1,/cfb/players/dom-grguric-1.html,WR,13,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2023
+Andrew Booker,andrew-booker-1,/cfb/players/andrew-booker-1.html,DL,11,2,1,3,1.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2023
+Nick Mosley,nick-mosley-1,/cfb/players/nick-mosley-1.html,RB,4,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2023
+Billie Roberts,billie-roberts-1,/cfb/players/billie-roberts-1.html,DL,12,1,1,2,1.0,1.0,0,0,,0,0,0,0,0,0,,Bowling Green,2023
+Taron Keith,taron-keith-1,/cfb/players/taron-keith-1.html,RB,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2023
+Cedric Dunbar II,cedric-dunbar-ii-1,/cfb/players/cedric-dunbar-ii-1.html,OT,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2023
+James Miller,james-miller-2,/cfb/players/james-miller-2.html,LB,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2023
+Kitione Tau,kitione-tau-1,/cfb/players/kitione-tau-1.html,DL,4,0,1,1,0.5,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2023
+Jamal Johnson,jamal-johnson-2,/cfb/players/jamal-johnson-2.html,RB,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2023
+Nate Pabst,nate-pabst-1,/cfb/players/nate-pabst-1.html,OT,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2023
+Chris Williams,chris-williams-18,/cfb/players/chris-williams-18.html,LB,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2023
+Jack Sauder,jack-sauder-1,/cfb/players/jack-sauder-1.html,K,13,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2023
+Harold Fannin Jr.,harold-fannin-jr-1,/cfb/players/harold-fannin-jr-1.html,TE,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2023
+George Carlson,george-carlson-1,/cfb/players/george-carlson-1.html,LS,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2023
+Finn Hogan,finn-hogan-1,/cfb/players/finn-hogan-1.html,WR,10,0,1,1,0.0,0.0,0,0,,0,0,1,0,0,0,,Bowling Green,2023

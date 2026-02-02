@@ -1,0 +1,45 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Xavier McKinney,xavier-mckinney-1,/cfb/players/xavier-mckinney-1.html,DB,13,59,36,95,5.5,3.0,3,78,26.0,1,5,1,0,0,4,,Alabama,2019
+Shane Lee,shane-lee-1,/cfb/players/shane-lee-1.html,LB,13,47,39,86,6.5,4.5,1,10,10.0,0,0,1,0,0,2,,Alabama,2019
+Anfernee Jennings,anfernee-jennings-1,/cfb/players/anfernee-jennings-1.html,LB,13,45,38,83,12.5,8.0,1,0,0.0,0,5,0,0,0,1,,Alabama,2019
+Christian Harris,christian-harris-3,/cfb/players/christian-harris-3.html,LB,13,29,34,63,7.5,0.0,0,0,,0,1,2,37,0,1,,Alabama,2019
+Jared Mayden,jared-mayden-1,/cfb/players/jared-mayden-1.html,DB,12,31,28,59,1.0,0.0,4,54,13.5,0,3,0,0,0,0,,Alabama,2019
+Raekwon Davis,raekwon-davis-1,/cfb/players/raekwon-davis-1.html,DL,12,18,29,47,3.0,0.5,0,0,,0,0,0,0,0,0,,Alabama,2019
+Shyheim Carter,shyheim-carter-1,/cfb/players/shyheim-carter-1.html,DB,13,24,19,43,2.5,0.0,1,0,0.0,0,7,0,0,0,1,,Alabama,2019
+Patrick Surtain II,patrick-surtain-ii-1,/cfb/players/patrick-surtain-ii-1.html,DB,13,32,10,42,1.0,0.0,2,24,12.0,0,8,1,0,0,3,,Alabama,2019
+Trevon Diggs,trevon-diggs-1,/cfb/players/trevon-diggs-1.html,DB,12,20,17,37,0.5,0.0,3,79,26.3,1,8,2,100,1,0,,Alabama,2019
+Terrell Lewis,terrell-lewis-2,/cfb/players/terrell-lewis-2.html,LB,11,21,10,31,11.5,6.0,0,0,,0,2,1,2,0,0,,Alabama,2019
+Jordan Battle,jordan-battle-1,/cfb/players/jordan-battle-1.html,DB,13,18,12,30,2.0,1.0,1,0,0.0,0,1,1,4,0,0,,Alabama,2019
+Josh Jobe,josh-jobe-1,/cfb/players/josh-jobe-1.html,DB,12,21,7,28,0.0,0.0,1,0,0.0,0,3,1,7,0,0,,Alabama,2019
+Phidarian Mathis,phidarian-mathis-1,/cfb/players/phidarian-mathis-1.html,DL,12,13,14,27,0.5,0.0,0,0,,0,0,0,0,0,1,,Alabama,2019
+Christian Barmore,christian-barmore-1,/cfb/players/christian-barmore-1.html,DL,12,12,14,26,6.0,2.0,0,0,,0,2,0,0,0,0,,Alabama,2019
+Byron Young,byron-young-1,/cfb/players/byron-young-1.html,DL,13,6,17,23,1.5,1.0,0,0,,0,1,0,0,0,0,,Alabama,2019
+Ale Kaho,ale-kaho-1,/cfb/players/ale-kaho-1.html,LB,13,6,14,20,1.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2019
+Markail Benton,markail-benton-1,/cfb/players/markail-benton-1.html,LB,9,11,8,19,1.0,0.0,0,0,,0,1,0,0,0,0,,Alabama,2019
+DJ Dale,dj-dale-1,/cfb/players/dj-dale-1.html,DL,10,6,11,17,3.0,1.0,0,0,,0,0,1,0,0,0,,Alabama,2019
+Tevita Musika,tevita-musika-1,/cfb/players/tevita-musika-1.html,DL,10,4,12,16,1.0,0.5,0,0,,0,0,0,0,0,0,,Alabama,2019
+Christopher Allen,christopher-allen-1,/cfb/players/christopher-allen-1.html,LB,13,6,5,11,4.5,0.5,0,0,,0,0,0,0,0,0,,Alabama,2019
+Jaylen Moody,jaylen-moody-1,/cfb/players/jaylen-moody-1.html,LB,13,4,6,10,0.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2019
+Justin Eboigbe,justin-eboigbe-1,/cfb/players/justin-eboigbe-1.html,DL,10,6,4,10,3.0,1.5,0,0,,0,0,0,0,0,0,,Alabama,2019
+Labryan Ray,labryan-ray-1,/cfb/players/labryan-ray-1.html,DL,3,4,5,9,1.5,1.0,0,0,,0,0,0,0,0,1,,Alabama,2019
+Daniel Wright,daniel-wright-1,/cfb/players/daniel-wright-1.html,DB,13,3,5,8,0.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2019
+Stephon Wynn Jr.,stephon-wynn-jr-1,/cfb/players/stephon-wynn-jr-1.html,DL,9,1,6,7,0.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2019
+Henry Ruggs III,henry-ruggs-iii-1,/cfb/players/henry-ruggs-iii-1.html,WR,12,3,3,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2019
+Slade Bolden,slade-bolden-1,/cfb/players/slade-bolden-1.html,WR,13,4,2,6,0.0,0.0,0,0,,0,0,0,0,0,1,,Alabama,2019
+King Mwikuta,king-mwikuta-1,/cfb/players/king-mwikuta-1.html,LB,10,1,3,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2019
+Demarcco Hellams,demarcco-hellams-1,/cfb/players/demarcco-hellams-1.html,DB,12,2,2,4,0.5,0.5,0,0,,0,0,0,0,0,0,,Alabama,2019
+Braylen Ingraham,braylen-ingraham-1,/cfb/players/braylen-ingraham-1.html,DL,2,2,2,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2019
+Ben Davis,ben-davis-3,/cfb/players/ben-davis-3.html,LB,11,3,1,4,1.0,1.0,0,0,,0,1,0,0,0,0,,Alabama,2019
+Najee Harris,najee-harris-1,/cfb/players/najee-harris-1.html,RB,13,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2019
+DeVonta Smith,devonta-smith-1,/cfb/players/devonta-smith-1.html,WR,13,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2019
+Kevin Harris II,kevin-harris-ii-1,/cfb/players/kevin-harris-ii-1.html,LB,1,2,0,2,0.0,0.0,0,0,,0,0,1,0,0,1,,Alabama,2019
+Jalyn Armour-Davis,jalyn-armour-davis-1,/cfb/players/jalyn-armour-davis-1.html,DB,8,0,2,2,0.0,0.0,0,0,,0,2,0,0,0,0,,Alabama,2019
+Thomas Fletcher,thomas-fletcher-1,/cfb/players/thomas-fletcher-1.html,LS,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2019
+Ty Perine,ty-perine-1,/cfb/players/ty-perine-1.html,PK,6,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2019
+Joshua Robinson,joshua-robinson-1,/cfb/players/joshua-robinson-1.html,DB,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2019
+Scooby Carter,scooby-carter-1,/cfb/players/scooby-carter-1.html,DB,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2019
+John Metchie,john-metchie-1,/cfb/players/john-metchie-1.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2019
+Jerry Jeudy,jerry-jeudy-1,/cfb/players/jerry-jeudy-1.html,WR,13,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2019
+DJ Douglas,dj-douglas-1,/cfb/players/dj-douglas-1.html,DB,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2019
+Cameron Latu,cameron-latu-1,/cfb/players/cameron-latu-1.html,TE,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2019
+Brian Robinson Jr.,brian-robinson-jr-1,/cfb/players/brian-robinson-jr-1.html,RB,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2019

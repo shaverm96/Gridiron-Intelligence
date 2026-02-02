@@ -1,0 +1,34 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Buddy Johnson,buddy-johnson-1,/cfb/players/buddy-johnson-1.html,LB,10,45,41,86,8.5,4.0,1,15,15.0,1,3,0,0,0,2,,Texas A&M,2020
+Aaron Hansford,aaron-hansford-1,/cfb/players/aaron-hansford-1.html,LB,9,17,32,49,7.0,3.0,0,0,,0,1,0,0,0,0,,Texas A&M,2020
+Leon O'Neal Jr.,leon-oneal-jr-1,/cfb/players/leon-oneal-jr-1.html,DB,10,32,16,48,2.0,0.0,2,52,26.0,0,3,0,0,0,0,,Texas A&M,2020
+Myles Jones,myles-jones-1,/cfb/players/myles-jones-1.html,DB,8,30,9,39,2.0,0.0,1,0,0.0,0,5,0,0,0,0,,Texas A&M,2020
+Demarvin Leal,demarvin-leal-1,/cfb/players/demarvin-leal-1.html,DL,10,18,19,37,7.0,2.5,1,43,43.0,0,3,1,2,0,1,,Texas A&M,2020
+Demani Richardson,demani-richardson-1,/cfb/players/demani-richardson-1.html,DB,8,25,11,36,2.5,0.0,1,0,0.0,0,1,0,0,0,0,,Texas A&M,2020
+Jayden Peevy,jayden-peevy-1,/cfb/players/jayden-peevy-1.html,DL,10,13,21,34,5.0,1.0,0,0,,0,1,1,19,0,0,,Texas A&M,2020
+Andre White Jr.,andre-white-jr-1,/cfb/players/andre-white-jr-1.html,LB,10,10,22,32,2.5,1.5,1,10,10.0,0,3,1,0,0,0,,Texas A&M,2020
+Jaylon Jones,jaylon-jones-3,/cfb/players/jaylon-jones-3.html,DB,10,22,8,30,1.0,0.0,1,0,0.0,0,6,0,0,0,0,,Texas A&M,2020
+Keldrick Carper,keldrick-carper-1,/cfb/players/keldrick-carper-1.html,DB,10,18,9,27,2.0,0.0,1,-4,-4.0,0,2,0,0,0,0,,Texas A&M,2020
+Devin Morris,devin-morris-1,/cfb/players/devin-morris-1.html,DB,8,12,13,25,2.0,0.0,0,0,,0,3,0,0,0,0,,Texas A&M,2020
+Tyree Johnson,tyree-johnson-2,/cfb/players/tyree-johnson-2.html,DL,10,12,11,23,6.0,4.0,0,0,,0,1,0,0,0,1,,Texas A&M,2020
+Bobby Brown III,bobby-brown-iii-1,/cfb/players/bobby-brown-iii-1.html,DL,9,10,12,22,7.5,5.5,0,0,,0,0,0,0,0,0,,Texas A&M,2020
+Antonio Johnson,antonio-johnson-6,/cfb/players/antonio-johnson-6.html,DB,7,8,6,14,0.5,0.0,0,0,,0,1,0,0,0,0,,Texas A&M,2020
+Micheal Clemons,micheal-clemons-1,/cfb/players/micheal-clemons-1.html,DL,5,7,7,14,4.5,4.0,0,0,,0,0,0,0,0,0,,Texas A&M,2020
+McKinnley Jackson,mckinnley-jackson-1,/cfb/players/mckinnley-jackson-1.html,DL,10,3,10,13,2.0,1.5,0,0,,0,2,0,0,0,0,,Texas A&M,2020
+Erick Young,erick-young-1,/cfb/players/erick-young-1.html,DB,6,7,4,11,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas A&M,2020
+Brian George,brian-george-2,/cfb/players/brian-george-2.html,DB,10,5,1,6,0.0,0.0,1,0,0.0,0,1,0,0,0,0,,Texas A&M,2020
+Brian Williams,brian-williams-15,/cfb/players/brian-williams-15.html,DB,9,2,4,6,1.0,1.0,0,0,,0,0,0,0,0,0,,Texas A&M,2020
+Chris Russell,chris-russell-2,/cfb/players/chris-russell-2.html,LB,9,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas A&M,2020
+Derick Hunter,derick-hunter-1,/cfb/players/derick-hunter-1.html,DL,9,2,2,4,1.0,0.0,0,0,,0,0,0,0,0,0,,Texas A&M,2020
+Fadil Diggs,fadil-diggs-1,/cfb/players/fadil-diggs-1.html,DL,1,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas A&M,2020
+Caden Davis,caden-davis-1,/cfb/players/caden-davis-1.html,PK,9,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas A&M,2020
+Jeremiah Martin,jeremiah-martin-2,/cfb/players/jeremiah-martin-2.html,DL,8,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas A&M,2020
+Edgerrin Cooper,edgerrin-cooper-1,/cfb/players/edgerrin-cooper-1.html,LB,9,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas A&M,2020
+Earnest Crownover,earnest-crownover-1,/cfb/players/earnest-crownover-1.html,RB,4,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas A&M,2020
+Carson Green,carson-green-2,/cfb/players/carson-green-2.html,OL,9,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas A&M,2020
+Isaiah Raikes,isaiah-raikes-1,/cfb/players/isaiah-raikes-1.html,DL,5,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas A&M,2020
+Caleb Chapman,caleb-chapman-2,/cfb/players/caleb-chapman-2.html,WR,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas A&M,2020
+Donell Harris Jr.,donell-harris-jr-1,/cfb/players/donell-harris-jr-1.html,DL,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas A&M,2020
+Reese Mason,reese-mason-1,/cfb/players/reese-mason-1.html,DB,6,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas A&M,2020
+Ryan Renick,ryan-renick-1,/cfb/players/ryan-renick-1.html,TE,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas A&M,2020
+Connor Blumrick,connor-blumrick-1,/cfb/players/connor-blumrick-1.html,RB,8,0,0,0,0.0,0.0,0,0,,0,0,1,0,0,0,,Texas A&M,2020

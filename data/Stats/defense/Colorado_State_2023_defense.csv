@@ -1,0 +1,42 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Jack Howell,jack-howell-1,/cfb/players/jack-howell-1.html,DB,12,50,64,114,0.5,0.0,1,23,23.0,0,3,1,0,0,1,,Colorado State,2023
+Chase Wilson,chase-wilson-2,/cfb/players/chase-wilson-2.html,LB,12,44,63,107,8.5,3.5,0,0,,0,3,1,8,0,0,,Colorado State,2023
+Justin Sanchez,justin-sanchez-1,/cfb/players/justin-sanchez-1.html,LB,12,42,44,86,3.0,0.0,0,0,,0,3,0,0,0,1,,Colorado State,2023
+Henry Blackburn,henry-blackburn-1,/cfb/players/henry-blackburn-1.html,DB,12,40,35,75,7.0,2.5,3,23,7.7,0,0,2,0,0,0,,Colorado State,2023
+Chigpzie Anusiem,chigozie-anusiem-1,/cfb/players/chigozie-anusiem-1.html,CB,11,35,22,57,2.5,0.0,1,3,3.0,0,2,0,0,0,0,,Colorado State,2023
+Mohamed Kamara,mohamed-kamara-1,/cfb/players/mohamed-kamara-1.html,DL,12,29,27,56,17.0,13.0,0,0,,0,1,1,5,1,2,,Colorado State,2023
+Nuer Gatkuoth,nuer-gatkuoth-1,/cfb/players/nuer-gatkuoth-1.html,DL,10,17,36,53,6.5,0.5,1,0,0.0,0,2,0,0,0,1,,Colorado State,2023
+Dominic Morris,dominic-morris-1,/cfb/players/dominic-morris-1.html,CB,10,30,21,51,3.5,0.0,0,0,,0,2,0,0,0,1,,Colorado State,2023
+Ayden Hector,ayden-hector-2,/cfb/players/ayden-hector-2.html,DB,6,23,12,35,3.5,1.0,0,0,,0,1,0,0,0,0,,Colorado State,2023
+Grady Kelly,grady-kelly-1,/cfb/players/grady-kelly-1.html,DL,12,10,25,35,6.5,1.5,0,0,,0,0,0,0,0,0,,Colorado State,2023
+Buom Jock,buom-jock-1,/cfb/players/buom-jock-1.html,LB,12,14,20,34,0.5,0.0,0,0,,0,0,1,0,0,0,,Colorado State,2023
+Tony Pierce Jr.,tony-pierce-jr-1,/cfb/players/tony-pierce-jr-1.html,DL,12,16,17,33,4.5,2.5,0,0,,0,0,1,0,0,2,,Colorado State,2023
+Dom Jones,dom-jones-1,/cfb/players/dom-jones-1.html,CB,12,23,9,32,0.0,0.0,2,0,0.0,0,3,0,0,0,0,,Colorado State,2023
+Marshon Oxley,marshon-oxley-1,/cfb/players/marshon-oxley-1.html,DL,11,12,14,26,5.5,4.0,0,0,,0,0,0,0,0,2,,Colorado State,2023
+Jaylen Gardner,jaylen-gardner-1,/cfb/players/jaylen-gardner-1.html,DB,12,14,7,21,1.5,0.0,0,0,,0,1,0,0,0,0,,Colorado State,2023
+James Mitchell,james-mitchell-3,/cfb/players/james-mitchell-3.html,DL,12,9,11,20,4.5,1.5,0,0,,0,0,1,0,0,0,,Colorado State,2023
+Cameron Bariteau,cameron-bariteau-1,/cfb/players/cameron-bariteau-1.html,DL,11,9,11,20,4.5,1.0,0,0,,0,0,1,0,0,0,,Colorado State,2023
+TJ Crandall,tj-crandall-1,/cfb/players/tj-crandall-1.html,CB,10,13,6,19,1.0,0.0,1,25,25.0,0,2,0,0,0,0,,Colorado State,2023
+Tyler Quinn,tyler-quinn-1,/cfb/players/tyler-quinn-1.html,DL,12,2,11,13,1.5,1.0,0,0,,0,0,0,0,0,0,,Colorado State,2023
+Mukendi Wa-kalonji,mukendi-wa-kalonji-1,/cfb/players/mukendi-wa-kalonji-1.html,DL,12,6,7,13,2.0,1.0,0,0,,0,0,0,0,0,0,,Colorado State,2023
+Matt Thomas,matt-thomas-3,/cfb/players/matt-thomas-3.html,DL,12,5,8,13,1.0,0.0,0,0,,0,0,0,0,0,0,,Colorado State,2023
+Ron Hardge III,ron-hardge-iii-1,/cfb/players/ron-hardge-iii-1.html,DB,12,6,6,12,0.0,0.0,0,0,,0,2,1,45,1,0,,Colorado State,2023
+Trey Paster,trey-paster-1,/cfb/players/trey-paster-1.html,LB,11,3,7,10,0.0,0.0,0,0,,0,0,0,0,0,0,,Colorado State,2023
+Tyrell Grayson,tyrell-grayson-1,/cfb/players/tyrell-grayson-1.html,DB,6,4,6,10,0.0,0.0,0,0,,0,2,0,0,0,0,,Colorado State,2023
+Peter Montini,peter-montini-1,/cfb/players/peter-montini-1.html,TE,11,1,3,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Colorado State,2023
+Hidetora Hanada,hidetora-hanada-1,/cfb/players/hidetora-hanada-1.html,DL,2,0,3,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Colorado State,2023
+Drew Rodriguez,drew-rodriguez-1,/cfb/players/drew-rodriguez-1.html,LB,1,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Colorado State,2023
+Kennedy McDowell,kennedy-mcdowell-1,/cfb/players/kennedy-mcdowell-1.html,DL,6,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Colorado State,2023
+Dallin Holker,dallin-holker-1,/cfb/players/dallin-holker-1.html,TE,12,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Colorado State,2023
+Dawson Menegatti,dawson-menegatti-1,/cfb/players/dawson-menegatti-1.html,WR,11,0,3,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Colorado State,2023
+DeAndre Gill,deandre-gill-1,/cfb/players/deandre-gill-1.html,DL,4,1,2,3,1.0,0.0,0,0,,0,0,0,0,0,0,,Colorado State,2023
+Justus Ross-Simmons,justus-ross-simmons-1,/cfb/players/justus-ross-simmons-1.html,WR,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Colorado State,2023
+Jace Bellah,jace-bellah-1,/cfb/players/jace-bellah-1.html,DB,3,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Colorado State,2023
+Brandon Guzman,brandon-guzman-1,/cfb/players/brandon-guzman-1.html,DB,12,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Colorado State,2023
+Vann Schield,vann-schield-1,/cfb/players/vann-schield-1.html,RB,9,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Colorado State,2023
+Caleb Goodie,caleb-goodie-1,/cfb/players/caleb-goodie-1.html,WR,9,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Colorado State,2023
+Paddy Turner,paddy-turner-1,/cfb/players/paddy-turner-1.html,P,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Colorado State,2023
+Bryan Hansen,bryan-hansen-1,/cfb/players/bryan-hansen-1.html,K,9,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Colorado State,2023
+Jaseim Mitchell,jaseim-mitchell-1,/cfb/players/jaseim-mitchell-1.html,LB,3,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Colorado State,2023
+Aaron Karas,aaron-karas-2,/cfb/players/aaron-karas-2.html,OL,11,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Colorado State,2023
+Vince Brown II,vince-brown-ii-1,/cfb/players/vince-brown-ii-1.html,TE,12,0,0,0,0.0,0.0,0,0,,0,0,1,0,0,0,,Colorado State,2023

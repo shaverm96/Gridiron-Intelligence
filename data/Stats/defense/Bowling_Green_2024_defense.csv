@@ -1,0 +1,43 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Brock Horne,brock-horne-1,/cfb/players/brock-horne-1.html,LB,13,34,47,81,6.0,2.5,0,0,,0,1,0,0,0,2,,Bowling Green,2024
+Joseph Sipp Jr.,joseph-sipp-jr-1,/cfb/players/joseph-sipp-jr-1.html,LB,13,42,37,79,11.5,7.0,0,0,,0,2,1,0,0,0,,Bowling Green,2024
+CJ Brown,cj-brown-2,/cfb/players/cj-brown-2.html,DB,13,44,30,74,2.5,0.0,1,0,0.0,0,1,0,0,0,0,,Bowling Green,2024
+Charles Rosser,charles-rosser-1,/cfb/players/charles-rosser-1.html,LB,13,29,34,63,9.0,6.0,0,0,,0,0,0,0,0,2,,Bowling Green,2024
+Anthony Hawkins,anthony-hawkins-2,/cfb/players/anthony-hawkins-2.html,DL,13,14,31,45,7.5,5.0,0,0,,0,3,0,0,0,1,,Bowling Green,2024
+Ali Saad,ali-saad-1,/cfb/players/ali-saad-1.html,DL,13,19,21,40,9.0,4.5,0,0,,0,0,0,0,0,2,,Bowling Green,2024
+Tracy Revels,tracy-revels-1,/cfb/players/tracy-revels-1.html,S,12,17,23,40,0.0,0.0,0,0,,0,1,0,0,0,0,,Bowling Green,2024
+Jordan Oladokun,jordan-oladokun-1,/cfb/players/jordan-oladokun-1.html,CB,13,27,8,35,0.5,0.0,5,136,27.2,1,8,0,0,0,0,,Bowling Green,2024
+Darius McClendon,darius-mcclendon-2,/cfb/players/darius-mcclendon-2.html,DB,13,16,15,31,2.0,1.5,0,0,,0,0,0,0,0,0,,Bowling Green,2024
+Avi McGary,avi-mcgary-1,/cfb/players/avi-mcgary-1.html,DB,13,18,11,29,4.5,1.0,0,0,,0,0,0,0,0,0,,Bowling Green,2024
+Trent Simms,trent-simms-1,/cfb/players/trent-simms-1.html,DB,13,12,16,28,1.0,0.0,0,0,,0,1,0,0,0,0,,Bowling Green,2024
+Jacorey Benjamin,jacorey-benjamin-1,/cfb/players/jacorey-benjamin-1.html,CB,13,18,9,27,2.0,0.0,2,8,4.0,0,6,0,0,0,0,,Bowling Green,2024
+Darius Lorfils,darius-lorfils-1,/cfb/players/darius-lorfils-1.html,CB,9,12,12,24,1.0,0.0,0,0,,0,1,0,0,0,0,,Bowling Green,2024
+Edward Rhambo,edward-rhambo-1,/cfb/players/edward-rhambo-1.html,DB,8,14,8,22,1.0,0.0,1,0,0.0,0,2,1,0,0,0,,Bowling Green,2024
+Dontrez Brown,dontrez-brown-1,/cfb/players/dontrez-brown-1.html,DL,13,3,19,22,2.0,1.0,0,0,,0,2,0,0,0,0,,Bowling Green,2024
+Myles Bradley,myles-bradley-1,/cfb/players/myles-bradley-1.html,LB,13,10,11,21,2.0,1.0,0,0,,0,0,0,0,0,0,,Bowling Green,2024
+Patrick Day,patrick-day-1,/cfb/players/patrick-day-1.html,S,13,9,11,20,0.5,0.0,1,0,0.0,0,3,0,0,0,0,,Bowling Green,2024
+Chace Davis,chace-davis-1,/cfb/players/chace-davis-1.html,DL,12,6,14,20,3.0,1.5,0,0,,0,1,0,0,0,0,,Bowling Green,2024
+Jordan Porter,jordan-porter-2,/cfb/players/jordan-porter-2.html,DL,13,7,12,19,1.5,1.5,0,0,,0,1,0,0,0,0,,Bowling Green,2024
+Evan Branch-Haynes,evan-branch-haynes-1,/cfb/players/evan-branch-haynes-1.html,DL,13,4,15,19,1.5,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2024
+Kal-El Pascal,kal-el-pascal-1,/cfb/players/kal-el-pascal-1.html,DB,13,12,5,17,1.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2024
+Justin Eklund,justin-eklund-1,/cfb/players/justin-eklund-1.html,LB,12,6,9,15,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2024
+Davonte Miles,davonte-miles-1,/cfb/players/davonte-miles-1.html,DL,12,2,10,12,1.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2024
+Todd Bumphis,todd-bumphis-1,/cfb/players/todd-bumphis-1.html,CB,11,6,2,8,1.0,0.5,2,0,0.0,0,3,0,0,0,0,,Bowling Green,2024
+Donovan Stephens,donovan-stephens-1,/cfb/players/donovan-stephens-1.html,LB,8,3,4,7,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2024
+Chris Williams,chris-williams-18,/cfb/players/chris-williams-18.html,LB,12,0,4,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2024
+Jared Merk,jared-merk-1,/cfb/players/jared-merk-1.html,WR,13,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2024
+Dayln White,dayln-white-1,/cfb/players/dayln-white-1.html,DL,11,0,3,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2024
+Dorian Pringle,dorian-pringle-1,/cfb/players/dorian-pringle-1.html,LB,12,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2024
+Jalen Burton,jalen-burton-1,/cfb/players/jalen-burton-1.html,CB,4,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2024
+Jamal Johnson,jamal-johnson-2,/cfb/players/jamal-johnson-2.html,RB,13,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2024
+Rahkeem Smith,rahkeem-smith-2,/cfb/players/rahkeem-smith-2.html,WR,13,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2024
+Trey Johnson,trey-johnson-3,/cfb/players/trey-johnson-3.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2024
+Harold Fannin Jr.,harold-fannin-jr-1,/cfb/players/harold-fannin-jr-1.html,TE,13,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,AA,Bowling Green,2024
+Malik Moses,malik-moses-1,/cfb/players/malik-moses-1.html,DL,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,1,,Bowling Green,2024
+Justin Pegues,justin-pegues-1,/cfb/players/justin-pegues-1.html,RB,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2024
+Jake Burns,jake-burns-1,/cfb/players/jake-burns-1.html,OG,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2024
+Jaison Patterson,jaison-patterson-1,/cfb/players/jaison-patterson-1.html,RB,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2024
+Dierre Kelly,dierre-kelly-1,/cfb/players/dierre-kelly-1.html,DL,4,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2024
+David Afogho,david-afogho-1,/cfb/players/david-afogho-1.html,LB,9,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2024
+Brody Bolyn,brody-bolyn-1,/cfb/players/brody-bolyn-1.html,OC,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2024
+Alijah Williams,alijah-williams-1,/cfb/players/alijah-williams-1.html,LB,2,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Bowling Green,2024

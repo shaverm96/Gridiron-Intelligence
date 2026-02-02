@@ -1,0 +1,45 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Duke Riley,duke-riley-1,/cfb/players/duke-riley-1.html,LB,12,40,53,93,9.0,1.5,1,3,3.0,0,1,1,0,0,0,,LSU,2016
+Kendell Beckwith,kendell-beckwith-1,/cfb/players/kendell-beckwith-1.html,LB,10,33,58,91,6.0,1.0,0,0,,0,4,1,0,0,0,,LSU,2016
+Jamal Adams,jamal-adams-1,/cfb/players/jamal-adams-1.html,S,12,42,34,76,7.5,1.0,1,0,0.0,0,4,1,4,0,1,,LSU,2016
+Davon Gaudchaux,davon-gaudchaux-1,/cfb/players/davon-gaudchaux-1.html,DT,12,24,38,62,8.5,6.5,0,0,,0,1,2,0,0,0,,LSU,2016
+Davon Godchaux,davon-godchaux-1,/cfb/players/davon-godchaux-1.html,,12,24,38,62,8.5,6.5,0,0,,0,1,2,0,0,0,,LSU,2016
+Lewis Neal,lewis-neal-1,/cfb/players/lewis-neal-1.html,DE,12,11,49,60,5.5,3.5,0,0,,0,1,0,0,0,0,,LSU,2016
+Arden Key,arden-key-1,/cfb/players/arden-key-1.html,DE,11,24,32,56,14.5,12.0,0,0,,0,3,1,0,0,3,,LSU,2016
+Donnie Alexander,donnie-alexander-1,/cfb/players/donnie-alexander-1.html,LB,12,14,31,45,0.5,0.0,1,14,14.0,0,1,0,0,0,0,,LSU,2016
+Dwayne Thomas,dwayne-thomas-2,/cfb/players/dwayne-thomas-2.html,DB,12,20,22,42,7.0,1.0,1,2,2.0,0,7,0,0,0,0,,LSU,2016
+Donte Jackson,donte-jackson-1,/cfb/players/donte-jackson-1.html,DB,12,32,7,39,0.0,0.0,2,40,20.0,0,8,0,0,0,1,,LSU,2016
+John Battle,john-battle-1,/cfb/players/john-battle-1.html,S,12,21,18,39,0.0,0.0,0,0,,0,4,0,0,0,0,,LSU,2016
+Tre'Davious White,tredavious-white-1,/cfb/players/tredavious-white-1.html,CB,12,19,16,35,4.0,0.5,2,21,10.5,1,14,1,6,0,0,AA,LSU,2016
+Greg Gilmore,greg-gilmore-1,/cfb/players/greg-gilmore-1.html,DT,12,5,29,34,1.0,1.0,0,0,,0,1,0,0,0,0,,LSU,2016
+Devin White,devin-white-1,/cfb/players/devin-white-1.html,LB,12,15,15,30,3.0,1.0,0,0,,0,0,1,0,0,1,,LSU,2016
+Tashawn Bower,tashawn-bower-1,/cfb/players/tashawn-bower-1.html,DE,12,12,11,23,5.5,4.0,0,0,,0,1,0,0,0,1,,LSU,2016
+Rickey Jefferson,rickey-jefferson-1,/cfb/players/rickey-jefferson-1.html,S,5,11,11,22,0.0,0.0,1,0,0.0,0,1,0,0,0,0,,LSU,2016
+Kevin Toliver II,kevin-toliver-ii-1,/cfb/players/kevin-toliver-ii-1.html,CB,7,12,9,21,0.0,0.0,0,0,,0,1,0,0,0,0,,LSU,2016
+Frank Herron,frank-herron-1,/cfb/players/frank-herron-1.html,DT,10,6,14,20,2.0,1.0,0,0,,0,0,0,0,0,1,,LSU,2016
+Michael Divinity Jr.,michael-divinity-jr-1,/cfb/players/michael-divinity-jr-1.html,LB,9,7,6,13,1.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2016
+Edwin Alexander,edwin-alexander-1,/cfb/players/edwin-alexander-1.html,DT,11,6,7,13,0.5,0.0,0,0,,0,0,0,0,0,0,,LSU,2016
+Joseph Wallace,joseph-wallace-1,/cfb/players/joseph-wallace-1.html,DL,12,7,3,10,2.0,0.0,0,0,,0,0,1,0,0,0,,LSU,2016
+Ed Paris,ed-paris-1,/cfb/players/ed-paris-1.html,CB,12,4,6,10,0.0,0.0,0,0,,0,1,0,0,0,0,,LSU,2016
+Travonte Valentine,travonte-valentine-1,/cfb/players/travonte-valentine-1.html,NT,5,4,6,10,0.5,0.0,0,0,,0,0,0,0,0,0,,LSU,2016
+Xavier Lewis,xavier-lewis-2,/cfb/players/xavier-lewis-2.html,CB,11,3,5,8,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2016
+Nick Brossette,nick-brossette-1,/cfb/players/nick-brossette-1.html,RB,12,1,6,7,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2016
+Jonathan Rucker,jonathan-rucker-1,/cfb/players/jonathan-rucker-1.html,LB,12,1,6,7,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2016
+Rashard Lawrence,rashard-lawrence-1,/cfb/players/rashard-lawrence-1.html,DT,9,2,4,6,1.0,1.0,0,0,,0,0,0,0,0,0,,LSU,2016
+Devin Voorhies,devin-voorhies-1,/cfb/players/devin-voorhies-1.html,LB,12,2,4,6,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2016
+Russell Gage,russell-gage-1,/cfb/players/russell-gage-1.html,WR,11,2,4,6,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2016
+Derrius Guice,derrius-guice-1,/cfb/players/derrius-guice-1.html,RB,12,0,4,4,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2016
+Saivion Smith,saivion-smith-1,/cfb/players/saivion-smith-1.html,CB,10,1,3,4,0.0,0.0,0,0,,0,2,0,0,0,0,,LSU,2016
+Drake Davis,drake-davis-1,/cfb/players/drake-davis-1.html,WR,6,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2016
+Kristian Fulton,kristian-fulton-1,/cfb/players/kristian-fulton-1.html,DB,3,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2016
+Lanard Fournette,lanard-fournette-1,/cfb/players/lanard-fournette-1.html,RB,5,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2016
+Darrel Williams,darrel-williams-1,/cfb/players/darrel-williams-1.html,RB,11,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2016
+Sci Martin,sci-martin-1,/cfb/players/sci-martin-1.html,DE,5,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2016
+Leonard Fournette,leonard-fournette-1,/cfb/players/leonard-fournette-1.html,RB,7,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2016
+Abraham Wallace,abraham-wallace-1,/cfb/players/abraham-wallace-1.html,DB,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2016
+Jack Gonsulin,jack-gonsulin-1,/cfb/players/jack-gonsulin-1.html,,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2016
+Jack Gonsoulin,jack-gonsoulin-1,/cfb/players/jack-gonsoulin-1.html,PK,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2016
+John David Moore,john-david-moore-1,/cfb/players/john-david-moore-1.html,FB,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2016
+Eric Monroe,eric-monroe-1,/cfb/players/eric-monroe-1.html,DB,2,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2016
+Derrick Dillon,derrick-dillon-1,/cfb/players/derrick-dillon-1.html,WR,8,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2016
+Bry'Kiethon Mouton,brykiethon-mouton-1,/cfb/players/brykiethon-mouton-1.html,FB,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2016

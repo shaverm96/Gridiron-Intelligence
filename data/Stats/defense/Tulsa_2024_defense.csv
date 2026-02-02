@@ -1,0 +1,50 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Gavin Potter,gavin-potter-1,/cfb/players/gavin-potter-1.html,LB,12,37,38,75,10.5,1.0,0,0,,0,0,0,0,0,0,,Tulsa,2024
+Dayne Hodge,dayne-hodge-1,/cfb/players/dayne-hodge-1.html,S,11,30,30,60,0.5,0.0,1,0,0.0,0,3,0,0,0,1,,Tulsa,2024
+Malachai Jones,malachai-jones-1,/cfb/players/malachai-jones-1.html,S,12,35,14,49,0.0,0.0,1,0,0.0,0,3,1,0,0,0,,Tulsa,2024
+Chris Thompson Jr.,chris-thompson-jr-1,/cfb/players/chris-thompson-jr-1.html,LB,12,28,21,49,4.5,1.0,0,0,,0,0,1,0,0,1,,Tulsa,2024
+Zach Marcheselli,zach-marcheselli-1,/cfb/players/zach-marcheselli-1.html,LB,12,20,28,48,9.5,1.0,0,0,,0,0,0,0,0,1,,Tulsa,2024
+Buddha Garrett,buddha-garrett-1,/cfb/players/buddha-garrett-1.html,S,12,16,23,39,0.5,0.0,1,25,25.0,0,3,1,0,0,1,,Tulsa,2024
+NuNu Campbell,nunu-campbell-1,/cfb/players/nunu-campbell-1.html,CB,11,31,7,38,1.0,0.0,1,10,10.0,0,2,0,0,0,0,,Tulsa,2024
+Myles Jackson,myles-jackson-2,/cfb/players/myles-jackson-2.html,DE,12,8,29,37,6.0,2.0,0,0,,0,0,0,0,0,1,,Tulsa,2024
+Owen Ostroski,owen-ostroski-1,/cfb/players/owen-ostroski-1.html,DL,12,14,22,36,8.5,2.0,0,0,,0,0,1,64,0,0,,Tulsa,2024
+R.J. Jackson Jr.,rj-jackson-jr-1,/cfb/players/rj-jackson-jr-1.html,DL,12,10,25,35,4.0,3.0,0,0,,0,2,0,0,0,0,,Tulsa,2024
+Zach Williams,zach-williams-9,/cfb/players/zach-williams-9.html,DB,10,13,20,33,3.0,0.0,0,0,,0,2,0,0,0,0,,Tulsa,2024
+Tai Newhouse,tai-newhouse-1,/cfb/players/tai-newhouse-1.html,DL,12,8,24,32,3.5,1.0,0,0,,0,0,0,0,0,0,,Tulsa,2024
+Tyree Carlisle,tyree-carlisle-1,/cfb/players/tyree-carlisle-1.html,CB,9,19,10,29,2.5,1.0,0,0,,0,1,0,0,0,0,,Tulsa,2024
+Dax Collins,dax-collins-1,/cfb/players/dax-collins-1.html,S,11,18,7,25,0.5,0.0,0,0,,0,0,0,0,0,0,,Tulsa,2024
+Vontroy Malone,vontroy-malone-1,/cfb/players/vontroy-malone-1.html,DE,12,8,17,25,5.0,2.0,0,0,,0,0,0,0,0,1,,Tulsa,2024
+Amieh Williams,amieh-williams-1,/cfb/players/amieh-williams-1.html,DL,12,7,17,24,2.0,1.0,0,0,,0,0,1,35,1,0,,Tulsa,2024
+Devin Robinson,devin-robinson-2,/cfb/players/devin-robinson-2.html,DB,12,11,12,23,0.0,0.0,0,0,,0,0,0,0,0,1,,Tulsa,2024
+Keuan Parker,keuan-parker-1,/cfb/players/keuan-parker-1.html,DB,8,12,8,20,0.0,0.0,1,30,30.0,1,4,0,0,0,0,,Tulsa,2024
+Elijah Wilson,elijah-wilson-1,/cfb/players/elijah-wilson-1.html,LB,12,10,9,19,3.5,1.0,0,0,,0,0,0,0,0,0,,Tulsa,2024
+Joe Hjelle,joe-hjelle-1,/cfb/players/joe-hjelle-1.html,DL,12,5,14,19,1.5,0.0,0,0,,0,0,0,0,0,0,,Tulsa,2024
+Ashton Williams,ashton-williams-1,/cfb/players/ashton-williams-1.html,DB,12,12,7,19,1.5,1.0,0,0,,0,0,0,0,0,0,,Tulsa,2024
+Elijah Green,elijah-green-2,/cfb/players/elijah-green-2.html,CB,6,13,5,18,1.0,0.0,2,1,0.5,0,2,0,0,0,0,,Tulsa,2024
+Jehlen Cannady,jehlen-cannady-1,/cfb/players/jehlen-cannady-1.html,S,9,8,7,15,2.0,0.0,2,0,0.0,0,0,0,0,0,0,,Tulsa,2024
+Maruio White Jr.,maruio-white-jr-1,/cfb/players/maruio-white-jr-1.html,DE,10,6,8,14,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulsa,2024
+Zach Neilsen,zach-neilsen-1,/cfb/players/zach-neilsen-1.html,LB,12,8,4,12,1.0,1.0,0,0,,0,0,0,0,0,0,,Tulsa,2024
+Aquavious Dunbar,aquavious-dunbar-1,/cfb/players/aquavious-dunbar-1.html,LB,4,7,4,11,1.0,0.0,0,0,,0,0,0,0,0,2,,Tulsa,2024
+Georderrial Williams,georderrial-williams-1,/cfb/players/georderrial-williams-1.html,DB,12,4,6,10,1.5,0.0,0,0,,0,1,1,0,0,0,,Tulsa,2024
+Demarco Jones,demarco-jones-1,/cfb/players/demarco-jones-1.html,DB,4,6,2,8,1.0,0.0,0,0,,0,0,0,0,0,0,,Tulsa,2024
+Zion Steptoe,zion-steptoe-1,/cfb/players/zion-steptoe-1.html,WR,12,2,3,5,0.0,0.0,0,0,,0,0,1,0,0,0,,Tulsa,2024
+Justin Lohrenz,justin-lohrenz-1,/cfb/players/justin-lohrenz-1.html,DE,3,3,2,5,2.0,1.0,0,0,,0,0,0,0,0,0,,Tulsa,2024
+Jaxon Lee,jaxon-lee-1,/cfb/players/jaxon-lee-1.html,DE,10,3,2,5,0.0,0.0,0,0,,0,1,0,0,0,0,,Tulsa,2024
+Brody Reese,brody-reese-1,/cfb/players/brody-reese-1.html,DL,11,2,2,4,1.5,0.0,0,0,,0,0,0,0,0,0,,Tulsa,2024
+Dedaunte Scott,dedaunte-scott-1,/cfb/players/dedaunte-scott-1.html,DB,6,1,3,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulsa,2024
+Luke McGary,luke-mcgary-1,/cfb/players/luke-mcgary-1.html,TE,12,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulsa,2024
+Will Smith,will-smith-9,/cfb/players/will-smith-9.html,DE,5,1,2,3,0.5,0.0,0,0,,0,0,0,0,0,0,,Tulsa,2024
+Angus Davies,angus-davies-1,/cfb/players/angus-davies-1.html,P,12,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulsa,2024
+Viron Ellison Jr.,viron-ellison-jr-1,/cfb/players/viron-ellison-jr-1.html,RB,11,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulsa,2024
+Tyler Rich,tyler-rich-1,/cfb/players/tyler-rich-1.html,DL,1,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulsa,2024
+Reed Malphurs,reed-malphurs-2,/cfb/players/reed-malphurs-2.html,P,12,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulsa,2024
+Eli Potts,eli-potts-1,/cfb/players/eli-potts-1.html,WR,9,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulsa,2024
+Josh Smith,josh-smith-21,/cfb/players/josh-smith-21.html,WR,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulsa,2024
+Walter Young Bear,walter-young-bear-1,/cfb/players/walter-young-bear-1.html,OL,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulsa,2024
+Parker Stone,parker-stone-2,/cfb/players/parker-stone-2.html,LS,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulsa,2024
+Will Upshaw,will-upshaw-1,/cfb/players/will-upshaw-1.html,DE,4,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulsa,2024
+William Alexander,william-alexander-2,/cfb/players/william-alexander-2.html,LB,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulsa,2024
+Luke Berry,luke-berry-1,/cfb/players/luke-berry-1.html,DE,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulsa,2024
+Bill Jackson,bill-jackson-4,/cfb/players/bill-jackson-4.html,RB,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulsa,2024
+Anthony Watkins,anthony-watkins-3,/cfb/players/anthony-watkins-3.html,RB,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulsa,2024
+Mason Fleming,mason-fleming-1,/cfb/players/mason-fleming-1.html,DL,4,0,1,1,0.5,0.0,0,0,,0,0,0,0,0,0,,Tulsa,2024

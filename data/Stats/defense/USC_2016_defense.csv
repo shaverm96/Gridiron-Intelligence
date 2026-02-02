@@ -1,0 +1,44 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Cameron Smith,cameron-smith-3,/cfb/players/cameron-smith-3.html,LB,13,45,38,83,7.0,1.0,0,0,,0,4,1,0,0,1,,USC,2016
+Porter Gustin,porter-gustin-1,/cfb/players/porter-gustin-1.html,DE,13,43,25,68,13.0,5.5,0,0,,0,4,0,0,0,0,,USC,2016
+Michael Hutchings,michael-hutchings-1,/cfb/players/michael-hutchings-1.html,LB,13,34,32,66,8.0,3.0,0,0,,0,2,0,0,0,0,,USC,2016
+Adoree Jackson,adoree-jackson-1,/cfb/players/adoree-jackson-1.html,DB,13,46,9,55,2.0,0.0,5,21,4.2,0,11,2,26,0,0,AA,USC,2016
+Rasheem Green,rasheem-green-1,/cfb/players/rasheem-green-1.html,DT,13,24,31,55,6.5,6.0,0,0,,0,4,0,0,0,2,,USC,2016
+Uchenna Nwosu,uchenna-nwosu-1,/cfb/players/uchenna-nwosu-1.html,LB,13,28,25,53,7.5,3.0,0,0,,0,5,0,0,0,1,,USC,2016
+Stevie Tu'Ikolovatu,stevie-tuikolovatu-1,/cfb/players/stevie-tuikolovatu-1.html,DT,13,29,24,53,2.0,0.5,0,0,,0,1,0,0,0,0,,USC,2016
+Iman Marshall,iman-marshall-1,/cfb/players/iman-marshall-1.html,CB,13,37,14,51,3.0,0.0,3,12,4.0,0,8,0,0,0,0,,USC,2016
+Leon McQuay III,leon-mcquay-iii-1,/cfb/players/leon-mcquay-iii-1.html,DB,13,32,18,50,4.0,1.0,2,32,16.0,0,6,0,0,0,0,,USC,2016
+Chris Hawkins,chris-hawkins-4,/cfb/players/chris-hawkins-4.html,DB,13,38,6,44,4.0,1.0,0,0,,0,2,0,0,0,2,,USC,2016
+Marvell Tell III,marvell-tell-iii-1,/cfb/players/marvell-tell-iii-1.html,S,13,27,16,43,2.0,0.0,1,0,0.0,0,2,0,0,0,0,,USC,2016
+Ajene Harris,ajene-harris-1,/cfb/players/ajene-harris-1.html,DB,13,17,12,29,2.5,1.0,2,66,33.0,1,4,1,0,0,1,,USC,2016
+Josh Fatu,josh-fatu-1,/cfb/players/josh-fatu-1.html,DT,12,12,9,21,1.5,1.0,0,0,,0,0,0,0,0,0,,USC,2016
+Johathan Lockett,johathan-lockett-1,/cfb/players/johathan-lockett-1.html,DB,8,11,6,17,0.5,0.0,1,0,0.0,0,3,0,0,0,0,,USC,2016
+John Houston Jr.,john-houston-jr-1,/cfb/players/john-houston-jr-1.html,LB,13,12,4,16,0.0,0.0,0,0,,0,0,0,0,0,0,,USC,2016
+Jalen Jones,jalen-jones-2,/cfb/players/jalen-jones-2.html,DB,10,11,2,13,0.0,0.0,0,0,,0,1,1,0,0,0,,USC,2016
+Quinton Powell,quinton-powell-1,/cfb/players/quinton-powell-1.html,LB,12,10,3,13,2.0,1.0,0,0,,0,1,0,0,0,0,,USC,2016
+Jack Jones,jack-jones-5,/cfb/players/jack-jones-5.html,,12,11,2,13,0.0,0.0,0,0,,0,1,0,0,0,0,,USC,2016
+Olajuwon Tucker,olajuwon-tucker-1,/cfb/players/olajuwon-tucker-1.html,LB,11,6,3,9,0.0,0.0,0,0,,0,0,0,0,0,0,,USC,2016
+Malik Dorton,malik-dorton-1,/cfb/players/malik-dorton-1.html,DT,10,5,4,9,1.5,1.0,0,0,,0,1,0,0,0,0,,USC,2016
+Jordan Iosefa,jordan-iosefa-1,/cfb/players/jordan-iosefa-1.html,LB,12,6,3,9,0.0,0.0,0,0,,0,0,0,0,0,0,,USC,2016
+Isaiah Langley,isaiah-langley-1,/cfb/players/isaiah-langley-1.html,DB,11,6,2,8,0.0,0.0,0,0,,0,0,0,0,0,0,,USC,2016
+Michael Pittman Jr.,michael-pittman-jr-1,/cfb/players/michael-pittman-jr-1.html,WR,13,5,2,7,0.0,0.0,0,0,,0,0,0,0,0,1,,USC,2016
+Connor Murphy,connor-murphy-1,/cfb/players/connor-murphy-1.html,DE,13,5,1,6,0.0,0.0,0,0,,0,0,1,0,0,0,,USC,2016
+Jacob Daniel,jacob-daniel-1,/cfb/players/jacob-daniel-1.html,DT,8,5,1,6,0.0,0.0,0,0,,0,0,0,0,0,0,,USC,2016
+Christian Rector,christian-rector-1,/cfb/players/christian-rector-1.html,DE,11,2,3,5,0.0,0.0,0,0,,0,1,0,0,0,0,,USC,2016
+John Plattenburg,john-plattenburg-1,/cfb/players/john-plattenburg-1.html,DB,7,4,1,5,0.0,0.0,0,0,,0,0,0,0,0,1,,USC,2016
+Matt Lopes,matt-lopes-1,/cfb/players/matt-lopes-1.html,DB,11,3,2,5,0.0,0.0,0,0,,0,0,0,0,0,0,,USC,2016
+Noah Jefferson,noah-jefferson-1,/cfb/players/noah-jefferson-1.html,DT,1,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,USC,2016
+Sam Darnold,sam-darnold-1,/cfb/players/sam-darnold-1.html,QB,13,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,USC,2016
+James Toland IV,james-toland-iv-1,/cfb/players/james-toland-iv-1.html,RB,9,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,USC,2016
+Matt Boermeester,matt-boermeester-1,/cfb/players/matt-boermeester-1.html,PK,13,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,USC,2016
+Deontay Burnett,deontay-burnett-1,/cfb/players/deontay-burnett-1.html,WR,13,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,USC,2016
+Ykili Ross,ykili-ross-1,/cfb/players/ykili-ross-1.html,S,10,2,0,2,0.0,0.0,0,0,,0,1,0,0,0,0,,USC,2016
+Jabari Ruffin,jabari-ruffin-1,/cfb/players/jabari-ruffin-1.html,DE,6,2,0,2,1.0,0.0,0,0,,0,0,0,0,0,0,,USC,2016
+JuJu Smith-Schuster,juju-smith-1,/cfb/players/juju-smith-1.html,WR,13,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,USC,2016
+Zach Smith,zach-smith-5,/cfb/players/zach-smith-5.html,LS,13,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,USC,2016
+Viane Talamaivao,viane-talamaivao-1,/cfb/players/viane-talamaivao-1.html,G,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,USC,2016
+Velus Jones Jr.,velus-jones-jr-1,/cfb/players/velus-jones-jr-1.html,WR,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,USC,2016
+Ruben Peters,ruben-peters-1,/cfb/players/ruben-peters-1.html,,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,USC,2016
+Darreus Rogers,darreus-rogers-1,/cfb/players/darreus-rogers-1.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,USC,2016
+James Bermingham Jr.,james-bermingham-jr-1,/cfb/players/james-bermingham-jr-1.html,P,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,USC,2016
+Aca'Cedric Ware,acacedric-ware-1,/cfb/players/acacedric-ware-1.html,RB,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,USC,2016

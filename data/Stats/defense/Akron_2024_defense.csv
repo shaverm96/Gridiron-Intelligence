@@ -1,0 +1,45 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Bryan McCoy,bryan-mccoy-1,/cfb/players/bryan-mccoy-1.html,LB,12,54,66,120,1.5,0.0,0,0,,0,2,0,0,0,0,,Akron,2024
+Paul Lewis III,paul-lewis-iii-1,/cfb/players/paul-lewis-iii-1.html,CB,12,43,34,77,7.0,0.0,0,0,,0,5,1,0,0,1,,Akron,2024
+Darrian Lewis,darrian-lewis-1,/cfb/players/darrian-lewis-1.html,DB,12,43,31,74,3.0,0.0,1,0,0.0,0,6,0,0,0,0,,Akron,2024
+Antavious Fish,antavious-fish-1,/cfb/players/antavious-fish-1.html,LB,12,20,48,68,2.0,1.0,0,0,,0,1,1,0,0,0,,Akron,2024
+CJ Nunnally IV,cj-mcnunnally-1,/cfb/players/cj-mcnunnally-1.html,DL,12,24,32,56,11.0,6.0,0,0,,0,0,0,0,0,2,,Akron,2024
+Justin Anderson,justin-anderson-9,/cfb/players/justin-anderson-9.html,DB,10,30,14,44,3.0,1.0,0,0,,0,0,0,0,0,1,,Akron,2024
+Nate Kapongo,nate-kapongo-1,/cfb/players/nate-kapongo-1.html,DL,12,17,20,37,6.0,1.0,0,0,,0,0,2,0,0,0,,Akron,2024
+Gage Summers,gage-summers-1,/cfb/players/gage-summers-1.html,LB,6,18,17,35,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2024
+Bennett Adler,bennett-adler-1,/cfb/players/bennett-adler-1.html,DL,12,17,17,34,7.0,3.0,0,0,,0,1,0,0,0,0,,Akron,2024
+Devonte Golden-Nelson,devonte-golden-nelson-1,/cfb/players/devonte-golden-nelson-1.html,DB,12,24,9,33,0.5,0.0,0,0,,0,7,0,0,0,0,,Akron,2024
+Elijah Reed,elijah-reed-1,/cfb/players/elijah-reed-1.html,DB,9,13,19,32,1.5,0.0,1,26,26.0,0,4,0,0,0,0,,Akron,2024
+Marcus Moore Jr.,marcus-moore-jr-1,/cfb/players/marcus-moore-jr-1.html,DL,12,8,23,31,1.0,0.0,0,0,,0,0,1,0,0,0,,Akron,2024
+Aman Greenwood,aman-greenwood-1,/cfb/players/aman-greenwood-1.html,DB,12,9,11,20,0.5,0.5,0,0,,0,3,0,0,0,1,,Akron,2024
+Melvin Spriggs,melvin-spriggs-1,/cfb/players/melvin-spriggs-1.html,LB,11,8,10,18,1.5,0.0,0,0,,0,0,0,0,0,1,,Akron,2024
+Lama Lavea,lama-lavea-1,/cfb/players/lama-lavea-1.html,DL,7,4,8,12,1.5,1.0,0,0,,0,0,0,0,0,0,,Akron,2024
+Rich Benenge,rich-benenge-1,/cfb/players/rich-benenge-1.html,LB,8,5,7,12,0.0,0.0,0,0,,0,1,0,0,0,0,,Akron,2024
+Terence Thomas,terence-thomas-1,/cfb/players/terence-thomas-1.html,DB,12,5,6,11,0.0,0.0,0,0,,0,1,0,0,0,0,,Akron,2024
+Zy Brockington,zy-brockington-1,/cfb/players/zy-brockington-1.html,DL,7,1,10,11,1.0,0.5,0,0,,0,0,0,0,0,0,,Akron,2024
+Joey Hunter,joey-hunter-2,/cfb/players/joey-hunter-2.html,DB,11,8,2,10,0.0,0.0,0,0,,0,2,0,0,0,0,,Akron,2024
+Kabbash Richards,kabbash-richards-1,/cfb/players/kabbash-richards-1.html,DE,9,8,1,9,5.5,2.0,0,0,,0,0,0,0,0,1,,Akron,2024
+Kam Cheatom,kam-cheatom-1,/cfb/players/kam-cheatom-1.html,DL,11,6,3,9,0.5,0.0,0,0,,0,0,0,0,0,0,,Akron,2024
+Daymon David,daymon-david-1,/cfb/players/daymon-david-1.html,DB,2,6,3,9,0.5,0.0,1,1,1.0,0,0,0,0,0,0,,Akron,2024
+Bruno Dall,bruno-dall-1,/cfb/players/bruno-dall-1.html,DL,11,3,6,9,2.0,1.0,0,0,,0,1,0,0,0,0,,Akron,2024
+Noah Roach,noah-roach-1,/cfb/players/noah-roach-1.html,DB,12,4,5,9,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2024
+Rodrick Hunter,rodrick-hunter-1,/cfb/players/rodrick-hunter-1.html,DB,7,4,4,8,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2024
+Shammond Cooper,shammond-cooper-1,/cfb/players/shammond-cooper-1.html,LB,2,4,3,7,0.5,0.0,0,0,,0,1,0,0,0,0,,Akron,2024
+Malcom DeWalt IV,malcom-dewalt-iv-1,/cfb/players/malcom-dewalt-iv-1.html,DB,11,3,4,7,0.0,0.0,0,0,,0,3,1,0,0,0,,Akron,2024
+Catrell White,catrell-white-1,/cfb/players/catrell-white-1.html,DB,11,4,3,7,0.0,0.0,0,0,,0,3,0,0,0,0,,Akron,2024
+Kiawan Murphy,kiawan-murphy-1,/cfb/players/kiawan-murphy-1.html,DL,8,2,3,5,0.5,0.0,0,0,,0,0,0,0,0,0,,Akron,2024
+Dimitri Madden,dimitri-madden-1,/cfb/players/dimitri-madden-1.html,DL,7,1,3,4,1.5,1.0,0,0,,0,0,0,0,0,0,,Akron,2024
+Sean Conroy,sean-conroy-1,/cfb/players/sean-conroy-1.html,DB,12,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2024
+Israel Polk,israel-polk-1,/cfb/players/israel-polk-1.html,WR,11,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2024
+Andre Proffitt,andre-proffitt-1,/cfb/players/andre-proffitt-1.html,DL,5,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2024
+Liam Reardon,liam-reardon-1,/cfb/players/liam-reardon-1.html,LS,12,1,1,2,0.0,0.0,0,0,,0,0,1,0,1,0,,Akron,2024
+Ronald Hull,ronald-hull-2,/cfb/players/ronald-hull-2.html,DL,5,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2024
+Jordon Simmons,jordon-simmons-1,/cfb/players/jordon-simmons-1.html,RB,11,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2024
+Austin Wondolowski,austin-wondolowski-1,/cfb/players/austin-wondolowski-1.html,LB,9,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2024
+Iesa Jarmon,iesa-jarmon-3,/cfb/players/iesa-jarmon-3.html,DB,7,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2024
+Charles Kellom,charles-kellom-1,/cfb/players/charles-kellom-1.html,RB,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2024
+Marquese Williams,marquese-williams-1,/cfb/players/marquese-williams-1.html,RB,6,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2024
+Dante Jackson,dante-jackson-2,/cfb/players/dante-jackson-2.html,K,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2024
+Bobby Golden,bobby-golden-2,/cfb/players/bobby-golden-2.html,WR,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2024
+DiMarco Johnson,dimarco-johnson-1,/cfb/players/dimarco-johnson-1.html,DB,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2024
+Jake Newell,jake-newell-1,/cfb/players/jake-newell-1.html,TE,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2024

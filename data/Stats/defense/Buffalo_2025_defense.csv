@@ -1,0 +1,40 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Khalil Murdock,khalil-murdock-1,/cfb/players/khalil-murdock-1.html,LB,12,53,89,142,13.5,5.0,0,0,,0,1,2,0,0,6,,Buffalo,2025
+Dion Crawford,dion-crawford-1,/cfb/players/dion-crawford-1.html,LB,11,30,51,81,5.0,3.5,0,0,,0,1,0,0,0,1,,Buffalo,2025
+Miles Greer,miles-greer-1,/cfb/players/miles-greer-1.html,S,12,36,38,74,3.0,2.5,0,0,,0,3,0,0,0,0,,Buffalo,2025
+Mitchell Gonser,mitchell-gonser-1,/cfb/players/mitchell-gonser-1.html,LB,12,41,29,70,6.0,1.0,2,56,28.0,0,0,0,0,0,0,,Buffalo,2025
+Solomon Brown,solomon-brown-1,/cfb/players/solomon-brown-1.html,DB,12,34,22,56,0.0,0.0,1,43,43.0,0,5,0,0,0,1,,Buffalo,2025
+Malin White,malin-white-1,/cfb/players/malin-white-1.html,LB,12,24,30,54,8.5,4.0,0,0,,0,0,0,0,0,1,,Buffalo,2025
+SaVeon Brown,saveon-brown-1,/cfb/players/saveon-brown-1.html,LB,12,20,32,52,6.5,2.0,0,0,,0,4,0,0,0,0,,Buffalo,2025
+Jalen McNair,jalen-mcnair-1,/cfb/players/jalen-mcnair-1.html,DB,12,27,23,50,2.0,0.0,2,37,18.5,0,5,2,20,0,0,,Buffalo,2025
+Kobe Stewart,kobe-stewart-2,/cfb/players/kobe-stewart-2.html,DL,12,16,28,44,7.5,3.5,0,0,,0,2,2,12,0,0,,Buffalo,2025
+Junior Poyser,junior-poyser-1,/cfb/players/junior-poyser-1.html,DL,12,14,17,31,5.5,5.5,0,0,,0,0,0,0,0,1,,Buffalo,2025
+Marquis Cooper,marquis-cooper-2,/cfb/players/marquis-cooper-2.html,CB,10,20,10,30,0.5,0.0,0,0,,0,4,0,0,0,0,,Buffalo,2025
+Keontez Bradley,keontez-bradley-1,/cfb/players/keontez-bradley-1.html,DB,12,17,11,28,0.0,0.0,0,0,,0,5,1,-1,0,0,,Buffalo,2025
+George Wolo,george-wolo-1,/cfb/players/george-wolo-1.html,DL,12,7,18,25,2.0,1.0,0,0,,0,0,0,0,0,0,,Buffalo,2025
+Devin Morgan,devin-morgan-1,/cfb/players/devin-morgan-1.html,DT,12,7,16,23,5.5,3.5,0,0,,0,0,0,0,0,0,,Buffalo,2025
+Kobi Blackwell,kobi-blackwell-1,/cfb/players/kobi-blackwell-1.html,CB,12,16,4,20,0.0,0.0,1,4,4.0,0,7,0,0,0,0,,Buffalo,2025
+John Keough,john-keough-1,/cfb/players/john-keough-1.html,S,12,9,5,14,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2025
+Cornell Evans,cornell-evans-1,/cfb/players/cornell-evans-1.html,DT,12,3,11,14,1.5,1.0,0,0,,0,1,0,0,0,0,,Buffalo,2025
+Oliver Bridges,oliver-bridges-1,/cfb/players/oliver-bridges-1.html,DB,10,7,5,12,1.0,0.0,1,11,11.0,0,0,1,0,0,0,,Buffalo,2025
+Demetrius Ballard,demetrius-ballard-1,/cfb/players/demetrius-ballard-1.html,DE,11,3,9,12,2.5,1.5,0,0,,0,0,0,0,0,0,,Buffalo,2025
+Charles McCartherens,charles-mccartherens-1,/cfb/players/charles-mccartherens-1.html,CB,4,7,2,9,1.0,1.0,0,0,,0,3,0,0,0,1,,Buffalo,2025
+Victor Snow,victor-snow-1,/cfb/players/victor-snow-1.html,WR,12,3,4,7,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2025
+Gio De Leon,gio-de-leon-1,/cfb/players/gio-de-leon-1.html,LB,12,3,3,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2025
+Ronnell Davis,ronnell-davis-1,/cfb/players/ronnell-davis-1.html,S,12,3,2,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2025
+Jonathan Capo,jonathan-capo-1,/cfb/players/jonathan-capo-1.html,S,11,3,2,5,1.0,1.0,0,0,,0,0,0,0,0,0,,Buffalo,2025
+Andrew Schnackenberg,andrew-schnackenberg-1,/cfb/players/andrew-schnackenberg-1.html,LS,11,2,2,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2025
+Lamar Sperling,lamar-sperling-1,/cfb/players/lamar-sperling-1.html,RB,11,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2025
+James McNeil,james-mcneil-1,/cfb/players/james-mcneil-1.html,RB,12,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2025
+Shamar Riser-Pressley,shamar-riser-pressley-1,/cfb/players/shamar-riser-pressley-1.html,DE,11,0,3,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2025
+Connor Henderson,connor-henderson-1,/cfb/players/connor-henderson-1.html,LB,12,1,2,3,0.5,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2025
+Tristan Souza,tristan-souza-1,/cfb/players/tristan-souza-1.html,DL,10,2,1,3,0.5,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2025
+Mikey Crawford,mikey-crawford-1,/cfb/players/mikey-crawford-1.html,CB,3,2,0,2,0.0,0.0,0,0,,0,1,0,0,0,0,,Buffalo,2025
+Jerrod Gentry,jerrod-gentry-1,/cfb/players/jerrod-gentry-1.html,S,12,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2025
+Nik McMillan,nik-mcmillan-1,/cfb/players/nik-mcmillan-1.html,WR,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2025
+Jacari Bennett,jacari-bennett-1,/cfb/players/jacari-bennett-1.html,DE,3,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2025
+Will Clark,will-clark-1,/cfb/players/will-clark-1.html,DE,7,0,2,2,0.5,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2025
+Messiah Burch,messiah-burch-1,/cfb/players/messiah-burch-1.html,WR,6,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2025
+Eddie Pleasant III,eddie-pleasant-iii-1,/cfb/players/eddie-pleasant-iii-1.html,DB,7,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2025
+Ta'Quan Roberson,taquan-roberson-1,/cfb/players/taquan-roberson-1.html,QB,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2025
+Al-Jay Henderson,al-jay-henderson-1,/cfb/players/al-jay-henderson-1.html,RB,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Buffalo,2025

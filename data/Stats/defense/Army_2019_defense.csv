@@ -1,0 +1,46 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Cole Christiansen,cole-christiansen-1,/cfb/players/cole-christiansen-1.html,LB,12,63,49,112,3.5,2.5,0,0,,0,1,1,0,0,2,,Army,2019
+Arik Smith,arik-smith-1,/cfb/players/arik-smith-1.html,LB,13,39,44,83,4.0,2.5,0,0,,0,0,1,0,0,1,,Army,2019
+Elijah Riley,elijah-riley-1,/cfb/players/elijah-riley-1.html,DB,13,55,24,79,8.0,4.0,3,79,26.3,0,6,1,0,0,3,,Army,2019
+Ryan Velez,ryan-velez-1,/cfb/players/ryan-velez-1.html,DB,13,28,19,47,3.5,1.0,2,70,35.0,0,0,0,0,0,1,,Army,2019
+Cedrick Cunningham Jr.,cedrick-cunningham-jr-1,/cfb/players/cedrick-cunningham-jr-1.html,DB,12,30,15,45,0.5,0.0,0,0,,0,2,0,0,0,0,,Army,2019
+Malkelm Morrison,malkelm-morrison-1,/cfb/players/malkelm-morrison-1.html,DB,13,34,10,44,3.0,0.5,0,0,,0,2,0,0,0,0,,Army,2019
+Jeremiah Lowery,jeremiah-lowery-1,/cfb/players/jeremiah-lowery-1.html,LB,12,11,31,42,4.0,1.0,0,0,,0,0,0,0,0,0,,Army,2019
+Javhari Bourdeau,javhari-bourdeau-1,/cfb/players/javhari-bourdeau-1.html,DB,13,28,13,41,1.0,0.0,1,0,0.0,0,5,0,0,0,1,,Army,2019
+Jaylon McClinton,jaylon-mcclinton-1,/cfb/players/jaylon-mcclinton-1.html,DB,8,19,20,39,2.0,0.0,0,0,,0,4,0,0,0,0,,Army,2019
+Edriece Patterson,edriece-patterson-1,/cfb/players/edriece-patterson-1.html,DL,12,13,24,37,5.0,3.0,0,0,,0,0,0,0,0,0,,Army,2019
+Jacob Covington,jacob-covington-1,/cfb/players/jacob-covington-1.html,DL,13,14,22,36,4.5,1.5,0,0,,0,0,1,15,0,0,,Army,2019
+Kwabena Bonsu,kwabena-bonsu-1,/cfb/players/kwabena-bonsu-1.html,DL,12,14,19,33,6.0,2.0,0,0,,0,0,2,0,0,0,,Army,2019
+Donavan Lynch,donavan-lynch-1,/cfb/players/donavan-lynch-1.html,LB,13,12,13,25,3.0,1.5,0,0,,0,0,0,0,0,0,,Army,2019
+Cameron Jones,cameron-jones-5,/cfb/players/cameron-jones-5.html,DB,4,16,7,23,0.5,0.0,1,6,6.0,0,1,1,0,0,0,,Army,2019
+Rod Stoddard II,rod-stoddard-ii-1,/cfb/players/rod-stoddard-ii-1.html,DL,13,4,10,14,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2019
+Amadeo West,amadeo-west-1,/cfb/players/amadeo-west-1.html,LB,3,6,7,13,0.5,0.0,0,0,,0,0,0,0,0,0,,Army,2019
+Jabari Moore,jabari-moore-2,/cfb/players/jabari-moore-2.html,DB,13,8,5,13,0.0,0.0,0,0,,0,2,1,54,1,0,,Army,2019
+Ryan Parker,ryan-parker-1,/cfb/players/ryan-parker-1.html,LB,12,8,3,11,0.5,0.0,0,0,,0,0,0,0,0,0,,Army,2019
+Jake Ellington,jake-ellington-1,/cfb/players/jake-ellington-1.html,DL,13,3,8,11,0.5,0.5,0,0,,0,0,0,0,0,0,,Army,2019
+Joe Stephenson,joe-stephenson-1,/cfb/players/joe-stephenson-1.html,LB,9,4,6,10,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2019
+Marquel Broughton,marquel-broughton-1,/cfb/players/marquel-broughton-1.html,DB,9,3,6,9,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2019
+Nolan Cockrill,nolan-cockrill-1,/cfb/players/nolan-cockrill-1.html,DL,8,3,3,6,1.5,0.0,0,0,,0,0,1,0,0,0,,Army,2019
+Jack King,jack-king-2,/cfb/players/jack-king-2.html,LB,10,3,3,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2019
+Jon Rhattigan,jon-rhattigan-1,/cfb/players/jon-rhattigan-1.html,LB,13,5,1,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2019
+Akyah Miranda,akyah-miranda-1,/cfb/players/akyah-miranda-1.html,DB,10,5,0,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2019
+Fabrice Voyne,fabrice-voyne-1,/cfb/players/fabrice-voyne-1.html,DB,8,4,1,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2019
+Kemonte Yow,kemonte-yow-1,/cfb/players/kemonte-yow-1.html,LB,5,1,3,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2019
+JB Hunter IV,jb-hunter-iv-1,/cfb/players/jb-hunter-iv-1.html,OL,11,0,3,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2019
+Caleb John,caleb-john-2,/cfb/players/caleb-john-2.html,DB,10,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2019
+Brandon Walters,brandon-walters-1,/cfb/players/brandon-walters-1.html,RB,13,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2019
+Nick Stokes,nick-stokes-1,/cfb/players/nick-stokes-1.html,DL,10,0,3,3,0.5,0.0,0,0,,0,0,0,0,0,0,,Army,2019
+Ryan Duran III,ryan-duran-iii-1,/cfb/players/ryan-duran-iii-1.html,DL,4,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2019
+Nathaniel Smith,nathaniel-smith-1,/cfb/players/nathaniel-smith-1.html,LB,3,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2019
+Wilson Catoe,wilson-catoe-1,/cfb/players/wilson-catoe-1.html,LB,11,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2019
+Jarrod Jones,jarrod-jones-1,/cfb/players/jarrod-jones-1.html,LB,9,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2019
+Chris Skyers,chris-skyers-1,/cfb/players/chris-skyers-1.html,DB,8,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2019
+Cade Barnard,cade-barnard-1,/cfb/players/cade-barnard-1.html,RB,8,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2019
+Malik Hancock,malik-hancock-1,/cfb/players/malik-hancock-1.html,RB,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2019
+Landon Salyers,landon-salyers-1,/cfb/players/landon-salyers-1.html,K,9,1,0,1,0.0,0.0,0,0,,0,0,1,0,0,1,,Army,2019
+Jack Sides,jack-sides-1,/cfb/players/jack-sides-1.html,OL,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2019
+Rashaad Bolton,rashaad-bolton-1,/cfb/players/rashaad-bolton-1.html,RB,5,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2019
+Chris Frey,chris-frey-2,/cfb/players/chris-frey-2.html,DL,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2019
+Camden Harrison,camden-harrison-1,/cfb/players/camden-harrison-1.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2019
+Tyler Komorowski,tyler-komorowski-1,/cfb/players/tyler-komorowski-1.html,DL,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2019
+Alex Hemdon,alex-hemdon-1,/cfb/players/alex-hemdon-1.html,OL,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2019

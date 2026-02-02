@@ -1,0 +1,54 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Mike Lee,mike-lee-6,/cfb/players/mike-lee-6.html,S,12,55,18,73,1.5,0.0,1,-3,-3.0,0,2,0,0,0,2,,Kansas,2019
+Bryce Torneden,bryce-torneden-1,/cfb/players/bryce-torneden-1.html,S,12,49,22,71,4.5,0.5,0,0,,0,1,1,0,0,1,,Kansas,2019
+Davon Ferguson,davon-ferguson-1,/cfb/players/davon-ferguson-1.html,S,12,42,15,57,3.0,0.0,0,0,,0,1,0,0,0,1,,Kansas,2019
+Gavin Potter,gavin-potter-1,/cfb/players/gavin-potter-1.html,LB,12,37,19,56,3.5,1.5,0,0,,0,1,0,0,0,0,,Kansas,2019
+Kyron Johnson,kyron-johnson-3,/cfb/players/kyron-johnson-3.html,LB,12,36,19,55,5.5,1.0,0,0,,0,1,0,0,0,0,,Kansas,2019
+Azur Kamara,azur-kamara-1,/cfb/players/azur-kamara-1.html,LB,12,30,21,51,6.5,4.0,0,0,,0,0,0,0,0,0,,Kansas,2019
+Najee Stevens-Mckenzie,najee-stevens-mckenzie-1,/cfb/players/najee-stevens-mckenzie-1.html,LB,12,34,10,44,8.5,0.5,2,2,1.0,0,1,0,0,0,0,,Kansas,2019
+Kyle Mayberry,kyle-mayberry-1,/cfb/players/kyle-mayberry-1.html,CB,12,35,6,41,3.0,0.0,0,0,,0,5,0,0,0,0,,Kansas,2019
+Darrius Moragne,darrius-moragne-1,/cfb/players/darrius-moragne-1.html,DE,12,29,10,39,4.5,2.5,0,0,,0,1,0,0,0,0,,Kansas,2019
+Dru Prox,dru-prox-1,/cfb/players/dru-prox-1.html,LB,4,30,9,39,2.5,2.0,0,0,,0,1,0,0,0,1,,Kansas,2019
+Jay Dineen,jay-dineen-1,/cfb/players/jay-dineen-1.html,LB,12,26,12,38,4.5,1.0,0,0,,0,0,0,0,0,1,,Kansas,2019
+Hasan Defense,hasan-defense-1,/cfb/players/hasan-defense-1.html,CB,12,27,10,37,0.0,0.0,1,57,57.0,1,8,0,0,0,0,,Kansas,2019
+Jelani Brown,jelani-brown-1,/cfb/players/jelani-brown-1.html,DT,12,22,4,26,2.5,0.5,0,0,,0,0,0,0,0,0,,Kansas,2019
+Jeremiah Mccullough,jeremiah-mccullough-1,/cfb/players/jeremiah-mccullough-1.html,S,8,15,7,22,0.0,0.0,1,13,13.0,0,4,0,0,0,0,,Kansas,2019
+Ricky Thomas,ricky-thomas-4,/cfb/players/ricky-thomas-4.html,S,12,16,4,20,1.0,0.0,1,0,0.0,0,1,0,0,0,0,,Kansas,2019
+Codey Cole,cody-cole-1,/cfb/players/cody-cole-1.html,DE,12,17,3,20,2.0,1.0,0,0,,0,1,0,0,0,1,,Kansas,2019
+DeAnte Ford,deante-ford-1,/cfb/players/deante-ford-1.html,S,12,17,2,19,2.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2019
+Malcolm Lee,malcolm-lee-1,/cfb/players/malcolm-lee-1.html,DL,10,14,4,18,1.0,0.5,0,0,,0,0,0,0,0,0,,Kansas,2019
+Sam Burt,sam-burt-2,/cfb/players/sam-burt-2.html,DT,10,12,3,15,1.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2019
+Corione Harris,corione-harris-1,/cfb/players/corione-harris-1.html,CB,9,12,3,15,0.0,0.0,0,0,,0,2,0,0,0,0,,Kansas,2019
+Kenny Logan Jr.,kenny-logan-jr-1,/cfb/players/kenny-logan-jr-1.html,CB,12,11,3,14,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2019
+Caleb Sampson,caleb-sampson-1,/cfb/players/caleb-sampson-1.html,DT,12,8,4,12,2.0,2.0,0,0,,0,3,0,0,0,0,,Kansas,2019
+Elijah Jones,elijah-jones-5,/cfb/players/elijah-jones-5.html,CB,7,8,1,9,1.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2019
+Elmore Hempstead Jr.,elmore-hempstead-jr-1,/cfb/players/elmore-hempstead-jr-1.html,CB,10,7,2,9,0.0,0.0,0,0,,0,4,0,0,0,0,,Kansas,2019
+Willie McCaleb,willie-mccaleb-1,/cfb/players/willie-mccaleb-1.html,DE,12,2,4,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2019
+Nate Betts,nate-betts-1,/cfb/players/nate-betts-1.html,S,6,4,1,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2019
+Kwamie Lassiter II,kwamie-lassiter-ii-1,/cfb/players/kwamie-lassiter-ii-1.html,WR,11,4,0,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2019
+Jamahl Horne,jamahl-horne-1,/cfb/players/jamahl-horne-1.html,WR,10,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2019
+Daylon Charlot,daylon-charlot-1,/cfb/players/daylon-charlot-1.html,WR,12,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2019
+Rob Fiorentino,rob-fiorentino-1,/cfb/players/rob-fiorentino-1.html,RB,8,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2019
+Pooka Williams,pooka-williams-1,/cfb/players/pooka-williams-1.html,RB,11,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2019
+Andrew Parchment,andrew-parchment-1,/cfb/players/andrew-parchment-1.html,WR,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2019
+Velton Gardner,velton-gardner-1,/cfb/players/velton-gardner-1.html,RB,10,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2019
+Takulve Williams,takulve-williams-1,/cfb/players/takulve-williams-1.html,WR,10,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2019
+Steven Parker,steven-parker-2,/cfb/players/steven-parker-2.html,LB,4,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2019
+Marcus Harris,marcus-harris-5,/cfb/players/marcus-harris-5.html,DE,2,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2019
+Jelani Arnold,jelani-arnold-1,/cfb/players/jelani-arnold-1.html,DE,11,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2019
+Cooper Root,cooper-root-1,/cfb/players/cooper-root-1.html,LB,5,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2019
+Hunter Kaufman,hunter-kaufman-1,/cfb/players/hunter-kaufman-1.html,WR,10,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2019
+DaJon Terry,dajon-terry-1,/cfb/players/dajon-terry-1.html,DL,2,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2019
+Cody Mcnerney,cody-mcnerney-1,/cfb/players/cody-mcnerney-1.html,LB,11,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2019
+Kyle Thompson,kyle-thompson-1,/cfb/players/kyle-thompson-1.html,P,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2019
+Donovan Frankling,donovan-frankling-1,/cfb/players/donovan-frankling-1.html,RB,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2019
+Torry Locklin,torry-locklin-1,/cfb/players/torry-locklin-1.html,QB,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2019
+Kameron McQueen,kameron-mcqueen-1,/cfb/players/kameron-mcqueen-1.html,WR,7,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2019
+Stephan Robinson,stephan-robinson-2,/cfb/players/stephan-robinson-2.html,WR,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2019
+Ryan Malbrough,ryan-malbrough-1,/cfb/players/ryan-malbrough-1.html,S,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2019
+Earl Bostick Jr.,earl-bostick-jr-1,/cfb/players/earl-bostick-jr-1.html,OL,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2019
+Reuben Lewis,reuben-lewis-1,/cfb/players/reuben-lewis-1.html,OL,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2019
+Nick Caudle,nick-caudle-1,/cfb/players/nick-caudle-1.html,S,11,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2019
+Ben Miles,ben-miles-1,/cfb/players/ben-miles-1.html,FB,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2019
+Ezra Naylor II,ezra-naylor-ii-1,/cfb/players/ezra-naylor-ii-1.html,WR,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2019
+Logan Klusman,logan-klusman-1,/cfb/players/logan-klusman-1.html,LS,9,0,0,0,0.0,0.0,0,0,,0,0,1,0,0,0,,Kansas,2019

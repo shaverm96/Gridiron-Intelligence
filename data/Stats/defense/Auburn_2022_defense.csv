@@ -1,0 +1,44 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Owen Pappoe,owen-pappoe-1,/cfb/players/owen-pappoe-1.html,LB,12,51,40,91,3.0,2.0,1,0,0.0,0,3,0,0,0,2,,Auburn,2022
+Cam Riley,cam-riley-1,/cfb/players/cam-riley-1.html,LB,11,39,26,65,3.5,0.0,0,0,,0,1,0,0,0,0,,Auburn,2022
+Derick Hall,derick-hall-1,/cfb/players/derick-hall-1.html,DL,12,42,18,60,12.0,7.0,1,19,19.0,0,0,1,0,0,2,,Auburn,2022
+Keionte Scott,keionte-scott-1,/cfb/players/keionte-scott-1.html,CB,12,35,18,53,4.0,1.0,1,0,0.0,0,4,0,0,0,0,,Auburn,2022
+Wesley Steiner,wesley-steiner-1,/cfb/players/wesley-steiner-1.html,LB,12,31,15,46,0.0,0.0,0,0,,0,0,0,0,0,0,,Auburn,2022
+Zion Puckett,zion-puckett-1,/cfb/players/zion-puckett-1.html,DB,11,21,24,45,1.0,1.0,0,0,,0,2,0,0,0,1,,Auburn,2022
+Colby Wooden,colby-wooden-1,/cfb/players/colby-wooden-1.html,DL,12,36,9,45,11.5,6.0,0,0,,0,3,2,0,0,3,,Auburn,2022
+Donovan Kaufman,donovan-kaufman-1,/cfb/players/donovan-kaufman-1.html,DB,7,20,19,39,1.5,0.0,0,0,,0,2,0,0,0,1,,Auburn,2022
+Nehemiah Pritchett,nehemiah-pritchett-1,/cfb/players/nehemiah-pritchett-1.html,DB,12,22,15,37,4.5,1.0,0,0,,0,8,0,0,0,1,,Auburn,2022
+Jaylin Simpson,jaylin-simpson-1,/cfb/players/jaylin-simpson-1.html,DB,12,29,8,37,0.0,0.0,2,14,7.0,0,5,0,0,0,0,,Auburn,2022
+DJ James,dj-james-1,/cfb/players/dj-james-1.html,CB,12,25,12,37,1.0,0.0,1,27,27.0,1,8,0,0,0,0,,Auburn,2022
+Marcus Harris,marcus-harris-5,/cfb/players/marcus-harris-5.html,DL,12,18,12,30,6.5,2.0,0,0,,0,1,0,0,0,0,,Auburn,2022
+Jayson Jones,jayson-jones-2,/cfb/players/jayson-jones-2.html,DL,12,11,17,28,0.5,0.0,0,0,,0,0,1,0,0,0,,Auburn,2022
+Cayden Bridges,cayden-bridges-1,/cfb/players/cayden-bridges-1.html,DB,12,12,7,19,0.0,0.0,0,0,,0,1,1,0,0,0,,Auburn,2022
+Andrew Leota,andrew-leota-1,/cfb/players/andrew-leota-1.html,DL,5,14,4,18,5.0,2.0,0,0,,0,0,0,0,0,0,,Auburn,2022
+Marcus Bragg,marcus-bragg-1,/cfb/players/marcus-bragg-1.html,DT,11,13,3,16,3.0,1.0,0,0,,0,1,0,0,0,0,,Auburn,2022
+J.D. Rhym,jd-rhym-1,/cfb/players/jd-rhym-1.html,CB,12,9,5,14,0.0,0.0,0,0,,0,1,0,0,0,0,,Auburn,2022
+Morris Joseph Jr.,morris-joseph-jr-1,/cfb/players/morris-joseph-jr-1.html,DL,11,7,7,14,0.0,0.0,0,0,,0,0,1,0,0,0,,Auburn,2022
+Desmond Tisdol,desmond-tisdol-1,/cfb/players/desmond-tisdol-1.html,LB,12,6,7,13,0.0,0.0,0,0,,0,0,0,0,0,0,,Auburn,2022
+Marquis Burks,marquis-burks-1,/cfb/players/marquis-burks-1.html,DL,12,3,10,13,0.5,0.0,0,0,,0,1,0,0,0,0,,Auburn,2022
+Caleb Wooden,caleb-wooden-1,/cfb/players/caleb-wooden-1.html,S,6,4,5,9,0.0,0.0,0,0,,0,0,0,0,0,0,,Auburn,2022
+Barton Lester,barton-lester-1,/cfb/players/barton-lester-1.html,LB,12,4,2,6,1.0,0.0,0,0,,0,0,0,0,0,0,,Auburn,2022
+Jeffrey M'ba,jeffrey-mba-1,/cfb/players/jeffrey-mba-1.html,DL,9,3,3,6,1.0,1.0,0,0,,0,0,0,0,0,1,,Auburn,2022
+Dylan Brooks,dylan-brooks-3,/cfb/players/dylan-brooks-3.html,DE,10,4,2,6,1.0,1.0,0,0,,0,1,1,7,0,0,,Auburn,2022
+Jake Levant,jake-levant-1,/cfb/players/jake-levant-1.html,LB,11,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Auburn,2022
+Sean Jackson,sean-jackson-3,/cfb/players/sean-jackson-3.html,RB,12,1,3,4,0.5,0.0,0,0,,0,0,0,0,0,0,,Auburn,2022
+Robert Woodyard Jr.,robert-woodyard-jr-1,/cfb/players/robert-woodyard-jr-1.html,LB,4,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Auburn,2022
+Jarquez Hunter,jarquez-hunter-1,/cfb/players/jarquez-hunter-1.html,RB,12,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Auburn,2022
+Shedrick Jackson,shedrick-jackson-1,/cfb/players/shedrick-jackson-1.html,WR,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Auburn,2022
+Marquis Robinson,marquis-robinson-1,/cfb/players/marquis-robinson-1.html,DL,2,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Auburn,2022
+Joko Willis,joko-willis-1,/cfb/players/joko-willis-1.html,LB,7,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Auburn,2022
+Hayden Brice,hayden-brice-1,/cfb/players/hayden-brice-1.html,DL,2,1,1,2,1.0,1.0,0,0,,0,0,0,0,0,0,,Auburn,2022
+Eugene Asante,eugene-asante-1,/cfb/players/eugene-asante-1.html,LB,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Auburn,2022
+Robby Ashford,robby-ashford-1,/cfb/players/robby-ashford-1.html,QB,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Auburn,2022
+Austin Ausberry,austin-ausberry-1,/cfb/players/austin-ausberry-1.html,CB,4,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Auburn,2022
+Garrison Walker,garrison-walker-1,/cfb/players/garrison-walker-1.html,DL,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Auburn,2022
+Omari Kelly,omari-kelly-1,/cfb/players/omari-kelly-1.html,WR,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Auburn,2022
+Marquise Gilbert,marquise-gilbert-1,/cfb/players/marquise-gilbert-1.html,S,5,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Auburn,2022
+Camden Brown,camden-brown-1,/cfb/players/camden-brown-1.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Auburn,2022
+Kilian Zierer,kilian-zierer-1,/cfb/players/kilian-zierer-1.html,OL,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Auburn,2022
+Evan McGuire,evan-mcguire-1,/cfb/players/evan-mcguire-1.html,K,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Auburn,2022
+John Samuel Shenker,john-samuel-shenker-1,/cfb/players/john-samuel-shenker-1.html,TE,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Auburn,2022
+Anders Carlson,anders-carlson-1,/cfb/players/anders-carlson-1.html,K,9,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Auburn,2022

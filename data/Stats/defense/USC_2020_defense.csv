@@ -1,0 +1,35 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Talanoa Hufanga,talanoa-hufanga-1,/cfb/players/talanoa-hufanga-1.html,S,6,40,22,62,5.5,3.0,4,90,22.5,0,1,0,0,0,2,AA,USC,2020
+Kana'i Mauga,kanai-mauga-1,/cfb/players/kanai-mauga-1.html,LB,6,15,26,41,3.0,1.0,1,34,34.0,0,0,0,0,0,0,,USC,2020
+Isaiah Pola-Mao,isaiah-pola-mao-1,/cfb/players/isaiah-pola-mao-1.html,S,6,19,21,40,2.5,0.0,1,0,0.0,0,5,3,0,0,0,,USC,2020
+Ralen Goforth,ralen-goforth-1,/cfb/players/ralen-goforth-1.html,LB,5,8,30,38,3.0,0.0,0,0,,0,2,0,0,0,0,,USC,2020
+Chris Steele,chris-steele-1,/cfb/players/chris-steele-1.html,CB,6,18,8,26,0.0,0.0,1,3,3.0,0,4,0,0,0,0,,USC,2020
+Marlon Tuipulotu,marlon-tuipulotu-1,/cfb/players/marlon-tuipulotu-1.html,DL,6,12,11,23,3.5,2.0,0,0,,0,0,0,0,0,1,,USC,2020
+Tuli Tuipulotu,tuli-tuipulotu-1,/cfb/players/tuli-tuipulotu-1.html,DL,6,12,10,22,2.5,2.0,0,0,,0,0,0,0,0,0,,USC,2020
+Olaijah Griffin,olaijah-griffin-1,/cfb/players/olaijah-griffin-1.html,CB,6,12,10,22,1.0,0.0,1,-1,-1.0,0,4,0,0,0,0,,USC,2020
+Max Williams,max-williams-1,/cfb/players/max-williams-1.html,S,6,12,10,22,2.5,0.5,0,0,,0,1,0,0,0,0,,USC,2020
+Drake Jackson,drake-jackson-2,/cfb/players/drake-jackson-2.html,LB,6,8,12,20,5.5,2.0,1,10,10.0,0,0,0,0,0,0,,USC,2020
+Nick Figueroa,nick-figueroa-1,/cfb/players/nick-figueroa-1.html,DL,6,10,10,20,7.0,3.5,0,0,,0,0,0,0,0,0,,USC,2020
+Greg Johnson,greg-johnson-10,/cfb/players/greg-johnson-10.html,S,4,9,6,15,1.0,0.0,0,0,,0,1,0,0,0,0,,USC,2020
+Hunter Echols,hunter-echols-1,/cfb/players/hunter-echols-1.html,LB,6,6,9,15,0.5,0.0,0,0,,0,1,0,0,0,0,,USC,2020
+Palaie Gaoteote IV,palaie-gaoteote-iv-1,/cfb/players/palaie-gaoteote-iv-1.html,LB,2,2,7,9,0.0,0.0,0,0,,0,0,0,0,0,0,,USC,2020
+Raymond Scott,raymond-scott-1,/cfb/players/raymond-scott-1.html,S,5,4,3,7,1.0,1.0,0,0,,0,0,0,0,0,0,,USC,2020
+Brandon Pili,brandon-pili-1,/cfb/players/brandon-pili-1.html,DL,4,0,5,5,0.0,0.0,0,0,,0,0,0,0,0,0,,USC,2020
+Isaac Taylor-Stuart,isaac-taylor-stuart-1,/cfb/players/isaac-taylor-stuart-1.html,CB,6,2,3,5,0.0,0.0,0,0,,0,0,0,0,0,0,,USC,2020
+Chase Williams,chase-williams-2,/cfb/players/chase-williams-2.html,S,5,4,0,4,0.0,0.0,0,0,,0,0,1,0,0,0,,USC,2020
+Tuasivi Nomura,tuasivi-nomura-1,/cfb/players/tuasivi-nomura-1.html,LB,6,2,2,4,0.0,0.0,0,0,,0,0,0,0,0,0,,USC,2020
+Connor Murphy,connor-murphy-1,/cfb/players/connor-murphy-1.html,DL,6,1,2,3,0.0,0.0,0,0,,0,0,1,0,0,0,,USC,2020
+Briton Allen,briton-allen-1,/cfb/players/briton-allen-1.html,S,4,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,USC,2020
+Kobe Pepe,kobe-pepe-1,/cfb/players/kobe-pepe-1.html,DL,2,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,USC,2020
+Caleb Tremblay,caleb-tremblay-1,/cfb/players/caleb-tremblay-1.html,DL,4,0,3,3,0.5,0.0,0,0,,0,0,0,0,0,0,,USC,2020
+Dorian Hewett,dorian-hewett-1,/cfb/players/dorian-hewett-1.html,CB,4,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,USC,2020
+Stanley Ta'ufo'ou,stanley-taufoou-1,/cfb/players/stanley-taufoou-1.html,DL,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,USC,2020
+Andrew Vorhees,andrew-vorhees-1,/cfb/players/andrew-vorhees-1.html,OL,5,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,USC,2020
+Amon-Ra St. Brown,amon-ra-st-brown-1,/cfb/players/amon-ra-st-brown-1.html,WR,6,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,USC,2020
+Ben Griffiths,ben-griffiths-1,/cfb/players/ben-griffiths-1.html,P,6,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,USC,2020
+Micah Croom,micah-croom-1,/cfb/players/micah-croom-1.html,S,6,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,USC,2020
+Bryce Matthews,bryce-matthews-1,/cfb/players/bryce-matthews-1.html,LB,6,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,USC,2020
+Jayden Williams,jayden-williams-1,/cfb/players/jayden-williams-1.html,CB,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,USC,2020
+Drake London,drake-london-1,/cfb/players/drake-london-1.html,WR,6,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,USC,2020
+Quincy Jountti,quincy-jountti-1,/cfb/players/quincy-jountti-1.html,RB,6,0,0,0,0.0,0.0,0,0,,0,0,1,0,0,0,,USC,2020
+Bru McCoy,bru-mccoy-1,/cfb/players/bru-mccoy-1.html,WR,6,0,0,0,0.0,0.0,0,0,,0,0,1,0,0,0,,USC,2020

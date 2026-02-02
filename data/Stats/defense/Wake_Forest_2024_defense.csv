@@ -1,0 +1,41 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Nick Andersen,nick-andersen-1,/cfb/players/nick-andersen-1.html,DB,12,56,66,122,1.0,0.0,2,30,15.0,0,1,1,0,0,1,,Wake Forest,2024
+Branson Combs,branson-combs-1,/cfb/players/branson-combs-1.html,LB,11,54,40,94,6.0,2.0,1,0,0.0,0,1,1,0,0,1,,Wake Forest,2024
+Dylan Hazen,dylan-hazen-1,/cfb/players/dylan-hazen-1.html,LB,12,36,48,84,7.0,1.0,1,0,0.0,0,0,1,0,0,0,,Wake Forest,2024
+Davaughn Patterson,davaughn-patterson-1,/cfb/players/davaughn-patterson-1.html,DB,12,28,46,74,3.5,0.0,1,0,0.0,0,3,0,0,0,1,,Wake Forest,2024
+Evan Slocum,evan-slocum-1,/cfb/players/evan-slocum-1.html,DB,12,38,35,73,1.0,0.0,1,8,8.0,0,2,1,88,0,0,,Wake Forest,2024
+Quincey Bryant,quincey-bryant-1,/cfb/players/quincey-bryant-1.html,LB,12,18,32,50,2.5,0.0,1,0,0.0,0,0,0,0,0,2,,Wake Forest,2024
+Jamare Glasker,jamare-glasker-1,/cfb/players/jamare-glasker-1.html,DB,9,32,5,37,3.0,0.0,1,0,0.0,0,4,0,0,0,0,,Wake Forest,2024
+Rushaun Tongue,rushaun-tongue-1,/cfb/players/rushaun-tongue-1.html,DB,12,25,10,35,0.0,0.0,1,0,0.0,0,0,0,0,0,1,,Wake Forest,2024
+Kevin Pointer,kevin-pointer-2,/cfb/players/kevin-pointer-2.html,DL,11,15,19,34,8.0,4.0,1,32,32.0,0,1,0,0,0,0,,Wake Forest,2024
+Jaxon Mull,jaxon-mull-1,/cfb/players/jaxon-mull-1.html,DB,12,19,15,34,0.0,0.0,0,0,,0,2,0,0,0,0,,Wake Forest,2024
+Jasheen Davis,jasheen-davis-1,/cfb/players/jasheen-davis-1.html,DL,10,17,16,33,11.5,5.5,0,0,,0,0,0,0,0,1,,Wake Forest,2024
+Zamari Stevenson,zamari-stevenson-1,/cfb/players/zamari-stevenson-1.html,DB,12,19,10,29,1.0,0.0,1,0,0.0,0,1,0,0,0,0,,Wake Forest,2024
+Bryce Ganious,bryce-ganious-1,/cfb/players/bryce-ganious-1.html,DL,10,5,21,26,5.0,3.0,0,0,,0,0,0,0,0,0,,Wake Forest,2024
+BJ Williams,bj-williams-3,/cfb/players/bj-williams-3.html,DL,12,9,14,23,2.5,0.5,0,0,,0,0,2,0,0,0,,Wake Forest,2024
+C'Darius Kelley,cdarius-kelley-1,/cfb/players/cdarius-kelley-1.html,DB,10,14,7,21,0.0,0.0,0,0,,0,4,0,0,0,0,,Wake Forest,2024
+Capone Blue,capone-blue-1,/cfb/players/capone-blue-1.html,DB,5,13,6,19,0.0,0.0,0,0,,0,1,0,0,0,0,,Wake Forest,2024
+Kendron Wayman,kendron-wayman-1,/cfb/players/kendron-wayman-1.html,DL,12,10,9,19,2.5,0.0,0,0,,0,0,0,0,0,0,,Wake Forest,2024
+Zach Lohavichan,zach-lohavichan-1,/cfb/players/zach-lohavichan-1.html,DL,11,7,6,13,2.5,1.5,0,0,,0,0,0,0,0,0,,Wake Forest,2024
+Aiden Hall,aiden-hall-1,/cfb/players/aiden-hall-1.html,LB,9,6,6,12,1.0,1.0,0,0,,0,1,0,0,0,0,,Wake Forest,2024
+Justin Williams,justin-williams-6,/cfb/players/justin-williams-6.html,DL,11,5,5,10,3.5,1.5,0,0,,0,0,0,0,0,1,,Wake Forest,2024
+Eldrick Robinson II,eldrick-robinson-ii-1,/cfb/players/eldrick-robinson-ii-1.html,LB,9,2,8,10,0.0,0.0,0,0,,0,0,0,0,0,0,,Wake Forest,2024
+Kerrington Lee,kerrington-lee-1,/cfb/players/kerrington-lee-1.html,DL,10,3,4,7,1.0,0.0,0,0,,0,0,0,0,0,0,,Wake Forest,2024
+DeMarcus Rankin,demarcus-rankin-1,/cfb/players/demarcus-rankin-1.html,DB,2,2,1,3,0.5,0.0,0,0,,0,0,0,0,0,0,,Wake Forest,2024
+Wyatt Crespi,wyatt-crespi-1,/cfb/players/wyatt-crespi-1.html,DL,8,2,1,3,1.0,0.0,0,0,,0,0,0,0,0,0,,Wake Forest,2024
+Will Cobb,will-cobb-1,/cfb/players/will-cobb-1.html,LS,12,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Wake Forest,2024
+Deuce Alexander,deuce-alexander-1,/cfb/players/deuce-alexander-1.html,WR,12,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Wake Forest,2024
+Tyler Walton,tyler-walton-2,/cfb/players/tyler-walton-2.html,DL,2,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Wake Forest,2024
+Darius Jones,darius-jones-7,/cfb/players/darius-jones-7.html,LB,2,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Wake Forest,2024
+William Tackie Jr.,william-tackie-jr-1,/cfb/players/william-tackie-jr-1.html,DB,9,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Wake Forest,2024
+Travon West,travon-west-1,/cfb/players/travon-west-1.html,DB,2,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Wake Forest,2024
+Camden Hardy,camden-hardy-1,/cfb/players/camden-hardy-1.html,DL,4,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Wake Forest,2024
+Myles Turpin,myles-turpin-1,/cfb/players/myles-turpin-1.html,DB,9,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Wake Forest,2024
+Micah Mays Jr.,micah-mays-jr-1,/cfb/players/micah-mays-jr-1.html,WR,12,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Wake Forest,2024
+Chris Marable Jr.,chris-marable-jr-1,/cfb/players/chris-marable-jr-1.html,DL,5,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Wake Forest,2024
+Tate Carney,tate-carney-1,/cfb/players/tate-carney-1.html,RB,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Wake Forest,2024
+Taylor Morin,taylor-morin-1,/cfb/players/taylor-morin-1.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Wake Forest,2024
+Ty Clark,ty-clark-1,/cfb/players/ty-clark-1.html,RB,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Wake Forest,2024
+Horatio Fields,horatio-fields-1,/cfb/players/horatio-fields-1.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Wake Forest,2024
+Mateen Ibirogba,mateen-ibirogba-1,/cfb/players/mateen-ibirogba-1.html,DL,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Wake Forest,2024
+Harry Lodge,harry-lodge-1,/cfb/players/harry-lodge-1.html,TE,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Wake Forest,2024

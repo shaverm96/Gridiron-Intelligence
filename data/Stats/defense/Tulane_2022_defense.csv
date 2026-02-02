@@ -1,0 +1,45 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Dorian Williams,dorian-williams-2,/cfb/players/dorian-williams-2.html,LB,14,81,51,132,8.5,5.0,2,13,6.5,0,7,0,0,0,2,,Tulane,2022
+Nick Anderson,nick-anderson-3,/cfb/players/nick-anderson-3.html,LB,14,62,51,113,7.0,2.0,0,0,,0,4,0,0,0,2,,Tulane,2022
+Larry Brooks,larry-brooks-3,/cfb/players/larry-brooks-3.html,S,14,63,28,91,1.0,0.0,2,7,3.5,0,3,0,0,0,2,,Tulane,2022
+Macon Clark,macon-clark-1,/cfb/players/macon-clark-1.html,S,14,54,14,68,8.0,0.0,2,6,3.0,0,4,1,7,0,3,,Tulane,2022
+Lummie Young IV,lummie-young-iv-2,/cfb/players/lummie-young-iv-2.html,S,14,34,18,52,0.5,0.0,1,6,6.0,0,3,0,0,0,0,,Tulane,2022
+Jarius Monroe,jarius-monroe-1,/cfb/players/jarius-monroe-1.html,DB,14,34,15,49,1.0,0.0,3,22,7.3,0,8,0,0,0,0,,Tulane,2022
+Jesus Machado,jesus-machado-1,/cfb/players/jesus-machado-1.html,LB,14,23,17,40,1.0,0.0,0,0,,0,1,0,0,0,0,,Tulane,2022
+Patrick Jenkins,patrick-jenkins-2,/cfb/players/patrick-jenkins-2.html,DL,14,22,17,39,9.0,3.0,0,0,,0,0,1,0,0,0,,Tulane,2022
+Darius Hodges,darius-hodges-1,/cfb/players/darius-hodges-1.html,DL,14,26,13,39,8.0,5.0,0,0,,0,0,0,0,0,1,,Tulane,2022
+Lance Robinson,lance-robinson-1,/cfb/players/lance-robinson-1.html,DB,14,27,7,34,2.0,0.0,0,0,,0,5,0,0,0,0,,Tulane,2022
+Devean Deal,devean-deal-1,/cfb/players/devean-deal-1.html,DL,13,19,12,31,3.5,0.0,0,0,,0,2,0,0,0,0,,Tulane,2022
+Eric Hicks Jr.,eric-hicks-jr-1,/cfb/players/eric-hicks-jr-1.html,DL,14,13,15,28,1.5,0.0,0,0,,0,0,0,0,0,0,,Tulane,2022
+Tylo Phillips,tylo-phillips-1,/cfb/players/tylo-phillips-1.html,DL,14,15,10,25,3.0,0.0,0,0,,0,0,1,0,0,1,,Tulane,2022
+Corey Platt Jr.,corey-platt-jr-1,/cfb/players/corey-platt-jr-1.html,LB,13,21,4,25,2.0,1.0,1,-1,-1.0,0,0,1,0,0,0,,Tulane,2022
+Keith Cooper Jr.,keith-cooper-jr-1,/cfb/players/keith-cooper-jr-1.html,DL,13,9,13,22,4.0,3.5,0,0,,0,2,0,0,0,0,,Tulane,2022
+DJ Douglas,dj-douglas-2,/cfb/players/dj-douglas-2.html,DB,14,18,3,21,0.0,0.0,1,0,0.0,0,1,0,0,0,0,,Tulane,2022
+Jadon Canady,jadon-canady-1,/cfb/players/jadon-canady-1.html,DB,8,16,4,20,1.0,0.0,0,0,,0,3,2,57,1,0,,Tulane,2022
+Noah Taliancich,noah-taliancich-1,/cfb/players/noah-taliancich-1.html,DL,14,7,12,19,0.5,0.5,0,0,,0,0,0,0,0,0,,Tulane,2022
+Angelo Anderson,angelo-anderson-1,/cfb/players/angelo-anderson-1.html,DL,14,3,14,17,1.0,1.0,0,0,,0,1,0,0,0,0,,Tulane,2022
+Kameron Hamilton,kameron-hamilton-1,/cfb/players/kameron-hamilton-1.html,DL,12,7,8,15,0.5,0.5,0,0,,0,0,0,0,0,0,,Tulane,2022
+Bailey Despanie,bailey-despanie-1,/cfb/players/bailey-despanie-1.html,S,13,10,2,12,1.0,1.0,0,0,,0,0,0,0,0,0,,Tulane,2022
+Carlos Hatcher,carlos-hatcher-1,/cfb/players/carlos-hatcher-1.html,DL,11,4,4,8,2.0,0.5,0,0,,0,1,0,0,0,0,,Tulane,2022
+Kiland Harrison,kiland-harrison-1,/cfb/players/kiland-harrison-1.html,DB,13,5,0,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulane,2022
+Alfred Thomas,alfred-thomas-2,/cfb/players/alfred-thomas-2.html,DL,5,4,0,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulane,2022
+Kentrell Webb,kentrell-webb-1,/cfb/players/kentrell-webb-1.html,DB,3,4,0,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulane,2022
+Shi'Keem Laister,shikeem-laister-1,/cfb/players/shikeem-laister-1.html,S,14,4,0,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulane,2022
+Elijah Champaigne,elijah-champaigne-1,/cfb/players/elijah-champaigne-1.html,DL,12,4,0,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulane,2022
+Michael Lunz,michael-lunz-1,/cfb/players/michael-lunz-1.html,DL,14,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulane,2022
+Parker Peterson,parker-peterson-1,/cfb/players/parker-peterson-1.html,DL,3,3,0,3,1.0,0.0,0,0,,0,0,0,0,0,0,,Tulane,2022
+Armoni Dixon,armoni-dixon-1,/cfb/players/armoni-dixon-1.html,DL,4,3,0,3,1.0,1.0,0,0,,0,0,0,0,0,0,,Tulane,2022
+Levi Williams,levi-williams-2,/cfb/players/levi-williams-2.html,RB,13,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulane,2022
+Chadwick Bailey,chadwick-bailey-2,/cfb/players/chadwick-bailey-2.html,DB,2,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulane,2022
+Shae Wyatt,shae-wyatt-1,/cfb/players/shae-wyatt-1.html,WR,14,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulane,2022
+Reed Rutkowski,reed-rutkowski-1,/cfb/players/reed-rutkowski-1.html,WR,2,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulane,2022
+Rishi Rattan,rishi-rattan-1,/cfb/players/rishi-rattan-1.html,DB,9,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulane,2022
+Maxie Baudoin IV,maxie-baudoin-iv-1,/cfb/players/maxie-baudoin-iv-1.html,DL,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulane,2022
+Tyrek Presley,tyrek-presley-1,/cfb/players/tyrek-presley-1.html,DB,13,1,0,1,0.0,0.0,0,0,,0,1,0,0,0,0,,Tulane,2022
+Michael Pratt,michael-pratt-1,/cfb/players/michael-pratt-1.html,QB,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulane,2022
+Jonathan Mestayer II,jonathan-mestayer-ii-1,/cfb/players/jonathan-mestayer-ii-1.html,S,6,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulane,2022
+Casey Glover,casey-glover-1,/cfb/players/casey-glover-1.html,P,14,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulane,2022
+Lawrence Keys III,lawrence-keys-iii-1,/cfb/players/lawrence-keys-iii-1.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,1,0,0,0,,Tulane,2022
+Jha'Quan Jackson,jhaquan-jackson-1,/cfb/players/jhaquan-jackson-1.html,WR,14,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulane,2022
+Kai Horton,kai-horton-1,/cfb/players/kai-horton-1.html,QB,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulane,2022
+Ethan Hudak,ethan-hudak-1,/cfb/players/ethan-hudak-1.html,LS,14,0,0,0,0.0,0.0,0,0,,0,0,1,0,0,0,,Tulane,2022

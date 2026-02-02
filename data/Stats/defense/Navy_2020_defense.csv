@@ -1,0 +1,39 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Diego Fagot,diego-fagot-1,/cfb/players/diego-fagot-1.html,LB,9,39,33,72,11.0,3.0,0,0,,0,2,1,0,0,1,,Navy,2020
+Kevin Brennan,kevin-brennan-2,/cfb/players/kevin-brennan-2.html,S,10,35,33,68,1.5,0.0,0,0,,0,5,0,0,0,0,,Navy,2020
+John Marshall,john-marshall-2,/cfb/players/john-marshall-2.html,S,10,32,30,62,5.5,0.0,1,12,12.0,0,3,1,0,0,0,,Navy,2020
+Tama Tuitele,tama-tuitele-1,/cfb/players/tama-tuitele-1.html,LB,8,38,14,52,3.0,0.0,0,0,,0,0,0,0,0,4,,Navy,2020
+Mitchell West,mitchell-west-1,/cfb/players/mitchell-west-1.html,S,10,32,18,50,0.0,0.0,0,0,,0,1,0,0,0,1,,Navy,2020
+Nick Straw,nick-straw-1,/cfb/players/nick-straw-1.html,LB,9,19,21,40,3.5,1.0,0,0,,0,0,0,0,0,0,,Navy,2020
+Michael McMorris,michael-mcmorris-1,/cfb/players/michael-mcmorris-1.html,CB,8,24,14,38,1.5,0.0,0,0,,0,6,0,0,0,0,,Navy,2020
+Jay Warren,jay-warren-2,/cfb/players/jay-warren-2.html,DE,10,17,16,33,3.0,1.0,0,0,,0,0,0,0,0,1,,Navy,2020
+Terrell Adams,terrell-adams-1,/cfb/players/terrell-adams-1.html,LB,10,15,13,28,1.5,0.0,0,0,,0,1,0,0,0,0,,Navy,2020
+Jackson Perkins,jackson-perkins-1,/cfb/players/jackson-perkins-1.html,DT,10,15,12,27,3.5,0.0,0,0,,0,0,1,0,0,0,,Navy,2020
+Cameron Kinley,cameron-kinley-1,/cfb/players/cameron-kinley-1.html,CB,10,19,7,26,1.0,0.0,1,4,4.0,0,5,0,0,0,0,,Navy,2020
+Tobe Okafor,tobe-okafor-1,/cfb/players/tobe-okafor-1.html,DT,10,10,7,17,2.0,1.0,0,0,,0,1,0,0,0,0,,Navy,2020
+Derek Atwaters,derek-atwaters-1,/cfb/players/derek-atwaters-1.html,S,9,13,4,17,1.0,0.0,0,0,,0,0,1,0,0,0,,Navy,2020
+Evan Fochtman,evan-fochtman-1,/cfb/players/evan-fochtman-1.html,S,3,8,7,15,2.0,0.0,1,9,9.0,0,1,0,0,0,0,,Navy,2020
+Tommy Lawley,tommy-lawley-1,/cfb/players/tommy-lawley-1.html,LB,4,8,6,14,0.0,0.0,0,0,,0,0,0,0,0,0,,Navy,2020
+Jamal Glenn,jamal-glenn-1,/cfb/players/jamal-glenn-1.html,CB,10,8,6,14,0.0,0.0,0,0,,0,1,0,0,0,1,,Navy,2020
+Johnny Hodges,johnny-hodges-1,/cfb/players/johnny-hodges-1.html,LB,7,5,8,13,1.0,0.0,0,0,,0,0,0,0,0,0,,Navy,2020
+Donald Berniard Jr.,donald-berniardjr-1,/cfb/players/donald-berniardjr-1.html,,6,4,5,9,1.0,0.0,0,0,,0,0,0,0,0,0,,Navy,2020
+Caleb Clear,caleb-clear-1,/cfb/players/caleb-clear-1.html,CB,9,5,4,9,0.0,0.0,0,0,,0,0,0,0,0,0,,Navy,2020
+Austin Talbert-Loving,austin-talbert-loving-1,/cfb/players/austin-talbert-loving-1.html,LB,10,4,4,8,0.0,0.0,0,0,,0,0,0,0,0,0,,Navy,2020
+Donald Berniard Jr.,donald-berniard-jr-1,/cfb/players/donald-berniard-jr-1.html,G,4,3,5,8,1.0,0.0,0,0,,0,0,0,0,0,0,,Navy,2020
+Chris Pearson,chris-pearson-1,/cfb/players/chris-pearson-1.html,G,10,4,1,5,1.0,0.0,0,0,,0,0,0,0,0,0,,Navy,2020
+Mitchell Johns,mitchell-johns-1,/cfb/players/mitchell-johns-1.html,LB,3,3,2,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Navy,2020
+Joshua Adams,joshua-adams-2,/cfb/players/joshua-adams-2.html,LB,10,0,4,4,0.5,0.0,0,0,,0,0,0,0,0,0,,Navy,2020
+Marcus Wiggins,marcus-wiggins-1,/cfb/players/marcus-wiggins-1.html,CB,4,4,0,4,0.0,0.0,0,0,,0,0,1,1,0,0,,Navy,2020
+Ian Blake,ian-blake-2,/cfb/players/ian-blake-2.html,LB,10,1,2,3,1.5,0.0,0,0,,0,0,0,0,0,0,,Navy,2020
+Ajani Cuevas-Gillis,ajani-cuevas-gillis-1,/cfb/players/ajani-cuevas-gillis-1.html,LB,7,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Navy,2020
+Deondrae Williams,deondrae-williams-1,/cfb/players/deondrae-williams-1.html,DT,9,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Navy,2020
+John Kelly III,john-kelly-lll-1,/cfb/players/john-kelly-lll-1.html,LB,7,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Navy,2020
+Mark Walker,mark-walker-5,/cfb/players/mark-walker-5.html,WR,10,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Navy,2020
+Sio Saipaia,sio-saipaia-1,/cfb/players/sio-saipaia-1.html,G,2,1,1,2,0.0,0.0,0,0,,0,0,1,0,0,0,,Navy,2020
+Kip Frankland,kip-frankland-1,/cfb/players/kip-frankland-1.html,T,9,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Navy,2020
+Alefosio Sapaia,alefosio-sapaia-1,/cfb/players/alefosio-sapaia-1.html,,7,1,1,2,0.0,0.0,0,0,,0,0,1,0,0,0,,Navy,2020
+Isaac Ruoss,isaac-ruoss-1,/cfb/players/isaac-ruoss-1.html,FB,10,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Navy,2020
+Devin Mathews,devin-mathews-1,/cfb/players/devin-mathews-1.html,WR,10,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Navy,2020
+Max Sandlin,max-sandlin-1,/cfb/players/max-sandlin-1.html,LB,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Navy,2020
+Kyle Gibbs,kyle-gibbs-1,/cfb/players/kyle-gibbs-1.html,LS,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Navy,2020
+Ryan Mitchell,ryan-mitchell-2,/cfb/players/ryan-mitchell-2.html,WR,7,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Navy,2020

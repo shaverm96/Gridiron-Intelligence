@@ -1,0 +1,44 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Daniel Bituli,daniel-bituli-1,/cfb/players/daniel-bituli-1.html,LB,11,52,36,88,5.0,3.0,0,0,,0,2,0,0,0,1,,Tennessee,2019
+Henry To'oto'o,henry-tootoo-1,/cfb/players/henry-tootoo-1.html,LB,13,33,39,72,5.0,0.5,0,0,,0,2,1,0,0,0,,Tennessee,2019
+Nigel Warrior,nigel-warrior-1,/cfb/players/nigel-warrior-1.html,DB,13,39,31,70,2.0,0.0,4,102,25.5,0,9,0,0,0,0,,Tennessee,2019
+Theo Jackson,theo-jackson-1,/cfb/players/theo-jackson-1.html,DB,12,29,24,53,1.0,0.0,1,0,0.0,0,2,0,0,0,0,,Tennessee,2019
+Shawn Shamburger,shawn-shamburger-1,/cfb/players/shawn-shamburger-1.html,DB,13,25,22,47,4.5,3.0,1,0,0.0,0,2,0,0,0,0,,Tennessee,2019
+Darrell Taylor,darrell-taylor-1,/cfb/players/darrell-taylor-1.html,LB,13,28,18,46,10.0,8.5,0,0,,0,4,1,0,0,1,,Tennessee,2019
+Matthew Butler,matthew-butler-1,/cfb/players/matthew-butler-1.html,DL,13,23,22,45,3.0,2.5,0,0,,0,2,0,0,0,0,,Tennessee,2019
+Jaylen McCollough,jaylen-mccollough-1,/cfb/players/jaylen-mccollough-1.html,DB,13,24,9,33,3.0,1.0,0,0,,0,2,0,0,0,0,,Tennessee,2019
+Alontae Taylor,alontae-taylor-1,/cfb/players/alontae-taylor-1.html,DB,13,24,9,33,1.0,0.5,1,0,0.0,0,3,0,0,0,0,,Tennessee,2019
+Bryce Thompson,bryce-thompson-1,/cfb/players/bryce-thompson-1.html,DB,10,22,10,32,2.0,1.0,3,28,9.3,0,2,0,0,0,0,,Tennessee,2019
+Greg Emerson,greg-emerson-1,/cfb/players/greg-emerson-1.html,DL,13,10,20,30,4.0,2.0,0,0,,0,2,0,0,0,0,,Tennessee,2019
+Darel Middleton,darel-middleton-1,/cfb/players/darel-middleton-1.html,DL,13,15,13,28,2.0,1.0,0,0,,0,0,0,0,0,1,,Tennessee,2019
+Quavaris Crouch,quavaris-crouch-1,/cfb/players/quavaris-crouch-1.html,LB,13,13,15,28,1.0,0.5,0,0,,0,2,0,0,0,0,,Tennessee,2019
+Aubrey Solomon,aubrey-solomon-1,/cfb/players/aubrey-solomon-1.html,DL,12,10,18,28,3.0,2.0,0,0,,0,0,1,0,0,0,,Tennessee,2019
+Kivon Bennett,kivon-bennett-1,/cfb/players/kivon-bennett-1.html,LB,13,13,14,27,6.0,2.0,0,0,,0,1,0,0,0,0,,Tennessee,2019
+LaTrell Bumphus,latrell-bumphus-1,/cfb/players/latrell-bumphus-1.html,DL,11,15,8,23,6.0,2.0,0,0,,0,1,1,0,0,0,,Tennessee,2019
+Kurott Garland,kurott-garland-1,/cfb/players/kurott-garland-1.html,DL,13,8,11,19,2.0,0.0,0,0,,0,0,0,0,0,0,,Tennessee,2019
+Kenneth George Jr.,kenneth-george-jr-1,/cfb/players/kenneth-george-jr-1.html,DB,13,13,6,19,0.0,0.0,1,24,24.0,0,3,0,0,0,0,,Tennessee,2019
+Trevon Flowers,trevon-flowers-1,/cfb/players/trevon-flowers-1.html,DB,6,8,9,17,0.0,0.0,1,14,14.0,0,0,0,0,0,0,,Tennessee,2019
+Will Ignont,will-ignont-1,/cfb/players/will-ignont-1.html,LB,3,4,12,16,0.0,0.0,0,0,,0,1,0,0,0,0,,Tennessee,2019
+Warren Burrell,warren-burrell-1,/cfb/players/warren-burrell-1.html,DB,9,6,7,13,0.0,0.0,0,0,,0,0,0,0,0,0,,Tennessee,2019
+Deandre Johnson,deandre-johnson-5,/cfb/players/deandre-johnson-5.html,LB,13,5,8,13,4.5,2.5,0,0,,0,1,0,0,0,1,,Tennessee,2019
+JJ Peterson,jj-peterson-2,/cfb/players/jj-peterson-2.html,LB,13,5,6,11,0.0,0.0,0,0,,0,0,0,0,0,0,,Tennessee,2019
+Shanon Reid,shanon-reid-1,/cfb/players/shanon-reid-1.html,LB,4,2,9,11,0.0,0.0,0,0,,0,0,0,0,0,0,,Tennessee,2019
+Ja'Quain Blakely,jaquain-blakely-1,/cfb/players/jaquain-blakely-1.html,DL,13,3,5,8,0.0,0.0,0,0,,0,0,0,0,0,0,,Tennessee,2019
+Roman Harrison,roman-harrison-1,/cfb/players/roman-harrison-1.html,LB,11,3,5,8,2.0,2.0,0,0,,0,0,0,0,0,0,,Tennessee,2019
+Jeremy Banks,jeremy-banks-2,/cfb/players/jeremy-banks-2.html,RB,5,1,6,7,1.0,0.0,2,6,3.0,0,0,0,0,0,0,,Tennessee,2019
+Savion Williams,savion-williams-1,/cfb/players/savion-williams-1.html,DL,7,4,3,7,0.0,0.0,0,0,,0,0,0,0,0,0,,Tennessee,2019
+Solon Page III,solon-page-iii-1,/cfb/players/solon-page-iii-1.html,LB,5,5,2,7,0.0,0.0,0,0,,0,0,0,0,0,0,,Tennessee,2019
+John Mincey,john-mincey-1,/cfb/players/john-mincey-1.html,DL,9,2,3,5,1.0,0.0,0,0,,0,0,0,0,0,0,,Tennessee,2019
+Jauan Jennings,jauan-jennings-1,/cfb/players/jauan-jennings-1.html,WR,13,4,0,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Tennessee,2019
+Cheyenne Labruzza,cheyenne-labruzza-1,/cfb/players/cheyenne-labruzza-1.html,DB,9,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Tennessee,2019
+Tyus Fields,tyus-fields-1,/cfb/players/tyus-fields-1.html,DB,4,2,0,2,1.0,0.0,0,0,,0,0,0,0,0,0,,Tennessee,2019
+Romello Edwards,romello-edwards-1,/cfb/players/romello-edwards-1.html,DB,1,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Tennessee,2019
+Tyler Byrd,tyler-byrd-1,/cfb/players/tyler-byrd-1.html,WR,13,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Tennessee,2019
+Aaron Beasley,aaron-beasley-2,/cfb/players/aaron-beasley-2.html,DB,9,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Tennessee,2019
+Kenney Solomon,kenney-solomon-1,/cfb/players/kenney-solomon-1.html,DB,11,0,1,1,0.0,0.0,1,0,0.0,0,0,0,0,0,0,,Tennessee,2019
+Trey Smith,trey-smith-5,/cfb/players/trey-smith-5.html,OL,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Tennessee,2019
+Brandon Johnson,brandon-johnson-11,/cfb/players/brandon-johnson-11.html,WR,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Tennessee,2019
+Cedric Tillman,cedric-tillman-1,/cfb/players/cedric-tillman-1.html,WR,11,1,0,1,1.0,0.0,0,0,,0,0,0,0,0,0,,Tennessee,2019
+Kingston Harris,kingston-harris-1,/cfb/players/kingston-harris-1.html,DL,2,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Tennessee,2019
+Eric Gray,eric-gray-2,/cfb/players/eric-gray-2.html,RB,13,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Tennessee,2019
+Jarious Abercrombie,jarious-abercrombie-1,/cfb/players/jarious-abercrombie-1.html,OL,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Tennessee,2019

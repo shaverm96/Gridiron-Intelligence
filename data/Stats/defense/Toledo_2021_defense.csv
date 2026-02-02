@@ -1,0 +1,53 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Jonathan Jones,jonathan-jones-6,/cfb/players/jonathan-jones-6.html,LB,13,30,67,97,9.5,4.0,0,0,,0,3,1,0,0,2,,Toledo,2021
+Maxen Hook,maxen-hook-1,/cfb/players/maxen-hook-1.html,S,13,38,57,95,3.5,1.0,0,0,,0,3,0,0,0,0,,Toledo,2021
+Jamal Hines,jamal-hines-1,/cfb/players/jamal-hines-1.html,LB,13,37,51,88,15.0,10.0,0,0,,0,8,0,0,0,0,,Toledo,2021
+Dyontae Johnson,dyontae-johnson-1,/cfb/players/dyontae-johnson-1.html,LB,13,35,51,86,8.0,2.5,1,27,27.0,0,4,0,0,0,0,,Toledo,2021
+Desjuan Johnson,desjuan-johnson-1,/cfb/players/desjuan-johnson-1.html,DE,13,32,38,70,12.5,4.5,0,0,,0,0,1,0,0,2,,Toledo,2021
+Nate Bauer,nate-bauer-1,/cfb/players/nate-bauer-1.html,S,13,34,21,55,6.5,1.5,1,41,41.0,0,1,0,0,0,0,,Toledo,2021
+Zach Ford,zach-ford-1,/cfb/players/zach-ford-1.html,S,13,20,25,45,0.5,0.0,0,0,,0,3,2,35,1,0,,Toledo,2021
+Tycen Anderson,tycen-anderson-1,/cfb/players/tycen-anderson-1.html,S,10,26,18,44,2.0,1.0,0,0,,0,2,0,0,0,1,,Toledo,2021
+Judge Culpepper,judge-culpepper-1,/cfb/players/judge-culpepper-1.html,DT,13,12,31,43,4.0,3.0,0,0,,0,2,0,0,0,0,,Toledo,2021
+Jackson Barrow,jackson-barrow-1,/cfb/players/jackson-barrow-1.html,LB,12,18,24,42,1.0,0.0,0,0,,0,1,0,0,0,0,,Toledo,2021
+Quinyon Mitchell,quinyon-mitchell-1,/cfb/players/quinyon-mitchell-1.html,CB,13,28,6,34,2.0,1.0,0,0,,0,8,1,0,0,1,,Toledo,2021
+Samuel Womack,samuel-womack-1,/cfb/players/samuel-womack-1.html,CB,13,16,17,33,1.0,0.0,2,59,29.5,0,16,1,0,0,0,,Toledo,2021
+Justin Clark,justin-clark-1,/cfb/players/justin-clark-1.html,CB,13,17,11,28,3.0,1.0,1,0,0.0,0,0,0,0,0,0,,Toledo,2021
+Troy Simon,troy-simon-1,/cfb/players/troy-simon-1.html,S,10,12,11,23,0.5,0.0,0,0,,0,0,0,0,0,0,,Toledo,2021
+Cavon Butler,cavon-butler-1,/cfb/players/cavon-butler-1.html,DT,13,4,18,22,1.0,0.0,0,0,,0,1,0,0,0,0,,Toledo,2021
+Darius Alexander,darius-alexander-1,/cfb/players/darius-alexander-1.html,DT,13,5,16,21,1.0,0.0,0,0,,0,2,0,0,0,0,,Toledo,2021
+Nate Givhan,nate-givhan-1,/cfb/players/nate-givhan-1.html,LB,12,14,6,20,4.0,4.0,0,0,,0,0,0,0,0,1,,Toledo,2021
+Terrance Taylor,terrance-taylor-3,/cfb/players/terrance-taylor-3.html,LB,6,15,4,19,6.0,3.0,0,0,,0,1,0,0,0,0,,Toledo,2021
+David Hood,david-hood-3,/cfb/players/david-hood-3.html,DT,13,4,13,17,2.5,0.0,0,0,,0,1,0,0,0,0,,Toledo,2021
+AJ Crider,aj-crider-1,/cfb/players/aj-crider-1.html,LB,12,6,11,17,0.5,0.5,0,0,,0,0,0,0,0,0,,Toledo,2021
+Chris McDonald,chris-mcdonald-2,/cfb/players/chris-mcdonald-2.html,CB,13,13,4,17,0.0,0.0,2,59,29.5,1,3,0,0,0,0,,Toledo,2021
+D'Andre Ragin,dandre-ragin-1,/cfb/players/dandre-ragin-1.html,DE,12,7,5,12,3.5,2.0,0,0,,0,1,0,0,0,0,,Toledo,2021
+Ronald Delancy III,ronald-delancy-iii-1,/cfb/players/ronald-delancy-iii-1.html,CB,13,8,3,11,0.0,0.0,1,0,0.0,0,1,0,0,0,0,,Toledo,2021
+Adrian Woliver,adrian-woliver-1,/cfb/players/adrian-woliver-1.html,,13,4,5,9,0.0,0.0,0,0,,0,0,0,0,0,0,,Toledo,2021
+Adrian Wolver,adrian-wolver-1,/cfb/players/adrian-wolver-1.html,LB,9,4,5,9,0.0,0.0,0,0,,0,0,0,0,0,0,,Toledo,2021
+Devan Rogers,devan-rogers-1,/cfb/players/devan-rogers-1.html,DT,11,2,6,8,0.0,0.0,0,0,,0,0,0,0,0,0,,Toledo,2021
+Alex Enders,alex-enders-1,/cfb/players/alex-enders-1.html,TE,13,2,4,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Toledo,2021
+Jaylin Mines,jaylin-mines-1,/cfb/players/jaylin-mines-1.html,S,4,2,2,4,0.0,0.0,0,0,,0,1,0,0,0,0,,Toledo,2021
+Josh Recker,josh-recker-1,/cfb/players/josh-recker-1.html,LB,10,2,2,4,1.0,0.0,0,0,,0,0,0,0,0,0,,Toledo,2021
+Mike Coleman,mike-coleman-3,/cfb/players/mike-coleman-3.html,CB,4,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Toledo,2021
+Adam Beale,adam-beale-1,/cfb/players/adam-beale-1.html,WR,10,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Toledo,2021
+Michael Lacey,michael-lacey-1,/cfb/players/michael-lacey-1.html,S,13,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Toledo,2021
+Connor Jones,connor-jones-3,/cfb/players/connor-jones-3.html,LB,2,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Toledo,2021
+Saeed Holt,saeed-holt-1,/cfb/players/saeed-holt-1.html,S,3,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Toledo,2021
+Noah Hamlin,noah-hamlin-1,/cfb/players/noah-hamlin-1.html,CB,1,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Toledo,2021
+C.J. Wilson Jr.,cj-wilson-jr-1,/cfb/players/cj-wilson-jr-1.html,LB,3,1,1,2,1.5,0.0,0,0,,0,0,0,0,0,0,,Toledo,2021
+Danzel Mckinley-Lewis,danzel-mckinley-lewis-1,/cfb/players/danzel-mckinley-lewis-1.html,WR,13,1,1,2,0.0,0.0,0,0,,0,0,1,0,0,0,,Toledo,2021
+Jaelen Crider,jaelen-crider-1,/cfb/players/jaelen-crider-1.html,DT,1,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Toledo,2021
+Damon Ollison II,damon-ollison-ii-1,/cfb/players/damon-ollison-ii-1.html,LB,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Toledo,2021
+Martez Poynter,martez-poynter-1,/cfb/players/martez-poynter-1.html,DT,2,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Toledo,2021
+Doran Ray Jr.,doran-ray-jr-1,/cfb/players/doran-ray-jr-1.html,DT,2,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Toledo,2021
+DeAmonte King,deamonte-king-1,/cfb/players/deamonte-king-1.html,WR,6,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Toledo,2021
+Chris Redmon,chris-redmon-1,/cfb/players/chris-redmon-1.html,DE,4,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Toledo,2021
+Chris Gales,chris-gales-1,/cfb/players/chris-gales-1.html,S,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Toledo,2021
+Jamal Turner,jamal-turner-2,/cfb/players/jamal-turner-2.html,TE,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Toledo,2021
+Bailey Flint,bailey-flint-1,/cfb/players/bailey-flint-1.html,P,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Toledo,2021
+Sean Mills,sean-mills-1,/cfb/players/sean-mills-1.html,LS,13,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Toledo,2021
+Devin Maddox,devin-maddox-1,/cfb/players/devin-maddox-1.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Toledo,2021
+Alex Bannister,alex-bannister-1,/cfb/players/alex-bannister-1.html,CB,2,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Toledo,2021
+Jalynn Williams,jalynn-williams-1,/cfb/players/jalynn-williams-1.html,WR,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Toledo,2021
+Tyler Long,tyler-long-1,/cfb/players/tyler-long-1.html,OL,13,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Toledo,2021
+Vinny Sciury,vinny-sciury-1,/cfb/players/vinny-sciury-1.html,OL,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Toledo,2021

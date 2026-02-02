@@ -1,0 +1,55 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Shaka Heyward,shaka-heyward-1,/cfb/players/shaka-heyward-1.html,LB,11,49,31,80,8.5,3.0,0,0,,0,0,1,0,1,0,,Duke,2020
+Marquis Waters,marquis-waters-1,/cfb/players/marquis-waters-1.html,S,11,46,26,72,7.0,1.0,0,0,,0,5,0,0,0,0,,Duke,2020
+Chris Rumph II,chris-rumph-ii-1,/cfb/players/chris-rumph-ii-1.html,DE,11,25,28,53,12.5,8.0,0,0,,0,1,1,0,0,1,,Duke,2020
+Victor Dimukeje,victor-dimukeje-1,/cfb/players/victor-dimukeje-1.html,DE,11,23,21,44,11.5,7.5,0,0,,0,1,1,0,0,2,,Duke,2020
+Jeremiah Lewis,jeremiah-lewis-1,/cfb/players/jeremiah-lewis-1.html,CB,11,24,20,44,3.5,0.0,2,0,0.0,0,9,0,0,0,0,,Duke,2020
+Nate Thompson,nate-thompson-1,/cfb/players/nate-thompson-1.html,S,11,33,10,43,1.0,0.0,1,0,0.0,0,0,1,0,0,0,,Duke,2020
+Michael Carter II,michael-carter-ii-1,/cfb/players/michael-carter-ii-1.html,S,11,26,15,41,3.0,0.0,2,33,16.5,0,8,0,0,0,0,,Duke,2020
+Derrick Tangelo,derrick-tangelo-1,/cfb/players/derrick-tangelo-1.html,DT,11,24,16,40,4.0,2.0,0,0,,0,1,1,0,0,3,,Duke,2020
+Rocky Shelton II,rocky-shelton-ii-2,/cfb/players/rocky-shelton-ii-2.html,,9,14,21,35,3.5,1.5,1,3,3.0,0,0,0,0,0,0,,Duke,2020
+Rocky Shelton II,rocky-shelton-ii-1,/cfb/players/rocky-shelton-ii-1.html,LB,9,14,21,35,3.5,1.5,1,3,3.0,0,0,0,0,0,0,,Duke,2020
+Drew Jordan,drew-jordan-1,/cfb/players/drew-jordan-1.html,DE,11,12,23,35,4.5,3.5,0,0,,0,0,3,0,0,0,,Duke,2020
+Dorian Mausi,dorian-mausi-1,/cfb/players/dorian-mausi-1.html,LB,11,13,16,29,2.0,1.5,0,0,,0,0,0,0,0,0,,Duke,2020
+Ben Frye,ben-frye-1,/cfb/players/ben-frye-1.html,DT,11,10,18,28,3.0,1.0,0,0,,0,0,0,0,0,0,,Duke,2020
+Lummie Young IV,lummie-young-iv-1,/cfb/players/lummie-young-iv-1.html,S,5,13,13,26,1.0,0.0,1,0,0.0,0,1,0,0,0,1,,Duke,2020
+Jalen Alexander,jalen-alexander-3,/cfb/players/jalen-alexander-3.html,S,11,20,5,25,1.0,0.0,0,0,,0,2,0,0,0,0,,Duke,2020
+Leonard Johnson,leonard-johnson-2,/cfb/players/leonard-johnson-2.html,CB,10,18,5,23,1.0,0.0,1,0,0.0,0,3,1,0,0,1,,Duke,2020
+J'Marick Woods,jmarick-woods-1,/cfb/players/jmarick-woods-1.html,S,9,11,11,22,0.0,0.0,0,0,,0,1,0,0,0,0,,Duke,2020
+Christian Hood,christian-hood-1,/cfb/players/christian-hood-1.html,LB,5,10,6,16,0.0,0.0,0,0,,0,0,1,0,0,1,,Duke,2020
+DeWayne Carter,dewayne-carter-2,/cfb/players/dewayne-carter-2.html,DT,11,4,8,12,3.0,1.0,0,0,,0,0,0,0,0,0,,Duke,2020
+Jaylen Stinson,jaylen-stinson-1,/cfb/players/jaylen-stinson-1.html,S,11,8,4,12,0.0,0.0,0,0,,0,0,1,0,1,0,,Duke,2020
+Gary Smith III,gary-smith-iii-1,/cfb/players/gary-smith-iii-1.html,DT,10,5,4,9,0.0,0.0,0,0,,0,0,0,0,0,0,,Duke,2020
+Mark Gilbert,mark-gilbert-1,/cfb/players/mark-gilbert-1.html,CB,2,7,1,8,0.0,0.0,1,0,0.0,0,0,0,0,0,0,,Duke,2020
+Sayyid Stevens,sayyid-stevens-1,/cfb/players/sayyid-stevens-1.html,LB,11,3,3,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Duke,2020
+Josh Blackwell,josh-blackwell-1,/cfb/players/josh-blackwell-1.html,CB,2,3,1,4,1.0,0.0,0,0,,0,0,0,0,0,0,,Duke,2020
+Da'Quan Johnson,daquan-johnson-1,/cfb/players/daquan-johnson-1.html,S,8,1,3,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Duke,2020
+Christian Rorie,christian-rorie-1,/cfb/players/christian-rorie-1.html,DT,7,1,3,4,0.5,0.0,0,0,,0,0,0,0,0,0,,Duke,2020
+R.J. Oben,rj-oben-1,/cfb/players/rj-oben-1.html,DE,9,1,3,4,0.5,0.0,0,0,,0,0,0,0,0,0,,Duke,2020
+Mataeo Durant,mataeo-durant-1,/cfb/players/mataeo-durant-1.html,RB,11,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Duke,2020
+Caleb Oppan,caleb-oppan-1,/cfb/players/caleb-oppan-1.html,DE,10,2,1,3,1.0,1.0,0,0,,0,0,0,0,0,0,,Duke,2020
+Aeneas Peebles,aeneas-peebles-1,/cfb/players/aeneas-peebles-1.html,DT,10,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Duke,2020
+Deon Jackson,deon-jackson-1,/cfb/players/deon-jackson-1.html,RB,11,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Duke,2020
+John Taylor,john-taylor-11,/cfb/players/john-taylor-11.html,LS,11,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Duke,2020
+Dennis Smith,dennis-smith-5,/cfb/players/dennis-smith-5.html,WR,10,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Duke,2020
+Mark Birmingham,mark-birmingham-1,/cfb/players/mark-birmingham-1.html,TE,9,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Duke,2020
+Damond Philyaw-Johnson,damond-philyaw-johnson-1,/cfb/players/damond-philyaw-johnson-1.html,WR,9,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Duke,2020
+Jontavis Robertson,jontavis-robertson-1,/cfb/players/jontavis-robertson-1.html,WR,11,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Duke,2020
+Isaiah Fisher-Smith,isaiah-fisher-smith-1,/cfb/players/isaiah-fisher-smith-1.html,S,9,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Duke,2020
+Michael Reese,michael-reese-1,/cfb/players/michael-reese-1.html,DE,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Duke,2020
+Tony Davis,tony-davis-9,/cfb/players/tony-davis-9.html,CB,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Duke,2020
+Eli Pancol,eli-pancol-1,/cfb/players/eli-pancol-1.html,WR,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Duke,2020
+Graham Barton,graham-barton-1,/cfb/players/graham-barton-1.html,T,6,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Duke,2020
+Ryan Smith,ryan-smith-14,/cfb/players/ryan-smith-14.html,LB,7,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Duke,2020
+Casey Holman,casey-holman-1,/cfb/players/casey-holman-1.html,T,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Duke,2020
+Grissim Anderson,grissim-anderson-1,/cfb/players/grissim-anderson-1.html,LB,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Duke,2020
+Noah Gray,noah-gray-1,/cfb/players/noah-gray-1.html,TE,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Duke,2020
+Nicky Dalmolin,nicky-dalmolin-1,/cfb/players/nicky-dalmolin-1.html,TE,9,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Duke,2020
+Jackson Hubbard,jackson-hubbard-1,/cfb/players/jackson-hubbard-1.html,P,10,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Duke,2020
+Maurice McIntyre,maurice-mcintyre-1,/cfb/players/maurice-mcintyre-1.html,G,9,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Duke,2020
+Jake Marwede,jake-marwede-1,/cfb/players/jake-marwede-1.html,TE,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Duke,2020
+Marvin Hubbard III,marvin-hubbard-iii-1,/cfb/players/marvin-hubbard-iii-1.html,RB,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Duke,2020
+Jalon Calhoun,jalon-calhoun-1,/cfb/players/jalon-calhoun-1.html,WR,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Duke,2020
+Jarett Garner,jarett-garner-1,/cfb/players/jarett-garner-1.html,WR,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,1,,Duke,2020
+Malik Bowen-Sims,malik-bowen-sims-1,/cfb/players/malik-bowen-sims-1.html,WR,7,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Duke,2020
+Khilan Walker,khilan-walker-1,/cfb/players/khilan-walker-1.html,CB,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Duke,2020

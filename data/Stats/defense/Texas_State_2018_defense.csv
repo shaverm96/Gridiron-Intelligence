@@ -1,0 +1,55 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Bryan London,bryan-london-1,/cfb/players/bryan-london-1.html,LB,12,53,56,109,5.5,0.0,0,0,,0,6,1,0,0,2,,Texas State,2018
+Nikolas Daniels,nikolas-daniels-1,/cfb/players/nikolas-daniels-1.html,LB,12,48,60,108,7.0,1.0,0,0,,0,4,1,0,0,1,,Texas State,2018
+Frankie Griffin,frankie-griffin-1,/cfb/players/frankie-griffin-1.html,,12,33,38,71,8.0,2.0,0,0,,0,1,0,0,0,3,,Texas State,2018
+Frankie Griffin,frankie-griffen-1,/cfb/players/frankie-griffen-1.html,LB,12,33,38,71,8.0,2.0,0,0,,0,1,0,0,0,3,,Texas State,2018
+Josh Newman,josh-newman-2,/cfb/players/josh-newman-2.html,S,12,28,28,56,1.0,0.0,0,0,,0,3,0,0,0,0,,Texas State,2018
+Ishmael Davis,ishmael-davis-1,/cfb/players/ishmael-davis-1.html,DE,11,22,29,51,8.0,3.5,0,0,,0,3,2,0,0,1,,Texas State,2018
+Jarron Morris,jarron-morris-1,/cfb/players/jarron-morris-1.html,DB,12,35,9,44,2.0,1.0,1,0,0.0,0,6,0,0,0,1,,Texas State,2018
+Caeveon Patton,caeveon-patton-1,/cfb/players/caeveon-patton-1.html,DT,12,17,24,41,3.5,2.5,0,0,,0,3,0,0,0,0,,Texas State,2018
+Jashon Waddy,jashon-waddy-1,/cfb/players/jashon-waddy-1.html,CB,12,20,20,40,0.5,0.0,1,0,0.0,0,7,1,11,0,2,,Texas State,2018
+Anthony J. Taylor,anthony-taylor-8,/cfb/players/anthony-taylor-8.html,CB,12,28,12,40,1.0,0.0,1,0,0.0,0,5,1,0,0,0,,Texas State,2018
+Clifton Lewis,clifton-lewis-1,/cfb/players/clifton-lewis-1.html,LB,12,18,19,37,4.5,1.0,1,23,23.0,0,3,1,5,0,1,,Texas State,2018
+Kordell Rodgers,kordell-rodgers-1,/cfb/players/kordell-rodgers-1.html,CB,11,25,12,37,1.0,0.0,2,51,25.5,1,5,0,0,0,0,,Texas State,2018
+Jalen Smith,jalen-smith-1,/cfb/players/jalen-smith-1.html,S,11,12,23,35,3.5,1.0,0,0,,0,0,0,0,0,0,,Texas State,2018
+Jakharious Smith,jakharious-smith-1,/cfb/players/jakharious-smith-1.html,DE,10,12,23,35,3.5,1.0,0,0,,0,0,0,0,0,0,,Texas State,2018
+A.J. Krawczyk,aj-krawczyk-1,/cfb/players/aj-krawczyk-1.html,S,8,18,9,27,1.0,0.0,0,0,,0,0,2,82,1,1,,Texas State,2018
+Gavin Graham,gavin-graham-1,/cfb/players/gavin-graham-1.html,LB,12,14,10,24,2.0,0.0,0,0,,0,0,0,0,0,0,,Texas State,2018
+Hal Vinson,hal-vinson-1,/cfb/players/hal-vinson-1.html,LB,10,12,10,22,1.5,1.0,0,0,,0,0,0,0,0,2,,Texas State,2018
+Alvin Pacheco,alvin-pacheco-1,/cfb/players/alvin-pacheco-1.html,DB,12,7,10,17,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas State,2018
+Sami Awad,sami-awad-1,/cfb/players/sami-awad-1.html,NT,12,6,10,16,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas State,2018
+Gjemar Daniels,gjemar-daniels-1,/cfb/players/gjemar-daniels-1.html,NT,3,7,7,14,1.5,0.0,0,0,,0,0,0,0,0,0,,Texas State,2018
+Markeveon Coleman,markeveon-coleman-1,/cfb/players/markeveon-coleman-1.html,LB,12,5,5,10,1.0,1.0,0,0,,0,0,1,0,0,0,,Texas State,2018
+Kumonde Hines,kumonde-hines-1,/cfb/players/kumonde-hines-1.html,LB,8,3,6,9,1.0,0.0,0,0,,0,0,0,0,0,0,,Texas State,2018
+John Brannon,john-brannon-1,/cfb/players/john-brannon-1.html,LB,10,3,6,9,0.5,0.0,0,0,,0,0,0,0,0,0,,Texas State,2018
+Nico Ezidore,nico-ezidore-1,/cfb/players/nico-ezidore-1.html,DL,8,3,5,8,0.5,0.0,0,0,,0,0,0,0,0,0,,Texas State,2018
+Auston Deason,auston-deason-1,/cfb/players/auston-deason-1.html,S,11,6,1,7,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas State,2018
+Jaquel Pierce,jaquel-pierce-1,/cfb/players/jaquel-pierce-1.html,DL,9,5,1,6,1.0,0.0,0,0,,0,0,0,0,0,0,,Texas State,2018
+Jacourtney Calvin,jacourtney-calvin-1,/cfb/players/jacourtney-calvin-1.html,,7,4,2,6,1.0,0.0,0,0,,0,0,0,0,0,0,,Texas State,2018
+Dean Taylor,dean-taylor-2,/cfb/players/dean-taylor-2.html,DE,4,2,4,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas State,2018
+Emmanuel Galvan-Vazquez,emmanuel-galvan-vazquez-1,/cfb/players/emmanuel-galvan-vazquez-1.html,DE,6,4,2,6,1.0,0.0,0,0,,0,0,0,0,0,0,,Texas State,2018
+LaDarrius Harris,ladarrius-harris-1,/cfb/players/ladarrius-harris-1.html,RB,12,1,4,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas State,2018
+Caleb Twyford,caleb-twyford-2,/cfb/players/caleb-twyford-2.html,,11,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas State,2018
+Mason Hays,mason-hays-1,/cfb/players/mason-hays-1.html,WR,12,2,1,3,0.0,0.0,0,0,,0,0,1,0,0,0,,Texas State,2018
+Malik Alley,malik-alley-1,/cfb/players/malik-alley-1.html,LB,12,2,1,3,0.5,0.0,0,0,,0,0,0,0,0,0,,Texas State,2018
+Caleb Twyford,caleb-twyford-1,/cfb/players/caleb-twyford-1.html,WR,11,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas State,2018
+Dennis Johnson Jr.,dennis-johnson-jr-1,/cfb/players/dennis-johnson-jr-1.html,WR,6,2,1,3,0.0,0.0,0,0,,0,0,1,0,0,0,,Texas State,2018
+Kingsley Onyirioha,kingsley-onyirioha-1,/cfb/players/kingsley-onyirioha-1.html,DL,4,2,1,3,1.5,1.0,0,0,,0,1,0,0,0,0,,Texas State,2018
+Kieston Roach,kieston-roach-1,/cfb/players/kieston-roach-1.html,CB,6,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas State,2018
+London Harris,london-harris-1,/cfb/players/london-harris-1.html,LB,12,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas State,2018
+Isaac Pope,isaac-pope-1,/cfb/players/isaac-pope-1.html,DB,1,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas State,2018
+Pierce Withers,pierce-withers-1,/cfb/players/pierce-withers-1.html,S,2,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas State,2018
+Jeremiah Haydel,jeremiah-haydel-1,/cfb/players/jeremiah-haydel-1.html,WR,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas State,2018
+Tyler Vitt,tyler-vitt-1,/cfb/players/tyler-vitt-1.html,QB,9,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas State,2018
+Jacob Rowland,jacob-rowland-1,/cfb/players/jacob-rowland-1.html,OL,2,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas State,2018
+Anthony Taylor,anthony-taylor-7,/cfb/players/anthony-taylor-7.html,RB,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas State,2018
+Willie Jones III,willie-jones-iii-1,/cfb/players/willie-jones-iii-1.html,QB,8,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas State,2018
+T.J. Graham,tj-graham-2,/cfb/players/tj-graham-2.html,WR,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas State,2018
+Tommy Simmons,tommy-simmons-2,/cfb/players/tommy-simmons-2.html,LS,8,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas State,2018
+James Sherman,james-sherman-1,/cfb/players/james-sherman-1.html,K,11,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas State,2018
+Robert Brown,robert-brown-1,/cfb/players/robert-brown-1.html,RB,10,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas State,2018
+Reece Jordan,reece-jordan-1,/cfb/players/reece-jordan-1.html,OL,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas State,2018
+Justin Warner,justin-warner-1,/cfb/players/justin-warner-1.html,LS,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas State,2018
+Jack Masters,jack-masters-1,/cfb/players/jack-masters-1.html,LB,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas State,2018
+Javen Banks,javen-banks-1,/cfb/players/javen-banks-1.html,WR,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas State,2018
+Aaron Brewer,aaron-brewer-2,/cfb/players/aaron-brewer-2.html,OL,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas State,2018

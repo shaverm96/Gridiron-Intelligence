@@ -1,0 +1,43 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Logan Wilson,logan-wilson-1,/cfb/players/logan-wilson-1.html,LB,12,57,46,103,11.0,2.0,2,21,10.5,0,2,0,0,0,0,,Wyoming,2018
+Andrew Wingard,andrew-wingard-1,/cfb/players/andrew-wingard-1.html,S,12,46,41,87,2.5,1.0,2,0,0.0,0,1,0,0,0,0,,Wyoming,2018
+Marcus Epps,marcus-epps-1,/cfb/players/marcus-epps-1.html,S,12,42,21,63,6.5,1.0,0,0,,0,8,0,0,0,1,,Wyoming,2018
+Alijah Halliburton,alijah-halliburton-1,/cfb/players/alijah-halliburton-1.html,S,12,39,22,61,0.5,0.0,0,0,,0,2,0,0,0,1,,Wyoming,2018
+Cassh Maluia,cassh-maluia-1,/cfb/players/cassh-maluia-1.html,LB,11,23,24,47,6.0,0.0,1,0,0.0,0,3,0,0,0,0,,Wyoming,2018
+Antonio Hull,antonio-hull-1,/cfb/players/antonio-hull-1.html,CB,12,30,14,44,1.0,0.0,2,15,7.5,0,8,1,15,0,1,,Wyoming,2018
+Carl Granderson,carl-granderson-1,/cfb/players/carl-granderson-1.html,DE,11,28,12,40,7.5,3.0,1,61,61.0,1,2,0,0,0,0,,Wyoming,2018
+Tyler Hall,tyler-hall-2,/cfb/players/tyler-hall-2.html,LB,11,28,11,39,2.5,0.0,1,26,26.0,0,9,1,0,0,1,,Wyoming,2018
+Garrett Crall,garrett-crall-1,/cfb/players/garrett-crall-1.html,DE,12,19,19,38,6.5,4.5,0,0,,0,1,1,0,0,1,,Wyoming,2018
+Youhanna Ghaifan,youhanna-ghaifan-1,/cfb/players/youhanna-ghaifan-1.html,DT,8,20,14,34,8.0,2.0,0,0,,0,4,0,0,0,1,,Wyoming,2018
+Ravontae Holt,ravontae-holt-1,/cfb/players/ravontae-holt-1.html,DL,12,10,21,31,1.5,0.0,0,0,,0,0,1,0,0,1,,Wyoming,2018
+Keyon Blankenbaker,keyon-blankenbaker-1,/cfb/players/keyon-blankenbaker-1.html,,12,22,7,29,0.5,0.0,0,0,,0,3,0,0,0,0,,Wyoming,2018
+Keyon Blakenbaker,keyon-blakenbaker-1,/cfb/players/keyon-blakenbaker-1.html,CB,11,22,7,29,0.5,0.0,0,0,,0,3,0,0,0,0,,Wyoming,2018
+Sidney Malauulu,sidney-malauulu-1,/cfb/players/sidney-malauulu-1.html,NT,11,16,12,28,6.0,3.0,0,0,,0,0,1,7,0,0,,Wyoming,2018
+Adam Pilapil,adam-pilapli-1,/cfb/players/adam-pilapli-1.html,LB,12,8,17,25,0.0,0.0,0,0,,0,1,0,0,0,0,,Wyoming,2018
+Chavez Pownell Jr.,chavez-pownell-jr-1,/cfb/players/chavez-pownell-jr-1.html,LB,11,15,8,23,1.0,0.0,1,0,0.0,0,2,0,0,0,0,,Wyoming,2018
+Victor Jones,victor-jones-5,/cfb/players/victor-jones-5.html,DE,11,6,9,15,0.0,0.0,0,0,,0,0,0,0,0,0,,Wyoming,2018
+Kevin Prosser,kevin-prosser-1,/cfb/players/kevin-prosser-1.html,DE,9,8,5,13,3.0,1.5,0,0,,0,2,0,0,0,1,,Wyoming,2018
+Javaree Jackson,javaree-jackson-1,/cfb/players/javaree-jackson-1.html,NT,7,4,8,12,0.0,0.0,0,0,,0,1,0,0,0,0,,Wyoming,2018
+Conner Cain,conner-cain-1,/cfb/players/conner-cain-1.html,DT,12,4,7,11,0.0,0.0,0,0,,0,1,0,0,0,0,,Wyoming,2018
+C.J. Coldon,cj-coldon-1,/cfb/players/cj-coldon-1.html,CB,3,6,3,9,0.0,0.0,0,0,,0,1,0,0,0,0,,Wyoming,2018
+Josiah Hall,josiah-hall-1,/cfb/players/josiah-hall-1.html,DE,9,4,4,8,2.0,0.0,0,0,,0,0,0,0,0,0,,Wyoming,2018
+Ben Wisdorf,ben-wisdorf-1,/cfb/players/ben-wisdorf-1.html,LB,12,5,2,7,0.0,0.0,0,0,,0,0,0,0,0,0,,Wyoming,2018
+Solomon Byrd,solomon-byrd-1,/cfb/players/solomon-byrd-1.html,DE,3,2,3,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Wyoming,2018
+Gunner Gentry,gunner-gentry-1,/cfb/players/gunner-gentry-1.html,WR,11,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Wyoming,2018
+Braden Smith,braden-smith-3,/cfb/players/braden-smith-3.html,S,12,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Wyoming,2018
+Esaias Gandy,esaias-gandy-1,/cfb/players/esaias-gandy-1.html,S,12,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Wyoming,2018
+Tyree Mayfield,tyree-mayfield-1,/cfb/players/tyree-mayfield-1.html,TE,12,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Wyoming,2018
+Ayden Eberhardt,ayden-eberhardt-1,/cfb/players/ayden-eberhardt-1.html,WR,12,2,2,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Wyoming,2018
+James Price,james-price-3,/cfb/players/james-price-3.html,WR,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Wyoming,2018
+Chad Muma,chad-muma-1,/cfb/players/chad-muma-1.html,LB,12,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Wyoming,2018
+Miles Williams,miles-williams-1,/cfb/players/miles-williams-1.html,CB,5,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Wyoming,2018
+Jevon Bigelow,jevon-bigelow-1,/cfb/players/jevon-bigelow-1.html,RB,11,1,1,2,1.0,0.0,0,0,,0,0,0,0,0,0,,Wyoming,2018
+Xazavian Valladay,xazavian-valladay-1,/cfb/players/xazavian-valladay-1.html,RB,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Wyoming,2018
+Cooper Rothe,cooper-rothe-1,/cfb/players/cooper-rothe-1.html,K,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Wyoming,2018
+Dauson Booker,dauson-booker-1,/cfb/players/dauson-booker-1.html,DB,5,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Wyoming,2018
+Tyler Vander Waal,tyler-vander-waal-1,/cfb/players/tyler-vander-waal-1.html,QB,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Wyoming,2018
+Trey Woods,trey-woods-1,/cfb/players/trey-woods-1.html,,1,1,0,1,1.0,1.0,0,0,,0,0,0,0,0,0,,Wyoming,2018
+Sidney Washington Jr.,sidney-washington-jr-36,/cfb/players/sidney-washington-jr-36.html,CB,7,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Wyoming,2018
+Dontae Crow,dontae-crow-1,/cfb/players/dontae-crow-1.html,WR,10,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Wyoming,2018
+Ryan Gatoloai-Faupula,ryan-gatoloai-faupula-1,/cfb/players/ryan-gatoloai-faupula-1.html,LB,9,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Wyoming,2018
+Rudy Stofer,rudy-stofer-1,/cfb/players/rudy-stofer-1.html,T,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Wyoming,2018

@@ -1,0 +1,54 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Tyler Grubbs,tyler-grubbs-1,/cfb/players/tyler-grubbs-1.html,LB,10,45,54,99,9.5,1.5,0,0,,0,2,0,0,0,1,,Louisiana Tech,2020
+Trey Baldwin,trey-baldwin-2,/cfb/players/trey-baldwin-2.html,LB,9,53,32,85,7.0,1.0,1,10,10.0,0,5,0,0,0,0,,Louisiana Tech,2020
+Bee Jay Williamson,bee-jay-williamson-1,/cfb/players/bee-jay-williamson-1.html,DB,10,32,24,56,2.0,1.0,3,108,36.0,0,3,0,0,0,1,,Louisiana Tech,2020
+Ezekiel Barnett,ezekiel-barnett-1,/cfb/players/ezekiel-barnett-1.html,LB,9,32,16,48,3.5,0.0,2,66,33.0,1,0,0,0,0,0,,Louisiana Tech,2020
+Milton Williams,milton-williams-1,/cfb/players/milton-williams-1.html,DL,10,21,23,44,10.0,4.5,0,0,,0,0,1,0,0,0,,Louisiana Tech,2020
+Jaiden Cole,jaiden-cole-1,/cfb/players/jaiden-cole-1.html,DB,10,21,18,39,2.5,2.0,0,0,,0,1,0,0,0,1,,Louisiana Tech,2020
+Khalil Ladler,khalil-ladler-1,/cfb/players/khalil-ladler-1.html,DB,9,19,15,34,1.5,0.0,0,81,,1,0,0,0,0,0,,Louisiana Tech,2020
+Eric Kendzior,eric-kendzior-1,/cfb/players/eric-kendzior-1.html,DL,10,15,15,30,2.0,1.0,0,0,,0,0,0,0,0,0,,Louisiana Tech,2020
+Cedric Woods,cedric-woods-1,/cfb/players/cedric-woods-1.html,DB,10,21,8,29,0.0,0.0,2,0,0.0,0,6,0,0,0,0,,Louisiana Tech,2020
+Zach Hannibal,zach-hannibal-1,/cfb/players/zach-hannibal-1.html,DB,9,16,10,26,0.0,0.0,0,0,,0,1,1,0,0,0,,Louisiana Tech,2020
+Maki Carabin,maki-carabin-1,/cfb/players/maki-carabin-1.html,LB,7,10,15,25,1.0,0.0,0,0,,0,2,0,0,0,0,,Louisiana Tech,2020
+Zeno Hannibal,zeno-hannibal-1,/cfb/players/zeno-hannibal-1.html,,9,16,9,25,0.0,0.0,0,0,,0,5,1,0,0,0,,Louisiana Tech,2020
+Keivie Rose,keivie-rose-1,/cfb/players/keivie-rose-1.html,DL,10,8,15,23,1.5,0.5,0,0,,0,1,0,0,0,0,,Louisiana Tech,2020
+Deshon Hall,deshon-hall-1,/cfb/players/deshon-hall-1.html,DL,10,10,11,21,2.5,1.5,1,23,23.0,0,0,0,0,0,0,,Louisiana Tech,2020
+Levi Bell,levi-bell-1,/cfb/players/levi-bell-1.html,LB,9,9,10,19,4.5,1.5,0,0,,0,0,0,0,0,0,,Louisiana Tech,2020
+Brodrick Calhoun,brodrick-calhoun-1,/cfb/players/brodrick-calhoun-1.html,DB,10,10,6,16,1.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana Tech,2020
+Joren Dickey,joren-dickey-1,/cfb/players/joren-dickey-1.html,LB,9,9,6,15,0.0,0.0,0,0,,0,0,1,0,0,1,,Louisiana Tech,2020
+Gerald Wilbon,gerald-wilbon-1,/cfb/players/gerald-wilbon-1.html,DL,8,3,9,12,0.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana Tech,2020
+Tristan Allen,tristan-allen-1,/cfb/players/tristan-allen-1.html,DL,10,7,3,10,1.0,1.0,0,0,,0,0,0,0,0,0,,Louisiana Tech,2020
+Mykol Clark,mykol-clark-1,/cfb/players/mykol-clark-1.html,DL,10,8,2,10,2.5,1.5,0,0,,0,0,0,0,0,0,,Louisiana Tech,2020
+Allen Walker,allen-walker-2,/cfb/players/allen-walker-2.html,LB,7,3,7,10,0.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana Tech,2020
+Jamison Kelly,jamison-kelly-1,/cfb/players/jamison-kelly-1.html,DB,7,4,3,7,0.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana Tech,2020
+D.J. Jackson,dj-jackson-1,/cfb/players/dj-jackson-1.html,DT,3,5,1,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana Tech,2020
+Marquallius Turner,marquallius-turner-1,/cfb/players/marquallius-turner-1.html,DB,9,2,3,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana Tech,2020
+Malik Wells,malik-wells-1,/cfb/players/malik-wells-1.html,DL,4,0,5,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana Tech,2020
+Jordan Myles,jordan-myles-1,/cfb/players/jordan-myles-1.html,RB,5,2,2,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana Tech,2020
+Ben Bell,ben-bell-2,/cfb/players/ben-bell-2.html,DL,4,2,2,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana Tech,2020
+Cee Jay Powell,cee-jay-powell-1,/cfb/players/cee-jay-powell-1.html,WR,10,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana Tech,2020
+Tahj Magee,tahj-magee-1,/cfb/players/tahj-magee-1.html,WR,10,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana Tech,2020
+Steven Shaw,steven-shaw-1,/cfb/players/steven-shaw-1.html,DL,9,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana Tech,2020
+Harlan Dixon,harlan-dixon-1,/cfb/players/harlan-dixon-1.html,RB,8,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana Tech,2020
+Charvis Thornton,charvis-thornton-1,/cfb/players/charvis-thornton-1.html,DB,8,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana Tech,2020
+Christian Archangel,christian-archangel-1,/cfb/players/christian-archangel-1.html,DB,8,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana Tech,2020
+DJ Brown,dj-brown-4,/cfb/players/dj-brown-4.html,DB,4,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana Tech,2020
+Cam Wright,cam-wright-1,/cfb/players/cam-wright-1.html,RB,7,0,2,2,0.0,0.0,0,0,,0,0,1,0,0,0,,Louisiana Tech,2020
+Kershawn Fisher,kershawn-fisher-1,/cfb/players/kershawn-fisher-1.html,LB,6,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana Tech,2020
+Walker Hankinson,walker-hankinson-1,/cfb/players/walker-hankinson-1.html,OL,6,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana Tech,2020
+Greg Garner,greg-garner-1,/cfb/players/greg-garner-1.html,RB,9,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana Tech,2020
+Jawaun Johnson,jawaun-johnson-1,/cfb/players/jawaun-johnson-1.html,WR,7,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana Tech,2020
+Abraham Delfin,abraham-delfin-1,/cfb/players/abraham-delfin-1.html,OL,10,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana Tech,2020
+Jacob Adams,jacob-adams-1,/cfb/players/jacob-adams-1.html,LB,10,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana Tech,2020
+Calvin Rhines,calvin-rhines-1,/cfb/players/calvin-rhines-1.html,DL,2,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana Tech,2020
+Zach Parker,zach-parker-1,/cfb/players/zach-parker-1.html,WR,7,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana Tech,2020
+Adrian Hardy,adrian-hardy-1,/cfb/players/adrian-hardy-1.html,WR,7,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana Tech,2020
+Trent Wessel,trent-wessel-1,/cfb/players/trent-wessel-1.html,QB,2,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana Tech,2020
+Taz Marshall,taz-marshall-1,/cfb/players/taz-marshall-1.html,DB,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana Tech,2020
+Donavaughn Campbell,donavaughn-campbell-1,/cfb/players/donavaughn-campbell-1.html,OL,6,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana Tech,2020
+Doyle Adams Jr.,doyle-adams-jr-1,/cfb/players/doyle-adams-jr-1.html,WR,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana Tech,2020
+Justin Henderson,justin-henderson-2,/cfb/players/justin-henderson-2.html,RB,7,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana Tech,2020
+Joshua Mote,joshua-mote-1,/cfb/players/joshua-mote-1.html,OL,10,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana Tech,2020
+Griffin Hebert,griffin-hebert-1,/cfb/players/griffin-hebert-1.html,WR,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana Tech,2020
+Israel Tucker,israel-tucker-1,/cfb/players/israel-tucker-1.html,RB,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Louisiana Tech,2020
+Kody Russey,kody-russey-1,/cfb/players/kody-russey-1.html,OL,10,0,0,0,0.0,0.0,0,0,,0,0,1,0,0,0,,Louisiana Tech,2020

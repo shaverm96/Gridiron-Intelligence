@@ -1,0 +1,50 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Cale Garrett,cale-garrett-1,/cfb/players/cale-garrett-1.html,LB,13,65,40,105,10.0,3.0,2,21,10.5,0,0,1,5,0,0,,Missouri,2017
+Terez Hall,terez-hall-1,/cfb/players/terez-hall-1.html,LB,13,50,35,85,12.5,1.0,0,0,,0,3,0,0,0,0,,Missouri,2017
+Anthony Sherrils,anthony-sherrils-1,/cfb/players/anthony-sherrils-1.html,DB,11,47,17,64,3.0,0.5,2,6,3.0,0,1,2,0,0,1,,Missouri,2017
+Kaleb Prewett,kaleb-prewett-1,/cfb/players/kaleb-prewett-1.html,S,13,46,14,60,4.0,0.0,1,4,4.0,0,2,0,0,0,0,,Missouri,2017
+DeMarkus Acy,demarkus-acy-1,/cfb/players/demarkus-acy-1.html,DB,13,35,13,48,5.5,0.0,0,0,,0,3,0,0,0,1,,Missouri,2017
+Brandon Lee,brandon-lee-1,/cfb/players/brandon-lee-1.html,LB,13,25,17,42,5.0,0.5,1,42,42.0,1,4,0,0,0,0,,Missouri,2017
+Marcell Frazier,marcell-frazier-1,/cfb/players/marcell-frazier-1.html,DL,13,24,16,40,15.5,7.0,0,0,,0,5,0,0,0,1,,Missouri,2017
+Terry Beckner Jr.,terry-beckner-jr-1,/cfb/players/terry-beckner-jr-1.html,DL,13,20,18,38,11.0,7.0,1,49,49.0,0,2,0,0,0,0,,Missouri,2017
+Jordan Harold,jordan-harold-1,/cfb/players/jordan-harold-1.html,DL,13,19,17,36,7.5,3.0,0,0,,0,0,0,0,0,0,,Missouri,2017
+Adam Sparks,adam-sparks-1,/cfb/players/adam-sparks-1.html,DB,13,21,13,34,1.0,0.0,2,7,3.5,0,4,0,0,0,0,,Missouri,2017
+Thomas Wilson,thomas-wilson-5,/cfb/players/thomas-wilson-5.html,S,12,27,7,34,0.0,0.0,1,16,16.0,0,3,0,0,0,1,,Missouri,2017
+Ronnell Perkins,ronnell-perkins-1,/cfb/players/ronnell-perkins-1.html,S,10,18,9,27,1.0,0.0,0,0,,0,1,1,0,0,1,,Missouri,2017
+Eric Beisel,eric-beisel-1,/cfb/players/eric-beisel-1.html,LB,13,21,6,27,0.0,0.0,0,0,,0,1,0,0,0,0,,Missouri,2017
+Logan Cheadle,logan-cheadle-1,/cfb/players/logan-cheadle-1.html,DB,11,24,3,27,1.0,1.0,1,-5,-5.0,0,3,0,0,0,0,,Missouri,2017
+Rashad Brandon,rashad-brandon-1,/cfb/players/rashad-brandon-1.html,DL,13,15,6,21,5.5,1.0,0,0,,0,0,0,0,0,0,,Missouri,2017
+Tre' Williams,tre-williams-3,/cfb/players/tre-williams-3.html,DL,11,15,5,20,4.0,3.0,0,0,,0,0,0,0,0,1,,Missouri,2017
+Joey Burkett,joey-burkett-1,/cfb/players/joey-burkett-1.html,LB,13,11,6,17,0.0,0.0,0,0,,0,1,0,0,0,0,,Missouri,2017
+Cam Hilton,cam-hilton-1,/cfb/players/cam-hilton-1.html,S,12,15,1,16,1.0,1.0,0,0,,0,2,0,0,0,0,,Missouri,2017
+Tavon Ross,tavon-ross-1,/cfb/players/tavon-ross-1.html,LB,12,9,5,14,1.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2017
+Walter Palmore,walter-palmore-1,/cfb/players/walter-palmore-1.html,DL,10,7,6,13,2.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2017
+Joshuah Bledsoe,joshuah-bledsoe-1,/cfb/players/joshuah-bledsoe-1.html,S,12,9,4,13,1.0,1.0,0,0,,0,0,0,0,0,0,,Missouri,2017
+TJ Warren,tj-warren-1,/cfb/players/tj-warren-1.html,LB,6,10,1,11,1.0,0.0,1,0,0.0,0,0,0,0,0,0,,Missouri,2017
+Nate Anderson,nate-anderson-1,/cfb/players/nate-anderson-1.html,DL,11,8,3,11,2.0,1.0,0,0,,0,0,0,0,0,0,,Missouri,2017
+Kobie Whiteside,kobie-whiteside-1,/cfb/players/kobie-whiteside-1.html,DL,12,2,7,9,2.0,1.0,0,0,,0,0,1,0,0,0,,Missouri,2017
+A.J. Logan,aj-logan-1,/cfb/players/aj-logan-1.html,DL,7,3,6,9,3.0,0.5,0,0,,0,0,0,0,0,0,,Missouri,2017
+Jerod Alton,jerod-alton-1,/cfb/players/jerod-alton-1.html,DB,11,8,1,9,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2017
+Jamal Brooks,jamal-brooks-1,/cfb/players/jamal-brooks-1.html,LB,12,5,4,9,0.5,0.0,0,0,,0,0,0,0,0,0,,Missouri,2017
+Jordan Ulmer,jordan-ulmer-1,/cfb/players/jordan-ulmer-1.html,S,8,8,0,8,0.0,0.0,0,0,,0,1,0,0,0,0,,Missouri,2017
+Markell Utsey,markell-utsey-1,/cfb/players/markell-utsey-1.html,DL,11,3,3,6,1.0,1.0,0,0,,0,0,0,0,0,0,,Missouri,2017
+Anthony Hines,anthony-hines-3,/cfb/players/anthony-hines-3.html,S,13,4,2,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2017
+Akial Byers,akial-byers-1,/cfb/players/akial-byers-1.html,DL,7,2,1,3,0.0,0.0,0,0,,0,1,0,0,0,0,,Missouri,2017
+Aubrey Miller Jr.,aubrey-miller-jr-1,/cfb/players/aubrey-miller-jr-1.html,LB,10,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2017
+Chris Turner,chris-turner-4,/cfb/players/chris-turner-4.html,DL,12,0,3,3,1.0,0.5,0,0,,0,0,0,0,0,0,,Missouri,2017
+Tyree Gillespie,tyree-gillespie-1,/cfb/players/tyree-gillespie-1.html,S,7,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2017
+Ish Witter,ish-witter-1,/cfb/players/ish-witter-1.html,RB,13,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2017
+Albert Okwuegbunam,albert-okwuegbunam-1,/cfb/players/albert-okwuegbunam-1.html,TE,13,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2017
+Finis Stribling IV,finis-stribling-iv-1,/cfb/players/finis-stribling-iv-1.html,DB,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2017
+Tucker McCann,tucker-mccann-1,/cfb/players/tucker-mccann-1.html,K,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2017
+Alec Abeln,alec-abeln-1,/cfb/players/alec-abeln-1.html,OL,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2017
+Dominic Nelson,dominic-nelson-1,/cfb/players/dominic-nelson-1.html,S,8,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2017
+Emanuel Hall,emanuel-hall-1,/cfb/players/emanuel-hall-1.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2017
+Raymond Wingo,raymond-wingo-1,/cfb/players/raymond-wingo-1.html,WR,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2017
+Noah Robinson,noah-robinson-1,/cfb/players/noah-robinson-1.html,,9,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2017
+Nick Bartolotta,nick-bartolotta-1,/cfb/players/nick-bartolotta-1.html,K,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2017
+Nate Strong,nate-strong-1,/cfb/players/nate-strong-1.html,RB,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2017
+Franklin Agbasimere,franklin-agbasimere-1,/cfb/players/franklin-agbasimere-1.html,DL,4,1,0,1,1.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2017
+Larry Rountree III,larry-rountree-iii-1,/cfb/players/larry-rountree-iii-1.html,RB,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2017
+Kendall Blanton,kendall-blanton-1,/cfb/players/kendall-blanton-1.html,TE,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2017
+J'Mon Moore,jmon-moore-2,/cfb/players/jmon-moore-2.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2017

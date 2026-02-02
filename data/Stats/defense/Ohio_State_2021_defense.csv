@@ -1,0 +1,53 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Ronnie Hickman,ronnie-hickman-1,/cfb/players/ronnie-hickman-1.html,S,13,54,45,99,1.0,1.0,2,65,32.5,1,0,0,0,0,1,,Ohio State,2021
+Tommy Eichenberg,tommy-eichenberg-1,/cfb/players/tommy-eichenberg-1.html,LB,13,33,31,64,6.5,0.0,1,0,0.0,0,2,1,0,0,0,,Ohio State,2021
+Bryson Shaw,bryson-shaw-1,/cfb/players/bryson-shaw-1.html,S,13,30,29,59,0.5,0.0,1,20,20.0,0,3,1,0,0,0,,Ohio State,2021
+Cody Simon,cody-simon-1,/cfb/players/cody-simon-1.html,LB,12,21,33,54,2.5,1.0,1,24,24.0,0,1,0,0,0,0,,Ohio State,2021
+Steele Chambers,steele-chambers-1,/cfb/players/steele-chambers-1.html,LB,13,27,20,47,5.0,1.0,1,0,0.0,0,2,0,0,0,1,,Ohio State,2021
+Teradja Mitchell,teradja-mitchell-1,/cfb/players/teradja-mitchell-1.html,LB,12,21,24,45,4.5,0.0,0,0,,0,0,0,0,0,0,,Ohio State,2021
+Lathan Ransom,lathan-ransom-1,/cfb/players/lathan-ransom-1.html,S,13,21,17,38,2.5,1.0,0,0,,0,5,0,0,0,1,,Ohio State,2021
+Denzel Burke,denzel-burke-1,/cfb/players/denzel-burke-1.html,CB,13,28,9,37,0.0,0.0,1,23,23.0,1,12,0,0,0,0,,Ohio State,2021
+Zach Harrison,zach-harrison-1,/cfb/players/zach-harrison-1.html,DE,12,23,11,34,8.0,4.0,0,0,,0,4,0,0,0,2,,Ohio State,2021
+Marcus Williamson,marcus-williamson-1,/cfb/players/marcus-williamson-1.html,CB,12,18,9,27,0.5,0.0,0,0,,0,3,0,0,0,1,,Ohio State,2021
+Kourt Williams,kourt-williams-1,/cfb/players/kourt-williams-1.html,S,11,21,6,27,4.0,1.0,0,0,,0,1,0,0,0,0,,Ohio State,2021
+Tyreke Smith,tyreke-smith-1,/cfb/players/tyreke-smith-1.html,DE,10,12,14,26,5.0,3.0,0,0,,0,2,0,0,0,1,,Ohio State,2021
+Cameron Brown,cameron-brown-2,/cfb/players/cameron-brown-2.html,CB,10,17,7,24,0.0,0.0,1,25,25.0,0,7,0,0,0,0,,Ohio State,2021
+Antwuan Jackson Jr.,antwuan-jackson-jr-1,/cfb/players/antwuan-jackson-jr-1.html,DT,12,11,12,23,4.5,2.5,0,0,,0,0,0,0,0,0,,Ohio State,2021
+Taron Vincent,taron-vincent-1,/cfb/players/taron-vincent-1.html,DT,12,12,11,23,3.5,0.5,0,0,,0,0,0,0,0,0,,Ohio State,2021
+Cameron Martinez,cameron-martinez-1,/cfb/players/cameron-martinez-1.html,S,12,14,9,23,0.5,0.0,1,61,61.0,1,4,0,0,0,0,,Ohio State,2021
+Haskell Garrett,haskell-garrett-1,/cfb/players/haskell-garrett-1.html,DT,12,12,10,22,7.0,5.5,0,0,,0,1,2,0,1,0,,Ohio State,2021
+J.T. Tuimoloau,jt-tuimoloau-1,/cfb/players/jt-tuimoloau-1.html,DE,13,8,9,17,4.5,2.5,0,0,,0,1,0,0,0,0,,Ohio State,2021
+Tyleik Williams,tyleik-williams-1,/cfb/players/tyleik-williams-1.html,DT,12,10,6,16,6.5,5.0,0,0,,0,2,0,0,0,1,,Ohio State,2021
+Craig Young,craig-young-2,/cfb/players/craig-young-2.html,LB,12,6,9,15,0.5,0.0,1,70,70.0,1,1,0,0,0,0,,Ohio State,2021
+Javontae Jean-Baptiste,javontae-jean-baptiste-1,/cfb/players/javontae-jean-baptiste-1.html,DE,12,7,7,14,2.5,1.5,0,0,,0,1,0,0,0,0,,Ohio State,2021
+Jack Sawyer,jack-sawyer-2,/cfb/players/jack-sawyer-2.html,DE,12,9,4,13,3.0,3.0,0,0,,0,1,0,0,0,1,,Ohio State,2021
+Ty Hamilton,ty-hamilton-2,/cfb/players/ty-hamilton-2.html,DT,13,6,6,12,2.0,2.0,0,0,,0,1,1,0,0,0,,Ohio State,2021
+Jerron Cage,jerron-cage-1,/cfb/players/jerron-cage-1.html,DT,12,4,7,11,4.0,1.0,0,0,,0,0,2,0,1,0,,Ohio State,2021
+Cade Kacherski,cade-kacherski-1,/cfb/players/cade-kacherski-1.html,LB,11,7,4,11,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio State,2021
+Josh Proctor,josh-proctor-1,/cfb/players/josh-proctor-1.html,S,2,3,7,10,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio State,2021
+Dallas Gant,dallas-gant-1,/cfb/players/dallas-gant-1.html,LB,3,4,6,10,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio State,2021
+Palaie Gaoteote IV,palaie-gaoteote-iv-1,/cfb/players/palaie-gaoteote-iv-1.html,LB,8,1,8,9,1.0,0.5,0,0,,0,0,1,0,0,0,,Ohio State,2021
+Cade Stover,cade-stover-1,/cfb/players/cade-stover-1.html,TE,13,5,4,9,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio State,2021
+Marcus Hooker,marcus-hooker-1,/cfb/players/marcus-hooker-1.html,S,11,3,6,9,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio State,2021
+Ryan Batsch,ryan-batsch-1,/cfb/players/ryan-batsch-1.html,LB,8,4,4,8,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio State,2021
+Sevyn Banks,sevyn-banks-1,/cfb/players/sevyn-banks-1.html,CB,9,7,1,8,1.0,0.0,0,0,,0,1,0,0,0,0,,Ohio State,2021
+Lejond Cavazos,lejond-cavazos-1,/cfb/players/lejond-cavazos-1.html,CB,11,6,2,8,0.0,0.0,0,0,,0,2,0,0,0,0,,Ohio State,2021
+Demario McCall,demario-mccall-1,/cfb/players/demario-mccall-1.html,CB,11,3,3,6,0.0,0.0,0,0,,0,1,0,0,0,0,,Ohio State,2021
+Xavier Johnson,xavier-johnson-2,/cfb/players/xavier-johnson-2.html,WR,12,2,4,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio State,2021
+Ryan Watts,ryan-watts-1,/cfb/players/ryan-watts-1.html,CB,11,5,1,6,0.0,0.0,2,18,9.0,0,0,0,0,0,0,,Ohio State,2021
+Jaden McKenzie,jaden-mckenzie-1,/cfb/players/jaden-mckenzie-1.html,DT,3,2,3,5,0.0,0.0,0,0,,0,0,0,0,0,1,,Ohio State,2021
+Chris Booker,chris-booker-2,/cfb/players/chris-booker-2.html,WR,12,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,1,,Ohio State,2021
+Jordan Hancock,jordan-hancock-1,/cfb/players/jordan-hancock-1.html,CB,7,1,3,4,0.0,0.0,0,0,,0,1,0,0,0,0,,Ohio State,2021
+Cormontae Hamilton,cormontae-hamilton-1,/cfb/players/cormontae-hamilton-1.html,DL,8,2,1,3,1.0,1.0,0,0,,0,0,0,0,0,0,,Ohio State,2021
+Reid Carrico,reid-carrico-1,/cfb/players/reid-carrico-1.html,LB,5,0,3,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio State,2021
+Jacolbe Cowan,jacolbe-cowan-1,/cfb/players/jacolbe-cowan-1.html,DL,5,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio State,2021
+K'Vaughan Pope,kvaughan-pope-1,/cfb/players/kvaughan-pope-1.html,LB,3,0,3,3,0.0,0.0,0,0,,0,1,0,0,0,0,,Ohio State,2021
+Emeka Egbuka,emeka-egbuka-1,/cfb/players/emeka-egbuka-1.html,WR,10,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio State,2021
+Michael Hall Jr.,michael-hall-jr-1,/cfb/players/michael-hall-jr-1.html,DT,4,1,1,2,0.5,0.0,0,0,,0,0,0,0,0,0,,Ohio State,2021
+Jakailin Johnson,jakailin-johnson-1,/cfb/players/jakailin-johnson-1.html,CB,2,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio State,2021
+Sam Wiglusz,sam-wiglusz-1,/cfb/players/sam-wiglusz-1.html,WR,5,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio State,2021
+Noah Ruggles,noah-ruggles-1,/cfb/players/noah-ruggles-1.html,K,13,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio State,2021
+C.J. Stroud,cj-stroud-1,/cfb/players/cj-stroud-1.html,QB,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,H-4,Ohio State,2021
+Marvin Harrison Jr.,marvin-harrison-jr-1,/cfb/players/marvin-harrison-jr-1.html,WR,13,1,0,1,1.0,0.0,0,0,,0,0,0,0,0,0,,Ohio State,2021
+Julian Fleming,julian-fleming-1,/cfb/players/julian-fleming-1.html,WR,9,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio State,2021
+Jaylen Johnson,jaylen-johnson-4,/cfb/players/jaylen-johnson-4.html,S,2,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio State,2021

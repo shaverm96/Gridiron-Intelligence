@@ -1,0 +1,47 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Nick Bolton,nick-bolton-1,/cfb/players/nick-bolton-1.html,LB,12,74,33,107,7.5,1.0,2,38,19.0,1,8,0,0,0,0,,Missouri,2019
+Tyree Gillespie,tyree-gillespie-1,/cfb/players/tyree-gillespie-1.html,S,12,34,16,50,4.0,1.0,0,0,,0,7,0,0,0,1,,Missouri,2019
+Joshuah Bledsoe,joshuah-bledsoe-1,/cfb/players/joshuah-bledsoe-1.html,S,12,35,14,49,4.0,0.0,0,0,,0,10,1,1,0,1,,Missouri,2019
+Jordan Elliott,jordan-elliott-1,/cfb/players/jordan-elliott-1.html,DL,12,30,14,44,8.5,2.5,0,0,,0,3,0,0,0,0,,Missouri,2019
+Cale Garrett,cale-garrett-1,/cfb/players/cale-garrett-1.html,LB,5,29,14,43,5.0,2.0,3,86,28.7,2,2,1,0,1,0,,Missouri,2019
+Khalil Oliver,khalil-oliver-2,/cfb/players/khalil-oliver-2.html,DB,12,22,17,39,3.0,1.0,0,0,,0,8,0,0,0,0,,Missouri,2019
+Cameron Wilkins,cameron-wilkins-1,/cfb/players/cameron-wilkins-1.html,,10,17,16,33,3.0,0.5,1,42,42.0,0,0,1,0,0,0,,Missouri,2019
+Cameron Wilkins,cameron-wilkins-2,/cfb/players/cameron-wilkins-2.html,LB,8,17,16,33,3.0,0.5,1,42,42.0,0,0,1,0,0,0,,Missouri,2019
+Jarvis Ware,jarvis-ware-1,/cfb/players/jarvis-ware-1.html,DB,11,24,9,33,0.0,0.0,0,0,,0,4,0,0,0,0,,Missouri,2019
+Christian Holmes,christian-holmes-2,/cfb/players/christian-holmes-2.html,DB,12,24,5,29,2.5,0.0,0,0,,0,4,0,0,0,0,,Missouri,2019
+Kobie Whiteside,kobie-whiteside-1,/cfb/players/kobie-whiteside-1.html,DL,12,15,12,27,6.5,6.5,0,0,,0,0,1,0,0,0,,Missouri,2019
+Tre' Williams,tre-williams-3,/cfb/players/tre-williams-3.html,DL,11,13,11,24,3.0,1.0,0,0,,0,0,0,0,0,0,,Missouri,2019
+Devin Nicholson,devin-nicholson-1,/cfb/players/devin-nicholson-1.html,LB,7,10,14,24,1.0,0.0,0,0,,0,0,0,0,0,1,,Missouri,2019
+Chris Turner,chris-turner-4,/cfb/players/chris-turner-4.html,DL,12,14,8,22,2.0,2.0,0,0,,0,0,0,0,0,0,,Missouri,2019
+Jamal Brooks,jamal-brooks-1,/cfb/players/jamal-brooks-1.html,LB,12,10,11,21,1.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2019
+Akial Byers,akial-byers-1,/cfb/players/akial-byers-1.html,DL,12,9,9,18,2.0,0.5,0,0,,0,0,1,0,0,1,,Missouri,2019
+Adam Sparks,adam-sparks-1,/cfb/players/adam-sparks-1.html,DB,11,14,3,17,2.5,0.0,0,0,,0,1,0,0,0,1,,Missouri,2019
+Ronnell Perkins,ronnell-perkins-1,/cfb/players/ronnell-perkins-1.html,S,12,12,5,17,1.0,0.0,2,100,50.0,1,4,0,0,0,0,,Missouri,2019
+Jatorian Hansford,jatorian-hansford-1,/cfb/players/jatorian-hansford-1.html,DL,11,11,5,16,2.5,0.0,0,0,,0,0,1,0,0,0,,Missouri,2019
+DeMarkus Acy,demarkus-acy-1,/cfb/players/demarkus-acy-1.html,DB,10,12,3,15,0.0,0.0,0,0,,0,5,1,0,0,0,,Missouri,2019
+Markell Utsey,markell-utsey-1,/cfb/players/markell-utsey-1.html,DL,12,5,4,9,1.0,0.0,0,0,,0,0,0,0,0,1,,Missouri,2019
+Franklin Agbasimere,franklin-agbasimere-1,/cfb/players/franklin-agbasimere-1.html,DL,9,3,3,6,1.0,1.0,0,0,,0,0,0,0,0,0,,Missouri,2019
+Isaiah McGuire,isaiah-mcguire-1,/cfb/players/isaiah-mcguire-1.html,DL,6,4,0,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2019
+Antar Thompson,antar-thompson-1,/cfb/players/antar-thompson-1.html,DL,4,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2019
+Martez Manuel,martez-manuel-1,/cfb/players/martez-manuel-1.html,S,12,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2019
+Kelly Bryant,kelly-bryant-1,/cfb/players/kelly-bryant-1.html,QB,10,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2019
+Jordan Ulmer,jordan-ulmer-1,/cfb/players/jordan-ulmer-1.html,S,4,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2019
+Richaud Floyd,richaud-floyd-1,/cfb/players/richaud-floyd-1.html,DB,10,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2019
+Aubrey Miller Jr.,aubrey-miller-jr-1,/cfb/players/aubrey-miller-jr-1.html,LB,1,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2019
+Stacy Brown,stacy-brown-1,/cfb/players/stacy-brown-1.html,DB,11,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2019
+Jalen Knox,jalen-knox-1,/cfb/players/jalen-knox-1.html,WR,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2019
+Jake Hoffman,jake-hoffman-1,/cfb/players/jake-hoffman-1.html,LS,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2019
+Simi Bakare,simi-bakare-1,/cfb/players/simi-bakare-1.html,RB,12,1,0,1,1.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2019
+Sci Martin,sci-martin-1,/cfb/players/sci-martin-1.html,DL,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2019
+Chris Mills,chris-mills-2,/cfb/players/chris-mills-2.html,,2,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2019
+Zion Sales,zion-sales-1,/cfb/players/zion-sales-1.html,DB,11,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2019
+Barrett Banister,barrett-banister-1,/cfb/players/barrett-banister-1.html,WR,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2019
+Chris Mills,chris-mills-1,/cfb/players/chris-mills-1.html,DB,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2019
+Chris Shearin,chris-shearin-1,/cfb/players/chris-shearin-1.html,DB,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2019
+Jonathan Nance,jonathan-nance-1,/cfb/players/jonathan-nance-1.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2019
+Johnathon Johnson,johnathon-johnson-2,/cfb/players/johnathon-johnson-2.html,WR,8,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2019
+Jerney Jones,jerney-jones-1,/cfb/players/jerney-jones-1.html,RB,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2019
+Darius Robinson,darius-robinson-2,/cfb/players/darius-robinson-2.html,DL,5,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2019
+Jalani Williams,jalani-williams-1,/cfb/players/jalani-williams-1.html,S,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2019
+Ishmael Burdine,ishmael-burdine-1,/cfb/players/ishmael-burdine-1.html,DB,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2019
+Gerald Nathan Jr.,gerald-nathan-jr-1,/cfb/players/gerald-nathan-jr-1.html,LB,7,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri,2019

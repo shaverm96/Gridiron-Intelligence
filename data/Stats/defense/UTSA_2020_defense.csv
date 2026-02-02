@@ -1,0 +1,44 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Rashad Wisdom,rashad-wisdom-1,/cfb/players/rashad-wisdom-1.html,S,12,60,35,95,2.5,0.0,4,107,26.8,1,1,0,0,0,2,,UTSA,2020
+Trevor Harmanson,trevor-harmanson-1,/cfb/players/trevor-harmanson-1.html,LB,12,30,43,73,9.0,1.0,1,0,0.0,0,3,1,0,0,1,,UTSA,2020
+Jamal Ligon,jamal-ligon-1,/cfb/players/jamal-ligon-1.html,LB,11,31,41,72,7.5,4.0,0,0,,0,1,2,0,0,2,,UTSA,2020
+Kelechi Nwachuku,kelechi-nwachuku-1,/cfb/players/kelechi-nwachuku-1.html,S,12,35,21,56,0.0,0.0,0,0,,0,3,0,0,0,0,,UTSA,2020
+Antonio Parks,antonio-parks-1,/cfb/players/antonio-parks-1.html,S,12,32,18,50,4.0,0.0,1,3,3.0,0,2,1,2,0,1,,UTSA,2020
+Clarence Hicks,clarence-hicks-1,/cfb/players/clarence-hicks-1.html,LB,12,25,21,46,4.5,0.0,1,0,0.0,0,2,0,0,0,1,,UTSA,2020
+Charles Wiley,charles-wiley-2,/cfb/players/charles-wiley-2.html,LB,12,17,26,43,10.0,2.0,0,0,,0,1,1,0,0,0,,UTSA,2020
+Corey Mayfield Jr.,corey-mayfield-jr-1,/cfb/players/corey-mayfield-jr-1.html,CB,12,30,7,37,3.0,1.0,2,9,4.5,0,6,0,0,0,1,,UTSA,2020
+Tariq Woolen,tariq-woolen-1,/cfb/players/tariq-woolen-1.html,CB,11,20,15,35,2.5,1.5,1,0,0.0,0,4,0,0,0,0,,UTSA,2020
+Tyler Mahnke,tyler-mahnke-1,/cfb/players/tyler-mahnke-1.html,LB,10,19,15,34,2.0,0.0,0,0,,0,2,0,0,0,1,,UTSA,2020
+Lorenzo Dantzler,lorenzo-dantzler-1,/cfb/players/lorenzo-dantzler-1.html,DL,12,18,13,31,5.5,1.0,0,0,,0,1,0,0,0,1,,UTSA,2020
+Brandon Matterson,brandon-matterson-1,/cfb/players/brandon-matterson-1.html,DL,10,14,16,30,4.5,2.0,0,0,,0,0,0,0,0,0,,UTSA,2020
+Ken Robinson,ken-robinson-2,/cfb/players/ken-robinson-2.html,CB,9,13,15,28,1.0,0.0,0,0,,0,3,0,0,0,1,,UTSA,2020
+De'Marco Guidry,demarco-guidry-1,/cfb/players/demarco-guidry-1.html,LB,10,12,15,27,2.0,1.0,0,0,,0,0,0,0,0,1,,UTSA,2020
+Savion Harris,savion-harris-1,/cfb/players/savion-harris-1.html,S,8,13,13,26,1.0,0.0,0,0,,0,1,0,0,0,0,,UTSA,2020
+DeQuarius Henry,dequarius-henry-1,/cfb/players/dequarius-henry-1.html,LB,12,8,14,22,2.0,1.0,0,0,,0,0,0,0,0,1,,UTSA,2020
+Christian Clayton,christian-clayton-1,/cfb/players/christian-clayton-1.html,DL,12,11,10,21,7.5,2.0,0,0,,0,0,2,10,0,1,,UTSA,2020
+Jaylon Haynes,jaylon-haynes-1,/cfb/players/jaylon-haynes-1.html,DL,9,9,11,20,6.0,4.0,0,0,,0,0,0,0,0,0,,UTSA,2020
+Dadrian Taylor,dadrian-taylor-1,/cfb/players/dadrian-taylor-1.html,S,11,14,5,19,3.0,0.0,0,0,,0,2,1,0,0,0,,UTSA,2020
+Trumane Bell II,trumane-bell-ii-1,/cfb/players/trumane-bell-ii-1.html,,12,7,8,15,6.5,4.5,0,0,,0,0,0,0,0,0,,UTSA,2020
+Trumane Bell,trumane-bell-2,/cfb/players/trumane-bell-2.html,DL,10,7,7,14,6.0,4.5,0,0,,0,0,0,0,0,0,,UTSA,2020
+Kevin Nelson,kevin-nelson-3,/cfb/players/kevin-nelson-3.html,DL,10,3,8,11,0.0,0.0,0,0,,0,1,0,0,0,0,,UTSA,2020
+Donyai Taylor,donyai-taylor-1,/cfb/players/donyai-taylor-1.html,S,12,3,7,10,0.0,0.0,1,28,28.0,0,0,0,0,0,0,,UTSA,2020
+Xavier Spencer,xavier-spencer-1,/cfb/players/xavier-spencer-1.html,CB,11,6,1,7,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2020
+Gregory Clayton Jr.,gregory-clayton-jr-1,/cfb/players/gregory-clayton-jr-1.html,WR,4,6,0,6,4.0,1.0,0,0,,0,0,0,0,0,0,,UTSA,2020
+Solomon Wise,solomon-wise-1,/cfb/players/solomon-wise-1.html,LB,11,3,2,5,0.5,0.0,0,0,,0,0,0,0,0,0,,UTSA,2020
+B.J. Daniels,bj-daniels-2,/cfb/players/bj-daniels-2.html,RB,12,1,3,4,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2020
+Jarrett Preston,jarrett-preston-1,/cfb/players/jarrett-preston-1.html,S,8,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2020
+Asyrus Simon,asyrus-simon-1,/cfb/players/asyrus-simon-1.html,LB,2,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2020
+Peter Gray,peter-gray-1,/cfb/players/peter-gray-1.html,DL,8,1,2,3,0.5,0.0,0,0,,0,0,0,0,0,0,,UTSA,2020
+Ryan Shockency,ryan-shockency-1,/cfb/players/ryan-shockency-1.html,S,10,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2020
+Leroy Watson,leroy-watson-1,/cfb/players/leroy-watson-1.html,TE,12,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2020
+Brennon Dingle,brennon-dingle-1,/cfb/players/brennon-dingle-1.html,WR,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2020
+Everett Ornstein,everett-ornstein-1,/cfb/players/everett-ornstein-1.html,PK,5,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2020
+Ahofitu Maka,ahofitu-maka-1,/cfb/players/ahofitu-maka-1.html,OL,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2020
+Walker Baty,walker-baty-1,/cfb/players/walker-baty-1.html,DL,7,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2020
+Avery Morris,avery-morris-1,/cfb/players/avery-morris-1.html,LB,5,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2020
+De'Corian Clark,decorian-clark-1,/cfb/players/decorian-clark-1.html,WR,11,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2020
+Sincere McCormick,sincere-mccormick-1,/cfb/players/sincere-mccormick-1.html,RB,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2020
+Joshua Cephus,joshua-cephus-1,/cfb/players/joshua-cephus-1.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2020
+Oscar Cardenas,oscar-cardenas-1,/cfb/players/oscar-cardenas-1.html,TE,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2020
+Lucas Dean,lucas-dean-1,/cfb/players/lucas-dean-1.html,P,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2020
+Je'Vaun Dabon,jevaun-dabon-1,/cfb/players/jevaun-dabon-1.html,S,5,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2020

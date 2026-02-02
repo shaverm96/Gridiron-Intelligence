@@ -1,0 +1,47 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+AJ Vongphachanh,aj-vongphachanh-1,/cfb/players/aj-vongphachanh-1.html,LB,13,36,65,101,10.5,2.0,0,0,,0,3,0,0,0,2,,Utah State,2022
+Hunter Reynolds,hunter-reynolds-1,/cfb/players/hunter-reynolds-1.html,S,13,57,36,93,2.5,0.0,3,6,2.0,0,7,1,55,1,0,,Utah State,2022
+MJ Tafisi,mj-tafisi-1,/cfb/players/mj-tafisi-1.html,LB,8,27,42,69,9.0,1.0,0,0,,0,1,0,0,0,0,,Utah State,2022
+Kaleo Neves,kaleo-neves-1,/cfb/players/kaleo-neves-1.html,LB,13,31,28,59,7.0,1.5,0,0,,0,3,0,0,0,1,,Utah State,2022
+Byron Vaughns,byron-vaughns-1,/cfb/players/byron-vaughns-1.html,DE,11,23,33,56,8.5,2.0,0,0,,0,0,1,0,0,1,,Utah State,2022
+Daniel Grzesiak,daniel-grzesiak-1,/cfb/players/daniel-grzesiak-1.html,DE,13,24,28,52,13.0,8.5,0,0,,0,2,1,0,0,2,,Utah State,2022
+Michael Anyanwu,michael-anyanwu-1,/cfb/players/michael-anyanwu-1.html,CB,11,34,13,47,2.0,0.0,1,0,0.0,0,11,0,0,0,0,,Utah State,2022
+Ajani Carter,ajani-carter-1,/cfb/players/ajani-carter-1.html,CB,10,29,15,44,1.0,0.0,1,8,8.0,0,5,0,0,0,2,,Utah State,2022
+Max Alford,max-alford-1,/cfb/players/max-alford-1.html,LB,13,24,15,39,3.5,0.0,0,0,,0,0,0,0,0,0,,Utah State,2022
+Gurvan Hall Jr.,gurvan-hall-jr-1,/cfb/players/gurvan-hall-jr-1.html,S,8,23,13,36,1.5,0.0,1,31,31.0,0,2,0,0,0,0,,Utah State,2022
+Hale Motu'apuaka,hale-motuapuaka-1,/cfb/players/hale-motuapuaka-1.html,DT,12,15,20,35,8.0,5.0,0,0,,0,0,0,0,0,0,,Utah State,2022
+Ike Larsen,ike-larsen-1,/cfb/players/ike-larsen-1.html,S,11,19,15,34,3.0,2.0,4,60,15.0,1,2,0,0,0,0,,Utah State,2022
+Patrick Joyner,patrick-joyner-1,/cfb/players/patrick-joyner-1.html,DE,13,13,18,31,3.0,1.0,0,0,,0,1,0,0,0,0,,Utah State,2022
+Andre Grayson,andre-grayson-1,/cfb/players/andre-grayson-1.html,CB,12,16,11,27,0.0,0.0,0,0,,0,3,1,0,0,0,,Utah State,2022
+Tavian Coleman,tavian-coleman-1,/cfb/players/tavian-coleman-1.html,DT,13,12,15,27,5.0,1.0,0,0,,0,0,0,0,0,0,,Utah State,2022
+Dominic Tatum,dominic-tatum-1,/cfb/players/dominic-tatum-1.html,S,13,20,6,26,2.0,1.0,0,0,,0,0,0,0,0,0,,Utah State,2022
+Omari Okeke,omari-okeke-1,/cfb/players/omari-okeke-1.html,LB,10,8,10,18,2.0,0.0,0,0,,0,1,0,0,0,0,,Utah State,2022
+Seni Tuiaki,seni-tuiaki-1,/cfb/players/seni-tuiaki-1.html,DT,4,5,10,15,2.5,0.0,0,0,,0,1,0,0,0,0,,Utah State,2022
+Poukesi Vakauta,poukesi-vakauta-1,/cfb/players/poukesi-vakauta-1.html,DT,12,5,8,13,3.0,1.0,0,0,,0,0,0,0,0,0,,Utah State,2022
+Sione Moa,sione-moa-1,/cfb/players/sione-moa-1.html,LB,10,5,7,12,1.0,1.0,0,0,,0,0,0,0,0,0,,Utah State,2022
+John Ward,john-ward-4,/cfb/players/john-ward-4.html,DE,10,3,7,10,3.0,0.0,0,0,,0,0,0,0,0,0,,Utah State,2022
+Xavion Steele,xavion-steele-1,/cfb/players/xavion-steele-1.html,CB,13,4,5,9,0.0,0.0,0,0,,0,2,0,0,0,0,,Utah State,2022
+Bo Maile,bo-maile-1,/cfb/players/bo-maile-1.html,DT,11,5,2,7,1.0,1.0,0,0,,0,0,0,0,0,0,,Utah State,2022
+Jaden Smith,jaden-smith-1,/cfb/players/jaden-smith-1.html,CB,12,4,1,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah State,2022
+Otto Tia,otto-tia-1,/cfb/players/otto-tia-1.html,WR,13,3,2,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah State,2022
+Broc Lane,broc-lane-1,/cfb/players/broc-lane-1.html,TE,9,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah State,2022
+Jamie Nance,jamie-nance-1,/cfb/players/jamie-nance-1.html,CB,13,2,1,3,0.0,0.0,0,0,,0,0,3,0,0,0,,Utah State,2022
+Enoka Migao,enoka-migao-1,/cfb/players/enoka-migao-1.html,DE,7,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah State,2022
+Nyny Davis,nyny-davis-1,/cfb/players/nyny-davis-1.html,WR,12,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah State,2022
+JD Drew,jd-drew-1,/cfb/players/jd-drew-1.html,CB,5,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah State,2022
+Justin McGriff,justin-mcgriff-1,/cfb/players/justin-mcgriff-1.html,WR,13,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah State,2022
+Phillip Paea,phillip-paea-1,/cfb/players/phillip-paea-1.html,DT,3,1,1,2,0.0,0.0,1,16,16.0,0,1,0,0,0,0,,Utah State,2022
+Elliott Nimrod,elliott-nimrod-1,/cfb/players/elliott-nimrod-1.html,K,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah State,2022
+Alfred Edwards,alfred-edwards-1,/cfb/players/alfred-edwards-1.html,OL,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah State,2022
+Wade Meacham,wade-meacham-1,/cfb/players/wade-meacham-1.html,OL,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah State,2022
+Terrell Vaughn,terrell-vaughn-1,/cfb/players/terrell-vaughn-1.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah State,2022
+Brian Cobbs,brian-cobbs-2,/cfb/players/brian-cobbs-2.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah State,2022
+Ron Tiavaasue,ron-tiavaasue-1,/cfb/players/ron-tiavaasue-1.html,TE,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah State,2022
+Cole Joyce,cole-joyce-1,/cfb/players/cole-joyce-1.html,LB,13,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah State,2022
+Connor Coles,connor-coles-1,/cfb/players/connor-coles-1.html,K,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah State,2022
+Jacob Garcia,jacob-garcia-2,/cfb/players/jacob-garcia-2.html,LS,13,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah State,2022
+Luke Marion,luke-marion-1,/cfb/players/luke-marion-1.html,S,7,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah State,2022
+Logan Bonner,logan-bonner-1,/cfb/players/logan-bonner-1.html,QB,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah State,2022
+Kyle Van Leeuwen,kyle-van-leeuwen-1,/cfb/players/kyle-van-leeuwen-1.html,WR,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah State,2022
+Josh Sterzer,josh-sterzer-1,/cfb/players/josh-sterzer-1.html,TE,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah State,2022
+Jordan Wilmore,jordan-wilmore-1,/cfb/players/jordan-wilmore-1.html,RB,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah State,2022

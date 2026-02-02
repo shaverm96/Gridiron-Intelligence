@@ -1,0 +1,43 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Anthony Wilson,anthony-wilson-5,/cfb/players/anthony-wilson-5.html,S,13,51,50,101,0.0,0.0,2,79,39.5,1,3,0,0,0,0,,West Virginia,2024
+Josiah Trotter,josiah-trotter-1,/cfb/players/josiah-trotter-1.html,LB,12,36,56,92,4.0,0.5,1,0,0.0,0,2,0,0,0,0,,West Virginia,2024
+Trey Lathan,trey-lathan-1,/cfb/players/trey-lathan-1.html,LB,13,40,39,79,9.0,2.0,0,0,,0,0,0,0,0,1,,West Virginia,2024
+Tyrin Bradley,tyrin-bradley-1,/cfb/players/tyrin-bradley-1.html,LB,13,20,36,56,7.5,1.5,1,16,16.0,0,4,2,14,1,1,,West Virginia,2024
+Reid Carrico,reid-carrico-1,/cfb/players/reid-carrico-1.html,LB,12,17,37,54,1.5,0.0,0,0,,0,0,0,0,0,1,,West Virginia,2024
+Fatorma Mulbah,fatorma-mulbah-2,/cfb/players/fatorma-mulbah-2.html,DL,13,20,30,50,4.5,1.0,0,0,,0,0,0,0,0,0,,West Virginia,2024
+Garnett Hollis Jr.,garnett-hollis-jr-1,/cfb/players/garnett-hollis-jr-1.html,CB,13,27,19,46,1.0,0.0,0,0,,0,6,1,0,0,0,,West Virginia,2024
+T.J. Jackson,tj-jackson-3,/cfb/players/tj-jackson-3.html,DL,13,21,19,40,14.0,6.5,0,0,,0,0,1,0,0,0,,West Virginia,2024
+Jaheem Joseph,jaheem-joseph-1,/cfb/players/jaheem-joseph-1.html,DB,13,25,15,40,0.0,0.0,1,6,6.0,0,2,0,0,0,0,,West Virginia,2024
+Ben Cutter,ben-cutter-1,/cfb/players/ben-cutter-1.html,LB,13,10,29,39,0.5,0.0,0,0,,0,0,0,0,0,0,,West Virginia,2024
+Dontez Fagan,dontez-fagan-1,/cfb/players/dontez-fagan-1.html,CB,13,23,14,37,0.0,0.0,0,0,,0,3,1,0,0,0,,West Virginia,2024
+Kekoura Tarnue,kekoura-tarnue-1,/cfb/players/kekoura-tarnue-1.html,S,13,25,10,35,2.5,0.5,0,0,,0,1,1,0,0,1,,West Virginia,2024
+Ayden Garnes,ayden-garnes-1,/cfb/players/ayden-garnes-1.html,CB,6,19,6,25,1.0,0.0,0,0,,0,1,0,0,0,0,,West Virginia,2024
+Sean Martin,sean-martin-3,/cfb/players/sean-martin-3.html,DL,13,8,15,23,5.5,3.5,0,0,,0,1,0,0,0,0,,West Virginia,2024
+Ty French,ty-french-1,/cfb/players/ty-french-1.html,DE,13,12,10,22,2.5,0.0,0,0,,0,1,0,0,0,0,,West Virginia,2024
+Asani Redwood,asani-redwood-1,/cfb/players/asani-redwood-1.html,DL,13,8,9,17,2.5,1.0,0,0,,0,2,0,0,0,0,,West Virginia,2024
+Hammond Russell IV,hammond-russell-iv-1,/cfb/players/hammond-russell-iv-1.html,DL,13,7,10,17,3.5,3.0,0,0,,0,0,0,0,0,0,,West Virginia,2024
+Aubrey Burks,aubrey-burks-1,/cfb/players/aubrey-burks-1.html,DB,6,8,5,13,1.5,0.0,0,0,,0,0,0,0,0,0,,West Virginia,2024
+Israel Boyce,israel-boyce-1,/cfb/players/israel-boyce-1.html,S,8,10,1,11,0.0,0.0,0,0,,0,0,0,0,0,0,,West Virginia,2024
+TJ Crandall,tj-crandall-1,/cfb/players/tj-crandall-1.html,CB,11,5,4,9,0.0,0.0,0,0,,0,0,0,0,0,0,,West Virginia,2024
+Nate Gabriel,nate-gabriel-1,/cfb/players/nate-gabriel-1.html,DL,12,5,4,9,0.5,0.5,0,0,,0,0,0,0,0,0,,West Virginia,2024
+Caden Biser,caden-biser-1,/cfb/players/caden-biser-1.html,LB,12,2,5,7,0.0,0.0,0,0,,0,0,0,0,0,0,,West Virginia,2024
+Rodney Gallagher,rodney-gallagher-1,/cfb/players/rodney-gallagher-1.html,WR,13,4,1,5,0.0,0.0,0,0,,0,1,0,0,0,0,,West Virginia,2024
+Jacolby Spells,jacolby-spells-1,/cfb/players/jacolby-spells-1.html,CB,8,2,2,4,0.0,0.0,0,0,,0,2,0,0,0,0,,West Virginia,2024
+Taurus Simmons,taurus-simmons-1,/cfb/players/taurus-simmons-1.html,DL,12,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,1,,West Virginia,2024
+Zae Jennings,zae-jennings-1,/cfb/players/zae-jennings-1.html,S,12,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,West Virginia,2024
+Aden Tagaloa-Nelson,aden-tagaloa-nelson-1,/cfb/players/aden-tagaloa-nelson-1.html,S,5,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,West Virginia,2024
+Derek Berlitz,derek-berlitz-1,/cfb/players/derek-berlitz-1.html,DL,3,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,West Virginia,2024
+Preston Fox,preston-fox-1,/cfb/players/preston-fox-1.html,WR,13,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,West Virginia,2024
+Keyshawn Robinson,keyshawn-robinson-1,/cfb/players/keyshawn-robinson-1.html,S,11,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,West Virginia,2024
+Jarel Williams,jarel-williams-1,/cfb/players/jarel-williams-1.html,WR,13,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,West Virginia,2024
+Elijah Kinsler,elijah-kinsler-1,/cfb/players/elijah-kinsler-1.html,DL,3,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,West Virginia,2024
+Edward Vesterinen,edward-vesterinen-1,/cfb/players/edward-vesterinen-1.html,DL,2,1,1,2,0.5,0.0,0,0,,0,0,0,0,0,0,,West Virginia,2024
+Nick Malone,nick-malone-1,/cfb/players/nick-malone-1.html,OL,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,West Virginia,2024
+Makai Byerson,makai-byerson-1,/cfb/players/makai-byerson-1.html,DL,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,West Virginia,2024
+Jaden Bray,jaden-bray-1,/cfb/players/jaden-bray-1.html,WR,5,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,West Virginia,2024
+Hudson Clement,hudson-clement-1,/cfb/players/hudson-clement-1.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,West Virginia,2024
+Tomas Rimac,tomas-rimac-1,/cfb/players/tomas-rimac-1.html,OL,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,West Virginia,2024
+Traylon Ray,traylon-ray-1,/cfb/players/traylon-ray-1.html,WR,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,West Virginia,2024
+Curtis Jones Jr.,curtis-jones-jr-1,/cfb/players/curtis-jones-jr-1.html,LB,11,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,West Virginia,2024
+Will Dixon,will-dixon-1,/cfb/players/will-dixon-1.html,TE,2,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,West Virginia,2024
+CJ Donaldson,cj-donaldson-1,/cfb/players/cj-donaldson-1.html,RB,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,West Virginia,2024

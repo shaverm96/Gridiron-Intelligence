@@ -1,0 +1,43 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Dylan Moses,dylan-moses-1,/cfb/players/dylan-moses-1.html,LB,15,45,41,86,10.0,3.5,0,0,,0,1,0,0,0,1,,Alabama,2018
+Deionte Thompson,deionte-thompson-1,/cfb/players/deionte-thompson-1.html,DB,15,48,31,79,3.5,0.0,2,65,32.5,0,6,1,0,0,4,AA,Alabama,2018
+Xavier McKinney,xavier-mckinney-1,/cfb/players/xavier-mckinney-1.html,DB,15,44,29,73,6.0,3.0,2,23,11.5,1,10,0,0,0,1,,Alabama,2018
+Quinnen Williams,quinnen-williams-1,/cfb/players/quinnen-williams-1.html,DL,15,45,26,71,19.5,8.0,0,0,,0,1,0,0,0,0,"H-8,AA",Alabama,2018
+Mack Wilson,mack-wilson-1,/cfb/players/mack-wilson-1.html,LB,15,36,35,71,5.0,1.0,2,0,0.0,0,5,0,0,0,0,,Alabama,2018
+Saivion Smith,saivion-smith-2,/cfb/players/saivion-smith-2.html,DB,15,36,24,60,0.5,0.0,3,71,23.7,1,5,0,0,0,1,,Alabama,2018
+Raekwon Davis,raekwon-davis-1,/cfb/players/raekwon-davis-1.html,DL,15,24,31,55,5.5,1.5,0,0,,0,0,0,0,0,0,,Alabama,2018
+Isaiah Buggs,isaiah-buggs-1,/cfb/players/isaiah-buggs-1.html,DL,15,24,27,51,13.5,9.5,0,0,,0,3,1,0,0,2,,Alabama,2018
+Anfernee Jennings,anfernee-jennings-1,/cfb/players/anfernee-jennings-1.html,LB,15,26,24,50,13.0,5.5,1,8,8.0,0,11,2,18,1,0,,Alabama,2018
+Shyheim Carter,shyheim-carter-1,/cfb/players/shyheim-carter-1.html,DB,14,27,17,44,3.5,0.0,2,89,44.5,2,10,0,0,0,1,,Alabama,2018
+Labryan Ray,labryan-ray-1,/cfb/players/labryan-ray-1.html,DL,15,19,20,39,6.0,2.5,0,0,,0,2,0,0,0,0,,Alabama,2018
+Patrick Surtain II,patrick-surtain-ii-1,/cfb/players/patrick-surtain-ii-1.html,DB,15,28,9,37,1.5,0.0,1,20,20.0,0,7,0,0,0,1,,Alabama,2018
+Christian Miller,christian-miller-2,/cfb/players/christian-miller-2.html,LB,14,16,20,36,11.5,8.5,0,0,,0,1,1,0,0,0,,Alabama,2018
+Trevon Diggs,trevon-diggs-1,/cfb/players/trevon-diggs-1.html,DB,6,18,2,20,0.0,0.0,1,0,0.0,0,6,0,0,0,1,,Alabama,2018
+Phidarian Mathis,phidarian-mathis-1,/cfb/players/phidarian-mathis-1.html,DL,15,4,14,18,0.0,0.0,0,0,,0,0,1,0,0,0,,Alabama,2018
+Jared Mayden,jared-mayden-1,/cfb/players/jared-mayden-1.html,DB,13,8,10,18,1.0,1.0,0,0,,0,2,0,0,0,0,,Alabama,2018
+Markail Benton,markail-benton-1,/cfb/players/markail-benton-1.html,LB,14,4,10,14,0.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2018
+Keaton Anderson,keaton-anderson-1,/cfb/players/keaton-anderson-1.html,DB,15,8,6,14,0.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2018
+Joshua McMillon,joshua-mcmillon-1,/cfb/players/joshua-mcmillon-1.html,LB,10,11,3,14,1.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2018
+Ale Kaho,ale-kaho-1,/cfb/players/ale-kaho-1.html,LB,15,6,5,11,0.0,0.0,0,0,,0,0,1,0,0,0,,Alabama,2018
+Eyabi Okie,eyabi-okie-1,/cfb/players/eyabi-okie-1.html,LB,12,6,3,9,2.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2018
+Josh Jobe,josh-jobe-1,/cfb/players/josh-jobe-1.html,DB,14,7,1,8,0.0,0.0,0,0,,0,1,0,0,0,0,,Alabama,2018
+Henry Ruggs III,henry-ruggs-iii-1,/cfb/players/henry-ruggs-iii-1.html,WR,15,6,2,8,0.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2018
+Daniel Wright,daniel-wright-1,/cfb/players/daniel-wright-1.html,DB,4,5,3,8,0.0,0.0,0,0,,0,2,0,0,0,0,,Alabama,2018
+Jamey Mosley,jamey-mosley-1,/cfb/players/jamey-mosley-1.html,LB,14,4,4,8,3.0,1.0,0,0,,0,1,0,0,0,0,,Alabama,2018
+Kyriq McDonald,kyriq-mcdonald-1,/cfb/players/kyriq-mcdonald-1.html,DB,11,4,3,7,0.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2018
+D.J. Lewis,dj-lewis-2,/cfb/players/dj-lewis-2.html,DB,11,2,4,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2018
+Preston Malone,preston-malone-1,/cfb/players/preston-malone-1.html,LB,1,3,3,6,0.5,0.0,0,0,,0,0,0,0,0,0,,Alabama,2018
+Johnny Dwight,johnny-dwight-1,/cfb/players/johnny-dwight-1.html,DL,11,3,3,6,1.0,0.0,0,0,,0,1,0,0,0,0,,Alabama,2018
+Jaylen Moody,jaylen-moody-1,/cfb/players/jaylen-moody-1.html,LB,14,2,3,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2018
+Stephon Wynn Jr.,stephon-wynn-jr-1,/cfb/players/stephon-wynn-jr-1.html,DL,3,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2018
+Tevita Musika,tevita-musika-1,/cfb/players/tevita-musika-1.html,DL,5,0,3,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2018
+Nigel Knott,nigel-knott-1,/cfb/players/nigel-knott-1.html,DB,9,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2018
+Jerome Ford,jerome-ford-1,/cfb/players/jerome-ford-1.html,RB,5,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2018
+Derek Kief,derek-kief-1,/cfb/players/derek-kief-1.html,WR,15,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2018
+Cameron Latu,cameron-latu-1,/cfb/players/cameron-latu-1.html,LB,2,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2018
+Ross Pierschbacher,ross-pierschbacher-1,/cfb/players/ross-pierschbacher-1.html,OL,15,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2018
+Brian Robinson Jr.,brian-robinson-jr-1,/cfb/players/brian-robinson-jr-1.html,RB,15,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2018
+Irv Smith Jr.,irv-smith-jr-1,/cfb/players/irv-smith-jr-1.html,TE,15,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2018
+Thomas Fletcher,thomas-fletcher-1,/cfb/players/thomas-fletcher-1.html,LS,15,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2018
+Tua Tagovailoa,tua-tagovailoa-1,/cfb/players/tua-tagovailoa-1.html,QB,15,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,"H-2,Maxwell,AA,Camp",Alabama,2018
+Joshua Jacobs,joshua-jacobs-1,/cfb/players/joshua-jacobs-1.html,RB,15,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2018

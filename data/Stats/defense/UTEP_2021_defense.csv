@@ -1,0 +1,46 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Breon Hayward,breon-hayward-1,/cfb/players/breon-hayward-1.html,LB,13,61,47,108,7.5,1.5,0,0,,0,3,1,0,1,0,,UTEP,2021
+Tyrice Knight,tyrice-knight-1,/cfb/players/tyrice-knight-1.html,LB,13,59,43,102,9.0,2.0,1,0,0.0,0,3,1,3,0,2,,UTEP,2021
+Dennis Barnes,dennis-barnes-1,/cfb/players/dennis-barnes-1.html,DB,13,42,17,59,4.5,1.0,2,27,13.5,0,3,0,0,0,1,,UTEP,2021
+Dy'vonne Inyang,dyvonne-inyang-1,/cfb/players/dyvonne-inyang-1.html,DB,11,35,22,57,3.0,1.0,3,28,9.3,0,7,1,2,0,0,,UTEP,2021
+Tyson Wilson,tyson-wilson-1,/cfb/players/tyson-wilson-1.html,DB,12,31,17,48,1.0,0.0,1,0,0.0,0,5,0,0,0,0,,UTEP,2021
+Praise Amaewhule,praise-amaewhule-1,/cfb/players/praise-amaewhule-1.html,DE,13,22,17,39,13.0,5.5,0,0,,0,7,0,0,0,3,,UTEP,2021
+Keenan Stewart,keenan-stewart-1,/cfb/players/keenan-stewart-1.html,DT,13,14,21,35,7.0,2.0,0,0,,0,0,0,0,0,0,,UTEP,2021
+Josh Caldwell,josh-caldwell-1,/cfb/players/josh-caldwell-1.html,DB,12,25,10,35,0.5,0.0,0,0,,0,5,0,0,0,0,,UTEP,2021
+Jadrian Taylor,jadrian-taylor-1,/cfb/players/jadrian-taylor-1.html,DE,13,19,14,33,7.5,6.5,0,0,,0,1,0,0,0,0,,UTEP,2021
+Walter Neil Jr.,walter-neil-jr-1,/cfb/players/walter-neil-jr-1.html,CB,12,21,11,32,2.0,0.5,0,0,,0,2,0,0,0,0,,UTEP,2021
+Torrey Richardson,torrey-richardson-1,/cfb/players/torrey-richardson-1.html,CB,13,20,6,26,2.0,1.0,1,0,0.0,0,8,0,0,0,0,,UTEP,2021
+Kelton Moss,kelton-moss-1,/cfb/players/kelton-moss-1.html,DT,12,8,15,23,1.0,0.0,0,0,,0,1,1,0,0,0,,UTEP,2021
+Ty'reke James,tyreke-james-1,/cfb/players/tyreke-james-1.html,S,12,14,9,23,2.0,0.0,0,0,,0,2,0,0,0,0,,UTEP,2021
+Justin Prince,justin-prince-1,/cfb/players/justin-prince-1.html,DB,5,11,7,18,0.5,0.0,0,0,,0,2,0,0,0,1,,UTEP,2021
+Blake Thompson,blake-thompson-2,/cfb/players/blake-thompson-2.html,DE,13,10,7,17,3.0,1.0,0,0,,0,2,1,0,0,1,,UTEP,2021
+Josh Ortega,josh-ortega-1,/cfb/players/josh-ortega-1.html,DE,11,7,9,16,1.0,1.0,0,0,,0,0,0,0,0,0,,UTEP,2021
+Gary Theard,gary-theard-1,/cfb/players/gary-theard-1.html,LB,13,4,12,16,1.0,0.0,0,0,,0,0,0,0,0,0,,UTEP,2021
+Deylon Williams,deylon-williams-1,/cfb/players/deylon-williams-1.html,DE,13,8,6,14,2.5,1.0,0,0,,0,0,0,0,0,0,,UTEP,2021
+Trejon Hugue,trejon-hugue-1,/cfb/players/trejon-hugue-1.html,S,13,6,7,13,1.0,0.0,0,0,,0,1,0,0,0,0,,UTEP,2021
+Tevita Tafuna,tevita-tafuna-1,/cfb/players/tevita-tafuna-1.html,DT,11,4,7,11,1.5,0.0,0,0,,0,0,0,0,0,0,,UTEP,2021
+Sione Tonga'uiha,sione-tongauiha-1,/cfb/players/sione-tongauiha-1.html,DE,13,3,8,11,1.5,0.0,0,0,,0,0,0,0,0,0,,UTEP,2021
+McKel Broussard,mckel-broussard-1,/cfb/players/mckel-broussard-1.html,DB,13,7,4,11,0.0,0.0,0,0,,0,0,0,0,0,0,,UTEP,2021
+Jalen Rudolph,jalen-rudolph-1,/cfb/players/jalen-rudolph-1.html,DT,11,4,5,9,3.5,0.0,0,0,,0,0,0,0,0,0,,UTEP,2021
+James Neal,james-neal-1,/cfb/players/james-neal-1.html,LB,12,2,2,4,1.0,1.0,0,0,,0,0,0,0,0,0,,UTEP,2021
+Elijah Robinson,elijah-robinson-4,/cfb/players/elijah-robinson-4.html,DE,10,0,4,4,0.5,0.0,0,0,,0,0,0,0,0,0,,UTEP,2021
+Deshaun Trotter,deshaun-trotter-1,/cfb/players/deshaun-trotter-1.html,S,11,2,2,4,0.0,0.0,0,0,,0,0,0,0,0,0,,UTEP,2021
+Cal Wallerstedt,cal-wallerstedt-1,/cfb/players/cal-wallerstedt-1.html,LB,10,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,UTEP,2021
+Connor Helsius,connor-helsius-1,/cfb/players/connor-helsius-1.html,LB,4,2,1,3,0.0,0.0,0,0,,0,1,1,0,0,0,,UTEP,2021
+Michael Ike,michael-ike-1,/cfb/players/michael-ike-1.html,DT,6,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,UTEP,2021
+Darta Lee,darta-lee-1,/cfb/players/darta-lee-1.html,OL,13,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,1,,UTEP,2021
+Trent Thompson,trent-thompson-2,/cfb/players/trent-thompson-2.html,TE,13,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,UTEP,2021
+Walter Dawn,walter-dawn-1,/cfb/players/walter-dawn-1.html,WR,2,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,UTEP,2021
+Zuri Henry,zuri-henry-1,/cfb/players/zuri-henry-1.html,OL,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTEP,2021
+Nick Ast,nick-ast-1,/cfb/players/nick-ast-1.html,WR,13,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTEP,2021
+Justin Garrett,justin-garrett-3,/cfb/players/justin-garrett-3.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTEP,2021
+Jostein Clarke,jostein-clarke-1,/cfb/players/jostein-clarke-1.html,WR,4,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTEP,2021
+John Burris III,john-burris-iii-1,/cfb/players/john-burris-iii-1.html,CB,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTEP,2021
+Jakolby Longino,jakolby-longino-1,/cfb/players/jakolby-longino-1.html,QB,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTEP,2021
+Jacob Cowing,jacob-cowing-1,/cfb/players/jacob-cowing-1.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTEP,2021
+Gavin Hardison,gavin-hardison-1,/cfb/players/gavin-hardison-1.html,QB,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTEP,2021
+Gavin Baechle,gavin-baechle-1,/cfb/players/gavin-baechle-1.html,K,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTEP,2021
+Elijah Klein,elijah-klein-1,/cfb/players/elijah-klein-1.html,OL,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTEP,2021
+Dresden McIver-Brown,dresden-mciver-brown-1,/cfb/players/dresden-mciver-brown-1.html,DT,2,1,0,1,1.0,0.0,0,0,,0,0,0,0,0,0,,UTEP,2021
+Darius Baptist,darius-baptist-1,/cfb/players/darius-baptist-1.html,DB,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTEP,2021
+Carrington Mitchell,carrington-mitchell-1,/cfb/players/carrington-mitchell-1.html,DB,5,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTEP,2021

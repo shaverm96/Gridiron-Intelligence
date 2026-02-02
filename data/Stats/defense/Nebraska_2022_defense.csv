@@ -1,0 +1,47 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Luke Reimer,luke-reimer-1,/cfb/players/luke-reimer-1.html,LB,10,38,48,86,3.5,1.0,1,0,0.0,0,5,0,0,0,0,,Nebraska,2022
+Myles Farmer,myles-farmer-1,/cfb/players/myles-farmer-1.html,DB,11,38,35,73,1.0,0.0,1,17,17.0,0,4,0,0,0,0,,Nebraska,2022
+Isaac Gifford,isaac-gifford-1,/cfb/players/isaac-gifford-1.html,DB,12,43,27,70,5.0,1.0,0,0,,0,3,0,0,0,0,,Nebraska,2022
+Garrett Nelson,garrett-nelson-1,/cfb/players/garrett-nelson-1.html,LB,12,35,30,65,9.0,5.5,0,0,,0,2,2,14,0,1,,Nebraska,2022
+Marques Buford Jr.,marques-buford-jr-1,/cfb/players/marques-buford-jr-1.html,DB,11,36,23,59,2.5,0.0,2,0,0.0,0,3,0,0,0,1,,Nebraska,2022
+Ernest Hausmann,ernest-hausmann-1,/cfb/players/ernest-hausmann-1.html,LB,12,36,18,54,2.0,1.0,0,0,,0,0,1,0,0,0,,Nebraska,2022
+Ochaun Mathis,ochaun-mathis-1,/cfb/players/ochaun-mathis-1.html,DE,12,24,24,48,5.0,3.5,0,0,,0,2,0,0,0,0,,Nebraska,2022
+Colton Feist,colton-feist-1,/cfb/players/colton-feist-1.html,DL,12,19,27,46,7.0,0.5,0,0,,0,1,0,0,0,0,,Nebraska,2022
+Quinton Newsome,quinton-newsome-1,/cfb/players/quinton-newsome-1.html,DB,12,27,17,44,4.0,2.0,0,0,,0,10,1,0,0,1,,Nebraska,2022
+Caleb Tannor,caleb-tannor-1,/cfb/players/caleb-tannor-1.html,LB,12,25,18,43,6.0,2.5,0,0,,0,2,1,0,0,0,,Nebraska,2022
+Eteva Mauga-Clements,eteva-mauga-clements-1,/cfb/players/eteva-mauga-clements-1.html,LB,12,16,23,39,2.5,1.0,0,0,,0,0,0,0,0,1,,Nebraska,2022
+Nick Henrich,nick-henrich-1,/cfb/players/nick-henrich-1.html,LB,5,15,22,37,3.0,0.0,0,0,,0,0,0,0,0,0,,Nebraska,2022
+Chris Kolarevic,chris-kolarevic-1,/cfb/players/chris-kolarevic-1.html,LB,12,10,23,33,1.0,0.0,1,0,0.0,0,0,0,0,0,0,,Nebraska,2022
+Ty Robinson,ty-robinson-1,/cfb/players/ty-robinson-1.html,DL,12,14,10,24,4.0,2.0,0,0,,0,1,0,0,0,0,,Nebraska,2022
+Stephon Wynn Jr.,stephon-wynn-jr-1,/cfb/players/stephon-wynn-jr-1.html,DL,12,7,15,22,0.5,0.0,0,0,,0,1,1,0,0,0,,Nebraska,2022
+Malcolm Hartzog,malcolm-hartzog-1,/cfb/players/malcolm-hartzog-1.html,DB,12,12,10,22,1.0,0.0,3,23,7.7,0,2,0,0,0,0,,Nebraska,2022
+Tommi Hill,tommi-hill-1,/cfb/players/tommi-hill-1.html,WR,11,10,7,17,0.0,0.0,0,0,,0,4,0,0,0,0,,Nebraska,2022
+Nash Hutmacher,nash-hutmacher-1,/cfb/players/nash-hutmacher-1.html,DL,12,5,10,15,0.5,0.0,0,0,,0,0,0,0,0,0,,Nebraska,2022
+Devin Drew,devin-drew-1,/cfb/players/devin-drew-1.html,DL,12,4,10,14,1.0,1.0,0,0,,0,1,0,0,0,0,,Nebraska,2022
+Phalen Sanford,phalen-sanford-1,/cfb/players/phalen-sanford-1.html,DB,12,8,4,12,0.0,0.0,0,0,,0,0,0,0,0,0,,Nebraska,2022
+Jimari Butler,jimari-butler-1,/cfb/players/jimari-butler-1.html,LB,12,5,4,9,1.5,0.0,0,0,,0,1,0,0,0,0,,Nebraska,2022
+Javin Wright,javin-wright-1,/cfb/players/javin-wright-1.html,S,11,4,4,8,0.0,0.0,0,0,,0,0,0,0,0,0,,Nebraska,2022
+Brandon Moore,brandon-moore-8,/cfb/players/brandon-moore-8.html,DB,10,4,2,6,0.0,0.0,1,0,0.0,0,0,0,0,0,1,,Nebraska,2022
+Cooper Jewett,cooper-jewett-1,/cfb/players/cooper-jewett-1.html,RB,12,3,2,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Nebraska,2022
+Omar Brown,omar-brown-3,/cfb/players/omar-brown-3.html,DB,11,1,4,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Nebraska,2022
+Braxton Clark,braxton-clark-1,/cfb/players/braxton-clark-1.html,CB,7,4,1,5,0.0,0.0,0,0,,0,1,0,0,0,0,,Nebraska,2022
+Blaise Gunnerson,blaise-gunnerson-1,/cfb/players/blaise-gunnerson-1.html,LB,12,1,4,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Nebraska,2022
+Trey Palmer,trey-palmer-1,/cfb/players/trey-palmer-1.html,WR,12,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Nebraska,2022
+Mosai Newsom,mosai-newsom-1,/cfb/players/mosai-newsom-1.html,DL,9,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Nebraska,2022
+Ty Hahn,ty-hahn-1,/cfb/players/ty-hahn-1.html,WR,11,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Nebraska,2022
+DeShon Singleton,deshon-singleton-1,/cfb/players/deshon-singleton-1.html,DB,12,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Nebraska,2022
+Chance Brewington,chance-brewington-1,/cfb/players/chance-brewington-1.html,TE,12,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Nebraska,2022
+Javier Morton,javier-morton-1,/cfb/players/javier-morton-1.html,DB,8,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Nebraska,2022
+Casey Thompson,casey-thompson-1,/cfb/players/casey-thompson-1.html,QB,10,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Nebraska,2022
+Brady Weas,brady-weas-1,/cfb/players/brady-weas-1.html,LS,12,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Nebraska,2022
+Zach Weinmaster,zach-weinmaster-1,/cfb/players/zach-weinmaster-1.html,RB,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Nebraska,2022
+Tamon Lynum,tamon-lynum-1,/cfb/players/tamon-lynum-1.html,CB,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Nebraska,2022
+Tyreke Johnson,tyreke-johnson-1,/cfb/players/tyreke-johnson-1.html,CB,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Nebraska,2022
+Rahmir Johnson,rahmir-johnson-1,/cfb/players/rahmir-johnson-1.html,RB,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Nebraska,2022
+Oliver Martin,oliver-martin-1,/cfb/players/oliver-martin-1.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Nebraska,2022
+John Bullock,john-bullock-2,/cfb/players/john-bullock-2.html,LB,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Nebraska,2022
+Henry Lutovsky,henry-lutovsky-1,/cfb/players/henry-lutovsky-1.html,OL,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Nebraska,2022
+Ethan Piper,ethan-piper-1,/cfb/players/ethan-piper-1.html,OL,10,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Nebraska,2022
+Brian Buschini,brian-buschini-1,/cfb/players/brian-buschini-1.html,P,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Nebraska,2022
+Alex Bullock,alex-bullock-1,/cfb/players/alex-bullock-1.html,WR,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Nebraska,2022
+Alante Brown,alante-brown-1,/cfb/players/alante-brown-1.html,WR,12,0,0,0,0.0,0.0,0,0,,0,0,1,0,0,0,,Nebraska,2022

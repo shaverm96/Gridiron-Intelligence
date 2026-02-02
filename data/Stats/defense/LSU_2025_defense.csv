@@ -1,0 +1,47 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Davhon Keys,davhon-keys-1,/cfb/players/davhon-keys-1.html,LB,13,37,55,92,3.5,0.5,0,0,,0,2,0,0,0,1,,LSU,2025
+A.J. Haulcy,aj-haulcy-1,/cfb/players/aj-haulcy-1.html,DB,12,49,39,88,0.5,0.0,3,77,25.7,0,4,0,0,0,1,,LSU,2025
+West Weeks,west-weeks-1,/cfb/players/west-weeks-1.html,LB,11,27,47,74,8.0,2.5,0,0,,0,1,0,0,0,0,,LSU,2025
+Tamarcus Cooley,tamarcus-cooley-1,/cfb/players/tamarcus-cooley-1.html,S,13,40,30,70,1.5,0.0,2,0,0.0,0,2,0,0,0,0,,LSU,2025
+Harold Perkins,harold-perkins-1,/cfb/players/harold-perkins-1.html,LB,12,26,30,56,8.0,4.0,3,50,16.7,0,3,1,0,0,1,,LSU,2025
+Jack Pyburn,jack-pyburn-1,/cfb/players/jack-pyburn-1.html,DE,12,14,38,52,5.5,2.0,0,0,,0,1,1,0,0,0,,LSU,2025
+Mansoor Delane,mansoor-delane-1,/cfb/players/mansoor-delane-1.html,CB,11,26,19,45,0.0,0.0,2,0,0.0,0,11,0,0,0,0,AA,LSU,2025
+PJ Woodland,pj-woodland-1,/cfb/players/pj-woodland-1.html,CB,13,29,12,41,1.5,1.0,2,31,15.5,0,9,0,0,0,0,,LSU,2025
+DJ Pickett,dj-pickett-1,/cfb/players/dj-pickett-1.html,CB,13,29,8,37,3.0,2.0,3,7,2.3,0,3,0,0,0,0,,LSU,2025
+Patrick Payton,patrick-payton-1,/cfb/players/patrick-payton-1.html,DE,13,17,17,34,5.0,1.0,0,0,,0,6,1,0,0,0,,LSU,2025
+Whit Weeks,whit-weeks-1,/cfb/players/whit-weeks-1.html,LB,8,14,17,31,3.0,1.0,0,0,,0,0,1,0,0,0,,LSU,2025
+Dashawn Spears,dashawn-spears-1,/cfb/players/dashawn-spears-1.html,S,13,18,11,29,3.0,1.0,2,70,35.0,1,2,0,0,0,0,,LSU,2025
+Bernard Gooden,bernard-gooden-1,/cfb/players/bernard-gooden-1.html,DL,12,6,18,24,4.0,2.0,0,0,,0,0,0,0,0,1,,LSU,2025
+Jimari Butler,jimari-butler-1,/cfb/players/jimari-butler-1.html,DE,12,10,14,24,4.0,2.0,0,0,,0,2,0,0,0,0,,LSU,2025
+Jacobian Guillory,jacobian-guillory-1,/cfb/players/jacobian-guillory-1.html,DT,13,6,14,20,4.0,1.5,0,0,,0,0,0,0,0,0,,LSU,2025
+Ahmad Breaux,ahmad-breaux-1,/cfb/players/ahmad-breaux-1.html,DT,12,8,11,19,2.5,0.5,0,0,,0,0,0,0,0,0,,LSU,2025
+Tylen Singleton,tylen-singleton-1,/cfb/players/tylen-singleton-1.html,LB,13,5,10,15,1.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2025
+Dominick McKinley,dominick-mckinley-1,/cfb/players/dominick-mckinley-1.html,DT,13,4,8,12,2.0,1.0,0,0,,0,1,0,0,0,0,,LSU,2025
+Jardin Gilbert,jardin-gilbert-1,/cfb/players/jardin-gilbert-1.html,S,5,4,7,11,0.5,0.5,0,0,,0,0,0,0,0,0,,LSU,2025
+Dylan Carpenter,dylan-carpenter-2,/cfb/players/dylan-carpenter-2.html,DE,10,5,5,10,2.5,2.0,0,0,,0,0,0,0,0,0,,LSU,2025
+"Walter Mathis, Jr.",walter-mathis-jr-1,/cfb/players/walter-mathis-jr-1.html,DT,12,5,4,9,0.0,0.0,0,0,,0,1,0,0,0,0,,LSU,2025
+Gabriel Reliford,gabriel-reliford-1,/cfb/players/gabriel-reliford-1.html,DE,4,4,4,8,1.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2025
+Javien Toviano,javien-toviano-1,/cfb/players/javien-toviano-1.html,DB,12,2,6,8,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2025
+Ja'Keem Jackson,jakeem-jackson-1,/cfb/players/jakeem-jackson-1.html,CB,11,3,3,6,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2025
+CJ Jimcoily,cj-jimcoily-1,/cfb/players/cj-jimcoily-1.html,LB,13,4,1,5,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2025
+Bauer Sharp,bauer-sharp-1,/cfb/players/bauer-sharp-1.html,TE,13,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2025
+Kolaj Cobbins,kolaj-cobbins-1,/cfb/players/kolaj-cobbins-1.html,DE,7,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2025
+Shone Washington,shone-washington-2,/cfb/players/shone-washington-2.html,DT,7,0,3,3,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2025
+Princeton Malbrue,princeton-malbrue-1,/cfb/players/princeton-malbrue-1.html,DE,12,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2025
+Joel Rogers,joel-rogers-1,/cfb/players/joel-rogers-1.html,S,12,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2025
+CJ Jackson,cj-jackson-1,/cfb/players/cj-jackson-1.html,DE,5,1,2,3,2.0,0.5,0,0,,0,0,0,0,0,0,,LSU,2025
+Damien Shanklin,damien-shanklin-1,/cfb/players/damien-shanklin-1.html,DE,5,2,0,2,2.0,2.0,0,0,,0,0,0,0,0,0,,LSU,2025
+Aeron Burrell,aeron-burrell-1,/cfb/players/aeron-burrell-1.html,K,13,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2025
+Aidan Anding,aidan-anding-1,/cfb/players/aidan-anding-1.html,CB,8,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2025
+Jaiden Braker,jaiden-braker-1,/cfb/players/jaiden-braker-1.html,LB,5,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2025
+Chris Hilton Jr.,chris-hilton-jr-1,/cfb/players/chris-hilton-jr-1.html,WR,13,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2025
+Zavion Thomas,zavion-thomas-1,/cfb/players/zavion-thomas-1.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2025
+Zach Weeks,zach-weeks-1,/cfb/players/zach-weeks-1.html,LB,5,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2025
+Grant Chadwick,grant-chadwick-1,/cfb/players/grant-chadwick-1.html,P,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2025
+Ashton Stamps,ashton-stamps-1,/cfb/players/ashton-stamps-1.html,CB,3,0,1,1,0.0,0.0,0,0,,0,2,0,0,0,0,,LSU,2025
+Charles Ross II,charles-ross-ii-1,/cfb/players/charles-ross-ii-1.html,LB,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2025
+Phillip Wright III,phillip-wright-iii-1,/cfb/players/phillip-wright-iii-1.html,WR,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2025
+Bo Bordelon,bo-bordelon-1,/cfb/players/bo-bordelon-1.html,OL,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2025
+Michael Turner Jr.,michael-turner-jr-1,/cfb/players/michael-turner-jr-1.html,CB,7,0,1,1,0.0,0.0,0,0,,0,2,0,0,0,0,,LSU,2025
+Braelin Moore,braelin-moore-1,/cfb/players/braelin-moore-1.html,OL,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2025
+Ju'Juan Johnson,jujuan-johnson-1,/cfb/players/jujuan-johnson-1.html,RB,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,LSU,2025

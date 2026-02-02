@@ -1,0 +1,47 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Darius Muasau,darius-muasau-1,/cfb/players/darius-muasau-1.html,LB,13,42,49,91,3.0,1.0,2,5,2.5,0,3,1,0,0,1,,UCLA,2022
+Mo Osling III,mo-osling-iii-1,/cfb/players/mo-osling-iii-1.html,DB,13,62,27,89,0.0,0.0,0,0,,0,3,0,0,0,0,,UCLA,2022
+Stephan Blaylock,stephan-blaylock-1,/cfb/players/stephan-blaylock-1.html,DB,13,41,19,60,4.0,2.0,1,29,29.0,0,0,0,0,0,0,,UCLA,2022
+JonJon Vaughns,jonjon-vaughns-1,/cfb/players/jonjon-vaughns-1.html,LB,13,28,25,53,1.0,0.0,2,13,6.5,0,5,0,0,0,0,,UCLA,2022
+Kenny Churchwell III,kenny-churchwell-iii-1,/cfb/players/kenny-churchwell-iii-1.html,DB,13,33,14,47,3.5,0.0,0,0,,0,1,0,0,0,0,,UCLA,2022
+Azizi Hearn,azizi-hearn-1,/cfb/players/azizi-hearn-1.html,DB,13,26,14,40,0.0,0.0,0,0,,0,7,0,0,0,0,,UCLA,2022
+John Humphrey,john-humphrey-4,/cfb/players/john-humphrey-4.html,DB,13,26,13,39,1.0,0.0,0,0,,0,1,0,0,0,0,,UCLA,2022
+Gabriel Murphy,gabriel-murphy-1,/cfb/players/gabriel-murphy-1.html,DL,13,20,18,38,4.0,1.5,0,0,,0,1,1,6,0,0,,UCLA,2022
+Kain Medrano,kain-medrano-1,/cfb/players/kain-medrano-1.html,LB,9,26,12,38,1.5,0.0,1,24,24.0,0,1,0,0,0,1,,UCLA,2022
+Laiatu Latu,laiatu-latu-1,/cfb/players/laiatu-latu-1.html,DL,13,23,13,36,12.5,10.5,0,0,,0,1,1,0,0,3,,UCLA,2022
+Jaylin Davies,jaylin-davies-1,/cfb/players/jaylin-davies-1.html,DB,13,25,7,32,0.0,0.0,3,98,32.7,1,3,1,37,0,0,,UCLA,2022
+Jay Toia,jay-toia-1,/cfb/players/jay-toia-1.html,DL,13,13,17,30,3.0,1.0,0,0,,0,1,0,0,0,1,,UCLA,2022
+Jacob Sykes,jacob-sykes-2,/cfb/players/jacob-sykes-2.html,DL,13,14,15,29,1.5,1.0,0,0,,0,0,0,0,0,0,,UCLA,2022
+Carl Jones,carl-jones-6,/cfb/players/carl-jones-6.html,DL,13,17,11,28,6.0,2.0,1,13,13.0,0,0,1,24,0,0,,UCLA,2022
+Devin Kirkwood,devin-kirkwood-1,/cfb/players/devin-kirkwood-1.html,DB,9,16,11,27,0.0,0.0,0,0,,0,4,1,0,0,0,,UCLA,2022
+Grayson Murphy,grayson-murphy-1,/cfb/players/grayson-murphy-1.html,DL,13,17,9,26,9.0,5.0,0,0,,0,1,0,0,0,0,,UCLA,2022
+Bo Calvert,bo-calvert-1,/cfb/players/bo-calvert-1.html,LB,13,13,13,26,2.0,2.0,0,0,,0,1,1,0,0,1,,UCLA,2022
+Choe Bryant-Strother,choe-bryant-strother-1,/cfb/players/choe-bryant-strother-1.html,LB,13,12,10,22,0.0,0.0,0,0,,0,0,0,0,0,1,,UCLA,2022
+Gary Smith III,gary-smith-iii-1,/cfb/players/gary-smith-iii-1.html,DL,9,9,9,18,2.5,1.0,0,0,,0,1,0,0,0,0,,UCLA,2022
+Dovid Magna,dovid-magna-1,/cfb/players/dovid-magna-1.html,DL,13,7,10,17,1.5,0.0,0,0,,0,0,0,0,0,0,,UCLA,2022
+Alex Johnson,alex-johnson-4,/cfb/players/alex-johnson-4.html,DB,13,10,7,17,0.0,0.0,0,0,,0,3,0,0,0,0,,UCLA,2022
+Carson Schwesinger,carson-schwesinger-1,/cfb/players/carson-schwesinger-1.html,LB,13,13,2,15,0.5,0.0,0,0,,0,0,0,0,0,0,,UCLA,2022
+William Nimmo Jr.,william-nimmo-jr-1,/cfb/players/william-nimmo-jr-1.html,DB,13,7,3,10,0.0,0.0,0,0,,0,1,0,0,0,0,,UCLA,2022
+Sitiveni Havili-Kaufusi,sitiveni-havili-kaufusi-1,/cfb/players/sitiveni-havili-kaufusi-1.html,DL,12,3,4,7,0.0,0.0,0,0,,0,0,0,0,0,0,,UCLA,2022
+Jalen Woods,jalen-woods-1,/cfb/players/jalen-woods-1.html,LB,2,5,1,6,1.0,0.0,0,0,,0,0,0,0,0,0,,UCLA,2022
+Kamari Ramsey,kamari-ramsey-1,/cfb/players/kamari-ramsey-1.html,DB,4,5,1,6,0.0,0.0,0,0,,0,0,0,0,0,0,,UCLA,2022
+Shea Pitts,shea-pitts-1,/cfb/players/shea-pitts-1.html,LB,8,4,1,5,0.0,0.0,0,0,,0,0,0,0,0,0,,UCLA,2022
+James Dinneen,james-dinneen-1,/cfb/players/james-dinneen-1.html,LB,9,2,2,4,1.0,1.0,0,0,,0,0,0,0,0,0,,UCLA,2022
+Isaiah Newcombe,isaiah-newcombe-1,/cfb/players/isaiah-newcombe-1.html,DB,10,2,2,4,0.0,0.0,0,0,,0,0,0,0,0,0,,UCLA,2022
+Adam Cohen,adam-cohen-1,/cfb/players/adam-cohen-1.html,LB,2,2,1,3,1.0,0.0,0,0,,0,0,0,0,0,0,,UCLA,2022
+Matt Sykes,matt-sykes-1,/cfb/players/matt-sykes-1.html,WR,13,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,UCLA,2022
+Martin Andrus,martin-andrus-1,/cfb/players/martin-andrus-1.html,DL,3,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,UCLA,2022
+Colson Yankoff,colson-yankoff-1,/cfb/players/colson-yankoff-1.html,RB,11,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,UCLA,2022
+Devin Aupiu,devin-aupiu-1,/cfb/players/devin-aupiu-1.html,DL,8,1,1,2,0.5,0.0,0,0,,0,0,0,0,0,0,,UCLA,2022
+Clint Stephens,clint-stephens-3,/cfb/players/clint-stephens-3.html,DB,1,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,UCLA,2022
+Kam Brown,kam-brown-1,/cfb/players/kam-brown-1.html,WR,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UCLA,2022
+Logan Loya,logan-loya-1,/cfb/players/logan-loya-1.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UCLA,2022
+DJ Justice,dj-justice-1,/cfb/players/dj-justice-1.html,DB,3,1,0,1,0.0,0.0,1,0,0.0,0,0,0,0,0,0,,UCLA,2022
+Josiah Norwood,josiah-norwood-1,/cfb/players/josiah-norwood-1.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UCLA,2022
+Michael Ezeike,michael-ezeike-1,/cfb/players/michael-ezeike-1.html,TE,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UCLA,2022
+RJ Lopez,rj-lopez-1,/cfb/players/rj-lopez-1.html,K,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UCLA,2022
+Garrett DiGiorgio,garrett-digiorgio-1,/cfb/players/garrett-digiorgio-1.html,OL,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UCLA,2022
+Hudson Habermehl,hudson-habermehl-1,/cfb/players/hudson-habermehl-1.html,TE,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UCLA,2022
+Carsen Ryan,carsen-ryan-1,/cfb/players/carsen-ryan-1.html,RB,5,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UCLA,2022
+TJ Harden,tj-harden-1,/cfb/players/tj-harden-1.html,RB,6,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UCLA,2022
+Jack Landherr IV,jack-landherr-iv-1,/cfb/players/jack-landherr-iv-1.html,LS,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,1,,UCLA,2022

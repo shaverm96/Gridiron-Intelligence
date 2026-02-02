@@ -1,0 +1,52 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+T.J. Edwards,tj-edwards-3,/cfb/players/tj-edwards-3.html,LB,13,73,40,113,11.5,3.0,3,31,10.3,0,2,1,0,0,0,,Wisconsin,2018
+Ryan Connelly,ryan-connelly-1,/cfb/players/ryan-connelly-1.html,LB,12,56,33,89,10.0,3.0,0,0,,0,1,0,0,0,1,,Wisconsin,2018
+Zack Baun,zack-baun-1,/cfb/players/zack-baun-1.html,LB,13,37,26,63,7.5,2.5,1,7,7.0,0,2,1,0,0,0,,Wisconsin,2018
+Andrew Van Ginkel,andrew-van-ginkel-1,/cfb/players/andrew-van-ginkel-1.html,LB,13,38,22,60,9.5,5.5,0,0,,0,3,0,0,0,2,,Wisconsin,2018
+D'Cota Dixon,dcota-dixon-1,/cfb/players/dcota-dixon-1.html,S,9,28,15,43,2.5,0.0,0,0,,0,3,1,0,0,1,,Wisconsin,2018
+Eric Burrell,eric-burrell-1,/cfb/players/eric-burrell-1.html,S,13,24,18,42,0.0,0.0,1,30,30.0,0,2,0,0,0,2,,Wisconsin,2018
+Scott Nelson,scott-nelson-4,/cfb/players/scott-nelson-4.html,S,9,22,19,41,3.5,0.0,1,22,22.0,0,6,0,0,0,1,,Wisconsin,2018
+Faion Hicks,falon-hicks-1,/cfb/players/falon-hicks-1.html,CB,12,28,7,35,1.0,0.0,1,0,0.0,0,3,0,0,0,0,,Wisconsin,2018
+Matt Henningsen,matt-henningsen-1,/cfb/players/matt-henningsen-1.html,DE,13,8,24,32,2.5,1.0,0,0,,0,1,0,0,0,0,,Wisconsin,2018
+Rachad Wildgoose,rachad-wildgoose-1,/cfb/players/rachad-wildgoose-1.html,CB,11,22,7,29,0.0,0.0,0,0,,0,7,2,0,0,0,,Wisconsin,2018
+Chris Orr,chris-orr-2,/cfb/players/chris-orr-2.html,LB,13,14,13,27,1.0,0.0,1,0,0.0,0,0,2,0,0,0,,Wisconsin,2018
+Caesar Williams,caesar-williams-1,/cfb/players/caesar-williams-1.html,CB,12,17,7,24,0.0,0.0,1,2,2.0,0,3,0,0,0,0,,Wisconsin,2018
+Olive Sagapolu,olive-sagapolu-1,/cfb/players/olive-sagapolu-1.html,NT,8,14,9,23,4.5,2.0,1,4,4.0,0,0,1,0,0,0,,Wisconsin,2018
+Madison Cone,madison-cone-1,/cfb/players/madison-cone-1.html,CB,12,14,5,19,0.5,0.0,2,2,1.0,0,1,0,0,0,0,,Wisconsin,2018
+Evan Bondoc,evan-bondoc-1,/cfb/players/evan-bondoc-1.html,S,13,12,4,16,1.5,0.0,2,0,0.0,0,1,0,0,0,1,,Wisconsin,2018
+Isaiahh Loudermilk,isaiahh-loudermilk-1,/cfb/players/isaiahh-loudermilk-1.html,DE,9,8,7,15,2.5,1.0,0,0,,0,3,0,0,0,0,,Wisconsin,2018
+Bryson Williams,bryson-williams-1,/cfb/players/bryson-williams-1.html,NT,13,6,6,12,0.0,0.0,0,0,,0,1,0,0,0,0,,Wisconsin,2018
+David Pfaff,david-pfaff-1,/cfb/players/david-pfaff-1.html,DE,10,5,6,11,0.0,0.0,0,0,,0,0,0,0,0,0,,Wisconsin,2018
+Deron Harrell,deron-harrell-1,/cfb/players/deron-harrell-1.html,CB,10,6,4,10,0.0,0.0,0,0,,0,2,0,0,0,0,,Wisconsin,2018
+Tyler Johnson,tyler-johnson-2,/cfb/players/tyler-johnson-2.html,LB,10,6,4,10,3.0,0.0,0,0,,0,1,0,0,0,1,,Wisconsin,2018
+Jack Sanborn,jack-sanborn-1,/cfb/players/jack-sanborn-1.html,LB,11,4,3,7,0.0,0.0,0,0,,0,1,0,0,0,1,,Wisconsin,2018
+Kayden Lyles,kayden-lyles-1,/cfb/players/kayden-lyles-1.html,NT,12,4,3,7,0.0,0.0,0,0,,0,0,1,0,0,0,,Wisconsin,2018
+Griffin Grady,griffin-grady-1,/cfb/players/griffin-grady-1.html,LB,9,3,3,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Wisconsin,2018
+Donte Burton,donte-burton-1,/cfb/players/donte-burton-1.html,CB,5,5,0,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Wisconsin,2018
+Reggie Pearson Jr.,reggie-pearson-jr-1,/cfb/players/reggie-pearson-jr-1.html,S,4,2,3,5,1.0,0.0,0,0,,0,0,0,0,0,1,,Wisconsin,2018
+Noah Burks,noah-burks-2,/cfb/players/noah-burks-2.html,,13,2,2,4,0.0,0.0,0,0,,0,0,0,0,0,1,,Wisconsin,2018
+Mike Maskalunas,mike-maskalunas-2,/cfb/players/mike-maskalunas-2.html,,9,1,3,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Wisconsin,2018
+Noah Burks,noah-burks-1,/cfb/players/noah-burks-1.html,LB,3,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,1,,Wisconsin,2018
+Aaron Vopal,aaron-vopal-1,/cfb/players/aaron-vopal-1.html,DE,8,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Wisconsin,2018
+Christian Bell,christian-bell-1,/cfb/players/christian-bell-1.html,LB,10,1,1,2,0.0,0.0,0,0,,0,1,0,0,0,0,,Wisconsin,2018
+Seth Currens,seth-currens-1,/cfb/players/seth-currens-1.html,S,13,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Wisconsin,2018
+Mike Maskalunas,mike-maskalunas-1,/cfb/players/mike-maskalunas-1.html,LB,1,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Wisconsin,2018
+Jack Dunn,jack-dunn-1,/cfb/players/jack-dunn-1.html,WR,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Wisconsin,2018
+Taiwan Deal,taiwan-deal-1,/cfb/players/taiwan-deal-1.html,RB,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Wisconsin,2018
+Tyler Biadasz,tyler-biadasz-1,/cfb/players/tyler-biadasz-1.html,OL,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Wisconsin,2018
+Michael Deiter,michael-deiter-1,/cfb/players/michael-deiter-1.html,OL,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Wisconsin,2018
+Kyle Penniston,kyle-penniston-1,/cfb/players/kyle-penniston-1.html,TE,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Wisconsin,2018
+John Chenal,john-chenal-1,/cfb/players/john-chenal-1.html,FB,8,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Wisconsin,2018
+Jake Ferguson,jake-ferguson-1,/cfb/players/jake-ferguson-1.html,TE,13,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Wisconsin,2018
+Jack Dunn,jack-dunn-2,/cfb/players/jack-dunn-2.html,,13,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Wisconsin,2018
+Izayah Green-May,izayah-green-may-1,/cfb/players/izayah-green-may-1.html,,6,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Wisconsin,2018
+Garrett Groshek,garrett-groshek-1,/cfb/players/garrett-groshek-1.html,RB,13,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Wisconsin,2018
+David Edwards,david-edwards-3,/cfb/players/david-edwards-3.html,OL,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Wisconsin,2018
+Anthony Lotti,anthony-lotti-1,/cfb/players/anthony-lotti-1.html,P,8,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Wisconsin,2018
+Alexander Smith,alexander-smith-1,/cfb/players/alexander-smith-1.html,CB,3,1,0,1,0.0,0.0,0,0,,0,1,0,0,0,0,,Wisconsin,2018
+Alex Hornibrook,alex-hornibrook-1,/cfb/players/alex-hornibrook-1.html,QB,9,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Wisconsin,2018
+Alec Ingold,alec-ingold-1,/cfb/players/alec-ingold-1.html,FB,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Wisconsin,2018
+Adam Krumholz,adam-krumholz-1,/cfb/players/adam-krumholz-1.html,WR,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Wisconsin,2018
+Adam Bay,adam-bay-1,/cfb/players/adam-bay-1.html,LS,13,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Wisconsin,2018
+Cole Van Lanen,cole-van-lanen-1,/cfb/players/cole-van-lanen-1.html,OL,13,0,0,0,0.0,0.0,0,0,,0,0,1,0,0,0,,Wisconsin,2018
+Travian Blaylock,travian-blaylock-1,/cfb/players/travian-blaylock-1.html,CB,4,0,0,0,0.0,0.0,0,0,,0,0,1,0,0,0,,Wisconsin,2018

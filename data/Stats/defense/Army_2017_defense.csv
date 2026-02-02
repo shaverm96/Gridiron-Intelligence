@@ -1,0 +1,47 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+James Nachtigal,james-nachtigal-1,/cfb/players/james-nachtigal-1.html,LB,13,53,50,103,8.0,5.0,0,0,,0,3,0,0,0,0,,Army,2017
+Cole Christiansen,cole-christiansen-1,/cfb/players/cole-christiansen-1.html,LB,13,48,36,84,5.0,0.0,1,7,7.0,0,1,0,0,0,0,,Army,2017
+Alex Aukerman,alex-aukerman-1,/cfb/players/alex-aukerman-1.html,LB,13,46,24,70,15.5,7.0,1,11,11.0,0,1,1,5,0,1,,Army,2017
+James Gibson,james-gibson-2,/cfb/players/james-gibson-2.html,DB,13,34,11,45,0.5,0.0,0,0,,0,5,0,0,0,0,,Army,2017
+Jaylon McClinton,jaylon-mcclinton-1,/cfb/players/jaylon-mcclinton-1.html,DB,10,30,14,44,1.5,1.0,1,27,27.0,0,0,0,0,0,2,,Army,2017
+Gibby Gibson,gibby-gibson-1,/cfb/players/gibby-gibson-1.html,DB,12,32,11,43,0.5,0.0,0,0,,0,5,0,0,0,0,,Army,2017
+Kenneth Brinson,kenneth-brinson-1,/cfb/players/kenneth-brinson-1.html,LB,13,23,15,38,4.5,4.0,0,0,,0,4,2,16,0,1,,Army,2017
+Rhyan England,rhyan-england-1,/cfb/players/rhyan-england-1.html,DB,8,21,12,33,0.0,0.0,0,0,,0,3,1,0,0,0,,Army,2017
+Max Regan,max-regan-1,/cfb/players/max-regan-1.html,DB,13,21,12,33,0.5,0.0,2,48,24.0,1,3,1,4,0,1,,Army,2017
+John Voit,john-voit-1,/cfb/players/john-voit-1.html,DL,13,21,10,31,7.5,5.5,0,0,,0,2,0,0,0,0,,Army,2017
+Cameron Jones,cameron-jones-5,/cfb/players/cameron-jones-5.html,DB,12,19,10,29,1.0,0.0,0,0,,0,1,0,0,0,0,,Army,2017
+Wunmi Oyetuga,wunmi-oyetuga-1,/cfb/players/wunmi-oyetuga-1.html,DL,13,15,13,28,3.0,0.0,0,0,,0,0,0,0,0,0,,Army,2017
+Raymond Wright,raymond-wright-1,/cfb/players/raymond-wright-1.html,DL,13,10,12,22,1.0,1.0,0,0,,0,0,0,0,0,0,,Army,2017
+Scott Washle,scott-washle-1,/cfb/players/scott-washle-1.html,LB,13,11,11,22,1.0,0.0,0,0,,0,0,1,0,0,0,,Army,2017
+Mike Reynolds,mike-reynolds-3,/cfb/players/mike-reynolds-3.html,DB,11,18,4,22,0.0,0.0,0,0,,0,7,0,0,0,0,,Army,2017
+Elijah Riley,elijah-riley-1,/cfb/players/elijah-riley-1.html,DB,5,13,7,20,1.5,1.5,1,0,0.0,0,2,1,29,1,0,,Army,2017
+Javhari Bourdeau,javhari-bourdeau-1,/cfb/players/javhari-bourdeau-1.html,DB,13,7,5,12,0.0,0.0,0,0,,0,0,0,0,0,1,,Army,2017
+Chandler Ramirez,chandler-ramirez-1,/cfb/players/chandler-ramirez-1.html,LB,13,7,4,11,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2017
+Jalen Sharp,jalen-sharp-1,/cfb/players/jalen-sharp-1.html,DB,2,8,2,10,0.0,0.0,0,0,,0,0,0,0,1,0,,Army,2017
+Jarrod Jones,jarrod-jones-1,/cfb/players/jarrod-jones-1.html,LB,13,6,2,8,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2017
+Justin Thomas Jr.,justin-thomas-jr-1,/cfb/players/justin-thomas-jr-1.html,DB,13,5,2,7,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2017
+Andrew McLean,andrew-mclean-1,/cfb/players/andrew-mclean-1.html,DL,6,4,2,6,0.0,0.0,0,0,,0,0,1,0,0,0,,Army,2017
+Nick Schrage,nick-schrage-1,/cfb/players/nick-schrage-1.html,K,13,5,1,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2017
+Bayle Wolf,bayle-wolf-1,/cfb/players/bayle-wolf-1.html,LB,13,3,2,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2017
+Ryan Parker,ryan-parker-1,/cfb/players/ryan-parker-1.html,LB,11,1,4,5,0.0,0.0,0,0,,0,1,0,0,0,0,,Army,2017
+Donavan Lynch,donavan-lynch-1,/cfb/players/donavan-lynch-1.html,LB,13,4,1,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2017
+Glen Coates,glen-coates-1,/cfb/players/glen-coates-1.html,WR,12,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2017
+Gavin Bassett,gavin-bassett-1,/cfb/players/gavin-bassett-1.html,LB,7,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2017
+Ryan Grady III,ryan-grady-iii-1,/cfb/players/ryan-grady-iii-1.html,LB,6,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2017
+Aaron Jones,aaron-jones-8,/cfb/players/aaron-jones-8.html,LB,10,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2017
+Jake Ellington,jake-ellington-1,/cfb/players/jake-ellington-1.html,LB,5,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2017
+Connor Slomka,connor-slomka-1,/cfb/players/connor-slomka-1.html,RB,13,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2017
+Cordarrell Davis,cordarrell-davis-1,/cfb/players/cordarrell-davis-1.html,DL,4,1,1,2,0.5,0.0,0,0,,0,0,0,0,0,0,,Army,2017
+Landon Salyers,landon-salyers-1,/cfb/players/landon-salyers-1.html,K,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2017
+Connor Smith,connor-smith-2,/cfb/players/connor-smith-2.html,OL,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2017
+Kell Walker,kell-walker-1,/cfb/players/kell-walker-1.html,RB,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2017
+Jordan Asberry,jordan-asberry-1,/cfb/players/jordan-asberry-1.html,RB,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2017
+Calen Holt,calen-holt-1,/cfb/players/calen-holt-1.html,RB,13,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2017
+Richard Hanson,richard-hanson-2,/cfb/players/richard-hanson-2.html,DB,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2017
+Rod Stoddard II,rod-stoddard-ii-1,/cfb/players/rod-stoddard-ii-1.html,DL,7,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2017
+Joe Stephenson,joe-stephenson-1,/cfb/players/joe-stephenson-1.html,LB,3,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2017
+Jeff Ejekam,jeff-ejekam-1,/cfb/players/jeff-ejekam-1.html,WR,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2017
+Ryan Velez,ryan-velez-1,/cfb/players/ryan-velez-1.html,DB,4,0,1,1,0.0,0.0,0,0,,0,0,1,4,0,0,,Army,2017
+Hayden Haupt,hayden-haupt-1,/cfb/players/hayden-haupt-1.html,LB,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2017
+Jacob Covington,jacob-covington-1,/cfb/players/jacob-covington-1.html,LB,4,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2017
+Zach Potter,zach-potter-2,/cfb/players/zach-potter-2.html,P,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Army,2017

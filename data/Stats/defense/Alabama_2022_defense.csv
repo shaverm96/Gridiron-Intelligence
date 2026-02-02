@@ -1,0 +1,40 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Demarcco Hellams,demarcco-hellams-1,/cfb/players/demarcco-hellams-1.html,DB,13,67,41,108,3.0,1.0,1,0,0.0,0,7,1,0,0,1,,Alabama,2022
+Henry To'oto'o,henry-tootoo-1,/cfb/players/henry-tootoo-1.html,LB,13,45,49,94,8.0,2.5,0,0,,0,0,0,0,0,0,,Alabama,2022
+Brian Branch,brian-branch-1,/cfb/players/brian-branch-1.html,DB,13,58,32,90,14.0,3.0,2,2,1.0,0,7,0,0,0,0,,Alabama,2022
+Jordan Battle,jordan-battle-1,/cfb/players/jordan-battle-1.html,DB,13,34,37,71,0.5,0.0,1,0,0.0,0,2,0,0,0,0,,Alabama,2022
+Will Anderson Jr.,will-anderson-jr-1,/cfb/players/will-anderson-jr-1.html,LB,13,24,27,51,17.0,10.0,1,25,25.0,1,1,0,0,0,0,"Nagurski,Bednarik,AA",Alabama,2022
+Deontae Lawson,deontae-lawson-1,/cfb/players/deontae-lawson-1.html,LB,11,24,27,51,2.5,0.0,0,0,,0,4,0,0,0,0,,Alabama,2022
+Jaylen Moody,jaylen-moody-1,/cfb/players/jaylen-moody-1.html,LB,10,24,26,50,8.0,2.0,0,0,,0,0,1,0,0,0,,Alabama,2022
+Byron Young,byron-young-1,/cfb/players/byron-young-1.html,DL,13,20,28,48,5.5,4.0,0,0,,0,2,0,0,0,1,,Alabama,2022
+Terrion Arnold,terrion-arnold-1,/cfb/players/terrion-arnold-1.html,DB,11,34,11,45,1.0,0.0,1,21,21.0,0,8,1,0,0,0,,Alabama,2022
+Dallas Turner,dallas-turner-1,/cfb/players/dallas-turner-1.html,LB,13,16,21,37,8.0,4.0,0,0,,0,0,1,11,1,0,,Alabama,2022
+Kool-Aid McKinstry,kool-aid-mckinstry-1,/cfb/players/kool-aid-mckinstry-1.html,DB,13,29,6,35,2.0,1.0,1,26,26.0,0,15,0,0,0,0,,Alabama,2022
+Malachi Moore,malachi-moore-2,/cfb/players/malachi-moore-2.html,DB,13,19,12,31,1.5,1.5,0,0,,0,5,0,0,0,0,,Alabama,2022
+Jaheim Oatis,jaheim-oatis-1,/cfb/players/jaheim-oatis-1.html,DL,12,10,19,29,2.0,1.0,0,0,,0,2,0,0,0,0,,Alabama,2022
+Chris Braswell,chris-braswell-1,/cfb/players/chris-braswell-1.html,LB,13,8,12,20,4.0,2.5,0,0,,0,0,0,0,0,1,,Alabama,2022
+Tim Smith,tim-smith-8,/cfb/players/tim-smith-8.html,DL,13,8,12,20,2.0,1.0,0,0,,0,0,0,0,0,0,,Alabama,2022
+DJ Dale,dj-dale-1,/cfb/players/dj-dale-1.html,DL,12,7,10,17,3.5,2.5,0,0,,0,1,1,0,0,0,,Alabama,2022
+Eli Ricks,eli-ricks-1,/cfb/players/eli-ricks-1.html,DB,9,8,5,13,1.0,0.0,0,0,,0,4,0,0,0,0,,Alabama,2022
+Justin Eboigbe,justin-eboigbe-1,/cfb/players/justin-eboigbe-1.html,DL,4,5,6,11,0.5,0.0,0,0,,0,0,0,0,0,0,,Alabama,2022
+Jamil Burroughs,jamil-burroughs-1,/cfb/players/jamil-burroughs-1.html,DL,11,4,4,8,2.0,1.0,0,0,,0,0,0,0,0,0,,Alabama,2022
+Damon Payne Jr.,damon-payne-jr-1,/cfb/players/damon-payne-jr-1.html,DL,5,4,3,7,0.5,0.0,0,0,,0,0,1,0,0,0,,Alabama,2022
+Khyree Jackson,khyree-jackson-1,/cfb/players/khyree-jackson-1.html,DB,9,6,1,7,1.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2022
+Quandarrius Robinson,quandarrius-robinson-1,/cfb/players/quandarrius-robinson-1.html,LB,13,3,4,7,0.5,0.5,0,0,,0,0,0,0,0,0,,Alabama,2022
+Roydell Williams,roydell-williams-2,/cfb/players/roydell-williams-2.html,RB,13,4,2,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2022
+Kendrick Blackshire,kendrick-blackshire-1,/cfb/players/kendrick-blackshire-1.html,LB,8,2,4,6,1.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2022
+Kendrick Law,kendrick-law-1,/cfb/players/kendrick-law-1.html,WR,11,3,2,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2022
+Kristian Story,kristian-story-1,/cfb/players/kristian-story-1.html,DB,13,5,0,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2022
+Jah-Marien Latham,jah-marien-latham-1,/cfb/players/jah-marien-latham-1.html,DL,12,1,3,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2022
+Emmanuel Henderson,emmanuel-henderson-1,/cfb/players/emmanuel-henderson-1.html,WR,12,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2022
+Jahquez Robinson,jahquez-robinson-1,/cfb/players/jahquez-robinson-1.html,DB,6,1,1,2,0.5,0.5,0,0,,0,0,0,0,0,0,,Alabama,2022
+Shawn Murphy,shawn-murphy-3,/cfb/players/shawn-murphy-3.html,LB,5,2,0,2,0.0,0.0,0,0,,0,1,0,0,0,0,,Alabama,2022
+Isaiah Hastings,isaiah-hastings-1,/cfb/players/isaiah-hastings-1.html,DL,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2022
+Demouy Kennedy,demouy-kennedy-1,/cfb/players/demouy-kennedy-1.html,LB,5,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2022
+Christian Leary,christian-leary-1,/cfb/players/christian-leary-1.html,WR,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2022
+Ian Jackson,ian-jackson-1,/cfb/players/ian-jackson-1.html,LB,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2022
+Tim Keenan III,tim-keenan-iii-1,/cfb/players/tim-keenan-iii-1.html,DL,2,0,1,1,0.5,0.0,0,0,,0,0,0,0,0,0,,Alabama,2022
+Jihaad Campbell,jihaad-campbell-1,/cfb/players/jihaad-campbell-1.html,LB,9,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2022
+Jeremiah Alexander,jeremiah-alexander-1,/cfb/players/jeremiah-alexander-1.html,LB,4,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2022
+Will Reichard,will-reichard-1,/cfb/players/will-reichard-1.html,K,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Alabama,2022
+Kneeland Hibbett,kneeland-hibbett-1,/cfb/players/kneeland-hibbett-1.html,LS,13,0,0,0,0.0,0.0,0,0,,0,0,1,0,0,0,,Alabama,2022

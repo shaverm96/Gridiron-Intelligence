@@ -1,0 +1,50 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+James Skalski,james-skalski-1,/cfb/players/james-skalski-1.html,LB,13,42,48,90,4.5,2.5,0,0,,0,4,0,0,0,0,,Clemson,2021
+Baylon Spector,baylon-spector-1,/cfb/players/baylon-spector-1.html,LB,11,37,38,75,4.5,2.5,1,3,3.0,0,1,1,0,0,1,,Clemson,2021
+Trenton Simpson,trenton-simpson-1,/cfb/players/trenton-simpson-1.html,LB,13,41,23,64,12.0,6.0,0,0,,0,2,0,0,0,0,,Clemson,2021
+Andrew Mukuba,andrew-mukuba-1,/cfb/players/andrew-mukuba-1.html,S,13,30,17,47,2.0,1.0,0,0,,0,7,1,0,0,0,,Clemson,2021
+Nolan Turner,nolan-turner-1,/cfb/players/nolan-turner-1.html,S,10,29,17,46,2.0,2.0,1,2,2.0,0,0,0,0,0,1,,Clemson,2021
+Mario Goodrich,mario-goodrich-1,/cfb/players/mario-goodrich-1.html,CB,12,26,16,42,0.0,0.0,2,20,10.0,1,10,0,0,0,1,,Clemson,2021
+Myles Murphy,myles-murphy-1,/cfb/players/myles-murphy-1.html,DE,13,21,17,38,14.0,7.0,0,0,,0,2,0,0,0,2,,Clemson,2021
+Andrew Booth Jr.,andrew-booth-jr-1,/cfb/players/andrew-booth-jr-1.html,CB,11,26,11,37,3.0,0.0,3,0,0.0,0,5,0,0,0,0,,Clemson,2021
+Ruke Orhorhoro,ruke-orhorhoro-1,/cfb/players/ruke-orhorhoro-1.html,DT,13,11,25,36,8.0,2.5,0,0,,0,3,1,0,0,0,,Clemson,2021
+R.J. Mickens,rj-mickens-1,/cfb/players/rj-mickens-1.html,S,13,13,17,30,0.5,0.0,2,37,18.5,0,0,0,0,0,0,,Clemson,2021
+LaVonta Bentley,lavonta-bentley-1,/cfb/players/lavonta-bentley-1.html,LB,11,17,13,30,4.0,1.0,0,0,,0,0,0,0,0,1,,Clemson,2021
+Jalyn Phillips,jalyn-phillips-1,/cfb/players/jalyn-phillips-1.html,S,12,18,12,30,1.0,0.0,0,0,,0,1,0,0,0,1,,Clemson,2021
+Tyler Venables,tyler-venables-1,/cfb/players/tyler-venables-1.html,S,12,15,12,27,1.5,1.0,1,7,7.0,0,2,0,0,0,0,,Clemson,2021
+Tyler Davis,tyler-davis-4,/cfb/players/tyler-davis-4.html,DT,9,8,15,23,2.5,2.5,0,0,,0,0,1,0,0,0,,Clemson,2021
+Xavier Thomas,xavier-thomas-1,/cfb/players/xavier-thomas-1.html,DE,12,12,9,21,5.5,3.5,0,0,,0,1,0,0,0,2,,Clemson,2021
+Sheridan Jones,sheridan-jones-1,/cfb/players/sheridan-jones-1.html,CB,13,15,6,21,0.0,0.0,1,0,0.0,0,2,0,0,0,0,,Clemson,2021
+K.J. Henry,kj-henry-1,/cfb/players/kj-henry-1.html,DE,13,13,7,20,6.5,4.5,0,0,,0,0,1,0,0,1,,Clemson,2021
+Barrett Carter,barrett-carter-1,/cfb/players/barrett-carter-1.html,LB,13,6,10,16,1.0,0.0,0,0,,0,1,1,3,1,0,,Clemson,2021
+Jeremiah Trotter Jr.,jeremiah-trotter-jr-1,/cfb/players/jeremiah-trotter-jr-1.html,LB,13,9,6,15,1.0,1.0,0,0,,0,0,0,0,0,0,,Clemson,2021
+Etinosa Reuben,etinosa-reuben-1,/cfb/players/etinosa-reuben-1.html,DT,12,8,6,14,3.5,2.5,0,0,,0,1,1,0,0,0,,Clemson,2021
+Malcolm Greene,malcolm-greene-1,/cfb/players/malcolm-greene-1.html,CB,10,8,5,13,1.0,0.0,0,0,,0,2,0,0,0,0,,Clemson,2021
+Bryan Bresee,bryan-bresee-1,/cfb/players/bryan-bresee-1.html,DT,4,5,7,12,3.0,1.5,1,0,0.0,0,0,0,0,0,0,,Clemson,2021
+Justin Mascoll,justin-mascoll-1,/cfb/players/justin-mascoll-1.html,DE,11,4,7,11,0.0,0.0,0,0,,0,2,0,0,0,0,,Clemson,2021
+Tre Williams,tre-williams-4,/cfb/players/tre-williams-4.html,DT,11,3,7,10,4.0,1.0,0,0,,0,0,0,0,0,0,,Clemson,2021
+Keith Maguire,keith-maguire-1,/cfb/players/keith-maguire-1.html,LB,12,4,5,9,0.0,0.0,0,0,,0,1,0,0,0,0,,Clemson,2021
+Ray Thornton III,ray-thornton-iii-1,/cfb/players/ray-thornton-iii-1.html,S,12,5,3,8,1.0,0.0,0,0,,0,1,0,0,0,0,,Clemson,2021
+Kevin Swint,kevin-swint-1,/cfb/players/kevin-swint-1.html,DE,10,6,2,8,3.0,0.0,0,0,,0,0,0,0,0,0,,Clemson,2021
+Joseph Charleston,joseph-charleston-1,/cfb/players/joseph-charleston-1.html,S,4,3,3,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Clemson,2021
+Fred Davis II,fred-davis-ii-1,/cfb/players/fred-davis-ii-1.html,CB,9,2,4,6,0.5,0.0,0,0,,0,0,0,0,0,0,,Clemson,2021
+Davis Allen,davis-allen-1,/cfb/players/davis-allen-1.html,TE,13,4,1,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Clemson,2021
+Sergio Allen,sergio-allen-1,/cfb/players/sergio-allen-1.html,LB,9,2,3,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Clemson,2021
+Greg Williams,greg-williams-14,/cfb/players/greg-williams-14.html,DE,4,2,3,5,0.5,0.0,0,0,,0,1,0,0,0,0,,Clemson,2021
+Justin Foster,justin-foster-1,/cfb/players/justin-foster-1.html,DE,5,2,3,5,0.0,0.0,0,0,,0,1,0,0,0,0,,Clemson,2021
+Carson Donnelly,carson-donnelly-1,/cfb/players/carson-donnelly-1.html,S,13,3,1,4,0.0,0.0,0,0,,0,1,0,0,0,0,,Clemson,2021
+Kane Patterson,kane-patterson-1,/cfb/players/kane-patterson-1.html,LB,12,1,3,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Clemson,2021
+Payton Page,payton-page-1,/cfb/players/payton-page-1.html,DT,12,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Clemson,2021
+Jake Venables,jake-venables-1,/cfb/players/jake-venables-1.html,LB,5,1,2,3,1.5,0.0,0,0,,0,0,0,0,0,0,,Clemson,2021
+Joseph Ngata,joseph-ngata-1,/cfb/players/joseph-ngata-1.html,WR,9,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Clemson,2021
+Regan Upshaw,regan-upshaw-2,/cfb/players/regan-upshaw-2.html,DE,11,1,2,3,0.5,0.0,0,0,,0,0,0,0,0,0,,Clemson,2021
+Matthew Maloney,matthew-maloney-1,/cfb/players/matthew-maloney-1.html,LB,5,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Clemson,2021
+Nate Wiggins,nate-wiggins-1,/cfb/players/nate-wiggins-1.html,CB,11,1,1,2,0.0,0.0,0,0,,0,2,0,0,0,0,,Clemson,2021
+Lannden Zanders,lannden-zanders-1,/cfb/players/lannden-zanders-1.html,S,1,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Clemson,2021
+E.J. Williams,ej-williams-2,/cfb/players/ej-williams-2.html,WR,8,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Clemson,2021
+Elijah Rodgers,elijah-rodgers-1,/cfb/players/elijah-rodgers-1.html,CB,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Clemson,2021
+Darnell Jefferies,darnell-jefferies-1,/cfb/players/darnell-jefferies-1.html,DT,6,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Clemson,2021
+B.T. Potter,bt-potter-1,/cfb/players/bt-potter-1.html,PK,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Clemson,2021
+Jack Maddox,jack-maddox-1,/cfb/players/jack-maddox-1.html,LS,13,1,0,1,0.0,0.0,0,0,,0,0,1,0,0,0,,Clemson,2021
+Jack McCall,jack-mccall-1,/cfb/players/jack-mccall-1.html,CB,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Clemson,2021
+Will Brown,will-brown-2,/cfb/players/will-brown-2.html,WR,11,0,0,0,0.0,0.0,0,0,,0,0,1,0,0,0,,Clemson,2021

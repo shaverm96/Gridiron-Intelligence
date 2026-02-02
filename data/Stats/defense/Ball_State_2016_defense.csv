@@ -1,0 +1,44 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Sean Wiggins,sean-wiggins-1,/cfb/players/sean-wiggins-1.html,LB,12,62,47,109,7.0,0.0,0,0,,0,1,0,0,0,1,,Ball State,2016
+Aaron Taylor,aaron-taylor-3,/cfb/players/aaron-taylor-3.html,S,12,49,36,85,11.5,1.5,0,0,,0,2,0,0,0,0,,Ball State,2016
+Corey Hall,corey-hall-2,/cfb/players/corey-hall-2.html,DB,12,48,30,78,2.5,0.0,1,11,11.0,0,3,1,0,0,2,,Ball State,2016
+Martez Hester,martez-hester-1,/cfb/players/martez-hester-1.html,S,12,39,33,72,2.0,1.0,1,10,10.0,0,3,1,0,0,1,,Ball State,2016
+Zack Ryan,zack-ryan-1,/cfb/players/zack-ryan-1.html,LB,12,33,36,69,7.5,2.5,1,2,2.0,0,1,0,0,0,1,,Ball State,2016
+Marc Walton,marc-walton-1,/cfb/players/marc-walton-1.html,DB,12,37,26,63,2.0,0.0,3,19,6.3,0,11,1,0,0,0,,Ball State,2016
+Josh Miller,josh-miller-4,/cfb/players/josh-miller-4.html,DB,12,37,11,48,2.5,0.0,1,0,0.0,0,6,0,0,0,1,,Ball State,2016
+Stu Stanley,stu-stanley-1,/cfb/players/stu-stanley-1.html,LB,12,15,19,34,1.0,1.0,0,0,,0,0,0,0,0,1,,Ball State,2016
+David Moore,david-moore-1,/cfb/players/david-moore-1.html,DB,10,21,12,33,0.0,0.0,0,0,,0,10,1,4,0,0,,Ball State,2016
+Josh Posley,josh-posley-1,/cfb/players/josh-posley-1.html,DE,12,14,16,30,10.0,3.0,0,0,,0,0,0,0,0,0,,Ball State,2016
+Anthony Winbush,anthony-winbush-1,/cfb/players/anthony-winbush-1.html,DL,12,15,9,24,10.5,8.5,0,0,,0,1,1,0,0,2,,Ball State,2016
+Kevin Thurmon,kevin-thurmon-2,/cfb/players/kevin-thurmon-2.html,,10,9,14,23,6.5,4.5,0,0,,0,0,0,0,0,1,,Ball State,2016
+Kevin Thurmon,kevin-thurmon-1,/cfb/players/kevin-thurmon-1.html,DL,9,9,14,23,6.5,4.5,0,0,,0,0,0,0,0,1,,Ball State,2016
+Lamar Anderson,lamar-anderson-1,/cfb/players/lamar-anderson-1.html,CB,11,11,11,22,0.5,0.0,0,0,,0,0,1,0,0,0,,Ball State,2016
+Kevin Willis,kevin-willis-1,/cfb/players/kevin-willis-1.html,DT,12,8,14,22,4.5,2.0,0,0,,0,0,1,0,0,0,,Ball State,2016
+John Whitman III,john-whitman-iii-1,/cfb/players/john-whitman-iii-1.html,DT,12,8,14,22,4.0,2.5,0,0,,0,3,0,0,0,0,,Ball State,2016
+Brian Whitaker,brian-whitaker-1,/cfb/players/brian-whitaker-1.html,DE,12,8,11,19,3.0,1.0,0,0,,0,0,0,0,0,0,,Ball State,2016
+Armani McNulty,armani-mcnulty-1,/cfb/players/armani-mcnulty-1.html,DB,9,10,9,19,0.0,0.0,0,0,,0,1,0,0,0,0,,Ball State,2016
+Damon Singleton,damon-singleton-1,/cfb/players/damon-singleton-1.html,LB,11,7,12,19,1.5,0.5,0,0,,0,0,0,0,0,0,,Ball State,2016
+Jeremiah Jackson,jeremiah-jackson-2,/cfb/players/jeremiah-jackson-2.html,LB,12,8,10,18,2.5,2.0,0,0,,0,0,0,0,0,0,,Ball State,2016
+John Swisher,john-swisher-1,/cfb/players/john-swisher-1.html,DL,10,4,8,12,1.0,0.5,0,0,,0,0,0,0,0,1,,Ball State,2016
+Jacob White,jacob-white-1,/cfb/players/jacob-white-1.html,LB,11,7,5,12,0.0,0.0,0,0,,0,0,0,0,0,0,,Ball State,2016
+Chris Crumb,chris-crumb-1,/cfb/players/chris-crumb-1.html,DL,9,3,5,8,1.0,0.5,0,0,,0,0,0,0,0,0,,Ball State,2016
+Teddy Williamson,teddy-williamson-1,/cfb/players/teddy-williamson-1.html,RB,11,4,2,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Ball State,2016
+Reggie McGee,reggie-mcgee-1,/cfb/players/reggie-mcgee-1.html,DL,11,3,2,5,1.0,0.0,0,0,,0,1,0,0,0,0,,Ball State,2016
+Cywettnie Brown,cywettnie-brown-1,/cfb/players/cywettnie-brown-1.html,WR,8,3,2,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Ball State,2016
+Mitch Larsen,mitch-larsen-1,/cfb/players/mitch-larsen-1.html,S,6,3,2,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Ball State,2016
+Aaron Hepp,aaron-hepp-1,/cfb/players/aaron-hepp-1.html,WR,12,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Ball State,2016
+Spencer Gilbert,spencer-gilbert-1,/cfb/players/spencer-gilbert-1.html,RB,8,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Ball State,2016
+Nick Traub,nick-traub-1,/cfb/players/nick-traub-1.html,LS,12,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Ball State,2016
+Tyree Holder,tyree-holder-1,/cfb/players/tyree-holder-1.html,CB,3,2,1,3,0.0,0.0,0,0,,0,1,0,0,0,0,,Ball State,2016
+Dedrick Cromartie,dedrick-cromartie-1,/cfb/players/dedrick-cromartie-1.html,S,2,0,2,2,0.0,0.0,0,0,,0,1,0,0,0,0,,Ball State,2016
+Sean Hammonds Jr.,sean-hammonds-jr-1,/cfb/players/sean-hammonds-jr-1.html,DL,9,1,1,2,1.0,0.0,0,0,,0,1,0,0,0,0,,Ball State,2016
+Steve Drida,steve-drida-1,/cfb/players/steve-drida-1.html,PK,4,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Ball State,2016
+Terin Solomon,terin-solomon-1,/cfb/players/terin-solomon-1.html,LB,8,2,0,2,1.0,1.0,0,0,,0,0,0,0,0,0,,Ball State,2016
+Corey Lacanaria,corey-lacanaria-1,/cfb/players/corey-lacanaria-1.html,WR,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Ball State,2016
+Alex Joss,alex-joss-1,/cfb/players/alex-joss-1.html,OL,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Ball State,2016
+Kevonn Mabon,kevonn-mabon-1,/cfb/players/kevonn-mabon-1.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Ball State,2016
+Akeem Hutchinson,akeem-hutchinson-1,/cfb/players/akeem-hutchinson-1.html,DL,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Ball State,2016
+Kenny Knight Jr.,kenny-knight-jr-1,/cfb/players/kenny-knight-jr-1.html,DL,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Ball State,2016
+Devin Reece,devin-reece-1,/cfb/players/devin-reece-1.html,WR,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Ball State,2016
+Jordan Hogue,jordan-hogue-1,/cfb/players/jordan-hogue-1.html,WR,11,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Ball State,2016
+James Gilbert,james-gilbert-2,/cfb/players/james-gilbert-2.html,RB,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Ball State,2016

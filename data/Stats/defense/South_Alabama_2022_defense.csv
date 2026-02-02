@@ -1,0 +1,43 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Jaden Voisin,jaden-voisin-1,/cfb/players/jaden-voisin-1.html,CB,13,43,36,79,6.0,0.0,2,44,22.0,0,5,1,0,0,1,,South Alabama,2022
+Trey Kiser,trey-kiser-1,/cfb/players/trey-kiser-1.html,LB,13,56,20,76,11.0,2.0,0,0,,0,1,1,0,0,0,,South Alabama,2022
+James Miller,james-miller-1,/cfb/players/james-miller-1.html,LB,13,39,29,68,5.5,2.5,0,0,,0,3,0,0,0,0,,South Alabama,2022
+Jalen Jordan,jalen-jordan-2,/cfb/players/jalen-jordan-2.html,DB,13,38,21,59,1.0,0.0,0,0,,0,0,0,0,0,0,,South Alabama,2022
+Yamarus Banks,yamarus-banks-1,/cfb/players/yamarus-banks-1.html,S,13,35,15,50,6.0,1.0,6,30,5.0,1,11,1,0,0,0,,South Alabama,2022
+Jamie Sheriff,jamie-sheriff-1,/cfb/players/jamie-sheriff-1.html,DL,13,19,24,43,7.5,6.0,0,0,,0,2,0,0,0,1,,South Alabama,2022
+Darrell Luter Jr.,darrell-luter-jr-1,/cfb/players/darrell-luter-jr-1.html,CB,13,29,13,42,0.5,0.0,1,21,21.0,0,7,0,0,0,0,,South Alabama,2022
+Ke'Shun Brown,keshun-brown-1,/cfb/players/keshun-brown-1.html,LB,13,24,15,39,0.0,0.0,2,15,7.5,1,1,0,0,0,2,,South Alabama,2022
+CJ Rias,cj-rias-1,/cfb/players/cj-rias-1.html,LB,12,23,13,36,11.0,4.0,0,0,,0,1,0,0,0,1,,South Alabama,2022
+Wy'Kevious Thomas,wykevious-thomas-1,/cfb/players/wykevious-thomas-1.html,DL,13,15,20,35,5.0,3.0,0,0,,0,0,0,0,0,1,,South Alabama,2022
+Marquise Robinson,marquise-robinson-1,/cfb/players/marquise-robinson-1.html,DB,11,15,13,28,0.0,0.0,0,0,,0,2,0,0,0,0,,South Alabama,2022
+CJ Thompson,cj-thompson-1,/cfb/players/cj-thompson-1.html,S,11,15,6,21,1.0,0.0,1,0,0.0,0,1,0,0,0,0,,South Alabama,2022
+Charles Coleman III,charles-coleman-iii-1,/cfb/players/charles-coleman-iii-1.html,DL,12,11,9,20,5.5,1.5,0,0,,0,0,0,0,0,0,,South Alabama,2022
+AJ DeShazor,aj-deshazor-1,/cfb/players/aj-deshazor-1.html,LB,11,13,5,18,2.0,1.0,1,4,4.0,0,0,0,0,0,0,,South Alabama,2022
+Quentin Wilfawn,quentin-wilfawn-1,/cfb/players/quentin-wilfawn-1.html,LB,4,14,4,18,1.5,0.0,0,0,,0,0,0,0,0,0,,South Alabama,2022
+Brock Higdon,brock-higdon-1,/cfb/players/brock-higdon-1.html,DL,13,11,7,18,8.0,4.0,0,0,,0,1,1,0,0,0,,South Alabama,2022
+Ed Smith IV,ed-smith-iv-1,/cfb/players/ed-smith-iv-1.html,DL,7,9,6,15,1.5,1.0,0,0,,0,0,1,0,0,1,,South Alabama,2022
+Jamar Richardson,jamar-richardson-1,/cfb/players/jamar-richardson-1.html,DB,10,12,2,14,2.0,0.0,0,0,,0,4,0,0,0,0,,South Alabama,2022
+Lamondre Brooks,lamondre-brooks-1,/cfb/players/lamondre-brooks-1.html,DL,8,7,4,11,1.0,0.0,0,0,,0,0,0,0,0,1,,South Alabama,2022
+Rickey Hyatt Jr.,rickey-hyatt-jr-1,/cfb/players/rickey-hyatt-jr-1.html,S,12,7,3,10,0.0,0.0,0,0,,0,0,0,0,0,0,,South Alabama,2022
+Jamall Hickbottom,jamall-hickbottom-1,/cfb/players/jamall-hickbottom-1.html,DL,9,1,8,9,0.5,0.0,0,0,,0,0,0,0,0,0,,South Alabama,2022
+Marvin Martin,marvin-martin-2,/cfb/players/marvin-martin-2.html,DB,7,5,4,9,1.0,0.0,0,0,,0,1,0,0,0,0,,South Alabama,2022
+Gi'Narious Johnson,ginarious-johnson-1,/cfb/players/ginarious-johnson-1.html,DL,12,4,3,7,1.0,1.0,0,0,,0,0,1,0,0,0,,South Alabama,2022
+Maurice Strong Jr.,maurice-strong-jr-1,/cfb/players/maurice-strong-jr-1.html,DL,11,1,6,7,1.5,0.0,0,0,,0,0,0,0,0,0,,South Alabama,2022
+Terry Perry,terry-perry-1,/cfb/players/terry-perry-1.html,DL,11,6,1,7,0.0,0.0,0,0,,0,0,0,0,0,0,,South Alabama,2022
+D.K. Bonhomme,dk-bonhomme-1,/cfb/players/dk-bonhomme-1.html,LB,3,3,3,6,0.0,0.0,0,0,,0,0,0,0,0,0,,South Alabama,2022
+Ricky Fletcher,ricky-fletcher-1,/cfb/players/ricky-fletcher-1.html,DB,13,3,2,5,0.0,0.0,0,0,,0,0,0,0,0,0,,South Alabama,2022
+Khalil Jacobs,khalil-jacobs-1,/cfb/players/khalil-jacobs-1.html,LB,11,2,2,4,0.0,0.0,0,0,,0,0,0,0,0,0,,South Alabama,2022
+Zeke Chapman,zeke-chapman-1,/cfb/players/zeke-chapman-1.html,DL,9,3,1,4,0.0,0.0,0,0,,0,0,1,0,0,0,,South Alabama,2022
+Carlos Johnson,carlos-johnson-3,/cfb/players/carlos-johnson-3.html,DL,9,2,1,3,2.0,1.0,0,0,,0,0,0,0,0,0,,South Alabama,2022
+Jay'juan Townsend,jayjuan-townsend-1,/cfb/players/jayjuan-townsend-1.html,WR,8,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,South Alabama,2022
+Dalton Hughes,dalton-hughes-1,/cfb/players/dalton-hughes-1.html,LB,10,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,South Alabama,2022
+Christopher Wallace Jr.,christopher-wallace-jr-1,/cfb/players/christopher-wallace-jr-1.html,DB,8,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,South Alabama,2022
+Nathan Rawlins-Kibonge,nathan-rawlins-kibonge-1,/cfb/players/nathan-rawlins-kibonge-1.html,DE,3,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,South Alabama,2022
+Tremel States-Jones,tremel-states-jones-1,/cfb/players/tremel-states-jones-1.html,DB,9,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,South Alabama,2022
+James Robinson,james-robinson-5,/cfb/players/james-robinson-5.html,OL,8,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,South Alabama,2022
+Josh McCulloch,josh-mcculloch-1,/cfb/players/josh-mcculloch-1.html,OL,8,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,South Alabama,2022
+Jason Brooks,jason-brooks-2,/cfb/players/jason-brooks-2.html,CB,4,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,South Alabama,2022
+Jalen Wayne,jalen-wayne-1,/cfb/players/jalen-wayne-1.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,South Alabama,2022
+Damarcus Thomas,damarcus-thomas-2,/cfb/players/damarcus-thomas-2.html,TE,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,South Alabama,2022
+Chrystyile Caldwell,chrystyile-caldwell-1,/cfb/players/chrystyile-caldwell-1.html,LB,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,South Alabama,2022
+Braylon McReynolds,braylon-mcreynolds-1,/cfb/players/braylon-mcreynolds-1.html,RB,11,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,South Alabama,2022

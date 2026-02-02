@@ -1,0 +1,44 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Tyler Martinez,tyler-martinez-1,/cfb/players/tyler-martinez-1.html,LB,12,47,49,96,2.5,1.0,0,0,,0,1,0,0,0,0,,New Mexico State,2024
+Da'Marcus Crosby,damarcus-crosby-1,/cfb/players/damarcus-crosby-1.html,DB,12,46,35,81,1.0,0.0,1,0,0.0,0,3,0,0,0,1,,New Mexico State,2024
+Tayden Barnes,tayden-barnes-1,/cfb/players/tayden-barnes-1.html,S,12,38,19,57,1.5,0.0,2,0,0.0,0,6,0,0,0,1,,New Mexico State,2024
+Sone Aupiu,sone-aupiu-1,/cfb/players/sone-aupiu-1.html,LB,12,26,29,55,4.0,0.0,1,0,0.0,0,5,0,0,0,0,,New Mexico State,2024
+Dylan Early,dylan-early-1,/cfb/players/dylan-early-1.html,DB,11,32,17,49,0.5,0.0,1,30,30.0,1,2,0,0,0,0,,New Mexico State,2024
+Dakerric Hobbs,dakerric-hobbs-1,/cfb/players/dakerric-hobbs-1.html,DB,12,25,12,37,2.5,0.0,1,0,0.0,0,6,0,0,0,0,,New Mexico State,2024
+Kale Edwards,kale-edwards-1,/cfb/players/kale-edwards-1.html,DE,12,19,16,35,6.0,4.0,0,0,,0,0,0,0,0,0,,New Mexico State,2024
+Josiah Cox,josiah-cox-1,/cfb/players/josiah-cox-1.html,DB,10,17,18,35,2.0,0.0,2,6,3.0,0,1,0,0,0,0,,New Mexico State,2024
+Keonte Glinton,keonte-glinton-1,/cfb/players/keonte-glinton-1.html,CB,12,28,6,34,1.0,0.0,1,5,5.0,0,3,0,0,0,0,,New Mexico State,2024
+Malaki Thomas,malaki-thomas-1,/cfb/players/malaki-thomas-1.html,DE,12,18,15,33,1.5,1.0,0,0,,0,2,0,0,0,0,,New Mexico State,2024
+Matt Lawson,matt-lawson-1,/cfb/players/matt-lawson-1.html,DL,12,14,16,30,3.5,0.0,0,0,,0,2,0,0,0,0,,New Mexico State,2024
+Nick Session,nick-session-1,/cfb/players/nick-session-1.html,S,12,19,11,30,1.0,0.0,0,0,,0,3,0,0,0,1,,New Mexico State,2024
+Naki Fahina,naki-fahina-1,/cfb/players/naki-fahina-1.html,DT,12,9,20,29,1.0,0.0,0,0,,0,0,0,0,0,0,,New Mexico State,2024
+Buddha Peleti,buddha-peleti-1,/cfb/players/buddha-peleti-1.html,LB,10,13,7,20,6.0,4.5,0,0,,0,1,0,0,0,0,,New Mexico State,2024
+Justin Beadles,justin-beadles-1,/cfb/players/justin-beadles-1.html,DL,12,10,10,20,4.0,0.5,0,0,,0,0,0,0,0,0,,New Mexico State,2024
+Quincy Davis,quincy-davis-2,/cfb/players/quincy-davis-2.html,LB,12,8,11,19,0.0,0.0,0,0,,0,1,0,0,0,0,,New Mexico State,2024
+Josiah Charles,josiah-charles-1,/cfb/players/josiah-charles-1.html,CB,12,12,6,18,0.0,0.0,0,0,,0,1,0,0,0,0,,New Mexico State,2024
+Noah Arinze,noah-arinze-2,/cfb/players/noah-arinze-2.html,DL,10,12,4,16,4.5,2.5,0,0,,0,0,0,0,0,0,,New Mexico State,2024
+Gabe Jones,gabe-jones-1,/cfb/players/gabe-jones-1.html,DT,12,4,12,16,1.0,0.5,0,0,,0,0,0,0,0,0,,New Mexico State,2024
+Naeten Mitchell,naeten-mitchell-1,/cfb/players/naeten-mitchell-1.html,CB,9,6,3,9,0.0,0.0,0,0,,0,0,0,0,0,0,,New Mexico State,2024
+Rontravious Perry,rontravious-perry-1,/cfb/players/rontravious-perry-1.html,LB,11,4,4,8,0.0,0.0,0,0,,0,0,0,0,0,0,,New Mexico State,2024
+Jaden Robinson,jaden-robinson-3,/cfb/players/jaden-robinson-3.html,DE,6,4,2,6,0.0,0.0,0,0,,0,0,0,0,0,0,,New Mexico State,2024
+Henry Davis III,henry-davis-iii-1,/cfb/players/henry-davis-iii-1.html,DL,6,4,2,6,0.0,0.0,0,0,,0,0,0,0,0,0,,New Mexico State,2024
+Liko Johnson,liko-johnson-1,/cfb/players/liko-johnson-1.html,LB,5,0,4,4,0.0,0.0,0,0,,0,0,0,0,0,0,,New Mexico State,2024
+Angel Muñoz,angel-munoz-1,/cfb/players/angel-munoz-1.html,S,8,1,3,4,0.5,0.0,0,0,,0,0,0,0,0,0,,New Mexico State,2024
+Lanar Kelley Jr.,lanar-kelley-jr-1,/cfb/players/lanar-kelley-jr-1.html,DB,12,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,New Mexico State,2024
+Seth McGowan,seth-mcgowan-1,/cfb/players/seth-mcgowan-1.html,RB,12,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,New Mexico State,2024
+Elijah Thomas,elijah-thomas-1,/cfb/players/elijah-thomas-1.html,S,10,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,New Mexico State,2024
+Reeves Baller,reeves-baller-1,/cfb/players/reeves-baller-1.html,DL,7,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,New Mexico State,2024
+Charlie Eberle,charlie-eberle-1,/cfb/players/charlie-eberle-1.html,LS,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,New Mexico State,2024
+Dailan Goodman,dailan-goodman-1,/cfb/players/dailan-goodman-1.html,RB,9,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,New Mexico State,2024
+Ta'Avili Tuitama,taavili-tuitama-1,/cfb/players/taavili-tuitama-1.html,DT,4,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,New Mexico State,2024
+Jabril White,jabril-white-1,/cfb/players/jabril-white-1.html,CB,12,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,New Mexico State,2024
+PJ Johnson III,pj-johnson-iii-1,/cfb/players/pj-johnson-iii-1.html,WR,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,New Mexico State,2024
+Rashad McKinley,rashad-mckinley-1,/cfb/players/rashad-mckinley-1.html,DB,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,New Mexico State,2024
+Louie Canepa,louie-canepa-1,/cfb/players/louie-canepa-1.html,OL,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,New Mexico State,2024
+Derek Burns,derek-burns-2,/cfb/players/derek-burns-2.html,DE,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,New Mexico State,2024
+Parker Awad,parker-awad-1,/cfb/players/parker-awad-1.html,QB,7,1,0,1,0.0,0.0,0,0,,0,0,1,0,0,0,,New Mexico State,2024
+Jaxon Heil,jaxon-heil-1,/cfb/players/jaxon-heil-1.html,DB,4,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,New Mexico State,2024
+Timothy Gans,timothy-gans-1,/cfb/players/timothy-gans-1.html,RB,5,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,1,,New Mexico State,2024
+TJ Pride,tj-pride-1,/cfb/players/tj-pride-1.html,WR,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,New Mexico State,2024
+Larenzo McMillan,larenzo-mcmillan-1,/cfb/players/larenzo-mcmillan-1.html,RB,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,New Mexico State,2024
+Zedekiah Rodriguez-Brown,zedekiah-rodriguez-brown-1,/cfb/players/zedekiah-rodriguez-brown-1.html,CB,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,New Mexico State,2024

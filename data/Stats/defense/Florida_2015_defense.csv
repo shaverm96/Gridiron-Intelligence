@@ -1,0 +1,45 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Antonio Morrison,antonio-morrison-1,/cfb/players/antonio-morrison-1.html,LB,14,42,61,103,12.0,2.5,0,0,,0,1,0,0,0,1,,Florida,2015
+Jarrad Davis,jarrad-davis-1,/cfb/players/jarrad-davis-1.html,LB,14,46,52,98,11.0,3.5,1,0,0.0,0,4,0,0,0,1,,Florida,2015
+Keanu Neal,keanu-neal-1,/cfb/players/keanu-neal-1.html,DB,12,51,45,96,3.5,2.0,1,0,0.0,0,1,0,0,0,1,,Florida,2015
+Marcus Maye,marcus-maye-1,/cfb/players/marcus-maye-1.html,DB,13,46,36,82,1.5,0.0,2,0,0.0,0,6,2,0,0,5,,Florida,2015
+Jonathan Bullard,jonathan-bullard-1,/cfb/players/jonathan-bullard-1.html,DL,14,39,27,66,17.5,6.5,0,0,,0,2,0,0,0,0,,Florida,2015
+Bryan Cox Jr.,bryan-cox-jr-1,/cfb/players/bryan-cox-jr-1.html,DL,14,18,27,45,10.5,3.5,0,0,,0,1,2,4,0,2,,Florida,2015
+Jalen Tabor,jalen-tabor-1,/cfb/players/jalen-tabor-1.html,DB,13,21,19,40,4.0,1.0,4,82,20.5,2,14,0,0,0,0,,Florida,2015
+Brian Poole,brian-poole-1,/cfb/players/brian-poole-1.html,DB,14,24,16,40,3.5,0.5,0,0,,0,10,1,0,0,0,,Florida,2015
+Vernon Hargreaves III,vernon-hargreaves-iii-1,/cfb/players/vernon-hargreaves-iii-1.html,DB,13,23,10,33,1.0,0.0,4,152,38.0,0,4,0,0,0,1,AA,Florida,2015
+Caleb Brantley,caleb-brantley-1,/cfb/players/caleb-brantley-1.html,DL,13,8,21,29,6.5,3.0,0,0,,0,0,0,0,0,0,,Florida,2015
+Quincy Wilson,quincy-wilson-2,/cfb/players/quincy-wilson-2.html,DB,14,13,16,29,0.0,0.0,2,13,6.5,0,5,0,0,0,0,,Florida,2015
+Cece Jefferson,cece-jefferson-1,/cfb/players/cece-jefferson-1.html,DL,14,18,11,29,8.5,3.5,0,0,,0,1,1,11,0,1,,Florida,2015
+Nick Washington,nick-washington-1,/cfb/players/nick-washington-1.html,DB,14,11,17,28,0.5,0.0,0,0,,0,0,2,0,1,1,,Florida,2015
+Joey Ivie,joey-ivie-1,/cfb/players/joey-ivie-1.html,DL,10,13,14,27,4.0,3.5,0,0,,0,0,0,0,0,1,,Florida,2015
+Alex McCalister,alex-mccalister-1,/cfb/players/alex-mccalister-1.html,OL,9,13,13,26,9.5,6.5,0,0,,0,1,2,16,0,1,,Florida,2015
+Jordan Sherit,jordan-sherit-1,/cfb/players/jordan-sherit-1.html,DE,13,14,11,25,1.5,1.5,0,0,,0,1,0,0,0,0,,Florida,2015
+Daniel McMillian,daniel-mcmillian-1,/cfb/players/daniel-mcmillian-1.html,LB,14,15,8,23,0.0,0.0,0,0,,0,2,0,0,0,1,,Florida,2015
+Marcell Harris,marcell-harris-1,/cfb/players/marcell-harris-1.html,DB,12,11,11,22,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida,2015
+Khairi Clark,khairi-clark-1,/cfb/players/khairi-clark-1.html,DL,13,4,12,16,1.0,1.0,0,0,,0,1,0,0,0,0,,Florida,2015
+Valdez Showers,valdez-showers-1,/cfb/players/valdez-showers-1.html,WR,14,8,3,11,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida,2015
+Matt Rolin,matt-rolin-1,/cfb/players/matt-rolin-1.html,LB,3,8,3,11,0.5,0.0,0,0,,0,0,0,0,0,0,,Florida,2015
+Jeremi Powell,jeremi-powell-1,/cfb/players/jeremi-powell-1.html,LB,10,5,6,11,1.0,0.0,0,0,,0,0,0,0,0,0,,Florida,2015
+Taven Bryan,taven-bryan-1,/cfb/players/taven-bryan-1.html,DL,12,3,7,10,1.5,0.5,0,0,,0,0,1,48,0,0,,Florida,2015
+Duke Dawson,duke-dawson-1,/cfb/players/duke-dawson-1.html,DB,14,5,5,10,0.0,0.0,0,0,,0,0,0,0,0,1,,Florida,2015
+Chris Thompson,chris-thompson-4,/cfb/players/chris-thompson-4.html,WR,13,5,4,9,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida,2015
+Justus Reed,justus-reed-1,/cfb/players/justus-reed-1.html,DE,9,7,2,9,2.0,1.0,0,0,,0,0,0,0,0,0,,Florida,2015
+Andrew Ivie,andrew-ivie-1,/cfb/players/andrew-ivie-1.html,DL,2,2,6,8,0.5,0.0,0,0,,0,0,0,0,0,0,,Florida,2015
+Alex Anzalone,alex-anzalone-1,/cfb/players/alex-anzalone-1.html,LB,2,2,4,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida,2015
+Keivonnis Davis,keivonnis-davis-1,/cfb/players/keivonnis-davis-1.html,DL,4,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida,2015
+Anthony Harrell,anthony-harrell-1,/cfb/players/anthony-harrell-1.html,LB,13,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida,2015
+Thomas Holley,thomas-holley-1,/cfb/players/thomas-holley-1.html,DL,7,0,3,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida,2015
+Cristian Garcia,cristian-garcia-2,/cfb/players/cristian-garcia-2.html,,1,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida,2015
+Christian Garcia,christian-garcia-1,/cfb/players/christian-garcia-1.html,LB,1,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida,2015
+Mark Herndon,mark-herndon-1,/cfb/players/mark-herndon-1.html,RB,14,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida,2015
+Deiondre Porter,deiondre-porter-1,/cfb/players/deiondre-porter-1.html,DB,4,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida,2015
+Jorge Powell,jorge-powell-1,/cfb/players/jorge-powell-1.html,K,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida,2015
+Kelvin Taylor,kelvin-taylor-1,/cfb/players/kelvin-taylor-1.html,RB,14,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida,2015
+Austin Hardin,austin-hardin-1,/cfb/players/austin-hardin-1.html,K,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida,2015
+Alvin Bailey,alvin-bailey-2,/cfb/players/alvin-bailey-2.html,WR,9,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida,2015
+Cameron Dillard,cameron-dillard-1,/cfb/players/cameron-dillard-1.html,OL,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida,2015
+Cam Dillard,cam-dillard-1,/cfb/players/cam-dillard-1.html,,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida,2015
+Raphael Andrades,raphael-andrades-1,/cfb/players/raphael-andrades-1.html,WR,7,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida,2015
+Demarcus Robinson,demarcus-robinson-3,/cfb/players/demarcus-robinson-3.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida,2015
+Ahmad Fulwood,ahmad-fulwood-1,/cfb/players/ahmad-fulwood-1.html,WR,14,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida,2015

@@ -1,0 +1,46 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Bryton Barr,bryton-barr-1,/cfb/players/bryton-barr-1.html,LB,12,48,57,105,9.0,5.0,1,0,0.0,0,1,1,0,0,1,,Massachusetts,2017
+Steve Casali,steve-casali-1,/cfb/players/steve-casali-1.html,LB,12,37,42,79,4.5,1.0,0,0,,0,0,1,0,0,1,,Massachusetts,2017
+Jesse Monteiro,jesse-monteiro-1,/cfb/players/jesse-monteiro-1.html,DB,12,40,38,78,7.0,2.5,1,7,7.0,0,3,0,0,0,1,,Massachusetts,2017
+Ali Ali-Musa,ali-ali-musa-1,/cfb/players/ali-ali-musa-1.html,DL,12,33,37,70,9.0,4.0,0,0,,0,2,0,0,0,1,,Massachusetts,2017
+Jarrell Addo,jarrell-addo-1,/cfb/players/jarrell-addo-1.html,LB,12,33,34,67,7.0,1.0,0,0,,0,6,1,0,0,1,,Massachusetts,2017
+Da'Sean Downey,dasean-downey-1,/cfb/players/dasean-downey-1.html,DL,12,36,22,58,20.0,6.0,0,0,,0,3,0,0,0,0,,Massachusetts,2017
+Tyler Hayes,tyler-hayes-2,/cfb/players/tyler-hayes-2.html,DB,12,34,19,53,3.0,0.0,2,24,12.0,0,3,1,0,0,0,,Massachusetts,2017
+Isaiah Rodgers,isaiah-rodgers-1,/cfb/players/isaiah-rodgers-1.html,CB,12,36,14,50,3.5,0.0,3,59,19.7,1,14,2,38,0,2,,Massachusetts,2017
+Lee Moses,lee-moses-1,/cfb/players/lee-moses-1.html,DB,11,24,16,40,1.0,0.0,4,88,22.0,1,6,0,0,0,0,,Massachusetts,2017
+Joe Previte,joe-previte-1,/cfb/players/joe-previte-1.html,DL,12,11,14,25,3.5,0.0,0,0,,0,0,0,0,0,0,,Massachusetts,2017
+Sha-Ki Holines,sha-ki-holines-1,/cfb/players/sha-ki-holines-1.html,DL,10,8,17,25,6.5,1.5,0,0,,0,0,0,0,0,1,,Massachusetts,2017
+Jake Byczko,jake-byczko-1,/cfb/players/jake-byczko-1.html,DL,12,7,16,23,2.0,0.0,0,0,,0,3,0,0,0,0,,Massachusetts,2017
+Tyris Lebeau,tyris-lebeau-1,/cfb/players/tyris-lebeau-1.html,S,11,9,8,17,0.0,0.0,0,0,,0,0,0,0,0,0,,Massachusetts,2017
+Leon Flanagan Jr.,leon-flanagan-jr-1,/cfb/players/leon-flanagan-jr-1.html,DL,9,9,6,15,2.0,1.0,1,0,0.0,0,1,0,0,0,0,,Massachusetts,2017
+Jackson Porter,jackson-porter-1,/cfb/players/jackson-porter-1.html,CB,11,11,4,15,0.0,0.0,0,0,,0,7,0,0,0,0,,Massachusetts,2017
+Alfred Adarkwah,alfred-adarkwah-1,/cfb/players/alfred-adarkwah-1.html,WR,6,6,8,14,0.5,0.0,0,0,,0,1,0,0,0,0,,Massachusetts,2017
+Cole McCubrey,cole-mccubrey-1,/cfb/players/cole-mccubrey-1.html,LB,11,10,4,14,0.0,0.0,0,0,,0,0,0,0,0,2,,Massachusetts,2017
+Bakhari Goodson,bakhari-goodson-1,/cfb/players/bakhari-goodson-1.html,DB,12,11,3,14,0.0,0.0,1,29,29.0,0,3,0,0,0,0,,Massachusetts,2017
+Roderick Jones Jr.,roderick-jones-jr-1,/cfb/players/roderick-jones-jr-1.html,DL,11,2,10,12,1.5,0.0,0,0,,0,0,0,0,0,0,,Massachusetts,2017
+Tedrick Lowery,tedrick-lowery-1,/cfb/players/tedrick-lowery-1.html,LB,6,5,6,11,0.0,0.0,0,0,,0,0,0,0,0,0,,Massachusetts,2017
+Colbert Calhoun,colbert-calhoun-1,/cfb/players/colbert-calhoun-1.html,LB,12,6,5,11,0.5,0.5,0,0,,0,1,0,0,0,0,,Massachusetts,2017
+Charly Timite,charly-timite-1,/cfb/players/charly-timite-1.html,DL,12,6,5,11,2.0,0.0,0,0,,0,0,0,0,0,0,,Massachusetts,2017
+Chinedu Ogbonna,chinedu-ogbonna-1,/cfb/players/chinedu-ogbonna-1.html,LB,12,5,5,10,0.5,0.5,0,0,,0,0,0,0,0,0,,Massachusetts,2017
+Nick Orekoya,nick-orekoya-1,/cfb/players/nick-orekoya-1.html,RB,11,4,5,9,0.0,0.0,0,0,,0,0,0,0,0,0,,Massachusetts,2017
+Kyle Horn,kyle-horn-1,/cfb/players/kyle-horn-1.html,TE,12,5,4,9,0.0,0.0,0,0,,0,0,0,0,0,0,,Massachusetts,2017
+Mario Patton,mario-patton-1,/cfb/players/mario-patton-1.html,DL,11,2,6,8,0.5,0.0,0,0,,0,2,0,0,0,0,,Massachusetts,2017
+Zeke Edmonds,zeke-edmonds-1,/cfb/players/zeke-edmonds-1.html,S,6,3,4,7,0.0,0.0,0,0,,0,0,0,0,0,0,,Massachusetts,2017
+Xavier Steele,xavier-steele-1,/cfb/players/xavier-steele-1.html,DB,7,4,1,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Massachusetts,2017
+Connor Lemieux,connor-lemieux-1,/cfb/players/connor-lemieux-1.html,WR,12,2,3,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Massachusetts,2017
+Nick Berus,nick-berus-1,/cfb/players/nick-berus-1.html,LS,12,2,2,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Massachusetts,2017
+Jake Froehlich,jake-froehlich-1,/cfb/players/jake-froehlich-1.html,LB,9,3,1,4,0.0,0.0,0,0,,0,0,1,0,0,0,,Massachusetts,2017
+Brandon Mangram,brandon-mangram-1,/cfb/players/brandon-mangram-1.html,DB,12,0,3,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Massachusetts,2017
+Jeremy Rodriguez,jeremy-rodriguez-1,/cfb/players/jeremy-rodriguez-1.html,LB,3,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Massachusetts,2017
+Andy Isabella,andy-isabella-1,/cfb/players/andy-isabella-1.html,WR,12,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Massachusetts,2017
+D'Shan Harley,dshan-harley-1,/cfb/players/dshan-harley-1.html,DL,5,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Massachusetts,2017
+Bilal Ally,bilal-ally-1,/cfb/players/bilal-ally-1.html,RB,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Massachusetts,2017
+Zach Loane,zach-loane-1,/cfb/players/zach-loane-1.html,DL,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Massachusetts,2017
+Tyshaun Ingram,tyshaun-ingram-1,/cfb/players/tyshaun-ingram-1.html,RB,5,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Massachusetts,2017
+Cycoby Burch,cycoby-burch-1,/cfb/players/cycoby-burch-1.html,DB,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Massachusetts,2017
+Logan Laurent,logan-laurent-1,/cfb/players/logan-laurent-1.html,P,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Massachusetts,2017
+Mike Ruane,mike-ruane-1,/cfb/players/mike-ruane-1.html,LB,10,1,0,1,0.0,0.0,0,0,,0,1,0,0,0,0,,Massachusetts,2017
+Michael Schreiner,michael-schreiner-1,/cfb/players/michael-schreiner-1.html,PK,7,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Massachusetts,2017
+Andrew Libby,andrew-libby-1,/cfb/players/andrew-libby-1.html,FB,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Massachusetts,2017
+Malik Lee,malik-lee-1,/cfb/players/malik-lee-1.html,FB,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Massachusetts,2017
+Lukas Kolter,lukas-kolter-1,/cfb/players/lukas-kolter-1.html,OL,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Massachusetts,2017

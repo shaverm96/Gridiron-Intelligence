@@ -1,0 +1,47 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Nickolas Martin,nickolas-martin-1,/cfb/players/nickolas-martin-1.html,LB,14,83,57,140,16.0,6.0,2,40,20.0,0,0,1,0,0,1,,Oklahoma State,2023
+Kendal Daniels,kendal-daniels-1,/cfb/players/kendal-daniels-1.html,S,14,62,43,105,5.5,2.0,2,21,10.5,0,1,2,25,0,1,,Oklahoma State,2023
+Trey Rucker,trey-rucker-1,/cfb/players/trey-rucker-1.html,S,14,62,38,100,4.0,0.0,1,29,29.0,0,1,2,0,0,1,,Oklahoma State,2023
+Collin Oliver,collin-oliver-1,/cfb/players/collin-oliver-1.html,LB,14,45,28,73,15.5,6.0,0,0,,0,5,1,0,0,4,,Oklahoma State,2023
+Xavier Benson,xavier-benson-2,/cfb/players/xavier-benson-2.html,LB,14,37,28,65,7.5,1.5,0,0,,0,1,2,0,0,2,,Oklahoma State,2023
+Anthony Goodlow,anthony-goodlow-1,/cfb/players/anthony-goodlow-1.html,DE,14,18,24,42,7.0,3.0,0,0,,0,0,0,0,0,0,,Oklahoma State,2023
+Cameron Epps,cameron-epps-1,/cfb/players/cameron-epps-1.html,S,14,27,13,40,0.0,0.0,3,51,17.0,1,4,0,0,0,0,,Oklahoma State,2023
+D.J. McKinney,dj-mckinney-1,/cfb/players/dj-mckinney-1.html,CB,14,24,14,38,0.0,0.0,0,0,,0,5,0,0,0,0,,Oklahoma State,2023
+Nathan Latu,nathan-latu-1,/cfb/players/nathan-latu-1.html,DE,14,15,16,31,5.0,3.0,0,0,,0,0,0,0,0,1,,Oklahoma State,2023
+Cam Smith,cam-smith-5,/cfb/players/cam-smith-5.html,CB,14,18,8,26,2.5,0.0,1,6,6.0,0,4,0,0,0,0,,Oklahoma State,2023
+Kale Smith,kale-smith-1,/cfb/players/kale-smith-1.html,CB,14,11,11,22,1.0,0.0,0,0,,0,1,0,0,0,0,,Oklahoma State,2023
+Justin Kirkland,justin-kirkland-1,/cfb/players/justin-kirkland-1.html,DT,14,11,11,22,3.0,0.0,0,0,,0,2,0,0,0,0,,Oklahoma State,2023
+Dylan Smith,dylan-smith-3,/cfb/players/dylan-smith-3.html,CB,10,15,6,21,0.0,0.0,2,31,15.5,0,0,0,0,0,0,,Oklahoma State,2023
+Lyrik Rawls,lyrik-rawls-1,/cfb/players/lyrik-rawls-1.html,S,3,10,10,20,0.5,0.0,1,0,0.0,0,0,0,0,0,0,,Oklahoma State,2023
+Korie Black,korie-black-1,/cfb/players/korie-black-1.html,CB,13,13,4,17,1.0,0.0,1,16,16.0,0,5,0,0,0,1,,Oklahoma State,2023
+Kody Walterscheid,kody-walterscheid-1,/cfb/players/kody-walterscheid-1.html,DE,14,9,7,16,2.0,0.0,0,0,,0,0,1,0,0,0,,Oklahoma State,2023
+Collin Clay,collin-clay-1,/cfb/players/collin-clay-1.html,DT,14,10,4,14,3.5,2.5,0,0,,0,0,0,0,0,0,,Oklahoma State,2023
+Parker Robertson,parker-robertson-1,/cfb/players/parker-robertson-1.html,S,14,10,2,12,0.0,0.0,0,0,,0,0,1,0,0,0,,Oklahoma State,2023
+Jaleel Johnson,jaleel-johnson-2,/cfb/players/jaleel-johnson-2.html,DE,12,4,8,12,1.0,1.0,0,0,,0,0,0,0,0,0,,Oklahoma State,2023
+Ty Williams,ty-williams-3,/cfb/players/ty-williams-3.html,S,14,4,7,11,0.5,0.0,0,0,,0,0,0,0,0,0,,Oklahoma State,2023
+Xavier Ross,xavier-ross-1,/cfb/players/xavier-ross-1.html,DE,14,7,4,11,3.5,1.0,0,0,,0,0,0,0,0,0,,Oklahoma State,2023
+Jeff Roberson,jeff-roberson-1,/cfb/players/jeff-roberson-1.html,LB,14,4,6,10,0.0,0.0,0,0,,0,0,0,0,0,0,,Oklahoma State,2023
+Donovan Stephens,donovan-stephens-1,/cfb/players/donovan-stephens-1.html,LB,10,5,5,10,2.0,0.5,0,0,,0,0,0,0,0,0,,Oklahoma State,2023
+DeSean Brown,desean-brown-1,/cfb/players/desean-brown-1.html,DE,14,3,4,7,1.5,0.5,0,0,,0,2,0,0,0,0,,Oklahoma State,2023
+Gabe Brown,gabe-brown-1,/cfb/players/gabe-brown-1.html,LB,11,0,3,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Oklahoma State,2023
+Nick Session,nick-session-1,/cfb/players/nick-session-1.html,S,11,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Oklahoma State,2023
+Bo Hardy,bo-hardy-2,/cfb/players/bo-hardy-2.html,LB,11,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Oklahoma State,2023
+Jaden Nixon,jaden-nixon-1,/cfb/players/jaden-nixon-1.html,RB,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Oklahoma State,2023
+Raymond Gay II,raymond-gay-ii-1,/cfb/players/raymond-gay-ii-1.html,S,13,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Oklahoma State,2023
+Elijah Collins,elijah-collins-1,/cfb/players/elijah-collins-1.html,RB,10,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Oklahoma State,2023
+Landon Dean,landon-dean-1,/cfb/players/landon-dean-1.html,DE,1,0,2,2,0.5,0.0,0,0,,0,0,0,0,0,0,,Oklahoma State,2023
+Justin Wright,justin-wright-1,/cfb/players/justin-wright-1.html,LB,2,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Oklahoma State,2023
+Ollie Gordon,ollie-gordon-1,/cfb/players/ollie-gordon-1.html,RB,14,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,"H-7,AA",Oklahoma State,2023
+Aden Kelley,aden-kelley-1,/cfb/players/aden-kelley-1.html,DT,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Oklahoma State,2023
+Rashod Owens,rashod-owens-1,/cfb/players/rashod-owens-1.html,WR,14,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Oklahoma State,2023
+Alan Bowman,alan-bowman-1,/cfb/players/alan-bowman-1.html,QB,14,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Oklahoma State,2023
+Poasa Utu,poasa-utu-1,/cfb/players/poasa-utu-1.html,LB,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Oklahoma State,2023
+AJ Ridener,aj-ridener-1,/cfb/players/aj-ridener-1.html,DT,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Oklahoma State,2023
+Brennan Presley,brennan-presley-1,/cfb/players/brennan-presley-1.html,WR,14,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Oklahoma State,2023
+De'Zhaun Stribling,dezhaun-stribling-1,/cfb/players/dezhaun-stribling-1.html,WR,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Oklahoma State,2023
+Leon Johnson III,leon-johnson-iii-1,/cfb/players/leon-johnson-iii-1.html,WR,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Oklahoma State,2023
+Kenneth Harris,kenneth-harris-2,/cfb/players/kenneth-harris-2.html,CB,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Oklahoma State,2023
+Kam Franklin,kam-franklin-1,/cfb/players/kam-franklin-1.html,S,6,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Oklahoma State,2023
+Jake Schultz,jake-schultz-1,/cfb/players/jake-schultz-1.html,FB,14,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Oklahoma State,2023
+Jake Springfield,jake-springfield-1,/cfb/players/jake-springfield-1.html,OL,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Oklahoma State,2023
+Jordan Reagan,jordan-reagan-2,/cfb/players/jordan-reagan-2.html,CB,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Oklahoma State,2023

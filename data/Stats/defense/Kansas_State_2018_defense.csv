@@ -1,0 +1,46 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Da'Quan Patton,daquan-patton-1,/cfb/players/daquan-patton-1.html,LB,12,50,20,70,3.0,0.0,0,0,,0,2,0,0,0,0,,Kansas State,2018
+Eli Walker,eli-walker-1,/cfb/players/eli-walker-1.html,DB,12,51,17,68,3.0,0.0,0,0,,0,0,0,0,0,0,,Kansas State,2018
+Justin Hughes,justin-hughes-2,/cfb/players/justin-hughes-2.html,LB,11,38,18,56,7.0,0.0,0,0,,0,0,1,5,0,2,,Kansas State,2018
+AJ Parker,aj-parker-1,/cfb/players/aj-parker-1.html,DB,12,47,6,53,1.0,0.0,2,0,0.0,0,6,0,0,0,0,,Kansas State,2018
+Walter Neil Jr.,walter-neil-jr-1,/cfb/players/walter-neil-jr-1.html,,8,28,12,40,0.0,0.0,0,0,,0,2,0,0,0,0,,Kansas State,2018
+Walter Neil Jr.,walter-neil-jr-28,/cfb/players/walter-neil-jr-28.html,DB,8,28,12,40,0.0,0.0,0,0,,0,2,0,0,0,0,,Kansas State,2018
+Kendall Adams,kendall-adams-1,/cfb/players/kendall-adams-1.html,DB,11,28,11,39,1.0,0.0,1,0,0.0,0,1,1,1,0,0,,Kansas State,2018
+Denzel Goolsby,denzel-goolsby-1,/cfb/players/denzel-goolsby-1.html,DB,9,23,13,36,0.0,0.0,0,0,,0,2,0,0,0,0,,Kansas State,2018
+Reggie Walker,reggie-walker-2,/cfb/players/reggie-walker-2.html,DE,12,26,9,35,12.5,7.5,0,0,,0,2,0,0,0,4,,Kansas State,2018
+Wyatt Hubert,wyatt-hubert-1,/cfb/players/wyatt-hubert-1.html,DE,12,27,7,34,8.5,4.5,1,11,11.0,0,1,0,0,0,0,,Kansas State,2018
+Duke Shelley,duke-shelley-1,/cfb/players/duke-shelley-1.html,DB,7,32,1,33,1.0,0.0,3,30,10.0,0,9,0,0,0,0,,Kansas State,2018
+Trey Dishon,trey-dishon-1,/cfb/players/trey-dishon-1.html,DT,12,17,9,26,2.0,1.0,0,0,,0,1,0,0,0,0,,Kansas State,2018
+Jahron McPherson,jahron-mcpherson-1,/cfb/players/jahron-mcpherson-1.html,DB,10,14,5,19,0.0,0.0,1,4,4.0,0,2,0,0,0,0,,Kansas State,2018
+Jordan Mittie,jordan-mittie-1,/cfb/players/jordan-mittie-1.html,DT,12,15,2,17,2.0,1.0,0,0,,0,0,1,0,0,0,,Kansas State,2018
+Sam Sizelove,sam-sizelove-1,/cfb/players/sam-sizelove-1.html,LB,12,9,7,16,2.0,0.0,0,0,,0,0,0,0,0,0,,Kansas State,2018
+Kyle Ball,kyle-ball-1,/cfb/players/kyle-ball-1.html,DE,10,10,6,16,4.0,2.0,0,0,,0,2,0,0,0,0,,Kansas State,2018
+Johnathan Durham,johnathan-durham-1,/cfb/players/johnathan-durham-1.html,DB,9,9,4,13,0.0,0.0,1,0,0.0,0,1,0,0,0,0,,Kansas State,2018
+Cody Fletcher,cody-fletcher-1,/cfb/players/cody-fletcher-1.html,LB,12,8,4,12,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas State,2018
+Bronson Massie,bronson-massie-1,/cfb/players/bronson-massie-1.html,DE,12,4,7,11,0.0,0.0,0,0,,0,1,1,0,0,0,,Kansas State,2018
+Joe Davies,joe-davies-2,/cfb/players/joe-davies-2.html,DT,12,9,2,11,1.0,0.0,0,0,,0,0,0,0,0,1,,Kansas State,2018
+Colby Moore,colby-moore-1,/cfb/players/colby-moore-1.html,DB,12,7,3,10,0.0,0.0,0,0,,0,0,1,0,0,1,,Kansas State,2018
+Lance Robinson,lance-robinson-1,/cfb/players/lance-robinson-1.html,DB,4,6,3,9,0.0,0.0,0,0,,0,1,0,0,0,0,,Kansas State,2018
+Kevion Mcgee,kevion-mcgee-1,/cfb/players/kevion-mcgee-1.html,DB,11,7,2,9,0.0,0.0,2,18,9.0,0,5,0,0,0,0,,Kansas State,2018
+Jacob Jenkins,jacob-jenkins-1,/cfb/players/jacob-jenkins-1.html,DE,12,6,2,8,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas State,2018
+Chase Johnston,chase-johnston-1,/cfb/players/chase-johnston-1.html,DE,9,8,0,8,2.0,2.0,0,0,,0,0,1,0,0,1,,Kansas State,2018
+Elijah Sullivan,elijah-sullivan-1,/cfb/players/elijah-sullivan-1.html,LB,3,7,0,7,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas State,2018
+Darreyl Patterson,darreyl-patterson-1,/cfb/players/darreyl-patterson-1.html,DB,5,6,0,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas State,2018
+Brock Monty,brock-monty-1,/cfb/players/brock-monty-1.html,DB,10,5,1,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas State,2018
+Ross Elder,ross-elder-1,/cfb/players/ross-elder-1.html,DB,11,0,4,4,0.0,0.0,0,0,,0,1,0,0,0,0,,Kansas State,2018
+Blake Richmeier,blake-richmeier-1,/cfb/players/blake-richmeier-1.html,LB,12,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas State,2018
+Nicholas McLellan,nicholas-mclellan-1,/cfb/players/nicholas-mclellan-1.html,PK,10,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas State,2018
+Zach Reuter,zach-reuter-1,/cfb/players/zach-reuter-1.html,WR,12,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas State,2018
+Drew Wiley,drew-wiley-1,/cfb/players/drew-wiley-1.html,DT,12,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas State,2018
+Blake Lynch,blake-lynch-2,/cfb/players/blake-lynch-2.html,PK,9,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas State,2018
+Chris Dugan,chris-dugan-2,/cfb/players/chris-dugan-2.html,DE,3,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas State,2018
+Dalton Schoen,dalton-schoen-1,/cfb/players/dalton-schoen-1.html,WR,11,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas State,2018
+Wayne Jones,wayne-jones-3,/cfb/players/wayne-jones-3.html,QB,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas State,2018
+Eric Gallon,eric-gallon-2,/cfb/players/eric-gallon-2.html,LB,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas State,2018
+Ryan Henington,ryan-henington-1,/cfb/players/ryan-henington-1.html,QB,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas State,2018
+Landry Weber,landry-weber-1,/cfb/players/landry-weber-1.html,WR,9,1,0,1,0.0,0.0,0,0,,0,0,1,0,0,0,,Kansas State,2018
+Eli Huggins,eli-huggins-1,/cfb/players/eli-huggins-1.html,DT,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas State,2018
+David Tullis,david-tullis-1,/cfb/players/david-tullis-1.html,LS,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas State,2018
+Daron Bowles,daron-bowles-1,/cfb/players/daron-bowles-1.html,DB,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas State,2018
+Blaise Gammon,blaise-gammon-1,/cfb/players/blaise-gammon-1.html,TE,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas State,2018
+Alex Barnes,alex-barnes-1,/cfb/players/alex-barnes-1.html,RB,12,1,0,1,0.0,0.0,0,0,,0,0,1,0,0,1,,Kansas State,2018

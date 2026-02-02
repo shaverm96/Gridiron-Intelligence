@@ -1,0 +1,34 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Tyler Murray,tyler-murray-1,/cfb/players/tyler-murray-1.html,LB,6,26,23,49,2.0,0.0,2,45,22.5,0,0,1,3,0,1,,Charlotte,2020
+Ben DeLuca,ben-deluca-1,/cfb/players/ben-deluca-1.html,DB,6,30,18,48,1.5,0.0,1,32,32.0,0,3,0,0,0,2,,Charlotte,2020
+Luke Martin,luke-martin-2,/cfb/players/luke-martin-2.html,LB,6,10,17,27,0.5,0.0,0,0,,0,1,0,0,0,0,,Charlotte,2020
+Nafees Lyon,nafees-lyon-1,/cfb/players/nafees-lyon-1.html,DB,6,17,9,26,2.0,0.0,1,0,0.0,0,2,1,0,0,0,,Charlotte,2020
+Romeo McKnight,romeo-mcknight-1,/cfb/players/romeo-mcknight-1.html,DE,6,13,11,24,5.0,1.5,0,0,,0,0,0,0,0,0,,Charlotte,2020
+Antone Williams,antone-williams-1,/cfb/players/antone-williams-1.html,DB,6,7,15,22,0.5,0.0,0,0,,0,3,0,0,0,0,,Charlotte,2020
+Lance McMillan,lance-mcmillan-1,/cfb/players/lance-mcmillan-1.html,DB,6,12,8,20,0.0,0.0,1,1,1.0,0,4,1,0,0,0,,Charlotte,2020
+Tyriq Harris,tyriq-harris-1,/cfb/players/tyriq-harris-1.html,DE,6,11,8,19,2.0,1.0,0,0,,0,0,0,0,0,1,,Charlotte,2020
+Jacione Fugate,jacione-fugate-1,/cfb/players/jacione-fugate-1.html,DB,4,9,7,16,0.0,0.0,0,0,,0,1,0,0,0,0,,Charlotte,2020
+Timmy Horne,timmy-horne-1,/cfb/players/timmy-horne-1.html,DL,6,9,4,13,3.0,0.0,0,0,,0,0,0,0,0,0,,Charlotte,2020
+Mikel Horton,mikel-horton-2,/cfb/players/mikel-horton-2.html,DL,4,6,5,11,1.0,0.0,0,0,,0,0,0,0,0,0,,Charlotte,2020
+Markees Watts,markees-watts-1,/cfb/players/markees-watts-1.html,DE,5,7,3,10,2.0,2.0,0,0,,0,0,0,0,0,0,,Charlotte,2020
+Josiah Sa'o,josiah-sao-1,/cfb/players/josiah-sao-1.html,DL,6,3,4,7,0.0,0.0,0,0,,0,0,0,0,0,0,,Charlotte,2020
+Jaylon Sharpe,jaylon-sharpe-1,/cfb/players/jaylon-sharpe-1.html,LB,5,5,2,7,0.0,0.0,0,0,,0,0,0,0,0,0,,Charlotte,2020
+Briston Bennett,briston-bennett-1,/cfb/players/briston-bennett-1.html,DB,5,4,2,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Charlotte,2020
+Solomon Rogers,solomon-rogers-1,/cfb/players/solomon-rogers-1.html,DB,6,3,3,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Charlotte,2020
+Bryan Wallace,bryan-wallace-1,/cfb/players/bryan-wallace-1.html,DL,6,2,4,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Charlotte,2020
+Bryson Whitehead,bryson-whitehead-1,/cfb/players/bryson-whitehead-1.html,DB,2,5,1,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Charlotte,2020
+Brelin Faison-Walden,brelin-faison-walden-1,/cfb/players/brelin-faison-walden-1.html,LB,6,3,2,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Charlotte,2020
+Shedrick Ursery,shedrick-ursery-1,/cfb/players/shedrick-ursery-1.html,DB,5,3,1,4,0.0,0.0,0,0,,0,1,0,0,0,0,,Charlotte,2020
+Damon Weldon Jr.,damon-weldon-jr-1,/cfb/players/damon-weldon-jr-1.html,DE,6,2,1,3,0.5,0.5,0,0,,0,0,0,0,0,0,,Charlotte,2020
+Comanche Francisco,comanche-francisco-1,/cfb/players/comanche-francisco-1.html,DB,4,2,1,3,0.0,0.0,0,0,,0,1,0,0,0,0,,Charlotte,2020
+Jonnie Pitman,jonnie-pitman-1,/cfb/players/jonnie-pitman-1.html,DB,6,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Charlotte,2020
+B.J. Turner,bj-turner-1,/cfb/players/bj-turner-1.html,LB,4,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Charlotte,2020
+Calvin Camp,calvin-camp-1,/cfb/players/calvin-camp-1.html,RB,6,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Charlotte,2020
+Kendric Blake,kendric-blake-1,/cfb/players/kendric-blake-1.html,WR,6,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Charlotte,2020
+Justin Jeffery,justin-jeffery-1,/cfb/players/justin-jeffery-1.html,WR,5,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Charlotte,2020
+Dez Morgan,dez-morgan-1,/cfb/players/dez-morgan-1.html,DL,4,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Charlotte,2020
+Chris Reynolds,chris-reynolds-1,/cfb/players/chris-reynolds-1.html,QB,6,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Charlotte,2020
+Chris Wiggins,chris-wiggins-1,/cfb/players/chris-wiggins-1.html,WR,5,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Charlotte,2020
+Khalil Presley,khalil-presley-1,/cfb/players/khalil-presley-1.html,DL,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Charlotte,2020
+Trey Creamer,trey-creamer-1,/cfb/players/trey-creamer-1.html,DB,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Charlotte,2020
+Victor Tucker,victor-tucker-1,/cfb/players/victor-tucker-1.html,WR,6,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Charlotte,2020

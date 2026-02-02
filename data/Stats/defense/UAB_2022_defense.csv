@@ -1,0 +1,44 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Noah Wilder,noah-wilder-1,/cfb/players/noah-wilder-1.html,LB,13,58,53,111,5.0,0.5,0,0,,0,2,2,0,0,1,,UAB,2022
+Tyler Taylor,tyler-taylor-1,/cfb/players/tyler-taylor-1.html,LB,11,27,45,72,4.5,1.5,1,16,16.0,0,0,0,0,0,0,,UAB,2022
+Jaylen Key,jaylen-key-1,/cfb/players/jaylen-key-1.html,S,13,41,19,60,4.5,1.0,3,89,29.7,0,1,0,0,0,2,,UAB,2022
+Keondre Swoopes,keondre-swoopes-1,/cfb/players/keondre-swoopes-1.html,S,12,33,20,53,1.0,0.0,1,0,0.0,0,4,1,3,0,1,,UAB,2022
+Reynard Ellis,reynard-ellis-2,/cfb/players/reynard-ellis-2.html,LB,13,30,23,53,3.5,1.5,0,0,,0,2,0,0,0,0,,UAB,2022
+Grayson Cash,grayson-cash-1,/cfb/players/grayson-cash-1.html,S,13,27,23,50,2.0,1.0,3,10,3.3,0,7,0,0,0,0,,UAB,2022
+Michael Fairbanks II,michael-fairbanks-ii-1,/cfb/players/michael-fairbanks-ii-1.html,DE,13,10,33,43,3.5,1.5,0,0,,0,0,0,0,0,0,,UAB,2022
+Will Boler,will-boler-1,/cfb/players/will-boler-1.html,S,12,27,13,40,1.5,0.0,0,0,,0,3,1,0,0,0,,UAB,2022
+Kelle Sanders,kelle-sanders-1,/cfb/players/kelle-sanders-1.html,LB,10,9,27,36,3.5,3.0,0,0,,0,1,2,0,0,0,,UAB,2022
+Devodric Bynum,devodric-bynum-1,/cfb/players/devodric-bynum-1.html,CB,13,27,8,35,5.5,1.0,0,0,,0,11,0,0,0,1,,UAB,2022
+Drew Tuazama,drew-tuazama-2,/cfb/players/drew-tuazama-2.html,DL,13,10,23,33,6.0,5.0,0,0,,0,3,0,0,0,1,,UAB,2022
+Fish Mcwilliams,fish-mcwilliams-1,/cfb/players/fish-mcwilliams-1.html,DL,13,16,16,32,5.5,2.0,0,0,,0,0,1,0,0,0,,UAB,2022
+Jackson Bratton,jackson-bratton-1,/cfb/players/jackson-bratton-1.html,LB,13,19,12,31,0.0,0.0,0,0,,0,1,0,0,0,0,,UAB,2022
+Starling Thomas V,starling-thomas-1,/cfb/players/starling-thomas-1.html,CB,13,20,10,30,1.0,0.0,0,0,,0,15,0,0,0,0,,UAB,2022
+Isaiah Forte,isaiah-forte-1,/cfb/players/isaiah-forte-1.html,DL,12,11,16,27,1.5,0.5,0,0,,0,0,0,0,0,0,,UAB,2022
+Damien Miller,damien-miller-1,/cfb/players/damien-miller-1.html,S,9,12,10,22,1.0,0.0,0,0,,0,1,1,0,0,3,,UAB,2022
+Mac McWilliams,mac-mcwilliams-1,/cfb/players/mac-mcwilliams-1.html,CB,7,11,8,19,1.0,0.0,1,78,78.0,1,10,0,0,0,0,,UAB,2022
+Tyrique Howard,tyrique-howard-1,/cfb/players/tyrique-howard-1.html,DL,12,9,9,18,0.5,0.0,0,0,,0,0,0,0,0,0,,UAB,2022
+Kyle Harrell,kyle-harrell-1,/cfb/players/kyle-harrell-1.html,LB,11,12,3,15,4.5,3.5,0,0,,0,0,0,0,0,1,,UAB,2022
+CD Daniels,cd-daniels-1,/cfb/players/cd-daniels-1.html,CB,11,8,7,15,0.5,0.0,0,0,,0,1,0,0,0,0,,UAB,2022
+Nikia Eason,nikia-eason-1,/cfb/players/nikia-eason-1.html,LB,12,11,4,15,5.0,2.0,0,0,,0,0,0,0,0,0,,UAB,2022
+Colby Dempsey,colby-dempsey-1,/cfb/players/colby-dempsey-1.html,CB,11,11,2,13,0.0,0.0,0,0,,0,1,0,0,0,0,,UAB,2022
+Kevin Penn,kevin-penn-1,/cfb/players/kevin-penn-1.html,DL,9,2,10,12,0.0,0.0,0,0,,0,0,0,0,0,0,,UAB,2022
+Ike Rowell,ike-rowell-1,/cfb/players/ike-rowell-1.html,S,11,5,0,5,0.0,0.0,0,0,,0,0,0,0,0,0,,UAB,2022
+Reise Collier,reise-collier-1,/cfb/players/reise-collier-1.html,LB,4,2,2,4,1.0,1.0,0,0,,0,0,0,0,0,0,,UAB,2022
+Alvino Carbajal III,alvino-carbajal-iii-1,/cfb/players/alvino-carbajal-iii-1.html,DL,2,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,UAB,2022
+Tamarious Brown,tamarious-brown-1,/cfb/players/tamarious-brown-1.html,LB,3,2,1,3,0.0,0.0,0,0,,0,1,0,0,0,0,,UAB,2022
+Reese Burkhardt,reese-burkhardt-1,/cfb/players/reese-burkhardt-1.html,K,13,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,UAB,2022
+Damon Miller,damon-miller-1,/cfb/players/damon-miller-1.html,S,1,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,UAB,2022
+Michael Moore,michael-moore-6,/cfb/players/michael-moore-6.html,DL,2,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,UAB,2022
+Keon Handley Jr.,keon-handley-jr-1,/cfb/players/keon-handley-jr-1.html,CB,4,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,UAB,2022
+Jalen Mayala,jalen-mayala-1,/cfb/players/jalen-mayala-1.html,DE,2,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,UAB,2022
+Terrell McDonald,terrell-mcdonald-1,/cfb/players/terrell-mcdonald-1.html,TE,13,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,UAB,2022
+Codey Martin,codey-martin-1,/cfb/players/codey-martin-1.html,S,2,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,UAB,2022
+Xavier Lanier,xavier-lanier-1,/cfb/players/xavier-lanier-1.html,CB,11,2,0,2,0.0,0.0,1,7,7.0,0,0,0,0,0,0,,UAB,2022
+Luke Percer,luke-percer-1,/cfb/players/luke-percer-1.html,WR,9,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UAB,2022
+Jermaine Brown Jr.,jermaine-brown-jr-1,/cfb/players/jermaine-brown-jr-1.html,RB,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UAB,2022
+Gralyn Stokes,gralyn-stokes-1,/cfb/players/gralyn-stokes-1.html,DL,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UAB,2022
+Dylan Hopkins,dylan-hopkins-1,/cfb/players/dylan-hopkins-1.html,QB,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UAB,2022
+Tejhaun Palmer,tejhaun-palmer-1,/cfb/players/tejhaun-palmer-1.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UAB,2022
+Trea Shropshire,trea-shropshire-1,/cfb/players/trea-shropshire-1.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UAB,2022
+A.J. Gates,aj-gates-1,/cfb/players/aj-gates-1.html,RB,9,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UAB,2022
+Zaire Flournoy,zaire-flournoy-1,/cfb/players/zaire-flournoy-1.html,OL,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UAB,2022

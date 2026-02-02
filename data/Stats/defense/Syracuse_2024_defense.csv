@@ -1,0 +1,51 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Justin Barron,justin-barron-1,/cfb/players/justin-barron-1.html,DB,13,47,46,93,8.5,2.0,1,41,41.0,0,3,1,0,0,0,,Syracuse,2024
+Darian Chestnut,darian-chestnut-1,/cfb/players/darian-chestnut-1.html,CB,13,36,26,62,3.5,1.0,1,1,1.0,0,5,0,0,0,1,,Syracuse,2024
+Alijah Clark,alijah-clark-1,/cfb/players/alijah-clark-1.html,DB,12,35,26,61,2.5,0.0,1,-2,-2.0,0,4,0,0,0,0,,Syracuse,2024
+Devin Grant,devin-grant-2,/cfb/players/devin-grant-2.html,S,12,38,18,56,8.0,2.0,1,0,0.0,0,3,1,56,1,3,,Syracuse,2024
+Derek McDonald,derek-mcdonald-1,/cfb/players/derek-mcdonald-1.html,LB,13,22,33,55,0.5,0.0,0,0,,0,0,0,0,0,1,,Syracuse,2024
+Fadil Diggs,fadil-diggs-1,/cfb/players/fadil-diggs-1.html,DL,12,25,20,45,14.0,7.5,0,0,,0,1,1,0,0,1,,Syracuse,2024
+Marlowe Wax,marlowe-wax-1,/cfb/players/marlowe-wax-1.html,LB,8,27,17,44,5.5,4.5,1,21,21.0,0,0,1,0,0,2,,Syracuse,2024
+Clarence Lewis,clarence-lewis-1,/cfb/players/clarence-lewis-1.html,CB,13,27,14,41,1.0,0.0,1,0,0.0,0,12,0,0,0,0,,Syracuse,2024
+Jayden Bellamy,jayden-bellamy-1,/cfb/players/jayden-bellamy-1.html,CB,10,21,16,37,1.0,0.0,2,33,16.5,1,6,0,0,0,0,,Syracuse,2024
+Maraad Watson,maraad-watson-1,/cfb/players/maraad-watson-1.html,DL,13,13,18,31,1.5,1.0,0,0,,0,1,0,0,0,0,,Syracuse,2024
+Denis Jaquez Jr.,denis-jaquez-jr-1,/cfb/players/denis-jaquez-jr-1.html,DL,10,8,15,23,3.0,2.5,0,0,,0,0,0,0,0,0,,Syracuse,2024
+Berry Buxton III,berry-buxton-iii-1,/cfb/players/berry-buxton-iii-1.html,DB,10,13,9,22,0.5,0.0,0,0,,0,0,0,0,0,0,,Syracuse,2024
+Chase Simmons,chase-simmons-1,/cfb/players/chase-simmons-1.html,DL,11,9,10,19,1.5,0.0,0,0,,0,0,0,0,0,0,,Syracuse,2024
+Rashard Perry,rashard-perry-1,/cfb/players/rashard-perry-1.html,DL,11,8,9,17,3.0,1.5,0,0,,0,0,0,0,0,0,,Syracuse,2024
+Elijah Fuentes-Cundiff,elijah-fuentes-cundiff-1,/cfb/players/elijah-fuentes-cundiff-1.html,DL,10,6,10,16,0.0,0.0,0,0,,0,0,0,0,0,0,,Syracuse,2024
+Davien Kerr,davien-kerr-1,/cfb/players/davien-kerr-1.html,DB,8,12,2,14,0.0,0.0,1,0,0.0,0,0,0,0,0,0,,Syracuse,2024
+Dion Wilson Jr.,dion-wilson-jr-1,/cfb/players/dion-wilson-jr-1.html,DL,5,3,10,13,0.5,0.0,0,0,,0,0,0,0,0,0,,Syracuse,2024
+David Omopariola,david-omopariola-1,/cfb/players/david-omopariola-1.html,LB,12,4,8,12,4.0,0.5,0,0,,0,0,1,0,0,0,,Syracuse,2024
+Marcellus Barnes Jr.,marcellus-barnes-jr-1,/cfb/players/marcellus-barnes-jr-1.html,DB,5,5,6,11,0.0,0.0,0,0,,0,3,0,0,0,0,,Syracuse,2024
+Jaeden Gould,jaeden-gould-1,/cfb/players/jaeden-gould-1.html,DB,8,5,6,11,0.0,0.0,0,0,,0,0,0,0,0,0,,Syracuse,2024
+Anwar Sparrow,anwar-sparrow-1,/cfb/players/anwar-sparrow-1.html,LB,13,4,6,10,0.5,0.0,0,0,,0,0,0,0,0,0,,Syracuse,2024
+Kevin Jobity Jr.,kevin-jobity-jr-1,/cfb/players/kevin-jobity-jr-1.html,DL,5,3,7,10,2.5,0.5,0,0,,0,0,0,0,0,0,,Syracuse,2024
+James Heard Jr.,james-heard-jr-1,/cfb/players/james-heard-jr-1.html,LB,11,3,4,7,0.5,0.0,1,8,8.0,0,0,0,0,0,0,,Syracuse,2024
+Greg Delaine,greg-delaine-1,/cfb/players/greg-delaine-1.html,DB,10,5,1,6,1.0,0.0,0,0,,0,2,0,0,0,0,,Syracuse,2024
+Josh Kubala,josh-kubala-1,/cfb/players/josh-kubala-1.html,TE,12,5,1,6,1.0,1.0,0,0,,0,0,0,0,0,0,,Syracuse,2024
+Braheem Long Jr.,braheem-long-jr-1,/cfb/players/braheem-long-jr-1.html,DB,11,5,1,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Syracuse,2024
+KingJoseph Edwards,kingjoseph-edwards-1,/cfb/players/kingjoseph-edwards-1.html,DL,5,5,0,5,3.0,3.0,0,0,,0,0,0,0,0,0,,Syracuse,2024
+Zyian Moultrie-Goddard,zyian-moultrie-goddard-1,/cfb/players/zyian-moultrie-goddard-1.html,LB,12,2,3,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Syracuse,2024
+Jamie Tremble,jamie-tremble-1,/cfb/players/jamie-tremble-1.html,TE,12,5,0,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Syracuse,2024
+Jalil Martin,jalil-martin-2,/cfb/players/jalil-martin-2.html,DB,5,2,3,5,0.0,0.0,1,0,0.0,0,0,0,0,0,0,,Syracuse,2024
+Isaiah Hastings,isaiah-hastings-1,/cfb/players/isaiah-hastings-1.html,DL,13,1,3,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Syracuse,2024
+Darrell Gill Jr.,darrell-gill-jr-1,/cfb/players/darrell-gill-jr-1.html,WR,12,1,3,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Syracuse,2024
+Jackson Meeks,jackson-meeks-1,/cfb/players/jackson-meeks-1.html,WR,13,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Syracuse,2024
+Caden Brown,caden-brown-1,/cfb/players/caden-brown-1.html,LB,11,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Syracuse,2024
+Cornell Perry,cornell-perry-1,/cfb/players/cornell-perry-1.html,DB,11,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Syracuse,2024
+Jahide Lesaine Jr.,jahide-lesaine-jr-1,/cfb/players/jahide-lesaine-jr-1.html,LB,12,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Syracuse,2024
+Brady Denaburg,brady-denaburg-1,/cfb/players/brady-denaburg-1.html,K,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Syracuse,2024
+Umari Hatcher,umari-hatcher-1,/cfb/players/umari-hatcher-1.html,WR,11,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Syracuse,2024
+Lysander Moeolo,lysander-moeolo-1,/cfb/players/lysander-moeolo-1.html,OL,7,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Syracuse,2024
+LeQuint Allen,lequint-allen-1,/cfb/players/lequint-allen-1.html,RB,13,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Syracuse,2024
+Elijah Washington-Baker,elijah-washington-baker-1,/cfb/players/elijah-washington-baker-1.html,TE,5,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Syracuse,2024
+Fatim Diggs,fatim-diggs-1,/cfb/players/fatim-diggs-1.html,LB,3,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Syracuse,2024
+Ibn McDaniels,ibn-mcdaniels-1,/cfb/players/ibn-mcdaniels-1.html,DB,4,2,0,2,1.0,0.0,0,0,,0,1,0,0,0,0,,Syracuse,2024
+Malachi James,malachi-james-1,/cfb/players/malachi-james-1.html,RB,6,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Syracuse,2024
+Clay Masters,clay-masters-1,/cfb/players/clay-masters-1.html,DB,6,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Syracuse,2024
+Maximilian Mang,maximilian-mang-1,/cfb/players/maximilian-mang-1.html,TE,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Syracuse,2024
+Michael Nwokocha,michael-nwokocha-1,/cfb/players/michael-nwokocha-1.html,DL,6,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Syracuse,2024
+Oronde Gadsden II,oronde-gadsden-ii-1,/cfb/players/oronde-gadsden-ii-1.html,TE,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Syracuse,2024
+Tom Callahan,tom-callahan-2,/cfb/players/tom-callahan-2.html,DL,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Syracuse,2024
+Jayden Brown,jayden-brown-2,/cfb/players/jayden-brown-2.html,LB,2,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Syracuse,2024

@@ -1,0 +1,40 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+La'Kel Bass,lakel-bass-1,/cfb/players/lakel-bass-1.html,LB,11,29,39,68,8.5,2.0,0,0,,0,0,2,0,0,0,,UTSA,2017
+Marcus Davenport,marcus-davenport-1,/cfb/players/marcus-davenport-1.html,DE,11,33,22,55,17.0,8.5,0,0,,0,4,1,34,1,3,,UTSA,2017
+Carl Austin III,carl-austin-iii-1,/cfb/players/carl-austin-iii-1.html,S,11,30,18,48,4.5,1.0,0,0,,0,2,1,0,0,0,,UTSA,2017
+C.J. Levine,cj-levine-1,/cfb/players/cj-levine-1.html,S,11,23,23,46,2.5,0.0,1,10,10.0,0,2,0,0,0,0,,UTSA,2017
+Nate Gaines,nate-gaines-1,/cfb/players/nate-gaines-1.html,S,11,29,12,41,1.5,0.0,4,52,13.0,0,0,0,0,0,0,,UTSA,2017
+Austin Jupe,austin-jupe-1,/cfb/players/austin-jupe-1.html,CB,11,19,10,29,0.5,0.0,2,1,0.5,0,3,0,0,0,0,,UTSA,2017
+Josiah Tauaefa,josiah-tauaefa-1,/cfb/players/josiah-tauaefa-1.html,LB,8,12,17,29,2.0,1.0,0,0,,0,2,1,22,1,0,,UTSA,2017
+Marcos Curry,marcos-curry-1,/cfb/players/marcos-curry-1.html,LB,11,12,15,27,2.5,2.5,0,0,,0,0,0,0,0,0,,UTSA,2017
+Kevin Strong Jr.,kevin-strong-1,/cfb/players/kevin-strong-1.html,DE,11,15,12,27,7.5,3.0,0,0,,0,0,0,0,0,0,,UTSA,2017
+Baylen Baker,baylen-baker-1,/cfb/players/baylen-baker-1.html,DT,11,8,17,25,0.5,0.0,0,0,,0,3,2,0,0,0,,UTSA,2017
+Devron Davis,devron-davis-1,/cfb/players/devron-davis-1.html,CB,11,19,6,25,4.5,0.0,2,24,12.0,1,6,0,0,0,1,,UTSA,2017
+Eric Banks,eric-banks-1,/cfb/players/eric-banks-1.html,DE,11,15,9,24,7.5,1.5,0,0,,0,1,0,0,0,3,,UTSA,2017
+Andrew Martel,andrew-martel-1,/cfb/players/andrew-martel-1.html,S,11,16,7,23,1.0,1.0,1,-2,-2.0,0,0,0,0,0,0,,UTSA,2017
+Brenndan Johnson,brenndan-johnson-1,/cfb/players/brenndan-johnson-1.html,S,11,13,8,21,1.0,0.0,0,0,,0,1,0,0,0,0,,UTSA,2017
+Darryl Godfrey,darryl-godfrey-1,/cfb/players/darryl-godfrey-1.html,S,11,12,7,19,0.5,0.0,0,0,,0,2,0,0,0,0,,UTSA,2017
+King Newton,king-newton-1,/cfb/players/king-newton-1.html,DT,11,6,12,18,3.5,0.0,0,0,,0,0,1,0,0,0,,UTSA,2017
+Javontavius Mosley,javontavius-mosley-1,/cfb/players/javontavius-mosley-1.html,CB,8,9,5,14,0.0,0.0,0,0,,0,2,0,0,0,0,,UTSA,2017
+Anthony Hickey,anthony-hickey-1,/cfb/players/anthony-hickey-1.html,LB,11,7,7,14,1.0,0.0,1,0,0.0,0,0,0,0,0,0,,UTSA,2017
+Les Maruo,les-maruo-1,/cfb/players/les-maruo-1.html,LB,11,5,7,12,1.5,1.5,0,0,,0,0,0,0,0,0,,UTSA,2017
+Franklin Uesi,franklin-uesi-1,/cfb/players/franklin-uesi-1.html,DE,11,8,4,12,0.0,0.0,0,0,,0,0,0,0,0,1,,UTSA,2017
+Jarrod Carter-McLin,jarrod-carter-mclin-1,/cfb/players/jarrod-carter-mclin-1.html,DE,11,4,5,9,3.0,0.5,0,0,,0,1,0,0,0,0,,UTSA,2017
+Stanley Dye Jr.,stanley-dye-jr-1,/cfb/players/stanley-dye-jr-1.html,CB,11,5,1,6,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2017
+Morris Joseph Jr.,morris-joseph-jr-1,/cfb/players/morris-joseph-jr-1.html,DE,1,3,3,6,0.5,0.5,0,0,,0,0,0,0,0,0,,UTSA,2017
+Dannon Cavil,dannon-cavil-1,/cfb/players/dannon-cavil-1.html,WR,11,3,3,6,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2017
+Joshua Booker-Brown,joshua-booker-brown-1,/cfb/players/joshua-booker-brown-1.html,LB,7,4,1,5,1.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2017
+Clayton Johnson,clayton-johnson-1,/cfb/players/clayton-johnson-1.html,CB,6,4,0,4,0.0,0.0,2,10,5.0,0,1,0,0,0,0,,UTSA,2017
+Tay'lor Perry,taylor-perry-1,/cfb/players/taylor-perry-1.html,S,3,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2017
+Jaylon Haynes,jaylon-haynes-1,/cfb/players/jaylon-haynes-1.html,DE,4,1,3,4,1.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2017
+B.J. Daniels,bj-daniels-2,/cfb/players/bj-daniels-2.html,RB,9,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2017
+Jim Philistin,jim-philistin-1,/cfb/players/jim-philistin-1.html,DE,7,1,2,3,0.0,0.0,0,0,,0,0,1,0,0,0,,UTSA,2017
+DeQuarius Henry,dequarius-henry-1,/cfb/players/dequarius-henry-1.html,DE,3,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2017
+Dalton Sturm,dalton-sturm-1,/cfb/players/dalton-sturm-1.html,QB,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2017
+Kirk Johnson,kirk-johnson-6,/cfb/players/kirk-johnson-6.html,WR,4,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2017
+Daniel Portillo,daniel-portillo-1,/cfb/players/daniel-portillo-1.html,PK,10,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2017
+Brett Winnegan,brett-winnegan-1,/cfb/players/brett-winnegan-1.html,RB,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2017
+Blaze Moorhead,blaze-moorhead-1,/cfb/players/blaze-moorhead-1.html,WR,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2017
+Avery Jackson,avery-jackson-1,/cfb/players/avery-jackson-1.html,CB,7,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2017
+Peyton Hall,peyton-hall-1,/cfb/players/peyton-hall-1.html,WR,11,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2017
+Tariq Woolen,tariq-woolen-1,/cfb/players/tariq-woolen-1.html,WR,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTSA,2017

@@ -1,0 +1,42 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Bumper Pool,bumper-pool-1,/cfb/players/bumper-pool-1.html,LB,13,45,80,125,7.5,0.0,0,0,,0,2,0,0,0,0,,Arkansas,2021
+Grant Morgan,grant-morgan-1,/cfb/players/grant-morgan-1.html,LB,13,40,61,101,7.0,0.5,1,0,0.0,0,3,0,0,0,0,,Arkansas,2021
+Hayden Henry,hayden-henry-1,/cfb/players/hayden-henry-1.html,LB,13,50,50,100,12.0,4.0,0,0,,0,1,0,0,0,0,,Arkansas,2021
+Joseph Foucha,joseph-foucha-1,/cfb/players/joseph-foucha-1.html,DB,13,34,41,75,7.5,1.5,1,0,0.0,0,5,0,0,0,1,,Arkansas,2021
+Montaric Brown,montaric-brown-1,/cfb/players/montaric-brown-1.html,DB,13,24,30,54,1.0,0.0,5,0,0.0,0,6,1,0,0,1,,Arkansas,2021
+Myles Slusher,myles-slusher-1,/cfb/players/myles-slusher-1.html,DB,11,33,17,50,3.0,0.5,2,11,5.5,0,4,0,0,0,0,,Arkansas,2021
+Greg Brooks Jr.,greg-brooks-jr-1,/cfb/players/greg-brooks-jr-1.html,DB,13,23,25,48,2.5,0.0,1,0,0.0,0,4,2,7,0,0,,Arkansas,2021
+Jalen Catalon,jalen-catalon-1,/cfb/players/jalen-catalon-1.html,DB,6,22,24,46,1.5,0.0,2,83,41.5,0,4,0,0,0,0,,Arkansas,2021
+John Ridgeway,john-ridgeway-1,/cfb/players/john-ridgeway-1.html,DL,12,11,28,39,4.0,2.0,0,0,,0,0,0,0,0,0,,Arkansas,2021
+Simeon Blair,simeon-blair-1,/cfb/players/simeon-blair-1.html,DB,13,23,15,38,1.0,1.0,0,0,,0,4,0,0,0,0,,Arkansas,2021
+Tre' Williams,tre-williams-3,/cfb/players/tre-williams-3.html,DL,12,11,17,28,6.5,6.0,0,0,,0,0,0,0,0,0,,Arkansas,2021
+Eric Gregory,eric-gregory-1,/cfb/players/eric-gregory-1.html,DL,13,7,20,27,4.0,1.0,0,0,,0,1,0,0,0,0,,Arkansas,2021
+Taurean Carter,taurean-carter-1,/cfb/players/taurean-carter-1.html,DL,13,6,18,24,3.0,1.0,0,0,,0,1,0,0,0,0,,Arkansas,2021
+Jayden Johnson,jayden-johnson-1,/cfb/players/jayden-johnson-1.html,DB,11,9,15,24,2.0,0.0,0,0,,0,0,0,0,0,0,,Arkansas,2021
+Zach Williams,zach-williams-6,/cfb/players/zach-williams-6.html,DL,13,7,16,23,5.5,2.5,0,0,,0,0,0,0,0,1,,Arkansas,2021
+Isaiah Nichols,isaiah-nichols-1,/cfb/players/isaiah-nichols-1.html,DL,13,5,17,22,3.5,1.5,0,0,,0,0,0,0,0,1,,Arkansas,2021
+Hudson Clark,hudson-clark-1,/cfb/players/hudson-clark-1.html,DB,12,9,13,22,1.0,0.0,0,0,,0,1,0,0,0,0,,Arkansas,2021
+LaDarrius Bishop,ladarrius-bishop-1,/cfb/players/ladarrius-bishop-1.html,DB,12,8,7,15,0.0,0.0,0,0,,0,3,0,0,0,0,,Arkansas,2021
+Malik Chavis,malik-chavis-1,/cfb/players/malik-chavis-1.html,DB,12,9,6,15,0.0,0.0,1,3,3.0,0,0,0,0,0,0,,Arkansas,2021
+Markell Utsey,markell-utsey-1,/cfb/players/markell-utsey-1.html,DL,11,3,11,14,2.0,1.0,0,0,,0,1,0,0,0,0,,Arkansas,2021
+Jackson Woodard,jackson-woodard-1,/cfb/players/jackson-woodard-1.html,LB,11,5,2,7,0.0,0.0,0,0,,0,0,0,0,0,0,,Arkansas,2021
+Jashaud Stewart,jashaud-stewart-1,/cfb/players/jashaud-stewart-1.html,DL,13,4,3,7,0.0,0.0,0,0,,0,0,0,0,0,0,,Arkansas,2021
+Andrew Parker,andrew-parker-2,/cfb/players/andrew-parker-2.html,LB,12,4,3,7,1.0,1.0,0,0,,0,0,0,0,0,0,,Arkansas,2021
+Deon Edwards,deon-edwards-1,/cfb/players/deon-edwards-1.html,LB,11,0,6,6,0.5,0.0,0,0,,0,0,0,0,0,0,,Arkansas,2021
+Mataio Soli,mataio-soli-1,/cfb/players/mataio-soli-1.html,DL,12,0,6,6,1.0,0.5,0,0,,0,0,0,0,0,0,,Arkansas,2021
+Khari Johnson,khari-johnson-1,/cfb/players/khari-johnson-1.html,DB,5,4,1,5,0.0,0.0,0,0,,0,1,0,0,0,0,,Arkansas,2021
+Eric Thomas Jr.,eric-thomas-jr-1,/cfb/players/eric-thomas-jr-1.html,DL,12,0,5,5,0.5,0.0,0,0,,0,0,0,0,0,0,,Arkansas,2021
+Nick Turner,nick-turner-3,/cfb/players/nick-turner-3.html,DB,12,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Arkansas,2021
+Marcus Miller,marcus-miller-2,/cfb/players/marcus-miller-2.html,DL,2,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Arkansas,2021
+Jacorrei Turner,jacorrei-turner-1,/cfb/players/jacorrei-turner-1.html,DB,11,1,1,2,1.0,0.0,0,0,,0,1,0,0,0,0,,Arkansas,2021
+Nathan Parodi,nathan-parodi-1,/cfb/players/nathan-parodi-1.html,DB,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Arkansas,2021
+T.J. Hammonds,tj-hammonds-1,/cfb/players/tj-hammonds-1.html,RB,13,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Arkansas,2021
+Trent Gordon,trent-gordon-1,/cfb/players/trent-gordon-1.html,DB,8,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Arkansas,2021
+Devin Bush,devin-bush-3,/cfb/players/devin-bush-3.html,DB,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Arkansas,2021
+Reid Bauer,reid-bauer-1,/cfb/players/reid-bauer-1.html,P,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Arkansas,2021
+Shane Clenin,shane-clenin-1,/cfb/players/shane-clenin-1.html,OL,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Arkansas,2021
+Chris Paul Jr.,chris-paul-jr-1,/cfb/players/chris-paul-jr-1.html,LB,4,0,1,1,0.5,0.0,0,0,,0,0,0,0,0,0,,Arkansas,2021
+Cameron Ball,cameron-ball-1,/cfb/players/cameron-ball-1.html,DL,2,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Arkansas,2021
+Treylon Burks,treylon-burks-1,/cfb/players/treylon-burks-1.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Arkansas,2021
+Tyson Morris,tyson-morris-1,/cfb/players/tyson-morris-1.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Arkansas,2021
+AJ Green,aj-green-6,/cfb/players/aj-green-6.html,RB,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Arkansas,2021

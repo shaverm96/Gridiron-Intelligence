@@ -1,0 +1,46 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Aaron Casey,aaron-casey-1,/cfb/players/aaron-casey-1.html,LB,12,78,31,109,20.0,6.5,0,0,,0,3,0,0,0,3,,Indiana,2023
+Louis Moore,louis-moore-1,/cfb/players/louis-moore-1.html,DB,12,58,24,82,1.0,0.0,3,49,16.3,1,1,0,0,0,3,,Indiana,2023
+Jacob Mangum-Farrar,jacob-mangum-farrar-1,/cfb/players/jacob-mangum-farrar-1.html,LB,12,33,29,62,4.0,0.0,0,0,,0,4,0,0,0,0,,Indiana,2023
+Phillip Dunnam,phillip-dunnam-1,/cfb/players/phillip-dunnam-1.html,DB,12,39,14,53,1.0,0.0,3,28,9.3,0,6,0,0,0,0,,Indiana,2023
+Andre Carter,andre-carter-5,/cfb/players/andre-carter-5.html,DL,12,27,22,49,11.0,2.0,0,0,,0,3,0,0,0,0,,Indiana,2023
+Lanell Carr,lanell-carr-1,/cfb/players/lanell-carr-1.html,LB,12,21,12,33,8.5,5.0,0,0,,0,2,0,0,0,0,,Indiana,2023
+Philip Blidi,philip-blidi-1,/cfb/players/philip-blidi-1.html,DL,12,10,20,30,4.0,0.0,0,0,,0,1,0,0,0,0,,Indiana,2023
+Kobee Minor,kobee-minor-1,/cfb/players/kobee-minor-1.html,DB,11,20,9,29,0.0,0.0,0,0,,0,4,0,0,0,0,,Indiana,2023
+Nicolas Toomer,nicolas-toomer-1,/cfb/players/nicolas-toomer-1.html,CB,8,22,4,26,3.0,1.0,1,0,0.0,0,3,0,0,0,0,,Indiana,2023
+Myles Jackson,myles-jackson-2,/cfb/players/myles-jackson-2.html,LB,12,18,8,26,2.0,1.0,0,0,,0,0,0,0,0,1,,Indiana,2023
+Jordan Grier,jordan-grier-1,/cfb/players/jordan-grier-1.html,DB,12,18,5,23,1.5,0.0,0,0,,0,0,0,0,0,0,,Indiana,2023
+Jamari Sharpe,jamari-sharpe-1,/cfb/players/jamari-sharpe-1.html,DB,12,18,4,22,1.0,0.0,1,14,14.0,0,2,0,0,0,0,,Indiana,2023
+Noah Pierre,noah-pierre-1,/cfb/players/noah-pierre-1.html,DB,7,16,6,22,1.5,1.0,0,0,,0,2,0,0,0,0,,Indiana,2023
+Marcus Burris Jr.,marcus-burris-jr-1,/cfb/players/marcus-burris-jr-1.html,DL,12,13,7,20,2.5,1.0,0,0,,0,0,0,0,0,0,,Indiana,2023
+Josh Sanguinetti,josh-sanguinetti-1,/cfb/players/josh-sanguinetti-1.html,DB,12,11,8,19,0.5,0.0,2,7,3.5,0,2,2,26,0,0,,Indiana,2023
+Joshua Rudolph,joshua-rudolph-1,/cfb/players/joshua-rudolph-1.html,LB,12,13,5,18,2.5,0.0,0,0,,0,1,0,0,0,0,,Indiana,2023
+Patrick Lucas Jr.,patrick-lucas-jr-1,/cfb/players/patrick-lucas-jr-1.html,DL,12,8,6,14,0.5,0.0,0,0,,0,0,0,0,0,0,,Indiana,2023
+JoJo Johnson,jojo-johnson-1,/cfb/players/jojo-johnson-1.html,DB,12,6,6,12,0.0,0.0,0,0,,0,1,0,0,0,0,,Indiana,2023
+Anthony Jones,anthony-jones-9,/cfb/players/anthony-jones-9.html,LB,12,8,4,12,0.5,0.0,0,0,,0,0,0,0,0,0,,Indiana,2023
+Jordan Shaw,jordan-shaw-1,/cfb/players/jordan-shaw-1.html,DB,4,8,4,12,0.5,0.5,0,0,,0,1,0,0,0,0,,Indiana,2023
+LeDarrius Cox,ledarrius-cox-1,/cfb/players/ledarrius-cox-1.html,DL,12,7,3,10,2.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2023
+Matt Hohlt,matt-hohlt-1,/cfb/players/matt-hohlt-1.html,LB,10,4,5,9,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2023
+Amare Ferrell,amare-ferrell-1,/cfb/players/amare-ferrell-1.html,DB,11,9,0,9,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2023
+Venson Sneed,venson-sneed-1,/cfb/players/venson-sneed-1.html,DL,11,3,2,5,1.5,0.0,0,0,,0,0,0,0,0,1,,Indiana,2023
+Jamier Johnson,jamier-johnson-1,/cfb/players/jamier-johnson-1.html,DB,4,4,1,5,0.0,0.0,0,0,,0,1,0,0,0,0,,Indiana,2023
+Nick James,nick-james-2,/cfb/players/nick-james-2.html,DL,12,2,2,4,1.0,1.0,0,0,,0,1,0,0,0,0,,Indiana,2023
+Tyrik McDaniel,tyrik-mcdaniel-1,/cfb/players/tyrik-mcdaniel-1.html,DB,11,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2023
+Bryson Bonds,bryson-bonds-1,/cfb/players/bryson-bonds-1.html,DB,11,4,0,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2023
+James Monds III,james-monds-iii-1,/cfb/players/james-monds-iii-1.html,DB,11,1,3,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2023
+Jared Casey,jared-casey-1,/cfb/players/jared-casey-1.html,LB,12,1,2,3,0.0,0.0,0,0,,0,0,1,0,0,0,,Indiana,2023
+Robby Harrison,robby-harrison-1,/cfb/players/robby-harrison-1.html,DL,3,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2023
+Kaiden Turner,kaiden-turner-1,/cfb/players/kaiden-turner-1.html,LB,6,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2023
+Matthew Bedford,matthew-bedford-1,/cfb/players/matthew-bedford-1.html,OL,12,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2023
+Sean Wracher,sean-wracher-1,/cfb/players/sean-wracher-1.html,LS,12,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2023
+Daniel Weems,daniel-weems-1,/cfb/players/daniel-weems-1.html,RB,1,1,0,1,1.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2023
+Race Stewart,race-stewart-1,/cfb/players/race-stewart-1.html,DL,1,1,0,1,1.0,1.0,0,0,,0,0,0,0,0,0,,Indiana,2023
+Brendan Sorsby,brendan-sorsby-1,/cfb/players/brendan-sorsby-1.html,QB,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2023
+Jamison Kelly,jamison-kelly-1,/cfb/players/jamison-kelly-1.html,DB,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2023
+Chris Freeman,chris-freeman-2,/cfb/players/chris-freeman-2.html,K,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2023
+Donaven McCulley,donaven-mcculley-1,/cfb/players/donaven-mcculley-1.html,WR,12,1,0,1,0.0,0.0,0,0,,0,1,0,0,0,0,,Indiana,2023
+Kahlil Benson,kahlil-benson-1,/cfb/players/kahlil-benson-1.html,OL,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2023
+Jackson Schott,jackson-schott-2,/cfb/players/jackson-schott-2.html,LB,9,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2023
+Mike Katic,mike-katic-1,/cfb/players/mike-katic-1.html,OL,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2023
+James Bomba,james-bomba-1,/cfb/players/james-bomba-1.html,TE,11,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2023
+James Evans,james-evans-2,/cfb/players/james-evans-2.html,P,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2023

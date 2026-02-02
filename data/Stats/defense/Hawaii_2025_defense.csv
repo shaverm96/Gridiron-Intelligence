@@ -1,0 +1,55 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Peter Manuma,peter-manuma-1,/cfb/players/peter-manuma-1.html,DB,13,44,36,80,2.5,1.0,0,0,,0,7,0,0,0,0,,Hawaii,2025
+Jalen Smith,jalen-smith-3,/cfb/players/jalen-smith-3.html,LB,13,28,32,60,4.5,1.0,0,0,,0,2,1,0,0,0,,Hawaii,2025
+Jamih Otis,jamih-otis-1,/cfb/players/jamih-otis-1.html,LB,11,27,32,59,3.5,0.0,1,0,0.0,0,0,1,37,1,2,,Hawaii,2025
+Elijah Palmer,elijah-palmer-1,/cfb/players/elijah-palmer-1.html,DB,13,29,23,52,6.5,0.0,2,57,28.5,1,10,1,0,0,0,,Hawaii,2025
+Kilnahe Mendiola-Jensen,kilnahe-mendiola-jensen-1,/cfb/players/kilnahe-mendiola-jensen-1.html,DB,13,28,19,47,0.0,0.0,2,22,11.0,0,5,0,0,0,0,,Hawaii,2025
+Lesterlaisene Lagafuaina,lesterlaisene-lagafuaina-1,/cfb/players/lesterlaisene-lagafuaina-1.html,DL,13,20,17,37,8.0,3.5,0,0,,0,0,0,0,0,0,,Hawaii,2025
+Giovanni Iovino,giovanni-iovino-1,/cfb/players/giovanni-iovino-1.html,LB,13,15,21,36,3.0,1.0,1,41,41.0,1,0,0,0,0,0,,Hawaii,2025
+De'jon Benton,dejon-benton-1,/cfb/players/dejon-benton-1.html,DL,12,21,12,33,9.5,5.5,0,0,,0,1,0,0,0,1,,Hawaii,2025
+Jaheim Wilson-Jones,jaheim-wilson-jones-1,/cfb/players/jaheim-wilson-jones-1.html,DB,13,24,9,33,1.5,0.0,1,0,0.0,0,4,0,0,0,0,,Hawaii,2025
+Virdel Edwards II,virdel-edwards-ii-1,/cfb/players/virdel-edwards-ii-1.html,DB,12,25,6,31,1.0,0.0,0,0,,0,6,1,0,0,0,,Hawaii,2025
+Qwyn Williams,qwyn-williams-1,/cfb/players/qwyn-williams-1.html,DL,13,11,18,29,3.5,2.5,0,0,,0,0,0,0,0,1,,Hawaii,2025
+Jackie Johnson III,jackie-johnson-iii-1,/cfb/players/jackie-johnson-iii-1.html,DL,13,10,19,29,8.5,7.5,0,0,,0,0,2,0,0,0,,Hawaii,2025
+Tariq Jones,tariq-jones-1,/cfb/players/tariq-jones-1.html,DL,11,12,14,26,3.0,2.0,0,0,,0,1,0,0,0,0,,Hawaii,2025
+Wynden Ho'ohuli,wynden-hoohuli-1,/cfb/players/wynden-hoohuli-1.html,LB,13,13,12,25,2.0,0.0,0,0,,0,1,0,0,0,0,,Hawaii,2025
+Luther McCoy,luther-mccoy-1,/cfb/players/luther-mccoy-1.html,DL,12,11,11,22,2.5,1.5,0,0,,0,0,0,0,0,2,,Hawaii,2025
+Devyn King,devyn-king-1,/cfb/players/devyn-king-1.html,DB,12,13,9,22,0.0,0.0,0,0,,0,5,0,0,0,0,,Hawaii,2025
+Justin Sinclair,justin-sinclair-1,/cfb/players/justin-sinclair-1.html,DB,13,13,7,20,0.0,0.0,0,0,,0,1,0,0,0,2,,Hawaii,2025
+Matagi Thompson,matagi-thompson-1,/cfb/players/matagi-thompson-1.html,DB,12,11,5,16,0.0,0.0,1,14,14.0,0,3,0,0,0,0,,Hawaii,2025
+Jamar Sekona,jamar-sekona-1,/cfb/players/jamar-sekona-1.html,DL,12,8,8,16,3.5,1.5,0,0,,0,0,0,0,0,0,,Hawaii,2025
+Makana Meyer,makana-meyer-1,/cfb/players/makana-meyer-1.html,DB,11,9,5,14,0.0,0.0,0,0,,0,0,0,0,0,0,,Hawaii,2025
+Carsen Stocklinski,carsen-stocklinski-1,/cfb/players/carsen-stocklinski-1.html,DL,13,4,8,12,1.0,1.0,0,0,,0,0,0,0,0,0,,Hawaii,2025
+Kona Moore,kona-moore-1,/cfb/players/kona-moore-1.html,DB,7,6,3,9,0.0,0.0,0,0,,0,0,0,0,0,0,,Hawaii,2025
+Elijah Gipson,elijah-gipson-1,/cfb/players/elijah-gipson-1.html,DB,13,7,1,8,0.0,0.0,0,0,,0,0,0,0,0,0,,Hawaii,2025
+Matteus Ioane,matteus-ioane-1,/cfb/players/matteus-ioane-1.html,LB,13,4,2,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Hawaii,2025
+Landon Sims,landon-sims-1,/cfb/players/landon-sims-1.html,RB,13,6,0,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Hawaii,2025
+Alika Cavaco-Amoy,alika-cavaco-amoy-1,/cfb/players/alika-cavaco-amoy-1.html,LB,8,3,3,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Hawaii,2025
+Ka'eo Akana,kaeo-akana-1,/cfb/players/kaeo-akana-1.html,DE,11,3,3,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Hawaii,2025
+Deliyon Freeman,deliyon-freeman-1,/cfb/players/deliyon-freeman-1.html,DB,6,3,2,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Hawaii,2025
+Aiden McComber,aiden-mccomber-1,/cfb/players/aiden-mccomber-1.html,DL,11,3,1,4,1.0,1.0,0,0,,0,0,0,0,0,0,,Hawaii,2025
+Ezekiel Rodrigues,ezekiel-rodrigues-1,/cfb/players/ezekiel-rodrigues-1.html,DB,4,2,2,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Hawaii,2025
+Semaj James,semaj-james-1,/cfb/players/semaj-james-1.html,DB,5,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Hawaii,2025
+David Cordero,david-cordero-1,/cfb/players/david-cordero-1.html,RB,12,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Hawaii,2025
+Blaze Kamoku,blaze-kamoku-1,/cfb/players/blaze-kamoku-1.html,WR,12,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Hawaii,2025
+Sitani Mikaele,sitani-mikaele-1,/cfb/players/sitani-mikaele-1.html,RB,13,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Hawaii,2025
+Ha'aheo Dela Cruz,haaheo-dela-cruz-1,/cfb/players/haaheo-dela-cruz-1.html,DL,8,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Hawaii,2025
+Iosefa Letuli,iosefa-letuli-1,/cfb/players/iosefa-letuli-1.html,DL,8,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Hawaii,2025
+Josh Sagapolutele,josh-sagapolutele-1,/cfb/players/josh-sagapolutele-1.html,DL,13,1,1,2,1.0,0.0,0,0,,0,0,0,0,0,0,,Hawaii,2025
+Zion Allen,zion-allen-1,/cfb/players/zion-allen-1.html,DB,9,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Hawaii,2025
+Waipehe Winchester,waipehe-winchester-1,/cfb/players/waipehe-winchester-1.html,DL,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Hawaii,2025
+Billy Gowers,billy-gowers-1,/cfb/players/billy-gowers-1.html,P,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Hawaii,2025
+Vaifanua Peko,vaifanua-peko-1,/cfb/players/vaifanua-peko-1.html,DL,9,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Hawaii,2025
+Zaden Mariteragi,zaden-mariteragi-1,/cfb/players/zaden-mariteragi-1.html,LB,2,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Hawaii,2025
+Tama Uiliata,tama-uiliata-1,/cfb/players/tama-uiliata-1.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Hawaii,2025
+Kansei Matsuzawa,kansei-matsuzawa-1,/cfb/players/kansei-matsuzawa-1.html,K,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,AA,Hawaii,2025
+Zoram Petelo,zoram-petelo-1,/cfb/players/zoram-petelo-1.html,DL,11,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Hawaii,2025
+Sean Olvera-Harle,sean-olvera-harle-1,/cfb/players/sean-olvera-harle-1.html,P,6,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Hawaii,2025
+Noah Wily,noah-wily-1,/cfb/players/noah-wily-1.html,DL,6,1,0,1,1.0,1.0,0,0,,0,0,0,0,0,0,,Hawaii,2025
+Nazaiah Caravallo,nazaiah-caravallo-1,/cfb/players/nazaiah-caravallo-1.html,DL,9,1,0,1,0.0,0.0,0,0,,0,0,1,0,0,0,,Hawaii,2025
+Micah Alejado,micah-alejado-1,/cfb/players/micah-alejado-1.html,QB,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Hawaii,2025
+Max Ware,max-ware-1,/cfb/players/max-ware-1.html,WR,11,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Hawaii,2025
+Jackson Harris,jackson-harris-3,/cfb/players/jackson-harris-3.html,WR,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Hawaii,2025
+Junior Fiaui,junior-fiaui-1,/cfb/players/junior-fiaui-1.html,LB,7,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Hawaii,2025
+Koa Eldredge,koa-eldredge-1,/cfb/players/koa-eldredge-1.html,WR,11,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Hawaii,2025
+Kainoa Ontai,kainoa-ontai-1,/cfb/players/kainoa-ontai-1.html,DB,3,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Hawaii,2025

@@ -1,0 +1,44 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Trey Lathan,trey-lathan-1,/cfb/players/trey-lathan-1.html,LB,12,51,35,86,7.0,1.5,1,32,32.0,0,5,2,4,0,1,,Kansas,2025
+Lyrik Rawls,lyrik-rawls-1,/cfb/players/lyrik-rawls-1.html,S,12,57,16,73,1.0,0.0,1,0,0.0,0,7,0,0,0,0,,Kansas,2025
+Bangally Kamara,bangally-kamara-1,/cfb/players/bangally-kamara-1.html,LB,11,35,21,56,9.5,1.5,0,0,,0,4,0,0,0,1,,Kansas,2025
+Austin Alexander,austin-alexander-2,/cfb/players/austin-alexander-2.html,CB,12,34,12,46,3.5,0.0,0,0,,0,2,1,28,1,0,,Kansas,2025
+Jalen Todd,jalen-todd-1,/cfb/players/jalen-todd-1.html,CB,11,30,14,44,2.0,2.0,0,0,,0,4,0,0,0,1,,Kansas,2025
+Blake Herold,blake-herold-1,/cfb/players/blake-herold-1.html,DT,12,19,24,43,5.0,2.0,0,0,,0,4,1,0,0,1,,Kansas,2025
+Taylor Davis,taylor-davis-2,/cfb/players/taylor-davis-2.html,S,12,29,12,41,0.0,0.0,1,0,0.0,0,1,0,0,0,0,,Kansas,2025
+Leroy Harris III,leroy-harris-iii-1,/cfb/players/leroy-harris-iii-1.html,DE,12,23,8,31,6.5,4.5,0,0,,0,8,0,0,0,0,,Kansas,2025
+Dean Miller,dean-miller-1,/cfb/players/dean-miller-1.html,DE,11,13,16,29,4.0,1.0,0,0,,0,0,0,0,0,0,,Kansas,2025
+Justice Finkley,justice-finkley-1,/cfb/players/justice-finkley-1.html,DE,12,13,14,27,3.5,1.5,0,0,,0,0,0,0,0,1,,Kansas,2025
+Tommy Dunn Jr.,tommy-dunn-jr-1,/cfb/players/tommy-dunn-jr-1.html,DT,12,12,14,26,3.0,2.5,0,0,,0,0,0,0,0,0,,Kansas,2025
+Devin Dye,devin-dye-1,/cfb/players/devin-dye-1.html,S,11,18,8,26,0.5,0.5,1,0,0.0,0,4,0,0,0,0,,Kansas,2025
+D.J. Graham,dj-graham-1,/cfb/players/dj-graham-1.html,CB,11,22,2,24,2.0,0.0,0,0,,0,3,0,0,0,0,,Kansas,2025
+Syeed Gibbs,syeed-gibbs-1,/cfb/players/syeed-gibbs-1.html,CB,9,19,4,23,2.0,0.0,0,0,,0,3,0,0,0,0,,Kansas,2025
+Alex Bray,alex-bray-1,/cfb/players/alex-bray-1.html,DE,12,10,11,21,3.5,0.0,0,0,,0,0,0,0,0,0,,Kansas,2025
+Kenean Caldwell,kenean-caldwell-1,/cfb/players/kenean-caldwell-1.html,DT,11,12,7,19,6.5,1.0,0,0,,0,0,1,0,0,0,,Kansas,2025
+Mason Ellis,mason-ellis-1,/cfb/players/mason-ellis-1.html,S,8,12,6,18,1.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2025
+D.J. Withers,dj-withers-1,/cfb/players/dj-withers-1.html,DT,12,5,11,16,4.5,2.5,0,0,,0,0,0,0,0,0,,Kansas,2025
+Marcus Calvin,marcus-calvin-1,/cfb/players/marcus-calvin-1.html,DT,11,7,8,15,1.0,1.0,0,0,,0,1,0,0,0,0,,Kansas,2025
+Dak Brinkley,dak-brinkley-1,/cfb/players/dak-brinkley-1.html,DE,12,8,7,15,5.0,1.5,0,0,,0,0,0,0,0,0,,Kansas,2025
+Jon Jon Kamara,jon-jon-kamara-1,/cfb/players/jon-jon-kamara-1.html,LB,12,5,8,13,1.5,0.5,0,0,,0,0,0,0,0,0,,Kansas,2025
+Jalen Dye,jalen-dye-1,/cfb/players/jalen-dye-1.html,S,12,9,2,11,1.0,1.0,0,0,,0,0,0,0,0,3,,Kansas,2025
+Jayson Gilliom,jayson-gilliom-1,/cfb/players/jayson-gilliom-1.html,LB,8,4,7,11,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2025
+Logan Brantley,logan-brantley-1,/cfb/players/logan-brantley-1.html,LB,12,5,3,8,1.5,0.5,0,0,,0,0,0,0,0,0,,Kansas,2025
+Jahlil Hurley,jahlil-hurley-1,/cfb/players/jahlil-hurley-1.html,CB,12,4,2,6,0.5,0.0,0,0,,0,2,0,0,0,0,,Kansas,2025
+Ezra Vedral,ezra-vedral-1,/cfb/players/ezra-vedral-1.html,LB,11,2,3,5,0.0,0.0,0,0,,0,0,1,0,0,0,,Kansas,2025
+Emmanuel Henderson,emmanuel-henderson-1,/cfb/players/emmanuel-henderson-1.html,WR,12,4,0,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2025
+Laquan Robinson,laquan-robinson-1,/cfb/players/laquan-robinson-1.html,S,8,4,0,4,0.0,0.0,0,0,,0,0,0,0,0,1,,Kansas,2025
+Joseph Sipp Jr.,joseph-sipp-jr-1,/cfb/players/joseph-sipp-jr-1.html,LB,4,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2025
+Cole Mondi,cole-mondi-1,/cfb/players/cole-mondi-1.html,LB,9,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2025
+Landon Nelson,landon-nelson-1,/cfb/players/landon-nelson-1.html,S,11,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2025
+Jacoby Davis,jacoby-davis-1,/cfb/players/jacoby-davis-1.html,CB,5,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2025
+Grady Seyfert,grady-seyfert-1,/cfb/players/grady-seyfert-1.html,DT,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2025
+Gage Keys,gage-keys-1,/cfb/players/gage-keys-1.html,DL,4,0,1,1,0.5,0.0,0,0,,0,0,0,0,0,0,,Kansas,2025
+Jameel Croft,jameel-croft-1,/cfb/players/jameel-croft-1.html,CB,5,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2025
+Mack Moeller,mack-moeller-1,/cfb/players/mack-moeller-1.html,WR,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2025
+Malachi Curvey,malachi-curvey-1,/cfb/players/malachi-curvey-1.html,LB,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2025
+Finn Lappin,finn-lappin-1,/cfb/players/finn-lappin-1.html,P,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2025
+Enrique Cruz Jr.,enrique-cruz-jr-1,/cfb/players/enrique-cruz-jr-1.html,OL,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2025
+Calvin Clements,calvin-clements-1,/cfb/players/calvin-clements-1.html,OL,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2025
+Caleb Redd,caleb-redd-1,/cfb/players/caleb-redd-1.html,DE,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2025
+Bryce Foster,bryce-foster-1,/cfb/players/bryce-foster-1.html,OL,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2025
+Bryce Cohoon,bryce-cohoon-1,/cfb/players/bryce-cohoon-1.html,WR,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2025

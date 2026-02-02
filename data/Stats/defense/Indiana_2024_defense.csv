@@ -1,0 +1,45 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Aiden Fisher,aiden-fisher-1,/cfb/players/aiden-fisher-1.html,LB,13,49,69,118,5.5,1.5,0,0,,0,4,0,0,0,0,,Indiana,2024
+Jailin Walker,jailin-walker-1,/cfb/players/jailin-walker-1.html,LB,13,39,43,82,10.0,2.0,2,0,0.0,0,8,0,0,0,3,,Indiana,2024
+Shawn Asbury II,shawn-asbury-ii-1,/cfb/players/shawn-asbury-ii-1.html,DB,13,28,41,69,4.5,1.5,1,78,78.0,0,4,0,0,0,0,,Indiana,2024
+D'Angelo Ponds,dangelo-ponds-1,/cfb/players/dangelo-ponds-1.html,CB,13,36,21,57,4.5,0.0,3,70,23.3,1,9,0,0,0,0,,Indiana,2024
+Amare Ferrell,amare-ferrell-1,/cfb/players/amare-ferrell-1.html,DB,13,22,27,49,4.0,1.5,4,35,8.8,0,1,0,0,0,0,,Indiana,2024
+Mikail Kamara,mikail-kamara-1,/cfb/players/mikail-kamara-1.html,DL,13,19,28,47,15.0,10.0,0,0,,0,1,3,0,0,2,,Indiana,2024
+Isaiah Jones,isaiah-jones-5,/cfb/players/isaiah-jones-5.html,LB,13,17,25,42,3.5,0.5,0,0,,0,0,0,0,0,0,,Indiana,2024
+CJ West,cj-west-1,/cfb/players/cj-west-1.html,DL,13,14,26,40,7.5,2.0,0,0,,0,1,1,0,0,1,,Indiana,2024
+Terry Jones,terry-jones-3,/cfb/players/terry-jones-3.html,S,13,23,16,39,5.0,1.0,0,0,,0,2,0,0,0,1,,Indiana,2024
+Lanell Carr,lanell-carr-1,/cfb/players/lanell-carr-1.html,LB,13,14,24,38,4.0,1.5,0,0,,0,2,1,8,0,0,,Indiana,2024
+James Carpenter,james-carpenter-2,/cfb/players/james-carpenter-2.html,DL,13,20,18,38,11.5,6.0,0,0,,0,2,0,0,0,0,,Indiana,2024
+Jamier Johnson,jamier-johnson-1,/cfb/players/jamier-johnson-1.html,DB,12,25,10,35,0.0,0.0,1,0,0.0,0,0,0,0,0,0,,Indiana,2024
+Tyrique Tucker,tyrique-tucker-1,/cfb/players/tyrique-tucker-1.html,DL,13,9,15,24,4.5,2.5,0,0,,0,1,0,0,0,0,,Indiana,2024
+Josh Sanguinetti,josh-sanguinetti-1,/cfb/players/josh-sanguinetti-1.html,DB,13,10,14,24,1.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2024
+Rolijah Hardy,rolijah-hardy-1,/cfb/players/rolijah-hardy-1.html,LB,13,12,10,22,5.5,1.0,2,18,9.0,1,0,0,0,0,2,,Indiana,2024
+Bryson Bonds,bryson-bonds-1,/cfb/players/bryson-bonds-1.html,DB,13,7,12,19,0.0,0.0,1,0,0.0,0,0,1,0,0,0,,Indiana,2024
+Marcus Burris Jr.,marcus-burris-jr-1,/cfb/players/marcus-burris-jr-1.html,DL,13,2,12,14,2.0,1.0,0,0,,0,0,0,0,0,0,,Indiana,2024
+Jamari Sharpe,jamari-sharpe-1,/cfb/players/jamari-sharpe-1.html,DB,9,5,8,13,0.5,0.5,0,0,,0,6,1,0,0,0,,Indiana,2024
+Cedarius Doss,cedarius-doss-1,/cfb/players/cedarius-doss-1.html,DB,12,5,5,10,0.0,0.0,0,0,,0,1,0,0,0,0,,Indiana,2024
+Mario Landino,mario-landino-1,/cfb/players/mario-landino-1.html,DL,12,6,3,9,2.0,0.5,0,0,,0,0,0,0,0,1,,Indiana,2024
+Jacob Mangum-Farrar,jacob-mangum-farrar-1,/cfb/players/jacob-mangum-farrar-1.html,LB,9,5,3,8,2.0,1.0,0,0,,0,0,1,0,0,1,,Indiana,2024
+Jeff Utzinger,jeff-utzinger-1,/cfb/players/jeff-utzinger-1.html,LB,13,2,4,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2024
+Solomon Vanhorse,solomon-vanhorse-1,/cfb/players/solomon-vanhorse-1.html,RB,13,4,0,4,0.0,0.0,0,0,,0,0,0,0,0,1,,Indiana,2024
+DJ Warnell Jr.,dj-warnell-jr-1,/cfb/players/dj-warnell-jr-1.html,S,4,3,1,4,1.0,1.0,0,0,,0,1,0,0,0,0,,Indiana,2024
+Andrew Turvy,andrew-turvy-1,/cfb/players/andrew-turvy-1.html,DL,4,3,1,4,1.5,1.0,0,0,,0,0,0,0,0,0,,Indiana,2024
+Kaelon Black,kaelon-black-1,/cfb/players/kaelon-black-1.html,RB,13,0,4,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2024
+Venson Sneed,venson-sneed-1,/cfb/players/venson-sneed-1.html,DL,4,0,3,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2024
+Kaiden Turner,kaiden-turner-1,/cfb/players/kaiden-turner-1.html,LB,2,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2024
+Elijah Sarratt,elijah-sarratt-1,/cfb/players/elijah-sarratt-1.html,WR,13,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2024
+Derek McCormick,derek-mccormick-1,/cfb/players/derek-mccormick-1.html,K,8,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2024
+Kurtis Rourke,kurtis-rourke-1,/cfb/players/kurtis-rourke-1.html,QB,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,H-9,Indiana,2024
+Andison Coby,andison-coby-1,/cfb/players/andison-coby-1.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2024
+Bray Lynch,bray-lynch-1,/cfb/players/bray-lynch-1.html,OL,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2024
+Tyrik McDaniel,tyrik-mcdaniel-1,/cfb/players/tyrik-mcdaniel-1.html,DB,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2024
+Charlie Becker,charlie-becker-1,/cfb/players/charlie-becker-1.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2024
+Daniel Ndukwe,daniel-ndukwe-1,/cfb/players/daniel-ndukwe-1.html,DL,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2024
+Elijah Green,elijah-green-1,/cfb/players/elijah-green-1.html,RB,7,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2024
+Quinn Warren,quinn-warren-1,/cfb/players/quinn-warren-1.html,K,7,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2024
+Mike Katic,mike-katic-1,/cfb/players/mike-katic-1.html,OL,13,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2024
+J'mari Monnette,jmari-monnette-1,/cfb/players/jmari-monnette-1.html,DL,4,1,0,1,1.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2024
+JoJo Johnson,jojo-johnson-1,/cfb/players/jojo-johnson-1.html,DB,3,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2024
+Ke'Shawn Williams,keshawn-williams-2,/cfb/players/keshawn-williams-2.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2024
+Robby Harrison,robby-harrison-1,/cfb/players/robby-harrison-1.html,DL,6,0,0,0,0.0,0.0,0,0,,0,0,1,0,0,0,,Indiana,2024
+Ta'Derius Collins,taderius-collins-1,/cfb/players/taderius-collins-1.html,DL,1,0,0,0,0.0,0.0,1,17,17.0,0,0,0,0,0,0,,Indiana,2024

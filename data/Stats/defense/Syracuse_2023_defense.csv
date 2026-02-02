@@ -1,0 +1,47 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Marlowe Wax,marlowe-wax-1,/cfb/players/marlowe-wax-1.html,LB,13,72,38,110,11.5,4.0,1,14,14.0,0,2,0,0,0,4,,Syracuse,2023
+Justin Barron,justin-barron-1,/cfb/players/justin-barron-1.html,DB,13,51,39,90,5.0,0.5,1,5,5.0,0,7,1,19,0,3,,Syracuse,2023
+Derek McDonald,derek-mcdonald-1,/cfb/players/derek-mcdonald-1.html,LB,13,27,40,67,4.0,2.5,0,0,,0,1,1,0,0,0,,Syracuse,2023
+Alijah Clark,alijah-clark-1,/cfb/players/alijah-clark-1.html,DB,13,38,28,66,4.5,0.0,0,0,,0,3,2,41,0,1,,Syracuse,2023
+Isaiah Johnson,isaiah-johnson-12,/cfb/players/isaiah-johnson-12.html,CB,12,36,21,57,1.0,0.0,1,6,6.0,0,6,0,0,0,1,,Syracuse,2023
+Stefon Thompson,stefon-thompson-1,/cfb/players/stefon-thompson-1.html,LB,13,27,26,53,4.0,1.5,0,0,,0,0,0,0,0,1,,Syracuse,2023
+Leon Lowery,leon-lowery-1,/cfb/players/leon-lowery-1.html,LB,12,24,22,46,7.5,3.5,0,0,,0,1,1,0,0,0,,Syracuse,2023
+Jason Simmons Jr.,jason-simmons-jr-1,/cfb/players/jason-simmons-jr-1.html,DB,13,33,13,46,0.0,0.0,2,84,42.0,1,7,0,0,0,0,,Syracuse,2023
+Kevon Darton,kevon-darton-1,/cfb/players/kevon-darton-1.html,DL,13,22,20,42,8.0,5.0,0,0,,0,0,1,0,0,1,,Syracuse,2023
+Caleb Okechukwu,caleb-okechukwu-1,/cfb/players/caleb-okechukwu-1.html,DL,13,18,17,35,8.0,4.5,0,0,,0,1,1,0,0,0,,Syracuse,2023
+Kevin Jobity Jr.,kevin-jobity-jr-1,/cfb/players/kevin-jobity-jr-1.html,DL,13,16,15,31,7.5,2.5,0,0,,0,0,0,0,0,1,,Syracuse,2023
+Anwar Sparrow,anwar-sparrow-1,/cfb/players/anwar-sparrow-1.html,LB,13,21,9,30,3.0,2.0,0,0,,0,1,1,8,0,1,,Syracuse,2023
+Jayden Bellamy,jayden-bellamy-1,/cfb/players/jayden-bellamy-1.html,CB,12,23,6,29,0.0,0.0,1,23,23.0,1,1,2,13,0,0,,Syracuse,2023
+Terry Lockett,terry-lockett-2,/cfb/players/terry-lockett-2.html,DL,11,14,12,26,3.0,0.0,0,0,,0,3,3,0,0,0,,Syracuse,2023
+Myles Farmer,myles-farmer-1,/cfb/players/myles-farmer-1.html,DB,13,11,10,21,2.0,0.0,0,0,,0,0,0,0,0,1,,Syracuse,2023
+Jaeden Gould,jaeden-gould-1,/cfb/players/jaeden-gould-1.html,DB,13,12,7,19,0.0,0.0,1,17,17.0,0,1,0,0,0,0,,Syracuse,2023
+Jeremiah Wilson,jeremiah-wilson-3,/cfb/players/jeremiah-wilson-3.html,DB,9,13,3,16,1.0,0.0,1,66,66.0,1,5,0,0,0,0,,Syracuse,2023
+Braylen Ingraham,braylen-ingraham-1,/cfb/players/braylen-ingraham-1.html,DL,13,2,14,16,3.0,0.5,0,0,,0,1,0,0,0,0,,Syracuse,2023
+Austin Roon,austin-roon-1,/cfb/players/austin-roon-1.html,LB,13,3,12,15,1.0,0.0,0,0,,0,0,0,0,0,0,,Syracuse,2023
+Greg Delaine,greg-delaine-1,/cfb/players/greg-delaine-1.html,DB,13,9,4,13,0.0,0.0,1,0,0.0,0,1,0,0,0,0,,Syracuse,2023
+Kadin Bailey,kadin-bailey-1,/cfb/players/kadin-bailey-1.html,LB,11,5,6,11,0.0,0.0,0,0,,0,0,0,0,0,0,,Syracuse,2023
+Denis Jaquez Jr.,denis-jaquez-jr-1,/cfb/players/denis-jaquez-jr-1.html,DL,6,5,6,11,1.5,1.5,0,0,,0,1,0,0,0,1,,Syracuse,2023
+Chase Simmons,chase-simmons-1,/cfb/players/chase-simmons-1.html,DL,10,2,8,10,1.5,0.0,0,0,,0,0,0,0,0,0,,Syracuse,2023
+Aman Greenwood,aman-greenwood-1,/cfb/players/aman-greenwood-1.html,DB,7,4,1,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Syracuse,2023
+Ryan Dolan,ryan-dolan-1,/cfb/players/ryan-dolan-1.html,LB,13,4,1,5,0.5,0.0,0,0,,0,0,0,0,0,0,,Syracuse,2023
+Jalil Martin,jalil-martin-2,/cfb/players/jalil-martin-2.html,DB,9,0,5,5,0.5,0.0,0,0,,0,0,0,0,0,0,,Syracuse,2023
+Elijah Fuentes-Cundiff,elijah-fuentes-cundiff-1,/cfb/players/elijah-fuentes-cundiff-1.html,DL,9,1,4,5,0.0,0.0,0,0,,0,1,0,0,0,0,,Syracuse,2023
+Juwuan Price,juwuan-price-1,/cfb/players/juwuan-price-1.html,RB,12,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Syracuse,2023
+Quan Peterson,quan-peterson-1,/cfb/players/quan-peterson-1.html,DB,8,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Syracuse,2023
+Yosuke Sugano,yosuke-sugano-1,/cfb/players/yosuke-sugano-1.html,LB,4,2,0,2,1.0,1.0,0,0,,0,0,0,0,0,0,,Syracuse,2023
+Umari Hatcher,umari-hatcher-1,/cfb/players/umari-hatcher-1.html,WR,13,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Syracuse,2023
+Berry Buxton III,berry-buxton-iii-1,/cfb/players/berry-buxton-iii-1.html,DB,9,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Syracuse,2023
+Cornell Perry,cornell-perry-1,/cfb/players/cornell-perry-1.html,DB,10,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Syracuse,2023
+Malcolm Folk,malcolm-folk-1,/cfb/players/malcolm-folk-1.html,DB,8,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Syracuse,2023
+Mark Petry,mark-petry-1,/cfb/players/mark-petry-1.html,OL,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Syracuse,2023
+Deston Hawkins,deston-hawkins-2,/cfb/players/deston-hawkins-2.html,RB,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Syracuse,2023
+Maximilian Mang,maximilian-mang-1,/cfb/players/maximilian-mang-1.html,TE,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Syracuse,2023
+Dan Villari,dan-villari-1,/cfb/players/dan-villari-1.html,TE,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Syracuse,2023
+LeQuint Allen,lequint-allen-1,/cfb/players/lequint-allen-1.html,RB,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Syracuse,2023
+Rashard Perry,rashard-perry-1,/cfb/players/rashard-perry-1.html,DL,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Syracuse,2023
+Khalib Gilmore,khalib-gilmore-1,/cfb/players/khalib-gilmore-1.html,LB,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Syracuse,2023
+Clay Masters,clay-masters-1,/cfb/players/clay-masters-1.html,DB,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Syracuse,2023
+Garrett Shrader,garrett-shrader-1,/cfb/players/garrett-shrader-1.html,QB,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Syracuse,2023
+Tom Callahan,tom-callahan-2,/cfb/players/tom-callahan-2.html,DL,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Syracuse,2023
+Jack Stonehouse,jack-stonehouse-1,/cfb/players/jack-stonehouse-1.html,P,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Syracuse,2023
+Josh Kubala,josh-kubala-1,/cfb/players/josh-kubala-1.html,TE,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Syracuse,2023

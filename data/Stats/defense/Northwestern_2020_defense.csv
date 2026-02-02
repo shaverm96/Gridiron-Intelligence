@@ -1,0 +1,46 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Paddy Fisher,paddy-fisher-1,/cfb/players/paddy-fisher-1.html,LB,9,47,39,86,4.5,0.0,1,0,0.0,0,2,1,22,0,1,,Northwestern,2020
+Blake Gallagher,blake-gallagher-1,/cfb/players/blake-gallagher-1.html,LB,9,44,40,84,9.5,2.0,1,3,3.0,0,2,1,0,0,1,,Northwestern,2020
+Chris Bergin,chris-bergin-1,/cfb/players/chris-bergin-1.html,LB,9,40,38,78,4.0,0.5,1,5,5.0,0,4,0,0,0,0,,Northwestern,2020
+Brandon Joseph,brandon-joseph-2,/cfb/players/brandon-joseph-2.html,DB,9,28,24,52,1.0,0.0,6,19,3.2,0,2,0,0,0,0,AA,Northwestern,2020
+JR Pace,jr-pace-1,/cfb/players/jr-pace-1.html,DB,9,25,16,41,1.5,0.0,1,0,0.0,0,3,0,0,0,0,,Northwestern,2020
+Earnest Brown IV,earnest-brown-iv-1,/cfb/players/earnest-brown-iv-1.html,DE,9,23,9,32,8.5,1.0,0,0,,0,4,1,0,0,0,,Northwestern,2020
+A.J. Hampton,aj-hampton-1,/cfb/players/aj-hampton-1.html,DB,9,16,10,26,2.0,0.0,1,0,0.0,0,5,0,0,0,0,,Northwestern,2020
+Cameron Ruiz,cameron-ruiz-1,/cfb/players/cameron-ruiz-1.html,DB,9,15,8,23,2.0,2.0,0,0,,0,2,0,0,0,0,,Northwestern,2020
+Cameron Mitchell,cameron-mitchell-2,/cfb/players/cameron-mitchell-2.html,DB,8,9,9,18,0.5,0.5,1,0,0.0,0,5,0,0,0,0,,Northwestern,2020
+Adetomiwa Adebawore,adetomiwa-adebawore-1,/cfb/players/adetomiwa-adebawore-1.html,DL,9,11,6,17,6.0,2.0,0,0,,0,2,0,0,0,0,,Northwestern,2020
+Joe Spivak,joe-spivak-1,/cfb/players/joe-spivak-1.html,DL,9,6,8,14,1.0,1.0,0,0,,0,0,0,0,0,0,,Northwestern,2020
+Jake Saunders,jake-saunders-1,/cfb/players/jake-saunders-1.html,DT,7,9,5,14,4.5,1.0,0,0,,0,0,0,0,0,0,,Northwestern,2020
+Andrew Leota,andrew-leota-1,/cfb/players/andrew-leota-1.html,DL,8,10,3,13,5.5,4.0,0,0,,0,0,0,0,0,1,,Northwestern,2020
+Greg Newsome II,greg-newsome-ii-1,/cfb/players/greg-newsome-ii-1.html,DB,6,8,4,12,0.0,0.0,1,0,0.0,0,9,0,0,0,0,,Northwestern,2020
+Rod Heard II,rod-heard-ii-1,/cfb/players/rod-heard-ii-1.html,,8,7,3,10,0.0,0.0,0,0,,0,1,0,0,0,0,,Northwestern,2020
+Rod Heard,rod-heard-1,/cfb/players/rod-heard-1.html,DB,4,7,3,10,0.0,0.0,0,0,,0,1,0,0,0,0,,Northwestern,2020
+Bryce Jackson,bryce-jackson-1,/cfb/players/bryce-jackson-1.html,DB,8,4,5,9,0.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2020
+Trevor Kent,trevor-kent-1,/cfb/players/trevor-kent-1.html,DE,4,1,6,7,0.0,0.0,0,0,,0,0,1,0,0,0,,Northwestern,2020
+Peter Mclntyre,peter-mclntyre-1,/cfb/players/peter-mclntyre-1.html,LB,7,6,1,7,1.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2020
+Coco Azema,coco-azema-1,/cfb/players/coco-azema-1.html,DB,9,2,3,5,0.0,0.0,1,0,0.0,0,0,0,0,0,0,,Northwestern,2020
+Jordan Butler,jordan-butler-3,/cfb/players/jordan-butler-3.html,DT,8,1,3,4,1.5,0.0,0,0,,0,0,0,0,0,1,,Northwestern,2020
+Khalid Jones,khalid-jones-1,/cfb/players/khalid-jones-1.html,LB,3,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2020
+Wyatt Blake,wyatt-blake-1,/cfb/players/wyatt-blake-1.html,DL,5,0,3,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2020
+Joe Dehaan,joe-dehaan-1,/cfb/players/joe-dehaan-1.html,DB,1,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2020
+Jaylen Rivers,jaylen-rivers-1,/cfb/players/jaylen-rivers-1.html,LB,4,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2020
+Bryce Gallagher,bryce-gallagher-1,/cfb/players/bryce-gallagher-1.html,LB,8,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2020
+Tyler Gillkin,tyler-gillkin-1,/cfb/players/tyler-gillkin-1.html,LS,8,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2020
+Troy Hudetz,troy-hudetz-1,/cfb/players/troy-hudetz-1.html,LB,9,1,1,2,0.5,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2020
+Erik Mueller,erik-mueller-1,/cfb/players/erik-mueller-1.html,LB,7,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2020
+Donovan Sermons,donovan-sermons-1,/cfb/players/donovan-sermons-1.html,DB,3,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2020
+Peyton Ramsey,peyton-ramsey-1,/cfb/players/peyton-ramsey-1.html,QB,9,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2020
+Devin O'Rourke,devin-orourke-1,/cfb/players/devin-orourke-1.html,DL,9,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2020
+Charlie Kuhbander,charlie-kuhbander-1,/cfb/players/charlie-kuhbander-1.html,K,9,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2020
+Sean McLaughlin,sean-mclaughlin-1,/cfb/players/sean-mclaughlin-1.html,DL,2,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2020
+Ramaud Chiaokhiao-Bowman,ramaud-chiaokhiao-bowman-1,/cfb/players/ramaud-chiaokhiao-bowman-1.html,WR,9,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2020
+Jesse Brown,jesse-brown-3,/cfb/players/jesse-brown-3.html,RB,6,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2020
+Tyler Haskins,tyler-haskins-1,/cfb/players/tyler-haskins-1.html,DB,4,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2020
+Cam Porter,cam-porter-1,/cfb/players/cam-porter-1.html,RB,7,1,0,1,0.0,0.0,0,0,,0,0,1,0,0,0,,Northwestern,2020
+Te-rah Edwards,te-rah-edwards-1,/cfb/players/te-rah-edwards-1.html,DT,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2020
+Jason Gold Jr.,jason-gold-jr-1,/cfb/players/jason-gold-jr-1.html,DE,1,1,0,1,1.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2020
+PJ Spencer,pj-spencer-1,/cfb/players/pj-spencer-1.html,DL,2,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2020
+Kyric McGowan,kyric-mcgowan-1,/cfb/players/kyric-mcgowan-1.html,WR,8,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2020
+Grayson Mann,grayson-mann-1,/cfb/players/grayson-mann-1.html,LB,5,0,1,1,0.5,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2020
+Gunner Maldonado,gunner-maldonado-1,/cfb/players/gunner-maldonado-1.html,DB,3,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2020
+Jaheem Joseph,jaheem-joseph-1,/cfb/players/jaheem-joseph-1.html,DB,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Northwestern,2020

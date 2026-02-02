@@ -1,0 +1,46 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Francisco Mauigoa,francisco-mauigoa-1,/cfb/players/francisco-mauigoa-1.html,LB,13,48,34,82,18.0,7.5,1,2,2.0,0,3,0,0,0,2,,Miami (FL),2023
+James Williams,james-williams-16,/cfb/players/james-williams-16.html,DB,12,48,25,73,0.5,0.0,1,44,44.0,0,5,1,0,0,2,,Miami (FL),2023
+Kamren Kinchens,kamren-kinchens-1,/cfb/players/kamren-kinchens-1.html,DB,10,40,19,59,2.5,1.0,5,57,11.4,1,5,1,0,0,0,,Miami (FL),2023
+Corey Flagg Jr.,corey-flagg-jr-1,/cfb/players/corey-flagg-jr-1.html,LB,12,23,25,48,6.0,0.0,0,0,,0,0,0,0,0,1,,Miami (FL),2023
+Wesley Bissainthe,wesley-bissainthe-1,/cfb/players/wesley-bissainthe-1.html,LB,13,25,19,44,6.5,2.0,0,0,,0,0,1,0,0,0,,Miami (FL),2023
+Rueben Bain Jr.,rueben-bain-jr-1,/cfb/players/rueben-bain-jr-1.html,DL,13,23,21,44,12.5,7.5,0,0,,0,1,0,0,0,3,,Miami (FL),2023
+K.J. Cloyd,kj-cloyd-1,/cfb/players/kj-cloyd-1.html,LB,13,21,23,44,6.5,2.0,0,0,,0,1,0,0,0,0,,Miami (FL),2023
+Jaden Davis,jaden-davis-1,/cfb/players/jaden-davis-1.html,CB,13,32,10,42,3.0,1.0,0,0,,0,4,0,0,0,2,,Miami (FL),2023
+Te'cory Couch,tecory-couch-1,/cfb/players/tecory-couch-1.html,DB,13,23,15,38,1.0,1.0,3,2,0.7,0,4,0,0,0,1,,Miami (FL),2023
+Jared Harrison-Hunte,jared-harrison-hunte-1,/cfb/players/jared-harrison-hunte-1.html,DL,13,11,15,26,3.0,2.0,0,0,,0,0,1,0,0,0,,Miami (FL),2023
+Daryl Porter Jr.,daryl-porter-jr-1,/cfb/players/daryl-porter-jr-1.html,CB,9,16,7,23,0.0,0.0,0,0,,0,4,0,0,0,0,,Miami (FL),2023
+Jahfari Harvey,jahfari-harvey-1,/cfb/players/jahfari-harvey-1.html,DL,12,10,13,23,2.5,1.0,0,0,,0,1,1,0,0,0,,Miami (FL),2023
+Leonard Taylor,leonard-taylor-3,/cfb/players/leonard-taylor-3.html,DL,10,7,12,19,3.5,1.0,0,0,,0,0,0,0,0,0,,Miami (FL),2023
+Branson Deen,branson-deen-1,/cfb/players/branson-deen-1.html,DL,11,6,12,18,5.5,2.5,0,0,,0,0,0,0,0,0,,Miami (FL),2023
+Markeith Williams,markeith-williams-1,/cfb/players/markeith-williams-1.html,DB,9,9,6,15,1.0,0.0,0,0,,0,1,0,0,0,0,,Miami (FL),2023
+Keontra Smith,keontra-smith-1,/cfb/players/keontra-smith-1.html,LB,10,4,11,15,0.0,0.0,0,0,,0,0,0,0,0,0,,Miami (FL),2023
+Damari Brown,damari-brown-1,/cfb/players/damari-brown-1.html,DB,9,10,4,14,1.5,0.0,0,0,,0,0,0,0,0,0,,Miami (FL),2023
+Ja'Dais Richard,jadais-richard-1,/cfb/players/jadais-richard-1.html,DB,11,9,5,14,0.0,0.0,0,0,,0,0,0,0,0,0,,Miami (FL),2023
+Jayden Wayne,jayden-wayne-1,/cfb/players/jayden-wayne-1.html,DL,8,4,9,13,0.5,0.5,0,0,,0,0,0,0,0,0,,Miami (FL),2023
+Davonte Brown,davonte-brown-1,/cfb/players/davonte-brown-1.html,DB,11,9,1,10,0.0,0.0,0,0,,0,1,0,0,0,0,,Miami (FL),2023
+Nyjalik Kelly,nyjalik-kelly-1,/cfb/players/nyjalik-kelly-1.html,DL,4,4,4,8,1.0,0.0,0,0,,0,1,0,0,0,0,,Miami (FL),2023
+Chantz Williams,chantz-williams-1,/cfb/players/chantz-williams-1.html,DL,11,4,4,8,0.5,0.0,0,0,,0,1,0,0,0,0,,Miami (FL),2023
+Thomas Gore,thomas-gore-1,/cfb/players/thomas-gore-1.html,DL,12,5,3,8,4.0,2.0,0,0,,0,0,0,0,0,2,,Miami (FL),2023
+Raul Aguirre Jr.,raul-aguirre-jr-1,/cfb/players/raul-aguirre-jr-1.html,LB,13,3,4,7,0.5,0.0,0,0,,0,0,0,0,0,0,,Miami (FL),2023
+Jaden Harris,jaden-harris-2,/cfb/players/jaden-harris-2.html,DB,10,5,2,7,0.5,0.0,0,0,,0,0,0,0,0,0,,Miami (FL),2023
+Akheem Mesidor,akheem-mesidor-1,/cfb/players/akheem-mesidor-1.html,DL,3,3,2,5,1.0,1.0,0,0,,0,0,0,0,0,0,,Miami (FL),2023
+Jacob Lichtenstein,jacob-lichtenstein-1,/cfb/players/jacob-lichtenstein-1.html,DL,11,3,2,5,3.5,1.0,0,0,,0,0,1,0,0,0,,Miami (FL),2023
+Bobby Washington Jr.,bobby-washington-jr-1,/cfb/players/bobby-washington-jr-1.html,LB,4,1,3,4,0.5,0.5,0,0,,0,0,0,0,0,0,,Miami (FL),2023
+Ryan Ragone,ryan-ragone-1,/cfb/players/ryan-ragone-1.html,LB,4,0,3,3,0.5,0.5,0,0,,0,0,0,0,0,0,,Miami (FL),2023
+Chase Smith,chase-smith-1,/cfb/players/chase-smith-1.html,LB,3,1,2,3,1.0,1.0,0,0,,0,0,0,0,0,0,,Miami (FL),2023
+Brian Balom,brian-balom-1,/cfb/players/brian-balom-1.html,S,7,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Miami (FL),2023
+Jacolby George,jacolby-george-1,/cfb/players/jacolby-george-1.html,WR,13,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Miami (FL),2023
+Ahmad Moten,ahmad-moten-1,/cfb/players/ahmad-moten-1.html,DL,9,1,1,2,0.0,0.0,1,-1,-1.0,0,0,0,0,0,0,,Miami (FL),2023
+Tyler Van Dyke,tyler-van-dyke-1,/cfb/players/tyler-van-dyke-1.html,QB,11,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Miami (FL),2023
+Mark Fletcher Jr.,mark-fletcher-jr-1,/cfb/players/mark-fletcher-jr-1.html,RB,10,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Miami (FL),2023
+Mason Napper,mason-napper-1,/cfb/players/mason-napper-1.html,LS,13,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Miami (FL),2023
+Xavier Restrepo,xavier-restrepo-1,/cfb/players/xavier-restrepo-1.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Miami (FL),2023
+Andres Borregales,andres-borregales-1,/cfb/players/andres-borregales-1.html,K,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Miami (FL),2023
+Brashard Smith,brashard-smith-1,/cfb/players/brashard-smith-1.html,WR,12,1,0,1,0.0,0.0,0,0,,0,1,0,0,0,0,,Miami (FL),2023
+Jalen Rivers,jalen-rivers-1,/cfb/players/jalen-rivers-1.html,OL,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Miami (FL),2023
+Colbie Young,colbie-young-1,/cfb/players/colbie-young-1.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Miami (FL),2023
+Marcellius Pulliam,marcellius-pulliam-1,/cfb/players/marcellius-pulliam-1.html,LB,8,1,0,1,0.0,0.0,1,14,14.0,0,0,0,0,0,0,,Miami (FL),2023
+Cyrus Moss,cyrus-moss-1,/cfb/players/cyrus-moss-1.html,DL,2,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Miami (FL),2023
+Dylan Joyce,dylan-joyce-1,/cfb/players/dylan-joyce-1.html,P,13,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Miami (FL),2023
+Kaleb Spencer,kaleb-spencer-1,/cfb/players/kaleb-spencer-1.html,DB,6,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Miami (FL),2023

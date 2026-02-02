@@ -1,0 +1,32 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Micah McFadden,micah-mcfadden-1,/cfb/players/micah-mcfadden-1.html,LB,8,44,14,58,10.5,6.0,2,0,0.0,0,0,0,0,0,0,,Indiana,2020
+Jamar Johnson,jamar-johnson-1,/cfb/players/jamar-johnson-1.html,DB,8,33,10,43,3.5,1.0,4,94,23.5,0,4,0,0,0,1,,Indiana,2020
+Devon Matthews,devon-matthews-1,/cfb/players/devon-matthews-1.html,DB,8,26,14,40,2.0,1.0,1,24,24.0,0,6,0,0,0,0,,Indiana,2020
+Tiawan Mullen,tiawan-mullen-1,/cfb/players/tiawan-mullen-1.html,DB,8,27,11,38,4.5,3.5,3,2,0.7,0,4,0,0,0,1,,Indiana,2020
+Cam Jones,cam-jones-1,/cfb/players/cam-jones-1.html,LB,8,24,11,35,4.0,3.0,0,0,,0,3,0,0,0,0,,Indiana,2020
+Jaylin Williams,jaylin-williams-2,/cfb/players/jaylin-williams-2.html,DB,8,26,4,30,2.0,1.0,4,93,23.3,0,1,0,0,0,0,,Indiana,2020
+Reese Taylor,reese-taylor-1,/cfb/players/reese-taylor-1.html,DB,8,25,4,29,4.0,1.0,1,53,53.0,0,7,0,0,0,1,,Indiana,2020
+James Miller,james-miller-1,/cfb/players/james-miller-1.html,LB,8,16,8,24,0.0,0.0,0,0,,0,0,1,0,0,0,,Indiana,2020
+Jerome Johnson,jerome-johnson-3,/cfb/players/jerome-johnson-3.html,DL,8,12,6,18,4.5,4.0,1,0,0.0,0,0,1,0,0,0,,Indiana,2020
+Bryant Fitzgerald,bryant-fitzgerald-1,/cfb/players/bryant-fitzgerald-1.html,DB,8,13,4,17,1.0,0.0,0,0,,0,2,0,0,0,0,,Indiana,2020
+James Head Jr.,james-head-jr-1,/cfb/players/james-head-jr-1.html,DL,8,10,7,17,2.0,1.5,0,0,,0,1,1,0,0,0,,Indiana,2020
+Aaron Casey,aaron-casey-1,/cfb/players/aaron-casey-1.html,LB,8,10,5,15,3.0,1.0,0,0,,0,0,0,0,0,0,,Indiana,2020
+D.K. Bonhomme,dk-bonhomme-1,/cfb/players/dk-bonhomme-1.html,LB,8,11,4,15,2.0,1.0,0,0,,0,0,0,0,0,0,,Indiana,2020
+Demarcus Elliott,demarcus-elliott-1,/cfb/players/demarcus-elliott-1.html,DL,7,9,5,14,0.0,0.0,0,0,,0,1,0,0,0,0,,Indiana,2020
+Sio Nofoagatoto'a,sio-nofoagatotoa-1,/cfb/players/sio-nofoagatotoa-1.html,DL,8,5,7,12,1.0,0.0,0,0,,0,1,0,0,0,0,,Indiana,2020
+Michael Ziemba,michael-ziemba-1,/cfb/players/michael-ziemba-1.html,DL,8,9,2,11,1.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2020
+Thomas Allen,thomas-allen-1,/cfb/players/thomas-allen-1.html,LB,4,6,2,8,0.0,0.0,0,0,,0,0,0,0,0,1,,Indiana,2020
+C.J. Person,cj-person-1,/cfb/players/cj-person-1.html,DL,7,5,3,8,0.5,0.0,0,0,,0,1,0,0,0,0,,Indiana,2020
+Josh Sanguinetti,josh-sanguinetti-1,/cfb/players/josh-sanguinetti-1.html,DB,5,7,1,8,0.0,0.0,0,0,,0,1,0,0,0,0,,Indiana,2020
+Juwan Burgess,juwan-burgess-1,/cfb/players/juwan-burgess-1.html,DB,6,8,0,8,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2020
+Jonathan King,jonathan-king-1,/cfb/players/jonathan-king-1.html,DL,7,3,3,6,1.0,1.0,1,4,4.0,0,0,0,0,0,0,,Indiana,2020
+Tramar Reece,tramar-reece-1,/cfb/players/tramar-reece-1.html,DL,5,3,3,6,0.5,0.0,0,0,,0,0,0,0,0,0,,Indiana,2020
+AJ Barner,aj-barner-1,/cfb/players/aj-barner-1.html,TE,8,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2020
+Jovan Swann,jovan-swann-1,/cfb/players/jovan-swann-1.html,DL,7,2,2,4,0.0,0.0,0,0,,0,1,0,0,0,0,,Indiana,2020
+Alfred Bryant,alfred-bryant-1,/cfb/players/alfred-bryant-1.html,DL,4,4,0,4,0.0,0.0,0,0,,0,1,0,0,0,0,,Indiana,2020
+Peyton Hendershot,peyton-hendershot-1,/cfb/players/peyton-hendershot-1.html,TE,8,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,1,,Indiana,2020
+Bryson Bonds,bryson-bonds-1,/cfb/players/bryson-bonds-1.html,DB,6,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2020
+Noah Pierre,noah-pierre-1,/cfb/players/noah-pierre-1.html,DB,7,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2020
+Matt Bjorson,matt-bjorson-1,/cfb/players/matt-bjorson-1.html,TE,7,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2020
+Jared Smolar,jared-smolar-1,/cfb/players/jared-smolar-1.html,K,7,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2020
+Whop Philyor,whop-philyor-1,/cfb/players/whop-philyor-1.html,WR,8,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Indiana,2020

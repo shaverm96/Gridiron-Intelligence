@@ -1,0 +1,43 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Dorian Hopkins,dorian-hopkins-1,/cfb/players/dorian-hopkins-1.html,LB,11,29,58,87,8.0,1.0,2,104,52.0,0,1,1,0,0,1,,UTEP,2024
+Nate Dyman,nate-dyman-1,/cfb/players/nate-dyman-1.html,LB,12,34,50,84,9.5,1.5,0,0,,0,4,1,0,0,0,,UTEP,2024
+Xavier Smith,xavier-smith-8,/cfb/players/xavier-smith-8.html,S,12,33,45,78,0.5,0.0,0,0,,0,5,1,0,0,0,,UTEP,2024
+Kory Chapman,kory-chapman-1,/cfb/players/kory-chapman-1.html,DB,10,35,40,75,12.5,3.0,2,48,24.0,0,0,1,0,1,0,,UTEP,2024
+Oscar Moore,oscar-moore-1,/cfb/players/oscar-moore-1.html,S,12,28,34,62,1.0,0.0,0,0,,0,0,0,0,0,1,,UTEP,2024
+Josiah Allen,josiah-allen-1,/cfb/players/josiah-allen-1.html,CB,12,43,18,61,4.5,2.0,1,0,0.0,0,5,0,0,0,0,,UTEP,2024
+Lantz Russell,lantz-russell-1,/cfb/players/lantz-russell-1.html,S,12,31,23,54,4.5,2.0,2,1,0.5,0,2,0,0,0,0,,UTEP,2024
+Maurice Westmoreland,maurice-westmoreland-1,/cfb/players/maurice-westmoreland-1.html,DE,12,27,19,46,9.5,8.0,0,0,,0,1,0,0,0,1,,UTEP,2024
+Kyran Duhon,kyran-duhon-1,/cfb/players/kyran-duhon-1.html,DL,12,21,22,43,7.0,7.0,0,0,,0,2,0,0,0,0,,UTEP,2024
+Bryton Thompson,bryton-thompson-1,/cfb/players/bryton-thompson-1.html,DE,12,14,26,40,6.0,2.5,0,0,,0,0,2,0,2,0,,UTEP,2024
+KD Johnson,kd-johnson-1,/cfb/players/kd-johnson-1.html,DL,12,16,24,40,8.5,3.5,0,0,,0,1,0,0,0,0,,UTEP,2024
+Dillion Williams,dillion-williams-1,/cfb/players/dillion-williams-1.html,DB,12,12,22,34,0.0,0.0,1,0,0.0,0,1,0,0,0,0,,UTEP,2024
+Jaylon Shelton,jaylon-shelton-1,/cfb/players/jaylon-shelton-1.html,CB,11,15,11,26,0.0,0.0,0,0,,0,3,0,0,0,0,,UTEP,2024
+Sione Tonga'uiha,sione-tongauiha-1,/cfb/players/sione-tongauiha-1.html,DT,12,5,18,23,5.0,2.5,0,0,,0,0,0,0,0,0,,UTEP,2024
+Landon Hullaby,landon-hullaby-1,/cfb/players/landon-hullaby-1.html,S,10,8,12,20,1.0,0.0,0,0,,0,2,0,0,0,1,,UTEP,2024
+Tevita Tafuna,tevita-tafuna-1,/cfb/players/tevita-tafuna-1.html,DT,12,4,12,16,2.0,1.0,0,0,,0,0,0,0,0,1,,UTEP,2024
+Tray Dunson,tray-dunson-1,/cfb/players/tray-dunson-1.html,LB,10,6,10,16,1.0,0.0,0,0,,0,2,0,0,0,1,,UTEP,2024
+Amir Boyd-Matthews,amir-boyd-matthews-1,/cfb/players/amir-boyd-matthews-1.html,CB,9,12,4,16,1.0,0.0,2,11,5.5,0,3,1,0,0,1,,UTEP,2024
+A.J. Odums,aj-odums-1,/cfb/players/aj-odums-1.html,CB,4,9,6,15,0.0,0.0,1,0,0.0,0,4,0,0,0,0,,UTEP,2024
+Stratton Shufelt,stratton-shufelt-1,/cfb/players/stratton-shufelt-1.html,LB,11,4,11,15,0.0,0.0,0,0,,0,1,0,0,0,0,,UTEP,2024
+Jaylin Jones,jaylin-jones-1,/cfb/players/jaylin-jones-1.html,LB,12,2,10,12,1.0,0.0,0,0,,0,0,0,0,0,0,,UTEP,2024
+Devin Goree,devin-goree-1,/cfb/players/devin-goree-1.html,DE,10,4,4,8,1.0,1.0,0,0,,0,0,0,0,0,0,,UTEP,2024
+Ashton Coker,ashton-coker-1,/cfb/players/ashton-coker-1.html,DT,10,3,5,8,1.5,0.0,0,0,,0,0,0,0,0,0,,UTEP,2024
+Hunter Rapolla,hunter-rapolla-1,/cfb/players/hunter-rapolla-1.html,DL,12,2,4,6,0.5,0.5,0,0,,0,0,0,0,0,0,,UTEP,2024
+Ekow Taylor,ekow-taylor-1,/cfb/players/ekow-taylor-1.html,LB,10,1,4,5,0.5,0.5,0,0,,0,0,0,0,0,0,,UTEP,2024
+Justin Content,justin-content-1,/cfb/players/justin-content-1.html,CB,9,2,2,4,0.0,0.0,0,0,,0,1,0,0,0,0,,UTEP,2024
+Kenny Odom,kenny-odom-1,/cfb/players/kenny-odom-1.html,WR,12,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,UTEP,2024
+Joey Lightfoot,joey-lightfoot-1,/cfb/players/joey-lightfoot-1.html,DT,7,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,UTEP,2024
+Quin Warren,quin-warren-1,/cfb/players/quin-warren-1.html,DT,8,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,UTEP,2024
+Trey Goodman,trey-goodman-1,/cfb/players/trey-goodman-1.html,WR,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,UTEP,2024
+Jaime Guerrero,jaime-guerrero-1,/cfb/players/jaime-guerrero-1.html,S,9,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,UTEP,2024
+Elijah Baldwin,elijah-baldwin-1,/cfb/players/elijah-baldwin-1.html,DL,4,1,1,2,0.0,0.0,0,0,,0,1,0,0,0,0,,UTEP,2024
+Dylan Brown-Turner,dylan-brown-turner-1,/cfb/players/dylan-brown-turner-1.html,LB,3,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,UTEP,2024
+Valentino Diaz,valentino-diaz-1,/cfb/players/valentino-diaz-1.html,DE,3,1,1,2,1.0,0.0,0,0,,0,0,0,0,0,0,,UTEP,2024
+Chase Bibler,chase-bibler-1,/cfb/players/chase-bibler-1.html,DL,3,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTEP,2024
+Michael Ray Jr.,michael-ray-jr-1,/cfb/players/michael-ray-jr-1.html,S,2,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTEP,2024
+Otis Pitts,otis-pitts-1,/cfb/players/otis-pitts-1.html,OL,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTEP,2024
+Ivan Escobar,ivan-escobar-1,/cfb/players/ivan-escobar-1.html,OC,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTEP,2024
+Jalen Rayam,jalen-rayam-1,/cfb/players/jalen-rayam-1.html,LB,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTEP,2024
+Judah Ezinwa,judah-ezinwa-1,/cfb/players/judah-ezinwa-1.html,TE,6,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTEP,2024
+Jevon Jackson,jevon-jackson-1,/cfb/players/jevon-jackson-1.html,RB,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTEP,2024
+John Burris III,john-burris-iii-1,/cfb/players/john-burris-iii-1.html,CB,9,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UTEP,2024

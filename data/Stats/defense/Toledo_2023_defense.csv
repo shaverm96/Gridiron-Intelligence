@@ -1,0 +1,50 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Dallas Gant,dallas-gant-1,/cfb/players/dallas-gant-1.html,LB,14,49,67,116,8.0,1.0,1,0,0.0,0,2,0,0,0,1,,Toledo,2023
+Daniel Bolden,daniel-bolden-1,/cfb/players/daniel-bolden-1.html,LB,14,43,51,94,6.5,0.5,0,0,,0,3,1,0,0,1,,Toledo,2023
+Emmanuel McNeil-Warren,emmanuel-mcneil-warren-1,/cfb/players/emmanuel-mcneil-warren-1.html,S,14,32,37,69,4.0,0.0,2,12,6.0,0,3,0,0,0,4,,Toledo,2023
+Maxen Hook,maxen-hook-1,/cfb/players/maxen-hook-1.html,S,9,37,32,69,0.0,0.0,3,0,0.0,0,4,1,0,0,1,,Toledo,2023
+Nate Bauer,nate-bauer-1,/cfb/players/nate-bauer-1.html,S,12,41,23,64,2.0,0.0,1,23,23.0,0,3,2,0,0,1,,Toledo,2023
+Zach Ford,zach-ford-1,/cfb/players/zach-ford-1.html,S,14,33,28,61,0.5,0.0,0,0,,0,4,1,0,0,0,,Toledo,2023
+Quinyon Mitchell,quinyon-mitchell-1,/cfb/players/quinyon-mitchell-1.html,CB,13,32,9,41,2.0,0.0,1,3,3.0,0,18,0,0,0,0,,Toledo,2023
+D'Andre Ragin,dandre-ragin-1,/cfb/players/dandre-ragin-1.html,DE,13,16,25,41,8.0,5.0,0,0,,0,0,0,0,0,1,,Toledo,2023
+Judge Culpepper,judge-culpepper-1,/cfb/players/judge-culpepper-1.html,DL,14,14,24,38,10.5,9.0,0,0,,0,0,1,0,0,1,,Toledo,2023
+Terrance Taylor,terrance-taylor-3,/cfb/players/terrance-taylor-3.html,DE,11,16,21,37,6.0,3.5,0,0,,0,0,0,0,0,1,,Toledo,2023
+Darius Alexander,darius-alexander-1,/cfb/players/darius-alexander-1.html,DT,14,12,24,36,5.5,4.0,0,0,,0,4,0,0,0,0,,Toledo,2023
+Chris McDonald,chris-mcdonald-2,/cfb/players/chris-mcdonald-2.html,CB,14,29,5,34,0.0,0.0,2,58,29.0,1,8,0,0,0,0,,Toledo,2023
+Cavon Butler,cavon-butler-1,/cfb/players/cavon-butler-1.html,DT,14,6,23,29,4.0,1.5,0,0,,0,0,0,0,0,0,,Toledo,2023
+Ronald Delancy III,ronald-delancy-iii-1,/cfb/players/ronald-delancy-iii-1.html,CB,13,15,13,28,0.5,0.0,1,0,0.0,0,10,0,0,0,0,,Toledo,2023
+Deshawn Holt,deshawn-holt-1,/cfb/players/deshawn-holt-1.html,LB,12,10,16,26,6.0,4.0,0,0,,0,0,1,0,0,0,,Toledo,2023
+Jeremiah Peters,jeremiah-peters-1,/cfb/players/jeremiah-peters-1.html,LB,10,12,10,22,7.0,3.5,0,0,,0,0,0,0,0,1,,Toledo,2023
+Jackson Barrow,jackson-barrow-1,/cfb/players/jackson-barrow-1.html,LB,14,9,13,22,1.5,0.5,0,0,,0,0,0,0,0,0,,Toledo,2023
+Martez Poynter,martez-poynter-1,/cfb/players/martez-poynter-1.html,DT,14,6,11,17,1.5,1.5,0,0,,0,0,0,0,0,0,,Toledo,2023
+Adrian Woliver,adrian-woliver-1,/cfb/players/adrian-woliver-1.html,DE,13,5,12,17,3.0,3.0,0,0,,0,1,0,0,0,1,,Toledo,2023
+Avery Smith,avery-smith-1,/cfb/players/avery-smith-1.html,CB,14,9,6,15,0.0,0.0,0,0,,0,1,0,0,0,0,,Toledo,2023
+Andre Fuller,andre-fuller-1,/cfb/players/andre-fuller-1.html,DB,14,8,3,11,0.0,0.0,0,0,,0,2,0,0,0,0,,Toledo,2023
+Connor Walendzak,connor-walendzak-1,/cfb/players/connor-walendzak-1.html,RB,13,5,6,11,0.0,0.0,0,0,,0,0,0,0,0,0,,Toledo,2023
+Peyton Reasonover,peyton-reasonover-1,/cfb/players/peyton-reasonover-1.html,CB,14,8,2,10,0.0,0.0,0,0,,0,0,0,0,0,0,,Toledo,2023
+Travion Ford,travion-ford-1,/cfb/players/travion-ford-1.html,DL,10,2,8,10,1.0,0.0,0,0,,0,0,0,0,0,0,,Toledo,2023
+Damon Ollison II,damon-ollison-ii-1,/cfb/players/damon-ollison-ii-1.html,LB,14,3,7,10,0.0,0.0,0,0,,0,0,0,0,0,0,,Toledo,2023
+Chris D'Appolonia,chris-dappolonia-1,/cfb/players/chris-dappolonia-1.html,LB,12,3,5,8,0.0,0.0,0,0,,0,0,0,0,0,0,,Toledo,2023
+Braden Awls,braden-awls-1,/cfb/players/braden-awls-1.html,DB,14,4,3,7,0.0,0.0,0,0,,0,0,0,0,0,0,,Toledo,2023
+Nasir Bowers,nasir-bowers-1,/cfb/players/nasir-bowers-1.html,CB,14,4,3,7,0.0,0.0,0,0,,0,1,0,0,0,0,,Toledo,2023
+Esean Carter,esean-carter-1,/cfb/players/esean-carter-1.html,DT,14,2,4,6,1.0,1.0,0,0,,0,0,0,0,0,1,,Toledo,2023
+Sawiaha Ellis,sawiaha-ellis-1,/cfb/players/sawiaha-ellis-1.html,LB,14,1,3,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Toledo,2023
+C.J. Wilson Jr.,cj-wilson-jr-1,/cfb/players/cj-wilson-jr-1.html,LB,11,1,3,4,0.5,0.5,0,0,,0,0,0,0,0,0,,Toledo,2023
+Vontrell Chairse,vontrell-chairse-1,/cfb/players/vontrell-chairse-1.html,LB,4,0,3,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Toledo,2023
+Doran Ray Jr.,doran-ray-jr-1,/cfb/players/doran-ray-jr-1.html,DT,4,1,1,2,0.5,0.0,0,0,,0,0,0,0,0,0,,Toledo,2023
+Jayden Baker,jayden-baker-1,/cfb/players/jayden-baker-1.html,LB,1,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Toledo,2023
+Roland McGhee Jr.,roland-mcghee-jr-1,/cfb/players/roland-mcghee-jr-1.html,CB,1,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Toledo,2023
+Shawn Munnerlyn,shawn-munnerlyn-1,/cfb/players/shawn-munnerlyn-1.html,WR,9,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Toledo,2023
+Zach Potter,zach-potter-3,/cfb/players/zach-potter-3.html,DL,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Toledo,2023
+Tyler Long,tyler-long-1,/cfb/players/tyler-long-1.html,OL,14,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Toledo,2023
+Peny Boone,peny-boone-1,/cfb/players/peny-boone-1.html,RB,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Toledo,2023
+Nick Turner,nick-turner-3,/cfb/players/nick-turner-3.html,DB,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Toledo,2023
+Matthew Bailey,matthew-bailey-3,/cfb/players/matthew-bailey-3.html,LS,14,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Toledo,2023
+Malachi Davis,malachi-davis-1,/cfb/players/malachi-davis-1.html,LB,2,0,1,1,0.5,0.5,0,0,,0,0,0,0,0,0,,Toledo,2023
+Laith Shamma,laith-shamma-1,/cfb/players/laith-shamma-1.html,DE,2,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Toledo,2023
+Jalen Vanderbosch,jalen-vanderbosch-1,/cfb/players/jalen-vanderbosch-1.html,WR,6,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Toledo,2023
+Jalen Riven,jalen-riven-1,/cfb/players/jalen-riven-1.html,LB,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Toledo,2023
+Jaden Dottin,jaden-dottin-1,/cfb/players/jaden-dottin-1.html,WR,14,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Toledo,2023
+Drew Covington,drew-covington-1,/cfb/players/drew-covington-1.html,S,13,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Toledo,2023
+David Nwaogwugwu,david-nwaogwugwu-1,/cfb/players/david-nwaogwugwu-1.html,OL,14,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Toledo,2023
+Anthony Torres,anthony-torres-2,/cfb/players/anthony-torres-2.html,TE,14,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Toledo,2023

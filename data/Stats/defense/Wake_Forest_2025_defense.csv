@@ -1,0 +1,45 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Nick Andersen,nick-andersen-1,/cfb/players/nick-andersen-1.html,DB,13,47,59,106,6.5,1.5,0,0,,0,7,0,0,0,0,,Wake Forest,2025
+Davaughn Patterson,davaughn-patterson-1,/cfb/players/davaughn-patterson-1.html,DB,13,35,45,80,4.0,0.0,0,0,,0,9,0,0,0,1,,Wake Forest,2025
+Aiden Hall,aiden-hall-1,/cfb/players/aiden-hall-1.html,LB,13,26,47,73,8.0,0.0,0,0,,0,3,1,0,0,0,,Wake Forest,2025
+Dylan Hazen,dylan-hazen-1,/cfb/players/dylan-hazen-1.html,LB,13,30,43,73,9.0,0.0,0,0,,0,3,2,0,0,2,,Wake Forest,2025
+Langston Hardy,langston-hardy-1,/cfb/players/langston-hardy-1.html,LB,13,28,39,67,17.0,7.0,0,0,,0,0,1,0,0,0,,Wake Forest,2025
+Quincey Bryant,quincey-bryant-1,/cfb/players/quincey-bryant-1.html,LB,13,16,41,57,2.0,0.0,0,0,,0,0,1,0,0,0,,Wake Forest,2025
+Frank Cusano,frank-cusano-1,/cfb/players/frank-cusano-1.html,LB,12,18,27,45,1.5,0.5,0,0,,0,1,0,0,0,0,,Wake Forest,2025
+Jayden Loving,jayden-loving-1,/cfb/players/jayden-loving-1.html,DL,13,14,30,44,8.5,2.5,0,0,,0,1,3,0,0,0,,Wake Forest,2025
+Braylon Johnson,braylon-johnson-1,/cfb/players/braylon-johnson-1.html,CB,13,19,22,41,1.5,0.5,0,0,,0,5,0,0,0,0,,Wake Forest,2025
+Karon Prunty,karon-prunty-1,/cfb/players/karon-prunty-1.html,CB,13,23,17,40,2.0,1.0,1,0,0.0,0,8,1,0,0,1,,Wake Forest,2025
+Nuer Gatkuoth,nuer-gatkuoth-1,/cfb/players/nuer-gatkuoth-1.html,DL,12,17,22,39,8.5,6.0,1,0,0.0,0,0,0,0,0,1,,Wake Forest,2025
+Gabe Kirschke,gabe-kirschke-1,/cfb/players/gabe-kirschke-1.html,DL,13,21,16,37,9.0,5.0,0,0,,0,0,1,0,0,2,,Wake Forest,2025
+Lardarius Webb Jr.,lardarius-webb-jr-1,/cfb/players/lardarius-webb-jr-1.html,S,12,19,16,35,2.0,1.0,0,0,,0,7,0,0,0,0,,Wake Forest,2025
+Dallas Afalava,dallas-afalava-1,/cfb/players/dallas-afalava-1.html,DL,13,11,21,32,5.5,3.0,1,3,3.0,0,1,0,0,0,1,,Wake Forest,2025
+Travon West,travon-west-1,/cfb/players/travon-west-1.html,DB,13,13,18,31,0.0,0.0,0,0,,0,2,0,0,0,0,,Wake Forest,2025
+Myles Turpin,myles-turpin-1,/cfb/players/myles-turpin-1.html,DB,13,17,7,24,0.5,0.0,0,0,,0,0,0,0,0,0,,Wake Forest,2025
+Zach Lohavichan,zach-lohavichan-1,/cfb/players/zach-lohavichan-1.html,DL,13,10,14,24,4.5,0.0,0,0,,0,2,0,0,0,1,,Wake Forest,2025
+Mateen Ibirogba,mateen-ibirogba-1,/cfb/players/mateen-ibirogba-1.html,DL,12,7,14,21,3.5,2.0,0,0,,0,1,0,0,0,1,,Wake Forest,2025
+Zamari Stevenson,zamari-stevenson-1,/cfb/players/zamari-stevenson-1.html,DB,13,11,7,18,0.0,0.0,1,5,5.0,0,0,0,0,0,0,,Wake Forest,2025
+Tyler Walton,tyler-walton-2,/cfb/players/tyler-walton-2.html,DL,13,7,9,16,0.0,0.0,0,0,,0,1,0,0,0,0,,Wake Forest,2025
+Koredell Bartley,koredell-bartley-1,/cfb/players/koredell-bartley-1.html,DB,10,5,3,8,0.0,0.0,0,0,,0,0,0,0,0,0,,Wake Forest,2025
+Devin Cook,devin-cook-2,/cfb/players/devin-cook-2.html,DB,13,4,3,7,1.0,0.0,0,0,,0,0,0,0,0,0,,Wake Forest,2025
+William Tackie Jr.,william-tackie-jr-1,/cfb/players/william-tackie-jr-1.html,DB,11,3,2,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Wake Forest,2025
+Rushaun Tongue,rushaun-tongue-1,/cfb/players/rushaun-tongue-1.html,DB,2,2,2,4,0.0,0.0,0,0,,0,1,0,0,0,0,,Wake Forest,2025
+Alec Morenco,alec-morenco-1,/cfb/players/alec-morenco-1.html,LB,12,2,2,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Wake Forest,2025
+Ty Clark,ty-clark-1,/cfb/players/ty-clark-1.html,RB,13,2,2,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Wake Forest,2025
+Zeek Jackson,zeek-jackson-1,/cfb/players/zeek-jackson-1.html,DB,3,2,2,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Wake Forest,2025
+Ashaad Williams,ashaad-williams-1,/cfb/players/ashaad-williams-1.html,CB,3,3,1,4,0.0,0.0,0,0,,0,1,0,0,0,0,,Wake Forest,2025
+Darius Jones,darius-jones-7,/cfb/players/darius-jones-7.html,LB,9,1,3,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Wake Forest,2025
+Kadear Dembele,kadear-dembele-1,/cfb/players/kadear-dembele-1.html,DL,4,3,1,4,0.5,0.0,0,0,,0,0,0,0,0,0,,Wake Forest,2025
+BJ Williams,bj-williams-3,/cfb/players/bj-williams-3.html,DL,12,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Wake Forest,2025
+Brandon Smiley,brandon-smiley-2,/cfb/players/brandon-smiley-2.html,DL,3,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Wake Forest,2025
+Whittman Whaley,whittman-whaley-1,/cfb/players/whittman-whaley-1.html,LB,8,1,1,2,0.0,0.0,0,0,,0,0,1,0,0,0,,Wake Forest,2025
+Jerron Blackwell,jerron-blackwell-1,/cfb/players/jerron-blackwell-1.html,DB,1,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Wake Forest,2025
+Melvin Siani,melvin-siani-1,/cfb/players/melvin-siani-1.html,OL,13,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Wake Forest,2025
+Sterling Berkhalter,sterling-berkhalter-1,/cfb/players/sterling-berkhalter-1.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Wake Forest,2025
+Deshawn Purdie,deshawn-purdie-1,/cfb/players/deshawn-purdie-1.html,QB,8,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Wake Forest,2025
+Eni Falayi,eni-falayi-1,/cfb/players/eni-falayi-1.html,TE,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Wake Forest,2025
+Freddie Gillens,freddie-gillens-1,/cfb/players/freddie-gillens-1.html,DB,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Wake Forest,2025
+Robby Ashford,robby-ashford-1,/cfb/players/robby-ashford-1.html,QB,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Wake Forest,2025
+Kalil Townes,kalil-townes-1,/cfb/players/kalil-townes-1.html,DB,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Wake Forest,2025
+Kamrean Johnson,kamrean-johnson-1,/cfb/players/kamrean-johnson-1.html,TE,13,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Wake Forest,2025
+Kerrington Lee,kerrington-lee-1,/cfb/players/kerrington-lee-1.html,DL,3,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Wake Forest,2025
+Micah Mays Jr.,micah-mays-jr-1,/cfb/players/micah-mays-jr-1.html,WR,10,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Wake Forest,2025

@@ -1,0 +1,43 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Cooper Edmiston,cooper-edmiston-1,/cfb/players/cooper-edmiston-1.html,LB,12,47,59,106,3.5,1.0,0,0,,0,1,0,0,0,1,,Tulsa,2019
+Zaven Collins,zaven-collins-1,/cfb/players/zaven-collins-1.html,LB,12,51,46,97,8.0,2.0,0,0,,0,3,1,6,0,0,,Tulsa,2019
+Brandon Johnson,brandon-johnson-12,/cfb/players/brandon-johnson-12.html,S,12,45,22,67,2.5,0.0,0,0,,0,5,0,0,0,0,,Tulsa,2019
+Manny Bunch,manny-bunch-1,/cfb/players/manny-bunch-1.html,S,12,29,28,57,2.0,0.0,0,0,,0,5,1,6,0,1,,Tulsa,2019
+Cristian Williams,cristian-williams-1,/cfb/players/cristian-williams-1.html,S,12,25,32,57,1.5,0.0,1,0,0.0,0,3,0,0,0,1,,Tulsa,2019
+Trevis Gipson,trevis-gipson-1,/cfb/players/trevis-gipson-1.html,DE,12,25,24,49,15.0,8.0,0,0,,0,0,0,0,0,2,,Tulsa,2019
+Allie Green IV,allie-green-iv-1,/cfb/players/allie-green-iv-1.html,CB,12,27,18,45,2.0,0.0,0,0,,0,4,1,0,0,0,,Tulsa,2019
+Diamon Cannon,diamon-cannon-1,/cfb/players/diamon-cannon-1.html,LB,12,19,22,41,5.5,0.0,0,0,,0,3,1,5,0,0,,Tulsa,2019
+Kendarin Ray,kendarin-ray-1,/cfb/players/kendarin-ray-1.html,S,12,21,19,40,1.5,0.0,0,0,,0,1,3,1,1,0,,Tulsa,2019
+Reginald Robinson II,reginald-robinson-iii-1,/cfb/players/reginald-robinson-iii-1.html,CB,12,26,12,38,1.0,0.0,4,37,9.3,0,13,2,21,0,0,,Tulsa,2019
+Jaxon Player,jaxon-player-1,/cfb/players/jaxon-player-1.html,NT,9,16,19,35,7.0,0.0,0,0,,0,0,0,0,0,1,,Tulsa,2019
+Yohance Burnett,yohance-burnett-1,/cfb/players/yohance-burnett-1.html,LB,12,12,22,34,2.5,0.0,0,0,,0,0,0,0,0,0,,Tulsa,2019
+Shemarr Robinson,shemarr-robinson-1,/cfb/players/shemarr-robinson-1.html,DT,12,12,19,31,2.0,1.0,0,0,,0,1,1,0,0,0,,Tulsa,2019
+Cullen Wick,cullen-wick-1,/cfb/players/cullen-wick-1.html,DE,12,8,22,30,1.0,0.0,0,0,,0,0,0,0,0,0,,Tulsa,2019
+Bryson Powers,bryson-powers-1,/cfb/players/bryson-powers-1.html,S,12,10,12,22,0.0,0.0,0,0,,0,0,0,0,0,2,,Tulsa,2019
+Tyarise Stevenson,tyarise-stevenson-1,/cfb/players/tyarise-stevenson-1.html,NT,12,9,8,17,1.0,1.0,0,0,,0,0,0,0,0,0,,Tulsa,2019
+Treyvon Reeves,treyvon-reeves-1,/cfb/players/treyvon-reeves-1.html,LB,11,9,3,12,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulsa,2019
+Jajuan Blankenship,jajuan-blankenship-1,/cfb/players/jajuan-blankenship-1.html,NT,9,4,5,9,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulsa,2019
+Anthony Goodlow,anthony-goodlow-1,/cfb/players/anthony-goodlow-1.html,LB,12,2,7,9,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulsa,2019
+Daiquain Jackson,daiquain-jackson-1,/cfb/players/daiquain-jackson-1.html,S,12,5,4,9,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulsa,2019
+Tyon Davis,tyon-davis-1,/cfb/players/tyon-davis-1.html,CB,11,6,3,9,0.0,0.0,0,0,,0,2,1,0,0,0,,Tulsa,2019
+Jett Hendrix,jett-hendrix-1,/cfb/players/jett-hendrix-1.html,S,12,3,5,8,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulsa,2019
+Grant Sawyer,grant-sawyer-1,/cfb/players/grant-sawyer-1.html,LB,12,2,5,7,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulsa,2019
+Justin Wright,justin-wright-1,/cfb/players/justin-wright-1.html,LB,12,3,4,7,2.0,0.0,0,0,,0,0,0,0,0,0,,Tulsa,2019
+Deven Lamp,deven-lamp-1,/cfb/players/deven-lamp-1.html,DE,12,4,3,7,0.5,0.0,0,0,,0,0,0,0,0,0,,Tulsa,2019
+Akayleb Evans,akayleb-evans-1,/cfb/players/akayleb-evans-1.html,CB,3,2,4,6,0.0,0.0,0,0,,0,2,0,0,0,0,,Tulsa,2019
+Robert Revels III,robert-revels-iii-1,/cfb/players/robert-revels-iii-1.html,LB,12,3,3,6,0.0,0.0,0,0,,0,0,1,0,0,1,,Tulsa,2019
+Ryan Nixon,ryan-nixon-1,/cfb/players/ryan-nixon-1.html,CB,4,4,1,5,0.5,0.0,0,0,,0,0,0,0,0,0,,Tulsa,2019
+T.K. Wilkerson,tk-wilkerson-1,/cfb/players/tk-wilkerson-1.html,RB,12,1,3,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulsa,2019
+Cade Baumann,cade-baumann-1,/cfb/players/cade-baumann-1.html,DT,7,1,3,4,1.0,0.0,0,0,,0,0,0,0,0,0,,Tulsa,2019
+Mitchell Kulkin,mitchell-kulkin-1,/cfb/players/mitchell-kulkin-1.html,LB,11,2,1,3,0.0,0.0,0,0,,0,0,1,0,0,0,,Tulsa,2019
+J.C. Santana,jc-santana-1,/cfb/players/jc-santana-1.html,WR,11,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulsa,2019
+Zack Long,zack-long-1,/cfb/players/zack-long-1.html,PK,12,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulsa,2019
+Tieneal Martin,tieneal-martin-1,/cfb/players/tieneal-martin-1.html,S,2,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulsa,2019
+Keylon Stokes,keylon-stokes-1,/cfb/players/keylon-stokes-1.html,WR,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulsa,2019
+Sam Crawford Jr.,sam-crawford-jr-1,/cfb/players/sam-crawford-jr-1.html,WR,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulsa,2019
+Josh Johnson,josh-johnson-9,/cfb/players/josh-johnson-9.html,WR,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulsa,2019
+Gerard Wheeler,gerard-wheeler-1,/cfb/players/gerard-wheeler-1.html,C,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulsa,2019
+Dorian Hopkins,dorian-hopkins-1,/cfb/players/dorian-hopkins-1.html,LB,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulsa,2019
+X'Zauvea Gadlin,xzauvea-gadlin-1,/cfb/players/xzauvea-gadlin-1.html,OL,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulsa,2019
+Andrew McKinnis,andrew-mckinnis-1,/cfb/players/andrew-mckinnis-1.html,WR,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulsa,2019
+Abe Anderson,abe-anderson-1,/cfb/players/abe-anderson-1.html,TE,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Tulsa,2019

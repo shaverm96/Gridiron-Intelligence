@@ -1,0 +1,49 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Richard Moore,richard-moore-2,/cfb/players/richard-moore-2.html,LB,12,56,36,92,13.5,5.0,0,0,,0,1,0,0,0,1,,SMU,2018
+Kyran Mitchell,kyran-mitchell-1,/cfb/players/kyran-mitchell-1.html,LB,12,47,36,83,15.0,4.5,0,0,,0,3,2,0,0,1,,SMU,2018
+Rodney Clemons,rodney-clemons-1,/cfb/players/rodney-clemons-1.html,DB,12,54,18,72,2.5,0.0,1,0,0.0,0,4,0,0,1,1,,SMU,2018
+Patrick Nelson,patrick-nelson-2,/cfb/players/patrick-nelson-2.html,S,10,37,28,65,6.0,1.5,2,23,11.5,0,1,0,0,0,1,,SMU,2018
+Elijah McQueen,elijah-mcqueen-1,/cfb/players/elijah-mcqueen-1.html,S,11,41,22,63,1.5,0.0,1,6,6.0,0,1,1,0,0,0,,SMU,2018
+Mikial Onu,mikial-onu-1,/cfb/players/mikial-onu-1.html,S,11,41,18,59,1.5,0.5,1,2,2.0,0,3,0,0,0,0,,SMU,2018
+Trevor Denbow,trevor-denbow-1,/cfb/players/trevor-denbow-1.html,LB,12,26,15,41,3.5,0.5,0,0,,0,1,0,0,0,0,,SMU,2018
+Delano Robinson,delano-robinson-1,/cfb/players/delano-robinson-1.html,LB,11,16,17,33,4.5,0.0,0,0,,0,0,1,0,0,0,,SMU,2018
+Delontae Scott,delontae-scott-1,/cfb/players/delontae-scott-1.html,DL,11,20,12,32,10.5,4.5,0,0,,0,1,0,0,0,1,,SMU,2018
+Jordan Williams,jordan-williams-5,/cfb/players/jordan-williams-5.html,LB,11,16,15,31,2.5,0.5,0,0,,0,2,0,0,0,1,,SMU,2018
+Kevin Johnson,kevin-johnson-13,/cfb/players/kevin-johnson-13.html,DB,11,16,12,28,0.5,0.0,2,43,21.5,0,2,0,0,0,0,,SMU,2018
+Cole Sterns,cole-sterns-1,/cfb/players/cole-sterns-1.html,S,10,18,6,24,1.5,0.0,0,0,,0,1,0,0,0,0,,SMU,2018
+Demerick Gary,demerick-gary-1,/cfb/players/demerick-gary-1.html,DL,11,17,6,23,3.0,0.5,0,0,,0,1,1,0,0,0,,SMU,2018
+Robert Hayes Jr.,robert-hayes-jr-1,/cfb/players/robert-hayes-jr-1.html,CB,11,20,3,23,0.0,0.0,0,0,,0,2,0,0,0,0,,SMU,2018
+Pono Davis,pono-davis-1,/cfb/players/pono-davis-1.html,DT,12,12,9,21,1.5,0.0,0,0,,0,0,0,0,0,1,,SMU,2018
+Turner Coxe,turner-coxe-1,/cfb/players/turner-coxe-1.html,DL,12,12,8,20,6.0,1.5,1,0,0.0,0,0,0,0,0,1,,SMU,2018
+Shaine Hailey,shaine-hailey-1,/cfb/players/shaine-hailey-1.html,LB,10,9,7,16,2.0,1.0,1,8,8.0,0,0,0,0,0,0,,SMU,2018
+Jordan Wyatt,jordan-wyatt-1,/cfb/players/jordan-wyatt-1.html,DB,10,13,3,16,1.0,0.0,1,1,1.0,0,4,0,0,0,0,,SMU,2018
+Eric Sutton,eric-sutton-3,/cfb/players/eric-sutton-3.html,,10,11,5,16,0.0,0.0,0,0,,0,0,0,0,0,0,,SMU,2018
+Eric Sutton,eric-sutton-2,/cfb/players/eric-sutton-2.html,CB,8,11,5,16,0.0,0.0,0,0,,0,0,0,0,0,0,,SMU,2018
+Christian Davis,christian-davis-1,/cfb/players/christian-davis-1.html,DB,12,12,2,14,0.5,0.0,1,0,0.0,0,5,0,0,0,0,,SMU,2018
+Gerrit Choate,gerrit-choate-1,/cfb/players/gerrit-choate-1.html,DE,12,7,5,12,2.0,0.0,0,0,,0,0,0,0,0,1,,SMU,2018
+Tony Ndukwe,tony-ndukwe-1,/cfb/players/tony-ndukwe-1.html,DL,11,4,6,10,2.0,1.5,0,0,,0,0,0,0,0,0,,SMU,2018
+Jake Hall,jake-hall-2,/cfb/players/jake-hall-2.html,DT,12,6,3,9,4.5,1.0,0,0,,0,1,3,0,0,0,,SMU,2018
+Ken McLaurin,ken-mclaurin-1,/cfb/players/ken-mclaurin-1.html,DL,9,3,5,8,1.0,0.5,0,0,,0,0,1,0,0,0,,SMU,2018
+Gary Wiley,gary-wiley-1,/cfb/players/gary-wiley-1.html,LB,8,5,2,7,2.0,2.0,0,0,,0,0,0,0,0,1,,SMU,2018
+Chris Biggurs,chris-biggurs-1,/cfb/players/chris-biggurs-1.html,DL,12,3,3,6,0.0,0.0,0,0,,0,0,1,0,0,0,,SMU,2018
+JC Rispress,jc-rispress-1,/cfb/players/jc-rispress-1.html,LB,9,5,1,6,0.0,0.0,0,0,,0,0,0,0,0,0,,SMU,2018
+Noah Westerfield,noah-westerfield-1,/cfb/players/noah-westerfield-1.html,DE,5,5,0,5,0.0,0.0,0,0,,0,1,0,0,0,0,,SMU,2018
+JR Griffin,jr-griffin-1,/cfb/players/jr-griffin-1.html,RB,12,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,SMU,2018
+Harrison Loveless,harrison-loveless-1,/cfb/players/harrison-loveless-1.html,DL,12,3,1,4,1.0,0.0,0,0,,0,0,0,0,0,0,,SMU,2018
+Preston Ellison,preston-ellison-1,/cfb/players/preston-ellison-1.html,S,9,3,0,3,0.0,0.0,0,0,,0,0,1,0,0,0,,SMU,2018
+Terrance Newman,terrance-newman-1,/cfb/players/terrance-newman-1.html,DT,8,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,SMU,2018
+Jourdan Blake,jourdan-blake-1,/cfb/players/jourdan-blake-1.html,CB,12,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,SMU,2018
+Jimmy Phillips Jr.,jimmy-phillips-jr-1,/cfb/players/jimmy-phillips-jr-1.html,LB,11,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,SMU,2018
+Tyler Page,tyler-page-2,/cfb/players/tyler-page-2.html,WR,8,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,SMU,2018
+Merek Pierce,merek-pierce-1,/cfb/players/merek-pierce-1.html,RB,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,SMU,2018
+Tyler Page,tyler-page-1,/cfb/players/tyler-page-1.html,,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,SMU,2018
+Tyeson Neals,tyeson-neals-1,/cfb/players/tyeson-neals-1.html,DL,3,1,0,1,1.0,0.0,0,0,,0,0,0,0,0,0,,SMU,2018
+Braeden West,braeden-west-1,/cfb/players/braeden-west-1.html,RB,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,SMU,2018
+Hunter Thedford,hunter-thedford-1,/cfb/players/hunter-thedford-1.html,TE,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,SMU,2018
+Shabazz Dotson,shabazz-dotson-1,/cfb/players/shabazz-dotson-1.html,DT,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,SMU,2018
+Ryan Becker,ryan-becker-1,/cfb/players/ryan-becker-1.html,TE,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,SMU,2018
+Jordan Brooks-Wess,jordan-brooks-wess-1,/cfb/players/jordan-brooks-wess-1.html,WR,7,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,SMU,2018
+Reggie Roberson Jr.,reggie-roberson-jr-1,/cfb/players/reggie-roberson-jr-1.html,WR,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,SMU,2018
+Judah Bell,judah-bell-1,/cfb/players/judah-bell-1.html,WR,11,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,SMU,2018
+Pakamiaiaea Davis,pakamiaiaea-davis-1,/cfb/players/pakamiaiaea-davis-1.html,DE,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,SMU,2018
+Kevin Robledo,kevin-robledo-1,/cfb/players/kevin-robledo-1.html,K,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,SMU,2018

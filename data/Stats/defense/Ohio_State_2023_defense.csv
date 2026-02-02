@@ -1,0 +1,43 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Steele Chambers,steele-chambers-1,/cfb/players/steele-chambers-1.html,LB,13,41,42,83,1.5,0.0,1,0,0.0,0,1,0,0,0,0,,Ohio State,2023
+Tommy Eichenberg,tommy-eichenberg-1,/cfb/players/tommy-eichenberg-1.html,LB,10,41,41,82,2.5,1.0,0,0,,0,0,0,0,0,1,,Ohio State,2023
+Davison Igbinosun,davison-igbinosun-1,/cfb/players/davison-igbinosun-1.html,CB,13,39,20,59,1.5,0.0,0,0,,0,5,2,0,0,0,,Ohio State,2023
+Cody Simon,cody-simon-1,/cfb/players/cody-simon-1.html,LB,13,24,33,57,3.0,0.0,0,0,,0,2,0,0,0,0,,Ohio State,2023
+Tyleik Williams,tyleik-williams-1,/cfb/players/tyleik-williams-1.html,DL,13,20,33,53,10.0,3.0,0,0,,0,5,1,0,1,0,,Ohio State,2023
+Sonny Styles,sonny-styles-1,/cfb/players/sonny-styles-1.html,S,13,32,21,53,4.5,2.0,0,0,,0,1,0,0,0,1,,Ohio State,2023
+Jack Sawyer,jack-sawyer-2,/cfb/players/jack-sawyer-2.html,DE,13,24,24,48,10.0,6.5,0,0,,0,2,0,0,0,2,,Ohio State,2023
+Josh Proctor,josh-proctor-1,/cfb/players/josh-proctor-1.html,DB,11,31,16,47,4.0,0.0,1,24,24.0,1,8,0,0,0,0,,Ohio State,2023
+Jordan Hancock,jordan-hancock-1,/cfb/players/jordan-hancock-1.html,CB,13,28,13,41,2.0,2.0,2,133,66.5,1,5,0,0,0,2,,Ohio State,2023
+Ty Hamilton,ty-hamilton-2,/cfb/players/ty-hamilton-2.html,DL,13,17,21,38,4.5,2.0,0,0,,0,0,0,0,0,0,,Ohio State,2023
+J.T. Tuimoloau,jt-tuimoloau-1,/cfb/players/jt-tuimoloau-1.html,DL,13,12,26,38,7.0,5.0,0,0,,0,2,1,16,0,0,,Ohio State,2023
+Lathan Ransom,lathan-ransom-1,/cfb/players/lathan-ransom-1.html,S,9,21,13,34,1.5,0.0,1,15,15.0,0,2,0,0,0,1,,Ohio State,2023
+Denzel Burke,denzel-burke-1,/cfb/players/denzel-burke-1.html,DB,11,18,6,24,3.0,0.0,1,0,0.0,0,9,0,0,0,1,,Ohio State,2023
+Michael Hall Jr.,michael-hall-jr-1,/cfb/players/michael-hall-jr-1.html,DL,12,9,15,24,2.0,1.5,0,0,,0,0,0,0,0,0,,Ohio State,2023
+Jermaine Matthews Jr.,jermaine-matthews-jr-1,/cfb/players/jermaine-matthews-jr-1.html,CB,11,9,4,13,0.0,0.0,1,58,58.0,1,3,0,0,0,0,,Ohio State,2023
+Hero Kanu,hero-kanu-1,/cfb/players/hero-kanu-1.html,DT,11,8,2,10,1.0,1.0,0,0,,0,0,0,0,0,0,,Ohio State,2023
+Jaden McKenzie,jaden-mckenzie-1,/cfb/players/jaden-mckenzie-1.html,DL,9,4,6,10,1.5,0.0,0,0,,0,0,0,0,0,0,,Ohio State,2023
+Malik Hartford,malik-hartford-1,/cfb/players/malik-hartford-1.html,S,9,5,5,10,0.0,0.0,0,0,,0,2,0,0,0,0,,Ohio State,2023
+Caden Curry,caden-curry-1,/cfb/players/caden-curry-1.html,DE,11,5,4,9,3.5,1.5,0,0,,0,1,0,0,0,0,,Ohio State,2023
+C.J. Hicks,cj-hicks-1,/cfb/players/cj-hicks-1.html,LB,13,5,3,8,1.0,0.0,0,0,,0,0,0,0,0,0,,Ohio State,2023
+Gabe Powers,gabe-powers-1,/cfb/players/gabe-powers-1.html,LB,10,6,1,7,1.0,0.0,0,0,,0,0,0,0,0,0,,Ohio State,2023
+Kenyatta Jackson,kenyatta-jackson-1,/cfb/players/kenyatta-jackson-1.html,DE,12,3,4,7,2.0,1.5,0,0,,0,0,0,0,0,0,,Ohio State,2023
+Tywone Malone,tywone-malone-1,/cfb/players/tywone-malone-1.html,DT,7,3,2,5,0.5,0.0,0,0,,0,0,0,0,0,0,,Ohio State,2023
+Ja'Had Carter,jahad-carter-1,/cfb/players/jahad-carter-1.html,DB,8,2,3,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio State,2023
+Mitchell Melton,mitchell-melton-1,/cfb/players/mitchell-melton-1.html,LB,8,3,0,3,3.0,1.0,0,0,,0,0,0,0,0,0,,Ohio State,2023
+Calvin Simpson-Hunt,calvin-simpson-hunt-1,/cfb/players/calvin-simpson-hunt-1.html,CB,5,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio State,2023
+Cameron Martinez,cameron-martinez-1,/cfb/players/cameron-martinez-1.html,DB,3,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio State,2023
+Gee Scott Jr.,gee-scott-jr-1,/cfb/players/gee-scott-jr-1.html,TE,13,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio State,2023
+Omari Abor,omari-abor-1,/cfb/players/omari-abor-1.html,DE,5,1,1,2,1.0,0.0,0,0,,0,0,0,0,0,0,,Ohio State,2023
+Ryan Turner,ryan-turner-1,/cfb/players/ryan-turner-1.html,CB,2,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio State,2023
+Bryce Prater,bryce-prater-1,/cfb/players/bryce-prater-1.html,DL,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio State,2023
+John Ferlmann,john-ferlmann-1,/cfb/players/john-ferlmann-1.html,LS,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio State,2023
+Cade Stover,cade-stover-1,/cfb/players/cade-stover-1.html,TE,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio State,2023
+Deamonte Trayanum,deamonte-trayanum-1,/cfb/players/deamonte-trayanum-1.html,RB,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio State,2023
+Donovan Jackson,donovan-jackson-1,/cfb/players/donovan-jackson-1.html,OL,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio State,2023
+Reid Carrico,reid-carrico-1,/cfb/players/reid-carrico-1.html,LB,9,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio State,2023
+Jayden Ballard,jayden-ballard-1,/cfb/players/jayden-ballard-1.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio State,2023
+Kyle McCord,kyle-mccord-1,/cfb/players/kyle-mccord-1.html,QB,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio State,2023
+Jesse Mirco,jesse-mirco-1,/cfb/players/jesse-mirco-1.html,P,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio State,2023
+Kayden McDonald,kayden-mcdonald-1,/cfb/players/kayden-mcdonald-1.html,DL,4,0,1,1,0.5,0.0,0,0,,0,1,0,0,0,0,,Ohio State,2023
+Jyaire Brown,jyaire-brown-1,/cfb/players/jyaire-brown-1.html,CB,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio State,2023
+Julian Fleming,julian-fleming-1,/cfb/players/julian-fleming-1.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio State,2023

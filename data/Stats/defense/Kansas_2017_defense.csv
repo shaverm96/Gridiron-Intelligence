@@ -1,0 +1,42 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Joe Dineen,joe-dineen-1,/cfb/players/joe-dineen-1.html,LB,12,93,44,137,25.0,2.5,0,0,,0,2,0,0,0,1,,Kansas,2017
+Mike Lee,mike-lee-6,/cfb/players/mike-lee-6.html,S,10,58,12,70,2.0,0.0,2,2,1.0,0,1,0,0,0,0,,Kansas,2017
+Dorance Armstrong Jr.,dorance-armstrong-jr-1,/cfb/players/dorance-armstrong-jr-1.html,DE,12,33,30,63,9.5,2.0,0,0,,0,4,1,0,0,3,,Kansas,2017
+Bryce Torneden,bryce-torneden-1,/cfb/players/bryce-torneden-1.html,S,11,46,15,61,5.0,2.0,0,0,,0,1,0,0,0,0,,Kansas,2017
+Daniel Wise,daniel-wise-1,/cfb/players/daniel-wise-1.html,DT,12,31,21,52,15.5,6.5,0,0,,0,1,0,0,0,1,,Kansas,2017
+Tyrone Miller Jr.,tyrone-miller-jr-1,/cfb/players/tyrone-miller-jr-1.html,S,12,38,9,47,2.0,0.0,0,0,,0,3,1,0,0,0,,Kansas,2017
+Keith Loneker Jr.,keith-loneker-jr-1,/cfb/players/keith-loneker-jr-1.html,LB,12,33,13,46,3.5,1.5,0,0,,0,1,0,0,0,1,,Kansas,2017
+Osaze Ogbebor,osaze-ogbebor-1,/cfb/players/osaze-ogbebor-1.html,LB,12,26,20,46,5.0,2.0,0,0,,0,0,0,0,0,0,,Kansas,2017
+Hasan Defense,hasan-defense-1,/cfb/players/hasan-defense-1.html,CB,11,34,8,42,1.0,0.0,2,10,5.0,0,9,0,0,0,0,,Kansas,2017
+Kyle Mayberry,kyle-mayberry-1,/cfb/players/kyle-mayberry-1.html,CB,12,24,6,30,1.5,0.0,0,0,,0,3,0,0,0,0,,Kansas,2017
+J.J. Holmes,jj-holmes-1,/cfb/players/jj-holmes-1.html,DT,12,14,10,24,2.0,1.0,0,0,,0,1,0,0,0,0,,Kansas,2017
+Josh Ehambe,josh-ehambe-1,/cfb/players/josh-ehambe-1.html,DE,10,11,11,22,6.5,2.0,0,0,,0,1,1,8,0,1,,Kansas,2017
+Derrick Neal,derrick-neal-1,/cfb/players/derrick-neal-1.html,CB,4,17,5,22,0.0,0.0,0,0,,0,1,0,0,0,0,,Kansas,2017
+Shakial Taylor,shakial-taylor-1,/cfb/players/shakial-taylor-1.html,CB,9,18,4,22,0.0,0.0,0,0,,0,3,0,0,0,0,,Kansas,2017
+Shaquille Richmond,shaquille-richmond-1,/cfb/players/shaquille-richmond-1.html,S,6,16,3,19,2.0,0.0,0,0,,0,1,0,0,0,0,,Kansas,2017
+KeyShaun Simmons,keyshaun-simmons-1,/cfb/players/keyshaun-simmons-1.html,DL,12,11,8,19,4.5,1.5,0,0,,0,0,0,0,0,0,,Kansas,2017
+Kyron Johnson,kyron-johnson-3,/cfb/players/kyron-johnson-3.html,LB,12,12,5,17,0.5,0.0,0,0,,0,0,0,0,0,1,,Kansas,2017
+DeAnte Ford,deante-ford-1,/cfb/players/deante-ford-1.html,CB,12,11,6,17,1.0,0.0,0,0,,0,1,0,0,0,0,,Kansas,2017
+Dru Prox,dru-prox-1,/cfb/players/dru-prox-1.html,LB,7,7,5,12,0.5,0.0,0,0,,0,0,0,0,0,0,,Kansas,2017
+Isaiah Bean,isaiah-bean-1,/cfb/players/isaiah-bean-1.html,DE,6,3,7,10,1.0,1.0,0,0,,0,0,0,0,0,0,,Kansas,2017
+Jacky Dezir,jacky-dezir-1,/cfb/players/jacky-dezir-1.html,DT,12,5,5,10,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2017
+Emmanuel Moore,emmanuel-moore-1,/cfb/players/emmanuel-moore-1.html,WR,12,7,2,9,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2017
+Julian Chandler,julian-chandler-1,/cfb/players/julian-chandler-1.html,CB,6,5,1,6,0.0,0.0,0,0,,0,1,0,0,0,1,,Kansas,2017
+Chase Harrell,chase-harrell-1,/cfb/players/chase-harrell-1.html,WR,12,3,2,5,0.0,0.0,0,0,,0,0,1,0,0,0,,Kansas,2017
+DeeIsaac Davis,deeisaac-davis-1,/cfb/players/deeisaac-davis-1.html,DT,8,3,2,5,1.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2017
+Kerr Johnson Jr.,kerr-johnson-jr-1,/cfb/players/kerr-johnson-jr-1.html,WR,12,0,3,3,0.0,0.0,0,0,,0,0,1,0,0,0,,Kansas,2017
+Ryan Schadler,ryan-schadler-1,/cfb/players/ryan-schadler-1.html,RB,12,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2017
+Carter Stanley,carter-stanley-1,/cfb/players/carter-stanley-1.html,QB,9,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2017
+Tyler Patrick,tyler-patrick-1,/cfb/players/tyler-patrick-1.html,WR,7,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2017
+Peyton Bender,peyton-bender-1,/cfb/players/peyton-bender-1.html,QB,10,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2017
+Isi Holani,isi-holani-1,/cfb/players/isi-holani-1.html,DT,2,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2017
+Kellen Ash,kellen-ash-1,/cfb/players/kellen-ash-1.html,DE,8,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2017
+Liam Jones,liam-jones-1,/cfb/players/liam-jones-1.html,K,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2017
+Logan Klusman,logan-klusman-1,/cfb/players/logan-klusman-1.html,LS,8,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2017
+Daylon Charlot,daylon-charlot-1,/cfb/players/daylon-charlot-1.html,WR,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2017
+Earl Bostick Jr.,earl-bostick-jr-1,/cfb/players/earl-bostick-jr-1.html,OL,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2017
+Evan Fairs,evan-fairs-1,/cfb/players/evan-fairs-1.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2017
+Ian Peterson,ian-peterson-1,/cfb/players/ian-peterson-1.html,CB,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2017
+Chris Hughes,chris-hughes-2,/cfb/players/chris-hughes-2.html,OL,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2017
+Taylor Martin,taylor-martin-1,/cfb/players/taylor-martin-1.html,RB,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2017
+Ben Johnson,ben-johnson-2,/cfb/players/ben-johnson-2.html,TE,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Kansas,2017

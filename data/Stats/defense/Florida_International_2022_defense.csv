@@ -1,0 +1,43 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Gaethan Bernadel,gaethan-bernadel-1,/cfb/players/gaethan-bernadel-1.html,LB,12,58,45,103,8.0,1.5,0,0,,0,0,0,0,0,0,,Florida International,2022
+Donovan Manuel,donovan-manuel-1,/cfb/players/donovan-manuel-1.html,LB,12,48,49,97,8.5,1.0,0,0,,0,3,1,0,0,0,,Florida International,2022
+Demetrius Hill,demetrius-hill-2,/cfb/players/demetrius-hill-2.html,DB,12,51,44,95,3.5,1.0,1,0,0.0,0,2,0,0,0,3,,Florida International,2022
+Jamal Potts,jamal-potts-1,/cfb/players/jamal-potts-1.html,DB,12,34,22,56,6.5,1.0,0,0,,0,5,0,0,0,1,,Florida International,2022
+Jeramy Passmore,jeramy-passmore-1,/cfb/players/jeramy-passmore-1.html,DL,12,12,31,43,2.0,1.0,0,0,,0,0,0,0,0,0,,Florida International,2022
+Adrian Cole,adrian-cole-1,/cfb/players/adrian-cole-1.html,DB,12,28,8,36,3.0,1.0,1,4,4.0,1,5,0,0,0,1,,Florida International,2022
+Jordan Guerad,jordan-guerad-1,/cfb/players/jordan-guerad-1.html,DL,11,16,18,34,5.5,3.0,0,0,,0,0,0,0,0,0,,Florida International,2022
+Alex Nobles,alex-nobles-1,/cfb/players/alex-nobles-1.html,LB,11,21,12,33,6.5,2.0,0,0,,0,2,2,84,1,1,,Florida International,2022
+D'verik Daniel,dverik-daniel-1,/cfb/players/dverik-daniel-1.html,DB,11,19,14,33,1.5,0.5,0,0,,0,2,0,0,0,0,,Florida International,2022
+Andrew Volmar,andrew-volmar-1,/cfb/players/andrew-volmar-1.html,DB,12,21,10,31,0.0,0.0,1,0,0.0,0,6,0,0,0,0,,Florida International,2022
+Dorian Hall,dorian-hall-1,/cfb/players/dorian-hall-1.html,DB,11,13,17,30,0.0,0.0,2,0,0.0,0,0,0,0,0,0,,Florida International,2022
+Reggie Peterson,reggie-peterson-1,/cfb/players/reggie-peterson-1.html,LB,12,12,17,29,0.5,0.0,1,75,75.0,0,0,0,0,0,0,,Florida International,2022
+Shaun Peterson Jr.,shaun-peterson-jr-2,/cfb/players/shaun-peterson-jr-2.html,LB,10,15,13,28,8.0,6.0,0,0,,0,2,2,0,0,2,,Florida International,2022
+Davon Strickland,davon-strickland-1,/cfb/players/davon-strickland-1.html,DL,10,11,15,26,2.0,1.0,0,0,,0,0,1,0,0,0,,Florida International,2022
+Hezekiah Masses,hezekiah-masses-1,/cfb/players/hezekiah-masses-1.html,DB,12,13,12,25,3.5,0.0,0,0,,0,4,1,0,0,0,,Florida International,2022
+Keegan Davis,keegan-davis-1,/cfb/players/keegan-davis-1.html,DL,12,10,10,20,4.0,1.0,0,0,,0,1,0,0,0,0,,Florida International,2022
+Jake Howard,jake-howard-2,/cfb/players/jake-howard-2.html,LB,9,9,11,20,1.0,0.0,0,0,,0,0,0,0,0,0,,Florida International,2022
+Latarie Kinsler,latarie-kinsler-1,/cfb/players/latarie-kinsler-1.html,DL,10,7,13,20,2.0,1.0,0,0,,0,0,0,0,0,0,,Florida International,2022
+CJ Christian,cj-christian-1,/cfb/players/cj-christian-1.html,DB,5,12,5,17,1.0,0.0,1,0,0.0,0,0,0,0,0,0,,Florida International,2022
+Travonte O'Neal,travonte-oneal-1,/cfb/players/travonte-oneal-1.html,DL,10,6,10,16,1.0,0.0,0,0,,0,0,0,0,0,0,,Florida International,2022
+Chance Coleman,chance-coleman-1,/cfb/players/chance-coleman-1.html,LB,5,6,5,11,0.0,0.0,0,0,,0,0,1,0,0,0,,Florida International,2022
+Joe Perkins,joe-perkins-2,/cfb/players/joe-perkins-2.html,DB,6,6,3,9,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida International,2022
+Henry Gray,henry-gray-1,/cfb/players/henry-gray-1.html,DB,4,3,3,6,0.0,0.0,0,0,,0,1,0,0,0,0,,Florida International,2022
+Brian Blades,brian-blades-2,/cfb/players/brian-blades-2.html,DB,4,4,2,6,0.0,0.0,0,0,,0,1,0,0,0,0,,Florida International,2022
+Khaya Wright,khaya-wright-1,/cfb/players/khaya-wright-1.html,LB,4,2,3,5,1.5,0.0,0,0,,0,0,0,0,0,0,,Florida International,2022
+Will Prendergast,will-prendergast-1,/cfb/players/will-prendergast-1.html,DL,10,1,4,5,1.5,0.0,0,0,,0,0,0,0,0,0,,Florida International,2022
+Kyan Brumfield,kyan-brumfield-1,/cfb/players/kyan-brumfield-1.html,DB,10,2,1,3,0.0,0.0,0,0,,0,0,1,0,0,0,,Florida International,2022
+Julius Pierce,julius-pierce-1,/cfb/players/julius-pierce-1.html,OL,11,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida International,2022
+Lucas Matias,lucas-matias-1,/cfb/players/lucas-matias-1.html,K,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida International,2022
+Eric Wilson Jr.,eric-wilson-jr-1,/cfb/players/eric-wilson-jr-1.html,RB,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida International,2022
+Ross Fournet,ross-fournet-1,/cfb/players/ross-fournet-1.html,WR,12,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida International,2022
+Jay Berry Jr.,jay-berry-jr-1,/cfb/players/jay-berry-jr-1.html,WR,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida International,2022
+Kris Mitchell,kris-mitchell-1,/cfb/players/kris-mitchell-1.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida International,2022
+Haden Carlson,haden-carlson-1,/cfb/players/haden-carlson-1.html,QB,8,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida International,2022
+Lexington Joseph,lexington-joseph-1,/cfb/players/lexington-joseph-1.html,RB,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida International,2022
+Ming Tjon,ming-tjon-1,/cfb/players/ming-tjon-1.html,OL,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida International,2022
+Olsen Louis Baptiste,olsen-louis-baptiste-1,/cfb/players/olsen-louis-baptiste-1.html,DB,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida International,2022
+Phillip Houston,phillip-houston-1,/cfb/players/phillip-houston-1.html,OL,5,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida International,2022
+Dean Patterson,dean-patterson-1,/cfb/players/dean-patterson-1.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida International,2022
+Baba Conate,baba-conate-1,/cfb/players/baba-conate-1.html,LB,7,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida International,2022
+Ty Danzy,ty-danzy-1,/cfb/players/ty-danzy-1.html,DL,6,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida International,2022
+Artez Hooker,artez-hooker-1,/cfb/players/artez-hooker-1.html,WR,7,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Florida International,2022

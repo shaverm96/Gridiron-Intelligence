@@ -1,0 +1,37 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Blaze Alldredge,blaze-alldredge-1,/cfb/players/blaze-alldredge-1.html,LB,12,55,47,102,21.5,4.0,0,0,,0,2,1,0,0,1,,Rice,2019
+Antonio Montero,antonio-montero-1,/cfb/players/antonio-montero-1.html,LB,12,32,51,83,5.0,1.0,0,0,,0,3,1,0,0,0,,Rice,2019
+Treshawn Chamberlain,treshawn-chamberlain-1,/cfb/players/treshawn-chamberlain-1.html,LB,12,31,33,64,2.0,0.5,2,0,0.0,0,5,0,0,0,0,,Rice,2019
+George Nyakwol,george-nyakwol-1,/cfb/players/george-nyakwol-1.html,DB,12,30,27,57,1.5,0.0,1,0,0.0,0,6,1,0,0,0,,Rice,2019
+Naeem Smith,naeem-smith-1,/cfb/players/naeem-smith-1.html,S,12,29,21,50,3.5,1.0,2,1,0.5,0,3,0,0,0,1,,Rice,2019
+Elijah Garcia,elijah-garcia-1,/cfb/players/elijah-garcia-1.html,DL,12,18,32,50,4.0,0.5,0,0,,0,0,0,0,0,1,,Rice,2019
+Kenneth Orji,kenneth-orji-1,/cfb/players/kenneth-orji-1.html,DE,12,15,28,43,2.5,0.0,0,0,,0,0,1,0,0,0,,Rice,2019
+Myles Adams,myles-adams-1,/cfb/players/myles-adams-1.html,DL,12,18,24,42,3.5,1.0,0,0,,0,1,0,0,0,0,,Rice,2019
+Tyrae Thornton,tyrae-thornton-1,/cfb/players/tyrae-thornton-1.html,DB,12,25,16,41,1.0,0.0,0,0,,0,7,0,0,0,0,,Rice,2019
+Andrew Bird,andrew-bird-1,/cfb/players/andrew-bird-1.html,CB,10,21,9,30,2.0,0.0,1,6,6.0,0,1,0,0,0,0,,Rice,2019
+Trey Schuman,trey-schuman-1,/cfb/players/trey-schuman-1.html,DE,8,10,18,28,2.5,1.0,0,0,,0,0,0,0,0,0,,Rice,2019
+Ikenna Enechukwu,ikenna-enechukwu-1,/cfb/players/ikenna-enechukwu-1.html,DE,11,7,20,27,4.5,1.5,0,0,,0,0,0,0,0,0,,Rice,2019
+Anthony Ekpe,anthony-ekpe-1,/cfb/players/anthony-ekpe-1.html,DE,8,12,11,23,5.0,2.5,0,0,,0,0,1,0,0,1,,Rice,2019
+JaVante Hubbard,javante-hubbard-1,/cfb/players/javante-hubbard-1.html,DE,11,7,11,18,1.0,0.0,0,0,,0,0,0,0,0,0,,Rice,2019
+Prudy Calderon,prudy-calderon-1,/cfb/players/prudy-calderon-1.html,DB,11,9,7,16,1.0,0.0,0,0,,0,6,0,0,0,0,,Rice,2019
+Garrett Grammer,garrett-grammer-1,/cfb/players/garrett-grammer-1.html,LB,12,4,11,15,2.5,0.0,0,0,,0,0,0,0,0,0,,Rice,2019
+Tre'shon Devones,treshon-devones-1,/cfb/players/treshon-devones-1.html,CB,11,9,6,15,0.0,0.0,0,0,,0,2,0,0,0,1,,Rice,2019
+De'braylon Carroll,debraylon-carroll-1,/cfb/players/debraylon-carroll-1.html,DT,12,7,7,14,2.5,1.0,0,0,,0,0,0,0,0,0,,Rice,2019
+Kirk Lockhart,kirk-lockhart-1,/cfb/players/kirk-lockhart-1.html,S,10,8,4,12,0.0,0.0,0,0,,0,1,0,0,0,0,,Rice,2019
+Dasharm Newsome,dasharm-newsome-1,/cfb/players/dasharm-newsome-1.html,S,11,6,5,11,0.0,0.0,0,0,,0,0,0,0,0,0,,Rice,2019
+Isaiah Richardson,isaiah-richardson-1,/cfb/players/isaiah-richardson-1.html,DB,12,6,4,10,1.0,0.0,0,0,,0,0,0,0,0,0,,Rice,2019
+Jason White,jason-white-5,/cfb/players/jason-white-5.html,CB,8,6,2,8,0.0,0.0,0,0,,0,0,0,0,0,0,,Rice,2019
+Nashon Ellerbe,nashon-ellerbe-1,/cfb/players/nashon-ellerbe-1.html,RB,12,1,4,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Rice,2019
+Jordan Myers,jordan-myers-1,/cfb/players/jordan-myers-1.html,TE,12,4,1,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Rice,2019
+Dylan Silcox,dylan-silcox-1,/cfb/players/dylan-silcox-1.html,LB,7,2,3,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Rice,2019
+Cameron Valentine,cameron-valentine-1,/cfb/players/cameron-valentine-1.html,DE,9,3,1,4,2.0,0.0,0,0,,0,0,0,0,0,0,,Rice,2019
+Ari Broussard,ari-broussard-1,/cfb/players/ari-broussard-1.html,RB,10,2,2,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Rice,2019
+Jacob Doddridge,jacob-doddridge-1,/cfb/players/jacob-doddridge-1.html,DE,12,0,3,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Rice,2019
+D Angelo Ellis,d-angelo-ellis-1,/cfb/players/d-angelo-ellis-1.html,DB,2,3,0,3,0.0,0.0,0,0,,0,1,0,0,0,0,,Rice,2019
+Kebreyun Page,kebreyun-page-1,/cfb/players/kebreyun-page-1.html,LB,4,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Rice,2019
+Campbell Riddle,campbell-riddle-1,/cfb/players/campbell-riddle-1.html,LS,11,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Rice,2019
+Joshua Landrum,joshua-landrum-1,/cfb/players/joshua-landrum-1.html,CB,4,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Rice,2019
+Myron Morrison,myron-morrison-2,/cfb/players/myron-morrison-2.html,LB,4,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Rice,2019
+Shea Baker,shea-baker-1,/cfb/players/shea-baker-1.html,,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Rice,2019
+Izeya Floyd,izeya-floyd-1,/cfb/players/izeya-floyd-1.html,DL,4,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Rice,2019
+Adrian Bickham,adrian-bickham-1,/cfb/players/adrian-bickham-1.html,LB,12,0,1,1,0.5,0.0,0,0,,0,1,0,0,0,0,,Rice,2019

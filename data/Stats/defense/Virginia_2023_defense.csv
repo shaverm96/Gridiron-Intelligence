@@ -1,0 +1,46 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Jonas Sanker,jonas-sanker-1,/cfb/players/jonas-sanker-1.html,DB,12,73,34,107,4.0,0.0,0,0,,0,11,2,0,0,3,,Virginia,2023
+James Jackson,james-jackson-8,/cfb/players/james-jackson-8.html,LB,12,34,46,80,4.0,1.0,1,0,0.0,0,5,0,0,0,0,,Virginia,2023
+Kam Robinson,kam-robinson-2,/cfb/players/kam-robinson-2.html,LB,12,46,25,71,4.5,1.0,2,42,21.0,1,1,0,0,0,0,,Virginia,2023
+Coen King,coen-king-1,/cfb/players/coen-king-1.html,DB,10,47,13,60,2.5,0.0,0,0,,0,6,0,0,0,2,,Virginia,2023
+Tayvonn Kyle,tayvonn-kyle-1,/cfb/players/tayvonn-kyle-1.html,DB,12,25,29,54,2.0,0.0,0,0,,0,5,1,0,0,0,,Virginia,2023
+Dave Herard,dave-herard-1,/cfb/players/dave-herard-1.html,DB,11,25,15,40,2.0,0.0,0,0,,0,2,1,0,0,1,,Virginia,2023
+Jahmeer Carter,jahmeer-carter-1,/cfb/players/jahmeer-carter-1.html,DL,12,13,22,35,2.0,1.0,0,0,,0,0,0,0,0,0,,Virginia,2023
+Chico Bennett Jr.,chico-bennett-jr-1,/cfb/players/chico-bennett-jr-1.html,LB,11,15,19,34,4.5,0.0,0,0,,0,0,0,0,0,0,,Virginia,2023
+Aaron Faumui,aaron-faumui-1,/cfb/players/aaron-faumui-1.html,DL,12,13,19,32,6.5,0.0,0,0,,0,3,0,0,0,0,,Virginia,2023
+Josh Ahern,josh-ahern-1,/cfb/players/josh-ahern-1.html,LB,10,18,14,32,4.0,0.0,1,17,17.0,0,2,0,0,0,0,,Virginia,2023
+Kameron Butler,kameron-butler-1,/cfb/players/kameron-butler-1.html,DL,4,16,7,23,5.0,3.5,0,0,,0,0,0,0,0,0,,Virginia,2023
+Sam Westfall,sam-westfall-1,/cfb/players/sam-westfall-1.html,CB,11,12,9,21,0.0,0.0,1,0,0.0,0,2,0,0,0,1,,Virginia,2023
+Mekhi Buchanan,mekhi-buchanan-1,/cfb/players/mekhi-buchanan-1.html,DE,12,10,10,20,1.5,0.0,0,0,,0,0,0,0,0,0,,Virginia,2023
+Stevie Bracey,stevie-bracey-1,/cfb/players/stevie-bracey-1.html,LB,11,10,10,20,0.5,0.0,0,0,,0,0,0,0,0,0,,Virginia,2023
+Michael Diatta,michael-diatta-1,/cfb/players/michael-diatta-1.html,DL,12,6,12,18,1.0,1.0,0,0,,0,0,0,0,0,0,,Virginia,2023
+Malcolm Greene,malcolm-greene-1,/cfb/players/malcolm-greene-1.html,CB,10,11,4,15,4.0,0.0,0,0,,0,0,0,0,0,0,,Virginia,2023
+Paul Akere,paul-akere-1,/cfb/players/paul-akere-1.html,DL,9,4,11,15,3.0,1.0,0,0,,0,0,0,0,0,0,,Virginia,2023
+Ben Smiley III,ben-smiley-iii-1,/cfb/players/ben-smiley-iii-1.html,DL,9,6,9,15,3.5,2.0,0,0,,0,1,0,0,0,0,,Virginia,2023
+Caleb Hardy,caleb-hardy-1,/cfb/players/caleb-hardy-1.html,S,9,3,11,14,0.0,0.0,1,6,6.0,0,1,1,0,0,0,,Virginia,2023
+Trey McDonald,trey-mcdonald-2,/cfb/players/trey-mcdonald-2.html,LB,12,5,7,12,0.0,0.0,0,0,,0,0,0,0,0,0,,Virginia,2023
+Dre Walker,dre-walker-1,/cfb/players/dre-walker-1.html,CB,9,8,3,11,0.0,0.0,1,4,4.0,0,5,0,0,0,0,,Virginia,2023
+Bryce Carter,bryce-carter-1,/cfb/players/bryce-carter-1.html,DL,7,5,4,9,0.0,0.0,0,0,,0,0,0,0,0,0,,Virginia,2023
+Langston Long,langston-long-1,/cfb/players/langston-long-1.html,DB,2,4,4,8,0.0,0.0,0,0,,0,1,0,0,0,0,,Virginia,2023
+Micah Gaffney,micah-gaffney-1,/cfb/players/micah-gaffney-1.html,DB,11,5,2,7,2.0,0.0,1,11,11.0,0,0,0,0,0,0,,Virginia,2023
+Perris Jones,perris-jones-1,/cfb/players/perris-jones-1.html,RB,10,4,2,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Virginia,2023
+Jason Hammond,jason-hammond-1,/cfb/players/jason-hammond-1.html,DT,7,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Virginia,2023
+Grant Misch,grant-misch-1,/cfb/players/grant-misch-1.html,TE,12,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Virginia,2023
+Matt Ganyard,matt-ganyard-1,/cfb/players/matt-ganyard-1.html,K,12,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Virginia,2023
+Elijah Gaines,elijah-gaines-1,/cfb/players/elijah-gaines-1.html,DB,10,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Virginia,2023
+Terrell Jones,terrell-jones-2,/cfb/players/terrell-jones-2.html,DL,4,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Virginia,2023
+Anthony Britton,anthony-britton-1,/cfb/players/anthony-britton-1.html,DT,4,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Virginia,2023
+Malachi Fields,malachi-fields-1,/cfb/players/malachi-fields-1.html,WR,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Virginia,2023
+Olasunkonmi Agunloye,olasunkonmi-agunloye-1,/cfb/players/olasunkonmi-agunloye-1.html,DT,1,0,1,1,0.5,0.5,0,0,,0,0,1,0,0,0,,Virginia,2023
+Sackett Wood Jr.,sackett-wood-jr-1,/cfb/players/sackett-wood-jr-1.html,TE,9,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Virginia,2023
+William Simpkins III,william-simpkins-iii-1,/cfb/players/william-simpkins-iii-1.html,DB,6,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Virginia,2023
+Mike Hollins,mike-hollins-1,/cfb/players/mike-hollins-1.html,RB,11,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Virginia,2023
+Luke Byrne,luke-byrne-1,/cfb/players/luke-byrne-1.html,LS,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Virginia,2023
+Kobe Pace,kobe-pace-1,/cfb/players/kobe-pace-1.html,RB,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Virginia,2023
+Kendall Cross,kendall-cross-1,/cfb/players/kendall-cross-1.html,LB,10,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Virginia,2023
+Jack Witmer,jack-witmer-1,/cfb/players/jack-witmer-1.html,TE,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Virginia,2023
+Jack Griese,jack-griese-1,/cfb/players/jack-griese-1.html,RB,10,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Virginia,2023
+Eli Wood,eli-wood-1,/cfb/players/eli-wood-1.html,WR,9,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Virginia,2023
+Davis Lane Jr.,davis-lane-jr-1,/cfb/players/davis-lane-jr-1.html,S,7,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Virginia,2023
+Daniel Sparks,daniel-sparks-1,/cfb/players/daniel-sparks-1.html,P,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Virginia,2023
+Aidian Livingston,aidian-livingston-1,/cfb/players/aidian-livingston-1.html,LS,5,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,1,,Virginia,2023

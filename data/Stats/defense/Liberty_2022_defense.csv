@@ -1,0 +1,43 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Mike Smith Jr.,mike-smith-jr-1,/cfb/players/mike-smith-jr-1.html,LB,12,45,40,85,10.0,0.5,1,22,22.0,0,4,0,0,0,3,,Liberty,2022
+Javon Scruggs,javon-scruggs-1,/cfb/players/javon-scruggs-1.html,S,12,34,35,69,6.0,2.0,1,0,0.0,0,1,2,0,0,2,,Liberty,2022
+Ahmad Walker,ahmad-walker-1,/cfb/players/ahmad-walker-1.html,LB,12,33,30,63,11.0,4.0,1,19,19.0,0,2,1,0,0,1,,Liberty,2022
+Kendy Charles,kendy-charles-1,/cfb/players/kendy-charles-1.html,DT,13,27,32,59,10.0,5.5,0,0,,0,1,0,0,0,1,,Liberty,2022
+Durrell Johnson,durrell-johnson-1,/cfb/players/durrell-johnson-1.html,DE,13,39,19,58,27.5,9.0,1,0,0.0,0,4,3,3,0,1,,Liberty,2022
+Robert Rahimi,robert-rahimi-1,/cfb/players/robert-rahimi-1.html,S,13,24,32,56,1.5,0.0,5,38,7.6,0,0,1,0,0,0,,Liberty,2022
+Tyren Dupree,tyren-dupree-1,/cfb/players/tyren-dupree-1.html,LB,12,26,21,47,6.0,4.0,0,0,,0,0,0,0,0,1,,Liberty,2022
+Aakil Washington,aakil-washington-1,/cfb/players/aakil-washington-1.html,LB,13,16,30,46,3.5,1.5,0,0,,0,2,0,0,0,0,,Liberty,2022
+Dennis Osagiede,dennis-osagiede-2,/cfb/players/dennis-osagiede-2.html,DT,13,12,25,37,12.5,6.0,0,0,,0,0,0,0,0,0,,Liberty,2022
+Chris Megginson,chris-megginson-1,/cfb/players/chris-megginson-1.html,CB,12,26,7,33,2.0,0.0,0,0,,0,6,0,0,0,1,,Liberty,2022
+Brylan Green,brylan-green-1,/cfb/players/brylan-green-1.html,S,13,19,13,32,0.5,0.0,0,0,,0,1,0,0,0,0,,Liberty,2022
+TreShaun Clark,treshaun-clark-1,/cfb/players/treshaun-clark-1.html,DE,10,15,17,32,7.5,5.0,0,0,,0,1,1,0,0,0,,Liberty,2022
+Quinton Reese,quinton-reese-1,/cfb/players/quinton-reese-1.html,S,12,16,13,29,5.0,1.0,1,9,9.0,0,3,0,0,0,0,,Liberty,2022
+Daijahn Anthony,daijahn-anthony-1,/cfb/players/daijahn-anthony-1.html,CB,12,19,8,27,0.5,0.0,2,0,0.0,0,4,0,0,0,0,,Liberty,2022
+Kobe Singleton,kobe-singleton-1,/cfb/players/kobe-singleton-1.html,CB,13,21,5,26,0.0,0.0,2,0,0.0,0,6,0,0,0,0,,Liberty,2022
+Juawan Treadwell,juawan-treadwell-1,/cfb/players/juawan-treadwell-1.html,S,13,23,2,25,2.0,1.0,0,0,,0,4,0,0,0,1,,Liberty,2022
+Dre Butler,dre-butler-1,/cfb/players/dre-butler-1.html,DT,13,13,10,23,2.0,1.5,0,0,,0,1,1,0,0,1,,Liberty,2022
+Amarian Williams,amarian-williams-1,/cfb/players/amarian-williams-1.html,CB,13,12,8,20,1.0,0.0,0,0,,0,0,0,0,0,1,,Liberty,2022
+A'Khori Jones,akhori-jones-1,/cfb/players/akhori-jones-1.html,S,11,15,3,18,3.0,0.0,0,0,,0,0,0,0,0,0,,Liberty,2022
+Jay Hardy,jay-hardy-1,/cfb/players/jay-hardy-1.html,DT,13,8,8,16,1.5,0.0,0,0,,0,1,0,0,0,0,,Liberty,2022
+Stephens Sings V,stephens-sings-v-1,/cfb/players/stephens-sings-v-1.html,DE,11,9,4,13,3.5,3.5,0,0,,0,3,0,0,0,0,,Liberty,2022
+Jerome Jolly Jr.,jerome-jolly-jr-1,/cfb/players/jerome-jolly-jr-1.html,S,7,8,5,13,0.0,0.0,0,0,,0,0,0,0,0,0,,Liberty,2022
+Preston Hodge,preston-hodge-1,/cfb/players/preston-hodge-1.html,CB,12,9,3,12,0.0,0.0,0,0,,0,3,0,0,0,0,,Liberty,2022
+Bryce Dixon,bryce-dixon-2,/cfb/players/bryce-dixon-2.html,DT,8,4,6,10,1.5,0.0,0,0,,0,0,0,0,0,0,,Liberty,2022
+Kristian Zachary,kristian-zachary-1,/cfb/players/kristian-zachary-1.html,DT,12,3,7,10,1.5,0.5,0,0,,0,0,0,0,0,0,,Liberty,2022
+CJ Bazile Jr.,cj-bazile-jr-1,/cfb/players/cj-bazile-jr-1.html,DE,7,3,4,7,1.5,0.0,0,0,,0,0,0,0,0,0,,Liberty,2022
+Treon Sibley,treon-sibley-1,/cfb/players/treon-sibley-1.html,WR,13,4,2,6,0.0,0.0,0,0,,0,0,1,0,0,0,,Liberty,2022
+Daniel Darko,daniel-darko-1,/cfb/players/daniel-darko-1.html,S,11,1,4,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Liberty,2022
+Jason Stricker,jason-stricker-1,/cfb/players/jason-stricker-1.html,K,13,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Liberty,2022
+Dae Dae Hunter,dae-dae-hunter-1,/cfb/players/dae-dae-hunter-1.html,RB,9,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Liberty,2022
+Micah Glaize,micah-glaize-1,/cfb/players/micah-glaize-1.html,LB,13,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Liberty,2022
+Austin Mock,austin-mock-1,/cfb/players/austin-mock-1.html,LS,13,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Liberty,2022
+Elijah Auguste,elijah-auguste-1,/cfb/players/elijah-auguste-1.html,CB,2,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Liberty,2022
+Demario Douglas,demario-douglas-1,/cfb/players/demario-douglas-1.html,WR,13,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Liberty,2022
+Jaylon Jimmerson,jaylon-jimmerson-1,/cfb/players/jaylon-jimmerson-1.html,S,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Liberty,2022
+Rashad Whitehead,rashad-whitehead-1,/cfb/players/rashad-whitehead-1.html,DE,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Liberty,2022
+Reggie Young,reggie-young-2,/cfb/players/reggie-young-2.html,OT,9,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Liberty,2022
+Dexter Ricks Jr.,dexter-ricks-jr-1,/cfb/players/dexter-ricks-jr-1.html,CB,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Liberty,2022
+Tim Coutras,tim-coutras-1,/cfb/players/tim-coutras-1.html,S,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Liberty,2022
+CJ Yarbrough,cj-yarbrough-2,/cfb/players/cj-yarbrough-2.html,WR,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Liberty,2022
+Bentley Hanshaw,bentley-hanshaw-1,/cfb/players/bentley-hanshaw-1.html,TE,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Liberty,2022
+X'Zauvea Gadlin,xzauvea-gadlin-1,/cfb/players/xzauvea-gadlin-1.html,OL,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Liberty,2022

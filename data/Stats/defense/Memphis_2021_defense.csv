@@ -1,0 +1,42 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+JJ Russell,jj-russell-1,/cfb/players/jj-russell-1.html,LB,12,78,45,123,6.5,1.0,1,0,0.0,0,1,0,0,0,1,,Memphis,2021
+Quindell Johnson,quindell-johnson-1,/cfb/players/quindell-johnson-1.html,DB,12,66,39,105,4.5,1.0,1,14,14.0,0,11,1,16,0,0,,Memphis,2021
+Rodney Owens,rodney-owens-1,/cfb/players/rodney-owens-1.html,DB,12,50,28,78,4.5,3.0,2,25,12.5,0,5,0,0,0,0,,Memphis,2021
+Xavier Cullens,xavier-cullens-1,/cfb/players/xavier-cullens-1.html,LB,12,44,25,69,8.5,2.0,1,0,0.0,0,2,1,0,0,0,,Memphis,2021
+Greg Rubin,greg-rubin-1,/cfb/players/greg-rubin-1.html,DB,12,38,20,58,1.0,0.0,0,0,,0,14,0,0,0,0,,Memphis,2021
+Thomas Pickens,thomas-pickens-1,/cfb/players/thomas-pickens-1.html,LB,10,35,15,50,2.5,1.0,0,0,,0,0,0,0,0,1,,Memphis,2021
+Cole Mashburn,cole-mashburn-1,/cfb/players/cole-mashburn-1.html,LB,10,26,20,46,1.5,0.0,0,0,,0,0,0,0,0,1,,Memphis,2021
+Sanchez Blake Jr.,sanchez-blake-jr-1,/cfb/players/sanchez-blake-jr-1.html,DB,6,27,18,45,0.0,0.0,0,0,,0,3,1,49,1,0,,Memphis,2021
+Tyrez Lindsey,tyrez-lindsey-1,/cfb/players/tyrez-lindsey-1.html,DB,12,23,16,39,0.0,0.0,1,0,0.0,0,1,0,0,0,0,,Memphis,2021
+Morris Joseph Jr.,morris-joseph-jr-1,/cfb/players/morris-joseph-jr-1.html,DL,10,20,18,38,4.5,1.5,0,0,,0,0,0,0,0,0,,Memphis,2021
+Jaylon Allen,jaylon-allen-1,/cfb/players/jaylon-allen-1.html,DL,12,19,18,37,7.5,5.0,0,0,,0,1,0,0,0,1,,Memphis,2021
+Jacobi Francis,jacobi-francis-1,/cfb/players/jacobi-francis-1.html,DB,12,30,6,36,4.5,0.0,2,1,0.5,0,7,0,0,0,0,,Memphis,2021
+John Tate,john-tate-1,/cfb/players/john-tate-1.html,DL,12,22,14,36,6.5,2.0,0,0,,0,4,0,0,0,0,,Memphis,2021
+Wardalis Ducksworth,wardalis-duckworth-1,/cfb/players/wardalis-duckworth-1.html,DL,12,16,18,34,4.0,4.0,0,0,,0,0,2,0,1,0,,Memphis,2021
+Sylvonta Oliver,sylvonta-oliver-1,/cfb/players/sylvonta-oliver-1.html,DB,12,15,3,18,0.0,0.0,1,0,0.0,0,3,0,0,0,0,,Memphis,2021
+Maurice White,maurice-white-3,/cfb/players/maurice-white-3.html,DL,11,8,4,12,4.5,3.5,0,0,,0,0,0,0,0,0,,Memphis,2021
+Camron Jackson,camron-jackson-1,/cfb/players/camron-jackson-1.html,DL,12,6,3,9,2.5,1.5,0,0,,0,0,0,0,0,0,,Memphis,2021
+John Cartwright,john-cartwright-2,/cfb/players/john-cartwright-2.html,DL,7,6,2,8,1.0,1.0,0,0,,0,0,0,0,0,0,,Memphis,2021
+Julian Barnett,julian-barnett-1,/cfb/players/julian-barnett-1.html,DB,8,2,5,7,0.5,0.5,0,0,,0,0,0,0,0,0,,Memphis,2021
+Keith Brown Jr.,keith-brown-jr-1,/cfb/players/keith-brown-jr-1.html,LB,12,3,3,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Memphis,2021
+Zy Brockington,zy-brockington-1,/cfb/players/zy-brockington-1.html,DL,10,4,1,5,1.0,0.0,0,0,,0,0,0,0,0,1,,Memphis,2021
+Cameron Smith,cameron-smith-8,/cfb/players/cameron-smith-8.html,DB,10,5,0,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Memphis,2021
+Eric Rivers,eric-rivers-2,/cfb/players/eric-rivers-2.html,DB,7,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Memphis,2021
+Asa Martin,asa-martin-1,/cfb/players/asa-martin-1.html,RB,10,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,1,,Memphis,2021
+Joe Doyle,joe-doyle-1,/cfb/players/joe-doyle-1.html,P,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,1,,Memphis,2021
+Jalil Clemons,jalil-clemons-1,/cfb/players/jalil-clemons-1.html,LB,4,1,1,2,0.5,0.0,0,0,,0,0,0,0,0,0,,Memphis,2021
+Seth Henigan,seth-henigan-1,/cfb/players/seth-henigan-1.html,QB,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Memphis,2021
+Rodrigues Clark,rodrigues-clark-1,/cfb/players/rodrigues-clark-1.html,RB,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Memphis,2021
+Joshua Hastings,joshua-hastings-1,/cfb/players/joshua-hastings-1.html,DB,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Memphis,2021
+Preston Brady,preston-brady-1,/cfb/players/preston-brady-1.html,LS,12,0,1,1,0.0,0.0,0,0,,0,0,1,0,0,0,,Memphis,2021
+Meonta Kimbrough,meonta-kimbrough-1,/cfb/players/meonta-kimbrough-1.html,DL,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Memphis,2021
+Marquavius Weaver,marquavius-weaver-1,/cfb/players/marquavius-weaver-1.html,RB,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Memphis,2021
+Kylan Watkins,kylan-watkins-1,/cfb/players/kylan-watkins-1.html,RB,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Memphis,2021
+Kajuan Robinson,kajuan-robinson-1,/cfb/players/kajuan-robinson-1.html,DL,6,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Memphis,2021
+Jonah Gambill,jonah-gambill-1,/cfb/players/jonah-gambill-1.html,OL,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Memphis,2021
+Ja'Len Sims,jalen-sims-1,/cfb/players/jalen-sims-1.html,LB,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,1,,Memphis,2021
+Gabriel Rogers,gabriel-rogers-1,/cfb/players/gabriel-rogers-1.html,RB,9,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Memphis,2021
+Evan Fields,evan-fields-2,/cfb/players/evan-fields-2.html,OL,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Memphis,2021
+Eddie Lewis,eddie-lewis-2,/cfb/players/eddie-lewis-2.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Memphis,2021
+Cincir Evans,cincir-evans-1,/cfb/players/cincir-evans-1.html,LB,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Memphis,2021
+Calvin Austin III,calvin-austin-iii-1,/cfb/players/calvin-austin-iii-1.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Memphis,2021

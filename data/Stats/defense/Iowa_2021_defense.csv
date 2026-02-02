@@ -1,0 +1,40 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Jack Campbell,jack-campbell-1,/cfb/players/jack-campbell-1.html,LB,14,57,86,143,3.5,1.0,2,33,16.5,1,6,2,6,1,1,,Iowa,2021
+Seth Benson,seth-benson-1,/cfb/players/seth-benson-1.html,LB,14,54,51,105,5.5,2.0,1,6,6.0,0,3,0,0,0,0,,Iowa,2021
+Jack Koerner,jack-koerner-1,/cfb/players/jack-koerner-1.html,DB,14,62,26,88,3.5,0.0,2,18,9.0,0,3,0,0,0,0,,Iowa,2021
+Zack Vanvalkenburg,zack-vanvalkenburg-1,/cfb/players/zack-vanvalkenburg-1.html,DL,14,30,28,58,15.0,5.5,0,0,,0,0,0,0,0,0,,Iowa,2021
+Jestin Jacobs,jestin-jacobs-1,/cfb/players/jestin-jacobs-1.html,LB,14,33,20,53,0.5,0.0,1,0,0.0,0,2,0,0,0,1,,Iowa,2021
+Logan Lee,logan-lee-2,/cfb/players/logan-lee-2.html,DL,14,17,31,48,5.0,3.0,0,0,,0,1,1,0,0,0,,Iowa,2021
+Noah Shannon,noah-shannon-1,/cfb/players/noah-shannon-1.html,DL,14,21,26,47,2.0,2.0,0,0,,0,0,0,0,0,0,,Iowa,2021
+Dane Belton,dane-belton-1,/cfb/players/dane-belton-1.html,DB,14,29,17,46,3.0,0.0,5,0,0.0,0,7,0,0,0,0,,Iowa,2021
+Matt Hankins,matt-hankins-1,/cfb/players/matt-hankins-1.html,DB,10,32,12,44,1.0,0.0,3,41,13.7,0,5,0,0,0,0,,Iowa,2021
+Kaevon Merriweather,kaevon-merriweather-1,/cfb/players/kaevon-merriweather-1.html,DB,14,29,13,42,0.0,0.0,1,0,0.0,0,4,0,0,0,0,,Iowa,2021
+Riley Moss,riley-moss-1,/cfb/players/riley-moss-1.html,DB,11,34,5,39,3.0,0.0,4,85,21.3,2,5,1,0,0,0,,Iowa,2021
+Jermari Harris,jermari-harris-1,/cfb/players/jermari-harris-1.html,DB,13,22,12,34,1.5,0.0,4,0,0.0,0,4,0,0,0,0,,Iowa,2021
+Joe Evans,joe-evans-2,/cfb/players/joe-evans-2.html,DE,14,16,18,34,7.0,7.0,0,0,,0,1,0,0,0,1,,Iowa,2021
+Lukas Van Ness,lukas-van-ness-1,/cfb/players/lukas-van-ness-1.html,DL,14,17,16,33,8.5,7.0,0,0,,0,1,0,0,0,0,,Iowa,2021
+John Waggoner,john-waggoner-1,/cfb/players/john-waggoner-1.html,DL,14,14,11,25,3.5,2.0,0,0,,0,3,0,0,0,0,,Iowa,2021
+Yahya Black,yahya-black-1,/cfb/players/yahya-black-1.html,DL,14,7,11,18,0.0,0.0,0,0,,0,2,0,0,0,1,,Iowa,2021
+Deontae Craig,deontae-craig-1,/cfb/players/deontae-craig-1.html,DL,11,4,10,14,3.0,1.5,0,0,,0,0,0,0,0,0,,Iowa,2021
+Terry Roberts,terry-roberts-1,/cfb/players/terry-roberts-1.html,DB,8,12,2,14,0.0,0.0,1,0,0.0,0,3,0,0,0,0,,Iowa,2021
+Sebastian Castro,sebastian-castro-1,/cfb/players/sebastian-castro-1.html,DB,13,5,1,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Iowa,2021
+Jay Higgins,jay-higgins-1,/cfb/players/jay-higgins-1.html,LB,14,3,2,5,0.0,0.0,0,0,,0,0,1,0,0,0,,Iowa,2021
+Kyler Fisher,kyler-fisher-1,/cfb/players/kyler-fisher-1.html,DB,13,3,2,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Iowa,2021
+Cooper DeJean,cooper-dejean-1,/cfb/players/cooper-dejean-1.html,DB,7,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Iowa,2021
+Henry Marchese,henry-marchese-1,/cfb/players/henry-marchese-1.html,DB,13,1,3,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Iowa,2021
+Ethan Hurkett,ethan-hurkett-1,/cfb/players/ethan-hurkett-1.html,DL,3,2,2,4,0.5,0.0,0,0,,0,0,0,0,0,0,,Iowa,2021
+Louie Stec,louie-stec-1,/cfb/players/louie-stec-1.html,DT,14,2,1,3,1.0,0.0,0,0,,0,0,0,0,0,0,,Iowa,2021
+Xavior Williams,xavior-williams-1,/cfb/players/xavior-williams-1.html,DB,10,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Iowa,2021
+Luke Elkin,luke-elkin-1,/cfb/players/luke-elkin-1.html,LS,13,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Iowa,2021
+Quinn Schulte,quinn-schulte-1,/cfb/players/quinn-schulte-1.html,DB,11,2,0,2,0.0,0.0,1,42,42.0,0,0,0,0,0,0,,Iowa,2021
+Reggie Bracy,reggie-bracy-1,/cfb/players/reggie-bracy-1.html,DB,4,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Iowa,2021
+Sam Laporta,sam-laporta-1,/cfb/players/sam-laporta-1.html,TE,14,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Iowa,2021
+Turner Pallissard,turner-pallissard-1,/cfb/players/turner-pallissard-1.html,FB,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Iowa,2021
+Tyler Goodson,tyler-goodson-1,/cfb/players/tyler-goodson-1.html,RB,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Iowa,2021
+Keagan Johnson,keagan-johnson-1,/cfb/players/keagan-johnson-1.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Iowa,2021
+Arland Bruce IV,arland-bruce-iv-1,/cfb/players/arland-bruce-iv-1.html,WR,14,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Iowa,2021
+Ivory Kelly-Martin,ivory-kelly-martin-1,/cfb/players/ivory-kelly-martin-1.html,RB,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Iowa,2021
+Isaiah Bruce,isaiah-bruce-2,/cfb/players/isaiah-bruce-2.html,DL,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Iowa,2021
+Gavin Williams,gavin-williams-1,/cfb/players/gavin-williams-1.html,RB,14,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Iowa,2021
+Dallas Craddieth,dallas-craddieth-1,/cfb/players/dallas-craddieth-1.html,DB,4,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Iowa,2021
+Charlie Jones,charlie-jones-7,/cfb/players/charlie-jones-7.html,WR,14,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Iowa,2021

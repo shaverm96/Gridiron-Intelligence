@@ -1,0 +1,46 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Matthew Bailey,matthew-bailey-2,/cfb/players/matthew-bailey-2.html,DB,13,44,50,94,1.5,0.0,1,20,20.0,0,7,1,1,0,2,,Illinois,2024
+Gabe Jacas,gabe-jacas-1,/cfb/players/gabe-jacas-1.html,LB,13,38,36,74,13.0,8.0,0,0,,0,0,1,0,0,3,,Illinois,2024
+Dylan Rosiek,dylan-rosiek-1,/cfb/players/dylan-rosiek-1.html,LB,9,26,37,63,3.0,1.5,0,0,,0,1,0,0,0,2,,Illinois,2024
+Miles Scott,miles-scott-1,/cfb/players/miles-scott-1.html,DB,13,33,22,55,0.0,0.0,2,0,0.0,0,4,1,3,0,1,,Illinois,2024
+James Kreutz,james-kreutz-1,/cfb/players/james-kreutz-1.html,LB,13,26,29,55,0.5,0.0,0,0,,0,1,0,0,0,0,,Illinois,2024
+Seth Coleman,seth-coleman-1,/cfb/players/seth-coleman-1.html,LB,11,25,28,53,7.0,3.0,0,0,,0,3,1,0,0,1,,Illinois,2024
+Ryan Meed,ryan-meed-1,/cfb/players/ryan-meed-1.html,LB,13,24,26,50,1.0,0.0,0,0,,0,1,0,0,0,0,,Illinois,2024
+Xavier Scott,xavier-scott-1,/cfb/players/xavier-scott-1.html,DB,13,43,6,49,2.0,1.0,4,55,13.8,1,6,0,0,0,1,,Illinois,2024
+Dennis Briggs Jr.,dennis-briggs-jr-1,/cfb/players/dennis-briggs-jr-1.html,DL,13,17,22,39,4.5,3.5,0,0,,0,0,0,0,0,0,,Illinois,2024
+Te-rah Edwards,te-rah-edwards-1,/cfb/players/te-rah-edwards-1.html,DL,13,13,25,38,5.0,2.5,0,0,,0,0,0,0,0,1,,Illinois,2024
+Jaheim Clarke,jaheim-clarke-1,/cfb/players/jaheim-clarke-1.html,DB,12,26,8,34,1.0,0.0,0,0,,0,5,1,0,0,0,,Illinois,2024
+Kaleb Patterson,kaleb-patterson-2,/cfb/players/kaleb-patterson-2.html,DB,12,24,7,31,2.0,0.0,0,0,,0,2,1,0,0,1,,Illinois,2024
+Torrie Cox Jr.,torrie-cox-jr-1,/cfb/players/torrie-cox-jr-1.html,DB,13,20,6,26,0.5,0.0,3,4,1.3,0,4,0,0,0,0,,Illinois,2024
+Alec Bryant,alec-bryant-2,/cfb/players/alec-bryant-2.html,LB,13,15,7,22,2.0,2.0,0,0,,0,1,1,0,0,0,,Illinois,2024
+Alex Bray,alex-bray-1,/cfb/players/alex-bray-1.html,DL,13,6,14,20,0.0,0.0,0,0,,0,0,0,0,0,0,,Illinois,2024
+Mac Resetich,mac-resetich-1,/cfb/players/mac-resetich-1.html,DB,13,16,4,20,1.0,1.0,1,28,28.0,0,0,0,0,0,0,,Illinois,2024
+Joe Barna,joe-barna-1,/cfb/players/joe-barna-1.html,LB,10,8,8,16,1.5,1.5,0,0,,0,0,0,0,0,0,,Illinois,2024
+Malachi Hood,malachi-hood-1,/cfb/players/malachi-hood-1.html,LB,12,8,6,14,2.0,2.0,0,0,,0,1,1,0,0,2,,Illinois,2024
+Jeremiah Warren,jeremiah-warren-2,/cfb/players/jeremiah-warren-2.html,DL,13,3,7,10,0.0,0.0,0,0,,0,0,0,0,0,0,,Illinois,2024
+Ezekiel Holmes,ezekiel-holmes-1,/cfb/players/ezekiel-holmes-1.html,DL,13,4,4,8,2.5,1.0,0,0,,0,1,0,0,0,1,,Illinois,2024
+Jojo Hayden,jojo-hayden-1,/cfb/players/jojo-hayden-1.html,LB,10,4,4,8,0.5,0.0,0,0,,0,0,0,0,0,0,,Illinois,2024
+Kenenna Odeluga,kenenna-odeluga-1,/cfb/players/kenenna-odeluga-1.html,LB,12,6,2,8,3.0,3.0,0,0,,0,0,0,0,0,0,,Illinois,2024
+Saboor Karriem,saboor-karriem-1,/cfb/players/saboor-karriem-1.html,DB,12,4,3,7,0.0,0.0,0,0,,0,0,0,0,0,0,,Illinois,2024
+Luke Zardzin,luke-zardzin-1,/cfb/players/luke-zardzin-1.html,LB,13,3,4,7,0.0,0.0,0,0,,0,1,0,0,0,0,,Illinois,2024
+C.J. Bufkin,cj-bufkin-1,/cfb/players/cj-bufkin-1.html,DB,13,3,3,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Illinois,2024
+Terrance Brooks,terrance-brooks-2,/cfb/players/terrance-brooks-2.html,DB,7,3,2,5,0.0,0.0,0,0,,0,1,0,0,0,0,,Illinois,2024
+Tyler Strain,tyler-strain-1,/cfb/players/tyler-strain-1.html,DB,7,3,2,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Illinois,2024
+Pat Farrell,pat-farrell-1,/cfb/players/pat-farrell-1.html,DL,13,2,2,4,0.5,0.5,0,0,,0,0,0,0,0,0,,Illinois,2024
+Lane Hansen,lane-hansen-1,/cfb/players/lane-hansen-1.html,LS,13,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Illinois,2024
+Tyson Rooks,tyson-rooks-1,/cfb/players/tyson-rooks-1.html,WR,10,2,0,2,0.0,0.0,1,27,27.0,0,0,0,0,0,0,,Illinois,2024
+Gentle Hunt,gentle-hunt-1,/cfb/players/gentle-hunt-1.html,DL,5,1,1,2,0.5,0.0,0,0,,0,1,0,0,0,0,,Illinois,2024
+Enyce Sledge,enyce-sledge-1,/cfb/players/enyce-sledge-1.html,DL,4,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Illinois,2024
+Kaden Feagin,kaden-feagin-1,/cfb/players/kaden-feagin-1.html,RB,5,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Illinois,2024
+Tanner Heckel,tanner-heckel-1,/cfb/players/tanner-heckel-1.html,DB,13,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Illinois,2024
+Angelo McCullom,angelo-mccullom-1,/cfb/players/angelo-mccullom-1.html,DL,7,1,1,2,0.5,0.5,0,0,,0,0,0,0,0,0,,Illinois,2024
+Aidan Laughery,aidan-laughery-1,/cfb/players/aidan-laughery-1.html,RB,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Illinois,2024
+Zakhari Franklin,zakhari-franklin-1,/cfb/players/zakhari-franklin-1.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Illinois,2024
+TJ McMilliam,tj-mcmilliam-2,/cfb/players/tj-mcmilliam-2.html,OL,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Illinois,2024
+Collin Dixon,collin-dixon-1,/cfb/players/collin-dixon-1.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Illinois,2024
+Hank Beatty,beatty-hank-1,/cfb/players/beatty-hank-1.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Illinois,2024
+Ca'Lil Valentine,calil-valentine-1,/cfb/players/calil-valentine-1.html,RB,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Illinois,2024
+Pat Bryant,pat-bryant-1,/cfb/players/pat-bryant-1.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Illinois,2024
+Malik Elzy,malik-elzy-1,/cfb/players/malik-elzy-1.html,WR,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Illinois,2024
+Ethan Moczulski,ethan-moczulski-1,/cfb/players/ethan-moczulski-1.html,K,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Illinois,2024
+Grayson Griffin,grayson-griffin-1,/cfb/players/grayson-griffin-1.html,DB,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Illinois,2024

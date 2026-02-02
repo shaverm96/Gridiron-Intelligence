@@ -1,0 +1,42 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Xavier Cullens,xavier-cullens-1,/cfb/players/xavier-cullens-1.html,LB,13,59,52,111,7.5,2.0,3,113,37.7,2,2,4,0,0,1,,Memphis,2022
+Quindell Johnson,quindell-johnson-1,/cfb/players/quindell-johnson-1.html,DB,12,52,25,77,5.5,0.0,4,19,4.8,0,4,1,5,0,2,,Memphis,2022
+Geoff Cantin-Arku,geoff-cantin-arku-1,/cfb/players/geoff-cantin-arku-1.html,LB,13,41,35,76,4.0,1.5,0,0,,0,2,0,0,0,0,,Memphis,2022
+Tyler Murray,tyler-murray-1,/cfb/players/tyler-murray-1.html,LB,13,38,29,67,6.0,0.0,2,0,0.0,0,2,0,0,0,0,,Memphis,2022
+Jaylon Allen,jaylon-allen-1,/cfb/players/jaylon-allen-1.html,DL,13,28,30,58,10.0,5.0,1,39,39.0,1,1,1,0,0,0,,Memphis,2022
+Sylvonta Oliver,sylvonta-oliver-1,/cfb/players/sylvonta-oliver-1.html,DB,13,40,8,48,0.0,0.0,3,106,35.3,0,4,0,0,0,0,,Memphis,2022
+Cormontae Hamilton,cormontae-hamilton-1,/cfb/players/cormontae-hamilton-1.html,DL,13,23,23,46,6.0,4.5,0,0,,0,2,0,0,0,1,,Memphis,2022
+Davion Ross,davion-ross-1,/cfb/players/davion-ross-1.html,DB,12,32,11,43,2.5,0.0,1,0,0.0,0,6,0,0,0,1,,Memphis,2022
+Camron Jackson,camron-jackson-1,/cfb/players/camron-jackson-1.html,DL,13,19,22,41,2.5,1.0,0,0,,0,1,0,0,0,0,,Memphis,2022
+Greg Rubin,greg-rubin-1,/cfb/players/greg-rubin-1.html,DB,12,27,12,39,2.5,0.0,0,0,,0,4,0,0,0,0,,Memphis,2022
+Cincir Evans,cincir-evans-1,/cfb/players/cincir-evans-1.html,LB,13,16,19,35,2.0,0.0,1,15,15.0,0,3,0,0,0,0,,Memphis,2022
+Ladarian Paulk,ladarian-paulk-1,/cfb/players/ladarian-paulk-1.html,DB,9,21,7,28,1.0,0.0,0,0,,0,1,0,0,0,0,,Memphis,2022
+William Whitlow Jr.,william-whitlow-jr-2,/cfb/players/william-whitlow-jr-2.html,DL,12,14,13,27,4.5,3.0,0,0,,0,0,0,0,0,0,,Memphis,2022
+Joshua Hastings,joshua-hastings-1,/cfb/players/joshua-hastings-1.html,DB,8,17,10,27,0.0,0.0,0,0,,0,3,0,0,0,0,,Memphis,2022
+Wardalis Ducksworth,wardalis-duckworth-1,/cfb/players/wardalis-duckworth-1.html,DL,13,11,12,23,3.5,2.0,0,0,,0,0,0,0,0,0,,Memphis,2022
+Davian Mayo,davian-mayo-1,/cfb/players/davian-mayo-1.html,LB,13,8,13,21,0.0,0.0,0,0,,0,0,0,0,0,0,,Memphis,2022
+Cameron Smith,cameron-smith-8,/cfb/players/cameron-smith-8.html,DB,10,12,5,17,0.0,0.0,0,0,,0,1,0,0,0,0,,Memphis,2022
+Zy Brockington,zy-brockington-1,/cfb/players/zy-brockington-1.html,DL,8,6,7,13,2.0,0.0,0,0,,0,0,0,0,0,0,,Memphis,2022
+Meonta Kimbrough,meonta-kimbrough-1,/cfb/players/meonta-kimbrough-1.html,DL,13,5,5,10,0.5,0.0,0,0,,0,0,0,0,0,0,,Memphis,2022
+Joel Williams,joel-williams-2,/cfb/players/joel-williams-2.html,DB,9,9,1,10,1.0,1.0,1,0,0.0,0,1,0,0,0,1,,Memphis,2022
+James Stewart,james-stewart-7,/cfb/players/james-stewart-7.html,DL,11,4,3,7,1.0,1.0,0,0,,0,0,0,0,0,0,,Memphis,2022
+Julian Barnett,julian-barnett-1,/cfb/players/julian-barnett-1.html,DB,4,4,2,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Memphis,2022
+Rodney Owens,rodney-owens-1,/cfb/players/rodney-owens-1.html,DB,11,2,4,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Memphis,2022
+Andrew Jones,andrew-jones-7,/cfb/players/andrew-jones-7.html,LB,10,4,0,4,1.0,0.0,0,0,,0,0,0,0,0,1,,Memphis,2022
+Warren Peeples,warren-peeples-1,/cfb/players/warren-peeples-1.html,DL,6,4,0,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Memphis,2022
+Bryce Edmondson,bryce-edmondson-1,/cfb/players/bryce-edmondson-1.html,LB,5,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Memphis,2022
+Joe Norwood,joe-norwood-2,/cfb/players/joe-norwood-2.html,DB,13,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Memphis,2022
+Tanner Gillis,tanner-gillis-1,/cfb/players/tanner-gillis-1.html,P,8,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Memphis,2022
+Drew Martin,drew-martin-2,/cfb/players/drew-martin-2.html,DL,6,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Memphis,2022
+Asa Martin,asa-martin-1,/cfb/players/asa-martin-1.html,RB,12,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Memphis,2022
+Colby Cox,colby-cox-1,/cfb/players/colby-cox-1.html,LS,13,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Memphis,2022
+Hank Pearson,hank-pearson-1,/cfb/players/hank-pearson-1.html,DL,5,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Memphis,2022
+Jared Nedd,jared-nedd-1,/cfb/players/jared-nedd-1.html,LB,8,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Memphis,2022
+Noah Grant,noah-grant-1,/cfb/players/noah-grant-1.html,K,8,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Memphis,2022
+Gabriel Rogers,gabriel-rogers-1,/cfb/players/gabriel-rogers-1.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Memphis,2022
+Caden Prieskorn,caden-prieskorn-1,/cfb/players/caden-prieskorn-1.html,TE,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Memphis,2022
+Harold Nash III,harold-nash-iii-1,/cfb/players/harold-nash-iii-1.html,DB,6,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Memphis,2022
+James Quinnelly,james-quinnelly-1,/cfb/players/james-quinnelly-1.html,DL,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Memphis,2022
+Braunson White,braunson-white-1,/cfb/players/braunson-white-1.html,DL,7,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Memphis,2022
+Jevyon Ducker,jevyon-ducker-1,/cfb/players/jevyon-ducker-1.html,RB,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Memphis,2022
+An'darius Coffey,andarius-coffey-1,/cfb/players/andarius-coffey-1.html,RB,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Memphis,2022

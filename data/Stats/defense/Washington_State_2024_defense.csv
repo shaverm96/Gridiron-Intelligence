@@ -1,0 +1,39 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Taariq Al-Uqdah,taariq-al-uqdah-1,/cfb/players/taariq-al-uqdah-1.html,LB,12,51,25,76,5.0,0.0,3,73,24.3,1,2,4,31,0,3,,Washington State,2024
+Kyle Thornton,kyle-thornton-1,/cfb/players/kyle-thornton-1.html,LB,13,41,30,71,7.5,1.0,1,0,0.0,0,1,0,0,0,0,,Washington State,2024
+Kapena Gushiken,kapena-gushiken-1,/cfb/players/kapena-gushiken-1.html,DB,13,36,16,52,3.5,0.0,2,6,3.0,0,6,1,0,0,0,,Washington State,2024
+Tyson Durant,tyson-durant-1,/cfb/players/tyson-durant-1.html,DB,13,30,20,50,2.0,0.0,2,0,0.0,0,7,1,0,0,0,,Washington State,2024
+Stephen Hall,stephen-hall-1,/cfb/players/stephen-hall-1.html,DB,13,40,10,50,3.5,0.0,1,100,100.0,1,3,0,0,0,0,,Washington State,2024
+Tanner Moku,tanner-moku-1,/cfb/players/tanner-moku-1.html,DB,13,30,19,49,0.0,0.0,0,0,,0,1,0,0,0,0,,Washington State,2024
+Adrian Wilson,adrian-wilson-3,/cfb/players/adrian-wilson-3.html,DB,12,37,10,47,2.5,0.0,0,0,,0,3,0,0,0,1,,Washington State,2024
+Andrew Edson,andrew-edson-1,/cfb/players/andrew-edson-1.html,DE,13,21,20,41,6.5,2.5,0,0,,0,2,0,0,0,2,,Washington State,2024
+Parker McKenna,parker-mckenna-1,/cfb/players/parker-mckenna-1.html,LB,13,26,13,39,1.0,1.0,0,0,,0,1,0,0,0,1,,Washington State,2024
+Ethan O'Connor,ethan-oconnor-1,/cfb/players/ethan-oconnor-1.html,DB,12,23,9,32,1.0,0.0,4,84,21.0,1,8,0,0,0,0,,Washington State,2024
+Syrus Webster,syrus-webster-1,/cfb/players/syrus-webster-1.html,DL,13,17,15,32,3.5,1.0,0,0,,0,0,0,0,0,0,,Washington State,2024
+Jackson Lataimua,jackson-lataimua-1,/cfb/players/jackson-lataimua-1.html,DB,11,20,12,32,2.5,0.0,0,0,,0,1,0,0,0,0,,Washington State,2024
+Keith Brown,keith-brown-12,/cfb/players/keith-brown-12.html,LB,13,16,10,26,2.5,1.0,0,0,,0,0,0,0,0,0,,Washington State,2024
+Ansel Din-Mbuh,ansel-din-mbuh-1,/cfb/players/ansel-din-mbuh-1.html,DL,12,14,10,24,7.0,6.0,0,0,,0,0,0,0,0,0,,Washington State,2024
+David Gusta,david-gusta-1,/cfb/players/david-gusta-1.html,DL,12,13,8,21,3.0,1.0,0,0,,0,3,0,0,0,0,,Washington State,2024
+Nusi Malani,nusi-malani-1,/cfb/players/nusi-malani-1.html,DL,13,11,9,20,3.5,2.0,0,0,,0,0,0,0,0,1,,Washington State,2024
+Quinn Roff,quinn-roff-1,/cfb/players/quinn-roff-1.html,DE,10,11,8,19,3.5,2.5,0,0,,0,0,0,0,0,1,,Washington State,2024
+Bryce Lamb,bryce-lamb-1,/cfb/players/bryce-lamb-1.html,DL,13,10,8,18,0.0,0.0,0,0,,0,0,1,0,0,0,,Washington State,2024
+Khalil Laufau,khalil-laufau-1,/cfb/players/khalil-laufau-1.html,DL,10,8,8,16,5.0,4.0,0,0,,0,1,0,0,0,0,,Washington State,2024
+Raam Stevenson,raam-stevenson-1,/cfb/players/raam-stevenson-1.html,DE,13,10,5,15,3.0,2.0,0,0,,0,0,0,0,0,0,,Washington State,2024
+Jamorri Colson,jamorri-colson-1,/cfb/players/jamorri-colson-1.html,DB,8,12,1,13,0.0,0.0,1,0,0.0,0,1,0,0,0,1,,Washington State,2024
+Isaac Terrell,isaac-terrell-1,/cfb/players/isaac-terrell-1.html,DE,12,5,7,12,1.0,0.0,0,0,,0,0,0,0,0,0,,Washington State,2024
+Wesley Steiner,wesley-steiner-1,/cfb/players/wesley-steiner-1.html,LB,13,8,3,11,1.0,0.0,0,0,,0,0,1,0,0,1,,Washington State,2024
+Leon Neal Jr.,leon-neal-jr-2,/cfb/players/leon-neal-jr-2.html,WR,13,4,2,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Washington State,2024
+Warren Smith Jr.,warren-smith-jr-1,/cfb/players/warren-smith-jr-1.html,DB,9,1,3,4,0.0,0.0,0,0,,0,1,0,0,0,0,,Washington State,2024
+Michael Hughes,michael-hughes-4,/cfb/players/michael-hughes-4.html,DE,2,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Washington State,2024
+Jaylon Edmond,jaylon-edmond-1,/cfb/players/jaylon-edmond-1.html,DB,5,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Washington State,2024
+Frank Cusano,frank-cusano-1,/cfb/players/frank-cusano-1.html,LB,5,3,0,3,1.0,0.0,0,0,,0,0,0,0,0,0,,Washington State,2024
+Leyton Smithson,leyton-smithson-1,/cfb/players/leyton-smithson-1.html,S,13,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Washington State,2024
+Reece Sylvester,reece-sylvester-1,/cfb/players/reece-sylvester-1.html,DB,6,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Washington State,2024
+Ryan Harris,ryan-harris-4,/cfb/players/ryan-harris-4.html,K,3,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Washington State,2024
+Dylan Paine,dylan-paine-1,/cfb/players/dylan-paine-1.html,RB,5,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Washington State,2024
+Dean Janikowski,dean-janikowski-1,/cfb/players/dean-janikowski-1.html,K,13,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Washington State,2024
+Kyle Williams,kyle-williams-11,/cfb/players/kyle-williams-11.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Washington State,2024
+Kris Hutson,kris-hutson-1,/cfb/players/kris-hutson-1.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Washington State,2024
+John Mateer,john-mateer-1,/cfb/players/john-mateer-1.html,QB,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Washington State,2024
+Hunter Haines,hunter-haines-1,/cfb/players/hunter-haines-1.html,DB,5,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Washington State,2024
+Ashton Paine,ashton-paine-1,/cfb/players/ashton-paine-1.html,DB,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Washington State,2024

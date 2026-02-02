@@ -1,0 +1,54 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Troy Dye,troy-dye-1,/cfb/players/troy-dye-1.html,LB,13,52,32,84,9.5,2.5,2,4,2.0,0,4,0,0,0,2,,Oregon,2019
+Jevon Holland,jevon-holland-1,/cfb/players/jevon-holland-1.html,S,14,40,26,66,4.5,0.0,4,64,16.0,1,4,0,0,0,0,,Oregon,2019
+Thomas Graham Jr.,thomas-graham-jr-1,/cfb/players/thomas-graham-jr-1.html,CB,14,47,17,64,5.0,0.0,2,26,13.0,0,10,0,0,0,1,,Oregon,2019
+Brady Breeze,brady-breeze-1,/cfb/players/brady-breeze-1.html,S,14,43,19,62,0.0,0.0,2,32,16.0,1,3,4,45,2,1,,Oregon,2019
+Isaac Slade-Matautia,isaac-slade-matautia-1,/cfb/players/isaac-slade-matautia-1.html,LB,14,36,26,62,6.5,1.5,0,0,,0,11,0,0,0,0,,Oregon,2019
+Bryson Young,bryson-young-1,/cfb/players/bryson-young-1.html,LB,13,24,32,56,5.5,2.0,1,0,0.0,0,0,1,0,0,0,,Oregon,2019
+Deommodore Lenoir,deommodore-lenoir-1,/cfb/players/deommodore-lenoir-1.html,CB,14,32,15,47,2.5,0.0,1,45,45.0,0,7,1,7,0,1,,Oregon,2019
+Verone McKinley III,verone-mckinley-iii-1,/cfb/players/verone-mckinley-iii-1.html,CB,14,29,17,46,1.0,0.0,4,84,21.0,0,2,0,0,0,0,,Oregon,2019
+Nick Pickett,nick-pickett-1,/cfb/players/nick-pickett-1.html,S,14,33,12,45,0.0,0.0,1,0,0.0,0,6,0,0,0,0,,Oregon,2019
+Austin Faoliu,austin-faoliu-1,/cfb/players/austin-faoliu-1.html,DT,13,14,25,39,5.0,2.0,0,0,,0,0,0,0,0,0,,Oregon,2019
+Kayvon Thibodeaux,kayvon-thibodeaux-1,/cfb/players/kayvon-thibodeaux-1.html,DE,14,24,11,35,14.0,9.0,0,0,,0,3,0,0,0,1,,Oregon,2019
+Sampson Niu,sampson-niu-1,/cfb/players/sampson-niu-1.html,LB,14,21,13,34,1.0,1.0,1,0,0.0,0,0,0,0,0,1,,Oregon,2019
+Jordon Scott,jordon-scott-1,/cfb/players/jordon-scott-1.html,DL,14,14,18,32,3.0,0.0,0,0,,0,0,0,0,0,0,,Oregon,2019
+Drayton Carlberg,drayton-carlberg-1,/cfb/players/drayton-carlberg-1.html,DT,14,18,13,31,4.5,3.0,0,0,,0,0,1,0,0,1,,Oregon,2019
+Mase Funa,mase-funa-1,/cfb/players/mase-funa-1.html,LB,14,19,7,26,8.5,4.0,0,0,,0,0,0,0,0,0,,Oregon,2019
+Haki Woods Jr.,haki-woods-jr-1,/cfb/players/haki-woods-jr-1.html,CB,13,16,7,23,1.0,0.0,0,0,,0,0,0,0,0,0,,Oregon,2019
+Mykael Wright,mykael-wright-1,/cfb/players/mykael-wright-1.html,CB,14,15,6,21,2.0,0.0,1,0,0.0,0,4,0,0,0,0,,Oregon,2019
+La'Mar Winston Jr.,lamar-winston-jr-1,/cfb/players/lamar-winston-jr-1.html,LB,14,8,8,16,3.0,2.5,0,0,,0,1,0,0,0,0,,Oregon,2019
+Popo Aumavae,popo-aumavae-1,/cfb/players/popo-aumavae-1.html,DL,13,9,6,15,5.0,3.5,0,0,,0,0,0,0,0,0,,Oregon,2019
+D.J. Johnson,dj-johnson-9,/cfb/players/dj-johnson-9.html,DE,13,10,4,14,5.0,2.0,0,0,,0,0,0,0,0,1,,Oregon,2019
+DJ James,dj-james-1,/cfb/players/dj-james-1.html,CB,13,7,3,10,0.0,0.0,0,0,,0,1,0,0,0,0,,Oregon,2019
+Gary Baker,gary-baker-1,/cfb/players/gary-baker-1.html,DT,14,4,6,10,0.5,0.0,0,0,,0,0,0,0,0,0,,Oregon,2019
+Dru Mathis,dru-mathis-1,/cfb/players/dru-mathis-1.html,LB,7,3,6,9,0.5,0.5,0,0,,0,0,0,0,0,0,,Oregon,2019
+MJ Cunningham,mj-cunningham-1,/cfb/players/mj-cunningham-1.html,LB,12,5,4,9,0.5,0.5,0,0,,0,0,0,0,0,0,,Oregon,2019
+Gus Cumberlander,gus-cumberlander-1,/cfb/players/gus-cumberlander-1.html,DE,5,3,4,7,2.5,1.5,0,0,,0,0,0,0,0,0,,Oregon,2019
+Steve Stephens,steve-stephens-2,/cfb/players/steve-stephens-2.html,S,14,4,3,7,0.0,0.0,1,38,38.0,0,0,0,0,0,0,,Oregon,2019
+Jamal Hill,jamal-hill-1,/cfb/players/jamal-hill-1.html,S,14,5,1,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Oregon,2019
+Andrew Faoliu,andrew-faoliu-1,/cfb/players/andrew-faoliu-1.html,DT,13,3,2,5,2.0,2.0,0,0,,0,0,0,0,0,0,,Oregon,2019
+Brandon Dorlus,brandon-dorlus-1,/cfb/players/brandon-dorlus-1.html,DT,10,4,1,5,2.0,1.0,0,0,,0,0,0,0,0,0,,Oregon,2019
+Johnny Johnson III,johnny-johnson-iii-1,/cfb/players/johnny-johnson-iii-1.html,WR,14,4,0,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Oregon,2019
+Sione Kava,sione-kava-1,/cfb/players/sione-kava-1.html,DT,11,2,2,4,0.5,0.5,0,0,,0,0,0,0,0,0,,Oregon,2019
+Keyon Ware-Hudson,keyon-ware-hudson-1,/cfb/players/keyon-ware-hudson-1.html,DT,3,2,1,3,1.0,1.0,0,0,,0,0,0,0,0,0,,Oregon,2019
+Nate Heaukulani,nate-heaukulani-1,/cfb/players/nate-heaukulani-1.html,LB,3,1,1,2,1.0,1.0,0,0,,0,0,0,0,0,0,,Oregon,2019
+Kahlef Hailassie,kahlef-hailassie-1,/cfb/players/kahlef-hailassie-1.html,S,3,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Oregon,2019
+Kristian Williams,kristian-williams-1,/cfb/players/kristian-williams-1.html,DT,3,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Oregon,2019
+Karsten Battles,karsten-battles-1,/cfb/players/karsten-battles-1.html,LS,14,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Oregon,2019
+Charles Sudduth,charles-sudduth-1,/cfb/players/charles-sudduth-1.html,CB,9,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Oregon,2019
+Hunter Kampmoyer,hunter-kampmoyer-1,/cfb/players/hunter-kampmoyer-1.html,TE,14,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Oregon,2019
+Daewood Davis,daewood-davis-1,/cfb/players/daewood-davis-1.html,CB,13,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Oregon,2019
+Bryan Addison,bryan-addison-2,/cfb/players/bryan-addison-2.html,WR,14,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Oregon,2019
+Camden Lewis,camden-lewis-1,/cfb/players/camden-lewis-1.html,K,14,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Oregon,2019
+Korbin Williams,korbin-williams-1,/cfb/players/korbin-williams-1.html,WR,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Oregon,2019
+Travis Dye,travis-dye-1,/cfb/players/travis-dye-1.html,RB,14,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Oregon,2019
+Blake Maimone,blake-maimone-1,/cfb/players/blake-maimone-1.html,P,14,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Oregon,2019
+Cyrus Habibi-Likio,cyrus-habibi-likio-1,/cfb/players/cyrus-habibi-likio-1.html,RB,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Oregon,2019
+Sean Killpatrick,sean-killpatrick-1,/cfb/players/sean-killpatrick-1.html,S,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Oregon,2019
+Ryan Bay,ryan-bay-1,/cfb/players/ryan-bay-1.html,TE,14,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Oregon,2019
+Ge'Mon Eaford,gemon-eaford-1,/cfb/players/gemon-eaford-1.html,LB,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Oregon,2019
+Penei Sewell,penei-sewell-1,/cfb/players/penei-sewell-1.html,OL,14,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,AA,Oregon,2019
+Brenden Schooler,brenden-schooler-1,/cfb/players/brenden-schooler-1.html,WR,3,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Oregon,2019
+Jake Hanson,jake-hanson-1,/cfb/players/jake-hanson-1.html,OL,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Oregon,2019
+Josh Delgado,josh-delgado-2,/cfb/players/josh-delgado-2.html,WR,14,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Oregon,2019
+Calvin Throckmorton,calvin-throckmorton-1,/cfb/players/calvin-throckmorton-1.html,OL,14,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Oregon,2019

@@ -1,0 +1,47 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Jared Lloyd,jared-lloyd-1,/cfb/players/jared-lloyd-1.html,LB,13,33,44,77,4.5,1.5,0,0,,0,2,0,0,0,0,,Missouri State,2025
+Kanye Young,kanye-young-1,/cfb/players/kanye-young-1.html,LB,13,41,36,77,5.5,1.0,1,5,5.0,0,4,1,0,0,1,,Missouri State,2025
+Thomas Anderson,thomas-anderson-1,/cfb/players/thomas-anderson-1.html,CB,13,57,11,68,2.0,1.0,1,0,0.0,0,5,1,0,0,0,,Missouri State,2025
+Maguire Neal,maguire-neal-1,/cfb/players/maguire-neal-1.html,S,13,39,24,63,1.0,0.0,1,65,65.0,0,5,0,0,0,1,,Missouri State,2025
+Jalen Brooks,jalen-brooks-3,/cfb/players/jalen-brooks-3.html,LB,11,44,17,61,1.0,0.0,0,0,,0,3,2,-5,0,2,,Missouri State,2025
+Christian Ford,christian-ford-1,/cfb/players/christian-ford-1.html,S,13,39,13,52,1.0,0.0,0,0,,0,3,0,0,0,1,,Missouri State,2025
+Dylan Dixson,dylan-dixson-1,/cfb/players/dylan-dixson-1.html,DB,13,35,15,50,4.0,1.0,1,10,10.0,0,3,0,0,0,0,,Missouri State,2025
+DJ Wesolak,dj-wesolak-1,/cfb/players/dj-wesolak-1.html,DL,12,23,15,38,7.0,4.5,0,0,,0,2,2,-64,0,0,,Missouri State,2025
+Tim Brantley,tim-brantley-1,/cfb/players/tim-brantley-1.html,DL,12,11,21,32,2.5,0.5,0,0,,0,0,0,0,0,0,,Missouri State,2025
+Ahmad Poole,ahmad-poole-1,/cfb/players/ahmad-poole-1.html,DL,13,15,13,28,3.5,1.0,0,0,,0,2,1,0,0,2,,Missouri State,2025
+Mitchell Toney,mitchell-toney-1,/cfb/players/mitchell-toney-1.html,DL,13,10,13,23,5.0,2.5,0,0,,0,2,0,0,0,1,,Missouri State,2025
+Sterling Smithson,sterling-smithson-1,/cfb/players/sterling-smithson-1.html,DL,13,9,14,23,1.0,0.0,0,0,,0,0,0,0,0,0,,Missouri State,2025
+Davon Townley Jr.,davon-townley-jr-1,/cfb/players/davon-townley-jr-1.html,DT,13,12,11,23,3.5,2.0,1,25,25.0,0,3,0,0,0,0,,Missouri State,2025
+Jordan Dunbar,jordan-dunbar-1,/cfb/players/jordan-dunbar-1.html,CB,13,15,6,21,1.0,0.0,2,4,2.0,0,11,0,0,0,1,,Missouri State,2025
+Caleb Dietlin,caleb-dietlin-1,/cfb/players/caleb-dietlin-1.html,DL,13,11,8,19,3.0,3.0,0,0,,0,2,0,0,0,0,,Missouri State,2025
+Caden Wiest,caden-wiest-1,/cfb/players/caden-wiest-1.html,DL,13,5,10,15,3.0,2.0,0,0,,0,2,0,0,0,0,,Missouri State,2025
+Smith Antonio,smith-antonio-1,/cfb/players/smith-antonio-1.html,S,11,9,4,13,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri State,2025
+Ryan Williams,ryan-williams-15,/cfb/players/ryan-williams-15.html,DL,10,7,6,13,1.5,1.0,0,0,,0,1,0,0,0,0,,Missouri State,2025
+Cooper Roy,cooper-roy-1,/cfb/players/cooper-roy-1.html,DL,13,7,4,11,3.5,2.0,0,0,,0,0,0,0,0,0,,Missouri State,2025
+J.J. O'Neal,jj-oneal-1,/cfb/players/jj-oneal-1.html,S,4,7,4,11,0.0,0.0,1,0,0.0,0,0,0,0,0,0,,Missouri State,2025
+Jashawn Cooper,jashawn-cooper-1,/cfb/players/jashawn-cooper-1.html,LB,5,4,4,8,1.0,0.0,0,0,,0,1,0,0,0,0,,Missouri State,2025
+Devin Rutherford,devin-rutherford-1,/cfb/players/devin-rutherford-1.html,CB,11,7,0,7,0.0,0.0,0,0,,0,1,0,0,0,0,,Missouri State,2025
+Austin Yelder,austin-yelder-1,/cfb/players/austin-yelder-1.html,LB,11,3,4,7,0.5,0.0,0,0,,0,0,0,0,0,0,,Missouri State,2025
+Dezmond Barnes,dezmond-barnes-1,/cfb/players/dezmond-barnes-1.html,DL,7,2,4,6,1.0,1.0,0,0,,0,0,0,0,0,0,,Missouri State,2025
+Darryon Taylor,darryon-taylor-1,/cfb/players/darryon-taylor-1.html,CB,10,5,1,6,0.0,0.0,0,0,,0,1,0,0,0,0,,Missouri State,2025
+Floyd Williams,floyd-williams-1,/cfb/players/floyd-williams-1.html,CB,5,3,3,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri State,2025
+Khalil Anderson,khalil-anderson-1,/cfb/players/khalil-anderson-1.html,S,9,3,2,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri State,2025
+Connor Lair,connor-lair-1,/cfb/players/connor-lair-1.html,RB,13,4,1,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri State,2025
+Mitch Weisenborn,mitch-weisenborn-1,/cfb/players/mitch-weisenborn-1.html,LS,13,4,0,4,0.0,0.0,0,0,,0,0,1,0,0,0,,Missouri State,2025
+Jmariyae Robinson,jmariyae-robinson-1,/cfb/players/jmariyae-robinson-1.html,WR,12,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri State,2025
+Stewart McDonald,stewart-mcdonald-1,/cfb/players/stewart-mcdonald-1.html,P,13,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri State,2025
+Caleb Olabode,caleb-olabode-1,/cfb/players/caleb-olabode-1.html,LB,4,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri State,2025
+Braxton Starnes,braxton-starnes-1,/cfb/players/braxton-starnes-1.html,LB,6,2,1,3,1.0,0.0,0,0,,0,1,0,0,0,0,,Missouri State,2025
+Shomari Lawrence,shomari-lawrence-1,/cfb/players/shomari-lawrence-1.html,RB,13,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri State,2025
+Alred Luke,alred-luke-1,/cfb/players/alred-luke-1.html,WR,13,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri State,2025
+Jacob Clark,jacob-clark-3,/cfb/players/jacob-clark-3.html,QB,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri State,2025
+Don Quist,don-quist-1,/cfb/players/don-quist-1.html,DB,4,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri State,2025
+Martavis Blackmon,martavis-blackmon-1,/cfb/players/martavis-blackmon-1.html,LB,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri State,2025
+Ramone Green Jr.,ramone-green-jr-1,/cfb/players/ramone-green-jr-1.html,RB,13,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri State,2025
+Ronnel Johnson,ronnel-johnson-1,/cfb/players/ronnel-johnson-1.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri State,2025
+Jayden McGee,jayden-mcgee-1,/cfb/players/jayden-mcgee-1.html,DL,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri State,2025
+Heiko Malone,heiko-malone-1,/cfb/players/heiko-malone-1.html,LB,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri State,2025
+Grayson Cutchlow,grayson-cutchlow-1,/cfb/players/grayson-cutchlow-1.html,LB,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri State,2025
+Dillon Hipp,dillon-hipp-1,/cfb/players/dillon-hipp-1.html,TE,13,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri State,2025
+Andrew Kallas,andrew-kallas-1,/cfb/players/andrew-kallas-1.html,LS,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri State,2025
+Yousef Obeid,yousef-obeid-1,/cfb/players/yousef-obeid-1.html,K,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Missouri State,2025

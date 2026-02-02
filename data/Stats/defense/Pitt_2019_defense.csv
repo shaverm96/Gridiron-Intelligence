@@ -1,0 +1,54 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Paris Ford,paris-ford-1,/cfb/players/paris-ford-1.html,DB,13,60,37,97,2.5,0.0,3,69,23.0,1,11,0,0,0,3,,Pitt,2019
+Damar Hamlin,damar-hamlin-1,/cfb/players/damar-hamlin-1.html,DB,12,60,24,84,2.5,0.0,1,14,14.0,0,10,0,0,0,0,,Pitt,2019
+Cam Bright,cam-bright-1,/cfb/players/cam-bright-1.html,LB,13,40,22,62,9.0,0.5,0,0,,0,1,1,79,0,1,,Pitt,2019
+Saleem Brightwell,saleem-brightwell-1,/cfb/players/saleem-brightwell-1.html,LB,11,30,32,62,3.5,1.5,0,0,,0,1,0,0,0,0,,Pitt,2019
+Phil Campbell,phil-campbell-1,/cfb/players/phil-campbell-1.html,LB,13,27,29,56,8.0,5.5,1,13,13.0,0,1,1,0,0,2,,Pitt,2019
+Kylan Johnson,kylan-johnson-1,/cfb/players/kylan-johnson-1.html,LB,13,30,24,54,10.5,6.5,0,0,,0,3,1,0,0,2,,Pitt,2019
+Dane Jackson,dane-jackson-1,/cfb/players/dane-jackson-1.html,DB,13,30,13,43,3.0,0.5,1,21,21.0,0,12,0,0,0,0,,Pitt,2019
+Patrick Jones II,patrick-jones-ii-1,/cfb/players/patrick-jones-ii-1.html,DL,13,26,17,43,12.0,8.5,0,0,,0,1,0,0,0,4,,Pitt,2019
+Jaylen Twyman,jaylen-twyman-1,/cfb/players/jaylen-twyman-1.html,DL,13,23,18,41,12.0,10.5,0,0,,0,2,0,0,0,0,,Pitt,2019
+Deslin Alexandre,deslin-alexandre-1,/cfb/players/deslin-alexandre-1.html,DL,13,18,20,38,10.5,5.5,0,0,,0,2,1,0,0,0,,Pitt,2019
+Jay Stocker,jay-stocker-1,/cfb/players/jay-stocker-1.html,DB,12,20,13,33,1.0,1.0,0,0,,0,1,0,0,0,0,,Pitt,2019
+Habakkuk Baldonado,habakkuk-baldonado-1,/cfb/players/habakkuk-baldonado-1.html,DL,13,12,18,30,5.5,4.0,0,0,,0,0,1,0,0,0,,Pitt,2019
+Amir Watts,amir-watts-1,/cfb/players/amir-watts-1.html,DL,13,11,14,25,7.0,2.0,0,0,,0,0,0,0,0,0,,Pitt,2019
+Damarri Mathis,damarri-mathis-1,/cfb/players/damarri-mathis-1.html,DB,13,19,4,23,2.0,0.0,2,15,7.5,0,11,0,0,0,0,,Pitt,2019
+Chase Pine,chase-pine-1,/cfb/players/chase-pine-1.html,LB,11,14,5,19,4.0,0.5,0,0,,0,2,0,0,0,0,,Pitt,2019
+Jason Pinnock,jason-pinnock-1,/cfb/players/jason-pinnock-1.html,DB,10,11,5,16,0.5,0.0,1,0,0.0,0,7,0,0,0,0,,Pitt,2019
+John Morgan,john-morgan-1,/cfb/players/john-morgan-1.html,DL,13,8,6,14,4.0,2.0,0,0,,0,1,0,0,0,0,,Pitt,2019
+Erick Hallett,erick-hallett-1,/cfb/players/erick-hallett-1.html,DB,12,9,5,14,0.0,0.0,0,0,,0,2,0,0,0,0,,Pitt,2019
+Devin Danielson,devin-danielson-1,/cfb/players/devin-danielson-1.html,DL,13,5,7,12,1.0,0.0,0,0,,0,0,0,0,0,0,,Pitt,2019
+Wendell Davis,wendell-davis-4,/cfb/players/wendell-davis-4.html,LB,12,5,4,9,1.0,1.0,0,0,,0,0,0,0,0,0,,Pitt,2019
+Elias Reynolds,elias-reynolds-1,/cfb/players/elias-reynolds-1.html,LB,3,4,4,8,1.0,1.0,0,0,,0,0,0,0,0,0,,Pitt,2019
+Brassir Stocker,brassir-stocker-1,/cfb/players/brassir-stocker-1.html,DB,2,5,2,7,0.0,0.0,0,0,,0,0,0,0,0,0,,Pitt,2019
+Tyler Bentley,tyler-bentley-1,/cfb/players/tyler-bentley-1.html,DL,13,2,5,7,2.0,0.0,0,0,,0,1,0,0,0,0,,Pitt,2019
+Nakia Griffin-Stewart,nakia-griffin-stewart-1,/cfb/players/nakia-griffin-stewart-1.html,TE,13,3,3,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Pitt,2019
+Bricen Garner,bricen-garner-1,/cfb/players/bricen-garner-1.html,DB,10,3,2,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Pitt,2019
+Brandon George,brandon-george-1,/cfb/players/brandon-george-1.html,LB,11,5,0,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Pitt,2019
+Therran Coleman,therran-coleman-1,/cfb/players/therran-coleman-1.html,DB,12,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Pitt,2019
+Marquis Williams,marquis-williams-3,/cfb/players/marquis-williams-3.html,DB,9,4,0,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Pitt,2019
+Jim Medure,jim-medure-1,/cfb/players/jim-medure-1.html,FB,12,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Pitt,2019
+Cal Adomitis,cal-adomitis-1,/cfb/players/cal-adomitis-1.html,LS,13,2,2,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Pitt,2019
+kyle Nunn,kyle-nunn-3,/cfb/players/kyle-nunn-3.html,LB,13,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Pitt,2019
+A.J. Woods,aj-woods-1,/cfb/players/aj-woods-1.html,DB,10,0,3,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Pitt,2019
+Kaymar Mimes,kaymar-mimes-1,/cfb/players/kaymar-mimes-1.html,DL,3,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Pitt,2019
+John Petrishen,john-petrishen-1,/cfb/players/john-petrishen-1.html,DB,7,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Pitt,2019
+Leslie Smith,leslie-smith-1,/cfb/players/leslie-smith-1.html,LB,5,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Pitt,2019
+Maurice Ffrench,maurice-ffrench-1,/cfb/players/maurice-ffrench-1.html,WR,11,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Pitt,2019
+Todd Sibley Jr.,todd-sibley-jr-1,/cfb/players/todd-sibley-jr-1.html,RB,9,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Pitt,2019
+Nolan Ulizio,nolan-ulizio-1,/cfb/players/nolan-ulizio-1.html,OL,13,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Pitt,2019
+David Green,david-green-11,/cfb/players/david-green-11.html,DL,12,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Pitt,2019
+A.J. Davis,aj-davis-4,/cfb/players/aj-davis-4.html,RB,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Pitt,2019
+V'Lique Carter,vlique-carter-1,/cfb/players/vlique-carter-1.html,WR,13,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Pitt,2019
+Vincent Davis,vincent-davis-3,/cfb/players/vincent-davis-3.html,RB,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Pitt,2019
+A.J. Davis Jr.,aj-davis-jr-1,/cfb/players/aj-davis-jr-1.html,,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Pitt,2019
+Sirvocea Dennis,sirvocea-dennis-1,/cfb/players/sirvocea-dennis-1.html,LB,8,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Pitt,2019
+Shocky Jacques-Louis,shocky-jacques-louis-1,/cfb/players/shocky-jacques-louis-1.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Pitt,2019
+Alex Kessman,alex-kessman-1,/cfb/players/alex-kessman-1.html,PK,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Pitt,2019
+Jack Hansberry,jack-hansberry-1,/cfb/players/jack-hansberry-1.html,LB,10,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Pitt,2019
+Jeff George Jr.,jeff-george-jr-1,/cfb/players/jeff-george-jr-1.html,QB,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Pitt,2019
+Michael Smith,michael-smith-15,/cfb/players/michael-smith-15.html,WR,4,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Pitt,2019
+Aaron Mathews,aaron-mathews-1,/cfb/players/aaron-mathews-1.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Pitt,2019
+Jimmy Morrissey,jimmy-morrissey-1,/cfb/players/jimmy-morrissey-1.html,OL,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Pitt,2019
+Keyshon Camp,keyshon-camp-1,/cfb/players/keyshon-camp-1.html,DL,1,0,1,1,0.5,0.5,0,0,,0,0,0,0,0,0,,Pitt,2019
+Kenny Pickett,kenny-pickett-1,/cfb/players/kenny-pickett-1.html,QB,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Pitt,2019

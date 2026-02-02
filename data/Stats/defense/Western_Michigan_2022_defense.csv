@@ -1,0 +1,42 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Zaire Barnes,zaire-barnes-1,/cfb/players/zaire-barnes-1.html,LB,12,59,34,93,4.5,1.0,1,12,12.0,0,8,3,7,0,1,,Western Michigan,2022
+Corvin Moment,corvin-moment-1,/cfb/players/corvin-moment-1.html,LB,12,36,44,80,11.5,6.5,0,0,,0,1,1,0,0,0,,Western Michigan,2022
+Ryan Selig,ryan-selig-1,/cfb/players/ryan-selig-1.html,LB,12,37,35,72,5.5,1.5,0,0,,0,1,1,0,0,0,,Western Michigan,2022
+Andre Carter,andre-carter-5,/cfb/players/andre-carter-5.html,DL,12,36,34,70,13.5,7.0,1,11,11.0,0,2,0,0,0,2,,Western Michigan,2022
+Bricen Garner,bricen-garner-1,/cfb/players/bricen-garner-1.html,DB,12,42,27,69,2.0,0.0,2,0,0.0,0,4,0,0,0,0,,Western Michigan,2022
+Delano Ware,delano-ware-1,/cfb/players/delano-ware-1.html,DB,12,38,27,65,1.0,0.0,2,108,54.0,1,2,0,0,0,1,,Western Michigan,2022
+Braden Fiske,braden-fiske-1,/cfb/players/braden-fiske-1.html,DL,12,32,27,59,12.0,6.0,0,0,,0,3,1,0,0,3,,Western Michigan,2022
+Keni-H Lovely,keni-h-lovely-1,/cfb/players/keni-h-lovely-1.html,DB,12,38,10,48,6.0,1.0,4,40,10.0,1,2,1,0,0,1,,Western Michigan,2022
+Dorian Jackson,dorian-jackson-1,/cfb/players/dorian-jackson-1.html,DB,12,24,17,41,1.0,1.0,1,9,9.0,0,8,0,0,0,2,,Western Michigan,2022
+Marshawn Kneeland,marshawn-kneeland-1,/cfb/players/marshawn-kneeland-1.html,DL,9,22,15,37,10.0,1.5,0,0,,0,3,0,0,0,0,,Western Michigan,2022
+Warren Dabney,warren-dabney-1,/cfb/players/warren-dabney-1.html,DL,12,13,16,29,3.0,1.0,0,0,,0,1,0,0,0,1,,Western Michigan,2022
+Aaron Wofford,aaron-wofford-1,/cfb/players/aaron-wofford-1.html,DB,11,8,9,17,0.0,0.0,0,0,,0,4,1,0,0,0,,Western Michigan,2022
+Anthony Romphf,anthony-romphf-1,/cfb/players/anthony-romphf-1.html,CB,12,14,3,17,0.5,0.0,0,0,,0,1,0,0,0,0,,Western Michigan,2022
+Damari Roberson,damari-roberson-1,/cfb/players/damari-roberson-1.html,LB,12,8,6,14,2.0,0.0,0,0,,0,1,0,0,0,0,,Western Michigan,2022
+Joshua Nobles,joshua-nobles-1,/cfb/players/joshua-nobles-1.html,DL,11,4,5,9,1.5,1.5,0,0,,0,0,0,0,0,0,,Western Michigan,2022
+Mason Nelson,mason-nelson-1,/cfb/players/mason-nelson-1.html,DL,11,3,5,8,1.0,0.0,0,0,,0,0,0,0,0,0,,Western Michigan,2022
+Hozey Haji-Badri,hozey-haji-badri-2,/cfb/players/hozey-haji-badri-2.html,DL,10,3,5,8,1.0,0.0,0,0,,0,0,0,0,0,0,,Western Michigan,2022
+Quinton Cannon,quinton-cannon-1,/cfb/players/quinton-cannon-1.html,LB,12,5,2,7,0.0,0.0,0,0,,0,0,0,0,0,0,,Western Michigan,2022
+Ryan Kilburg,ryan-kilburg-1,/cfb/players/ryan-kilburg-1.html,DB,9,2,4,6,0.0,0.0,0,0,,0,1,0,0,0,0,,Western Michigan,2022
+Anthony Sambucci,anthony-sambucci-1,/cfb/players/anthony-sambucci-1.html,WR,11,4,1,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Western Michigan,2022
+Boone Bonnema,boone-bonnema-1,/cfb/players/boone-bonnema-1.html,LB,11,3,2,5,0.0,0.0,0,0,,0,0,1,0,0,0,,Western Michigan,2022
+Naahlyee Bryant,naahlyee-bryant-1,/cfb/players/naahlyee-bryant-1.html,LB,10,3,2,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Western Michigan,2022
+Gio Vonne Sanders,gio-vonne-sanders-1,/cfb/players/gio-vonne-sanders-1.html,DB,10,2,2,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Western Michigan,2022
+Tyson Lee,tyson-lee-2,/cfb/players/tyson-lee-2.html,DL,11,3,1,4,1.0,1.0,0,0,,0,1,2,0,0,1,,Western Michigan,2022
+Harrison Taylor,harrison-taylor-1,/cfb/players/harrison-taylor-1.html,LB,10,2,1,3,1.0,0.0,0,0,,0,0,0,0,0,0,,Western Michigan,2022
+Elijah Hawk,elijah-hawk-1,/cfb/players/elijah-hawk-1.html,DL,7,2,1,3,1.0,1.0,0,0,,0,0,0,0,0,1,,Western Michigan,2022
+Dashon Bussell,dashon-bussell-1,/cfb/players/dashon-bussell-1.html,DB,1,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Western Michigan,2022
+Bryce Bouwens,bryce-bouwens-1,/cfb/players/bryce-bouwens-1.html,LS,12,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Western Michigan,2022
+Kenny Givens,kenny-givens-1,/cfb/players/kenny-givens-1.html,DL,2,2,0,2,1.0,1.0,0,0,,0,0,1,0,0,1,,Western Michigan,2022
+Corey Crooms,corey-crooms-1,/cfb/players/corey-crooms-1.html,WR,12,2,0,2,0.0,0.0,0,0,,0,0,2,0,0,0,,Western Michigan,2022
+A.J. Abbott,aj-abbott-1,/cfb/players/aj-abbott-1.html,WR,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Western Michigan,2022
+Zahir Abdus-Salaam,zahir-abdus-salaam-1,/cfb/players/zahir-abdus-salaam-1.html,RB,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Western Michigan,2022
+Treyson Bourguet,treyson-bourguet-1,/cfb/players/treyson-bourguet-1.html,QB,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Western Michigan,2022
+Nick Mihalic,nick-mihalic-1,/cfb/players/nick-mihalic-1.html,P,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Western Michigan,2022
+Nate Anderson,nate-anderson-3,/cfb/players/nate-anderson-3.html,WR,4,1,0,1,0.0,0.0,0,0,,0,1,0,0,0,0,,Western Michigan,2022
+Matthew Stuckey,matthew-stuckey-1,/cfb/players/matthew-stuckey-1.html,LB,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Western Michigan,2022
+Malique Dieudonne,malique-dieudonne-1,/cfb/players/malique-dieudonne-1.html,WR,6,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Western Michigan,2022
+Corey Walker,corey-walker-2,/cfb/players/corey-walker-2.html,DL,9,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Western Michigan,2022
+Keith Jones Jr.,keith-jones-jr-1,/cfb/players/keith-jones-jr-1.html,DB,3,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Western Michigan,2022
+Jacob Gideon,jacob-gideon-1,/cfb/players/jacob-gideon-1.html,OL,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Western Michigan,2022
+Dylan Deatherage,dylan-deatherage-1,/cfb/players/dylan-deatherage-1.html,OL,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Western Michigan,2022

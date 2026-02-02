@@ -1,0 +1,45 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Ayinde Eley,ayinde-eley-1,/cfb/players/ayinde-eley-1.html,LB,12,57,61,118,9.5,3.5,0,0,,0,3,2,0,0,4,,Georgia Tech,2022
+Charlie Thomas,charlie-thomas-2,/cfb/players/charlie-thomas-2.html,LB,12,71,41,112,10.5,2.0,2,28,14.0,0,2,2,114,0,2,,Georgia Tech,2022
+Keion White,keion-white-1,/cfb/players/keion-white-1.html,DL,12,29,25,54,14.0,7.5,0,0,,0,1,0,0,0,0,,Georgia Tech,2022
+Miles Brooks,miles-brooks-1,/cfb/players/miles-brooks-1.html,DB,12,34,18,52,2.5,0.0,3,37,12.3,1,7,1,0,0,0,,Georgia Tech,2022
+Clayton Powell-Lee,clayton-powell-lee-1,/cfb/players/clayton-powell-lee-1.html,DB,12,31,17,48,1.0,0.0,1,1,1.0,0,2,3,0,0,0,,Georgia Tech,2022
+KJ Wallace,kj-wallace-1,/cfb/players/kj-wallace-1.html,DB,11,29,17,46,3.0,1.0,1,0,0.0,0,1,0,0,0,0,,Georgia Tech,2022
+Myles Sims,myles-sims-1,/cfb/players/myles-sims-1.html,DB,12,28,15,43,1.0,0.0,1,1,1.0,0,3,0,0,0,0,,Georgia Tech,2022
+Zamari Walton,zamari-walton-1,/cfb/players/zamari-walton-1.html,DB,12,24,12,36,0.0,0.0,1,-8,-8.0,0,6,0,0,0,0,,Georgia Tech,2022
+Kyle Kennard,kyle-kennard-1,/cfb/players/kyle-kennard-1.html,DL,12,19,17,36,4.5,2.0,0,0,,0,0,0,0,0,0,,Georgia Tech,2022
+Zeek Biggers,zeek-biggers-1,/cfb/players/zeek-biggers-1.html,DL,12,19,13,32,1.0,0.0,0,0,,0,1,0,0,0,0,,Georgia Tech,2022
+Jaylon King,jaylon-king-1,/cfb/players/jaylon-king-1.html,DB,5,19,13,32,1.5,0.0,1,-4,-4.0,0,1,0,0,0,1,,Georgia Tech,2022
+Trenilyas Tatum,trenilyas-tatum-1,/cfb/players/trenilyas-tatum-1.html,LB,12,18,13,31,2.5,1.0,0,0,,0,0,0,0,0,1,,Georgia Tech,2022
+Derrik Allen,derrik-allen-1,/cfb/players/derrik-allen-1.html,DB,12,14,15,29,0.0,0.0,1,0,0.0,0,1,0,0,0,0,,Georgia Tech,2022
+D'Quan Douse,dquan-douse-1,/cfb/players/dquan-douse-1.html,DL,12,10,16,26,5.5,3.5,0,0,,0,0,0,0,0,2,,Georgia Tech,2022
+Sylvain Yondjouen,sylvain-yondjouen-1,/cfb/players/sylvain-yondjouen-1.html,DL,12,11,12,23,5.0,2.5,0,0,,0,1,0,0,0,0,,Georgia Tech,2022
+Makius Scott,makius-scott-1,/cfb/players/makius-scott-1.html,DL,12,5,17,22,2.5,1.5,0,0,,0,0,1,0,0,0,,Georgia Tech,2022
+Noah Collins,noah-collins-1,/cfb/players/noah-collins-1.html,DL,11,10,6,16,2.5,0.0,0,0,,0,1,2,0,0,0,,Georgia Tech,2022
+Kenan Johnson,kenan-johnson-1,/cfb/players/kenan-johnson-1.html,DB,11,7,6,13,0.0,0.0,0,0,,0,1,0,0,0,0,,Georgia Tech,2022
+Akelo Stone,akelo-stone-1,/cfb/players/akelo-stone-1.html,DL,12,4,8,12,4.0,1.0,0,0,,0,1,0,0,0,0,,Georgia Tech,2022
+Kaleb Edwards,kaleb-edwards-1,/cfb/players/kaleb-edwards-1.html,DB,9,3,8,11,0.0,0.0,0,0,,0,0,0,0,0,1,,Georgia Tech,2022
+Demetrius Knight II,demetrius-knight-ii-1,/cfb/players/demetrius-knight-ii-1.html,LB,4,5,4,9,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia Tech,2022
+Jason Moore,jason-moore-5,/cfb/players/jason-moore-5.html,DL,10,4,5,9,2.5,2.0,0,0,,0,1,0,0,0,1,,Georgia Tech,2022
+Kenyatta Watson II,kenyatta-watson-ii-1,/cfb/players/kenyatta-watson-ii-1.html,DB,10,4,3,7,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia Tech,2022
+Rodney Shelley,rodney-shelley-1,/cfb/players/rodney-shelley-1.html,DB,10,4,3,7,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia Tech,2022
+Khari Gee,khari-gee-1,/cfb/players/khari-gee-1.html,DB,12,2,4,6,1.0,0.5,0,0,,0,0,0,0,0,0,,Georgia Tech,2022
+T.K. Chimedza,tk-chimedza-1,/cfb/players/tk-chimedza-1.html,DL,8,1,5,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia Tech,2022
+Sirad Bryant,sirad-bryant-1,/cfb/players/sirad-bryant-1.html,DB,8,4,1,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia Tech,2022
+Josh Robinson,josh-robinson-5,/cfb/players/josh-robinson-5.html,DL,12,4,0,4,1.0,0.0,0,0,,0,0,0,0,0,0,,Georgia Tech,2022
+Taylor McCawley,taylor-mccawley-1,/cfb/players/taylor-mccawley-1.html,LB,12,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia Tech,2022
+Kenny Bennett,kenny-bennett-1,/cfb/players/kenny-bennett-1.html,DB,3,2,1,3,0.0,0.0,0,0,,0,1,0,0,0,0,,Georgia Tech,2022
+Dylan McDuffie,dylan-mcduffie-1,/cfb/players/dylan-mcduffie-1.html,RB,8,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia Tech,2022
+Avery Boyd,avery-boyd-1,/cfb/players/avery-boyd-1.html,WR,7,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia Tech,2022
+Henry Freer,henry-freer-1,/cfb/players/henry-freer-1.html,LS,11,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia Tech,2022
+Joe Fusile,joe-fusile-1,/cfb/players/joe-fusile-1.html,OL,10,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia Tech,2022
+Kevin Harris,kevin-harris-6,/cfb/players/kevin-harris-6.html,DL,9,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia Tech,2022
+David Shanahan,david-shanahan-1,/cfb/players/david-shanahan-1.html,P,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia Tech,2022
+Tyson Meiguez,tyson-meiguez-1,/cfb/players/tyson-meiguez-1.html,LB,10,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia Tech,2022
+Ahmari Harvey,ahmari-harvey-1,/cfb/players/ahmari-harvey-1.html,DB,9,1,0,1,0.0,0.0,0,0,,0,0,1,0,0,0,,Georgia Tech,2022
+Ryan King,ryan-king-2,/cfb/players/ryan-king-2.html,WR,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia Tech,2022
+Peje' Harris,peje-harris-1,/cfb/players/peje-harris-1.html,TE,9,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia Tech,2022
+Nate McCollum,nate-mccollum-1,/cfb/players/nate-mccollum-1.html,WR,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,1,,Georgia Tech,2022
+Malik Rutherford,malik-rutherford-1,/cfb/players/malik-rutherford-1.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia Tech,2022
+Jordan Williams,jordan-williams-13,/cfb/players/jordan-williams-13.html,OL,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia Tech,2022
+Kyle Efford,kyle-efford-1,/cfb/players/kyle-efford-1.html,LB,4,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Georgia Tech,2022

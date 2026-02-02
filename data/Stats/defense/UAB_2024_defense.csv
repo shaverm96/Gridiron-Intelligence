@@ -1,0 +1,50 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Michael Moore,michael-moore-6,/cfb/players/michael-moore-6.html,LB,12,38,54,92,3.0,0.0,2,48,24.0,0,2,1,0,0,0,,UAB,2024
+Everett Roussaw Jr.,everett-roussaw-jr-1,/cfb/players/everett-roussaw-jr-1.html,LB,12,38,37,75,7.5,3.0,0,0,,0,0,1,0,0,0,,UAB,2024
+Sirad Bryant,sirad-bryant-1,/cfb/players/sirad-bryant-1.html,S,12,33,27,60,1.0,0.0,1,22,22.0,0,1,0,0,0,0,,UAB,2024
+Tyjon Jones,tyjon-jones-1,/cfb/players/tyjon-jones-1.html,DB,12,35,24,59,0.0,0.0,2,13,6.5,0,4,1,0,0,0,,UAB,2024
+O.C. Brothers,oc-brothers-1,/cfb/players/oc-brothers-1.html,LB,12,25,22,47,3.0,0.0,0,0,,0,1,0,0,0,0,,UAB,2024
+Adrian Maddox,adrian-maddox-1,/cfb/players/adrian-maddox-1.html,DB,11,30,14,44,2.0,0.0,1,99,99.0,1,7,0,0,0,2,,UAB,2024
+Kelvin Hill,kelvin-hill-1,/cfb/players/kelvin-hill-1.html,CB,12,30,13,43,0.0,0.0,0,0,,0,5,0,0,0,0,,UAB,2024
+Desmond Little,desmond-little-1,/cfb/players/desmond-little-1.html,DE,12,17,24,41,10.0,6.0,0,0,,0,3,0,0,0,1,,UAB,2024
+Derrick Shepard,derrick-shepard-3,/cfb/players/derrick-shepard-3.html,DL,12,12,22,34,0.0,0.0,0,0,,0,0,0,0,0,0,,UAB,2024
+LeDarrius Cox,ledarrius-cox-1,/cfb/players/ledarrius-cox-1.html,DL,12,18,14,32,3.5,1.0,0,0,,0,1,0,0,0,0,,UAB,2024
+AJ Brown,aj-brown-4,/cfb/players/aj-brown-4.html,S,12,18,13,31,2.0,1.0,1,2,2.0,0,1,0,0,0,0,,UAB,2024
+Ray Thornton III,ray-thornton-iii-1,/cfb/players/ray-thornton-iii-1.html,S,9,12,12,24,1.0,0.0,0,0,,0,0,0,0,0,0,,UAB,2024
+Colby Dempsey,colby-dempsey-1,/cfb/players/colby-dempsey-1.html,CB,12,15,7,22,1.5,0.0,1,-3,-3.0,0,12,0,0,0,0,,UAB,2024
+Ezra Odinjor,ezra-odinjor-1,/cfb/players/ezra-odinjor-1.html,DL,12,11,10,21,1.0,1.0,0,0,,0,0,0,0,0,1,,UAB,2024
+Donald Lee,donald-lee-2,/cfb/players/donald-lee-2.html,CB,11,10,10,20,1.0,0.0,0,0,,0,3,0,0,0,0,,UAB,2024
+Kendall Johnson,kendall-johnson-3,/cfb/players/kendall-johnson-3.html,LB,12,13,6,19,4.0,2.0,0,0,,0,0,0,0,0,1,,UAB,2024
+Tylan McNichols,tylan-mcnichols-1,/cfb/players/tylan-mcnichols-1.html,LB,12,11,8,19,0.0,0.0,0,0,,0,0,0,0,0,0,,UAB,2024
+Eamon Smalls,eamon-smalls-1,/cfb/players/eamon-smalls-1.html,DL,8,8,9,17,0.0,0.0,0,0,,0,0,0,0,0,0,,UAB,2024
+Chris Bracy,chris-bracy-1,/cfb/players/chris-bracy-1.html,S,4,10,6,16,0.0,0.0,0,0,,0,2,0,0,0,0,,UAB,2024
+Joker Gill,joker-gill-1,/cfb/players/joker-gill-1.html,DL,12,9,7,16,2.5,1.0,0,0,,0,1,0,0,0,0,,UAB,2024
+Kevin Penn,kevin-penn-1,/cfb/players/kevin-penn-1.html,DL,12,7,9,16,0.0,0.0,0,0,,0,0,0,0,0,0,,UAB,2024
+James Smyre,james-smyre-1,/cfb/players/james-smyre-1.html,LB,11,5,4,9,2.0,2.0,0,0,,0,0,0,0,0,0,,UAB,2024
+Demarcus Smith,demarcus-smith-1,/cfb/players/demarcus-smith-1.html,DT,9,3,6,9,1.0,0.0,0,0,,0,0,1,0,0,0,,UAB,2024
+Jax Van Zandt,jax-van-zandt-1,/cfb/players/jax-van-zandt-1.html,LB,10,2,6,8,0.0,0.0,0,0,,0,0,0,0,0,0,,UAB,2024
+Jason Riles Jr.,jason-riles-jr-1,/cfb/players/jason-riles-jr-1.html,LB,10,4,3,7,0.0,0.0,0,0,,0,0,0,0,0,0,,UAB,2024
+Emanuel Walker,emanuel-walker-1,/cfb/players/emanuel-walker-1.html,DL,12,3,4,7,1.0,1.0,0,0,,0,0,0,0,0,0,,UAB,2024
+Troy Jakubec,troy-jakubec-1,/cfb/players/troy-jakubec-1.html,DB,7,4,3,7,1.0,0.0,0,0,,0,0,0,0,0,0,,UAB,2024
+Jonathan Allen,jonathan-allen-3,/cfb/players/jonathan-allen-3.html,DL,10,2,4,6,0.0,0.0,0,0,,0,0,0,0,0,0,,UAB,2024
+T'Sai McDaniel,tsai-mcdaniel-1,/cfb/players/tsai-mcdaniel-1.html,CB,8,4,2,6,0.0,0.0,0,0,,0,0,1,0,0,0,,UAB,2024
+Eddy Toussom,eddy-toussom-1,/cfb/players/eddy-toussom-1.html,LB,8,1,3,4,0.0,0.0,0,0,,0,0,0,0,0,0,,UAB,2024
+Tariq Watson,tariq-watson-1,/cfb/players/tariq-watson-1.html,CB,11,3,1,4,0.0,0.0,0,0,,0,2,0,0,0,0,,UAB,2024
+Lee Witherspoon,lee-witherspoon-1,/cfb/players/lee-witherspoon-1.html,RB,12,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,UAB,2024
+Ricky Lee III,ricky-lee-iii-1,/cfb/players/ricky-lee-iii-1.html,CB,2,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,UAB,2024
+Malachi Holt-Bennett,malachi-holt-bennett-1,/cfb/players/malachi-holt-bennett-1.html,WR,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,UAB,2024
+Roy Williams,roy-williams-10,/cfb/players/roy-williams-10.html,CB,8,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,UAB,2024
+Trey Bedosky,trey-bedosky-1,/cfb/players/trey-bedosky-1.html,OL,3,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UAB,2024
+Tennyson Hadfield,tennyson-hadfield-1,/cfb/players/tennyson-hadfield-1.html,OL,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UAB,2024
+Armoni Goodwin,armoni-goodwin-1,/cfb/players/armoni-goodwin-1.html,RB,5,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UAB,2024
+Amare Thomas,amare-thomas-1,/cfb/players/amare-thomas-1.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UAB,2024
+Solomon Beebe,solomon-beebe-1,/cfb/players/solomon-beebe-1.html,RB,10,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UAB,2024
+BJ Hawkins Jr.,bj-hawkins-jr-1,/cfb/players/bj-hawkins-jr-1.html,WR,5,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UAB,2024
+Brandon Franklin,brandon-franklin-1,/cfb/players/brandon-franklin-1.html,LB,5,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UAB,2024
+Noah Grant,noah-grant-1,/cfb/players/noah-grant-1.html,P,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UAB,2024
+Nasir Bashir,nasir-bashir-1,/cfb/players/nasir-bashir-1.html,CB,7,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UAB,2024
+Chris Burge,chris-burge-1,/cfb/players/chris-burge-1.html,DE,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UAB,2024
+Dallas Payne,dallas-payne-1,/cfb/players/dallas-payne-1.html,TE,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UAB,2024
+Kyle McKinney,kyle-mckinney-2,/cfb/players/kyle-mckinney-2.html,S,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UAB,2024
+Kameron Shanks,kameron-shanks-1,/cfb/players/kameron-shanks-1.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UAB,2024
+J'Quan Mason,jquan-mason-1,/cfb/players/jquan-mason-1.html,DE,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,UAB,2024

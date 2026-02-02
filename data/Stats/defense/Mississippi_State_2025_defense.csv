@@ -1,0 +1,51 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Jahron Manning,jahron-manning-1,/cfb/players/jahron-manning-1.html,S,13,36,55,91,4.0,0.0,1,21,21.0,0,5,0,0,0,0,,Mississippi State,2025
+Nic Mitchell,nic-mitchell-1,/cfb/players/nic-mitchell-1.html,LB,13,17,61,78,5.0,2.5,1,12,12.0,0,0,1,1,0,0,,Mississippi State,2025
+Brylan Lanier,brylan-lanier-1,/cfb/players/brylan-lanier-1.html,S,13,37,30,67,2.5,1.0,4,41,10.3,0,2,0,0,0,0,,Mississippi State,2025
+Isaac Smith,isaac-smith-4,/cfb/players/isaac-smith-4.html,S,10,14,50,64,1.0,1.0,1,0,0.0,0,3,1,0,0,0,,Mississippi State,2025
+Jalen Smith,jalen-smith-4,/cfb/players/jalen-smith-4.html,LB,13,20,37,57,1.5,0.0,0,0,,0,1,0,0,0,0,,Mississippi State,2025
+Zakari Tillman,zakari-tillman-1,/cfb/players/zakari-tillman-1.html,LB,12,15,32,47,3.0,1.0,1,26,26.0,0,1,0,0,0,1,,Mississippi State,2025
+Branden Jennings,branden-jennings-1,/cfb/players/branden-jennings-1.html,LB,13,11,33,44,0.0,0.0,0,0,,0,2,0,0,0,0,,Mississippi State,2025
+Hunter Washington,hunter-washington-1,/cfb/players/hunter-washington-1.html,S,13,18,26,44,0.0,0.0,1,6,6.0,0,2,0,0,0,0,,Mississippi State,2025
+Derion Gullette,derion-gullette-1,/cfb/players/derion-gullette-1.html,LB,10,16,22,38,1.5,1.5,0,0,,0,1,0,0,0,0,,Mississippi State,2025
+DeAgo Brumfield,deago-brumfield-1,/cfb/players/deago-brumfield-1.html,CB,13,22,14,36,1.0,0.0,1,-11,-11.0,0,4,0,0,0,0,,Mississippi State,2025
+Tyler Lockhart,tyler-lockhart-1,/cfb/players/tyler-lockhart-1.html,LB,12,9,25,34,0.0,0.0,0,0,,0,0,0,0,0,0,,Mississippi State,2025
+Kelley Jones,kelley-jones-1,/cfb/players/kelley-jones-1.html,CB,13,20,14,34,0.0,0.0,2,33,16.5,0,11,0,0,0,0,,Mississippi State,2025
+Malick Sylla,malick-sylla-1,/cfb/players/malick-sylla-1.html,LB,13,10,23,33,7.0,2.0,0,0,,0,2,1,0,0,0,,Mississippi State,2025
+Jaray Bledsoe,jaray-bledsoe-1,/cfb/players/jaray-bledsoe-1.html,DL,13,8,20,28,5.5,1.5,0,0,,0,0,0,0,0,0,,Mississippi State,2025
+Kalvin Dinkins,kalvin-dinkins-1,/cfb/players/kalvin-dinkins-1.html,DL,13,5,22,27,3.0,2.0,0,0,,0,0,0,0,0,0,,Mississippi State,2025
+Tony Mitchell,tony-mitchell-2,/cfb/players/tony-mitchell-2.html,S,11,13,12,25,4.0,0.0,0,0,,0,0,0,0,0,0,,Mississippi State,2025
+Kedrick Bingley-Jones,kedrick-bingley-jones-1,/cfb/players/kedrick-bingley-jones-1.html,DL,13,3,22,25,0.5,0.0,0,0,,0,1,0,0,0,0,,Mississippi State,2025
+Darron Reed Jr.,darron-reed-jr-1,/cfb/players/darron-reed-jr-1.html,DL,13,4,17,21,2.0,2.0,0,0,,0,1,0,0,0,0,,Mississippi State,2025
+Red Hibbler,red-hibbler-1,/cfb/players/red-hibbler-1.html,DL,12,5,15,20,1.5,0.5,0,0,,0,0,0,0,0,0,,Mississippi State,2025
+Trevion Williams,trevion-williams-1,/cfb/players/trevion-williams-1.html,DL,13,4,16,20,1.5,1.0,0,0,,0,1,0,0,0,2,,Mississippi State,2025
+Jayven Williams,jayven-williams-1,/cfb/players/jayven-williams-1.html,CB,13,10,8,18,1.0,0.0,1,4,4.0,0,1,0,0,0,2,,Mississippi State,2025
+Deonte Anderson,deonte-anderson-1,/cfb/players/deonte-anderson-1.html,DL,13,2,14,16,1.0,1.0,0,0,,0,1,0,0,0,0,,Mississippi State,2025
+Jamil Burroughs,jamil-burroughs-1,/cfb/players/jamil-burroughs-1.html,DL,11,6,8,14,2.0,0.0,0,0,,0,0,0,0,0,0,,Mississippi State,2025
+Tanner Duke Johnson,tanner-duke-johnson-1,/cfb/players/tanner-duke-johnson-1.html,S,13,3,10,13,0.0,0.0,0,0,,0,1,0,0,0,1,,Mississippi State,2025
+Neveah Sanders,neveah-sanders-1,/cfb/players/neveah-sanders-1.html,LB,13,7,5,12,1.0,1.0,0,0,,0,0,0,0,0,0,,Mississippi State,2025
+Raishein Thomas,raishein-thomas-1,/cfb/players/raishein-thomas-1.html,DL,7,4,6,10,2.0,1.0,0,0,,0,0,0,0,0,1,,Mississippi State,2025
+Jett Jefferson,jett-jefferson-1,/cfb/players/jett-jefferson-1.html,CB,4,5,5,10,0.0,0.0,0,0,,0,0,0,0,0,0,,Mississippi State,2025
+Diesel Moye,diesel-moye-1,/cfb/players/diesel-moye-1.html,DL,11,2,8,10,0.0,0.0,0,0,,0,0,0,0,0,0,,Mississippi State,2025
+Dwight Lewis III,dwight-lewis-iii-1,/cfb/players/dwight-lewis-iii-1.html,CB,12,8,2,10,0.0,0.0,0,0,,0,1,1,33,0,0,,Mississippi State,2025
+Joseph Head Jr.,joseph-head-jr-1,/cfb/players/joseph-head-jr-1.html,DL,13,2,6,8,0.0,0.0,0,0,,0,0,0,0,0,0,,Mississippi State,2025
+Will Whitson,will-whitson-1,/cfb/players/will-whitson-1.html,DL,2,4,4,8,4.5,2.0,0,0,,0,0,0,0,0,0,,Mississippi State,2025
+Cyrus Reyes,cyrus-reyes-1,/cfb/players/cyrus-reyes-1.html,S,13,3,4,7,0.0,0.0,0,0,,0,0,0,0,0,0,,Mississippi State,2025
+LaKendrick James,lakendrick-james-1,/cfb/players/lakendrick-james-1.html,LB,4,0,6,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Mississippi State,2025
+Ja'Bryis Stewart,jabryis-stewart-1,/cfb/players/jabryis-stewart-1.html,LB,5,2,3,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Mississippi State,2025
+Tyler Woodard,tyler-woodard-1,/cfb/players/tyler-woodard-1.html,S,2,1,4,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Mississippi State,2025
+Ashun Shepphard,ashun-shepphard-1,/cfb/players/ashun-shepphard-1.html,DL,2,1,3,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Mississippi State,2025
+Corey Clark,corey-clark-2,/cfb/players/corey-clark-2.html,DL,3,0,4,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Mississippi State,2025
+Seydou Traore,seydou-traore-1,/cfb/players/seydou-traore-1.html,TE,13,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Mississippi State,2025
+Ethan Myers,ethan-myers-2,/cfb/players/ethan-myers-2.html,LS,13,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Mississippi State,2025
+Elijah Cannon,elijah-cannon-1,/cfb/players/elijah-cannon-1.html,CB,10,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Mississippi State,2025
+Montrell Chapman,montrell-chapman-1,/cfb/players/montrell-chapman-1.html,LB,5,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Mississippi State,2025
+Davon Booth,davon-booth-1,/cfb/players/davon-booth-1.html,RB,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Mississippi State,2025
+Terrance Hibbler,terrance-hibbler-1,/cfb/players/terrance-hibbler-1.html,DL,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Mississippi State,2025
+Marlon Hauck,marlon-hauck-1,/cfb/players/marlon-hauck-1.html,K,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Mississippi State,2025
+Fluff Bothwell,fluff-bothwell-1,/cfb/players/fluff-bothwell-1.html,RB,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Mississippi State,2025
+Braylon Burnside,braylon-burnside-1,/cfb/players/braylon-burnside-1.html,S,4,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Mississippi State,2025
+Koby Keenum,koby-keenum-1,/cfb/players/koby-keenum-1.html,OL,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Mississippi State,2025
+AJ Rice,aj-rice-1,/cfb/players/aj-rice-1.html,LB,2,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Mississippi State,2025
+Jordan Mosely,jordan-mosely-1,/cfb/players/jordan-mosely-1.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Mississippi State,2025
+Xavier Gayten,xavier-gayten-1,/cfb/players/xavier-gayten-1.html,RB,13,0,0,0,0.0,0.0,0,0,,0,0,1,0,0,0,,Mississippi State,2025

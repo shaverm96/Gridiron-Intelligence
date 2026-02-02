@@ -1,0 +1,48 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Jaden Yates,jaden-yates-1,/cfb/players/jaden-yates-1.html,LB,13,33,87,120,7.5,0.5,0,0,,0,2,2,0,0,0,,Marshall,2024
+J.J Roberts,jj-roberts-1,/cfb/players/jj-roberts-1.html,S,13,50,44,94,5.0,1.0,0,0,,0,14,0,0,0,1,,Marshall,2024
+Mike Green,mike-green-14,/cfb/players/mike-green-14.html,DL,13,38,46,84,22.5,17.0,0,0,,0,2,1,0,0,3,,Marshall,2024
+Landyn Watson,landyn-watson-1,/cfb/players/landyn-watson-1.html,LB,11,20,45,65,4.0,0.0,1,12,12.0,0,0,0,0,0,0,,Marshall,2024
+Deeve Harris,deeve-harris-1,/cfb/players/deeve-harris-1.html,DE,13,19,36,55,8.5,4.5,0,0,,0,1,0,0,0,2,,Marshall,2024
+AG McGhee,ag-mcghee-1,/cfb/players/ag-mcghee-1.html,S,13,27,27,54,0.5,0.0,0,0,,0,0,0,0,0,0,,Marshall,2024
+Jacobie Henderson,jacobie-henderson-1,/cfb/players/jacobie-henderson-1.html,S,13,27,23,50,1.5,0.0,2,5,2.5,0,10,0,0,0,0,,Marshall,2024
+Ian Foster,ian-foster-1,/cfb/players/ian-foster-1.html,CB,13,25,23,48,5.0,0.0,0,0,,0,4,1,0,0,0,,Marshall,2024
+Chris Thomas Jr.,chris-thomas-jr-1,/cfb/players/chris-thomas-jr-1.html,DL,13,9,33,42,3.5,1.0,0,0,,0,2,1,10,0,0,,Marshall,2024
+Josh Moten,josh-moten-2,/cfb/players/josh-moten-2.html,DB,12,21,17,38,0.0,0.0,5,4,0.8,0,5,0,0,0,0,,Marshall,2024
+Jadarius Green-McKnight,jadarius-green-mcknight-1,/cfb/players/jadarius-green-mcknight-1.html,LB,13,12,26,38,1.0,1.0,1,28,28.0,1,3,0,0,0,0,,Marshall,2024
+Ahmere Foster,ahmere-foster-1,/cfb/players/ahmere-foster-1.html,CB,13,18,19,37,1.5,1.0,0,0,,0,2,0,0,0,0,,Marshall,2024
+TyQaze Leggs,tyqaze-leggs-1,/cfb/players/tyqaze-leggs-1.html,DL,12,4,32,36,5.5,1.5,0,0,,0,2,1,0,0,1,,Marshall,2024
+J'coryan Anderson,jcoryan-anderson-1,/cfb/players/jcoryan-anderson-1.html,LB,10,12,17,29,0.5,0.0,1,13,13.0,1,0,0,0,0,1,,Marshall,2024
+JJ Hawkins,jj-hawkins-1,/cfb/players/jj-hawkins-1.html,DE,12,4,18,22,2.0,1.0,0,0,,0,3,0,0,0,0,,Marshall,2024
+RaQuan Thompson,raquan-thompson-2,/cfb/players/raquan-thompson-2.html,DL,13,7,13,20,3.0,2.0,0,0,,0,0,0,0,0,0,,Marshall,2024
+Jabari Ishmael,jabari-ishmael-1,/cfb/players/jabari-ishmael-1.html,DE,10,8,12,20,4.0,2.5,0,0,,0,1,0,0,0,2,,Marshall,2024
+Dylan Davis,dylan-davis-2,/cfb/players/dylan-davis-2.html,DL,13,2,16,18,1.5,1.0,0,0,,0,0,0,0,0,0,,Marshall,2024
+Monroe Beard III,monroe-beard-iii-1,/cfb/players/monroe-beard-iii-1.html,LB,13,9,8,17,2.5,1.0,0,0,,0,0,0,0,0,1,,Marshall,2024
+Braydin Ward,braydin-ward-1,/cfb/players/braydin-ward-1.html,DL,10,4,10,14,1.5,1.0,1,-7,-7.0,0,1,0,0,0,1,,Marshall,2024
+Jason Shuford,jason-shuford-1,/cfb/players/jason-shuford-1.html,DL,13,1,13,14,1.0,0.0,0,0,,0,0,0,0,0,0,,Marshall,2024
+Leon Hart,leon-hart-2,/cfb/players/leon-hart-2.html,LB,12,4,9,13,1.5,0.0,0,0,,0,0,0,0,0,0,,Marshall,2024
+Ashton Heflin,ashton-heflin-1,/cfb/players/ashton-heflin-1.html,LB,13,2,10,12,0.0,0.0,0,0,,0,0,0,0,0,0,,Marshall,2024
+Jude Okolo,jude-okolo-1,/cfb/players/jude-okolo-1.html,DL,10,4,7,11,2.5,0.0,0,0,,0,0,0,0,0,0,,Marshall,2024
+"Anthony Richard, Jr.",anthony-richard-jr-1,/cfb/players/anthony-richard-jr-1.html,CB,5,6,2,8,0.0,0.0,0,0,,0,0,0,0,0,0,,Marshall,2024
+Jordan Reagan,jordan-reagan-2,/cfb/players/jordan-reagan-2.html,CB,13,7,1,8,0.0,0.0,1,0,0.0,0,1,0,0,0,0,,Marshall,2024
+Daytione Smith,daytione-smith-1,/cfb/players/daytione-smith-1.html,DB,7,3,3,6,1.0,0.0,0,0,,0,0,0,0,0,0,,Marshall,2024
+Olasunkonmi Agunloye,olasunkonmi-agunloye-1,/cfb/players/olasunkonmi-agunloye-1.html,DT,8,1,5,6,0.5,0.0,0,0,,0,0,0,0,0,0,,Marshall,2024
+Jacarius Clayton,jacarius-clayton-1,/cfb/players/jacarius-clayton-1.html,TE,6,1,5,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Marshall,2024
+Ishmael Roy,ishmael-roy-1,/cfb/players/ishmael-roy-1.html,WR,11,2,2,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Marshall,2024
+Mikailin Warren,mikailin-warren-1,/cfb/players/mikailin-warren-1.html,DL,3,0,4,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Marshall,2024
+Caleb Clark-Glover,caleb-clark-glover-1,/cfb/players/caleb-clark-glover-1.html,DB,13,0,3,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Marshall,2024
+Cameron Chmura,cameron-chmura-1,/cfb/players/cameron-chmura-1.html,DL,2,0,3,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Marshall,2024
+Corey Myrick,corey-myrick-1,/cfb/players/corey-myrick-1.html,S,8,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Marshall,2024
+De'Javion Stepney,dejavion-stepney-1,/cfb/players/dejavion-stepney-1.html,DB,4,0,3,3,0.5,0.0,0,0,,0,0,0,0,0,0,,Marshall,2024
+Chason Clark,chason-clark-1,/cfb/players/chason-clark-1.html,LB,9,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Marshall,2024
+Guylijah Theodale,guylijah-theodale-1,/cfb/players/guylijah-theodale-1.html,CB,5,0,1,1,0.0,0.0,0,0,,0,1,0,0,0,0,,Marshall,2024
+Alec Clark,alec-clark-1,/cfb/players/alec-clark-1.html,P,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Marshall,2024
+TaShawn Jeter,tashawn-jeter-1,/cfb/players/tashawn-jeter-1.html,CB,6,1,0,1,0.0,0.0,1,0,0.0,0,0,0,0,0,0,,Marshall,2024
+Christian Fitzpatrick,christian-fitzpatrick-1,/cfb/players/christian-fitzpatrick-1.html,WR,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Marshall,2024
+Nathan Totten,nathan-totten-1,/cfb/players/nathan-totten-1.html,K,9,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Marshall,2024
+Devon McBride,devon-mcbride-1,/cfb/players/devon-mcbride-1.html,LB,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Marshall,2024
+Jalen Slappy,jalen-slappy-1,/cfb/players/jalen-slappy-1.html,OL,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Marshall,2024
+Justin Holmes,justin-holmes-3,/cfb/players/justin-holmes-3.html,TE,13,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Marshall,2024
+Bralon Brown,bralon-brown-1,/cfb/players/bralon-brown-1.html,WR,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Marshall,2024
+Cade Conley,cade-conley-1,/cfb/players/cade-conley-1.html,TE,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Marshall,2024
+Tychaun Chapman,tychaun-chapman-1,/cfb/players/tychaun-chapman-1.html,WR,12,0,0,0,0.0,0.0,0,0,,0,0,1,0,0,0,,Marshall,2024

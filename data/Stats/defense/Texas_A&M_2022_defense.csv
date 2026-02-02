@@ -1,0 +1,42 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Demani Richardson,demani-richardson-1,/cfb/players/demani-richardson-1.html,DB,12,48,25,73,2.5,0.0,1,0,0.0,0,5,1,27,2,1,,Texas A&M,2022
+Antonio Johnson,antonio-johnson-6,/cfb/players/antonio-johnson-6.html,DB,9,35,36,71,5.0,1.0,0,0,,0,1,0,0,0,3,,Texas A&M,2022
+Chris Russell,chris-russell-2,/cfb/players/chris-russell-2.html,LB,12,33,33,66,7.0,2.5,0,0,,0,1,2,1,0,1,,Texas A&M,2022
+Edgerrin Cooper,edgerrin-cooper-1,/cfb/players/edgerrin-cooper-1.html,LB,11,33,28,61,8.0,0.0,1,0,0.0,0,5,1,0,0,1,,Texas A&M,2022
+Jardin Gilbert,jardin-gilbert-1,/cfb/players/jardin-gilbert-1.html,DB,11,38,23,61,1.0,0.0,2,13,6.5,0,4,0,0,0,0,,Texas A&M,2022
+Tyreek Chappell,tyreek-chappell-1,/cfb/players/tyreek-chappell-1.html,DB,11,31,13,44,2.5,0.0,0,0,,0,8,1,15,0,0,,Texas A&M,2022
+McKinnley Jackson,mckinnley-jackson-1,/cfb/players/mckinnley-jackson-1.html,DL,8,23,14,37,7.0,2.0,0,0,,0,0,1,0,0,0,,Texas A&M,2022
+Andre White Jr.,andre-white-jr-1,/cfb/players/andre-white-jr-1.html,LB,7,19,16,35,4.0,1.0,0,0,,0,3,0,0,0,1,,Texas A&M,2022
+Jaylon Jones,jaylon-jones-3,/cfb/players/jaylon-jones-3.html,DB,10,27,6,33,0.0,0.0,0,0,,0,2,1,2,0,0,,Texas A&M,2022
+Shemar Turner,shemar-turner-1,/cfb/players/shemar-turner-1.html,DL,11,13,19,32,4.5,0.5,0,0,,0,0,0,0,0,0,,Texas A&M,2022
+Lebbeus Overton,lebbeus-overton-1,/cfb/players/lebbeus-overton-1.html,DL,11,12,19,31,3.0,1.0,0,0,,0,0,0,0,0,0,,Texas A&M,2022
+Walter Nolen,walter-nolen-1,/cfb/players/walter-nolen-1.html,DL,10,17,12,29,2.5,1.0,0,0,,0,0,1,9,0,1,,Texas A&M,2022
+Bryce Anderson,bryce-anderson-1,/cfb/players/bryce-anderson-1.html,DB,11,16,12,28,3.5,0.0,0,0,,0,0,2,0,0,1,,Texas A&M,2022
+Fadil Diggs,fadil-diggs-1,/cfb/players/fadil-diggs-1.html,DL,8,15,13,28,5.0,3.0,0,0,,0,0,0,0,0,3,,Texas A&M,2022
+Jacoby Mathews,jacoby-mathews-1,/cfb/players/jacoby-mathews-1.html,DB,10,15,10,25,0.0,0.0,0,0,,0,3,1,0,0,0,,Texas A&M,2022
+Shemar Stewart,shemar-stewart-1,/cfb/players/shemar-stewart-1.html,DL,12,11,12,23,3.5,1.5,0,0,,0,0,1,0,0,0,,Texas A&M,2022
+Jarred Kerr,jarred-kerr-1,/cfb/players/jarred-kerr-1.html,DB,11,15,7,22,1.0,1.0,0,0,,0,2,0,0,0,0,,Texas A&M,2022
+Isaiah Raikes,isaiah-raikes-1,/cfb/players/isaiah-raikes-1.html,DL,12,10,7,17,1.5,0.5,0,0,,0,0,0,0,0,0,,Texas A&M,2022
+Albert Regis,albert-regis-1,/cfb/players/albert-regis-1.html,DL,11,5,11,16,2.5,0.0,0,0,,0,1,0,0,0,0,,Texas A&M,2022
+Denver Harris,denver-harris-1,/cfb/players/denver-harris-1.html,DB,5,10,4,14,0.0,0.0,0,0,,0,3,0,0,0,0,,Texas A&M,2022
+Samuel Mathews,samuel-mathews-1,/cfb/players/samuel-mathews-1.html,LB,12,7,3,10,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas A&M,2022
+Anthony Lucas,anthony-lucas-2,/cfb/players/anthony-lucas-2.html,DL,7,4,6,10,1.0,0.0,0,0,,0,0,0,0,0,0,,Texas A&M,2022
+Deuce Harmon,deuce-harmon-1,/cfb/players/deuce-harmon-1.html,DB,4,8,1,9,0.0,0.0,0,0,,0,0,0,0,0,1,,Texas A&M,2022
+Tarian Lee Jr.,tarian-lee-jr-1,/cfb/players/tarian-lee-jr-1.html,LB,8,4,5,9,0.5,0.0,0,0,,0,0,0,0,0,0,,Texas A&M,2022
+Enai White,enai-white-1,/cfb/players/enai-white-1.html,DL,7,5,3,8,2.0,1.0,0,0,,0,1,0,0,0,0,,Texas A&M,2022
+Brian George,brian-george-2,/cfb/players/brian-george-2.html,DB,5,4,3,7,0.0,0.0,0,0,,0,1,0,0,0,0,,Texas A&M,2022
+Martrell Harris Jr.,martrell-harris-jr-1,/cfb/players/martrell-harris-jr-1.html,LB,12,5,2,7,2.0,2.0,0,0,,0,0,0,0,0,1,,Texas A&M,2022
+Malick Sylla,malick-sylla-1,/cfb/players/malick-sylla-1.html,DL,12,5,1,6,1.0,1.0,0,0,,0,0,0,0,0,0,,Texas A&M,2022
+Tunmise Adeleye,tunmise-adeleye-1,/cfb/players/tunmise-adeleye-1.html,DL,3,4,2,6,0.5,0.0,0,0,,0,0,0,0,0,0,,Texas A&M,2022
+Smoke Bouie,smoke-bouie-1,/cfb/players/smoke-bouie-1.html,DB,7,3,1,4,0.0,0.0,0,0,,0,1,0,0,0,0,,Texas A&M,2022
+Marquis Groves-Killebrew,marquis-groves-killebrew-1,/cfb/players/marquis-groves-killebrew-1.html,DB,3,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas A&M,2022
+Trey Zuhn III,trey-zuhn-iii-1,/cfb/players/trey-zuhn-iii-1.html,OL,11,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas A&M,2022
+Devon Achane,devon-achane-1,/cfb/players/devon-achane-1.html,RB,10,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas A&M,2022
+Aki Ogunbiyi,aki-ogunbiyi-1,/cfb/players/aki-ogunbiyi-1.html,OL,6,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas A&M,2022
+Noah Thomas,noah-thomas-1,/cfb/players/noah-thomas-1.html,WR,11,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas A&M,2022
+Myles Jones,myles-jones-1,/cfb/players/myles-jones-1.html,DB,1,1,0,1,0.0,0.0,0,0,,0,1,0,0,0,0,,Texas A&M,2022
+Chase Lane,chase-lane-1,/cfb/players/chase-lane-1.html,WR,8,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas A&M,2022
+Marcus Burris Jr.,marcus-burris-jr-1,/cfb/players/marcus-burris-jr-1.html,DL,8,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas A&M,2022
+Le'Veon Moss,leveon-moss-1,/cfb/players/leveon-moss-1.html,RB,7,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas A&M,2022
+Josh Moten,josh-moten-2,/cfb/players/josh-moten-2.html,DB,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas A&M,2022
+Adarious Jones,adarious-jones-1,/cfb/players/adarious-jones-1.html,DL,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Texas A&M,2022

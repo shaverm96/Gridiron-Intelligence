@@ -1,0 +1,44 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Devon Key,devon-key-1,/cfb/players/devon-key-1.html,DB,12,55,37,92,0.0,0.0,1,0,0.0,0,3,0,0,0,1,,Western Kentucky,2020
+Antwon Kincade,antwon-kincade-1,/cfb/players/antwon-kincade-1.html,DB,12,48,37,85,5.5,0.0,0,0,,0,8,0,0,0,1,,Western Kentucky,2020
+Kyle Bailey,kyle-bailey-1,/cfb/players/kyle-bailey-1.html,LB,11,40,36,76,8.5,3.0,1,24,24.0,0,1,0,0,0,0,,Western Kentucky,2020
+DeAngelo Malone,deangelo-malone-1,/cfb/players/deangelo-malone-1.html,DE,12,42,29,71,11.0,6.0,0,0,,0,1,0,0,0,2,,Western Kentucky,2020
+Ricky Barber,ricky-barber-1,/cfb/players/ricky-barber-1.html,DT,12,26,32,58,7.0,4.0,0,0,,0,0,0,0,0,1,,Western Kentucky,2020
+Eli Brown,eli-brown-1,/cfb/players/eli-brown-1.html,LB,10,28,25,53,8.0,2.0,1,22,22.0,1,0,0,0,0,0,,Western Kentucky,2020
+Juwuan Jones,juwuan-jones-1,/cfb/players/juwuan-jones-1.html,DE,12,12,26,38,5.0,2.0,0,0,,0,3,0,0,0,0,,Western Kentucky,2020
+Jeremy Darvin,jeremy-darvin-1,/cfb/players/jeremy-darvin-1.html,DT,12,17,14,31,5.5,3.0,0,0,,0,1,0,0,0,0,,Western Kentucky,2020
+Trae Meadows,trae-meadows-1,/cfb/players/trae-meadows-1.html,DB,12,21,7,28,2.5,1.0,1,0,0.0,0,4,0,0,0,1,,Western Kentucky,2020
+Nick Days,nick-days-1,/cfb/players/nick-days-1.html,LB,11,20,7,27,0.0,0.0,0,0,,0,0,0,0,0,0,,Western Kentucky,2020
+Roger Cray,roger-cray-1,/cfb/players/roger-cray-1.html,DB,9,17,7,24,2.0,0.0,0,0,,0,9,1,24,1,0,,Western Kentucky,2020
+Dionte Ruffin,dionte-ruffin-1,/cfb/players/dionte-ruffin-1.html,DB,12,18,5,23,0.0,0.0,1,28,28.0,0,11,1,0,0,0,,Western Kentucky,2020
+Omari Alexander,omari-alexander-1,/cfb/players/omari-alexander-1.html,DB,12,14,5,19,3.5,0.0,1,0,0.0,0,3,1,0,0,0,,Western Kentucky,2020
+Jalen Madden,jalen-madden-1,/cfb/players/jalen-madden-1.html,DT,12,6,13,19,2.5,0.0,0,0,,0,0,0,0,0,0,,Western Kentucky,2020
+Dominique Bradshaw,dominique-bradshaw-1,/cfb/players/dominique-bradshaw-1.html,DB,12,12,5,17,0.0,0.0,0,0,,0,10,0,0,0,0,,Western Kentucky,2020
+Damon Lowe,damon-lowe-1,/cfb/players/damon-lowe-1.html,LB,7,8,8,16,2.5,1.0,0,0,,0,0,0,0,0,0,,Western Kentucky,2020
+Jaden Hunter,jaden-hunter-1,/cfb/players/jaden-hunter-1.html,DE,12,10,5,15,2.5,0.0,0,0,,0,0,0,0,0,0,,Western Kentucky,2020
+Beanie Bishop,beanie-bishop-1,/cfb/players/beanie-bishop-1.html,DB,6,14,1,15,2.0,0.0,0,0,,0,4,0,0,0,0,,Western Kentucky,2020
+Darius Shipp,darius-shipp-1,/cfb/players/darius-shipp-1.html,DT,10,6,7,13,4.0,1.0,0,0,,0,1,0,0,0,0,,Western Kentucky,2020
+Demetrius Cain,demetrius-cain-2,/cfb/players/demetrius-cain-2.html,DE,10,10,2,12,0.0,0.0,0,0,,0,0,0,0,0,0,,Western Kentucky,2020
+Malik Staples,malik-staples-1,/cfb/players/malik-staples-1.html,RB,11,4,5,9,1.0,0.0,0,0,,0,0,0,0,0,0,,Western Kentucky,2020
+A.J. Brathwaite Jr.,aj-brathwaite-jr-1,/cfb/players/aj-brathwaite-jr-1.html,DB,11,4,4,8,0.0,0.0,0,0,,0,0,1,1,1,0,,Western Kentucky,2020
+Marcus Bragg,marcus-bragg-1,/cfb/players/marcus-bragg-1.html,DT,11,2,5,7,0.0,0.0,0,0,,0,2,0,0,0,0,,Western Kentucky,2020
+Kendrick Simpkins,kendrick-simpkins-1,/cfb/players/kendrick-simpkins-1.html,DB,6,3,2,5,0.0,0.0,0,0,,0,1,0,0,0,0,,Western Kentucky,2020
+Will Ignont,will-ignont-1,/cfb/players/will-ignont-1.html,LB,1,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Western Kentucky,2020
+Steven Witchoskey,steven-witchoskey-1,/cfb/players/steven-witchoskey-1.html,TE,12,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Western Kentucky,2020
+Joey Beljan,joey-beljan-1,/cfb/players/joey-beljan-1.html,TE,12,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Western Kentucky,2020
+T.J. Springer,tj-springer-1,/cfb/players/tj-springer-1.html,DB,6,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Western Kentucky,2020
+C.J. Marria,cj-marria-1,/cfb/players/cj-marria-1.html,DE,6,0,3,3,0.5,0.0,0,0,,0,0,0,0,0,0,,Western Kentucky,2020
+Cory Munson,cory-munson-1,/cfb/players/cory-munson-1.html,K,12,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Western Kentucky,2020
+Talique Allen,talique-allen-1,/cfb/players/talique-allen-1.html,DB,4,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Western Kentucky,2020
+Bryson Washington,bryson-washington-1,/cfb/players/bryson-washington-1.html,LB,7,1,1,2,0.5,0.0,0,0,,0,0,0,0,0,0,,Western Kentucky,2020
+JaQues Evans,jaques-evans-1,/cfb/players/jaques-evans-1.html,DE,7,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Western Kentucky,2020
+Mitchell Tinsley,mitchell-tinsley-1,/cfb/players/mitchell-tinsley-1.html,WR,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Western Kentucky,2020
+Matt Baldeck,matt-baldeck-1,/cfb/players/matt-baldeck-1.html,LS,11,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Western Kentucky,2020
+Noah Whittington,noah-whittington-1,/cfb/players/noah-whittington-1.html,RB,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Western Kentucky,2020
+Mario Wright,mario-wright-2,/cfb/players/mario-wright-2.html,LB,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Western Kentucky,2020
+Bryce Chandler,bryce-chandler-1,/cfb/players/bryce-chandler-1.html,DT,5,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Western Kentucky,2020
+John Blunt Jr.,john-blunt-jr-2,/cfb/players/john-blunt-jr-2.html,,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Western Kentucky,2020
+John Blunt Jr.,john-blunt-jr-1,/cfb/players/john-blunt-jr-1.html,DB,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Western Kentucky,2020
+Jahcour Pearson,jahcour-pearson-1,/cfb/players/jahcour-pearson-1.html,WR,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Western Kentucky,2020
+Desmond Johnson,desmond-johnson-3,/cfb/players/desmond-johnson-3.html,DB,2,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Western Kentucky,2020
+Dayton Wade,dayton-wade-1,/cfb/players/dayton-wade-1.html,WR,8,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Western Kentucky,2020

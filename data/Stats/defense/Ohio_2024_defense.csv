@@ -1,0 +1,47 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Blake Leake,blake-leake-1,/cfb/players/blake-leake-1.html,LB,14,35,56,91,4.0,0.5,1,8,8.0,0,3,0,0,0,1,,Ohio,2024
+Dustin Johnson,dustin-johnson-2,/cfb/players/dustin-johnson-2.html,S,14,46,31,77,1.5,0.0,0,0,,0,4,1,19,0,0,,Ohio,2024
+Shay Taylor,shay-taylor-1,/cfb/players/shay-taylor-1.html,LB,13,30,42,72,10.0,3.0,1,30,30.0,1,4,1,6,0,2,,Ohio,2024
+Marcel Walker,marcel-walker-1,/cfb/players/marcel-walker-1.html,DE,14,33,23,56,7.5,6.0,1,1,1.0,0,2,0,0,0,2,,Ohio,2024
+DJ Walker,dj-walker-3,/cfb/players/dj-walker-3.html,S,14,34,19,53,7.0,0.0,1,0,0.0,0,7,0,0,0,1,,Ohio,2024
+Tank Pearson,tank-pearson-1,/cfb/players/tank-pearson-1.html,CB,13,33,18,51,1.5,0.0,4,1,0.3,0,6,0,0,0,0,,Ohio,2024
+Roman Parodie,roman-parodie-1,/cfb/players/roman-parodie-1.html,CB,13,29,22,51,0.0,0.0,1,13,13.0,0,11,2,2,0,0,,Ohio,2024
+Ben McNaboe,ben-mcnaboe-1,/cfb/players/ben-mcnaboe-1.html,DE,14,15,30,45,7.5,4.0,1,0,0.0,0,3,0,0,0,2,,Ohio,2024
+Bradley Weaver,bradley-weaver-1,/cfb/players/bradley-weaver-1.html,DE,13,24,20,44,15.0,8.5,0,0,,0,0,1,0,0,3,,Ohio,2024
+Austin Brawley,austin-brawley-1,/cfb/players/austin-brawley-1.html,S,7,23,15,38,1.5,0.0,1,0,0.0,0,2,0,0,0,0,,Ohio,2024
+Adonis Williams Jr.,adonis-williams-jr-1,/cfb/players/adonis-williams-jr-1.html,S,9,19,15,34,1.0,0.0,0,0,,0,3,1,0,0,0,,Ohio,2024
+Kadin Schmitz,kadin-schmitz-1,/cfb/players/kadin-schmitz-1.html,DE,14,16,17,33,4.0,3.5,0,0,,0,0,0,0,0,0,,Ohio,2024
+CJ Doggette,cj-doggette-1,/cfb/players/cj-doggette-1.html,DE,13,9,23,32,7.0,3.0,0,0,,0,0,0,0,0,1,,Ohio,2024
+Cam Rice,cam-rice-2,/cfb/players/cam-rice-2.html,DT,12,10,20,30,8.5,3.0,0,0,,0,1,0,0,0,0,,Ohio,2024
+Bralen Henderson,bralen-henderson-1,/cfb/players/bralen-henderson-1.html,DT,14,14,12,26,2.0,1.0,0,0,,0,0,1,0,0,0,,Ohio,2024
+Stellan Bowman,stellan-bowman-1,/cfb/players/stellan-bowman-1.html,LB,12,8,18,26,2.5,0.0,0,0,,0,0,0,0,0,1,,Ohio,2024
+Jalen Thomeson,jalen-thomeson-1,/cfb/players/jalen-thomeson-1.html,S,13,10,11,21,1.0,0.0,0,0,,0,0,0,0,0,0,,Ohio,2024
+Michael Mack II,michael-mack-ii-1,/cfb/players/michael-mack-ii-1.html,CB,14,10,4,14,1.0,0.0,0,0,,0,0,0,0,0,0,,Ohio,2024
+Kaci Seegars,kaci-seegars-2,/cfb/players/kaci-seegars-2.html,DE,12,6,6,12,4.5,1.0,0,0,,0,0,1,0,0,0,,Ohio,2024
+Walter Bob,walter-bob-1,/cfb/players/walter-bob-1.html,DE,7,5,5,10,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio,2024
+Jack Fries,jack-fries-1,/cfb/players/jack-fries-1.html,LB,14,7,2,9,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio,2024
+Chris Mayfield,chris-mayfield-1,/cfb/players/chris-mayfield-1.html,DT,13,1,8,9,2.5,0.5,0,0,,0,0,0,0,0,0,,Ohio,2024
+Tony Mathis,tony-mathis-3,/cfb/players/tony-mathis-3.html,CB,7,6,1,7,0.0,0.0,0,0,,0,1,0,0,0,0,,Ohio,2024
+JT Haskins,jt-haskins-2,/cfb/players/jt-haskins-2.html,S,6,3,2,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio,2024
+Miles Fleming,miles-fleming-2,/cfb/players/miles-fleming-2.html,S,8,2,2,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio,2024
+RJ Keuchler,rj-keuchler-1,/cfb/players/rj-keuchler-1.html,DT,2,1,2,3,1.0,0.0,0,0,,0,0,0,0,0,0,,Ohio,2024
+Reise Collier,reise-collier-1,/cfb/players/reise-collier-1.html,LB,3,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio,2024
+Jake Bruno,jake-bruno-1,/cfb/players/jake-bruno-1.html,TE,14,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio,2024
+Khamani Debrow,khamani-debrow-1,/cfb/players/khamani-debrow-1.html,WR,10,0,3,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio,2024
+Jaylen Johnson,jaylen-johnson-5,/cfb/players/jaylen-johnson-5.html,S,7,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio,2024
+Gianni Spetic,gianni-spetic-1,/cfb/players/gianni-spetic-1.html,K,14,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio,2024
+Austin Mitchell,austin-mitchell-3,/cfb/players/austin-mitchell-3.html,DT,5,1,2,3,0.5,0.5,0,0,,0,0,0,0,0,0,,Ohio,2024
+Kendall Bannister,kendall-bannister-1,/cfb/players/kendall-bannister-1.html,CB,1,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio,2024
+Jay Crable,jay-crable-1,/cfb/players/jay-crable-1.html,DE,7,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio,2024
+Michael Molnar,michael-molnar-1,/cfb/players/michael-molnar-1.html,LB,2,0,2,2,0.5,0.0,0,0,,0,0,0,0,0,0,,Ohio,2024
+Sinn Brennan,sinn-brennan-1,/cfb/players/sinn-brennan-1.html,DE,4,2,0,2,1.0,0.0,0,0,,0,0,0,0,0,0,,Ohio,2024
+Bailey Russ,bailey-russ-1,/cfb/players/bailey-russ-1.html,S,9,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio,2024
+Xander Karagosian,xander-karagosian-1,/cfb/players/xander-karagosian-1.html,S,4,1,1,2,0.5,0.5,0,0,,0,0,0,0,0,0,,Ohio,2024
+Jordon Jones,jordon-jones-1,/cfb/players/jordon-jones-1.html,OL,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio,2024
+Parker Navarro,parker-navarro-1,/cfb/players/parker-navarro-1.html,QB,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio,2024
+Nathan Hale,nathan-hale-1,/cfb/players/nathan-hale-1.html,DT,5,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio,2024
+Max Rodarte,max-rodarte-1,/cfb/players/max-rodarte-1.html,WR,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio,2024
+DJ Morton,dj-morton-1,/cfb/players/dj-morton-1.html,S,4,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio,2024
+Coleman Owen,coleman-owen-1,/cfb/players/coleman-owen-1.html,WR,14,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio,2024
+Aiden Lowery,aiden-lowery-1,/cfb/players/aiden-lowery-1.html,TE,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio,2024
+Colby Garfield,colby-garfield-1,/cfb/players/colby-garfield-1.html,LS,14,0,0,0,0.0,0.0,0,0,,0,0,1,0,0,0,,Ohio,2024

@@ -1,0 +1,43 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Bryce Houston,bryce-houston-1,/cfb/players/bryce-houston-1.html,LB,13,59,68,127,12.5,2.5,3,24,8.0,0,1,1,0,0,1,,Ohio,2023
+Keye Thompson,keye-thompson-1,/cfb/players/keye-thompson-1.html,LB,12,41,52,93,10.0,1.5,1,8,8.0,0,2,3,71,1,1,,Ohio,2023
+Walter Reynolds,walter-reynolds-1,/cfb/players/walter-reynolds-1.html,DB,13,26,45,71,1.5,0.0,2,53,26.5,0,2,0,0,0,0,,Ohio,2023
+Adonis Williams Jr.,adonis-williams-jr-1,/cfb/players/adonis-williams-jr-1.html,S,12,20,19,39,3.5,1.5,1,0,0.0,0,2,0,0,0,0,,Ohio,2023
+Austin Brawley,austin-brawley-1,/cfb/players/austin-brawley-1.html,CB,9,15,24,39,0.5,0.0,2,5,2.5,0,2,1,0,0,0,,Ohio,2023
+Torrie Cox Jr.,torrie-cox-jr-1,/cfb/players/torrie-cox-jr-1.html,CB,12,21,15,36,2.0,1.5,1,22,22.0,0,1,0,0,0,1,,Ohio,2023
+Bradley Weaver,bradley-weaver-1,/cfb/players/bradley-weaver-1.html,DE,13,17,17,34,13.0,6.0,0,0,,0,0,0,0,0,1,,Ohio,2023
+Juan Watkins,juan-watkins-1,/cfb/players/juan-watkins-1.html,DE,13,15,18,33,8.0,5.0,0,0,,0,0,0,0,0,2,,Ohio,2023
+Rayyan Buell,rayyan-buell-1,/cfb/players/rayyan-buell-1.html,DT,13,12,18,30,12.5,4.5,0,0,,0,0,0,0,0,0,,Ohio,2023
+Shane Bonner,shane-bonner-1,/cfb/players/shane-bonner-1.html,DE,13,17,13,30,8.5,4.5,1,21,21.0,1,0,0,0,0,0,,Ohio,2023
+Justin Birchette,justin-birchette-1,/cfb/players/justin-birchette-1.html,CB,12,16,13,29,2.5,0.0,0,0,,0,9,0,0,0,0,,Ohio,2023
+Jeremiah Wood,jeremiah-wood-1,/cfb/players/jeremiah-wood-1.html,S,10,9,17,26,2.5,0.0,1,0,0.0,0,4,0,0,0,1,,Ohio,2023
+Bralen Henderson,bralen-henderson-1,/cfb/players/bralen-henderson-1.html,DT,12,8,13,21,2.0,1.0,0,0,,0,0,0,0,0,1,,Ohio,2023
+Rodney Mathews,rodney-mathews-2,/cfb/players/rodney-mathews-2.html,DT,13,3,17,20,4.5,0.5,1,0,0.0,0,1,0,0,0,0,,Ohio,2023
+Roman Parodie,roman-parodie-1,/cfb/players/roman-parodie-1.html,CB,13,11,9,20,2.0,0.0,0,0,,0,1,2,58,1,1,,Ohio,2023
+Shay Taylor,shay-taylor-1,/cfb/players/shay-taylor-1.html,LB,11,9,11,20,1.5,1.0,0,0,,0,0,1,0,0,1,,Ohio,2023
+Kwame Sutton,kwame-sutton-1,/cfb/players/kwame-sutton-1.html,DE,10,5,14,19,2.5,2.0,0,0,,0,0,0,0,0,0,,Ohio,2023
+Ben Johnson,ben-johnson-4,/cfb/players/ben-johnson-4.html,S,13,3,14,17,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio,2023
+Tank Pearson,tank-pearson-1,/cfb/players/tank-pearson-1.html,CB,13,8,8,16,1.5,0.0,2,4,2.0,0,1,0,0,0,0,,Ohio,2023
+Tristan Cox,tristan-cox-2,/cfb/players/tristan-cox-2.html,DT,12,3,6,9,1.0,0.5,0,0,,0,0,0,0,0,0,,Ohio,2023
+Michael Molnar,michael-molnar-1,/cfb/players/michael-molnar-1.html,LB,13,1,8,9,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio,2023
+John Motton,john-motton-2,/cfb/players/john-motton-2.html,S,13,4,4,8,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio,2023
+Dylan Stevens,dylan-stevens-1,/cfb/players/dylan-stevens-1.html,LB,13,4,3,7,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio,2023
+Caden Campolieti,caden-campolieti-1,/cfb/players/caden-campolieti-1.html,LB,12,2,4,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio,2023
+Jalen Thomeson,jalen-thomeson-1,/cfb/players/jalen-thomeson-1.html,S,8,2,4,6,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio,2023
+Kobi Gorman,kobi-gorman-1,/cfb/players/kobi-gorman-1.html,DT,10,4,1,5,1.0,1.0,0,0,,0,0,0,0,0,0,,Ohio,2023
+Mekah Ryder,mekah-ryder-1,/cfb/players/mekah-ryder-1.html,CB,10,0,5,5,0.0,0.0,0,0,,0,1,0,0,0,0,,Ohio,2023
+Dontay Hunter II,dontay-hunter-ii-1,/cfb/players/dontay-hunter-ii-1.html,DE,7,3,2,5,2.0,2.0,0,0,,0,0,0,0,0,0,,Ohio,2023
+Kaci Seegars,kaci-seegars-2,/cfb/players/kaci-seegars-2.html,DE,10,1,3,4,0.0,0.0,0,0,,0,0,0,0,0,1,,Ohio,2023
+Alex Kasee,alex-kasee-1,/cfb/players/alex-kasee-1.html,K,13,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio,2023
+Sieh Bangura,sieh-bangura-1,/cfb/players/sieh-bangura-1.html,RB,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio,2023
+Keegan Wilburn,keegan-wilburn-1,/cfb/players/keegan-wilburn-1.html,WR,11,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio,2023
+Quintell Quinn,quintell-quinn-1,/cfb/players/quintell-quinn-1.html,RB,7,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio,2023
+Parker Navarro,parker-navarro-1,/cfb/players/parker-navarro-1.html,QB,6,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio,2023
+Ryan Logan,ryan-logan-1,/cfb/players/ryan-logan-1.html,DE,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio,2023
+Miles Fleming,miles-fleming-2,/cfb/players/miles-fleming-2.html,S,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio,2023
+Kendall Bannister,kendall-bannister-1,/cfb/players/kendall-bannister-1.html,CB,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio,2023
+Shedrick Rhodes Jr.,shedrick-rhodes-jr-1,/cfb/players/shedrick-rhodes-jr-1.html,OL,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio,2023
+Kadin Schmitz,kadin-schmitz-1,/cfb/players/kadin-schmitz-1.html,DE,11,1,0,1,1.0,1.0,0,0,,0,0,0,0,0,0,,Ohio,2023
+DJ Walker,dj-walker-3,/cfb/players/dj-walker-3.html,S,4,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio,2023
+Bryce Butler,bryce-butler-1,/cfb/players/bryce-butler-1.html,TE,13,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio,2023
+Andrew Marshall,andrew-marshall-3,/cfb/players/andrew-marshall-3.html,LB,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Ohio,2023

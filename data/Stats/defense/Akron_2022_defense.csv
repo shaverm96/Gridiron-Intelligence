@@ -1,0 +1,47 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Bubba Arslanian,bubba-arslanian-1,/cfb/players/bubba-arslanian-1.html,LB,12,60,72,132,10.5,1.0,1,5,5.0,0,2,0,0,0,0,,Akron,2022
+Nate Thompson,nate-thompson-1,/cfb/players/nate-thompson-1.html,DB,12,38,35,73,2.0,0.0,0,0,,0,1,0,0,0,0,,Akron,2022
+Darrian Lewis,darrian-lewis-1,/cfb/players/darrian-lewis-1.html,DB,12,30,26,56,3.5,1.0,1,20,20.0,0,6,1,0,0,0,,Akron,2022
+Victor Jones,victor-jones-5,/cfb/players/victor-jones-5.html,DL,12,24,29,53,11.5,5.5,0,0,,0,3,0,0,0,0,,Akron,2022
+Kerry Martin Jr.,kerry-martin-jr-1,/cfb/players/kerry-martin-jr-1.html,DB,11,30,23,53,3.0,0.0,1,0,0.0,0,1,0,0,0,0,,Akron,2022
+Tim Terry Jr.,tim-terry-jr-1,/cfb/players/tim-terry-jr-1.html,LB,10,30,16,46,2.5,0.0,0,0,,0,1,0,0,0,0,,Akron,2022
+Tyson Durant,tyson-durant-1,/cfb/players/tyson-durant-1.html,DB,12,22,17,39,0.5,0.0,3,108,36.0,1,6,0,0,0,0,,Akron,2022
+Andrew Behm,andrew-behm-1,/cfb/players/andrew-behm-1.html,LB,12,11,18,29,0.5,0.0,0,0,,0,2,0,0,0,1,,Akron,2022
+Jaden Woods,jaden-woods-1,/cfb/players/jaden-woods-1.html,DB,12,6,23,29,0.5,0.0,0,0,,0,2,0,0,0,0,,Akron,2022
+Zach Morton,zach-morton-1,/cfb/players/zach-morton-1.html,DL,12,12,16,28,8.0,4.5,1,17,17.0,0,3,0,0,0,2,,Akron,2022
+Rishad Hence,rishad-hence-1,/cfb/players/rishad-hence-1.html,DB,11,18,10,28,0.0,0.0,0,0,,0,2,0,0,0,0,,Akron,2022
+Ryan Johnson,ryan-johnson-10,/cfb/players/ryan-johnson-10.html,DL,12,12,14,26,3.0,1.0,0,0,,0,1,0,0,0,0,,Akron,2022
+Jesslord Boateng,jesslord-boateng-1,/cfb/players/jesslord-boateng-1.html,LB,10,13,13,26,3.5,0.0,0,0,,0,1,0,0,0,0,,Akron,2022
+Bryan McCoy,bryan-mccoy-1,/cfb/players/bryan-mccoy-1.html,LB,10,12,11,23,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2022
+Jalen Hooks,jalen-hooks-1,/cfb/players/jalen-hooks-1.html,DB,10,14,7,21,0.0,0.0,1,0,0.0,0,2,0,0,0,0,,Akron,2022
+Ravontae Holt,ravontae-holt-1,/cfb/players/ravontae-holt-1.html,DL,8,3,15,18,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2022
+Curtis Harper,curtis-harper-1,/cfb/players/curtis-harper-1.html,DL,12,8,10,18,3.5,2.5,1,1,1.0,0,1,0,0,0,1,,Akron,2022
+Jaylen Kelly-Powell,jaylen-kelly-powell-1,/cfb/players/jaylen-kelly-powell-1.html,DB,6,8,10,18,1.0,1.0,0,0,,0,0,0,0,0,0,,Akron,2022
+Antavious Fish,antavious-fish-1,/cfb/players/antavious-fish-1.html,LB,10,8,8,16,2.5,2.0,0,0,,0,0,0,0,0,0,,Akron,2022
+Kyle Thomas,kyle-thomas-1,/cfb/players/kyle-thomas-1.html,DL,12,5,9,14,0.5,0.0,0,0,,0,0,0,0,0,0,,Akron,2022
+Corey Thomas Jr.,corey-thomas-jr-1,/cfb/players/corey-thomas-jr-1.html,LB,10,8,3,11,0.0,0.0,0,0,,0,0,1,0,0,0,,Akron,2022
+Devonte Golden-Nelson,devonte-golden-nelson-1,/cfb/players/devonte-golden-nelson-1.html,DB,4,9,2,11,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2022
+Julian Richardson,julian-richardson-1,/cfb/players/julian-richardson-1.html,DL,8,3,6,9,0.5,0.0,0,0,,0,0,0,0,0,0,,Akron,2022
+Bryce Wilson,bryce-wilson-1,/cfb/players/bryce-wilson-1.html,DL,7,1,8,9,0.5,0.0,0,0,,0,0,0,0,0,0,,Akron,2022
+Charles Amankwaa,charles-amankwaa-1,/cfb/players/charles-amankwaa-1.html,DB,4,4,1,5,0.0,0.0,0,0,,0,3,0,0,0,0,,Akron,2022
+Devon Robinson,devon-robinson-1,/cfb/players/devon-robinson-1.html,DL,5,2,3,5,0.0,0.0,0,0,,0,0,1,0,0,0,,Akron,2022
+Cam Threatt,cam-threatt-2,/cfb/players/cam-threatt-2.html,DB,4,4,1,5,0.0,0.0,0,0,,0,1,0,0,0,0,,Akron,2022
+Clyde Price,clyde-price-1,/cfb/players/clyde-price-1.html,RB,12,4,1,5,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2022
+Nazir Sy,nazir-sy-1,/cfb/players/nazir-sy-1.html,DL,2,2,2,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2022
+Shawn Naim,shawn-naim-1,/cfb/players/shawn-naim-1.html,WR,10,4,0,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2022
+Ronald Jackson Jr.,ronald-jackson-jr-1,/cfb/players/ronald-jackson-jr-1.html,DB,4,1,3,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2022
+Dontae Pollard,dontae-pollard-1,/cfb/players/dontae-pollard-1.html,DB,12,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2022
+Zach DiLauro,zach-dilauro-1,/cfb/players/zach-dilauro-1.html,LB,3,1,2,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2022
+Logan Hawkins,logan-hawkins-1,/cfb/players/logan-hawkins-1.html,DL,9,1,2,3,0.5,0.5,0,0,,0,0,0,0,0,0,,Akron,2022
+Shocky Jacques-Louis,shocky-jacques-louis-1,/cfb/players/shocky-jacques-louis-1.html,WR,12,3,0,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2022
+Chukwudifu Ogbonna,chukwudifu-ogbonna-1,/cfb/players/chukwudifu-ogbonna-1.html,DB,6,0,2,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2022
+Blake Hester,blake-hester-1,/cfb/players/blake-hester-1.html,RB,12,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2022
+Noah Gettman,noah-gettman-1,/cfb/players/noah-gettman-1.html,P,12,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2022
+Bobby Golden,bobby-golden-2,/cfb/players/bobby-golden-2.html,WR,9,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2022
+Bennett Adler,bennett-adler-1,/cfb/players/bennett-adler-1.html,DL,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2022
+Tony Georges,tony-georges-1,/cfb/players/tony-georges-1.html,OL,12,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2022
+Kyle Bauman,kyle-bauman-1,/cfb/players/kyle-bauman-1.html,LS,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2022
+Angelo Howze,angelo-howze-1,/cfb/players/angelo-howze-1.html,DL,12,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2022
+Demarcus Irons Jr.,demarcus-irons-jr-1,/cfb/players/demarcus-irons-jr-1.html,QB,10,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2022
+Alex Adams,alex-adams-1,/cfb/players/alex-adams-1.html,WR,11,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Akron,2022
+Sean Conroy,sean-conroy-1,/cfb/players/sean-conroy-1.html,DB,12,0,0,0,0.0,0.0,0,0,,0,0,1,0,0,0,,Akron,2022

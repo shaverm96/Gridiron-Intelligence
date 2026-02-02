@@ -1,0 +1,37 @@
+Player,Player_ID,Player_Link,pos,games,tackles_solo,tackles_assists,tackles_combined,tackles_loss,sacks,def_int,def_int_yds,def_int_yds_per_int,def_int_td,pass_defended,fumbles_rec,fumbles_rec_yds,fumbles_rec_td,fumbles_forced,awards,School,Year
+Devin Lloyd,devin-lloyd-1,/cfb/players/devin-lloyd-1.html,LB,5,33,15,48,10.0,2.0,0,0,,0,0,0,0,0,1,,Utah,2020
+Nephi Sewell,nephi-sewell-1,/cfb/players/nephi-sewell-1.html,LB,5,27,13,40,5.0,0.0,2,11,5.5,0,2,2,23,1,1,,Utah,2020
+Nate Ritchie,nate-ritchie-2,/cfb/players/nate-ritchie-2.html,,5,18,10,28,3.5,1.0,0,0,,0,1,1,9,0,0,,Utah,2020
+Nate Ritchie,nate-ritchie-1,/cfb/players/nate-ritchie-1.html,S,5,18,9,27,3.0,1.0,0,0,,0,1,1,0,0,0,,Utah,2020
+Jatravis Broughton,jatravis-broughton-1,/cfb/players/jatravis-broughton-1.html,CB,5,18,8,26,1.5,0.0,0,0,,0,4,1,0,0,0,,Utah,2020
+Clark Phillips III,clark-phillips-iii-1,/cfb/players/clark-phillips-iii-1.html,CB,5,22,3,25,2.0,0.0,1,36,36.0,1,2,1,11,0,0,,Utah,2020
+Vonte Davis,vonte-davis-1,/cfb/players/vonte-davis-1.html,S,5,11,5,16,1.0,1.0,2,53,26.5,0,2,0,0,0,1,,Utah,2020
+Mika Tafua,mika-tafua-1,/cfb/players/mika-tafua-1.html,DE,5,10,4,14,3.0,3.0,0,0,,0,2,0,0,0,1,,Utah,2020
+Sione Fotu,sione-fotu-2,/cfb/players/sione-fotu-2.html,LB,5,7,6,13,0.0,0.0,0,0,,0,1,0,0,0,0,,Utah,2020
+Tennessee Pututau,tennessee-pututau-1,/cfb/players/tennessee-pututau-1.html,DL,5,3,7,10,2.0,0.0,0,0,,0,0,0,0,0,0,,Utah,2020
+Hauati Pututau,hauati-pututau-1,/cfb/players/hauati-pututau-1.html,DE,3,5,5,10,3.0,2.0,0,0,,0,1,0,0,0,0,,Utah,2020
+Maxs Tupai,maxs-tupai-1,/cfb/players/maxs-tupai-1.html,DE,5,4,2,6,1.0,1.0,0,0,,0,1,0,0,0,2,,Utah,2020
+Devin Kaufusi,devin-kaufusi-1,/cfb/players/devin-kaufusi-1.html,DE,5,4,2,6,1.0,0.0,0,0,,0,2,1,0,0,0,,Utah,2020
+Faybian Marks,faybian-marks-1,/cfb/players/faybian-marks-1.html,CB,5,2,3,5,0.0,0.0,1,28,28.0,0,1,0,0,0,0,,Utah,2020
+Malone Mataele,malone-mataele-1,/cfb/players/malone-mataele-1.html,CB,4,4,1,5,0.0,0.0,0,0,,0,3,0,0,0,0,,Utah,2020
+Kamo'i Latu,kamoi-latu-1,/cfb/players/kamoi-latu-1.html,S,5,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah,2020
+Viane Moala,viane-moala-1,/cfb/players/viane-moala-1.html,DT,4,1,3,4,0.0,0.0,0,0,,0,1,0,0,0,0,,Utah,2020
+Moroni Anae,moroni-anae-1,/cfb/players/moroni-anae-1.html,LB,5,3,1,4,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah,2020
+Andrew Mata'afa,andrew-mataafa-1,/cfb/players/andrew-mataafa-1.html,LB,5,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah,2020
+Van Fillinger,van-fillinger-1,/cfb/players/van-fillinger-1.html,DE,5,2,1,3,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah,2020
+Braedon E. Daniels,braedon-e-daniels-1,/cfb/players/braedon-e-daniels-1.html,OL,5,2,0,2,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah,2020
+Blake Kuithe,blake-kuithe-1,/cfb/players/blake-kuithe-1.html,DE,2,1,1,2,0.0,0.0,0,0,,0,0,0,0,0,1,,Utah,2020
+Skyler Southam,skyler-southam-1,/cfb/players/skyler-southam-1.html,K,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah,2020
+Jordan Noyles,jordan-noyles-1,/cfb/players/jordan-noyles-1.html,K,1,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah,2020
+Ty Jordan,ty-jordan-1,/cfb/players/ty-jordan-1.html,RB,5,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah,2020
+Xavier Carlton,xavier-carlton-1,/cfb/players/xavier-carlton-1.html,DE,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah,2020
+Zemaiah Vaughn,zemaiah-vaughn-1,/cfb/players/zemaiah-vaughn-1.html,S,4,1,0,1,0.0,0.0,1,73,73.0,0,0,0,0,0,0,,Utah,2020
+Jordan Noyes,jordan-noyes-1,/cfb/players/jordan-noyes-1.html,,5,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah,2020
+Hayden Furey,hayden-furey-1,/cfb/players/hayden-furey-1.html,LB,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah,2020
+Drew Rawls,drew-rawls-1,/cfb/players/drew-rawls-1.html,CB,2,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah,2020
+Dalton Kincaid,dalton-kincaid-1,/cfb/players/dalton-kincaid-1.html,TE,5,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah,2020
+Cameron Gardner,cameron-gardner-3,/cfb/players/cameron-gardner-3.html,WR,4,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah,2020
+Caine Savage,caine-savage-1,/cfb/players/caine-savage-1.html,CB,3,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah,2020
+Britain Covey,britain-covey-1,/cfb/players/britain-covey-1.html,WR,4,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah,2020
+Brant Kuithe,brant-kuithe-1,/cfb/players/brant-kuithe-1.html,TE,5,1,0,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah,2020
+Ben Renfro,ben-renfro-1,/cfb/players/ben-renfro-1.html,S,1,0,1,1,0.0,0.0,0,0,,0,0,0,0,0,0,,Utah,2020
