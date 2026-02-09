@@ -29,9 +29,11 @@ To overcome the fundamental limitation that large language models struggle with 
 
 ---
 
-## Current Status: Phase 1 - Data Engineering
+## Current Status: Phase 2.5 - LangChain Orchestration
 
-### Completed Tasks
+### Phase 1 - Data Engineering ✅ COMPLETED
+
+#### Completed Tasks
 
 #### Data Collection
 - **Recruitment Data**: High school football recruits from Class of 2015-2028
@@ -92,12 +94,30 @@ To overcome the fundamental limitation that large language models struggle with 
 ✓ Standardized naming conventions and school mappings  
 ✓ Refactored all processing scripts to use portable relative paths for team collaboration  
 
+### Phase 2 - LLM Integration ✅ COMPLETED
+
+#### Key Achievements
+✓ Successfully integrated Gemini API (gemini-2.0-flash-exp) for narrative generation  
+✓ Developed sophisticated prompt engineering with persona-driven approach  
+✓ Implemented 7-metric validation framework (85%+ pass rate required)  
+✓ Established baseline performance: <2s latency, ~400-500 tokens per report  
+✓ Created dual-engine architecture separating quantitative (XGBoost simulation) from qualitative (LLM) reasoning  
+✓ Prototype notebook: `notebooks/gemini_scout_engine.ipynb`  
+
+#### Current Implementation
+- **Scout Engine**: Direct Gemini API integration with structured prompt template
+- **RAG System**: Tag-based fact retrieval (6 curated QB insights)
+- **Validation**: Quality checks for terminology, structure, and context usage
+- **Cost**: ~$0.08 per 1M input tokens, ~$0.4 per 1M output tokens
+
 ### Project Structure
 ```
 Gridiron_Intelligence/
 ├── notebooks/
-│   ├── sports_ref_scraper.ipynb          # Data collection
-│   └── recruit_to_roster_matcher_v2.ipynb # Name resolution
+│   ├── sports_ref_scraper.ipynb           # Data collection
+│   ├── recruit_to_roster_matcher_v2.ipynb # Name resolution
+│   ├── gemini_scout_engine.ipynb          # Phase 2: Direct Gemini API prototype
+│   └── langchain_scout_template.ipynb     # Phase 2.5: LangChain orchestration
 ├── data/
 │   ├── compiled_player_stats_with_defense.csv  # Integrated ground truth
 │   ├── Football Reruitment Tables/
@@ -115,77 +135,156 @@ Gridiron_Intelligence/
 
 ---
 
-## Next Phase: Phase 2 - LLM Integration & Model Selection
+## Roadmap: Phases 2.5 - 6
 
-### Milestone: LLM Experimentation & Baseline Establishment
+### Phase 2.5: LangChain Orchestration 🔄 IN PROGRESS
 
-#### Task 1: Multi-Model Experimentation
-- [ ] Configure and test multiple LLM candidates:
-  - **Gemini API** (Primary candidate): Evaluate for quality and cost-effectiveness
-  - Comparison models: Claude, GPT-4, other domain-relevant alternatives
-- [ ] Establish consistent testing harness with representative examples
-- [ ] Test prompt engineering approaches specific to scouting domain
+**Objective:** Modernize Scout Engine with LangChain for modularity, testing, and conversational capabilities.
 
-#### Task 2: Representative Test Cases
-- [ ] Build test dataset with:
-  - Sample recruit profiles (High school stats, measurables, star rating)
-  - Quant Engine scores (projected outcomes)
-  - Desired narrative output (scout perspective)
-- [ ] Test prompt: "Analyze this recruit as a college scout would. Explain why the model projects [SCORE]. Reference similar players and key indicators."
-- [ ] Iteratively refine prompts for output quality, consistency, and reasoning clarity
+**Notebook:** `notebooks/langchain_scout_template.ipynb`
 
-#### Task 3: Model Selection Rationale
-Document comparison across:
-- **Output Quality**: Realism of scouting language, accuracy of reasoning, coherence
-- **Cost**: Per-token pricing, cost per scouting card generation
-- **Latency**: Response time for real-time card generation
-- **Reliability**: Uptime, API stability, documentation quality
+#### Implemented Features
+- [x] `PromptTemplate`: Modular prompt engineering with template variables (replaces string concatenation)
+- [x] `ChatGoogleGenerativeAI`: Gemini wrapper for model abstraction and easy swapping
+- [x] `LLMChain`: Sequential orchestration of Quant → RAG → Scout pipeline
+- [x] `ConversationBufferMemory`: Store player context for follow-up Q&A without regenerating reports
+- [x] Tag-based RAG with ChromaDB migration path documented
+- [x] Validation framework ported from Phase 2 prototype
+- [x] Synthetic data factory with real-data integration hooks
 
-#### Task 4: Baseline Performance Metrics
-- [ ] Establish performance benchmarks for selected model(s):
-  - Average response quality (scored by domain experts)
-  - Consistency across similar player profiles
-  - Factual accuracy verification
-  - Output length and readability metrics
+#### Key Improvements Over Phase 2
+- **Model Flexibility**: Abstract interface for testing Claude, GPT-4, or other LLMs
+- **Prompt Versioning**: Template system enables A/B testing and prompt iteration
+- **Conversational Context**: Ask follow-up questions ("Why did he score 78?", "What's his biggest weakness?") without full regeneration
+- **Production Ready**: Structured for real data integration with load_real_player() stubs
+
+#### Next Steps
+- [ ] Test with multiple player profiles (different positions, star ratings, school tiers)
+- [ ] Benchmark LangChain vs. direct API (latency, token usage)
+- [ ] Document prompt template variants for A/B testing
+- [ ] Add OutputParser for structured validation
 
 ---
 
-## Future Roadmap
+### Phase 3: Quantitative Model Training (XGBoost Production)
 
-### Phase 3: Quantitative Model Development
-- Build and train XGBoost classifier on matched recruit-to-outcome dataset
-- Hyperparameter tuning and cross-validation
-- Feature importance analysis
+**Objective:** Replace simulated Quant Engine with trained XGBoost classifier.
 
-### Phase 4: RAG & Context Enhancement
-- Integrate historical player comparison retrieval
-- Build vector database of similar player archetypes
-- Enhance prompt context with relevant statistics
+#### Tasks
+- [ ] Feature engineering from `all_matches_combined.csv`:
+  - Measurables (height, weight, BMI)
+  - Production metrics (yards, TDs, efficiency)
+  - Contextual factors (star rating, geography, school tier)
+- [ ] Train/test split on recruit classes (2015-2019 train, 2020-2021 test)
+- [ ] Target variable: College outcome tier (NFL Draft, Power 4 Starter, G5, etc.)
+- [ ] Hyperparameter tuning (GridSearchCV, cross-validation)
+- [ ] Feature importance analysis and SHAP values
+- [ ] Model persistence and versioning
 
-### Phase 5: Production System
-- Build full scouting card generation pipeline
-- API interface for card requests
-- Performance monitoring and model retraining
+**Expected Output:** `models/quant_engine_v1.pkl` with 70%+ accuracy on test set
+
+---
+
+### Phase 4: Advanced RAG with Vector Search
+
+**Objective:** Upgrade from tag-based retrieval to semantic search with ChromaDB.
+
+#### Tasks
+- [ ] Build vector database from historical player profiles:
+  - Embed player archetypes from `all_matches_combined.csv`
+  - Store college outcomes, development trajectories, and performance data
+  - Index by position, measurables, school tier
+- [ ] Implement semantic search:
+  - Convert player profiles to embeddings (sentence-transformers)
+  - Query for top-k similar players (k=5)
+  - Return comparison players with outcome context
+- [ ] Enhance RAG insights:
+  - Replace hardcoded fact bank with dynamic retrieval
+  - Include historical player comparisons ("Similar to [Player X] who became...")
+  - Cite data sources and statistical significance
+- [ ] ChromaDB persistence: `data/chromadb/player_vectors/`
+
+**Expected Output:** RAG retrieval with semantic relevance, historical player comparisons
+
+---
+
+### Phase 5: Multi-Model Experimentation & Cost Optimization
+
+**Objective:** Compare LLM performance and optimize for cost/quality tradeoff.
+
+#### Tasks
+- [ ] Implement multi-model testing:
+  - Gemini (current baseline)
+  - Claude (Anthropic)
+  - GPT-4 (OpenAI)
+  - Llama 3 (local deployment option)
+- [ ] Benchmark framework:
+  - Output quality (domain expert scoring)
+  - Cost per report
+  - Latency (p50, p95, p99)
+  - Terminology accuracy
+- [ ] Prompt optimization per model (different models may need tailored prompts)
+- [ ] Fallback chain for reliability (if primary model fails, use backup)
+
+**Expected Output:** Model recommendation matrix with cost/quality tradeoffs
+
+---
+
+### Phase 6: Agent Architecture & Advanced Features
+
+**Objective:** Enable interactive, tool-augmented scouting with multi-turn reasoning.
+
+#### Features
+- [ ] **ConversationalRetrievalChain**: Advanced Q&A with document retrieval
+- [ ] **Agent Tools**:
+  - `query_player_stats`: Fetch specific stats on-demand from CSV data
+  - `compare_players`: Side-by-side differential analysis
+  - `generate_depth_chart`: Position-specific rankings for recruiting classes
+  - `explain_quant_score`: Break down XGBoost feature contributions
+- [ ] **Memory Systems**:
+  - `ConversationBufferWindowMemory`: Multi-session context
+  - `VectorStoreRetrieverMemory`: Reference historical evaluations
+- [ ] **Player Comparison Feature** (Stretch Goal):
+  - Compare two players with differential Quant analysis
+  - Recruitment priority recommendation
+  - Fit analysis for specific team schemes
+
+**Expected Output:** Interactive scouting assistant with tool use and multi-turn reasoning
 
 ---
 
 ## Dependencies
 
 See `requirements.txt` for full list. Key packages:
+
+**Data Engineering (Phase 1):**
 - `pandas`: Data manipulation
 - `requests`, `beautifulsoup4`: Web scraping
 - `fuzzywuzzy`: Fuzzy string matching
-- `xgboost`: Quantitative model (Phase 3)
-- `google-cloud-generativeai`: Gemini API integration (Phase 2)
+
+**LLM Integration (Phase 2 & 2.5):**
+- `google-generativeai`: Direct Gemini API (Phase 2 prototype)
+- `langchain`: Orchestration framework (Phase 2.5)
+- `langchain-google-genai`: LangChain Gemini wrapper
+- `python-dotenv`: Environment variable management
+
+**RAG & Vector Search (Phase 4):**
+- `chromadb`: Vector database for semantic search
+- `sentence-transformers`: Embedding generation (future)
+
+**Quantitative Modeling (Phase 3):**
+- `xgboost`: Gradient boosting classifier
+- `scikit-learn`: Model evaluation and preprocessing
 
 ---
 
 ## Getting Started
 
 1. **Install dependencies**: `pip install -r requirements.txt`
-2. **Data Collection**: Run `notebooks/sports_ref_scraper.ipynb` to gather college statistics
-3. **Name Matching**: Run `notebooks/recruit_to_roster_matcher_v2.ipynb` to build ground truth dataset
-4. **LLM Testing** (Phase 2): Follow experimentation protocol in Phase 2 section
+2. **Data Collection** (Phase 1): Run `notebooks/sports_ref_scraper.ipynb` to gather college statistics
+3. **Name Matching** (Phase 1): Run `notebooks/recruit_to_roster_matcher_v2.ipynb` to build ground truth dataset
+4. **LLM Prototype** (Phase 2): Explore `notebooks/gemini_scout_engine.ipynb` for direct Gemini API implementation
+5. **LangChain Template** (Phase 2.5): Run `notebooks/langchain_scout_template.ipynb` for orchestrated scout engine with conversational memory
 
 ---
 

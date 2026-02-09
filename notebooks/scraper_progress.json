@@ -1,0 +1,264 @@
+{
+  "scrapes": {
+    "2016_receiving": {
+      "status": "completed",
+      "completed": "2026-02-05T10:53:00.884671",
+      "total_rows": 500
+    },
+    "2017_returns": {
+      "status": "completed",
+      "completed": "2026-02-05T12:10:15.164589",
+      "total_rows": 300
+    },
+    "2018_tackles": {
+      "status": "completed",
+      "completed": "2026-02-05T19:58:14.858369",
+      "total_rows": 300
+    },
+    "2018_returns": {
+      "status": "completed",
+      "completed": "2026-02-05T11:02:11.991793",
+      "total_rows": 500
+    },
+    "2019_rushing": {
+      "status": "completed",
+      "completed": "2026-02-05T11:06:45.631907",
+      "total_rows": 500
+    },
+    "2019_tackles": {
+      "status": "completed",
+      "completed": "2026-02-05T11:12:50.045840",
+      "total_rows": 500
+    },
+    "2020_tackles": {
+      "status": "completed",
+      "completed": "2026-02-05T15:54:20.881243",
+      "total_rows": 500
+    },
+    "2021_tackles": {
+      "status": "completed",
+      "completed": "2026-02-05T16:08:24.071898",
+      "total_rows": 500
+    },
+    "2021_returns": {
+      "status": "completed",
+      "completed": "2026-02-05T16:14:02.753219",
+      "total_rows": 500
+    },
+    "2022_passing": {
+      "status": "completed",
+      "completed": "2026-02-05T16:32:16.930251",
+      "total_rows": 500
+    },
+    "2022_tackles": {
+      "status": "completed",
+      "completed": "2026-02-05T11:30:07.229000",
+      "total_rows": 500
+    },
+    "2022_returns": {
+      "status": "completed",
+      "completed": "2026-02-05T16:41:28.419632",
+      "total_rows": 500
+    },
+    "2025_passing": {
+      "status": "completed",
+      "completed": "2026-02-06T16:48:15.247287",
+      "total_rows": 150
+    },
+    "2015_sacks": {
+      "status": "completed",
+      "completed": "2026-02-05T15:20:23.128708",
+      "total_rows": 450
+    },
+    "2016_sacks": {
+      "status": "completed",
+      "completed": "2026-02-05T15:27:47.557761",
+      "total_rows": 500
+    },
+    "2017_sacks": {
+      "status": "completed",
+      "completed": "2026-02-05T12:19:32.274250",
+      "total_rows": 500
+    },
+    "2011_passing": {
+      "status": "completed",
+      "completed": "2026-02-05T12:42:57.250639",
+      "total_rows": 500
+    },
+    "2011_rushing": {
+      "status": "completed",
+      "completed": "2026-02-05T12:52:10.370393",
+      "total_rows": 500
+    },
+    "2011_receiving": {
+      "status": "completed",
+      "completed": "2026-02-05T13:04:29.099444",
+      "total_rows": 500
+    },
+    "2011_tackles": {
+      "status": "completed",
+      "completed": "2026-02-05T13:15:10.662103",
+      "total_rows": 500
+    },
+    "2011_interceptions": {
+      "status": "completed",
+      "completed": "2026-02-05T13:22:26.517214",
+      "total_rows": 500
+    },
+    "2011_returns": {
+      "status": "completed",
+      "completed": "2026-02-05T13:28:11.235448",
+      "total_rows": 500
+    },
+    "2011_sacks": {
+      "status": "completed",
+      "completed": "2026-02-05T13:33:55.125353",
+      "total_rows": 500
+    },
+    "2012_passing": {
+      "status": "completed",
+      "completed": "2026-02-05T19:25:54.728661",
+      "total_rows": 500
+    },
+    "2012_rushing": {
+      "status": "completed",
+      "completed": "2026-02-05T19:29:58.485160",
+      "total_rows": 500
+    },
+    "2012_receiving": {
+      "status": "completed",
+      "completed": "2026-02-05T13:47:44.539991",
+      "total_rows": 500
+    },
+    "2012_tackles": {
+      "status": "completed",
+      "completed": "2026-02-05T13:53:27.984787",
+      "total_rows": 500
+    },
+    "2012_interceptions": {
+      "status": "completed",
+      "completed": "2026-02-05T13:59:00.671115",
+      "total_rows": 500
+    },
+    "2012_returns": {
+      "status": "completed",
+      "completed": "2026-02-05T14:06:24.839370",
+      "total_rows": 500
+    },
+    "2012_sacks": {
+      "status": "completed",
+      "completed": "2026-02-05T14:12:03.222734",
+      "total_rows": 500
+    },
+    "2013_passing": {
+      "status": "completed",
+      "completed": "2026-02-05T19:37:35.391347",
+      "total_rows": 500
+    },
+    "2013_rushing": {
+      "status": "completed",
+      "completed": "2026-02-05T19:43:29.097263",
+      "total_rows": 500
+    },
+    "2013_receiving": {
+      "status": "completed",
+      "completed": "2026-02-05T14:22:31.173620",
+      "total_rows": 500
+    },
+    "2013_tackles": {
+      "status": "completed",
+      "completed": "2026-02-05T14:28:12.189240",
+      "total_rows": 500
+    },
+    "2013_interceptions": {
+      "status": "completed",
+      "completed": "2026-02-05T14:33:45.808711",
+      "total_rows": 500
+    },
+    "2013_returns": {
+      "status": "completed",
+      "completed": "2026-02-05T14:41:12.262522",
+      "total_rows": 500
+    },
+    "2013_sacks": {
+      "status": "completed",
+      "completed": "2026-02-05T14:46:55.609550",
+      "total_rows": 500
+    },
+    "2014_passing": {
+      "status": "completed",
+      "completed": "2026-02-05T14:51:00.254691",
+      "total_rows": 500
+    },
+    "2014_rushing": {
+      "status": "completed",
+      "completed": "2026-02-05T14:55:03.681525",
+      "total_rows": 500
+    },
+    "2014_receiving": {
+      "status": "completed",
+      "completed": "2026-02-05T14:59:04.007311",
+      "total_rows": 500
+    },
+    "2014_tackles": {
+      "status": "completed",
+      "completed": "2026-02-05T19:50:58.237784",
+      "total_rows": 500
+    },
+    "2014_interceptions": {
+      "status": "completed",
+      "completed": "2026-02-05T19:54:51.711259",
+      "total_rows": 500
+    },
+    "2014_returns": {
+      "status": "completed",
+      "completed": "2026-02-05T15:07:58.651942",
+      "total_rows": 500
+    },
+    "2014_sacks": {
+      "status": "completed",
+      "completed": "2026-02-05T15:15:23.150483",
+      "total_rows": 500
+    },
+    "2018_sacks": {
+      "status": "completed",
+      "completed": "2026-02-05T20:04:04.356474",
+      "total_rows": 500
+    },
+    "2019_sacks": {
+      "status": "completed",
+      "completed": "2026-02-05T15:41:48.453092",
+      "total_rows": 500
+    },
+    "2020_sacks": {
+      "status": "completed",
+      "completed": "2026-02-05T20:14:47.101279",
+      "total_rows": 500
+    },
+    "2021_sacks": {
+      "status": "completed",
+      "completed": "2026-02-05T16:24:44.146945",
+      "total_rows": 500
+    },
+    "2022_sacks": {
+      "status": "completed",
+      "completed": "2026-02-05T16:48:48.536869",
+      "total_rows": 500
+    },
+    "2023_sacks": {
+      "status": "completed",
+      "completed": "2026-02-05T16:58:01.464327",
+      "total_rows": 500
+    },
+    "2024_sacks": {
+      "status": "completed",
+      "completed": "2026-02-05T17:07:02.785129",
+      "total_rows": 500
+    },
+    "2025_sacks": {
+      "status": "completed",
+      "completed": "2026-02-05T17:14:24.083261",
+      "total_rows": 500
+    }
+  }
+}

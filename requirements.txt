@@ -1,3 +1,4 @@
+# Data Engineering & Analysis
 requests
 numpy
 scipy
@@ -6,3 +7,22 @@ scikit-learn
 beautifulsoup4
 pandas
 lxml
+fuzzywuzzy
+python-Levenshtein
+
+# Web Scraping (Selenium-based)
+selenium
+webdriver-manager
+
+# LLM Integration
+google-generativeai
+langchain
+langchain-google-genai
+python-dotenv
+
+# RAG & Vector Search
+chromadb
+sentence-transformers
+
+# Quantitative Modeling
+xgboost
