@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gridiron Intelligence Agent Workflow</title>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #1976D2;
+            text-align: center;
+        }
+        .mermaid {
+            display: flex;
+            justify-content: center;
+        }
+        .info {
+            margin-top: 30px;
+            padding: 15px;
+            background-color: #f0f0f0;
+            border-left: 4px solid #1976D2;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🏈 Gridiron Intelligence Agent Workflow</h1>
+        <div class="mermaid">
+graph TD
+    Start["🎯 User Query<br/>Tell me about [Player Name]"]:::start
+    Resolution["🔍 Player_Resolution_Engine<br/>(Fuzzy Match / ID Lookup)"]:::process
+    Found{"✓ Player Found<br/>in DB?"}:::decision
+    
+    Retrieve["📊 Data_Retrieval_Service<br/>(SQL Joins)"]:::process
+    GapFill["🌐 Web_Search / News_Archive<br/>(ChromaDB + Tavily)"]:::process
+    
+    DB_Master[("🗂️ Master Index")]:::database
+    DB_Recruit[("👤 Recruit Profile")]:::database
+    DB_Stats[("📈 HS/College Stats")]:::database
+    DB_Model[("🤖 Precomputed XGBoost")]:::database
+    
+    Inference["⚡ Live_Inference_Engine<br/>(Run XGBoost on new data)"]:::process
+    Visual["📊 Visual_Generator<br/>(Create Tier Chart)"]:::process
+    
+    Prompt["💬 Context Construction<br/>(Combine Dossier + News)"]:::synthesis
+    LLM["🧠 LLM Synthesis<br/>(Generate Scout Report)"]:::llm
+    End["📨 Final Response"]:::end
+    
+    Start --> Resolution
+    Resolution --> Found
+    
+    Found -->|Yes| Retrieve
+    Found -->|No / Partial Data| GapFill
+    Retrieve -->|Missing Key Stats| GapFill
+    
+    Retrieve --> DB_Master
+    Retrieve --> DB_Recruit
+    Retrieve --> DB_Stats
+    Retrieve --> DB_Model
+    
+    GapFill -->|Found New Stats| Inference
+    Inference -->|New Score| Prompt
+    
+    Retrieve -->|Full Dossier| Prompt
+    Retrieve -->|Has Score| Visual
+    Visual -->|Chart Image| Prompt
+    
+    Prompt --> LLM
+    LLM --> End
+    
+    classDef start fill:#E3F2FD,stroke:#1976D2,stroke-width:3px,color:#000
+    classDef process fill:#FFECB3,stroke:#F57F17,stroke-width:2px,color:#000
+    classDef decision fill:#FFF9C4,stroke:#FBC02D,stroke-width:2px,color:#000
+    classDef database fill:#E8F5E9,stroke:#388E3C,stroke-width:2px,color:#000
+    classDef synthesis fill:#F3E5F5,stroke:#7B1FA2,stroke-width:2px,color:#000
+    classDef llm fill:#E0F2F1,stroke:#00897B,stroke-width:2px,color:#000
+    classDef end fill:#E3F2FD,stroke:#1976D2,stroke-width:3px,color:#000
+        </div>
+        <div class="info">
+            <h3>Workflow Description:</h3>
+            <ul>
+                <li><strong>Tier 1 - Routing:</strong> Player Resolution Engine attempts to match user query to player in database</li>
+                <li><strong>Tier 2 - Data Retrieval:</strong> If found, retrieves data from multiple sources (Master Index, Recruit Profile, Stats, ML Model)</li>
+                <li><strong>Tier 2b - Gap Filling:</strong> If player not found or data incomplete, searches web archives and news</li>
+                <li><strong>Tier 3 - Inference:</strong> Runs live XGBoost predictions and generates visual tier charts</li>
+                <li><strong>Tier 4 - Synthesis:</strong> Combines all data into context and uses LLM to generate final scout report</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
