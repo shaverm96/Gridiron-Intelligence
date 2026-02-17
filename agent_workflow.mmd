@@ -1,0 +1,88 @@
+graph TD
+    %% --- Nodes ---
+    UserQuery(User Query: 'Tell me about Player X')
+    Resolution[Tool: Player_Resolution_Engine<br/>Fuzzy Match / ID Lookup]
+    CheckDB{Player Found in DB?}
+    
+    Retrieve[Tool: Data_Retrieval_Service<br/>SQL Joins]
+    CheckStats{Key Stats Missing?}
+    
+    GapFill[Tool: Gap_Filler_Service<br/>Retrieve External Context]
+    CheckNewStats{Found New Stats?}
+    
+    Inference[Tool: Live_Inference_Engine<br/>Run XGBoost on New Data]
+    Visual[Tool: Visual_Generator<br/>Create Tier Chart]
+    
+    Prompt[Context Construction<br/>Combine Dossier + News + Insights]
+    LLM[LLM Synthesis<br/>Generate Scout Report]
+    FinalResponse((Final Response))
+
+    %% --- Database Subgraph ---
+    subgraph Database_Layer [Structured DB Layer SQL]
+        direction TB
+        DB_Master[(Master Index)]
+        DB_Recruit[(Recruit Profile)]
+        DB_Stats[(HS/College Stats)]
+        DB_Model[(Precomputed XGBoost)]
+    end
+
+    %% --- Vector Store Subgraph ---
+    subgraph Vector_Layer [Vector Store ChromaDB]
+        direction TB
+        Chroma_News[[News Archive<br/>Articles & Updates]]
+        Chroma_Insights[[Statistical Insights<br/>Aggregated Trends]]
+    end
+
+    %% --- Logic Flow ---
+    UserQuery --> Resolution
+    Resolution --> CheckDB
+    
+    %% Path A: Found in DB (Happy Path)
+    CheckDB -- Yes --> Retrieve
+    Retrieve <--> DB_Master
+    Retrieve <--> DB_Recruit
+    Retrieve <--> DB_Stats
+    Retrieve <--> DB_Model
+    
+    Retrieve --> CheckStats
+    CheckStats -- No (Complete) --> Visual
+    CheckStats -- Yes (Missing Data) --> GapFill
+    
+    %% Path B: Not Found or Gap Filling
+    CheckDB -- No --> GapFill
+    
+    %% Vector Store Interactions
+    GapFill <--> Chroma_News
+    GapFill <--> Chroma_Insights
+    
+    %% Post-Retrieval Logic
+    GapFill --> CheckNewStats
+    CheckNewStats -- Yes --> Inference
+    CheckNewStats -- No --> Prompt
+    
+    %% Inference & Visuals
+    Inference --> Visual
+    Visual --> Prompt
+    Retrieve --> Prompt
+    
+    %% Context Injection (Insights go to prompt too)
+    Chroma_Insights -.-> Prompt
+    Chroma_News -.-> Prompt
+    
+    %% Final Synthesis
+    Prompt --> LLM
+    LLM --> FinalResponse
+
+    %% --- Styling ---
+    style UserQuery fill:#E3F2FD,stroke:#333
+    style Resolution fill:#FFECB3,stroke:#333
+    style Retrieve fill:#C8E6C9,stroke:#333
+    style GapFill fill:#FFCDD2,stroke:#333
+    style Inference fill:#D1C4E9,stroke:#333
+    style Visual fill:#B3E5FC,stroke:#333
+    style LLM fill:#E3F2FD,stroke:#333
+    
+    %% Subgraph Styling
+    style Vector_Layer fill:#F3E5F5,stroke:#8E24AA,stroke-dasharray: 5 5
+    style Chroma_News fill:#E1BEE7,stroke:#8E24AA
+    style Chroma_Insights fill:#E1BEE7,stroke:#8E24AA

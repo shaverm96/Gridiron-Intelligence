@@ -1,0 +1,73 @@
+graph TD
+    %% --- Nodes ---
+    UserQuery(User Query: 'Tell me about Player X')
+    Resolution[Tool: Player_Resolution_Engine<br/>Fuzzy Match / ID Lookup]
+    
+    %% --- The "Triple Threat" Parallel Processing ---
+    subgraph Parallel_Processing [Parallel Information Gathering]
+        direction TB
+        
+        %% Stream 1: Hard Data (Internal DB)
+        Retrieve[Tool: Data_Retrieval_Service<br/>SQL Joins: Profile + Stats]
+        CalcScore[Tool: XGBoost_Model<br/>Calculate or Retrieve Score]
+        Visual[Tool: Visual_Generator<br/>Create Tier Chart]
+        
+        %% Stream 2: Live Intel (Web Search) - NEW
+        WebSearch[Tool: DuckDuckGo_Search<br/>Retrieve Recent Articles/Wiki]
+        Summarizer[<b>Intermediate LLM Layer</b><br/>Gemini Flash 2.5 Lite<br/><i>Summarize & Extract Stats</i>]
+        
+        %% Stream 3: Historical Wisdom (Vector DB)
+        Insights[Tool: Insights_Retriever<br/>ChromaDB: Statistical Trends]
+    end
+    
+    %% --- Synthesis ---
+    Prompt[Context Construction<br/>Combine: DB Data + Flash Summary + Insights]
+    FinalLLM[Final Scout Agent<br/>Gemini Pro / Expert Persona]
+    FinalResponse((Final Scout Report))
+
+    %% --- Data Stores ---
+    DB_SQL[(PostgreSQL<br/>Recruits / Stats / Profiles)]
+    DB_Vector[(ChromaDB<br/>Tagged Insights Only)]
+
+    %% --- Connections ---
+    UserQuery --> Resolution
+    
+    %% Triggers (All 3 run for every player)
+    Resolution --> Retrieve
+    Resolution --> WebSearch
+    Resolution --> Insights
+    
+    %% Stream 1 Flow (Database)
+    Retrieve <--> DB_SQL
+    Retrieve --> CalcScore
+    CalcScore --> Visual
+    
+    %% Stream 2 Flow (Web -> Flash)
+    WebSearch --> Summarizer
+    
+    %% Stream 3 Flow (Vector)
+    Insights <--> DB_Vector
+    
+    %% Convergence (The Fusion Point)
+    Retrieve --> Prompt
+    Visual --> Prompt
+    Summarizer --> Prompt
+    Insights --> Prompt
+    
+    %% Final Execution
+    Prompt --> FinalLLM
+    FinalLLM --> FinalResponse
+
+    %% --- Styling ---
+    classDef tool fill:#E3F2FD,stroke:#1565C0,stroke-width:1px;
+    classDef llm fill:#D1C4E9,stroke:#512DA8,stroke-width:2px;
+    classDef db fill:#FFF9C4,stroke:#FBC02D,stroke-width:1px;
+    classDef logic fill:#F5F5F5,stroke:#333,stroke-width:1px;
+
+    class Resolution,Retrieve,CalcScore,Visual,WebSearch,Insights tool;
+    class FinalLLM llm;
+    class DB_SQL,DB_Vector db;
+    class UserQuery,Prompt,FinalResponse logic;
+    
+    %% Highlight the new Flash Layer
+    style Summarizer fill:#FFCCBC,stroke:#BF360C,stroke-width:2px,stroke-dasharray: 5 5
