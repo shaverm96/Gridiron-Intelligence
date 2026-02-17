@@ -17,6 +17,7 @@ webdriver-manager
 # LLM Integration
 google-generativeai
 langchain
+langchain-core
 langchain-google-genai
 python-dotenv
 
