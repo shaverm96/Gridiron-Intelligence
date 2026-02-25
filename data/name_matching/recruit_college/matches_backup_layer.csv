@@ -1,32 +1,81 @@
 recruit_name,recruit_year,committed_to,recruit_id,sports_ref_id,roster_name,roster_school,roster_year,pos,name_score,team_match,year_diff,match_strategy
+Ronald Jones II,2015,USC,201500040,ronald-jones-4,Ronald Jones,USC,2015,RB,88,1,0,Backup_Strategy1_Original
 Khaylan Kearse-Thomas,2015,Arizona State,201500292,khaylan-kearse-thomas-1,Khaylan Kearse-Thomas,Arizona State,2018,LB,100,1,3,Backup_Strategy1_Original
 Clayton Bradley,2015,USC,201500329,clayton-bradley-1,Clayton Bradley,USC,2018,OL,100,1,3,Backup_Strategy1_Original
+AJ Harris,2015,Missouri,201500331,al-harris-4,Al Harris,Missouri,2015,OL,88,1,0,Backup_Strategy1_Original
+George Brown,2015,LSU,201500476,george-brown-jr-1,George Brown Jr.,LSU,2015,T,88,1,0,Backup_Strategy1_Original
+John Kelly Jr.,2015,Tennessee,201500546,john-kelly-6,John Kelly,Tennessee,2015,RB,86,1,0,Backup_Strategy1_Original
+Darrion Flowers,2015,TCU,201500587,darrion-flowers-1,Darrion Flowers,Texas Christian,2018,CB,100,1,3,Backup_Strategy1_Original
 Siaosi Mariner,2015,Utah,201500646,siaosi-mariner-1,Siaosi Mariner,Utah,2018,WR,100,1,3,Backup_Strategy1_Original
+Nu'umotu Falo,2015,Colorado,201500758,nuumotu-falo-jr-1,Nu'Umotu Falo Jr.,Colorado,2018,LB,88,1,3,Backup_Strategy1_Original
 Chris Green,2015,Toledo,201500766,chris-green-4,Chris Green,Toledo,2018,DE,100,1,3,Backup_Strategy1_Original
+John Moten,2015,Northwestern,201500793,john-moten-iv-1,John Moten IV,Northwestern,2015,RB,86,1,0,Backup_Strategy1_Original
 Devin Kaufusi,2015,BYU,201501160,devin-kaufusi-1,Devin Kaufusi,BYU,2018,DL,100,1,3,Backup_Strategy1_Original
 Quinn Fabrizio,2015,Utah,201501179,quinn-fabrizio-1,Quinn Fabrizio,Utah,2018,DB,100,1,3,Backup_Strategy1_Original
+Cortez Sisco,2015,Louisiana-Monroe,201501199,cortez-sisco-jr-1,Cortez Sisco Jr.,Louisiana-Monroe,2015,S,88,1,0,Backup_Strategy1_Original
+Sean Harper Jr.,2015,Washington State,201501235,sean-harper-2,Sean Harper,Washington State,2017,DB,88,1,2,Backup_Strategy1_Original
+Nathan Cottrell,2015,Georgia Tech,201501502,nate-cottrell-1,Nate Cottrell,Georgia Tech,2015,RB,85,1,0,Backup_Strategy1_Original
+Raphael Leonard,2015,Florida Atlantic,201501553,ralph-leonard-1,Ralph Leonard,Florida Atlantic,2015,WR,85,1,0,Backup_Strategy1_Original
 Daniel Langi,2015,Utah State,201501631,daniel-langi-1,Daniel Langi,Utah State,2018,LB,100,1,3,Backup_Strategy1_Original
 Rion Davis,2015,Liberty,201501661,rion-davis-1,Rion Davis,Liberty,2018,S,100,1,3,Backup_Strategy1_Original
+Arthur Thompkins,2015,Toledo,201501695,art-thompkins-1,Art Thompkins,Toledo,2015,RB,89,1,0,Backup_Strategy1_Original
+Tre Hamilton,2015,Memphis,201501728,treveon-hamilton-1,Tre'Veon Hamilton,Memphis,2017,WR,85,1,2,Backup_Strategy1_Original
+Jessie Bates III,2015,Wake Forest,201501743,jessie-bates-1,Jessie Bates,Wake Forest,2015,DB,85,1,0,Backup_Strategy1_Original
+Gabriel Sewell,2015,Nevada,201501764,gabe-sewell-1,Gabe Sewell,Nevada,2015,LB,88,1,0,Backup_Strategy1_Original
 Wade Meacham,2015,Utah State,201501853,wade-meacham-1,Wade Meacham,Utah State,2018,OL,100,1,3,Backup_Strategy1_Original
+Herbert Miller,2015,Florida Atlantic,201501900,herb-miller-1,Herb Miller,Florida Atlantic,2015,DB,88,1,0,Backup_Strategy1_Original
+Ulysees Gilbert,2015,Akron,201501934,ulysees-gilbert-iii-1,Ulysees Gilbert III,Akron,2015,LB,88,1,0,Backup_Strategy1_Original
+Donald Louis,2015,Louisiana-Monroe,201502032,donald-louis-jr-1,Donald Louis Jr.,Louisiana-Monroe,2015,DL,88,1,0,Backup_Strategy1_Original
 Baylor Romney,2015,BYU,201502033,baylor-romney-1,Baylor Romney,BYU,2018,QB,100,1,3,Backup_Strategy1_Original
+Kirk Louis Jr,2015,Arkansas State,201502192,kirk-louis-1,Kirk Louis,Arkansas State,2015,LB,86,1,0,Backup_Strategy1_Original
+Zachary Branner,2015,Troy,201502249,zach-branner-1,Zach Branner,Troy,2015,OL,88,1,0,Backup_Strategy1_Original
+Jess Trussell,2015,Purdue,201502302,james-trussell-1,James Trussell,Purdue,2015,TE,88,1,0,Backup_Strategy1_Original
+Kahlil Welsh,2015,Wake Forest,201502327,kahlil-welsh-ii-1,Kahlil Welsh II,Wake Forest,2015,DL,88,1,0,Backup_Strategy1_Original
+Kerrith Whyte Jr.,2015,Florida Atlantic,201502385,kerrith-whyte-1,Kerrith Whyte,Florida Atlantic,2015,RB,89,1,0,Backup_Strategy1_Original
+Tylor Pollard,2015,Southern Miss,201502412,ty-pollard-1,Ty Pollard,Southern Mississippi,2015,OL,86,1,0,Backup_Strategy1_Original
+Matt Gaiter,2015,Air Force,201502413,matthew-gaiter-1,Matthew Gaiter,Air Force,2017,DL,88,1,2,Backup_Strategy1_Original
+Nathan Childress,2015,Toledo,201502441,nate-childress-1,Nate Childress,Toledo,2015,DL,86,1,0,Backup_Strategy1_Original
 D'Andre Smart,2015,Kent State,201502560,d-andre-smart-1,D' Andre Smart,Kent State,2015,CB,96,1,0,Backup_Strategy1_Original
+Chukwuma Obinnah,2015,Colorado State,201502581,chuk-obinnah-1,Chuk Obinnah,Colorado State,2015,RB,85,1,0,Backup_Strategy1_Original
 Zack Sharp,2015,Bowling Green,201502779,zach-sharp-1,Zach Sharp,Bowling Green,2017,OL,90,1,2,Backup_Strategy1_Original
 Alassane Niang,2015,Utah,201502825,alassane-niang-1,Alassane Niang,Utah,2018,DB,100,1,3,Backup_Strategy1_Original
 Robert Charlton,2015,Oklahoma,201503039,robert-charlton-ll-1,Robert Charlton II,Oklahoma,2018,DB,90,1,3,Backup_Strategy1_Original
 Alex Badine,2015,Ohio State,201503054,alex-badine-1,Alex Badine,Ohio State,2018,CB,100,1,3,Backup_Strategy1_Original
+Evan Austrie,2015,UNLV,201503089,even-austrie-1,Even Austrie,Nevada-Las Vegas,2015,DB,91,1,0,Backup_Strategy1_Original
+David Tolentino,2015,Navy,201503142,dave-tolentino-1,Dave Tolentino,Navy,2017,NT,89,1,2,Backup_Strategy1_Original
+Jackson Snyder,2015,San Jose State,201503145,jack-snyder-1,Jack Snyder,San Jose State,2017,T,88,1,2,Backup_Strategy1_Original
+Darren Woods,2015,UNLV,201503166,darren-woods-jr-1,Darren Woods Jr.,Nevada-Las Vegas,2015,WR,88,1,0,Backup_Strategy1_Original
+Alexander Trifonovitch,2015,Hawaii,201503290,alex-trifonovitch-1,Alex Trifonovitch,Hawaii,2015,P,87,1,0,Backup_Strategy1_Original
+James Bowe,2015,UMass,201503326,james-bowe-jr-1,James Bowe Jr.,Massachusetts,2016,LB,86,1,1,Backup_Strategy1_Original
+Zach Block,2015,Tulane,201503375,zachary-block-1,Zachary Block,Tulane,2015,P,86,1,0,Backup_Strategy1_Original
+Ed Alexander,2016,LSU,201600068,edwin-alexander-1,Edwin Alexander,LSU,2016,DT,88,1,0,Backup_Strategy1_Original
+Cameron Chambers,2016,Michigan State,201600232,cam-chambers-1,Cam Chambers,Michigan State,2017,WR,85,1,1,Backup_Strategy1_Original
 Kobe Jones,2016,Mississippi State,201600275,kobe-jones-1,Kobe Jones,Mississippi State,2019,DE,100,1,3,Backup_Strategy1_Original
+Devin Bush Jr.,2016,Michigan,201600316,devin-bush-2,Devin Bush,Michigan,2016,LB,86,1,0,Backup_Strategy1_Original
 Jay Jay McCargo,2016,North Carolina,201600357,jay-jay-mccargo-1,Jay-Jay McCargo,North Carolina,2017,OL,93,1,1,Backup_Strategy1_Original
 Cameron Lewis,2016,LSU,201600360,cameron-lewis-2,Cameron Lewis,LSU,2019,S,100,1,3,Backup_Strategy1_Original
+Keyshawn Pie Young,2016,USC,201600399,keyshawn-young-1,Keyshawn Young,USC,2017,WR,87,1,1,Backup_Strategy1_Original
+Matthew Falcon,2016,Western Michigan,201600434,matt-falcon-1,Matt Falcon,Western Michigan,2017,RB,88,1,1,Backup_Strategy1_Original
 Jonathan Jones,2016,Notre Dame,201600446,jonathan-jones-6,Jonathan Jones,Notre Dame,2019,LB,100,1,3,Backup_Strategy1_Original
 Deuce Wallace,2016,Vanderbilt,201600565,deuce-wallace-2,Deuce Wallace,Vanderbilt,2019,QB,100,1,3,Backup_Strategy1_Original
 Darel Middleton,2016,Tennessee,201600567,darel-middleton-1,Darel Middleton,Tennessee,2019,DL,100,1,3,Backup_Strategy1_Original
 Jeremy Smith,2016,Arizona State,201600754,jeremy-smith-5,Jeremy Smith,Arizona State,2017,WR,100,1,1,Backup_Strategy1_Original
+Andre Polk,2016,South Florida,201600791,andre-polk-jr-27,Andre Polk Jr.,South Florida,2017,LB,86,1,1,Backup_Strategy1_Original
+Harry Ballard,2016,Missouri,201600809,harry-ballard-iii-1,Harry Ballard III,Missouri,2018,WR,86,1,2,Backup_Strategy1_Original
+Fred Holly,2016,Hawaii,201600811,freddie-holly-1,Freddie Holly,Hawaii,2017,RB,86,1,1,Backup_Strategy1_Original
+Matthew Laris,2016,California,201600821,matt-laris-1,Matt Laris,California,2017,TE,86,1,1,Backup_Strategy1_Original
 Johnny Maea,2016,Utah,201600824,johnny-maea-1,Johnny Maea,Utah,2019,OL,100,1,3,Backup_Strategy1_Original
 Anthony Smith,2016,Colorado State,201600878,anthony-smith-12,Anthony Smith,Colorado State,2017,DL,100,1,1,Backup_Strategy1_Original
 Keaton Bills,2016,Utah,201600888,keaton-bills-1,Keaton Bills,Utah,2019,OL,100,1,3,Backup_Strategy1_Original
 Keenan Pili,2016,BYU,201600922,keenan-pili-1,Keenan Pili,BYU,2019,LB,100,1,3,Backup_Strategy1_Original
+Robert Tucker,2016,South Carolina,201600995,robert-tucker-iii-1,Robert Tucker III,South Carolina,2017,TE,86,1,1,Backup_Strategy1_Original
 Semisi Lauaki,2016,Utah,201601031,semisi-lauaki-1,Semisi Lauaki,Utah,2019,DL,100,1,3,Backup_Strategy1_Original
+Lindsey Scott,2016,LSU,201601034,lindsey-scott-jr-1,Lindsey Scott Jr.,LSU,2017,QB,89,1,1,Backup_Strategy1_Original
+Steve Dolphus,2016,Georgia Tech,201601039,stephen-dolphus-1,Stephen Dolphus,Georgia Tech,2017,WR,85,1,1,Backup_Strategy1_Original
 Alema Pilimai,2016,BYU,201601047,alema-pilimai-1,Alema Pilimai,BYU,2019,TE,100,1,3,Backup_Strategy1_Original
+Will Kwenkeu,2016,Temple,201601091,william-kwenkeu-1,William Kwenkeu,Temple,2016,LB,88,1,0,Backup_Strategy1_Original
+Dixie Wooten III,2016,Houston,201601226,dixie-wooten-1,Dixie Wooten,Houston,2017,OL,85,1,1,Backup_Strategy1_Original
+Will Davis,2016,Florida Atlantic,201601233,william-davis-1,William Davis,Florida Atlantic,2016,DT,86,1,0,Backup_Strategy1_Original
 Riley Sharp,2016,Oregon State,201601302,riley-sharp-1,Riley Sharp,Oregon State,2019,LB,100,1,3,Backup_Strategy1_Original
 Adam Hensley,2016,West Virginia,201601344,adam-hensley-1,Adam Hensley,West Virginia,2019,LB,100,1,3,Backup_Strategy1_Original
 Nic Smith,2016,North Texas,201601372,nic-smith-1,Nic Smith,North Texas,2019,RB,100,1,3,Backup_Strategy1_Original
@@ -35,368 +84,657 @@ Justin Rice,2016,Fresno State,201601450,justin-rice-1,Justin Rice,Fresno State,2
 Freddy Livai,2016,BYU,201601473,freddy-livai-1,Freddy Livai,BYU,2019,DL,100,1,3,Backup_Strategy1_Original
 Josh Black,2016,Syracuse,201601485,josh-black-2,Josh Black,Syracuse,2019,DL,100,1,3,Backup_Strategy1_Original
 Brandon Jones,2016,Illinois,201601486,brandon-jones-14,Brandon Jones,Illinois,2017,RB,100,1,1,Backup_Strategy1_Original
+Christian Haangana,2016,Washington State,201601511,chrisitan-haangana-1,Christian Haananga,Washington State,2017,OL,88,1,1,Backup_Strategy1_Original
+Samuel Poutasi,2016,Oregon,201601540,sam-poutasi-1,Sam Poutasi,Oregon,2017,OL,88,1,1,Backup_Strategy1_Original
+Robert Revels,2016,Tulsa,201601571,robert-revels-iii-1,Robert Revels III,Tulsa,2016,LB,86,1,0,Backup_Strategy1_Original
+Matthew Coghlin,2016,Michigan State,201601583,matt-coghlin-1,Matt Coghlin,Michigan State,2017,K,88,1,1,Backup_Strategy1_Original
+Lukas Masterson,2016,Wake Forest,201601648,luke-masterson-1,Luke Masterson,Wake Forest,2017,DB,89,1,1,Backup_Strategy1_Original
+Tylen Redding,2016,Bowling Green,201601792,ty-redding-1,Ty Redding,Bowling Green,2017,DB,86,1,1,Backup_Strategy1_Original
 Dante Diaz-Infante,2016,Arizona,201601819,dante-diaz-infante-1,Dante Diaz-Infante,Arizona,2019,DE,100,1,3,Backup_Strategy1_Original
 Solofa Funa,2016,BYU,201601825,solofa-funu-1,Solofa Funu,BYU,2019,LB,90,1,3,Backup_Strategy1_Original
+De'Andre Williams,2016,Tulane,201602017,deandre-williams-5,De'Andre Williams,Tulane,2019,NT,100,1,3,Backup_Strategy1_Original
+Jeffrey Taylor,2016,Colorado State,201602034,jeff-taylor-4,Jeff Taylor,Colorado State,2017,OL,88,1,1,Backup_Strategy1_Original
+Sanchez Blake,2016,Memphis,201602073,sanchez-blake-jr-1,Sanchez Blake Jr.,Memphis,2017,DB,89,1,1,Backup_Strategy1_Original
+Jeff Allison,2016,Fresno State,201602076,jeffrey-allison-1,Jeffrey Allison,Fresno State,2016,LB,88,1,0,Backup_Strategy1_Original
 Caden Haws,2016,BYU,201602186,caden-haws-1,Caden Haws,BYU,2019,OL,100,1,3,Backup_Strategy1_Original
 Mitchell Heimbuch,2016,Western Michigan,201602220,mitch-heimbuch-1,Mitch Heimbuch,Western Michigan,2017,TE,90,1,1,Backup_Strategy1_Original
 Tyler Hall,2016,Arkansas,201602336,tyler-hall-1,Tyler Hall,Arkansas,2017,OL,100,1,1,Backup_Strategy1_Original
 D'Angelo Ellis,2016,Rice,201602463,d-angelo-ellis-1,D Angelo Ellis,Rice,2016,DB,96,1,0,Backup_Strategy1_Original
+Jerry McBride,2016,Bowling Green,201602591,jerry-mcbride-iii-1,Jerry McBride III,Bowling Green,2016,DB,86,1,0,Backup_Strategy1_Original
 Christian Johnson,2016,UTEP,201602674,christian-johnson-1,Christian Johnson,UTEP,2017,DL,100,1,1,Backup_Strategy1_Original
+Devontay Love-Taylor,2016,FIU,201602689,devontay-taylor-1,Devontay Taylor,Florida International,2017,DE,85,1,1,Backup_Strategy1_Original
 Jameel Moore,2016,North Texas,201602694,jameel-moore-1,Jameel Moore,North Texas,2019,DB,100,1,3,Backup_Strategy1_Original
+Artice Hobbs,2016,Army,201602770,artice-hobbs-iv-1,Artice Hobbs IV,Army,2017,RB,88,1,1,Backup_Strategy1_Original
+Justin Thomas,2016,Army,201602781,justin-thomas-jr-1,Justin Thomas Jr.,Army,2017,DB,89,1,1,Backup_Strategy1_Original
 Andrew Wright,2016,Fresno State,201602844,andrew-wright-3,Andrew Wright,Fresno State,2019,DE,100,1,3,Backup_Strategy1_Original
 Jacquez Williams,2016,Toledo,201602856,jacquez-williams-2,Jacquez Williams,Toledo,2017,WR,100,1,1,Backup_Strategy1_Original
+Andrew Cree,2016,Ohio,201602874,andrew-cree-ii-1,Andrew Cree II,Ohio,2017,DL,88,1,1,Backup_Strategy1_Original
+Mitchell Larsen,2016,Ball State,201602983,mitch-larsen-1,Mitch Larsen,Ball State,2016,S,88,1,0,Backup_Strategy1_Original
+Ulice Gillard,2016,FIU,201603022,ulice-gillard-iii-1,Ulice Gillard III,Florida International,2017,WR,86,1,1,Backup_Strategy1_Original
 Cameron Jones,2016,Army,201603269,cameron-jones-5,Cameron Jones,Army,2019,DB,100,1,3,Backup_Strategy1_Original
+Geoffrey Kirk,2016,Army,201603315,geoff-kirk-1,Geoff Kirk,Army,2017,TE,86,1,1,Backup_Strategy1_Original
+Alex Herndon,2016,Army,201603590,alex-hemdon-1,Alex Hemdon,Army,2017,OL,86,1,1,Backup_Strategy1_Original
 Cam Thomas,2016,Army,201603604,cam-thomas-3,Cam Thomas,Army,2017,QB,100,1,1,Backup_Strategy1_Original
 Tim Tanner-Blair,2016,Bowling Green,201603606,tim-tanner-blair-1,Tim Tanner-Blair,Bowling Green,2019,OL,100,1,3,Backup_Strategy1_Original
 Francoise Sims,2016,San Jose State,201603616,francoise-sims-ii-1,Francoise Sims II,San Jose State,2017,RB,90,1,1,Backup_Strategy1_Original
 Hayden Livingston,2016,BYU,201603617,hayden-livingston-1,Hayden Livingston,BYU,2019,DB,100,1,3,Backup_Strategy1_Original
 Kendall Baker,2016,Louisiana,201603692,kendall-baker-2,Kendall Baker,Louisiana,2019,OL,100,1,3,Backup_Strategy1_Original
+Mandela Lawrence-Burke,2016,Kent State,201603698,manny-lawrence-burke-1,Manny Lawrence-Burke,Kent State,2016,S,85,1,0,Backup_Strategy1_Original
 Anthony D. Taylor,2016,Texas State,201603708,anthony-taylor-8,Anthony J. Taylor,Texas State,2019,CB,93,1,3,Backup_Strategy1_Original
+Kevin Perkins,2016,Southern Miss,201603722,kevin-perkins-1,Kevin Perkins,Southern Mississippi,2019,RB,100,1,3,Backup_Strategy1_Original
+Frank Burton,2016,Ball State,201603777,frank-burton-iii-1,Frank Burton III,Ball State,2017,DT,85,1,1,Backup_Strategy1_Original
 Jordan Jones,2016,UAB,201603902,jordan-jones-4,Jordan Jones,UAB,2018,LB,100,1,2,Backup_Strategy1_Original
+Jeff Okudah,2017,Ohio State,201700008,jeffrey-okudah-1,Jeffrey Okudah,Ohio State,2017,CB,88,1,0,Backup_Strategy1_Original
+Joseph Lewis,2017,USC,201700031,joseph-lewis-iv-1,Joseph Lewis IV,USC,2017,WR,88,1,0,Backup_Strategy1_Original
+Jedrick Wills,2017,Alabama,201700034,jedrick-wills-jr-1,Jedrick Wills Jr.,Alabama,2017,OL,89,1,0,Backup_Strategy1_Original
+Stanford Samuels,2017,Florida State,201700038,stanford-samuels-iii-1,Stanford Samuels III,Florida State,2017,DB,88,1,0,Backup_Strategy1_Original
+Anthony Hines,2017,Texas A&M,201700065,anthony-hines-iii-1,Anthony Hines III,Texas A&M,2017,LB,86,1,0,Backup_Strategy1_Original
+Willie Gay Jr.,2017,Mississippi State,201700070,willie-gay-1,Willie Gay,Mississippi State,2017,LB,86,1,0,Backup_Strategy1_Original
+William Poole III,2017,Georgia,201700195,william-poole-1,William Poole,Georgia,2017,DB,86,1,0,Backup_Strategy1_Original
+Earnest Brown,2017,Northwestern,201700215,earnest-brown-iv-1,Earnest Brown IV,Northwestern,2017,DE,89,1,0,Backup_Strategy1_Original
 Ryan Johnson,2017,Stanford,201700224,ryan-johnson-6,Ryan Johnson,Stanford,2017,DB,100,1,0,Backup_Strategy1_Original
+Kam White,2017,Ole Miss,201700448,kamron-white-1,Kam'ron White,Ole Miss,2017,DB,85,1,0,Backup_Strategy1_Original
+Phil Paea,2017,Michigan,201700455,phillip-paea-1,Phillip Paea,Michigan,2017,DL,85,1,0,Backup_Strategy1_Original
+Jake Lichtenstein,2017,USC,201700526,jacob-lichtenstein-1,Jacob Lichtenstein,USC,2017,DL,85,1,0,Backup_Strategy1_Original
+Dominic Williams,2017,Kansas,201700548,dom-williams-2,Dom Williams,Kansas,2017,RB,85,1,0,Backup_Strategy1_Original
+Rodney Scott,2017,Buffalo,201700573,rodney-scott-iii-1,Rodney Scott III,Buffalo,2017,WR,85,1,0,Backup_Strategy1_Original
 Aliki Vimahi,2017,Utah,201700647,aliki-vimahi-1,Aliki Vimahi,Utah,2020,DT,100,1,3,Backup_Strategy1_Original
+Sam Gerak,2017,Northwestern,201700664,samuel-gerak-1,Samuel Gerak,Northwestern,2017,OL,85,1,0,Backup_Strategy1_Original
 Jordan Lolohea,2017,Washington,201700689,jordan-lolohea-1,Jordan Lolohea,Washington,2020,LB,100,1,3,Backup_Strategy1_Original
+Jeffery Burley,2017,Wake Forest,201700695,jeff-burley-1,Jeff Burley,Wake Forest,2017,LB,88,1,0,Backup_Strategy1_Original
 Taniela Pututau,2017,Utah,201700752,taniela-pututau-1,Taniela Pututau,Utah,2020,LB,100,1,3,Backup_Strategy1_Original
+Samuel Vretman,2017,Rutgers,201700753,sam-vretman-1,Sam Vretman,Rutgers,2017,OL,88,1,0,Backup_Strategy1_Original
+Anthony White Jr,2017,Washington State,201700822,anthony-white-3,Anthony White,Washington State,2017,WR,89,1,0,Backup_Strategy1_Original
+Will Sherman,2017,Colorado,201700843,william-sherman-1,William Sherman,Colorado,2017,OL,88,1,0,Backup_Strategy1_Original
 Allen Stritzinger,2017,Syracuse,201700851,alan-stritzinger-1,Alan Stritzinger,Syracuse,2017,RB,90,1,0,Backup_Strategy1_Original
+Marvin Hubbard,2017,Duke,201700856,marvin-hubbard-iii-1,Marvin Hubbard III,Duke,2017,RB,87,1,0,Backup_Strategy1_Original
 Lou Dorsey,2017,Illinois,201700992,louis-dorsey-1,Louis Dorsey,Illinois,2017,TE,90,1,0,Backup_Strategy1_Original
+George Hicks III,2017,Washington State,201700999,george-hicks-1,George Hicks,Washington State,2017,CB,85,1,0,Backup_Strategy1_Original
+LeShaun Minor,2017,Indiana,201701003,leshaun-minor-jr-1,LeShaun Minor Jr.,Indiana,2017,DL,89,1,0,Backup_Strategy1_Original
+Calvin Tyler,2017,Oregon State,201701039,calvin-tyler-jr-1,Calvin Tyler Jr.,Oregon State,2017,RB,88,1,0,Backup_Strategy1_Original
+Gabriel Cherry,2017,California,201701045,gabe-cherry-1,Gabe Cherry,California,2017,DE,88,1,0,Backup_Strategy1_Original
+John Davis,2017,Texas Tech,201701062,john-davis-jr-1,John Davis Jr.,Texas Tech,2017,DB,86,1,0,Backup_Strategy1_Original
+Mitch Lewis,2017,Miami (OH),201701095,mitchell-lewis-1,Mitchell Lewis,Miami (OH),2017,WR,88,1,0,Backup_Strategy1_Original
+Will Rodgers III,2017,Washington State,201701151,will-rodgers-1,Will Rodgers,Washington State,2017,DE,85,1,0,Backup_Strategy1_Original
+Lummie Young,2017,Duke,201701158,lummie-young-iv-1,Lummie Young IV,Duke,2017,S,88,1,0,Backup_Strategy1_Original
+Kade Remsberg,2017,Air Force,201701249,kadin-remsberg-1,Kadin Remsberg,Air Force,2018,RB,88,1,1,Backup_Strategy1_Original
+Henry Klinge,2017,Baylor,201701416,henry-klinge-iii-1,Henry Klinge III,Baylor,2017,OL,85,1,0,Backup_Strategy1_Original
+Cedrick Dort,2017,Kentucky,201701475,cedrick-dort-jr-1,Cedrick Dort Jr.,Kentucky,2017,CB,88,1,0,Backup_Strategy1_Original
 Mata Hola,2017,Utah State,201701498,mata-hola-1,Mata Hola,Utah State,2020,LB,100,1,3,Backup_Strategy1_Original
+Matthew McDonald,2017,Boston College,201701579,matt-mcdonald-1,Matt McDonald,Boston College,2017,QB,89,1,0,Backup_Strategy1_Original
+Zachary Sweeney,2017,UCLA,201701595,zach-sweeney-1,Zach Sweeney,UCLA,2018,OL,88,1,1,Backup_Strategy1_Original
+Wil Huber,2017,Cincinnati,201701609,wilson-huber-1,Wilson Huber,Cincinnati,2017,TE,85,1,0,Backup_Strategy1_Original
 Malik Clark,2017,Louisville,201701627,malik-clark-2,Malik Clark,Louisville,2017,LB,100,1,0,Backup_Strategy1_Original
+Jeffrey Hubbard,2017,Eastern Michigan,201701628,jeff-hubbard-1,Jeff Hubbard,Eastern Michigan,2017,DB,88,1,0,Backup_Strategy1_Original
 Matt Wilcox Jr,2017,Bowling Green,201701681,matthew-wilcox-jr-1,Matthew Wilcox Jr.,Bowling Green,2017,WR,90,1,0,Backup_Strategy1_Original
+Dominic Peterson,2017,Nevada,201701684,dom-peterson-1,Dom Peterson,Nevada,2017,DT,85,1,0,Backup_Strategy1_Original
 Toby Ndukwe,2017,SMU,201701699,tony-ndukwe-1,Tony Ndukwe,SMU,2017,DL,90,1,0,Backup_Strategy1_Original
+Raymond Johnson,2017,Georgia Southern,201701732,raymond-johnson-iii-1,Raymond Johnson III,Georgia Southern,2017,DE,88,1,0,Backup_Strategy1_Original
 Frederick Lloyd,2017,South Florida,201701746,frederick-lloyd-jr-1,Frederick Lloyd Jr.,South Florida,2017,TE,90,1,0,Backup_Strategy1_Original
 Tyler Batty,2017,BYU,201701771,tyler-batty-1,Tyler Batty,BYU,2020,DL,100,1,3,Backup_Strategy1_Original
+Robert Topps,2017,Kansas,201701813,robert-topps-iii-1,Robert Topps III,Kansas,2017,CB,85,1,0,Backup_Strategy1_Original
 Jalen Walker,2017,Miami (OH),201701855,jalen-walker-2,Jalen Walker,Miami (OH),2017,WR,100,1,0,Backup_Strategy1_Original
+Tracy White,2017,Old Dominion,201701876,tracy-white-jr-1,Tracy White Jr.,Old Dominion,2017,CB,88,1,0,Backup_Strategy1_Original
 Jalen Jackson,2017,Purdue,201701958,jalen-jackson-1,Jalen Jackson,Purdue,2017,OL,100,1,0,Backup_Strategy1_Original
 John Nagel,2017,Iowa State,201702066,josh-nagel-1,Josh Nagel,Iowa State,2017,DE,90,1,0,Backup_Strategy1_Original
+Mitch West,2017,Navy,201702069,mitchell-west-1,Mitchell West,Navy,2018,DB,86,1,1,Backup_Strategy1_Original
 Kevin Davis,2017,UTSA,201702071,kevin-davis-7,Kevin Davis,UTSA,2017,OL,100,1,0,Backup_Strategy1_Original
+Vic Tucker,2017,Charlotte,201702085,victor-tucker-1,Victor Tucker,Charlotte,2017,WR,86,1,0,Backup_Strategy1_Original
+Tim Terry,2017,Buffalo,201702130,tim-terry-jr-1,Tim Terry Jr.,Buffalo,2017,LB,85,1,0,Backup_Strategy1_Original
 Ryan Rehkow,2017,BYU,201702199,ryan-rehkow-1,Ryan Rehkow,BYU,2020,P,100,1,3,Backup_Strategy1_Original
+Darnell Pratt Jr.,2017,Virginia,201702225,darnell-pratt-1,Darnell Pratt,Virginia,2017,WR,89,1,0,Backup_Strategy1_Original
 Preston Lewis,2017,BYU,201702272,preston-lewis-1,Preston Lewis,BYU,2020,LB,100,1,3,Backup_Strategy1_Original
+George Scott,2017,Louisiana Tech,201702301,george-scott-iii-1,George Scott III,Louisiana Tech,2017,WR,85,1,0,Backup_Strategy1_Original
 Isaiah Richardson,2017,Rice,201702314,isaiah-richardson-1,Isaiah Richardson,Rice,2017,DB,100,1,0,Backup_Strategy1_Original
+Kenderick Duncan,2017,Georgia Southern,201702550,kendrick-duncan-jr-1,Kendrick Duncan Jr.,Georgia Southern,2017,S,88,1,0,Backup_Strategy1_Original
 Dante Smith,2017,Arizona,201702599,dante-smith-3,Dante Smith,Arizona,2019,LB,100,1,2,Backup_Strategy1_Original
+Kris Reed,2017,Southern Miss,201702609,kris-reid-1,Kris Reid,Southern Mississippi,2017,DB,88,1,0,Backup_Strategy1_Original
+Melton Brown,2017,Georgia Southern,201702631,melton-brown-jr-1,Melton Brown Jr.,Georgia Southern,2017,DT,88,1,0,Backup_Strategy1_Original
 Seth Willis,2017,BYU,201702648,seth-willis-1,Seth Willis,BYU,2020,OL,100,1,3,Backup_Strategy1_Original
+Allie Green,2017,Tulsa,201702655,allie-green-iv-1,Allie Green IV,Tulsa,2017,DB,88,1,0,Backup_Strategy1_Original
 Tommy Herion,2017,Iowa,201702684,tom-herion-1,Tom Herion,Iowa,2017,QB,90,1,0,Backup_Strategy1_Original
 Mason Fakahua,2017,BYU,201702743,mason-fakahua-1,Mason Fakahua,BYU,2020,QB,100,1,3,Backup_Strategy1_Original
 Heneli Bloomfield,2017,Utah State,201702785,heneli-bloomfield-1,Heneli Bloomfield,Utah State,2020,OL,100,1,3,Backup_Strategy1_Original
+Douglas Russell,2017,Hawaii,201702903,doug-russell-1,Doug Russell,Hawaii,2017,DL,88,1,0,Backup_Strategy1_Original
+Gregory Jean,2017,Eastern Michigan,201702971,greg-jean-1,Greg Jean,Eastern Michigan,2017,WR,85,1,0,Backup_Strategy1_Original
+Kevin Marks Jr,2017,Buffalo,201703023,kevin-marks-1,Kevin Marks,Buffalo,2017,RB,88,1,0,Backup_Strategy1_Original
+Willie Taylor III,2017,Washington State,201703092,willie-taylor-4,Willie Taylor,Washington State,2017,LB,86,1,0,Backup_Strategy1_Original
+Wankeith Akin,2017,Buffalo,201703121,wankeith-akin-jr-1,Wankeith Akin Jr.,Buffalo,2017,CB,89,1,0,Backup_Strategy1_Original
+Dylan Parham,2017,Memphis,201703163,dylan-parham-2,Dylan Parham,Memphis,2017,TE,100,1,0,Backup_Strategy1_Original
+Ted Wages,2017,Army,201703365,ted-wages-iv-1,Ted Wages IV,Army,2017,DL,85,1,0,Backup_Strategy1_Original
+Gregory Jean,2017,Eastern Michigan,201703462,greg-jean-1,Greg Jean,Eastern Michigan,2017,WR,85,1,0,Backup_Strategy1_Original
 Rodney Thompson,2017,Northern Illinois,201703519,rodney-thompson-2,Rodney Thompson,Northern Illinois,2020,QB,100,1,3,Backup_Strategy1_Original
+McKenly O'Neal,2017,Air Force,201703639,mckinley-oneal-1,McKinley O'Neal,Air Force,2020,DT,88,1,3,Backup_Strategy1_Original
+Mykol Brooks,2017,Navy,201703816,myke-brooks-1,Myke Brooks,Navy,2017,CB,86,1,0,Backup_Strategy1_Original
 Joe Nelson,2017,BYU,201703948,joe-nelson-1,Joe Nelson,BYU,2020,WR,100,1,3,Backup_Strategy1_Original
+Matthew Conlon,2017,Navy,201703963,mattie-conlon-1,Mattie Conlon,Navy,2018,DL,88,1,1,Backup_Strategy1_Original
 Ethan Schofield,2017,Air Force,201704009,ethan-schofield-1,Ethan Schofield,Air Force,2020,T,100,1,3,Backup_Strategy1_Original
 Elijah Brockman,2017,Air Force,201704016,elijah-brockman-1,Elijah Brockman,Air Force,2020,G,100,1,3,Backup_Strategy1_Original
 Josh Sterzer,2017,Utah State,201704018,josh-sterzer-1,Josh Sterzer,Utah State,2020,TE,100,1,3,Backup_Strategy1_Original
 Joseph Stephenson,2017,Army,201704041,joe-stephenson-1,Joe Stephenson,Army,2017,LB,90,1,0,Backup_Strategy1_Original
 Josh Johnson,2017,Navy,201704046,josh-johnson-7,Josh Johnson,Navy,2018,SB,100,1,1,Backup_Strategy1_Original
+Matthew Hanson,2017,Akron,201704062,matt-hanson-1,Matt Hanson,Akron,2017,DL,88,1,0,Backup_Strategy1_Original
+Matthew Laroche,2017,Georgia Southern,201704077,matt-laroche-1,Matt Laroche,Georgia Southern,2017,RB,88,1,0,Backup_Strategy1_Original
 Dominique Shoffner,2017,Charlotte,201704116,dominique-shoffner-1,Dominique Shoffner,Charlotte,2020,QB,100,1,3,Backup_Strategy1_Original
 Will Trawick,2017,Air Force,201704174,will-trawick-1,Will Trawick,Air Force,2020,LB,100,1,3,Backup_Strategy1_Original
+Matt Anderson,2017,Air Force,201704214,matthew-anderson-1,Matthew Anderson,Air Force,2019,DB,89,1,2,Backup_Strategy1_Original
+Stephon Wynn,2018,Alabama,201800074,stephon-wynn-jr-1,Stephon Wynn Jr.,Alabama,2018,DL,88,1,0,Backup_Strategy1_Original
+Jaelyn Duncan,2018,Maryland,201800145,jalen-duncan-1,Jalen Duncan,Maryland,2018,OL,88,1,0,Backup_Strategy1_Original
+Gurvan Hall,2018,Miami,201800184,gurvan-hall-jr-1,Gurvan Hall Jr.,Miami (FL),2018,DB,88,1,0,Backup_Strategy1_Original
+Cleveland Reed,2018,Miami,201800259,cleveland-reed-jr-1,Cleveland Reed Jr.,Miami (FL),2018,OL,90,1,0,Backup_Strategy1_Original
+Jeffrey Jenkins,2018,Iowa,201800504,jeff-jenkins-3,Jeff Jenkins,Iowa,2018,OL,88,1,0,Backup_Strategy1_Original
+Nelson Jenkins,2018,LSU,201800519,nelson-jenkins-iii-1,Nelson Jenkins III,LSU,2018,DT,87,1,0,Backup_Strategy1_Original
+Michael Woods II,2018,Arkansas,201800540,michael-woods-4,Michael Woods,Arkansas,2018,WR,89,1,0,Backup_Strategy1_Original
+Johnny Adams,2018,California,201800552,johnny-adams-jr-1,Johnny Adams Jr.,California,2018,RB,88,1,0,Backup_Strategy1_Original
+Stacy Kirby,2018,South Florida,201800590,stacy-kirby-jr-1,Stacy Kirby Jr.,South Florida,2018,DE,88,1,0,Backup_Strategy1_Original
 Dante Zanders,2018,Florida,201800636,dante-zanders-1,Dante Zanders,Florida,2021,DL,100,1,3,Backup_Strategy1_Original
+Khalid Jones II,2018,Northwestern,201800676,khalid-jones-1,Khalid Jones,Northwestern,2018,LB,88,1,0,Backup_Strategy1_Original
+Adam Plant,2018,TCU,201800705,adam-plant-jr-1,Adam Plant Jr.,Texas Christian,2019,DE,86,1,1,Backup_Strategy1_Original
+John Holcombe,2018,Kansas State,201800763,john-holcombe-ii-1,John Holcombe II,Kansas State,2018,QB,89,1,0,Backup_Strategy1_Original
+Coleton Beck,2018,Virginia Tech,201800764,cole-beck-1,Cole Beck,Virginia Tech,2018,RB,85,1,0,Backup_Strategy1_Original
+Willie Smith,2018,Houston,201800780,willie-smith-iii-2,Willie Smith III,Houston,2018,DE,85,1,0,Backup_Strategy1_Original
+Jason Taylor,2018,Oklahoma State,201800807,jason-taylor-ii-1,Jason Taylor II,Oklahoma State,2018,S,88,1,0,Backup_Strategy1_Original
 Ulumoo Ale,2018,Washington,201800820,ulumoo-ale-1,Ulumoo Ale,Washington,2021,OL,100,1,3,Backup_Strategy1_Original
+Dontay Demus Jr.,2018,Maryland,201800865,dontay-demus-1,Dontay Demus,Maryland,2018,WR,88,1,0,Backup_Strategy1_Original
 BeeJay Williamson,2018,Louisiana Tech,201800898,bee-jay-williamson-1,Bee Jay Williamson,Louisiana Tech,2018,S,97,1,0,Backup_Strategy1_Original
+Matthew Thomas,2018,Rutgers,201801185,matt-thomas-2,Matt Thomas,Rutgers,2018,DL,88,1,0,Backup_Strategy1_Original
+Stevie Scott III,2018,Indiana,201801336,stevie-scott-1,Stevie Scott,Indiana,2018,RB,85,1,0,Backup_Strategy1_Original
 Campbell Barrington,2018,BYU,201801380,campbell-barrington-1,Campbell Barrington,BYU,2021,OL,100,1,3,Backup_Strategy1_Original
+Calvin Hart,2018,NC State,201801394,calvin-hart-jr-1,Calvin Hart Jr.,North Carolina State,2018,LB,88,1,0,Backup_Strategy1_Original
+Braeden Daniels,2018,Utah,201801445,braedon-e-daniels-1,Braedon E. Daniels,Utah,2018,OL,87,1,0,Backup_Strategy1_Original
+Will Lawrence,2018,Memphis,201801516,william-lawrence-1,William Lawrence,Memphis,2018,OL,89,1,0,Backup_Strategy1_Original
+Joseph Bonds,2018,Northern Illinois,201801531,joe-bonds-1,Joe Bonds,Northern Illinois,2018,LB,85,1,0,Backup_Strategy1_Original
+Kenneth Gainwell,2018,Memphis,201801614,kenny-gainwell-1,Kenny Gainwell,Memphis,2018,RB,86,1,0,Backup_Strategy1_Original
+Jallah Zeze,2018,Georgia Southern,201801650,jallah-zeze-jr-1,Jallah Zeze Jr.,Georgia Southern,2018,TE,88,1,0,Backup_Strategy1_Original
+Joseph Bissinger,2018,Virginia,201801653,joe-bissinger-1,Joe Bissinger,Virginia,2018,OL,89,1,0,Backup_Strategy1_Original
 Viliami Tausinga,2018,BYU,201801713,viliami-tausinga-1,Viliami Tausinga,BYU,2021,LB,100,1,3,Backup_Strategy1_Original
 Talan Alfrey,2018,BYU,201801780,talan-alfrey-1,Talan Alfrey,BYU,2021,DB,100,1,3,Backup_Strategy1_Original
+Joe Sparacio,2018,Boston College,201801852,joseph-sparacio-1,Joseph Sparacio,Boston College,2018,LB,88,1,0,Backup_Strategy1_Original
+Orlando Heggs,2018,Wake Forest,201801891,orlando-heggs-ii-1,Orlando Heggs II,Wake Forest,2018,OL,89,1,0,Backup_Strategy1_Original
+Zachary Slade,2018,Michigan State,201801896,zach-slade-1,Zach Slade,Michigan State,2018,DE,86,1,0,Backup_Strategy1_Original
 Karene Reid,2018,Utah,201801907,karene-reid-1,Karene Reid,Utah,2021,LB,100,1,3,Backup_Strategy1_Original
 Semisi Saluni,2018,Oregon State,201801947,semisi-saluni-1,Semisi Saluni,Oregon State,2021,LB,100,1,3,Backup_Strategy1_Original
+Jeremy Tate,2018,Memphis,201801961,jeremy-tate-1,Jeremy Tate Jr.,Memphis,2019,WR,88,1,1,Backup_Strategy1_Original
 Isaac Matua,2018,BYU,201802046,isaac-matua-1,Isaac Matua,BYU,2021,LB,100,1,3,Backup_Strategy1_Original
 Seni Tuiaki,2018,Utah State,201802122,seni-tuiaki-1,Seni Tuiaki,Utah State,2021,DT,100,1,3,Backup_Strategy1_Original
+Collins Woods,2018,Navy,201802125,collins-woods-lll-1,Collins Woods III,Navy,2018,WR,86,1,0,Backup_Strategy1_Original
 Jonny Fanaika,2018,Utah,201802130,jonny-fanaika-1,Jonny Fanaika,Utah,2021,DE,100,1,3,Backup_Strategy1_Original
 Johnson Hansen,2018,Utah State,201802191,johnson-hansen-1,Johnson Hansen,Utah State,2021,DT,100,1,3,Backup_Strategy1_Original
 Detravion Green,2018,Arkansas State,201802200,detravion-green-1,Detravion Green,Arkansas State,2021,S,100,1,3,Backup_Strategy1_Original
+Greg Grate Jr,2018,Middle Tennessee,201802216,gregory-grate-jr-1,Gregory Grate Jr.,Middle Tennessee State,2018,S,89,1,0,Backup_Strategy1_Original
+Tim McClendon,2018,Air Force,201802219,timothy-mcclendon-1,Timothy McClendon,Air Force,2020,LB,86,1,2,Backup_Strategy1_Original
+Cory Gross,2018,Buffalo,201802296,cory-gross-jr-1,Cory Gross Jr.,Buffalo,2018,S,86,1,0,Backup_Strategy1_Original
+August Pitre,2018,Rice,201802419,august-pitre-iii-1,August Pitre III,Rice,2018,WR,85,1,0,Backup_Strategy1_Original
 Sione Veikoso,2018,Arizona State,201802432,sione-veikoso-1,Sione Veikoso,Arizona State,2021,OL,100,1,3,Backup_Strategy1_Original
 Tysen Lewis,2018,BYU,201802459,tysen-lewis-1,Tysen Lewis,BYU,2021,OL,100,1,3,Backup_Strategy1_Original
+Charles Coleman,2018,South Alabama,201802517,charles-coleman-iii-1,Charles Coleman III,South Alabama,2018,DE,88,1,0,Backup_Strategy1_Original
+Tyrone Hall,2018,South Alabama,201802566,tyrone-hall-jr-1,Tyrone Hall Jr.,South Alabama,2018,S,88,1,0,Backup_Strategy1_Original
+LeMaro Smith,2018,Buffalo,201802680,lemaro-smith-jr-1,LeMaro Smith Jr.,Buffalo,2018,WR,88,1,0,Backup_Strategy1_Original
+Sherwin King,2018,Fresno State,201802715,sherwin-king-jr-1,Sherwin King Jr.,Fresno State,2018,LB,88,1,0,Backup_Strategy1_Original
+William Knight,2018,Old Dominion,201802754,will-knight-1,Will Knight,Old Dominion,2018,RB,88,1,0,Backup_Strategy1_Original
+Malcolm Magee Jr,2018,Colorado State,201802832,malcolm-magee-1,Malcolm Magee,Colorado State,2018,CB,89,1,0,Backup_Strategy1_Original
+William Burns,2018,Kent State,201802834,will-burns-1,Will Burns,Kent State,2018,DL,86,1,0,Backup_Strategy1_Original
+Zachary Dixon,2018,Georgia State,201802848,zach-dixon-1,Zach Dixon,Georgia State,2018,LB,86,1,0,Backup_Strategy1_Original
+Jemel Jones Jr.,2018,Army,201802940,jemel-jones-1,Jemel Jones,Army,2019,QB,88,1,1,Backup_Strategy1_Original
+John Bolding,2018,Louisiana-Monroe,201803088,john-bolding-2,John Bolding,Louisiana-Monroe,2019,C,100,1,1,Backup_Strategy1_Original
 Zack Huffstutter,2018,UCLA,201803267,zach-huffstutter-1,Zach Huffstutter,UCLA,2018,DB,93,1,0,Backup_Strategy1_Original
+Andrew Smith,2018,UAB,201803341,andrew-smith-jr-1,Andrew Smith Jr.,UAB,2018,OL,88,1,0,Backup_Strategy1_Original
 Cash Peterman,2018,BYU,201803361,cash-peterman-1,Cash Peterman,BYU,2021,K,100,1,3,Backup_Strategy1_Original
+Leonard Payne Jr.,2018,Fresno State,201803392,leonard-payne-1,Leonard Payne,Fresno State,2018,DL,89,1,0,Backup_Strategy1_Original
 Hayden Erickson,2018,Utah,201803461,hayden-erickson-1,Hayden Erickson,Utah,2021,TE,100,1,3,Backup_Strategy1_Original
 Blake Watson,2018,Old Dominion,201803494,blake-watson-2,Blake Watson,Old Dominion,2019,WR,100,1,1,Backup_Strategy1_Original
+Joseph Tacopina,2018,Temple,201803678,joe-tacopina-1,Joe Tacopina,Temple,2018,PK,88,1,0,Backup_Strategy1_Original
 Rob Funkhouser,2018,Hawaii,201803800,robert-funkhouser-1,Robert Funkhouser,Hawaii,2018,WR,90,1,0,Backup_Strategy1_Original
+Theo Wease Jr.,2019,Oklahoma,201900021,theo-wease-1,Theo Wease,Oklahoma,2019,WR,86,1,0,Backup_Strategy1_Original
+Andrew Booth,2019,Clemson,201900023,andrew-booth-jr-1,Andrew Booth Jr.,Clemson,2019,CB,88,1,0,Backup_Strategy1_Original
+Joe Ngata,2019,Clemson,201900052,joseph-ngata-1,Joseph Ngata,Clemson,2019,WR,85,1,0,Backup_Strategy1_Original
+Curtis Fann,2019,Florida State,201900353,curtis-fann-jr-1,Curtis Fann Jr.,Florida State,2019,DE,88,1,0,Backup_Strategy1_Original
+Patrick Garwo III,2019,Boston College,201900385,patrick-garwo-1,Patrick Garwo,Boston College,2019,RB,86,1,0,Backup_Strategy1_Original
+William Harrod,2019,Florida,201900417,will-harrod-1,Will Harrod,Florida,2019,OL,88,1,0,Backup_Strategy1_Original
+Cameron Williams,2019,Miami,201900437,cameron-williams-3,Cameron Williams,Miami (FL),2019,DL,100,1,0,Backup_Strategy1_Original
+Marvin Ham,2019,Colorado,201900462,marvin-ham-ii-1,Marvin Ham II,Colorado,2019,LB,86,1,0,Backup_Strategy1_Original
+Gregory Williams,2019,Clemson,201900551,greg-williams-14,Greg Williams,Clemson,2019,DE,89,1,0,Backup_Strategy1_Original
+Charles Turner III,2019,LSU,201900565,charles-turner-2,Charles Turner,LSU,2019,OL,87,1,0,Backup_Strategy1_Original
+Cameron Phillips,2019,Wisconsin,201900674,cam-phillips-3,Cam Phillips,Wisconsin,2019,WR,85,1,0,Backup_Strategy1_Original
 Justin Harris,2019,Cincinnati,201900711,justin-harris-9,Justin Harris,Cincinnati,2019,CB,100,1,0,Backup_Strategy1_Original
+Kenny Logan,2019,Kansas,201900717,kenny-logan-jr-1,Kenny Logan Jr.,Kansas,2019,CB,88,1,0,Backup_Strategy1_Original
+Brandon Mack II,2019,Ole Miss,201900719,brandon-mack-3,Brandon Mack,Ole Miss,2019,LB,88,1,0,Backup_Strategy1_Original
+Jason Gold,2019,Northwestern,201900804,jason-gold-jr-1,Jason Gold Jr.,Northwestern,2019,DE,86,1,0,Backup_Strategy1_Original
+Curley Young,2019,California,201900818,curley-young-jr-1,Curley Young Jr.,California,2019,LB,88,1,0,Backup_Strategy1_Original
+George Johnson III,2019,Michigan,201900876,george-johnson-6,George Johnson,Michigan,2019,WR,87,1,0,Backup_Strategy1_Original
+Darius Williams,2019,Middle Tennessee,201900880,darius-williams-4,Darius Williams,Middle Tennessee State,2019,DE,100,1,0,Backup_Strategy1_Original
 Sione Vaki,2019,Utah,201900889,sione-vaki-1,Sione Vaki,Utah,2022,S,100,1,3,Backup_Strategy1_Original
 William Pritchard,2019,Virginia Tech,201900921,will-pritchard-1,Will Pritchard,Virginia Tech,2019,OL,90,1,0,Backup_Strategy1_Original
 Rod Heard II,2019,Northwestern,201900922,rod-heard-ii-1,Rod Heard II,Northwestern,2022,DB,100,1,3,Backup_Strategy1_Original
+Allen Smith Jr.,2019,Louisville,201901033,allen-smith-3,Allen Smith,Louisville,2019,LB,88,1,0,Backup_Strategy1_Original
+Trey Potts,2019,Minnesota,201901041,treyson-potts-1,Treyson Potts,Minnesota,2019,RB,86,1,0,Backup_Strategy1_Original
 Julio Ayamel,2019,James Madison,201901067,julio-ayamel-1,Julio Ayamel,James Madison,2022,LB,100,1,3,Backup_Strategy1_Original
 Jalen Green,2019,James Madison,201901068,jalen-green-1,Jalen Green,James Madison,2022,DE,100,1,3,Backup_Strategy1_Original
+Joseph Hocker,2019,FIU,201901225,joe-hocker-1,Joe Hocker,Florida International,2019,TE,86,1,0,Backup_Strategy1_Original
 Ty Garay-Harris,2019,Washington State,201901258,tyler-garay-harris-1,Tyler Garay-Harris,Washington State,2019,DL,90,1,0,Backup_Strategy1_Original
+Paris Brown Jr.,2019,Pittsburgh,201901309,paris-brown-1,Paris Brown,Pitt,2019,DB,88,1,0,Backup_Strategy1_Original
+Kelvin Dean,2019,Florida Atlantic,201901318,kelvin-dean-jr-1,Kelvin Dean Jr.,Florida Atlantic,2019,RB,88,1,0,Backup_Strategy1_Original
+Rahmon Hart,2019,Ball State,201901398,rahmon-hart-jr-1,Rahmon Hart Jr.,Ball State,2019,WR,88,1,0,Backup_Strategy1_Original
 Levi Williams,2019,Tulane,201901472,levi-williams-2,Levi Williams,Tulane,2020,DB,100,1,1,Backup_Strategy1_Original
 Sitiveni Havili Kaufusi,2019,UCLA,201901536,sitiveni-havili-kaufusi-1,Sitiveni Havili-Kaufusi,UCLA,2022,DL,95,1,3,Backup_Strategy1_Original
+Rayquon Hartley,2019,Middle Tennessee,201901594,raquan-hartley-1,Raquan Hartley,Middle Tennessee State,2019,LB,89,1,0,Backup_Strategy1_Original
+Delbert Mimms III,2019,NC State,201901622,delbert-mimms-1,Delbert Mimms,North Carolina State,2019,RB,86,1,0,Backup_Strategy1_Original
 Michael Daley,2019,BYU,201901711,michael-daley-1,Michael Daley,BYU,2022,LB,100,1,3,Backup_Strategy1_Original
+Tyrece Woods,2019,Buffalo,201901726,tyrece-woods-jr-1,Tyrece Woods Jr.,Buffalo,2019,DT,88,1,0,Backup_Strategy1_Original
 Jalen Williams,2019,Nevada,201901827,jalen-williams-5,Jalen Williams,Nevada,2019,LB,100,1,0,Backup_Strategy1_Original
+Devonta Bridges,2019,Fresno State,201901851,devo-bridges-1,Devo Bridges,Fresno State,2019,LB,88,1,0,Backup_Strategy1_Original
 Keonte Glinton,2019,Wyoming,201901916,keonte-glinton-1,Keonte Glinton,Wyoming,2022,DB,100,1,3,Backup_Strategy1_Original
 Dadrion Taylor-Demerson,2019,Texas Tech,201901958,dadrion-taylor-demerson-1,Dadrion Taylor-Demerson,Texas Tech,2022,DB,100,1,3,Backup_Strategy1_Original
 Mohamed Toure,2019,Northern Illinois,201901969,mohamed-toure-2,Mohamed Toure,Northern Illinois,2019,WR,100,1,0,Backup_Strategy1_Original
+Darius Boone,2019,Eastern Michigan,201901974,darius-boone-jr-1,Darius Boone Jr.,Eastern Michigan,2019,RB,88,1,0,Backup_Strategy1_Original
+Eric Hicks,2019,Tulane,201901987,eric-hicks-jr-1,Eric Hicks Jr.,Tulane,2019,DL,86,1,0,Backup_Strategy1_Original
+Steven Losoya,2019,Middle Tennessee,201902112,steven-losoya-iii-1,Steven Losoya III,Middle Tennessee State,2019,OL,86,1,0,Backup_Strategy1_Original
+Kenneth Walker,2019,Wake Forest,201902116,kenneth-walker-iii-1,Kenneth Walker III,Wake Forest,2019,RB,87,1,0,Backup_Strategy1_Original
+Matt Salopek,2019,Miami (OH),201902272,matthew-salopek-1,Matthew Salopek,Miami (OH),2019,DB,88,1,0,Backup_Strategy1_Original
 Sonny Makasini,2019,BYU,201902343,sonny-makasini-1,Sonny Makasini,BYU,2022,OL,100,1,3,Backup_Strategy1_Original
 Tyler Smith,2019,Tulsa,201902426,tyler-smith-6,Tyler Smith,Tulsa,2019,OL,100,1,0,Backup_Strategy1_Original
 Austin Jones,2019,Memphis,201902429,austin-jones-7,Austin Jones,Memphis,2019,DB,100,1,0,Backup_Strategy1_Original
+Chux Nwabuko,2019,Texas Tech,201902495,chux-nwabuko-iii-1,Chux Nwabuko III,Texas Tech,2019,RB,85,1,0,Backup_Strategy1_Original
 Bruce Mitchell,2019,BYU,201902505,bruce-mitchell-2,Bruce Mitchell,BYU,2022,DL,100,1,3,Backup_Strategy1_Original
 Alex Meredith,2019,Army,201902736,alex-meredith-1,Alex Meredith,Army,2022,QB,100,1,3,Backup_Strategy1_Original
 Carlos Harrison,2019,Wyoming,201902823,carlos-harrison-1,Carlos Harrison,Wyoming,2022,OL,100,1,3,Backup_Strategy1_Original
+Mark Davis Jr.,2019,Buffalo,201902829,mark-davis-3,Mark Davis,Buffalo,2019,CB,86,1,0,Backup_Strategy1_Original
 Zack Amerson,2019,Liberty,201902980,zach-amerson-1,Zach Amerson,Liberty,2019,DE,91,1,0,Backup_Strategy1_Original
+Matt Quinn,2019,UAB,201903109,matthew-quinn-2,Matthew Quinn,UAB,2019,PK,86,1,0,Backup_Strategy1_Original
+Jeff Clark,2019,Georgia State,201903147,jeffery-clark-1,Jeffery Clark,Georgia State,2019,DL,86,1,0,Backup_Strategy1_Original
+Terrence Moore,2019,Old Dominion,201903300,terrance-moore-1,Terrance Moore,Old Dominion,2019,WR,92,1,0,Backup_Strategy1_Original
+Terry Jones Jr.,2019,Old Dominion,201903335,terry-jones-3,Terry Jones,Old Dominion,2019,S,88,1,0,Backup_Strategy1_Original
+Zackary Gieg,2019,Fresno State,201903357,zack-gieg-1,Zack Gieg,Fresno State,2019,OL,85,1,0,Backup_Strategy1_Original
+Zackary Martin,2019,Louisiana-Monroe,201903422,zack-martin-2,Zack Martin,Louisiana-Monroe,2019,RB,88,1,0,Backup_Strategy1_Original
 Connor McIntee,2019,Air Force,201903435,connor-mcintee-1,Connor McIntee,Air Force,2022,TE,100,1,3,Backup_Strategy1_Original
+Vic Cutler,2019,Louisiana-Monroe,201903480,victor-cutler-1,Victor Cutler,Louisiana-Monroe,2019,OL,86,1,0,Backup_Strategy1_Original
 Aaron Smith,2019,Oregon,201903527,aaron-smith-7,Aaron Smith,Oregon,2021,RB,100,1,2,Backup_Strategy1_Original
+Jon Denny,2019,Washington State,201903606,joe-denny-1,Joe Denny,Washington State,2019,OL,88,1,0,Backup_Strategy1_Original
 Bronson Olevao,2019,Utah State,201903642,bronson-olevao-1,Bronson Olevao,Utah State,2022,LB,100,1,3,Backup_Strategy1_Original
 Evan Davis,2019,Buffalo,201903720,evan-davis-3,Evan Davis,Buffalo,2019,LS,100,1,0,Backup_Strategy1_Original
+McKinley Lee,2019,Fresno State,201903894,mckinley-lee-iii-1,McKinley Lee III,Fresno State,2020,RB,85,1,1,Backup_Strategy1_Original
 Marcus Harris,2019,Oregon State,201903919,marcus-harris-4,Marcus Harris,Oregon State,2019,DB,100,1,0,Backup_Strategy1_Original
 Myles Murphy,2020,Clemson,202000007,myles-murphy-1,Myles Murphy,Clemson,2020,DE,100,1,0,Backup_Strategy1_Original
+Eric Reed,2020,Auburn,202000195,eric-reed-jr-1,Eric Reed Jr.,Auburn,2020,DB,85,1,0,Backup_Strategy1_Original
+Samuel Anaele,2020,Kentucky,202000284,sam-anaele-1,Sam Anaele,Kentucky,2020,LB,86,1,0,Backup_Strategy1_Original
+Jeff Persi,2020,Michigan,202000312,jeffrey-persi-1,Jeffrey Persi,Michigan,2020,OL,86,1,0,Backup_Strategy1_Original
 Daniel Jackson,2020,Minnesota,202000332,daniel-jackson-5,Daniel Jackson,Minnesota,2020,WR,100,1,0,Backup_Strategy1_Original
+Sam Brown Jr.,2020,West Virginia,202000452,sam-brown-5,Sam Brown,West Virginia,2020,WR,85,1,0,Backup_Strategy1_Original
 Solatoa Moea'i,2020,Utah,202000457,solatoa-moeai-1,Solatoa Moea'i,Utah,2023,OL,100,1,3,Backup_Strategy1_Original
+Greg Hudgins,2020,Purdue,202000527,greg-hudgins-iii-1,Greg Hudgins III,Purdue,2020,DE,85,1,0,Backup_Strategy1_Original
+Terry Lockett,2020,Michigan State,202000578,terry-lockett-jr-1,Terry Lockett Jr.,Michigan State,2020,WR,89,1,0,Backup_Strategy1_Original
+Greedy Vance Jr.,2020,Louisville,202000619,greedy-vance-1,Greedy Vance,Louisville,2020,DB,88,1,0,Backup_Strategy1_Original
+Frank Brown,2020,Arizona,202000625,frank-brown-jr-1,Frank Brown Jr.,Arizona,2020,RB,88,1,0,Backup_Strategy1_Original
+Cam Jackson,2020,Memphis,202000645,camron-jackson-1,Camron Jackson,Memphis,2020,DL,88,1,0,Backup_Strategy1_Original
 Jay Max Jacobsen,2020,UCLA,202000652,jaymax-jacobsen-1,Jaymax Jacobsen,UCLA,2020,LB,96,1,0,Backup_Strategy1_Original
 Jayson Jones,2020,Jacksonville State,202000706,jayson-jones-3,Jayson Jones,Jacksonville State,2023,WR,100,1,3,Backup_Strategy1_Original
+Doug Emilien,2020,Minnesota,202000714,douglas-emilien-1,Douglas Emilien,Minnesota,2020,WR,88,1,0,Backup_Strategy1_Original
+Lanell Carr Jr.,2020,West Virginia,202000726,lanell-carr-1,Lanell Carr,West Virginia,2020,LB,88,1,0,Backup_Strategy1_Original
+Herbert Gums,2020,Boise State,202000754,herbert-gums-jr-1,Herbert Gums Jr.,Boise State,2020,NT,88,1,0,Backup_Strategy1_Original
 Johnny Wilson,2020,Iowa State,202000814,johnny-wilson-4,Johnny Wilson,Iowa State,2021,DE,100,1,1,Backup_Strategy1_Original
+Corey Flagg,2020,Miami,202000829,corey-flagg-jr-1,Corey Flagg Jr.,Miami (FL),2020,LB,88,1,0,Backup_Strategy1_Original
+Charles Bell VI,2020,Marshall,202000837,charles-bell-2,Charles Bell,Marshall,2020,DB,88,1,0,Backup_Strategy1_Original
+Deshawn Jones,2020,Bowling Green,202000904,deshawn-jones-jr-1,Deshawn Jones Jr.,Bowling Green,2020,DB,89,1,0,Backup_Strategy1_Original
+Tyler Berrong,2020,Kent State,202000917,ty-berrong-1,Ty Berrong,Kent State,2020,LB,86,1,0,Backup_Strategy1_Original
+Ray Curry Jr.,2020,Arkansas,202000964,ray-curry-2,Ray Curry,Arkansas,2020,OL,85,1,0,Backup_Strategy1_Original
+Dorian Mausi Jr.,2020,Duke,202001007,dorian-mausi-1,Dorian Mausi,Duke,2020,LB,88,1,0,Backup_Strategy1_Original
+Andre Hines Jr.,2020,Boston College,202001090,andre-hines-1,Andre Hines,Boston College,2020,RB,88,1,0,Backup_Strategy1_Original
+Keith Miller,2020,Colorado,202001140,keith-miller-iii-1,Keith Miller III,Colorado,2020,WR,85,1,0,Backup_Strategy1_Original
+Jestus Johnson,2020,Virginia,202001154,jestus-johnson-iii-1,Jestus Johnson III,Virginia,2020,OL,87,1,0,Backup_Strategy1_Original
+Samuel Williams,2020,Pittsburgh,202001279,sam-williams-9,Sam Williams,Pitt,2020,DL,88,1,0,Backup_Strategy1_Original
 Sean Tucker,2020,East Carolina,202001354,sean-tucker-1,Sean Tucker,East Carolina,2020,DB,100,1,0,Backup_Strategy1_Original
+Casey Irons,2020,Colorado State,202001453,casey-irons-jr-1,Casey Irons Jr.,Colorado State,2020,DL,88,1,0,Backup_Strategy1_Original
+Glen Miller,2020,Maryland,202001519,glendon-miller-1,Glendon Miller,Maryland,2020,DB,88,1,0,Backup_Strategy1_Original
 Briceon Hayes,2020,Sam Houston,202001593,briceon-hayes-1,Briceon Hayes,Sam Houston,2023,DL,100,1,3,Backup_Strategy1_Original
 Ron Wiggins,2020,Jacksonville State,202001656,ron-wiggins-1,Ron Wiggins,Jacksonville State,2023,RB,100,1,3,Backup_Strategy1_Original
 Shi Keem Laister,2020,Tulane,202001661,shikeem-laister-1,Shi'Keem Laister,Tulane,2020,DB,96,1,0,Backup_Strategy1_Original
 Ace Kaufusi,2020,BYU,202001802,ace-kaufusi-1,Ace Kaufusi,BYU,2023,LB,100,1,3,Backup_Strategy1_Original
 Lincoln Tuioti-Mariner,2020,Air Force,202001829,lincoln-tuioti-mariner-1,Lincoln Tuioti-Mariner,Air Force,2023,DB,100,1,3,Backup_Strategy1_Original
+Matthew Duncan,2020,Temple,202001842,matt-duncan-1,Matt Duncan,Temple,2020,QB,88,1,0,Backup_Strategy1_Original
 Jake Griffin,2020,BYU,202001894,jake-griffin-1,Jake Griffin,BYU,2023,OL,100,1,3,Backup_Strategy1_Original
+Michael Pleas,2020,Southern Miss,202001962,michael-pleas-jr-1,Michael Pleas Jr.,Southern Mississippi,2020,LB,89,1,0,Backup_Strategy1_Original
+Joe Mason,2020,Louisiana Tech,202001963,joseph-mason-1,Joseph Mason,Louisiana Tech,2020,LB,85,1,0,Backup_Strategy1_Original
 Koa Eldredge,2020,BYU,202002039,koa-eldredge-1,Koa Eldredge,BYU,2023,WR,100,1,3,Backup_Strategy1_Original
+Mark Brownlee,2020,Ball State,202002053,markavun-brownlee-1,Markavun Brownlee,Ball State,2020,RB,86,1,0,Backup_Strategy1_Original
 Devin Downing,2020,BYU,202002103,devin-downing-1,Devin Downing,BYU,2023,WR,100,1,3,Backup_Strategy1_Original
 Juan Jarrett,2020,Akron,202002234,jaun-jarrett-1,Jaun Jarrett,Akron,2020,LB,91,1,0,Backup_Strategy1_Original
+Matthew Lombardi,2020,Tulane,202002257,matt-lombardi-1,Matt Lombardi,Tulane,2020,OL,89,1,0,Backup_Strategy1_Original
+Matthew Johnson,2020,Northern Illinois,202002278,matt-johnson-12,Matt Johnson,Northern Illinois,2020,DE,88,1,0,Backup_Strategy1_Original
+Alonzo Ford Jr.,2020,Old Dominion,202002385,alonzo-ford-1,Alonzo Ford,Old Dominion,2020,DT,88,1,0,Backup_Strategy1_Original
+Anthony Smith,2020,Iowa State,202002391,anthony-smith-15,Anthony Smith,Iowa State,2020,OL,100,1,0,Backup_Strategy1_Original
+Antonio Sablon III,2020,Old Dominion,202002397,antonio-sablon-1,Antonio Sablon,Old Dominion,2020,WR,87,1,0,Backup_Strategy1_Original
+Gabe Brown,2020,Bowling Green,202002448,gabriel-brown-1,Gabriel Brown,Bowling Green,2020,OL,86,1,0,Backup_Strategy1_Original
 Nukuluve Helu,2020,BYU,202002480,nukuluve-helu-1,Nukuluve Helu,BYU,2023,RB,100,1,3,Backup_Strategy1_Original
+Jerome Jolly,2020,Liberty,202002499,jerome-jolly-jr-1,Jerome Jolly Jr.,Liberty,2020,S,88,1,0,Backup_Strategy1_Original
+Olan Cazad,2020,New Mexico State,202002532,olan-cazad-jr-1,Olan Cazad Jr.,New Mexico State,2020,DB,86,1,0,Backup_Strategy1_Original
+Quincy Ledet,2020,Louisiana-Monroe,202002789,quincy-ledet-jr-1,Quincy Ledet Jr.,Louisiana-Monroe,2020,DT,88,1,0,Backup_Strategy1_Original
 Austin Hill,2020,Army,202002999,austin-hill-5,Austin Hill,Army,2021,DL,100,1,1,Backup_Strategy1_Original
 Amin Hassan,2020,Navy,202003047,amir-hassan-1,Amir Hassan,Navy,2021,SB,90,1,1,Backup_Strategy1_Original
 Ty Burke,2020,BYU,202003057,ty-burke-1,Ty Burke,BYU,2023,S,100,1,3,Backup_Strategy1_Original
 Tre Smith,2020,San Jose State,202003258,tre-smith-3,Tre Smith,San Jose State,2020,DL,100,1,0,Backup_Strategy1_Original
 Brandon Jones,2020,Army,202003321,brandon-jones-18,Brandon Jones,Army,2021,WR,100,1,1,Backup_Strategy1_Original
+Cam Vining,2020,Army,202003336,camden-vining-1,Camden Vining,Army,2021,LB,86,1,1,Backup_Strategy1_Original
+Louis Taylor,2020,Liberty,202003353,louis-taylor-iii-1,Louis Taylor III,Liberty,2020,S,85,1,0,Backup_Strategy1_Original
+Malcolm Terry,2020,Navy,202003371,malcolm-terry-ii-1,Malcolm Terry II,Navy,2020,SB,89,1,0,Backup_Strategy1_Original
 Costen Cooley,2020,Air Force,202003380,costen-cooley-1,Costen Cooley,Air Force,2023,OG,100,1,3,Backup_Strategy1_Original
 Bowen Fjord,2020,Utah State,202003387,bowen-fjord-1,Bowen Fjord,Utah State,2023,LB,100,1,3,Backup_Strategy1_Original
 Marcus Moore,2020,Navy,202003482,marcus-moore-3,Marcus Moore,Navy,2020,S,100,1,0,Backup_Strategy1_Original
 Jean Marc Etienne,2020,Illinois,202003604,jean-marc-etienne-1,Jean-Marc Etienne,Illinois,2023,RB,94,1,3,Backup_Strategy1_Original
 Will O'Steen,2020,Jacksonville State,202003883,will-osteen-1,Will O'Steen,Jacksonville State,2023,OL,100,1,3,Backup_Strategy1_Original
+Matt Malloy,2020,Air Force,202003888,matthew-malloy-1,Matthew Malloy,Air Force,2020,LB,88,1,0,Backup_Strategy1_Original
+Leonard Taylor III,2021,Miami,202100011,leonard-taylor-3,Leonard Taylor,Miami (FL),2021,DL,87,1,0,Backup_Strategy1_Original
+Damon Payne,2021,Alabama,202100024,damon-payne-jr-1,Damon Payne Jr.,Alabama,2021,DL,88,1,0,Backup_Strategy1_Original
+RaRa Dillworth,2021,North Carolina,202100103,raneiria-dillworth-1,Raneiria Dillworth,North Carolina,2021,LB,87,1,0,Backup_Strategy1_Original
+Gabriel Rubio,2021,Notre Dame,202100117,gabe-rubio-1,Gabe Rubio,Notre Dame,2021,DL,86,1,0,Backup_Strategy1_Original
 Dematrius Davis Jr.,2021,Auburn,202100229,dematrius-davis-1,Dematrius Davis,Auburn,2021,QB,90,1,0,Backup_Strategy1_Original
+Drey Norwood,2021,Texas A&M,202100295,dreyden-norwood-1,Dreyden Norwood,Texas A&M,2021,DB,88,1,0,Backup_Strategy1_Original
+Steven Ortiz,2021,Minnesota,202100313,steven-ortiz-jr-1,Steven Ortiz Jr.,Minnesota,2021,DB,88,1,0,Backup_Strategy1_Original
 Caleb Johnson,2021,Notre Dame,202100316,caleb-johnson-5,Caleb Johnson,Notre Dame,2021,OL,100,1,0,Backup_Strategy1_Original
+Will Parker,2021,Tennessee,202100407,william-parker-2,William Parker,Tennessee,2021,OL,88,1,0,Backup_Strategy1_Original
+Kyran Montgomery,2021,Missouri,202100433,ky-montgomery-1,Ky Montgomery,Missouri,2021,DL,89,1,0,Backup_Strategy1_Original
 Andrew Jones,2021,Memphis,202100458,andrew-jones-7,Andrew Jones,Memphis,2021,LB,100,1,0,Backup_Strategy1_Original
+Fernando Garza III,2021,Texas A&M,202100727,fernando-garza-1,Fernando Garza,Texas A&M,2021,TE,87,1,0,Backup_Strategy1_Original
+Fred Seabrough,2021,NC State,202100740,fredrick-seabrough-1,Fredrick Seabrough,North Carolina State,2021,TE,87,1,0,Backup_Strategy1_Original
+Shawn Hardy,2021,Nebraska,202100763,shawn-hardy-ii-1,Shawn Hardy II,Nebraska,2021,WR,88,1,0,Backup_Strategy1_Original
+Zachary Lovett,2021,Missouri,202100805,zach-lovett-1,Zach Lovett,Missouri,2021,LB,88,1,0,Backup_Strategy1_Original
+Donny Stephens,2021,Oklahoma State,202100811,donovan-stephens-1,Donovan Stephens,Oklahoma State,2021,LB,86,1,0,Backup_Strategy1_Original
+Raymond Gay,2021,Oklahoma State,202100873,raymond-gay-ii-1,Raymond Gay II,Oklahoma State,2021,CB,88,1,0,Backup_Strategy1_Original
+Allan Haye,2021,Miami,202100924,allan-haye-jr-1,Allan Haye Jr.,Miami (FL),2021,DL,86,1,0,Backup_Strategy1_Original
+Vince Fiacable,2021,Indiana,202100982,vinny-fiacable-1,Vinny Fiacable,Indiana,2021,OL,85,1,0,Backup_Strategy1_Original
+Katravis Geter Jr.,2021,FIU,202101010,katravis-geter-1,Katravis Geter,Florida International,2021,RB,90,1,0,Backup_Strategy1_Original
+Mario Love,2021,NC State,202101031,mario-love-jr-1,Mario Love Jr.,North Carolina State,2021,DB,86,1,0,Backup_Strategy1_Original
+Nykelius Johnson,2021,Virginia Tech,202101058,nyke-johnson-1,Nyke Johnson,Virginia Tech,2021,DB,85,1,0,Backup_Strategy1_Original
+Kamren Blanton,2021,UNLV,202101113,kameron-blanton-1,Kameron Blanton,Nevada-Las Vegas,2021,DB,89,1,0,Backup_Strategy1_Original
+Solo Lewis,2021,Louisiana Tech,202101155,solomon-lewis-1,Solomon Lewis,Louisiana Tech,2021,WR,86,1,0,Backup_Strategy1_Original
+Eric Randall,2021,Memphis,202101205,eric-randall-iii-1,Eric Randall III,Memphis,2021,DB,85,1,0,Backup_Strategy1_Original
+Charles Esters,2021,Texas Tech,202101211,charles-esters-iii-1,Charles Esters III,Texas Tech,2021,DL,87,1,0,Backup_Strategy1_Original
+William Haskell,2021,San Diego State,202101227,will-haskell-2,Will Haskell,San Diego State,2021,QB,88,1,0,Backup_Strategy1_Original
 Viliami Po'uha,2021,BYU,202101355,viliami-pouha-1,Viliami Po'uha,BYU,2024,DE,100,1,3,Backup_Strategy1_Original
+Joey Bearns III,2021,Maryland,202101431,joseph-bearns-iii-1,Joseph Bearns III,Maryland,2021,FB,87,1,0,Backup_Strategy1_Original
+Matthew Weerts,2021,Arizona,202101508,matt-weerts-1,Matt Weerts,Arizona,2021,LB,88,1,0,Backup_Strategy1_Original
+Mike Edwards III,2021,Georgia Southern,202101510,michael-edwards-iii-1,Michael Edwards III,Georgia Southern,2021,LB,85,1,0,Backup_Strategy1_Original
+Doran Ray,2021,Toledo,202101583,doran-ray-jr-1,Doran Ray Jr.,Toledo,2021,DT,85,1,0,Backup_Strategy1_Original
+Cam'Ron Ransom,2021,Georgia Southern,202101591,cam-ransom-1,Cam Ransom,Georgia Southern,2021,QB,86,1,0,Backup_Strategy1_Original
+George Gumbs Jr.,2021,Northern Illinois,202101713,george-gumbs-1,George Gumbs,Northern Illinois,2021,TE,88,1,0,Backup_Strategy1_Original
 Pius Odjugo,2021,Central Michigan,202101724,pius-odjugo-1,Pius Odjugo,Central Michigan,2024,DL,100,1,3,Backup_Strategy1_Original
 Nathan Hoke,2021,BYU,202101741,nathan-hoke-1,Nathan Hoke,BYU,2024,DE,100,1,3,Backup_Strategy1_Original
+Zach Barlev,2021,Illinois,202101779,zachary-barlev-1,Zachary Barlev,Illinois,2021,OL,88,1,0,Backup_Strategy1_Original
+Fuches Lewis,2021,Georgia State,202101788,fuches-lewis-ii-1,Fuches Lewis II,Georgia State,2021,DL,88,1,0,Backup_Strategy1_Original
 Dre Washington,2021,Louisiana,202101810,drelyn-washington-1,Dre'lyn Washington,Louisiana,2021,RB,90,1,0,Backup_Strategy1_Original
+Will Jones,2021,Virginia Tech,202101853,william-jones-2,William Jones,Virginia Tech,2021,OL,86,1,0,Backup_Strategy1_Original
 Dallin Havea,2021,BYU,202101862,dallin-havea-1,Dallin Havea,BYU,2024,DT,100,1,3,Backup_Strategy1_Original
 Sione Hingano,2021,BYU,202101879,sione-hingano-1,Sione Hingano,BYU,2024,OL,100,1,3,Backup_Strategy1_Original
+Ollie Finch,2021,Troy,202101897,ollie-finch-jr-1,Ollie Finch Jr.,Troy,2021,WR,88,1,0,Backup_Strategy1_Original
 JohnMichael Gyllenborg,2021,Wyoming,202102032,john-michael-gyllenborg-1,John Michael Gyllenborg,Wyoming,2021,TE,97,1,0,Backup_Strategy1_Original
 Jovesa Damuni,2021,BYU,202102033,jovesa-damuni-1,Jovesa Damuni,BYU,2024,RB,100,1,3,Backup_Strategy1_Original
 Joshua Nicholson,2021,San Diego State,202102034,josh-nicholson-1,Josh Nicholson,San Diego State,2021,WR,93,1,0,Backup_Strategy1_Original
+Samuel Scott,2021,Wyoming,202102054,sam-scott-1,Sam Scott,Wyoming,2021,LB,85,1,0,Backup_Strategy1_Original
+Thai Baldwin,2021,Ball State,202102086,thailand-baldwin-1,Thailand Baldwin,Ball State,2021,CB,85,1,0,Backup_Strategy1_Original
 Austin Smith,2021,Eastern Michigan,202102112,austin-smith-5,Austin Smith,Eastern Michigan,2021,QB,100,1,0,Backup_Strategy1_Original
+Charles Daniels,2021,UAB,202102132,charles-daniels-iii-1,Charles Daniels III,UAB,2021,LB,88,1,0,Backup_Strategy1_Original
+Matt Reardon,2021,Miami (OH),202102177,matthew-reardon-1,Matthew Reardon,Miami (OH),2021,WR,88,1,0,Backup_Strategy1_Original
+Jayden Folmar,2021,Rice,202102185,jay-folmar-1,Jay Folmar,Rice,2021,WR,86,1,0,Backup_Strategy1_Original
+Richard Toney Jr.,2021,Nevada,202102229,richard-toney-1,Richard Toney,Nevada,2021,DB,89,1,0,Backup_Strategy1_Original
+Matthew Pajuste,2021,Buffalo,202102236,matt-pajuste-1,Matt Pajuste,Buffalo,2021,OL,88,1,0,Backup_Strategy1_Original
 Jayden Williams,2021,Florida Atlantic,202102240,jayden-williams-3,Jayden Williams,Florida Atlantic,2021,CB,100,1,0,Backup_Strategy1_Original
 Nick Sawyer,2021,Kennesaw State,202102256,nick-sawyer-1,Nick Sawyer,Kennesaw State,2024,DB,100,1,3,Backup_Strategy1_Original
 Jack Burnett,2021,Air Force,202102277,jack-burnett-2,Jack Burnett,Air Force,2024,OC,100,1,3,Backup_Strategy1_Original
+Richard Mays,2021,Southern Miss,202102282,richard-mays-jr-1,Richard Mays Jr.,Southern Mississippi,2021,WR,88,1,0,Backup_Strategy1_Original
+Zachary Russell,2021,Bowling Green,202102374,zach-russell-1,Zach Russell,Bowling Green,2021,TE,88,1,0,Backup_Strategy1_Original
+Julius Sims,2021,Bowling Green,202102381,julius-sims-jr-1,Julius Sims Jr.,Bowling Green,2021,S,88,1,0,Backup_Strategy1_Original
+Douglas Newsome,2021,Charlotte,202102548,doug-newsome-1,Doug Newsome,Charlotte,2021,CB,88,1,0,Backup_Strategy1_Original
+Michael Cerniauskas,2021,Army,202102575,mike-cerniauskas-1,Mike Cerniauskas,Army,2021,DB,85,1,0,Backup_Strategy1_Original
+Sam Floysand,2021,Air Force,202102604,samuel-floysand-1,Samuel Floysand,Air Force,2023,OL,88,1,2,Backup_Strategy1_Original
+Gregory Johnson,2021,Army,202102666,gregory-johnson-iii-1,Gregory Johnson III,Army,2021,LB,88,1,0,Backup_Strategy1_Original
+Luther Burden III,2022,Missouri,202200003,luther-burden-1,Luther Burden,Missouri,2022,WR,86,1,0,Backup_Strategy1_Original
+Earnest Greene III,2022,Georgia,202200045,earnest-greene-1,Earnest Greene,Georgia,2022,OL,87,1,0,Backup_Strategy1_Original
+Julio Humphrey,2022,Georgia,202200081,julian-humphrey-1,Julian Humphrey,Georgia,2022,DB,89,1,0,Backup_Strategy1_Original
+Emery Jones Jr.,2022,LSU,202200110,emery-jones-1,Emery Jones,LSU,2022,OL,88,1,0,Backup_Strategy1_Original
+Caleb Burton III,2022,Ohio State,202200132,caleb-burton-1,Caleb Burton,Ohio State,2022,WR,85,1,0,Backup_Strategy1_Original
+Sherrod Covil,2022,Clemson,202200205,sherrod-covil-jr-1,Sherrod Covil Jr.,Clemson,2022,S,89,1,0,Backup_Strategy1_Original
+Micheal Ibukun-Okeyode,2022,TCU,202200382,michael-ibukin-okeyode-1,Michael Ibukin-Okeyode,Texas Christian,2022,DL,90,1,0,Backup_Strategy1_Original
+Alfonzo Allen Jr.,2022,Baylor,202200459,alfonzo-allen-1,Alfonzo Allen,Baylor,2022,S,89,1,0,Backup_Strategy1_Original
+Mark Nabou Jr.,2022,Texas A&M,202200508,mark-nabou-1,Mark Nabou,Texas A&M,2022,OL,86,1,0,Backup_Strategy1_Original
+Venson Sneed Jr.,2022,Indiana,202200515,venson-sneed-1,Venson Sneed,Indiana,2022,DL,88,1,0,Backup_Strategy1_Original
 Stephon Johnson,2022,Oklahoma State,202200526,stephon-johnson-jr-1,Stephon Johnson Jr.,Oklahoma State,2022,WR,90,1,0,Backup_Strategy1_Original
+Johnny Dickson III,2022,Virginia Tech,202200549,johnny-dickson-1,Johnny Dickson,Virginia Tech,2022,OL,87,1,0,Backup_Strategy1_Original
+Tommy Castellanos,2022,UCF,202200557,thomas-castellanos-1,Thomas Castellanos,UCF,2022,QB,85,1,0,Backup_Strategy1_Original
+Ahmad Moten Sr.,2022,Miami,202200558,ahmad-moten-1,Ahmad Moten,Miami (FL),2022,DL,88,1,0,Backup_Strategy1_Original
+Lorenzell Dubose,2022,Louisiana,202200561,lorenzo-dubose-1,Lorenzo Dubose,Louisiana,2022,CB,86,1,0,Backup_Strategy1_Original
+Danny Lewis Jr.,2022,Alabama,202200623,danny-lewis-3,Danny Lewis,Alabama,2022,TE,88,1,0,Backup_Strategy1_Original
 Val Erickson,2022,Missouri,202200820,valen-erickson-1,Valen Erickson,Missouri,2022,OL,92,1,0,Backup_Strategy1_Original
+Jamaal Whyce Jr.,2022,South Carolina,202200834,jamaal-whyce-1,Jamaal Whyce,South Carolina,2022,DT,88,1,0,Backup_Strategy1_Original
+Eddie Kelly Jr.,2022,South Florida,202200838,eddie-kelly-1,Eddie Kelly,South Florida,2022,DL,88,1,0,Backup_Strategy1_Original
+Reggie Bush II,2022,Baylor,202200875,reggie-bush-2,Reggie Bush,Baylor,2022,CB,88,1,0,Backup_Strategy1_Original
 Kaleb Brown,2022,UTSA,202200953,kaleb-brown-3,Kaleb Brown,UTSA,2022,LB,100,1,0,Backup_Strategy1_Original
 D.J. Moore,2022,Georgia Tech,202200964,dj-moore-5,D.J. Moore,Georgia Tech,2022,WR,100,1,0,Backup_Strategy1_Original
+Davis Lane,2022,Virginia,202201002,davis-lane-jr-1,Davis Lane Jr.,Virginia,2022,QB,86,1,0,Backup_Strategy1_Original
+Lemar Law,2022,Virginia Tech,202201055,lemar-law-jr-1,Lemar Law Jr.,Virginia Tech,2022,DL,85,1,0,Backup_Strategy1_Original
+Leon Hart Jr.,2022,Marshall,202201104,leon-hart-2,Leon Hart,Marshall,2022,LB,85,1,0,Backup_Strategy1_Original
 Ben Roberts,2022,Texas Tech,202201152,ben-roberts-2,Ben Roberts,Texas Tech,2022,LB,100,1,0,Backup_Strategy1_Original
+Joe Humphreys,2022,Miami (OH),202201168,joseph-humphreys-1,Joseph Humphreys,Miami (OH),2022,QB,89,1,0,Backup_Strategy1_Original
+Harvey Dyson,2022,Texas Tech,202201248,harvey-dyson-iii-1,Harvey Dyson III,Texas Tech,2022,DL,85,1,0,Backup_Strategy1_Original
 Jake Taylor,2022,Duke,202201263,jake-taylor-2,Jake Taylor,Duke,2022,TE,100,1,0,Backup_Strategy1_Original
+Dre Martin,2022,South Carolina,202201292,dandre-martin-1,D'Andre Martin,South Carolina,2022,DL,86,1,0,Backup_Strategy1_Original
+Walter Taylor III,2022,Vanderbilt,202201525,walter-taylor-3,Walter Taylor,Vanderbilt,2022,QB,86,1,0,Backup_Strategy1_Original
 Cannon DeVries,2022,BYU,202201567,cannon-devries-1,Cannon DeVries,BYU,2025,CB,100,1,3,Backup_Strategy1_Original
 Jmariyae Robinson,2022,Missouri State,202201575,jmariyae-robinson-1,Jmariyae Robinson,Missouri State,2025,WR,100,1,3,Backup_Strategy1_Original
+Derek Boyd,2022,Hawaii,202201585,derek-boyd-ii-1,Derek Boyd II,Hawaii,2022,RB,86,1,0,Backup_Strategy1_Original
+Kam Perry,2022,Indiana,202201618,kamryn-perry-1,Kamryn Perry,Indiana,2022,WR,85,1,0,Backup_Strategy1_Original
 Jaxon Harley,2022,UCLA,202201778,jax-harley-1,Jax Harley,UCLA,2022,DB,90,1,0,Backup_Strategy1_Original
+Wendell Moe Jr.,2022,Arizona,202201805,wendell-moe-1,Wendell Moe,Arizona,2022,OL,88,1,0,Backup_Strategy1_Original
 Liu Aumavae,2022,San Diego State,202201845,lui-aumavae-1,Lui Aumavae,San Diego State,2022,QB,90,1,0,Backup_Strategy1_Original
+Eli Samples,2022,East Carolina,202201873,elisha-samples-1,Elisha Samples,East Carolina,2022,OL,88,1,0,Backup_Strategy1_Original
+Louis Brown IV,2022,Colorado State,202201880,louis-brown-4,Louis Brown,Colorado State,2022,WR,88,1,0,Backup_Strategy1_Original
 Ryker Lotulelei,2022,Utah State,202202018,ryker-lotulelei-1,Ryker Lotulelei,Utah State,2025,LB,100,1,3,Backup_Strategy1_Original
+John Locke Jr.,2022,Louisiana Tech,202202047,john-locke-2,John Locke,Louisiana Tech,2022,TE,86,1,0,Backup_Strategy1_Original
+Donald Dixon,2022,New Mexico,202202064,donald-dixon-iii-1,Donald Dixon III,New Mexico,2022,OL,85,1,0,Backup_Strategy1_Original
 Kauasi Hansen,2022,Utah State,202202088,kauasi-hansen-1,Kauasi Hansen,Utah State,2025,OL,100,1,3,Backup_Strategy1_Original
+Bryan McCoy Jr.,2022,Akron,202202188,bryan-mccoy-1,Bryan McCoy,Akron,2022,LB,88,1,0,Backup_Strategy1_Original
+Eli Reed,2022,Northern Illinois,202202218,eii-reed-1,EIi Reed,Northern Illinois,2022,WR,87,1,0,Backup_Strategy1_Original
+Rueben Owens II,2023,Texas A&M,202300024,rueben-owens-1,Rueben Owens,Texas A&M,2023,RB,88,1,0,Backup_Strategy1_Original
+Johntay Cook,2023,Texas,202300031,johntay-cook-ii-1,Johntay Cook II,Texas,2023,WR,88,1,0,Backup_Strategy1_Original
 Daniel Harris,2023,Georgia,202300158,daniel-harris-2,Daniel Harris,Georgia,2023,DB,100,1,0,Backup_Strategy1_Original
+Marvin Burks Jr.,2023,Missouri,202300327,marvin-burks-1,Marvin Burks,Missouri,2023,DB,88,1,0,Backup_Strategy1_Original
+Zach Chapman,2023,TCU,202300359,zachary-chapman-1,Zachary Chapman,Texas Christian,2023,DL,88,1,0,Backup_Strategy1_Original
+Sedrick Irvin Jr.,2023,Stanford,202300524,sedrick-irvin-2,Sedrick Irvin,Stanford,2023,RB,89,1,0,Backup_Strategy1_Original
+Daz James,2023,Arkansas,202300527,dazmin-james-1,Dazmin James,Arkansas,2023,WR,85,1,0,Backup_Strategy1_Original
 Zack Marshall,2023,Michigan,202300550,zach-marshall-1,Zach Marshall,Michigan,2023,TE,92,1,0,Backup_Strategy1_Original
+Lamont Payne Jr.,2023,Penn State,202300608,lamont-payne-1,Lamont Payne,Penn State,2023,CB,88,1,0,Backup_Strategy1_Original
+Nate Johnson III,2023,Boston College,202300672,nate-johnson-4,Nate Johnson,Boston College,2023,WR,85,1,0,Backup_Strategy1_Original
+Emmanuel Waller,2023,UAB,202300691,emanuel-walker-1,Emanuel Walker,UAB,2023,DL,89,1,0,Backup_Strategy1_Original
+Brandon High Jr.,2023,UTSA,202300817,brandon-high-1,Brandon High,UTSA,2023,RB,88,1,0,Backup_Strategy1_Original
 Trent Thomas,2023,Baylor,202300829,trent-thomas-2,Trent Thomas,Baylor,2023,DL,100,1,0,Backup_Strategy1_Original
+Marco Lainez III,2023,Iowa,202300861,marco-lainez-1,Marco Lainez,Iowa,2023,QB,85,1,0,Backup_Strategy1_Original
+Jameel Croft Jr.,2023,Kansas,202300874,jameel-croft-1,Jameel Croft,Kansas,2023,CB,88,1,0,Backup_Strategy1_Original
+Troy Ford,2023,UCF,202300876,troy-ford-jr-1,Troy Ford Jr.,UCF,2023,LB,85,1,0,Backup_Strategy1_Original
+Arnold Barnes,2023,Tulane,202300991,arnold-barnes-iii-1,Arnold Barnes III,Tulane,2023,RB,86,1,0,Backup_Strategy1_Original
+Jamel Hardy Jr.,2023,UTSA,202301051,jamel-hardy-1,Jamel Hardy,UTSA,2023,WR,88,1,0,Backup_Strategy1_Original
+Jonah Lewis,2023,Nevada,202301157,jonah-lewis-jr-1,Jonah Lewis Jr.,Nevada,2023,DB,88,1,0,Backup_Strategy1_Original
+Rickey Hunt Jr.,2023,Ohio,202301236,rickey-hunt-1,Rickey Hunt,Ohio,2023,RB,88,1,0,Backup_Strategy1_Original
+Gabe Arena,2023,Virginia Tech,202301241,gabriel-arena-1,Gabriel Arena,Virginia Tech,2023,OL,86,1,0,Backup_Strategy1_Original
 Lance Williams,2023,Virginia Tech,202301253,lance-williams-5,Lance Williams,Virginia Tech,2023,OL,100,1,0,Backup_Strategy1_Original
+Zackary Drawdy,2023,UConn,202301388,zack-drawdy-1,Zack Drawdy,Connecticut,2023,WR,88,1,0,Backup_Strategy1_Original
+Brandon Hills Jr.,2023,Washington State,202301392,brandon-hills-1,Brandon Hills,Washington State,2023,WR,89,1,0,Backup_Strategy1_Original
 Demanuel Brown,2023,Boise State,202301413,demanuel-brown-jr-1,Demanuel Brown Jr.,Boise State,2023,DE,90,1,0,Backup_Strategy1_Original
 Jordan Hall,2023,UAB,202301569,jordan-hall-3,Jordan Hall,UAB,2023,OL,100,1,0,Backup_Strategy1_Original
+Ish Findlayter,2023,Virginia Tech,202301576,ishmael-findlayter-1,Ishmael Findlayter,Virginia Tech,2023,DL,87,1,0,Backup_Strategy1_Original
 Matthew Scicchitano,2023,Coastal Carolina,202301585,matt-scicchitano-1,Matt Scicchitano,Coastal Carolina,2023,DL,91,1,0,Backup_Strategy1_Original
+Keith Smith Jr.,2023,North Texas,202301679,keith-smith-7,Keith Smith,North Texas,2023,DL,88,1,0,Backup_Strategy1_Original
+Isiah Chala,2023,Fresno State,202301763,isiah-chala-jr-1,Isiah Chala Jr.,Fresno State,2023,DL,88,1,0,Backup_Strategy1_Original
 Mark-Allen Gay,2023,Central Michigan,202301828,mark-allen-gay-jr-1,Mark-Allen Gay Jr.,Central Michigan,2023,DB,90,1,0,Backup_Strategy1_Original
+Roosevelt Andrews III,2023,Miami (OH),202301876,roosevelt-andrews-1,Roosevelt Andrews,Miami (OH),2023,DL,89,1,0,Backup_Strategy1_Original
+Matthew Nixon,2023,Southern Miss,202301898,matt-nixon-2,Matt Nixon,Southern Mississippi,2023,WR,86,1,0,Backup_Strategy1_Original
+Chris Tooley,2023,Florida Atlantic,202301942,chris-tooley-iii-1,Chris Tooley III,Florida Atlantic,2023,CB,85,1,0,Backup_Strategy1_Original
+Forest Gatlin III,2023,Sam Houston,202302077,forest-gatlin-1,Forest Gatlin,Sam Houston,2023,LB,86,1,0,Backup_Strategy1_Original
+James Eaglin,2023,Tulsa,202302122,james-eaglin-iii-1,James Eaglin III,Tulsa,2023,DL,85,1,0,Backup_Strategy1_Original
+Christopher Clark-Jolivet,2023,Rice,202302147,chris-clark-jolivet-1,Chris Clark-Jolivet,Rice,2023,DL,86,1,0,Backup_Strategy1_Original
+Mitch Lake,2023,Appalachian State,202302153,mitchell-lake-1,Mitchell Lake,Appalachian State,2023,P,86,1,0,Backup_Strategy1_Original
+Will Echoles,2024,Ole Miss,202400135,william-echoles-1,William Echoles,Ole Miss,2024,DT,88,1,0,Backup_Strategy1_Original
+Brandon Jacob Jr.,2024,Maryland,202400321,brandon-jacob-1,Brandon Jacob,Maryland,2024,DB,89,1,0,Backup_Strategy1_Original
+Dakyus Brinkley,2024,Kansas,202400323,dak-brinkley-1,Dak Brinkley,Kansas,2024,DE,88,1,0,Backup_Strategy1_Original
 Waltclaire Flynn Jr.,2024,UCF,202400387,waltclaire-flynn-1,Waltclaire Flynn,UCF,2024,OL,91,1,0,Backup_Strategy1_Original
+Matt Fuller,2024,South Carolina,202400475,matthew-fuller-1,Matthew Fuller,South Carolina,2024,RB,88,1,0,Backup_Strategy1_Original
 Jordan Ross,2024,Colorado State,202400482,jordan-ross-2,Jordan Ross,Colorado State,2024,WR,100,1,0,Backup_Strategy1_Original
+Gerard Johnson III,2024,Virginia Tech,202400491,gerard-johnson-2,Gerard Johnson,Virginia Tech,2024,DL,87,1,0,Backup_Strategy1_Original
+Zycarl Lewis,2024,Tulane,202400551,zycarl-lewis-jr-1,Zycarl Lewis Jr.,Tulane,2024,WR,88,1,0,Backup_Strategy1_Original
 Ashton Hampton,2024,Clemson,202400629,ashton-hampton-2,Ashton Hampton,Clemson,2024,CB,100,1,0,Backup_Strategy1_Original
 Corey Smith,2024,Tulsa,202400932,corey-smith-9,Corey Smith,Tulsa,2024,WR,100,1,0,Backup_Strategy1_Original
 Montreze Smith Jr.,2024,Duke,202400984,montreze-smith-1,Montreze Smith,Duke,2024,LB,90,1,0,Backup_Strategy1_Original
+Matt Ogunniyi,2024,Rutgers,202401003,matthew-ogunniyi-1,Matthew Ogunniyi,Rutgers,2024,TE,89,1,0,Backup_Strategy1_Original
+Marcus Neal Jr.,2024,Iowa State,202401083,marcus-neal-1,Marcus Neal,Iowa State,2024,DB,88,1,0,Backup_Strategy1_Original
+Rahim Wright II,2024,Washington,202401127,rahim-wright-jr-1,Rahim Wright Jr.,Washington,2024,S,86,1,0,Backup_Strategy1_Original
 Dylan Williams,2024,James Madison,202401296,dylan-williams-2,Dylan Williams,James Madison,2024,WR,100,1,0,Backup_Strategy1_Original
+Tito Glass Jr.,2024,Miami (OH),202401384,tito-glass-1,Tito Glass,Miami (OH),2024,RB,86,1,0,Backup_Strategy1_Original
+Cedric Lott Jr.,2024,Boston College,202401808,cedric-lott-1,Cedric Lott,Boston College,2024,WR,88,1,0,Backup_Strategy1_Original
+Ronald Moore,2024,Liberty,202401943,ronald-moore-jr-1,"Ronald Moore, Jr.",Liberty,2024,S,88,1,0,Backup_Strategy1_Original
+Moses Gray,2024,Marshall,202402146,moses-gray-jr-1,Moses Gray Jr.,Marshall,2024,RB,86,1,0,Backup_Strategy1_Original
+Samuel Riddy Jr.,2024,East Carolina,202402192,sam-riddy-jr-1,Sam Riddy Jr.,East Carolina,2024,OL,88,1,0,Backup_Strategy1_Original
+Chris Durr Jr.,2024,Wyoming,202402348,chris-durr-1,Chris Durr,Wyoming,2024,WR,86,1,0,Backup_Strategy1_Original
+Brady Barrowman,2024,Ball State,202402662,brayden-barrowman-1,Brayden Barrowman,Ball State,2025,OL,87,1,1,Backup_Strategy1_Original
+Bukari Miles Jr.,2024,Ohio State,202402768,bukari-miles-1,Bukari Miles,Ohio State,2024,DB,88,1,0,Backup_Strategy1_Original
+Jerome Carter III,2024,Old Dominion,202402797,jerome-carter-2,Jerome Carter,Old Dominion,2024,S,86,1,0,Backup_Strategy1_Original
+Timmy Mitchell,2024,Boise State,202402851,timothy-mitchell-1,Timothy Mitchell,Boise State,2024,S,86,1,0,Backup_Strategy1_Original
+Danny Zarco,2024,Miami (OH),202403056,danny-zarco-ii-1,Danny Zarco II,Miami (OH),2024,OL,88,1,0,Backup_Strategy1_Original
+Greg Meidl,2024,Army,202403152,gregory-meidl-1,Gregory Meidl,Army,2025,OL,86,1,1,Backup_Strategy1_Original
 Jared Smith,2025,Auburn,202500047,jared-smith-1,Jared Smith,Auburn,2025,DE,100,1,0,Backup_Strategy1_Original
 Trent Wilson,2025,Oklahoma,202500175,trent-wilson-2,Trent Wilson,Oklahoma,2025,DL,100,1,0,Backup_Strategy1_Original
+Cedric Works,2025,Kentucky,202500349,cedric-cj-works-1,"Cedric ""CJ"" Works",Kentucky,2025,DL,88,1,0,Backup_Strategy1_Original
+Harry Dalton III,2025,USC,202500462,harry-dalton-1,Harry Dalton,USC,2025,RB,85,1,0,Backup_Strategy1_Original
+Harold Duvall,2025,Fresno State,202500663,harold-duvall-iii-1,Harold Duvall III,Fresno State,2025,WR,86,1,0,Backup_Strategy1_Original
+Sharlandiin Strange,2025,Western Kentucky,202500700,sharlandiin-zaqq-strange-1,"Sharlandiin ""Zaqq"" Strange",Western Kentucky,2025,DL,88,1,0,Backup_Strategy1_Original
+Kevin Peay Jr.,2025,Georgia Tech,202500760,kevin-peay-1,Kevin Peay,Georgia Tech,2025,OL,86,1,0,Backup_Strategy1_Original
+Witten Van Hoy,2025,TCU,202500838,whittin-van-hoy-1,Whittin Van Hoy,Texas Christian,2025,OL,89,1,0,Backup_Strategy1_Original
+Will Saba,2025,Wake Forest,202500885,william-saba-1,William Saba,Wake Forest,2025,OL,85,1,0,Backup_Strategy1_Original
+Kuol Kuol II,2025,Iowa State,202500890,kuol-kuol-1,Kuol Kuol,Iowa State,2025,OL,85,1,0,Backup_Strategy1_Original
+Samuel Lateju,2025,Wisconsin,202500907,sam-lateju-1,Sam Lateju,Wisconsin,2025,LB,86,1,0,Backup_Strategy1_Original
+Sam Haley,2025,TCU,202500937,samuel-haley-1,Samuel Haley,Texas Christian,2025,LB,85,1,0,Backup_Strategy1_Original
+Jayden Clark,2025,Kentucky,202501002,jay-clark-4,Jay Clark,Kentucky,2025,OL,85,1,0,Backup_Strategy1_Original
 Christopher Johnson,2025,Baylor,202501056,christopher-johnson-3,Christopher Johnson,Baylor,2025,DL,100,1,0,Backup_Strategy1_Original
+Kevin Roche Jr.,2025,Georgia Tech,202501086,kevin-roche-1,Kevin Roche,Georgia Tech,2025,TE,88,1,0,Backup_Strategy1_Original
 Matthew Parker,2025,Baylor,202501190,matthew-parker-2,Matthew Parker,Baylor,2025,OL,100,1,0,Backup_Strategy1_Original
 Will Felder Jr.,2025,Duke,202501520,william-felder-jr-1,William Felder Jr.,Duke,2025,LB,90,1,0,Backup_Strategy1_Original
+Nate Cleveland,2025,Minnesota,202501723,nathan-cleveland-1,Nathan Cleveland,Minnesota,2025,LB,86,1,0,Backup_Strategy1_Original
+Dwayne Early Jr.,2025,Buffalo,202501933,dwayne-early-1,Dwayne Early,Buffalo,2025,WR,88,1,0,Backup_Strategy1_Original
+Malcolm Polu Jr.,2025,Fresno State,202501989,malcolm-polu-1,Malcolm Polu,Fresno State,2025,OL,88,1,0,Backup_Strategy1_Original
 Jeremiah Jones,2025,South Florida,202502046,jeremiah-jones-2,Jeremiah Jones,South Florida,2025,S,100,1,0,Backup_Strategy1_Original
 LaMarcus Hicks II,2025,Iowa State,202502269,lamarcus-hicks-2,LaMarcus Hicks,Iowa State,2025,DB,90,1,0,Backup_Strategy1_Original
+Gabe Lovorn,2025,Tulane,202502298,gabriel-lovorn-1,Gabriel Lovorn,Tulane,2025,TE,88,1,0,Backup_Strategy1_Original
+Tairan Davis Jr.,2025,Akron,202502381,tairan-davis-1,Tairan Davis,Akron,2025,DB,88,1,0,Backup_Strategy1_Original
 Carter Jones,2025,Arizona,202502638,carter-jones-2,Carter Jones,Arizona,2025,LB,100,1,0,Backup_Strategy1_Original
+Joe Birnbaum,2025,Nevada,202502700,joseph-birnbaum-1,Joseph Birnbaum,Nevada,2025,RB,88,1,0,Backup_Strategy1_Original
+Fred Nicholson,2025,Southern Miss,202502901,fredrick-nicholson-1,Fredrick Nicholson,Southern Mississippi,2025,LS,87,1,0,Backup_Strategy1_Original
+Charles Brooks III,2025,Northern Illinois,202502918,charles-brooks-3,Charles Brooks,Northern Illinois,2025,DE,87,1,0,Backup_Strategy1_Original
 Gabe Aramboles,2025,Ball State,202503218,gabriel-aramboles-1,Gabriel Aramboles,Ball State,2025,DB,90,1,0,Backup_Strategy1_Original
 Nate Meadors,2015,UCLA,201500521,nathan-meadors-1,Nathan Meadors,UCLA,2015,DB,100,1,0,Backup_Strategy2_Nicknames
 Jacob Newborg,2015,Iowa,201500723,jake-newborg-1,Jake Newborg,Iowa,2015,OL,100,1,0,Backup_Strategy2_Nicknames
-Cameron Stewart,2015,UCF,201500971,cam-stewart-1,Cam Stewart,UCF,2015,WR,100,1,0,Backup_Strategy2_Nicknames
-Michael Little,2015,Purdue,201501189,mike-little-2,Mike Little,Purdue,2015,CB,100,1,0,Backup_Strategy2_Nicknames
-Nathan Cottrell,2015,Georgia Tech,201501502,nate-cottrell-1,Nate Cottrell,Georgia Tech,2015,RB,96,1,0,Backup_Strategy2_Nicknames
-Arthur Thompkins,2015,Toledo,201501695,art-thompkins-1,Art Thompkins,Toledo,2015,RB,100,1,0,Backup_Strategy2_Nicknames
-Gabriel Sewell,2015,Nevada,201501764,gabe-sewell-1,Gabe Sewell,Nevada,2015,LB,100,1,0,Backup_Strategy2_Nicknames
+Charles Wade Jr.,2015,Wake Forest,201501512,chuck-wade-1,Chuck Wade,Wake Forest,2015,WR,86,1,0,Backup_Strategy2_Nicknames
 Nick Potts,2015,Toledo,201501850,nicholas-potts-1,Nicholas Potts,Toledo,2015,TE,100,1,0,Backup_Strategy2_Nicknames
 Zachary Kinninger,2015,Fresno State,201501881,zack-kinninger-1,Zack Kinninger,Fresno State,2015,OL,96,1,0,Backup_Strategy2_Nicknames
-Herbert Miller,2015,Florida Atlantic,201501900,herb-miller-1,Herb Miller,Florida Atlantic,2015,DB,100,1,0,Backup_Strategy2_Nicknames
-Nicholas Czar,2015,Navy,201501972,nick-czar-1,Nick Czar,Navy,2015,DE,100,1,0,Backup_Strategy2_Nicknames
-Jacob Murray,2015,Northwestern,201502039,jake-murray-1,Jake Murray,Northwestern,2015,DB,100,1,0,Backup_Strategy2_Nicknames
-Zachary Branner,2015,Troy,201502249,zach-branner-1,Zach Branner,Troy,2015,OL,95,1,0,Backup_Strategy2_Nicknames
+Michael Yerardi,2015,UMass,201502107,mike-yerardi-1,Mike Yerardi,Massachusetts,2015,OL,100,1,0,Backup_Strategy2_Nicknames
+Tony Balabani,2015,Western Michigan,201502387,antonio-balabani-1,Antonio Balabani,Western Michigan,2015,DL,87,1,0,Backup_Strategy2_Nicknames
 Nick Coffey,2015,Western Kentucky,201502388,nicholas-coffey-1,Nicholas Coffey,Western Kentucky,2015,DL,100,1,0,Backup_Strategy2_Nicknames
-Matt Gaiter,2015,Air Force,201502413,matthew-gaiter-1,Matthew Gaiter,Air Force,2017,DL,100,1,2,Backup_Strategy2_Nicknames
-Nathan Childress,2015,Toledo,201502441,nate-childress-1,Nate Childress,Toledo,2015,DL,96,1,0,Backup_Strategy2_Nicknames
-David Tolentino,2015,Navy,201503142,dave-tolentino-1,Dave Tolentino,Navy,2017,NT,100,1,2,Backup_Strategy2_Nicknames
-Jake Hale,2015,Ohio,201503158,jacob-hale-1,Jacob Hale,Ohio,2015,OL,100,1,0,Backup_Strategy2_Nicknames
 Nick Rubinowicz,2015,Maryland,201503162,nicholas-rubinowicz-1,Nicholas Rubinowicz,Maryland,2015,P,100,1,0,Backup_Strategy2_Nicknames
-Jonathan Hardy,2015,Charlotte,201503233,jon-hardy-1,Jon Hardy,Charlotte,2015,DL,100,1,0,Backup_Strategy2_Nicknames
 Michael Marinelli,2015,Kent State,201503273,mike-marinelli-1,Mike Marinelli,Kent State,2015,OL,100,1,0,Backup_Strategy2_Nicknames
-Alexander Trifonovitch,2015,Hawaii,201503290,alex-trifonovitch-1,Alex Trifonovitch,Hawaii,2015,P,100,1,0,Backup_Strategy2_Nicknames
-Zach Block,2015,Tulane,201503375,zachary-block-1,Zachary Block,Tulane,2015,P,100,1,0,Backup_Strategy2_Nicknames
+Michael Caggiano,2015,UMass,201503330,mike-caggiano-1,Mike Caggiano,Massachusetts,2015,K,100,1,0,Backup_Strategy2_Nicknames
 Timothy Belles,2015,Memphis,201503377,tim-belles-1,Tim Belles,Memphis,2015,LS,100,1,0,Backup_Strategy2_Nicknames
-Cameron Chambers,2016,Michigan State,201600232,cam-chambers-1,Cam Chambers,Michigan State,2017,WR,100,1,1,Backup_Strategy2_Nicknames
-Matthew Falcon,2016,Western Michigan,201600434,matt-falcon-1,Matt Falcon,Western Michigan,2017,RB,100,1,1,Backup_Strategy2_Nicknames
 Nate Stanley,2016,Iowa,201600531,nathan-stanley-2,Nathan Stanley,Iowa,2016,QB,100,1,0,Backup_Strategy2_Nicknames
 Emmanuel Rugamba,2016,Iowa,201600684,manny-rugamba-1,Manny Rugamba,Iowa,2016,DB,100,1,0,Backup_Strategy2_Nicknames
 Cameron Kolwich,2016,Northwestern,201600761,cam-kolwich-1,Cam Kolwich,Northwestern,2017,OL,100,1,1,Backup_Strategy2_Nicknames
-Matthew Laris,2016,California,201600821,matt-laris-1,Matt Laris,California,2017,TE,100,1,1,Backup_Strategy2_Nicknames
 Benny Snell,2016,Kentucky,201600869,benjamin-snell-jr-1,Benjamin Snell Jr.,Kentucky,2016,RB,90,1,0,Backup_Strategy2_Nicknames
-Steve Dolphus,2016,Georgia Tech,201601039,stephen-dolphus-1,Stephen Dolphus,Georgia Tech,2017,WR,100,1,1,Backup_Strategy2_Nicknames
-Will Kwenkeu,2016,Temple,201601091,william-kwenkeu-1,William Kwenkeu,Temple,2016,LB,100,1,0,Backup_Strategy2_Nicknames
-Jacob Long,2016,West Virginia,201601170,jake-long-4,Jake Long,West Virginia,2017,CB,100,1,1,Backup_Strategy2_Nicknames
-Will Davis,2016,Florida Atlantic,201601233,william-davis-1,William Davis,Florida Atlantic,2016,DT,100,1,0,Backup_Strategy2_Nicknames
 Benjamin LeMay,2016,Charlotte,201601426,ben-lemay-1,Ben LeMay,Charlotte,2016,RB,100,1,0,Backup_Strategy2_Nicknames
 Michael Hampton,2016,South Florida,201601517,mike-hampton-2,Mike Hampton,South Florida,2017,DB,100,1,1,Backup_Strategy2_Nicknames
 Tim Wilson,2016,San Diego State,201601529,timothy-wilson-jr-1,Timothy Wilson Jr.,San Diego State,2018,WR,90,1,2,Backup_Strategy2_Nicknames
-Samuel Poutasi,2016,Oregon,201601540,sam-poutasi-1,Sam Poutasi,Oregon,2017,OL,100,1,1,Backup_Strategy2_Nicknames
-Matthew Coghlin,2016,Michigan State,201601583,matt-coghlin-1,Matt Coghlin,Michigan State,2017,K,100,1,1,Backup_Strategy2_Nicknames
 Michael Jackson,2016,Georgia Southern,201601688,mike-jackson-4,Mike Jackson,Georgia Southern,2016,WR,100,1,0,Backup_Strategy2_Nicknames
-Jeffrey Taylor,2016,Colorado State,201602034,jeff-taylor-4,Jeff Taylor,Colorado State,2017,OL,100,1,1,Backup_Strategy2_Nicknames
-Jeff Allison,2016,Fresno State,201602076,jeffrey-allison-1,Jeffrey Allison,Fresno State,2016,LB,100,1,0,Backup_Strategy2_Nicknames
+Anthony Gaiter IV,2016,FIU,201601758,tony-gaiter-iv-1,Tony Gaiter IV,Florida International,2016,WR,100,1,0,Backup_Strategy2_Nicknames
 Max Hendrie,2016,Hawaii,201602150,maxwell-hendrie-1,Maxwell Hendrie,Hawaii,2017,DL,100,1,1,Backup_Strategy2_Nicknames
+Joseph King,2016,Army,201602414,joe-king-v-1,Joe King V,Army,2017,DB,88,1,1,Backup_Strategy2_Nicknames
 Jacob Donnellon,2016,Eastern Michigan,201602514,jake-donnellon-1,Jake Donnellon,Eastern Michigan,2017,OL,100,1,1,Backup_Strategy2_Nicknames
+Joseph Ozougwu,2016,North Texas,201602571,jojo-ozougwu-1,JoJo Ozougwu,North Texas,2017,LB,86,1,1,Backup_Strategy2_Nicknames
 Cameron Turner,2016,Miami (OH),201602981,cam-turner-1,Cam Turner,Miami (OH),2017,LB,100,1,1,Backup_Strategy2_Nicknames
-Mitchell Larsen,2016,Ball State,201602983,mitch-larsen-1,Mitch Larsen,Ball State,2016,S,100,1,0,Backup_Strategy2_Nicknames
 Robert Deharo,2016,UTEP,201602992,bobby-deharo-1,Bobby Deharo,UTEP,2017,OL,90,1,1,Backup_Strategy2_Nicknames
-Geoffrey Kirk,2016,Army,201603315,geoff-kirk-1,Geoff Kirk,Army,2017,TE,100,1,1,Backup_Strategy2_Nicknames
 Ben Waters,2016,Air Force,201603428,benjamin-waters-1,Benjamin Waters,Air Force,2017,WR,100,1,1,Backup_Strategy2_Nicknames
 Chris Mitchell,2016,Air Force,201603552,christopher-mitchell-1,Christopher Mitchell,Air Force,2017,OL,100,1,1,Backup_Strategy2_Nicknames
 Nat King,2016,Air Force,201603579,nathan-king-1,Nathan King,Air Force,2019,LB,100,1,3,Backup_Strategy2_Nicknames
-Jeff Okudah,2017,Ohio State,201700008,jeffrey-okudah-1,Jeffrey Okudah,Ohio State,2017,CB,100,1,0,Backup_Strategy2_Nicknames
 Jake Moretti,2017,Colorado,201700094,jacob-moretti-1,Jacob Moretti,Colorado,2017,OL,100,1,0,Backup_Strategy2_Nicknames
-Michael Allen,2017,Wake Forest,201700443,mike-allen-3,Mike Allen,Wake Forest,2017,DL,100,1,0,Backup_Strategy2_Nicknames
-Jon Van Diest,2017,Colorado,201700447,jonathan-van-diest-1,Jonathan Van Diest,Colorado,2017,LB,100,1,0,Backup_Strategy2_Nicknames
-Phil Paea,2017,Michigan,201700455,phillip-paea-1,Phillip Paea,Michigan,2017,DL,95,1,0,Backup_Strategy2_Nicknames
+Jon Van Diest,2017,Colorado,201700447,jonathan-van-diest-1,Jonathan Van Diest,Colorado,2017,LB,87,1,0,Backup_Strategy2_Nicknames
 Alexander Marshall,2017,Florida State,201700497,alex-marshall-2,Alex Marshall,Florida State,2017,TE,100,1,0,Backup_Strategy2_Nicknames
-Jake Lichtenstein,2017,USC,201700526,jacob-lichtenstein-1,Jacob Lichtenstein,USC,2017,DL,100,1,0,Backup_Strategy2_Nicknames
-Robert Martin,2017,Penn State,201700633,robbie-martin-1,Robbie Martin,Penn State,2017,OL,100,1,0,Backup_Strategy2_Nicknames
-Sam Gerak,2017,Northwestern,201700664,samuel-gerak-1,Samuel Gerak,Northwestern,2017,OL,100,1,0,Backup_Strategy2_Nicknames
-Jeffery Burley,2017,Wake Forest,201700695,jeff-burley-1,Jeff Burley,Wake Forest,2017,LB,100,1,0,Backup_Strategy2_Nicknames
-Samuel Vretman,2017,Rutgers,201700753,sam-vretman-1,Sam Vretman,Rutgers,2017,OL,100,1,0,Backup_Strategy2_Nicknames
-Will Sherman,2017,Colorado,201700843,william-sherman-1,William Sherman,Colorado,2017,OL,100,1,0,Backup_Strategy2_Nicknames
+Robert Martin,2017,Penn State,201700633,robbie-martin-1,Robbie Martin,Penn State,2017,OL,86,1,0,Backup_Strategy2_Nicknames
 Jacob Paulson,2017,Minnesota,201700917,jake-paulson-2,Jake Paulson,Minnesota,2017,TE,100,1,0,Backup_Strategy2_Nicknames
-Gabriel Cherry,2017,California,201701045,gabe-cherry-1,Gabe Cherry,California,2017,DE,100,1,0,Backup_Strategy2_Nicknames
 Michael Minihan,2017,Georgia Tech,201701077,mikey-minihan-1,Mikey Minihan,Georgia Tech,2017,OL,96,1,0,Backup_Strategy2_Nicknames
-Mitch Lewis,2017,Miami (OH),201701095,mitchell-lewis-1,Mitchell Lewis,Miami (OH),2017,WR,100,1,0,Backup_Strategy2_Nicknames
 Christopher Whittaker,2017,Kentucky,201701139,chris-whittaker-1,Chris Whittaker,Kentucky,2017,DL,100,1,0,Backup_Strategy2_Nicknames
 Sammy Wheeler,2017,Kansas State,201701557,samuel-wheeler-1,Samuel Wheeler,Kansas State,2018,QB,100,1,1,Backup_Strategy2_Nicknames
-Matthew McDonald,2017,Boston College,201701579,matt-mcdonald-1,Matt McDonald,Boston College,2017,QB,100,1,0,Backup_Strategy2_Nicknames
-Zachary Sweeney,2017,UCLA,201701595,zach-sweeney-1,Zach Sweeney,UCLA,2018,OL,95,1,1,Backup_Strategy2_Nicknames
-Jeffrey Hubbard,2017,Eastern Michigan,201701628,jeff-hubbard-1,Jeff Hubbard,Eastern Michigan,2017,DB,100,1,0,Backup_Strategy2_Nicknames
-Mike Young,2017,Boise State,201701923,michael-young-2,Michael Young,Boise State,2017,CB,100,1,0,Backup_Strategy2_Nicknames
-Mitch West,2017,Navy,201702069,mitchell-west-1,Mitchell West,Navy,2018,DB,100,1,1,Backup_Strategy2_Nicknames
+Michael Ruane,2017,UMass,201701859,mike-ruane-1,Mike Ruane,Massachusetts,2017,LB,100,1,0,Backup_Strategy2_Nicknames
 Charles Jones,2017,Central Michigan,201702265,chuck-jones-2,Chuck Jones,Central Michigan,2017,LB,100,1,0,Backup_Strategy2_Nicknames
-Douglas Russell,2017,Hawaii,201702903,doug-russell-1,Doug Russell,Hawaii,2017,DL,100,1,0,Backup_Strategy2_Nicknames
-Gregory Jean,2017,Eastern Michigan,201702971,greg-jean-1,Greg Jean,Eastern Michigan,2017,WR,100,1,0,Backup_Strategy2_Nicknames
 Nick DeWolf,2017,Air Force,201703205,nicholas-dewolf-1,Nicholas DeWolf,Air Force,2020,G,100,1,3,Backup_Strategy2_Nicknames
-Gregory Jean,2017,Eastern Michigan,201703462,greg-jean-1,Greg Jean,Eastern Michigan,2017,WR,100,1,0,Backup_Strategy2_Nicknames
 Benjamin Roth,2017,Army,201703607,ben-roth-2,Ben Roth,Army,2017,LB,100,1,0,Backup_Strategy2_Nicknames
-Matthew Conlon,2017,Navy,201703963,mattie-conlon-1,Mattie Conlon,Navy,2018,DL,91,1,1,Backup_Strategy2_Nicknames
-Matthew Hanson,2017,Akron,201704062,matt-hanson-1,Matt Hanson,Akron,2017,DL,100,1,0,Backup_Strategy2_Nicknames
-Matthew Laroche,2017,Georgia Southern,201704077,matt-laroche-1,Matt Laroche,Georgia Southern,2017,RB,100,1,0,Backup_Strategy2_Nicknames
+Matt Gauert,2017,Air Force,201703959,matthew-gaiter-1,Matthew Gaiter,Air Force,2017,DL,85,1,0,Backup_Strategy2_Nicknames
 Nick Noyen,2017,Air Force,201704177,nicholas-noyen-1,Nicholas Noyen,Air Force,2019,OL,100,1,2,Backup_Strategy2_Nicknames
 Nicholas Kubiet,2017,Tulane,201704182,nick-kubiet-1,Nick Kubiet,Tulane,2017,DE,100,1,0,Backup_Strategy2_Nicknames
 Jake McCurry,2017,Michigan,201704187,jacob-mccurry-1,Jacob McCurry,Michigan,2017,DB,100,1,0,Backup_Strategy2_Nicknames
-Matt Anderson,2017,Air Force,201704214,matthew-anderson-1,Matthew Anderson,Air Force,2019,DB,100,1,2,Backup_Strategy2_Nicknames
 Cam Jurgens,2018,Nebraska,201800193,cameron-jurgens-1,Cameron Jurgens,Nebraska,2018,TE,100,1,0,Backup_Strategy2_Nicknames
 Chris Bleich,2018,Florida,201800458,christopher-bleich-1,Christopher Bleich,Florida,2018,OL,100,1,0,Backup_Strategy2_Nicknames
-Jeffrey Jenkins,2018,Iowa,201800504,jeff-jenkins-3,Jeff Jenkins,Iowa,2018,OL,100,1,0,Backup_Strategy2_Nicknames
 Benjamin Sapp III,2018,Minnesota,201800806,benny-sapp-iii-1,Benny Sapp III,Minnesota,2018,DB,92,1,0,Backup_Strategy2_Nicknames
 Christopher Randazzo,2018,Oregon,201800822,chris-randazzo-1,Chris Randazzo,Oregon,2018,OL,100,1,0,Backup_Strategy2_Nicknames
 Michael Rose,2018,Iowa State,201800868,mike-rose-5,Mike Rose,Iowa State,2018,LB,100,1,0,Backup_Strategy2_Nicknames
 Maxwell Worship,2018,Vanderbilt,201800976,max-worship-1,Max Worship,Vanderbilt,2018,DB,100,1,0,Backup_Strategy2_Nicknames
 Chris Rodriguez,2018,Kentucky,201801156,christopher-rodriguez-jr-1,Christopher Rodriguez Jr.,Kentucky,2018,RB,93,1,0,Backup_Strategy2_Nicknames
-Matthew Thomas,2018,Rutgers,201801185,matt-thomas-2,Matt Thomas,Rutgers,2018,DL,100,1,0,Backup_Strategy2_Nicknames
 Mike Maye,2018,Georgia Tech,201801229,michael-maye-2,Michael Maye,Georgia Tech,2018,OL,100,1,0,Backup_Strategy2_Nicknames
-Will Lawrence,2018,Memphis,201801516,william-lawrence-1,William Lawrence,Memphis,2018,OL,100,1,0,Backup_Strategy2_Nicknames
-Joseph Bonds,2018,Northern Illinois,201801531,joe-bonds-1,Joe Bonds,Northern Illinois,2018,LB,100,1,0,Backup_Strategy2_Nicknames
 Alexander Howie,2018,Eastern Michigan,201801613,alex-howie-1,Alex Howie,Eastern Michigan,2018,OL,100,1,0,Backup_Strategy2_Nicknames
-Kenneth Gainwell,2018,Memphis,201801614,kenny-gainwell-1,Kenny Gainwell,Memphis,2018,RB,92,1,0,Backup_Strategy2_Nicknames
-Joseph Bissinger,2018,Virginia,201801653,joe-bissinger-1,Joe Bissinger,Virginia,2018,OL,100,1,0,Backup_Strategy2_Nicknames
+Timothy Mosley,2018,UNLV,201801679,tim-mosley-1,Tim Mosley,Nevada-Las Vegas,2018,DL,100,1,0,Backup_Strategy2_Nicknames
 Chris Kane,2018,Air Force,201801680,christopher-kane-1,Christopher Kane,Air Force,2020,DE,100,1,2,Backup_Strategy2_Nicknames
 Alexandre Dumais,2018,Fresno State,201801681,alex-dumais-1,Alex Dumais,Fresno State,2018,DL,100,1,0,Backup_Strategy2_Nicknames
-Joe Sparacio,2018,Boston College,201801852,joseph-sparacio-1,Joseph Sparacio,Boston College,2018,LB,100,1,0,Backup_Strategy2_Nicknames
-Zachary Slade,2018,Michigan State,201801896,zach-slade-1,Zach Slade,Michigan State,2018,DE,94,1,0,Backup_Strategy2_Nicknames
-Tim McClendon,2018,Air Force,201802219,timothy-mcclendon-1,Timothy McClendon,Air Force,2020,LB,100,1,2,Backup_Strategy2_Nicknames
+Pete Rooney,2018,UConn,201802252,peter-rooney-jr-1,Peter Rooney Jr.,Connecticut,2018,OL,88,1,0,Backup_Strategy2_Nicknames
+Tim Moulton,2018,UMass,201802591,timothy-moulton-1,Timothy Moulton,Massachusetts,2018,DL,100,1,0,Backup_Strategy2_Nicknames
 Christopher Washington,2018,Appalachian State,201802612,chris-washington-6,Chris Washington,Appalachian State,2018,DL,100,1,0,Backup_Strategy2_Nicknames
-William Knight,2018,Old Dominion,201802754,will-knight-1,Will Knight,Old Dominion,2018,RB,100,1,0,Backup_Strategy2_Nicknames
-William Burns,2018,Kent State,201802834,will-burns-1,Will Burns,Kent State,2018,DL,100,1,0,Backup_Strategy2_Nicknames
 Chris Love,2018,Nevada,201802838,christopher-love-1,Christopher Love,Nevada,2018,OL,100,1,0,Backup_Strategy2_Nicknames
-Zachary Dixon,2018,Georgia State,201802848,zach-dixon-1,Zach Dixon,Georgia State,2018,LB,94,1,0,Backup_Strategy2_Nicknames
 Michael Mbony,2018,Army,201803509,mike-mbony-1,Mike Mbony,Army,2018,QB,100,1,0,Backup_Strategy2_Nicknames
-Joseph Tacopina,2018,Temple,201803678,joe-tacopina-1,Joe Tacopina,Temple,2018,PK,100,1,0,Backup_Strategy2_Nicknames
-Joe Ngata,2019,Clemson,201900052,joseph-ngata-1,Joseph Ngata,Clemson,2019,WR,100,1,0,Backup_Strategy2_Nicknames
 Cam Davis,2019,Washington,201900279,cameron-davis-3,Cameron Davis,Washington,2019,RB,100,1,0,Backup_Strategy2_Nicknames
 Michael Martinez,2019,UCLA,201900402,mike-martinez-2,Mike Martinez,UCLA,2019,TE,100,1,0,Backup_Strategy2_Nicknames
-William Harrod,2019,Florida,201900417,will-harrod-1,Will Harrod,Florida,2019,OL,100,1,0,Backup_Strategy2_Nicknames
-Gregory Williams,2019,Clemson,201900551,greg-williams-14,Greg Williams,Clemson,2019,DE,100,1,0,Backup_Strategy2_Nicknames
-Cameron Phillips,2019,Wisconsin,201900674,cam-phillips-3,Cam Phillips,Wisconsin,2019,WR,100,1,0,Backup_Strategy2_Nicknames
 Nic Toomer,2019,Stanford,201900919,nicolas-toomer-1,Nicolas Toomer,Stanford,2019,CB,96,1,0,Backup_Strategy2_Nicknames
-Cameron Allen,2019,Purdue,201901013,cam-allen-1,Cam Allen,Purdue,2019,CB,100,1,0,Backup_Strategy2_Nicknames
+Chris Toudle,2019,NC State,201901061,christopher-toudle-1,Christopher Toudle,North Carolina State,2019,WR,100,1,0,Backup_Strategy2_Nicknames
 Cameron Wiley,2019,Minnesota,201901086,cam-wiley-1,Cam Wiley,Minnesota,2019,RB,100,1,0,Backup_Strategy2_Nicknames
 Leo Parker,2019,South Florida,201901534,leonard-parker-2,Leonard Parker,South Florida,2019,DB,100,1,0,Backup_Strategy2_Nicknames
+Dan Foster Jr.,2019,Marshall,201901773,daniel-foster-2,Daniel Foster,Marshall,2019,DL,89,1,0,Backup_Strategy2_Nicknames
 Nathan Lamb,2019,Fresno State,201901833,nate-lamb-1,Nate Lamb,Fresno State,2019,QB,94,1,0,Backup_Strategy2_Nicknames
+Cam Ross,2019,UConn,201901860,cameron-ross-1,Cameron Ross,Connecticut,2019,WR,100,1,0,Backup_Strategy2_Nicknames
 Matt Lee,2019,UCF,201901898,matthew-lee-1,Matthew Lee,UCF,2019,OL,100,1,0,Backup_Strategy2_Nicknames
 Mike McNicholas,2019,Kent State,201902121,micheal-mcnicholas-1,Micheal McNicholas,Kent State,2019,OL,94,1,0,Backup_Strategy2_Nicknames
-Matt Salopek,2019,Miami (OH),201902272,matthew-salopek-1,Matthew Salopek,Miami (OH),2019,DB,100,1,0,Backup_Strategy2_Nicknames
+Nathan White,2019,FIU,201902146,nate-white-1,Nate White,Florida International,2019,DL,94,1,0,Backup_Strategy2_Nicknames
 Christopher Fowx,2019,Temple,201902277,chris-fowx-1,Chris Fowx,Temple,2019,OL,100,1,0,Backup_Strategy2_Nicknames
-Kenneth Robinson,2019,UTSA,201902513,ken-robinson-2,Ken Robinson,UTSA,2019,CB,100,1,0,Backup_Strategy2_Nicknames
-Matt Quinn,2019,UAB,201903109,matthew-quinn-2,Matthew Quinn,UAB,2019,PK,100,1,0,Backup_Strategy2_Nicknames
-Jeff Clark,2019,Georgia State,201903147,jeffery-clark-1,Jeffery Clark,Georgia State,2019,DL,92,1,0,Backup_Strategy2_Nicknames
+Nick Treco,2019,NC State,201902753,nicholas-treco-1,Nicholas Treco,North Carolina State,2019,WR,100,1,0,Backup_Strategy2_Nicknames
 Benjamin Williams,2019,Appalachian State,201903210,ben-williams-4,Ben Williams,Appalachian State,2019,RB,100,1,0,Backup_Strategy2_Nicknames
 Christopher Oliver,2019,Bowling Green,201903508,chris-oliver-3,Chris Oliver,Bowling Green,2019,DL,100,1,0,Backup_Strategy2_Nicknames
 Edmond Lahlouh,2019,Rice,201903772,ej-lahlouh-1,EJ Lahlouh,Rice,2019,LB,90,1,0,Backup_Strategy2_Nicknames
 Mike York,2019,UAB,201904057,michael-york-1,Michael York,UAB,2020,TE,100,1,1,Backup_Strategy2_Nicknames
-Samuel Anaele,2020,Kentucky,202000284,sam-anaele-1,Sam Anaele,Kentucky,2020,LB,100,1,0,Backup_Strategy2_Nicknames
 Michael Henderson,2020,Oklahoma,202000307,mikey-henderson-2,Mikey Henderson,Oklahoma,2020,TE,96,1,0,Backup_Strategy2_Nicknames
-Jeff Persi,2020,Michigan,202000312,jeffrey-persi-1,Jeffrey Persi,Michigan,2020,OL,100,1,0,Backup_Strategy2_Nicknames
 Ben Yurosek,2020,Stanford,202000451,benjamin-yurosek-1,Benjamin Yurosek,Stanford,2020,TE,100,1,0,Backup_Strategy2_Nicknames
-Cameron Porter,2020,Northwestern,202000557,cam-porter-1,Cam Porter,Northwestern,2020,RB,100,1,0,Backup_Strategy2_Nicknames
 Timothy Lawson,2020,Louisville,202000680,tim-lawson-1,Tim Lawson,Louisville,2020,OL,100,1,0,Backup_Strategy2_Nicknames
-Doug Emilien,2020,Minnesota,202000714,douglas-emilien-1,Douglas Emilien,Minnesota,2020,WR,100,1,0,Backup_Strategy2_Nicknames
 Cameron Threatt,2020,Mississippi State,202000806,cam-threatt-1,Cam Threatt,Mississippi State,2020,CB,100,1,0,Backup_Strategy2_Nicknames
 Ed Woods,2020,Arizona State,202000884,edward-woods-1,Edward Woods,Arizona State,2020,DB,100,1,0,Backup_Strategy2_Nicknames
 Chris Keys Jr.,2020,Indiana,202001028,christopher-keys-1,Christopher Keys,Indiana,2020,DB,91,1,0,Backup_Strategy2_Nicknames
+Derrick Lewis,2020,Texas Tech,202001048,derek-lewis-ii-1,Derek Lewis II,Texas Tech,2020,LB,88,1,0,Backup_Strategy2_Nicknames
 Nick Malito,2020,Louisville,202001294,nicholas-malito-1,Nicholas Malito,Louisville,2020,WR,100,1,0,Backup_Strategy2_Nicknames
 Chris Townsel,2020,South Florida,202001686,christopher-townsel-1,Christopher Townsel,South Florida,2020,DB,100,1,0,Backup_Strategy2_Nicknames
 Michael Leone,2020,Rice,202001759,mike-leone-1,Mike Leone,Rice,2020,OL,100,1,0,Backup_Strategy2_Nicknames
 Anthony Dinkins-McCall,2020,Georgia Southern,202001823,tony-dinkins-mccall-1,Tony Dinkins-McCall,Georgia Southern,2020,SB,100,1,0,Backup_Strategy2_Nicknames
-Matthew Duncan,2020,Temple,202001842,matt-duncan-1,Matt Duncan,Temple,2020,QB,100,1,0,Backup_Strategy2_Nicknames
-Joe Mason,2020,Louisiana Tech,202001963,joseph-mason-1,Joseph Mason,Louisiana Tech,2020,LB,100,1,0,Backup_Strategy2_Nicknames
-Matthew Lombardi,2020,Tulane,202002257,matt-lombardi-1,Matt Lombardi,Tulane,2020,OL,100,1,0,Backup_Strategy2_Nicknames
-Matthew Johnson,2020,Northern Illinois,202002278,matt-johnson-12,Matt Johnson,Northern Illinois,2020,DE,100,1,0,Backup_Strategy2_Nicknames
+Theodore Richardson,2020,FIU,202001930,teddy-richardson-1,Teddy Richardson,Florida International,2020,WR,93,1,0,Backup_Strategy2_Nicknames
 Cameron Peters,2020,UTSA,202002389,cam-peters-1,Cam Peters,UTSA,2020,QB,100,1,0,Backup_Strategy2_Nicknames
-Gabe Brown,2020,Bowling Green,202002448,gabriel-brown-1,Gabriel Brown,Bowling Green,2020,OL,100,1,0,Backup_Strategy2_Nicknames
+Gregory Brown,2020,New Mexico,202002446,greg-brown-ii-1,Greg Brown II,New Mexico,2020,OL,86,1,0,Backup_Strategy2_Nicknames
 Ronald Novosedliak,2020,Central Michigan,202002674,ronnie-novosedliak-1,Ronnie Novosedliak,Central Michigan,2020,OL,90,1,0,Backup_Strategy2_Nicknames
+Cameron Guess,2020,Pittsburgh,202003062,cam-guess-1,Cam Guess,Pitt,2020,P,100,1,0,Backup_Strategy2_Nicknames
 Joey Braasch,2020,Wyoming,202003293,joseph-braasch-1,Joseph Braasch,Wyoming,2020,RB,100,1,0,Backup_Strategy2_Nicknames
 Samuel Todd,2020,Buffalo,202003451,sam-todd-1,Sam Todd,Buffalo,2020,OL,100,1,0,Backup_Strategy2_Nicknames
-Cameron Jordan,2020,Navy,202003730,cam-jordan-1,Cam Jordan,Navy,2021,QB,100,1,1,Backup_Strategy2_Nicknames
-Matt Malloy,2020,Air Force,202003888,matthew-malloy-1,Matthew Malloy,Air Force,2020,LB,100,1,0,Backup_Strategy2_Nicknames
-Gabriel Rubio,2021,Notre Dame,202100117,gabe-rubio-1,Gabe Rubio,Notre Dame,2021,DL,100,1,0,Backup_Strategy2_Nicknames
 Ben Perry,2021,Louisville,202100361,benjamin-perry-1,Benjamin Perry,Louisville,2021,DB,100,1,0,Backup_Strategy2_Nicknames
-Will Parker,2021,Tennessee,202100407,william-parker-2,William Parker,Tennessee,2021,OL,100,1,0,Backup_Strategy2_Nicknames
 Chuck Montgomery,2021,Marshall,202100447,charles-montgomery-1,Charles Montgomery,Marshall,2021,WR,100,1,0,Backup_Strategy2_Nicknames
 Nick Martin,2021,Oklahoma State,202100564,nickolas-martin-1,Nickolas Martin,Oklahoma State,2021,LB,93,1,0,Backup_Strategy2_Nicknames
-Zachary Lovett,2021,Missouri,202100805,zach-lovett-1,Zach Lovett,Missouri,2021,LB,95,1,0,Backup_Strategy2_Nicknames
-William Haskell,2021,San Diego State,202101227,will-haskell-2,Will Haskell,San Diego State,2021,QB,100,1,0,Backup_Strategy2_Nicknames
-Joey Bearns III,2021,Maryland,202101431,joseph-bearns-iii-1,Joseph Bearns III,Maryland,2021,FB,100,1,0,Backup_Strategy2_Nicknames
-Matthew Weerts,2021,Arizona,202101508,matt-weerts-1,Matt Weerts,Arizona,2021,LB,100,1,0,Backup_Strategy2_Nicknames
-Mike Edwards III,2021,Georgia Southern,202101510,michael-edwards-iii-1,Michael Edwards III,Georgia Southern,2021,LB,100,1,0,Backup_Strategy2_Nicknames
-Zach Barlev,2021,Illinois,202101779,zachary-barlev-1,Zachary Barlev,Illinois,2021,OL,100,1,0,Backup_Strategy2_Nicknames
-Will Jones,2021,Virginia Tech,202101853,william-jones-2,William Jones,Virginia Tech,2021,OL,100,1,0,Backup_Strategy2_Nicknames
+Samuel Green,2021,UNLV,202101177,sammy-green-2,Sammy Green,Nevada-Las Vegas,2021,RB,90,1,0,Backup_Strategy2_Nicknames
 Andrew Kulick,2021,Colorado State,202101977,drew-kulick-1,Drew Kulick,Colorado State,2021,LB,100,1,0,Backup_Strategy2_Nicknames
-Samuel Scott,2021,Wyoming,202102054,sam-scott-1,Sam Scott,Wyoming,2021,LB,100,1,0,Backup_Strategy2_Nicknames
-Matt Reardon,2021,Miami (OH),202102177,matthew-reardon-1,Matthew Reardon,Miami (OH),2021,WR,100,1,0,Backup_Strategy2_Nicknames
-Matthew Pajuste,2021,Buffalo,202102236,matt-pajuste-1,Matt Pajuste,Buffalo,2021,OL,100,1,0,Backup_Strategy2_Nicknames
-Zachary Russell,2021,Bowling Green,202102374,zach-russell-1,Zach Russell,Bowling Green,2021,TE,95,1,0,Backup_Strategy2_Nicknames
-Douglas Newsome,2021,Charlotte,202102548,doug-newsome-1,Doug Newsome,Charlotte,2021,CB,100,1,0,Backup_Strategy2_Nicknames
-Michael Cerniauskas,2021,Army,202102575,mike-cerniauskas-1,Mike Cerniauskas,Army,2021,DB,100,1,0,Backup_Strategy2_Nicknames
-Sam Floysand,2021,Air Force,202102604,samuel-floysand-1,Samuel Floysand,Air Force,2023,OL,100,1,2,Backup_Strategy2_Nicknames
+Phil Gunn,2021,Ball State,202102325,phyllip-gunn-1,Phyllip Gunn,Ball State,2022,OL,86,1,1,Backup_Strategy2_Nicknames
 Benjamin Lisk,2021,Toledo,202102710,ben-lisk-1,Ben Lisk,Toledo,2021,LS,100,1,0,Backup_Strategy2_Nicknames
 Nick Singleton,2022,Penn State,202200031,nicholas-singleton-1,Nicholas Singleton,Penn State,2022,RB,100,1,0,Backup_Strategy2_Nicknames
-Tommy Castellanos,2022,UCF,202200557,thomas-castellanos-1,Thomas Castellanos,UCF,2022,QB,100,1,0,Backup_Strategy2_Nicknames
+Joseph Griffin Jr.,2022,Boston College,202200346,joe-griffin-3,Joe Griffin,Boston College,2022,WR,88,1,0,Backup_Strategy2_Nicknames
 Tim Dawn,2022,Baylor,202201149,timothy-dawn-1,Timothy Dawn,Baylor,2022,OL,100,1,0,Backup_Strategy2_Nicknames
-Joe Humphreys,2022,Miami (OH),202201168,joseph-humphreys-1,Joseph Humphreys,Miami (OH),2022,QB,100,1,0,Backup_Strategy2_Nicknames
 Jerry Wilson,2022,Syracuse,202201176,jeremiah-wilson-3,Jeremiah Wilson,Syracuse,2022,DB,100,1,0,Backup_Strategy2_Nicknames
 Nicholas Alvarado,2022,Northern Illinois,202201664,nick-alvarado-1,Nick Alvarado,Northern Illinois,2022,LB,100,1,0,Backup_Strategy2_Nicknames
 Joey Klunder,2022,Michigan,202201723,joseph-klunder-1,Joseph Klunder,Michigan,2022,DE,100,1,0,Backup_Strategy2_Nicknames
@@ -404,157 +742,58 @@ Cam Ball,2022,Buffalo,202201834,cameron-ball-2,Cameron Ball,Buffalo,2022,TE,100,
 Christopher Hood,2022,Ball State,202201958,chris-hood-1,Chris Hood,Ball State,2022,OL,100,1,0,Backup_Strategy2_Nicknames
 Alexander Ford,2022,Western Kentucky,202202017,alex-ford-2,Alex Ford,Western Kentucky,2022,DB,100,1,0,Backup_Strategy2_Nicknames
 Edward Conoran,2022,Central Michigan,202202036,ed-conoran-1,Ed Conoran,Central Michigan,2022,DB,100,1,0,Backup_Strategy2_Nicknames
+Matthew Johnson,2022,Troy,202202102,mj-johnson-1,MJ Johnson,Troy,2023,WR,85,1,1,Backup_Strategy2_Nicknames
 Sammy Omosigho,2023,Oklahoma,202300069,samuel-omosigho-1,Samuel Omosigho,Oklahoma,2023,LB,100,1,0,Backup_Strategy2_Nicknames
 Cam Calhoun,2023,Michigan,202300397,cameron-calhoun-1,Cameron Calhoun,Michigan,2023,DB,100,1,0,Backup_Strategy2_Nicknames
 Nick Deloach Jr.,2023,Missouri,202300909,nicholas-deloach-1,Nicholas Deloach,Missouri,2023,DB,91,1,0,Backup_Strategy2_Nicknames
 Cam Fleming,2023,Virginia Tech,202300996,cameron-fleming-3,Cameron Fleming,Virginia Tech,2023,S,100,1,0,Backup_Strategy2_Nicknames
 Alexander Doost,2023,Northwestern,202301167,alex-doost-1,Alex Doost,Northwestern,2023,OL,100,1,0,Backup_Strategy2_Nicknames
-Gabe Arena,2023,Virginia Tech,202301241,gabriel-arena-1,Gabriel Arena,Virginia Tech,2023,OL,100,1,0,Backup_Strategy2_Nicknames
-Daniel Wingate,2023,Maryland,202301248,dylan-wingate-1,Dylan Wingate,Maryland,2023,LB,91,1,0,Backup_Strategy2_Nicknames
 Andrew Heinig,2023,Oklahoma,202301525,drew-heinig-1,Drew Heinig,Oklahoma,2023,DL,100,1,0,Backup_Strategy2_Nicknames
 Nicholas Fernandez,2023,Arizona,202301672,nick-fernandez-2,Nick Fernandez,Arizona,2023,DL,100,1,0,Backup_Strategy2_Nicknames
-Christopher Clark-Jolivet,2023,Rice,202302147,chris-clark-jolivet-1,Chris Clark-Jolivet,Rice,2023,DL,100,1,0,Backup_Strategy2_Nicknames
-Mitch Lake,2023,Appalachian State,202302153,mitchell-lake-1,Mitchell Lake,Appalachian State,2023,P,100,1,0,Backup_Strategy2_Nicknames
-Will Echoles,2024,Ole Miss,202400135,william-echoles-1,William Echoles,Ole Miss,2024,DT,100,1,0,Backup_Strategy2_Nicknames
 Maxence LeBlanc,2024,Ohio State,202400258,max-leblanc-1,Max LeBlanc,Ohio State,2024,TE,91,1,0,Backup_Strategy2_Nicknames
-Matt Fuller,2024,South Carolina,202400475,matthew-fuller-1,Matthew Fuller,South Carolina,2024,RB,100,1,0,Backup_Strategy2_Nicknames
-Matt Ogunniyi,2024,Rutgers,202401003,matthew-ogunniyi-1,Matthew Ogunniyi,Rutgers,2024,TE,100,1,0,Backup_Strategy2_Nicknames
+Cam Pruitt,2024,Miami,202400493,cameron-pruitt-1,Cameron Pruitt,Miami (FL),2024,LB,100,1,0,Backup_Strategy2_Nicknames
+JJ Hammonds,2024,Miami (OH),202400833,javon-hammonds-1,Javon Hammonds,Miami (OH),2024,DL,88,1,0,Backup_Strategy2_Nicknames
 Timothy Lawson,2024,North Carolina,202401060,timmy-lawson-1,Timmy Lawson,North Carolina,2024,TE,90,1,0,Backup_Strategy2_Nicknames
+Johnathan Montague Jr.,2024,Boston College,202401378,john-montague-1,John Montague,Boston College,2024,QB,89,1,0,Backup_Strategy2_Nicknames
 Drew Cunningham,2024,Charlotte,202402127,andrew-cunningham-2,Andrew Cunningham,Charlotte,2024,OL,100,1,0,Backup_Strategy2_Nicknames
-Samuel Riddy Jr.,2024,East Carolina,202402192,sam-riddy-jr-1,Sam Riddy Jr.,East Carolina,2024,OL,100,1,0,Backup_Strategy2_Nicknames
 Cam Chmura,2024,Marshall,202402665,cameron-chmura-1,Cameron Chmura,Marshall,2024,DL,100,1,0,Backup_Strategy2_Nicknames
-Timmy Mitchell,2024,Boise State,202402851,timothy-mitchell-1,Timothy Mitchell,Boise State,2024,S,100,1,0,Backup_Strategy2_Nicknames
-Greg Meidl,2024,Army,202403152,gregory-meidl-1,Gregory Meidl,Army,2025,OL,100,1,1,Backup_Strategy2_Nicknames
+Nick Brooks,2025,Texas,202500239,nicolai-brooks-1,Nicolai Brooks,Texas,2025,OL,89,1,0,Backup_Strategy2_Nicknames
 Cam Sparks,2025,Virginia Tech,202500592,cameron-sparks-1,Cameron Sparks,Virginia Tech,2025,WR,100,1,0,Backup_Strategy2_Nicknames
-Will Saba,2025,Wake Forest,202500885,william-saba-1,William Saba,Wake Forest,2025,OL,100,1,0,Backup_Strategy2_Nicknames
-Samuel Lateju,2025,Wisconsin,202500907,sam-lateju-1,Sam Lateju,Wisconsin,2025,LB,100,1,0,Backup_Strategy2_Nicknames
 Jacob Houseworth,2025,California,202501247,jake-houseworth-1,Jake Houseworth,California,2025,TE,100,1,0,Backup_Strategy2_Nicknames
-Nate Cleveland,2025,Minnesota,202501723,nathan-cleveland-1,Nathan Cleveland,Minnesota,2025,LB,100,1,0,Backup_Strategy2_Nicknames
 Cam Riley,2025,Louisiana,202501855,cameron-riley-2,Cameron Riley,Louisiana,2025,DB,100,1,0,Backup_Strategy2_Nicknames
-Nik Henry,2025,UTEP,202501923,nikolas-henry-1,Nikolas Henry,UTEP,2025,WR,92,1,0,Backup_Strategy2_Nicknames
 Manny Watkins,2025,Jacksonville State,202502252,emmanuel-watkins-1,Emmanuel Watkins,Jacksonville State,2025,S,100,1,0,Backup_Strategy2_Nicknames
-Gabe Lovorn,2025,Tulane,202502298,gabriel-lovorn-1,Gabriel Lovorn,Tulane,2025,TE,100,1,0,Backup_Strategy2_Nicknames
-Joe Birnbaum,2025,Nevada,202502700,joseph-birnbaum-1,Joseph Birnbaum,Nevada,2025,RB,100,1,0,Backup_Strategy2_Nicknames
+Ben Hubbard,2025,Middle Tennessee,202502374,benjamin-hubbard-1,Benjamin Hubbard,Middle Tennessee State,2025,WR,100,1,0,Backup_Strategy2_Nicknames
 Nate Lyman,2025,Eastern Michigan,202502917,nathan-lyman-1,Nathan Lyman,Eastern Michigan,2025,WR,100,1,0,Backup_Strategy2_Nicknames
 Nate Cross,2025,Kent State,202503211,nathan-cross-1,Nathan Cross,Kent State,2025,OL,100,1,0,Backup_Strategy2_Nicknames
-Ronald Jones II,2015,USC,201500040,ronald-jones-4,Ronald Jones,USC,2015,RB,100,1,0,Backup_Strategy3_Remove Suffixes
 J.W. Ketchum III,2015,Baylor,201500410,jw-ketchum-1,J.W. Ketchum,Baylor,2015,S,100,1,0,Backup_Strategy3_Remove Suffixes
-John Kelly Jr.,2015,Tennessee,201500546,john-kelly-6,John Kelly,Tennessee,2015,RB,100,1,0,Backup_Strategy3_Remove Suffixes
-Sean Harper Jr.,2015,Washington State,201501235,sean-harper-2,Sean Harper,Washington State,2017,DB,100,1,2,Backup_Strategy3_Remove Suffixes
-Jessie Bates III,2015,Wake Forest,201501743,jessie-bates-1,Jessie Bates,Wake Forest,2015,DB,100,1,0,Backup_Strategy3_Remove Suffixes
-Kirk Louis Jr,2015,Arkansas State,201502192,kirk-louis-1,Kirk Louis,Arkansas State,2015,LB,100,1,0,Backup_Strategy3_Remove Suffixes
-Kerrith Whyte Jr.,2015,Florida Atlantic,201502385,kerrith-whyte-1,Kerrith Whyte,Florida Atlantic,2015,RB,100,1,0,Backup_Strategy3_Remove Suffixes
-Devin Bush Jr.,2016,Michigan,201600316,devin-bush-2,Devin Bush,Michigan,2016,LB,100,1,0,Backup_Strategy3_Remove Suffixes
-Dixie Wooten III,2016,Houston,201601226,dixie-wooten-1,Dixie Wooten,Houston,2017,OL,100,1,1,Backup_Strategy3_Remove Suffixes
 Tyrone Hill Jr.,2016,Buffalo,201601454,tyrone-hill-1,Tyrone Hill,Buffalo,2017,S,100,1,1,Backup_Strategy3_Remove Suffixes
 Roy Lopez III,2016,New Mexico State,201602534,roy-lopez-1,Roy Lopez,New Mexico State,2016,DL,100,1,0,Backup_Strategy3_Remove Suffixes
-Willie Gay Jr.,2017,Mississippi State,201700070,willie-gay-1,Willie Gay,Mississippi State,2017,LB,100,1,0,Backup_Strategy3_Remove Suffixes
-William Poole III,2017,Georgia,201700195,william-poole-1,William Poole,Georgia,2017,DB,100,1,0,Backup_Strategy3_Remove Suffixes
-Anthony White Jr,2017,Washington State,201700822,anthony-white-3,Anthony White,Washington State,2017,WR,100,1,0,Backup_Strategy3_Remove Suffixes
-George Hicks III,2017,Washington State,201700999,george-hicks-1,George Hicks,Washington State,2017,CB,100,1,0,Backup_Strategy3_Remove Suffixes
-Will Rodgers III,2017,Washington State,201701151,will-rodgers-1,Will Rodgers,Washington State,2017,DE,100,1,0,Backup_Strategy3_Remove Suffixes
-Darnell Pratt Jr.,2017,Virginia,201702225,darnell-pratt-1,Darnell Pratt,Virginia,2017,WR,100,1,0,Backup_Strategy3_Remove Suffixes
-Kevin Marks Jr,2017,Buffalo,201703023,kevin-marks-1,Kevin Marks,Buffalo,2017,RB,100,1,0,Backup_Strategy3_Remove Suffixes
-Willie Taylor III,2017,Washington State,201703092,willie-taylor-4,Willie Taylor,Washington State,2017,LB,100,1,0,Backup_Strategy3_Remove Suffixes
 Bobby Brown III,2017,Eastern Michigan,201704079,bobby-brown-4,Bobby Brown,Eastern Michigan,2017,DB,100,1,0,Backup_Strategy3_Remove Suffixes
 Joe Milton III,2018,Michigan,201800204,joe-milton-2,Joe Milton,Michigan,2018,QB,100,1,0,Backup_Strategy3_Remove Suffixes
-Michael Woods II,2018,Arkansas,201800540,michael-woods-4,Michael Woods,Arkansas,2018,WR,100,1,0,Backup_Strategy3_Remove Suffixes
-Khalid Jones II,2018,Northwestern,201800676,khalid-jones-1,Khalid Jones,Northwestern,2018,LB,100,1,0,Backup_Strategy3_Remove Suffixes
-Dontay Demus Jr.,2018,Maryland,201800865,dontay-demus-1,Dontay Demus,Maryland,2018,WR,100,1,0,Backup_Strategy3_Remove Suffixes
-Stevie Scott III,2018,Indiana,201801336,stevie-scott-1,Stevie Scott,Indiana,2018,RB,100,1,0,Backup_Strategy3_Remove Suffixes
-Malcolm Magee Jr,2018,Colorado State,201802832,malcolm-magee-1,Malcolm Magee,Colorado State,2018,CB,100,1,0,Backup_Strategy3_Remove Suffixes
-Jemel Jones Jr.,2018,Army,201802940,jemel-jones-1,Jemel Jones,Army,2019,QB,100,1,1,Backup_Strategy3_Remove Suffixes
-Leonard Payne Jr.,2018,Fresno State,201803392,leonard-payne-1,Leonard Payne,Fresno State,2018,DL,100,1,0,Backup_Strategy3_Remove Suffixes
-Theo Wease Jr.,2019,Oklahoma,201900021,theo-wease-1,Theo Wease,Oklahoma,2019,WR,100,1,0,Backup_Strategy3_Remove Suffixes
-Patrick Garwo III,2019,Boston College,201900385,patrick-garwo-1,Patrick Garwo,Boston College,2019,RB,100,1,0,Backup_Strategy3_Remove Suffixes
-Charles Turner III,2019,LSU,201900565,charles-turner-2,Charles Turner,LSU,2019,OL,100,1,0,Backup_Strategy3_Remove Suffixes
-Brandon Mack II,2019,Ole Miss,201900719,brandon-mack-3,Brandon Mack,Ole Miss,2019,LB,100,1,0,Backup_Strategy3_Remove Suffixes
-George Johnson III,2019,Michigan,201900876,george-johnson-6,George Johnson,Michigan,2019,WR,100,1,0,Backup_Strategy3_Remove Suffixes
-Allen Smith Jr.,2019,Louisville,201901033,allen-smith-3,Allen Smith,Louisville,2019,LB,100,1,0,Backup_Strategy3_Remove Suffixes
 Deland McCullough II,2019,Miami (OH),201901513,deland-mccullough-2,Deland McCullough,Miami (OH),2019,DB,100,1,0,Backup_Strategy3_Remove Suffixes
 Clyde Price III,2019,Kansas State,201901915,clyde-price-1,Clyde Price,Kansas State,2019,RB,100,1,0,Backup_Strategy3_Remove Suffixes
-Mark Davis Jr.,2019,Buffalo,201902829,mark-davis-3,Mark Davis,Buffalo,2019,CB,100,1,0,Backup_Strategy3_Remove Suffixes
-Terry Jones Jr.,2019,Old Dominion,201903335,terry-jones-3,Terry Jones,Old Dominion,2019,S,100,1,0,Backup_Strategy3_Remove Suffixes
 Trey Jones III,2019,Central Michigan,201903448,trey-jones-1,Trey Jones,Central Michigan,2019,DB,100,1,0,Backup_Strategy3_Remove Suffixes
 Marc Britt II,2020,Ole Miss,202000278,marc-britt-1,Marc Britt,Ole Miss,2020,UT,100,1,0,Backup_Strategy3_Remove Suffixes
 Ricky White III,2020,Michigan State,202000414,ricky-white-2,Ricky White,Michigan State,2020,WR,100,1,0,Backup_Strategy3_Remove Suffixes
-Sam Brown Jr.,2020,West Virginia,202000452,sam-brown-5,Sam Brown,West Virginia,2020,WR,100,1,0,Backup_Strategy3_Remove Suffixes
-Greedy Vance Jr.,2020,Louisville,202000619,greedy-vance-1,Greedy Vance,Louisville,2020,DB,100,1,0,Backup_Strategy3_Remove Suffixes
-Lanell Carr Jr.,2020,West Virginia,202000726,lanell-carr-1,Lanell Carr,West Virginia,2020,LB,100,1,0,Backup_Strategy3_Remove Suffixes
-Charles Bell VI,2020,Marshall,202000837,charles-bell-2,Charles Bell,Marshall,2020,DB,100,1,0,Backup_Strategy3_Remove Suffixes
-Ray Curry Jr.,2020,Arkansas,202000964,ray-curry-2,Ray Curry,Arkansas,2020,OL,100,1,0,Backup_Strategy3_Remove Suffixes
-Dorian Mausi Jr.,2020,Duke,202001007,dorian-mausi-1,Dorian Mausi,Duke,2020,LB,100,1,0,Backup_Strategy3_Remove Suffixes
 DJ Warnell Jr.,2020,UCLA,202001041,dj-warnell-1,DJ Warnell,UCLA,2020,DB,100,1,0,Backup_Strategy3_Remove Suffixes
-Andre Hines Jr.,2020,Boston College,202001090,andre-hines-1,Andre Hines,Boston College,2020,RB,100,1,0,Backup_Strategy3_Remove Suffixes
-Alonzo Ford Jr.,2020,Old Dominion,202002385,alonzo-ford-1,Alonzo Ford,Old Dominion,2020,DT,100,1,0,Backup_Strategy3_Remove Suffixes
-Antonio Sablon III,2020,Old Dominion,202002397,antonio-sablon-1,Antonio Sablon,Old Dominion,2020,WR,100,1,0,Backup_Strategy3_Remove Suffixes
 Rod Orr Jr.,2021,Florida State,202100330,rod-orr-1,Rod Orr,Florida State,2021,OL,100,1,0,Backup_Strategy3_Remove Suffixes
-Fernando Garza III,2021,Texas A&M,202100727,fernando-garza-1,Fernando Garza,Texas A&M,2021,TE,100,1,0,Backup_Strategy3_Remove Suffixes
 Maurice Freeman III,2021,Indiana,202100813,maurice-freeman-1,Maurice Freeman,Indiana,2021,LB,100,1,0,Backup_Strategy3_Remove Suffixes
 Al Ashford III,2021,Wisconsin,202100967,al-ashford-1,Al Ashford,Wisconsin,2021,CB,100,1,0,Backup_Strategy3_Remove Suffixes
-George Gumbs Jr.,2021,Northern Illinois,202101713,george-gumbs-1,George Gumbs,Northern Illinois,2021,TE,100,1,0,Backup_Strategy3_Remove Suffixes
-Richard Toney Jr.,2021,Nevada,202102229,richard-toney-1,Richard Toney,Nevada,2021,DB,100,1,0,Backup_Strategy3_Remove Suffixes
-Luther Burden III,2022,Missouri,202200003,luther-burden-1,Luther Burden,Missouri,2022,WR,100,1,0,Backup_Strategy3_Remove Suffixes
-Earnest Greene III,2022,Georgia,202200045,earnest-greene-1,Earnest Greene,Georgia,2022,OL,100,1,0,Backup_Strategy3_Remove Suffixes
-Emery Jones Jr.,2022,LSU,202200110,emery-jones-1,Emery Jones,LSU,2022,OL,100,1,0,Backup_Strategy3_Remove Suffixes
-Caleb Burton III,2022,Ohio State,202200132,caleb-burton-1,Caleb Burton,Ohio State,2022,WR,100,1,0,Backup_Strategy3_Remove Suffixes
 Greg Gaines III,2022,Iowa State,202200343,greg-gaines-3,Greg Gaines,Iowa State,2022,WR,100,1,0,Backup_Strategy3_Remove Suffixes
-Alfonzo Allen Jr.,2022,Baylor,202200459,alfonzo-allen-1,Alfonzo Allen,Baylor,2022,S,100,1,0,Backup_Strategy3_Remove Suffixes
-Mark Nabou Jr.,2022,Texas A&M,202200508,mark-nabou-1,Mark Nabou,Texas A&M,2022,OL,100,1,0,Backup_Strategy3_Remove Suffixes
-Venson Sneed Jr.,2022,Indiana,202200515,venson-sneed-1,Venson Sneed,Indiana,2022,DL,100,1,0,Backup_Strategy3_Remove Suffixes
-Johnny Dickson III,2022,Virginia Tech,202200549,johnny-dickson-1,Johnny Dickson,Virginia Tech,2022,OL,100,1,0,Backup_Strategy3_Remove Suffixes
-Danny Lewis Jr.,2022,Alabama,202200623,danny-lewis-3,Danny Lewis,Alabama,2022,TE,100,1,0,Backup_Strategy3_Remove Suffixes
-Jamaal Whyce Jr.,2022,South Carolina,202200834,jamaal-whyce-1,Jamaal Whyce,South Carolina,2022,DT,100,1,0,Backup_Strategy3_Remove Suffixes
-Eddie Kelly Jr.,2022,South Florida,202200838,eddie-kelly-1,Eddie Kelly,South Florida,2022,DL,100,1,0,Backup_Strategy3_Remove Suffixes
-Reggie Bush II,2022,Baylor,202200875,reggie-bush-2,Reggie Bush,Baylor,2022,CB,100,1,0,Backup_Strategy3_Remove Suffixes
-Leon Hart Jr.,2022,Marshall,202201104,leon-hart-2,Leon Hart,Marshall,2022,LB,100,1,0,Backup_Strategy3_Remove Suffixes
-Walter Taylor III,2022,Vanderbilt,202201525,walter-taylor-3,Walter Taylor,Vanderbilt,2022,QB,100,1,0,Backup_Strategy3_Remove Suffixes
 Anthony Dunn Jr.,2022,Marshall,202201715,anthony-dunn-1,Anthony Dunn,Marshall,2022,DL,100,1,0,Backup_Strategy3_Remove Suffixes
-Wendell Moe Jr.,2022,Arizona,202201805,wendell-moe-1,Wendell Moe,Arizona,2022,OL,100,1,0,Backup_Strategy3_Remove Suffixes
-Louis Brown IV,2022,Colorado State,202201880,louis-brown-4,Louis Brown,Colorado State,2022,WR,100,1,0,Backup_Strategy3_Remove Suffixes
 Ky Oday Jr.,2022,Colorado State,202201957,ky-oday-2,Ky Oday,Colorado State,2022,WR,100,1,0,Backup_Strategy3_Remove Suffixes
-John Locke Jr.,2022,Louisiana Tech,202202047,john-locke-2,John Locke,Louisiana Tech,2022,TE,100,1,0,Backup_Strategy3_Remove Suffixes
-Bryan McCoy Jr.,2022,Akron,202202188,bryan-mccoy-1,Bryan McCoy,Akron,2022,LB,100,1,0,Backup_Strategy3_Remove Suffixes
-Rueben Owens II,2023,Texas A&M,202300024,rueben-owens-1,Rueben Owens,Texas A&M,2023,RB,100,1,0,Backup_Strategy3_Remove Suffixes
 Curley Reed III,2023,Washington,202300257,curley-reed-1,Curley Reed,Washington,2023,CB,100,1,0,Backup_Strategy3_Remove Suffixes
-Marvin Burks Jr.,2023,Missouri,202300327,marvin-burks-1,Marvin Burks,Missouri,2023,DB,100,1,0,Backup_Strategy3_Remove Suffixes
-Sedrick Irvin Jr.,2023,Stanford,202300524,sedrick-irvin-2,Sedrick Irvin,Stanford,2023,RB,100,1,0,Backup_Strategy3_Remove Suffixes
 Tre Spivey III,2023,Kansas State,202300548,tre-spivey-1,Tre Spivey,Kansas State,2023,WR,100,1,0,Backup_Strategy3_Remove Suffixes
-Lamont Payne Jr.,2023,Penn State,202300608,lamont-payne-1,Lamont Payne,Penn State,2023,CB,100,1,0,Backup_Strategy3_Remove Suffixes
-Nate Johnson III,2023,Boston College,202300672,nate-johnson-4,Nate Johnson,Boston College,2023,WR,100,1,0,Backup_Strategy3_Remove Suffixes
 Abu Sama III,2023,Iowa State,202300714,abu-sama-1,Abu Sama,Iowa State,2023,RB,100,1,0,Backup_Strategy3_Remove Suffixes
-Brandon High Jr.,2023,UTSA,202300817,brandon-high-1,Brandon High,UTSA,2023,RB,100,1,0,Backup_Strategy3_Remove Suffixes
-Marco Lainez III,2023,Iowa,202300861,marco-lainez-1,Marco Lainez,Iowa,2023,QB,100,1,0,Backup_Strategy3_Remove Suffixes
-Jameel Croft Jr.,2023,Kansas,202300874,jameel-croft-1,Jameel Croft,Kansas,2023,CB,100,1,0,Backup_Strategy3_Remove Suffixes
-Jamel Hardy Jr.,2023,UTSA,202301051,jamel-hardy-1,Jamel Hardy,UTSA,2023,WR,100,1,0,Backup_Strategy3_Remove Suffixes
-Rickey Hunt Jr.,2023,Ohio,202301236,rickey-hunt-1,Rickey Hunt,Ohio,2023,RB,100,1,0,Backup_Strategy3_Remove Suffixes
-Brandon Hills Jr.,2023,Washington State,202301392,brandon-hills-1,Brandon Hills,Washington State,2023,WR,100,1,0,Backup_Strategy3_Remove Suffixes
 TJ Bush Jr.,2023,Liberty,202301669,tj-bush-1,TJ Bush,Liberty,2023,DE,100,1,0,Backup_Strategy3_Remove Suffixes
-Keith Smith Jr.,2023,North Texas,202301679,keith-smith-7,Keith Smith,North Texas,2023,DL,100,1,0,Backup_Strategy3_Remove Suffixes
-Roosevelt Andrews III,2023,Miami (OH),202301876,roosevelt-andrews-1,Roosevelt Andrews,Miami (OH),2023,DL,100,1,0,Backup_Strategy3_Remove Suffixes
-Forest Gatlin III,2023,Sam Houston,202302077,forest-gatlin-1,Forest Gatlin,Sam Houston,2023,LB,100,1,0,Backup_Strategy3_Remove Suffixes
-Brandon Jacob Jr.,2024,Maryland,202400321,brandon-jacob-1,Brandon Jacob,Maryland,2024,DB,100,1,0,Backup_Strategy3_Remove Suffixes
 Trae Davis III,2024,Kansas State,202400408,trae-davis-1,Trae Davis,Kansas State,2024,WR,100,1,0,Backup_Strategy3_Remove Suffixes
-Gerard Johnson III,2024,Virginia Tech,202400491,gerard-johnson-2,Gerard Johnson,Virginia Tech,2024,DL,100,1,0,Backup_Strategy3_Remove Suffixes
 Leroy Roker III,2024,Ohio State,202400848,leroy-roker-1,Leroy Roker,Ohio State,2024,S,100,1,0,Backup_Strategy3_Remove Suffixes
-Marcus Neal Jr.,2024,Iowa State,202401083,marcus-neal-1,Marcus Neal,Iowa State,2024,DB,100,1,0,Backup_Strategy3_Remove Suffixes
 Ty Clark III,2024,Wake Forest,202401289,ty-clark-1,Ty Clark,Wake Forest,2024,RB,100,1,0,Backup_Strategy3_Remove Suffixes
-Tito Glass Jr.,2024,Miami (OH),202401384,tito-glass-1,Tito Glass,Miami (OH),2024,RB,100,1,0,Backup_Strategy3_Remove Suffixes
 Sam Neely III,2024,Wake Forest,202401416,sam-neely-1,Sam Neely,Wake Forest,2024,DB,100,1,0,Backup_Strategy3_Remove Suffixes
-Cedric Lott Jr.,2024,Boston College,202401808,cedric-lott-1,Cedric Lott,Boston College,2024,WR,100,1,0,Backup_Strategy3_Remove Suffixes
-Chris Durr Jr.,2024,Wyoming,202402348,chris-durr-1,Chris Durr,Wyoming,2024,WR,100,1,0,Backup_Strategy3_Remove Suffixes
-Bukari Miles Jr.,2024,Ohio State,202402768,bukari-miles-1,Bukari Miles,Ohio State,2024,DB,100,1,0,Backup_Strategy3_Remove Suffixes
-Jerome Carter III,2024,Old Dominion,202402797,jerome-carter-2,Jerome Carter,Old Dominion,2024,S,100,1,0,Backup_Strategy3_Remove Suffixes
-Harry Dalton III,2025,USC,202500462,harry-dalton-1,Harry Dalton,USC,2025,RB,100,1,0,Backup_Strategy3_Remove Suffixes
-Kevin Peay Jr.,2025,Georgia Tech,202500760,kevin-peay-1,Kevin Peay,Georgia Tech,2025,OL,100,1,0,Backup_Strategy3_Remove Suffixes
-Kuol Kuol II,2025,Iowa State,202500890,kuol-kuol-1,Kuol Kuol,Iowa State,2025,OL,100,1,0,Backup_Strategy3_Remove Suffixes
 CJ Bell Jr.,2025,Iowa,202501054,cj-bell-1,CJ Bell,Iowa,2025,DB,100,1,0,Backup_Strategy3_Remove Suffixes
-Kevin Roche Jr.,2025,Georgia Tech,202501086,kevin-roche-1,Kevin Roche,Georgia Tech,2025,TE,100,1,0,Backup_Strategy3_Remove Suffixes
-Dwayne Early Jr.,2025,Buffalo,202501933,dwayne-early-1,Dwayne Early,Buffalo,2025,WR,100,1,0,Backup_Strategy3_Remove Suffixes
-Malcolm Polu Jr.,2025,Fresno State,202501989,malcolm-polu-1,Malcolm Polu,Fresno State,2025,OL,100,1,0,Backup_Strategy3_Remove Suffixes
+Emile Picarella III,2025,LSU,202501240,emile-picarella-lll-1,Emile Picarella lll,LSU,2025,QB,88,1,0,Backup_Strategy3_Remove Suffixes
+Tyrone Cotton III,2025,Washington State,202501349,tyrone-cotton-lll-1,Tyrone Cotton lll,Washington State,2025,CB,86,1,0,Backup_Strategy3_Remove Suffixes
 Mark Rayson III,2025,UTSA,202502265,mark-rayson-1,Mark Rayson,UTSA,2025,LB,100,1,0,Backup_Strategy3_Remove Suffixes
-Tairan Davis Jr.,2025,Akron,202502381,tairan-davis-1,Tairan Davis,Akron,2025,DB,100,1,0,Backup_Strategy3_Remove Suffixes
-Charles Brooks III,2025,Northern Illinois,202502918,charles-brooks-3,Charles Brooks,Northern Illinois,2025,DE,100,1,0,Backup_Strategy3_Remove Suffixes
 DaQuan Hawkins-Muckle,2015,Georgia,201500716,daquan-hawkins-1,DaQuan Hawkins,Georgia,2015,DT,100,1,0,Backup_Strategy5_Hyphenated Split
 Brandon Douglas-Dotson,2015,Rice,201502668,brandon-douglas-3,Brandon Douglas,Rice,2015,CB,100,1,0,Backup_Strategy5_Hyphenated Split
 Chauncey Gardner-Johnson,2016,Florida,201600042,chauncey-gardner-1,Chauncey Gardner,Florida,2016,DB,100,1,0,Backup_Strategy5_Hyphenated Split
@@ -563,7 +802,6 @@ Marcelino McCrary-Ball,2016,Indiana,201601624,marcelino-ball-1,Marcelino Ball,In
 Jude-Anthony Ekpe,2016,Rice,201603711,anthony-ekpe-1,Anthony Ekpe,Rice,2017,LB,100,1,1,Backup_Strategy5_Hyphenated Split
 Joe Tryon-Shoyinka,2017,Washington,201700768,joe-tryon-1,Joe Tryon,Washington,2017,LB,100,1,0,Backup_Strategy5_Hyphenated Split
 Kyrei Fisher-Morris,2017,Arkansas,201700773,kyrei-fisher-1,Kyrei Fisher,Arkansas,2017,LB,100,1,0,Backup_Strategy5_Hyphenated Split
-Christian Beal-Smith,2017,Wake Forest,201700842,christian-beal-1,Christian Beal,Wake Forest,2017,RB,100,1,0,Backup_Strategy5_Hyphenated Split
 Eyabi Okie-Anoma,2018,Alabama,201800004,eyabi-okie-1,Eyabi Okie,Alabama,2018,LB,100,1,0,Backup_Strategy5_Hyphenated Split
 Cam Taylor-Britt,2018,Nebraska,201800743,cam-taylor-1,Cam Taylor,Nebraska,2018,DB,100,1,0,Backup_Strategy5_Hyphenated Split
 Abi Nwabuoku-Okonji,2018,Minnesota,201800961,abi-n-okonji-1,Abi N-Okonji,Minnesota,2018,DL,90,1,0,Backup_Strategy5_Hyphenated Split
@@ -573,57 +811,9 @@ Stanley Saole-McKenzie,2020,California,202001108,stanley-mckenzie-1,Stanley McKe
 Al-Ma'hi Ali,2020,Old Dominion,202002783,ali-ali-2,Ali Ali,Old Dominion,2020,CB,92,1,0,Backup_Strategy5_Hyphenated Split
 David Daniel-Sisavanh,2021,Georgia,202100096,david-daniel-4,David Daniel,Georgia,2021,DB,100,1,0,Backup_Strategy5_Hyphenated Split
 Easton Mascarenas-Arnold,2021,Oregon State,202100455,easton-mascarenas-1,Easton Mascarenas,Oregon State,2021,LB,100,1,0,Backup_Strategy5_Hyphenated Split
+Demie Sumo-Karngbaye,2021,NC State,202101170,demie-sumo-1,Demie Sumo,North Carolina State,2021,RB,100,1,0,Backup_Strategy5_Hyphenated Split
 Kai Peterson-Davison,2021,San Jose State,202102045,kai-peterson-1,Kai Peterson,San Jose State,2021,OL,100,1,0,Backup_Strategy5_Hyphenated Split
 Zeon Chriss-Gremillion,2022,Louisiana,202201191,zeon-chriss-1,Zeon Chriss,Louisiana,2022,QB,100,1,0,Backup_Strategy5_Hyphenated Split
 Patrick Smith-Young,2022,North Texas,202201944,patrick-smith-4,Patrick Smith,North Texas,2022,DB,100,1,0,Backup_Strategy5_Hyphenated Split
 Anthony Brown-Stephens,2023,Kentucky,202300452,anthony-brown-15,Anthony Brown,Kentucky,2023,WR,100,1,0,Backup_Strategy5_Hyphenated Split
 Sacovie White-Helton,2024,Georgia,202400444,sacovie-white-1,Sacovie White,Georgia,2024,WR,100,1,0,Backup_Strategy5_Hyphenated Split
-Darrion Flowers,2015,TCU,201500587,darrion-flowers-1,Darrion Flowers,Texas Christian,2018,CB,100,1,3,Backup_Strategy1_Original
-Evan Austrie,2015,UNLV,201503089,even-austrie-1,Even Austrie,Nevada-Las Vegas,2015,DB,91,1,0,Backup_Strategy1_Original
-De'Andre Williams,2016,Tulane,201602017,deandre-williams-5,De'Andre Williams,Tulane,2019,NT,100,1,3,Backup_Strategy1_Original
-Kevin Perkins,2016,Southern Miss,201603722,kevin-perkins-1,Kevin Perkins,Southern Mississippi,2019,RB,100,1,3,Backup_Strategy1_Original
-Michael Young,2017,Notre Dame,201700471,michael-young-4,Michael Young,Notre Dame,2018,WR,100,1,1,Backup_Strategy1_Original
-Josh Johnson,2017,Georgia Southern,201702581,josh-johnson-11,Josh Johnson,Georgia Southern,2018,DE,100,1,1,Backup_Strategy1_Original
-Dylan Parham,2017,Memphis,201703163,dylan-parham-2,Dylan Parham,Memphis,2017,TE,100,1,0,Backup_Strategy1_Original
-Cleveland Reed,2018,Miami,201800259,cleveland-reed-jr-1,Cleveland Reed Jr.,Miami (FL),2018,OL,90,1,0,Backup_Strategy1_Original
-John Bolding,2018,Louisiana-Monroe,201803088,john-bolding-2,John Bolding,Louisiana-Monroe,2019,C,100,1,1,Backup_Strategy1_Original
-Cameron Williams,2019,Miami,201900437,cameron-williams-3,Cameron Williams,Miami (FL),2019,DL,100,1,0,Backup_Strategy1_Original
-Darius Williams,2019,Middle Tennessee,201900880,darius-williams-4,Darius Williams,Middle Tennessee State,2019,DE,100,1,0,Backup_Strategy1_Original
-Matthew Anderson,2019,Nebraska,201900936,matthew-anderson-2,Matthew Anderson,Nebraska,2019,OL,100,1,0,Backup_Strategy1_Original
-Terrence Moore,2019,Old Dominion,201903300,terrance-moore-1,Terrance Moore,Old Dominion,2019,WR,92,1,0,Backup_Strategy1_Original
-Anthony Smith,2020,Iowa State,202002391,anthony-smith-15,Anthony Smith,Iowa State,2020,OL,100,1,0,Backup_Strategy1_Original
-Katravis Geter Jr.,2021,FIU,202101010,katravis-geter-1,Katravis Geter,Florida International,2021,RB,90,1,0,Backup_Strategy1_Original
-Micheal Ibukun-Okeyode,2022,TCU,202200382,michael-ibukin-okeyode-1,Michael Ibukin-Okeyode,Texas Christian,2022,DL,90,1,0,Backup_Strategy1_Original
-Jordan Hall,2023,Georgia,202300034,jordan-hall-4,Jordan Hall,Georgia,2023,DL,100,1,0,Backup_Strategy1_Original
-Michael Yerardi,2015,UMass,201502107,mike-yerardi-1,Mike Yerardi,Massachusetts,2015,OL,100,1,0,Backup_Strategy2_Nicknames
-Michael Caggiano,2015,UMass,201503330,mike-caggiano-1,Mike Caggiano,Massachusetts,2015,K,100,1,0,Backup_Strategy2_Nicknames
-Anthony Gaiter IV,2016,FIU,201601758,tony-gaiter-iv-1,Tony Gaiter IV,Florida International,2016,WR,100,1,0,Backup_Strategy2_Nicknames
-Michael Ruane,2017,UMass,201701859,mike-ruane-1,Mike Ruane,Massachusetts,2017,LB,100,1,0,Backup_Strategy2_Nicknames
-Timothy Mosley,2018,UNLV,201801679,tim-mosley-1,Tim Mosley,Nevada-Las Vegas,2018,DL,100,1,0,Backup_Strategy2_Nicknames
-Greg Grate Jr,2018,Middle Tennessee,201802216,gregory-grate-jr-1,Gregory Grate Jr.,Middle Tennessee State,2018,S,100,1,0,Backup_Strategy2_Nicknames
-Tim Moulton,2018,UMass,201802591,timothy-moulton-1,Timothy Moulton,Massachusetts,2018,DL,100,1,0,Backup_Strategy2_Nicknames
-Chris Dunn,2018,NC State,201802618,christopher-dunn-1,Christopher Dunn,North Carolina State,2018,PK,100,1,0,Backup_Strategy2_Nicknames
-Cam Jones,2019,Cincinnati,201900453,cameron-jones-4,Cameron Jones,Cincinnati,2019,QB,100,1,0,Backup_Strategy2_Nicknames
-Chris Toudle,2019,NC State,201901061,christopher-toudle-1,Christopher Toudle,North Carolina State,2019,WR,100,1,0,Backup_Strategy2_Nicknames
-Joseph Hocker,2019,FIU,201901225,joe-hocker-1,Joe Hocker,Florida International,2019,TE,100,1,0,Backup_Strategy2_Nicknames
-Cam Ross,2019,UConn,201901860,cameron-ross-1,Cameron Ross,Connecticut,2019,WR,100,1,0,Backup_Strategy2_Nicknames
-Matthew Ryals,2019,Southern Miss,201901962,matt-ryals-1,Matt Ryals,Southern Mississippi,2019,OL,100,1,0,Backup_Strategy2_Nicknames
-Nathan White,2019,FIU,201902146,nate-white-1,Nate White,Florida International,2019,DL,94,1,0,Backup_Strategy2_Nicknames
-Nick Treco,2019,NC State,201902753,nicholas-treco-1,Nicholas Treco,North Carolina State,2019,WR,100,1,0,Backup_Strategy2_Nicknames
-Samuel Williams,2020,Pittsburgh,202001279,sam-williams-9,Sam Williams,Pitt,2020,DL,100,1,0,Backup_Strategy2_Nicknames
-Theodore Richardson,2020,FIU,202001930,teddy-richardson-1,Teddy Richardson,Florida International,2020,WR,93,1,0,Backup_Strategy2_Nicknames
-Cameron Guess,2020,Pittsburgh,202003062,cam-guess-1,Cam Guess,Pitt,2020,P,100,1,0,Backup_Strategy2_Nicknames
-Fred Seabrough,2021,NC State,202100740,fredrick-seabrough-1,Fredrick Seabrough,North Carolina State,2021,TE,97,1,0,Backup_Strategy2_Nicknames
-Samuel Green,2021,UNLV,202101177,sammy-green-2,Sammy Green,Nevada-Las Vegas,2021,RB,90,1,0,Backup_Strategy2_Nicknames
-Zach Chapman,2023,TCU,202300359,zachary-chapman-1,Zachary Chapman,Texas Christian,2023,DL,100,1,0,Backup_Strategy2_Nicknames
-Matthew Nixon,2023,Southern Miss,202301898,matt-nixon-2,Matt Nixon,Southern Mississippi,2023,WR,100,1,0,Backup_Strategy2_Nicknames
-Cam Pruitt,2024,Miami,202400493,cameron-pruitt-1,Cameron Pruitt,Miami (FL),2024,LB,100,1,0,Backup_Strategy2_Nicknames
-Sam Haley,2025,TCU,202500937,samuel-haley-1,Samuel Haley,Texas Christian,2025,LB,100,1,0,Backup_Strategy2_Nicknames
-Ben Hubbard,2025,Middle Tennessee,202502374,benjamin-hubbard-1,Benjamin Hubbard,Middle Tennessee State,2025,WR,100,1,0,Backup_Strategy2_Nicknames
-Fred Nicholson,2025,Southern Miss,202502901,fredrick-nicholson-1,Fredrick Nicholson,Southern Mississippi,2025,LS,97,1,0,Backup_Strategy2_Nicknames
-Paris Brown Jr.,2019,Pittsburgh,201901309,paris-brown-1,Paris Brown,Pitt,2019,DB,100,1,0,Backup_Strategy3_Remove Suffixes
-Delbert Mimms III,2019,NC State,201901622,delbert-mimms-1,Delbert Mimms,North Carolina State,2019,RB,100,1,0,Backup_Strategy3_Remove Suffixes
-Leonard Taylor III,2021,Miami,202100011,leonard-taylor-3,Leonard Taylor,Miami (FL),2021,DL,100,1,0,Backup_Strategy3_Remove Suffixes
-Ahmad Moten Sr.,2022,Miami,202200558,ahmad-moten-1,Ahmad Moten,Miami (FL),2022,DL,100,1,0,Backup_Strategy3_Remove Suffixes
-Devontay Love-Taylor,2016,FIU,201602689,devontay-taylor-1,Devontay Taylor,Florida International,2017,DE,100,1,1,Backup_Strategy5_Hyphenated Split
-Demie Sumo-Karngbaye,2021,NC State,202101170,demie-sumo-1,Demie Sumo,North Carolina State,2021,RB,100,1,0,Backup_Strategy5_Hyphenated Split

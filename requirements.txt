@@ -26,3 +26,6 @@ sentence-transformers
 
 # Quantitative Modeling
 xgboost
+
+# Web Application
+streamlit
