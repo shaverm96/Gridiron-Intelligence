@@ -2,16 +2,87 @@ import streamlit as st
 import os
 from dotenv import load_dotenv
 
-# Import Logic from separate module
-from scout_card_engine import (
-    Measurables, 
-    HighSchoolStats, 
-    PlayerContext, 
-    run_quant_engine, 
-    retrieve_relevant_insights, 
-    generate_scout_report_llm, 
-    ANALYTICS_FACT_BANK
+# Page Config
+st.set_page_config(
+    page_title="Gridiron Intelligence: Scout Card",
+    page_icon="🏈",
+    layout="wide"
 )
+
+# --- MOCKED DATA STRUCTURES ---
+# (Temporarily defined here to avoid importing heavy dependencies from scout_card_engine)
+
+class Measurables:
+    """Mock Measurables"""
+    def __init__(self, height_feet, height_inches, weight_lbs, state):
+        self.height_feet = height_feet
+        self.height_inches = height_inches
+        self.weight_lbs = weight_lbs
+        self.state = state
+    
+    @property
+    def height_display(self):
+        return f"{self.height_feet}'{self.height_inches}\""
+
+class HighSchoolStats:
+    """Mock Stats"""
+    def __init__(self, passing_yards, passing_tds, interceptions, completion_pct, star_rating):
+        self.passing_yards = passing_yards
+        self.passing_tds = passing_tds
+        self.interceptions = interceptions
+        self.completion_pct = completion_pct
+        self.star_rating = star_rating
+
+class XGBoostOutput:
+    """Mock Output"""
+    def __init__(self, raw_score, tier, confidence):
+        self.raw_score = raw_score
+        self.tier = tier
+        self.confidence = confidence
+
+class PlayerContext:
+    """Mock Context"""
+    def __init__(self, player_name, position, high_school, measurables, stats, target_school, target_school_tier):
+        self.player_name = player_name
+        self.position = position
+        self.high_school = high_school
+        self.measurables = measurables
+        self.stats = stats
+        self.target_school = target_school
+        self.target_school_tier = target_school_tier
+        self.quant_output = None
+        self.rag_insights = []
+
+# --- MOCKED LOGIC ENGINES ---
+
+def run_quant_engine(player):
+    """Mock Quantitative Engine"""
+    return XGBoostOutput(85.0, "Power 4 Contributor", 0.82)
+
+ANALYTICS_FACT_BANK = []
+
+def retrieve_relevant_insights(player, fact_bank):
+    """Mock RAG"""
+    return [
+        "Insight 1: Strong production indicates potential.",
+        "Insight 2: Measurables align with position standards."
+    ]
+
+def generate_scout_report_llm(player):
+    """Mock LLM Report"""
+    return f"""
+    ### Scouting Report for {player.player_name}
+    
+    **Summary:**
+    This is a preliminary report based on the provided data. The full AI analysis engine is currently being optimized.
+    
+    **Strengths:**
+    - Good size for the position ({player.measurables.height_display}, {player.measurables.weight_lbs} lbs).
+    - Solid production with {player.stats.passing_yards} yards.
+    
+    **Projection:**
+    Based on the mock score of 85.0, this player projects as a Power 4 Contributor.
+    """
 
 # --- CONFIGURATION & SETUP ---
 # Load environment variables
@@ -19,15 +90,7 @@ load_dotenv("GEMINI_API_KEY.env")
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
 if not GEMINI_API_KEY:
-    st.error("❌ GEMINI_API_KEY not found. Please set it in GEMINI_API_KEY.env or environment variables.")
-    st.stop()
-
-# Page Config
-st.set_page_config(
-    page_title="Gridiron Intelligence: Scout Card",
-    page_icon="🏈",
-    layout="wide"
-)
+    st.warning("⚠️ GEMINI_API_KEY not found. Running in mock mode.")
 
 st.title("🏈 Gridiron Intelligence: Scout Scorecard")
 st.markdown("### AI-Powered Recruitment Analysis")
