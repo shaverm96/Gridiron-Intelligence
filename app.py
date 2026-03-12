@@ -2,77 +2,25 @@ import streamlit as st
 import random
 import time
 import os
+import google.generativeai as genai
 
-# --- MOCKED DATA STRUCTURES & LOGIC ---
+# --- CONFIGURATION (Load API Key) ---
+GEMINI_API_KEY = st.secrets.get("GEMINI_API_KEY", os.getenv("GEMINI_API_KEY"))
 
-class Measurables:
-    def __init__(self, height_feet, height_inches, weight_lbs, state):
-        self.height_feet = height_feet
-        self.height_inches = height_inches
-        self.weight_lbs = weight_lbs
-        self.state = state
-    
-    @property
-    def height_display(self):
-        return f"{self.height_feet}'{self.height_inches}\""
+if GEMINI_API_KEY:
+    os.environ["GEMINI_API_KEY"] = GEMINI_API_KEY
+    genai.configure(api_key=GEMINI_API_KEY)
 
-class HighSchoolStats:
-    def __init__(self, passing_yards, passing_tds, interceptions, completion_pct, star_rating):
-        self.passing_yards = passing_yards
-        self.passing_tds = passing_tds
-        self.interceptions = interceptions
-        self.completion_pct = completion_pct
-        self.star_rating = star_rating
-
-class XGBoostOutput:
-    def __init__(self, raw_score, tier, confidence):
-        self.raw_score = raw_score
-        self.tier = tier
-        self.confidence = confidence
-
-class PlayerContext:
-    def __init__(self, player_name, position, high_school, measurables, stats, target_school, target_school_tier):
-        self.player_name = player_name
-        self.position = position
-        self.high_school = high_school
-        self.measurables = measurables
-        self.stats = stats
-        self.target_school = target_school
-        self.target_school_tier = target_school_tier
-        self.quant_output = None
-        self.rag_insights = []
-
-def run_quant_engine(player):
-    """Mock Quantitative Engine with randomized consistent output"""
-    base_score = random.uniform(75, 95)
-    confidence = random.uniform(0.7, 0.9)
-    
-    if base_score > 90: tier = "Future NFL Draft Pick"
-    elif base_score > 80: tier = "Power 4 Multi-Year Starter"
-    else: tier = "Power 4 Contributor"
-    
-    return XGBoostOutput(round(base_score, 1), tier, round(confidence, 2))
-
-def generate_scout_report_llm(player):
-    """Mock LLM Report Generation"""
-    return f"""
-    ### Scouting Report for {player.player_name}
-    
-    **Summary:**
-    {player.player_name} is a high-ceiling prospect out of {player.high_school}. Standing at {player.measurables.height_display} and {player.measurables.weight_lbs} lbs, he possesses the ideal frame for the {player.position} position at the collegiate level.
-    
-    **Strengths:**
-    - **Physicality:** Uses his size well in the pocket and can withstand contact.
-    - **Production:** A proven winner with {player.stats.passing_yards} passing yards and {player.stats.passing_tds} TDs.
-    - **Efficiency:** Shows excellent decision-making with a {player.stats.completion_pct}% completion rate.
-    
-    **Areas for Improvement:**
-    - Footwork under pressure can be inconsistent.
-    - Needs to improve deep ball accuracy on the run.
-    
-    **Projection:**
-    Our models project {player.player_name} as a **{player.quant_output.tier}** with a confidence score of {int(player.quant_output.confidence * 100)}%. He fits well into a pro-style or spread offense.
-    """
+# Import Logic from separate module
+from scout_card_engine import (
+    Measurables, 
+    HighSchoolStats, 
+    PlayerContext, 
+    run_quant_engine, 
+    retrieve_relevant_insights, 
+    generate_scout_report_llm, 
+    ANALYTICS_FACT_BANK
+)
 
 # 1. Page Configuration and Theme Setup
 st.set_page_config(
@@ -181,7 +129,13 @@ if st.button("Run Intelligence Analysis"):
             
             # Run Engine
             player_ctx.quant_output = run_quant_engine(player_ctx)
-            report = generate_scout_report_llm(player_ctx)
+            player_ctx.rag_insights = retrieve_relevant_insights(player_ctx, ANALYTICS_FACT_BANK)
+            
+            try:
+                report = generate_scout_report_llm(player_ctx)
+            except Exception as e:
+                report = f"⚠️ AI Report Generation Error: {str(e)}\n\nUsing fallback template..."
+                st.error(f"LLM Error: {e}")
 
         # 3. Display Output - Scorecard Style
         st.markdown("---")
