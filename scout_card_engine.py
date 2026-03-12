@@ -1,11 +1,13 @@
-import os
+updaimport os
 from dataclasses import dataclass, field
 from typing import List, Dict, Optional
 from dotenv import load_dotenv
 
 # LangChain Imports
 from langchain_google_genai import ChatGoogleGenerativeAI
-from langchain_core.prompts import ChatPromptTemplate
+from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
+from langchain.agents import AgentExecutor, create_tool_calling_agent
+from langchain.tools import tool
 
 # Load environment variables
 load_dotenv("GEMINI_API_KEY.env")
@@ -158,12 +160,13 @@ def retrieve_relevant_insights(player: PlayerContext, fact_bank: List[Dict]) -> 
 
 def generate_scout_report_llm(player: PlayerContext):
     """
-    Generates a scouting report using Gemini directly, skipping agent overhead.
+    Generates a scouting report using a LangChain Agent with tool calling,
+    replicating the logic from the notebook template.
     """
     
     if not GEMINI_API_KEY:
         raise ValueError("GEMINI_API_KEY not found in environment variables.")
-    
+
     # Initialize LLM
     llm = ChatGoogleGenerativeAI(
         model="gemini-2.0-flash-lite-preview-02-05", 
@@ -172,37 +175,42 @@ def generate_scout_report_llm(player: PlayerContext):
         max_output_tokens=2000
     )
     
-    # Prepare Player Data String
-    p = player
-    rag_text = "\n".join([f"- {i}" for i in p.rag_insights])
-    
-    player_data_text = f'''
-    PLAYER PROFILE: {p.player_name}
-    Position: {p.position}
-    Measurables: {p.measurables.height_display}, {p.measurables.weight_lbs} lbs, {p.measurables.state}
-    
-    STATS:
-    Passing: {p.stats.passing_yards} yds, {p.stats.passing_tds} TDs
-    INTs: {p.stats.interceptions}
-    Completion %: {p.stats.completion_pct}
-    TD:INT Ratio: {p.stats.td_int_ratio:.1f}
-    
-    QUANT MODEL:
-    Score: {p.quant_output.raw_score}/100
-    Tier: {p.quant_output.tier}
-    Confidence: {p.quant_output.confidence}
-    
-    TARGET SCHOOL:
-    {p.target_school} ({p.target_school_tier})
-    
-    RESEARCH INSIGHTS:
-    {rag_text}
-    '''
+    # Define Tool (Closing over the 'player' context)
+    @tool
+    def get_player_data(query: str) -> str:
+        """Retrieve scouting data, stats, and model projections for the player."""
+        p = player
+        rag_text = "\n".join([f"- {i}" for i in p.rag_insights])
+        
+        return f"""
+        PLAYER PROFILE: {p.player_name}
+        Position: {p.position}
+        Measurables: {p.measurables.height_display}, {p.measurables.weight_lbs} lbs, {p.measurables.state}
+        
+        STATS:
+        Passing: {p.stats.passing_yards} yds, {p.stats.passing_tds} TDs
+        INTs: {p.stats.interceptions}
+        Completion %: {p.stats.completion_pct}
+        TD:INT Ratio: {p.stats.td_int_ratio:.1f}
+        
+        QUANT MODEL:
+        Score: {p.quant_output.raw_score}/100
+        Tier: {p.quant_output.tier}
+        Confidence: {p.quant_output.confidence}
+        
+        TARGET SCHOOL:
+        {p.target_school} ({p.target_school_tier})
+        
+        RESEARCH INSIGHTS:
+        {rag_text}
+        """
 
-    # Agent System Message
+    tools = [get_player_data]
+
+    # Agent System Message (Exact replica from notebook)
     agent_system_message = """You are acting as a college football scout. Your task is to evaluate high school players for college recruitment based on player data, quantitative model outputs, and analytical research findings.
 
-Use the provided player data to write a professional scouting summary (2-3 paragraphs, 250-350 words) following these guidelines:
+When you receive the player data from the tool, write a professional scouting summary (2-3 paragraphs, 250-350 words) following these guidelines:
 
 1. **ACKNOWLEDGE THE SCORE**: Reference the Quant Engine's score and tier.
 2. **JUSTIFY THE SCORE**: Use the Analytical Research Findings to explain WHY the model projects this outcome.
@@ -219,11 +227,16 @@ Make sure to focus on the player's potential and fit, not just their limitations
 
     prompt = ChatPromptTemplate.from_messages([
         ("system", agent_system_message),
-        ("human", "Here is the player data:\n\n{player_data}"),
+        ("human", "{input}"),
+        MessagesPlaceholder(variable_name="agent_scratchpad"),
     ])
+
+    # Create Agent
+    agent = create_tool_calling_agent(llm, tools, prompt)
+    agent_executor = AgentExecutor(agent=agent, tools=tools, verbose=True)
+
+    # Invoke Agent
+    scout_task = f"Generate a comprehensive scouting report for {player.player_name}. Use the get_player_data tool to retrieve his profile first."
     
-    # Create Chain
-    chain = prompt | llm
-    
-    result = chain.invoke({"player_data": player_data_text})
-    return result.content
+    result = agent_executor.invoke({"input": scout_task})
+    return result["output"]
