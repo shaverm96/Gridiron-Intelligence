@@ -1,13 +1,24 @@
 import streamlit as st
 import os
-from dotenv import load_dotenv
 
 # Page Config
 st.set_page_config(
-    page_title="Gridiron Intelligence: Scout Card",
+    page_title="Gridiron Intelligence",
     page_icon="🏈",
     layout="wide"
 )
+
+# --- CONFIGURATION & SETUP ---
+# Try to get API Key from secrets or environment
+GEMINI_API_KEY = st.secrets.get("GEMINI_API_KEY", os.getenv("GEMINI_API_KEY"))
+
+if not GEMINI_API_KEY:
+    st.warning("⚠️ GEMINI_API_KEY not found. Running in mock mode.")
+else:
+    st.success("✅ Connected to AI Services")
+
+st.title("🏈 Gridiron Intelligence: Scout Scorecard")
+st.markdown("### AI-Powered Recruitment Analysis")
 
 # --- MOCKED DATA STRUCTURES ---
 # (Temporarily defined here to avoid importing heavy dependencies from scout_card_engine)
@@ -84,18 +95,7 @@ def generate_scout_report_llm(player):
     Based on the mock score of 85.0, this player projects as a Power 4 Contributor.
     """
 
-# --- CONFIGURATION & SETUP ---
-# Load environment variables
-load_dotenv("GEMINI_API_KEY.env")
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
-
-if not GEMINI_API_KEY:
-    st.warning("⚠️ GEMINI_API_KEY not found. Running in mock mode.")
-
-st.title("🏈 Gridiron Intelligence: Scout Scorecard")
-st.markdown("### AI-Powered Recruitment Analysis")
-
-# Sidebar - Player Input
+# --- MOCKED LOGIC ENGINES ---
 with st.sidebar:
     st.header("Player Profile")
     
