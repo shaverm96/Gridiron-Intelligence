@@ -1,194 +1,158 @@
 import streamlit as st
-import os
+import random
+import time
 
-# Page Config
+# 1. Page Configuration and Theme Setup
 st.set_page_config(
-    page_title="Gridiron Intelligence",
+    page_title="Gridiron Intelligence - Football LLM",
     page_icon="🏈",
     layout="wide"
 )
 
-# --- CONFIGURATION & SETUP ---
-# Try to get API Key from secrets or environment
-GEMINI_API_KEY = st.secrets.get("GEMINI_API_KEY", os.getenv("GEMINI_API_KEY"))
+# Custom CSS for a clean, football-inspired interface
+st.markdown("""
+<style>
+    /* Main app background */
+    .reportview-container {
+        background-color: #f0f2f6; 
+    }
+    /* Customize buttons */
+    .stButton>button {
+        background-color: #1a531f; /* Dark Green */
+        color: white;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+    .stButton>button:hover {
+        background-color: #2e7d32; /* Lighter Green on hover */
+        color: white;
+    }
+    /* Customize text input area */
+    .stTextArea>div>div>textarea {
+        background-color: #ffffff;
+        border: 1px solid #ced4da;
+        border-radius: 5px;
+    }
+    /* Title styling */
+    .football-title {
+        color: #1a531f;
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-weight: 800;
+        padding-bottom: 0px;
+    }
+    /* Subtitle styling */
+    .football-subtitle {
+        color: #495057;
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-weight: 400;
+        padding-top: 0px;
+        margin-bottom: 2rem;
+    }
+</style>
+""", unsafe_allow_html=True)
 
-if not GEMINI_API_KEY:
-    st.warning("⚠️ GEMINI_API_KEY not found. Running in mock mode.")
-else:
-    st.success("✅ Connected to AI Services")
+# 2. Page Content - Header Section
 
-st.title("🏈 Gridiron Intelligence: Scout Scorecard")
-st.markdown("### AI-Powered Recruitment Analysis")
+# Using markdown for custom styled title and subtitle
+st.markdown("<h1 class='football-title'>Gridiron Intelligence 🏈</h1>", unsafe_allow_html=True)
+st.markdown("<p class='football-subtitle'>The Advanced Football LLM Analysist, powered by Gemini Backend</p>", unsafe_allow_html=True)
 
-# --- MOCKED DATA STRUCTURES ---
-# (Temporarily defined here to avoid importing heavy dependencies from scout_card_engine)
-
-class Measurables:
-    """Mock Measurables"""
-    def __init__(self, height_feet, height_inches, weight_lbs, state):
-        self.height_feet = height_feet
-        self.height_inches = height_inches
-        self.weight_lbs = weight_lbs
-        self.state = state
-    
-    @property
-    def height_display(self):
-        return f"{self.height_feet}'{self.height_inches}\""
-
-class HighSchoolStats:
-    """Mock Stats"""
-    def __init__(self, passing_yards, passing_tds, interceptions, completion_pct, star_rating):
-        self.passing_yards = passing_yards
-        self.passing_tds = passing_tds
-        self.interceptions = interceptions
-        self.completion_pct = completion_pct
-        self.star_rating = star_rating
-
-class XGBoostOutput:
-    """Mock Output"""
-    def __init__(self, raw_score, tier, confidence):
-        self.raw_score = raw_score
-        self.tier = tier
-        self.confidence = confidence
-
-class PlayerContext:
-    """Mock Context"""
-    def __init__(self, player_name, position, high_school, measurables, stats, target_school, target_school_tier):
-        self.player_name = player_name
-        self.position = position
-        self.high_school = high_school
-        self.measurables = measurables
-        self.stats = stats
-        self.target_school = target_school
-        self.target_school_tier = target_school_tier
-        self.quant_output = None
-        self.rag_insights = []
-
-# --- MOCKED LOGIC ENGINES ---
-
-def run_quant_engine(player):
-    """Mock Quantitative Engine"""
-    return XGBoostOutput(85.0, "Power 4 Contributor", 0.82)
-
-ANALYTICS_FACT_BANK = []
-
-def retrieve_relevant_insights(player, fact_bank):
-    """Mock RAG"""
-    return [
-        "Insight 1: Strong production indicates potential.",
-        "Insight 2: Measurables align with position standards."
-    ]
-
-def generate_scout_report_llm(player):
-    """Mock LLM Report"""
-    return f"""
-    ### Scouting Report for {player.player_name}
-    
-    **Summary:**
-    This is a preliminary report based on the provided data. The full AI analysis engine is currently being optimized.
-    
-    **Strengths:**
-    - Good size for the position ({player.measurables.height_display}, {player.measurables.weight_lbs} lbs).
-    - Solid production with {player.stats.passing_yards} yards.
-    
-    **Projection:**
-    Based on the mock score of 85.0, this player projects as a Power 4 Contributor.
-    """
-
-# --- MOCKED LOGIC ENGINES ---
+# Sidebar with logo and navigation placeholder
 with st.sidebar:
-    st.header("Player Profile")
-    
-    # Personal
-    p_name = st.text_input("Player Name", "Marcus Johnson")
-    p_high_school = st.text_input("High School", "Riverside High")
-    p_pos = st.selectbox("Position", ["QB", "RB", "WR", "TE", "OL", "DL", "LB", "DB"])
-    
-    # Measurables
-    st.subheader("Measurables")
-    col1, col2 = st.columns(2)
-    with col1:
-        p_height_ft = st.number_input("Height (ft)", 5, 7, 6)
-        p_weight = st.number_input("Weight (lbs)", 150, 400, 215)
-    with col2:
-        p_height_in = st.number_input("Height (in)", 0, 11, 4)
-        p_state = st.text_input("State", "NC")
-        
-    # Stats
-    st.subheader("Performance Data")
-    p_yards = st.number_input("Passing Yards", 0, 10000, 3850)
-    p_tds = st.number_input("Passing TDs", 0, 100, 42)
-    p_ints = st.number_input("Interceptions", 0, 50, 8)
-    p_comp_pct = st.slider("Completion %", 40.0, 100.0, 64.2)
-    p_stars = st.slider("Star Rating", 1, 5, 4)
-    
-    # Target
-    st.subheader("Recruitment Target")
-    p_target_school = st.text_input("Target School", "UNC Charlotte")
-    p_school_tier = st.selectbox("School Tier", ["Power 4", "G5", "FCS"])
-    
-    if st.button("Generate Scout Card", type="primary"):
-        # Build Player Context
-        measurables = Measurables(p_height_ft, p_height_in, p_weight, p_state)
-        stats = HighSchoolStats(p_yards, p_tds, p_ints, p_comp_pct, p_stars)
-        
-        player_ctx = PlayerContext(
-            player_name=p_name,
-            position=p_pos,
-            high_school=p_high_school,
-            measurables=measurables,
-            stats=stats,
-            target_school=p_target_school,
-            target_school_tier=p_school_tier
-        )
-        
-        # Run Engine A (Quant)
-        player_ctx.quant_output = run_quant_engine(player_ctx)
-        
-        # Run RAG
-        player_ctx.rag_insights = retrieve_relevant_insights(player_ctx, ANALYTICS_FACT_BANK)
-        
-        # Store in session state to persist across reruns
-        st.session_state['player_context'] = player_ctx
-        
-        # Clear previous report to force regeneration
+    # Use a placeholder image URL for the logo
+    st.image("https://via.placeholder.com/150/1a531f/FFFFFF?text=GI", width=150)
+    st.title("Gridiron Intel")
+    st.write("---")
+    st.subheader("Navigation")
+    st.radio("Go to", ["Analyze Query", "Feature Overview", "About Us"])
+    st.write("---")
+    st.write("**Model Version:** GI-Gemini-v1.0")
 
-        if 'report_text' in st.session_state:
-            del st.session_state['report_text']
-            
-        st.rerun()
+# 3. Main Query Interface
 
-# Display Area
-if 'player_context' in st.session_state:
-    player = st.session_state['player_context']
-    
-    # Display Scorecard
-    st.header(f"{player.player_name} - {player.position}")
-    st.caption(f"{player.high_school} | {player.measurables.height_display}, {player.measurables.weight_lbs} lbs")
-    
-    col_score, col_tier, col_conf = st.columns(3)
-    
-    with col_score:
-        st.metric("Quant Score", f"{player.quant_output.raw_score}/100")
-    with col_tier:
-        st.metric("Projected Tier", player.quant_output.tier)
-    with col_conf:
-        st.metric("Model Confidence", f"{int(player.quant_output.confidence * 100)}%")
+st.markdown("### Ask Your Football Question:")
+st.write("Enter your query about stats, strategy, historical data, or draft prospects.")
+
+# User Text Input Area
+user_query = st.text_area(
+    label="Your Football Query",
+    placeholder="Example: 'Analyze the impact of pre-snap motion on Kansas City's offensive success in 2023.'",
+    height=100,
+    label_visibility="collapsed" # Hide default label for cleaner look
+)
+
+# Run Button
+if st.button("Run Intelligence Analysis"):
+    if user_query:
+        # --- Mockup Backend Logic (Start) ---
+        # This is where you would typically call the Gemini API
         
-    st.divider()
-    
-    # Check if report already generated
-    if 'report_text' not in st.session_state:
-        with st.spinner(f"Drafting scouting report for {player.player_name}..."):
-            st.session_state['report_text'] = generate_scout_report_llm(player)
-            
-    st.subheader("📝 Scouting Report")
-    st.markdown(st.session_state['report_text'])
-    
-    st.divider()
-    st.subheader("🔍 Analytical Insights (RAG Context)")
-    for insight in player.rag_insights:
-        st.info(f"💡 {insight}")
+        # 1. Simulate API Call Processing
+        with st.spinner('Accessing Gemini backend and analyzing game data...'):
+            time.sleep(2) # Simulate processing time
 
-else:
-    st.info("👈 Enter player details in the sidebar and click 'Generate Scout Card' to begin.")
+        # 2. Simulate Gemini Response (Mockup Data)
+        mock_responses = [
+            f"**Analysis for:** '{user_query}'\n\nBased on Gridiron Intelligence's analysis powered by Gemini, the pre-snap motion utilized by the Chiefs was a critical component. Data shows a 12% increase in success rate on plays with motion versus those without, primarily by stressing defensive communication...",
+            f"**Stat Breakdown for:** '{user_query}'\n\nQuerying player stats... Our model indicates that Travis Kelce saw a 30% target share in third-down situations, the highest among tight ends in 2023. His EPA (Expected Points Added) contribution remains elite...",
+            f"**Strategic Insight for:** '{user_query}'\n\nAnalyzing defensive schemes... When facing a standard 4-3 defense, your query suggests implementing more 12-personnel packages to exploit potential mismatches in the running game, particularly off-the-tackle runs...",
+            f"**Historical Comparison for:** '{user_query}'\n\nThe 1985 Chicago Bears defense, when compared to modern units using our adjusted performance metrics, ranks 1st in historical dominance. Their '46 defense' would likely generate a 45% pressure rate even against today's sophisticated offensive lines..."
+        ]
+        
+        # Simple simulation logic (not actual LLM processing)
+        if "motion" in user_query.lower() or "kc" in user_query.lower():
+            response = mock_responses[0]
+        elif "stat" in user_query.lower() or "kelce" in user_query.lower():
+            response = mock_responses[1]
+        elif "strategy" in user_query.lower() or "defense" in user_query.lower():
+            response = mock_responses[2]
+        elif "history" in user_query.lower() or "bears" in user_query.lower():
+            response = mock_responses[3]
+        else:
+            response = random.choice(mock_responses) # Random fallback
+
+        # --- Mockup Backend Logic (End) ---
+
+        # 3. Display Output
+        st.markdown("---")
+        st.markdown("#### 🤖 Gridiron Intelligence Response:")
+        st.info(response)
+
+    else:
+        st.warning("Please enter a football-related query before running the analysis.")
+
+# 4. Feature Showcase Section
+
+st.markdown("---")
+st.markdown("## Core Capabilities of Gridiron Intelligence")
+
+# Use columns for features layout
+col1, col2, col3 = st.columns(3)
+
+with col1:
+    st.markdown("#### 📊 Deep Stat Analysis")
+    st.write(
+        "Leverage Gemini's processing power to go beyond box scores. Analyze EPA, "
+        "CPOE, success rates, and situational performance metrics instantly."
+    )
+
+with col2:
+    st.markdown("#### 🔮 Predictive Modeling")
+    st.write(
+        "Utilize advanced machine learning to forecast draft outcomes, game "
+        "results, and player performance trajectories based on historical data."
+    )
+
+with col3:
+    st.markdown("#### 🧠 Strategic Breakdown")
+    st.write(
+        "Get insights into coaching strategies, play-calling tendencies, and "
+        "schematic advantages/disadvantages for any team or game."
+    )
+
+# Footer
+st.markdown("---")
+st.markdown(
+    "<div style='text-align: center; color: #6c757d;'>Powered by Google Gemini | © 2024 Gridiron Intelligence | This is a demonstration mockup.</div>", 
+    unsafe_allow_html=True
+)
