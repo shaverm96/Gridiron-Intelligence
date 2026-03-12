@@ -60,7 +60,7 @@ st.markdown("<p class='football-subtitle'>The Advanced Football LLM Analysist, p
 # Sidebar with logo and navigation placeholder
 with st.sidebar:
     # Use a placeholder image URL for the logo
-    st.image("https://via.placeholder.com/150/1a531f/FFFFFF?text=GI", width=150)
+    st.image("https://raw.githubusercontent.com/shaverm96/Gridiron-Intelligence/main/Logos/Main.svg", width=150)
     st.title("Gridiron Intel")
     st.write("---")
     st.subheader("Navigation")
