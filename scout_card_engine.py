@@ -5,6 +5,9 @@ from dotenv import load_dotenv
 
 # LangChain Imports
 from langchain_google_genai import ChatGoogleGenerativeAI
+from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
+from langchain.agents import AgentExecutor, create_tool_calling_agent
+from langchain.tools import tool
 
 # Load environment variables
 load_dotenv("GEMINI_API_KEY.env")
@@ -157,9 +160,8 @@ def retrieve_relevant_insights(player: PlayerContext, fact_bank: List[Dict]) -> 
 
 def generate_scout_report_llm(player: PlayerContext):
     """
-    Direct LLM Generation using the Prompt from the Notebook.
-    Instead of a full agent (which requires tools), we can use a direct Chain 
-    since all data is available in the context.
+    Generates a scouting report using a LangChain Agent with tool calling,
+    replicating the logic from the notebook template.
     """
     
     if not GEMINI_API_KEY:
@@ -167,54 +169,74 @@ def generate_scout_report_llm(player: PlayerContext):
 
     # Initialize LLM
     llm = ChatGoogleGenerativeAI(
-        model="gemini-2.0-flash-lite-preview-02-05", # Updated model name
+        model="gemini-2.0-flash-lite-preview-02-05", 
         google_api_key=GEMINI_API_KEY,
         temperature=0.3,
         max_output_tokens=2000
     )
     
-    # Prepare Data Block
-    rag_text = "\n".join([f"- {i}" for i in player.rag_insights])
+    # Define Tool (Closing over the 'player' context)
+    @tool
+    def get_player_data(query: str) -> str:
+        """Retrieve scouting data, stats, and model projections for the player."""
+        p = player
+        rag_text = "\n".join([f"- {i}" for i in p.rag_insights])
+        
+        return f"""
+        PLAYER PROFILE: {p.player_name}
+        Position: {p.position}
+        Measurables: {p.measurables.height_display}, {p.measurables.weight_lbs} lbs, {p.measurables.state}
+        
+        STATS:
+        Passing: {p.stats.passing_yards} yds, {p.stats.passing_tds} TDs
+        INTs: {p.stats.interceptions}
+        Completion %: {p.stats.completion_pct}
+        TD:INT Ratio: {p.stats.td_int_ratio:.1f}
+        
+        QUANT MODEL:
+        Score: {p.quant_output.raw_score}/100
+        Tier: {p.quant_output.tier}
+        Confidence: {p.quant_output.confidence}
+        
+        TARGET SCHOOL:
+        {p.target_school} ({p.target_school_tier})
+        
+        RESEARCH INSIGHTS:
+        {rag_text}
+        """
+
+    tools = [get_player_data]
+
+    # Agent System Message (Exact replica from notebook)
+    agent_system_message = """You are acting as a college football scout. Your task is to evaluate high school players for college recruitment based on player data, quantitative model outputs, and analytical research findings.
+
+When you receive the player data from the tool, write a professional scouting summary (2-3 paragraphs, 250-350 words) following these guidelines:
+
+1. **ACKNOWLEDGE THE SCORE**: Reference the Quant Engine's score and tier.
+2. **JUSTIFY THE SCORE**: Use the Analytical Research Findings to explain WHY the model projects this outcome.
+3. **INITIAL THOUGHTS**: Based on the player's measurables, stats, and research insights, discuss the player's potential.
+4. **POSSIBLE FALL BACKS**: Based on how high the models confidence is (if below .5 mention fall backs more, if between (.5 and .75) mention fall backs less, if above .75 mention fall backs least), mention potential "floor" scenarios or development paths for the player that are common in scouting but appear in the data.
+5. **FIT AT TARGET SCHOOL**: Assess the player's fit at their target school.
+6. **HISTORICAL COMPARISON**: Compare the player to 2 - 3 historical recruits by name with similar profiles and outcomes in one short sentence stating players and 2-3 traits they share.
+7. **SCOUT LANGUAGE**: Use professional terminology naturally (e.g., "High ceiling", "Twitchy", "Processes quickly").
+8. **TONE**: Confident but measured.
+
+Do NOT use phrases like "According to the research", "The data shows.", "a potential "floor" scenario", and "a potential "ceiling" scenario" scenario Integrate findings naturally.
+Make sure to focus on the player's potential and fit, not just their limitations. Acknowledge both strengths and areas for development, but maintain an overall positive and constructive tone as a scout would when discussing a recruit with coaches.
+"""
+
+    prompt = ChatPromptTemplate.from_messages([
+        ("system", agent_system_message),
+        ("human", "{input}"),
+        MessagesPlaceholder(variable_name="agent_scratchpad"),
+    ])
+
+    # Create Agent
+    agent = create_tool_calling_agent(llm, tools, prompt)
+    agent_executor = AgentExecutor(agent=agent, tools=tools, verbose=True)
+
+    # Invoke Agent
+    scout_task = f"Generate a comprehensive scouting report for {player.player_name}. Use the get_player_data tool to retrieve his profile first."
     
-    prompt_text = f"""You are acting as a college football scout. Your task is to evaluate high school players for college recruitment based on player data, quantitative model outputs, and analytical research findings.
-
-    ======== PLAYER DATA ========
-    Name: {player.player_name}
-    Position: {player.position}
-    High School: {player.high_school}
-    Measurables: {player.measurables.height_display} | {player.measurables.weight_lbs} lbs | {player.measurables.state}
-
-    ======== HIGH SCHOOL PERFORMANCE ========
-    Passing Yards: {player.stats.passing_yards}
-    Passing TDs: {player.stats.passing_tds}
-    Interceptions: {player.stats.interceptions}
-    Completion %: {player.stats.completion_pct}%
-    TD:INT Ratio: {player.stats.td_int_ratio:.1f}
-    Star Rating: {player.stats.star_rating} stars
-
-    ======== MODEL ASSESSMENT (Proprietary Quant Engine) ========
-    Raw Score: {player.quant_output.raw_score}/100
-    Tier: {player.quant_output.tier}
-    Model Confidence: {player.quant_output.confidence}
-
-    ======== TARGET SCHOOL ========
-    School: {player.target_school}
-    Tier: {player.target_school_tier}
-
-    ======== ANALYTICAL RESEARCH FINDINGS ========
-    {rag_text}
-
-    ======== YOUR TASK (Scout's Report) ========
-    Write a professional scouting summary (3-4 paragraphs, 300-400 words) following these guidelines:
-
-    1. **ACKNOWLEDGE THE SCORE**: Reference the Quant Engine's score and tier.
-    2. **JUSTIFY THE SCORE**: Use 2-3 of the Analytical Research Findings above to explain WHY the model projects this outcome.
-    3. **FIT AT TARGET**: Assess the player's fit at {player.target_school}.
-    4. **COMPARISON**: Briefly compare to historical player archetypes if relevant.
-    5. **TONE**: Confident, measured, professional. No "According to the data".
-
-    Generate the report now:
-    """
-    
-    response = llm.invoke(prompt_text)
-    return response.content
+    result = agent_executor.invoke({"input": scout_task})
+    return result["output"]
