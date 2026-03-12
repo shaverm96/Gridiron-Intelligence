@@ -1,0 +1,22 @@
+recruit_name,recruit_year,committed_to,recruit_id,sports_ref_id,roster_name,roster_school,roster_year,pos,name_score,team_match,year_diff,match_strategy,recruit_pos,match_quality_score
+Jordan Iosefa,2016,USC,201600776,jordan-iosefa-1,Jordan Iosefa,USC,2016,LB,100,1,0,PRIMARY_LAYER,,130.0
+Ryan Van Demark,2017,UConn,201703147,ryan-van-demark-1,Ryan Van Demark,Connecticut,2017,OL,100,1,0,PRIMARY_LAYER,,130.0
+Ayden Noriega,2019,Rice,201903640,ayden-noriega-1,Ayden Noriega,Rice,2019,RB,100,1,0,PRIMARY_LAYER,,130.0
+Thomas Donofrio,2024,Nebraska,202403145,thomas-donofrio-1,Thomas D'Onofrio,Nebraska,2024,DB,100,1,0,PRIMARY_LAYER,,130.0
+Brad Hawkins,2016,Michigan,201600288,brad-hawkins-2,Brad Hawkins,Michigan,2017,DB,100,1,1,PRIMARY_LAYER,,128.0
+Cam McCormick,2016,Oregon,201600548,cam-mccormick-1,Cam McCormick,Oregon,2017,TE,100,1,1,PRIMARY_LAYER,,128.0
+Sam Thomas,2016,Kent State,201602719,sam-thomas-2,Sam Thomas,Kent State,2017,LB,100,1,1,PRIMARY_LAYER,,128.0
+Dion Hunter,2019,New Mexico,201902673,dion-hunter-1,Dion Hunter,New Mexico,2020,LB,100,1,1,PRIMARY_LAYER,,128.0
+Latheron Rodgers-Anderson,2017,Western Kentucky,201701931,latheron-rogers-anderson-1,Latheron Rogers-Anderson,Western Kentucky,2017,DB,98,1,0,PRIMARY_LAYER,,128.0
+Kendrick Marbles,2017,Louisiana-Monroe,201703761,kenderick-marbles-1,Kenderick Marbles,Louisiana-Monroe,2017,DB,97,1,0,PRIMARY_LAYER,,127.0
+Taiyir Wilson,2015,Temple,201502670,taiyir-wilson-1,Taiyir Wilson,Temple,2017,TE,100,1,2,PRIMARY_LAYER,,126.0
+David Reese,2016,Florida,201600403,david-reese-4,David Reese,Florida,2018,LB,100,1,2,PRIMARY_LAYER,,126.0
+Logic Hudges,2020,Buffalo,202003504,logic-hudgens-1,Logic Hudgens,Buffalo,2020,S,96,1,0,PRIMARY_LAYER,,126.0
+Devontae Armstrong,2024,Ohio State,202400450,deontae-armstrong-1,Deontae Armstrong,Ohio State,2024,OL,96,1,0,PRIMARY_LAYER,,126.0
+Eric Kendzoir,2016,Louisiana Tech,201603412,eric-kendzior-1,Eric Kendzior,Louisiana Tech,2016,DE,93,1,0,PRIMARY_LAYER,,123.0
+Naquan Reynolds,2017,Marshall,201703123,naquan-renalds-1,Naquan Renalds,Marshall,2018,WR,90,1,1,PRIMARY_LAYER,,118.0
+Gregory Jean,2017,Eastern Michigan,201703462,greg-jean-1,Greg Jean,Eastern Michigan,2017,WR,85,1,0,Backup_Strategy1_Original,,111.0
+Matt Gaiter,2015,Air Force,201502413,matthew-gaiter-1,Matthew Gaiter,Air Force,2017,DL,88,1,2,Backup_Strategy1_Original,,110.0
+AJ Johnson,2022,Gardner-Webb,202200564,aj-johnson-7,AJ Johnson,UAB,2025,WR,100,0,3,Final_StandardName,wr,108.0
+Devonte Williams,2015,Uncommitted,201501595,devante-williams-1,Devante Williams,Troy,2017,RB,93,0,2,Final_StandardName,rb,103.0
+Darius Richard,2018,Uncommitted,201803237,darius-richardson-1,Darius Richardson,Army,2020,DL,90,0,2,Final_StandardName,dt,100.0

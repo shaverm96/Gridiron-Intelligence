@@ -1,0 +1,301 @@
+﻿feature,importance,position
+num__skill_Recovery Speed,0.09749153,DB
+num__skill_Reactive Quickness,0.06277212,DB
+num__skill_Change of Direction,0.04099534,DB
+cat__state_AL,0.035639856,DB
+num__rating,0.035503928,DB
+cat__state_CA,0.033375245,DB
+num__skill_Frame,0.031610724,DB
+cat__state_IL,0.03160349,DB
+cat__state_OH,0.030353842,DB
+num__skill_Instincts,0.029414935,DB
+num__skill_Speed,0.029196212,DB
+num__skill_Size,0.029180856,DB
+cat__state_TX,0.028584715,DB
+cat__state_SC,0.02840848,DB
+num__skill_Ball Skills,0.02693077,DB
+num__skill_Length,0.02642548,DB
+num__skill_Tackling,0.024669413,DB
+cat__position_CB,0.024487507,DB
+num__weight_lbs,0.023683392,DB
+num__height_inches,0.02194405,DB
+cat__state_LA,0.020757463,DB
+cat__state_MS,0.020747513,DB
+cat__state_NC,0.020535985,DB
+cat__state_MD,0.019504169,DB
+cat__state_NJ,0.019151043,DB
+cat__position_S,0.018866995,DB
+cat__state_VA,0.01880754,DB
+cat__state_CO,0.018799389,DB
+cat__state_TN,0.018294835,DB
+cat__state_IN,0.017902397,DB
+num__skill_Speed,0.070288986,EDGE
+num__rating,0.04787964,EDGE
+cat__state_GA,0.046602968,EDGE
+cat__state_IA,0.04579432,EDGE
+num__skill_Size,0.04302182,EDGE
+num__skill_First Step,0.039251883,EDGE
+num__skill_Closing Speed,0.037930757,EDGE
+num__skill_Point of Attack,0.036980238,EDGE
+cat__state_TX,0.03564738,EDGE
+cat__state_AL,0.0355413,EDGE
+num__height_inches,0.035067286,EDGE
+cat__state_UT,0.034671076,EDGE
+num__skill_Instincts,0.034136623,EDGE
+cat__state_FL,0.033065572,EDGE
+cat__state_VA,0.031919762,EDGE
+cat__state_CA,0.031681564,EDGE
+num__weight_lbs,0.031407487,EDGE
+num__skill_Pursuit,0.03139712,EDGE
+num__skill_Athleticism,0.030856898,EDGE
+num__skill_Frame,0.0307769,EDGE
+cat__position_Edge,0.03016531,EDGE
+cat__state_MS,0.02979246,EDGE
+cat__state_OH,0.027533794,EDGE
+cat__position_WDE,0.026658468,EDGE
+num__skill_Hand Quickness,0.026601525,EDGE
+cat__state_NC,0.022047011,EDGE
+cat__state_MI,0.02183651,EDGE
+cat__position_SDE,0.019316668,EDGE
+cat__state_PA,0.016218368,EDGE
+cat__state_MD,0.015910318,EDGE
+num__skill_First Step,0.06163958,IDL
+cat__state_TX,0.047524292,IDL
+num__rating,0.043003853,IDL
+num__skill_Point of Attack,0.04256928,IDL
+num__skill_Explosiveness,0.041858163,IDL
+cat__state_VA,0.04116314,IDL
+cat__state_AL,0.04061502,IDL
+num__skill_Size,0.039688237,IDL
+cat__state_FL,0.039056033,IDL
+cat__state_PA,0.038345657,IDL
+num__skill_Frame,0.03745626,IDL
+num__height_inches,0.036722798,IDL
+num__skill_Athleticism,0.035872635,IDL
+cat__state_MI,0.03414739,IDL
+cat__state_IA,0.033830512,IDL
+cat__state_CA,0.03277999,IDL
+num__skill_Hand Quickness,0.032383878,IDL
+num__weight_lbs,0.03188264,IDL
+cat__state_OH,0.029341176,IDL
+cat__state_LA,0.029294416,IDL
+num__skill_Versatility,0.029075447,IDL
+cat__state_MD,0.028973281,IDL
+num__skill_Motor,0.028312653,IDL
+cat__state_TN,0.027259307,IDL
+cat__state_IL,0.026235258,IDL
+cat__state_OK,0.025947554,IDL
+cat__state_GA,0.025334017,IDL
+num__skill_Strength,0.021870052,IDL
+cat__position_DL,0.017817505,IDL
+cat__state_,0.0,IDL
+num__skill_Pursuit,0.060956188,LB
+num__rating,0.05126929,LB
+num__skill_Instincts,0.03966597,LB
+num__skill_Reactive Quickness,0.03865523,LB
+cat__state_LA,0.036963873,LB
+cat__state_NJ,0.032450028,LB
+cat__state_SC,0.031758692,LB
+cat__state_HI,0.031472977,LB
+num__weight_lbs,0.030899018,LB
+cat__state_GA,0.030656772,LB
+num__skill_Frame,0.030564379,LB
+cat__state_FL,0.030517245,LB
+cat__state_TN,0.030485608,LB
+cat__state_MS,0.03000562,LB
+cat__state_MI,0.029410271,LB
+cat__position_OLB,0.02935438,LB
+cat__state_TX,0.02885538,LB
+num__skill_Play in Space,0.028143821,LB
+num__height_inches,0.028073449,LB
+num__skill_Lateral Movement,0.026810588,LB
+cat__position_LB,0.026799252,LB
+cat__state_NC,0.026781801,LB
+cat__state_VA,0.02658358,LB
+cat__state_AL,0.026536196,LB
+num__skill_Striking Ability,0.025992354,LB
+num__skill_Size,0.025489159,LB
+num__skill_Athleticism,0.024916295,LB
+num__skill_Tackling,0.024884287,LB
+cat__position_ILB,0.024366412,LB
+cat__state_OH,0.024324164,LB
+num__skill_Lateral Movement,0.09245413,OL
+num__rating,0.039876916,OL
+cat__position_OT,0.033015065,OL
+cat__position_OC,0.032496892,OL
+cat__state_HI,0.02802654,OL
+num__skill_Pass Blocking,0.026450068,OL
+cat__state_IL,0.02529184,OL
+num__skill_Athleticism,0.025263742,OL
+cat__state_NJ,0.024989787,OL
+cat__state_MS,0.02433068,OL
+cat__state_OK,0.022739565,OL
+cat__state_MD,0.022670994,OL
+num__skill_Run Blocking,0.022478733,OL
+num__skill_Body Quickness,0.022459386,OL
+cat__state_AZ,0.022427509,OL
+num__skill_Strength,0.022158742,OL
+cat__state_OH,0.021470144,OL
+cat__state_NC,0.02142742,OL
+cat__state_TN,0.020822011,OL
+cat__state_WI,0.02076797,OL
+cat__state_PA,0.02072439,OL
+num__skill_Frame,0.020559644,OL
+cat__state_IN,0.02041259,OL
+cat__state_KY,0.020386899,OL
+num__skill_Punch,0.020385746,OL
+num__weight_lbs,0.020372525,OL
+num__skill_Feet,0.019887678,OL
+num__height_inches,0.019602224,OL
+cat__state_KS,0.019419119,OL
+cat__state_GERM,0.019082338,OL
+num__rating,0.06580015,QB
+num__skill_Footwork,0.06378847,QB
+num__skill_Reactive Quickness,0.042391207,QB
+cat__state_NC,0.038360316,QB
+num__skill_Feet,0.03676739,QB
+cat__state_LA,0.035112888,QB
+num__skill_Intangibles,0.03342042,QB
+cat__state_GA,0.033388384,QB
+cat__state_IL,0.032024827,QB
+cat__position_DUAL,0.02978262,QB
+cat__state_AZ,0.029011467,QB
+num__weight_lbs,0.02872179,QB
+num__skill_Accuracy,0.028687408,QB
+cat__state_NY,0.028586099,QB
+num__skill_Elusiveness,0.027581006,QB
+num__skill_Pocket Presence,0.027025536,QB
+num__skill_Delivery,0.02674116,QB
+num__skill_Size,0.02549092,QB
+cat__state_CA,0.02462519,QB
+cat__state_FL,0.0242312,QB
+cat__flag_gatorade_poy_1.0,0.024019754,QB
+cat__state_NJ,0.023766693,QB
+num__skill_Arm Strength,0.023728596,QB
+cat__state_VA,0.023426985,QB
+cat__state_OK,0.023278726,QB
+cat__state_KY,0.023061674,QB
+cat__state_WA,0.02299616,QB
+num__height_inches,0.021085026,QB
+cat__state_TX,0.020722767,QB
+cat__state_SC,0.020458171,QB
+num__skill_Hands,0.1454859,RB
+cat__state_LA,0.044130612,RB
+num__rating,0.04138811,RB
+cat__state_AZ,0.034638524,RB
+num__skill_Explosiveness,0.034193657,RB
+num__skill_Speed,0.032643452,RB
+num__skill_Agility,0.030343566,RB
+cat__position_RB,0.02915905,RB
+num__skill_Build,0.028698305,RB
+cat__state_CA,0.028085835,RB
+num__height_inches,0.027747855,RB
+num__weight_lbs,0.027469607,RB
+cat__state_OH,0.027286477,RB
+num__skill_Change of Direction,0.026071861,RB
+cat__state_FL,0.025540682,RB
+cat__state_PA,0.024359426,RB
+num__skill_Vision,0.024129573,RB
+num__skill_Tackle Breaking,0.023974927,RB
+cat__state_NC,0.023765823,RB
+cat__state_MD,0.02300045,RB
+cat__position_FB,0.022899242,RB
+num__skill_Feet,0.02260237,RB
+cat__state_MO,0.022413008,RB
+cat__state_MS,0.022188433,RB
+cat__state_AL,0.021370195,RB
+cat__position_APB,0.021355757,RB
+cat__state_TX,0.021195399,RB
+cat__state_NJ,0.020985479,RB
+cat__state_IL,0.01943547,RB
+cat__state_GA,0.01931517,RB
+cat__position_P,0.2357737,SPEC
+num__rating,0.20115808,SPEC
+num__weight_lbs,0.12956081,SPEC
+num__height_inches,0.114759564,SPEC
+cat__state_CA,0.101449065,SPEC
+cat__position_LS,0.09962054,SPEC
+cat__position_K,0.076835245,SPEC
+cat__state_TX,0.040843002,SPEC
+cat__state_AZ,0.0,SPEC
+cat__state_CO,0.0,SPEC
+cat__state_CT,0.0,SPEC
+cat__state_AUST,0.0,SPEC
+cat__state_,0.0,SPEC
+cat__state_AR,0.0,SPEC
+cat__state_AL,0.0,SPEC
+cat__state_IA,0.0,SPEC
+cat__state_ID,0.0,SPEC
+cat__state_IL,0.0,SPEC
+cat__state_IN,0.0,SPEC
+cat__state_KS,0.0,SPEC
+cat__state_KY,0.0,SPEC
+cat__state_LA,0.0,SPEC
+cat__state_MA,0.0,SPEC
+cat__state_MD,0.0,SPEC
+cat__state_MI,0.0,SPEC
+cat__state_MN,0.0,SPEC
+cat__state_MO,0.0,SPEC
+cat__state_DC,0.0,SPEC
+cat__state_FL,0.0,SPEC
+cat__state_GA,0.0,SPEC
+num__skill_Catch Radius,0.1663884,TE
+num__skill_Athleticism,0.085082985,TE
+num__rating,0.07888753,TE
+cat__state_TX,0.0663793,TE
+num__weight_lbs,0.06488008,TE
+cat__state_FL,0.06334549,TE
+num__skill_Hands,0.056367107,TE
+num__skill_Size,0.051916376,TE
+num__skill_Point of Attack,0.05123915,TE
+num__height_inches,0.05070582,TE
+num__skill_Route Running,0.050474826,TE
+cat__state_OH,0.048734516,TE
+num__skill_Frame,0.04368221,TE
+cat__state_GA,0.0420226,TE
+num__skill_Mismatch Ability,0.042004626,TE
+cat__state_CA,0.03788893,TE
+cat__state_AR,0.0,TE
+cat__state_AL,0.0,TE
+cat__state_,0.0,TE
+num__skill_Change of Direction,0.0,TE
+num__skill_Feet,0.0,TE
+cat__state_DC,0.0,TE
+cat__state_CT,0.0,TE
+cat__state_AZ,0.0,TE
+cat__state_DENM,0.0,TE
+cat__state_DE,0.0,TE
+cat__state_ENGL,0.0,TE
+cat__state_GERM,0.0,TE
+cat__state_IA,0.0,TE
+cat__state_ID,0.0,TE
+num__rating,0.060888063,WR
+num__skill_Yards After Catch,0.047407072,WR
+cat__state_LA,0.040862415,WR
+num__skill_Speed,0.038770735,WR
+cat__state_IN,0.038402036,WR
+num__skill_Size,0.03826918,WR
+num__skill_Change of Direction,0.03795719,WR
+num__skill_Hands,0.036171366,WR
+num__skill_Route Running,0.035629585,WR
+num__skill_Toughness,0.034423266,WR
+cat__state_CA,0.034300003,WR
+num__weight_lbs,0.03384433,WR
+num__height_inches,0.033723496,WR
+cat__state_MI,0.03315034,WR
+cat__state_IL,0.03296728,WR
+num__skill_Ball Skills,0.03180941,WR
+num__skill_Strength,0.030993486,WR
+cat__state_NC,0.030728403,WR
+cat__state_MS,0.029000536,WR
+num__skill_Agility,0.027781243,WR
+cat__state_SC,0.027134124,WR
+cat__state_OH,0.026878487,WR
+cat__state_WA,0.026859147,WR
+cat__state_GA,0.026600078,WR
+cat__state_AL,0.02558149,WR
+cat__state_TX,0.024564968,WR
+cat__state_KY,0.024559923,WR
+cat__state_VA,0.020783441,WR
+cat__state_FL,0.020564454,WR
+cat__state_NJ,0.016241692,WR
