@@ -226,8 +226,7 @@ Make sure to focus on the player's potential and fit, not just their limitations
 """
 
     # Create Agent (Using LangGraph ReAct)
-    # Use messages_modifier instead of state_modifier for compatibility
-    agent_executor = create_react_agent(llm, tools, messages_modifier=agent_system_message)
+    agent_executor = create_react_agent(llm, tools, prompt=agent_system_message)
 
     # Invoke Agent
     scout_task = f"Generate a comprehensive scouting report for {player.player_name}. Use the get_player_data tool to retrieve his profile first."
