@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 # LangChain Imports
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
-from langchain.agents import AgentExecutor, create_tool_calling_agent
+from langgraph.prebuilt import create_react_agent
 from langchain.tools import tool
 
 # Load environment variables
@@ -225,18 +225,13 @@ Do NOT use phrases like "According to the research", "The data shows.", "a poten
 Make sure to focus on the player's potential and fit, not just their limitations. Acknowledge both strengths and areas for development, but maintain an overall positive and constructive tone as a scout would when discussing a recruit with coaches.
 """
 
-    prompt = ChatPromptTemplate.from_messages([
-        ("system", agent_system_message),
-        ("human", "{input}"),
-        MessagesPlaceholder(variable_name="agent_scratchpad"),
-    ])
-
-    # Create Agent
-    agent = create_tool_calling_agent(llm, tools, prompt)
-    agent_executor = AgentExecutor(agent=agent, tools=tools, verbose=True)
+    # Create Agent (Using LangGraph ReAct)
+    # The system message is passed directly as state_modifier
+    agent_executor = create_react_agent(llm, tools, state_modifier=agent_system_message)
 
     # Invoke Agent
     scout_task = f"Generate a comprehensive scouting report for {player.player_name}. Use the get_player_data tool to retrieve his profile first."
     
-    result = agent_executor.invoke({"input": scout_task})
-    return result["output"]
+    # LangGraph returns a list of messages. The last message is the final answer.
+    result = agent_executor.invoke({"messages": [("user", scout_task)]})
+    return result["messages"][-1].content
