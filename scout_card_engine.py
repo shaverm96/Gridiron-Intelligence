@@ -169,7 +169,7 @@ def generate_scout_report_llm(player: PlayerContext):
 
     # Initialize LLM
     llm = ChatGoogleGenerativeAI(
-        model="gemini-2.0-flash-lite-preview-02-05", 
+        model="gemini-2.5-flash-lite", 
         google_api_key=GEMINI_API_KEY,
         temperature=0.3,
         max_output_tokens=2000
