@@ -5,7 +5,14 @@ import os
 import google.generativeai as genai
 
 # --- CONFIGURATION (Load API Key) ---
-GEMINI_API_KEY = st.secrets.get("GEMINI_API_KEY", os.getenv("GEMINI_API_KEY"))
+def _cfg(key: str, default: str = "") -> str:
+    try:
+        return st.secrets.get(key, os.getenv(key, default))
+    except Exception:
+        return os.getenv(key, default)
+
+
+GEMINI_API_KEY = _cfg("GEMINI_API_KEY")
 
 if GEMINI_API_KEY:
     os.environ["GEMINI_API_KEY"] = GEMINI_API_KEY

@@ -1,5 +1,6 @@
 import os
 from dataclasses import dataclass, field
+from pathlib import Path
 from typing import List, Dict, Optional
 from dotenv import load_dotenv
 
@@ -9,8 +10,13 @@ from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langgraph.prebuilt import create_react_agent
 from langchain.tools import tool
 
-# Load environment variables
-load_dotenv("GEMINI_API_KEY.env")
+# Load environment variables from project root when available.
+PROJECT_ROOT = Path(__file__).resolve().parent
+env_file = PROJECT_ROOT / "GEMINI_API_KEY.env"
+if env_file.exists():
+    load_dotenv(env_file, override=False)
+else:
+    load_dotenv(override=False)
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
 # --- DATA STRUCTURES ---

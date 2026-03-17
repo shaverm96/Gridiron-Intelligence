@@ -31,11 +31,23 @@ except ImportError:
     create_client = None
 
 
-def _cfg(key: str, default: str = "") -> str:
+def _cfg_with_source(key: str, default: str = "") -> tuple[str, str]:
     try:
-        return st.secrets.get(key, os.getenv(key, default))
+        if key in st.secrets:
+            value = st.secrets.get(key, default)
+            return (str(value).strip() if value is not None else "", "streamlit_secrets")
     except Exception:
-        return os.getenv(key, default)
+        pass
+
+    env_value = os.getenv(key)
+    if env_value is not None:
+        return env_value.strip(), "environment"
+    return default, "default"
+
+
+def _cfg(key: str, default: str = "") -> str:
+    value, _ = _cfg_with_source(key, default)
+    return value
 
 
 def resolve_project_root() -> Path:
@@ -56,16 +68,26 @@ if load_dotenv is not None:
         if env_file.exists():
             load_dotenv(env_file, override=False)
 
+SUPABASE_URL, SUPABASE_URL_SOURCE = _cfg_with_source("SUPABASE_URL")
+SUPABASE_SERVICE_ROLE_KEY, SUPABASE_SERVICE_ROLE_KEY_SOURCE = _cfg_with_source("SUPABASE_SERVICE_ROLE_KEY")
+GEMINI_API_KEY, GEMINI_API_KEY_SOURCE = _cfg_with_source("GEMINI_API_KEY")
+
 CONFIG = {
-    "SUPABASE_URL": _cfg("SUPABASE_URL"),
-    "SUPABASE_SERVICE_ROLE_KEY": _cfg("SUPABASE_SERVICE_ROLE_KEY"),
-    "GEMINI_API_KEY": _cfg("GEMINI_API_KEY"),
+    "SUPABASE_URL": SUPABASE_URL,
+    "SUPABASE_SERVICE_ROLE_KEY": SUPABASE_SERVICE_ROLE_KEY,
+    "GEMINI_API_KEY": GEMINI_API_KEY,
     "YEARS": [2026, 2027, 2028],
     "FINAL_MODEL": "gemini-3-flash-preview",
     "SUMMARY_MODEL": "gemini-2.5-flash-lite",
     "VECTOR_MATCH_COUNT": 6,
     "VECTOR_MATCH_THRESHOLD": 0.15,
     "VECTOR_RPC_NAME": "match_gi_factoids",
+}
+
+CONFIG_SOURCES = {
+    "SUPABASE_URL": SUPABASE_URL_SOURCE,
+    "SUPABASE_SERVICE_ROLE_KEY": SUPABASE_SERVICE_ROLE_KEY_SOURCE,
+    "GEMINI_API_KEY": GEMINI_API_KEY_SOURCE,
 }
 
 TABLES = {
@@ -96,6 +118,76 @@ def get_supabase_client():
     if not CONFIG["SUPABASE_URL"] or not CONFIG["SUPABASE_SERVICE_ROLE_KEY"]:
         return None
     return create_client(CONFIG["SUPABASE_URL"], CONFIG["SUPABASE_SERVICE_ROLE_KEY"])
+
+
+def get_supabase_config_issues() -> list[str]:
+    issues = []
+    if create_client is None:
+        issues.append("Python package 'supabase' is not installed (or failed to import).")
+    if not CONFIG["SUPABASE_URL"]:
+        issues.append(f"SUPABASE_URL is missing (source: {CONFIG_SOURCES['SUPABASE_URL']}).")
+    if not CONFIG["SUPABASE_SERVICE_ROLE_KEY"]:
+        issues.append(
+            "SUPABASE_SERVICE_ROLE_KEY is missing "
+            f"(source: {CONFIG_SOURCES['SUPABASE_SERVICE_ROLE_KEY']})."
+        )
+    return issues
+
+
+def get_gemini_config_issues() -> list[str]:
+    issues = []
+    if ChatGoogleGenerativeAI is None:
+        issues.append("Python package 'langchain-google-genai' is not installed (or failed to import).")
+    if not CONFIG["GEMINI_API_KEY"]:
+        issues.append(f"GEMINI_API_KEY is missing (source: {CONFIG_SOURCES['GEMINI_API_KEY']}).")
+    return issues
+
+
+def run_one_click_diagnostics() -> dict:
+    checks: list[dict[str, str]] = []
+
+    def add_check(name: str, status: str, detail: str):
+        checks.append({"name": name, "status": status, "detail": detail})
+
+    add_check(
+        "Config sources",
+        "pass",
+        (
+            "SUPABASE_URL="
+            f"{CONFIG_SOURCES['SUPABASE_URL']}, SUPABASE_SERVICE_ROLE_KEY={CONFIG_SOURCES['SUPABASE_SERVICE_ROLE_KEY']}, "
+            f"GEMINI_API_KEY={CONFIG_SOURCES['GEMINI_API_KEY']}"
+        ),
+    )
+
+    supabase_issues = get_supabase_config_issues()
+    if supabase_issues:
+        add_check("Supabase preflight", "fail", "; ".join(supabase_issues))
+    else:
+        try:
+            sb = get_supabase_client()
+            response = sb.table(TABLES["player_master"]).select("recruit_id").limit(1).execute()
+            row_count = len(response.data or [])
+            add_check("Supabase connectivity", "pass", f"Connected and queried {TABLES['player_master']} (rows returned: {row_count}).")
+        except Exception as exc:
+            add_check("Supabase connectivity", "fail", f"Query test failed: {exc}")
+
+    gemini_issues = get_gemini_config_issues()
+    if gemini_issues:
+        add_check("Gemini preflight", "fail", "; ".join(gemini_issues))
+    else:
+        try:
+            llm = get_llm(CONFIG["SUMMARY_MODEL"], temperature=0.0, max_output_tokens=20)
+            if llm is None:
+                add_check("Gemini connectivity", "fail", "Gemini client could not be created.")
+            else:
+                response = llm.invoke("Reply with exactly: OK")
+                text = llm_response_to_text(response).strip()
+                add_check("Gemini connectivity", "pass", f"Model responded: {text[:80] if text else 'empty response'}")
+        except Exception as exc:
+            add_check("Gemini connectivity", "fail", f"Invocation test failed: {exc}")
+
+    overall = "pass" if all(item["status"] == "pass" for item in checks) else "fail"
+    return {"overall": overall, "checks": checks}
 
 
 def get_llm(model_name: str, temperature: float = 0.2, max_output_tokens: int = 1800):
@@ -414,7 +506,7 @@ def build_score_card_html(pred_score: dict, pred_threshold: dict) -> str:
     format_percentage = lambda x: "N/A" if x is None else f"{x*100:.1f}%"
     create_progress_bar = lambda x: f"<div style='background:#e9ecef;border-radius:8px;height:14px;'><div style='width:{0 if x is None else max(0,min(100,x*100)):.1f}%;background:#0d6efd;height:14px;border-radius:8px;'></div></div>"
     score_width = 0 if score is None else max(0, min(100, score))
-    return f"<div style='border:1px solid #d9d9d9;border-radius:12px;padding:14px 16px;margin:8px 0 16px 0;background:#ffffff;'><h3 style='margin:0 0 8px 0;'>Model Output</h3><div style='font-size:28px;font-weight:700;'>{'N/A' if score is None else f'{score:.1f}'}/100</div><div>Career Designation: <b>{score_tier(score)}</b></div><div style='background:#e9ecef;border-radius:8px;height:16px;'><div style='width:{score_width:.1f}%;background:#198754;height:16px;border-radius:8px;'></div></div><div><b>Contributor (&gt;20):</b> {format_percentage(p20)} {create_progress_bar(p20)}</div><div><b>Multi-Year Starter (&gt;50):</b> {format_percentage(p50)} {create_progress_bar(p50)}</div><div><b>Elite (&gt;80):</b> {format_percentage(p80)} {create_progress_bar(p80)}</div></div>"
+    return f"<div style='border:1px solid #d9d9d9;border-radius:12px;padding:14px 16px;margin:8px 0 16px 0;background:#ffffff;color:#000000;'><h3 style='margin:0 0 8px 0;color:#000000;'>Model Output</h3><div style='font-size:28px;font-weight:700;color:#000000;'>{'N/A' if score is None else f'{score:.1f}'}/100</div><div style='color:#000000;'>Career Designation: <b>{score_tier(score)}</b></div><div style='background:#e9ecef;border-radius:8px;height:16px;'><div style='width:{score_width:.1f}%;background:#198754;height:16px;border-radius:8px;'></div></div><div style='color:#000000;'><b>Contributor (&gt;20):</b> {format_percentage(p20)} {create_progress_bar(p20)}</div><div style='color:#000000;'><b>Multi-Year Starter (&gt;50):</b> {format_percentage(p50)} {create_progress_bar(p50)}</div><div style='color:#000000;'><b>Elite (&gt;80):</b> {format_percentage(p80)} {create_progress_bar(p80)}</div></div>"
 
 
 def build_final_prompt(year: int, target_team: str, player_row: dict, scouting_clean: dict, hs_athletic_background: str, pred_score_row: dict, pred_thr_row: dict, web_summary: str, vector_result: dict, historical_comparables_md: str) -> str:
@@ -469,6 +561,29 @@ with st.sidebar:
     st.write("---")
     st.caption(f"Gemini configured: {'Yes' if bool(CONFIG['GEMINI_API_KEY']) else 'No'}")
     st.caption(f"Supabase configured: {'Yes' if bool(CONFIG['SUPABASE_URL'] and CONFIG['SUPABASE_SERVICE_ROLE_KEY']) else 'No'}")
+    with st.expander("Configuration diagnostics"):
+        st.write(f"SUPABASE_URL source: {CONFIG_SOURCES['SUPABASE_URL']}")
+        st.write(f"SUPABASE_SERVICE_ROLE_KEY source: {CONFIG_SOURCES['SUPABASE_SERVICE_ROLE_KEY']}")
+        st.write(f"GEMINI_API_KEY source: {CONFIG_SOURCES['GEMINI_API_KEY']}")
+        st.write(f"Supabase package import: {'Yes' if create_client is not None else 'No'}")
+        if st.button("Run One-Click Diagnostic", key="run_one_click_diagnostic"):
+            with st.spinner("Running connectivity and configuration checks..."):
+                st.session_state["one_click_diag"] = run_one_click_diagnostics()
+
+        diag = st.session_state.get("one_click_diag")
+        if isinstance(diag, dict):
+            if diag.get("overall") == "pass":
+                st.success("One-click diagnostic passed.")
+            else:
+                st.error("One-click diagnostic found issues.")
+
+            for item in diag.get("checks", []):
+                icon = "✅" if item.get("status") == "pass" else "❌"
+                st.write(f"{icon} {item.get('name')}: {item.get('detail')}")
+
+    supabase_issues = get_supabase_config_issues()
+    if supabase_issues:
+        st.warning("Supabase preflight issues detected. Open diagnostics for details.")
 
 try:
     player_index = load_player_index()
@@ -485,6 +600,12 @@ if st.button("Generate Scouting Report", type="primary"):
     if not selected_label:
         st.warning("No players available for selected year.")
     else:
+        supabase_issues = get_supabase_config_issues()
+        if supabase_issues:
+            msg = "Cannot run report until Supabase is configured:\n" + "\n".join([f"- {issue}" for issue in supabase_issues])
+            st.error(msg)
+            st.stop()
+
         lookup = dict(zip(player_index["player_label"], player_index["recruit_id"]))
         recruit_id = lookup.get(selected_label)
         if not recruit_id:

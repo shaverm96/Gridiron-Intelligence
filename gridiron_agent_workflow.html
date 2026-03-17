@@ -5,22 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gridiron Intelligence Agent Workflow</title>
     <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: "base",
+            themeVariables: {
+                background: "#ffffff",
+                primaryTextColor: "#000000",
+                secondaryTextColor: "#000000",
+                tertiaryTextColor: "#000000",
+                lineColor: "#000000",
+                textColor: "#000000"
+            }
+        });
+    </script>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 20px;
-            background-color: #f5f5f5;
+            background-color: #ffffff;
+            color: #000000;
         }
         .container {
             max-width: 1200px;
             margin: 0 auto;
-            background-color: white;
+            background-color: #ffffff;
             padding: 30px;
             border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            box-shadow: none;
+            border: 1px solid #d0d0d0;
         }
         h1 {
-            color: #1976D2;
+            color: #000000;
             text-align: center;
         }
         .mermaid {
@@ -30,8 +46,9 @@
         .info {
             margin-top: 30px;
             padding: 15px;
-            background-color: #f0f0f0;
-            border-left: 4px solid #1976D2;
+            background-color: #ffffff;
+            border-left: 4px solid #000000;
+            color: #000000;
         }
     </style>
 </head>
@@ -88,6 +105,7 @@ graph TD
     classDef synthesis fill:#F3E5F5,stroke:#7B1FA2,stroke-width:2px,color:#000
     classDef llm fill:#E0F2F1,stroke:#00897B,stroke-width:2px,color:#000
     classDef end fill:#E3F2FD,stroke:#1976D2,stroke-width:3px,color:#000
+    linkStyle default stroke:#000,color:#000
         </div>
         <div class="info">
             <h3>Workflow Description:</h3>
