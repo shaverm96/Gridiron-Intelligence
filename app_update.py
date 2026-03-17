@@ -12,22 +12,22 @@ import streamlit as st
 
 try:
     from dotenv import load_dotenv
-except Exception:
+except ImportError:
     load_dotenv = None
 
 try:
     from ddgs import DDGS
-except Exception:
+except ImportError:
     DDGS = None
 
 try:
     from langchain_google_genai import ChatGoogleGenerativeAI
-except Exception:
+except ImportError:
     ChatGoogleGenerativeAI = None
 
 try:
     from supabase import create_client
-except Exception:
+except ImportError:
     create_client = None
 
 
@@ -285,7 +285,8 @@ def fetch_player_bundle(sb, recruit_id: str) -> dict:
 def duckduckgo_search(player_name: str, position: str, high_school: str, year: int, max_results: int = 12) -> list[dict]:
     if DDGS is None:
         return []
-    query = f"{player_name} {position} {high_school} {year} football recruiting (site:maxpreps.com OR site:247sports.com OR site:rivals.com OR site:espn.com OR site:on3.com)"
+    site_filter = " OR ".join([f"site:{site}" for site in TARGET_SEARCH_SITES])
+    query = f"{player_name} {position} {high_school} {year} football recruiting ({site_filter})"
     rows = []
     with DDGS() as ddgs:
         for result in ddgs.text(query, max_results=max_results):
@@ -337,8 +338,8 @@ def get_historical_player_comparables(recruit_id: str) -> str:
         return "Historical comparables unavailable: Supabase client is not configured."
     try:
         from sklearn.preprocessing import MinMaxScaler
-    except Exception:
-        return "Historical comparables unavailable: scikit-learn is not installed in this environment."
+    except ImportError:
+        return "Historical comparables unavailable: sklearn.preprocessing.MinMaxScaler is not installed in this environment."
 
     target_rows = sb.table(TABLES["player_master"]).select("recruit_id, player_name, year, position, rating, height_inches, weight_lbs, state").eq("recruit_id", str(recruit_id).strip()).limit(1).execute().data or []
     if not target_rows:
@@ -410,10 +411,10 @@ def build_score_card_html(pred_score: dict, pred_threshold: dict) -> str:
     p20 = to_float_or_none(pred_threshold.get("prob_ge20"))
     p50 = to_float_or_none(pred_threshold.get("prob_ge50"))
     p80 = to_float_or_none(pred_threshold.get("prob_ge80"))
-    fmt = lambda x: "N/A" if x is None else f"{x*100:.1f}%"
-    bar = lambda x: f"<div style='background:#e9ecef;border-radius:8px;height:14px;'><div style='width:{0 if x is None else max(0,min(100,x*100)):.1f}%;background:#0d6efd;height:14px;border-radius:8px;'></div></div>"
+    format_percentage = lambda x: "N/A" if x is None else f"{x*100:.1f}%"
+    create_progress_bar = lambda x: f"<div style='background:#e9ecef;border-radius:8px;height:14px;'><div style='width:{0 if x is None else max(0,min(100,x*100)):.1f}%;background:#0d6efd;height:14px;border-radius:8px;'></div></div>"
     score_width = 0 if score is None else max(0, min(100, score))
-    return f"<div style='border:1px solid #d9d9d9;border-radius:12px;padding:14px 16px;margin:8px 0 16px 0;background:#ffffff;'><h3 style='margin:0 0 8px 0;'>Model Output</h3><div style='font-size:28px;font-weight:700;'>{'N/A' if score is None else f'{score:.1f}'}/100</div><div>Career Designation: <b>{score_tier(score)}</b></div><div style='background:#e9ecef;border-radius:8px;height:16px;'><div style='width:{score_width:.1f}%;background:#198754;height:16px;border-radius:8px;'></div></div><div><b>Contributor (&gt;20):</b> {fmt(p20)} {bar(p20)}</div><div><b>Multi-Year Starter (&gt;50):</b> {fmt(p50)} {bar(p50)}</div><div><b>Elite (&gt;80):</b> {fmt(p80)} {bar(p80)}</div></div>"
+    return f"<div style='border:1px solid #d9d9d9;border-radius:12px;padding:14px 16px;margin:8px 0 16px 0;background:#ffffff;'><h3 style='margin:0 0 8px 0;'>Model Output</h3><div style='font-size:28px;font-weight:700;'>{'N/A' if score is None else f'{score:.1f}'}/100</div><div>Career Designation: <b>{score_tier(score)}</b></div><div style='background:#e9ecef;border-radius:8px;height:16px;'><div style='width:{score_width:.1f}%;background:#198754;height:16px;border-radius:8px;'></div></div><div><b>Contributor (&gt;20):</b> {format_percentage(p20)} {create_progress_bar(p20)}</div><div><b>Multi-Year Starter (&gt;50):</b> {format_percentage(p50)} {create_progress_bar(p50)}</div><div><b>Elite (&gt;80):</b> {format_percentage(p80)} {create_progress_bar(p80)}</div></div>"
 
 
 def build_final_prompt(year: int, target_team: str, player_row: dict, scouting_clean: dict, hs_athletic_background: str, pred_score_row: dict, pred_thr_row: dict, web_summary: str, vector_result: dict, historical_comparables_md: str) -> str:
@@ -517,7 +518,7 @@ if st.button("Generate Scouting Report", type="primary"):
             vector_query_text = (
                 f"Player: {player_name}\nPosition: {position}\nPosition Group: {vector_position}\nState: {player_state}\n"
                 f"High School: {high_school}\nHS Athletic Background:\n{hs_athletic_background}\n\n"
-                f"Filtered scouting report:\n{json.dumps(scouting_clean, default=str)}\n\nFlash 2.5 summary:\n{web_summary}"
+                f"Filtered scouting report:\n{json.dumps(scouting_clean, default=str)}\n\nWeb Intelligence Summary:\n{web_summary}"
             )
             vector_result = vector_insights_query(sb, query_text=vector_query_text, position=vector_position, top_k=CONFIG["VECTOR_MATCH_COUNT"], threshold=CONFIG["VECTOR_MATCH_THRESHOLD"])
             historical_comparables_md = get_historical_player_comparables(str(recruit_id))
@@ -544,7 +545,7 @@ if st.button("Generate Scouting Report", type="primary"):
         st.markdown(historical_comparables_md)
         st.markdown("### Filtered Scouting Profile")
         st.code(json.dumps(scouting_clean, indent=2, default=str), language="json")
-        st.markdown("### Web Summary (Gemini 2.5 Flash Lite)")
+        st.markdown("### Web Intelligence Summary")
         st.markdown(web_summary)
         st.markdown("### Vector Insights")
         if vector_result.get("insights"):
