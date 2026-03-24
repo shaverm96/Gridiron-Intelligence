@@ -1,0 +1,940 @@
+﻿player_id,name,year,position,rating,position_group,y_pred_score_raw,y_pred_score_calibrated,predictive_score_0_100,contrib_tier_raw,contrib_tier_raw_college_outlook,contrib_tier_raw_professional_outlook
+202300001,Arch Manning,2023,QB,0.9995,QB,59.482273,64.79873091388947,64.79873091388947,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202300003,Nico Iamaleava,2023,QB,0.9981,QB,68.5268,77.80355637443925,77.80355637443925,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202300004,Dante Moore,2023,QB,0.998,QB,72.866875,83.39189529067963,83.39189529067963,Elite Power 4,All-Conference/All-American honors.,First round NFL Draft talent
+202300008,Jackson Arnold,2023,QB,0.9947,QB,70.22379,79.78569489370814,79.78569489370814,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202300011,Malachi Nelson,2023,QB,0.9938,QB,70.63931,80.25465146898107,80.25465146898107,Elite Power 4,All-Conference/All-American honors.,First round NFL Draft talent
+202300075,Christopher Vizzina,2023,QB,0.9621,QB,64.68302,72.66050108509438,72.66050108509438,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202300084,Jaden Rashada,2023,QB,0.9591,QB,55.579723,58.7631715507006,58.7631715507006,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202300086,Eli Holstein,2023,QB,0.958,QB,46.541332,40.24932469845555,40.24932469845555,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202300104,Avery Johnson,2023,QB,0.9502,QB,69.212296,79.04175639663245,79.04175639663245,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202300126,Austin Novosad,2023,QB,0.9441,QB,66.696495,75.11830252000793,75.11830252000793,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202300128,JJ Kohl,2023,QB,0.9435,QB,55.71033,58.9694258021662,58.9694258021662,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202300154,Dylan Lonergan,2023,QB,0.9359,QB,63.03871,70.27966444220597,70.27966444220597,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202300168,Aidan Chiles,2023,QB,0.9323,QB,50.758717,49.2486345867041,49.2486345867041,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202300170,Kenny Minchey,2023,QB,0.9315,QB,52.44724,52.49927478810816,52.49927478810816,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202300194,Lincoln Kienholz,2023,QB,0.9252,QB,59.946594,65.62881323822644,65.62881323822644,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202300230,Austin Mack,2023,QB,0.9167,QB,52.991013,53.562840709998206,53.562840709998206,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202300231,Rickie Collins,2023,QB,0.9167,QB,49.25128,45.73501495176047,45.73501495176047,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202300256,LaNorris Sellers,2023,QB,0.9127,QB,49.797676,46.75377530195647,46.75377530195647,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202300292,Austin Simmons,2023,QB,0.9059,QB,64.27569,72.22823485860602,72.22823485860602,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202300296,Marcel Reed,2023,QB,0.9055,QB,52.78214,53.06731084738719,53.06731084738719,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202300311,Sam Leavitt,2023,QB,0.9026,QB,37.115288,20.639835943785137,20.639835943785137,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202300324,Brady Drogosh,2023,QB,0.9015,QB,48.566532,44.54048616036114,44.54048616036114,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202300351,Pierce Clarkson,2023,QB,0.8983,QB,58.11877,63.12869676407226,63.12869676407226,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202300355,Brayden Dorman,2023,QB,0.8979,QB,50.767982,49.261069331872555,49.261069331872555,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202300357,Gabarri Johnson,2023,QB,0.8978,QB,51.827404,51.049687594139066,51.049687594139066,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202300389,Malachi Singleton,2023,QB,0.895,QB,54.78633,57.102860132532506,57.102860132532506,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202300402,Tad Hudson,2023,QB,0.8939,QB,54.85596,57.390385127251776,57.390385127251776,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202300404,Chris Parson,2023,QB,0.8935,QB,50.637615,49.08611774021675,49.08611774021675,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202300464,Myles Jackson,2023,QB,0.8892,QB,52.08827,51.60055093677575,51.60055093677575,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202300484,Zane Flores,2023,QB,0.8878,QB,51.83178,51.05847308413403,51.05847308413403,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202300486,Brock Glenn,2023,QB,0.8878,QB,45.170094,37.16722387873671,37.16722387873671,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202300511,Luke Duncan,2023,QB,0.8858,QB,49.52777,46.396843710026886,46.396843710026886,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202300517,Marcus Stokes,2023,QB,0.8853,QB,60.451477,66.49988905926237,66.49988905926237,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202300632,Emory Williams,2023,QB,0.8789,QB,58.009304,63.03068904932431,63.03068904932431,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202300633,Israel Carter,2023,QB,0.8786,QB,56.16797,59.611604530594526,59.611604530594526,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202300734,Jaxon Smolik,2023,QB,0.8744,QB,52.968334,53.52193565233611,53.52193565233611,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202300743,Ryan Staub,2023,QB,0.8744,QB,54.15299,55.61902986972391,55.61902986972391,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202300746,Mack Howard,2023,QB,0.8744,QB,60.073986,65.88427886398264,65.88427886398264,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202300753,Jake Strong,2023,QB,0.8739,QB,58.769295,63.84778568680697,63.84778568680697,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202300810,Jacobe Robinson,2023,QB,0.8714,QB,58.908943,64.02376976959974,64.02376976959974,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202300811,William Watson III,2023,QB,0.8714,QB,60.879044,66.87107310738658,66.87107310738658,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202300820,Javance Tupou'ata-Johnson,2023,QB,0.8714,QB,55.729557,58.99838235633957,58.99838235633957,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202300840,CJ Tiller,2023,QB,0.8703,QB,54.52851,56.543984557746526,56.543984557746526,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202300856,Cal Swanson,2023,QB,0.8694,QB,46.908325,40.94658490407492,40.94658490407492,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202300861,Marco Lainez III,2023,QB,0.8689,QB,49.261734,45.765296692403844,45.765296692403844,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202300880,Grayson Loftis,2023,QB,0.8681,QB,48.78037,45.10632647913562,45.10632647913562,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202300939,Bo Edmundson,2023,QB,0.8661,QB,54.397423,56.31804387158984,56.31804387158984,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202300971,Reese Mooney,2023,QB,0.8653,QB,49.119152,45.554807136900884,45.554807136900884,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202301035,Ryan Browne,2023,QB,0.8633,QB,51.962147,51.32023779257166,51.32023779257166,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202301037,Aidan Gray,2023,QB,0.8631,QB,58.066143,63.08157819588636,63.08157819588636,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202301047,Cole LaCrue,2023,QB,0.8628,QB,47.117737,41.36088491615933,41.36088491615933,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202301055,Lex Thomas,2023,QB,0.8625,QB,57.989048,63.012553387026024,63.012553387026024,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202301116,Broc Lowry,2023,QB,0.86,QB,55.85289,59.1841352041529,59.1841352041529,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202301141,Robert Long,2023,QB,0.8592,QB,60.17682,66.07596114342559,66.07596114342559,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202301143,Sean Boyle,2023,QB,0.8592,QB,55.9208,59.286413890143834,59.286413890143834,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202301160,Ajani Sheppard,2023,QB,0.8586,QB,43.816208,34.08746703593849,34.08746703593849,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202301186,Charlie Gilliam,2023,QB,0.8581,QB,48.954697,45.38058014083399,45.38058014083399,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202301209,Drew Viotto,2023,QB,0.8572,QB,46.15226,39.54772652638588,39.54772652638588,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202301234,Jax Leatherwood,2023,QB,0.8561,QB,51.719448,50.832922670985155,50.832922670985155,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202301259,Colin Houck,2023,QB,0.8552,QB,50.3452,48.029166528117386,48.029166528117386,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202301280,Dylan Wittke,2023,QB,0.8547,QB,53.16456,53.7012583349783,53.7012583349783,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202301329,Gio Lopez,2023,QB,0.8525,QB,43.856518,34.13988513558217,34.13988513558217,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202301373,Keyone Jenkins,2023,QB,0.8508,QB,59.607952,65.00196263743547,65.00196263743547,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202301386,Braylen Ragland,2023,QB,0.8506,QB,37.807964,21.541230049018946,21.541230049018946,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202301387,Ethan Crawford,2023,QB,0.8506,QB,52.357037,52.32695351922408,52.32695351922408,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202301396,Raheim Jeter,2023,QB,0.85,QB,45.043205,36.99358880306477,36.99358880306477,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202301402,Roch Cholowsky,2023,QB,0.85,QB,55.59053,58.78025844866497,58.78025844866497,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202301429,Vic Sutton,2023,QB,0.8497,QB,58.908104,64.02283174241386,64.02283174241386,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202301434,Jaxon Potter,2023,QB,0.8494,QB,48.60593,44.590021612649245,44.590021612649245,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202301452,Hank Brown,2023,QB,0.8489,QB,35.684742,18.502271654433645,18.502271654433645,Minimal D1 Impact,Roster filler; medical DQ; or transferred to lower levels.,nan
+202301465,Anthony Colandrea,2023,QB,0.8483,QB,56.189312,59.635207722786916,59.635207722786916,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202301477,Jackson Gilkey,2023,QB,0.8478,QB,44.16315,34.58716169467128,34.58716169467128,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202301499,Kasen Weisman,2023,QB,0.8475,QB,46.839474,40.81521143738732,40.81521143738732,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202301523,Caleb McMickle,2023,QB,0.8469,QB,49.70808,46.65121679575011,46.65121679575011,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202301539,Ryder Burton,2023,QB,0.8464,QB,50.296448,47.93536058505808,47.93536058505808,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202301553,Keldric Luster,2023,QB,0.8453,QB,40.17942,28.80576760789873,28.80576760789873,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202301558,Kaden Anderson,2023,QB,0.8452,QB,51.7106,50.815160202547204,50.815160202547204,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202301583,Jayden Mandal,2023,QB,0.8444,QB,51.87552,51.146297345932005,51.146297345932005,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202301588,Carson Black,2023,QB,0.8442,QB,46.130577,39.50154462290615,39.50154462290615,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202301593,Brennan Storer,2023,QB,0.8439,QB,40.93033,29.620660775268483,29.620660775268483,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202301607,Jackson Brousseau,2023,QB,0.8436,QB,49.56823,46.46546746233678,46.46546746233678,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202301610,McCae Hillstead,2023,QB,0.8433,QB,56.046677,59.4759988851067,59.4759988851067,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202301621,Ty Dieffenbach,2023,QB,0.8431,QB,48.306374,44.070348831275865,44.070348831275865,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202301628,Tyler Douglas,2023,QB,0.8428,QB,47.173733,41.473933284316914,41.473933284316914,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202301642,PJ Hatter,2023,QB,0.8417,QB,55.456215,58.56789357844762,58.56789357844762,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202301650,Blake Baker,2023,QB,0.8417,QB,48.912468,45.32150287046155,45.32150287046155,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202301694,Devon Dampier,2023,QB,0.8392,QB,53.14637,53.68882518625577,53.68882518625577,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202301706,Earl Woods III,2023,QB,0.8385,QB,49.37402,46.09060436971686,46.09060436971686,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202301708,Sam Van Dyne,2023,QB,0.8385,QB,54.553616,56.58363971508111,56.58363971508111,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202301718,Carson Conklin,2023,QB,0.8378,QB,49.12028,45.55586359106561,45.55586359106561,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202301756,Kadin Semonza,2023,QB,0.8364,QB,51.211678,49.94465463076055,49.94465463076055,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202301769,Chase Jenkins,2023,QB,0.8353,QB,45.404392,37.484721510478536,37.484721510478536,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202301770,Mason Shorb,2023,QB,0.8353,QB,50.867996,49.39528676654796,49.39528676654796,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202301782,Robert Jones III,2023,QB,0.835,QB,52.37417,52.35968187998524,52.35968187998524,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202301792,Evan Tomich,2023,QB,0.8344,QB,47.19079,41.5083660967723,41.5083660967723,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202301794,Ahmad Haston,2023,QB,0.8344,QB,45.463913,37.59174108437901,37.59174108437901,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202301802,Evan Bullock,2023,QB,0.8344,QB,46.89213,40.91568677309321,40.91568677309321,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202301821,RJ Johnson III,2023,QB,0.8336,QB,44.939335,36.71957918566503,36.71957918566503,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202301822,Luke Rucker,2023,QB,0.8336,QB,45.463913,37.59174108437901,37.59174108437901,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202301840,Woods Ray,2023,QB,0.8317,QB,44.54083,35.56392037563181,35.56392037563181,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202301851,John-Keawe Sagapolutele,2023,QB,0.8311,QB,52.079414,51.567221752226644,51.567221752226644,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202301859,Colton Joseph,2023,QB,0.8306,QB,45.29268,37.333338929144126,37.333338929144126,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202301880,Coby Walton,2023,QB,0.8304,QB,42.158073,31.416854585839367,31.416854585839367,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202301881,Braxton Woodson,2023,QB,0.8304,QB,45.72266,38.257076000459584,38.257076000459584,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202301895,Xavier Rice,2023,QB,0.83,QB,44.23649,34.72006110658586,34.72006110658586,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202301927,Colbey Lamberth,2023,QB,0.8278,QB,38.64595,22.63171830097827,22.63171830097827,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202301929,Jalen Woods,2023,QB,0.8278,QB,46.841187,40.81847957892107,40.81847957892107,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202301951,Mason Kidd,2023,QB,0.8269,QB,43.86058,34.14516811808625,34.14516811808625,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202301962,Dru DeShields,2023,QB,0.8263,QB,53.06332,53.6320546156102,53.6320546156102,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202301968,JD Sherrod,2023,QB,0.8256,QB,35.117622,17.598781252102096,17.598781252102096,Minimal D1 Impact,Roster filler; medical DQ; or transferred to lower levels.,nan
+202301983,Daniel Andrade,2023,QB,0.825,QB,49.48411,46.3227913957532,46.3227913957532,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202301999,Blake Murphy,2023,QB,0.8244,QB,54.690723,56.82182660545392,56.82182660545392,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202302000,Jacob Jones,2023,QB,0.8244,QB,49.740963,46.68885695087843,46.68885695087843,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202302002,Ryan Damron,2023,QB,0.8244,QB,46.73086,40.60797195910435,40.60797195910435,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202302014,Aidan Warner,2023,QB,0.8237,QB,46.361,39.95079525456252,39.95079525456252,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202302034,Jacob Winters,2023,QB,0.8219,QB,51.429348,50.35187759621823,50.35187759621823,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202302035,Mason McHugh,2023,QB,0.8219,QB,45.592293,37.89322000270199,37.89322000270199,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202302069,Bryson Harrison,2023,QB,0.8204,QB,47.741104,43.013237221616436,43.013237221616436,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202302075,Deljay Bailey,2023,QB,0.82,QB,51.683987,50.76375759744868,50.76375759744868,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202302097,Parker Leise,2023,QB,0.8178,QB,44.52925,35.52724031699933,35.52724031699933,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202302098,Seth Mouser,2023,QB,0.8178,QB,47.690456,42.904946079661244,42.904946079661244,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202302099,Marquis Roby Jr.,2023,QB,0.8178,QB,46.840252,40.81669629456524,40.81669629456524,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202302100,Harris Boyd,2023,QB,0.8178,QB,50.477646,48.28401334681997,48.28401334681997,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202302101,Indiana Wijay,2023,QB,0.8178,QB,43.708416,33.94729686071075,33.94729686071075,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202302131,Taron Dickens,2023,QB,0.8156,QB,52.817375,53.19107822504322,53.19107822504322,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202302137,Blake Boda,2023,QB,0.8156,QB,48.995773,45.438045727768994,45.438045727768994,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202302151,Kenyon Nelson,2023,QB,0.8144,QB,46.400974,40.01567389223786,40.01567389223786,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202302174,Collin Hurst,2023,QB,0.8117,QB,44.232838,34.71344551557404,34.71344551557404,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202302180,Christian Abney,2023,QB,0.8106,QB,40.057438,28.67692217513843,28.67692217513843,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202302194,Dylan Gutierrez,2023,QB,0.81,QB,52.85671,53.32059607331034,53.32059607331034,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202302201,Brooks Bentley,2023,QB,0.81,QB,49.53813,46.4144169809371,46.4144169809371,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202302215,Will Prichard,2023,QB,0.8078,QB,42.914543,32.42004786260624,32.42004786260624,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202302287,Austin Gonzalez,2023,QB,0.7942,QB,43.97525,34.29428215946876,34.29428215946876,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202302289,Darian Mensah,2023,QB,0.7933,QB,44.62324,35.825019547525066,35.825019547525066,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202302303,Christian Hunt,2023,QB,0.7883,QB,52.19496,52.002181252438774,52.002181252438774,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202400006,Julian Sayin,2024,QB,0.9966,QB,71.87517,81.78865252854239,81.78865252854239,Elite Power 4,All-Conference/All-American honors.,First round NFL Draft talent
+202400007,DJ Lagway,2024,QB,0.9964,QB,69.57237,79.30658658322297,79.30658658322297,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202400021,Dylan Raiola,2024,QB,0.9926,QB,68.90006,78.81211457558369,78.81211457558369,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202400056,Air Noland,2024,QB,0.9743,QB,61.86457,68.22659315896422,68.22659315896422,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202400059,Luke Kromenhoek,2024,QB,0.9718,QB,60.383255,66.43971368834856,66.43971368834856,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202400068,CJ Carr,2024,QB,0.9685,QB,62.612347,69.58049497424042,69.58049497424042,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202400105,Ethan Grunkemeyer,2024,QB,0.9505,QB,66.059975,74.54270571506639,74.54270571506639,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202400107,Walker White,2024,QB,0.9497,QB,62.54239,69.48353879368561,69.48353879368561,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202400112,Jadyn Davis,2024,QB,0.9492,QB,75.56946,85.40229340001282,85.40229340001282,Elite Power 4,All-Conference/All-American honors.,First round NFL Draft talent
+202400114,Ryan Puglisi,2024,QB,0.9487,QB,63.73785,71.31055101232313,71.31055101232313,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202400160,Jake Merklinger,2024,QB,0.9306,QB,54.31866,56.10268240767619,56.10268240767619,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202400205,Demond Williams Jr.,2024,QB,0.9208,QB,58.746468,63.816732661498726,63.816732661498726,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202400226,Will Hammond,2024,QB,0.9173,QB,60.362797,66.4216684795468,66.4216684795468,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202400234,Tyler Cherry,2024,QB,0.9158,QB,51.76083,50.91601333834818,50.91601333834818,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202400239,Michael Van Buren Jr.,2024,QB,0.9148,QB,58.283783,63.2764358119135,63.2764358119135,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202400247,Elijah Brown,2024,QB,0.9133,QB,59.2873,64.49531440017311,64.49531440017311,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202400279,Dermaricus Davis,2024,QB,0.9092,QB,53.442448,53.891215882165746,53.891215882165746,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202400280,Isaac Wilson,2024,QB,0.9091,QB,60.6934,66.71327878460251,66.71327878460251,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202400295,Hauss Hejny,2024,QB,0.9075,QB,53.065514,53.63355399910757,53.63355399910757,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202400297,Michael Hawkins Jr.,2024,QB,0.9073,QB,53.562298,54.10091103662006,54.10091103662006,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202400299,Trey Owens,2024,QB,0.9069,QB,55.796757,59.09959240759316,59.09959240759316,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202400308,Miles O'Neill,2024,QB,0.9057,QB,53.38765,53.85375737096628,53.85375737096628,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202400337,AJ Maddox,2024,QB,0.9021,QB,61.08026,67.04037545034019,67.04037545034019,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202400344,Cutter Boley,2024,QB,0.9014,QB,50.424908,48.1825370430019,48.1825370430019,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202400360,Colin Hurley,2024,QB,0.9,QB,61.294483,67.22061947235517,67.22061947235517,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202400393,Trever Jackson,2024,QB,0.8972,QB,61.233433,67.16925231726627,67.16925231726627,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202400404,Marcos Davila,2024,QB,0.8958,QB,49.99081,47.02384974637742,47.02384974637742,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202400421,AJ Surace,2024,QB,0.8949,QB,55.807854,59.1163056250714,59.1163056250714,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202400436,CJ Bailey,2024,QB,0.8933,QB,54.33623,56.15072594440241,56.15072594440241,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202400459,KJ Jackson,2024,QB,0.8917,QB,50.51467,48.35525595114967,48.35525595114967,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202400464,Mabrey Mettauer,2024,QB,0.8911,QB,55.69723,58.948962163088424,58.948962163088424,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202400474,Samaj Jones,2024,QB,0.8906,QB,48.896996,45.299857214758696,45.299857214758696,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202400518,Dante Reno,2024,QB,0.8875,QB,53.823654,54.66197452097543,54.66197452097543,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202400523,Luke Moga,2024,QB,0.8875,QB,53.26791,53.77190667775081,53.77190667775081,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202400575,Blake Barnett,2024,QB,0.8842,QB,48.29313,44.03197573916797,44.03197573916797,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202400606,Isaiah Marshall,2024,QB,0.8828,QB,49.48695,46.327605281451724,46.327605281451724,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202400624,EJ Colson,2024,QB,0.8819,QB,53.156326,53.69563108352209,53.69563108352209,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202400636,Deuce Adams,2024,QB,0.8811,QB,62.477448,69.39353486665767,69.39353486665767,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202400651,Jeremy Hecklinski,2024,QB,0.8803,QB,58.608425,63.628945925731756,63.628945925731756,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202400652,Aidan Glover,2024,QB,0.8803,QB,44.43435,35.22657260739184,35.22657260739184,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202400663,Jakhari Williams,2024,QB,0.8797,QB,50.247643,47.72071021021594,47.72071021021594,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202400672,Jeremy St-Hilaire,2024,QB,0.8794,QB,43.95995,34.27438540564357,34.27438540564357,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202400684,Graham Knowles,2024,QB,0.8789,QB,51.47309,50.43227131918509,50.43227131918509,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202400687,Danny O'Neil,2024,QB,0.8786,QB,49.522335,46.38762356604786,46.38762356604786,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202400702,Judd Anderson,2024,QB,0.8783,QB,50.204468,47.52557199422329,47.52557199422329,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202400703,Daniel Kaelin,2024,QB,0.8781,QB,50.20434,47.525003027875194,47.525003027875194,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202400704,EJ Caminong,2024,QB,0.8781,QB,46.98215,41.08744981076256,41.08744981076256,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202400705,Josh Flowers,2024,QB,0.8778,QB,49.61842,46.548584057219244,46.548584057219244,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202400769,Davi Belfort,2024,QB,0.875,QB,59.991142,65.72562902379565,65.72562902379565,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202400789,Trey Petty,2024,QB,0.8744,QB,66.058136,74.54104301783528,74.54104301783528,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202400820,Riley Trujillo,2024,QB,0.8736,QB,58.437206,63.41379893846243,63.41379893846243,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202400835,Alessio Milivojevic,2024,QB,0.8731,QB,55.53884,58.698533257201035,58.698533257201035,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202400840,Brendan Zurbrugg,2024,QB,0.8731,QB,49.496483,46.34377450236653,46.34377450236653,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202400843,Aaron Philo,2024,QB,0.8728,QB,56.33911,59.80086880486073,59.80086880486073,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202400878,Drake Lindsey,2024,QB,0.8717,QB,54.41161,56.356835428924796,56.356835428924796,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202400901,Jayden Bradford,2024,QB,0.8706,QB,62.431335,69.32962700305842,69.32962700305842,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202400918,Tim Carpenter,2024,QB,0.87,QB,61.54537,67.52465825174318,67.52465825174318,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202401025,Whit Muschamp,2024,QB,0.8669,QB,42.40851,31.780172128778837,31.780172128778837,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202401048,Michael Merdinger,2024,QB,0.8661,QB,54.365414,56.23052035516133,56.23052035516133,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202401054,Tyler Aronson,2024,QB,0.8658,QB,52.902264,53.40276397887817,53.40276397887817,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202401065,Connor Moberly,2024,QB,0.8656,QB,48.771023,45.071374364909374,45.071374364909374,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202401176,Darius Curry,2024,QB,0.8617,QB,54.304657,56.064391521153844,56.064391521153844,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202401190,Evans Chuba,2024,QB,0.8614,QB,52.559536,52.64141398523527,52.64141398523527,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202401209,Khalil Wilkins,2024,QB,0.8608,QB,41.653416,30.704402473929154,30.704402473929154,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202401224,Jared Hollins,2024,QB,0.86,QB,47.72777,42.984730967106124,42.984730967106124,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202401253,DJ Moore,2024,QB,0.8597,QB,56.911236,60.620371253092955,60.620371253092955,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202401262,Enoch Watson,2024,QB,0.8597,QB,57.67393,62.09806125127246,62.09806125127246,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202401277,Arrington Maiden,2024,QB,0.8592,QB,60.53183,66.57076436752274,66.57076436752274,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202401304,Henry Hasselbeck,2024,QB,0.8583,QB,53.471848,53.911312836277425,53.911312836277425,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202401326,Bryce Clavon,2024,QB,0.8578,QB,53.113796,53.66655868941399,53.66655868941399,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202401332,Cole Welliver,2024,QB,0.8575,QB,56.9472,60.71599244437698,60.71599244437698,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202401360,Kellen Tasby,2024,QB,0.8569,QB,57.273605,61.40161953136096,61.40161953136096,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202401378,Johnathan Montague Jr.,2024,QB,0.8567,QB,55.410427,58.49335502245356,58.49335502245356,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202401408,Adrian Posse,2024,QB,0.8556,QB,50.678753,49.14132411810749,49.14132411810749,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202401414,Kalieb Osborne,2024,QB,0.8553,QB,49.91098,46.906965885679234,46.906965885679234,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202401439,Noah Lugo,2024,QB,0.855,QB,62.331776,69.11836843934206,69.11836843934206,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202401447,Caleb McCreary,2024,QB,0.8547,QB,56.838,60.514255085854174,60.514255085854174,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202401505,Khristian Martin,2024,QB,0.8531,QB,55.65619,58.88407055165223,58.88407055165223,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202401507,Drew Devillier,2024,QB,0.8528,QB,61.866886,68.23049123965389,68.23049123965389,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202401559,Deshawn Purdie,2024,QB,0.8511,QB,39.60621,26.441738592913097,26.441738592913097,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202401576,Cole Hodge,2024,QB,0.8506,QB,52.370827,52.35329799131305,52.35329799131305,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202401577,Alberto Mendoza,2024,QB,0.8506,QB,53.332233,53.81587642476407,53.81587642476407,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202401619,Roman Gagliano,2024,QB,0.85,QB,49.77889,46.73226976088838,46.73226976088838,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202401644,Van Weber,2024,QB,0.85,QB,50.257416,47.76488268851362,47.76488268851362,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202401678,Bryan Wilson,2024,QB,0.8485,QB,48.015694,43.49086778716848,43.49086778716848,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202401694,Shay Smith,2024,QB,0.8483,QB,53.329018,53.81367819817576,53.81367819817576,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202401701,Ryan Boe,2024,QB,0.8481,QB,52.01246,51.42125943820689,51.42125943820689,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202401726,John White,2024,QB,0.8472,QB,57.397167,61.58246086797827,61.58246086797827,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202401731,Ryland Jessee,2024,QB,0.8469,QB,51.657684,50.72241549943607,50.72241549943607,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202401732,Marcelis Tate,2024,QB,0.8469,QB,51.39281,50.279532831515894,50.279532831515894,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202401740,Micah Alejado,2024,QB,0.8467,QB,47.691147,42.906422369236736,42.906422369236736,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202401781,Nate Bennett,2024,QB,0.845,QB,49.039364,45.480155801395995,45.480155801395995,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202401793,Jake Schakel,2024,QB,0.8444,QB,43.33131,33.104033742816455,33.104033742816455,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202401803,Kaleb Annett,2024,QB,0.8444,QB,45.534668,37.757897588124614,37.757897588124614,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202401826,JC Evans,2024,QB,0.8436,QB,48.109123,43.65698380185486,43.65698380185486,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202401830,Cash McCollum,2024,QB,0.8433,QB,50.03568,47.0895442066217,47.0895442066217,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202401835,Boone Lourd,2024,QB,0.8428,QB,47.92382,43.337651795066854,43.337651795066854,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202401846,JD Davis II,2024,QB,0.8426,QB,48.91658,45.3272558331952,45.3272558331952,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202401862,Asher Weiner,2024,QB,0.8417,QB,45.38821,37.46279339335303,37.46279339335303,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202401895,JacQai Long,2024,QB,0.8411,QB,52.634094,52.72036706968048,52.72036706968048,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202401909,Tucker Parks,2024,QB,0.8404,QB,47.391056,41.95195769823459,41.95195769823459,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202401918,Talon Fisher,2024,QB,0.84,QB,52.027424,51.45130780546953,51.45130780546953,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202401944,Braden Streeter,2024,QB,0.84,QB,42.010303,31.19944408053767,31.19944408053767,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202401953,Abe Fenwick,2024,QB,0.84,QB,50.70011,49.16998699921008,49.16998699921008,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202401964,Colter Ginn,2024,QB,0.84,QB,45.64765,38.02322125255945,38.02322125255945,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202402003,Jace Stuckey,2024,QB,0.8396,QB,43.962803,34.2780958947638,34.2780958947638,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202402024,Gael Ochoa,2024,QB,0.8386,QB,46.07437,39.381832419199206,39.381832419199206,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202402032,Andrew Maushardt,2024,QB,0.8378,QB,47.904453,43.30535327356295,43.30535327356295,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202402065,Eric Handley,2024,QB,0.8367,QB,49.080936,45.5190518739879,45.5190518739879,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202402066,Cody Pagach,2024,QB,0.8367,QB,39.617275,26.528317855408474,26.528317855408474,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202402077,Kamari McClellan,2024,QB,0.8358,QB,50.163506,47.34043379283355,47.34043379283355,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202402089,Kallen Gutridge,2024,QB,0.8356,QB,44.48928,35.40060649348992,35.40060649348992,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202402114,Sam Kaiser,2024,QB,0.8344,QB,54.836452,57.28484951041784,57.28484951041784,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202402129,Anthony Wolter,2024,QB,0.8337,QB,45.13933,37.125538745191186,37.125538745191186,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202402131,Ty McCutcheon,2024,QB,0.8337,QB,50.56315,48.55420083204884,48.55420083204884,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202402177,Damon Wrighster,2024,QB,0.8317,QB,46.790154,40.721104974380836,40.721104974380836,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202402198,Jim Ogle,2024,QB,0.8306,QB,48.77659,45.09218870558533,45.09218870558533,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202402206,Alonzo Contreras,2024,QB,0.8304,QB,52.279423,52.178681146022875,52.178681146022875,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202402216,Clayton Dees,2024,QB,0.8304,QB,49.127014,45.56216305593299,45.56216305593299,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202402218,Chris Dietrich,2024,QB,0.8304,QB,42.826885,32.309205336277444,32.309205336277444,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202402232,Landon O'Connell,2024,QB,0.83,QB,49.469986,46.29883196196067,46.29883196196067,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202402239,Holden Bea,2024,QB,0.83,QB,41.606544,30.64157104935302,30.64157104935302,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202402240,Luke Flowers,2024,QB,0.83,QB,42.273228,31.586278416377155,31.586278416377155,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202402251,Zach Sims,2024,QB,0.83,QB,44.6738,35.9852032368545,35.9852032368545,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202402252,Jack Patterson,2024,QB,0.83,QB,48.768505,45.0619586933219,45.0619586933219,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202402266,Jackson Stevens,2024,QB,0.83,QB,45.70394,38.18546915043213,38.18546915043213,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202402282,Raheem Vance,2024,QB,0.83,QB,59.625957,65.03227936067144,65.03227936067144,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202402312,Thomas Gotkowski,2024,QB,0.8294,QB,42.644066,32.078032174942855,32.078032174942855,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202402323,Daniel Beale,2024,QB,0.8283,QB,35.740818,18.591607612744998,18.591607612744998,Minimal D1 Impact,Roster filler; medical DQ; or transferred to lower levels.,nan
+202402344,AJ Hairston,2024,QB,0.8269,QB,45.38235,37.45485336791579,37.45485336791579,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202402350,Jack Stanton,2024,QB,0.8267,QB,47.22449,41.57640767539974,41.57640767539974,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202402386,Dylan Mills,2024,QB,0.825,QB,46.798058,40.73618646493304,40.73618646493304,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202402394,Alex Erby,2024,QB,0.8244,QB,46.776905,40.69582600879792,40.69582600879792,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202402399,Matthew Wilson,2024,QB,0.8244,QB,54.819775,57.201165240935254,57.201165240935254,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202402428,Jadyn Glasser,2024,QB,0.823,QB,45.982044,39.18518558423794,39.18518558423794,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202402429,Brayden Roggow,2024,QB,0.823,QB,46.44063,40.08003865197379,40.08003865197379,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202402439,Tyler Budge,2024,QB,0.8226,QB,48.74382,44.96964231325741,44.96964231325741,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202402449,Mason Reynolds,2024,QB,0.8219,QB,44.265392,34.7724397200619,34.7724397200619,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202402496,Cru Newman,2024,QB,0.82,QB,46.525246,40.21889262727556,40.21889262727556,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202402508,Caleb Sanchez,2024,QB,0.82,QB,44.0582,34.40214925294391,34.40214925294391,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202402513,Anthony Rezac,2024,QB,0.82,QB,43.631702,33.847540261502424,33.847540261502424,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202402543,Karson Siqueiros-Lasky,2024,QB,0.82,QB,44.4402,35.2451120505359,35.2451120505359,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202402547,Trey Hedden,2024,QB,0.82,QB,42.400772,31.770389777789028,31.770389777789028,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202402552,Neko Fann,2024,QB,0.82,QB,46.799633,40.73919257284716,40.73919257284716,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202402566,Brad Jackson,2024,QB,0.8196,QB,48.87004,45.26214809168266,45.26214809168266,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202402579,Quinn Henicle,2024,QB,0.8189,QB,44.607304,35.77452554918355,35.77452554918355,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202402629,Rodney Tisdale Jr.,2024,QB,0.8156,QB,48.324646,44.12328866745006,44.12328866745006,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202402650,Brady McDonough,2024,QB,0.8144,QB,50.1384,47.23994553509118,47.23994553509118,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202402667,Logan Borodychuk,2024,QB,0.8137,QB,43.00036,32.52856056865491,32.52856056865491,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202402679,DJ Bailey,2024,QB,0.8122,QB,41.496807,30.49446666335304,30.49446666335304,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202402684,Malachi Marshall,2024,QB,0.8106,QB,42.79441,32.26814165088482,32.26814165088482,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202402713,Micah Balzarini,2024,QB,0.81,QB,46.716805,40.58127747109216,40.58127747109216,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202402722,John Koett,2024,QB,0.81,QB,48.421795,44.358507642669885,44.358507642669885,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202402755,Edward Ma,2024,QB,0.81,QB,46.264355,39.7864765675104,39.7864765675104,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202402769,Caden Pinnick,2024,QB,0.81,QB,50.925312,49.47917578395055,49.47917578395055,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202402825,JP Pickles,2024,QB,0.8044,QB,47.347244,41.8499621793588,41.8499621793588,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202402843,Luke Marble,2024,QB,0.8022,QB,45.501373,37.67971050786304,37.67971050786304,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202402849,Jack Stevens,2024,QB,0.8,QB,42.649094,32.08438973835734,32.08438973835734,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202402860,Davis Harsin,2024,QB,0.8,QB,42.628387,32.058206996161736,32.058206996161736,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202402866,Luke Baker,2024,QB,0.8,QB,48.777878,45.09701067073164,45.09701067073164,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202402867,Jack Johnson,2024,QB,0.8,QB,48.23981,43.89055270728321,43.89055270728321,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202402870,Christopher Cooper,2024,QB,0.8,QB,43.887875,34.18066083152909,34.18066083152909,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202402873,Noah Trigueros,2024,QB,0.8,QB,49.858047,46.82946407218241,46.82946407218241,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202402879,Max Ruff,2024,QB,0.8,QB,45.650047,38.02884699573134,38.02884699573134,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202402882,Dominic Ingrassia,2024,QB,0.8,QB,44.24528,34.735995210329065,34.735995210329065,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202402885,Jack Stupin,2024,QB,0.8,QB,45.80945,38.58907670251272,38.58907670251272,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202402893,Daveon Superales,2024,QB,0.8,QB,43.628567,33.84346269190773,33.84346269190773,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202402899,Tyler Wentworth,2024,QB,0.8,QB,46.498333,40.17368826295547,40.17368826295547,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202402908,Brady Shaffer,2024,QB,0.8,QB,41.432873,30.401855023222247,30.401855023222247,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202402909,Lance Reynolds,2024,QB,0.8,QB,43.682644,33.91378340550183,33.91378340550183,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202402923,Tyson Line,2024,QB,0.8,QB,45.285007,37.32294349219472,37.32294349219472,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202402932,DaOne Owens,2024,QB,0.8,QB,43.63276,33.848914333008175,33.848914333008175,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202402939,Jonny Sorensen,2024,QB,0.8,QB,42.404194,31.774716586880675,31.774716586880675,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202402944,Tyler Soles,2024,QB,0.8,QB,46.039345,39.30722963282503,39.30722963282503,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202402992,Bradyn Fleharty,2024,QB,0.79,QB,51.986702,51.36954223816677,51.36954223816677,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202402993,DJ Gordon,2024,QB,0.79,QB,46.227005,39.7069257200491,39.7069257200491,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202402997,Mikal Davis,2024,QB,0.79,QB,36.90165,20.361824062203286,20.361824062203286,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202403015,Jackson King,2024,QB,0.79,QB,52.824535,53.216228313585,53.216228313585,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202403025,Mason Dethman,2024,QB,0.79,QB,50.046658,47.10561873957384,47.10561873957384,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202403029,Elijah Leonard,2024,QB,0.79,QB,51.197765,49.9220407508059,49.9220407508059,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202403055,CJ Ceron,2024,QB,0.79,QB,48.635307,44.62695737156391,44.62695737156391,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202403057,Haden Klees,2024,QB,0.79,QB,50.741947,49.226130206399226,49.226130206399226,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202403060,Nicholas Mayfield,2024,QB,0.79,QB,49.890873,46.877525696940275,46.877525696940275,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202403086,Blake Springer,2024,QB,0.78,QB,35.928577,18.890731141186137,18.890731141186137,Minimal D1 Impact,Roster filler; medical DQ; or transferred to lower levels.,nan
+202403091,Kasen Covert,2024,QB,0.78,QB,37.798466,21.528869332192667,21.528869332192667,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202403094,Quinn Boyd,2024,QB,0.78,QB,43.24613,32.86784399002722,32.86784399002722,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202403098,Chase Spellman,2024,QB,0.78,QB,41.345345,30.26579431212455,30.26579431212455,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202403103,Navi Bruzon,2024,QB,0.78,QB,48.22414,43.86254543726658,43.86254543726658,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202403114,Giordan Hanks,2024,QB,0.78,QB,46.234894,39.72372800301815,39.72372800301815,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202403181,Brody Fortunati,2024,QB,0.78,QB,45.85566,38.765853833393635,38.765853833393635,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202403219,Sully Bailey,2024,QB,0.78,QB,39.682373,27.03761641262448,27.03761641262448,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202403231,Dylan Dunn,2024,QB,0.78,QB,48.692635,44.7782188566502,44.7782188566502,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202403252,Cale McThenia,2024,QB,0.77,QB,41.806473,30.90957747582289,30.90957747582289,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202403253,Tyrese Smith,2024,QB,0.77,QB,42.610424,32.035492454341714,32.035492454341714,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202403295,Samson Hunkin,2024,QB,0.77,QB,44.355976,34.97827217753872,34.97827217753872,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202403313,Athan Palmateer,2024,QB,0.77,QB,35.0222,17.446764268346982,17.446764268346982,Minimal D1 Impact,Roster filler; medical DQ; or transferred to lower levels.,nan
+202403339,Jeremiah Finaly,2024,QB,0.77,QB,40.500645,29.145064207218454,29.145064207218454,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202403347,Bryson Luter,2024,QB,0.77,QB,44.73057,36.165062423862246,36.165062423862246,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202403368,Antwon McKay,2024,QB,0.77,QB,54.33586,56.149714172135276,56.149714172135276,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202403371,Bishop Williams,2024,QB,0.77,QB,43.084564,32.63503769673628,32.63503769673628,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202403374,Jackson Blake,2024,QB,0.77,QB,49.219357,45.64856030581666,45.64856030581666,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202403387,Drew Hottinger,2024,QB,0.77,QB,40.625427,29.27686715780864,29.27686715780864,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202403411,Jett Hilding,2024,QB,0.77,QB,49.626663,46.55802029564527,46.55802029564527,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202403423,Damian Aalona,2024,QB,0.76,QB,37.176483,20.719470730663506,20.719470730663506,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202403428,DJ Duran,2024,QB,0.76,QB,42.310516,31.641140374952265,31.641140374952265,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202403437,Connor Wolf,2024,QB,0.76,QB,46.298195,39.848861683545564,39.848861683545564,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202403445,Robert Battle,2024,QB,0.76,QB,43.89563,34.19074562348287,34.19074562348287,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202403450,Reqez Nance,2024,QB,0.76,QB,48.543163,44.51110446199583,44.51110446199583,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202403490,Kyrin Fuimaono,2024,QB,0.75,QB,34.453625,16.540952346554555,16.540952346554555,Minimal D1 Impact,Roster filler; medical DQ; or transferred to lower levels.,nan
+202403499,Rex Larson,2024,QB,0.75,QB,39.95309,28.566704269527353,28.566704269527353,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202403504,Jamison Kizziar,2024,QB,0.75,QB,32.897766,14.062280603635527,14.062280603635527,Minimal D1 Impact,Roster filler; medical DQ; or transferred to lower levels.,nan
+202403509,CJ Lee,2024,QB,0.75,QB,43.29259,32.99666995622455,32.99666995622455,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202403517,Milos Spasojevic,2024,QB,0.75,QB,38.905483,23.273920870371736,23.273920870371736,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202403520,Poochie Snyder,2024,QB,0.75,QB,49.070637,45.509415298836664,45.509415298836664,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202403521,Andrew Schuster,2024,QB,0.75,QB,38.62453,22.60384463632785,22.60384463632785,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202403524,Nacari McFarland,2024,QB,0.75,QB,54.855576,57.38830082977422,57.38830082977422,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202403549,Zak Olejniczak,2024,QB,0.75,QB,48.53215,44.497257749103134,44.497257749103134,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202403552,William Reid,2024,QB,0.75,QB,41.38652,30.329801255492978,30.329801255492978,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202403556,Drew Hymas,2024,QB,0.75,QB,39.590775,26.320987232673076,26.320987232673076,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202403569,Steven Warren,2024,QB,0.74,QB,38.53864,22.492071985701163,22.492071985701163,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202403570,Gunnar Trachte,2024,QB,0.74,QB,40.064415,28.684291793818062,28.684291793818062,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202403571,Lucas Razore,2024,QB,0.74,QB,39.31626,24.790092867643537,24.790092867643537,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202403575,Logan Scarlett,2024,QB,0.74,QB,44.76579,36.26176606237797,36.26176606237797,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202403581,M'Khi Guy,2024,QB,0.74,QB,42.609055,32.03376076597616,32.03376076597616,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202403586,Michael Vanhook,2024,QB,0.74,QB,41.407646,30.36264083788823,30.36264083788823,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202403599,Kyler Gerardy,2024,QB,0.74,QB,45.374157,37.44374973859339,37.44374973859339,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202403601,Azariah Atonio,2024,QB,0.74,QB,40.829002,29.491895627167438,29.491895627167438,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202403605,Josh Woodard,2024,QB,0.74,QB,40.080036,28.70079184220138,28.70079184220138,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202403606,Ethan Kastner,2024,QB,0.74,QB,40.0454,28.664205654333117,28.664205654333117,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202403607,Joe Farley,2024,QB,0.74,QB,42.726036,32.181682647363466,32.181682647363466,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202403616,Jacob Hutchinson,2024,QB,0.73,QB,42.69647,32.14429457905873,32.14429457905873,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202403624,Luke D'Anna,2024,QB,0.73,QB,37.30492,20.88660847155664,20.88660847155664,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202403639,Drew Nees,2024,QB,0.73,QB,36.661804,20.04970851612484,20.04970851612484,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202403656,Whit Kruse,2024,QB,0.72,QB,54.621128,56.6902826226191,56.6902826226191,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202403675,Jake Tiryakioglu,2024,QB,0.71,QB,38.77278,22.79676613754054,22.79676613754054,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202403679,Jimmy Hughes,2024,QB,0.71,QB,37.868538,21.620055680538805,21.620055680538805,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202403681,Tristen Rebar,2024,QB,0.71,QB,34.10444,15.984656726422159,15.984656726422159,Minimal D1 Impact,Roster filler; medical DQ; or transferred to lower levels.,nan
+202500001,Bryce Underwood,2025,QB,0.9998,QB,71.01031,80.71514724962438,80.71514724962438,Elite Power 4,All-Conference/All-American honors.,First round NFL Draft talent
+202500002,Keelon Russell,2025,QB,0.9997,QB,77.61205,86.60231234447352,86.60231234447352,Elite Power 4,All-Conference/All-American honors.,First round NFL Draft talent
+202500007,Tavien St. Clair,2025,QB,0.9968,QB,74.93467,85.02935687797373,85.02935687797373,Elite Power 4,All-Conference/All-American honors.,First round NFL Draft talent
+202500025,Husan Longstreet,2025,QB,0.9868,QB,66.58562,75.01803704756138,75.01803704756138,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202500028,Deuce Knight,2025,QB,0.9862,QB,71.96264,81.91128435865772,81.91128435865772,Elite Power 4,All-Conference/All-American honors.,First round NFL Draft talent
+202500050,Julian Lewis,2025,QB,0.9762,QB,63.865135,71.63001851661781,71.63001851661781,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202500067,Jaron-Keawe Sagapolutele,2025,QB,0.9662,QB,63.08235,70.35267927725997,70.35267927725997,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202500086,Bryce Baker,2025,QB,0.9549,QB,66.690605,75.11297636954149,75.11297636954149,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202500093,Matt Zollers,2025,QB,0.9527,QB,67.08437,75.56031660197702,75.56031660197702,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202500099,Malik Washington,2025,QB,0.9503,QB,57.187225,61.28687027557639,61.28687027557639,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202500119,Kamario Taylor,2025,QB,0.9444,QB,65.921684,74.3193574468657,74.3193574468657,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202500132,Ryan Montgomery,2025,QB,0.9408,QB,70.128365,79.7155089463,79.7155089463,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202500151,George MacIntyre,2025,QB,0.9355,QB,47.553776,42.51059338841275,42.51059338841275,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202500156,Karle Lacey Jr.,2025,QB,0.9336,QB,63.861618,71.62119096127991,71.62119096127991,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202500187,AJ Hill,2025,QB,0.9272,QB,53.436428,53.88710105232427,53.88710105232427,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202500190,Akili Smith Jr.,2025,QB,0.9264,QB,51.630577,50.679808255276875,50.679808255276875,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202500195,Brady Hart,2025,QB,0.9254,QB,59.05729,64.18957886598395,64.18957886598395,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202500212,Adam Schobel,2025,QB,0.921,QB,55.788013,59.086424069861934,59.086424069861934,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202500232,Luke Nickel,2025,QB,0.9171,QB,56.789032,60.44329908841464,60.44329908841464,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202500240,TJ Lateef,2025,QB,0.9158,QB,59.924454,65.58069551092352,65.58069551092352,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202500245,Tramell Jones Jr.,2025,QB,0.9146,QB,63.25223,70.63690739347152,70.63690739347152,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202500273,Madden Iamaleava,2025,QB,0.9105,QB,59.31911,64.54481823120518,64.54481823120518,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202500278,Ty Hawkins,2025,QB,0.9091,QB,66.41678,74.86535866696259,74.86535866696259,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202500287,Carter Smith,2025,QB,0.9073,QB,62.806763,69.88016128278619,69.88016128278619,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202500305,Alex Manske,2025,QB,0.9049,QB,48.013374,43.48699985313768,43.48699985313768,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202500386,Blake Hebert,2025,QB,0.8968,QB,54.94565,57.86166722378443,57.86166722378443,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202500421,Kevin Sperry,2025,QB,0.8939,QB,58.314056,63.303540259370976,63.303540259370976,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202500425,Bear Bachmeier,2025,QB,0.8933,QB,52.16796,51.90054231739416,51.90054231739416,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202500456,Jackson Kollock,2025,QB,0.8917,QB,56.06057,59.492833436227315,59.492833436227315,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202500463,Lloyd Jones III,2025,QB,0.8911,QB,55.363506,58.40552983169052,58.40552983169052,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202500505,Tristan Ti'a,2025,QB,0.8885,QB,52.067616,51.532008697001324,51.532008697001324,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202500510,Robert McDaniel,2025,QB,0.8883,QB,53.389633,53.85511333517259,53.85511333517259,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202500512,Grayson Wilson,2025,QB,0.888,QB,51.652447,50.71418305555335,50.71418305555335,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202500546,Dash Beierly,2025,QB,0.8853,QB,56.278152,59.73345521929605,59.73345521929605,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202500617,Chris Denson,2025,QB,0.8814,QB,65.953476,74.37792080541945,74.37792080541945,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202500620,Will Wilson,2025,QB,0.8811,QB,51.68386,50.76355973098974,50.76355973098974,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202500637,Bjorn Jurgensen,2025,QB,0.8803,QB,64.91592,72.94381258862349,72.94381258862349,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202500664,David McComb,2025,QB,0.8794,QB,52.755447,52.97355742728767,52.97355742728767,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202500666,Elijiah Oehlke,2025,QB,0.8794,QB,56.95807,60.7486350504041,60.7486350504041,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202500667,Grady Adamson,2025,QB,0.8794,QB,50.573353,48.65407335480948,48.65407335480948,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202500668,Cutter Woods,2025,QB,0.8794,QB,49.29735,45.868486696924705,45.868486696924705,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202500669,Treston McMillan,2025,QB,0.8794,QB,68.46965,77.59816080593143,77.59816080593143,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202500715,Ethan Houck,2025,QB,0.8778,QB,49.48314,46.32114147525169,46.32114147525169,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202500725,Mason Heintschel,2025,QB,0.8772,QB,55.96424,59.35184191374033,59.35184191374033,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202500731,Mason Mims,2025,QB,0.8769,QB,49.61842,46.548584057219244,46.548584057219244,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202500732,Wyatt Becker,2025,QB,0.8769,QB,56.46478,59.96666842530405,59.96666842530405,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202500736,Stone Saunders,2025,QB,0.8767,QB,61.734737,68.00802449953599,68.00802449953599,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202500773,Hezekiah Millender,2025,QB,0.8753,QB,51.751232,50.89674194093987,50.89674194093987,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202500789,Au'Tori Newkirk,2025,QB,0.875,QB,57.05169,61.02982663942391,61.02982663942391,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202500792,Austin Carlisle,2025,QB,0.8747,QB,49.73977,46.687490202786186,46.687490202786186,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202500806,Dan Mahan,2025,QB,0.8744,QB,56.016525,59.43058765411735,59.43058765411735,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202500816,Bekkem Kritza,2025,QB,0.8744,QB,57.453876,61.68730842306731,61.68730842306731,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202500830,Carson Boyd,2025,QB,0.8736,QB,67.433754,76.08403522781728,76.08403522781728,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202500924,Leo Hannan,2025,QB,0.8706,QB,54.804028,57.15487762972428,57.15487762972428,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202500976,Scotty Fox Jr.,2025,QB,0.8694,QB,56.38393,59.85043339915356,59.85043339915356,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202501013,Byrd Ficklin,2025,QB,0.8683,QB,47.633724,42.78364564559047,42.78364564559047,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202501021,Jamar Malone,2025,QB,0.8683,QB,49.507717,46.362829466589865,46.362829466589865,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202501052,Edward Griffin,2025,QB,0.8672,QB,53.86996,54.76728288999444,54.76728288999444,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202501073,Owen Eshelman,2025,QB,0.8667,QB,47.269745,41.669540676400096,41.669540676400096,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202501075,Brennen Ward,2025,QB,0.8664,QB,57.340122,61.48998213395394,61.48998213395394,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202501081,Shaker Reisig,2025,QB,0.8664,QB,53.624306,54.27150453643543,54.27150453643543,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202501087,Michael Tollefson,2025,QB,0.8664,QB,51.86911,51.133429322225346,51.133429322225346,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202501101,Zebulin Kinsey,2025,QB,0.8658,QB,58.082058,63.095827156923725,63.095827156923725,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202501103,Nolan Keeney,2025,QB,0.8658,QB,48.107468,43.65402490331853,43.65402490331853,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202501106,Kelden Ryan,2025,QB,0.8656,QB,57.428288,61.63999795626136,61.63999795626136,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202501144,Jack Elliott,2025,QB,0.8647,QB,50.980198,49.56839116776947,49.56839116776947,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202501159,Jaylen Patterson,2025,QB,0.8644,QB,52.747684,52.94629028281111,52.94629028281111,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202501175,Sawyer Anderson,2025,QB,0.8639,QB,57.882763,62.64290490052163,62.64290490052163,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202501182,Landyn Locke,2025,QB,0.8639,QB,58.927578,64.04459823688622,64.04459823688622,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202501195,Mason Drube,2025,QB,0.8639,QB,51.37664,50.2475147215166,50.2475147215166,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202501207,Cole Geer,2025,QB,0.8633,QB,55.13051,58.07724442534128,58.07724442534128,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202501228,Chris Jimerson Jr.,2025,QB,0.8631,QB,57.023483,60.94510939514013,60.94510939514013,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202501240,Emile Picarella III,2025,QB,0.8628,QB,50.88214,49.41426907823369,49.41426907823369,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202501253,Locklan Hewlett,2025,QB,0.8622,QB,59.5357,64.88187645381456,64.88187645381456,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202501260,Dillon Duff,2025,QB,0.8622,QB,60.78027,66.78796577504986,66.78796577504986,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202501296,Jack Moran,2025,QB,0.8614,QB,54.75341,57.006091216653,57.006091216653,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202501297,Marcus Romain,2025,QB,0.8614,QB,58.663853,63.704347071742596,63.704347071742596,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202501317,Jimmy Sullivan,2025,QB,0.8606,QB,52.078915,51.56534061341754,51.56534061341754,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202501390,Cade Scott,2025,QB,0.86,QB,55.68834,58.93490301760485,58.93490301760485,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202501401,Charlie Johnston,2025,QB,0.8597,QB,49.23875,45.69871001817891,45.69871001817891,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202501419,Jett Niu,2025,QB,0.8589,QB,48.418304,44.35411909320788,44.35411909320788,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202501421,Ennio Yapoor,2025,QB,0.8589,QB,52.61034,52.69521276643974,52.69521276643974,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202501466,Luke Carney,2025,QB,0.8578,QB,55.671352,58.90804528494146,58.90804528494146,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202501488,Sean Ashenfelder,2025,QB,0.8572,QB,58.6638,63.70427442094809,63.70427442094809,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202501489,JT Kitna,2025,QB,0.8572,QB,58.48593,63.462310949850554,63.462310949850554,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202501490,Luke Haugo,2025,QB,0.8572,QB,55.65224,58.87782807392786,58.87782807392786,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202501501,Colton Gumino,2025,QB,0.8569,QB,58.47858,63.45231108692124,63.45231108692124,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202501519,Eli Morcos,2025,QB,0.8567,QB,63.216026,70.57633188652242,70.57633188652242,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202501576,Ryan Fitzgerald,2025,QB,0.855,QB,53.24566,53.756696410028816,53.756696410028816,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202501605,Rich Belin,2025,QB,0.8542,QB,54.5739,56.61567838269212,56.61567838269212,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202501633,Steele Pizzella,2025,QB,0.8533,QB,53.262203,53.76800567303418,53.76800567303418,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202501635,Carter Jones,2025,QB,0.8533,QB,57.771973,62.29013116179092,62.29013116179092,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202501653,Ksaan Farrar,2025,QB,0.8528,QB,55.390278,58.45564017224133,58.45564017224133,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202501655,JP Mialovski,2025,QB,0.8525,QB,53.23136,53.746923037249445,53.746923037249445,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202501695,Jack James,2025,QB,0.8514,QB,53.596992,54.19636153682435,54.19636153682435,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202501727,Deante Ruffin,2025,QB,0.8506,QB,51.66834,50.73916219700666,50.73916219700666,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202501733,Noah Ehrlich,2025,QB,0.8503,QB,50.39028,48.115911335243744,48.115911335243744,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202501759,Andrew Alford,2025,QB,0.85,QB,49.972816,46.99750382145204,46.99750382145204,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202501762,Deuce Bailey,2025,QB,0.85,QB,57.2716,61.39895400810788,61.39895400810788,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202501877,Ethan Plumb,2025,QB,0.8485,QB,55.836514,59.15947042497309,59.15947042497309,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202501882,Jay Beamon,2025,QB,0.8483,QB,49.893692,46.8816532437963,46.8816532437963,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202501898,Alonzo Esparza,2025,QB,0.8481,QB,49.74544,46.693983347876184,46.693983347876184,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202501929,Chad Warner,2025,QB,0.8469,QB,56.223133,59.67261002877043,59.67261002877043,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202501936,Jax Brown,2025,QB,0.8467,QB,52.155315,51.852939453637035,51.852939453637035,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202501964,Jason Wright,2025,QB,0.8453,QB,50.702534,49.17323774568269,49.17323774568269,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202501970,Kameron Keenan,2025,QB,0.845,QB,46.925232,40.97884415413639,40.97884415413639,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202501979,Melvin Spicer IV,2025,QB,0.845,QB,52.00024,51.3967259382471,51.3967259382471,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202501980,Tama Amisone,2025,QB,0.845,QB,55.6808,58.92298501182383,58.92298501182383,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202501997,Christian Langford,2025,QB,0.8444,QB,47.063168,41.250716859309804,41.250716859309804,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202502033,Denzel Gardner,2025,QB,0.8428,QB,39.080975,23.921655206919677,23.921655206919677,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202502047,Silas Corder,2025,QB,0.8422,QB,55.351414,58.38289520935566,58.38289520935566,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202502058,Jaystin Gwinn,2025,QB,0.8417,QB,54.820473,57.2032172353276,57.2032172353276,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202502059,Tav Shaffer,2025,QB,0.8417,QB,39.45092,25.28711534569202,25.28711534569202,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202502062,Wyatt Horton,2025,QB,0.8417,QB,56.10077,59.5372892788231,59.5372892788231,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202502066,John Gazzaniga,2025,QB,0.8417,QB,41.05656,29.816885878381747,29.816885878381747,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202502086,Ethan Drumm,2025,QB,0.8408,QB,48.774174,45.083158220562794,45.083158220562794,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202502105,Bryson Kimbrough,2025,QB,0.8403,QB,56.46052,59.960317845342615,59.960317845342615,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202502111,Kolton Matson,2025,QB,0.84,QB,42.540943,31.947634593923393,31.947634593923393,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202502123,Noah Gillon,2025,QB,0.84,QB,50.21646,47.57977896993286,47.57977896993286,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202502134,Grant Vigen,2025,QB,0.84,QB,42.689137,32.13502353438299,32.13502353438299,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202502144,John Austin Wood,2025,QB,0.84,QB,46.7662,40.67540194388987,40.67540194388987,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202502148,Conner Nelson,2025,QB,0.84,QB,41.354828,30.280535952036903,30.280535952036903,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202502149,Terrell Russell,2025,QB,0.84,QB,53.243824,53.75544214313798,53.75544214313798,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202502156,Trevor Havill,2025,QB,0.84,QB,47.59433,42.681447012865064,42.681447012865064,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202502186,Axel Eason,2025,QB,0.84,QB,46.53654,40.24026074744724,40.24026074744724,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202502200,Nick Cyrus,2025,QB,0.84,QB,48.16609,43.7587930918155,43.7587930918155,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202502211,Brady Stober,2025,QB,0.84,QB,54.975044,57.895947824593286,57.895947824593286,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202502244,Gavin Markey,2025,QB,0.84,QB,37.063305,20.57218956298527,20.57218956298527,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202502247,Jordan Magwood,2025,QB,0.8397,QB,51.04924,49.68061727506295,49.68061727506295,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202502250,Jackson Bradley,2025,QB,0.8394,QB,41.48797,30.4826183349781,30.4826183349781,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202502251,Dalton Anderson,2025,QB,0.8394,QB,43.248066,32.873206890500335,32.873206890500335,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202502255,Stanley Anderson-Lofton,2025,QB,0.8392,QB,47.323708,41.79516789538285,41.79516789538285,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202502260,Chaston Ditta,2025,QB,0.8389,QB,47.138653,41.403111512154155,41.403111512154155,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202502261,Ryan Huff,2025,QB,0.8386,QB,45.98226,39.18564870325595,39.18564870325595,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202502263,Brayden Turner,2025,QB,0.8386,QB,45.798523,38.54728293473635,38.54728293473635,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202502271,Jackson Hamilton,2025,QB,0.8383,QB,47.392838,41.95610501275919,41.95610501275919,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202502280,Hype Grand,2025,QB,0.8378,QB,50.68283,49.146796634610205,49.146796634610205,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202502286,Bryce Button,2025,QB,0.8378,QB,46.82855,40.79436520720319,40.79436520720319,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202502304,Jackson Kilburg,2025,QB,0.8367,QB,48.14461,43.72040922370605,43.72040922370605,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202502311,Kalen Fisher,2025,QB,0.8367,QB,45.1828,37.18444277504625,37.18444277504625,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202502315,Walter Moses,2025,QB,0.8364,QB,44.400684,35.1199164237241,35.1199164237241,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202502316,Jacob Bell,2025,QB,0.8364,QB,48.22367,43.86170685542334,43.86170685542334,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202502324,TJ Stanley,2025,QB,0.8361,QB,45.435223,37.52649969119715,37.52649969119715,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202502326,Jonathan Craft,2025,QB,0.8361,QB,47.414738,42.007089451058356,42.007089451058356,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202502327,Cibastian Broughton,2025,QB,0.8358,QB,49.616253,46.54610382425952,46.54610382425952,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202502330,Gavin Parkhurst,2025,QB,0.8356,QB,47.039577,41.20309160495416,41.20309160495416,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202502332,Carsen Melvin,2025,QB,0.8356,QB,44.18238,34.622009337608155,34.622009337608155,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202502340,Khalel Wright,2025,QB,0.835,QB,58.68222,63.7293337557097,63.7293337557097,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202502370,Zach Lawrence,2025,QB,0.8342,QB,55.51791,58.665439078192726,58.665439078192726,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202502371,Lawrence Wells,2025,QB,0.8342,QB,49.156624,45.58986642494183,45.58986642494183,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202502397,Garyt Odom,2025,QB,0.8331,QB,50.035545,47.0893487206407,47.0893487206407,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202502398,Sebastian Circo,2025,QB,0.8331,QB,46.2619,39.78125225999149,39.78125225999149,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202502410,Coleman Carter,2025,QB,0.8319,QB,49.29262,45.85478255152405,45.85478255152405,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202502415,Samuel Willoughby,2025,QB,0.8317,QB,40.54669,29.19370207877769,29.19370207877769,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202502416,Tyler Travers,2025,QB,0.8317,QB,37.26922,20.840149054377076,20.840149054377076,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202502420,Tagg Harrison,2025,QB,0.8317,QB,51.40937,50.3123213702059,50.3123213702059,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202502427,Austyn Modrzewski,2025,QB,0.8311,QB,41.17534,30.001524028804447,30.001524028804447,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202502440,Seth Shigg,2025,QB,0.8306,QB,47.462616,42.12653835468715,42.12653835468715,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202502471,River Warren,2025,QB,0.83,QB,41.393276,30.340303043218146,30.340303043218146,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202502485,Chase Herbstreit,2025,QB,0.83,QB,47.42679,42.035143769223666,42.035143769223666,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202502486,Finley Polk,2025,QB,0.83,QB,45.08915,37.05753676952261,37.05753676952261,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202502489,Kade Elam,2025,QB,0.83,QB,48.977303,45.41220542576869,45.41220542576869,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202502490,Brady Atwell,2025,QB,0.83,QB,44.29052,34.817974618698116,34.817974618698116,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202502493,Jevarion Glover,2025,QB,0.83,QB,45.90093,38.93902654365976,38.93902654365976,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202502542,Wells Bettenhausen,2025,QB,0.83,QB,44.06672,34.413226154288125,34.413226154288125,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202502543,Jimmy Butler,2025,QB,0.83,QB,53.045135,53.61962407451115,53.61962407451115,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202502544,Kingston Tisdell,2025,QB,0.83,QB,53.045135,53.61962407451115,53.61962407451115,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202502546,Evan Powell,2025,QB,0.83,QB,45.032124,36.96435534100056,36.96435534100056,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202502559,Savelio Niumata,2025,QB,0.83,QB,41.329533,30.241215029165303,30.241215029165303,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202502598,Patrick Crayton Jr.,2025,QB,0.83,QB,47.412003,42.00072194674543,42.00072194674543,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202502621,Jarret Nielsen,2025,QB,0.8292,QB,51.563248,50.57397967950854,50.57397967950854,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202502632,Camren Boykin,2025,QB,0.8278,QB,39.974472,28.589288584835906,28.589288584835906,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202502639,Nolan Good,2025,QB,0.8272,QB,48.650597,44.64618065707618,44.64618065707618,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202502658,Brady Davidson,2025,QB,0.8267,QB,55.172066,58.125707034374706,58.125707034374706,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202502662,Draiden Trudeau,2025,QB,0.8267,QB,50.17936,47.41208906988475,47.41208906988475,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202502672,Vance Holtz,2025,QB,0.8256,QB,46.77647,40.69499623566908,40.69499623566908,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202502687,Kaleb Bailey,2025,QB,0.825,QB,53.323753,53.81007967778207,53.81007967778207,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202502704,Chanston Crosby,2025,QB,0.8244,QB,41.747982,30.831169871604942,30.831169871604942,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202502770,Tyus Miller,2025,QB,0.82,QB,44.874763,36.54924017968886,36.54924017968886,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202502780,Cason Carswell,2025,QB,0.82,QB,44.110836,34.49235896203167,34.49235896203167,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202502783,Jahmeir Spain,2025,QB,0.82,QB,52.73319,52.8953737476706,52.8953737476706,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202502801,Toa Faavae,2025,QB,0.82,QB,42.855984,32.34600009631208,32.34600009631208,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202502816,Treynor Cleeland,2025,QB,0.82,QB,36.436745,19.700303319045332,19.700303319045332,Minimal D1 Impact,Roster filler; medical DQ; or transferred to lower levels.,nan
+202502819,Easton Jessie,2025,QB,0.82,QB,54.99078,57.91429813322766,57.91429813322766,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202502824,Emiliano Villarreal,2025,QB,0.82,QB,46.62825,40.41375314091137,40.41375314091137,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202502834,Kaz Rebarcak,2025,QB,0.82,QB,48.68128,44.73574847132305,44.73574847132305,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202502840,Charlie Smith,2025,QB,0.82,QB,49.101856,45.53862482885063,45.53862482885063,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202502863,Ryan Downes,2025,QB,0.82,QB,48.041245,43.53566896186559,43.53566896186559,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202502874,Preston Brown,2025,QB,0.82,QB,50.242836,47.698986040561344,47.698986040561344,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202502886,Chase Kwiatkowski,2025,QB,0.82,QB,47.683067,42.88914733431461,42.88914733431461,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202502897,Ben Taylor,2025,QB,0.82,QB,32.742928,13.815603967726835,13.815603967726835,Minimal D1 Impact,Roster filler; medical DQ; or transferred to lower levels.,nan
+202502958,Beau Jackson,2025,QB,0.815,QB,42.40376,31.774166691410834,31.774166691410834,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202502965,Tre People,2025,QB,0.8144,QB,45.007362,36.89903540906984,36.89903540906984,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202502973,EJ Archield Jr.,2025,QB,0.813,QB,48.669834,44.69294996410724,44.69294996410724,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202502989,Daniel Gomez,2025,QB,0.8104,QB,44.957188,36.76667474589239,36.76667474589239,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202502992,Jacob Higgs,2025,QB,0.81,QB,46.268276,39.7948289596246,39.7948289596246,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202502998,Marcus Thaxton,2025,QB,0.81,QB,51.332127,50.159376168654674,50.159376168654674,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202502999,Jaden Cummings,2025,QB,0.81,QB,50.69126,49.15811025619204,49.15811025619204,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202503008,Stevie Diamond,2025,QB,0.81,QB,49.92899,46.93333415185958,46.93333415185958,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202503010,J.J. Bittner,2025,QB,0.81,QB,46.98236,41.087850139903665,41.087850139903665,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202503013,Cooper Panteck,2025,QB,0.81,QB,45.997265,39.217603915498344,39.217603915498344,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202503018,Michael Dove,2025,QB,0.81,QB,47.027485,41.178678271139894,41.178678271139894,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202503023,Jake Garcia,2025,QB,0.81,QB,47.269035,41.66788885519758,41.66788885519758,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202503044,Andrew Heidel,2025,QB,0.81,QB,52.496906,52.57509258639047,52.57509258639047,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202503052,Jayce Nixon,2025,QB,0.81,QB,48.89535,45.29755709700526,45.29755709700526,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202503055,Malachi Lewis,2025,QB,0.81,QB,44.916065,36.65819394690715,36.65819394690715,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202503061,Grant Kinnee,2025,QB,0.81,QB,44.470142,35.339972604145885,35.339972604145885,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202503068,Jaxen Robinson,2025,QB,0.81,QB,43.09328,32.64605972435547,32.64605972435547,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202503079,Derek Morgan,2025,QB,0.81,QB,48.56302,44.53606883352561,44.53606883352561,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202503123,Zander Smith,2025,QB,0.8006,QB,42.955833,32.47225899037432,32.47225899037432,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202503126,Tanner Wilson,2025,QB,0.8,QB,46.973396,41.070745167510964,41.070745167510964,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202503130,Zeke Martinez,2025,QB,0.8,QB,36.28821,19.46367242048961,19.46367242048961,Minimal D1 Impact,Roster filler; medical DQ; or transferred to lower levels.,nan
+202503137,Caleb Matthews,2025,QB,0.8,QB,47.727688,42.98455152859418,42.98455152859418,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202503145,Amari Griffin,2025,QB,0.8,QB,43.55965,33.73719448545868,33.73719448545868,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202503148,Sam Knuth,2025,QB,0.8,QB,46.27424,39.80752817059202,39.80752817059202,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202503153,Jackson Willis,2025,QB,0.8,QB,42.404194,31.774716586880675,31.774716586880675,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202503155,Jeremiah Calvin,2025,QB,0.8,QB,47.045452,41.214951710340266,41.214951710340266,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202503180,Nate Lewis,2025,QB,0.8,QB,46.78017,40.70205658597586,40.70205658597586,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202503182,Tyler Lewis,2025,QB,0.8,QB,44.216324,34.68351981704721,34.68351981704721,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202503185,Aiden Krause,2025,QB,0.8,QB,52.967365,53.520187984607574,53.520187984607574,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202503189,Xzavior Guess,2025,QB,0.8,QB,42.16258,31.423482920681025,31.423482920681025,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202503228,Jaxon Knutson,2025,QB,0.79,QB,51.142338,49.831944870427186,49.831944870427186,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202503230,Jalen Slaughter,2025,QB,0.79,QB,48.079346,43.60376453463241,43.60376453463241,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202503231,Kaden Rolfness,2025,QB,0.79,QB,46.268993,39.79635643989452,39.79635643989452,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202503233,Jake Davidson,2025,QB,0.79,QB,44.190624,34.63694799192012,34.63694799192012,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202503239,Brady Ford,2025,QB,0.79,QB,49.58742,46.49801942329012,46.49801942329012,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202503246,Holland Harris,2025,QB,0.79,QB,46.24725,39.75004453809395,39.75004453809395,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202503247,Anthony Quinones,2025,QB,0.79,QB,48.48107,44.433036243861295,44.433036243861295,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202503251,Sante Gasperoni,2025,QB,0.79,QB,43.00123,32.529660359594594,32.529660359594594,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202503255,Holden Nagin,2025,QB,0.79,QB,48.053867,43.55822885877042,43.55822885877042,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202503260,Hoyt Gregory,2025,QB,0.79,QB,52.042465,51.48150936349059,51.48150936349059,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202503327,Isaiah Rogers,2025,QB,0.78,QB,45.144073,37.13196416942198,37.13196416942198,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202503342,Jordan Simes,2025,QB,0.78,QB,44.056015,34.3993068595403,34.3993068595403,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202503360,Maverick Geske,2025,QB,0.78,QB,38.952545,23.44762529846477,23.44762529846477,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202503370,Kam Montgomery,2025,QB,0.78,QB,42.874516,32.36943336115848,32.36943336115848,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202503413,Kartell Purvis,2025,QB,0.78,QB,41.97319,31.144840295885267,31.144840295885267,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202503417,Zayden Stevens,2025,QB,0.78,QB,36.719204,20.124403980415998,20.124403980415998,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202503432,Jaylen Viars,2025,QB,0.77,QB,42.46403,31.850380274073043,31.850380274073043,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202503441,Brady Wilson,2025,QB,0.77,QB,44.73057,36.165062423862246,36.165062423862246,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202503442,Luke Alexander,2025,QB,0.77,QB,40.500645,29.145064207218454,29.145064207218454,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202503448,Dakarri Hollis,2025,QB,0.77,QB,53.93152,54.90745693639066,54.90745693639066,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202503453,Kalani Mcleod,2025,QB,0.77,QB,40.079426,28.700147151666258,28.700147151666258,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202503464,Xander Eschelman,2025,QB,0.77,QB,46.252712,39.76167938780946,39.76167938780946,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202503502,Rhett Thompson,2025,QB,0.77,QB,48.707897,44.835297799107,44.835297799107,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202503503,Logan Pheiffer,2025,QB,0.77,QB,40.144703,28.76909680439773,28.76909680439773,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202503518,Logan Malachuk,2025,QB,0.76,QB,39.876995,28.486327477060815,28.486327477060815,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202503522,Marley Alcantara,2025,QB,0.76,QB,46.113483,39.46513696817486,39.46513696817486,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202503524,Kylan Stueball,2025,QB,0.76,QB,38.495262,22.4356247121945,22.4356247121945,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202503526,Carson Lamb,2025,QB,0.76,QB,43.348923,33.15287104357457,33.15287104357457,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202503528,Ricky Cole,2025,QB,0.76,QB,44.473125,35.349423611015936,35.349423611015936,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202503532,Josh Moody,2025,QB,0.76,QB,44.242645,34.73121843562774,34.73121843562774,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202503552,Noah Oury,2025,QB,0.76,QB,40.897457,29.569563144083965,29.569563144083965,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202503556,Nick Peipert,2025,QB,0.76,QB,42.42578,31.802013590949375,31.802013590949375,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202503570,Landon Tungate,2025,QB,0.76,QB,38.625015,22.604475082527422,22.604475082527422,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202503577,James Young,2025,QB,0.75,QB,43.096848,32.65056983193706,32.65056983193706,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202503580,Axel Newell,2025,QB,0.75,QB,45.938015,39.080897706481636,39.080897706481636,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202503589,Dallas Munn,2025,QB,0.75,QB,41.6181,30.657060296935107,30.657060296935107,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202503591,Mack Kelson,2025,QB,0.75,QB,45.917614,39.002855433413195,39.002855433413195,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202503618,Randall McDonald,2025,QB,0.75,QB,48.770473,45.06932003656302,45.06932003656302,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202503621,Jonathan Pittman,2025,QB,0.74,QB,36.634773,20.01453259667464,20.01453259667464,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202503628,Tommy Morris,2025,QB,0.74,QB,34.453625,16.540952346554555,16.540952346554555,Minimal D1 Impact,Roster filler; medical DQ; or transferred to lower levels.,nan
+202503644,Aaron Knapp,2025,QB,0.72,QB,38.782314,22.819307222461557,22.819307222461557,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202503647,Dominic Pierini,2025,QB,0.7,QB,46.975136,41.07406426002631,41.07406426002631,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202600001,Jared Curtis,2026,QB,0.9992,QB,68.66134,78.28706264263668,78.28706264263668,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202600003,Keisean Henderson,2026,QB,0.999,QB,72.57064,82.90683655571046,82.90683655571046,Elite Power 4,All-Conference/All-American honors.,First round NFL Draft talent
+202600007,Faizon Brandon,2026,QB,0.9953,QB,76.601616,86.00868335298452,86.00868335298452,Elite Power 4,All-Conference/All-American honors.,First round NFL Draft talent
+202600009,Dia Bell,2026,QB,0.9937,QB,71.78507,81.67682176222704,81.67682176222704,Elite Power 4,All-Conference/All-American honors.,First round NFL Draft talent
+202600038,Ryder Lyons,2026,QB,0.9818,QB,63.06831,70.32918560524652,70.32918560524652,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202600068,Bowe Bentley,2026,QB,0.97,QB,66.16641,74.6389558771872,74.6389558771872,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202600069,Jett Thomalla,2026,QB,0.9699,QB,65.706795,73.92351018096099,73.92351018096099,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202600101,Jonas Williams,2026,QB,0.9536,QB,74.27848,84.64384764888896,84.64384764888896,Elite Power 4,All-Conference/All-American honors.,First round NFL Draft talent
+202600109,Jake Fette,2026,QB,0.9516,QB,67.3589,75.9718326807998,75.9718326807998,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202600132,Landon Duckworth,2026,QB,0.9431,QB,60.664783,66.6880363537931,66.6880363537931,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202600140,Tradon Bessinger,2026,QB,0.9406,QB,57.820255,62.38472004383567,62.38472004383567,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202600174,Bryson Beaver,2026,QB,0.9297,QB,58.13072,63.13939373098718,63.13939373098718,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202600188,Matt Ponatoski,2026,QB,0.9265,QB,62.290775,69.02545082067292,69.02545082067292,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202600223,Will Griffin,2026,QB,0.9197,QB,57.877567,62.617418769398334,62.617418769398334,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202600231,Travis Burgess,2026,QB,0.9183,QB,51.43223,50.35758783239645,50.35758783239645,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202600253,Oscar Rios,2026,QB,0.9122,QB,59.426365,64.71172669904283,64.71172669904283,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202600269,Grant Lawless,2026,QB,0.9104,QB,61.23986,67.1746605687237,67.1746605687237,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202600274,Helaman Casuga,2026,QB,0.9096,QB,59.147736,64.29067261406226,64.29067261406226,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202600283,Dereon Coleman,2026,QB,0.9089,QB,69.083084,78.94672368114604,78.94672368114604,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202600306,Peyton Falzone,2026,QB,0.905,QB,55.11037,58.053760478848936,58.053760478848936,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202600309,Troy Huhn,2026,QB,0.9047,QB,53.852596,54.727741943152054,54.727741943152054,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202600310,Teddy Jarrard,2026,QB,0.9047,QB,49.079468,45.51767776975337,45.51767776975337,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202600338,Rocco Marriott,2026,QB,0.902,QB,61.72562,67.98676587491926,67.98676587491926,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202600344,Brady Smigiel,2026,QB,0.9009,QB,49.431255,46.23313924489464,46.23313924489464,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202600345,Jaden O'Neal,2026,QB,0.9008,QB,50.867516,49.39464173653922,49.39464173653922,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202600365,Kayd Coffman,2026,QB,0.899,QB,48.329086,44.13615337920513,44.13615337920513,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202600372,Briggs Cherry,2026,QB,0.8983,QB,45.14943,37.139221848923206,37.139221848923206,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202600378,Noah Grubbs,2026,QB,0.8976,QB,54.796124,57.131644119445916,57.131644119445916,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202600404,Derek Zammit,2026,QB,0.8953,QB,53.61027,54.23289404822744,54.23289404822744,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202600463,Tait Reynolds,2026,QB,0.89,QB,52.58747,52.67099563974498,52.67099563974498,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202600479,Gavin Sidwar,2026,QB,0.8889,QB,55.563187,58.73702552081158,58.73702552081158,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202600495,Tayden Kaawa,2026,QB,0.8878,QB,53.515068,53.97097451732051,53.97097451732051,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202600574,Corey Dailey,2026,QB,0.885,QB,51.415337,50.324134610130145,50.324134610130145,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202600581,Terry Walker III,2026,QB,0.8844,QB,53.60286,54.21250258897545,54.21250258897545,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202600616,Ryan Hopkins,2026,QB,0.8833,QB,52.798428,53.1245249539793,53.1245249539793,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202600623,Cole Bergeron,2026,QB,0.8833,QB,49.83182,46.79286080410887,46.79286080410887,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202600629,Dante Carr,2026,QB,0.8833,QB,58.603397,63.6221063723634,63.6221063723634,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202600632,Luke Fahey,2026,QB,0.8822,QB,57.472412,61.72157818427931,61.72157818427931,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202600638,Jack Daulton,2026,QB,0.8822,QB,62.60336,69.56803907362494,69.56803907362494,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202600723,Hank Hendrix,2026,QB,0.88,QB,56.951412,60.728641597432066,60.728641597432066,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202600740,Xavier Stearn,2026,QB,0.8789,QB,55.672485,58.90983660463628,58.90983660463628,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202600834,Deagan Rose,2026,QB,0.8756,QB,52.58093,52.664067804502025,52.664067804502025,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202600869,Nathan Bernhard,2026,QB,0.8744,QB,49.97855,47.00589854800766,47.00589854800766,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202600870,Michael Mitchell Jr.,2026,QB,0.8744,QB,53.361244,53.83570740128143,53.83570740128143,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202600879,Tommy Carr,2026,QB,0.8744,QB,53.482338,53.91848380083005,53.91848380083005,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202600884,Femi Babalola,2026,QB,0.8744,QB,41.423992,30.388050301695316,30.388050301695316,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202600909,Jackson Taylor,2026,QB,0.8733,QB,53.84487,54.71015178116703,54.71015178116703,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202600918,Michael Johnson,2026,QB,0.8733,QB,54.955975,57.87370947480825,57.87370947480825,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202601015,Kane Archer,2026,QB,0.8711,QB,54.9999,57.9249346393961,57.9249346393961,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202601016,Quinn Murphy,2026,QB,0.8711,QB,56.851265,60.533474062491806,60.533474062491806,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202601029,Nainoa Lopes,2026,QB,0.8711,QB,63.23244,70.60379542107115,70.60379542107115,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202601069,Corin Berry,2026,QB,0.87,QB,52.631382,52.717494946731364,52.717494946731364,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202601101,Derek Garcia,2026,QB,0.87,QB,53.99733,55.05731643000332,55.05731643000332,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202601112,Rees Wise,2026,QB,0.87,QB,52.303543,52.22476028766011,52.22476028766011,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202601118,DJ Bordeaux,2026,QB,0.87,QB,50.440292,48.21213949749002,48.21213949749002,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202601133,Luke Tepas,2026,QB,0.87,QB,58.085457,63.09887025958056,63.09887025958056,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202601151,Nelson Peterson Jr.,2026,QB,0.8689,QB,52.91689,53.429144128764875,53.429144128764875,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202601153,Cash Herrera,2026,QB,0.8689,QB,53.4913,53.92460910836974,53.92460910836974,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202601166,Hugh Price,2026,QB,0.8678,QB,40.04809,28.667050351319347,28.667050351319347,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202601168,Jarin Mock,2026,QB,0.8678,QB,51.490143,50.459073230442,50.459073230442,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202601190,Kase Evans,2026,QB,0.8678,QB,52.352867,52.31898823347214,52.31898823347214,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202601234,Owen Lansu,2026,QB,0.8667,QB,50.733315,49.21454526267086,49.21454526267086,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202601235,Brodie McWhorter,2026,QB,0.8667,QB,51.21688,49.95311235827855,49.95311235827855,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202601277,Cam O'Hara,2026,QB,0.8656,QB,50.459133,48.24839204465512,48.24839204465512,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202601279,Brady Palmer,2026,QB,0.8656,QB,53.233826,53.74860756201345,53.74860756201345,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202601285,Bronzden Chaffin,2026,QB,0.8656,QB,33.68505,15.316520994670455,15.316520994670455,Minimal D1 Impact,Roster filler; medical DQ; or transferred to lower levels.,nan
+202601324,Michael Clayton,2026,QB,0.8644,QB,54.73218,56.94369040357426,56.94369040357426,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202601356,Semaj Beals,2026,QB,0.8644,QB,51.699196,50.79225818416451,50.79225818416451,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202601363,Qur'an McNeill,2026,QB,0.8644,QB,50.157223,47.312037199642184,47.312037199642184,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202601365,Jaylen Mason,2026,QB,0.8644,QB,53.02224,53.6039731184221,53.6039731184221,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202601403,Kaneal Sweetwyne,2026,QB,0.8633,QB,49.54195,46.420893727690085,46.420893727690085,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202601404,Zaid Lott,2026,QB,0.8633,QB,55.550514,58.71698927829917,58.71698927829917,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202601475,Hudson Kurland,2026,QB,0.8611,QB,43.60113,33.80778643822766,33.80778643822766,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202601484,Osiris Lopez,2026,QB,0.8611,QB,50.176666,47.399916638316384,47.399916638316384,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202601486,Brody Norman,2026,QB,0.8611,QB,54.82593,57.227933743654454,57.227933743654454,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202601497,Bryshawn Brown,2026,QB,0.8611,QB,48.249863,43.90851744839661,43.90851744839661,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202601559,Cole Taylor,2026,QB,0.86,QB,56.479153,59.98811016839964,59.98811016839964,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202601561,Champ Mayo,2026,QB,0.86,QB,55.422466,58.514533964508026,58.514533964508026,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202601580,Cade Mitchell,2026,QB,0.86,QB,46.503117,40.18145215375086,40.18145215375086,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202601594,Jaylen White,2026,QB,0.86,QB,59.84548,65.40906677373792,65.40906677373792,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202601659,Grant Smith,2026,QB,0.8578,QB,56.129387,59.568937383886066,59.568937383886066,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202601661,Levi Davis,2026,QB,0.8578,QB,58.830254,63.9307113793915,63.9307113793915,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202601695,Broderick Vehrs,2026,QB,0.8567,QB,56.73059,60.35861840906794,60.35861840906794,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202601715,Tyler Bell,2026,QB,0.8567,QB,54.178593,55.71969009731724,55.71969009731724,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202601722,Mason Atkins,2026,QB,0.8567,QB,54.602535,56.66091334183369,56.66091334183369,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202601727,Brady Vodicka,2026,QB,0.8556,QB,50.445717,48.222577060168454,48.222577060168454,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202601729,Daniel Rolovich,2026,QB,0.8556,QB,53.004807,53.58772089309428,53.58772089309428,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202601732,Angelo Renda,2026,QB,0.8556,QB,59.762257,65.26177438635384,65.26177438635384,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202601743,Brooks Goodman,2026,QB,0.8556,QB,50.926834,49.48164985526997,49.48164985526997,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202601761,Jacob Chambers,2026,QB,0.855,QB,50.120747,47.21409670308893,47.21409670308893,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202601775,Noah Lee,2026,QB,0.855,QB,48.485634,44.43877253364988,44.43877253364988,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202601819,Romin Seymour,2026,QB,0.8544,QB,57.84555,62.46036656784341,62.46036656784341,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202601820,Jackson Presley,2026,QB,0.8544,QB,52.789818,53.09428321192347,53.09428321192347,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202601832,Kaleb Maryland,2026,QB,0.8544,QB,60.022095,65.78755244608516,65.78755244608516,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202601844,Dayton Raiola,2026,QB,0.8533,QB,51.838936,51.07284237727314,51.07284237727314,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202601846,Gavin Owens,2026,QB,0.8533,QB,52.900955,53.40040393938648,53.40040393938648,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202601882,Anthony Coellner,2026,QB,0.8522,QB,50.378197,48.09265803104876,48.09265803104876,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202601890,Jachin Davis,2026,QB,0.8522,QB,54.415638,56.365690005190224,56.365690005190224,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202601906,Rocco Williams,2026,QB,0.8511,QB,55.469486,58.58887674753271,58.58887674753271,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202601908,Ely Hamrick,2026,QB,0.8511,QB,55.774338,59.06582699710171,59.06582699710171,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202601930,Bo Polston,2026,QB,0.85,QB,54.610775,56.673928862247415,56.673928862247415,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202601933,Brock Bradley,2026,QB,0.85,QB,52.10593,51.6670369878151,51.6670369878151,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202601939,Kyden Barker,2026,QB,0.85,QB,57.254745,61.37656563979591,61.37656563979591,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202601940,Donovan Moorhead,2026,QB,0.85,QB,51.15188,49.84745277110352,49.84745277110352,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202601941,Harrison Faulkner,2026,QB,0.85,QB,54.383,56.278605614455266,56.278605614455266,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202601978,Kelvin Perkins,2026,QB,0.85,QB,44.3564,34.97961368874406,34.97961368874406,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202602004,Laird Finkel,2026,QB,0.85,QB,54.781605,57.08896712131875,57.08896712131875,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202602007,Brady Goodman,2026,QB,0.85,QB,47.688057,42.899815769478984,42.899815769478984,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202602039,Ayden Wilhelm,2026,QB,0.85,QB,63.706863,71.23277852641233,71.23277852641233,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202602065,Aaden Shamburger,2026,QB,0.85,QB,53.79236,54.60400718514815,54.60400718514815,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202602069,Brady Palmer,2026,QB,0.85,QB,50.859398,49.38374789639164,49.38374789639164,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202602073,Drew Bellisari,2026,QB,0.85,QB,53.671124,54.3794508833531,54.3794508833531,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202602120,Jacob Smith,2026,QB,0.8489,QB,50.225323,47.61983075255796,47.61983075255796,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202602136,Trace Johnson,2026,QB,0.8478,QB,53.357815,53.83336314777859,53.83336314777859,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202602141,Lamar Best,2026,QB,0.8478,QB,53.653797,54.347358289578416,54.347358289578416,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202602148,Carter Emanuel,2026,QB,0.8467,QB,51.94633,51.28848134835272,51.28848134835272,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202602170,Taylor Hasselbeck,2026,QB,0.8456,QB,36.338104,19.54315711428241,19.54315711428241,Minimal D1 Impact,Roster filler; medical DQ; or transferred to lower levels.,nan
+202602197,Camren Hill,2026,QB,0.845,QB,47.166145,41.458615265087715,41.458615265087715,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202602201,Ashton Pannell,2026,QB,0.845,QB,49.1477,45.581518295579336,45.581518295579336,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202602221,Brooklyn Nace,2026,QB,0.845,QB,51.18777,49.90579496920974,49.90579496920974,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202602285,Maika Eugenio,2026,QB,0.8444,QB,54.03603,55.15749927711924,55.15749927711924,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202602287,Maguire Gasperson,2026,QB,0.8444,QB,41.713528,30.78498337964013,30.78498337964013,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202602324,Noah Schuback,2026,QB,0.84,QB,49.902008,46.89382922775587,46.89382922775587,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202602326,Gabe Casanovas,2026,QB,0.84,QB,46.33176,39.90333893642325,39.90333893642325,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202602336,Braden Shettles,2026,QB,0.84,QB,51.510777,50.49150534184885,50.49150534184885,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202602340,Landen Abernethy,2026,QB,0.84,QB,47.23795,41.603578098647915,41.603578098647915,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202602351,Cole Leinart,2026,QB,0.84,QB,45.636013,37.995889815589,37.995889815589,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202602361,Travis Frazier,2026,QB,0.84,QB,45.70254,38.180113594295975,38.180113594295975,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202602403,Sammy Dunn,2026,QB,0.84,QB,46.428608,40.060523672877245,40.060523672877245,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202602455,Jaylen Johnson,2026,QB,0.84,QB,39.161755,24.219812373921226,24.219812373921226,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202602464,Taylor Jacobs Jr.,2026,QB,0.84,QB,48.025574,43.50766169184896,43.50766169184896,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202602515,Brandon Mann,2026,QB,0.8378,QB,48.08191,43.608346054946715,43.608346054946715,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202602516,Nick Kinsey,2026,QB,0.8378,QB,50.487865,48.303677362583336,48.303677362583336,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202602528,Jett Surratt,2026,QB,0.835,QB,52.537437,52.61801284846417,52.61801284846417,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202602529,Marcel Jones,2026,QB,0.835,QB,51.86558,51.12634424964876,51.12634424964876,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202602530,Isaiah Arriaza,2026,QB,0.835,QB,52.398037,52.405280043708814,52.405280043708814,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202602539,Mason Holtzclaw,2026,QB,0.835,QB,43.355682,33.17161475094805,33.17161475094805,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202602542,Brett Ottensmeyer,2026,QB,0.835,QB,54.475605,56.460414070423425,56.460414070423425,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202602562,DJ Alexander,2026,QB,0.835,QB,44.10448,34.48084216513962,34.48084216513962,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202602593,Jeremiah Daoud,2026,QB,0.835,QB,49.38976,46.136203808364506,46.136203808364506,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202602594,Brady Campbell,2026,QB,0.835,QB,46.540783,40.24828551935906,40.24828551935906,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202602625,Alex Medyn,2026,QB,0.83,QB,48.11988,43.676209824602395,43.676209824602395,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202602628,Reeve Slone,2026,QB,0.83,QB,53.045135,53.61962407451115,53.61962407451115,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202602630,Berell Staples,2026,QB,0.83,QB,43.721985,33.964941526219654,33.964941526219654,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202602634,Mason West,2026,QB,0.83,QB,43.410946,33.324854078667954,33.324854078667954,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202602636,Drew Davis,2026,QB,0.83,QB,44.56182,35.63042790863165,35.63042790863165,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202602638,Case Vanden Bosch,2026,QB,0.83,QB,50.051155,47.11220382447675,47.11220382447675,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202602664,Jaxson Dosh,2026,QB,0.83,QB,49.018238,45.46039011503024,45.46039011503024,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202602666,Blitz McCarty,2026,QB,0.83,QB,40.82111,29.48355897268512,29.48355897268512,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202602670,Brady Barrier,2026,QB,0.83,QB,50.072845,47.143961918419016,47.143961918419016,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202602674,Donivan Dixon,2026,QB,0.83,QB,55.52145,58.67103619831661,58.67103619831661,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202602702,Jeremiah Duhu,2026,QB,0.83,QB,52.951233,53.49109000498554,53.49109000498554,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202602709,Julian Murdic,2026,QB,0.83,QB,33.304184,14.709753596730183,14.709753596730183,Minimal D1 Impact,Roster filler; medical DQ; or transferred to lower levels.,nan
+202602710,Jacob Webster,2026,QB,0.83,QB,44.43307,35.222523902402756,35.222523902402756,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202602719,Kaedyn Marable,2026,QB,0.83,QB,44.623745,35.82661485814763,35.82661485814763,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202602733,Trey Burke,2026,QB,0.83,QB,44.263973,34.76986814236451,34.76986814236451,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202602736,Patrick Greisen,2026,QB,0.83,QB,51.419487,50.332352516164406,50.332352516164406,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202602742,Callum Schweitzer,2026,QB,0.83,QB,47.610725,42.73447133702318,42.73447133702318,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202602759,Mason Burkhardt,2026,QB,0.83,QB,46.13543,39.511879489413225,39.511879489413225,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202602774,Gavin Gray,2026,QB,0.83,QB,47.978733,43.42922895028621,43.42922895028621,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202602821,Jayden Maples,2026,QB,0.825,QB,48.951347,45.37589451812514,45.37589451812514,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202602837,Brogan McNab,2026,QB,0.825,QB,52.220455,52.06603028860893,52.06603028860893,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202602854,Quentyn Demara,2026,QB,0.82,QB,44.874763,36.54924017968886,36.54924017968886,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202602857,Brady Bretthauer,2026,QB,0.82,QB,48.056767,43.56341034007826,43.56341034007826,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202602862,Eli Macneal,2026,QB,0.82,QB,51.434875,50.36282221555982,50.36282221555982,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202602867,Quinn Roth,2026,QB,0.82,QB,47.62326,42.76127292567007,42.76127292567007,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202602868,Jacob Flowers,2026,QB,0.82,QB,41.215546,30.064024786920363,30.064024786920363,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202602869,Jack Brant,2026,QB,0.82,QB,46.079468,39.392687278989655,39.392687278989655,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202602872,Brayden Holbrook,2026,QB,0.82,QB,44.741142,36.19674802506409,36.19674802506409,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202602876,Jack Thomas,2026,QB,0.82,QB,52.691082,52.780713968044616,52.780713968044616,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202602892,Brady Jay,2026,QB,0.82,QB,43.74661,33.99696185679598,33.99696185679598,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202602894,Michael Wynn,2026,QB,0.82,QB,55.103516,58.04576641712385,58.04576641712385,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202602929,Tanner Vibabul,2026,QB,0.82,QB,50.354282,48.046643206554336,48.046643206554336,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202602942,Darryon Jones,2026,QB,0.82,QB,39.49099,25.54031148349896,25.54031148349896,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202602960,Liam Meeker,2026,QB,0.82,QB,45.219975,37.23481748070115,37.23481748070115,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202602961,Deven Vigue,2026,QB,0.82,QB,39.591194,26.32427014162671,26.32427014162671,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202602964,Jake Nuttall,2026,QB,0.82,QB,47.51567,42.3500575164671,42.3500575164671,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202602993,Rylan Umphrey,2026,QB,0.81,QB,39.994766,28.610724545128765,28.610724545128765,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202602999,Tyler Franklin,2026,QB,0.81,QB,48.277733,43.987369230024115,43.987369230024115,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202603001,Matai Fuiava,2026,QB,0.81,QB,53.20523,53.72906081645471,53.72906081645471,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202603002,Timmy Herr,2026,QB,0.81,QB,53.794785,54.608500996165475,54.608500996165475,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202603004,AJ Stowers,2026,QB,0.81,QB,54.18054,55.725009724701174,55.725009724701174,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202603010,Deuce Jefferson,2026,QB,0.81,QB,48.421795,44.358507642669885,44.358507642669885,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202603016,Elias Childers,2026,QB,0.81,QB,42.163013,31.42412274301121,31.42412274301121,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202603018,Gunner Fagrell,2026,QB,0.81,QB,47.58604,42.646524152745144,42.646524152745144,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202603038,Mack Cooper,2026,QB,0.81,QB,44.759068,36.24403478521545,36.24403478521545,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202603066,Kepa Niumeitolu,2026,QB,0.8,QB,40.877007,29.54260053775491,29.54260053775491,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202603074,Bryson Riggins,2026,QB,0.8,QB,42.493114,31.887155739529796,31.887155739529796,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202603081,Brooks Hendrickson,2026,QB,0.8,QB,43.734097,33.980691262792824,33.980691262792824,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202603083,Michael Sargent,2026,QB,0.8,QB,43.887875,34.18066083152909,34.18066083152909,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202603084,Trey Gamble,2026,QB,0.8,QB,45.527924,37.74205950862159,37.74205950862159,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202603089,Brady Annett,2026,QB,0.8,QB,43.887875,34.18066083152909,34.18066083152909,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202603107,Vincent Smith,2026,QB,0.79,QB,50.149197,47.27576128459991,47.27576128459991,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202603108,Dominick Catalano,2026,QB,0.79,QB,46.817482,40.773249664687775,40.773249664687775,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202603109,Diego Montes,2026,QB,0.79,QB,40.45091,29.09252998723757,29.09252998723757,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202603117,Tyson Ruggiero,2026,QB,0.76,QB,40.064415,28.684291793818062,28.684291793818062,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202700026,Kavian Bryant,2027,QB,0.9886,QB,71.13596,80.8711175029239,80.8711175029239,Elite Power 4,All-Conference/All-American honors.,First round NFL Draft talent
+202700027,Elijah Haven,2027,QB,0.9883,QB,56.898415,60.60179346175586,60.60179346175586,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202700053,Jayce Johnson,2027,QB,0.9777,QB,63.21747,70.57874443963873,70.57874443963873,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202700055,Trae Taylor,2027,QB,0.9773,QB,63.314213,70.73823113673635,70.73823113673635,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202700062,Israel Abrams,2027,QB,0.9748,QB,68.282684,77.27608291754026,77.27608291754026,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202700086,Peter Bourque,2027,QB,0.9623,QB,59.75278,65.24581956844746,65.24581956844746,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202700089,Gunner Rivers,2027,QB,0.9611,QB,67.70741,76.48101925212276,76.48101925212276,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202700093,Peyton Houston,2027,QB,0.9591,QB,49.31406,45.91689327503345,45.91689327503345,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202700104,Colton Nussmeier,2027,QB,0.9545,QB,67.3395,75.94274990870058,75.94274990870058,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202700131,Andre Adams,2027,QB,0.9454,QB,61.002533,66.974975728265,66.974975728265,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202700141,Brady Edmunds,2027,QB,0.9418,QB,57.773304,62.29273932484959,62.29273932484959,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202700149,Kamden Lopati,2027,QB,0.938,QB,62.27764,68.99568571450638,68.99568571450638,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202700160,Kharim Hughley,2027,QB,0.9346,QB,55.770023,59.05932900845685,59.05932900845685,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202700182,Malachi Zeigler,2027,QB,0.9291,QB,51.662663,50.730240218494295,50.730240218494295,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202700207,Blake Roskopf,2027,QB,0.9236,QB,53.913025,54.86534478562355,54.86534478562355,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202700218,Keegan Croucher,2027,QB,0.9217,QB,52.427124,52.460847567824565,52.460847567824565,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202700254,Wonderful Monds IV,2027,QB,0.9169,QB,56.163914,59.60712013500909,59.60712013500909,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202700255,Trent Seaborn,2027,QB,0.9167,QB,57.601196,61.959682143636634,61.959682143636634,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202700274,Jack Sorgi,2027,QB,0.9121,QB,58.176308,63.1802109249847,63.1802109249847,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202700310,Weston Nielsen,2027,QB,0.9031,QB,62.55797,69.50513043125504,69.50513043125504,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202700337,Sione Kaho,2027,QB,0.8976,QB,48.672943,44.70457689190087,44.70457689190087,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202700344,Will Mencl,2027,QB,0.8956,QB,55.49546,58.62994441016577,58.62994441016577,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202700354,Caden Jones,2027,QB,0.8936,QB,55.104206,58.04657160642393,58.04657160642393,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202700360,Dane Weber,2027,QB,0.8918,QB,53.19314,53.72079465004314,53.72079465004314,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202700387,Carson White,2027,QB,0.89,QB,62.63566,69.61280312732241,69.61280312732241,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202700397,Jake Nawrot,2027,QB,0.89,QB,56.157646,59.60018893844572,59.60018893844572,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202700398,Jamison Roberts,2027,QB,0.89,QB,48.700752,44.80857726443527,44.80857726443527,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202700400,Luke Babin,2027,QB,0.8895,QB,58.099224,63.11119636226126,63.11119636226126,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202700403,Bobby Coleman Jr.,2027,QB,0.8892,QB,57.750267,62.24760838871399,62.24760838871399,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202700429,Braylen Warren,2027,QB,0.8844,QB,54.245247,55.90194470374738,55.90194470374738,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202700522,Brodie Campbell,2027,QB,0.88,QB,54.936615,57.826704944756614,57.826704944756614,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202700531,Ben Musser,2027,QB,0.8778,QB,54.046947,55.200581487035564,55.200581487035564,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202700544,Chance Thomas,2027,QB,0.875,QB,52.98334,53.549003860383664,53.549003860383664,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202700545,Derrick Baker,2027,QB,0.875,QB,50.36508,48.06742291115534,48.06742291115534,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202700566,Logan Flaherty,2027,QB,0.875,QB,61.85297,68.20706422424053,68.20706422424053,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202700585,Cason Myers,2027,QB,0.8711,QB,51.46056,50.41257461259025,50.41257461259025,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202700587,Ryan Rakowski,2027,QB,0.87,QB,59.900394,65.5284076911269,65.5284076911269,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202700593,DJ Mitchell,2027,QB,0.87,QB,56.275097,59.73007610277306,59.73007610277306,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202700612,Jaden Jefferson,2027,QB,0.87,QB,60.201286,66.12156896849318,66.12156896849318,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202700653,DJ Hunter,2027,QB,0.87,QB,56.936207,60.682971738666154,60.682971738666154,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202700658,Brice McCurdy,2027,QB,0.87,QB,51.6974,50.7886505418039,50.7886505418039,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202700676,William Jackson,2027,QB,0.87,QB,58.95527,64.07554887026035,64.07554887026035,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202700677,Grant Sweeney,2027,QB,0.87,QB,56.863953,60.551858392746844,60.551858392746844,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202700691,William Wood,2027,QB,0.87,QB,51.241756,49.993546992549,49.993546992549,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202700695,Thaddeus Thatcher,2027,QB,0.865,QB,57.132095,61.21363426406789,61.21363426406789,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202700719,Charlie Foulke IV,2027,QB,0.8611,QB,55.129177,58.07569187801681,58.07569187801681,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202700721,Daniel Mielke,2027,QB,0.86,QB,50.713318,49.18770996659303,49.18770996659303,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202700732,Kael Snyder,2027,QB,0.86,QB,58.7759,63.85677362795568,63.85677362795568,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202700734,James Perrone,2027,QB,0.86,QB,58.81241,63.906435635342035,63.906435635342035,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202700737,Ethan Royal,2027,QB,0.86,QB,57.936047,62.904278086667134,62.904278086667134,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202700742,Jerry Meyer III,2027,QB,0.86,QB,58.492558,63.471324837711585,63.471324837711585,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202700754,Luke Farrell,2027,QB,0.86,QB,54.31307,56.08739108660788,56.08739108660788,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202700758,Tammeron Anderson,2027,QB,0.86,QB,62.15088,68.70858088232917,68.70858088232917,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202700785,Ty Knutson,2027,QB,0.86,QB,56.375977,59.841637571500094,59.841637571500094,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202700799,Kevin Verpaele,2027,QB,0.86,QB,56.08757,59.522692845402965,59.522692845402965,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202700811,Justin Dixon,2027,QB,0.855,QB,42.5479,31.956432921440854,31.956432921440854,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202700815,Kevin Parker,2027,QB,0.855,QB,55.19351,58.150712388273824,58.150712388273824,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202700819,Furian Inferrera,2027,QB,0.85,QB,53.920105,54.88146692915155,54.88146692915155,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202700820,Deshawn Laporte,2027,QB,0.85,QB,50.385303,48.10633255936797,48.10633255936797,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202700821,Bradley Cassier,2027,QB,0.85,QB,46.184597,39.61660126174789,39.61660126174789,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202700829,Zac Katz,2027,QB,0.85,QB,55.7983,59.10191927355351,59.10191927355351,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202700837,Emmett Queen,2027,QB,0.85,QB,51.908215,51.21194724544975,51.21194724544975,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202700838,Crews Jenkins,2027,QB,0.85,QB,44.08293,34.441791513493044,34.441791513493044,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202700845,Taylor Lee,2027,QB,0.85,QB,49.573174,46.473852940650346,46.473852940650346,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202700846,Caiden Wade,2027,QB,0.85,QB,54.334526,56.14606344746003,56.14606344746003,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202700859,Kahden Davis,2027,QB,0.85,QB,55.227913,58.19083394792799,58.19083394792799,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202700880,Champ Smith,2027,QB,0.845,QB,51.952717,51.30130341483186,51.30130341483186,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202700896,Brody Rudnicki,2027,QB,0.84,QB,46.938534,41.004225021682494,41.004225021682494,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202700899,RJ Day,2027,QB,0.84,QB,56.24082,59.69217178072684,59.69217178072684,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202700902,Kane Anetema,2027,QB,0.84,QB,50.802097,49.306851104635626,49.306851104635626,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202700906,Landen Holley,2027,QB,0.84,QB,45.764942,38.418822551448855,38.418822551448855,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202700908,Landon Dougherty,2027,QB,0.84,QB,47.042942,41.209884210766205,41.209884210766205,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202700918,Cameron Pooley,2027,QB,0.84,QB,46.17568,39.5976052571146,39.5976052571146,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202700938,Davin Davidson,2027,QB,0.84,QB,47.53945,42.45024578613465,42.45024578613465,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202700954,Titus Vidlak,2027,QB,0.83,QB,46.727947,40.6024110233988,40.6024110233988,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202700974,Ryan Harrington,2027,QB,0.83,QB,44.459,35.30467031377835,35.30467031377835,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202700979,Joaquin Kavouklis,2027,QB,0.82,QB,50.12839,47.22528967182975,47.22528967182975,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202700981,Donovan Shirley,2027,QB,0.82,QB,47.930183,43.34826316671714,43.34826316671714,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202701000,Maurikus Banks,2027,QB,0.81,QB,50.09427,47.17532904039928,47.17532904039928,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202701004,Tanoai Andresen,2027,QB,0.81,QB,40.549534,29.19670391908186,29.19670391908186,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202701009,Blake Nadler,2027,QB,0.8,QB,47.045452,41.214951710340266,41.214951710340266,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202701012,Jarvis Applewhite,2027,QB,0.8,QB,45.650047,38.02884699573134,38.02884699573134,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202800004,Jayden Wade,2028,QB,0.9965,QB,71.07628,80.79703400009682,80.79703400009682,Elite Power 4,All-Conference/All-American honors.,First round NFL Draft talent
+202800007,Christopher Vargas,2028,QB,0.9952,QB,67.01751,75.46008796860008,75.46008796860008,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202800027,Neimann Lawrence,2028,QB,0.9864,QB,68.508995,77.73956047844443,77.73956047844443,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202800028,Donald Tabron II,2028,QB,0.9859,QB,70.20982,79.77542063165951,79.77542063165951,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202800060,Kingston Preyear,2028,QB,0.9416,QB,61.241714,67.17622045608769,67.17622045608769,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202800086,Trace Hawkins,2028,QB,0.9333,QB,59.114025,64.25299376750941,64.25299376750941,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202800124,Kaden Craft,2028,QB,0.9247,QB,60.8114,66.81415968611462,66.81415968611462,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202800131,Carter Zingelmann,2028,QB,0.9153,QB,56.728317,60.35532404321346,60.35532404321346,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202800137,Graham Simpson,2028,QB,0.885,QB,53.48762,53.92209535934111,53.92209535934111,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202800145,Tristin Gaines,2028,QB,0.885,QB,62.85817,69.9687533314356,69.9687533314356,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202800148,Brady Quinn,2028,QB,0.88,QB,60.147923,66.02209783271667,66.02209783271667,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202800149,AJ Tuivaiave,2028,QB,0.88,QB,48.743286,44.96764504958734,44.96764504958734,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202800152,Jamar Howard,2028,QB,0.88,QB,52.188164,51.976592020699655,51.976592020699655,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202800154,Trey Towns Jr.,2028,QB,0.88,QB,52.584496,52.667844787564505,52.667844787564505,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202800179,Hunter Fujikawa,2028,QB,0.875,QB,60.643353,66.6691331311475,66.6691331311475,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202800182,Koa Malau'ulu,2028,QB,0.875,QB,55.07108,58.00794031425885,58.00794031425885,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202800200,Ace Amina,2028,QB,0.87,QB,61.1505,67.0994746397086,67.0994746397086,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202800201,Oscar Sloan,2028,QB,0.87,QB,56.4688,59.97266619526762,59.97266619526762,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202800204,Chase Curren,2028,QB,0.87,QB,54.52851,56.543984557746526,56.543984557746526,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202800209,Jaxson Carper,2028,QB,0.87,QB,55.080017,58.01836328956318,58.01836328956318,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202800219,Jackson Stecher,2028,QB,0.865,QB,51.617126,50.65866652393641,50.65866652393641,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202800220,Ayden Edwards,2028,QB,0.865,QB,51.096752,49.7578467444447,49.7578467444447,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202800221,Russell Sekona,2028,QB,0.86,QB,44.288445,34.81421403195785,34.81421403195785,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202800222,Josiah Boyd,2028,QB,0.86,QB,53.70914,54.449868054105735,54.449868054105735,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202800225,Jaxson Sculley,2028,QB,0.85,QB,54.53546,56.55496339024366,56.55496339024366,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202800226,Star Thomas,2028,QB,0.85,QB,53.184654,53.71499529543766,53.71499529543766,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan

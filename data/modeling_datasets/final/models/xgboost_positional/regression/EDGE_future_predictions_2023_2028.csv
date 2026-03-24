@@ -1,0 +1,1000 @@
+﻿player_id,name,year,position,rating,position_group,y_pred_score_raw,y_pred_score_calibrated,predictive_score_0_100,contrib_tier_raw,contrib_tier_raw_college_outlook,contrib_tier_raw_professional_outlook
+202300002,Keon Keeley,2023,Edge,0.9986,EDGE,72.21855,84.47464923430032,84.47464923430032,Elite Power 4,All-Conference/All-American honors.,First round NFL Draft talent
+202300012,Adepoju Adebawore,2023,Edge,0.9937,EDGE,66.89699,79.85475622186516,79.85475622186516,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202300017,Damon Wilson II,2023,Edge,0.9869,EDGE,64.793365,77.4757525816102,77.4757525816102,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202300025,Yhonzae Pierre,2023,Edge,0.9847,EDGE,65.16534,78.40939443227158,78.40939443227158,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202300032,Da'Shawn Womack,2023,Edge,0.9826,EDGE,64.28675,76.06118165186074,76.06118165186074,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202300033,Qua Russaw,2023,Edge,0.9824,EDGE,64.41357,76.35782635652207,76.35782635652207,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202300044,Matayo Uiagalelei,2023,Edge,0.977,EDGE,63.957115,75.2901053006637,75.2901053006637,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202300048,Sam M'Pemba,2023,Edge,0.9751,EDGE,63.60676,74.85003823149025,74.85003823149025,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202300056,Bai Jobe,2023,Edge,0.9704,EDGE,54.865868,59.44011102168547,59.44011102168547,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202300060,Jordan Renaud,2023,Edge,0.9695,EDGE,53.58772,57.75022874276096,57.75022874276096,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202300062,Rueben Bain Jr.,2023,Edge,0.9679,EDGE,56.23894,61.24961522200302,61.24961522200302,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202300065,Gabe Harris Jr.,2023,Edge,0.9663,EDGE,59.875996,68.17752600570282,68.17752600570282,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202300080,Jayden Wayne,2023,Edge,0.96,EDGE,59.19873,67.3413725689441,67.3413725689441,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202300085,Caleb Herring,2023,Edge,0.9584,EDGE,60.344646,68.50261173341212,68.50261173341212,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202300089,Braylan Shelby,2023,Edge,0.9568,EDGE,56.101616,61.014983355372095,61.014983355372095,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202300097,Colton Vasek,2023,Edge,0.953,EDGE,57.641315,64.14361623315722,64.14361623315722,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202300117,T.J. Capers,2023,Edge,0.9449,EDGE,56.825542,62.52959312577564,62.52959312577564,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202300118,Derion Gullette,2023,Edge,0.9448,EDGE,55.660572,60.64167445264347,60.64167445264347,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202300119,Joshua Mickens,2023,Edge,0.9448,EDGE,54.58895,59.034547484049405,59.034547484049405,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202300127,Chandavian Bradley,2023,Edge,0.9436,EDGE,58.603912,66.0976195490312,66.0976195490312,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202300133,Jaxon Howard,2023,Edge,0.9416,EDGE,57.400352,63.444865268616546,63.444865268616546,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202300156,Desmond Umeozulu,2023,Edge,0.9353,EDGE,58.402706,65.86850793318973,65.86850793318973,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202300192,AJ Green,2023,Edge,0.9254,EDGE,55.215885,59.879926568429376,59.879926568429376,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202300206,Hunter Clegg,2023,Edge,0.9229,EDGE,61.263348,70.53046154499417,70.53046154499417,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202300262,Jameial Lyons,2023,Edge,0.9121,EDGE,60.591404,69.26165682807523,69.26165682807523,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202300268,Princewill Umanmielen,2023,Edge,0.9105,EDGE,51.825085,53.45501762219432,53.45501762219432,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202300272,Jaybron Harvey,2023,Edge,0.9098,EDGE,47.32241,40.83746229668775,40.83746229668775,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202300276,Isaiah Crawford,2023,Edge,0.9094,EDGE,53.96024,58.15944628922033,58.15944628922033,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202300279,Ta'Mere Robinson,2023,Edge,0.9087,EDGE,67.4655,80.30005131933768,80.30005131933768,Elite Power 4,All-Conference/All-American honors.,First round NFL Draft talent
+202300281,Isaiah Nixon,2023,Edge,0.9085,EDGE,50.245262,49.77957779189557,49.77957779189557,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202300282,Jamarious Brown,2023,Edge,0.9084,EDGE,54.05303,58.2656223790768,58.2656223790768,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202300290,Tyler Thompson,2023,Edge,0.9064,EDGE,40.324974,25.5901805187999,25.5901805187999,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202300291,David Ojiegbe,2023,Edge,0.9061,EDGE,57.11479,62.91737395650923,62.91737395650923,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202300294,Blake Purchase,2023,Edge,0.9058,EDGE,57.00867,62.751902497009944,62.751902497009944,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202300299,Lamont Green Jr.,2023,Edge,0.9049,EDGE,50.0814,49.49624791687665,49.49624791687665,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202300307,Cameron Lenhardt,2023,Edge,0.9031,EDGE,51.227364,52.205968501454635,52.205968501454635,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202300313,A.J. Hoffler,2023,Edge,0.9025,EDGE,61.470406,70.9456881068228,70.9456881068228,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202300342,Neeo Avery,2023,Edge,0.8994,EDGE,51.854927,53.53444789716694,53.53444789716694,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202300367,Daymion Sanford,2023,Edge,0.897,EDGE,56.321278,61.49554376262527,61.49554376262527,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202300391,Monteque Rhames,2023,Edge,0.895,EDGE,51.63265,52.944054831898754,52.944054831898754,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202300392,Joseph Mupoyi,2023,Edge,0.895,EDGE,56.05426,60.96017827614089,60.96017827614089,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202300403,Dylan Gooden,2023,Edge,0.8939,EDGE,48.351784,43.93848758883219,43.93848758883219,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202300439,Jordan Allen,2023,Edge,0.8911,EDGE,66.957405,79.90207883549022,79.90207883549022,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202300443,Emmanuel Okoye,2023,Edge,0.8908,EDGE,48.73428,45.07572671880735,45.07572671880735,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202300451,Siale Esera,2023,Edge,0.8901,EDGE,53.946045,58.143203844295314,58.143203844295314,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202300465,Ta'Derius Collins,2023,Edge,0.8892,EDGE,59.896843,68.1919870204189,68.1919870204189,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202300469,DJ Peevy,2023,Edge,0.8886,EDGE,49.228916,47.29123334676885,47.29123334676885,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202300479,Jonathan Bax,2023,Edge,0.8882,EDGE,61.10349,70.2316627324649,70.2316627324649,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202300506,Teitum Tuioti,2023,Edge,0.8864,EDGE,58.31585,65.76960486406291,65.76960486406291,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202300507,Billy Walton III,2023,Edge,0.8861,EDGE,59.97529,68.24640171513471,68.24640171513471,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202300554,Kaven Call,2023,Edge,0.8833,EDGE,59.737087,68.08117039913887,68.08117039913887,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202300563,Nathan Robinson,2023,Edge,0.8828,EDGE,65.98995,79.11315397859488,79.11315397859488,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202300578,Michael Kilbane,2023,Edge,0.8817,EDGE,54.34555,58.756790279652435,58.756790279652435,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202300582,Dylan Carpenter,2023,Edge,0.8816,EDGE,61.412014,70.82859175313332,70.82859175313332,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202300585,Samuel Same,2023,Edge,0.8812,EDGE,58.09868,65.22925222250966,65.22925222250966,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202300606,Taje McCoy,2023,Edge,0.8803,EDGE,57.942345,64.83010979662717,64.83010979662717,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202300609,Taylor Wein,2023,Edge,0.88,EDGE,59.525494,67.84527395597776,67.84527395597776,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202300622,Matthew Fobbs-White,2023,Edge,0.8794,EDGE,60.510704,68.98743172157293,68.98743172157293,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202300639,Kerrington Lee,2023,Edge,0.8786,EDGE,53.500248,57.48563685059124,57.48563685059124,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202300641,Joseph Head Jr.,2023,Edge,0.8786,EDGE,55.127987,59.815818857798625,59.815818857798625,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202300647,Chamberlain Campbell,2023,Edge,0.8786,EDGE,54.617355,59.059068061713496,59.059068061713496,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202300658,Jahkai Lang,2023,Edge,0.8778,EDGE,55.515102,60.22322151073496,60.22322151073496,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202300681,Maverick Noonan,2023,Edge,0.8769,EDGE,53.683586,57.90638336952409,57.90638336952409,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202300700,Rylan Kennedy,2023,Edge,0.8764,EDGE,56.315845,61.4793186772914,61.4793186772914,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202300706,Chase Brackney,2023,Edge,0.8761,EDGE,54.009296,58.21558115665801,58.21558115665801,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202300711,Keviyan Huddleston,2023,Edge,0.8756,EDGE,53.950546,58.14835463306487,58.14835463306487,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202300716,DeeJay Holmes Jr.,2023,Edge,0.8756,EDGE,52.737625,56.2098955085548,56.2098955085548,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202300719,Will Heldt,2023,Edge,0.8753,EDGE,55.559326,60.40900685461886,60.40900685461886,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202300724,Jaeden Moore,2023,Edge,0.875,EDGE,51.712593,53.144471376987575,53.144471376987575,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202300749,Jason Abbey,2023,Edge,0.8743,EDGE,55.23678,59.89516473920989,59.89516473920989,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202300777,Carson Dean,2023,Edge,0.8728,EDGE,53.372646,57.23062703221764,57.23062703221764,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202300803,Antonio Camon,2023,Edge,0.8719,EDGE,53.78483,57.97883370871532,57.97883370871532,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202300806,Zachariah Keith,2023,Edge,0.8718,EDGE,49.976307,49.0163437870587,49.0163437870587,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202300808,Brenton Williams,2023,Edge,0.8717,EDGE,52.905502,56.64149792840379,56.64149792840379,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202300809,Kenneth Merrieweather,2023,Edge,0.8714,EDGE,58.4807,65.95732044807255,65.95732044807255,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202300822,Karter Menz,2023,Edge,0.8714,EDGE,54.14349,58.35182929437005,58.35182929437005,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202300825,Tommy Ziesmer,2023,Edge,0.8711,EDGE,64.70118,77.2034035052813,77.2034035052813,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202300829,Trent Thomas,2023,Edge,0.8711,EDGE,52.53775,55.43651259097339,55.43651259097339,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202300837,Oryend Fisher,2023,Edge,0.8706,EDGE,58.264503,65.66141618672711,65.66141618672711,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202300850,Aymeric Koumba,2023,Edge,0.87,EDGE,51.53998,52.76578489059638,52.76578489059638,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202300876,Troy Ford,2023,Edge,0.8686,EDGE,50.86551,51.42398343659007,51.42398343659007,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202300882,Kennedy McDowell,2023,Edge,0.8681,EDGE,55.81029,60.73319911272333,60.73319911272333,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202300912,Serigne Tounkara,2023,Edge,0.8669,EDGE,57.83166,64.58139977628349,64.58139977628349,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202300913,Dylan Rogers,2023,Edge,0.8669,EDGE,62.231743,72.22585493664948,72.22585493664948,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202300919,Gavin Geweniger,2023,Edge,0.8669,EDGE,59.13658,67.26941310052752,67.26941310052752,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202300925,David Caulker,2023,Edge,0.8667,EDGE,62.97073,74.2061274373015,74.2061274373015,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202300931,Tyler Walton,2023,Edge,0.8664,EDGE,52.417114,54.72647937811281,54.72647937811281,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202300937,Daniel Harris,2023,Edge,0.8661,EDGE,58.591007,66.08292460929488,66.08292460929488,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202300945,Trey Smith,2023,Edge,0.8658,EDGE,56.23974,61.25199657230834,61.25199657230834,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202300946,Brady Nassar,2023,Edge,0.8658,EDGE,55.55107,60.37432735111116,60.37432735111116,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202300966,Jacob Lane,2023,Edge,0.8656,EDGE,53.881783,58.06966978699708,58.06966978699708,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202300968,AJ Thomas,2023,Edge,0.8656,EDGE,60.03628,68.28871043687225,68.28871043687225,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202300975,Tre Williams,2023,Edge,0.8653,EDGE,48.91885,45.66713654118708,45.66713654118708,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202300981,Nnamdi Udeogu,2023,Edge,0.865,EDGE,51.320805,52.44976901907368,52.44976901907368,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202301003,Brad Spence,2023,Edge,0.8644,EDGE,55.012177,59.73135370776656,59.73135370776656,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202301029,Carson Mott,2023,Edge,0.8633,EDGE,53.694927,57.914499227037865,57.914499227037865,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202301030,Jordan Mayer,2023,Edge,0.8633,EDGE,67.31014,80.17836545227782,80.17836545227782,Elite Power 4,All-Conference/All-American honors.,First round NFL Draft talent
+202301033,Dillan Fontus,2023,Edge,0.8633,EDGE,54.460373,58.92354955351679,58.92354955351679,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202301062,Kam Bizor,2023,Edge,0.8622,EDGE,54.61537,59.05735563888442,59.05735563888442,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202301075,Delvin Whitaker,2023,Edge,0.8619,EDGE,59.15533,67.29112196299177,67.29112196299177,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202301107,Caleb Otlewski,2023,Edge,0.8606,EDGE,55.46673,60.13017278247321,60.13017278247321,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202301118,Ezra Odinjor,2023,Edge,0.86,EDGE,51.390903,52.581451354024296,52.581451354024296,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202301126,Messiah Blair,2023,Edge,0.8597,EDGE,59.486073,67.77511721758847,67.77511721758847,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202301135,Zakaih Saez,2023,Edge,0.8594,EDGE,54.848602,59.4039171188881,59.4039171188881,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202301163,Brian Alston,2023,Edge,0.8585,EDGE,56.4061,61.70614014006883,61.70614014006883,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202301171,Alex Bray,2023,Edge,0.8583,EDGE,50.518684,50.425045580268176,50.425045580268176,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202301180,Mekhi Buchanan,2023,Edge,0.8583,EDGE,49.92312,48.90037137305352,48.90037137305352,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202301184,Frederick Williams,2023,Edge,0.8583,EDGE,53.03679,56.80679751115362,56.80679751115362,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202301208,Evan Herrmann,2023,Edge,0.8575,EDGE,60.3989,68.60750907224768,68.60750907224768,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202301216,Trey Wilson,2023,Edge,0.8567,EDGE,52.7951,56.37520726568847,56.37520726568847,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202301221,Omar Staples,2023,Edge,0.8567,EDGE,48.8927,45.583117496756046,45.583117496756046,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202301225,DJ Samuels,2023,Edge,0.8564,EDGE,59.03945,67.15099542080148,67.15099542080148,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202301231,Ryan Davis,2023,Edge,0.8564,EDGE,48.552162,44.51455827294313,44.51455827294313,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202301242,Pat Farrell,2023,Edge,0.8558,EDGE,41.923286,27.570927267575833,27.570927267575833,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202301289,Mason Muragin,2023,Edge,0.8542,EDGE,64.15414,75.7509735988934,75.7509735988934,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202301301,MarQuice Hill,2023,Edge,0.8539,EDGE,49.134197,47.03926289151519,47.03926289151519,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202301312,DJ Jones,2023,Edge,0.8533,EDGE,57.918682,64.77693908298968,64.77693908298968,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202301335,Isaac Terrell,2023,Edge,0.8519,EDGE,65.50366,78.69813482938592,78.69813482938592,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202301356,Tristan Davis,2023,Edge,0.8517,EDGE,58.4935,65.9718937625317,65.9718937625317,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202301378,Desmond Aladuge,2023,Edge,0.8508,EDGE,52.872643,56.598230567424466,56.598230567424466,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202301413,Demanuel Brown,2023,Edge,0.85,EDGE,53.873596,58.060302335556855,58.060302335556855,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202301425,Joshua Saddler,2023,Edge,0.85,EDGE,49.155144,47.09498458985582,47.09498458985582,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202301456,Brent Hoppe,2023,Edge,0.8486,EDGE,61.721313,71.44508453346722,71.44508453346722,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202301462,Whitefield Powell,2023,Edge,0.8485,EDGE,55.8558,60.76101936330304,60.76101936330304,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202301476,Sinn Brennan,2023,Edge,0.8478,EDGE,53.702847,57.92016640503941,57.92016640503941,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202301480,James Walley Jr.,2023,Edge,0.8478,EDGE,51.60567,52.8883428357905,52.8883428357905,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202301506,Terrell James,2023,Edge,0.8475,EDGE,58.512856,65.99393400025623,65.99393400025623,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202301515,Demoris Jenkins,2023,Edge,0.847,EDGE,47.086067,40.375495353031,40.375495353031,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202301517,Nate Johnson,2023,Edge,0.847,EDGE,39.822598,24.90696317925573,24.90696317925573,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202301536,David Omopariola,2023,Edge,0.8467,EDGE,51.90535,53.63145481555318,53.63145481555318,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202301555,Malcolm Pugh,2023,Edge,0.8453,EDGE,52.05474,53.91886478210194,53.91886478210194,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202301568,Maverick Gracio,2023,Edge,0.845,EDGE,52.87753,56.606277628534414,56.606277628534414,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202301576,Ish Findlayter,2023,Edge,0.8444,EDGE,49.920277,48.89417475479103,48.89417475479103,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202301577,Mondrell Dean,2023,Edge,0.8444,EDGE,55.85011,60.75754008301261,60.75754008301261,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202301596,Ravon Johnson,2023,Edge,0.8437,EDGE,48.35527,43.948119958310265,43.948119958310265,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202301601,Alijah Lacey,2023,Edge,0.8437,EDGE,50.020306,49.222988135387666,49.222988135387666,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202301617,Donovan Dyson,2023,Edge,0.8433,EDGE,50.31172,49.89449277461189,49.89449277461189,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202301656,Braeden Flowers,2023,Edge,0.8411,EDGE,47.988712,42.751351747644684,42.751351747644684,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202301668,Jahrie Garner,2023,Edge,0.8411,EDGE,50.903545,51.52135148940425,51.52135148940425,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202301676,Kieran Davis,2023,Edge,0.8404,EDGE,52.14996,54.10339134952926,54.10339134952926,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202301698,Alijah Williams,2023,Edge,0.8392,EDGE,42.75723,28.80713683556523,28.80713683556523,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202301699,Jalil Smith,2023,Edge,0.8392,EDGE,50.858723,51.40841476837161,51.40841476837161,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202301763,Isiah Chala,2023,Edge,0.8356,EDGE,47.332123,40.86721656431567,40.86721656431567,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202301764,Toddrick Brewton,2023,Edge,0.8356,EDGE,52.093357,53.99315749165133,53.99315749165133,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202301796,Julian Savaiinaea,2023,Edge,0.8344,EDGE,72.48278,84.71737317999626,84.71737317999626,Elite Power 4,All-Conference/All-American honors.,First round NFL Draft talent
+202301815,Gideon Bedada,2023,Edge,0.8337,EDGE,55.280766,59.92724641663734,59.92724641663734,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202301867,Larry Jones III,2023,Edge,0.8304,EDGE,58.457333,65.93071057493492,65.93071057493492,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202301876,Roosevelt Andrews III,2023,Edge,0.8304,EDGE,58.951954,67.02184405441284,67.02184405441284,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202301878,Layne Swafford,2023,Edge,0.8304,EDGE,57.92971,64.80172008139787,64.80172008139787,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202301884,David Tangilanu,2023,Edge,0.8304,EDGE,48.67142,44.87602800224753,44.87602800224753,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202301885,Matthew James,2023,Edge,0.8304,EDGE,52.76913,56.30051141100167,56.30051141100167,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202301904,Obinna Okeke,2023,Edge,0.83,EDGE,59.05121,67.16834923826714,67.16834923826714,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202301905,Tyson Simmons,2023,Edge,0.83,EDGE,54.466515,58.92885147804529,58.92885147804529,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202301910,Lance Williams,2023,Edge,0.83,EDGE,63.15196,74.38960210014355,74.38960210014355,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202301912,Jordan Norman,2023,Edge,0.8296,EDGE,50.591564,50.65239566664929,50.65239566664929,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202301920,Kion Wright,2023,Edge,0.8285,EDGE,72.76082,84.97278243570604,84.97278243570604,Elite Power 4,All-Conference/All-American honors.,First round NFL Draft talent
+202301940,Anthony Bynum,2023,Edge,0.827,EDGE,55.081078,59.78160600658665,59.78160600658665,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202301946,Jordan Paul,2023,Edge,0.827,EDGE,49.67235,48.17068234735071,48.17068234735071,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202301949,Charlie Robinson,2023,Edge,0.827,EDGE,57.94138,64.82794113782494,64.82794113782494,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202301981,Jamond Mathis,2023,Edge,0.825,EDGE,47.298607,40.764537461653084,40.764537461653084,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202302061,Danny Novickas,2023,Edge,0.8204,EDGE,52.88585,56.616752942050724,56.616752942050724,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202302121,Luke Fletcher,2023,Edge,0.8163,EDGE,57.87849,64.68662687294864,64.68662687294864,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202302146,Aiden Herring,2023,Edge,0.815,EDGE,51.38233,52.570852647353945,52.570852647353945,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202302149,Will Johnson,2023,Edge,0.815,EDGE,53.096367,56.879514191036,56.879514191036,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202302152,Keshawn Hayden,2023,Edge,0.8144,EDGE,47.59925,41.700455952799544,41.700455952799544,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202302165,Beni Tshita,2023,Edge,0.8137,EDGE,61.974483,71.83234212541375,71.83234212541375,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202302189,Ha’aheo Dela Cruz,2023,Edge,0.8104,EDGE,73.68714,85.82371443312674,85.82371443312674,Elite Power 4,All-Conference/All-American honors.,First round NFL Draft talent
+202302198,Anthony Mebane,2023,Edge,0.81,EDGE,43.655087,31.01268411600774,31.01268411600774,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202302199,Charlie Gleason,2023,Edge,0.81,EDGE,52.417095,54.72639969925826,54.72639969925826,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202302212,Alexander Cobbs,2023,Edge,0.8089,EDGE,61.259304,70.52235269708729,70.52235269708729,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202302230,Zoram Petelo,2023,Edge,0.8056,EDGE,46.181046,38.26304209997068,38.26304209997068,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202302239,Razah Townsend,2023,Edge,0.8037,EDGE,57.121944,62.9285267293106,62.9285267293106,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202302245,Conlan Greene,2023,Edge,0.8037,EDGE,58.014908,65.01093336688014,65.01093336688014,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202302250,Owen DiFranco,2023,Edge,0.803,EDGE,53.849567,58.03280672669294,58.03280672669294,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202400015,Dylan Stewart,2024,Edge,0.9939,EDGE,69.29866,81.73590032948727,81.73590032948727,Elite Power 4,All-Conference/All-American honors.,First round NFL Draft talent
+202400018,Colin Simmons,2024,Edge,0.9932,EDGE,60.848557,69.77118807524622,69.77118807524622,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202400022,Jordan Ross,2024,Edge,0.9924,EDGE,65.073074,78.30210877099775,78.30210877099775,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202400031,Marquise Lightfoot,2024,Edge,0.9855,EDGE,58.50579,65.98588935692437,65.98588935692437,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202400045,Elijah Rushing,2024,Edge,0.9792,EDGE,66.24629,79.33192472169208,79.33192472169208,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202400062,Amaris Williams,2024,Edge,0.9706,EDGE,57.742485,64.38101741731143,64.38101741731143,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202400072,Booker Pickett Jr.,2024,Edge,0.9657,EDGE,56.887093,62.60166712890519,62.60166712890519,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202400095,Jamonta Waller,2024,Edge,0.9532,EDGE,58.504623,65.98456016639547,65.98456016639547,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202400109,Noah Carter,2024,Edge,0.9495,EDGE,68.903076,81.42605344017558,81.42605344017558,Elite Power 4,All-Conference/All-American honors.,First round NFL Draft talent
+202400124,DJ Warner,2024,Edge,0.9438,EDGE,56.436554,61.76541736470331,61.76541736470331,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202400131,Joe Phillips,2024,Edge,0.9405,EDGE,56.073265,60.98217271022578,60.98217271022578,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202400141,Danny Okoye,2024,Edge,0.9381,EDGE,51.714664,53.15018966554084,53.15018966554084,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202400152,Lugard Edokpayi,2024,Edge,0.9344,EDGE,53.07585,56.855184850444736,56.855184850444736,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202400165,Zina Umeozulu,2024,Edge,0.9294,EDGE,53.17094,56.96795120836934,56.96795120836934,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202400174,Jayshawn Ross,2024,Edge,0.9282,EDGE,57.270226,63.19554887826371,63.19554887826371,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202400179,Wendell Gregory,2024,Edge,0.9262,EDGE,55.185585,59.8578274648125,59.8578274648125,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202400195,Jerod Smith II,2024,Edge,0.9231,EDGE,67.47569,80.30803503089255,80.30803503089255,Elite Power 4,All-Conference/All-American honors.,First round NFL Draft talent
+202400202,Sterling Dixon,2024,Edge,0.9213,EDGE,52.706245,56.106076324141405,56.106076324141405,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202400207,Cheta Ofili,2024,Edge,0.9201,EDGE,50.217026,49.73075442476974,49.73075442476974,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202400216,Loghan Thomas,2024,Edge,0.9181,EDGE,47.122185,40.41889237937653,40.41889237937653,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202400220,Solomon Williams,2024,Edge,0.918,EDGE,44.166794,33.123583524259836,33.123583524259836,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202400221,Jacob Smith,2024,Edge,0.918,EDGE,50.4533,50.214759173469304,50.214759173469304,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202400241,CJ Jackson,2024,Edge,0.9148,EDGE,51.03656,51.86185160309173,51.86185160309173,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202400281,Mylachi Williams,2024,Edge,0.9091,EDGE,69.01464,81.51343803154307,81.51343803154307,Elite Power 4,All-Conference/All-American honors.,First round NFL Draft talent
+202400306,Max Granville,2024,Edge,0.906,EDGE,57.812466,64.53826660990853,64.53826660990853,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202400323,Dakyus Brinkley,2024,Edge,0.9043,EDGE,53.95204,58.15006574255442,58.15006574255442,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202400338,Devon Baxter,2024,Edge,0.902,EDGE,52.428593,54.79721868421522,54.79721868421522,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202400353,Dylan Stephenson,2024,Edge,0.9004,EDGE,54.1,58.31093145946856,58.31093145946856,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202400364,Elias Rudolph,2024,Edge,0.8999,EDGE,53.23395,57.042676393919095,57.042676393919095,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202400368,Quintavius Johnson,2024,Edge,0.8991,EDGE,60.084194,68.3219456326333,68.3219456326333,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202400400,Jaxson Jones,2024,Edge,0.8961,EDGE,56.443344,61.77863463388148,61.77863463388148,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202400416,Jaylen Harvey,2024,Edge,0.895,EDGE,62.196712,72.17227128111519,72.17227128111519,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202400431,KingJoseph Edwards,2024,Edge,0.894,EDGE,58.72998,66.62806944497729,66.62806944497729,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202400441,Travis Jackson,2024,Edge,0.8933,EDGE,56.117126,61.03669139440302,61.03669139440302,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202400466,Joseph Anderson,2024,Edge,0.891,EDGE,58.513447,65.99460728304048,65.99460728304048,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202400491,Gerard Johnson III,2024,Edge,0.8895,EDGE,57.511044,63.66986818746173,63.66986818746173,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202400504,Naki Tuakoi,2024,Edge,0.8883,EDGE,51.58476,52.8451565854136,52.8451565854136,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202400554,Dominic Nichols,2024,Edge,0.8853,EDGE,60.54473,69.10305866319433,69.10305866319433,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202400567,Adam Kissayi,2024,Edge,0.8844,EDGE,56.364994,61.62611923869694,61.62611923869694,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202400601,Josaiah Knight,2024,Edge,0.8833,EDGE,55.920998,60.805952350745116,60.805952350745116,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202400608,Anelu Lafaele,2024,Edge,0.8828,EDGE,76.68706,89.30147559931545,89.30147559931545,Elite Power 4,All-Conference/All-American honors.,First round NFL Draft talent
+202400649,Willis McGahee IV,2024,Edge,0.8803,EDGE,56.94255,62.66660743615635,62.66660743615635,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202400670,Obinna Onwuka,2024,Edge,0.8794,EDGE,55.372494,60.01900153619591,60.01900153619591,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202400683,Amontrae Bradford,2024,Edge,0.8789,EDGE,57.438465,63.51788708076521,63.51788708076521,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202400697,Cole Mullins,2024,Edge,0.8786,EDGE,56.70942,62.39361514441421,62.39361514441421,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202400717,Caden Brown,2024,Edge,0.8772,EDGE,57.810513,64.53387786166053,64.53387786166053,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202400741,Damarrion White,2024,Edge,0.8761,EDGE,54.112522,58.32270828535941,58.32270828535941,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202400744,Curtis Simpson,2024,Edge,0.8761,EDGE,47.523327,41.46106930549144,41.46106930549144,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202400755,Cole McConathy II,2024,Edge,0.8758,EDGE,53.481106,57.44536216189995,57.44536216189995,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202400773,Drew Campbell,2024,Edge,0.875,EDGE,60.453304,68.79238255222573,68.79238255222573,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202400791,Camden Hardy,2024,Edge,0.8744,EDGE,54.61002,59.05273539036673,59.05273539036673,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202400808,Kobe Smith,2024,Edge,0.8739,EDGE,59.878353,68.17916130434774,68.17916130434774,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202400810,Kinilau Fonohema,2024,Edge,0.8739,EDGE,54.510082,58.96646221098936,58.96646221098936,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202400833,JJ Hammonds,2024,Edge,0.8731,EDGE,49.580597,47.881052469920796,47.881052469920796,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202400849,Favour Awodoyin,2024,Edge,0.8728,EDGE,52.848434,56.52860367349931,56.52860367349931,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202400856,Caleb Redd,2024,Edge,0.8722,EDGE,55.750546,60.696675997502915,60.696675997502915,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202400868,Anthony Reddick,2024,Edge,0.8719,EDGE,56.00664,60.905068577087945,60.905068577087945,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202400893,Brock Jackson,2024,Edge,0.8711,EDGE,51.328705,52.47205977560009,52.47205977560009,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202400908,Lorenzo Cowan,2024,Edge,0.8706,EDGE,51.672054,53.032559309850264,53.032559309850264,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202400909,Jaylin Jones,2024,Edge,0.8706,EDGE,55.105495,59.7994149405224,59.7994149405224,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202400924,Temerrick Johnson,2024,Edge,0.87,EDGE,53.60959,57.81638248536057,57.81638248536057,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202400929,Kash Dillon,2024,Edge,0.8697,EDGE,55.340084,59.98076687205099,59.98076687205099,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202400951,Makai Byerson,2024,Edge,0.8689,EDGE,53.971992,58.17289508599914,58.17289508599914,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202400965,Shamar Meikle,2024,Edge,0.8686,EDGE,53.53453,57.58933887130338,57.58933887130338,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202400966,Tyler Carter,2024,Edge,0.8686,EDGE,53.134556,56.924802593538644,56.924802593538644,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202400973,Maurice Davis,2024,Edge,0.8683,EDGE,50.761547,51.20117964509411,51.20117964509411,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202400979,Steven Soles Jr.,2024,Edge,0.8681,EDGE,62.38288,72.52403661347954,72.52403661347954,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202400986,Daniel Anderson,2024,Edge,0.8681,EDGE,65.19809,78.43734713324828,78.43734713324828,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202400993,Tycoolhill Luman,2024,Edge,0.8678,EDGE,56.880825,62.594327953997116,62.594327953997116,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202401021,Mason Carter,2024,Edge,0.8672,EDGE,48.027767,42.915330526569264,42.915330526569264,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202401027,Chase Morrison,2024,Edge,0.8669,EDGE,56.375477,61.64652877098885,61.64652877098885,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202401066,Will Smith,2024,Edge,0.8656,EDGE,60.132492,68.3554480859399,68.3554480859399,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202401094,Josh Harrison,2024,Edge,0.8647,EDGE,54.366585,58.82128125205712,58.82128125205712,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202401097,Tyclean Luman,2024,Edge,0.8644,EDGE,55.295254,59.93781325480137,59.93781325480137,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202401108,Jewett Hayes,2024,Edge,0.8642,EDGE,55.589428,60.53546524749282,60.53546524749282,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202401136,Jaxon Lee,2024,Edge,0.8633,EDGE,55.37012,60.0162023411514,60.0162023411514,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202401144,Ryan Jenkins,2024,Edge,0.8631,EDGE,52.480152,55.144523549498444,55.144523549498444,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202401153,Deric Dandy,2024,Edge,0.8625,EDGE,49.04828,46.81070346486686,46.81070346486686,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202401167,William DePaepe,2024,Edge,0.8622,EDGE,47.55928,41.57443006270788,41.57443006270788,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202401203,Elijah King,2024,Edge,0.8608,EDGE,51.866394,53.55650893489346,53.55650893489346,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202401218,Joshua Lloyd,2024,Edge,0.8603,EDGE,60.428974,68.70970669643411,68.70970669643411,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202401220,Jahide Lesaine Jr.,2024,Edge,0.86,EDGE,52.376446,54.55658812441995,54.55658812441995,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202401244,Lowote Jurkin,2024,Edge,0.86,EDGE,55.46673,60.13017278247321,60.13017278247321,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202401260,Zach Crothers,2024,Edge,0.8597,EDGE,58.02407,65.03481323442213,65.03481323442213,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202401265,Sandy Lewis,2024,Edge,0.8593,EDGE,58.31544,65.76914008175379,65.76914008175379,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202401309,Tyshon Reed,2024,Edge,0.8583,EDGE,51.786396,53.348213050357806,53.348213050357806,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202401310,Tristen Graham,2024,Edge,0.8583,EDGE,56.774536,62.46986573216887,62.46986573216887,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202401325,Darius Wiley,2024,Edge,0.8578,EDGE,59.30739,67.46718238347746,67.46718238347746,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202401352,Callahan Blair,2024,Edge,0.8572,EDGE,58.479183,65.955591631633,65.955591631633,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202401361,Ira Singleton,2024,Edge,0.8569,EDGE,37.403122,21.240147966463997,21.240147966463997,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202401365,Kekai Burnett,2024,Edge,0.8567,EDGE,69.596375,82.0083162967562,82.0083162967562,Elite Power 4,All-Conference/All-American honors.,First round NFL Draft talent
+202401406,Shamar Riser-Pressley,2024,Edge,0.8558,EDGE,55.997646,60.894658525788834,60.894658525788834,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202401407,Eduwa Okundaye,2024,Edge,0.8558,EDGE,51.443382,52.646340721031,52.646340721031,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202401409,Zion Taylor,2024,Edge,0.8556,EDGE,46.367344,38.76024352228443,38.76024352228443,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202401433,Camden DeGraw-Tryall,2024,Edge,0.855,EDGE,49.94105,48.939472450170236,48.939472450170236,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202401436,Swazy Carheel,2024,Edge,0.855,EDGE,54.10027,58.311186151712924,58.311186151712924,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202401444,Jalen Charles,2024,Edge,0.855,EDGE,52.473576,55.10022393513412,55.10022393513412,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202401462,Ivan Moore Jr.,2024,Edge,0.8544,EDGE,46.748505,39.538739068555465,39.538739068555465,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202401482,Jackson Bussey,2024,Edge,0.8539,EDGE,51.08106,51.96368038904235,51.96368038904235,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202401501,Gavench Marcelin,2024,Edge,0.8531,EDGE,69.8,82.2021181160362,82.2021181160362,Elite Power 4,All-Conference/All-American honors.,First round NFL Draft talent
+202401509,DeNigel Cooper,2024,Edge,0.8528,EDGE,55.134377,59.82047906157028,59.82047906157028,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202401529,DJ Allen,2024,Edge,0.8522,EDGE,55.816235,60.736832302195516,60.736832302195516,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202401539,Nyreek Clyburn,2024,Edge,0.8519,EDGE,57.45894,63.55711319084447,63.55711319084447,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202401552,Salesi Manu,2024,Edge,0.8517,EDGE,61.16822,70.34858494375555,70.34858494375555,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202401563,Noah Bishop,2024,Edge,0.8511,EDGE,62.749233,73.75939536302978,73.75939536302978,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202401572,Sam Macy,2024,Edge,0.8508,EDGE,56.64962,62.32359146464608,62.32359146464608,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202401583,Eltoum Murgus,2024,Edge,0.8504,EDGE,55.172043,59.8479506150278,59.8479506150278,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202401606,JT Houston,2024,Edge,0.85,EDGE,61.4071,70.8187387379408,70.8187387379408,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202401613,Isaiah Sanders,2024,Edge,0.85,EDGE,58.066578,65.14559315283195,65.14559315283195,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202401616,Kareem Jennings,2024,Edge,0.85,EDGE,53.34632,57.17850663513204,57.17850663513204,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202401636,J'Quan Mason,2024,Edge,0.85,EDGE,58.242123,65.60308846696488,65.60308846696488,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202401649,Na'Tori Brown,2024,Edge,0.85,EDGE,54.20868,58.41313120653841,58.41313120653841,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202401669,Jayzen Flint,2024,Edge,0.8492,EDGE,70.89371,83.24304228243057,83.24304228243057,Elite Power 4,All-Conference/All-American honors.,First round NFL Draft talent
+202401712,Anthony Rosier,2024,Edge,0.8478,EDGE,53.664158,57.89248022040951,57.89248022040951,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202401717,Elijah Elliss,2024,Edge,0.8478,EDGE,53.4949,57.47267231345212,57.47267231345212,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202401721,Ashton Mosley,2024,Edge,0.8475,EDGE,62.470707,72.83961038000437,72.83961038000437,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202401724,Zhaiylen Scott,2024,Edge,0.8475,EDGE,38.447147,22.79223561394495,22.79223561394495,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202401733,Siosefa Brown,2024,Edge,0.8469,EDGE,49.002052,46.48322424913762,46.48322424913762,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202401737,Qayvier Johnson,2024,Edge,0.8469,EDGE,52.792065,56.366473731562344,56.366473731562344,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202401761,Nick Slogik,2024,Edge,0.8458,EDGE,59.93194,68.21633127209103,68.21633127209103,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202401766,Marcellus Nash,2024,Edge,0.8456,EDGE,51.728786,53.18917512451725,53.18917512451725,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202401776,Mardale Rowe,2024,Edge,0.8452,EDGE,42.433792,28.2687457103117,28.2687457103117,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202401806,Daniel Ndukwe,2024,Edge,0.8444,EDGE,49.67969,48.196513524600704,48.196513524600704,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202401809,Achilles Woods,2024,Edge,0.8444,EDGE,47.595272,41.68791109658981,41.68791109658981,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202401811,Shaikh Thompson,2024,Edge,0.8444,EDGE,47.612988,41.743767580039474,41.743767580039474,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202401817,Noah Wily,2024,Edge,0.8442,EDGE,73.117775,85.30068718687617,85.30068718687617,Elite Power 4,All-Conference/All-American honors.,First round NFL Draft talent
+202401851,Elias Owens,2024,Edge,0.8422,EDGE,50.832687,51.35289228598294,51.35289228598294,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202401853,Roman Caywood,2024,Edge,0.8419,EDGE,47.301186,40.77243765211517,40.77243765211517,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202401877,Will Upshaw,2024,Edge,0.8411,EDGE,47.996487,42.786939850781465,42.786939850781465,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202401963,Larenzo Harvey,2024,Edge,0.84,EDGE,49.384556,47.54512290890605,47.54512290890605,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202401982,Kaleb Coleman,2024,Edge,0.84,EDGE,47.274483,40.69063094614681,40.69063094614681,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202401986,Jalen Davis,2024,Edge,0.84,EDGE,52.270214,54.33262407211365,54.33262407211365,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202402013,Deity Deablo,2024,Edge,0.8392,EDGE,45.362324,36.45141976097681,36.45141976097681,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202402020,Brahim Wynn,2024,Edge,0.8386,EDGE,54.991364,59.703192553772915,59.703192553772915,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202402035,Keegan Shank,2024,Edge,0.8378,EDGE,48.664818,44.85504982052857,44.85504982052857,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202402040,Damien Gill,2024,Edge,0.8378,EDGE,50.61036,50.713387334502585,50.713387334502585,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202402046,Priest Ashe,2024,Edge,0.8372,EDGE,47.44007,41.19856548307778,41.19856548307778,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202402103,Kedrick Burley,2024,Edge,0.835,EDGE,64.461426,76.49508854015382,76.49508854015382,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202402112,Devon Byrd,2024,Edge,0.8347,EDGE,66.49334,79.53859287812719,79.53859287812719,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202402148,Lance Ingold,2024,Edge,0.8337,EDGE,46.438282,38.88672482541577,38.88672482541577,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202402170,Damaine Wilson,2024,Edge,0.8322,EDGE,58.86332,66.89101473941786,66.89101473941786,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202402179,Gideon Herbert,2024,Edge,0.8315,EDGE,52.239483,54.2777702087504,54.2777702087504,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202402192,Samuel Riddy Jr.,2024,Edge,0.8308,EDGE,52.340714,54.444511949086795,54.444511949086795,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202402196,Drew Collins,2024,Edge,0.8306,EDGE,53.169254,56.9659516604814,56.9659516604814,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202402202,Ekow Taylor,2024,Edge,0.8306,EDGE,51.873165,53.569535662093905,53.569535662093905,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202402203,Zeion Simpson-Smith,2024,Edge,0.8306,EDGE,57.98107,64.92275084186038,64.92275084186038,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202402269,Will Haverland,2024,Edge,0.83,EDGE,54.495018,58.95345767685083,58.95345767685083,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202402273,Christian Nwosu,2024,Edge,0.83,EDGE,45.34857,36.42528625602514,36.42528625602514,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202402285,Austin Collins,2024,Edge,0.83,EDGE,53.3967,57.27825364053842,57.27825364053842,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202402293,Kanye Gaines,2024,Edge,0.83,EDGE,50.747288,51.157733979031505,51.157733979031505,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202402297,Malik Love,2024,Edge,0.83,EDGE,51.56883,52.81225877775692,52.81225877775692,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202402310,Maruio White Jr.,2024,Edge,0.8296,EDGE,59.05121,67.16834923826714,67.16834923826714,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202402334,Jordan Ochoa,2024,Edge,0.827,EDGE,46.551968,39.089424104611304,39.089424104611304,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202402340,Aidan Butts,2024,Edge,0.827,EDGE,56.536713,61.973494232967745,61.973494232967745,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202402373,Jahvon Frazier,2024,Edge,0.8256,EDGE,68.42072,81.04824341350339,81.04824341350339,Elite Power 4,All-Conference/All-American honors.,First round NFL Draft talent
+202402382,Eli Anders,2024,Edge,0.8253,EDGE,42.20931,27.945162431207926,27.945162431207926,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202402392,Ed'Mari Binion,2024,Edge,0.8248,EDGE,52.59076,55.61542608901625,55.61542608901625,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202402400,Tiyyan Robinson,2024,Edge,0.8241,EDGE,41.22216,26.664082780472402,26.664082780472402,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202402406,Terrelle Elmore,2024,Edge,0.8237,EDGE,57.585518,63.94070224591306,63.94070224591306,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202402468,Zedric Washington,2024,Edge,0.8204,EDGE,48.59671,44.64586714987478,44.64586714987478,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202402470,Dantu Gardner Jr.,2024,Edge,0.8204,EDGE,54.1625,58.36970438526682,58.36970438526682,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202402471,Auckland Asiata,2024,Edge,0.8204,EDGE,57.823685,64.56347619701282,64.56347619701282,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202402474,Noa Siaosi,2024,Edge,0.8204,EDGE,52.889797,56.62172403305915,56.62172403305915,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202402476,Adrian Onyiego,2024,Edge,0.8204,EDGE,61.35338,70.71100580862684,70.71100580862684,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202402504,Josh Ulofoshio,2024,Edge,0.82,EDGE,57.896637,64.72740280149507,64.72740280149507,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202402505,Alex Jordan,2024,Edge,0.82,EDGE,46.465443,38.93515173863878,38.93515173863878,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202402522,Jude McLellan,2024,Edge,0.82,EDGE,52.721363,56.16312282516323,56.16312282516323,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202402538,Tyler Wesley,2024,Edge,0.82,EDGE,50.76538,51.20935548316013,51.20935548316013,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202402560,Ben Beatty,2024,Edge,0.82,EDGE,53.184517,56.98405164034486,56.98405164034486,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202402562,Tristan Waiamau-Galindo,2024,Edge,0.8196,EDGE,75.94397,88.39339055115114,88.39339055115114,Elite Power 4,All-Conference/All-American honors.,First round NFL Draft talent
+202402571,ShuMond Johnson,2024,Edge,0.8196,EDGE,53.632538,57.86985245622127,57.86985245622127,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202402592,Jordan Howard,2024,Edge,0.817,EDGE,61.900734,71.71953227978109,71.71953227978109,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202402612,Sam Ehret,2024,Edge,0.8163,EDGE,56.222347,61.20655908434201,61.20655908434201,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202402631,Dahvon Frazier,2024,Edge,0.8156,EDGE,64.53957,76.72596428200906,76.72596428200906,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202402661,Marvell Eggleston,2024,Edge,0.8137,EDGE,63.746277,74.99128607014448,74.99128607014448,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202402666,Taysean Stevenson,2024,Edge,0.8137,EDGE,52.040085,53.89066833933905,53.89066833933905,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202402677,Kendal Brown,2024,Edge,0.8122,EDGE,48.62897,44.74116653132402,44.74116653132402,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202402688,Daniel Faletoi,2024,Edge,0.8106,EDGE,71.90056,84.18253668105324,84.18253668105324,Elite Power 4,All-Conference/All-American honors.,First round NFL Draft talent
+202402691,William Goodvine III,2024,Edge,0.8104,EDGE,53.813454,57.99931853709855,57.99931853709855,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202402692,Devin Bell,2024,Edge,0.8104,EDGE,52.676304,55.96393028875114,55.96393028875114,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202402741,Darrell Gipson,2024,Edge,0.81,EDGE,51.916885,53.653647955302,53.653647955302,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202402750,Zsacari Minnis,2024,Edge,0.81,EDGE,63.2121,74.45048998290788,74.45048998290788,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202402789,Myles Cook,2024,Edge,0.8089,EDGE,50.381283,50.01477028062912,50.01477028062912,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202402790,Joe Shimko,2024,Edge,0.8089,EDGE,50.053898,49.44869097591782,49.44869097591782,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202402819,Malaki Ta'ase,2024,Edge,0.8056,EDGE,58.962437,67.03731721807138,67.03731721807138,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202402826,Brady Wolf,2024,Edge,0.8037,EDGE,49.33882,47.48911311827323,47.48911311827323,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202402828,Brock Arndt,2024,Edge,0.8033,EDGE,46.790222,39.70755463400223,39.70755463400223,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202402840,Ryan Gaea,2024,Edge,0.8022,EDGE,56.93547,62.658316804002126,62.658316804002126,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202402906,Seth Brock,2024,Edge,0.8,EDGE,49.41238,47.57919876284515,47.57919876284515,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202402919,Jason Fowler,2024,Edge,0.8,EDGE,47.62066,41.767955217467836,41.767955217467836,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202402937,Stone Chaney,2024,Edge,0.8,EDGE,57.653965,64.18210940345394,64.18210940345394,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202402956,Caleb Reid,2024,Edge,0.7994,EDGE,38.796032,23.31453996794054,23.31453996794054,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202402986,Artemas Bryant,2024,Edge,0.79,EDGE,53.630497,57.868391984048415,57.868391984048415,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202402990,Trent Page,2024,Edge,0.79,EDGE,50.05255,49.44636259864203,49.44636259864203,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202403002,Oscar Trevino,2024,Edge,0.79,EDGE,47.7402,42.01795119876057,42.01795119876057,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202403027,Caden Cetak,2024,Edge,0.79,EDGE,46.542244,39.072086997616154,39.072086997616154,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202403040,Kaleb Parrish,2024,Edge,0.79,EDGE,56.308716,61.45802325279071,61.45802325279071,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202403051,Joey DeBrincat,2024,Edge,0.79,EDGE,57.547768,63.8034193568881,63.8034193568881,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202403062,David Osagiede,2024,Edge,0.79,EDGE,53.62083,57.850388255365985,57.850388255365985,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202403088,Mario Rivas,2024,Edge,0.78,EDGE,45.28622,36.30378402217109,36.30378402217109,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202403115,Antonio Menard,2024,Edge,0.78,EDGE,46.165337,38.21817684545303,38.21817684545303,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202403135,Sam McGivern,2024,Edge,0.78,EDGE,46.480217,38.96149407500293,38.96149407500293,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202403136,Daniel Simon,2024,Edge,0.78,EDGE,39.039433,23.692106429811524,23.692106429811524,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202403137,Langden College,2024,Edge,0.78,EDGE,44.76211,34.687401625625064,34.687401625625064,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202403140,Anthony Shields,2024,Edge,0.78,EDGE,47.665936,41.86811795342577,41.86811795342577,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202403143,Marrio Williams Jr.,2024,Edge,0.78,EDGE,53.91449,58.10709594200569,58.10709594200569,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202403174,Hatimu Letisi,2024,Edge,0.78,EDGE,47.235344,40.57072568854174,40.57072568854174,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202403185,Jordan Snowden,2024,Edge,0.78,EDGE,51.757133,53.26743037726001,53.26743037726001,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202403198,Ben Kampman,2024,Edge,0.78,EDGE,63.580433,74.82338674861845,74.82338674861845,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202403205,Frank Kissick,2024,Edge,0.78,EDGE,50.41406,50.08405585713169,50.08405585713169,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202403220,Collin Tahitua,2024,Edge,0.78,EDGE,43.296787,29.931929480711556,29.931929480711556,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202403230,Zach McClain,2024,Edge,0.78,EDGE,42.777508,28.84089303901444,28.84089303901444,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202403240,Jayden Antonelli,2024,Edge,0.78,EDGE,61.612316,71.23027041907223,71.23027041907223,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202403248,Layton Starks,2024,Edge,0.7783,EDGE,57.509426,63.663986220510786,63.663986220510786,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202403268,Onyx Carter,2024,Edge,0.77,EDGE,62.59981,73.27712092768591,73.27712092768591,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202403277,Nehemiah Williams,2024,Edge,0.77,EDGE,48.730545,45.06386210881148,45.06386210881148,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202403291,Ellis Nelson,2024,Edge,0.77,EDGE,55.325214,59.963224649730265,59.963224649730265,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202403294,Charlie Seymore,2024,Edge,0.77,EDGE,55.84363,60.75358041951853,60.75358041951853,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202403317,Waylon Romero,2024,Edge,0.77,EDGE,51.413685,52.60962023530394,52.60962023530394,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202403351,Isaac Keim,2024,Edge,0.77,EDGE,54.90133,59.5144500672896,59.5144500672896,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202403353,Brayden Welch,2024,Edge,0.77,EDGE,51.291836,52.36803265738292,52.36803265738292,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202403358,Tommy Ducker,2024,Edge,0.77,EDGE,55.52431,60.26190742638541,60.26190742638541,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202403363,Tyler Arlaud,2024,Edge,0.77,EDGE,49.387875,47.549187344459526,47.549187344459526,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202403385,David Dika,2024,Edge,0.77,EDGE,55.532204,60.295064493278865,60.295064493278865,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202403392,Brian Smith,2024,Edge,0.77,EDGE,55.738995,60.68961483080087,60.68961483080087,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202403394,C.J. Millican,2024,Edge,0.77,EDGE,68.68972,81.25893929823533,81.25893929823533,Elite Power 4,All-Conference/All-American honors.,First round NFL Draft talent
+202403401,Justice Grauel Tebong,2024,Edge,0.77,EDGE,55.014755,59.733234482542464,59.733234482542464,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202403406,Ibe Divine,2024,Edge,0.77,EDGE,55.862213,60.764939383523036,60.764939383523036,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202403415,Jordan Taula,2024,Edge,0.76,EDGE,51.352634,52.53413216162688,52.53413216162688,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202403426,Bryce Slezak,2024,Edge,0.76,EDGE,53.592026,57.76325640286823,57.76325640286823,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202403452,Aaron Ivankovich,2024,Edge,0.76,EDGE,47.56717,41.599303277129486,41.599303277129486,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202403463,Alex Hach,2024,Edge,0.76,EDGE,53.222065,57.02858003369552,57.02858003369552,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202403473,Jeremy Fleming,2024,Edge,0.76,EDGE,59.517483,67.83101721603026,67.83101721603026,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202403475,Demir Johnson,2024,Edge,0.76,EDGE,62.636475,73.39545484645257,73.39545484645257,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202403480,Kai Moananu-Apela,2024,Edge,0.76,EDGE,49.10647,46.965498363152776,46.965498363152776,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202403481,Harrysson Ngassa,2024,Edge,0.76,EDGE,56.0106,60.90965111875396,60.90965111875396,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202403485,Mark Debiak,2024,Edge,0.76,EDGE,60.138824,68.35984063569812,68.35984063569812,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202403494,Damon Iosefa,2024,Edge,0.75,EDGE,43.98196,32.36913709041689,32.36913709041689,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202403511,Jack Olyphant,2024,Edge,0.75,EDGE,47.721355,41.97993105123879,41.97993105123879,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202403513,Luke Richey,2024,Edge,0.75,EDGE,62.711967,73.63911609423033,73.63911609423033,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202403558,Troy Grizzle,2024,Edge,0.75,EDGE,47.3732,40.99305865143958,40.99305865143958,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202403564,Giovanni Livingston,2024,Edge,0.74,EDGE,53.00348,56.764857833196515,56.764857833196515,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202403578,Drew Caldwell,2024,Edge,0.74,EDGE,47.68296,41.90246692475971,41.90246692475971,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202403579,Dylan McIntyre,2024,Edge,0.74,EDGE,59.517483,67.83101721603026,67.83101721603026,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202403609,Jackson Murphy,2024,Edge,0.74,EDGE,55.503803,60.17575353966758,60.17575353966758,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202403618,Nate Ketter,2024,Edge,0.73,EDGE,53.961327,58.160690335660426,58.160690335660426,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202403641,Dailey Sparks,2024,Edge,0.73,EDGE,52.71456,56.14356014759176,56.14356014759176,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202403642,Ed Berncich,2024,Edge,0.73,EDGE,51.31493,52.4331935651622,52.4331935651622,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202403653,Camden Taylor,2024,Edge,0.72,EDGE,54.441715,58.90744289956097,58.90744289956097,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202403661,Mason Starbuck,2024,Edge,0.72,EDGE,62.27666,72.2945631522562,72.2945631522562,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202500009,Isaiah Gibson,2025,Edge,0.9962,EDGE,64.76071,77.37928199924757,77.37928199924757,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202500021,Lance Jackson,2025,Edge,0.9875,EDGE,69.25881,81.70468855894002,81.70468855894002,Elite Power 4,All-Conference/All-American honors.,First round NFL Draft talent
+202500043,Nate Marshall,2025,Edge,0.9791,EDGE,59.17407,67.31281757487872,67.31281757487872,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202500046,Javion Hilson,2025,Edge,0.9784,EDGE,65.459625,78.66055202248224,78.66055202248224,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202500047,Jared Smith,2025,Edge,0.9779,EDGE,69.1732,81.63763374804385,81.63763374804385,Elite Power 4,All-Conference/All-American honors.,First round NFL Draft talent
+202500060,Justin Hill,2025,Edge,0.9691,EDGE,58.62885,66.12601470748707,66.12601470748707,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202500073,Bryce Davis,2025,Edge,0.9636,EDGE,52.729668,56.1870083826916,56.1870083826916,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202500075,Hayden Lowe,2025,Edge,0.9633,EDGE,50.130505,49.58115123782284,49.58115123782284,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202500081,Zion Grady,2025,Edge,0.958,EDGE,57.205917,63.0723378173887,63.0723378173887,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202500101,Chad Woodfork,2025,Edge,0.9499,EDGE,67.11094,80.02233647870156,80.02233647870156,Elite Power 4,All-Conference/All-American honors.,First round NFL Draft talent
+202500104,Smith Orogbo,2025,Edge,0.9485,EDGE,67.11094,80.02233647870156,80.02233647870156,Elite Power 4,All-Conference/All-American honors.,First round NFL Draft talent
+202500118,Chase Linton,2025,Edge,0.9445,EDGE,54.841297,59.388603083568405,59.388603083568405,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202500123,Zahir Mathis,2025,Edge,0.9441,EDGE,67.02614,79.95591510599762,79.95591510599762,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202500142,Jayden Woods,2025,Edge,0.9379,EDGE,65.914116,79.0484323741904,79.0484323741904,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202500143,Marco Jones,2025,Edge,0.9379,EDGE,50.360107,49.97815605326956,49.97815605326956,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202500186,CJ Nickson,2025,Edge,0.9276,EDGE,59.697655,68.0538175154938,68.0538175154938,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202500201,London Merritt,2025,Edge,0.9246,EDGE,62.453,72.77598298895158,72.77598298895158,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202500204,Damien Shanklin,2025,Edge,0.9233,EDGE,55.963432,60.85506236374398,60.85506236374398,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202500209,Ari Watford,2025,Edge,0.9218,EDGE,60.96198,69.97605861023975,69.97605861023975,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202500213,Jaquavious Dodd,2025,Edge,0.9209,EDGE,37.967102,22.07858210115963,22.07858210115963,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202500214,Donovan Darden,2025,Edge,0.9207,EDGE,40.147495,25.377744284896057,25.377744284896057,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202500217,L A Jessie Harrold,2025,Edge,0.9202,EDGE,49.377087,47.53597559302824,47.53597559302824,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202500226,Nicolas Clayton,2025,Edge,0.9182,EDGE,48.62068,44.71652522340094,44.71652522340094,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202500233,Daeden Hopkins,2025,Edge,0.917,EDGE,48.000546,42.8055197044309,42.8055197044309,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202500234,Tyshun Willis,2025,Edge,0.917,EDGE,43.898727,32.02568522930058,32.02568522930058,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202500238,Herbert Scroggins III,2025,Edge,0.9166,EDGE,54.38626,58.85957080212572,58.85957080212572,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202500253,Epi Sitanilei,2025,Edge,0.9131,EDGE,49.019302,46.688097833479446,46.688097833479446,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202500259,Wydeek Collier,2025,Edge,0.9123,EDGE,66.80818,79.78519753736008,79.78519753736008,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202500265,Tobi Haastrup,2025,Edge,0.9114,EDGE,53.53727,57.59762395541057,57.59762395541057,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202500289,Jayden Loftin,2025,Edge,0.9071,EDGE,56.93145,62.65360865406109,62.65360865406109,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202500293,Chaz Coleman,2025,Edge,0.9065,EDGE,51.413,52.60877120673222,52.60877120673222,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202500307,Kamauryn Morgan,2025,Edge,0.9048,EDGE,51.498074,52.71396584676882,52.71396584676882,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202500348,Dayshaun Burnett,2025,Edge,0.9,EDGE,74.561844,86.70437361902368,86.70437361902368,Elite Power 4,All-Conference/All-American honors.,First round NFL Draft talent
+202500349,Cedric Works,2025,Edge,0.9,EDGE,63.399693,74.64040641845392,74.64040641845392,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202500390,Darryll Desir,2025,Edge,0.8959,EDGE,59.740147,68.08329258281724,68.08329258281724,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202500397,Daniel Jennings,2025,Edge,0.8956,EDGE,59.852165,68.16099572959459,68.16099572959459,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202500408,Julius Holly,2025,Edge,0.895,EDGE,58.669846,66.206865524645,66.206865524645,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202500448,Cortez Harris,2025,Edge,0.8925,EDGE,53.013397,56.777345598048605,56.777345598048605,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202500488,CJ May,2025,Edge,0.8894,EDGE,56.45383,61.79904714678643,61.79904714678643,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202500497,Anthony Addison,2025,Edge,0.8892,EDGE,52.330273,54.427941573064096,54.427941573064096,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202500501,Dominik Hulak,2025,Edge,0.8886,EDGE,52.632854,55.75765645219934,55.75765645219934,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202500553,Jared Martin,2025,Edge,0.8848,EDGE,52.525105,55.39383137004564,55.39383137004564,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202500564,Gabe Kaminski,2025,Edge,0.8842,EDGE,50.89873,51.50902790273777,51.50902790273777,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202500574,Keiundre Johnson,2025,Edge,0.8836,EDGE,55.203632,59.87099010603263,59.87099010603263,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202500575,Chinedu Onyeagoro,2025,Edge,0.8836,EDGE,54.79375,59.28892990538316,59.28892990538316,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202500581,Triston Abram,2025,Edge,0.8833,EDGE,54.454914,58.918837097616,58.918837097616,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202500582,Evan Ward,2025,Edge,0.8832,EDGE,58.838642,66.85458974098003,66.85458974098003,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202500588,Tyrone Burrus Jr.,2025,Edge,0.8828,EDGE,58.115227,65.27237914399056,65.27237914399056,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202500590,Sheldon Rice,2025,Edge,0.8828,EDGE,60.294514,68.46783649912138,68.46783649912138,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202500609,Reshad Sterling,2025,Edge,0.8819,EDGE,63.75475,74.99986351449432,74.99986351449432,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202500612,Trent Sellers,2025,Edge,0.8819,EDGE,57.53308,63.750009987168404,63.750009987168404,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202500616,Talib Graham,2025,Edge,0.8814,EDGE,60.371536,68.52126419319872,68.52126419319872,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202500628,Xavier Newsom,2025,Edge,0.8808,EDGE,60.53155,69.05827266730846,69.05827266730846,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202500632,Cole Cogshell,2025,Edge,0.8808,EDGE,50.642944,50.81912933304183,50.81912933304183,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202500648,Ike Ackerman,2025,Edge,0.88,EDGE,58.096275,65.22298897665144,65.22298897665144,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202500687,Colby Cronk,2025,Edge,0.8789,EDGE,52.45312,54.96244288396153,54.96244288396153,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202500697,Sampson Onuoha,2025,Edge,0.8786,EDGE,62.621113,73.34587304530042,73.34587304530042,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202500700,Sharlandiin Strange,2025,Edge,0.8783,EDGE,56.163208,61.111085104096055,61.111085104096055,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202500707,Malachi Curvey,2025,Edge,0.8778,EDGE,64.039505,75.48282977218564,75.48282977218564,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202500719,Enoch Atewogbola,2025,Edge,0.8774,EDGE,54.581352,59.0279875873657,59.0279875873657,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202500721,Jack Limbaugh,2025,Edge,0.8772,EDGE,64.934296,77.89210879595657,77.89210879595657,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202500734,Taeshawn Alston,2025,Edge,0.8769,EDGE,45.981777,37.70282904359416,37.70282904359416,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202500752,Warren Roberts Jr.,2025,Edge,0.8761,EDGE,60.439743,68.7463002901782,68.7463002901782,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202500765,John Schobel,2025,Edge,0.8756,EDGE,53.426334,57.33692212982417,57.33692212982417,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202500769,Andre Fuller Jr.,2025,Edge,0.8753,EDGE,52.363396,54.502071852129994,54.502071852129994,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202500775,Sherrod Henderson,2025,Edge,0.8753,EDGE,51.432957,52.633449637217,52.633449637217,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202500793,Kobby Sakyi-Prah,2025,Edge,0.8747,EDGE,52.450253,54.94311961829913,54.94311961829913,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202500813,Mandrell Desir,2025,Edge,0.8744,EDGE,56.829166,62.53383671443217,62.53383671443217,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202500834,Alex Shieldnight,2025,Edge,0.8736,EDGE,54.50042,58.95812073593925,58.95812073593925,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202500836,Romando Johnson,2025,Edge,0.8736,EDGE,50.121716,49.5659541238188,49.5659541238188,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202500859,Niklas Fisher,2025,Edge,0.8728,EDGE,52.04338,53.89700923641014,53.89700923641014,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202500871,Sam Hayward,2025,Edge,0.8722,EDGE,52.890743,56.62291517370658,56.62291517370658,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202500895,Pupu Sepulona,2025,Edge,0.8717,EDGE,70.08291,82.47137121685006,82.47137121685006,Elite Power 4,All-Conference/All-American honors.,First round NFL Draft talent
+202500901,Caden O'Rourke,2025,Edge,0.8714,EDGE,48.90788,45.631886538009304,45.631886538009304,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202500907,Samuel Lateju,2025,Edge,0.8714,EDGE,54.310837,58.65035795305058,58.65035795305058,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202500915,Jaden Williams,2025,Edge,0.8711,EDGE,47.19507,40.50646563511772,40.50646563511772,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202500920,Adrian Holley,2025,Edge,0.8708,EDGE,54.896336,59.50398214445227,59.50398214445227,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202500928,Mykah Newton,2025,Edge,0.8706,EDGE,55.961693,60.853049224052555,60.853049224052555,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202500945,Willie Fletcher,2025,Edge,0.87,EDGE,55.728127,60.68297108445539,60.68297108445539,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202500969,Kelan Butler,2025,Edge,0.8697,EDGE,50.818527,51.322694563693304,51.322694563693304,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202501004,Erik Gayle,2025,Edge,0.8689,EDGE,52.212425,54.225065706941315,54.225065706941315,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202501026,JuJu Walls,2025,Edge,0.8681,EDGE,57.333084,63.31598261068145,63.31598261068145,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202501069,Zion Cooley,2025,Edge,0.8667,EDGE,53.01887,56.784237883649666,56.784237883649666,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202501118,Jamal Frilot,2025,Edge,0.8652,EDGE,54.73771,59.17144766366948,59.17144766366948,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202501133,Dalton Knapp,2025,Edge,0.8647,EDGE,55.961464,60.85278433725105,60.85278433725105,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202501136,Makel Green,2025,Edge,0.8647,EDGE,59.944126,68.22478560731845,68.22478560731845,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202501148,Brandon Thomas,2025,Edge,0.8647,EDGE,51.908875,53.63823605269865,53.63823605269865,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202501152,Bleu Dantzler,2025,Edge,0.8647,EDGE,56.63006,62.29605152988857,62.29605152988857,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202501154,Dylon Worthen,2025,Edge,0.8644,EDGE,64.108505,75.64423361702723,75.64423361702723,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202501173,Rashad Jones,2025,Edge,0.8639,EDGE,61.804226,71.57191027157438,71.57191027157438,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202501176,Kamden Laudenslager,2025,Edge,0.8639,EDGE,52.38056,54.573782821234005,54.573782821234005,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202501184,Israel Oladipupo,2025,Edge,0.8639,EDGE,53.05479,56.82946280436016,56.82946280436016,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202501189,Victor Sanchez Hernandez,2025,Edge,0.8639,EDGE,51.573,52.82087712104629,52.82087712104629,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202501193,Jalen Shivers,2025,Edge,0.8639,EDGE,54.16795,58.37483051508651,58.37483051508651,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202501212,Devin Hyde,2025,Edge,0.8633,EDGE,53.694927,57.914499227037865,57.914499227037865,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202501220,Brooks Williams Jr.,2025,Edge,0.8633,EDGE,55.9415,60.82968179337986,60.82968179337986,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202501225,Grayshaun Swain,2025,Edge,0.8631,EDGE,59.01395,67.11335419115906,67.11335419115906,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202501248,Lucien Holland,2025,Edge,0.8625,EDGE,54.299232,58.61477914672939,58.61477914672939,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202501303,Roy'Marr Thomas,2025,Edge,0.8611,EDGE,60.869785,69.8095328277851,69.8095328277851,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202501304,Gavin Askew,2025,Edge,0.8611,EDGE,58.142456,65.34334271373025,65.34334271373025,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202501310,Landon Brooks,2025,Edge,0.8608,EDGE,53.112656,56.898831090315426,56.898831090315426,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202501312,James Early,2025,Edge,0.8608,EDGE,54.206963,58.4115169599192,58.4115169599192,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202501313,JuJu Anderson,2025,Edge,0.8608,EDGE,56.31566,61.478760370282025,61.478760370282025,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202501325,Connor Vasek,2025,Edge,0.86,EDGE,55.025917,59.741375232534025,59.741375232534025,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202501332,Jamar Birden,2025,Edge,0.86,EDGE,50.882732,51.46807297208862,51.46807297208862,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202501363,Christian Smith,2025,Edge,0.86,EDGE,54.164494,58.37158049855982,58.37158049855982,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202501369,Chance Bryant,2025,Edge,0.86,EDGE,63.147125,74.38470897903088,74.38470897903088,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202501387,Jerry Washington,2025,Edge,0.86,EDGE,61.152744,70.32063082676538,70.32063082676538,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202501418,Garrett Martin,2025,Edge,0.8589,EDGE,55.353024,59.99603193570207,59.99603193570207,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202501424,Kyle Keya,2025,Edge,0.8589,EDGE,66.89888,79.85623822820169,79.85623822820169,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202501428,Ronnie Blossom,2025,Edge,0.8589,EDGE,54.75374,59.205050575634694,59.205050575634694,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202501435,Cameron Gooden,2025,Edge,0.8586,EDGE,52.81053,56.41958810179425,56.41958810179425,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202501449,Kamron Neal,2025,Edge,0.8583,EDGE,54.014324,58.22133432580909,58.22133432580909,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202501450,Brian Townsend Jr.,2025,Edge,0.8583,EDGE,53.75763,57.95936984592581,57.95936984592581,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202501461,Cole Funderburk,2025,Edge,0.8581,EDGE,51.70663,53.12801155192541,53.12801155192541,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202501506,John Baker IV,2025,Edge,0.8567,EDGE,47.24257,40.59286024584233,40.59286024584233,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202501515,Sidney Stewart,2025,Edge,0.8567,EDGE,56.967026,62.69526729386191,62.69526729386191,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202501521,Bol Bol,2025,Edge,0.8567,EDGE,44.968994,35.30073477090979,35.30073477090979,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202501536,Amari Wilson,2025,Edge,0.8561,EDGE,46.266644,38.507513067945844,38.507513067945844,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202501560,LeBron Williams,2025,Edge,0.855,EDGE,71.74048,84.03548520331258,84.03548520331258,Elite Power 4,All-Conference/All-American honors.,First round NFL Draft talent
+202501567,Sale Fano,2025,Edge,0.855,EDGE,58.12071,65.28666530954338,65.28666530954338,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202501579,Jake Stanish,2025,Edge,0.855,EDGE,46.81281,39.79895523413119,39.79895523413119,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202501583,Jeffrey Hairston Jr.,2025,Edge,0.855,EDGE,52.83817,56.49907862282919,56.49907862282919,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202501636,Charlie Woleben,2025,Edge,0.8533,EDGE,62.33066,72.37716472339238,72.37716472339238,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202501637,Anthony Ludington,2025,Edge,0.8533,EDGE,52.86308,56.57072432363777,56.57072432363777,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202501638,Logan Knapp,2025,Edge,0.8533,EDGE,53.55176,57.6414610508468,57.6414610508468,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202501647,Eric Hazzard,2025,Edge,0.8531,EDGE,58.498306,65.9773669000037,65.9773669000037,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202501648,Zion Lawson,2025,Edge,0.8531,EDGE,61.21195,70.427568932678,70.427568932678,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202501664,George Okorie,2025,Edge,0.8525,EDGE,59.818405,68.13757761793174,68.13757761793174,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202501687,Kendal Wall,2025,Edge,0.8517,EDGE,52.85946,56.560312107700966,56.560312107700966,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202501694,Andrew Hines,2025,Edge,0.8514,EDGE,57.465492,63.56966963897493,63.56966963897493,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202501718,Luke Webb,2025,Edge,0.8508,EDGE,57.873394,64.67517498298898,64.67517498298898,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202501726,Brad Stanyer,2025,Edge,0.8508,EDGE,54.979034,59.677346620533605,59.677346620533605,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202501735,Jerald James,2025,Edge,0.8503,EDGE,67.651024,80.44536562613406,80.44536562613406,Elite Power 4,All-Conference/All-American honors.,First round NFL Draft talent
+202501761,Romello Cooper,2025,Edge,0.85,EDGE,57.6477,64.16683890456261,64.16683890456261,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202501764,Khy'lek Jarrett,2025,Edge,0.85,EDGE,60.194862,68.39871205494413,68.39871205494413,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202501766,Chevy Robinson,2025,Edge,0.85,EDGE,79.77301,93.07264191126845,93.07264191126845,Elite Power 4,All-Conference/All-American honors.,First round NFL Draft talent
+202501771,DeReyon Jenkins,2025,Edge,0.85,EDGE,57.96329,64.87717740723228,64.87717740723228,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202501812,Phoenix-Orion Dicosmo,2025,Edge,0.85,EDGE,54.731926,59.15932438557828,59.15932438557828,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202501816,Ladarius Jemes,2025,Edge,0.85,EDGE,56.50225,61.893298156718195,61.893298156718195,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202501821,Patrick Smith,2025,Edge,0.85,EDGE,55.117146,59.80791181354845,59.80791181354845,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202501833,D'Ante Keys,2025,Edge,0.85,EDGE,55.443134,60.102338343003304,60.102338343003304,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202501845,Isaiah Thomas,2025,Edge,0.85,EDGE,62.80339,73.93419368211522,73.93419368211522,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202501856,Vincent Tautua,2025,Edge,0.8492,EDGE,75.637085,88.01836423667486,88.01836423667486,Elite Power 4,All-Conference/All-American honors.,First round NFL Draft talent
+202501857,Gavin Garretson,2025,Edge,0.8492,EDGE,56.27896,61.36914989211366,61.36914989211366,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202501865,Aidan Wright,2025,Edge,0.8492,EDGE,55.957817,60.84856380754708,60.84856380754708,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202501884,Jesse Myers,2025,Edge,0.8483,EDGE,52.12274,54.0503747669256,54.0503747669256,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202501918,Rhett Hlavacka,2025,Edge,0.8475,EDGE,53.411568,57.30768606880137,57.30768606880137,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202501934,Hector Gonzalez,2025,Edge,0.8467,EDGE,53.149467,56.94248637791411,56.94248637791411,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202501941,Aariz Taylor,2025,Edge,0.8467,EDGE,46.051678,37.893562892477405,37.893562892477405,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202501946,Matthew Pointer,2025,Edge,0.8464,EDGE,51.864952,53.55373479242485,53.55373479242485,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202501948,Lucan Amituanai,2025,Edge,0.8461,EDGE,54.01457,58.22161369062371,58.22161369062371,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202501955,Jonah Hayes,2025,Edge,0.8458,EDGE,52.169647,54.1417401347875,54.1417401347875,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202501996,De'Shawn Toilolo,2025,Edge,0.8444,EDGE,41.721886,27.307411887281084,27.307411887281084,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202502001,Royce Wilson,2025,Edge,0.8444,EDGE,51.573555,52.822019406034364,52.822019406034364,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202502012,Lantz Pascal,2025,Edge,0.8442,EDGE,46.79467,39.72555380639716,39.72555380639716,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202502020,Chandler Covington,2025,Edge,0.8436,EDGE,51.03602,51.86046495546364,51.86046495546364,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202502021,Jayden Fry,2025,Edge,0.8436,EDGE,44.792377,34.82823721036985,34.82823721036985,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202502025,Byron Jackson,2025,Edge,0.8433,EDGE,57.43464,63.51055639538986,63.51055639538986,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202502038,Justin Lee,2025,Edge,0.8428,EDGE,31.868254,14.914205854398457,14.914205854398457,Minimal D1 Impact,Roster filler; medical DQ; or transferred to lower levels.,nan
+202502053,Emmanuel Nwaiwu,2025,Edge,0.8419,EDGE,47.278843,40.70398881256421,40.70398881256421,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202502069,Josh Roberts,2025,Edge,0.8417,EDGE,52.757076,56.265840597134115,56.265840597134115,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202502091,Garrison Dibble,2025,Edge,0.8406,EDGE,50.794746,51.27197996219719,51.27197996219719,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202502101,Jeremiah Tuiileila,2025,Edge,0.8403,EDGE,51.19566,52.15346526827187,52.15346526827187,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202502152,KJ Brown,2025,Edge,0.84,EDGE,54.435555,58.90212450942835,58.90212450942835,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202502157,Justice Taufa,2025,Edge,0.84,EDGE,48.27365,43.722633987464654,43.722633987464654,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202502173,Atticus Fiorita,2025,Edge,0.84,EDGE,55.322,59.95943088538537,59.95943088538537,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202502176,Keegan Perea,2025,Edge,0.84,EDGE,46.54018,39.068407368395135,39.068407368395135,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202502179,Alijah Wayne,2025,Edge,0.84,EDGE,49.970737,49.00420007878591,49.00420007878591,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202502183,Austin Coronado,2025,Edge,0.84,EDGE,55.145607,59.828669891363575,59.828669891363575,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202502192,Manasse Kasongo,2025,Edge,0.84,EDGE,72.232925,84.48785317024844,84.48785317024844,Elite Power 4,All-Conference/All-American honors.,First round NFL Draft talent
+202502212,Donta Jenkins,2025,Edge,0.84,EDGE,58.75838,66.73611981253181,66.73611981253181,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202502232,James Marshall V,2025,Edge,0.84,EDGE,56.161358,61.10809827055292,61.10809827055292,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202502243,Samuel Iroh,2025,Edge,0.84,EDGE,47.27571,40.694394054621355,40.694394054621355,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202502245,Axel Ramazani,2025,Edge,0.8397,EDGE,63.356033,74.59620612553005,74.59620612553005,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202502249,Micah Cook,2025,Edge,0.8396,EDGE,71.272736,83.60377942674793,83.60377942674793,Elite Power 4,All-Conference/All-American honors.,First round NFL Draft talent
+202502285,Cayden Adkins,2025,Edge,0.8378,EDGE,54.0149,58.22199345216858,58.22199345216858,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202502309,Elijah Riley,2025,Edge,0.8367,EDGE,54.036873,58.24713628548438,58.24713628548438,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202502318,AJ Spencer,2025,Edge,0.8363,EDGE,56.28857,61.39785143000411,61.39785143000411,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202502320,Gian Carter,2025,Edge,0.8363,EDGE,49.93639,48.92930833269807,48.92930833269807,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202502334,Quincy Byas,2025,Edge,0.8356,EDGE,48.33791,43.90015834617162,43.90015834617162,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202502347,Grayson Gilmore,2025,Edge,0.835,EDGE,58.35396,65.812999025448,65.812999025448,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202502350,Anthony Shorter,2025,Edge,0.835,EDGE,52.166332,54.135283034537665,54.135283034537665,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202502355,Hudson Ball,2025,Edge,0.835,EDGE,54.71772,59.14571007062328,59.14571007062328,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202502358,Nigel Eldridge Jr.,2025,Edge,0.835,EDGE,59.37584,67.57893768698703,67.57893768698703,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202502382,Warren Cain,2025,Edge,0.8337,EDGE,59.662987,68.02976962862465,68.02976962862465,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202502384,Marshon Gregory-Bey,2025,Edge,0.8337,EDGE,50.123928,49.56977978619829,49.56977978619829,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202502385,Nykobi Brown,2025,Edge,0.8337,EDGE,49.389095,47.5506823092608,47.5506823092608,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202502414,Brody Clubb,2025,Edge,0.8317,EDGE,60.756264,69.60448314390281,69.60448314390281,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202502451,Phoenix Pope,2025,Edge,0.8304,EDGE,56.32478,61.50600347353572,61.50600347353572,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202502498,Andre Williams,2025,Edge,0.83,EDGE,70.29116,82.66957333221413,82.66957333221413,Elite Power 4,All-Conference/All-American honors.,First round NFL Draft talent
+202502509,Avery McCormick,2025,Edge,0.83,EDGE,59.10905,67.23753662842081,67.23753662842081,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202502528,Dalten Phelan,2025,Edge,0.83,EDGE,52.81682,56.43766958953277,56.43766958953277,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202502530,Shepard Fish,2025,Edge,0.83,EDGE,45.425507,36.571488898983624,36.571488898983624,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202502532,Luke Toothaker,2025,Edge,0.83,EDGE,57.51203,63.67346118142469,63.67346118142469,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202502538,Darryl Davis,2025,Edge,0.83,EDGE,51.364155,52.54837697433025,52.54837697433025,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202502547,Luke Westfall,2025,Edge,0.83,EDGE,48.480824,44.30428191504804,44.30428191504804,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202502550,Brandon Gorham,2025,Edge,0.83,EDGE,48.066193,43.05668647568188,43.05668647568188,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202502569,Tommy Ghislandi,2025,Edge,0.83,EDGE,49.000885,46.46936062312953,46.46936062312953,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202502574,Seth Taverner,2025,Edge,0.83,EDGE,49.1861,47.177334176822534,47.177334176822534,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202502578,Markell Bowens,2025,Edge,0.83,EDGE,46.116734,38.079364750307455,38.079364750307455,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202502592,Jordan Atkinson,2025,Edge,0.83,EDGE,51.873165,53.569535662093905,53.569535662093905,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202502596,Jason Handy,2025,Edge,0.83,EDGE,50.08138,49.49620834105893,49.49620834105893,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202502603,Ian Mitchell,2025,Edge,0.83,EDGE,49.971,49.00477399376592,49.00477399376592,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202502610,Myles Harrison,2025,Edge,0.8297,EDGE,58.751587,66.72609153579387,66.72609153579387,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202502612,Bryce Griffin,2025,Edge,0.8296,EDGE,51.865166,53.55414577649427,53.55414577649427,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202502619,Mason Alnutt,2025,Edge,0.8294,EDGE,49.45674,47.63352671807654,47.63352671807654,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202502627,Jameil Hamm,2025,Edge,0.8281,EDGE,53.12216,56.91010455940308,56.91010455940308,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202502647,Zach Johnson,2025,Edge,0.827,EDGE,52.45678,54.98708518684749,54.98708518684749,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202502697,Caius Coy,2025,Edge,0.825,EDGE,49.347347,47.49955451305715,47.49955451305715,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202502712,DeAngelo Thompson,2025,Edge,0.8237,EDGE,47.27924,40.705204226481456,40.705204226481456,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202502727,Darnell Malpress,2025,Edge,0.8237,EDGE,57.397945,63.44025344162568,63.44025344162568,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202502752,Lamarion Jones,2025,Edge,0.8206,EDGE,47.072083,40.35869206843207,40.35869206843207,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202502779,Cullen Devine,2025,Edge,0.82,EDGE,50.378487,50.0099354348978,50.0099354348978,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202502788,Jackson Kuma,2025,Edge,0.82,EDGE,51.635708,52.950372849556956,52.950372849556956,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202502802,Dorsett Edwards,2025,Edge,0.82,EDGE,56.75251,62.44407364700804,62.44407364700804,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202502812,Devin Huegel,2025,Edge,0.82,EDGE,56.57818,62.116779799683286,62.116779799683286,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202502817,Brennan King,2025,Edge,0.82,EDGE,60.458855,68.8112432248781,68.8112432248781,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202502820,Charlie Stec,2025,Edge,0.82,EDGE,46.61264,39.19760248309613,39.19760248309613,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202502847,LaMario Claiborne,2025,Edge,0.82,EDGE,62.62567,73.36058629396614,73.36058629396614,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202502856,Julius Patton,2025,Edge,0.82,EDGE,57.59505,63.97536978225839,63.97536978225839,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202502864,Paki Crawford,2025,Edge,0.82,EDGE,64.19502,75.84661305096174,75.84661305096174,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202502905,Kani Smith,2025,Edge,0.82,EDGE,59.7941,68.1207192236488,68.1207192236488,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202502918,Charles Brooks III,2025,Edge,0.8196,EDGE,54.594337,59.03919737065452,59.03919737065452,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202502923,Leander Parrish,2025,Edge,0.8194,EDGE,53.095486,56.878469178452036,56.878469178452036,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202502954,Benjamin Roberts,2025,Edge,0.8156,EDGE,78.48338,91.49666244524855,91.49666244524855,Elite Power 4,All-Conference/All-American honors.,First round NFL Draft talent
+202503003,Ethan Adams,2025,Edge,0.81,EDGE,50.390312,50.030382940719214,50.030382940719214,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202503025,Charlie Taufa,2025,Edge,0.81,EDGE,52.07669,53.961093395235125,53.961093395235125,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202503027,Sam Connelly,2025,Edge,0.81,EDGE,55.74898,60.695719895010235,60.695719895010235,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202503029,Kaleb Pleis,2025,Edge,0.81,EDGE,52.106636,54.01900321657484,54.01900321657484,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202503030,Ty Watkins,2025,Edge,0.81,EDGE,49.194286,47.19911140585895,47.19911140585895,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202503053,Micah Mosley,2025,Edge,0.81,EDGE,45.459846,36.6367465443581,36.6367465443581,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202503084,Aiden Holewski,2025,Edge,0.81,EDGE,48.535706,44.46605112316721,44.46605112316721,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202503163,Shane Klingelberg,2025,Edge,0.8,EDGE,55.309605,59.948279933361945,59.948279933361945,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202503200,Daniel Leupold,2025,Edge,0.8,EDGE,59.27561,67.43038994719524,67.43038994719524,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202503224,Chuck Lanier,2025,Edge,0.7944,EDGE,48.96411,46.03261109790724,46.03261109790724,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202503244,Graysen Schneider,2025,Edge,0.79,EDGE,49.877075,48.79997783959282,48.79997783959282,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202503269,Kyce Shamma,2025,Edge,0.79,EDGE,53.203938,57.00708263196817,57.00708263196817,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202503281,Lincoln Stueve,2025,Edge,0.79,EDGE,59.41016,67.64001763427642,67.64001763427642,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202503284,Tyler Brinks,2025,Edge,0.79,EDGE,61.114243,70.25108660621281,70.25108660621281,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202503293,Barron Sholl,2025,Edge,0.79,EDGE,46.870533,40.032543121506876,40.032543121506876,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202503318,Jake DeVos,2025,Edge,0.79,EDGE,46.432087,38.875679136219965,38.875679136219965,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202503319,Cade Brook,2025,Edge,0.7883,EDGE,52.366962,54.51697179793271,54.51697179793271,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202503324,Jackson Heims,2025,Edge,0.78,EDGE,52.529743,55.409487588642364,55.409487588642364,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202503330,Nicholas McCullough,2025,Edge,0.78,EDGE,44.656353,34.195275869201524,34.195275869201524,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202503358,K'Vuone McNeal,2025,Edge,0.78,EDGE,43.615192,30.84681388721417,30.84681388721417,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202503369,Jack Burzynski,2025,Edge,0.78,EDGE,40.701885,26.04133069807705,26.04133069807705,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202503414,Breylon McCuller,2025,Edge,0.78,EDGE,34.856003,16.990199222901587,16.990199222901587,Minimal D1 Impact,Roster filler; medical DQ; or transferred to lower levels.,nan
+202503418,Lijah Petelo,2025,Edge,0.78,EDGE,46.074993,37.96015260486496,37.96015260486496,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202503435,Manaalii Danielson,2025,Edge,0.77,EDGE,55.919647,60.80438951861624,60.80438951861624,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202503437,Malakai Maiava,2025,Edge,0.77,EDGE,49.450768,47.62621073408029,47.62621073408029,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202503446,Chase Dinaburg,2025,Edge,0.77,EDGE,59.276043,67.43088905227326,67.43088905227326,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202503447,Michael Chude,2025,Edge,0.77,EDGE,57.041077,62.802431992981994,62.802431992981994,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202503459,Jev Hutton,2025,Edge,0.77,EDGE,58.906723,66.95508084426024,66.95508084426024,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202503477,Gauge Larsen,2025,Edge,0.77,EDGE,48.91977,45.67009038359523,45.67009038359523,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202503482,Kade Friesen,2025,Edge,0.77,EDGE,68.657745,81.2338945863143,81.2338945863143,Elite Power 4,All-Conference/All-American honors.,First round NFL Draft talent
+202503489,Caden Siegner,2025,Edge,0.77,EDGE,51.124542,52.03569150142959,52.03569150142959,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202503498,Nicolas Matejka,2025,Edge,0.77,EDGE,47.41884,41.1328779986118,41.1328779986118,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202503512,Chase Schefke,2025,Edge,0.77,EDGE,57.959,64.86753416157015,64.86753416157015,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202503531,Vory Peacock,2025,Edge,0.76,EDGE,58.788567,66.78067554180038,66.78067554180038,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202503533,Josh Crandall,2025,Edge,0.76,EDGE,46.868088,40.022648207694566,40.022648207694566,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202503555,Brody Thornton,2025,Edge,0.76,EDGE,56.54924,62.01678308311437,62.01678308311437,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202503558,Jimmy McKenzie,2025,Edge,0.76,EDGE,50.31409,49.898588871745794,49.898588871745794,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202503559,Jonnell George,2025,Edge,0.76,EDGE,49.607246,47.95340244375618,47.95340244375618,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202503561,Ethan Stendell,2025,Edge,0.76,EDGE,62.27666,72.2945631522562,72.2945631522562,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202503564,Austin Flaherty,2025,Edge,0.76,EDGE,50.068615,49.47413822671105,49.47413822671105,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202503568,Wehbe Elie Wehbe,2025,Edge,0.76,EDGE,49.907455,48.86621927293839,48.86621927293839,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202503572,Finn Goodman,2025,Edge,0.76,EDGE,49.052097,46.8208614360996,46.8208614360996,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202503579,Jerrold Anderson,2025,Edge,0.75,EDGE,53.312008,57.135243699084306,57.135243699084306,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202503588,Braylen Landrum,2025,Edge,0.75,EDGE,49.607246,47.95340244375618,47.95340244375618,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202503590,James MacKinney,2025,Edge,0.75,EDGE,64.94965,77.93748152546497,77.93748152546497,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202503601,Elizah Jolly,2025,Edge,0.75,EDGE,56.704155,62.387450773523675,62.387450773523675,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202503631,Liam Kania,2025,Edge,0.74,EDGE,57.57136,63.8892211625287,63.8892211625287,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202600005,Zion Elee,2026,Edge,0.9975,EDGE,63.802933,75.04864410863337,75.04864410863337,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202600006,Carter Meadows,2026,Edge,0.9963,EDGE,70.14373,82.52925762012096,82.52925762012096,Elite Power 4,All-Conference/All-American honors.,First round NFL Draft talent
+202600012,Rodney Dunham,2026,Edge,0.9935,EDGE,56.454235,61.799834242591416,61.799834242591416,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202600015,LaDamion Guyton,2026,Edge,0.9904,EDGE,67.295425,80.16683807234566,80.16683807234566,Elite Power 4,All-Conference/All-American honors.,First round NFL Draft talent
+202600026,Anthony Jones,2026,Edge,0.9872,EDGE,66.14087,79.24195257585092,79.24195257585092,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202600028,Richard Wesley,2026,Edge,0.9869,EDGE,64.19759,75.85262732514481,75.85262732514481,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202600044,Luke Wafle,2026,Edge,0.9787,EDGE,78.04181,90.95704000518145,90.95704000518145,Elite Power 4,All-Conference/All-American honors.,First round NFL Draft talent
+202600067,Trenton Henderson,2026,Edge,0.9702,EDGE,56.102406,61.01589721483728,61.01589721483728,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202600072,Jake Kreul,2026,Edge,0.9691,EDGE,60.082603,68.32084220296512,68.32084220296512,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202600096,Julian Walker,2026,Edge,0.9572,EDGE,53.483246,57.44959916273534,57.44959916273534,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202600098,Pierre Dean,2026,Edge,0.9546,EDGE,51.718468,53.16068899093238,53.16068899093238,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202600115,Landon Barnes,2026,Edge,0.9499,EDGE,66.37083,79.43820749319049,79.43820749319049,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202600119,Ebenezer Ewetade,2026,Edge,0.9482,EDGE,58.20042,65.49440623883456,65.49440623883456,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202600120,Tristian Givens,2026,Edge,0.9475,EDGE,63.329502,74.56934609605993,74.56934609605993,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202600138,Kosi Okpala,2026,Edge,0.9414,EDGE,52.64924,55.835439255359134,55.835439255359134,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202600143,KJ Ford,2026,Edge,0.9401,EDGE,55.17757,59.851982039066684,59.851982039066684,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202600147,Carter Gooden,2026,Edge,0.9383,EDGE,59.940495,68.22226650649326,68.22226650649326,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202600148,Derek Colman-Brusa,2026,Edge,0.9376,EDGE,54.250572,58.46558675572574,58.46558675572574,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202600151,Asharri Charles,2026,Edge,0.937,EDGE,55.98638,60.8816216803748,60.8816216803748,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202600158,Khamari Brooks,2026,Edge,0.9331,EDGE,56.87687,62.58969574195836,62.58969574195836,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202600165,Hezekiah Harris,2026,Edge,0.9318,EDGE,58.190994,65.46984039674619,65.46984039674619,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202600178,Jordan Campbell,2026,Edge,0.9284,EDGE,58.913414,66.9649570920976,66.9649570920976,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202600203,Jordan Carter,2026,Edge,0.9238,EDGE,63.588577,74.83163206320059,74.83163206320059,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202600208,Aaden Aytch,2026,Edge,0.9228,EDGE,55.963432,60.85506236374398,60.85506236374398,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202600256,Jackson Ford,2026,Edge,0.9115,EDGE,65.05369,78.24483499768387,78.24483499768387,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202600262,Tyson Harley,2026,Edge,0.9109,EDGE,52.210117,54.22057025740029,54.22057025740029,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202600279,Zach Groves,2026,Edge,0.9092,EDGE,57.84165,64.603840680411,64.603840680411,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202600284,Kamhariyan Johnson,2026,Edge,0.9089,EDGE,52.13846,54.08098840677523,54.08098840677523,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202600286,Micah Nickerson,2026,Edge,0.9086,EDGE,52.082893,53.97302661125086,53.97302661125086,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202600311,DeAnthony Lafayette,2026,Edge,0.9044,EDGE,51.25258,52.257267724783546,52.257267724783546,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202600317,Prince Tavizon,2026,Edge,0.9036,EDGE,46.522427,39.03675303494852,39.03675303494852,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202600327,Kevontay Hugan,2026,Edge,0.9027,EDGE,58.46473,65.93913312537794,65.93913312537794,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202600333,Ronelle Johnson,2026,Edge,0.9024,EDGE,53.111717,56.897718219771455,56.897718219771455,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202600361,Rinaldo Callaway,2026,Edge,0.8995,EDGE,51.86401,53.551922059118645,53.551922059118645,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202600366,Dre Quinn,2026,Edge,0.8989,EDGE,57.313225,63.277933210816975,63.277933210816975,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202600401,Carter Buck,2026,Edge,0.8956,EDGE,55.888287,60.780878311663216,60.780878311663216,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202600406,Samu Moala,2026,Edge,0.8948,EDGE,50.279167,49.83820276987644,49.83820276987644,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202600414,Mason Leak,2026,Edge,0.8944,EDGE,56.032368,60.93484185357701,60.93484185357701,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202600416,Matthew Nelson,2026,Edge,0.8943,EDGE,55.74523,60.6934275809851,60.6934275809851,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202600430,Andrew Harris,2026,Edge,0.8933,EDGE,54.91544,59.544030545956744,59.544030545956744,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202600433,Julian Hugo,2026,Edge,0.8933,EDGE,53.62632,57.86540279333951,57.86540279333951,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202600454,Kedric Golston II,2026,Edge,0.8911,EDGE,59.40806,67.63627693727113,67.63627693727113,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202600465,Jarius Rodgers,2026,Edge,0.89,EDGE,55.52177,60.251234344437115,60.251234344437115,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202600467,Zavion Griffin-Haynes,2026,Edge,0.89,EDGE,46.928905,40.18665778560289,40.18665778560289,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202600473,Daniel Norman,2026,Edge,0.8891,EDGE,55.557873,60.402901082513296,60.402901082513296,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202600487,Parker Crim,2026,Edge,0.8889,EDGE,56.144966,61.08163554120267,61.08163554120267,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202600489,Malachi Ervin,2026,Edge,0.8889,EDGE,56.887135,62.6017162651949,62.6017162651949,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202600491,Kamron Wilson,2026,Edge,0.8886,EDGE,56.934982,62.65774503626735,62.65774503626735,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202600511,Demeterius Thompson,2026,Edge,0.8878,EDGE,54.593796,59.03872974749735,59.03872974749735,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202600512,Malique Franklin,2026,Edge,0.8878,EDGE,53.021393,56.787412657713986,56.787412657713986,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202600513,Elijah Reeder,2026,Edge,0.8878,EDGE,56.75855,62.45114480579044,62.45114480579044,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202600533,Alhassan Iddrissu,2026,Edge,0.8867,EDGE,59.147438,67.28198348151902,67.28198348151902,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202600539,Cullen Thompson,2026,Edge,0.8867,EDGE,60.70874,69.51864326481393,69.51864326481393,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202600546,Max Meier,2026,Edge,0.8859,EDGE,50.623802,50.757011170003906,50.757011170003906,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202600558,Chris Addison,2026,Edge,0.8856,EDGE,56.856434,62.56576636887097,62.56576636887097,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202600561,Jace McCallum,2026,Edge,0.8856,EDGE,51.122524,52.03234963999851,52.03234963999851,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202600569,Jack Richerson,2026,Edge,0.8856,EDGE,57.932358,64.80766889249966,64.80766889249966,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202600575,Colton Yarbrough,2026,Edge,0.8844,EDGE,57.279495,63.21330916287198,63.21330916287198,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202600600,Corey Howard,2026,Edge,0.8844,EDGE,62.394756,72.56670616719504,72.56670616719504,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202600603,Cam Brooks,2026,Edge,0.8833,EDGE,59.1714,67.30972577351046,67.30972577351046,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202600626,Tucker Ashford,2026,Edge,0.8833,EDGE,57.615078,64.04820074096706,64.04820074096706,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202600631,Prince Williams,2026,Edge,0.8828,EDGE,56.45029,61.79215634577668,61.79215634577668,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202600651,Hunter Higgins,2026,Edge,0.8822,EDGE,61.115097,70.25263004279299,70.25263004279299,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202600667,Fameitau Siale,2026,Edge,0.8811,EDGE,53.358448,57.20251630653258,57.20251630653258,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202600670,Keysaun Eleazer,2026,Edge,0.8811,EDGE,44.554775,33.98597351559361,33.98597351559361,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202600679,Jaemin Pinckney,2026,Edge,0.8811,EDGE,50.849247,51.38820702533081,51.38820702533081,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202600684,Jaylen Stewart,2026,Edge,0.88,EDGE,57.60625,64.016099628881,64.016099628881,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202600686,Scott Smith,2026,Edge,0.88,EDGE,55.865253,60.76679795349052,60.76679795349052,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202600700,Ethan Wilson,2026,Edge,0.88,EDGE,52.1809,54.16366009535944,54.16366009535944,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202600709,Chris Carbin,2026,Edge,0.88,EDGE,59.258442,67.41050966439735,67.41050966439735,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202600710,Andrew Williams,2026,Edge,0.88,EDGE,53.800137,57.989788614938924,57.989788614938924,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202600742,Obinna Umeh,2026,Edge,0.8789,EDGE,52.505077,55.31242011577254,55.31242011577254,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202600748,Katrell Webb,2026,Edge,0.8778,EDGE,55.36297,60.00776425319569,60.00776425319569,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202600806,Tariq Boney,2026,Edge,0.8767,EDGE,55.785255,60.71789447696854,60.71789447696854,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202600807,Manny Lewis,2026,Edge,0.8767,EDGE,55.231846,59.891567340119295,59.891567340119295,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202600813,Amontre Harris,2026,Edge,0.8767,EDGE,55.71266,60.67351732956435,60.67351732956435,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202600823,Kaleb Walker,2026,Edge,0.8767,EDGE,45.374146,36.47388515122515,36.47388515122515,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202600858,Max Carmicle,2026,Edge,0.8756,EDGE,47.702587,41.94206483143978,41.94206483143978,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202600861,Hudson Woods,2026,Edge,0.8756,EDGE,54.437733,58.9040048814195,58.9040048814195,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202600866,Jordan Harris,2026,Edge,0.875,EDGE,53.600876,57.7900271481728,57.7900271481728,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202600874,PJ Takitaki,2026,Edge,0.8744,EDGE,52.00918,53.831207751295075,53.831207751295075,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202600891,Anthony Charles,2026,Edge,0.8744,EDGE,71.229744,83.56286248213786,83.56286248213786,Elite Power 4,All-Conference/All-American honors.,First round NFL Draft talent
+202600894,Nick Zalewski,2026,Edge,0.8744,EDGE,50.848927,51.38752367170141,51.38752367170141,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202600899,Sefa Sackey,2026,Edge,0.8744,EDGE,49.613625,47.97071838367213,47.97071838367213,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202600958,Joey Quinn,2026,Edge,0.8733,EDGE,47.292976,40.747287933366046,40.747287933366046,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202600971,Kayden Bennett,2026,Edge,0.8733,EDGE,57.898155,64.73081436751598,64.73081436751598,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202600973,Justyn Hartley,2026,Edge,0.8733,EDGE,57.279404,63.213133752653626,63.213133752653626,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202600990,JR Hardrick,2026,Edge,0.8722,EDGE,52.183907,54.16951532550544,54.16951532550544,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202601010,Colin Bussey,2026,Edge,0.8717,EDGE,49.364822,47.52095586854042,47.52095586854042,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202601011,Dutch Horisk,2026,Edge,0.8711,EDGE,57.576252,63.907005789017184,63.907005789017184,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202601100,Antwon Thomas,2026,Edge,0.87,EDGE,51.72801,53.18702681721547,53.18702681721547,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202601109,Prin Fox,2026,Edge,0.87,EDGE,50.05317,49.44743114572044,49.44743114572044,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202601128,Jake Plummer,2026,Edge,0.87,EDGE,56.5715,62.093698564419356,62.093698564419356,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202601141,Tyrone Morgan,2026,Edge,0.8689,EDGE,53.6275,57.866246318388875,57.866246318388875,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202601160,Gustaf Henriks Ras,2026,Edge,0.8689,EDGE,54.192245,58.39767748557046,58.39767748557046,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202601179,Cory House,2026,Edge,0.8678,EDGE,60.58642,69.24471462934216,69.24471462934216,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202601199,Carter Kessler,2026,Edge,0.8678,EDGE,52.066685,53.94184319498341,53.94184319498341,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202601209,Alijah Lash,2026,Edge,0.8678,EDGE,51.196327,52.15457079899104,52.15457079899104,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202601258,Kingston Shaw,2026,Edge,0.8667,EDGE,60.097805,68.33138696849919,68.33138696849919,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202601354,Dominic Funke,2026,Edge,0.8644,EDGE,62.72439,73.67920507971616,73.67920507971616,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202601384,Lucas Shanafelt,2026,Edge,0.8644,EDGE,69.10948,81.58772359916186,81.58772359916186,Elite Power 4,All-Conference/All-American honors.,First round NFL Draft talent
+202601391,Ajibola Afuye,2026,Edge,0.8644,EDGE,55.10624,59.799957471707756,59.799957471707756,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202601402,Sarrel Howard,2026,Edge,0.8633,EDGE,57.579185,63.91767379039756,63.91767379039756,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202601410,Ryan Harrington,2026,Edge,0.8633,EDGE,60.27431,68.45382267772403,68.45382267772403,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202601420,James Tilus,2026,Edge,0.8633,EDGE,55.993015,60.8892989828384,60.8892989828384,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202601460,Corey Webb Jr.,2026,Edge,0.8622,EDGE,52.21369,54.22753263131755,54.22753263131755,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202601462,Maurice Jones Jr.,2026,Edge,0.8622,EDGE,59.400284,67.62244111059827,67.62244111059827,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202601467,RJ Alphonse,2026,Edge,0.8622,EDGE,58.39148,65.85572424780872,65.85572424780872,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202601469,Tristan Lyles,2026,Edge,0.8611,EDGE,57.942505,64.83046981113189,64.83046981113189,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202601489,Harvie Moeai,2026,Edge,0.8611,EDGE,55.70378,60.66808853297176,60.66808853297176,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202601505,Caden Turner,2026,Edge,0.86,EDGE,52.045757,53.90158143418247,53.90158143418247,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202601509,Elijah Durham-Smith,2026,Edge,0.86,EDGE,53.852043,58.035639660516196,58.035639660516196,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202601570,Aiden Parker,2026,Edge,0.86,EDGE,58.999084,67.09141135317604,67.09141135317604,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202601589,Solomon Baker,2026,Edge,0.86,EDGE,50.56664,50.57403220812395,50.57403220812395,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202601597,Palmer Riley,2026,Edge,0.86,EDGE,55.383583,60.032083947762445,60.032083947762445,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202601601,Adruen Meredith,2026,Edge,0.86,EDGE,56.76245,62.45571448073321,62.45571448073321,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202601603,Josh Nengite,2026,Edge,0.86,EDGE,75.83347,88.25835907460579,88.25835907460579,Elite Power 4,All-Conference/All-American honors.,First round NFL Draft talent
+202601616,Samuel Dossous,2026,Edge,0.86,EDGE,54.939827,59.59515463358015,59.59515463358015,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202601633,Mickey Williams,2026,Edge,0.8589,EDGE,52.81337,56.42775110354028,56.42775110354028,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202601636,Adel Dorr,2026,Edge,0.8589,EDGE,55.353024,59.99603193570207,59.99603193570207,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202601655,Keegan Horn,2026,Edge,0.8589,EDGE,57.107986,62.906762464947825,62.906762464947825,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202601664,Evan Harvey,2026,Edge,0.8578,EDGE,50.66273,50.88333955856548,50.88333955856548,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202601707,Sinei Tengei,2026,Edge,0.8567,EDGE,45.47547,36.66643942543495,36.66643942543495,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202601734,Demetrius Geathers Jr.,2026,Edge,0.8556,EDGE,55.15837,59.837979170062056,59.837979170062056,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202601742,Rodarion Tellez,2026,Edge,0.8556,EDGE,61.672268,71.35049556407672,71.35049556407672,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202601744,Sawyer Arnold,2026,Edge,0.8556,EDGE,42.79147,28.86413376599414,28.86413376599414,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202601773,Seth Clarke,2026,Edge,0.855,EDGE,59.146923,67.28138720554087,67.28138720554087,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202601802,Uyi Igiehon,2026,Edge,0.855,EDGE,53.470146,57.423663581864176,57.423663581864176,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202601829,Cade Holles,2026,Edge,0.8544,EDGE,47.132217,40.43094710891695,40.43094710891695,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202601884,Peter Ramil,2026,Edge,0.8522,EDGE,56.165123,61.1141766307737,61.1141766307737,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202601889,Walter Moore,2026,Edge,0.8522,EDGE,55.23618,59.8947279320504,59.8947279320504,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202601898,Evan Weinberg,2026,Edge,0.8522,EDGE,55.480335,60.14622540100015,60.14622540100015,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202601899,JaKambry Brown,2026,Edge,0.8522,EDGE,53.796223,57.98698778419249,57.98698778419249,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202601907,Kamren Johnson,2026,Edge,0.8511,EDGE,54.4458,58.91096983196471,58.91096983196471,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202601915,Tyler Burnstein,2026,Edge,0.8511,EDGE,57.806118,64.5240031781025,64.5240031781025,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202601916,Jacquey Ferguson Jr.,2026,Edge,0.8511,EDGE,64.981026,78.03016541207133,78.03016541207133,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202601917,Jianni Davis,2026,Edge,0.8511,EDGE,49.353592,47.50720219236867,47.50720219236867,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202601971,Ifo Pili Jr.,2026,Edge,0.85,EDGE,49.773224,48.525699925324446,48.525699925324446,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202601992,Kadin Fossung,2026,Edge,0.85,EDGE,50.812748,51.31036979287736,51.31036979287736,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202601993,Chibuzo Amobi,2026,Edge,0.85,EDGE,78.47531,91.48679823878683,91.48679823878683,Elite Power 4,All-Conference/All-American honors.,First round NFL Draft talent
+202602000,Connor Coxwell,2026,Edge,0.85,EDGE,55.723637,60.68022637071421,60.68022637071421,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202602028,Corbin Wade,2026,Edge,0.85,EDGE,44.5919,34.06165611786027,34.06165611786027,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202602036,Michael Smarts,2026,Edge,0.85,EDGE,67.84073,80.59395468886763,80.59395468886763,Elite Power 4,All-Conference/All-American honors.,First round NFL Draft talent
+202602059,Marcus Ogbogu,2026,Edge,0.85,EDGE,56.811,62.51256516792439,62.51256516792439,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202602077,Bryce Fulda,2026,Edge,0.85,EDGE,61.62379,71.25328118747217,71.25328118747217,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202602082,Michael Holcomb,2026,Edge,0.85,EDGE,58.317608,65.77160733737608,65.77160733737608,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202602097,Muna Newman-Nwodika,2026,Edge,0.85,EDGE,52.101307,54.008622814907376,54.008622814907376,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202602110,Jonas Jimerson,2026,Edge,0.85,EDGE,55.582466,60.5062184388507,60.5062184388507,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202602111,Makijah Latiker,2026,Edge,0.85,EDGE,48.918327,45.66545738595921,45.66545738595921,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202602127,Kacey Gilliam,2026,Edge,0.8489,EDGE,52.222725,54.245128043735974,54.245128043735974,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202602143,Michael Foster,2026,Edge,0.8478,EDGE,47.438824,41.19463243611653,41.19463243611653,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202602159,Lawrence Brown,2026,Edge,0.8467,EDGE,45.969727,37.67718842880092,37.67718842880092,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202602169,Cole Albrecht,2026,Edge,0.8456,EDGE,46.662434,39.28638289016073,39.28638289016073,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202602188,JD Singletary,2026,Edge,0.845,EDGE,53.87497,58.061873762639095,58.061873762639095,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202602209,Cooper Willoughby,2026,Edge,0.845,EDGE,50.47217,50.27761416578215,50.27761416578215,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202602210,Matt Perez,2026,Edge,0.845,EDGE,53.222042,57.02855289051152,57.02855289051152,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202602218,Cole Goldsworthy,2026,Edge,0.845,EDGE,56.3704,61.63664552083371,61.63664552083371,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202602227,London Vickroy,2026,Edge,0.845,EDGE,50.8086,51.30152687150645,51.30152687150645,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202602229,Kijon Braxton,2026,Edge,0.845,EDGE,40.421158,25.70530931410676,25.70530931410676,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202602255,Peyton McCutcheon,2026,Edge,0.845,EDGE,56.175674,61.13121081959911,61.13121081959911,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202602256,Henry Smith,2026,Edge,0.845,EDGE,52.581455,55.58402352556443,55.58402352556443,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202602259,Cason Applewhite,2026,Edge,0.845,EDGE,48.110935,43.22128132598882,43.22128132598882,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202602286,Isaac Tanis,2026,Edge,0.8444,EDGE,57.21785,63.09519961584741,63.09519961584741,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202602317,Sir Nathanial Young,2026,Edge,0.84,EDGE,48.715897,45.01732472128934,45.01732472128934,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202602323,Maximus Jansenvanvuren,2026,Edge,0.84,EDGE,57.955055,64.85867094733491,64.85867094733491,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202602329,Rob Lange,2026,Edge,0.84,EDGE,44.64951,34.17909946552068,34.17909946552068,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202602342,Dycin Davis,2026,Edge,0.84,EDGE,45.433598,36.586864533935774,36.586864533935774,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202602352,Ocean Taufa,2026,Edge,0.84,EDGE,55.890877,60.78246171066939,60.78246171066939,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202602357,Benjamin Honebein,2026,Edge,0.84,EDGE,78.240105,91.19936570475268,91.19936570475268,Elite Power 4,All-Conference/All-American honors.,First round NFL Draft talent
+202602365,Mateo Kipke,2026,Edge,0.84,EDGE,64.76923,77.40445901805576,77.40445901805576,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202602416,Jakari Brown,2026,Edge,0.84,EDGE,58.063324,65.13711291677312,65.13711291677312,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202602422,Ryan Hassett,2026,Edge,0.84,EDGE,53.28282,57.100631615621346,57.100631615621346,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202602453,Ty Dominique,2026,Edge,0.84,EDGE,60.938255,69.93320757411406,69.93320757411406,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202602454,Nui Meyers,2026,Edge,0.84,EDGE,79.62846,92.89599989272062,92.89599989272062,Elite Power 4,All-Conference/All-American honors.,First round NFL Draft talent
+202602467,Caleb Metzner,2026,Edge,0.84,EDGE,53.373005,57.231336975316616,57.231336975316616,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202602474,Mac Olsen,2026,Edge,0.84,EDGE,50.389473,50.02893182740285,50.02893182740285,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202602476,Donovan Murphy,2026,Edge,0.84,EDGE,47.399326,41.073100669893485,41.073100669893485,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202602486,Austin Bouck,2026,Edge,0.84,EDGE,57.880306,64.69070703733546,64.69070703733546,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202602505,Alec Upshaw,2026,Edge,0.84,EDGE,52.14996,54.10339134952926,54.10339134952926,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202602525,Javon Joseph,2026,Edge,0.8356,EDGE,47.13777,40.437620753864046,40.437620753864046,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202602576,Mason Wright,2026,Edge,0.835,EDGE,61.712315,71.43080375778104,71.43080375778104,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202602578,Matthew Sexton,2026,Edge,0.835,EDGE,60.514645,69.00082215102304,69.00082215102304,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202602635,Blaze Jones,2026,Edge,0.83,EDGE,64.78607,77.45420447956845,77.45420447956845,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202602650,Aiden Anderson,2026,Edge,0.83,EDGE,61.928436,71.76190672239137,71.76190672239137,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202602677,Kendrick Gilmore,2026,Edge,0.83,EDGE,54.224514,58.42802173479699,58.42802173479699,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202602695,Demetress Mosley,2026,Edge,0.83,EDGE,58.761623,66.74090590754992,66.74090590754992,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202602706,Sylen Kiesel-Kauhane,2026,Edge,0.83,EDGE,51.08441,51.96923331191176,51.96923331191176,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202602715,Keoki Becerra,2026,Edge,0.83,EDGE,55.801006,60.727523128657026,60.727523128657026,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202602720,John Luke Minner,2026,Edge,0.83,EDGE,64.32102,76.14134817895366,76.14134817895366,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202602723,Blake Buhr,2026,Edge,0.83,EDGE,62.75682,73.78388461122735,73.78388461122735,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202602735,Khalid Feliz,2026,Edge,0.83,EDGE,51.451965,52.65695357817756,52.65695357817756,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202602738,Cornell McIntosh,2026,Edge,0.83,EDGE,52.17761,54.15724757808026,54.15724757808026,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202602739,Jacob Broach,2026,Edge,0.83,EDGE,53.747513,57.95213027171575,57.95213027171575,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202602740,Preston Lunsford,2026,Edge,0.83,EDGE,53.813583,57.99941135215253,57.99941135215253,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202602741,Darrius Summers,2026,Edge,0.83,EDGE,59.703434,68.05782637867676,68.05782637867676,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202602751,Jordan Ervin,2026,Edge,0.83,EDGE,51.737648,53.21363844737036,53.21363844737036,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202602769,Dante Bruley,2026,Edge,0.83,EDGE,48.93791,45.72837055227058,45.72837055227058,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202602775,Quincy Tchikou,2026,Edge,0.83,EDGE,50.988758,51.73948483247548,51.73948483247548,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202602777,Troy Stiggers,2026,Edge,0.83,EDGE,54.722527,59.14985940286297,59.14985940286297,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202602824,Brendan Huddleston,2026,Edge,0.825,EDGE,51.66515,53.013498348006046,53.013498348006046,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202602825,Matthew Plumb,2026,Edge,0.825,EDGE,42.385147,28.187771461556192,28.187771461556192,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202602898,Errol West Jr.,2026,Edge,0.82,EDGE,48.144535,43.3448853366891,43.3448853366891,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202602914,Maxwell Porter,2026,Edge,0.82,EDGE,58.977493,67.05954159105546,67.05954159105546,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202602922,Brody Sieck,2026,Edge,0.82,EDGE,52.215576,54.23120329590146,54.23120329590146,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202602930,Xander Shaw,2026,Edge,0.82,EDGE,56.18397,61.14460538239566,61.14460538239566,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202602931,Ian Campbell,2026,Edge,0.82,EDGE,50.58466,50.6300192282489,50.6300192282489,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202602935,Sosaia Noa,2026,Edge,0.82,EDGE,62.767216,73.81743574312196,73.81743574312196,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202602937,Sam Haener,2026,Edge,0.82,EDGE,50.056744,49.4536115692542,49.4536115692542,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202602949,Evan Walker,2026,Edge,0.82,EDGE,53.74851,57.95284276374774,57.95284276374774,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202602957,Julian Njelita,2026,Edge,0.82,EDGE,56.523876,61.93539293142104,61.93539293142104,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202603015,Max Mankins,2026,Edge,0.81,EDGE,56.663204,62.339498221704915,62.339498221704915,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202603025,Will Monroe,2026,Edge,0.81,EDGE,47.038563,40.31841643783446,40.31841643783446,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202603027,Sam Schmidt,2026,Edge,0.81,EDGE,53.323578,57.148964578595894,57.148964578595894,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202603091,Jamarieh Hector,2026,Edge,0.8,EDGE,54.755543,59.208833102374236,59.208833102374236,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202603104,Cody Morin,2026,Edge,0.79,EDGE,49.157,47.09992657985617,47.09992657985617,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202603115,CJ Perez,2026,Edge,0.77,EDGE,54.097256,58.308352252092526,58.308352252092526,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202700008,DJ Jacobs,2027,Edge,0.9969,EDGE,75.56193,87.92651896460082,87.92651896460082,Elite Power 4,All-Conference/All-American honors.,First round NFL Draft talent
+202700011,Zyron Forstall,2027,Edge,0.9959,EDGE,67.207306,80.09781721272077,80.09781721272077,Elite Power 4,All-Conference/All-American honors.,First round NFL Draft talent
+202700018,Anthony Sweeney,2027,Edge,0.9913,EDGE,61.97169,71.82807083761553,71.82807083761553,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202700020,Chris Whitehead,2027,Edge,0.9906,EDGE,76.25457,88.77295738410271,88.77295738410271,Elite Power 4,All-Conference/All-American honors.,First round NFL Draft talent
+202700034,Jaiden Bryant,2027,Edge,0.9843,EDGE,60.062386,68.30681779711054,68.30681779711054,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202700057,Mekai Brown,2027,Edge,0.976,EDGE,63.867676,75.11418953209375,75.11418953209375,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202700063,KJ Green,2027,Edge,0.9738,EDGE,58.21253,65.5259610679679,65.5259610679679,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202700066,Rashad Streets,2027,Edge,0.9713,EDGE,43.894142,32.006620779596055,32.006620779596055,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202700068,Desmond Malpress,2027,Edge,0.97,EDGE,56.693108,62.37451452852441,62.37451452852441,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202700080,Abraham Sesay,2027,Edge,0.9669,EDGE,69.44841,81.86749229963682,81.86749229963682,Elite Power 4,All-Conference/All-American honors.,First round NFL Draft talent
+202700088,Derwin Fields,2027,Edge,0.9613,EDGE,64.103134,75.63166967333323,75.63166967333323,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202700090,Zane Rowe,2027,Edge,0.9607,EDGE,50.58383,50.62744742821352,50.62744742821352,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202700091,James Pace III,2027,Edge,0.9602,EDGE,59.761463,68.09807906959374,68.09807906959374,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202700096,Frederick Ards,2027,Edge,0.9584,EDGE,61.822628,71.60005875837581,71.60005875837581,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202700100,Jabarrius Garror,2027,Edge,0.9575,EDGE,63.83385,75.07994540825311,75.07994540825311,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202700110,Recarder Kitchen,2027,Edge,0.9515,EDGE,72.153435,84.41483204039524,84.41483204039524,Elite Power 4,All-Conference/All-American honors.,First round NFL Draft talent
+202700111,Kaden McCarty,2027,Edge,0.9514,EDGE,67.45118,80.28883468266963,80.28883468266963,Elite Power 4,All-Conference/All-American honors.,First round NFL Draft talent
+202700119,Brayden Booth,2027,Edge,0.9488,EDGE,70.75754,83.11344412317581,83.11344412317581,Elite Power 4,All-Conference/All-American honors.,First round NFL Draft talent
+202700148,Krew Jones,2027,Edge,0.9385,EDGE,49.88522,48.81773593353968,48.81773593353968,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202700186,Myles Smith,2027,Edge,0.9281,EDGE,57.360428,63.36837179589631,63.36837179589631,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202700202,Aidan O'Neil,2027,Edge,0.9245,EDGE,66.599724,79.62191987956523,79.62191987956523,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202700210,Adriel Rojas,2027,Edge,0.9235,EDGE,58.96334,67.03865169397643,67.03865169397643,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202700230,Cameron Pritchett,2027,Edge,0.9202,EDGE,47.386345,41.03333092412058,41.03333092412058,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202700248,Anthony Cavallaro,2027,Edge,0.9176,EDGE,39.570023,24.51516533881847,24.51516533881847,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202700271,Rion Jackson,2027,Edge,0.9127,EDGE,49.95293,48.965373482746585,48.965373482746585,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202700282,Jayce Brewer,2027,Edge,0.9101,EDGE,56.224766,61.210463522416966,61.210463522416966,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202700296,Cameron Hall,2027,Edge,0.9068,EDGE,56.088467,60.99976560862568,60.99976560862568,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202700305,Jayden Broadie,2027,Edge,0.9044,EDGE,51.769627,53.30191913418809,53.30191913418809,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202700348,Andrew Rogers,2027,Edge,0.8947,EDGE,46.16948,38.23000872170513,38.23000872170513,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202700372,T.K. Cunningham,2027,Edge,0.89,EDGE,58.977524,67.05958663665564,67.05958663665564,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202700383,Keysan Taylor,2027,Edge,0.89,EDGE,49.55355,47.80762542805236,47.80762542805236,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202700391,Chris Kasky,2027,Edge,0.89,EDGE,50.631565,50.782202573308446,50.782202573308446,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202700402,Ty Tautolo,2027,Edge,0.8892,EDGE,59.172134,67.31057822731628,67.31057822731628,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202700430,Tommy Riordan,2027,Edge,0.8831,EDGE,54.593567,59.03853216024784,59.03853216024784,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202700516,Marquis Evans,2027,Edge,0.88,EDGE,56.412357,61.71831784874985,61.71831784874985,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202700518,Success Nwabude,2027,Edge,0.88,EDGE,60.803688,69.6901438741029,69.6901438741029,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202700524,Sedrick Marsh,2027,Edge,0.88,EDGE,54.613716,59.0559264244463,59.0559264244463,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202700525,Juelz Batiste,2027,Edge,0.88,EDGE,56.72762,62.414926893340834,62.414926893340834,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202700530,King Kalama,2027,Edge,0.88,EDGE,59.966595,68.24037122061723,68.24037122061723,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202700551,Chaz Gray,2027,Edge,0.875,EDGE,53.520855,57.54797114633921,57.54797114633921,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202700564,Kailon Walker,2027,Edge,0.875,EDGE,55.55037,60.37137863177409,60.37137863177409,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202700568,Miles Schirmer,2027,Edge,0.875,EDGE,45.983402,37.70628675233171,37.70628675233171,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202700594,Troy Mailo,2027,Edge,0.87,EDGE,46.612877,39.19802417812701,39.19802417812701,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202700600,Chris Wilson,2027,Edge,0.87,EDGE,54.922756,59.559368571932296,59.559368571932296,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202700614,Isaac Miller,2027,Edge,0.87,EDGE,50.650562,50.84385033176377,50.84385033176377,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202700615,Brian DeMoss,2027,Edge,0.87,EDGE,47.182144,40.49093657668314,40.49093657668314,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202700672,Brody Pfannenstiel,2027,Edge,0.87,EDGE,64.16192,75.76917704004094,75.76917704004094,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202700683,Keith Richmond,2027,Edge,0.87,EDGE,54.318695,58.674451424786824,58.674451424786824,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202700684,Bryson Phoenix,2027,Edge,0.87,EDGE,54.97658,59.67220462329571,59.67220462329571,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202700686,David Parson,2027,Edge,0.87,EDGE,48.084934,43.12563135585564,43.12563135585564,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202700710,DJ Sanchez,2027,Edge,0.865,EDGE,56.13155,61.05997637920016,61.05997637920016,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202700716,Camden Chalkley,2027,Edge,0.865,EDGE,55.677467,60.65200269152172,60.65200269152172,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202700740,Dylan Modena,2027,Edge,0.86,EDGE,59.35029,67.53346547547828,67.53346547547828,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202700789,Manase Brown,2027,Edge,0.86,EDGE,55.05666,59.76379707265091,59.76379707265091,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202700805,Jalen Price,2027,Edge,0.86,EDGE,57.050526,62.81716554937078,62.81716554937078,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202700825,Jag Ioane,2027,Edge,0.85,EDGE,66.140625,79.24174421656107,79.24174421656107,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202700826,Uhila Wolfgramm,2027,Edge,0.85,EDGE,59.512386,67.82194721385413,67.82194721385413,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202700864,Zane Fujihara-Faavesi,2027,Edge,0.85,EDGE,77.58447,90.39815532451901,90.39815532451901,Elite Power 4,All-Conference/All-American honors.,First round NFL Draft talent
+202700882,Richard Orosco,2027,Edge,0.845,EDGE,53.437325,57.35868113054922,57.35868113054922,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202700907,Dieter Lotulelei,2027,Edge,0.84,EDGE,46.222908,38.382602882650815,38.382602882650815,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202700921,Iosefa Miller,2027,Edge,0.84,EDGE,78.49041,91.50524933953137,91.50524933953137,Elite Power 4,All-Conference/All-American honors.,First round NFL Draft talent
+202700927,Jaxon Zembrycki,2027,Edge,0.84,EDGE,54.00602,58.21183155703679,58.21183155703679,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202700932,Kemper Castro,2027,Edge,0.84,EDGE,48.497486,44.35339624750543,44.35339624750543,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202700961,Kameron Payne,2027,Edge,0.83,EDGE,61.95876,71.80828987363194,71.80828987363194,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202700965,Caleb Jordan,2027,Edge,0.83,EDGE,54.434326,58.90106412452265,58.90106412452265,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202700970,Josh Christensen,2027,Edge,0.83,EDGE,51.824356,53.453006216828435,53.453006216828435,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202700976,Jaxson Wilson,2027,Edge,0.825,EDGE,38.988014,23.612345618296008,23.612345618296008,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202800002,Jalanie George,2028,Edge,0.999,EDGE,72.12714,84.39067388370036,84.39067388370036,Elite Power 4,All-Conference/All-American honors.,First round NFL Draft talent
+202800006,Kameron McGee,2028,Edge,0.9961,EDGE,56.70426,62.38757584771566,62.38757584771566,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202800018,Darieon Prescott,2028,Edge,0.9905,EDGE,65.96813,79.09453186706602,79.09453186706602,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202800020,Jackson Vaughn,2028,Edge,0.9894,EDGE,68.63531,81.21631966439597,81.21631966439597,Elite Power 4,All-Conference/All-American honors.,First round NFL Draft talent
+202800047,Elijah Tillman,2028,Edge,0.9765,EDGE,66.89707,79.85482195601718,79.85482195601718,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202800052,George Parkinson IV,2028,Edge,0.9716,EDGE,63.067993,74.30459618947974,74.30459618947974,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202800072,Jayden Bell,2028,Edge,0.9368,EDGE,57.386528,63.4183783256452,63.4183783256452,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202800073,Braxton Rein,2028,Edge,0.9368,EDGE,55.21554,59.879676169420755,59.879676169420755,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202800090,Antonio Thomas Jr.,2028,Edge,0.9321,EDGE,57.778248,64.46137779782916,64.46137779782916,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202800091,Chance Archangel,2028,Edge,0.932,EDGE,56.241554,61.257420126113765,61.257420126113765,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202800113,Elijah Tuua,2028,Edge,0.9273,EDGE,49.968975,49.00035734370232,49.00035734370232,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202800114,Cam Toomey,2028,Edge,0.9271,EDGE,61.56436,71.13410407281036,71.13410407281036,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202800136,Victor Ezeukwu,2028,Edge,0.89,EDGE,74.41534,86.52533547470964,86.52533547470964,Elite Power 4,All-Conference/All-American honors.,First round NFL Draft talent
+202800163,DeMarcus Dale-Brown,2028,Edge,0.88,EDGE,52.775105,56.31769321306388,56.31769321306388,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202800174,Luke Nabors,2028,Edge,0.875,EDGE,44.16716,33.12507831008628,33.12507831008628,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202800177,Major Stokes,2028,Edge,0.875,EDGE,53.19534,56.99688584251247,56.99688584251247,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202800208,Simote Tupou,2028,Edge,0.87,EDGE,53.0635,56.84042802249759,56.84042802249759,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202800213,Takeshi Savery,2028,Edge,0.87,EDGE,58.514076,65.99532400342372,65.99532400342372,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202800218,Xavier Harding,2028,Edge,0.87,EDGE,71.76163,84.0549126504719,84.0549126504719,Elite Power 4,All-Conference/All-American honors.,First round NFL Draft talent

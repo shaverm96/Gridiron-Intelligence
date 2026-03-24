@@ -1,0 +1,183 @@
+﻿player_id,name,year,position,rating,position_group,y_pred_score_raw,y_pred_score_calibrated,predictive_score_0_100,contrib_tier_raw,contrib_tier_raw_college_outlook,contrib_tier_raw_professional_outlook
+202301408,Tyler White,2023,P,0.85,SPEC,56.907887,57.64541788763632,57.64541788763632,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202301827,Peyton Woodring,2023,K,0.8333,SPEC,74.642914,80.31127783505649,80.31127783505649,Elite Power 4,All-Conference/All-American honors.,First round NFL Draft talent
+202301970,Aidan Flintoft,2023,P,0.8256,SPEC,53.688248,54.14437764618535,54.14437764618535,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202301990,Brock Taylor,2023,K,0.825,SPEC,68.99224,74.58837132100946,74.58837132100946,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202302005,David Olano,2023,K,0.8244,SPEC,70.65846,76.93239086310358,76.93239086310358,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202302007,Conor Talty,2023,K,0.8244,SPEC,70.21335,76.5293968543041,76.5293968543041,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202302040,Nicolas Radicic,2023,K,0.8211,SPEC,66.73782,71.76019372077434,71.76019372077434,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202302074,Palmer Williams,2023,P,0.8203,SPEC,50.275772,48.320635758606706,48.320635758606706,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202302092,Tristan Alvano,2023,K,0.8194,SPEC,65.51738,69.74919188927488,69.74919188927488,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202302108,Caleb McGrath,2023,P,0.817,SPEC,56.822525,57.627666881025796,57.627666881025796,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202302116,Adam Samaha,2023,K,0.8169,SPEC,57.3335,57.79099751053964,57.79099751053964,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202302117,Declan Duley,2023,P,0.8169,SPEC,56.31191,57.262635634667944,57.262635634667944,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202302118,Jackson Kleather,2023,K,0.8167,SPEC,57.04891,57.67474349930803,57.67474349930803,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202302138,Blake Craig,2023,K,0.8156,SPEC,63.653988,65.39549478306553,65.39549478306553,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202302153,Mitch Lake,2023,P,0.8144,SPEC,54.35251,54.78597355225539,54.78597355225539,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202302154,Tyler Black,2023,K,0.8144,SPEC,57.393364,57.8478667328687,57.8478667328687,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202302170,Grant Reddick,2023,K,0.8136,SPEC,56.519733,57.37459283400817,57.37459283400817,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202302177,Connor Gibbs,2023,K,0.8117,SPEC,71.40138,77.59975832560247,77.59975832560247,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202302178,Grant Meadors,2023,K,0.8111,SPEC,65.62214,69.88473454087311,69.88473454087311,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202302179,Hudson Kaak,2023,P,0.8108,SPEC,57.47809,57.91712608813723,57.91712608813723,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202302213,Gianni Spetic,2023,K,0.8083,SPEC,62.484863,62.78839930958761,62.78839930958761,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202302271,Reese Keeney,2023,P,0.7989,SPEC,57.74827,58.02075532165929,58.02075532165929,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202302272,Jake Eldridge,2023,LS,0.7983,SPEC,56.208324,57.20683376625964,57.20683376625964,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202302273,Michael Petro,2023,K,0.7983,SPEC,61.845478,62.266162699582395,62.266162699582395,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202302298,Alex Smith,2023,P,0.7894,SPEC,53.05834,53.550536428249046,53.550536428249046,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202302300,Ryder Burns,2023,LS,0.7894,SPEC,52.801746,53.136431834263796,53.136431834263796,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202302307,Trey Dubuc,2023,LS,0.7844,SPEC,47.733746,43.12212838164348,43.12212838164348,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202401749,Towns McGough,2024,K,0.8467,SPEC,81.36113,92.70070384931063,92.70070384931063,Elite Power 4,All-Conference/All-American honors.,First round NFL Draft talent
+202402070,Drew Miller,2024,P,0.8367,SPEC,60.572575,60.768873381510765,60.768873381510765,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202402104,Trey Coleman,2024,K,0.835,SPEC,74.94646,80.42825762488928,80.42825762488928,Elite Power 4,All-Conference/All-American honors.,First round NFL Draft talent
+202402351,Kanyon Floyd,2024,P,0.8267,SPEC,56.091816,57.139784076603625,57.139784076603625,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202402360,Aeron Burrell,2024,K,0.8261,SPEC,68.39863,73.77623249920724,73.77623249920724,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202402395,Nolan Hauser,2024,K,0.8244,SPEC,62.87728,63.88661913142039,63.88661913142039,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202402397,Kyle Lemmermann,2024,K,0.8244,SPEC,64.14094,66.24955693262503,66.24955693262503,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202402418,Jake Weinberg,2024,K,0.8236,SPEC,67.546455,73.10874004748942,73.10874004748942,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202402423,Tyler Kinsman,2024,P,0.8233,SPEC,56.023632,57.07367701441932,57.07367701441932,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202402448,Michael Kern,2024,P,0.8219,SPEC,57.833527,58.23413026250389,58.23413026250389,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202402451,Abram Murray,2024,K,0.8219,SPEC,69.39896,75.2890913395553,75.2890913395553,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202402490,Michael Salgado-Medina,2024,K,0.8203,SPEC,66.32212,70.96943881946432,70.96943881946432,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202402585,Kamdyn Koch,2024,P,0.8186,SPEC,60.48138,60.71406684499317,60.71406684499317,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202402586,Lucas Osada,2024,P,0.8186,SPEC,56.86269,57.63601922265346,57.63601922265346,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202402590,Jacob Kauwe,2024,K,0.8178,SPEC,64.27324,66.4311341576909,66.4311341576909,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202402606,Nico Gramatica,2024,K,0.8169,SPEC,61.76744,62.182962106754665,62.182962106754665,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202402644,Mason Love,2024,P,0.815,SPEC,52.036674,51.970277463062544,51.970277463062544,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202402646,Gage Hurych,2024,K,0.815,SPEC,64.21412,66.34999455114944,66.34999455114944,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202402680,Bobby Engstler,2024,P,0.8111,SPEC,59.11098,59.251975844706195,59.251975844706195,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202402703,Rhys Dakin,2024,P,0.8104,SPEC,54.773796,55.23765109700904,55.23765109700904,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202402788,Martin Connington,2024,K,0.8092,SPEC,69.04147,74.66476846264985,74.66476846264985,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202402799,Davis Little,2024,K,0.8075,SPEC,62.302963,62.64352675546612,62.64352675546612,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202402803,Spencer Porath,2024,K,0.8067,SPEC,70.30774,76.61485573258847,76.61485573258847,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202402823,Caden Chittenden,2024,K,0.8044,SPEC,67.39142,73.00651824708102,73.00651824708102,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202402827,Brody Laga,2024,K,0.8037,SPEC,47.08316,40.11560960307108,40.11560960307108,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202402837,Connor Hawkins,2024,K,0.8031,SPEC,63.01095,64.07997735666758,64.07997735666758,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202402947,Caile Hogan,2024,P,0.8,SPEC,53.78994,54.23049455504331,54.23049455504331,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202402974,Tommy Newcomb,2024,K,0.7956,SPEC,65.94582,70.57624328471891,70.57624328471891,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202403058,Keelan Anderson,2024,K,0.79,SPEC,61.15811,61.41956418434745,61.41956418434745,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202403069,Ethan Craw,2024,P,0.7889,SPEC,53.763355,54.20798166068398,54.20798166068398,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202403082,Grant Chadwick,2024,P,0.7833,SPEC,52.615353,52.88128950756164,52.88128950756164,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202403104,Logan Ellison,2024,K,0.78,SPEC,66.2625,70.91399595301714,70.91399595301714,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202403144,Clayton Amaya,2024,K,0.78,SPEC,48.094032,43.71409066972301,43.71409066972301,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202403206,Luke Faccone,2024,P,0.78,SPEC,53.56828,54.042783728161716,54.042783728161716,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202403225,Morrow Evans,2024,LS,0.78,SPEC,53.917023,54.38512785390012,54.38512785390012,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202403226,Tripp Woody,2024,K,0.78,SPEC,62.40315,62.72331846524073,62.72331846524073,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202403378,Nathan Gamette,2024,K,0.77,SPEC,57.072018,57.679549130002336,57.679549130002336,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202403398,Nico Ottomanelli,2024,K,0.77,SPEC,57.36726,57.8230686644052,57.8230686644052,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202403429,Luke Scoma,2024,K,0.76,SPEC,52.47608,52.78194988901785,52.78194988901785,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202403451,Jace Eastlick,2024,LS,0.76,SPEC,52.215454,52.259526156570615,52.259526156570615,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202403536,Michael Pedrotti,2024,LS,0.75,SPEC,45.193382,33.06276483919412,33.06276483919412,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202403562,Aiden Webb,2024,K,0.75,SPEC,50.63694,48.662600366362085,48.662600366362085,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202403667,Nicco Simonetti,2024,P,0.72,SPEC,48.493095,44.16280882329075,44.16280882329075,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202502418,Evan Noel,2025,K,0.8317,SPEC,71.85842,78.00996854401944,78.00996854401944,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202502433,Nikola Dugandzic,2025,P,0.8308,SPEC,56.385838,57.302461819014745,57.302461819014745,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202502622,Erik Schmidt,2025,K,0.8292,SPEC,67.93536,73.36516228437829,73.36516228437829,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202502659,Scott Starzyk,2025,K,0.8267,SPEC,60.8322,60.924904422623925,60.924904422623925,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202502663,Luke Goater,2025,P,0.8267,SPEC,54.572395,54.95334658170166,54.95334658170166,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202502708,Max Kelley,2025,K,0.8242,SPEC,70.6838,76.95533047955867,76.95533047955867,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202502730,Brunno Reus,2025,K,0.8236,SPEC,72.00793,78.14656493366384,78.14656493366384,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202502731,Trey Butkowski,2025,K,0.8233,SPEC,67.546455,73.10874004748942,73.10874004748942,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202502732,Donal Dempsey,2025,K,0.8233,SPEC,71.2567,77.46989893853863,77.46989893853863,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202502733,Landon Shaffer,2025,K,0.8233,SPEC,65.32695,69.23946842068415,69.23946842068415,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202502740,Dillon Curtis,2025,K,0.8225,SPEC,61.67703,62.08656785292419,62.08656785292419,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202502743,Will Walker,2025,P,0.8222,SPEC,51.537655,51.25834979901503,51.25834979901503,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202502744,Andy Quinn,2025,P,0.8222,SPEC,57.280148,57.74031421585448,57.74031421585448,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202502748,Lennox Miller,2025,P,0.8217,SPEC,55.49155,56.02733117152357,56.02733117152357,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202502767,London Bironas,2025,K,0.8203,SPEC,64.41306,66.74291600167454,66.74291600167454,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202502768,John McGuire,2025,P,0.8203,SPEC,52.34039,52.556422397751525,52.556422397751525,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202502925,Dylan Freebury,2025,K,0.8189,SPEC,66.10367,70.76630438632519,70.76630438632519,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202502927,Cub Patton,2025,K,0.8183,SPEC,51.690586,51.73369957162546,51.73369957162546,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202502928,Ashton Zamani,2025,K,0.8183,SPEC,64.798706,67.93859997186746,67.93859997186746,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202502929,Caden VanHuis,2025,K,0.8183,SPEC,65.60122,69.8490352824743,69.8490352824743,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202502930,Cristian Harthan,2025,P,0.8183,SPEC,47.343723,41.60442678619901,41.60442678619901,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202502931,Guytano Bartolomeo,2025,K,0.8183,SPEC,60.220352,60.14286347779138,60.14286347779138,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202502932,Adlai Lounsbury,2025,K,0.8183,SPEC,66.59469,71.40131887565586,71.40131887565586,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202502933,Philippe LaForge,2025,K,0.8183,SPEC,67.545555,73.10814646585229,73.10814646585229,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202502935,Hayden Craig,2025,P,0.8178,SPEC,56.13398,57.16678358531358,57.16678358531358,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202502936,Rocco Graziano,2025,K,0.8178,SPEC,64.27324,66.4311341576909,66.4311341576909,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202502944,Tyler Prasuhn,2025,P,0.8167,SPEC,53.25616,53.78380354361229,53.78380354361229,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202502945,Kolten Bartels,2025,P,0.8167,SPEC,52.631245,52.8981954441127,52.8981954441127,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202502956,Creighton Wilbanks,2025,K,0.8156,SPEC,59.809692,59.737262244029054,59.737262244029054,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202502957,Owen Simpson,2025,K,0.8156,SPEC,67.087654,72.5451775667335,72.5451775667335,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202502963,Jack Richardson,2025,P,0.8144,SPEC,50.47114,48.50561766978134,48.50561766978134,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202502964,Bryce Taylor,2025,K,0.8144,SPEC,66.67461,71.60169273646372,71.60169273646372,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202502970,Alex Asparuhov,2025,P,0.8133,SPEC,43.02003,28.65975401236653,28.65975401236653,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202502983,Rhett Armstrong,2025,K,0.8122,SPEC,73.20631,79.29293778029,79.29293778029,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202502985,Halakilangi Muagututi'a,2025,LS,0.8111,SPEC,51.032906,49.614001225143824,49.614001225143824,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202503102,Luke Ryerse,2025,P,0.8083,SPEC,55.36575,55.83868062003427,55.83868062003427,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202503109,Daniel Jackson,2025,K,0.8058,SPEC,61.509346,61.90779049265981,61.90779049265981,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202503111,Kyler Farrow,2025,LS,0.8056,SPEC,52.455982,52.76761313780289,52.76761313780289,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202503114,Roland Podesta,2025,K,0.805,SPEC,65.16044,68.75282068730813,68.75282068730813,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202503181,Sean Leonard,2025,K,0.8,SPEC,58.630226,58.85006362397885,58.85006362397885,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202503199,Jack Wills,2025,LS,0.8,SPEC,50.193897,48.243114197354316,48.243114197354316,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202503208,Baylen Woodman,2025,K,0.8,SPEC,63.112366,64.21986394302135,64.21986394302135,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202503212,Nathan Sutcliffe,2025,P,0.8,SPEC,51.048088,49.64100336222113,49.64100336222113,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202503215,David Barker,2025,P,0.8,SPEC,51.806984,51.81326640768409,51.81326640768409,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202503220,Hunter Solwold,2025,LS,0.797,SPEC,58.83633,59.0197734173209,59.0197734173209,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202503225,Cian Stack,2025,LS,0.7937,SPEC,53.42926,53.93883015033374,53.93883015033374,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202503270,Matthew Parker,2025,K,0.79,SPEC,59.874027,59.7954735445245,59.7954735445245,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202503290,Carson Hilbert,2025,K,0.79,SPEC,60.7967,60.903569626805606,60.903569626805606,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202503304,Noah Piper,2025,K,0.79,SPEC,57.268612,57.72935566565228,57.72935566565228,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202503308,Elliot Arnold,2025,K,0.79,SPEC,61.869892,62.29219211709706,62.29219211709706,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202503317,Justin Schmidt,2025,LS,0.79,SPEC,52.64466,52.916941582115236,52.916941582115236,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202503320,Jason Arredondo,2025,LS,0.785,SPEC,49.67208,47.004417501640425,47.004417501640425,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202503322,Henry Searcy,2025,LS,0.7822,SPEC,53.12469,53.615666706798436,53.615666706798436,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202503421,Luke Grant,2025,LS,0.78,SPEC,53.961735,54.45011788709598,54.45011788709598,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202503427,Braydyn Sage,2025,LS,0.7789,SPEC,55.076923,55.56860880672598,55.56860880672598,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202503500,Broden Molen,2025,LS,0.77,SPEC,50.34903,48.38999810600879,48.38999810600879,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202503575,Charlie Houston,2025,LS,0.76,SPEC,48.80369,45.014013198352494,45.014013198352494,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202602609,Wade Register,2026,P,0.8344,SPEC,55.083893,55.57784216134988,55.57784216134988,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202602618,Jimmy Gregg,2026,P,0.8322,SPEC,59.585358,59.56469808457291,59.56469808457291,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202602621,Tommy Bauchiero,2026,K,0.8317,SPEC,76.789566,82.06335175190645,82.06335175190645,Elite Power 4,All-Conference/All-American honors.,First round NFL Draft talent
+202602623,Mikey Bukauskas,2026,P,0.8311,SPEC,56.1054,57.15138741538963,57.15138741538963,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202602808,Hunter Probst,2026,P,0.8283,SPEC,52.18419,52.187258019496205,52.187258019496205,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202602810,David Green,2026,K,0.8278,SPEC,68.26224,73.61340123561352,73.61340123561352,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202602811,Harran Zureikat,2026,K,0.8278,SPEC,43.670216,30.862636584690726,30.862636584690726,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
+202602814,Jonathan Genty,2026,P,0.8267,SPEC,50.185677,48.23533061796192,48.23533061796192,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202602815,Will Love,2026,K,0.8256,SPEC,61.94376,62.357442653592486,62.357442653592486,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202602816,Jake Collett,2026,K,0.8256,SPEC,61.820656,62.23969810274365,62.23969810274365,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202602817,Asher Murray,2026,K,0.8256,SPEC,67.25556,72.81700477568141,72.81700477568141,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202602818,Hayden Chambers,2026,K,0.8256,SPEC,70.65837,76.9323079737939,76.9323079737939,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202602844,Lucas Tenbrock,2026,P,0.8244,SPEC,54.358013,54.79077795277432,54.79077795277432,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202602845,Jack Gray,2026,P,0.8244,SPEC,56.83464,57.630186307088046,57.630186307088046,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202602846,Gaston Gramatica,2026,K,0.8233,SPEC,72.12183,78.2555285215277,78.2555285215277,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202602847,Gavin Strange,2026,K,0.8233,SPEC,57.17165,57.70026776032158,57.70026776032158,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202602848,Shay Barker,2026,K,0.8233,SPEC,55.112026,55.61511418672001,55.61511418672001,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202602849,Trace Rudd,2026,K,0.8233,SPEC,70.55515,76.83885718456746,76.83885718456746,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202602850,CJ Wallace,2026,K,0.8222,SPEC,70.54149,76.8264859550971,76.8264859550971,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202602851,Micah Drescher,2026,K,0.8222,SPEC,73.61858,79.91652029313865,79.91652029313865,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202602852,Adam McCann-Gibbs,2026,K,0.8222,SPEC,71.13489,77.36056889351325,77.36056889351325,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202602853,Jonathan Hewitt,2026,K,0.8211,SPEC,72.44222,78.56201324415028,78.56201324415028,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202602953,Noah Sur,2026,K,0.82,SPEC,64.40282,66.70171003645055,66.70171003645055,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202602974,Chase Ridley,2026,P,0.82,SPEC,54.98413,55.445674295928896,55.445674295928896,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202602976,Noah Sidan,2026,K,0.8189,SPEC,65.96916,70.62654219188435,70.62654219188435,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202602977,Jake Snyder,2026,P,0.8178,SPEC,48.933273,45.36960907119818,45.36960907119818,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202602978,Balint Vorosmarty,2026,K,0.8178,SPEC,54.950947,55.40171099441096,55.40171099441096,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202602979,Brady Stidham,2026,K,0.8178,SPEC,66.54733,71.28258660319436,71.28258660319436,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202602980,Luke Sword,2026,P,0.8156,SPEC,48.51019,44.18187152934461,44.18187152934461,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202602981,Seamus McIntyre,2026,K,0.8156,SPEC,60.56031,60.761502720801985,60.761502720801985,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202602982,Zak Zeman,2026,K,0.8156,SPEC,62.692993,63.0885392032062,63.0885392032062,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202603031,Zachary Hays,2026,P,0.81,SPEC,54.426258,54.844257287300536,54.844257287300536,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202603032,Van Krisiloff,2026,K,0.81,SPEC,66.58386,71.37417515169535,71.37417515169535,Meaningful P4 Contributor,Reliable multi-year starter at the highest level of competition.,Potential Day 2 Pick
+202603046,Bradan Scott,2026,P,0.81,SPEC,53.11256,53.60375948098568,53.60375948098568,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202603047,Logan Foley,2026,P,0.81,SPEC,54.818443,55.27890026498008,55.27890026498008,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202603048,Mason Golding,2026,P,0.81,SPEC,55.391563,55.85837994176896,55.85837994176896,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202603049,Ethan Gurney,2026,P,0.81,SPEC,56.94478,57.653089603457495,57.653089603457495,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202603050,Carson Jones,2026,K,0.81,SPEC,63.774357,65.68045882006321,65.68045882006321,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202603051,Jasper Scaife,2026,P,0.81,SPEC,56.32982,57.27228392855382,57.27228392855382,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202603052,Will Terry,2026,LS,0.8089,SPEC,50.812157,49.11353271490973,49.11353271490973,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202603053,Kyle Rushing,2026,LS,0.8067,SPEC,55.36863,55.84087849027362,55.84087849027362,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202603054,Trott O'Neal,2026,LS,0.8067,SPEC,53.062187,53.554314538577685,53.554314538577685,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202603055,Giancarlo Cereghino,2026,LS,0.8067,SPEC,53.22278,53.736263453951416,53.736263453951416,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202603056,Travis Wakefield,2026,LS,0.8067,SPEC,53.34415,53.87805818399844,53.87805818399844,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202603057,Trey Serauskis,2026,LS,0.8067,SPEC,64.42372,66.78577879647568,66.78577879647568,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202603058,Jackson Villaume,2026,LS,0.8067,SPEC,53.852394,54.29118867273774,54.29118867273774,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202603059,Tyler Himebauch,2026,LS,0.8067,SPEC,53.93594,54.41262427695432,54.41262427695432,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202603090,Hudson Borsari,2026,K,0.8,SPEC,61.050816,61.14045773251429,61.14045773251429,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202603095,Owen Carey,2026,K,0.8,SPEC,64.618126,67.54119822292027,67.54119822292027,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202603096,Kyle Nelson,2026,K,0.8,SPEC,64.034164,66.09018803338235,66.09018803338235,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202603097,Michael Sarikizis,2026,K,0.8,SPEC,65.294785,69.07102879594609,69.07102879594609,Meaningful G5 Contributor,Standout starter at the Group of 5 level; high-end depth in Power 4.,Potential Day 3 Pick
+202603098,Chase Mantooth,2026,LS,0.8,SPEC,50.07539,47.987788736347,47.987788736347,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202603099,Colton Dermer,2026,LS,0.8,SPEC,50.566895,48.59627921332121,48.59627921332121,Single Season Contributor,Late bloomer or one-year starter; limited career longevity.,nan
+202603100,Riley Winkler,2026,LS,0.8,SPEC,52.208775,52.24408673392332,52.24408673392332,Multi-Year Starter,Consistent career presence; reliable rotational player or specialist.,nan
+202701011,Sean Kraft,2027,LS,0.8,SPEC,46.62791,39.00305804775611,39.00305804775611,Partial Season Contributor,Rotational backup or special teams contributor; limited starts.,nan
