@@ -10,7 +10,7 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 
-from engine import get_scout_graph
+from engine import get_scout_graph, orchestrate_chat_turn, orchestrate_structured_report
 from engine.state import initial_chat_state
 
 from engine.comparables_service import (
@@ -99,11 +99,14 @@ if load_dotenv is not None:
 SUPABASE_URL, SUPABASE_URL_SOURCE = _cfg_with_source("SUPABASE_URL")
 SUPABASE_SERVICE_ROLE_KEY, SUPABASE_SERVICE_ROLE_KEY_SOURCE = _cfg_with_source("SUPABASE_SERVICE_ROLE_KEY")
 GEMINI_API_KEY, GEMINI_API_KEY_SOURCE = _cfg_with_source("GEMINI_API_KEY")
+CFBD_API_KEY, CFBD_API_KEY_SOURCE = _cfg_with_source("CFBD_API_KEY")
 
 CONFIG = {
     "SUPABASE_URL": SUPABASE_URL,
     "SUPABASE_SERVICE_ROLE_KEY": SUPABASE_SERVICE_ROLE_KEY,
     "GEMINI_API_KEY": GEMINI_API_KEY,
+    "CFBD_API_KEY": CFBD_API_KEY,
+    "CFBD_BASE_URL": _cfg("CFBD_BASE_URL", "https://api.collegefootballdata.com"),
     "YEARS": [2026, 2027, 2028],
     "FINAL_MODEL": "gemini-3-flash-preview",
     "SUMMARY_MODEL": "gemini-2.5-flash-lite",
@@ -116,10 +119,11 @@ CONFIG_SOURCES = {
     "SUPABASE_URL": SUPABASE_URL_SOURCE,
     "SUPABASE_SERVICE_ROLE_KEY": SUPABASE_SERVICE_ROLE_KEY_SOURCE,
     "GEMINI_API_KEY": GEMINI_API_KEY_SOURCE,
+    "CFBD_API_KEY": CFBD_API_KEY_SOURCE,
 }
 
 TABLES = {
-    "player_master": "gi_player_master",
+    "player_master": "gi_recruit_master",
     "scouting_features": "gi_scouting_report_features",
     "pred_score": "gi_model_prediction_score",
     "pred_threshold": "gi_model_prediction_thresholds",
@@ -531,78 +535,60 @@ def render_structured_report_page() -> None:
             st.warning("Pick a valid player from the dropdown list.")
             st.stop()
 
-        with st.spinner("Running pipeline... retrieving SQL profile, web summary, vector insights, and final synthesis."):
+        selected_player_name = selected_label.split("|")[0].strip()
+        graph = get_cached_agent_graph()
+
+        with st.spinner("Running multi-agent pipeline... delegating CFBD and web workers in parallel."):
             try:
-                sb = get_supabase_client()
-                bundle = fetch_player_bundle(sb, recruit_id)
+                result_state = orchestrate_structured_report(
+                    player_name=selected_player_name,
+                    recruit_id=str(recruit_id),
+                    target_team=str(target_team),
+                    year=int(selected_year),
+                    graph=graph,
+                )
             except Exception as exc:
-                st.error(f"Data retrieval failed: {exc}")
+                st.error(f"Pipeline failed: {exc}")
                 st.stop()
 
-            player_profile = bundle.get("player_profile", {})
-            scouting_raw = bundle.get("scouting_raw", {})
-            scouting_clean = bundle.get("scouting_clean", {})
-            pred_score_row = bundle.get("pred_score", {})
-            pred_thr_row = bundle.get("pred_threshold", {})
-
-            player_name = player_profile.get("player_name") or selected_label.split("|")[0].strip()
-            position = player_profile.get("position") or ""
-            vector_position = normalize_position_group(position)
-            player_state = str(player_profile.get("state") or "").strip().upper()
-            high_school = player_profile.get("high_school") or ""
-            hs_athletic_background = scouting_raw.get("hs_athletic_background") or ""
-
-            search_rows = duckduckgo_search(player_name, position, high_school, int(selected_year), max_results=12)
-            web_summary = summarize_web_with_flash_lite(player_name, position, search_rows)
-
-            vector_query_text = (
-                f"Player: {player_name}\nPosition: {position}\nPosition Group: {vector_position}\nState: {player_state}\n"
-                f"High School: {high_school}\nHS Athletic Background:\n{hs_athletic_background}\n\n"
-                f"Filtered scouting report:\n{json.dumps(scouting_clean, default=str)}\n\nWeb Intelligence Summary:\n{web_summary}"
-            )
-            vector_result = vector_insights_query(
-                sb,
-                query_text=vector_query_text,
-                position=vector_position,
-                top_k=CONFIG["VECTOR_MATCH_COUNT"],
-                threshold=CONFIG["VECTOR_MATCH_THRESHOLD"],
-            )
-            historical_comparables_md = get_historical_player_comparables(str(recruit_id))
-            final_prompt = build_final_prompt(
-                year=int(selected_year),
-                target_team=target_team,
-                player_row=player_profile if player_profile else bundle.get("player", {}),
-                scouting_clean=scouting_clean,
-                hs_athletic_background=hs_athletic_background,
-                pred_score_row=pred_score_row,
-                pred_thr_row=pred_thr_row,
-                web_summary=web_summary,
-                vector_result=vector_result,
-                historical_comparables_md=historical_comparables_md,
-            )
-            final_report = run_final_synthesis(final_prompt)
+        bundle = dict(result_state.get("sql_data_context") or {})
+        player_profile = dict(bundle.get("player") or {})
+        player_name = (
+            result_state.get("target_player_name")
+            or result_state.get("player_name")
+            or player_profile.get("player_name")
+            or selected_player_name
+        )
 
         st.markdown(f"## Scouting Workbench Output - {player_name}")
         st.markdown(
             f"- Recruit ID: `{recruit_id}`  \\\n+- Year: `{selected_year}`  \\\n+- Target Team: `{target_team}`  \\\n+- Persona: `{st.session_state.get('selected_persona', 'Scout')}`"
         )
-        st.markdown("### Player Profile (from gi_player_master)")
+        st.markdown("### Player Profile")
         st.code(json.dumps(player_profile, indent=2, default=str), language="json")
-        st.markdown(build_score_card_html(pred_score_row, pred_thr_row), unsafe_allow_html=True)
-        st.markdown("### Historical Comparables")
-        st.markdown(historical_comparables_md)
-        st.markdown("### Filtered Scouting Profile")
-        st.code(json.dumps(scouting_clean, indent=2, default=str), language="json")
-        st.markdown("### Web Intelligence Summary")
-        st.markdown(web_summary)
-        st.markdown("### Vector Insights")
-        if vector_result.get("insights"):
-            for i, insight in enumerate(vector_result["insights"], start=1):
-                st.markdown(f"{i}. {insight}")
-        else:
-            st.info(vector_result.get("reason", "No vector insights returned."))
+
+        st.markdown("### CFBD Analyst Summary")
+        st.markdown(result_state.get("cfbd_data_summary") or "No CFBD summary available.")
+
+        st.markdown("### Recruiting Scout Summary")
+        st.markdown(result_state.get("web_recruiting_summary") or "No recruiting web summary available.")
+
+        st.markdown("### Team Scout Summary")
+        st.markdown(result_state.get("web_team_summary") or "No team context summary available.")
+
         st.markdown("### Final Synthesis")
-        st.markdown(final_report)
+        st.markdown(result_state.get("final_report") or "No final synthesis generated.")
+
+        trace_log = list(result_state.get("trace_log") or [])
+        if trace_log:
+            with st.expander("Execution Trace"):
+                st.code(json.dumps(trace_log, indent=2, default=str), language="json")
+
+        errors = list(result_state.get("errors") or [])
+        if errors:
+            with st.expander("Agent Notes"):
+                for err in errors[-5:]:
+                    st.write(f"- {err}")
 
 
 def render_open_chat_page() -> None:
@@ -615,19 +601,13 @@ def render_open_chat_page() -> None:
     if "open_chat_messages" not in st.session_state:
         st.session_state["open_chat_messages"] = []
     if "open_chat_agent_state" not in st.session_state:
-        base_state = initial_chat_state("")
-        base_state["conversation_history"] = []
-        base_state["persona"] = st.session_state.get("selected_persona", "Scout")
-        st.session_state["open_chat_agent_state"] = base_state
+        st.session_state["open_chat_agent_state"] = initial_chat_state("")
 
     col1, col2 = st.columns([1, 5])
     with col1:
         if st.button("Clear Chat"):
             st.session_state["open_chat_messages"] = []
-            reset_state = initial_chat_state("")
-            reset_state["conversation_history"] = []
-            reset_state["persona"] = st.session_state.get("selected_persona", "Scout")
-            st.session_state["open_chat_agent_state"] = reset_state
+            st.session_state["open_chat_agent_state"] = initial_chat_state("")
             st.rerun()
 
     for message in st.session_state["open_chat_messages"]:
@@ -647,19 +627,21 @@ def render_open_chat_page() -> None:
             try:
                 graph = get_cached_agent_graph()
                 current_state = dict(st.session_state.get("open_chat_agent_state", {}))
-                current_state["mode"] = "chat"
-                current_state["user_query"] = user_prompt
-                current_state["persona"] = st.session_state.get("selected_persona", "Scout")
-                current_state["next_step"] = "supervisor"
-                if "conversation_history" not in current_state:
-                    current_state["conversation_history"] = []
-
-                result_state = graph.invoke(current_state)
+                result_state = orchestrate_chat_turn(
+                    user_prompt=user_prompt,
+                    current_state=current_state,
+                    graph=graph,
+                )
                 assistant_text = str(result_state.get("final_report") or "No response generated.")
 
                 st.session_state["open_chat_agent_state"] = result_state
                 st.session_state["open_chat_messages"].append({"role": "assistant", "content": assistant_text})
                 st.markdown(assistant_text)
+
+                trace_log = list(result_state.get("trace_log") or [])
+                if trace_log:
+                    with st.expander("Execution Trace"):
+                        st.code(json.dumps(trace_log, indent=2, default=str), language="json")
 
                 errors = result_state.get("errors", [])
                 if errors:

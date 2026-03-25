@@ -1,6 +1,6 @@
-## Engine Restructure Execution Index
+## Engine Restructure Execution Index (Phase 2)
 
-Purpose: single-page tracker for sequence, status, and non-negotiable decisions.
+Purpose: single-page tracker for the Phase 2 architecture shift.
 
 Detailed planning document:
 - ENGINE_RESTRUCTURE_FULL_PLAN.md
@@ -8,42 +8,42 @@ Detailed planning document:
 Baseline and parity contract:
 - ENGINE_RESTRUCTURE_BASELINE.md
 
-Implementation timeline:
+Implementation timeline and active risks:
 - ENGINE_RESTRUCTURE_PROGRESS.md
+
+## Non-Negotiable Architecture Decisions
+
+1. Identity split is required:
+	- gi_recruit_master
+	- gi_college_master
+	- gi_player_link_bridge
+2. Graph topology is required:
+	- lead_delegator -> parallel workers -> lead_synthesizer
+3. Identity matching policy is SQL-first fuzzy matching (search_text + pg_trgm), not embeddings.
+4. Shared graph state stores summaries only, never raw scraped HTML/JSON payloads.
+5. Streamlit UI stays thin; orchestration and business logic live under engine/.
 
 ## Workstream Sequence
 
-1. A: Baseline guardrails and parity checks.
-2. B1: Service-layer extraction from app.py.
-3. B2: Domain module split inside engine.
-4. C: Structured scouting page rebuild with rating sorting.
-5. D: Structured graph/state fan-out with no CFBD in structured mode.
-6. E: Open chat page with session-only memory.
-7. F: Navigation and shared diagnostics shell.
-8. G: Verification, hardening, and handoff.
+1. A: Diff hygiene and safety checks.
+2. B: Schema/notebook alignment for split identity model.
+3. C: Engine identity helpers and state/tool contract updates.
+4. D: Graph reshape to delegator + fan-out/fan-in synthesis.
+5. E: UI and orchestration service separation.
+6. F: Runtime validation, parity checks, and handoff.
 
 Execution dependencies:
-1. A -> B1 -> B2 -> C
-2. B2 -> D -> E
-3. C + E -> F
-4. A + B1 + B2 + C + D + E + F -> G
+1. A -> B
+2. B -> C
+3. C -> D
+4. D -> E
+5. B + C + D + E -> F
 
-## Locked Decisions
+## Current Snapshot (2026-03-24)
 
-1. Dropdown sorting basis: recruiting rating only.
-2. School dropdown semantics: target team context.
-3. Memory scope: session-only.
-4. Persona options for this phase: Fan and Scout.
-5. CFBD tools enabled only on open chat page.
-6. athlete_id persistence rule: positive integer only, otherwise null.
-
-## Current Snapshot
-
-1. Portion A complete.
-2. Portion B1 complete.
-3. Portion B2 complete.
-4. Portion C complete.
-5. Portion D complete.
-6. Portion E complete.
-7. Portion F complete.
-8. Portion G complete.
+1. A complete: diff review performed; major artifact risks identified.
+2. B in progress: notebook/schema updates present but needs final SQL policy validation.
+3. C complete: identity-aware helpers and summary-first state fields implemented.
+4. D complete: graph rewired to lead_delegator + three workers + lead_synthesizer.
+5. E complete: orchestration extracted to engine service layer and app handlers rewired.
+6. F in progress: runtime validation and cleanup of unexpected artifacts still pending.

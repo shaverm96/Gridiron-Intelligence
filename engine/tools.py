@@ -7,7 +7,15 @@ import numpy as np
 import pandas as pd
 
 from .config import CONFIG, TABLES
-from .supabase_client import fetch_player_bundle, get_supabase_client, query_vector_factoids
+from .cfbd_service import fetch_player_stats, fetch_team_roster, search_player_candidates
+from .state import DelegatorPlan
+from .supabase_client import (
+    fetch_player_bundle,
+    fetch_player_bundle_by_identity,
+    get_supabase_client,
+    query_vector_factoids,
+    resolve_player_identity,
+)
 
 try:
     from ddgs import DDGS
@@ -100,6 +108,70 @@ def fetch_player_bundle_tool(recruit_id: str) -> dict[str, Any]:
     return fetch_player_bundle(recruit_id)
 
 
+def fetch_player_bundle_by_identity_tool(
+    recruit_id: str | None = None,
+    cfbd_athlete_id: str | None = None,
+    name_query: str | None = None,
+) -> dict[str, Any]:
+    return fetch_player_bundle_by_identity(
+        recruit_id=recruit_id,
+        cfbd_athlete_id=cfbd_athlete_id,
+        name_query=name_query,
+    )
+
+
+def resolve_player_identity_tool(name_query: str) -> dict[str, Any]:
+    return resolve_player_identity(name_query)
+
+
+def delegator_plan_tool(user_query: str, target_team: str = "", target_player_name: str = "") -> dict[str, Any]:
+    llm = _get_llm(CONFIG["SUMMARY_MODEL"], temperature=0.0, max_output_tokens=500)
+    if llm is None:
+        fallback_player = target_player_name or ""
+        fallback_team = target_team or ""
+        return DelegatorPlan(
+            cfbd_search_params={
+                "name": fallback_player,
+                "college_team": fallback_team,
+                "position": "",
+            },
+            recruiting_web_query=f"{fallback_player} recruiting scouting report".strip(),
+            team_context_query=f"{fallback_team} depth chart roster".strip(),
+            user_intent=(user_query or "Generate a scouting report.")[:220],
+        ).model_dump()
+
+    structured = llm.with_structured_output(DelegatorPlan)
+    prompt = (
+        "Create a delegator plan for a college football scouting workflow. "
+        "Infer likely player/team context from the user request. "
+        "Return concise search params and queries.\n\n"
+        f"User query: {user_query}\n"
+        f"Known target team: {target_team}\n"
+        f"Known target player: {target_player_name}\n"
+    )
+    try:
+        plan = structured.invoke(prompt)
+        if isinstance(plan, DelegatorPlan):
+            return plan.model_dump()
+        if hasattr(plan, "model_dump"):
+            return plan.model_dump()
+        if isinstance(plan, dict):
+            return DelegatorPlan(**plan).model_dump()
+    except Exception:
+        pass
+
+    return DelegatorPlan(
+        cfbd_search_params={
+            "name": target_player_name or "",
+            "college_team": target_team or "",
+            "position": "",
+        },
+        recruiting_web_query=f"{target_player_name} recruiting scouting report".strip(),
+        team_context_query=f"{target_team} depth chart roster".strip(),
+        user_intent=(user_query or "Generate a scouting report.")[:220],
+    ).model_dump()
+
+
 def search_web_tool(
     player_name: str,
     position: str,
@@ -137,6 +209,30 @@ def search_web_tool(
                 }
             )
 
+    return {"status": "ok", "reason": "search complete", "data": rows, "citations": citations}
+
+
+def search_web_query_tool(query: str, max_results: int = 10) -> dict[str, Any]:
+    if DDGS is None:
+        return {"status": "skipped", "reason": "DDGS not installed", "data": [], "citations": []}
+
+    rows: list[dict[str, str]] = []
+    citations: list[dict[str, str]] = []
+    with DDGS() as ddgs:
+        for result in ddgs.text(str(query or ""), max_results=max_results):
+            row = {
+                "title": str(result.get("title") or ""),
+                "url": str(result.get("href") or ""),
+                "snippet": str(result.get("body") or ""),
+            }
+            rows.append(row)
+            citations.append(
+                {
+                    "source_type": "web",
+                    "source_name": row["title"] or "DDGS result",
+                    "source_url": row["url"],
+                }
+            )
     return {"status": "ok", "reason": "search complete", "data": rows, "citations": citations}
 
 
@@ -181,6 +277,68 @@ def summarize_web_tool(player_name: str, position: str, search_rows: list[dict[s
             {"source_type": "model", "source_name": CONFIG["SUMMARY_MODEL"], "source_url": ""}
         ],
     }
+
+
+def summarize_payload_tool(summary_prompt: str, payload: Any) -> dict[str, Any]:
+    llm = _get_llm(CONFIG["SUMMARY_MODEL"], temperature=0.0, max_output_tokens=1200)
+    if llm is None:
+        return {
+            "status": "skipped",
+            "reason": "Gemini summary model unavailable",
+            "data": "Summary unavailable: Gemini summary model is not configured.",
+            "citations": [],
+        }
+
+    payload_text = payload if isinstance(payload, str) else json.dumps(payload, indent=2, default=str)
+    response = llm.invoke(f"{summary_prompt}\n\nPayload:\n{payload_text}")
+    return {
+        "status": "ok",
+        "reason": "summary complete",
+        "data": _llm_response_to_text(response),
+        "citations": [{"source_type": "model", "source_name": CONFIG["SUMMARY_MODEL"], "source_url": ""}],
+    }
+
+
+def cfbd_fetch_tool(
+    athlete_id: str | None = None,
+    team: str | None = None,
+    year: int | None = None,
+    endpoint: str = "player/stats",
+) -> dict[str, Any]:
+    if endpoint.strip().lower() == "player/stats":
+        return fetch_player_stats(athlete_id=athlete_id, team=team, year=year)
+    if endpoint.strip().lower() == "roster":
+        return fetch_team_roster(team=team or "", year=year)
+
+    # Keep a generic fallback for compatibility with any future endpoint callers.
+    params: dict[str, Any] = {}
+    if athlete_id:
+        params["athleteId"] = str(athlete_id)
+    if team:
+        params["team"] = str(team)
+    if year:
+        params["year"] = int(year)
+    from .cfbd_service import cfbd_fetch
+
+    return cfbd_fetch(endpoint=endpoint, params=params)
+
+
+def cfbd_search_players_tool(
+    search_term: str,
+    year: int | None = None,
+    team: str | None = None,
+    position: str | None = None,
+) -> dict[str, Any]:
+    return search_player_candidates(
+        search_term=search_term,
+        year=year,
+        team=team,
+        position=position,
+    )
+
+
+def cfbd_roster_tool(team: str, year: int | None = None) -> dict[str, Any]:
+    return fetch_team_roster(team=team, year=year)
 
 
 def _get_embedding_model():

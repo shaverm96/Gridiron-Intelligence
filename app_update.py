@@ -91,7 +91,7 @@ CONFIG_SOURCES = {
 }
 
 TABLES = {
-    "player_master": "gi_player_master",
+    "player_master": "gi_recruit_master",
     "scouting_features": "gi_scouting_report_features",
     "pred_score": "gi_model_prediction_score",
     "pred_threshold": "gi_model_prediction_thresholds",
@@ -435,7 +435,7 @@ def get_historical_player_comparables(recruit_id: str) -> str:
 
     target_rows = sb.table(TABLES["player_master"]).select("recruit_id, player_name, year, position, rating, height_inches, weight_lbs, state").eq("recruit_id", str(recruit_id).strip()).limit(1).execute().data or []
     if not target_rows:
-        return f"Historical comparables unavailable: recruit_id {recruit_id} was not found in gi_player_master."
+        return f"Historical comparables unavailable: recruit_id {recruit_id} was not found in gi_recruit_master."
     target_row = target_rows[0]
     target_pos = str(target_row.get("position") or "").strip()
     if not target_pos:
@@ -659,7 +659,7 @@ if st.button("Generate Scouting Report", type="primary"):
 
         st.markdown(f"## Scouting Workbench Output - {player_name}")
         st.markdown(f"- Recruit ID: `{recruit_id}`  \\\n- Year: `{selected_year}`  \\\n- Target Team: `{target_team}`")
-        st.markdown("### Player Profile (from gi_player_master)")
+        st.markdown("### Player Profile (from gi_recruit_master)")
         st.code(json.dumps(player_profile, indent=2, default=str), language="json")
         st.markdown(build_score_card_html(pred_score_row, pred_thr_row), unsafe_allow_html=True)
         st.markdown("### Historical Comparables")

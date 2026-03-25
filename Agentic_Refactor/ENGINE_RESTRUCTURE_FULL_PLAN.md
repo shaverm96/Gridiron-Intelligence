@@ -1,138 +1,123 @@
-## Engine Restructure Master Plan
+## Engine Restructure Master Plan (Phase 2)
 
-This is the canonical detailed plan for the restructure. It consolidates previously split planning notes and aligns with current scope decisions.
+This is the canonical detailed plan for the current architecture shift.
 
 ## Goals
 
-1. Preserve structured dropdown scouting flow.
-2. Sort players by recruiting rating within selected year.
-3. Keep target team context explicit.
-4. Include player and team web context in structured reports.
-5. Keep CFBD out of structured report path.
-6. Provide a separate open chat page with tools and session memory.
-7. Introduce Fan and Scout personas across both pages.
-8. Add athlete_id to player master paths with positive-only normalization.
+1. Move to explicit recruit and college identity separation with bridge linking.
+2. Replace supervisor-loop behavior with explicit fan-out/fan-in graph execution.
+3. Enforce SQL-first identity resolution (search_text + pg_trgm), no embedding identity match.
+4. Keep shared graph state summary-first and compact.
+5. Keep Streamlit UI layer thin and delegate orchestration to engine services.
+6. Preserve existing structured report and open chat usability while changing internals.
 
 ## Scope
 
 Included:
-1. UI split to structured page plus open chat page.
-2. Engine/state/graph updates for clear mode-specific routing.
-3. Domain module split for structured report services.
-4. Validation and parity checks against baseline cohort.
+1. Schema/notebook alignment for split identity tables.
+2. Engine state, tools, graph, and agent rewiring to the new architecture.
+3. App to service-layer orchestration extraction.
+4. Validation and diff hygiene before rollout.
 
 Excluded:
-1. Cross-session persistent memory.
-2. CFBD use in structured mode.
-3. Large pipeline overhauls unrelated to athlete_id and current retrieval needs.
+1. Cross-session memory redesign.
+2. Embedding-based identity retrieval.
+3. Broad product UI redesign beyond architecture-supporting updates.
 
-## Architecture Direction
+## Target Architecture
 
-1. Keep app.py as orchestration shell and UI wrappers.
-2. Maintain domain service modules under engine:
-   - data_access.py
-   - data_transforms.py
-   - web_research_service.py
-   - vector_service.py
-   - comparables_service.py
-   - synthesis_service.py
-3. Keep structured_report_services.py as a temporary compatibility export layer.
-4. Move toward graph-routed structured and chat modes with isolated state.
+1. Data model:
+   - gi_recruit_master
+   - gi_college_master
+   - gi_player_link_bridge
+2. Graph model:
+   - lead_delegator
+   - cfbd_analyst, recruiting_scout, team_scout (parallel workers)
+   - lead_synthesizer (fan-in)
+3. State model:
+   - explicit delegator_plan
+   - summary fields per worker
+   - trace_log for observability
+4. UI model:
+   - app.py for rendering and controls
+   - engine/orchestration_service.py for report/chat orchestration
 
 ## Delivery Plan
 
-### Portion A: Baseline and Invariants
+### Portion A: Diff Hygiene and Safety
 
 Status: Complete
 
 Deliverables:
-1. Cohort and parity contract in ENGINE_RESTRUCTURE_BASELINE.md.
-2. Invariant checklist for structured behavior and error handling.
+1. Diff sweep completed before continuing implementation.
+2. High-risk unexpected artifacts identified and recorded.
 
-### Portion B1: Service Extraction from app.py
+### Portion B: Schema and Notebook Alignment
 
-Status: Complete
+Status: In Progress
 
-Deliverables:
-1. Service wrappers in app.py with preserved signatures.
-2. Extracted logic no longer embedded in UI blocks.
+Tasks:
+1. Align notebook DDL and payload steps to recruit/college/bridge tables.
+2. Confirm SQL fuzzy identity strategy includes pg_trgm-ready search surface.
+3. Validate migration safety and backward-compatible table key usage where needed.
 
-### Portion B2: Domain Module Split
-
-Status: Complete
-
-Deliverables:
-1. Domain-focused engine modules created.
-2. app.py imports rewired to domain modules.
-3. Compatibility exports retained for transition safety.
-
-### Portion C: Structured Scouting Page Update
+### Portion C: Engine Identity and State Contract
 
 Status: Complete
 
 Tasks:
-1. Implement explicit sorting by rating descending within selected year.
-2. Keep tie-break by player name ascending.
-3. Preserve section order and rendering contract from baseline.
+1. Add identity helpers and bridge-aware retrieval path in engine Supabase client.
+2. Expand ScoutState with delegator plan, summary buckets, and trace log.
+3. Add tool wrappers for identity resolution, delegated planning, and summary condensation.
 
-### Portion D: Structured Graph and State Updates
-
-Status: Complete
-
-Tasks:
-1. Add explicit structured-mode state fields for player/team web summaries.
-2. Remove CFBD dependency from structured synthesis path.
-3. Ensure deterministic fan-out/fan-in routing.
-
-### Portion E: Open Chat Page
+### Portion D: Graph and Agent Reshape
 
 Status: Complete
 
 Tasks:
-1. Add dedicated open chat UI route/page.
-2. Ensure tool access parity with current chat capabilities.
-3. Keep memory session-scoped and isolated from structured mode state.
+1. Implement lead_delegator and three worker nodes.
+2. Rewire graph to explicit fan-out/fan-in topology.
+3. Keep compatibility aliases where practical to reduce transition break risk.
 
-### Portion F: Persona Layer and Navigation Stability
-
-Status: Complete
-
-Tasks:
-1. Add Fan and Scout persona selector usable in both pages.
-2. Thread persona through synthesis prompts and chat prompts.
-3. Finalize shared diagnostics and cold-start behavior.
-
-### Portion G: athlete_id + Validation + Handoff
+### Portion E: UI and Service Separation
 
 Status: Complete
 
 Tasks:
-1. Add athlete_id in Supabase schema/path updates.
-2. Normalize athlete_id: retain positive integer only, otherwise null.
-3. Re-run baseline parity checks and smoke validation.
-4. Publish concise handoff notes and known limitations.
+1. Add orchestration service entrypoints for structured report and open chat turns.
+2. Update app page handlers to call orchestration layer instead of inline orchestration logic.
+3. Keep UI output behavior stable while changing backend flow.
+
+### Portion F: Validation and Handoff
+
+Status: In Progress
+
+Tasks:
+1. Resolve or intentionally exclude unrelated artifact diffs before handoff.
+2. Run runtime checks for Streamlit, graph invocation, and identity fallback behavior.
+3. Confirm parity expectations and publish final migration notes.
 
 ## Dependencies
 
-1. A -> B1 -> B2 -> C
-2. B2 -> D -> E
-3. C + E -> F
-4. F + athlete_id updates -> G
+1. A -> B
+2. B -> C
+3. C -> D
+4. D -> E
+5. B + C + D + E -> F
 
 ## Acceptance Criteria
 
-1. Structured flow remains stable and deterministic for baseline inputs.
-2. Player dropdown ordering follows rating desc within year.
-3. Structured output includes required sections and deterministic fallbacks.
-4. CFBD is absent from structured path and available only in open chat path for this phase.
-5. Persona selection (Fan/Scout) is available in both pages.
-6. athlete_id normalization rule is consistently applied.
+1. Graph invokes in delegator + parallel worker + synthesizer sequence.
+2. Identity resolution path supports recruit_id, cfbd_athlete_id, and bridge-assisted lookup.
+3. Shared state stores summaries, not raw web/sql payload blobs.
+4. app.py pages run through orchestration service entrypoints.
+5. Notebook/schema layer reflects split identity architecture and SQL fuzzy match policy.
 
-## Risks and Mitigations
+## Current Risks
 
-1. Risk: import churn during modularization.
-   Mitigation: compatibility export layer and compile checks after each split.
-2. Risk: state leakage between structured and chat paths.
-   Mitigation: separate session keys and mode-specific initialization.
-3. Risk: external API variability affecting summaries.
-   Mitigation: deterministic fallback messaging and retry limits.
+1. A large generated artifact file was added to version control accidentally (engine_zip.zip).
+   Mitigation: remove from commit scope unless explicitly required.
+2. Notebook lookup examples currently show LIKE-based search examples and may not fully enforce pg_trgm strategy.
+   Mitigation: add explicit pg_trgm/search_text query examples and index notes.
+3. Runtime validation is not fully closed out after graph/app rewiring.
+   Mitigation: run focused smoke checks before merge.

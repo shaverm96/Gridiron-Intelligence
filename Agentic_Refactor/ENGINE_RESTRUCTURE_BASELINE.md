@@ -1,6 +1,6 @@
-## Engine Restructure Baseline
+## Engine Restructure Baseline (Phase 2)
 
-Purpose: Provide one canonical baseline document for parity checks during the engine restructure.
+Purpose: canonical parity and behavior contract while migrating to split identity model and fan-out/fan-in orchestration.
 
 ## Baseline Cohort
 
@@ -24,46 +24,49 @@ Representative cohort:
 | 2028 | 202800001 | Brysen Wright | WR | 0.9994 | Mandarin | Uncommitted |
 | 2028 | 202800002 | Jalanie George | Edge | 0.9990 | Desert Edge | Uncommitted |
 
-## Structured Report Contract
+## Phase 2 Runtime Contract
 
-Expected sections in order:
-1. Scouting Workbench header with player name.
-2. Metadata lines: recruit_id, year, target team.
-3. Player Profile.
-4. Score card HTML block.
-5. Historical Comparables.
-6. Filtered Scouting Profile.
-7. Web Intelligence Summary.
-8. Vector Insights.
-9. Final Synthesis.
+Execution contract:
+1. lead_delegator runs once per turn.
+2. Worker fan-out runs across:
+	- cfbd_analyst
+	- recruiting_scout
+	- team_scout
+3. lead_synthesizer runs as fan-in aggregator.
+
+Identity contract:
+1. Recruit and college identities are split across dedicated master tables.
+2. Bridge table carries cross-source links (recruit_id, cfbd_athlete_id, sports_ref_id, and related metadata).
+3. Identity lookup is SQL fuzzy matching oriented (search_text + pg_trgm), not embeddings.
+
+State contract:
+1. Shared state keeps summary fields, not raw payload blobs.
+2. trace_log is populated for route/debug visibility.
+3. Structured and open chat modes remain session-isolated in UI state.
 
 ## Required Invariants
 
-1. Year filter constrains player dropdown options.
-2. Player selection resolves to a single canonical recruit_id.
-3. Target team stays independent from player selection.
-4. Structured synthesis includes SQL/player, scouting, web, vector, and comparables context.
-5. Structured path excludes CFBD context.
-6. Sorting in structured view is rating desc within year, tie-break name asc, null-safe.
-7. Missing config or retrieval failures return deterministic user-facing errors.
-8. Secrets precedence and diagnostics visibility remain unchanged.
-9. Structured/chat page state isolation is preserved in multipage architecture.
+1. Structured report rendering order remains stable for existing UI sections.
+2. Player sorting is rating desc within year (null-safe), tie-break player name asc.
+3. app.py uses orchestration service entrypoints, not inline graph orchestration.
+4. Graph can produce deterministic output even when one worker source is sparse.
+5. Missing config/retrieval failures return deterministic user-facing fallback text.
 
 ## Pass Criteria
 
-A run passes when all baseline recruits satisfy:
-1. All required sections render in order.
-2. Data blocks render valid JSON where expected.
-3. Synthesis is non-empty or deterministic fallback is shown.
-4. No unhandled exceptions occur.
+A validation pass requires:
+1. No unhandled exceptions for the baseline cohort.
+2. Graph route trace confirms delegator -> worker fan-out -> synthesizer.
+3. Final report is non-empty or fallback text is deterministic.
+4. Identity resolution path returns a stable bundle when recruit_id or linked id exists.
 
 ## Validation Table Template
 
-| year | recruit_id | player | target_team | sections_ok | profile_ok | scorecard_ok | comparables_ok | scouting_ok | web_ok | vector_ok | synthesis_ok | errors |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026 | 202600001 | Jared Curtis | TBD |  |  |  |  |  |  |  |  |  |
-| 2026 | 202600002 | Lamar Brown | TBD |  |  |  |  |  |  |  |  |  |
-| 2027 | 202700001 | John Meredith III | TBD |  |  |  |  |  |  |  |  |  |
-| 2027 | 202700002 | Mark Matthews | TBD |  |  |  |  |  |  |  |  |  |
-| 2028 | 202800001 | Brysen Wright | TBD |  |  |  |  |  |  |  |  |  |
-| 2028 | 202800002 | Jalanie George | TBD |  |  |  |  |  |  |  |  |  |
+| year | recruit_id | player | target_team | route_ok | identity_ok | sections_ok | synthesis_ok | fallback_ok | errors |
+|---|---|---|---|---|---|---|---|---|---|
+| 2026 | 202600001 | Jared Curtis | TBD |  |  |  |  |  |  |
+| 2026 | 202600002 | Lamar Brown | TBD |  |  |  |  |  |  |
+| 2027 | 202700001 | John Meredith III | TBD |  |  |  |  |  |  |
+| 2027 | 202700002 | Mark Matthews | TBD |  |  |  |  |  |  |
+| 2028 | 202800001 | Brysen Wright | TBD |  |  |  |  |  |  |
+| 2028 | 202800002 | Jalanie George | TBD |  |  |  |  |  |  |
