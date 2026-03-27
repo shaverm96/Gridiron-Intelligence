@@ -18,7 +18,6 @@ from engine.comparables_service import (
 )
 from engine.data_access import (
     fetch_player_bundle_data,
-    load_player_index_data,
 )
 from engine.data_transforms import (
     build_player_profile_view_data,
@@ -87,8 +86,6 @@ def resolve_project_root() -> Path:
 
 
 PROJECT_ROOT = resolve_project_root()
-RECRUITS_PATH = PROJECT_ROOT / "data" / "modeling_datasets" / "recruits" / "master_recruits_2015_2028.csv"
-MODEL_TIERS_PATH = PROJECT_ROOT / "data" / "modeling_datasets" / "final" / "models" / "input_data" / "Model_Tiers.csv"
 
 if load_dotenv is not None:
     for env_name in ("SECRETS.env", "SUPABASE.env", "GEMINI_API_KEY.env"):
@@ -319,18 +316,73 @@ def normalize_position_group(position_value: str | None) -> str:
     return POS_MAP.get(raw, raw)
 
 
+def _supabase_fetch_all_rows(
+    sb: Any,
+    table_name: str,
+    columns: str,
+    batch_size: int = 1000,
+    max_rows: int = 50000,
+) -> list[dict[str, Any]]:
+    if sb is None:
+        return []
+
+    rows: list[dict[str, Any]] = []
+    start = 0
+    while start < max_rows:
+        end = start + batch_size - 1
+        response = sb.table(table_name).select(columns).range(start, end).execute()
+        chunk = list(response.data or [])
+        if not chunk:
+            break
+        rows.extend(chunk)
+        if len(chunk) < batch_size:
+            break
+        start += batch_size
+    return rows
+
+
 @st.cache_data
 def load_model_tiers() -> pd.DataFrame:
-    if not MODEL_TIERS_PATH.exists():
-        return pd.DataFrame(columns=["Score Range", "Career Designation", "College Outlook", "Professional Outlook", "low", "high"])
-    df = pd.read_csv(MODEL_TIERS_PATH)
-    for c in ["Score Range", "Career Designation", "College Outlook", "Professional Outlook"]:
-        if c not in df.columns:
-            df[c] = ""
-    bounds = df["Score Range"].astype(str).str.extract(r"(?P<low>\d+(?:\.\d+)?).*?(?P<high>\d+(?:\.\d+)?)")
-    df["low"] = pd.to_numeric(bounds["low"], errors="coerce")
-    df["high"] = pd.to_numeric(bounds["high"], errors="coerce")
-    return df.sort_values(["low", "high"]).reset_index(drop=True)
+    base_cols = ["Score Range", "Career Designation", "College Outlook", "Professional Outlook", "low", "high", "count"]
+    sb = get_supabase_client()
+    if sb is None:
+        return pd.DataFrame(columns=base_cols)
+
+    try:
+        rows = _supabase_fetch_all_rows(
+            sb=sb,
+            table_name=TABLES["pred_score"],
+            columns="predictive_score_0_100,contrib_tier_raw",
+            batch_size=1000,
+            max_rows=50000,
+        )
+    except Exception:
+        return pd.DataFrame(columns=base_cols)
+
+    if not rows:
+        return pd.DataFrame(columns=base_cols)
+
+    df = pd.DataFrame(rows)
+    if "predictive_score_0_100" not in df.columns:
+        return pd.DataFrame(columns=base_cols)
+
+    df["predictive_score_0_100"] = pd.to_numeric(df["predictive_score_0_100"], errors="coerce")
+    df["contrib_tier_raw"] = df.get("contrib_tier_raw", "").fillna("Unknown").astype(str).str.strip()
+    df.loc[df["contrib_tier_raw"] == "", "contrib_tier_raw"] = "Unknown"
+    df = df[df["predictive_score_0_100"].notna()].copy()
+    if df.empty:
+        return pd.DataFrame(columns=base_cols)
+
+    grouped = (
+        df.groupby("contrib_tier_raw", dropna=False)["predictive_score_0_100"]
+        .agg(["min", "max", "count"])
+        .reset_index()
+        .rename(columns={"contrib_tier_raw": "Career Designation", "min": "low", "max": "high"})
+    )
+    grouped["Score Range"] = grouped.apply(lambda r: f"{r['low']:.2f}-{r['high']:.2f}", axis=1)
+    grouped["College Outlook"] = "Derived from prediction score table"
+    grouped["Professional Outlook"] = "Derived from prediction score table"
+    return grouped[["Score Range", "Career Designation", "College Outlook", "Professional Outlook", "low", "high", "count"]].sort_values(["low", "high"]).reset_index(drop=True)
 
 
 def score_tier(score: float | None) -> str:
@@ -348,7 +400,11 @@ def tier_definitions_markdown() -> str:
     tiers = load_model_tiers()
     if tiers.empty:
         return "Tier definitions unavailable."
-    return "\n".join([f"- **{r.get('Career Designation', '')}** ({r.get('Score Range', '')}): College Outlook: {r.get('College Outlook', '')}; Professional Outlook: {r.get('Professional Outlook', '')}" for _, r in tiers.iterrows()])
+    return "\n".join([
+        f"- **{r.get('Career Designation', '')}** ({r.get('Score Range', '')}): "
+        f"Samples: {int(r.get('count', 0) or 0)}"
+        for _, r in tiers.iterrows()
+    ])
 
 
 def merge_scouting_sources(scouting_row: dict) -> dict:
@@ -365,7 +421,80 @@ def build_player_profile_view(player_row: dict) -> dict:
 
 @st.cache_data
 def load_player_index() -> pd.DataFrame:
-    return load_player_index_data(recruits_path=RECRUITS_PATH, years=CONFIG["YEARS"])
+    base_cols = [
+        "recruit_id",
+        "player_name",
+        "position",
+        "high_school",
+        "year",
+        "rating",
+        "player_label",
+        "athlete_id",
+    ]
+
+    sb = get_supabase_client()
+    if sb is None:
+        raise RuntimeError("Supabase is not configured. Recruit dropdown requires gi_recruit_master.")
+
+    select_cols = (
+        "recruit_id,recruit_name,full_name,player_name,position_group,position,"
+        "recruit_class,year,composite_rating,rating,high_school,hs_city,hs_state,"
+        "athlete_id,cfbd_athlete_id"
+    )
+    rows = _supabase_fetch_all_rows(
+        sb=sb,
+        table_name=TABLES["player_master"],
+        columns=select_cols,
+        batch_size=1000,
+        max_rows=50000,
+    )
+    if not rows:
+        return pd.DataFrame(columns=base_cols)
+
+    df = pd.DataFrame(rows)
+    if "recruit_id" not in df.columns:
+        return pd.DataFrame(columns=base_cols)
+
+    recruit_class_series = df["recruit_class"] if "recruit_class" in df.columns else pd.Series([None] * len(df), index=df.index)
+    year_series = df["year"] if "year" in df.columns else pd.Series([None] * len(df), index=df.index)
+    df["year"] = pd.to_numeric(recruit_class_series.where(recruit_class_series.notna(), year_series), errors="coerce")
+    year_filter = [int(y) for y in CONFIG["YEARS"]]
+    df = df[df["year"].isin(year_filter)].copy()
+
+    def _coalesce_text(frame: pd.DataFrame, cols: list[str]) -> pd.Series:
+        out = pd.Series(["" for _ in range(len(frame))], index=frame.index, dtype="object")
+        for col in cols:
+            if col in frame.columns:
+                vals = frame[col].fillna("").astype(str).str.strip()
+                out = out.where(out.astype(str).str.strip() != "", vals)
+        return out
+
+    df["recruit_id"] = df["recruit_id"].astype(str).str.strip()
+    df["player_name"] = _coalesce_text(df, ["recruit_name", "full_name", "player_name"])
+    df["position"] = _coalesce_text(df, ["position_group", "position"]).apply(normalize_position_group)
+    df["high_school"] = _coalesce_text(df, ["high_school", "hs_city", "hs_state"])
+    composite_rating_series = df["composite_rating"] if "composite_rating" in df.columns else pd.Series([None] * len(df), index=df.index)
+    rating_series = df["rating"] if "rating" in df.columns else pd.Series([None] * len(df), index=df.index)
+    df["rating"] = pd.to_numeric(composite_rating_series.where(composite_rating_series.notna(), rating_series), errors="coerce")
+
+    athlete_series = df.get("athlete_id") if "athlete_id" in df.columns else pd.Series([None] * len(df), index=df.index)
+    cfbd_athlete_series = df.get("cfbd_athlete_id") if "cfbd_athlete_id" in df.columns else pd.Series([None] * len(df), index=df.index)
+    df["athlete_id"] = athlete_series.where(athlete_series.notna(), cfbd_athlete_series)
+    df["athlete_id"] = pd.to_numeric(df["athlete_id"], errors="coerce").astype("Int64")
+
+    df["player_label"] = (
+        df["player_name"].astype(str)
+        + " | "
+        + df["position"].astype(str)
+        + " | "
+        + df["high_school"].astype(str)
+        + " | "
+        + df["year"].astype("Int64").astype(str)
+    )
+
+    df = df[df["recruit_id"].str.len() > 0].drop_duplicates(subset=["recruit_id"]).copy()
+    df = df.sort_values(["year", "rating", "player_name"], ascending=[True, False, True]).reset_index(drop=True)
+    return df[base_cols]
 
 
 def fetch_player_bundle(sb, recruit_id: str) -> dict:
