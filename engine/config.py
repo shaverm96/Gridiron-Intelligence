@@ -35,7 +35,7 @@ CONFIG = {
     "SUPABASE_URL": os.getenv("SUPABASE_URL", ""),
     "SUPABASE_SERVICE_ROLE_KEY": os.getenv("SUPABASE_SERVICE_ROLE_KEY", ""),
     "GEMINI_API_KEY": os.getenv("GEMINI_API_KEY", ""),
-    "CFBD_API_KEY": os.getenv("CFBD_API_KEY", ""),
+    "CFBD_API_KEY": os.getenv("CFBD_API_KEY", "") or os.getenv("CFBD_API", ""),
     "CFBD_BASE_URL": os.getenv("CFBD_BASE_URL", "https://api.collegefootballdata.com"),
     "FINAL_MODEL": os.getenv("GI_FINAL_MODEL", "gemini-3.0-flash"),
     "SUMMARY_MODEL": os.getenv("GI_SUMMARY_MODEL", "gemini-2.5-flash-lite"),
