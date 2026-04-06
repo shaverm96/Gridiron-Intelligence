@@ -221,10 +221,19 @@ def run_one_click_diagnostics() -> dict:
     return {"overall": overall, "checks": checks}
 
 
+def _normalize_model_name(model_name: str) -> str:
+    alias_map = {
+        "gemini-3.0-flash": "gemini-3-flash-preview",
+    }
+    value = str(model_name or "").strip()
+    return alias_map.get(value, value)
+
+
 def get_llm(model_name: str, temperature: float = 0.2, max_output_tokens: int = 1800):
     if ChatGoogleGenerativeAI is None or not CONFIG["GEMINI_API_KEY"]:
         return None
-    return ChatGoogleGenerativeAI(model=model_name, google_api_key=CONFIG["GEMINI_API_KEY"], temperature=temperature, max_output_tokens=max_output_tokens)
+    resolved_model = _normalize_model_name(model_name)
+    return ChatGoogleGenerativeAI(model=resolved_model, google_api_key=CONFIG["GEMINI_API_KEY"], temperature=temperature, max_output_tokens=max_output_tokens)
 
 
 def get_embedding_model():
