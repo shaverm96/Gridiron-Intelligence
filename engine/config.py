@@ -37,7 +37,7 @@ CONFIG = {
     "GEMINI_API_KEY": os.getenv("GEMINI_API_KEY", ""),
     "CFBD_API_KEY": os.getenv("CFBD_API_KEY", "") or os.getenv("CFBD_API", ""),
     "CFBD_BASE_URL": os.getenv("CFBD_BASE_URL", "https://api.collegefootballdata.com"),
-    "FINAL_MODEL": os.getenv("GI_FINAL_MODEL", "gemini-3.0-flash"),
+    "FINAL_MODEL": os.getenv("GI_FINAL_MODEL", "gemini-3-flash-preview"),
     "SUMMARY_MODEL": os.getenv("GI_SUMMARY_MODEL", "gemini-2.5-flash-lite"),
     "VECTOR_MATCH_COUNT": int(os.getenv("GI_VECTOR_MATCH_COUNT", "6")),
     "VECTOR_MATCH_THRESHOLD": float(os.getenv("GI_VECTOR_MATCH_THRESHOLD", "0.15")),
