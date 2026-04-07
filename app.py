@@ -97,6 +97,8 @@ SUPABASE_URL, SUPABASE_URL_SOURCE = _cfg_with_source("SUPABASE_URL")
 SUPABASE_SERVICE_ROLE_KEY, SUPABASE_SERVICE_ROLE_KEY_SOURCE = _cfg_with_source("SUPABASE_SERVICE_ROLE_KEY")
 GEMINI_API_KEY, GEMINI_API_KEY_SOURCE = _cfg_with_source("GEMINI_API_KEY")
 CFBD_API_KEY, CFBD_API_KEY_SOURCE = _cfg_with_source("CFBD_API_KEY")
+if not CFBD_API_KEY:
+    CFBD_API_KEY, CFBD_API_KEY_SOURCE = _cfg_with_source("CFBD_API")
 
 CONFIG = {
     "SUPABASE_URL": SUPABASE_URL,
@@ -219,10 +221,19 @@ def run_one_click_diagnostics() -> dict:
     return {"overall": overall, "checks": checks}
 
 
+def _normalize_model_name(model_name: str) -> str:
+    alias_map = {
+        "gemini-3.0-flash": "gemini-3-flash-preview",
+    }
+    value = str(model_name or "").strip()
+    return alias_map.get(value, value)
+
+
 def get_llm(model_name: str, temperature: float = 0.2, max_output_tokens: int = 1800):
     if ChatGoogleGenerativeAI is None or not CONFIG["GEMINI_API_KEY"]:
         return None
-    return ChatGoogleGenerativeAI(model=model_name, google_api_key=CONFIG["GEMINI_API_KEY"], temperature=temperature, max_output_tokens=max_output_tokens)
+    resolved_model = _normalize_model_name(model_name)
+    return ChatGoogleGenerativeAI(model=resolved_model, google_api_key=CONFIG["GEMINI_API_KEY"], temperature=temperature, max_output_tokens=max_output_tokens)
 
 
 def get_embedding_model():

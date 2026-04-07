@@ -44,12 +44,11 @@ def get_scout_graph() -> Any:
 
     workflow.set_entry_point("lead_delegator")
 
+    # Run worker nodes sequentially to avoid parallel state merge conflicts
+    # on keys like citations/errors/trace_log when reducers are not defined.
     workflow.add_edge("lead_delegator", "cfbd_analyst")
-    workflow.add_edge("lead_delegator", "recruiting_scout")
-    workflow.add_edge("lead_delegator", "team_scout")
-
-    workflow.add_edge("cfbd_analyst", "lead_synthesizer")
-    workflow.add_edge("recruiting_scout", "lead_synthesizer")
+    workflow.add_edge("cfbd_analyst", "recruiting_scout")
+    workflow.add_edge("recruiting_scout", "team_scout")
     workflow.add_edge("team_scout", "lead_synthesizer")
     workflow.add_edge("lead_synthesizer", END)
 

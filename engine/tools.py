@@ -39,6 +39,9 @@ except Exception:  # pragma: no cover
 
 
 EMBED_MODEL = None
+MODEL_ALIAS_MAP = {
+    "gemini-3.0-flash": "gemini-3-flash-preview",
+}
 POS_MAP = {
     "CB": "DB",
     "S": "DB",
@@ -76,8 +79,9 @@ POS_MAP = {
 def _get_llm(model_name: str, temperature: float, max_output_tokens: int):
     if ChatGoogleGenerativeAI is None or not CONFIG["GEMINI_API_KEY"]:
         return None
+    resolved_model = MODEL_ALIAS_MAP.get(str(model_name or "").strip(), str(model_name or "").strip())
     return ChatGoogleGenerativeAI(
-        model=model_name,
+        model=resolved_model,
         google_api_key=CONFIG["GEMINI_API_KEY"],
         temperature=temperature,
         max_output_tokens=max_output_tokens,
