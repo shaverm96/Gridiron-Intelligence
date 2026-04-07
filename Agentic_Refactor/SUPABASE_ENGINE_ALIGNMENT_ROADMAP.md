@@ -68,18 +68,6 @@ Impact:
 - Preserves original values and normalized numeric values.
 - Improves feature consistency for scoring/comparables.
 
-### 3.4 Rank columns policy
-
-Current direction selected in this project cycle:
-- Remove unsupported rank columns from active schema contract until a reliable source exists.
-
-Columns referenced in earlier plans:
-- hs_state_rank
-- hs_national_rank
-- hs_position_rank
-
-If reintroduced later, they should be backed by explicit data source + tests.
-
 ## 4) Recruit, college, and linkage model (how it should be understood)
 
 ### 4.1 Entity boundaries
@@ -114,6 +102,7 @@ Bridge entity (gi_player_link_bridge) should answer:
 2. Identity resolution helpers already exist in engine/supabase_client.py:
    - resolve_player_identity
    - fetch_player_bundle_by_identity
+   - need to ensure it uses 'LIKE' and wildcard SQL statements to find players using search_text field in player tables.
 3. Agent graph supports structured report and chat orchestration through shared state.
 
 ### 5.2 Current drift / risk areas
@@ -286,16 +275,3 @@ This migration is done when all statements below are true:
 2. Open Chat uses same identity resolution contract and persists identity across turns.
 3. Schema-map behavior is centralized in engine code (not duplicated in app ad hoc logic).
 4. Upsert notebook diagnostics are clean and documented.
-5. Partner can onboard using this document plus ENGINE_RESTRUCTURE_PROGRESS.md without extra verbal context.
-
-## 12) Quick partner startup checklist
-
-1. Run upsert notebook in DRY_RUN first and review diagnostics.
-2. Confirm target Supabase tables exist and match DDL block.
-3. Verify app diagnostics panel shows Supabase and Gemini configured.
-4. Test one Structured Report generation and one Open Chat identity query.
-5. Validate trace logs include identity + worker routing notes.
-
----
-
-If you pick up implementation from this point, start at Phase 1 and keep all schema-map changes centralized to avoid split logic across app.py and engine modules.
