@@ -103,6 +103,46 @@ def _llm_response_to_text(response: Any) -> str:
     return str(content).strip()
 
 
+def _truncate_text(value: str, max_chars: int) -> str:
+    text = str(value or "")
+    if len(text) <= max_chars:
+        return text
+    return f"{text[:max_chars].rstrip()} ...[truncated]"
+
+
+def _compact_payload_for_summary(value: Any, depth: int = 0, max_depth: int = 3) -> Any:
+    if depth >= max_depth:
+        return "[truncated-depth]"
+
+    if isinstance(value, str):
+        return _truncate_text(value, 1200)
+
+    if isinstance(value, list):
+        items = [
+            _compact_payload_for_summary(item, depth=depth + 1, max_depth=max_depth)
+            for item in value[:25]
+        ]
+        if len(value) > 25:
+            items.append(f"[truncated-list-items: {len(value) - 25} omitted]")
+        return items
+
+    if isinstance(value, dict):
+        compact: dict[str, Any] = {}
+        for key, item in list(value.items())[:40]:
+            compact[str(key)] = _compact_payload_for_summary(item, depth=depth + 1, max_depth=max_depth)
+        if len(value) > 40:
+            compact["_truncation_note"] = f"[truncated-dict-keys: {len(value) - 40} omitted]"
+        return compact
+
+    return value
+
+
+def _summary_payload_text(payload: Any, max_chars: int = 28000) -> str:
+    compact = _compact_payload_for_summary(payload)
+    rendered = compact if isinstance(compact, str) else json.dumps(compact, indent=2, default=str)
+    return _truncate_text(rendered, max_chars)
+
+
 def normalize_position_group(position_value: str | None) -> str:
     raw = str(position_value or "").strip().upper()
     return POS_MAP.get(raw, raw)
@@ -293,14 +333,43 @@ def summarize_payload_tool(summary_prompt: str, payload: Any) -> dict[str, Any]:
             "citations": [],
         }
 
-    payload_text = payload if isinstance(payload, str) else json.dumps(payload, indent=2, default=str)
-    response = llm.invoke(f"{summary_prompt}\n\nPayload:\n{payload_text}")
-    return {
-        "status": "ok",
-        "reason": "summary complete",
-        "data": _llm_response_to_text(response),
-        "citations": [{"source_type": "model", "source_name": CONFIG["SUMMARY_MODEL"], "source_url": ""}],
-    }
+    payload_text = _summary_payload_text(payload, max_chars=28000)
+    prompt = f"{summary_prompt}\n\nPayload:\n{payload_text}"
+    try:
+        response = llm.invoke(prompt)
+        return {
+            "status": "ok",
+            "reason": "summary complete",
+            "data": _llm_response_to_text(response),
+            "citations": [{"source_type": "model", "source_name": CONFIG["SUMMARY_MODEL"], "source_url": ""}],
+        }
+    except Exception as exc:
+        message = str(exc)
+        if "INVALID_ARGUMENT" not in message or "token" not in message.lower():
+            return {
+                "status": "error",
+                "reason": "summary failed",
+                "data": f"Summary failed: {exc}",
+                "citations": [],
+            }
+
+        retry_payload_text = _summary_payload_text(payload, max_chars=12000)
+        retry_prompt = f"{summary_prompt}\n\nPayload:\n{retry_payload_text}"
+        try:
+            retry_response = llm.invoke(retry_prompt)
+            return {
+                "status": "ok",
+                "reason": "summary complete after payload compaction",
+                "data": _llm_response_to_text(retry_response),
+                "citations": [{"source_type": "model", "source_name": CONFIG["SUMMARY_MODEL"], "source_url": ""}],
+            }
+        except Exception as retry_exc:
+            return {
+                "status": "error",
+                "reason": "summary failed after retry",
+                "data": f"Summary failed after retry: {retry_exc}",
+                "citations": [],
+            }
 
 
 def cfbd_fetch_tool(

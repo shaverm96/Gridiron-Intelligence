@@ -146,12 +146,20 @@ def cfbd_analyst_node(state: ScoutState) -> ScoutState:
     if resolved_athlete_id:
         state["cfbd_athlete_id"] = resolved_athlete_id
 
-    cfbd_result = cfbd_fetch_tool(
-        athlete_id=resolved_athlete_id or None,
-        team=team or None,
-        year=year_value,
-        endpoint="player/stats" if resolved_athlete_id else "roster",
-    )
+    if not resolved_athlete_id and not team:
+        cfbd_result = {
+            "status": "skipped",
+            "reason": "missing athlete_id and team",
+            "data": [],
+            "citations": [],
+        }
+    else:
+        cfbd_result = cfbd_fetch_tool(
+            athlete_id=resolved_athlete_id or None,
+            team=team or None,
+            year=year_value,
+            endpoint="player/stats" if resolved_athlete_id else "roster",
+        )
     summary_result = summarize_payload_tool(
         summary_prompt=(
             "Summarize CFBD data in concise markdown bullets for scouting synthesis. "
