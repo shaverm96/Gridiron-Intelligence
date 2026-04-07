@@ -1,7 +1,8 @@
 from __future__ import annotations
 
-import json
 from typing import Any
+
+from .prompt_architecture import build_master_prompt
 
 
 def build_final_prompt_data(
@@ -23,31 +24,30 @@ def build_final_prompt_data(
 
     tier_defs = tier_definitions_markdown() if callable(tier_definitions_markdown) else str(tier_definitions_markdown)
 
-    return (
-        "You are a senior college football recruiting scout.\n"
-        f"Persona: {persona}\n"
-        "Use only provided context. If data is missing, say so clearly.\n\n"
-        f"Year: {year}\n"
-        f"Target Team: {target_team}\n\n"
-        "Player Profile JSON:\n"
-        f"{json.dumps(player_row, indent=2, default=str)}\n\n"
-        "Filtered Scouting JSON:\n"
-        f"{json.dumps(scouting_clean, indent=2, default=str)}\n\n"
-        f"HS Athletic Background:\n{hs_athletic_background or 'N/A'}\n\n"
-        "Prediction Score Row JSON:\n"
-        f"{json.dumps(pred_score_row, indent=2, default=str)}\n\n"
-        "Prediction Threshold Row JSON:\n"
-        f"{json.dumps(pred_thr_row, indent=2, default=str)}\n\n"
-        f"Web Intelligence Summary:\n{web_summary}\n\n"
-        f"Vector Insights:\n{vector_block}\n\n"
-        f"Historical Comparables:\n{historical_comparables_md}\n\n"
-        f"Tier Definitions:\n{tier_defs}\n\n"
-        "Output sections in order:\n"
-        "1) Player Snapshot\n"
-        "2) Trait Evaluation\n"
-        "3) Scheme and Team Fit\n"
-        "4) Development Risks\n"
-        "5) Final Recommendation and Confidence\n"
+    retrieved_context = {
+        "player_profile": player_row,
+        "filtered_scouting": scouting_clean,
+        "hs_athletic_background": hs_athletic_background or "N/A",
+        "prediction_score_row": pred_score_row,
+        "prediction_threshold_row": pred_thr_row,
+        "web_intelligence_summary": web_summary,
+        "vector_insights": vector_block,
+        "historical_comparables": historical_comparables_md,
+        "tier_definitions": tier_defs,
+    }
+
+    user_prompt = (
+        f"Generate a football scouting report for {player_row.get('player_name', 'the player')} "
+        f"with fit evaluation for {target_team}."
+    )
+
+    return build_master_prompt(
+        player_name=str(player_row.get("player_name") or "Unknown Player"),
+        target_team=target_team,
+        year=year,
+        user_prompt=user_prompt,
+        retrieved_context=retrieved_context,
+        persona=persona,
     )
 
 

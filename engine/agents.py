@@ -1,8 +1,8 @@
 from __future__ import annotations
 
-import json
 from typing import Any
 
+from .prompt_architecture import build_master_prompt
 from .state import DelegatorPlan, ScoutState
 from .tools import (
     cfbd_fetch_tool,
@@ -10,9 +10,11 @@ from .tools import (
     delegator_plan_tool,
     fetch_player_bundle_by_identity_tool,
     final_synthesis_tool,
+    historical_comparables_tool,
     resolve_player_identity_tool,
     search_web_query_tool,
     summarize_payload_tool,
+    vector_insights_tool,
 )
 
 
@@ -216,24 +218,45 @@ def lead_synthesizer_node(state: ScoutState) -> ScoutState:
     if not user_intent:
         user_intent = str(state.get("user_query") or "Generate a scouting report.")
 
+    bundle = dict(state.get("sql_data_context") or {})
+    player_profile = dict(bundle.get("player") or {})
+    profile_position = str(player_profile.get("position") or "").strip()
+    profile_state = str(player_profile.get("state") or "").strip() or None
+
+    if profile_position:
+        vector_result = vector_insights_tool(
+            query_text=user_intent,
+            position=profile_position,
+            state=profile_state,
+            top_k=6,
+        )
+        state["vector_factoids"] = list(vector_result.get("data") or [])
+        _append_citations(state, list(vector_result.get("citations") or []))
+
+    recruit_id = str(state.get("recruit_id") or "").strip()
+    if recruit_id:
+        comparables_result = historical_comparables_tool(recruit_id)
+        state["comparables_context"] = str(comparables_result.get("data") or "").strip()
+        _append_citations(state, list(comparables_result.get("citations") or []))
+
     synthesis_payload = {
+        "player_name": state.get("target_player_name") or state.get("player_name") or "",
         "user_intent": user_intent,
+        "user_query": str(state.get("user_query") or "").strip(),
+        "player_profile": player_profile,
         "cfbd_summary": state.get("cfbd_data_summary", ""),
         "recruiting_summary": state.get("web_recruiting_summary", ""),
         "team_summary": state.get("web_team_summary", ""),
+        "vector_factoids": list(state.get("vector_factoids") or []),
+        "historical_comparables": state.get("comparables_context", ""),
     }
 
-    synthesis_prompt = (
-        "You are a senior college football analyst writing a broadcast-ready scouting memo.\n"
-        "Use only the provided summaries. If a section is missing, say so explicitly.\n\n"
-        "Output sections:\n"
-        "1) Quick Take\n"
-        "2) Evidence Snapshot\n"
-        "3) Team Fit Outlook\n"
-        "4) Risks and Unknowns\n"
-        "5) Recommendation\n\n"
-        "Context JSON:\n"
-        f"{json.dumps(synthesis_payload, indent=2, default=str)}"
+    synthesis_prompt = build_master_prompt(
+        player_name=str(synthesis_payload.get("player_name") or "Unknown Player"),
+        target_team=str(state.get("target_team") or ""),
+        year=int(state.get("year") or 0),
+        user_prompt=str(state.get("user_query") or user_intent),
+        retrieved_context=synthesis_payload,
     )
 
     final_result = final_synthesis_tool(synthesis_prompt)
