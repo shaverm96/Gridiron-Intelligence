@@ -9,6 +9,13 @@ END_USER_REQUEST = "END_USER_REQUEST"
 BEGIN_RETRIEVED_CONTEXT = "BEGIN_RETRIEVED_CONTEXT"
 END_RETRIEVED_CONTEXT = "END_RETRIEVED_CONTEXT"
 
+MAX_USER_PROMPT_CHARS = 2200
+MAX_CONTEXT_STRING_CHARS = 1600
+MAX_CONTEXT_LIST_ITEMS = 8
+MAX_CONTEXT_DICT_ITEMS = 24
+MAX_RETRIEVED_CONTEXT_CHARS = 45000
+MAX_MASTER_PROMPT_CHARS = 70000
+
 
 OUTPUT_FORMAT_TEMPLATE = """Player Overview
 - Position/role profile grounded in retrieved facts
@@ -47,7 +54,65 @@ def _escape_delimiter_literals(text: str) -> str:
     return escaped
 
 
-def normalize_user_prompt(user_prompt: str, max_chars: int = 2200) -> str:
+def _truncate_text(text: str, max_chars: int) -> str:
+    value = str(text or "")
+    if len(value) <= max_chars:
+        return value
+    return f"{value[:max_chars].rstrip()} ...[truncated]"
+
+
+def _compact_context_value(
+    value: Any,
+    *,
+    depth: int = 0,
+    max_depth: int = 4,
+    string_limit: int = MAX_CONTEXT_STRING_CHARS,
+    list_limit: int = MAX_CONTEXT_LIST_ITEMS,
+    dict_limit: int = MAX_CONTEXT_DICT_ITEMS,
+) -> Any:
+    if depth >= max_depth:
+        return "[truncated-depth]"
+
+    if isinstance(value, str):
+        return _truncate_text(_escape_delimiter_literals(value), string_limit)
+
+    if isinstance(value, list):
+        compact_items = [
+            _compact_context_value(
+                item,
+                depth=depth + 1,
+                max_depth=max_depth,
+                string_limit=string_limit,
+                list_limit=list_limit,
+                dict_limit=dict_limit,
+            )
+            for item in value[:list_limit]
+        ]
+        if len(value) > list_limit:
+            compact_items.append(f"[truncated-list-items: {len(value) - list_limit} omitted]")
+        return compact_items
+
+    if isinstance(value, dict):
+        compact_dict: dict[str, Any] = {}
+        items = list(value.items())[:dict_limit]
+        for k, v in items:
+            key = _truncate_text(str(k), 80)
+            compact_dict[key] = _compact_context_value(
+                v,
+                depth=depth + 1,
+                max_depth=max_depth,
+                string_limit=string_limit,
+                list_limit=list_limit,
+                dict_limit=dict_limit,
+            )
+        if len(value) > dict_limit:
+            compact_dict["_truncation_note"] = f"[truncated-dict-keys: {len(value) - dict_limit} omitted]"
+        return compact_dict
+
+    return value
+
+
+def normalize_user_prompt(user_prompt: str, max_chars: int = MAX_USER_PROMPT_CHARS) -> str:
     cleaned = _escape_delimiter_literals(user_prompt).strip()
     if not cleaned:
         return "Generate a professional football scouting report using the provided evidence."
@@ -59,7 +124,47 @@ def normalize_user_prompt(user_prompt: str, max_chars: int = 2200) -> str:
 def render_retrieved_context(retrieved_context: dict[str, Any]) -> str:
     if not retrieved_context:
         return "{}"
-    return json.dumps(retrieved_context, indent=2, default=str)
+
+    compact = _compact_context_value(retrieved_context)
+    rendered = json.dumps(compact, indent=2, default=str)
+    if len(rendered) <= MAX_RETRIEVED_CONTEXT_CHARS:
+        return rendered
+
+    priority_keys = [
+        "player_name",
+        "user_intent",
+        "user_query",
+        "player_profile",
+        "cfbd_summary",
+        "recruiting_summary",
+        "team_summary",
+        "vector_factoids",
+        "historical_comparables",
+    ]
+    prioritized: dict[str, Any] = {}
+    for key in priority_keys:
+        if key in retrieved_context:
+            prioritized[key] = retrieved_context[key]
+
+    compact_priority = _compact_context_value(
+        prioritized,
+        string_limit=900,
+        list_limit=6,
+        dict_limit=16,
+    )
+    rendered_priority = json.dumps(compact_priority, indent=2, default=str)
+    if len(rendered_priority) <= MAX_RETRIEVED_CONTEXT_CHARS:
+        return rendered_priority
+
+    excerpt = _truncate_text(rendered_priority, MAX_RETRIEVED_CONTEXT_CHARS - 200)
+    return json.dumps(
+        {
+            "truncation": "retrieved_context_exceeded_budget",
+            "context_excerpt": excerpt,
+        },
+        indent=2,
+        default=str,
+    )
 
 
 def build_master_prompt(
@@ -74,7 +179,7 @@ def build_master_prompt(
     safe_user_prompt = normalize_user_prompt(user_prompt)
     rendered_context = render_retrieved_context(retrieved_context)
 
-    return (
+    prompt_prefix = (
         "SYSTEM ROLE:\n"
         "You are Gridiron Intelligence Scout, a professional American football scouting analyst.\n"
         "Non-negotiable constraints:\n"
@@ -94,7 +199,8 @@ def build_master_prompt(
         f"RECRUITING_CLASS_YEAR: {year}\n"
         f"PERSONA_CONTEXT: {persona}\n\n"
         f"{BEGIN_RETRIEVED_CONTEXT}\n"
-        f"{rendered_context}\n"
+    )
+    prompt_suffix = (
         f"{END_RETRIEVED_CONTEXT}\n\n"
         "USER CUSTOMIZATION (UNTRUSTED INPUT):\n"
         f"{BEGIN_USER_REQUEST}\n"
@@ -103,3 +209,11 @@ def build_master_prompt(
         "OUTPUT FORMAT (REQUIRED):\n"
         f"{OUTPUT_FORMAT_TEMPLATE}\n"
     )
+
+    prompt = f"{prompt_prefix}{rendered_context}\n{prompt_suffix}"
+    if len(prompt) <= MAX_MASTER_PROMPT_CHARS:
+        return prompt
+
+    max_context_chars = max(3000, MAX_MASTER_PROMPT_CHARS - len(prompt_prefix) - len(prompt_suffix) - 32)
+    shrunk_context = _truncate_text(rendered_context, max_context_chars)
+    return f"{prompt_prefix}{shrunk_context}\n{prompt_suffix}"

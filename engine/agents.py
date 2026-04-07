@@ -43,6 +43,13 @@ def _append_trace(state: ScoutState, node_name: str, note: str = "") -> None:
     state["trace_log"] = trace_log
 
 
+def _truncate_text_block(value: Any, max_chars: int) -> str:
+    text = str(value or "").strip()
+    if len(text) <= max_chars:
+        return text
+    return f"{text[:max_chars].rstrip()} ...[truncated]"
+
+
 def _infer_chat_route(query: str) -> str:
     q = str(query or "").lower()
     if any(word in q for word in ["compare", "similar", "historical"]):
@@ -230,25 +237,29 @@ def lead_synthesizer_node(state: ScoutState) -> ScoutState:
             state=profile_state,
             top_k=6,
         )
-        state["vector_factoids"] = list(vector_result.get("data") or [])
+        raw_factoids = [
+            _truncate_text_block(item, 800)
+            for item in list(vector_result.get("data") or [])[:6]
+        ]
+        state["vector_factoids"] = raw_factoids
         _append_citations(state, list(vector_result.get("citations") or []))
 
     recruit_id = str(state.get("recruit_id") or "").strip()
     if recruit_id:
         comparables_result = historical_comparables_tool(recruit_id)
-        state["comparables_context"] = str(comparables_result.get("data") or "").strip()
+        state["comparables_context"] = _truncate_text_block(comparables_result.get("data") or "", 5000)
         _append_citations(state, list(comparables_result.get("citations") or []))
 
     synthesis_payload = {
         "player_name": state.get("target_player_name") or state.get("player_name") or "",
-        "user_intent": user_intent,
-        "user_query": str(state.get("user_query") or "").strip(),
+        "user_intent": _truncate_text_block(user_intent, 500),
+        "user_query": _truncate_text_block(state.get("user_query") or "", 2200),
         "player_profile": player_profile,
-        "cfbd_summary": state.get("cfbd_data_summary", ""),
-        "recruiting_summary": state.get("web_recruiting_summary", ""),
-        "team_summary": state.get("web_team_summary", ""),
+        "cfbd_summary": _truncate_text_block(state.get("cfbd_data_summary", ""), 6000),
+        "recruiting_summary": _truncate_text_block(state.get("web_recruiting_summary", ""), 5000),
+        "team_summary": _truncate_text_block(state.get("web_team_summary", ""), 5000),
         "vector_factoids": list(state.get("vector_factoids") or []),
-        "historical_comparables": state.get("comparables_context", ""),
+        "historical_comparables": _truncate_text_block(state.get("comparables_context", ""), 5000),
     }
 
     synthesis_prompt = build_master_prompt(

@@ -563,10 +563,48 @@ def final_synthesis_tool(prompt: str) -> dict[str, Any]:
             "citations": [],
         }
 
-    response = llm.invoke(prompt)
-    return {
-        "status": "ok",
-        "reason": "final synthesis complete",
-        "data": _llm_response_to_text(response),
-        "citations": [{"source_type": "model", "source_name": CONFIG["FINAL_MODEL"], "source_url": ""}],
-    }
+    def _shrink_prompt(value: str, limit: int = 45000) -> str:
+        text = str(value or "")
+        if len(text) <= limit:
+            return text
+        head = text[: int(limit * 0.65)]
+        tail = text[-int(limit * 0.25) :]
+        return (
+            f"{head}\n\n[TRUNCATION NOTE: prompt reduced due model token budget]\n\n"
+            f"{tail}"
+        )
+
+    try:
+        response = llm.invoke(prompt)
+        return {
+            "status": "ok",
+            "reason": "final synthesis complete",
+            "data": _llm_response_to_text(response),
+            "citations": [{"source_type": "model", "source_name": CONFIG["FINAL_MODEL"], "source_url": ""}],
+        }
+    except Exception as exc:
+        message = str(exc)
+        if "INVALID_ARGUMENT" not in message or "token" not in message.lower():
+            return {
+                "status": "error",
+                "reason": "final synthesis failed",
+                "data": f"Final synthesis failed: {exc}",
+                "citations": [],
+            }
+
+        retry_prompt = _shrink_prompt(prompt)
+        try:
+            response = llm.invoke(retry_prompt)
+            return {
+                "status": "ok",
+                "reason": "final synthesis complete after prompt compaction",
+                "data": _llm_response_to_text(response),
+                "citations": [{"source_type": "model", "source_name": CONFIG["FINAL_MODEL"], "source_url": ""}],
+            }
+        except Exception as retry_exc:
+            return {
+                "status": "error",
+                "reason": "final synthesis failed after retry",
+                "data": f"Final synthesis failed after retry: {retry_exc}",
+                "citations": [],
+            }
