@@ -50,6 +50,45 @@ def _truncate_text_block(value: Any, max_chars: int) -> str:
     return f"{text[:max_chars].rstrip()} ...[truncated]"
 
 
+def _is_meaningful_summary(value: Any) -> bool:
+    text = str(value or "").strip().lower()
+    if not text:
+        return False
+    weak_markers = [
+        "summary unavailable",
+        "no data",
+        "insufficient",
+        "skipped",
+        "failed",
+    ]
+    if any(marker in text for marker in weak_markers):
+        return False
+    return len(text) >= 80
+
+
+def _has_internal_grounding(state: ScoutState) -> bool:
+    bundle = dict(state.get("sql_data_context") or {})
+    player_profile = dict(bundle.get("player") or {})
+    has_player_profile = bool(player_profile)
+    has_cfbd_summary = _is_meaningful_summary(state.get("cfbd_data_summary", ""))
+    return has_player_profile or has_cfbd_summary
+
+
+def _needs_web_recency_enrichment(state: ScoutState) -> bool:
+    query = str(state.get("user_query") or "").lower()
+    recency_terms = ["news", "recent", "update", "transfer", "portal", "injury", "latest"]
+    return any(term in query for term in recency_terms)
+
+
+def _should_use_duckduckgo(state: ScoutState, scope: str) -> tuple[bool, str]:
+    # Primary-first policy: web search is only fallback/enrichment.
+    if not _has_internal_grounding(state):
+        return True, f"{scope}_fallback_missing_internal"
+    if _needs_web_recency_enrichment(state):
+        return True, f"{scope}_enrichment_recent_updates"
+    return False, f"{scope}_skipped_internal_sufficient"
+
+
 def _infer_chat_route(query: str) -> str:
     q = str(query or "").lower()
     if any(word in q for word in ["compare", "similar", "historical"]):
@@ -176,6 +215,13 @@ def cfbd_analyst_node(state: ScoutState) -> ScoutState:
 
 
 def recruiting_scout_node(state: ScoutState) -> ScoutState:
+    use_web, reason = _should_use_duckduckgo(state, "recruiting")
+    state["web_recruiting_used"] = use_web
+    if not use_web:
+        state["web_recruiting_summary"] = "Web enrichment not used: internal backend evidence is sufficient for current request."
+        _append_trace(state, "recruiting_scout", reason)
+        return state
+
     plan = state.get("delegator_plan") or {}
     query = ""
     if isinstance(plan, dict):
@@ -184,10 +230,11 @@ def recruiting_scout_node(state: ScoutState) -> ScoutState:
         fallback_name = state.get("target_player_name") or state.get("player_name") or "player"
         query = f"{fallback_name} recruiting injury transfer update"
 
-    search_result = search_web_query_tool(query=query, max_results=10)
+    search_result = search_web_query_tool(query=query, max_results=6)
     summary_result = summarize_payload_tool(
         summary_prompt=(
-            "Summarize recruiting and player web context in markdown bullets for a scouting report. "
+            "Summarize recruiting and player web context in markdown bullets for a scouting report as "
+            "supplemental enrichment only. Do not override internal backend facts. "
             "Use only supplied snippets and include caveats when uncertain."
         ),
         payload=search_result.get("data", []),
@@ -196,11 +243,18 @@ def recruiting_scout_node(state: ScoutState) -> ScoutState:
     state["web_recruiting_summary"] = str(summary_result.get("data", "")).strip()
     _append_citations(state, list(search_result.get("citations") or []))
     _append_citations(state, list(summary_result.get("citations") or []))
-    _append_trace(state, "recruiting_scout", "web_recruiting_summary_ready")
+    _append_trace(state, "recruiting_scout", f"web_recruiting_summary_ready reason={reason}")
     return state
 
 
 def team_scout_node(state: ScoutState) -> ScoutState:
+    use_web, reason = _should_use_duckduckgo(state, "team")
+    state["web_team_used"] = use_web
+    if not use_web:
+        state["web_team_summary"] = "Web enrichment not used: internal backend evidence is sufficient for current request."
+        _append_trace(state, "team_scout", reason)
+        return state
+
     plan = state.get("delegator_plan") or {}
     query = ""
     if isinstance(plan, dict):
@@ -209,11 +263,11 @@ def team_scout_node(state: ScoutState) -> ScoutState:
         fallback_team = state.get("target_team") or "team"
         query = f"{fallback_team} depth chart roster defensive backfield outlook"
 
-    search_result = search_web_query_tool(query=query, max_results=10)
+    search_result = search_web_query_tool(query=query, max_results=6)
     summary_result = summarize_payload_tool(
         summary_prompt=(
-            "Summarize team context for roster fit in concise markdown bullets. "
-            "Use only supplied snippets and avoid unsupported claims."
+            "Summarize team context for roster fit in concise markdown bullets as supplemental enrichment only. "
+            "Use only supplied snippets and avoid unsupported claims. Do not override internal backend facts."
         ),
         payload=search_result.get("data", []),
     )
@@ -221,7 +275,7 @@ def team_scout_node(state: ScoutState) -> ScoutState:
     state["web_team_summary"] = str(summary_result.get("data", "")).strip()
     _append_citations(state, list(search_result.get("citations") or []))
     _append_citations(state, list(summary_result.get("citations") or []))
-    _append_trace(state, "team_scout", "web_team_summary_ready")
+    _append_trace(state, "team_scout", f"web_team_summary_ready reason={reason}")
     return state
 
 
@@ -268,6 +322,16 @@ def lead_synthesizer_node(state: ScoutState) -> ScoutState:
         "team_summary": _truncate_text_block(state.get("web_team_summary", ""), 5000),
         "vector_factoids": list(state.get("vector_factoids") or []),
         "historical_comparables": _truncate_text_block(state.get("comparables_context", ""), 5000),
+        "source_priority": {
+            "primary": "internal_backend_data_vectors_and_repository_context",
+            "secondary": "duckduckgo_supplemental_enrichment_only",
+            "final": "model_reasoning_supported_by_available_evidence_only",
+        },
+        "source_usage": {
+            "internal_grounding_available": _has_internal_grounding(state),
+            "duckduckgo_recruiting_used": bool(state.get("web_recruiting_used", False)),
+            "duckduckgo_team_used": bool(state.get("web_team_used", False)),
+        },
     }
 
     synthesis_prompt = build_master_prompt(

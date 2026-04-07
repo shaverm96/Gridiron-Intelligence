@@ -35,6 +35,8 @@ class ScoutState(TypedDict, total=False):
     # Gathered contexts
     sql_data_context: dict[str, Any]
     web_research_context: str
+    web_recruiting_used: bool
+    web_team_used: bool
     vector_factoids: list[str]
     comparables_context: str
 
@@ -81,6 +83,8 @@ def initial_structured_state(
         "web_team_summary": "",
         "sql_data_context": {},
         "web_research_context": "",
+        "web_recruiting_used": False,
+        "web_team_used": False,
         "vector_factoids": [],
         "comparables_context": "",
         "final_report": "",
@@ -109,6 +113,8 @@ def initial_chat_state(user_query: str) -> ScoutState:
         "web_team_summary": "",
         "sql_data_context": {},
         "web_research_context": "",
+        "web_recruiting_used": False,
+        "web_team_used": False,
         "vector_factoids": [],
         "comparables_context": "",
         "final_report": "",
