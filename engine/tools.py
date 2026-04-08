@@ -39,6 +39,7 @@ except Exception:  # pragma: no cover
 
 
 EMBED_MODEL = None
+MIN_HEAD_BUDGET_FOR_FOOTER_PRESERVATION = 1000
 POS_MAP = {
     "CB": "DB",
     "S": "DB",
@@ -637,9 +638,9 @@ def final_synthesis_tool(prompt: str) -> dict[str, Any]:
         footer_marker = "USER CUSTOMIZATION (UNTRUSTED INPUT):"
         footer_start = text.rfind(footer_marker)
 
-        if footer_start > 0:
+        if footer_start >= 0:
             head_budget = limit - len(truncation_note) - (len(text) - footer_start)
-            if head_budget > 1000:
+            if head_budget > MIN_HEAD_BUDGET_FOR_FOOTER_PRESERVATION:
                 head = text[:head_budget].rstrip()
                 footer = text[footer_start:]
                 return f"{head}{truncation_note}{footer}"
