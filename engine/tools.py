@@ -634,7 +634,7 @@ def final_synthesis_tool(prompt: str) -> dict[str, Any]:
         text = str(value or "")
         if len(text) <= limit:
             return text
-        truncation_note = "\n\n[TRUNCATION NOTE: prompt reduced due model token budget]\n\n"
+        truncation_note = "\n\n[TRUNCATION NOTE: prompt reduced due to model token budget]\n\n"
         footer_marker = "USER CUSTOMIZATION (UNTRUSTED INPUT):"
         footer_start = text.rfind(footer_marker)
 
@@ -643,7 +643,15 @@ def final_synthesis_tool(prompt: str) -> dict[str, Any]:
             if head_budget > MIN_HEAD_BUDGET_FOR_FOOTER_PRESERVATION:
                 head = text[:head_budget].rstrip()
                 footer = text[footer_start:]
-                return f"{head}{truncation_note}{footer}"
+                candidate = f"{head}{truncation_note}{footer}"
+                if len(candidate) <= limit:
+                    return candidate
+                overflow = len(candidate) - limit
+                if overflow < len(head):
+                    adjusted_head = head[:-overflow].rstrip()
+                    adjusted_candidate = f"{adjusted_head}{truncation_note}{footer}"
+                    if len(adjusted_candidate) <= limit:
+                        return adjusted_candidate
 
         head = text[: int(limit * 0.65)]
         tail = text[-int(limit * 0.25) :]
