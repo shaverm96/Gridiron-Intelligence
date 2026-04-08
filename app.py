@@ -900,7 +900,7 @@ st.markdown("<p class='football-subtitle'>Interactive Scouting Workbench (Stream
 with st.sidebar:
     st.image("https://raw.githubusercontent.com/shaverm96/Gridiron-Intelligence/main/Logos/Main.svg", width=150)
     st.title("Gridiron Intelligence")
-    workspace_options = ["Structured Report", "Open Chat"]
+    workspace_options = ["Structured Report", "Structured Report + Open Chat", "Open Chat"]
     if _is_local_debug_page_enabled():
         workspace_options.append("Local CFBD Debugger")
     app_page = st.radio("Workspace", workspace_options, index=0)
@@ -1214,6 +1214,330 @@ def render_structured_report_page() -> None:
                 st.write("No scouting profile fields were available for this player.")
 
 
+def render_structured_report_with_chat_page() -> None:
+    report_state_key = "structured_chat_report_output"
+
+    try:
+        player_index = load_player_index()
+    except Exception as exc:
+        st.error(f"Unable to load player index: {exc}")
+        st.stop()
+
+    selected_year = st.selectbox("Recruiting Class Year", CONFIG["YEARS"], index=0, key="structured_chat_year")
+    year_players = player_index[player_index["year"] == selected_year]
+    selected_label = (
+        st.selectbox("Player", year_players["player_label"].tolist(), key="structured_chat_player")
+        if not year_players.empty
+        else ""
+    )
+    target_team = st.selectbox("Target Team", TARGET_TEAMS, index=0, key="structured_chat_target_team")
+
+    if st.button("Generate Scouting Report", type="primary", key="structured_chat_generate_report"):
+        allowed, retry_after = _allow_structured_report_submission()
+        if not allowed:
+            st.warning(
+                f"Rate limit reached: max {STRUCTURED_REPORT_RATE_LIMIT_COUNT} reports per "
+                f"{STRUCTURED_REPORT_RATE_LIMIT_WINDOW_SECONDS} seconds. Try again in ~{retry_after}s."
+            )
+            return
+
+        if not selected_label:
+            st.warning("No players available for selected year.")
+            return
+
+        supabase_issues = get_supabase_config_issues()
+        if supabase_issues:
+            msg = "Cannot run report until Supabase is configured:\n" + "\n".join([f"- {issue}" for issue in supabase_issues])
+            st.error(msg)
+            st.stop()
+
+        lookup = dict(zip(player_index["player_label"], player_index["recruit_id"]))
+        recruit_id = lookup.get(selected_label)
+        if not recruit_id:
+            st.warning("Pick a valid player from the dropdown list.")
+            st.stop()
+
+        selected_label_parts = [part.strip() for part in str(selected_label).split("|")]
+        selected_player_name = selected_label_parts[0] if selected_label_parts else ""
+        selected_position_hint = selected_label_parts[1] if len(selected_label_parts) > 1 else ""
+        milestone_slot = st.empty()
+
+        def _render_structured_milestone(event: dict[str, str]) -> None:
+            node = str(event.get("node") or "workflow")
+            status = str(event.get("status") or "running")
+            labels = {
+                "workflow": "Web Scout Pipeline",
+                "recruiting_scout": "Recruiting Scout",
+                "team_scout": "Team Scout",
+            }
+            node_label = labels.get(node, node.replace("_", " ").title())
+            if status == "completed":
+                milestone_slot.success(f"{node_label}: complete")
+            else:
+                milestone_slot.info(f"{node_label}: running")
+
+        with st.spinner("Building structured scouting report..."):
+            try:
+                sb = get_supabase_client()
+                bundle = fetch_player_bundle(sb=sb, recruit_id=str(recruit_id))
+            except Exception as exc:
+                st.error(f"Structured report failed while fetching player bundle: {exc}")
+                st.stop()
+
+            player_row = dict(bundle.get("player") or {})
+            player_profile = dict(bundle.get("player_profile") or {})
+            scouting_clean = dict(bundle.get("scouting_clean") or {})
+            pred_score_row = dict(bundle.get("pred_score") or {})
+            pred_thr_row = dict(bundle.get("pred_threshold") or {})
+
+            player_name = (
+                str(player_profile.get("player_name") or "").strip()
+                or str(player_row.get("player_name") or "").strip()
+                or selected_player_name
+            )
+            position = str(
+                player_profile.get("position")
+                or player_row.get("position")
+                or player_row.get("pos")
+                or player_row.get("primary_position")
+                or scouting_clean.get("position")
+                or selected_position_hint
+                or ""
+            ).strip()
+            high_school = str(player_row.get("high_school") or player_row.get("school") or "").strip()
+
+            vector_query = (
+                f"Player: {player_name}. Position: {position}. High school: {high_school}. "
+                f"Target team: {target_team}. Class year: {selected_year}. "
+                "Provide grounded trait/development insights relevant for recruiting projection."
+            )
+            vector_result = vector_insights_query(
+                sb=sb,
+                query_text=vector_query,
+                position=position or None,
+                top_k=CONFIG["VECTOR_MATCH_COUNT"],
+                threshold=None,
+            )
+
+            web_recruiting_summary = ""
+            web_team_summary = ""
+            try:
+                structured_web_graph = get_cached_structured_web_graph()
+                web_state = orchestrate_structured_web_scouting(
+                    player_name=player_name,
+                    recruit_id=str(recruit_id),
+                    target_team=str(target_team),
+                    year=int(selected_year),
+                    graph=structured_web_graph,
+                    progress_callback=_render_structured_milestone,
+                )
+                web_recruiting_summary = str(web_state.get("web_recruiting_summary") or "").strip()
+                web_team_summary = str(web_state.get("web_team_summary") or "").strip()
+            except Exception as exc:
+                web_recruiting_summary = f"Recruiting web summary unavailable: {exc}"
+                web_team_summary = f"Team web summary unavailable: {exc}"
+            finally:
+                milestone_slot.success("Web Scout Pipeline complete")
+
+            historical_comparables_md = get_historical_player_comparables(str(recruit_id))
+            score_card_html = build_score_card_html(pred_score=pred_score_row, pred_threshold=pred_thr_row)
+            web_summary = (
+                "Recruiting Scout Summary:\n"
+                f"{web_recruiting_summary or 'No recruiting summary available.'}\n\n"
+                "Team Scout Summary:\n"
+                f"{web_team_summary or 'No team summary available.'}"
+            )
+
+            final_prompt = build_final_prompt(
+                year=int(selected_year),
+                target_team=str(target_team),
+                player_row=player_row,
+                scouting_clean=scouting_clean,
+                hs_athletic_background=str(scouting_clean.get("athletic_background") or "N/A"),
+                pred_score_row=pred_score_row,
+                pred_thr_row=pred_thr_row,
+                web_summary=web_summary,
+                vector_result=vector_result,
+                historical_comparables_md=historical_comparables_md,
+            )
+            final_report = run_final_synthesis(final_prompt)
+
+        st.session_state[report_state_key] = {
+            "player_name": player_name,
+            "recruit_id": str(recruit_id),
+            "selected_year": selected_year,
+            "target_team": target_team,
+            "historical_comparables_md": historical_comparables_md,
+            "score_card_html": score_card_html,
+            "web_recruiting_summary": web_recruiting_summary,
+            "web_team_summary": web_team_summary,
+            "final_report": final_report,
+            "player_profile": player_profile,
+            "player_row": player_row,
+            "vector_result": vector_result,
+            "scouting_clean": scouting_clean,
+        }
+
+    report_output = st.session_state.get(report_state_key)
+    if isinstance(report_output, dict):
+        st.markdown(f"## Scouting Workbench Output - {report_output.get('player_name', '')}")
+        st.markdown(
+            f"- Recruit ID: `{report_output.get('recruit_id', '')}`  \\\n+"
+            f"- Year: `{report_output.get('selected_year', '')}`  \\\n+"
+            f"- Target Team: `{report_output.get('target_team', '')}`  \\\n+"
+            f"- Persona: `{st.session_state.get('selected_persona', 'Scout')}`"
+        )
+        st.markdown("### Historical Comparables")
+        st.markdown(report_output.get("historical_comparables_md") or "No historical comparables available.")
+
+        st.markdown("### Projected Model Score")
+        st.markdown(str(report_output.get("score_card_html") or ""), unsafe_allow_html=True)
+
+        st.markdown("### Recruiting Scout Summary")
+        st.markdown(report_output.get("web_recruiting_summary") or "No recruiting summary available.")
+
+        st.markdown("### Team Scout Summary")
+        st.markdown(report_output.get("web_team_summary") or "No team summary available.")
+
+        st.markdown("### Final Synthesis")
+        st.markdown(report_output.get("final_report") or "No final synthesis generated.")
+
+        with st.expander("Development Information (temporary)"):
+            st.markdown("#### Player Profile")
+            st.code(
+                json.dumps(report_output.get("player_profile") or report_output.get("player_row") or {}, indent=2, default=str),
+                language="json",
+            )
+
+            st.markdown("#### Vector Insights")
+            vector_result = report_output.get("vector_result") or {}
+            vector_insights = list(vector_result.get("insights") or []) if isinstance(vector_result, dict) else []
+            if vector_insights:
+                for insight in vector_insights[:8]:
+                    st.write(f"- {insight}")
+            else:
+                reason = ""
+                if isinstance(vector_result, dict):
+                    reason = str(vector_result.get("reason") or "").strip()
+                st.write(f"No vector insights returned for the selected player. {reason}".strip())
+
+            st.markdown("#### Scouting Profile (General)")
+            scouting_clean = report_output.get("scouting_clean") or {}
+            if scouting_clean:
+                st.code(json.dumps(scouting_clean, indent=2, default=str), language="json")
+            else:
+                st.write("No scouting profile fields were available for this player.")
+
+        st.write("---")
+        st.subheader("Open Chat")
+        st.caption(
+            "Session-scoped memory is isolated to this combined page. "
+            f"Current persona: {st.session_state.get('selected_persona', 'Scout')}"
+        )
+
+        if "structured_chat_messages" not in st.session_state:
+            st.session_state["structured_chat_messages"] = []
+        if "structured_chat_agent_state" not in st.session_state:
+            st.session_state["structured_chat_agent_state"] = initial_chat_state("")
+
+        col1, col2 = st.columns([1, 5])
+        with col1:
+            if st.button("Clear Chat", key="structured_chat_clear"):
+                st.session_state["structured_chat_messages"] = []
+                st.session_state["structured_chat_agent_state"] = initial_chat_state("")
+                st.rerun()
+
+        for message in st.session_state["structured_chat_messages"]:
+            with st.chat_message(message.get("role", "assistant")):
+                st.markdown(str(message.get("content", "")))
+
+        user_prompt = st.chat_input(
+            "Ask anything about players, comparables, web intel, or team fit...",
+            key="structured_chat_input",
+        )
+        if not user_prompt:
+            return
+
+        st.session_state["structured_chat_messages"].append({"role": "user", "content": user_prompt})
+        with st.chat_message("user"):
+            st.markdown(user_prompt)
+
+        with st.chat_message("assistant"):
+            milestone_slot = st.empty()
+
+            def _render_milestone(event: dict[str, str]) -> None:
+                node = str(event.get("node") or "workflow")
+                status = str(event.get("status") or "running")
+                labels = {
+                    "workflow": "Pipeline",
+                    "lead_delegator": "Delegator",
+                    "cfbd_analyst": "CFBD Analyst",
+                    "recruiting_scout": "Recruiting Scout",
+                    "team_scout": "Team Scout",
+                    "lead_synthesizer": "Lead Synthesizer",
+                }
+                node_label = labels.get(node, node.replace("_", " ").title())
+                if status == "completed":
+                    milestone_slot.success(f"{node_label}: complete")
+                else:
+                    milestone_slot.info(f"{node_label}: running")
+
+            with st.spinner("Thinking..."):
+                try:
+                    graph = get_cached_agent_graph()
+                    current_state = _compact_open_chat_state(st.session_state.get("structured_chat_agent_state", {}))
+                    result_state = orchestrate_chat_turn(
+                        user_prompt=user_prompt,
+                        current_state=current_state,
+                        graph=graph,
+                        progress_callback=_render_milestone,
+                    )
+                    assistant_text = str(result_state.get("final_report") or "No response generated.")
+
+                    st.session_state["structured_chat_agent_state"] = _compact_open_chat_state(result_state)
+                    st.session_state["structured_chat_messages"].append({"role": "assistant", "content": assistant_text})
+                    milestone_slot.success("Pipeline complete")
+                    st.markdown(assistant_text)
+
+                    if bool(result_state.get("requires_identity_clarification")):
+                        candidate_rows = list(result_state.get("identity_candidates") or [])
+                        if candidate_rows:
+                            with st.expander("Identity clarification candidates"):
+                                for idx, row in enumerate(candidate_rows, start=1):
+                                    name = str(
+                                        row.get("player_name")
+                                        or row.get("full_name")
+                                        or row.get("recruit_name")
+                                        or "Unknown"
+                                    ).strip()
+                                    position = str(row.get("position") or row.get("position_group") or "?").strip() or "?"
+                                    year = str(row.get("recruit_class") or row.get("year") or "?").strip() or "?"
+                                    team = str(row.get("committed_to") or row.get("teams") or "").strip()
+                                    rid = str(row.get("recruit_id") or "").strip()
+                                    score = row.get("score")
+                                    score_text = f"{float(score):.2f}" if score is not None else "n/a"
+                                    team_text = f" | Team: {team}" if team else ""
+                                    rid_text = f" | Recruit ID: {rid}" if rid else " | Recruit ID: n/a"
+                                    st.write(
+                                        f"{idx}. {name} | Pos: {position} | Year: {year}{team_text}{rid_text} | Score: {score_text}"
+                                    )
+
+                    trace_log = list(result_state.get("trace_log") or [])
+                    if trace_log:
+                        with st.expander("Execution Trace"):
+                            st.code(json.dumps(trace_log, indent=2, default=str), language="json")
+
+                    errors = result_state.get("errors", [])
+                    if errors:
+                        with st.expander("Agent notes"):
+                            for err in errors[-3:]:
+                                st.write(f"- {err}")
+                except Exception as exc:
+                    err_text = f"Open chat failed: {exc}"
+                    st.session_state["structured_chat_messages"].append({"role": "assistant", "content": err_text})
+                    st.error(err_text)
+
+
 def render_open_chat_page() -> None:
     st.subheader("Open Chat")
     st.caption(
@@ -1316,6 +1640,8 @@ def render_open_chat_page() -> None:
 
 if app_page == "Structured Report":
     render_structured_report_page()
+elif app_page == "Structured Report + Open Chat":
+    render_structured_report_with_chat_page()
 elif app_page == "Open Chat":
     render_open_chat_page()
 else:
