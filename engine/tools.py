@@ -639,15 +639,16 @@ def final_synthesis_tool(prompt: str) -> dict[str, Any]:
         footer_start = text.rfind(footer_marker)
 
         if footer_start >= 0:
-            head_budget = limit - len(truncation_note) - (len(text) - footer_start)
+            footer = text[footer_start:]
+            footer_length = len(footer)
+            head_budget = limit - len(truncation_note) - footer_length
             if head_budget > MIN_HEAD_BUDGET_FOR_FOOTER_PRESERVATION:
                 head = text[:head_budget].rstrip()
-                footer = text[footer_start:]
                 candidate = f"{head}{truncation_note}{footer}"
                 if len(candidate) <= limit:
                     return candidate
                 overflow = len(candidate) - limit
-                if overflow < len(head):
+                if overflow <= len(head):
                     adjusted_head = head[:-overflow].rstrip()
                     adjusted_candidate = f"{adjusted_head}{truncation_note}{footer}"
                     if len(adjusted_candidate) <= limit:
