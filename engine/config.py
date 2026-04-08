@@ -13,7 +13,7 @@ def _normalize_model_name(model_name: str, default_model: str) -> str:
     value = str(model_name or "").strip() or default_model
     alias_map = {
         "gemini-3.0-flash": "gemini-3-flash-preview",
-        "gemini-3.1-flash-lite": "gemini-3.1-flash-lite",
+        "gemini-3.1-flash-lite-preview": "gemini-3.1-flash-lite-preview",
     }
     return alias_map.get(value, value)
 
@@ -51,8 +51,8 @@ CONFIG = {
         "gemini-3-flash-preview",
     ),
     "SUMMARY_MODEL": _normalize_model_name(
-        os.getenv("GI_SUMMARY_MODEL", "gemini-3.1-flash-lite"),
-        "gemini-3.1-flash-lite",
+        os.getenv("GI_SUMMARY_MODEL", "gemini-3.1-flash-lite-preview"),
+        "gemini-3.1-flash-lite-preview",
     ),
     "WEB_QUERY_MAX_RESULTS": int(os.getenv("GI_WEB_QUERY_MAX_RESULTS", "6")),
     "PROMPT_PAYLOAD_MAX_CHARS": int(os.getenv("GI_PROMPT_PAYLOAD_MAX_CHARS", "12000")),

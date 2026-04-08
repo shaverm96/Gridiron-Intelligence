@@ -161,7 +161,7 @@ CONFIG = {
     "CFBD_BASE_URL": _cfg("CFBD_BASE_URL", "https://api.collegefootballdata.com"),
     "YEARS": [2026, 2027, 2028],
     "FINAL_MODEL": "gemini-3-flash-preview",
-    "SUMMARY_MODEL": "gemini-2.5-flash-lite",
+    "SUMMARY_MODEL": "gemini-3.1-flash-lite-preview",
     "VECTOR_MATCH_COUNT": 6,
     "VECTOR_MATCH_THRESHOLD": 0.15,
     "VECTOR_RPC_NAME": "match_gi_factoids",
@@ -290,7 +290,7 @@ def run_one_click_diagnostics() -> dict:
 def _normalize_model_name(model_name: str) -> str:
     alias_map = {
         "gemini-3.0-flash": "gemini-3-flash-preview",
-        "gemini-3.1-flash-lite": "gemini-2.5-flash-lite",
+        "gemini-3.1-flash-lite": "gemini-3.1-flash-lite-preview",
     }
     value = str(model_name or "").strip()
     return alias_map.get(value, value)
