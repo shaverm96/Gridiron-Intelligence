@@ -59,6 +59,11 @@ MODEL_ALIAS_MAP = {
 }
 
 
+def _normalize_model_name(model_name: str) -> str:
+    value = str(model_name or "").strip()
+    return MODEL_ALIAS_MAP.get(value, value)
+
+
 class DelegatorOutputValidationError(Exception):
     """Raised when LLM delegator output fails strict schema validation."""
 POS_MAP = {
@@ -98,7 +103,7 @@ POS_MAP = {
 def _get_llm(model_name: str, temperature: float, max_output_tokens: int):
     if ChatGoogleGenerativeAI is None or not CONFIG["GEMINI_API_KEY"]:
         return None
-    resolved_model = normalize_model_name(model_name)
+    resolved_model = _normalize_model_name(model_name)
     return ChatGoogleGenerativeAI(
         model=resolved_model,
         google_api_key=CONFIG["GEMINI_API_KEY"],

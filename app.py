@@ -299,7 +299,7 @@ def _normalize_model_name(model_name: str) -> str:
 def get_llm(model_name: str, temperature: float = 0.2, max_output_tokens: int = 1800):
     if ChatGoogleGenerativeAI is None or not CONFIG["GEMINI_API_KEY"]:
         return None
-    resolved_model = normalize_model_name(model_name)
+    resolved_model = _normalize_model_name(model_name)
     return ChatGoogleGenerativeAI(model=resolved_model, google_api_key=CONFIG["GEMINI_API_KEY"], temperature=temperature, max_output_tokens=max_output_tokens)
 
 
