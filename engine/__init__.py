@@ -1,6 +1,16 @@
 """Engine package for the Gridiron Intelligence multi-agent scouting workflow."""
 
-from .graph import get_scout_graph
-from .orchestration_service import orchestrate_chat_turn, orchestrate_structured_report
+from .graph import get_scout_graph, get_structured_web_graph
+from .orchestration_service import (
+	orchestrate_chat_turn,
+	orchestrate_structured_report,
+	orchestrate_structured_web_scouting,
+)
 
-__all__ = ["get_scout_graph", "orchestrate_structured_report", "orchestrate_chat_turn"]
+__all__ = [
+	"get_scout_graph",
+	"get_structured_web_graph",
+	"orchestrate_structured_report",
+	"orchestrate_structured_web_scouting",
+	"orchestrate_chat_turn",
+]

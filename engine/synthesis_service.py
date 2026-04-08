@@ -1,7 +1,99 @@
 from __future__ import annotations
 
 import json
+import re
+from datetime import date
 from typing import Any
+
+from .config import CONFIG
+
+
+def _truncate_text(value: str, max_chars: int) -> str:
+    text = str(value or "")
+    if max_chars <= 0 or len(text) <= max_chars:
+        return text
+    return f"{text[:max_chars]}\n\n[truncated {len(text) - max_chars} chars]"
+
+
+def _json_block(value: Any, max_chars: int) -> str:
+    return _truncate_text(json.dumps(value, indent=2, default=str), max_chars=max_chars)
+
+
+def _with_current_date_context(prompt_text: str) -> str:
+    today_iso = date.today().isoformat()
+    date_context = (
+        "Date Context:\n"
+        f"- Current date: {today_iso}\n"
+        "- Treat this as today's date when reasoning about recency and up-to-date information.\n"
+        "- If recency is uncertain, state the uncertainty explicitly.\n\n"
+    )
+    return f"{date_context}{str(prompt_text or '').strip()}"
+
+
+def _friendly_threshold_block(pred_thr_row: dict[str, Any]) -> str:
+    if not isinstance(pred_thr_row, dict) or not pred_thr_row:
+        return "No threshold probabilities available."
+
+    lines_map: dict[tuple[str, str], tuple[float, str, int]] = {}
+    for key, value in pred_thr_row.items():
+        key_text = str(key or "").strip()
+        key_lower = key_text.lower()
+        if key_lower in {"recruit_id", "id", "year", "class_year", "created_at", "updated_at"}:
+            continue
+
+        if "odds" in key_lower:
+            continue
+
+        threshold_match = re.search(r"(^|[_\-])(ge|gt|le|lt|gte|lte)(\d{1,3}(?:\.\d+)?)", key_lower)
+        if not threshold_match:
+            continue
+
+        looks_probability = (
+            "prob" in key_lower
+            or "probability" in key_lower
+        )
+        if not looks_probability:
+            continue
+
+        try:
+            numeric = float(value)
+        except Exception:
+            continue
+
+        if numeric < 0:
+            continue
+        pct = numeric * 100.0 if numeric <= 1 else numeric
+        if pct > 100:
+            continue
+
+        op = str(threshold_match.group(2) or "ge")
+        threshold_num = str(threshold_match.group(3) or "")
+        if "ge" in op or "gte" in op or ">=" in key_lower:
+            label = f"Chance to reach >= {threshold_num}" if threshold_num else "Chance to reach upper threshold"
+        elif "gt" in op or ">" in key_lower:
+            label = f"Chance to exceed > {threshold_num}" if threshold_num else "Chance to exceed upper threshold"
+        elif "le" in op or "lte" in op or "<=" in key_lower:
+            label = f"Chance to stay <= {threshold_num}" if threshold_num else "Chance to stay below threshold"
+        elif "lt" in op or "<" in key_lower:
+            label = f"Chance to stay < {threshold_num}" if threshold_num else "Chance to stay below threshold"
+        elif threshold_num:
+            label = f"Chance to reach >= {threshold_num}"
+        else:
+            label = "Threshold probability"
+
+        rank_num = float(threshold_num) if threshold_num else -1.0
+        canonical_key = (op, threshold_num)
+        priority = 2 if "prob" in key_lower or "probability" in key_lower else 1
+        existing = lines_map.get(canonical_key)
+        if existing is None or priority > existing[2]:
+            lines_map[canonical_key] = (rank_num, f"- {label}: {pct:.1f}%", priority)
+
+    if not lines_map:
+        return "No threshold probabilities available."
+
+    lines = [(rank, line) for rank, line, _ in lines_map.values()]
+    lines.sort(key=lambda item: item[0], reverse=True)
+    return "\n".join([line for _, line in lines[:6]])
 
 
 def build_final_prompt_data(
@@ -20,28 +112,36 @@ def build_final_prompt_data(
 ) -> str:
     vector_insights = vector_result.get("insights", []) if isinstance(vector_result, dict) else []
     vector_block = "\n".join([f"- {item}" for item in vector_insights]) if vector_insights else "No vector insights returned."
+    threshold_block = _friendly_threshold_block(pred_thr_row)
 
     tier_defs = tier_definitions_markdown() if callable(tier_definitions_markdown) else str(tier_definitions_markdown)
 
-    return (
+    payload_cap = int(CONFIG.get("PROMPT_PAYLOAD_MAX_CHARS", 12000))
+    prompt_cap = int(CONFIG.get("FINAL_PROMPT_MAX_CHARS", 20000))
+    json_cap = max(1500, payload_cap // 3)
+
+    prompt = (
         "You are a senior college football recruiting scout.\n"
         f"Persona: {persona}\n"
         "Use only provided context. If data is missing, say so clearly.\n\n"
+        "Do not mention missing technical skill grades or any missing skill_* fields. "
+        "Omit that uncertainty entirely from the narrative.\n\n"
         f"Year: {year}\n"
         f"Target Team: {target_team}\n\n"
         "Player Profile JSON:\n"
-        f"{json.dumps(player_row, indent=2, default=str)}\n\n"
+        f"{_json_block(player_row, max_chars=json_cap)}\n\n"
         "Filtered Scouting JSON:\n"
-        f"{json.dumps(scouting_clean, indent=2, default=str)}\n\n"
-        f"HS Athletic Background:\n{hs_athletic_background or 'N/A'}\n\n"
+        f"{_json_block(scouting_clean, max_chars=json_cap)}\n\n"
+        f"HS Athletic Background:\n{_truncate_text(hs_athletic_background or 'N/A', max_chars=2000)}\n\n"
         "Prediction Score Row JSON:\n"
-        f"{json.dumps(pred_score_row, indent=2, default=str)}\n\n"
-        "Prediction Threshold Row JSON:\n"
-        f"{json.dumps(pred_thr_row, indent=2, default=str)}\n\n"
-        f"Web Intelligence Summary:\n{web_summary}\n\n"
-        f"Vector Insights:\n{vector_block}\n\n"
-        f"Historical Comparables:\n{historical_comparables_md}\n\n"
-        f"Tier Definitions:\n{tier_defs}\n\n"
+        f"{_json_block(pred_score_row, max_chars=json_cap)}\n\n"
+        f"Prediction Threshold Probabilities (user-friendly):\n{_truncate_text(threshold_block, max_chars=1800)}\n\n"
+        f"Web Intelligence Summary:\n{_truncate_text(web_summary, max_chars=3000)}\n\n"
+        f"Vector Insights:\n{_truncate_text(vector_block, max_chars=2500)}\n\n"
+        f"Historical Comparables:\n{_truncate_text(historical_comparables_md, max_chars=2500)}\n\n"
+        f"Tier Definitions:\n{_truncate_text(tier_defs, max_chars=2500)}\n\n"
+        "When discussing threshold probabilities, never use raw internal key names like ge80, gt75, or p_ge80. "
+        "Translate them to user-friendly language such as 'chance to reach >=80' or plain English equivalents.\n\n"
         "Output sections in order:\n"
         "1) Player Snapshot\n"
         "2) Trait Evaluation\n"
@@ -49,6 +149,7 @@ def build_final_prompt_data(
         "4) Development Risks\n"
         "5) Final Recommendation and Confidence\n"
     )
+    return _truncate_text(prompt, max_chars=prompt_cap)
 
 
 def run_final_synthesis_data(
@@ -62,7 +163,7 @@ def run_final_synthesis_data(
         return "Final synthesis skipped: Gemini model is not configured."
 
     try:
-        response = llm.invoke(prompt)
+        response = llm.invoke(_with_current_date_context(prompt))
         text = llm_response_to_text(response)
         return str(text).strip() if text else "Final synthesis returned empty output."
     except Exception as exc:

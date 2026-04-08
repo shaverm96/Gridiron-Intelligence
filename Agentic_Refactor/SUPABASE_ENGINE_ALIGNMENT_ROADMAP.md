@@ -1,7 +1,7 @@
 # Supabase DB Update + Agentic App Alignment Roadmap
 
 Audience: Project partner handoff and implementation guide
-Last updated: 2026-03-27
+Last updated: 2026-04-08
 
 ## 1) Why this document exists
 
@@ -107,11 +107,20 @@ Bridge entity (gi_player_link_bridge) should answer:
 
 ### 5.2 Current drift / risk areas
 
-1. app.py still builds player index from local CSV (master_recruits_2015_2028.csv), not Supabase.
+1. app.py player index is Supabase-backed; current risk is lack of a controlled CSV fallback path when Supabase is unavailable.
 2. app.py TABLES mapping is partial and still named around player_master conventions.
 3. Data mapping wrappers in app.py (first_non_null, build_player_profile_view wrapper) are effectively schema-map functions but are not centralized as a formal schema contract module.
 4. Structured report page profile rendering currently favors recruit-side payload only; college and bridge context are not surfaced in a first-class way.
 5. Open chat uses agent orchestration, but there is no explicit prompt-level contract guaranteeing consistent recruit-vs-college identity framing in every turn.
+
+### 5.3 Current app state snapshot (2026-04-08)
+
+1. Structured Report currently combines deterministic data retrieval (bundle/model card/comparables/vector context) with a lightweight multi-agent web scout pipeline (recruiting + team summaries).
+2. Structured Report remains CFBD-excluded by scope and route design.
+3. Open Chat remains full multi-agent orchestration (delegator + workers + synthesizer) with clarification-aware identity flow.
+4. Local-only CFBD debugger exists as a separate route for endpoint and identity diagnostics.
+5. Prompt/model hardening is now active in multiple layers (sanitization, date context, payload truncation, validation handling).
+6. Model score UX is now end-user oriented (friendly threshold wording and probability bars).
 
 ## 6) Clarifying the schema-map concept for this codebase
 
@@ -179,7 +188,7 @@ Objective:
 - Make report page explicitly recruit+college aware and bridge-aware.
 
 Tasks:
-1. Replace CSV-only player index with Supabase-backed index path (with CSV fallback only if DB unavailable).
+1. Keep Supabase-backed player index as primary path and add explicit controlled CSV fallback behavior for degraded mode.
 2. In report generation, show:
    - recruit profile section
    - linked college profile section (if bridge resolution exists)
@@ -237,6 +246,9 @@ Deliverable:
 3. Phase 3 structured report migration to DB-backed index.
 4. Phase 4 open chat hardening with identity persistence.
 5. Phase 5 QA closeout.
+
+Execution note:
+1. Items from Phase 4 have partially advanced (identity clarification and orchestrator hardening); remaining work should prioritize schema-contract centralization and recruit/college/bridge presentation parity in Structured Report.
 
 ## 9) Concrete file touch list for upcoming work
 

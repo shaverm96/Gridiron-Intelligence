@@ -94,7 +94,50 @@ def _tokenize_name(value: str) -> list[str]:
     return [token for token in text.split() if token]
 
 
-def _score_identity_candidate(name_query: str, row: dict[str, Any]) -> float:
+def _safe_int(value: Any) -> int | None:
+    try:
+        if value is None:
+            return None
+        text = str(value).strip()
+        if not text:
+            return None
+        return int(float(text))
+    except Exception:
+        return None
+
+
+def _normalize_position(value: str | None) -> str:
+    return str(value or "").strip().upper()
+
+
+def _normalize_team(value: str | None) -> str:
+    text = str(value or "").strip().lower()
+    text = re.sub(r"[^a-z0-9\s]", " ", text)
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def _normalize_name_query(name_query: str) -> str:
+    text = str(name_query or "").strip()
+    if not text:
+        return ""
+    return re.sub(r"\s+(jr|sr|ii|iii|iv|v)\.?$", "", text, flags=re.IGNORECASE).strip()
+
+
+def _sanitize_ilike_term(value: str) -> str:
+    text = str(value or "")
+    text = re.sub(r"[\x00-\x1f\x7f]", " ", text)
+    text = text.replace("%", " ").replace("_", " ")
+    text = re.sub(r"\s+", " ", text).strip()
+    return text[:120]
+
+
+def _score_identity_candidate(
+    name_query: str,
+    row: dict[str, Any],
+    target_year: int | None = None,
+    target_position: str | None = None,
+    target_team: str | None = None,
+) -> float:
     query_tokens = set(_tokenize_name(name_query))
     if not query_tokens:
         return 0.0
@@ -113,10 +156,75 @@ def _score_identity_candidate(name_query: str, row: dict[str, Any]) -> float:
         return 0.0
 
     overlap = len(query_tokens.intersection(row_tokens))
-    return overlap / max(len(query_tokens), 1)
+    name_score = overlap / max(len(query_tokens), 1)
+
+    query_name_norm = " ".join(_tokenize_name(name_query))
+    row_name_norm = " ".join(_tokenize_name(_candidate_display_name(row)))
+    exact_name_match = 1.0 if query_name_norm and row_name_norm and query_name_norm == row_name_norm else 0.0
+
+    target_pos_norm = _normalize_position(target_position)
+    row_pos_norm = _normalize_position(row.get("position") or row.get("position_group"))
+    pos_score = 1.0 if target_pos_norm and row_pos_norm and target_pos_norm == row_pos_norm else 0.0
+
+    row_year = _safe_int(row.get("recruit_class") or row.get("year"))
+    year_score = 0.0
+    if target_year is not None and row_year is not None:
+        if row_year == target_year:
+            year_score = 1.0
+        elif abs(row_year - target_year) == 1:
+            year_score = 0.6
+        elif abs(row_year - target_year) == 2:
+            year_score = 0.3
+
+    target_team_norm = _normalize_team(target_team)
+    row_team_norm = _normalize_team(str(row.get("committed_to") or row.get("teams") or row.get("team") or row.get("school") or ""))
+    team_score = 1.0 if target_team_norm and row_team_norm and target_team_norm in row_team_norm else 0.0
+
+    # Keep score in [0, 1] while making context (team/year/position) meaningful for ties.
+    score = (
+        (0.55 * name_score)
+        + (0.15 * exact_name_match)
+        + (0.10 * pos_score)
+        + (0.10 * year_score)
+        + (0.10 * team_score)
+    )
+
+    return max(0.0, min(float(score), 1.0))
 
 
-def resolve_player_identity(name_query: str) -> dict[str, Any]:
+def _candidate_display_name(row: dict[str, Any]) -> str:
+    for key in ("player_name", "full_name", "recruit_name"):
+        value = str(row.get(key) or "").strip()
+        if value:
+            return value
+    return "Unknown"
+
+
+def _build_identity_clarification_prompt(name_query: str, candidates: list[dict[str, Any]]) -> str:
+    lines = [
+        f"I found multiple possible matches for '{name_query}'. Please confirm the correct player:",
+        "",
+    ]
+    for idx, row in enumerate(candidates, start=1):
+        name = _candidate_display_name(row)
+        position = str(row.get("position") or row.get("position_group") or "?").strip() or "?"
+        year = str(row.get("recruit_class") or row.get("year") or "?").strip() or "?"
+        team = str(row.get("committed_to") or row.get("teams") or "").strip()
+        rid = str(row.get("recruit_id") or "").strip()
+        identifier = f"recruit_id={rid}" if rid else "college-only match"
+        team_part = f" | team={team}" if team else ""
+        lines.append(f"{idx}. {name} | pos={position} | year={year}{team_part} | {identifier}")
+    lines.append("")
+    lines.append("Reply with the number or the exact player name to continue.")
+    return "\n".join(lines)
+
+
+def resolve_player_identity(
+    name_query: str,
+    year: int | None = None,
+    position: str | None = None,
+    team: str | None = None,
+) -> dict[str, Any]:
     sb = get_supabase_client()
     if sb is None:
         return {
@@ -125,7 +233,7 @@ def resolve_player_identity(name_query: str) -> dict[str, Any]:
             "data": {},
         }
 
-    text = str(name_query or "").strip()
+    text = _sanitize_ilike_term(_normalize_name_query(name_query))
     if not text:
         return {
             "status": "error",
@@ -136,7 +244,10 @@ def resolve_player_identity(name_query: str) -> dict[str, Any]:
     pattern = f"%{text}%"
     recruit_rows = (
         sb.table(TABLES["recruit_master"])
-        .select("recruit_id, cfbd_recruiting_id, cfbd_athlete_id, player_name, full_name, search_text, position, committed_to")
+        .select(
+            "recruit_id, cfbd_recruiting_id, cfbd_athlete_id, player_name, full_name, search_text, "
+            "position, position_group, committed_to, recruit_class, year, high_school, hs_state"
+        )
         .ilike("search_text", pattern)
         .limit(CONFIG["IDENTITY_CANDIDATE_LIMIT"])
         .execute()
@@ -145,7 +256,7 @@ def resolve_player_identity(name_query: str) -> dict[str, Any]:
     )
     college_rows = (
         sb.table(TABLES["college_master"])
-        .select("college_player_id, cfbd_athlete_id, full_name, position, teams, search_text")
+        .select("college_player_id, cfbd_athlete_id, full_name, position, teams, search_text, season_span")
         .ilike("search_text", pattern)
         .limit(CONFIG["IDENTITY_CANDIDATE_LIMIT"])
         .execute()
@@ -157,18 +268,55 @@ def resolve_player_identity(name_query: str) -> dict[str, Any]:
     for row in recruit_rows:
         candidate = dict(row)
         candidate["source_table"] = TABLES["recruit_master"]
-        candidate["score"] = _score_identity_candidate(text, candidate)
+        candidate["score"] = _score_identity_candidate(
+            text,
+            candidate,
+            target_year=year,
+            target_position=position,
+            target_team=team,
+        )
+        candidate["_has_cfbd_id"] = 1 if str(candidate.get("cfbd_athlete_id") or "").strip() else 0
         candidates.append(candidate)
     for row in college_rows:
         candidate = dict(row)
         candidate["source_table"] = TABLES["college_master"]
-        candidate["score"] = _score_identity_candidate(text, candidate)
+        candidate["score"] = _score_identity_candidate(
+            text,
+            candidate,
+            target_year=year,
+            target_position=position,
+            target_team=team,
+        )
+        candidate["_has_cfbd_id"] = 1 if str(candidate.get("cfbd_athlete_id") or "").strip() else 0
         candidates.append(candidate)
 
     if not candidates:
         return {"status": "ok", "reason": "no candidates", "data": {}}
 
-    top = sorted(candidates, key=lambda x: float(x.get("score") or 0.0), reverse=True)[0]
+    sorted_candidates = sorted(
+        candidates,
+        key=lambda x: (
+            float(x.get("score") or 0.0),
+            int(x.get("_has_cfbd_id") or 0),
+        ),
+        reverse=True,
+    )
+    top = dict(sorted_candidates[0])
+    top_score = float(top.get("score") or 0.0)
+
+    top_k = max(1, int(CONFIG.get("IDENTITY_TOP_CANDIDATES", 3) or 3))
+    top_candidates = [dict(row) for row in sorted_candidates[:top_k]]
+    threshold = float(CONFIG.get("IDENTITY_CONFIDENCE_THRESHOLD", 0.65) or 0.65)
+    second_score = float(top_candidates[1].get("score") or 0.0) if len(top_candidates) > 1 else 0.0
+    ambiguous_tie = len(top_candidates) > 1 and abs(top_score - second_score) <= 0.03
+    needs_clarification = (top_score < threshold and len(top_candidates) > 1) or ambiguous_tie
+
+    top["confidence_score"] = top_score
+    top["requires_clarification"] = needs_clarification
+    top["top_candidates"] = top_candidates
+    if needs_clarification:
+        top["clarification_prompt"] = _build_identity_clarification_prompt(text, top_candidates)
+
     return {"status": "ok", "reason": "identity resolved", "data": top}
 
 
@@ -176,6 +324,9 @@ def fetch_player_bundle_by_identity(
     recruit_id: str | None = None,
     cfbd_athlete_id: str | None = None,
     name_query: str | None = None,
+    year: int | None = None,
+    position: str | None = None,
+    team: str | None = None,
 ) -> dict[str, Any]:
     sb = get_supabase_client()
     if sb is None:
@@ -192,9 +343,19 @@ def fetch_player_bundle_by_identity(
     identity = {}
     lookup_reason = "direct"
     if not rid and not athlete_id and name_query:
-        resolved = resolve_player_identity(str(name_query))
+        resolved = resolve_player_identity(str(name_query), year=year, position=position, team=team)
         if resolved.get("status") == "ok" and resolved.get("data"):
             identity = dict(resolved["data"])
+            if bool(identity.get("requires_clarification")):
+                return {
+                    "status": "ok",
+                    "reason": "identity clarification required",
+                    "data": {
+                        "identity": identity,
+                        "lookup_reason": "resolved-by-name-needs-clarification",
+                    },
+                    "citations": [],
+                }
             rid = str(identity.get("recruit_id") or "").strip()
             athlete_id = str(identity.get("cfbd_athlete_id") or "").strip()
             lookup_reason = "resolved-by-name"

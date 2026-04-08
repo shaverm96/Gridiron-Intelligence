@@ -70,6 +70,41 @@ Status: In Progress
 1. Runtime smoke validation after graph/app rewiring is partially complete.
 2. Unexpected generated artifact cleanup is pending repository decision.
 
+## Current Update Snapshot (2026-04-08)
+
+Status: Significant implementation completed since prior baseline.
+
+1. Structured Report now runs a lightweight multi-agent web scout path (recruiting + team) while preserving deterministic report data sections.
+2. Open Chat remains full multi-agent orchestration with delegator and worker fan-out.
+3. Structured Report remains CFBD-excluded by execution scope.
+4. Local-only CFBD debugger page added for delegator/identity/endpoint diagnostics.
+5. Security hardening expanded:
+	- stricter delegator schema validation and failure handling
+	- model output sanitization guards
+	- prompt truncation/date-context wrappers
+	- structured report submission rate limiting
+6. Identity resolution upgraded with context-aware scoring and clarification handling.
+7. Model score card rendering improved with end-user-friendly threshold probability bars and duplicate suppression logic.
+8. Skill-grade fields are omitted from scouting-clean context for future recruits.
+
+## Updated Risk and Follow-up Notes
+
+1. Medium: Structured report and open chat flows are now intentionally divergent; regression tests should ensure this separation remains explicit.
+2. Medium: Additional smoke checks are still recommended after integrating partner updates on main.
+3. Medium: Controlled CSV fallback for index loading remains a future hardening task when Supabase is unavailable.
+
+## Next Verification Checklist (Revised)
+
+1. Structured report smoke check confirms:
+	- comparables and model card render
+	- recruiting/team web summaries render
+	- final synthesis includes web context
+	- no CFBD dependency in report route
+2. Open chat smoke check confirms full orchestrated path and trace output.
+3. Identity ambiguity scenario confirms candidate clarification and recovery behavior.
+4. Model score card confirms no duplicate threshold rows and no internal key leakage (for example ge80).
+5. Merge-time review confirms no accidental reintroduction of skill-grade mention in final narrative.
+
 ## Current Diff Review Findings
 
 1. High: A large generated binary artifact (engine_zip.zip) is staged as a new file and appears unrelated to runtime logic.

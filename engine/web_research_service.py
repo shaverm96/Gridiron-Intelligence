@@ -1,6 +1,57 @@
 from __future__ import annotations
 
+from datetime import date
+import re
 from typing import Any
+
+from tenacity import retry, retry_if_exception_type, stop_after_attempt, wait_exponential
+
+
+def _sanitize_model_summary_text(text: str) -> str:
+    sanitized = str(text or "")
+    sanitized = re.sub(r"```(?:json|javascript|html)?[\s\S]*?```", "", sanitized, flags=re.IGNORECASE)
+    sanitized = re.sub(r"<script\b[^>]*>[\s\S]*?</script>", "", sanitized, flags=re.IGNORECASE)
+    sanitized = re.sub(r"<iframe\b[^>]*>[\s\S]*?</iframe>", "", sanitized, flags=re.IGNORECASE)
+    sanitized = re.sub(r"<a\b[^>]*>[\s\S]*?</a>", "", sanitized, flags=re.IGNORECASE)
+    sanitized = re.sub(r"<[^>]+>", "", sanitized)
+
+    lines: list[str] = []
+    for line in sanitized.splitlines():
+        stripped = line.strip()
+        if not stripped:
+            continue
+        if stripped.startswith(("{", "}", "[", "]")):
+            continue
+        if re.match(r'^"[^"]+"\s*:\s*', stripped):
+            continue
+        lines.append(stripped)
+
+    return "\n".join(lines).strip()
+
+
+@retry(
+    retry=retry_if_exception_type(Exception),
+    stop=stop_after_attempt(3),
+    wait=wait_exponential(multiplier=0.5, min=0.5, max=3),
+    reraise=True,
+)
+def _ddgs_text_search(ddgs_class: Any, query: str, max_results: int) -> list[dict[str, Any]]:
+    rows: list[dict[str, Any]] = []
+    with ddgs_class() as ddgs:
+        for result in ddgs.text(query, max_results=max_results):
+            rows.append(result)
+    return rows
+
+
+def _with_current_date_context(prompt_text: str) -> str:
+    today_iso = date.today().isoformat()
+    date_context = (
+        "Date Context:\n"
+        f"- Current date: {today_iso}\n"
+        "- Treat this as today's date when reasoning about recency and up-to-date information.\n"
+        "- If recency is uncertain, state the uncertainty explicitly.\n\n"
+    )
+    return f"{date_context}{str(prompt_text or '').strip()}"
 
 
 def duckduckgo_search_data(
@@ -22,20 +73,20 @@ def duckduckgo_search_data(
 
     rows: list[dict[str, str]] = []
     try:
-        with ddgs_class() as ddgs:
-            for result in ddgs.text(query, max_results=max_results):
-                url = str(result.get("href") or "")
-                if not url:
-                    continue
-                if target_search_sites and not any(site in url for site in target_search_sites):
-                    continue
-                rows.append(
-                    {
-                        "title": str(result.get("title") or ""),
-                        "url": url,
-                        "snippet": str(result.get("body") or ""),
-                    }
-                )
+        results = _ddgs_text_search(ddgs_class, query, max_results=max_results)
+        for result in results:
+            url = str(result.get("href") or "")
+            if not url:
+                continue
+            if target_search_sites and not any(site in url for site in target_search_sites):
+                continue
+            rows.append(
+                {
+                    "title": str(result.get("title") or ""),
+                    "url": url,
+                    "snippet": str(result.get("body") or ""),
+                }
+            )
     except Exception:
         return []
 
@@ -67,7 +118,8 @@ def summarize_web_with_flash_lite_data(
 
     prompt = (
         f"You are a recruiting research assistant. Summarize recent web intelligence for {player_name} ({position}).\n"
-        "Use only the provided sources. Do not invent facts.\n\n"
+        "Use only the provided sources. Do not invent facts.\n"
+        "Output ONLY plain markdown bullet points (no HTML, no JSON, no links).\n\n"
         "Output sections:\n"
         "1) Key facts\n"
         "2) Recruiting updates\n"
@@ -76,8 +128,9 @@ def summarize_web_with_flash_lite_data(
     )
 
     try:
-        response = llm.invoke(prompt)
+        response = llm.invoke(_with_current_date_context(prompt))
         text = llm_response_to_text(response)
-        return str(text).strip() if text else "Web summary returned empty output."
+        cleaned = _sanitize_model_summary_text(str(text).strip()) if text else ""
+        return cleaned or "Web summary returned empty output."
     except Exception as exc:
         return f"Web summary failed: {exc}"

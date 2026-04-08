@@ -1,10 +1,13 @@
 from __future__ import annotations
 
 import json
+import re
 from typing import Any
 
+from .config import CONFIG
 from .state import DelegatorPlan, ScoutState
 from .tools import (
+    DelegatorOutputValidationError,
     cfbd_fetch_tool,
     cfbd_search_players_tool,
     delegator_plan_tool,
@@ -16,29 +19,13 @@ from .tools import (
 )
 
 
-def _append_citations(state: ScoutState, new_items: list[dict[str, str]]) -> None:
-    citations = list(state.get("citations", []))
-    citations.extend(new_items)
-    state["citations"] = citations
-
-
-def _append_error(state: ScoutState, message: str) -> None:
-    errors = list(state.get("errors", []))
-    errors.append(message)
-    state["errors"] = errors
-
-
-def _append_trace(state: ScoutState, node_name: str, note: str = "") -> None:
-    trace_log = list(state.get("trace_log", []))
-    trace_log.append(
-        {
-            "node": node_name,
-            "note": note,
-            "recruit_id": state.get("recruit_id", ""),
-            "cfbd_athlete_id": state.get("cfbd_athlete_id", ""),
-        }
-    )
-    state["trace_log"] = trace_log
+def _trace_entry(state: ScoutState, node_name: str, note: str = "") -> dict[str, Any]:
+    return {
+        "node": node_name,
+        "note": note,
+        "recruit_id": state.get("recruit_id", ""),
+        "cfbd_athlete_id": state.get("cfbd_athlete_id", ""),
+    }
 
 
 def _infer_chat_route(query: str) -> str:
@@ -52,62 +39,162 @@ def _infer_chat_route(query: str) -> str:
     return "report"
 
 
+def _sanitize_query_input(value: str) -> str:
+    text = str(value or "").strip()
+    text = text.replace("%", " ").replace("_", " ")
+    return " ".join(text.split())[:120]
+
+
+def _infer_year_from_text(*values: str) -> int | None:
+    for value in values:
+        text = str(value or "")
+        matches = re.findall(r"\b(20\d{2})\b", text)
+        for match in matches:
+            year = int(match)
+            if 2010 <= year <= 2035:
+                return year
+    return None
+
+
+def _select_cfbd_endpoint(user_intent: str, resolved_athlete_id: str) -> str:
+    q = str(user_intent or "").strip().lower()
+    if any(token in q for token in ("recruit", "recruiting", "prospect")):
+        return "recruiting"
+    if any(token in q for token in ("usage", "snap share", "target share", "garbage time")):
+        return "player/usage"
+    if any(token in q for token in ("season stats", "player season", "aggregated stats", "stat line")):
+        return "stats/player/season"
+    return "player/usage" if resolved_athlete_id else "roster"
+
+
 def lead_delegator_node(state: ScoutState) -> ScoutState:
     route_hint = _infer_chat_route(str(state.get("user_query") or ""))
-    plan_dict = delegator_plan_tool(
-        user_query=str(state.get("user_query", "") or "Generate a scouting report."),
-        target_team=str(state.get("target_team", "")),
-        target_player_name=str(state.get("target_player_name") or state.get("player_name") or ""),
-    )
+    try:
+        plan_dict = delegator_plan_tool(
+            user_query=str(state.get("user_query", "") or "Generate a scouting report."),
+            target_team=str(state.get("target_team", "")),
+            target_player_name=str(state.get("target_player_name") or state.get("player_name") or ""),
+        )
+    except DelegatorOutputValidationError:
+        state["security_halt"] = True
+        state["security_message"] = "Unable to safely parse your request. Please rephrase with concise football-only instructions."
+        state["errors"] = list(state.get("errors", [])) + [
+            "Delegator validation failed; execution halted for safety."
+        ]
+        state["trace_log"] = list(state.get("trace_log", [])) + [
+            _trace_entry(state, "lead_delegator", "security_halt_delegator_validation_failed")
+        ]
+        state["next_step"] = "security_halt"
+        return state
 
     try:
         state["delegator_plan"] = DelegatorPlan(**plan_dict).model_dump()
     except Exception:
         state["delegator_plan"] = DelegatorPlan().model_dump()
-        _append_error(state, "Delegator plan parse failed; using defaults.")
+        state["errors"] = list(state.get("errors", [])) + ["Delegator plan parse failed; using defaults."]
 
-    _append_trace(state, "lead_delegator", f"delegator_plan_ready route={route_hint}")
+    state["trace_log"] = list(state.get("trace_log", [])) + [
+        _trace_entry(state, "lead_delegator", f"delegator_plan_ready route={route_hint}")
+    ]
     state["next_step"] = "synthesizer"
     return state
 
 
 def cfbd_analyst_node(state: ScoutState) -> ScoutState:
+    if bool(state.get("security_halt")):
+        return {
+            "trace_log": [_trace_entry(state, "cfbd_analyst", "skipped_security_halt")],
+            "cfbd_data_summary": "CFBD analysis skipped due to security safeguards.",
+        }
+
+    updates: dict[str, Any] = {}
+    citations: list[dict[str, str]] = []
+    errors: list[str] = []
+    traces: list[dict[str, Any]] = []
+
     plan = state.get("delegator_plan") or {}
     cfbd_params = plan.get("cfbd_search_params") if isinstance(plan, dict) else {}
     cfbd_params = cfbd_params if isinstance(cfbd_params, dict) else {}
 
-    name = str(
+    name = _sanitize_query_input(str(
         cfbd_params.get("name")
         or state.get("target_player_name")
         or state.get("player_name")
         or ""
-    ).strip()
-    team = str(cfbd_params.get("college_team") or state.get("target_team") or "").strip()
+    ))
+    team = _sanitize_query_input(str(cfbd_params.get("college_team") or state.get("target_team") or ""))
+    position = _sanitize_query_input(str(cfbd_params.get("position") or ""))
+    year_value = int(state.get("year") or 0) or None
+    if year_value is None:
+        inferred_year = _infer_year_from_text(
+            str(plan.get("user_intent") or ""),
+            str(state.get("user_query") or ""),
+            str(plan.get("recruiting_web_query") or ""),
+            str(plan.get("team_context_query") or ""),
+        )
+        if inferred_year is not None:
+            year_value = inferred_year
+            updates["year"] = inferred_year
 
-    if name and not state.get("cfbd_athlete_id"):
-        identity_result = resolve_player_identity_tool(name)
+    recruit_id = _sanitize_query_input(str(state.get("recruit_id") or ""))
+    cfbd_athlete_id = str(state.get("cfbd_athlete_id") or "").strip()
+
+    if name and not cfbd_athlete_id:
+        identity_result = resolve_player_identity_tool(name, year=year_value, position=position or None, team=team or None)
         identity_data = identity_result.get("data") or {}
+        if bool(identity_data.get("requires_clarification")):
+            pending_query = str(state.get("pending_identity_query") or state.get("user_query") or "")
+            updates["requires_identity_clarification"] = True
+            updates["identity_candidates"] = list(identity_data.get("top_candidates") or [])
+            updates["clarification_prompt"] = str(identity_data.get("clarification_prompt") or "")
+            updates["pending_identity_query"] = pending_query
+            updates["missing_fields"] = ["player_identity"]
+            updates["cfbd_data_summary"] = "Identity clarification required before CFBD lookup can continue."
+            traces.append(_trace_entry(state, "cfbd_analyst", "identity_clarification_required"))
+            updates["trace_log"] = traces
+            return updates
         if identity_data:
-            state["recruit_id"] = str(identity_data.get("recruit_id") or state.get("recruit_id") or "")
-            state["cfbd_athlete_id"] = str(identity_data.get("cfbd_athlete_id") or "")
+            recruit_id = str(identity_data.get("recruit_id") or recruit_id or "")
+            cfbd_athlete_id = str(identity_data.get("cfbd_athlete_id") or "")
+            updates["recruit_id"] = recruit_id
+            updates["cfbd_athlete_id"] = cfbd_athlete_id
+            updates["requires_identity_clarification"] = False
+            updates["identity_candidates"] = list(identity_data.get("top_candidates") or [])
+            updates["clarification_prompt"] = ""
+            updates["pending_identity_query"] = ""
 
     bundle_result = fetch_player_bundle_by_identity_tool(
-        recruit_id=str(state.get("recruit_id") or "") or None,
-        cfbd_athlete_id=str(state.get("cfbd_athlete_id") or "") or None,
+        recruit_id=recruit_id or None,
+        cfbd_athlete_id=cfbd_athlete_id or None,
         name_query=name or None,
+        year=year_value,
+        position=position or None,
+        team=team or None,
     )
     if bundle_result.get("status") == "ok":
-        state["sql_data_context"] = dict(bundle_result.get("data") or {})
-        _append_citations(state, list(bundle_result.get("citations") or []))
+        bundle_data = dict(bundle_result.get("data") or {})
+        identity = dict(bundle_data.get("identity") or {})
+        if bool(identity.get("requires_clarification")):
+            pending_query = str(state.get("pending_identity_query") or state.get("user_query") or "")
+            updates["requires_identity_clarification"] = True
+            updates["identity_candidates"] = list(identity.get("top_candidates") or [])
+            updates["clarification_prompt"] = str(identity.get("clarification_prompt") or "")
+            updates["pending_identity_query"] = pending_query
+            updates["missing_fields"] = ["player_identity"]
+            updates["cfbd_data_summary"] = "Identity clarification required before CFBD lookup can continue."
+            traces.append(_trace_entry(state, "cfbd_analyst", "bundle_identity_clarification_required"))
+            updates["trace_log"] = traces
+            return updates
+
+        updates["sql_data_context"] = bundle_data
+        citations.extend(list(bundle_result.get("citations") or []))
 
     resolved_athlete_id = str(
-        (state.get("sql_data_context") or {}).get("resolved_cfbd_athlete_id")
-        or state.get("cfbd_athlete_id")
+        (updates.get("sql_data_context") or state.get("sql_data_context") or {}).get("resolved_cfbd_athlete_id")
+        or updates.get("cfbd_athlete_id")
+        or cfbd_athlete_id
         or ""
     ).strip()
-
-    position = str(cfbd_params.get("position") or "").strip()
-    year_value = int(state.get("year") or 0) or None
 
     # If we still do not have an athlete id, run CFBD player search as deterministic fallback.
     if not resolved_athlete_id and name:
@@ -117,7 +204,7 @@ def cfbd_analyst_node(state: ScoutState) -> ScoutState:
             team=team or None,
             position=position or None,
         )
-        _append_citations(state, list(search_result.get("citations") or []))
+        citations.extend(list(search_result.get("citations") or []))
 
         search_rows = list(search_result.get("data") or [])
         if search_rows:
@@ -132,33 +219,86 @@ def cfbd_analyst_node(state: ScoutState) -> ScoutState:
             best_row = sorted(search_rows, key=_candidate_score, reverse=True)[0]
             resolved_athlete_id = str(best_row.get("athleteId") or best_row.get("athlete_id") or "").strip()
             if resolved_athlete_id:
-                state["cfbd_athlete_id"] = resolved_athlete_id
+                updates["cfbd_athlete_id"] = resolved_athlete_id
 
     if resolved_athlete_id:
-        state["cfbd_athlete_id"] = resolved_athlete_id
+        updates["cfbd_athlete_id"] = resolved_athlete_id
 
+    user_intent = str(plan.get("user_intent") or state.get("user_query") or "").strip()
+    selected_endpoint = _select_cfbd_endpoint(user_intent=user_intent, resolved_athlete_id=resolved_athlete_id)
     cfbd_result = cfbd_fetch_tool(
         athlete_id=resolved_athlete_id or None,
         team=team or None,
         year=year_value,
-        endpoint="player/stats" if resolved_athlete_id else "roster",
-    )
-    summary_result = summarize_payload_tool(
-        summary_prompt=(
-            "Summarize CFBD data in concise markdown bullets for scouting synthesis. "
-            "Include only grounded facts and note if data is sparse."
-        ),
-        payload=cfbd_result.get("data", []),
+        position=position or None,
+        endpoint=selected_endpoint,
+        search_term=name or None,
     )
 
-    state["cfbd_data_summary"] = str(summary_result.get("data", "")).strip()
-    _append_citations(state, list(cfbd_result.get("citations") or []))
-    _append_citations(state, list(summary_result.get("citations") or []))
-    _append_trace(state, "cfbd_analyst", "cfbd_summary_ready")
-    return state
+    cfbd_meta = cfbd_result.get("meta") if isinstance(cfbd_result.get("meta"), dict) else {}
+    cfbd_rows = list(cfbd_result.get("data") or [])
+    summary_payload = {
+        "endpoint": selected_endpoint,
+        "status": str(cfbd_result.get("status") or ""),
+        "reason": str(cfbd_result.get("reason") or ""),
+        "request_params": dict(cfbd_meta.get("params") or {}),
+        "row_count": len(cfbd_rows),
+        "data_preview": cfbd_rows[:5],
+    }
+
+    if str(cfbd_result.get("status") or "") != "ok" and not cfbd_rows:
+        updates["cfbd_data_summary"] = (
+            f"- CFBD endpoint: {selected_endpoint}\n"
+            f"- Status: {cfbd_result.get('status')}\n"
+            f"- Reason: {cfbd_result.get('reason')}\n"
+            f"- Request params: {json.dumps(summary_payload['request_params'], default=str)}\n"
+            "- Data rows returned: 0"
+        )
+        citations.extend(list(cfbd_result.get("citations") or []))
+        traces.append(_trace_entry(state, "cfbd_analyst", "cfbd_summary_unavailable_non_ok"))
+        if citations:
+            updates["citations"] = citations
+        if traces:
+            updates["trace_log"] = traces
+        return updates
+
+    summary_result = summarize_payload_tool(
+        summary_prompt=(
+            "You are a secure summarization node. Output ONLY plain markdown bullet points (no HTML, no JSON, no links). "
+            f"Summarize CFBD data from endpoint '{selected_endpoint}' in concise bullets for scouting synthesis using only provided payload. "
+            "Always include endpoint used, request filters, and number of rows returned before any player insights. "
+            "Include grounded facts and explicitly note sparse/missing data."
+        ),
+        payload=summary_payload,
+    )
+
+    updates["cfbd_data_summary"] = str(summary_result.get("data", "")).strip()
+    citations.extend(list(cfbd_result.get("citations") or []))
+    citations.extend(list(summary_result.get("citations") or []))
+    traces.append(_trace_entry(state, "cfbd_analyst", "cfbd_summary_ready"))
+
+    if citations:
+        updates["citations"] = citations
+    if errors:
+        updates["errors"] = errors
+    if traces:
+        updates["trace_log"] = traces
+    return updates
 
 
 def recruiting_scout_node(state: ScoutState) -> ScoutState:
+    if bool(state.get("security_halt")):
+        return {
+            "web_recruiting_summary": "Recruiting summary skipped due to security safeguards.",
+            "trace_log": [_trace_entry(state, "recruiting_scout", "skipped_security_halt")],
+        }
+
+    if bool(state.get("requires_identity_clarification")):
+        return {
+            "web_recruiting_summary": "Recruiting web context skipped until player identity is clarified.",
+            "trace_log": [_trace_entry(state, "recruiting_scout", "skipped_needs_identity_clarification")],
+        }
+
     plan = state.get("delegator_plan") or {}
     query = ""
     if isinstance(plan, dict):
@@ -167,23 +307,36 @@ def recruiting_scout_node(state: ScoutState) -> ScoutState:
         fallback_name = state.get("target_player_name") or state.get("player_name") or "player"
         query = f"{fallback_name} recruiting injury transfer update"
 
-    search_result = search_web_query_tool(query=query, max_results=10)
+    search_result = search_web_query_tool(query=query, max_results=int(CONFIG.get("WEB_QUERY_MAX_RESULTS", 6)))
     summary_result = summarize_payload_tool(
         summary_prompt=(
-            "Summarize recruiting and player web context in markdown bullets for a scouting report. "
+            "You are a secure summarization node. Output ONLY plain markdown bullet points (no HTML, no JSON, no links). "
+            "Summarize recruiting and player web context in bullets for a scouting report. "
             "Use only supplied snippets and include caveats when uncertain."
         ),
         payload=search_result.get("data", []),
     )
 
-    state["web_recruiting_summary"] = str(summary_result.get("data", "")).strip()
-    _append_citations(state, list(search_result.get("citations") or []))
-    _append_citations(state, list(summary_result.get("citations") or []))
-    _append_trace(state, "recruiting_scout", "web_recruiting_summary_ready")
-    return state
+    return {
+        "web_recruiting_summary": str(summary_result.get("data", "")).strip(),
+        "citations": list(search_result.get("citations") or []) + list(summary_result.get("citations") or []),
+        "trace_log": [_trace_entry(state, "recruiting_scout", "web_recruiting_summary_ready")],
+    }
 
 
 def team_scout_node(state: ScoutState) -> ScoutState:
+    if bool(state.get("security_halt")):
+        return {
+            "web_team_summary": "Team context skipped due to security safeguards.",
+            "trace_log": [_trace_entry(state, "team_scout", "skipped_security_halt")],
+        }
+
+    if bool(state.get("requires_identity_clarification")):
+        return {
+            "web_team_summary": "Team context skipped until player identity is clarified.",
+            "trace_log": [_trace_entry(state, "team_scout", "skipped_needs_identity_clarification")],
+        }
+
     plan = state.get("delegator_plan") or {}
     query = ""
     if isinstance(plan, dict):
@@ -192,23 +345,48 @@ def team_scout_node(state: ScoutState) -> ScoutState:
         fallback_team = state.get("target_team") or "team"
         query = f"{fallback_team} depth chart roster defensive backfield outlook"
 
-    search_result = search_web_query_tool(query=query, max_results=10)
+    search_result = search_web_query_tool(query=query, max_results=int(CONFIG.get("WEB_QUERY_MAX_RESULTS", 6)))
     summary_result = summarize_payload_tool(
         summary_prompt=(
-            "Summarize team context for roster fit in concise markdown bullets. "
+            "You are a secure summarization node. Output ONLY plain markdown bullet points (no HTML, no JSON, no links). "
+            "Summarize team context for roster fit in concise bullets. "
             "Use only supplied snippets and avoid unsupported claims."
         ),
         payload=search_result.get("data", []),
     )
 
-    state["web_team_summary"] = str(summary_result.get("data", "")).strip()
-    _append_citations(state, list(search_result.get("citations") or []))
-    _append_citations(state, list(summary_result.get("citations") or []))
-    _append_trace(state, "team_scout", "web_team_summary_ready")
-    return state
+    return {
+        "web_team_summary": str(summary_result.get("data", "")).strip(),
+        "citations": list(search_result.get("citations") or []) + list(summary_result.get("citations") or []),
+        "trace_log": [_trace_entry(state, "team_scout", "web_team_summary_ready")],
+    }
 
 
 def lead_synthesizer_node(state: ScoutState) -> ScoutState:
+    if bool(state.get("security_halt")):
+        message = str(state.get("security_message") or "Unable to process this request safely.")
+        state["final_report"] = message
+        state["next_step"] = "end"
+        state["trace_log"] = list(state.get("trace_log", [])) + [
+            _trace_entry(state, "lead_synthesizer", "security_halt_response_returned")
+        ]
+        return state
+
+    if bool(state.get("requires_identity_clarification")):
+        prompt = str(state.get("clarification_prompt") or "Please clarify which player you want to analyze.")
+        state["final_report"] = prompt
+        state["next_step"] = "clarify_identity"
+        state["trace_log"] = list(state.get("trace_log", [])) + [
+            _trace_entry(state, "lead_synthesizer", "identity_clarification_prompt_ready")
+        ]
+        if state.get("mode") == "chat":
+            history = list(state.get("conversation_history", []))
+            if state.get("user_query"):
+                history.append({"role": "user", "content": str(state.get("user_query"))})
+            history.append({"role": "assistant", "content": prompt})
+            state["conversation_history"] = history
+        return state
+
     plan = state.get("delegator_plan") or {}
     user_intent = ""
     if isinstance(plan, dict):
@@ -239,8 +417,8 @@ def lead_synthesizer_node(state: ScoutState) -> ScoutState:
     final_result = final_synthesis_tool(synthesis_prompt)
     report_text = str(final_result.get("data", "")).strip()
     state["final_report"] = report_text
-    _append_citations(state, list(final_result.get("citations") or []))
-    _append_trace(state, "lead_synthesizer", "final_report_ready")
+    state["citations"] = list(state.get("citations", [])) + list(final_result.get("citations") or [])
+    state["trace_log"] = list(state.get("trace_log", [])) + [_trace_entry(state, "lead_synthesizer", "final_report_ready")]
 
     if state.get("mode") == "chat":
         history = list(state.get("conversation_history", []))
