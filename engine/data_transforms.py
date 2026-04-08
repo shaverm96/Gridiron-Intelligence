@@ -183,10 +183,9 @@ def build_score_card_html_data(
 
     def _friendly_probability_label(raw_key: str) -> str:
         key = str(raw_key or "").strip().lower()
-        number_match = re.search(r"(\d{2,3}(?:\.\d+)?)", key)
-        threshold_txt = number_match.group(1) if number_match else ""
         parsed_threshold = _extract_threshold_operator(key)
         op = parsed_threshold[0] if parsed_threshold else ""
+        threshold_txt = parsed_threshold[1] if parsed_threshold else ""
 
         if op in {"ge", "gte"} or ">=" in key:
             return f"Chance to reach >= {threshold_txt}" if threshold_txt else "Chance to reach upper threshold"
@@ -237,7 +236,7 @@ def build_score_card_html_data(
             canonical_key = (op, threshold_num_text)
 
             # Prefer explicit probability columns when multiple fields map to same threshold.
-            priority = 2 if "prob" in key_lower or "probability" in key_lower else 1
+            priority = 2
             existing = rows_map.get(canonical_key)
             if existing is None or priority > existing[3]:
                 rows_map[canonical_key] = (label, pct, rank_key, priority)
