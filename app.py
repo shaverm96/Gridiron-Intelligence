@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import ast
+import html
 import json
 import os
 import time
@@ -1217,6 +1218,37 @@ def render_structured_report_page() -> None:
 def render_structured_report_with_chat_page() -> None:
     report_state_key = "structured_chat_report_output"
 
+    def _format_predicted_score_for_kpi(pred_score_row: dict[str, Any] | None) -> str:
+        row = pred_score_row if isinstance(pred_score_row, dict) else {}
+
+        candidate_keys = [
+            "pred_score",
+            "prediction_score",
+            "overall_score",
+            "model_score",
+            "score",
+            "probability",
+            "pred_probability",
+        ]
+
+        score: float | None = None
+        for key in candidate_keys:
+            score = to_float_or_none(row.get(key))
+            if score is not None:
+                break
+
+        if score is None:
+            for value in row.values():
+                score = to_float_or_none(value)
+                if score is not None:
+                    break
+
+        if score is None:
+            return "N/A"
+        if 0.0 <= score <= 1.0:
+            return f"{score * 100.0:.1f}%"
+        return f"{score:.1f}"
+
     try:
         player_index = load_player_index()
     except Exception as exc:
@@ -1364,9 +1396,12 @@ def render_structured_report_with_chat_page() -> None:
 
         st.session_state[report_state_key] = {
             "player_name": player_name,
+            "position": position,
+            "high_school": high_school,
             "recruit_id": str(recruit_id),
             "selected_year": selected_year,
             "target_team": target_team,
+            "pred_score_row": pred_score_row,
             "historical_comparables_md": historical_comparables_md,
             "score_card_html": score_card_html,
             "web_recruiting_summary": web_recruiting_summary,
@@ -1380,13 +1415,98 @@ def render_structured_report_with_chat_page() -> None:
 
     report_output = st.session_state.get(report_state_key)
     if isinstance(report_output, dict):
-        st.markdown(f"## Scouting Workbench Output - {report_output.get('player_name', '')}")
         st.markdown(
-            f"- Recruit ID: `{report_output.get('recruit_id', '')}`  \\\n+"
-            f"- Year: `{report_output.get('selected_year', '')}`  \\\n+"
-            f"- Target Team: `{report_output.get('target_team', '')}`  \\\n+"
-            f"- Persona: `{st.session_state.get('selected_persona', 'Scout')}`"
+            """
+            <style>
+            .structured-report-player-header {
+                text-align: center;
+                margin: 0.25rem auto 1.2rem auto;
+                max-width: 900px;
+            }
+            .structured-report-player-name {
+                font-size: clamp(1.7rem, 1.9vw, 2.25rem);
+                font-weight: 700;
+                letter-spacing: 0.01em;
+                line-height: 1.2;
+                color: var(--text-color);
+            }
+            .structured-report-player-meta {
+                margin-top: 0.35rem;
+                font-size: 0.98rem;
+                color: color-mix(in srgb, var(--text-color) 72%, transparent);
+            }
+            .structured-report-kpi-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+                gap: 0.8rem;
+                margin: 0 0 1.35rem 0;
+            }
+            .structured-report-kpi-card {
+                background: color-mix(in srgb, var(--secondary-background-color) 90%, var(--background-color));
+                border: 1px solid color-mix(in srgb, var(--text-color) 12%, transparent);
+                border-radius: 14px;
+                padding: 0.8rem 0.95rem;
+                min-height: 88px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                box-shadow: 0 8px 22px color-mix(in srgb, var(--background-color) 70%, transparent);
+            }
+            .structured-report-kpi-label {
+                font-size: 0.78rem;
+                font-weight: 600;
+                text-transform: uppercase;
+                letter-spacing: 0.08em;
+                color: color-mix(in srgb, var(--text-color) 60%, transparent);
+                margin-bottom: 0.42rem;
+            }
+            .structured-report-kpi-value {
+                font-size: clamp(1.0rem, 1.35vw, 1.3rem);
+                font-weight: 700;
+                line-height: 1.25;
+                color: var(--text-color);
+                word-break: break-word;
+            }
+            </style>
+            """,
+            unsafe_allow_html=True,
         )
+
+        player_name = str(report_output.get("player_name") or "Unknown Player").strip()
+        position = str(report_output.get("position") or "").strip()
+        high_school = str(report_output.get("high_school") or "").strip()
+        player_meta = " | ".join([part for part in [position, high_school] if part]) or "Recruiting Profile"
+
+        st.markdown(
+            ""
+            f"<div class='structured-report-player-header'>"
+            f"<div class='structured-report-player-name'>{html.escape(player_name)}</div>"
+            f"<div class='structured-report-player-meta'>{html.escape(player_meta)}</div>"
+            f"</div>"
+            "",
+            unsafe_allow_html=True,
+        )
+
+        predicted_score_display = _format_predicted_score_for_kpi(report_output.get("pred_score_row") or {})
+        kpi_cards = [
+            ("Recruit ID", str(report_output.get("recruit_id") or "N/A")),
+            ("Year", str(report_output.get("selected_year") or "N/A")),
+            ("Target Team", str(report_output.get("target_team") or "N/A")),
+            ("Predicted Score", predicted_score_display),
+        ]
+        kpi_cards_html = "".join(
+            [
+                (
+                    "<div class='structured-report-kpi-card'>"
+                    f"<div class='structured-report-kpi-label'>{html.escape(label)}</div>"
+                    f"<div class='structured-report-kpi-value'>{html.escape(value)}</div>"
+                    "</div>"
+                )
+                for label, value in kpi_cards
+            ]
+        )
+        st.markdown(f"<div class='structured-report-kpi-grid'>{kpi_cards_html}</div>", unsafe_allow_html=True)
+
         st.markdown("### Historical Comparables")
         st.markdown(report_output.get("historical_comparables_md") or "No historical comparables available.")
 
