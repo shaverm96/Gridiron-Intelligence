@@ -1,7 +1,7 @@
 # Supabase DB Update + Agentic App Alignment Roadmap
 
 Audience: Project partner handoff and implementation guide
-Last updated: 2026-03-27
+Last updated: 2026-04-08
 
 ## 1) Why this document exists
 
@@ -68,18 +68,6 @@ Impact:
 - Preserves original values and normalized numeric values.
 - Improves feature consistency for scoring/comparables.
 
-### 3.4 Rank columns policy
-
-Current direction selected in this project cycle:
-- Remove unsupported rank columns from active schema contract until a reliable source exists.
-
-Columns referenced in earlier plans:
-- hs_state_rank
-- hs_national_rank
-- hs_position_rank
-
-If reintroduced later, they should be backed by explicit data source + tests.
-
 ## 4) Recruit, college, and linkage model (how it should be understood)
 
 ### 4.1 Entity boundaries
@@ -114,15 +102,25 @@ Bridge entity (gi_player_link_bridge) should answer:
 2. Identity resolution helpers already exist in engine/supabase_client.py:
    - resolve_player_identity
    - fetch_player_bundle_by_identity
+   - need to ensure it uses 'LIKE' and wildcard SQL statements to find players using search_text field in player tables.
 3. Agent graph supports structured report and chat orchestration through shared state.
 
 ### 5.2 Current drift / risk areas
 
-1. app.py still builds player index from local CSV (master_recruits_2015_2028.csv), not Supabase.
+1. app.py player index is Supabase-backed; current risk is lack of a controlled CSV fallback path when Supabase is unavailable.
 2. app.py TABLES mapping is partial and still named around player_master conventions.
 3. Data mapping wrappers in app.py (first_non_null, build_player_profile_view wrapper) are effectively schema-map functions but are not centralized as a formal schema contract module.
 4. Structured report page profile rendering currently favors recruit-side payload only; college and bridge context are not surfaced in a first-class way.
 5. Open chat uses agent orchestration, but there is no explicit prompt-level contract guaranteeing consistent recruit-vs-college identity framing in every turn.
+
+### 5.3 Current app state snapshot (2026-04-08)
+
+1. Structured Report currently combines deterministic data retrieval (bundle/model card/comparables/vector context) with a lightweight multi-agent web scout pipeline (recruiting + team summaries).
+2. Structured Report remains CFBD-excluded by scope and route design.
+3. Open Chat remains full multi-agent orchestration (delegator + workers + synthesizer) with clarification-aware identity flow.
+4. Local-only CFBD debugger exists as a separate route for endpoint and identity diagnostics.
+5. Prompt/model hardening is now active in multiple layers (sanitization, date context, payload truncation, validation handling).
+6. Model score UX is now end-user oriented (friendly threshold wording and probability bars).
 
 ## 6) Clarifying the schema-map concept for this codebase
 
@@ -190,7 +188,7 @@ Objective:
 - Make report page explicitly recruit+college aware and bridge-aware.
 
 Tasks:
-1. Replace CSV-only player index with Supabase-backed index path (with CSV fallback only if DB unavailable).
+1. Keep Supabase-backed player index as primary path and add explicit controlled CSV fallback behavior for degraded mode.
 2. In report generation, show:
    - recruit profile section
    - linked college profile section (if bridge resolution exists)
@@ -249,6 +247,9 @@ Deliverable:
 4. Phase 4 open chat hardening with identity persistence.
 5. Phase 5 QA closeout.
 
+Execution note:
+1. Items from Phase 4 have partially advanced (identity clarification and orchestrator hardening); remaining work should prioritize schema-contract centralization and recruit/college/bridge presentation parity in Structured Report.
+
 ## 9) Concrete file touch list for upcoming work
 
 High-priority edits expected in:
@@ -286,16 +287,3 @@ This migration is done when all statements below are true:
 2. Open Chat uses same identity resolution contract and persists identity across turns.
 3. Schema-map behavior is centralized in engine code (not duplicated in app ad hoc logic).
 4. Upsert notebook diagnostics are clean and documented.
-5. Partner can onboard using this document plus ENGINE_RESTRUCTURE_PROGRESS.md without extra verbal context.
-
-## 12) Quick partner startup checklist
-
-1. Run upsert notebook in DRY_RUN first and review diagnostics.
-2. Confirm target Supabase tables exist and match DDL block.
-3. Verify app diagnostics panel shows Supabase and Gemini configured.
-4. Test one Structured Report generation and one Open Chat identity query.
-5. Validate trace logs include identity + worker routing notes.
-
----
-
-If you pick up implementation from this point, start at Phase 1 and keep all schema-map changes centralized to avoid split logic across app.py and engine modules.

@@ -9,21 +9,13 @@ except Exception:  # pragma: no cover
     load_dotenv = None
 
 
-MODEL_ALIAS_MAP = {
-    "gemini-3.0-flash": "gemini-3-flash-preview",
-}
-
-
-def normalize_model_name(model_name: str, default_model: str = "") -> str:
-    value = str(model_name or "").strip() or str(default_model).strip()
-    return MODEL_ALIAS_MAP.get(value, value)
-
-
-def env_flag(name: str, default: bool = False) -> bool:
-    value = str(os.getenv(name, "")).strip().lower()
-    if not value:
-        return default
-    return value in {"1", "true", "yes", "on"}
+def _normalize_model_name(model_name: str, default_model: str) -> str:
+    value = str(model_name or "").strip() or default_model
+    alias_map = {
+        "gemini-3.0-flash": "gemini-3-flash-preview",
+        "gemini-3.1-flash-lite": "gemini-3.1-flash-lite",
+    }
+    return alias_map.get(value, value)
 
 
 def resolve_project_root() -> Path:
@@ -58,15 +50,19 @@ CONFIG = {
         os.getenv("GI_FINAL_MODEL", "gemini-3-flash-preview"),
         "gemini-3-flash-preview",
     ),
-    "SUMMARY_MODEL": normalize_model_name(
-        os.getenv("GI_SUMMARY_MODEL", "gemini-2.5-flash-lite"),
-        "gemini-2.5-flash-lite",
+    "SUMMARY_MODEL": _normalize_model_name(
+        os.getenv("GI_SUMMARY_MODEL", "gemini-3.1-flash-lite"),
+        "gemini-3.1-flash-lite",
     ),
-    "LOCAL_CFBD_DEBUGGER_ENABLED": env_flag("GI_ENABLE_LOCAL_CFBD_DEBUGGER", default=False),
+    "WEB_QUERY_MAX_RESULTS": int(os.getenv("GI_WEB_QUERY_MAX_RESULTS", "6")),
+    "PROMPT_PAYLOAD_MAX_CHARS": int(os.getenv("GI_PROMPT_PAYLOAD_MAX_CHARS", "12000")),
+    "FINAL_PROMPT_MAX_CHARS": int(os.getenv("GI_FINAL_PROMPT_MAX_CHARS", "20000")),
     "VECTOR_MATCH_COUNT": int(os.getenv("GI_VECTOR_MATCH_COUNT", "6")),
     "VECTOR_MATCH_THRESHOLD": float(os.getenv("GI_VECTOR_MATCH_THRESHOLD", "0.15")),
     "VECTOR_RPC_NAME": os.getenv("GI_VECTOR_RPC_NAME", "match_gi_factoids"),
     "IDENTITY_CANDIDATE_LIMIT": int(os.getenv("GI_IDENTITY_CANDIDATE_LIMIT", "8")),
+    "IDENTITY_TOP_CANDIDATES": int(os.getenv("GI_IDENTITY_TOP_CANDIDATES", "3")),
+    "IDENTITY_CONFIDENCE_THRESHOLD": float(os.getenv("GI_IDENTITY_CONFIDENCE_THRESHOLD", "0.65")),
     "TARGET_SEARCH_SITES": [
         "maxpreps.com",
         "247sports.com",

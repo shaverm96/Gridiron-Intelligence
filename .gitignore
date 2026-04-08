@@ -8,3 +8,4 @@ __pycache__/
 .streamlit/secrets.toml
 high_school_stats_raw/
 scraper_utils/
+SECRETS.env
