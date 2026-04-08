@@ -174,14 +174,16 @@ def build_score_card_html_data(
         key = str(raw_key or "").strip().lower()
         number_match = re.search(r"(\d{2,3}(?:\.\d+)?)", key)
         threshold_txt = number_match.group(1) if number_match else ""
+        op_match = re.search(r"(^|[_\-])(ge|gt|le|lt|gte|lte)(\d{1,3}(?:\.\d+)?)", key)
+        op = str(op_match.group(2)) if op_match else ""
 
-        if "ge" in key or "gte" in key or ">=" in key:
+        if op in {"ge", "gte"} or ">=" in key:
             return f"Chance to reach >= {threshold_txt}" if threshold_txt else "Chance to reach upper threshold"
-        if "gt" in key or ">" in key:
+        if op == "gt" or ">" in key:
             return f"Chance to exceed > {threshold_txt}" if threshold_txt else "Chance to exceed upper threshold"
-        if "le" in key or "lte" in key or "<=" in key:
+        if op in {"le", "lte"} or "<=" in key:
             return f"Chance to stay <= {threshold_txt}" if threshold_txt else "Chance to stay below threshold"
-        if "lt" in key or "<" in key:
+        if op == "lt" or "<" in key:
             return f"Chance to stay < {threshold_txt}" if threshold_txt else "Chance to stay below threshold"
         if threshold_txt:
             return f"Chance to reach >= {threshold_txt}"
@@ -218,6 +220,8 @@ def build_score_card_html_data(
             op = str(threshold_match.group(2) or "ge")
             threshold_num_text = str(threshold_match.group(3) or "")
             threshold_num = to_float_or_none(threshold_num_text)
+            if threshold_num is None or threshold_num < 0 or threshold_num > 100:
+                continue
             rank_key = threshold_num if threshold_num is not None else -1.0
             label = _friendly_probability_label(key_text)
             canonical_key = (op, threshold_num_text)
@@ -256,8 +260,11 @@ def build_score_card_html_data(
 
     tier = score_tier(score)
 
-    score_text = "N/A" if score is None else f"{score:.3f}"
-    score_pct = None if score is None else max(0.0, min(100.0, float(score)))
+    score_pct = None
+    if score is not None:
+        raw_score = float(score)
+        score_pct = max(0.0, min(100.0, raw_score * 100.0 if raw_score <= 1.0 else raw_score))
+    score_text = "N/A" if score_pct is None else f"{score_pct:.1f}"
     threshold_text = (
         "N/A"
         if low is None and high is None
