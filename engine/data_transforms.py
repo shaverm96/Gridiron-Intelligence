@@ -231,7 +231,7 @@ def build_score_card_html_data(
             threshold_num = to_float_or_none(threshold_num_text)
             if threshold_num is None or threshold_num < 0 or threshold_num > 100:
                 continue
-            rank_key = threshold_num if threshold_num is not None else -1.0
+            rank_key = threshold_num
             label = _friendly_probability_label(key_text)
             canonical_key = (op, threshold_num_text)
 
@@ -277,7 +277,7 @@ def build_score_card_html_data(
     threshold_text = (
         "N/A"
         if low is None and high is None
-        else f"{'' if low is None else f'{low:.3f}'} - {'' if high is None else f'{high:.3f}'}"
+        else f"{'' if low is None else f'{low:.1f}'} - {'' if high is None else f'{high:.1f}'}"
     )
     threshold_band_html = (
         ""
