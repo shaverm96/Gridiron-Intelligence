@@ -16,8 +16,6 @@ def vector_insights_query_data(
 ) -> dict[str, Any]:
     if sb is None:
         return {"insights": [], "reason": "Supabase client unavailable."}
-    if not position:
-        return {"insights": [], "reason": "Player position is required for vector matching."}
 
     match_threshold = to_float_or_none(threshold)
     if match_threshold is None:
@@ -33,8 +31,9 @@ def vector_insights_query_data(
         "query_embedding": embedding,
         "match_threshold": float(match_threshold),
         "match_count": int(top_k),
-        "filter_position": str(position).strip().upper(),
     }
+    if position:
+        payload["filter_position"] = str(position).strip().upper()
 
     try:
         rows = sb.rpc(vector_rpc_name, payload).execute().data or []

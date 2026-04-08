@@ -87,13 +87,9 @@ def get_historical_player_comparables_data(
     pool_df["similarity_pct"] = (pool_df["similarity"] * 100.0).round(2)
     comps = pool_df.sort_values("similarity_pct", ascending=False).head(5)
 
-    target_rating = to_float_or_none(target.get("rating"))
-    target_tier = score_tier(target_rating)
-
     lines = [
         f"### Historical Comparables for {target.get('player_name', rid)}",
         f"Target Position: {target_pos}",
-        f"Target Tier: {target_tier}",
         "---",
     ]
 
