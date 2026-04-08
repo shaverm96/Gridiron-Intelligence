@@ -13,9 +13,11 @@ from .tools import (
     delegator_plan_tool,
     fetch_player_bundle_by_identity_tool,
     final_synthesis_tool,
+    historical_comparables_tool,
     resolve_player_identity_tool,
     search_web_query_tool,
     summarize_payload_tool,
+    vector_insights_tool,
 )
 
 
@@ -26,6 +28,52 @@ def _trace_entry(state: ScoutState, node_name: str, note: str = "") -> dict[str,
         "recruit_id": state.get("recruit_id", ""),
         "cfbd_athlete_id": state.get("cfbd_athlete_id", ""),
     }
+
+
+def _truncate_text_block(value: Any, max_chars: int) -> str:
+    text = str(value or "").strip()
+    if len(text) <= max_chars:
+        return text
+    return f"{text[:max_chars].rstrip()} ...[truncated]"
+
+
+def _is_meaningful_summary(value: Any) -> bool:
+    text = str(value or "").strip().lower()
+    if not text:
+        return False
+    weak_markers = [
+        "summary unavailable",
+        "no data",
+        "insufficient",
+        "skipped",
+        "failed",
+    ]
+    if any(marker in text for marker in weak_markers):
+        return False
+    return len(text) >= 80
+
+
+def _has_internal_grounding(state: ScoutState) -> bool:
+    bundle = dict(state.get("sql_data_context") or {})
+    player_profile = dict(bundle.get("player") or {})
+    has_player_profile = bool(player_profile)
+    has_cfbd_summary = _is_meaningful_summary(state.get("cfbd_data_summary", ""))
+    return has_player_profile or has_cfbd_summary
+
+
+def _needs_web_recency_enrichment(state: ScoutState) -> bool:
+    query = str(state.get("user_query") or "").lower()
+    recency_terms = ["news", "recent", "update", "transfer", "portal", "injury", "latest"]
+    return any(term in query for term in recency_terms)
+
+
+def _should_use_duckduckgo(state: ScoutState, scope: str) -> tuple[bool, str]:
+    # Primary-first policy: web search is only fallback/enrichment.
+    if not _has_internal_grounding(state):
+        return True, f"{scope}_fallback_missing_internal"
+    if _needs_web_recency_enrichment(state):
+        return True, f"{scope}_enrichment_recent_updates"
+    return False, f"{scope}_skipped_internal_sufficient"
 
 
 def _infer_chat_route(query: str) -> str:
@@ -394,24 +442,59 @@ def lead_synthesizer_node(state: ScoutState) -> ScoutState:
     if not user_intent:
         user_intent = str(state.get("user_query") or "Generate a scouting report.")
 
+    bundle = dict(state.get("sql_data_context") or {})
+    player_profile = dict(bundle.get("player") or {})
+    profile_position = str(player_profile.get("position") or "").strip()
+    profile_state = str(player_profile.get("state") or "").strip() or None
+
+    if profile_position:
+        vector_result = vector_insights_tool(
+            query_text=user_intent,
+            position=profile_position,
+            state=profile_state,
+            top_k=6,
+        )
+        raw_factoids = [
+            _truncate_text_block(item, 800)
+            for item in list(vector_result.get("data") or [])[:6]
+        ]
+        state["vector_factoids"] = raw_factoids
+        _append_citations(state, list(vector_result.get("citations") or []))
+
+    recruit_id = str(state.get("recruit_id") or "").strip()
+    if recruit_id:
+        comparables_result = historical_comparables_tool(recruit_id)
+        state["comparables_context"] = _truncate_text_block(comparables_result.get("data") or "", 5000)
+        _append_citations(state, list(comparables_result.get("citations") or []))
+
     synthesis_payload = {
-        "user_intent": user_intent,
-        "cfbd_summary": state.get("cfbd_data_summary", ""),
-        "recruiting_summary": state.get("web_recruiting_summary", ""),
-        "team_summary": state.get("web_team_summary", ""),
+        "player_name": state.get("target_player_name") or state.get("player_name") or "",
+        "user_intent": _truncate_text_block(user_intent, 500),
+        "user_query": _truncate_text_block(state.get("user_query") or "", 2200),
+        "player_profile": player_profile,
+        "cfbd_summary": _truncate_text_block(state.get("cfbd_data_summary", ""), 6000),
+        "recruiting_summary": _truncate_text_block(state.get("web_recruiting_summary", ""), 5000),
+        "team_summary": _truncate_text_block(state.get("web_team_summary", ""), 5000),
+        "vector_factoids": list(state.get("vector_factoids") or []),
+        "historical_comparables": _truncate_text_block(state.get("comparables_context", ""), 5000),
+        "source_priority": {
+            "primary": "internal_backend_data_vectors_and_repository_context",
+            "secondary": "duckduckgo_supplemental_enrichment_only",
+            "final": "model_reasoning_supported_by_available_evidence_only",
+        },
+        "source_usage": {
+            "internal_grounding_available": _has_internal_grounding(state),
+            "duckduckgo_recruiting_used": bool(state.get("web_recruiting_used", False)),
+            "duckduckgo_team_used": bool(state.get("web_team_used", False)),
+        },
     }
 
-    synthesis_prompt = (
-        "You are a senior college football analyst writing a broadcast-ready scouting memo.\n"
-        "Use only the provided summaries. If a section is missing, say so explicitly.\n\n"
-        "Output sections:\n"
-        "1) Quick Take\n"
-        "2) Evidence Snapshot\n"
-        "3) Team Fit Outlook\n"
-        "4) Risks and Unknowns\n"
-        "5) Recommendation\n\n"
-        "Context JSON:\n"
-        f"{json.dumps(synthesis_payload, indent=2, default=str)}"
+    synthesis_prompt = build_master_prompt(
+        player_name=str(synthesis_payload.get("player_name") or "Unknown Player"),
+        target_team=str(state.get("target_team") or ""),
+        year=int(state.get("year") or 0),
+        user_prompt=str(state.get("user_query") or user_intent),
+        retrieved_context=synthesis_payload,
     )
 
     final_result = final_synthesis_tool(synthesis_prompt)

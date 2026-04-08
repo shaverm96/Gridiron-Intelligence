@@ -46,7 +46,7 @@ CONFIG = {
     "GEMINI_API_KEY": os.getenv("GEMINI_API_KEY", ""),
     "CFBD_API_KEY": os.getenv("CFBD_API_KEY", "") or os.getenv("CFBD_API", ""),
     "CFBD_BASE_URL": os.getenv("CFBD_BASE_URL", "https://api.collegefootballdata.com"),
-    "FINAL_MODEL": _normalize_model_name(
+    "FINAL_MODEL": normalize_model_name(
         os.getenv("GI_FINAL_MODEL", "gemini-3-flash-preview"),
         "gemini-3-flash-preview",
     ),

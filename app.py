@@ -107,6 +107,28 @@ def _cfg(key: str, default: str = "") -> str:
     return value
 
 
+def _parse_bool(value: Any, default: bool = False) -> bool:
+    if value is None:
+        return default
+    normalized = str(value).strip().lower()
+    if not normalized:
+        return default
+    return normalized in {"1", "true", "yes", "on"}
+
+
+def _cfg_flag_with_source(key: str, default: bool = False) -> tuple[bool, str]:
+    try:
+        if key in st.secrets:
+            return _parse_bool(st.secrets.get(key), default), "streamlit_secrets"
+    except Exception:
+        pass
+
+    env_value = os.getenv(key)
+    if env_value is not None:
+        return _parse_bool(env_value, default), "environment"
+    return default, "default"
+
+
 def resolve_project_root() -> Path:
     candidates = [Path.cwd(), Path.cwd().parent, Path.cwd().parent.parent]
     for candidate in candidates:
@@ -129,6 +151,7 @@ GEMINI_API_KEY, GEMINI_API_KEY_SOURCE = _cfg_with_source("GEMINI_API_KEY")
 CFBD_API_KEY, CFBD_API_KEY_SOURCE = _cfg_with_source("CFBD_API_KEY")
 if not CFBD_API_KEY:
     CFBD_API_KEY, CFBD_API_KEY_SOURCE = _cfg_with_source("CFBD_API")
+LOCAL_CFBD_DEBUGGER_ENABLED, LOCAL_CFBD_DEBUGGER_SOURCE = _cfg_flag_with_source("GI_ENABLE_LOCAL_CFBD_DEBUGGER", default=False)
 
 CONFIG = {
     "SUPABASE_URL": SUPABASE_URL,
@@ -142,6 +165,7 @@ CONFIG = {
     "VECTOR_MATCH_COUNT": 6,
     "VECTOR_MATCH_THRESHOLD": 0.15,
     "VECTOR_RPC_NAME": "match_gi_factoids",
+    "LOCAL_CFBD_DEBUGGER_ENABLED": LOCAL_CFBD_DEBUGGER_ENABLED,
 }
 
 CHAT_STATE_MAX_TURNS = 6
@@ -157,6 +181,7 @@ CONFIG_SOURCES = {
     "SUPABASE_SERVICE_ROLE_KEY": SUPABASE_SERVICE_ROLE_KEY_SOURCE,
     "GEMINI_API_KEY": GEMINI_API_KEY_SOURCE,
     "CFBD_API_KEY": CFBD_API_KEY_SOURCE,
+    "GI_ENABLE_LOCAL_CFBD_DEBUGGER": LOCAL_CFBD_DEBUGGER_SOURCE,
 }
 
 TABLES = {
@@ -274,7 +299,7 @@ def _normalize_model_name(model_name: str) -> str:
 def get_llm(model_name: str, temperature: float = 0.2, max_output_tokens: int = 1800):
     if ChatGoogleGenerativeAI is None or not CONFIG["GEMINI_API_KEY"]:
         return None
-    resolved_model = _normalize_model_name(model_name)
+    resolved_model = normalize_model_name(model_name)
     return ChatGoogleGenerativeAI(model=resolved_model, google_api_key=CONFIG["GEMINI_API_KEY"], temperature=temperature, max_output_tokens=max_output_tokens)
 
 
@@ -887,6 +912,11 @@ with st.sidebar:
         st.write(f"SUPABASE_URL source: {CONFIG_SOURCES['SUPABASE_URL']}")
         st.write(f"SUPABASE_SERVICE_ROLE_KEY source: {CONFIG_SOURCES['SUPABASE_SERVICE_ROLE_KEY']}")
         st.write(f"GEMINI_API_KEY source: {CONFIG_SOURCES['GEMINI_API_KEY']}")
+        st.write(
+            "GI_ENABLE_LOCAL_CFBD_DEBUGGER source: "
+            f"{CONFIG_SOURCES['GI_ENABLE_LOCAL_CFBD_DEBUGGER']} "
+            f"(enabled: {'Yes' if CONFIG['LOCAL_CFBD_DEBUGGER_ENABLED'] else 'No'})"
+        )
         st.write(f"Supabase package import: {'Yes' if create_client is not None else 'No'}")
         if st.button("Run One-Click Diagnostic", key="run_one_click_diagnostic"):
             with st.spinner("Running connectivity and configuration checks..."):
@@ -902,6 +932,37 @@ with st.sidebar:
             for item in diag.get("checks", []):
                 icon = "✅" if item.get("status") == "pass" else "❌"
                 st.write(f"{icon} {item.get('name')}: {item.get('detail')}")
+
+    if CONFIG["LOCAL_CFBD_DEBUGGER_ENABLED"]:
+        with st.expander("Local CFBD Debugger (opt-in)"):
+            from engine.cfbd_service import cfbd_fetch
+
+            endpoint = st.selectbox(
+                "CFBD endpoint",
+                ["player/stats", "player/search", "roster"],
+                key="cfbd_debug_endpoint",
+            )
+            team = st.text_input("Team", value="", key="cfbd_debug_team")
+            athlete_id = st.text_input("Athlete ID", value="", key="cfbd_debug_athlete_id")
+            search_term = st.text_input("Search term", value="", key="cfbd_debug_search_term")
+            year_raw = st.text_input("Year", value="", key="cfbd_debug_year")
+
+            params: dict[str, Any] = {}
+            if team.strip():
+                params["team"] = team.strip()
+            if athlete_id.strip():
+                params["athleteId"] = athlete_id.strip()
+            if search_term.strip():
+                params["searchTerm"] = search_term.strip()
+            if year_raw.strip().isdigit():
+                params["year"] = int(year_raw.strip())
+
+            if st.button("Run local CFBD debug request", key="run_local_cfbd_debug_request"):
+                st.session_state["local_cfbd_debug_result"] = cfbd_fetch(endpoint=endpoint, params=params)
+
+            debug_result = st.session_state.get("local_cfbd_debug_result")
+            if isinstance(debug_result, dict):
+                st.code(json.dumps(debug_result, indent=2, default=str), language="json")
 
     supabase_issues = get_supabase_config_issues()
     if supabase_issues:

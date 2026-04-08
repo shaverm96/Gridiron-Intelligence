@@ -98,7 +98,7 @@ POS_MAP = {
 def _get_llm(model_name: str, temperature: float, max_output_tokens: int):
     if ChatGoogleGenerativeAI is None or not CONFIG["GEMINI_API_KEY"]:
         return None
-    resolved_model = MODEL_ALIAS_MAP.get(str(model_name or "").strip(), str(model_name or "").strip())
+    resolved_model = normalize_model_name(model_name)
     return ChatGoogleGenerativeAI(
         model=resolved_model,
         google_api_key=CONFIG["GEMINI_API_KEY"],
