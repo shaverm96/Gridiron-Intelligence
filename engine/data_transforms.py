@@ -6,6 +6,10 @@ from typing import Any, Callable
 
 import pandas as pd
 
+THRESHOLD_OPERATOR_PATTERN = re.compile(
+    r"(^|[_\-])(ge|gt|le|lt|gte|lte)(100(?:\.0+)?|[0-9]{1,2}(?:\.\d+)?)(?=$|[_\-])"
+)
+
 
 def _is_blank(value: Any) -> bool:
     if value is None:
@@ -140,6 +144,13 @@ def build_score_card_html_data(
     ps = pred_score if isinstance(pred_score, dict) else {}
     pt = pred_threshold if isinstance(pred_threshold, dict) else {}
 
+    def _extract_threshold_operator(key: str) -> tuple[str, str] | None:
+        matches = list(THRESHOLD_OPERATOR_PATTERN.finditer(str(key or "").strip().lower()))
+        if not matches:
+            return None
+        selected = matches[-1]
+        return str(selected.group(2) or ""), str(selected.group(3) or "")
+
     def _first_numeric(keys: list[str], source: dict[str, Any]) -> float | None:
         for key in keys:
             val = to_float_or_none(source.get(key))
@@ -174,8 +185,8 @@ def build_score_card_html_data(
         key = str(raw_key or "").strip().lower()
         number_match = re.search(r"(\d{2,3}(?:\.\d+)?)", key)
         threshold_txt = number_match.group(1) if number_match else ""
-        op_match = re.search(r"(^|[_\-])(ge|gt|le|lt|gte|lte)(\d{1,3}(?:\.\d+)?)", key)
-        op = str(op_match.group(2)) if op_match else ""
+        parsed_threshold = _extract_threshold_operator(key)
+        op = parsed_threshold[0] if parsed_threshold else ""
 
         if op in {"ge", "gte"} or ">=" in key:
             return f"Chance to reach >= {threshold_txt}" if threshold_txt else "Chance to reach upper threshold"
@@ -201,9 +212,8 @@ def build_score_card_html_data(
             if "odds" in key_lower:
                 continue
 
-            threshold_match = re.search(r"(^|[_\-])(ge|gt|le|lt|gte|lte)(\d{1,3}(?:\.\d+)?)", key_lower)
-            has_threshold_token = bool(threshold_match)
-            if not has_threshold_token:
+            parsed_threshold = _extract_threshold_operator(key_lower)
+            if parsed_threshold is None:
                 continue
 
             looks_probability = (
@@ -217,8 +227,8 @@ def build_score_card_html_data(
             if pct is None:
                 continue
 
-            op = str(threshold_match.group(2) or "ge")
-            threshold_num_text = str(threshold_match.group(3) or "")
+            op = str(parsed_threshold[0] or "ge")
+            threshold_num_text = str(parsed_threshold[1] or "")
             threshold_num = to_float_or_none(threshold_num_text)
             if threshold_num is None or threshold_num < 0 or threshold_num > 100:
                 continue
