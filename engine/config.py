@@ -15,7 +15,7 @@ MODEL_ALIAS_MAP = {
 
 
 def normalize_model_name(model_name: str, default_model: str = "") -> str:
-    value = str(model_name or "").strip() or str(default_model or "").strip()
+    value = str(model_name or "").strip() or str(default_model).strip()
     return MODEL_ALIAS_MAP.get(value, value)
 
 

@@ -642,7 +642,8 @@ def final_synthesis_tool(prompt: str) -> dict[str, Any]:
             footer = text[footer_start:]
             footer_length = len(footer)
             head_budget = limit - len(truncation_note) - footer_length
-            if head_budget > MIN_HEAD_BUDGET_FOR_FOOTER_PRESERVATION:
+            footer_fits = footer_length + len(truncation_note) <= limit
+            if footer_fits and head_budget > MIN_HEAD_BUDGET_FOR_FOOTER_PRESERVATION:
                 head = text[:head_budget].rstrip()
                 candidate = f"{head}{truncation_note}{footer}"
                 if len(candidate) <= limit:
