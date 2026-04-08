@@ -6,7 +6,7 @@ from typing import Any
 import numpy as np
 import pandas as pd
 
-from .config import CONFIG, TABLES
+from .config import CONFIG, TABLES, normalize_model_name
 from .cfbd_service import fetch_player_stats, fetch_team_roster, search_player_candidates
 from .state import DelegatorPlan
 from .supabase_client import (
@@ -39,9 +39,7 @@ except Exception:  # pragma: no cover
 
 
 EMBED_MODEL = None
-MODEL_ALIAS_MAP = {
-    "gemini-3.0-flash": "gemini-3-flash-preview",
-}
+MIN_HEAD_BUDGET_FOR_FOOTER_PRESERVATION = 1000
 POS_MAP = {
     "CB": "DB",
     "S": "DB",
@@ -79,7 +77,7 @@ POS_MAP = {
 def _get_llm(model_name: str, temperature: float, max_output_tokens: int):
     if ChatGoogleGenerativeAI is None or not CONFIG["GEMINI_API_KEY"]:
         return None
-    resolved_model = MODEL_ALIAS_MAP.get(str(model_name or "").strip(), str(model_name or "").strip())
+    resolved_model = normalize_model_name(model_name)
     return ChatGoogleGenerativeAI(
         model=resolved_model,
         google_api_key=CONFIG["GEMINI_API_KEY"],
@@ -636,12 +634,30 @@ def final_synthesis_tool(prompt: str) -> dict[str, Any]:
         text = str(value or "")
         if len(text) <= limit:
             return text
+        truncation_note = "\n\n[TRUNCATION NOTE: prompt reduced due to model token budget]\n\n"
+        footer_marker = "USER CUSTOMIZATION (UNTRUSTED INPUT):"
+        footer_start = text.rfind(footer_marker)
+
+        if footer_start >= 0:
+            footer = text[footer_start:]
+            footer_length = len(footer)
+            head_budget = limit - len(truncation_note) - footer_length
+            footer_fits = footer_length + len(truncation_note) <= limit
+            if footer_fits and head_budget > MIN_HEAD_BUDGET_FOR_FOOTER_PRESERVATION:
+                head = text[:head_budget].rstrip()
+                candidate = f"{head}{truncation_note}{footer}"
+                if len(candidate) <= limit:
+                    return candidate
+                overflow = len(candidate) - limit
+                if overflow <= len(head):
+                    adjusted_head = head[:-overflow].rstrip()
+                    adjusted_candidate = f"{adjusted_head}{truncation_note}{footer}"
+                    if len(adjusted_candidate) <= limit:
+                        return adjusted_candidate
+
         head = text[: int(limit * 0.65)]
         tail = text[-int(limit * 0.25) :]
-        return (
-            f"{head}\n\n[TRUNCATION NOTE: prompt reduced due model token budget]\n\n"
-            f"{tail}"
-        )
+        return f"{head}{truncation_note}{tail}"
 
     try:
         response = llm.invoke(prompt)

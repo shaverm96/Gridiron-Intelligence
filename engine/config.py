@@ -9,12 +9,21 @@ except Exception:  # pragma: no cover
     load_dotenv = None
 
 
-def _normalize_model_name(model_name: str, default_model: str) -> str:
-    value = str(model_name or "").strip() or default_model
-    alias_map = {
-        "gemini-3.0-flash": "gemini-3-flash-preview",
-    }
-    return alias_map.get(value, value)
+MODEL_ALIAS_MAP = {
+    "gemini-3.0-flash": "gemini-3-flash-preview",
+}
+
+
+def normalize_model_name(model_name: str, default_model: str = "") -> str:
+    value = str(model_name or "").strip() or str(default_model).strip()
+    return MODEL_ALIAS_MAP.get(value, value)
+
+
+def env_flag(name: str, default: bool = False) -> bool:
+    value = str(os.getenv(name, "")).strip().lower()
+    if not value:
+        return default
+    return value in {"1", "true", "yes", "on"}
 
 
 def resolve_project_root() -> Path:
@@ -45,11 +54,15 @@ CONFIG = {
     "GEMINI_API_KEY": os.getenv("GEMINI_API_KEY", ""),
     "CFBD_API_KEY": os.getenv("CFBD_API_KEY", "") or os.getenv("CFBD_API", ""),
     "CFBD_BASE_URL": os.getenv("CFBD_BASE_URL", "https://api.collegefootballdata.com"),
-    "FINAL_MODEL": _normalize_model_name(
+    "FINAL_MODEL": normalize_model_name(
         os.getenv("GI_FINAL_MODEL", "gemini-3-flash-preview"),
         "gemini-3-flash-preview",
     ),
-    "SUMMARY_MODEL": os.getenv("GI_SUMMARY_MODEL", "gemini-2.5-flash-lite"),
+    "SUMMARY_MODEL": normalize_model_name(
+        os.getenv("GI_SUMMARY_MODEL", "gemini-2.5-flash-lite"),
+        "gemini-2.5-flash-lite",
+    ),
+    "LOCAL_CFBD_DEBUGGER_ENABLED": env_flag("GI_ENABLE_LOCAL_CFBD_DEBUGGER", default=False),
     "VECTOR_MATCH_COUNT": int(os.getenv("GI_VECTOR_MATCH_COUNT", "6")),
     "VECTOR_MATCH_THRESHOLD": float(os.getenv("GI_VECTOR_MATCH_THRESHOLD", "0.15")),
     "VECTOR_RPC_NAME": os.getenv("GI_VECTOR_RPC_NAME", "match_gi_factoids"),
