@@ -1441,15 +1441,23 @@ def render_structured_report_with_chat_page() -> None:
             "notes": notes,
         }
 
-    def _helmet_image_data_uri() -> str:
-        helmet_path = PROJECT_ROOT / "Logos" / "Helmate.png"
+    def _image_data_uri(relative_path: list[str], mime_type: str = "image/png") -> str:
+        asset_path = PROJECT_ROOT
+        for part in relative_path:
+            asset_path = asset_path / part
         try:
-            if not helmet_path.exists():
+            if not asset_path.exists():
                 return ""
-            encoded = base64.b64encode(helmet_path.read_bytes()).decode("ascii")
-            return f"data:image/png;base64,{encoded}"
+            encoded = base64.b64encode(asset_path.read_bytes()).decode("ascii")
+            return f"data:{mime_type};base64,{encoded}"
         except Exception:
             return ""
+
+    def _helmet_image_data_uri() -> str:
+        return _image_data_uri(["Logos", "Helmate.png"])
+
+    def _football_image_data_uri() -> str:
+        return _image_data_uri(["Logos", "Football.png"])
 
     def _render_summary_card(title: str, raw_text: str | None, section_key: str, compact: bool = False) -> None:
         if section_key == "recruiting":
@@ -1466,33 +1474,39 @@ def render_structured_report_with_chat_page() -> None:
             grid_items = list(data.get("grid_items") or [])
             recency_note = str(data.get("note_on_recency") or "").strip()
             helmet_data_uri = _helmet_image_data_uri()
+            football_data_uri = _football_image_data_uri()
             helmet_html = (
                 f"<img class='recruiting-dossier-helmet-img' src='{helmet_data_uri}' alt='Helmet' />"
                 if helmet_data_uri
                 else "<div class='recruiting-dossier-helmet-fallback'>🏈</div>"
             )
 
-            icon_map = {
-                "athletic_background": "⚾",
-                "performance_notes": "🏈",
-            }
+            grid_parts: list[str] = []
+            for item in grid_items:
+                item_key = str(item.get("key") or "")
+                icon_html = ""
+                if item_key == "performance_notes" and football_data_uri:
+                    icon_html = (
+                        "<span class='recruiting-dossier-note-icon'>"
+                        f"<img class='recruiting-dossier-note-icon-img' src='{football_data_uri}' alt='Football' />"
+                        "</span>"
+                    )
 
-            grid_html = "".join(
-                [
+                grid_parts.append(
                     (
                         "<article class='recruiting-dossier-note'>"
                         "<div class='recruiting-dossier-note-head'>"
                         f"<h4 class='recruiting-dossier-note-title'>{html.escape(str(item.get('title') or 'Note'))}</h4>"
                         "</div>"
                         "<div class='recruiting-dossier-note-body'>"
-                        f"<span class='recruiting-dossier-note-icon'>{html.escape(icon_map.get(str(item.get('key') or ''), ''))}</span>"
+                        f"{icon_html}"
                         f"<span>{html.escape(str(item.get('value') or ''))}</span>"
                         "</div>"
                         "</article>"
                     )
-                    for item in grid_items
-                ]
-            )
+                )
+
+            grid_html = "".join(grid_parts)
 
             recency_html = (
                 (
@@ -1981,6 +1995,7 @@ def render_structured_report_with_chat_page() -> None:
                 padding-left: 0.74rem;
             }
             .recruiting-dossier-card {
+                --recruiting-asset-size: 4.45rem;
                 background: linear-gradient(
                     160deg,
                     color-mix(in srgb, var(--secondary-background-color) 92%, #0c1225 8%),
@@ -2055,26 +2070,25 @@ def render_structured_report_with_chat_page() -> None:
                 min-width: 0;
             }
             .recruiting-dossier-helmet {
-                width: 4.1rem;
-                height: 4.1rem;
-                border-radius: 11px;
+                width: var(--recruiting-asset-size);
+                height: var(--recruiting-asset-size);
                 display: inline-flex;
                 align-items: center;
                 justify-content: center;
-                background: color-mix(in srgb, #1b233f 78%, var(--secondary-background-color));
-                border: 1px solid color-mix(in srgb, #f2c86a 40%, transparent);
-                overflow: hidden;
+                background: transparent;
+                border: none;
+                border-radius: 0;
+                overflow: visible;
                 flex: 0 0 auto;
             }
             .recruiting-dossier-helmet-img {
                 width: 100%;
                 height: 100%;
                 object-fit: contain;
-                padding: 0.3rem;
                 display: block;
             }
             .recruiting-dossier-helmet-fallback {
-                font-size: 1.32rem;
+                font-size: 2rem;
                 line-height: 1;
             }
             .recruiting-dossier-hero-copy {
@@ -2144,9 +2158,16 @@ def render_structured_report_with_chat_page() -> None:
             }
             .recruiting-dossier-note-icon {
                 flex: 0 0 auto;
-                min-width: 1rem;
-                line-height: 1.15;
+                width: var(--recruiting-asset-size);
+                height: var(--recruiting-asset-size);
+                line-height: 1;
                 opacity: 0.95;
+            }
+            .recruiting-dossier-note-icon-img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+                display: block;
             }
             .recruiting-dossier-recency {
                 margin-top: 0.68rem;
@@ -2203,6 +2224,7 @@ def render_structured_report_with_chat_page() -> None:
                     min-height: unset;
                 }
                 .recruiting-dossier-card {
+                    --recruiting-asset-size: 3.6rem;
                     padding: 0.82rem;
                 }
                 .recruiting-dossier-header {
@@ -2219,10 +2241,6 @@ def render_structured_report_with_chat_page() -> None:
                     flex-direction: column;
                     align-items: flex-start;
                     padding: 0.72rem 0.74rem;
-                }
-                .recruiting-dossier-helmet {
-                    width: 3.3rem;
-                    height: 3.3rem;
                 }
                 .recruiting-dossier-physical {
                     text-align: left;
