@@ -1524,7 +1524,6 @@ def render_structured_report_with_chat_page() -> None:
                     "<section class='recruiting-dossier-card'>"
                     "<header class='recruiting-dossier-header recruiting-dossier-kpi-surface'>"
                     "<h3 class='recruiting-dossier-title'>Recruiting Scout Summary</h3>"
-                    "<span class='recruiting-dossier-action'>Update Profile</span>"
                     "</header>"
                     "<div class='recruiting-dossier-hero recruiting-dossier-kpi-surface'>"
                     "<div class='recruiting-dossier-hero-left'>"
@@ -1995,7 +1994,7 @@ def render_structured_report_with_chat_page() -> None:
                 padding-left: 0.74rem;
             }
             .recruiting-dossier-card {
-                --recruiting-asset-size: 4.45rem;
+                --recruiting-asset-size: clamp(2.7rem, 5vw, 3.25rem);
                 background: linear-gradient(
                     160deg,
                     color-mix(in srgb, var(--secondary-background-color) 92%, #0c1225 8%),
@@ -2024,8 +2023,7 @@ def render_structured_report_with_chat_page() -> None:
             .recruiting-dossier-header {
                 display: flex;
                 align-items: center;
-                justify-content: space-between;
-                gap: 0.85rem;
+                justify-content: flex-start;
                 border-radius: 10px;
                 padding: 0.74rem 0.96rem;
                 margin-bottom: 0.66rem;
@@ -2037,22 +2035,6 @@ def render_structured_report_with_chat_page() -> None:
                 letter-spacing: 0.01em;
                 font-weight: 800;
                 color: var(--text-color);
-            }
-            .recruiting-dossier-action {
-                display: inline-flex;
-                align-items: center;
-                justify-content: center;
-                padding: 0.48rem 0.82rem;
-                border-radius: 7px;
-                font-size: 0.76rem;
-                font-weight: 800;
-                letter-spacing: 0.05em;
-                text-transform: uppercase;
-                color: #1e1b16;
-                background: linear-gradient(180deg, #f2c86a, #d5a946);
-                border: 1px solid #c99a38;
-                white-space: nowrap;
-                box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), 0 6px 14px rgba(0, 0, 0, 0.24);
             }
             .recruiting-dossier-hero {
                 display: flex;
@@ -2097,7 +2079,7 @@ def render_structured_report_with_chat_page() -> None:
             .recruiting-dossier-player {
                 font-size: clamp(1.55rem, 2.05vw, 2rem);
                 font-weight: 820;
-                color: color-mix(in srgb, #f2c86a 70%, var(--text-color) 30%);
+                color: color-mix(in srgb, var(--text-color) 96%, transparent);
                 line-height: 1.12;
                 margin-bottom: 0.2rem;
                 text-wrap: balance;
@@ -2137,7 +2119,7 @@ def render_structured_report_with_chat_page() -> None:
                 bottom: 0.18rem;
                 width: 2px;
                 border-radius: 2px;
-                background: color-mix(in srgb, #f2c86a 86%, transparent);
+                background: color-mix(in srgb, var(--text-color) 58%, transparent);
             }
             .recruiting-dossier-note-title {
                 margin: 0;
@@ -2145,12 +2127,12 @@ def render_structured_report_with_chat_page() -> None:
                 font-weight: 780;
                 letter-spacing: 0.085em;
                 text-transform: uppercase;
-                color: color-mix(in srgb, var(--text-color) 76%, transparent);
+                color: color-mix(in srgb, var(--text-color) 82%, transparent);
             }
             .recruiting-dossier-note-body {
                 margin: 0;
                 display: flex;
-                align-items: flex-start;
+                align-items: center;
                 gap: 0.44rem;
                 font-size: 0.97rem;
                 line-height: 1.42;
@@ -2161,7 +2143,7 @@ def render_structured_report_with_chat_page() -> None:
                 width: var(--recruiting-asset-size);
                 height: var(--recruiting-asset-size);
                 line-height: 1;
-                opacity: 0.95;
+                opacity: 0.9;
             }
             .recruiting-dossier-note-icon-img {
                 width: 100%;
@@ -2224,7 +2206,7 @@ def render_structured_report_with_chat_page() -> None:
                     min-height: unset;
                 }
                 .recruiting-dossier-card {
-                    --recruiting-asset-size: 3.6rem;
+                    --recruiting-asset-size: 2.9rem;
                     padding: 0.82rem;
                 }
                 .recruiting-dossier-header {
@@ -2232,10 +2214,6 @@ def render_structured_report_with_chat_page() -> None:
                 }
                 .recruiting-dossier-title {
                     font-size: 1.12rem;
-                }
-                .recruiting-dossier-action {
-                    font-size: 0.68rem;
-                    padding: 0.38rem 0.58rem;
                 }
                 .recruiting-dossier-hero {
                     flex-direction: column;
