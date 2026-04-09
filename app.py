@@ -1365,6 +1365,65 @@ def render_structured_report_with_chat_page() -> None:
             "raw": text,
         }
 
+    def _parse_summary_notes(raw_text: str | None) -> list[dict[str, str]]:
+        text = str(raw_text or "")
+        lines = [line.rstrip() for line in text.splitlines() if line and line.strip()]
+        notes: list[dict[str, str]] = []
+
+        for line in lines:
+            clean = re.sub(r"^\s*[-*•]+\s*", "", line).strip()
+            if not clean:
+                continue
+
+            label = ""
+            body = clean
+            if ":" in clean:
+                left, right = clean.split(":", 1)
+                left_clean = left.strip()
+                right_clean = right.strip()
+                if left_clean and right_clean and len(left_clean) <= 36:
+                    label = left_clean
+                    body = right_clean
+
+            notes.append({"label": label, "body": body})
+
+        return notes
+
+    def _render_summary_card(title: str, raw_text: str | None, section_key: str) -> None:
+        notes = _parse_summary_notes(raw_text)
+        if not notes:
+            st.markdown(f"### {title}")
+            st.markdown(str(raw_text or "No summary available."))
+            return
+
+        notes_html = "".join(
+            [
+                (
+                    "<div class='structured-summary-note'>"
+                    f"<div class='structured-summary-note-label'>{html.escape(note.get('label') or 'Note')}</div>"
+                    f"<div class='structured-summary-note-body'>{html.escape(note.get('body') or '')}</div>"
+                    "</div>"
+                    if str(note.get("label") or "").strip()
+                    else (
+                        "<div class='structured-summary-note structured-summary-note--plain'>"
+                        f"<div class='structured-summary-note-body'>{html.escape(note.get('body') or '')}</div>"
+                        "</div>"
+                    )
+                )
+                for note in notes
+            ]
+        )
+
+        st.markdown(
+            (
+                f"<section class='structured-summary-card structured-summary-card--{html.escape(section_key)}'>"
+                f"<h3 class='structured-summary-title'>{html.escape(title)}</h3>"
+                f"<div class='structured-summary-list'>{notes_html}</div>"
+                "</section>"
+            ),
+            unsafe_allow_html=True,
+        )
+
     try:
         player_index = load_player_index()
     except Exception as exc:
@@ -1707,6 +1766,50 @@ def render_structured_report_with_chat_page() -> None:
                 font-size: 0.92rem;
                 color: color-mix(in srgb, var(--text-color) 74%, transparent);
             }
+            .structured-summary-card {
+                background: color-mix(in srgb, var(--secondary-background-color) 90%, var(--background-color));
+                border: 1px solid color-mix(in srgb, var(--text-color) 12%, transparent);
+                border-radius: 16px;
+                padding: 1rem 1rem 0.92rem 1rem;
+                margin: 0 0 1.1rem 0;
+            }
+            .structured-summary-title {
+                margin: 0 0 0.8rem 0;
+                font-size: 1.28rem;
+                font-weight: 760;
+                letter-spacing: 0.01em;
+                line-height: 1.2;
+                color: var(--text-color);
+            }
+            .structured-summary-list {
+                display: flex;
+                flex-direction: column;
+                gap: 0.62rem;
+            }
+            .structured-summary-note {
+                border: 1px solid color-mix(in srgb, var(--text-color) 10%, transparent);
+                border-radius: 12px;
+                background: color-mix(in srgb, var(--background-color) 88%, var(--secondary-background-color));
+                padding: 0.72rem 0.82rem;
+            }
+            .structured-summary-note-label {
+                margin: 0 0 0.28rem 0;
+                font-size: 0.73rem;
+                font-weight: 700;
+                text-transform: uppercase;
+                letter-spacing: 0.08em;
+                color: color-mix(in srgb, var(--text-color) 54%, transparent);
+            }
+            .structured-summary-note-body {
+                margin: 0;
+                font-size: 0.95rem;
+                line-height: 1.5;
+                color: color-mix(in srgb, var(--text-color) 94%, transparent);
+            }
+            .structured-summary-note--plain {
+                border-left: 2px solid color-mix(in srgb, #3b82f6 35%, transparent);
+                padding-left: 0.74rem;
+            }
             @media (max-width: 1000px) {
                 .structured-report-kpi-wrap {
                     width: min(720px, 100%);
@@ -1733,6 +1836,12 @@ def render_structured_report_with_chat_page() -> None:
                 }
                 .structured-comps-match {
                     white-space: normal;
+                }
+                .structured-summary-card {
+                    padding: 0.9rem 0.9rem 0.82rem 0.9rem;
+                }
+                .structured-summary-title {
+                    font-size: 1.16rem;
                 }
             }
             </style>
@@ -1837,11 +1946,17 @@ def render_structured_report_with_chat_page() -> None:
         st.markdown("### Projected Model Score")
         st.markdown(str(report_output.get("score_card_html") or ""), unsafe_allow_html=True)
 
-        st.markdown("### Recruiting Scout Summary")
-        st.markdown(report_output.get("web_recruiting_summary") or "No recruiting summary available.")
+        _render_summary_card(
+            title="Recruiting Scout Summary",
+            raw_text=str(report_output.get("web_recruiting_summary") or "No recruiting summary available."),
+            section_key="recruiting",
+        )
 
-        st.markdown("### Team Scout Summary")
-        st.markdown(report_output.get("web_team_summary") or "No team summary available.")
+        _render_summary_card(
+            title="Team Scout Summary",
+            raw_text=str(report_output.get("web_team_summary") or "No team summary available."),
+            section_key="team",
+        )
 
         st.markdown("### Final Synthesis")
         st.markdown(report_output.get("final_report") or "No final synthesis generated.")
