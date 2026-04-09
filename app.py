@@ -4,6 +4,7 @@ import ast
 import html
 import json
 import os
+import re
 import time
 from datetime import date
 from pathlib import Path
@@ -1218,36 +1219,30 @@ def render_structured_report_page() -> None:
 def render_structured_report_with_chat_page() -> None:
     report_state_key = "structured_chat_report_output"
 
-    def _format_predicted_score_for_kpi(pred_score_row: dict[str, Any] | None) -> str:
+    def _extract_predicted_score_display(score_card_html: str | None, pred_score_row: dict[str, Any] | None) -> str:
+        html_text = str(score_card_html or "")
+        if html_text:
+            plain_text = re.sub(r"<[^>]+>", " ", html_text)
+            plain_text = " ".join(plain_text.split())
+
+            for pattern in [
+                r"Predicted\s*Score\s*[:\-]\s*([0-9]+(?:\.[0-9]+)?(?:\s*/\s*100)?)",
+                r"([0-9]+(?:\.[0-9]+)?\s*/\s*100)",
+            ]:
+                match = re.search(pattern, plain_text, flags=re.IGNORECASE)
+                if match:
+                    return str(match.group(1)).replace(" / ", "/").strip()
+
         row = pred_score_row if isinstance(pred_score_row, dict) else {}
+        for value in row.values():
+            score = to_float_or_none(value)
+            if score is None:
+                continue
+            if 0.0 <= score <= 1.0:
+                return f"{score * 100.0:.3f}"
+            return f"{score:.3f}"
 
-        candidate_keys = [
-            "pred_score",
-            "prediction_score",
-            "overall_score",
-            "model_score",
-            "score",
-            "probability",
-            "pred_probability",
-        ]
-
-        score: float | None = None
-        for key in candidate_keys:
-            score = to_float_or_none(row.get(key))
-            if score is not None:
-                break
-
-        if score is None:
-            for value in row.values():
-                score = to_float_or_none(value)
-                if score is not None:
-                    break
-
-        if score is None:
-            return "N/A"
-        if 0.0 <= score <= 1.0:
-            return f"{score * 100.0:.1f}%"
-        return f"{score:.1f}"
+        return "N/A"
 
     try:
         player_index = load_player_index()
@@ -1292,6 +1287,7 @@ def render_structured_report_with_chat_page() -> None:
         selected_label_parts = [part.strip() for part in str(selected_label).split("|")]
         selected_player_name = selected_label_parts[0] if selected_label_parts else ""
         selected_position_hint = selected_label_parts[1] if len(selected_label_parts) > 1 else ""
+        selected_high_school_hint = selected_label_parts[2] if len(selected_label_parts) > 2 else ""
         milestone_slot = st.empty()
 
         def _render_structured_milestone(event: dict[str, str]) -> None:
@@ -1336,7 +1332,13 @@ def render_structured_report_with_chat_page() -> None:
                 or selected_position_hint
                 or ""
             ).strip()
-            high_school = str(player_row.get("high_school") or player_row.get("school") or "").strip()
+            high_school = str(
+                player_profile.get("high_school")
+                or player_row.get("high_school")
+                or player_row.get("school")
+                or selected_high_school_hint
+                or ""
+            ).strip()
 
             vector_query = (
                 f"Player: {player_name}. Position: {position}. High school: {high_school}. "
@@ -1475,7 +1477,9 @@ def render_structured_report_with_chat_page() -> None:
         player_name = str(report_output.get("player_name") or "Unknown Player").strip()
         position = str(report_output.get("position") or "").strip()
         high_school = str(report_output.get("high_school") or "").strip()
-        player_meta = " | ".join([part for part in [position, high_school] if part]) or "Recruiting Profile"
+        position_display = position or "Position unavailable"
+        high_school_display = high_school or "High school unavailable"
+        player_meta = f"{position_display} | {high_school_display}"
 
         st.markdown(
             ""
@@ -1487,7 +1491,10 @@ def render_structured_report_with_chat_page() -> None:
             unsafe_allow_html=True,
         )
 
-        predicted_score_display = _format_predicted_score_for_kpi(report_output.get("pred_score_row") or {})
+        predicted_score_display = _extract_predicted_score_display(
+            score_card_html=str(report_output.get("score_card_html") or ""),
+            pred_score_row=report_output.get("pred_score_row") or {},
+        )
         kpi_cards = [
             ("Recruit ID", str(report_output.get("recruit_id") or "N/A")),
             ("Year", str(report_output.get("selected_year") or "N/A")),
