@@ -1389,23 +1389,27 @@ def render_structured_report_with_chat_page() -> None:
 
         return notes
 
-    def _render_summary_card(title: str, raw_text: str | None, section_key: str) -> None:
+    def _render_summary_card(title: str, raw_text: str | None, section_key: str, compact: bool = False) -> None:
         notes = _parse_summary_notes(raw_text)
         if not notes:
             st.markdown(f"### {title}")
             st.markdown(str(raw_text or "No summary available."))
             return
 
+        card_variant = " structured-summary-card--dense" if compact else ""
+        list_variant = " structured-summary-list--dense" if compact else ""
+        note_variant = " structured-summary-note--dense" if compact else ""
+
         notes_html = "".join(
             [
                 (
-                    "<div class='structured-summary-note'>"
+                    f"<div class='structured-summary-note{note_variant}'>"
                     f"<div class='structured-summary-note-label'>{html.escape(note.get('label') or 'Note')}</div>"
                     f"<div class='structured-summary-note-body'>{html.escape(note.get('body') or '')}</div>"
                     "</div>"
                     if str(note.get("label") or "").strip()
                     else (
-                        "<div class='structured-summary-note structured-summary-note--plain'>"
+                        f"<div class='structured-summary-note structured-summary-note--plain{note_variant}'>"
                         f"<div class='structured-summary-note-body'>{html.escape(note.get('body') or '')}</div>"
                         "</div>"
                     )
@@ -1416,9 +1420,9 @@ def render_structured_report_with_chat_page() -> None:
 
         st.markdown(
             (
-                f"<section class='structured-summary-card structured-summary-card--{html.escape(section_key)}'>"
+                f"<section class='structured-summary-card structured-summary-card--{html.escape(section_key)}{card_variant}'>"
                 f"<h3 class='structured-summary-title'>{html.escape(title)}</h3>"
-                f"<div class='structured-summary-list'>{notes_html}</div>"
+                f"<div class='structured-summary-list{list_variant}'>{notes_html}</div>"
                 "</section>"
             ),
             unsafe_allow_html=True,
@@ -1786,11 +1790,28 @@ def render_structured_report_with_chat_page() -> None:
                 flex-direction: column;
                 gap: 0.62rem;
             }
+            .structured-summary-card--dense {
+                padding: 0.95rem 1rem 0.88rem 1rem;
+            }
+            .structured-summary-card--dense .structured-summary-title {
+                margin-bottom: 0.68rem;
+                font-size: 1.2rem;
+            }
+            .structured-summary-list--dense {
+                display: grid;
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+                gap: 0.5rem 0.62rem;
+            }
             .structured-summary-note {
                 border: 1px solid color-mix(in srgb, var(--text-color) 10%, transparent);
                 border-radius: 12px;
                 background: color-mix(in srgb, var(--background-color) 88%, var(--secondary-background-color));
                 padding: 0.72rem 0.82rem;
+            }
+            .structured-summary-note--dense {
+                padding: 0.58rem 0.66rem;
+                border-radius: 10px;
+                min-height: 92px;
             }
             .structured-summary-note-label {
                 margin: 0 0 0.28rem 0;
@@ -1805,6 +1826,15 @@ def render_structured_report_with_chat_page() -> None:
                 font-size: 0.95rem;
                 line-height: 1.5;
                 color: color-mix(in srgb, var(--text-color) 94%, transparent);
+            }
+            .structured-summary-note--dense .structured-summary-note-label {
+                margin-bottom: 0.2rem;
+                font-size: 0.66rem;
+                letter-spacing: 0.07em;
+            }
+            .structured-summary-note--dense .structured-summary-note-body {
+                font-size: 0.9rem;
+                line-height: 1.38;
             }
             .structured-summary-note--plain {
                 border-left: 2px solid color-mix(in srgb, #3b82f6 35%, transparent);
@@ -1842,6 +1872,13 @@ def render_structured_report_with_chat_page() -> None:
                 }
                 .structured-summary-title {
                     font-size: 1.16rem;
+                }
+                .structured-summary-list--dense {
+                    grid-template-columns: 1fr;
+                    gap: 0.5rem;
+                }
+                .structured-summary-note--dense {
+                    min-height: unset;
                 }
             }
             </style>
@@ -1950,6 +1987,7 @@ def render_structured_report_with_chat_page() -> None:
             title="Recruiting Scout Summary",
             raw_text=str(report_output.get("web_recruiting_summary") or "No recruiting summary available."),
             section_key="recruiting",
+            compact=True,
         )
 
         _render_summary_card(
