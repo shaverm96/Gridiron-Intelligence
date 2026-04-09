@@ -1647,22 +1647,25 @@ def render_structured_report_with_chat_page() -> None:
             .structured-comps-item {
                 border: 1px solid color-mix(in srgb, var(--text-color) 10%, transparent);
                 border-radius: 12px;
-                padding: 0.78rem 0.85rem;
+                padding: 0.86rem 0.92rem;
                 background: color-mix(in srgb, var(--background-color) 90%, var(--secondary-background-color));
             }
             .structured-comps-item-top {
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
-                gap: 0.75rem;
-                margin-bottom: 0.42rem;
+                gap: 0.9rem;
+                margin-bottom: 0.56rem;
             }
             .structured-comps-player {
-                font-size: 1.04rem;
-                font-weight: 760;
+                font-size: clamp(1.12rem, 1.25vw, 1.24rem);
+                font-weight: 820;
                 color: var(--text-color);
-                line-height: 1.2;
-                letter-spacing: 0.01em;
+                line-height: 1.14;
+                letter-spacing: 0.012em;
+                padding-left: 0.52rem;
+                border-left: 2px solid color-mix(in srgb, #3b82f6 42%, transparent);
+                text-shadow: 0 1px 0 color-mix(in srgb, #000 30%, transparent);
             }
             .structured-comps-match {
                 white-space: nowrap;
@@ -1677,9 +1680,10 @@ def render_structured_report_with_chat_page() -> None:
             .structured-comps-meta {
                 display: flex;
                 flex-wrap: wrap;
-                gap: 0.44rem 0.82rem;
+                gap: 0.5rem 0.9rem;
                 font-size: 0.83rem;
                 color: color-mix(in srgb, var(--text-color) 68%, transparent);
+                margin-left: 0.62rem;
             }
             .structured-comps-meta-item {
                 display: inline-flex;
