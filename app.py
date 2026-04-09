@@ -1252,6 +1252,54 @@ def render_structured_report_with_chat_page() -> None:
 
         return "N/A"
 
+    def _parse_historical_comparables_md(raw_md: str | None) -> dict[str, Any]:
+        text = str(raw_md or "")
+        lines = [line.strip() for line in text.splitlines() if line and line.strip()]
+
+        subtitle = ""
+        target_position = ""
+        rows: list[dict[str, str]] = []
+
+        for line in lines:
+            clean = re.sub(r"^#{1,6}\s*", "", line).strip()
+            if not clean:
+                continue
+
+            if clean.lower().startswith("target position:"):
+                target_position = clean.split(":", 1)[1].strip() if ":" in clean else ""
+                continue
+
+            if clean.lower().startswith("historical comparables for"):
+                subtitle = clean
+                continue
+
+            if clean.startswith("-") or clean.startswith("*"):
+                body = clean[1:].strip()
+                parsed = re.match(
+                    r"^(?P<name>.+?)\s*\((?P<year>\d{4})\s*,\s*(?P<state>[A-Za-z]{2})\)\s*\|\s*Match:\s*(?P<match>[^|]+?)\s*\|\s*Rating:\s*(?P<rating>.+)$",
+                    body,
+                )
+                if parsed:
+                    rows.append(
+                        {
+                            "name": str(parsed.group("name") or "").strip(),
+                            "year": str(parsed.group("year") or "").strip(),
+                            "state": str(parsed.group("state") or "").strip(),
+                            "match": str(parsed.group("match") or "").strip(),
+                            "rating": str(parsed.group("rating") or "").strip(),
+                            "raw": body,
+                        }
+                    )
+                else:
+                    rows.append({"name": body, "year": "", "state": "", "match": "", "rating": "", "raw": body})
+
+        return {
+            "subtitle": subtitle,
+            "target_position": target_position,
+            "rows": rows,
+            "raw": text,
+        }
+
     try:
         player_index = load_player_index()
     except Exception as exc:
@@ -1504,6 +1552,79 @@ def render_structured_report_with_chat_page() -> None:
             .structured-report-kpi-card--score .structured-report-kpi-value {
                 color: color-mix(in srgb, #9ec5ff 70%, var(--text-color) 30%);
             }
+            .structured-comps-wrap {
+                background: color-mix(in srgb, var(--secondary-background-color) 90%, var(--background-color));
+                border: 1px solid color-mix(in srgb, var(--text-color) 12%, transparent);
+                border-radius: 16px;
+                padding: 1rem 1rem 0.85rem 1rem;
+                margin: 0 0 1.1rem 0;
+            }
+            .structured-comps-subtitle {
+                margin: 0 0 0.7rem 0;
+                font-size: 0.94rem;
+                color: color-mix(in srgb, var(--text-color) 68%, transparent);
+            }
+            .structured-comps-position-badge {
+                display: inline-flex;
+                align-items: center;
+                gap: 0.45rem;
+                font-size: 0.79rem;
+                font-weight: 600;
+                letter-spacing: 0.03em;
+                text-transform: uppercase;
+                color: color-mix(in srgb, #9ec5ff 66%, var(--text-color) 34%);
+                background: color-mix(in srgb, #3b82f6 14%, transparent);
+                border: 1px solid color-mix(in srgb, #3b82f6 35%, transparent);
+                border-radius: 999px;
+                padding: 0.3rem 0.62rem;
+                margin: 0 0 0.9rem 0;
+            }
+            .structured-comps-list {
+                display: flex;
+                flex-direction: column;
+                gap: 0.6rem;
+            }
+            .structured-comps-item {
+                border: 1px solid color-mix(in srgb, var(--text-color) 10%, transparent);
+                border-radius: 12px;
+                padding: 0.72rem 0.78rem;
+                background: color-mix(in srgb, var(--background-color) 90%, var(--secondary-background-color));
+            }
+            .structured-comps-item-top {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                gap: 0.75rem;
+                margin-bottom: 0.34rem;
+            }
+            .structured-comps-player {
+                font-size: 1rem;
+                font-weight: 700;
+                color: var(--text-color);
+                line-height: 1.2;
+            }
+            .structured-comps-match {
+                white-space: nowrap;
+                font-size: 0.88rem;
+                font-weight: 700;
+                color: color-mix(in srgb, #9ec5ff 72%, var(--text-color) 28%);
+                background: color-mix(in srgb, #3b82f6 18%, transparent);
+                border: 1px solid color-mix(in srgb, #3b82f6 34%, transparent);
+                border-radius: 999px;
+                padding: 0.2rem 0.56rem;
+            }
+            .structured-comps-meta {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 0.5rem 0.9rem;
+                font-size: 0.84rem;
+                color: color-mix(in srgb, var(--text-color) 68%, transparent);
+            }
+            .structured-comps-fallback {
+                margin: 0;
+                font-size: 0.92rem;
+                color: color-mix(in srgb, var(--text-color) 74%, transparent);
+            }
             @media (max-width: 1000px) {
                 .structured-report-kpi-wrap {
                     width: min(720px, 100%);
@@ -1522,6 +1643,14 @@ def render_structured_report_with_chat_page() -> None:
                 }
                 .structured-report-kpi-card {
                     min-height: 96px;
+                }
+                .structured-comps-item-top {
+                    align-items: flex-start;
+                    flex-direction: column;
+                    gap: 0.45rem;
+                }
+                .structured-comps-match {
+                    white-space: normal;
                 }
             }
             </style>
@@ -1577,7 +1706,58 @@ def render_structured_report_with_chat_page() -> None:
         )
 
         st.markdown("### Historical Comparables")
-        st.markdown(report_output.get("historical_comparables_md") or "No historical comparables available.")
+        comps_data = _parse_historical_comparables_md(report_output.get("historical_comparables_md"))
+        comps_rows = list(comps_data.get("rows") or [])
+        comps_subtitle = str(comps_data.get("subtitle") or "").strip()
+        comps_target_position = str(comps_data.get("target_position") or "").strip()
+
+        if comps_rows:
+            comps_subtitle_html = (
+                f"<p class='structured-comps-subtitle'>{html.escape(comps_subtitle)}</p>"
+                if comps_subtitle
+                else ""
+            )
+            comps_position_html = (
+                (
+                    "<div class='structured-comps-position-badge'>"
+                    "<span>Target Position</span>"
+                    f"<span>{html.escape(comps_target_position)}</span>"
+                    "</div>"
+                )
+                if comps_target_position
+                else ""
+            )
+            comps_items_html = "".join(
+                [
+                    (
+                        "<div class='structured-comps-item'>"
+                        "<div class='structured-comps-item-top'>"
+                        f"<div class='structured-comps-player'>{html.escape(str(row.get('name') or 'Comparable'))}</div>"
+                        f"<div class='structured-comps-match'>Match: {html.escape(str(row.get('match') or 'n/a'))}</div>"
+                        "</div>"
+                        "<div class='structured-comps-meta'>"
+                        f"<span>Class: {html.escape(str(row.get('year') or 'n/a'))}</span>"
+                        f"<span>State: {html.escape(str(row.get('state') or 'n/a'))}</span>"
+                        f"<span>Rating: {html.escape(str(row.get('rating') or 'n/a'))}</span>"
+                        "</div>"
+                        "</div>"
+                    )
+                    for row in comps_rows
+                ]
+            )
+            st.markdown(
+                (
+                    "<div class='structured-comps-wrap'>"
+                    f"{comps_subtitle_html}"
+                    f"{comps_position_html}"
+                    f"<div class='structured-comps-list'>{comps_items_html}</div>"
+                    "</div>"
+                ),
+                unsafe_allow_html=True,
+            )
+        else:
+            fallback_text = str(comps_data.get("raw") or "").strip() or "No historical comparables available."
+            st.markdown(f"<p class='structured-comps-fallback'>{html.escape(fallback_text)}</p>", unsafe_allow_html=True)
 
         st.markdown("### Projected Model Score")
         st.markdown(str(report_output.get("score_card_html") or ""), unsafe_allow_html=True)
