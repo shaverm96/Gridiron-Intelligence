@@ -1219,6 +1219,14 @@ def render_structured_report_page() -> None:
 def render_structured_report_with_chat_page() -> None:
     report_state_key = "structured_chat_report_output"
 
+    def _parse_selected_player_label(label: str | None) -> tuple[str, str, str, str]:
+        parts = [part.strip() for part in str(label or "").split("|")]
+        name = parts[0] if len(parts) > 0 else ""
+        position = parts[1] if len(parts) > 1 else ""
+        high_school = parts[2] if len(parts) > 2 else ""
+        year = parts[3] if len(parts) > 3 else ""
+        return name, position, high_school, year
+
     def _extract_predicted_score_display(score_card_html: str | None, pred_score_row: dict[str, Any] | None) -> str:
         html_text = str(score_card_html or "")
         if html_text:
@@ -1284,10 +1292,7 @@ def render_structured_report_with_chat_page() -> None:
             st.warning("Pick a valid player from the dropdown list.")
             st.stop()
 
-        selected_label_parts = [part.strip() for part in str(selected_label).split("|")]
-        selected_player_name = selected_label_parts[0] if selected_label_parts else ""
-        selected_position_hint = selected_label_parts[1] if len(selected_label_parts) > 1 else ""
-        selected_high_school_hint = selected_label_parts[2] if len(selected_label_parts) > 2 else ""
+        selected_player_name, selected_position_hint, selected_high_school_hint, _ = _parse_selected_player_label(selected_label)
         milestone_slot = st.empty()
 
         def _render_structured_milestone(event: dict[str, str]) -> None:
@@ -1400,6 +1405,7 @@ def render_structured_report_with_chat_page() -> None:
             "player_name": player_name,
             "position": position,
             "high_school": high_school,
+            "selected_player_label": selected_label,
             "recruit_id": str(recruit_id),
             "selected_year": selected_year,
             "target_team": target_team,
@@ -1441,7 +1447,11 @@ def render_structured_report_with_chat_page() -> None:
                 display: grid;
                 grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
                 gap: 0.8rem;
-                margin: 0 0 1.35rem 0;
+                margin: 0;
+            }
+            .structured-report-kpi-wrap {
+                width: min(980px, 100%);
+                margin: 0 auto 1.35rem auto;
             }
             .structured-report-kpi-card {
                 background: color-mix(in srgb, var(--secondary-background-color) 90%, var(--background-color));
@@ -1474,12 +1484,12 @@ def render_structured_report_with_chat_page() -> None:
             unsafe_allow_html=True,
         )
 
-        player_name = str(report_output.get("player_name") or "Unknown Player").strip()
-        position = str(report_output.get("position") or "").strip()
-        high_school = str(report_output.get("high_school") or "").strip()
-        position_display = position or "Position unavailable"
-        high_school_display = high_school or "High school unavailable"
-        player_meta = f"{position_display} | {high_school_display}"
+        selected_name_hint, selected_position_hint, selected_high_school_hint, _ = _parse_selected_player_label(selected_label)
+
+        player_name = str(report_output.get("player_name") or selected_name_hint or "Unknown Player").strip()
+        position = str(report_output.get("position") or selected_position_hint or "").strip()
+        high_school = str(report_output.get("high_school") or selected_high_school_hint or "").strip()
+        player_meta = " | ".join([part for part in [position, high_school] if part])
 
         st.markdown(
             ""
@@ -1512,7 +1522,14 @@ def render_structured_report_with_chat_page() -> None:
                 for label, value in kpi_cards
             ]
         )
-        st.markdown(f"<div class='structured-report-kpi-grid'>{kpi_cards_html}</div>", unsafe_allow_html=True)
+        st.markdown(
+            (
+                "<div class='structured-report-kpi-wrap'>"
+                f"<div class='structured-report-kpi-grid'>{kpi_cards_html}</div>"
+                "</div>"
+            ),
+            unsafe_allow_html=True,
+        )
 
         st.markdown("### Historical Comparables")
         st.markdown(report_output.get("historical_comparables_md") or "No historical comparables available.")
