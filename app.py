@@ -1445,39 +1445,80 @@ def render_structured_report_with_chat_page() -> None:
             }
             .structured-report-kpi-grid {
                 display: grid;
-                grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
-                gap: 0.8rem;
+                grid-template-columns: repeat(4, minmax(0, 1fr));
+                gap: 0.95rem;
                 margin: 0;
             }
             .structured-report-kpi-wrap {
-                width: min(980px, 100%);
-                margin: 0 auto 1.35rem auto;
+                width: min(940px, 100%);
+                margin: 0.1rem auto 1.5rem auto;
             }
             .structured-report-kpi-card {
-                background: color-mix(in srgb, var(--secondary-background-color) 90%, var(--background-color));
-                border: 1px solid color-mix(in srgb, var(--text-color) 12%, transparent);
-                border-radius: 14px;
-                padding: 0.8rem 0.95rem;
-                min-height: 88px;
+                background:
+                    linear-gradient(
+                        165deg,
+                        color-mix(in srgb, var(--secondary-background-color) 92%, #0a1224 8%),
+                        color-mix(in srgb, var(--background-color) 82%, #081020 18%)
+                    );
+                border: 1px solid color-mix(in srgb, var(--text-color) 16%, transparent);
+                border-radius: 16px;
+                padding: 0.9rem 1.0rem;
+                min-height: 112px;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
-                box-shadow: 0 8px 22px color-mix(in srgb, var(--background-color) 70%, transparent);
+                box-shadow:
+                    0 16px 36px color-mix(in srgb, #000 42%, transparent),
+                    inset 0 1px 0 color-mix(in srgb, #fff 7%, transparent);
             }
             .structured-report-kpi-label {
-                font-size: 0.78rem;
+                font-size: 0.72rem;
                 font-weight: 600;
                 text-transform: uppercase;
-                letter-spacing: 0.08em;
-                color: color-mix(in srgb, var(--text-color) 60%, transparent);
-                margin-bottom: 0.42rem;
+                letter-spacing: 0.1em;
+                color: color-mix(in srgb, var(--text-color) 52%, transparent);
+                margin-bottom: 0.5rem;
             }
             .structured-report-kpi-value {
-                font-size: clamp(1.0rem, 1.35vw, 1.3rem);
-                font-weight: 700;
-                line-height: 1.25;
+                font-size: clamp(1.35rem, 1.9vw, 1.85rem);
+                font-weight: 800;
+                line-height: 1.12;
                 color: var(--text-color);
                 word-break: break-word;
+                letter-spacing: 0.01em;
+            }
+            .structured-report-kpi-card--score {
+                border-color: color-mix(in srgb, #3b82f6 46%, transparent);
+                background:
+                    radial-gradient(circle at 100% 0%, color-mix(in srgb, #3b82f6 18%, transparent), transparent 52%),
+                    linear-gradient(
+                        165deg,
+                        color-mix(in srgb, var(--secondary-background-color) 84%, #0f1a33 16%),
+                        color-mix(in srgb, var(--background-color) 72%, #101f3d 28%)
+                    );
+            }
+            .structured-report-kpi-card--score .structured-report-kpi-value {
+                color: color-mix(in srgb, #9ec5ff 70%, var(--text-color) 30%);
+            }
+            @media (max-width: 1000px) {
+                .structured-report-kpi-wrap {
+                    width: min(720px, 100%);
+                }
+                .structured-report-kpi-grid {
+                    grid-template-columns: repeat(2, minmax(0, 1fr));
+                }
+            }
+            @media (max-width: 640px) {
+                .structured-report-kpi-wrap {
+                    width: 100%;
+                }
+                .structured-report-kpi-grid {
+                    grid-template-columns: 1fr;
+                    gap: 0.75rem;
+                }
+                .structured-report-kpi-card {
+                    min-height: 96px;
+                }
             }
             </style>
             """,
@@ -1514,7 +1555,7 @@ def render_structured_report_with_chat_page() -> None:
         kpi_cards_html = "".join(
             [
                 (
-                    "<div class='structured-report-kpi-card'>"
+                    f"<div class='structured-report-kpi-card{' structured-report-kpi-card--score' if label == 'Predicted Score' else ''}'>"
                     f"<div class='structured-report-kpi-label'>{html.escape(label)}</div>"
                     f"<div class='structured-report-kpi-value'>{html.escape(value)}</div>"
                     "</div>"
