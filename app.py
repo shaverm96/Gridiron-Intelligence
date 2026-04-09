@@ -1508,11 +1508,11 @@ def render_structured_report_with_chat_page() -> None:
             st.markdown(
                 (
                     "<section class='recruiting-dossier-card'>"
-                    "<header class='recruiting-dossier-header'>"
+                    "<header class='recruiting-dossier-header recruiting-dossier-kpi-surface'>"
                     "<h3 class='recruiting-dossier-title'>Recruiting Scout Summary</h3>"
                     "<span class='recruiting-dossier-action'>Update Profile</span>"
                     "</header>"
-                    "<div class='recruiting-dossier-hero'>"
+                    "<div class='recruiting-dossier-hero recruiting-dossier-kpi-surface'>"
                     "<div class='recruiting-dossier-hero-left'>"
                     f"<div class='recruiting-dossier-helmet'>{helmet_html}</div>"
                     "<div class='recruiting-dossier-hero-copy'>"
@@ -1992,14 +1992,26 @@ def render_structured_report_with_chat_page() -> None:
                 margin: 0 0 1.15rem 0;
                 box-shadow: 0 16px 36px color-mix(in srgb, #000 34%, transparent);
             }
+            .recruiting-dossier-kpi-surface,
+            .recruiting-dossier-note,
+            .recruiting-dossier-recency {
+                background:
+                    linear-gradient(
+                        165deg,
+                        color-mix(in srgb, var(--secondary-background-color) 92%, #0a1224 8%),
+                        color-mix(in srgb, var(--background-color) 82%, #081020 18%)
+                    );
+                border: 1px solid color-mix(in srgb, var(--text-color) 16%, transparent);
+                box-shadow:
+                    0 16px 36px color-mix(in srgb, #000 42%, transparent),
+                    inset 0 1px 0 color-mix(in srgb, #fff 7%, transparent);
+            }
             .recruiting-dossier-header {
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
                 gap: 0.85rem;
                 border-radius: 10px;
-                background: color-mix(in srgb, var(--background-color) 72%, var(--secondary-background-color));
-                border: 1px solid color-mix(in srgb, var(--text-color) 10%, transparent);
                 padding: 0.74rem 0.96rem;
                 margin-bottom: 0.66rem;
             }
@@ -2033,8 +2045,6 @@ def render_structured_report_with_chat_page() -> None:
                 align-items: center;
                 gap: 0.9rem;
                 border-radius: 10px;
-                background: color-mix(in srgb, var(--background-color) 76%, var(--secondary-background-color));
-                border: 1px solid color-mix(in srgb, var(--text-color) 12%, transparent);
                 padding: 0.9rem 0.98rem;
                 margin-bottom: 0.66rem;
             }
@@ -2098,8 +2108,6 @@ def render_structured_report_with_chat_page() -> None:
             }
             .recruiting-dossier-note {
                 border-radius: 10px;
-                border: 1px solid color-mix(in srgb, var(--text-color) 11%, transparent);
-                background: color-mix(in srgb, var(--background-color) 86%, var(--secondary-background-color));
                 padding: 0.72rem 0.8rem;
             }
             .recruiting-dossier-note-head {
@@ -2143,8 +2151,6 @@ def render_structured_report_with_chat_page() -> None:
             .recruiting-dossier-recency {
                 margin-top: 0.68rem;
                 border-radius: 10px;
-                border: 1px solid color-mix(in srgb, var(--text-color) 11%, transparent);
-                background: color-mix(in srgb, var(--background-color) 86%, var(--secondary-background-color));
                 padding: 0.74rem 0.82rem;
             }
             .recruiting-dossier-recency-body {
