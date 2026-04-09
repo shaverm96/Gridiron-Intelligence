@@ -1389,7 +1389,130 @@ def render_structured_report_with_chat_page() -> None:
 
         return notes
 
+    def _build_recruiting_summary_layout(raw_text: str | None) -> dict[str, Any]:
+        notes = _parse_summary_notes(raw_text)
+
+        def _norm_label(label: str) -> str:
+            return re.sub(r"[^a-z0-9]+", " ", str(label or "").strip().lower()).strip()
+
+        field_map = {
+            "prospect": ["prospect"],
+            "physical_profile": ["physical profile"],
+            "recruiting_status": ["recruiting status"],
+            "commitment_timeline": ["commitment timeline"],
+            "athletic_background": ["athletic background"],
+            "performance_notes": ["performance notes"],
+            "note_on_recency": ["note on recency", "recency"],
+        }
+
+        extracted: dict[str, str] = {key: "" for key in field_map.keys()}
+        for note in notes:
+            label_norm = _norm_label(note.get("label") or "")
+            for key, aliases in field_map.items():
+                if label_norm in aliases and not extracted[key]:
+                    extracted[key] = str(note.get("body") or "").strip()
+                    break
+
+        prospect_text = str(extracted.get("prospect") or "").strip()
+        prospect_parts = [part.strip() for part in prospect_text.split(",") if part.strip()]
+        hero_name = prospect_parts[0] if prospect_parts else "Prospect"
+        hero_subtitle = ", ".join(prospect_parts[1:]).strip() if len(prospect_parts) > 1 else prospect_text
+
+        grid_fields = [
+            ("recruiting_status", "Recruiting Status"),
+            ("commitment_timeline", "Commitment Timeline"),
+            ("athletic_background", "Athletic Background"),
+            ("performance_notes", "Performance Notes"),
+        ]
+
+        grid_items = []
+        for key, title in grid_fields:
+            value = str(extracted.get(key) or "").strip()
+            if value:
+                grid_items.append({"key": key, "title": title, "value": value})
+
+        return {
+            "hero_name": hero_name,
+            "hero_subtitle": hero_subtitle,
+            "physical_profile": str(extracted.get("physical_profile") or "").strip(),
+            "grid_items": grid_items,
+            "note_on_recency": str(extracted.get("note_on_recency") or "").strip(),
+            "notes": notes,
+        }
+
     def _render_summary_card(title: str, raw_text: str | None, section_key: str, compact: bool = False) -> None:
+        if section_key == "recruiting":
+            data = _build_recruiting_summary_layout(raw_text)
+            notes = list(data.get("notes") or [])
+            if not notes:
+                st.markdown("### Recruiting Scout Summary")
+                st.markdown(str(raw_text or "No recruiting summary available."))
+                return
+
+            hero_name = str(data.get("hero_name") or "Prospect").strip()
+            hero_subtitle = str(data.get("hero_subtitle") or "").strip()
+            physical_profile = str(data.get("physical_profile") or "").strip() or "Physical profile unavailable"
+            grid_items = list(data.get("grid_items") or [])
+            recency_note = str(data.get("note_on_recency") or "").strip()
+
+            icon_map = {
+                "athletic_background": "⚾",
+                "performance_notes": "🏈",
+            }
+
+            grid_html = "".join(
+                [
+                    (
+                        "<article class='recruiting-dossier-note'>"
+                        "<div class='recruiting-dossier-note-head'>"
+                        f"<h4 class='recruiting-dossier-note-title'>{html.escape(str(item.get('title') or 'Note'))}</h4>"
+                        "</div>"
+                        "<div class='recruiting-dossier-note-body'>"
+                        f"<span class='recruiting-dossier-note-icon'>{html.escape(icon_map.get(str(item.get('key') or ''), ''))}</span>"
+                        f"<span>{html.escape(str(item.get('value') or ''))}</span>"
+                        "</div>"
+                        "</article>"
+                    )
+                    for item in grid_items
+                ]
+            )
+
+            recency_html = (
+                (
+                    "<article class='recruiting-dossier-recency'>"
+                    "<h4 class='recruiting-dossier-note-title'>Note On Recency</h4>"
+                    f"<p class='recruiting-dossier-recency-body'>{html.escape(recency_note)}</p>"
+                    "</article>"
+                )
+                if recency_note
+                else ""
+            )
+
+            st.markdown(
+                (
+                    "<section class='recruiting-dossier-card'>"
+                    "<header class='recruiting-dossier-header'>"
+                    "<h3 class='recruiting-dossier-title'>Recruiting Scout Summary</h3>"
+                    "<span class='recruiting-dossier-action'>Update Profile</span>"
+                    "</header>"
+                    "<div class='recruiting-dossier-hero'>"
+                    "<div class='recruiting-dossier-hero-left'>"
+                    "<div class='recruiting-dossier-helmet'>🏈</div>"
+                    "<div class='recruiting-dossier-hero-copy'>"
+                    f"<div class='recruiting-dossier-player'>{html.escape(hero_name)}</div>"
+                    f"<div class='recruiting-dossier-player-meta'>{html.escape(hero_subtitle)}</div>"
+                    "</div>"
+                    "</div>"
+                    f"<div class='recruiting-dossier-physical'>{html.escape(physical_profile)}</div>"
+                    "</div>"
+                    f"<div class='recruiting-dossier-grid'>{grid_html}</div>"
+                    f"{recency_html}"
+                    "</section>"
+                ),
+                unsafe_allow_html=True,
+            )
+            return
+
         notes = _parse_summary_notes(raw_text)
         if not notes:
             st.markdown(f"### {title}")
@@ -1840,12 +1963,175 @@ def render_structured_report_with_chat_page() -> None:
                 border-left: 2px solid color-mix(in srgb, #3b82f6 35%, transparent);
                 padding-left: 0.74rem;
             }
+            .recruiting-dossier-card {
+                background: linear-gradient(
+                    160deg,
+                    color-mix(in srgb, var(--secondary-background-color) 92%, #0c1225 8%),
+                    color-mix(in srgb, var(--background-color) 84%, #11182f 16%)
+                );
+                border: 1px solid color-mix(in srgb, var(--text-color) 14%, transparent);
+                border-radius: 18px;
+                padding: 1rem;
+                margin: 0 0 1.15rem 0;
+                box-shadow: 0 16px 36px color-mix(in srgb, #000 34%, transparent);
+            }
+            .recruiting-dossier-header {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                gap: 0.85rem;
+                border-radius: 12px;
+                background: color-mix(in srgb, var(--background-color) 72%, var(--secondary-background-color));
+                border: 1px solid color-mix(in srgb, var(--text-color) 10%, transparent);
+                padding: 0.72rem 0.92rem;
+                margin-bottom: 0.72rem;
+            }
+            .recruiting-dossier-title {
+                margin: 0;
+                font-size: 1.34rem;
+                line-height: 1.2;
+                letter-spacing: 0.01em;
+                font-weight: 790;
+                color: var(--text-color);
+            }
+            .recruiting-dossier-action {
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                padding: 0.42rem 0.74rem;
+                border-radius: 8px;
+                font-size: 0.74rem;
+                font-weight: 800;
+                letter-spacing: 0.05em;
+                text-transform: uppercase;
+                color: #1e1b16;
+                background: linear-gradient(180deg, #f2c86a, #d5a946);
+                border: 1px solid #c99a38;
+                white-space: nowrap;
+            }
+            .recruiting-dossier-hero {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                gap: 0.9rem;
+                border-radius: 12px;
+                background: color-mix(in srgb, var(--background-color) 76%, var(--secondary-background-color));
+                border: 1px solid color-mix(in srgb, var(--text-color) 12%, transparent);
+                padding: 0.84rem 0.95rem;
+                margin-bottom: 0.72rem;
+            }
+            .recruiting-dossier-hero-left {
+                display: flex;
+                align-items: center;
+                gap: 0.7rem;
+                min-width: 0;
+            }
+            .recruiting-dossier-helmet {
+                width: 2.55rem;
+                height: 2.55rem;
+                border-radius: 10px;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 1.25rem;
+                background: color-mix(in srgb, #1b233f 80%, var(--secondary-background-color));
+                border: 1px solid color-mix(in srgb, #f2c86a 38%, transparent);
+            }
+            .recruiting-dossier-hero-copy {
+                min-width: 0;
+            }
+            .recruiting-dossier-player {
+                font-size: clamp(1.35rem, 1.85vw, 1.8rem);
+                font-weight: 820;
+                color: color-mix(in srgb, #f2c86a 70%, var(--text-color) 30%);
+                line-height: 1.12;
+                margin-bottom: 0.22rem;
+                text-wrap: balance;
+            }
+            .recruiting-dossier-player-meta {
+                font-size: 0.99rem;
+                line-height: 1.35;
+                color: color-mix(in srgb, var(--text-color) 84%, transparent);
+                text-wrap: pretty;
+            }
+            .recruiting-dossier-physical {
+                font-size: clamp(1.28rem, 1.75vw, 1.82rem);
+                font-weight: 810;
+                color: color-mix(in srgb, var(--text-color) 96%, transparent);
+                white-space: nowrap;
+                text-align: right;
+            }
+            .recruiting-dossier-grid {
+                display: grid;
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+                gap: 0.66rem;
+            }
+            .recruiting-dossier-note {
+                border-radius: 11px;
+                border: 1px solid color-mix(in srgb, var(--text-color) 11%, transparent);
+                background: color-mix(in srgb, var(--background-color) 86%, var(--secondary-background-color));
+                padding: 0.7rem 0.78rem;
+            }
+            .recruiting-dossier-note-head {
+                position: relative;
+                margin-bottom: 0.38rem;
+                padding-left: 0.44rem;
+            }
+            .recruiting-dossier-note-head::before {
+                content: "";
+                position: absolute;
+                left: 0;
+                top: 0.18rem;
+                bottom: 0.18rem;
+                width: 2px;
+                border-radius: 2px;
+                background: color-mix(in srgb, #f2c86a 86%, transparent);
+            }
+            .recruiting-dossier-note-title {
+                margin: 0;
+                font-size: 0.78rem;
+                font-weight: 780;
+                letter-spacing: 0.08em;
+                text-transform: uppercase;
+                color: color-mix(in srgb, var(--text-color) 76%, transparent);
+            }
+            .recruiting-dossier-note-body {
+                margin: 0;
+                display: flex;
+                align-items: flex-start;
+                gap: 0.44rem;
+                font-size: 0.97rem;
+                line-height: 1.42;
+                color: color-mix(in srgb, var(--text-color) 94%, transparent);
+            }
+            .recruiting-dossier-note-icon {
+                flex: 0 0 auto;
+                min-width: 1rem;
+                line-height: 1.15;
+                opacity: 0.95;
+            }
+            .recruiting-dossier-recency {
+                margin-top: 0.66rem;
+                border-radius: 11px;
+                border: 1px solid color-mix(in srgb, var(--text-color) 11%, transparent);
+                background: color-mix(in srgb, var(--background-color) 86%, var(--secondary-background-color));
+                padding: 0.72rem 0.8rem;
+            }
+            .recruiting-dossier-recency-body {
+                margin: 0.34rem 0 0 0;
+                font-size: 0.96rem;
+                line-height: 1.43;
+                color: color-mix(in srgb, var(--text-color) 93%, transparent);
+            }
             @media (max-width: 1000px) {
                 .structured-report-kpi-wrap {
                     width: min(720px, 100%);
                 }
                 .structured-report-kpi-grid {
                     grid-template-columns: repeat(2, minmax(0, 1fr));
+                }
+                .recruiting-dossier-grid {
+                    grid-template-columns: 1fr;
                 }
             }
             @media (max-width: 640px) {
@@ -1879,6 +2165,28 @@ def render_structured_report_with_chat_page() -> None:
                 }
                 .structured-summary-note--dense {
                     min-height: unset;
+                }
+                .recruiting-dossier-card {
+                    padding: 0.82rem;
+                }
+                .recruiting-dossier-header {
+                    padding: 0.64rem 0.72rem;
+                }
+                .recruiting-dossier-title {
+                    font-size: 1.12rem;
+                }
+                .recruiting-dossier-action {
+                    font-size: 0.68rem;
+                    padding: 0.38rem 0.58rem;
+                }
+                .recruiting-dossier-hero {
+                    flex-direction: column;
+                    align-items: flex-start;
+                    padding: 0.72rem 0.74rem;
+                }
+                .recruiting-dossier-physical {
+                    text-align: left;
+                    white-space: normal;
                 }
             }
             </style>
@@ -1987,7 +2295,6 @@ def render_structured_report_with_chat_page() -> None:
             title="Recruiting Scout Summary",
             raw_text=str(report_output.get("web_recruiting_summary") or "No recruiting summary available."),
             section_key="recruiting",
-            compact=True,
         )
 
         _render_summary_card(
