@@ -1256,9 +1256,24 @@ def render_structured_report_with_chat_page() -> None:
         text = str(raw_md or "")
         lines = [line.strip() for line in text.splitlines() if line and line.strip()]
 
-        subtitle = ""
         target_position = ""
-        rows: list[dict[str, str]] = []
+        rows: list[dict[str, Any]] = []
+
+        def _is_placeholder(value: Any) -> bool:
+            normalized = str(value or "").strip().lower()
+            return normalized in {"", "-", "--", "n/a", "na", "none", "null", "unknown", "?"}
+
+        def _clean_name(value: Any) -> str:
+            name = str(value or "")
+            # Strip markdown emphasis and extra symbols from raw text payloads.
+            name = re.sub(r"[*_`~]+", "", name)
+            return re.sub(r"\s+", " ", name).strip(" -|")
+
+        def _match_numeric(match_text: str) -> float | None:
+            number_match = re.search(r"([0-9]+(?:\.[0-9]+)?)", str(match_text or ""))
+            if not number_match:
+                return None
+            return to_float_or_none(number_match.group(1))
 
         for line in lines:
             clean = re.sub(r"^#{1,6}\s*", "", line).strip()
@@ -1269,10 +1284,6 @@ def render_structured_report_with_chat_page() -> None:
                 target_position = clean.split(":", 1)[1].strip() if ":" in clean else ""
                 continue
 
-            if clean.lower().startswith("historical comparables for"):
-                subtitle = clean
-                continue
-
             if clean.startswith("-") or clean.startswith("*"):
                 body = clean[1:].strip()
                 parsed = re.match(
@@ -1280,23 +1291,77 @@ def render_structured_report_with_chat_page() -> None:
                     body,
                 )
                 if parsed:
+                    raw_match = str(parsed.group("match") or "").strip()
+                    match_value = _match_numeric(raw_match)
+                    match_display = ""
+                    if match_value is not None:
+                        match_display = f"{match_value:.2f}%"
+                    elif not _is_placeholder(raw_match):
+                        match_display = raw_match
+
                     rows.append(
                         {
-                            "name": str(parsed.group("name") or "").strip(),
+                            "name": _clean_name(parsed.group("name")),
                             "year": str(parsed.group("year") or "").strip(),
                             "state": str(parsed.group("state") or "").strip(),
-                            "match": str(parsed.group("match") or "").strip(),
+                            "match": match_display,
+                            "match_value": match_value,
                             "rating": str(parsed.group("rating") or "").strip(),
                             "raw": body,
                         }
                     )
                 else:
-                    rows.append({"name": body, "year": "", "state": "", "match": "", "rating": "", "raw": body})
+                    cleaned_name = _clean_name(body)
+                    rows.append(
+                        {
+                            "name": cleaned_name,
+                            "year": "",
+                            "state": "",
+                            "match": "",
+                            "match_value": None,
+                            "rating": "",
+                            "raw": body,
+                        }
+                    )
+
+        filtered_rows: list[dict[str, Any]] = []
+        for row in rows:
+            name = _clean_name(row.get("name"))
+            year = str(row.get("year") or "").strip()
+            state = str(row.get("state") or "").strip()
+            rating = str(row.get("rating") or "").strip()
+            match = str(row.get("match") or "").strip()
+            match_value = row.get("match_value")
+
+            # Skip rows that are empty placeholders with no meaningful data.
+            if _is_placeholder(name):
+                continue
+
+            has_real_metadata = any(not _is_placeholder(value) for value in [year, state, rating, match])
+            if not has_real_metadata and match_value is None:
+                continue
+
+            # Comparables panel should only include entries with a usable match metric.
+            if _is_placeholder(match) and match_value is None:
+                continue
+
+            filtered_rows.append(
+                {
+                    "name": name,
+                    "year": "" if _is_placeholder(year) else year,
+                    "state": "" if _is_placeholder(state) else state,
+                    "rating": "" if _is_placeholder(rating) else rating,
+                    "match": "" if _is_placeholder(match) else match,
+                    "match_value": match_value,
+                    "raw": str(row.get("raw") or "").strip(),
+                }
+            )
+
+        filtered_rows.sort(key=lambda row: (row.get("match_value") is not None, row.get("match_value") or -1.0), reverse=True)
 
         return {
-            "subtitle": subtitle,
             "target_position": target_position,
-            "rows": rows,
+            "rows": filtered_rows,
             "raw": text,
         }
 
@@ -1556,38 +1621,33 @@ def render_structured_report_with_chat_page() -> None:
                 background: color-mix(in srgb, var(--secondary-background-color) 90%, var(--background-color));
                 border: 1px solid color-mix(in srgb, var(--text-color) 12%, transparent);
                 border-radius: 16px;
-                padding: 1rem 1rem 0.85rem 1rem;
+                padding: 0.95rem 1rem 0.9rem 1rem;
                 margin: 0 0 1.1rem 0;
-            }
-            .structured-comps-subtitle {
-                margin: 0 0 0.7rem 0;
-                font-size: 0.94rem;
-                color: color-mix(in srgb, var(--text-color) 68%, transparent);
             }
             .structured-comps-position-badge {
                 display: inline-flex;
                 align-items: center;
                 gap: 0.45rem;
-                font-size: 0.79rem;
+                font-size: 0.76rem;
                 font-weight: 600;
-                letter-spacing: 0.03em;
+                letter-spacing: 0.06em;
                 text-transform: uppercase;
                 color: color-mix(in srgb, #9ec5ff 66%, var(--text-color) 34%);
                 background: color-mix(in srgb, #3b82f6 14%, transparent);
                 border: 1px solid color-mix(in srgb, #3b82f6 35%, transparent);
                 border-radius: 999px;
-                padding: 0.3rem 0.62rem;
-                margin: 0 0 0.9rem 0;
+                padding: 0.33rem 0.68rem;
+                margin: 0 0 0.85rem 0;
             }
             .structured-comps-list {
                 display: flex;
                 flex-direction: column;
-                gap: 0.6rem;
+                gap: 0.7rem;
             }
             .structured-comps-item {
                 border: 1px solid color-mix(in srgb, var(--text-color) 10%, transparent);
                 border-radius: 12px;
-                padding: 0.72rem 0.78rem;
+                padding: 0.78rem 0.85rem;
                 background: color-mix(in srgb, var(--background-color) 90%, var(--secondary-background-color));
             }
             .structured-comps-item-top {
@@ -1595,30 +1655,48 @@ def render_structured_report_with_chat_page() -> None:
                 justify-content: space-between;
                 align-items: center;
                 gap: 0.75rem;
-                margin-bottom: 0.34rem;
+                margin-bottom: 0.42rem;
             }
             .structured-comps-player {
-                font-size: 1rem;
-                font-weight: 700;
+                font-size: 1.04rem;
+                font-weight: 760;
                 color: var(--text-color);
                 line-height: 1.2;
+                letter-spacing: 0.01em;
             }
             .structured-comps-match {
                 white-space: nowrap;
-                font-size: 0.88rem;
-                font-weight: 700;
+                font-size: 0.84rem;
+                font-weight: 760;
                 color: color-mix(in srgb, #9ec5ff 72%, var(--text-color) 28%);
                 background: color-mix(in srgb, #3b82f6 18%, transparent);
                 border: 1px solid color-mix(in srgb, #3b82f6 34%, transparent);
                 border-radius: 999px;
-                padding: 0.2rem 0.56rem;
+                padding: 0.24rem 0.62rem;
             }
             .structured-comps-meta {
                 display: flex;
                 flex-wrap: wrap;
-                gap: 0.5rem 0.9rem;
-                font-size: 0.84rem;
+                gap: 0.44rem 0.82rem;
+                font-size: 0.83rem;
                 color: color-mix(in srgb, var(--text-color) 68%, transparent);
+            }
+            .structured-comps-meta-item {
+                display: inline-flex;
+                align-items: baseline;
+                gap: 0.26rem;
+                white-space: nowrap;
+            }
+            .structured-comps-meta-label {
+                color: color-mix(in srgb, var(--text-color) 52%, transparent);
+                text-transform: uppercase;
+                letter-spacing: 0.06em;
+                font-size: 0.69rem;
+                font-weight: 650;
+            }
+            .structured-comps-meta-value {
+                color: color-mix(in srgb, var(--text-color) 86%, transparent);
+                font-weight: 600;
             }
             .structured-comps-fallback {
                 margin: 0;
@@ -1708,15 +1786,9 @@ def render_structured_report_with_chat_page() -> None:
         st.markdown("### Historical Comparables")
         comps_data = _parse_historical_comparables_md(report_output.get("historical_comparables_md"))
         comps_rows = list(comps_data.get("rows") or [])
-        comps_subtitle = str(comps_data.get("subtitle") or "").strip()
         comps_target_position = str(comps_data.get("target_position") or "").strip()
 
         if comps_rows:
-            comps_subtitle_html = (
-                f"<p class='structured-comps-subtitle'>{html.escape(comps_subtitle)}</p>"
-                if comps_subtitle
-                else ""
-            )
             comps_position_html = (
                 (
                     "<div class='structured-comps-position-badge'>"
@@ -1732,13 +1804,13 @@ def render_structured_report_with_chat_page() -> None:
                     (
                         "<div class='structured-comps-item'>"
                         "<div class='structured-comps-item-top'>"
-                        f"<div class='structured-comps-player'>{html.escape(str(row.get('name') or 'Comparable'))}</div>"
-                        f"<div class='structured-comps-match'>Match: {html.escape(str(row.get('match') or 'n/a'))}</div>"
+                        f"<div class='structured-comps-player'>{html.escape(str(row.get('name') or ''))}</div>"
+                        f"<div class='structured-comps-match'>Match {html.escape(str(row.get('match') or ''))}</div>"
                         "</div>"
                         "<div class='structured-comps-meta'>"
-                        f"<span>Class: {html.escape(str(row.get('year') or 'n/a'))}</span>"
-                        f"<span>State: {html.escape(str(row.get('state') or 'n/a'))}</span>"
-                        f"<span>Rating: {html.escape(str(row.get('rating') or 'n/a'))}</span>"
+                        f"<span class='structured-comps-meta-item'><span class='structured-comps-meta-label'>Class</span><span class='structured-comps-meta-value'>{html.escape(str(row.get('year') or ''))}</span></span>"
+                        f"<span class='structured-comps-meta-item'><span class='structured-comps-meta-label'>State</span><span class='structured-comps-meta-value'>{html.escape(str(row.get('state') or ''))}</span></span>"
+                        f"<span class='structured-comps-meta-item'><span class='structured-comps-meta-label'>Rating</span><span class='structured-comps-meta-value'>{html.escape(str(row.get('rating') or ''))}</span></span>"
                         "</div>"
                         "</div>"
                     )
@@ -1748,7 +1820,6 @@ def render_structured_report_with_chat_page() -> None:
             st.markdown(
                 (
                     "<div class='structured-comps-wrap'>"
-                    f"{comps_subtitle_html}"
                     f"{comps_position_html}"
                     f"<div class='structured-comps-list'>{comps_items_html}</div>"
                     "</div>"
