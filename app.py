@@ -1446,7 +1446,7 @@ def render_structured_report_with_chat_page() -> None:
             .structured-report-kpi-grid {
                 display: grid;
                 grid-template-columns: repeat(4, minmax(0, 1fr));
-                gap: 0.95rem;
+                gap: 1.25rem;
                 margin: 0;
             }
             .structured-report-kpi-wrap {
@@ -1467,6 +1467,8 @@ def render_structured_report_with_chat_page() -> None:
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
+                align-items: center;
+                text-align: center;
                 box-shadow:
                     0 16px 36px color-mix(in srgb, #000 42%, transparent),
                     inset 0 1px 0 color-mix(in srgb, #fff 7%, transparent);
@@ -1478,6 +1480,7 @@ def render_structured_report_with_chat_page() -> None:
                 letter-spacing: 0.1em;
                 color: color-mix(in srgb, var(--text-color) 52%, transparent);
                 margin-bottom: 0.5rem;
+                text-align: center;
             }
             .structured-report-kpi-value {
                 font-size: clamp(1.35rem, 1.9vw, 1.85rem);
@@ -1486,6 +1489,7 @@ def render_structured_report_with_chat_page() -> None:
                 color: var(--text-color);
                 word-break: break-word;
                 letter-spacing: 0.01em;
+                text-align: center;
             }
             .structured-report-kpi-card--score {
                 border-color: color-mix(in srgb, #3b82f6 46%, transparent);
@@ -1514,7 +1518,7 @@ def render_structured_report_with_chat_page() -> None:
                 }
                 .structured-report-kpi-grid {
                     grid-template-columns: 1fr;
-                    gap: 0.75rem;
+                    gap: 0.9rem;
                 }
                 .structured-report-kpi-card {
                     min-height: 96px;
