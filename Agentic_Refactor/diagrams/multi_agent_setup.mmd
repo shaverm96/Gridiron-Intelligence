@@ -1,0 +1,16 @@
+flowchart LR
+    Q[User Query] --> D[lead_delegator]
+
+    D --> C1[cfbd_analyst]
+    D --> C2[recruiting_scout]
+    D --> C3[team_scout]
+
+    C1 --> S[lead_synthesizer]
+    C2 --> S
+    C3 --> S
+
+    S --> R[Final Response]
+
+    subgraph Structured_Web_Graph
+        W1[recruiting_scout] --> W2[team_scout]
+    end

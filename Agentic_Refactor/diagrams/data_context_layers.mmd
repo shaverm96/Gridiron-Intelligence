@@ -1,0 +1,9 @@
+flowchart TB
+    A[Supabase Player and Profile Data] --> Z[Prompt Context Layer]
+    B[CFBD Usage and Season Stats] --> Z
+    C[Web Search Summaries] --> Z
+    D[Vector Insights and Comparables] --> Z
+    E[Model Score and Thresholds] --> Z
+
+    Z --> F[Final Synthesis Model]
+    F --> G[Rendered Report]

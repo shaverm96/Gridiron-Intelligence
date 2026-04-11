@@ -1,14 +1,10 @@
 from __future__ import annotations
 
-import ast
-import base64
 import html
 import json
 import os
 import re
 import time
-from datetime import date
-from pathlib import Path
 from typing import Any
 from urllib.parse import urlencode
 
@@ -16,25 +12,61 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 
+try:
+    import altair as alt
+except ImportError:
+    alt = None
+
 from engine import (
     get_scout_graph,
     get_structured_web_graph,
     orchestrate_chat_turn,
     orchestrate_structured_web_scouting,
 )
-from engine.state import initial_chat_state
+from engine.state import (
+    compact_open_chat_state,
+    compact_transfer_chat_state,
+    initial_chat_state,
+)
+from engine.streamlit_config import build_streamlit_runtime_config_data
 
 from engine.comparables_service import (
     get_historical_player_comparables_data,
 )
 from engine.data_access import (
     fetch_player_bundle_data,
+    load_model_tiers_from_supabase_data,
+    load_player_index_from_supabase_data,
+    load_transfer_player_index_from_supabase_data,
+    score_tier_from_tiers_data,
+    tier_definitions_markdown_data,
+)
+from engine.diagnostics import run_one_click_diagnostics_data
+from engine.diagnostics import (
+    get_gemini_config_issues_data,
+    get_supabase_config_issues_data,
 )
 from engine.data_transforms import (
+    build_recruiting_summary_layout_data,
     build_player_profile_view_data,
     build_score_card_html_data,
+    build_transfer_usage_with_yoy_table,
     clean_scouting_profile_data,
+    extract_predicted_score_display_data,
     merge_scouting_sources_data,
+    parse_historical_comparables_md_data,
+    parse_selected_player_label_data,
+    parse_summary_notes_data,
+    rows_to_dynamic_table,
+    split_team_tokens_text,
+    transfer_position_stat_order,
+    transfer_position_usage_order,
+    transfer_to_percent_points,
+)
+from engine.orchestration_service import (
+    orchestrate_transfer_cfbd_context,
+    orchestrate_transfer_chat_turn,
+    orchestrate_transfer_report,
 )
 from engine.synthesis_service import (
     build_final_prompt_data,
@@ -43,26 +75,19 @@ from engine.synthesis_service import (
 from engine.vector_service import (
     vector_insights_query_data,
 )
-from engine.web_research_service import (
-    duckduckgo_search_data,
-    summarize_web_with_flash_lite_data,
-)
 from engine.tools import (
     cfbd_fetch_tool,
     cfbd_search_players_tool,
     delegator_plan_tool,
     resolve_player_identity_tool,
 )
-
-try:
-    from dotenv import load_dotenv
-except ImportError:
-    load_dotenv = None
-
-try:
-    from ddgs import DDGS
-except ImportError:
-    DDGS = None
+from engine.utils import (
+    first_non_null,
+    image_data_uri_data,
+    llm_response_to_text,
+    parse_jsonish,
+    to_float_or_none,
+)
 
 try:
     from langchain_google_genai import ChatGoogleGenerativeAI
@@ -75,101 +100,9 @@ except ImportError:
     create_client = None
 
 
-def _cfg_with_source(key: str, default: str = "") -> tuple[str, str]:
-    sensitive_keys = {
-        "SUPABASE_URL",
-        "SUPABASE_SERVICE_ROLE_KEY",
-        "GEMINI_API_KEY",
-        "CFBD_API_KEY",
-        "CFBD_API",
-    }
-    require_secrets = str(os.getenv("GI_REQUIRE_STREAMLIT_SECRETS", "")).strip().lower() in {
-        "1",
-        "true",
-        "yes",
-    }
-
-    try:
-        if key in st.secrets:
-            value = st.secrets.get(key, default)
-            return (str(value).strip() if value is not None else "", "streamlit_secrets")
-    except Exception:
-        pass
-
-    if require_secrets and key in sensitive_keys:
-        return default, "required_streamlit_secrets_missing"
-
-    env_value = os.getenv(key)
-    if env_value is not None:
-        return env_value.strip(), "environment"
-    return default, "default"
-
-
-def _cfg(key: str, default: str = "") -> str:
-    value, _ = _cfg_with_source(key, default)
-    return value
-
-
-def _parse_bool(value: Any, default: bool = False) -> bool:
-    if value is None:
-        return default
-    normalized = str(value).strip().lower()
-    if not normalized:
-        return default
-    return normalized in {"1", "true", "yes", "on"}
-
-
-def _cfg_flag_with_source(key: str, default: bool = False) -> tuple[bool, str]:
-    try:
-        if key in st.secrets:
-            return _parse_bool(st.secrets.get(key), default), "streamlit_secrets"
-    except Exception:
-        pass
-
-    env_value = os.getenv(key)
-    if env_value is not None:
-        return _parse_bool(env_value, default), "environment"
-    return default, "default"
-
-
-def resolve_project_root() -> Path:
-    candidates = [Path.cwd(), Path.cwd().parent, Path.cwd().parent.parent]
-    for candidate in candidates:
-        if (candidate / "data" / "modeling_datasets").exists():
-            return candidate
-    return Path.cwd()
-
-
-PROJECT_ROOT = resolve_project_root()
-
-if load_dotenv is not None:
-    for env_name in ("SECRETS.env", "SUPABASE.env", "GEMINI_API_KEY.env"):
-        env_file = PROJECT_ROOT / env_name
-        if env_file.exists():
-            load_dotenv(env_file, override=False)
-
-SUPABASE_URL, SUPABASE_URL_SOURCE = _cfg_with_source("SUPABASE_URL")
-SUPABASE_SERVICE_ROLE_KEY, SUPABASE_SERVICE_ROLE_KEY_SOURCE = _cfg_with_source("SUPABASE_SERVICE_ROLE_KEY")
-GEMINI_API_KEY, GEMINI_API_KEY_SOURCE = _cfg_with_source("GEMINI_API_KEY")
-CFBD_API_KEY, CFBD_API_KEY_SOURCE = _cfg_with_source("CFBD_API_KEY")
-if not CFBD_API_KEY:
-    CFBD_API_KEY, CFBD_API_KEY_SOURCE = _cfg_with_source("CFBD_API")
-LOCAL_CFBD_DEBUGGER_ENABLED, LOCAL_CFBD_DEBUGGER_SOURCE = _cfg_flag_with_source("GI_ENABLE_LOCAL_CFBD_DEBUGGER", default=False)
-
-CONFIG = {
-    "SUPABASE_URL": SUPABASE_URL,
-    "SUPABASE_SERVICE_ROLE_KEY": SUPABASE_SERVICE_ROLE_KEY,
-    "GEMINI_API_KEY": GEMINI_API_KEY,
-    "CFBD_API_KEY": CFBD_API_KEY,
-    "CFBD_BASE_URL": _cfg("CFBD_BASE_URL", "https://api.collegefootballdata.com"),
-    "YEARS": [2026, 2027, 2028],
-    "FINAL_MODEL": "gemini-3-flash-preview",
-    "SUMMARY_MODEL": "gemini-3.1-flash-lite-preview",
-    "VECTOR_MATCH_COUNT": 6,
-    "VECTOR_MATCH_THRESHOLD": 0.15,
-    "VECTOR_RPC_NAME": "match_gi_factoids",
-    "LOCAL_CFBD_DEBUGGER_ENABLED": LOCAL_CFBD_DEBUGGER_ENABLED,
-}
+RUNTIME_CFG = build_streamlit_runtime_config_data(secrets=st.secrets)
+PROJECT_ROOT = RUNTIME_CFG["project_root"]
+CONFIG = dict(RUNTIME_CFG["config"])
 
 CHAT_STATE_MAX_TURNS = 6
 CHAT_STATE_MAX_TRACE = 10
@@ -179,115 +112,56 @@ CHAT_STATE_MAX_CANDIDATES = 3
 STRUCTURED_REPORT_RATE_LIMIT_COUNT = 3
 STRUCTURED_REPORT_RATE_LIMIT_WINDOW_SECONDS = 60
 
-CONFIG_SOURCES = {
-    "SUPABASE_URL": SUPABASE_URL_SOURCE,
-    "SUPABASE_SERVICE_ROLE_KEY": SUPABASE_SERVICE_ROLE_KEY_SOURCE,
-    "GEMINI_API_KEY": GEMINI_API_KEY_SOURCE,
-    "CFBD_API_KEY": CFBD_API_KEY_SOURCE,
-    "GI_ENABLE_LOCAL_CFBD_DEBUGGER": LOCAL_CFBD_DEBUGGER_SOURCE,
-}
-
-TABLES = {
-    "player_master": "gi_recruit_master",
-    "scouting_features": "gi_scouting_report_features",
-    "pred_score": "gi_model_prediction_score",
-    "pred_threshold": "gi_model_prediction_thresholds",
-}
-
-TARGET_TEAMS = [
-    "Alabama", "Auburn", "Clemson", "Colorado", "Duke", "Florida", "Florida State",
-    "Georgia", "Georgia Tech", "LSU", "Miami", "Michigan", "NC State", "Notre Dame",
-    "Ohio State", "Ole Miss", "Oregon", "South Carolina", "Tennessee", "Texas",
-    "Texas A&M", "Charlotte", "USC", "Virginia Tech", "Wake Forest",
-]
-
-TARGET_SEARCH_SITES = ["maxpreps.com", "247sports.com", "rivals.com", "espn.com", "on3.com"]
-POS_MAP = {"CB": "DB", "S": "DB", "FS": "DB", "SS": "DB", "DE": "EDGE", "DT": "IDL", "NT": "IDL", "LB": "LB", "OLB": "LB", "ILB": "LB", "OL": "OL", "OT": "OL", "OG": "OL", "C": "OL", "QB": "QB", "PRO": "QB", "DUAL": "QB", "RB": "RB", "HB": "RB", "FB": "RB", "K": "SPEC", "P": "SPEC", "PK": "SPEC", "LS": "SPEC", "RET": "SPEC", "TE": "TE", "WR": "WR"}
+CONFIG_SOURCES = dict(RUNTIME_CFG["config_sources"])
+TABLES = dict(RUNTIME_CFG["tables"])
+TARGET_TEAMS = list(RUNTIME_CFG["target_teams"])
+POS_MAP = dict(RUNTIME_CFG["pos_map"])
 
 EMBED_MODEL = None
 EMBED_MODEL_NAME = "all-MiniLM-L6-v2"
 EMBED_MODEL_LOAD_ERROR = None
 
 
-def get_supabase_client():
+@st.cache_resource
+def _get_cached_supabase_client(url: str, service_role_key: str):
     if create_client is None:
         return None
-    if not CONFIG["SUPABASE_URL"] or not CONFIG["SUPABASE_SERVICE_ROLE_KEY"]:
+    if not url or not service_role_key:
         return None
-    return create_client(CONFIG["SUPABASE_URL"], CONFIG["SUPABASE_SERVICE_ROLE_KEY"])
+    return create_client(url, service_role_key)
+
+
+def get_supabase_client():
+    return _get_cached_supabase_client(CONFIG["SUPABASE_URL"], CONFIG["SUPABASE_SERVICE_ROLE_KEY"])
 
 
 def get_supabase_config_issues() -> list[str]:
-    issues = []
-    if create_client is None:
-        issues.append("Python package 'supabase' is not installed (or failed to import).")
-    if not CONFIG["SUPABASE_URL"]:
-        issues.append(f"SUPABASE_URL is missing (source: {CONFIG_SOURCES['SUPABASE_URL']}).")
-    if not CONFIG["SUPABASE_SERVICE_ROLE_KEY"]:
-        issues.append(
-            "SUPABASE_SERVICE_ROLE_KEY is missing "
-            f"(source: {CONFIG_SOURCES['SUPABASE_SERVICE_ROLE_KEY']})."
-        )
-    return issues
+    return get_supabase_config_issues_data(
+        config=CONFIG,
+        config_sources=CONFIG_SOURCES,
+        has_create_client=create_client is not None,
+    )
 
 
 def get_gemini_config_issues() -> list[str]:
-    issues = []
-    if ChatGoogleGenerativeAI is None:
-        issues.append("Python package 'langchain-google-genai' is not installed (or failed to import).")
-    if not CONFIG["GEMINI_API_KEY"]:
-        issues.append(f"GEMINI_API_KEY is missing (source: {CONFIG_SOURCES['GEMINI_API_KEY']}).")
-    return issues
+    return get_gemini_config_issues_data(
+        config=CONFIG,
+        config_sources=CONFIG_SOURCES,
+        has_chat_model=ChatGoogleGenerativeAI is not None,
+    )
 
 
 def run_one_click_diagnostics() -> dict:
-    checks: list[dict[str, str]] = []
-
-    def add_check(name: str, status: str, detail: str):
-        checks.append({"name": name, "status": status, "detail": detail})
-
-    add_check(
-        "Config sources",
-        "pass",
-        (
-            "SUPABASE_URL="
-            f"{CONFIG_SOURCES['SUPABASE_URL']}, SUPABASE_SERVICE_ROLE_KEY={CONFIG_SOURCES['SUPABASE_SERVICE_ROLE_KEY']}, "
-            f"GEMINI_API_KEY={CONFIG_SOURCES['GEMINI_API_KEY']}"
-        ),
+    return run_one_click_diagnostics_data(
+        config_sources=CONFIG_SOURCES,
+        tables=TABLES,
+        summary_model=CONFIG["SUMMARY_MODEL"],
+        get_supabase_config_issues=get_supabase_config_issues,
+        get_supabase_client=get_supabase_client,
+        get_gemini_config_issues=get_gemini_config_issues,
+        get_llm=get_llm,
+        llm_response_to_text=llm_response_to_text,
     )
-
-    supabase_issues = get_supabase_config_issues()
-    if supabase_issues:
-        add_check("Supabase preflight", "fail", "; ".join(supabase_issues))
-    else:
-        try:
-            sb = get_supabase_client()
-            response = sb.table(TABLES["player_master"]).select("recruit_id").limit(1).execute()
-            row_count = len(response.data or [])
-            add_check("Supabase connectivity", "pass", f"Connected and queried {TABLES['player_master']} (rows returned: {row_count}).")
-        except Exception as exc:
-            add_check("Supabase connectivity", "fail", f"Query test failed: {exc}")
-
-    gemini_issues = get_gemini_config_issues()
-    if gemini_issues:
-        add_check("Gemini preflight", "fail", "; ".join(gemini_issues))
-    else:
-        try:
-            llm = get_llm(CONFIG["SUMMARY_MODEL"], temperature=0.0, max_output_tokens=20)
-            if llm is None:
-                add_check("Gemini connectivity", "fail", "Gemini client could not be created.")
-            else:
-                today_iso = date.today().isoformat()
-                response = llm.invoke(
-                    f"Date Context: Current date is {today_iso}. Reply with exactly: OK"
-                )
-                text = llm_response_to_text(response).strip()
-                add_check("Gemini connectivity", "pass", f"Model responded: {text[:80] if text else 'empty response'}")
-        except Exception as exc:
-            add_check("Gemini connectivity", "fail", f"Invocation test failed: {exc}")
-
-    overall = "pass" if all(item["status"] == "pass" for item in checks) else "fail"
-    return {"overall": overall, "checks": checks}
 
 
 def _normalize_model_name(model_name: str) -> str:
@@ -322,356 +196,43 @@ def get_embedding_model():
         raise RuntimeError(EMBED_MODEL_LOAD_ERROR)
 
 
-def llm_response_to_text(response: Any) -> str:
-    if response is None:
-        return ""
-    if isinstance(response, str):
-        return response
-    content = getattr(response, "content", response)
-    if isinstance(content, str):
-        return content
-    if isinstance(content, list):
-        parts = []
-        for item in content:
-            if isinstance(item, str):
-                parts.append(item)
-            elif isinstance(item, dict):
-                txt = item.get("text") or item.get("output_text") or ""
-                if txt:
-                    parts.append(str(txt))
-            else:
-                txt = getattr(item, "text", None)
-                if txt:
-                    parts.append(str(txt))
-        return "\n".join(parts) if parts else str(content)
-    if isinstance(content, dict):
-        txt = content.get("text") or content.get("output_text")
-        if txt:
-            return str(txt)
-    return str(content)
-
-
-def to_float_or_none(value: Any) -> float | None:
-    try:
-        if value is None or pd.isna(value):
-            return None
-        return float(value)
-    except Exception:
-        return None
-
-
-def parse_jsonish(value: Any) -> dict:
-    if isinstance(value, dict):
-        return value
-    if value is None:
-        return {}
-    text = str(value).strip()
-    if not text or text.lower() in {"none", "nan"}:
-        return {}
-    try:
-        parsed = json.loads(text)
-        return parsed if isinstance(parsed, dict) else {}
-    except Exception:
-        try:
-            parsed = ast.literal_eval(text)
-            return parsed if isinstance(parsed, dict) else {}
-        except Exception:
-            return {}
-
-
-def first_non_null(row: dict, candidates: list[str]):
-    for key in candidates:
-        value = row.get(key)
-        if value is None:
-            continue
-        if isinstance(value, str) and value.strip() == "":
-            continue
-        if isinstance(value, float) and pd.isna(value):
-            continue
-        return value
-    return None
-
-
-def normalize_position_group(position_value: str | None) -> str:
-    raw = str(position_value or "").strip().upper()
-    return POS_MAP.get(raw, raw)
-
-
-def _supabase_fetch_all_rows(
-    sb: Any,
-    table_name: str,
-    columns: str,
-    batch_size: int = 1000,
-    max_rows: int = 50000,
-) -> list[dict[str, Any]]:
-    if sb is None:
-        return []
-
-    rows: list[dict[str, Any]] = []
-    start = 0
-    while start < max_rows:
-        end = start + batch_size - 1
-        response = sb.table(table_name).select(columns).range(start, end).execute()
-        chunk = list(response.data or [])
-        if not chunk:
-            break
-        rows.extend(chunk)
-        if len(chunk) < batch_size:
-            break
-        start += batch_size
-    return rows
-
-
 @st.cache_data
 def load_model_tiers() -> pd.DataFrame:
-    base_cols = ["Score Range", "Career Designation", "College Outlook", "Professional Outlook", "low", "high", "count"]
     sb = get_supabase_client()
-    if sb is None:
-        return pd.DataFrame(columns=base_cols)
-
-    try:
-        rows = _supabase_fetch_all_rows(
-            sb=sb,
-            table_name=TABLES["pred_score"],
-            columns="predictive_score_0_100,contrib_tier_raw",
-            batch_size=1000,
-            max_rows=50000,
-        )
-    except Exception:
-        return pd.DataFrame(columns=base_cols)
-
-    if not rows:
-        return pd.DataFrame(columns=base_cols)
-
-    df = pd.DataFrame(rows)
-    if "predictive_score_0_100" not in df.columns:
-        return pd.DataFrame(columns=base_cols)
-
-    df["predictive_score_0_100"] = pd.to_numeric(df["predictive_score_0_100"], errors="coerce")
-    df["contrib_tier_raw"] = df.get("contrib_tier_raw", "").fillna("Unknown").astype(str).str.strip()
-    df.loc[df["contrib_tier_raw"] == "", "contrib_tier_raw"] = "Unknown"
-    df = df[df["predictive_score_0_100"].notna()].copy()
-    if df.empty:
-        return pd.DataFrame(columns=base_cols)
-
-    grouped = (
-        df.groupby("contrib_tier_raw", dropna=False)["predictive_score_0_100"]
-        .agg(["min", "max", "count"])
-        .reset_index()
-        .rename(columns={"contrib_tier_raw": "Career Designation", "min": "low", "max": "high"})
-    )
-    grouped["Score Range"] = grouped.apply(lambda r: f"{r['low']:.2f}-{r['high']:.2f}", axis=1)
-    grouped["College Outlook"] = "Derived from prediction score table"
-    grouped["Professional Outlook"] = "Derived from prediction score table"
-    return grouped[["Score Range", "Career Designation", "College Outlook", "Professional Outlook", "low", "high", "count"]].sort_values(["low", "high"]).reset_index(drop=True)
+    return load_model_tiers_from_supabase_data(sb=sb, pred_score_table=TABLES["pred_score"])
 
 
 def score_tier(score: float | None) -> str:
     tiers = load_model_tiers()
-    if score is None or tiers.empty:
-        return "Unknown"
-    for _, row in tiers.iterrows():
-        low, high = to_float_or_none(row.get("low")), to_float_or_none(row.get("high"))
-        if low is not None and high is not None and low <= score <= high:
-            return str(row.get("Career Designation", "Unknown"))
-    return "Unknown"
+    return score_tier_from_tiers_data(score=score, tiers=tiers, to_float_or_none=to_float_or_none)
 
 
 def tier_definitions_markdown() -> str:
     tiers = load_model_tiers()
-    if tiers.empty:
-        return "Tier definitions unavailable."
-    return "\n".join([
-        f"- **{r.get('Career Designation', '')}** ({r.get('Score Range', '')}): "
-        f"Samples: {int(r.get('count', 0) or 0)}"
-        for _, r in tiers.iterrows()
-    ])
-
-
-def merge_scouting_sources(scouting_row: dict) -> dict:
-    return merge_scouting_sources_data(scouting_row=scouting_row, parse_jsonish=parse_jsonish)
-
-
-def clean_scouting_profile(scouting_json: dict) -> dict:
-    return clean_scouting_profile_data(scouting_json=scouting_json, to_float_or_none=to_float_or_none)
-
-
-def build_player_profile_view(player_row: dict) -> dict:
-    return build_player_profile_view_data(player_row=player_row, first_non_null=first_non_null)
+    return tier_definitions_markdown_data(tiers)
 
 
 @st.cache_data
 def load_player_index() -> pd.DataFrame:
-    base_cols = [
-        "recruit_id",
-        "player_name",
-        "position",
-        "high_school",
-        "year",
-        "rating",
-        "player_label",
-        "athlete_id",
-    ]
-
     sb = get_supabase_client()
     if sb is None:
         raise RuntimeError("Supabase is not configured. Recruit dropdown requires gi_recruit_master.")
 
-    select_cols = (
-        "recruit_id,recruit_name,full_name,player_name,position_group,position,"
-        "recruit_class,year,composite_rating,rating,high_school,hs_city,hs_state,"
-        "athlete_id,cfbd_athlete_id"
-    )
-    rows = _supabase_fetch_all_rows(
+    return load_player_index_from_supabase_data(
         sb=sb,
         table_name=TABLES["player_master"],
-        columns=select_cols,
-        batch_size=1000,
-        max_rows=50000,
-    )
-    if not rows:
-        return pd.DataFrame(columns=base_cols)
-
-    df = pd.DataFrame(rows)
-    if "recruit_id" not in df.columns:
-        return pd.DataFrame(columns=base_cols)
-
-    recruit_class_series = df["recruit_class"] if "recruit_class" in df.columns else pd.Series([None] * len(df), index=df.index)
-    year_series = df["year"] if "year" in df.columns else pd.Series([None] * len(df), index=df.index)
-    df["year"] = pd.to_numeric(recruit_class_series.where(recruit_class_series.notna(), year_series), errors="coerce")
-    year_filter = [int(y) for y in CONFIG["YEARS"]]
-    df = df[df["year"].isin(year_filter)].copy()
-
-    def _coalesce_text(frame: pd.DataFrame, cols: list[str]) -> pd.Series:
-        out = pd.Series(["" for _ in range(len(frame))], index=frame.index, dtype="object")
-        for col in cols:
-            if col in frame.columns:
-                vals = frame[col].fillna("").astype(str).str.strip()
-                out = out.where(out.astype(str).str.strip() != "", vals)
-        return out
-
-    df["recruit_id"] = df["recruit_id"].astype(str).str.strip()
-    df["player_name"] = _coalesce_text(df, ["recruit_name", "full_name", "player_name"])
-    df["position"] = _coalesce_text(df, ["position_group", "position"]).apply(normalize_position_group)
-    df["high_school"] = _coalesce_text(df, ["high_school", "hs_city", "hs_state"])
-    composite_rating_series = df["composite_rating"] if "composite_rating" in df.columns else pd.Series([None] * len(df), index=df.index)
-    rating_series = df["rating"] if "rating" in df.columns else pd.Series([None] * len(df), index=df.index)
-    df["rating"] = pd.to_numeric(composite_rating_series.where(composite_rating_series.notna(), rating_series), errors="coerce")
-
-    athlete_series = df.get("athlete_id") if "athlete_id" in df.columns else pd.Series([None] * len(df), index=df.index)
-    cfbd_athlete_series = df.get("cfbd_athlete_id") if "cfbd_athlete_id" in df.columns else pd.Series([None] * len(df), index=df.index)
-    df["athlete_id"] = athlete_series.where(athlete_series.notna(), cfbd_athlete_series)
-    df["athlete_id"] = pd.to_numeric(df["athlete_id"], errors="coerce").astype("Int64")
-
-    df["player_label"] = (
-        df["player_name"].astype(str)
-        + " | "
-        + df["position"].astype(str)
-        + " | "
-        + df["high_school"].astype(str)
-        + " | "
-        + df["year"].astype("Int64").astype(str)
-    )
-
-    df = df[df["recruit_id"].str.len() > 0].drop_duplicates(subset=["recruit_id"]).copy()
-    df = df.sort_values(["year", "rating", "player_name"], ascending=[True, False, True]).reset_index(drop=True)
-    return df[base_cols]
-
-
-def fetch_player_bundle(sb, recruit_id: str) -> dict:
-    return fetch_player_bundle_data(
-        sb=sb,
-        recruit_id=recruit_id,
-        tables=TABLES,
-        build_player_profile_view=build_player_profile_view,
-        clean_scouting_profile=clean_scouting_profile,
-        merge_scouting_sources=merge_scouting_sources,
+        years=CONFIG["YEARS"],
+        position_map=POS_MAP,
     )
 
 
-def duckduckgo_search(player_name: str, position: str, high_school: str, year: int, max_results: int = 12) -> list[dict]:
-    return duckduckgo_search_data(
-        ddgs_class=DDGS,
-        player_name=player_name,
-        position=position,
-        high_school=high_school,
-        year=year,
-        target_search_sites=TARGET_SEARCH_SITES,
-        max_results=max_results,
-    )
-
-
-def summarize_web_with_flash_lite(player_name: str, position: str, search_rows: list[dict]) -> str:
-    return summarize_web_with_flash_lite_data(
-        player_name=player_name,
-        position=position,
-        search_rows=search_rows,
-        summary_model=CONFIG["SUMMARY_MODEL"],
-        get_llm=get_llm,
-        llm_response_to_text=llm_response_to_text,
-    )
-
-
-def vector_insights_query(sb, query_text: str, position: str | None = None, top_k: int = 6, threshold: float | None = None) -> dict:
-    return vector_insights_query_data(
-        sb=sb,
-        query_text=query_text,
-        position=position,
-        top_k=top_k,
-        threshold=threshold,
-        vector_match_threshold=CONFIG["VECTOR_MATCH_THRESHOLD"],
-        vector_rpc_name=CONFIG["VECTOR_RPC_NAME"],
-        get_embedding_model=get_embedding_model,
-        to_float_or_none=to_float_or_none,
-    )
-
-
-def get_historical_player_comparables(recruit_id: str) -> str:
+@st.cache_data
+def load_transfer_player_index() -> pd.DataFrame:
     sb = get_supabase_client()
     if sb is None:
-        return "Historical comparables unavailable: Supabase client is not configured."
-    return get_historical_player_comparables_data(
-        sb=sb,
-        recruit_id=recruit_id,
-        tables=TABLES,
-        to_float_or_none=to_float_or_none,
-        score_tier=score_tier,
-    )
+        raise RuntimeError("Supabase is not configured. Transfer dropdown requires gi_college_master.")
 
-
-def build_score_card_html(pred_score: dict, pred_threshold: dict) -> str:
-    return build_score_card_html_data(
-        pred_score=pred_score,
-        pred_threshold=pred_threshold,
-        to_float_or_none=to_float_or_none,
-        score_tier=score_tier,
-    )
-
-
-def build_final_prompt(year: int, target_team: str, player_row: dict, scouting_clean: dict, hs_athletic_background: str, pred_score_row: dict, pred_thr_row: dict, web_summary: str, vector_result: dict, historical_comparables_md: str) -> str:
-    return build_final_prompt_data(
-        year=year,
-        target_team=target_team,
-        persona=st.session_state.get("selected_persona", "Scout"),
-        player_row=player_row,
-        scouting_clean=scouting_clean,
-        hs_athletic_background=hs_athletic_background,
-        pred_score_row=pred_score_row,
-        pred_thr_row=pred_thr_row,
-        web_summary=web_summary,
-        vector_result=vector_result,
-        historical_comparables_md=historical_comparables_md,
-        tier_definitions_markdown=tier_definitions_markdown,
-    )
-
-
-def run_final_synthesis(prompt: str) -> str:
-    return run_final_synthesis_data(
-        prompt=prompt,
-        final_model=CONFIG["FINAL_MODEL"],
-        get_llm=get_llm,
-        llm_response_to_text=llm_response_to_text,
-    )
+    return load_transfer_player_index_from_supabase_data(sb=sb, table_name="gi_college_master")
 
 
 def _is_local_debug_page_enabled() -> bool:
@@ -703,273 +264,327 @@ def _build_cfbd_debug_url(meta: dict[str, Any]) -> str:
     return f"{base}/{endpoint}?{query}" if query else f"{base}/{endpoint}"
 
 
+def _render_json_lazy(payload: Any, key: str, label: str = "Render JSON") -> None:
+    if st.checkbox(label, key=key):
+        st.code(json.dumps(payload, indent=2, default=str), language="json")
+
+
 def render_local_cfbd_debugger_page() -> None:
-    st.subheader("Local CFBD Agent Debugger")
-    st.caption("Local-only debugger for delegator task detection, player identity matching, and CFBD query validation.")
-
-    user_query = st.text_area(
-        "User Query",
-        value="Build a scouting report on Jeremiah Smith for Ohio State this season.",
-        height=100,
+    st.subheader("Local Transfer Portal CFBD Debugger")
+    st.caption(
+        "Simplified debugger for Transfer Portal CFBD pulls: exact dropdown match -> athlete ID -> "
+        "2025 usage plus all-years usage and all-years player season stats checks."
     )
 
-    col1, col2, col3 = st.columns(3)
+    try:
+        transfer_index = load_transfer_player_index()
+    except Exception as exc:
+        st.error(f"Unable to load transfer candidates: {exc}")
+        return
+
+    if transfer_index.empty:
+        st.warning("No transfer candidates available (requires gi_college_master rows with last_season=2025 and cfbd_athlete_id).")
+        return
+
+    positions = sorted([p for p in transfer_index["position"].dropna().astype(str).str.strip().unique().tolist() if p])
+    selected_position = st.selectbox("Position Filter", ["ALL"] + positions, index=0, key="transfer_debug_position")
+
+    filtered_df = transfer_index.copy()
+    if selected_position != "ALL":
+        filtered_df = filtered_df[filtered_df["position"] == selected_position].copy()
+
+    labels = filtered_df["player_label"].tolist()
+    selected_label = st.selectbox("Transfer Candidate", labels, key="transfer_debug_player") if labels else ""
+
+    col1, col2 = st.columns(2)
     with col1:
-        target_player_name = st.text_input("Target Player (hint)", value="Jeremiah Smith")
+        usage_year = st.number_input("Usage Year", min_value=2010, max_value=2035, value=2025, step=1, key="transfer_debug_usage_year")
     with col2:
-        target_team = st.text_input("Target Team (hint)", value="Ohio State")
-    with col3:
-        year = st.number_input("Year", min_value=2010, max_value=2035, value=2026, step=1)
+        exclude_garbage_time = st.checkbox("Exclude garbage time", value=True, key="transfer_debug_exclude_gt")
 
-    col4, col5 = st.columns(2)
-    with col4:
-        position_hint = st.text_input("Position (optional)", value="WR")
-    with col5:
-        athlete_id_override = st.text_input("CFBD Athlete ID override (optional)", value="")
+    debug_state_key = "transfer_debugger_report_output"
+    run_requested = st.button("Run Transfer Portal CFBD Pulls", type="primary", key="transfer_debug_run")
 
-    endpoint_mode = st.selectbox(
-        "Endpoint to Test",
-        [
-            "auto",
-            "player/usage",
-            "roster",
-            "player/search",
-            "recruiting",
-            "stats/player/season",
-        ],
-        index=0,
-    )
-
-    col6, col7, col8 = st.columns(3)
-    with col6:
-        conference = st.text_input("Conference (optional)", value="")
-    with col7:
-        start_week = st.number_input("Start Week (optional)", min_value=0, max_value=20, value=0, step=1)
-    with col8:
-        end_week = st.number_input("End Week (optional)", min_value=0, max_value=20, value=0, step=1)
-
-    col9, col10, col11 = st.columns(3)
-    with col9:
-        season_type = st.selectbox("Season Type (optional)", ["", "regular", "postseason", "both"], index=0)
-    with col10:
-        category = st.text_input("Category (optional)", value="")
-    with col11:
-        state_filter = st.text_input("State (optional)", value="")
-
-    col12, col13, col14 = st.columns(3)
-    with col12:
-        classification = st.selectbox("Classification (optional)", ["", "fbs", "fcs", "HighSchool", "Juco", "PrepSchool"], index=0)
-    with col13:
-        player_id_override = st.text_input("Player ID override (optional)", value="")
-    with col14:
-        exclude_garbage_time = st.checkbox("Exclude garbage time", value=False)
-
-    if not st.button("Run Local CFBD Debugger", type="primary"):
-        return
-
-    if not str(user_query or "").strip():
-        st.warning("Provide a user query to run the debugger.")
-        return
-
-    with st.spinner("Running delegator -> player finder -> CFBD checks..."):
-        try:
-            delegator_result = delegator_plan_tool(
-                user_query=str(user_query),
-                target_team=str(target_team),
-                target_player_name=str(target_player_name),
-            )
-        except Exception as exc:
-            st.error(f"Delegator failed: {exc}")
+    if run_requested:
+        if not selected_label:
+            st.warning("Select a transfer candidate.")
             return
 
-        st.markdown("### Step 1: Delegator Output")
-        st.code(json.dumps(delegator_result, indent=2, default=str), language="json")
+        selected_lookup = dict(zip(filtered_df["player_label"], filtered_df.to_dict(orient="records")))
+        selected_row = dict(selected_lookup.get(selected_label) or {})
 
-        cfbd_params = delegator_result.get("cfbd_search_params") if isinstance(delegator_result, dict) else {}
-        cfbd_params = cfbd_params if isinstance(cfbd_params, dict) else {}
-        planned_name = str(cfbd_params.get("name") or target_player_name or "").strip()
-        planned_team = str(cfbd_params.get("college_team") or target_team or "").strip()
-        planned_position = str(cfbd_params.get("position") or position_hint or "").strip()
+        player_name = str(selected_row.get("player_name") or "").strip()
+        athlete_id_text = str(selected_row.get("cfbd_athlete_id") or "").strip()
+        position = str(selected_row.get("position") or "").strip()
+        teams_text = str(selected_row.get("teams") or "").strip()
+        team_filters = split_team_tokens_text(teams_text)
 
-        st.markdown("### Step 2: Player Finder (Identity Resolution)")
-        identity_result: dict[str, Any] = {"status": "skipped", "reason": "No name available", "data": {}}
-        if planned_name:
-            try:
-                identity_result = resolve_player_identity_tool(
-                    name_query=planned_name,
-                    year=int(year),
-                    position=planned_position or None,
-                    team=planned_team or None,
-                )
-            except Exception as exc:
-                identity_result = {"status": "error", "reason": f"Identity lookup failed: {exc}", "data": {}}
+        first_season = pd.to_numeric(selected_row.get("first_season"), errors="coerce")
+        last_season = pd.to_numeric(selected_row.get("last_season"), errors="coerce")
 
-        st.code(json.dumps(identity_result, indent=2, default=str), language="json")
+        if not athlete_id_text.isdigit():
+            st.error(
+                f"Selected player '{player_name}' does not have a numeric cfbd_athlete_id. "
+                "Cannot run exact Transfer Portal CFBD pull test."
+            )
+            return
 
-        identity_data = identity_result.get("data") if isinstance(identity_result, dict) else {}
-        identity_data = identity_data if isinstance(identity_data, dict) else {}
-        if bool(identity_data.get("requires_clarification")):
-            st.warning("Identity resolver returned multiple low-confidence candidates.")
-
-        resolved_athlete_id = str(athlete_id_override or identity_data.get("cfbd_athlete_id") or "").strip()
-
-        search_fallback_result: dict[str, Any] = {}
-        if not resolved_athlete_id and planned_name:
-            try:
-                search_fallback_result = cfbd_search_players_tool(
-                    search_term=planned_name,
-                    year=int(year),
-                    team=planned_team or None,
-                    position=planned_position or None,
-                )
-            except Exception as exc:
-                search_fallback_result = {"status": "error", "reason": f"CFBD player search failed: {exc}", "data": []}
-
-            rows = list(search_fallback_result.get("data") or [])
-            for row in rows:
-                candidate_id = str(row.get("athleteId") or row.get("athlete_id") or "").strip()
-                if candidate_id:
-                    resolved_athlete_id = candidate_id
-                    break
-
-            with st.expander("CFBD Player Search Fallback"):
-                st.code(json.dumps(search_fallback_result, indent=2, default=str), language="json")
-
-        st.markdown("### Step 3: CFBD Query + Response")
-        endpoint = endpoint_mode
-        if endpoint == "auto":
-            endpoint = "player/usage" if resolved_athlete_id else "roster"
-
-        parsed_player_id: int | None = None
-        if str(player_id_override or "").strip().isdigit():
-            parsed_player_id = int(str(player_id_override).strip())
-        try:
-            cfbd_result = cfbd_fetch_tool(
-                athlete_id=resolved_athlete_id or None,
-                team=planned_team or None,
-                year=int(year),
-                endpoint=endpoint,
-                search_term=planned_name or None,
-                position=planned_position or None,
-                conference=str(conference or "").strip() or None,
-                start_week=int(start_week) if int(start_week) > 0 else None,
-                end_week=int(end_week) if int(end_week) > 0 else None,
-                season_type=str(season_type or "").strip() or None,
-                category=str(category or "").strip() or None,
-                state=str(state_filter or "").strip() or None,
-                classification=str(classification or "").strip() or None,
-                player_id=parsed_player_id,
+        with st.spinner("Running CFBD pulls for transfer verification..."):
+            cfbd_context = orchestrate_transfer_cfbd_context(
+                player_name=player_name,
+                cfbd_athlete_id=athlete_id_text,
+                position=position,
+                teams=teams_text,
+                year=int(usage_year),
+                first_season=int(first_season) if pd.notna(first_season) else None,
+                last_season=int(last_season) if pd.notna(last_season) else None,
                 exclude_garbage_time=bool(exclude_garbage_time),
+                progress_callback=None,
             )
-        except Exception as exc:
-            st.error(f"CFBD fetch failed: {exc}")
-            return
 
-        meta = cfbd_result.get("meta") if isinstance(cfbd_result, dict) else {}
-        meta = meta if isinstance(meta, dict) else {}
-        if not meta:
-            meta = {
-                "endpoint": endpoint,
-                "params": {
-                    "athleteId": resolved_athlete_id or None,
-                    "searchTerm": planned_name or None,
-                    "team": planned_team or None,
-                    "year": int(year),
-                    "position": planned_position or None,
-                },
+        st.session_state[debug_state_key] = {
+            "selected_label": selected_label,
+            "player_name": player_name,
+            "athlete_id_text": athlete_id_text,
+            "athlete_id": int(athlete_id_text),
+            "position": position,
+            "teams_text": teams_text,
+            "team_filters": team_filters,
+            "first_season": int(first_season) if pd.notna(first_season) else None,
+            "last_season": int(last_season) if pd.notna(last_season) else None,
+            "usage_year": int(usage_year),
+            "exclude_garbage_time": bool(exclude_garbage_time),
+            "cfbd_context": cfbd_context,
+        }
+
+    debug_output = st.session_state.get(debug_state_key)
+    if not isinstance(debug_output, dict):
+        st.info("Run the debugger once, then you can interact with tables/charts without resetting output.")
+        return
+
+    selected_label = str(debug_output.get("selected_label") or "")
+    player_name = str(debug_output.get("player_name") or "")
+    athlete_id = int(debug_output.get("athlete_id") or 0)
+    position = str(debug_output.get("position") or "")
+    teams_text = str(debug_output.get("teams_text") or "")
+    team_filters = list(debug_output.get("team_filters") or [])
+    first_season = debug_output.get("first_season")
+    last_season = debug_output.get("last_season")
+    usage_year = int(debug_output.get("usage_year") or usage_year)
+
+    cfbd_context = dict(debug_output.get("cfbd_context") or {})
+    usage_2025_result = dict(cfbd_context.get("cfbd_usage_for_year") or {})
+    career_usage_by_year = list(cfbd_context.get("cfbd_usage_career") or [])
+    career_stats_by_year = list(cfbd_context.get("cfbd_stats_career") or [])
+    usage_table_compact = list(cfbd_context.get("usage_table_compact") or [])
+    usage_yoy_compact = list(cfbd_context.get("usage_yoy_compact") or [])
+    season_stats_table_compact = list(cfbd_context.get("season_stats_table_compact") or [])
+    pull_diagnostics = list(cfbd_context.get("pull_diagnostics") or [])
+    pull_config = dict(cfbd_context.get("pull_config") or {})
+
+    st.markdown("### Exact Mapping Confirmation")
+    st.write(f"- Player label: {selected_label}")
+    st.write(f"- Player name: {player_name or 'N/A'}")
+    st.write(f"- Position: {position or 'N/A'}")
+    st.write(f"- Team context (all teams): {', '.join(team_filters) if team_filters else 'N/A'}")
+    st.write(f"- Mapped CFBD athlete ID: {athlete_id}")
+    st.write(f"- Career season span from college table: {first_season if first_season is not None else 'N/A'} to {last_season if last_season is not None else 'N/A'}")
+
+    st.markdown(f"### Pull 1: {usage_year} Usage")
+    usage_rows = list(usage_2025_result.get("data") or []) if isinstance(usage_2025_result, dict) else []
+    usage_meta = usage_2025_result.get("meta") if isinstance(usage_2025_result, dict) else {}
+    usage_meta = usage_meta if isinstance(usage_meta, dict) else {}
+    st.write(f"- Status: {usage_2025_result.get('status', 'unknown')}")
+    st.write(f"- Reason: {usage_2025_result.get('reason', '')}")
+    st.write(f"- Record count: {len(usage_rows)}")
+    st.write(f"- Query URL: {_build_cfbd_debug_url(usage_meta)}")
+    with st.expander("2025 Usage Raw Result"):
+        _render_json_lazy(usage_2025_result, key="transfer_debug_usage_2025_json")
+
+    st.markdown("### Pull Configuration")
+    _render_json_lazy(pull_config, key="transfer_debug_pull_config_json")
+
+    st.markdown("### Pull 2: Player Career Usage Stats")
+    career_summary_df = pd.DataFrame(
+        [
+            {
+                "year": row["year"],
+                "status": row["status"],
+                "record_count": row["record_count"],
+                "reason": row["reason"],
             }
+            for row in career_usage_by_year
+        ]
+    )
+    if not career_summary_df.empty:
+        st.dataframe(career_summary_df, use_container_width=True)
+    else:
+        st.write("No career seasons were available to test.")
 
-        debug_url = _build_cfbd_debug_url(meta)
-        data_rows = list(cfbd_result.get("data") or []) if isinstance(cfbd_result, dict) else []
+    with st.expander("Career Usage Raw Results"):
+        _render_json_lazy(career_usage_by_year, key="transfer_debug_career_usage_json")
 
-        st.write(f"Status: {cfbd_result.get('status', 'unknown')}")
-        st.write(f"Reason: {cfbd_result.get('reason', '')}")
-        st.write(f"Resolved athlete ID: {resolved_athlete_id or 'n/a'}")
-        st.write(f"Endpoint: {meta.get('endpoint', endpoint)}")
-        st.write(f"Record count: {len(data_rows)}")
-        st.write(f"Query URL: {debug_url}")
+    st.markdown("### Pull 3: Player Career Season Stats")
+    career_stats_summary_df = pd.DataFrame(
+        [
+            {
+                "year": row["year"],
+                "status": row["status"],
+                "record_count": row["record_count"],
+                "raw_record_count": row["raw_record_count"],
+                "reason": row["reason"],
+            }
+            for row in career_stats_by_year
+        ]
+    )
+    if not career_stats_summary_df.empty:
+        st.dataframe(career_stats_summary_df, use_container_width=True)
+    else:
+        st.write("No career season stats were available to test.")
 
-        with st.expander("CFBD Request Meta"):
-            st.code(json.dumps(meta, indent=2, default=str), language="json")
+    with st.expander("Career Season Stats Raw Results"):
+        _render_json_lazy(career_stats_by_year, key="transfer_debug_career_stats_json")
 
-        with st.expander("CFBD Raw Result"):
-            st.code(json.dumps(cfbd_result, indent=2, default=str), language="json")
+    st.markdown("### Pull Diagnostics")
+    diagnostics_df = rows_to_dynamic_table(
+        pull_diagnostics,
+        leading_columns=["year", "endpoint", "status", "reason", "rows_pre_filter", "rows_post_filter", "queried_teams"],
+    )
+    if not diagnostics_df.empty:
+        st.dataframe(diagnostics_df, use_container_width=True)
+    else:
+        st.write("No diagnostics available.")
+
+    st.markdown("### Compacted Payload Preview (Passed To Gemini)")
+    st.caption("These are token-optimized structured payloads used for transfer synthesis. Garbage time exclusion is enabled by default.")
+    debug_artifacts = _get_transfer_render_artifacts(
+        {
+            "cfbd_athlete_id": athlete_id,
+            "target_team": "debugger",
+            "year": usage_year,
+            "pull_config": pull_config,
+            "usage_table_compact": usage_table_compact,
+            "usage_yoy_compact": usage_yoy_compact,
+            "season_stats_table_compact": season_stats_table_compact,
+        },
+        position_hint=position,
+    )
+    st.markdown("#### Charts")
+    _render_transfer_charts_side_by_side(section_key="transfer_debugger", artifacts=debug_artifacts)
+    _render_transfer_tables(artifacts=debug_artifacts)
+
+    with st.expander("Compact JSON Payloads"):
+        st.markdown("#### Compact Usage Table JSON")
+        _render_json_lazy(usage_table_compact, key="transfer_debug_usage_table_compact_json")
+        st.markdown("#### Usage YoY Delta Table JSON")
+        _render_json_lazy(usage_yoy_compact, key="transfer_debug_usage_yoy_compact_json")
+        st.markdown("#### Compact Season Stats Table JSON")
+        _render_json_lazy(season_stats_table_compact, key="transfer_debug_season_stats_compact_json")
 
 
 st.set_page_config(page_title="Gridiron Intelligence - Scouting Workbench", page_icon="🏈", layout="wide")
 st.markdown("<h1 class='football-title'>Gridiron Intelligence 🏈</h1>", unsafe_allow_html=True)
 st.markdown("<p class='football-subtitle'>Interactive Scouting Workbench (Streamlit)</p>", unsafe_allow_html=True)
 
-with st.sidebar:
-    st.image("https://raw.githubusercontent.com/shaverm96/Gridiron-Intelligence/main/Logos/Main.svg", width=150)
-    st.title("Gridiron Intelligence")
-    workspace_options = ["Structured Report", "Structured Report + Open Chat", "Open Chat"]
-    if _is_local_debug_page_enabled():
-        workspace_options.append("Local CFBD Debugger")
-    app_page = st.radio("Workspace", workspace_options, index=0)
-    selected_persona = st.selectbox("Persona", ["Scout", "Fan"], index=0, key="selected_persona")
-    st.write("---")
-    st.caption(f"Gemini configured: {'Yes' if bool(CONFIG['GEMINI_API_KEY']) else 'No'}")
-    st.caption(f"Supabase configured: {'Yes' if bool(CONFIG['SUPABASE_URL'] and CONFIG['SUPABASE_SERVICE_ROLE_KEY']) else 'No'}")
-    with st.expander("Configuration diagnostics"):
-        st.write(f"SUPABASE_URL source: {CONFIG_SOURCES['SUPABASE_URL']}")
-        st.write(f"SUPABASE_SERVICE_ROLE_KEY source: {CONFIG_SOURCES['SUPABASE_SERVICE_ROLE_KEY']}")
-        st.write(f"GEMINI_API_KEY source: {CONFIG_SOURCES['GEMINI_API_KEY']}")
-        st.write(
-            "GI_ENABLE_LOCAL_CFBD_DEBUGGER source: "
-            f"{CONFIG_SOURCES['GI_ENABLE_LOCAL_CFBD_DEBUGGER']} "
-            f"(enabled: {'Yes' if CONFIG['LOCAL_CFBD_DEBUGGER_ENABLED'] else 'No'})"
-        )
-        st.write(f"Supabase package import: {'Yes' if create_client is not None else 'No'}")
-        if st.button("Run One-Click Diagnostic", key="run_one_click_diagnostic"):
-            with st.spinner("Running connectivity and configuration checks..."):
-                st.session_state["one_click_diag"] = run_one_click_diagnostics()
+if "app_page" not in st.session_state:
+    st.session_state["app_page"] = "Landing Page"
 
-        diag = st.session_state.get("one_click_diag")
-        if isinstance(diag, dict):
-            if diag.get("overall") == "pass":
-                st.success("One-click diagnostic passed.")
-            else:
-                st.error("One-click diagnostic found issues.")
+app_page = str(st.session_state.get("app_page") or "Landing Page")
 
-            for item in diag.get("checks", []):
-                icon = "✅" if item.get("status") == "pass" else "❌"
-                st.write(f"{icon} {item.get('name')}: {item.get('detail')}")
+if app_page == "Landing Page":
+    st.markdown(
+        """
+        <style>
+        [data-testid="stSidebar"] {
+            display: none;
+        }
+        </style>
+        """,
+        unsafe_allow_html=True,
+    )
 
-    if CONFIG["LOCAL_CFBD_DEBUGGER_ENABLED"]:
-        with st.expander("Local CFBD Debugger (opt-in)"):
-            from engine.cfbd_service import cfbd_fetch
+if app_page != "Landing Page":
+    with st.sidebar:
+        st.image("https://raw.githubusercontent.com/shaverm96/Gridiron-Intelligence/main/Logos/Main.svg", width=150)
+        st.title("Gridiron Intelligence")
 
-            endpoint = st.selectbox(
-                "CFBD endpoint",
-                ["player/stats", "player/search", "roster"],
-                key="cfbd_debug_endpoint",
+        workspace_options = [
+            "Recruiting Portal",
+            "Transfer Portal",
+        ]
+        if _is_local_debug_page_enabled():
+            workspace_options.append("Local CFBD Debugger")
+
+        default_index = workspace_options.index(app_page) if app_page in workspace_options else 0
+        app_page = st.radio("Workspace", workspace_options, index=default_index)
+        st.session_state["app_page"] = app_page
+
+        if st.button("Back To Landing Page", key="back_to_landing"):
+            st.session_state["app_page"] = "Landing Page"
+            st.rerun()
+
+        selected_persona = st.selectbox("Persona", ["Scout", "Fan"], index=0, key="selected_persona")
+        st.write("---")
+        st.caption(f"Gemini configured: {'Yes' if bool(CONFIG['GEMINI_API_KEY']) else 'No'}")
+        st.caption(f"Supabase configured: {'Yes' if bool(CONFIG['SUPABASE_URL'] and CONFIG['SUPABASE_SERVICE_ROLE_KEY']) else 'No'}")
+        with st.expander("Configuration diagnostics"):
+            st.write(f"SUPABASE_URL source: {CONFIG_SOURCES['SUPABASE_URL']}")
+            st.write(f"SUPABASE_SERVICE_ROLE_KEY source: {CONFIG_SOURCES['SUPABASE_SERVICE_ROLE_KEY']}")
+            st.write(f"GEMINI_API_KEY source: {CONFIG_SOURCES['GEMINI_API_KEY']}")
+            st.write(
+                "GI_ENABLE_LOCAL_CFBD_DEBUGGER source: "
+                f"{CONFIG_SOURCES['GI_ENABLE_LOCAL_CFBD_DEBUGGER']} "
+                f"(enabled: {'Yes' if CONFIG['LOCAL_CFBD_DEBUGGER_ENABLED'] else 'No'})"
             )
-            team = st.text_input("Team", value="", key="cfbd_debug_team")
-            athlete_id = st.text_input("Athlete ID", value="", key="cfbd_debug_athlete_id")
-            search_term = st.text_input("Search term", value="", key="cfbd_debug_search_term")
-            year_raw = st.text_input("Year", value="", key="cfbd_debug_year")
+            st.write(f"Supabase package import: {'Yes' if create_client is not None else 'No'}")
+            if st.button("Run One-Click Diagnostic", key="run_one_click_diagnostic"):
+                with st.spinner("Running connectivity and configuration checks..."):
+                    st.session_state["one_click_diag"] = run_one_click_diagnostics()
 
-            params: dict[str, Any] = {}
-            if team.strip():
-                params["team"] = team.strip()
-            if athlete_id.strip():
-                params["athleteId"] = athlete_id.strip()
-            if search_term.strip():
-                params["searchTerm"] = search_term.strip()
-            if year_raw.strip().isdigit():
-                params["year"] = int(year_raw.strip())
+            diag = st.session_state.get("one_click_diag")
+            if isinstance(diag, dict):
+                if diag.get("overall") == "pass":
+                    st.success("One-click diagnostic passed.")
+                else:
+                    st.error("One-click diagnostic found issues.")
 
-            if st.button("Run local CFBD debug request", key="run_local_cfbd_debug_request"):
-                st.session_state["local_cfbd_debug_result"] = cfbd_fetch(endpoint=endpoint, params=params)
+                for item in diag.get("checks", []):
+                    icon = "✅" if item.get("status") == "pass" else "❌"
+                    st.write(f"{icon} {item.get('name')}: {item.get('detail')}")
 
-            debug_result = st.session_state.get("local_cfbd_debug_result")
-            if isinstance(debug_result, dict):
-                st.code(json.dumps(debug_result, indent=2, default=str), language="json")
+        if CONFIG["LOCAL_CFBD_DEBUGGER_ENABLED"]:
+            with st.expander("Local CFBD Debugger (opt-in)"):
+                from engine.cfbd_service import cfbd_fetch
+                endpoint = st.selectbox(
+                    "CFBD endpoint",
+                    ["player/stats", "player/search", "roster"],
+                    key="cfbd_debug_endpoint",
+                )
+                team = st.text_input("Team", value="", key="cfbd_debug_team")
+                athlete_id = st.text_input("Athlete ID", value="", key="cfbd_debug_athlete_id")
+                search_term = st.text_input("Search term", value="", key="cfbd_debug_search_term")
+                year_raw = st.text_input("Year", value="", key="cfbd_debug_year")
 
-    supabase_issues = get_supabase_config_issues()
-    if supabase_issues:
-        st.warning("Supabase preflight issues detected. Open diagnostics for details.")
+                params: dict[str, Any] = {}
+                if team.strip():
+                    params["team"] = team.strip()
+                if athlete_id.strip():
+                    params["athleteId"] = athlete_id.strip()
+                if search_term.strip():
+                    params["searchTerm"] = search_term.strip()
+                if year_raw.strip().isdigit():
+                    params["year"] = int(year_raw.strip())
+
+                if st.button("Run local CFBD debug request", key="run_local_cfbd_debug_request"):
+                    st.session_state["local_cfbd_debug_result"] = cfbd_fetch(endpoint=endpoint, params=params)
+
+                debug_result = st.session_state.get("local_cfbd_debug_result")
+                if isinstance(debug_result, dict):
+                    _render_json_lazy(debug_result, key="sidebar_local_cfbd_debug_result_json")
+
+        supabase_issues = get_supabase_config_issues()
+        if supabase_issues:
+            st.warning("Supabase preflight issues detected. Open diagnostics for details.")
 
 
 @st.cache_resource
@@ -982,38 +597,164 @@ def get_cached_structured_web_graph():
     return get_structured_web_graph()
 
 
-def _compact_open_chat_state(state: dict[str, Any] | None) -> dict[str, Any]:
-    src = dict(state or {})
-    compact: dict[str, Any] = {
-        "mode": "chat",
-        "user_query": str(src.get("user_query") or ""),
-        "target_player_name": str(src.get("target_player_name") or ""),
-        "player_name": str(src.get("player_name") or ""),
-        "recruit_id": str(src.get("recruit_id") or ""),
-        "cfbd_athlete_id": str(src.get("cfbd_athlete_id") or ""),
-        "target_team": str(src.get("target_team") or ""),
-        "year": int(src.get("year") or 0),
-        "requires_identity_clarification": bool(src.get("requires_identity_clarification")),
-        "clarification_prompt": str(src.get("clarification_prompt") or ""),
-        "pending_identity_query": str(src.get("pending_identity_query") or ""),
-        "security_halt": bool(src.get("security_halt")),
-        "security_message": str(src.get("security_message") or ""),
-        "next_step": str(src.get("next_step") or "supervisor"),
+def _usage_delta_cell_style(value: Any) -> str:
+    try:
+        if value is None or (isinstance(value, float) and np.isnan(value)):
+            return ""
+        numeric = float(value)
+    except Exception:
+        return ""
+    if numeric > 0:
+        return "color: #0f9d58; font-weight: 600;"
+    if numeric < 0:
+        return "color: #c62828; font-weight: 600;"
+    return ""
+
+
+def _transfer_report_cache_key(report_output: dict[str, Any]) -> str:
+    pull_config = dict(report_output.get("pull_config") or {})
+    return "|".join(
+        [
+            str(report_output.get("cfbd_athlete_id") or ""),
+            str(report_output.get("target_team") or ""),
+            str(report_output.get("year") or ""),
+            str(bool(pull_config.get("exclude_garbage_time", True))),
+        ]
+    )
+
+
+def _get_transfer_render_artifacts(
+    report_output: dict[str, Any],
+    position_hint: str,
+) -> dict[str, Any]:
+    cache_store = dict(st.session_state.get("transfer_render_cache") or {})
+    cache_key = _transfer_report_cache_key(report_output)
+    cached = cache_store.get(cache_key)
+    if isinstance(cached, dict):
+        return cached
+
+    usage_table_compact = list(report_output.get("usage_table_compact") or [])
+    usage_yoy_compact = list(report_output.get("usage_yoy_compact") or [])
+    season_stats_table_compact = list(report_output.get("season_stats_table_compact") or [])
+
+    usage_display_df, usage_cols, delta_cols = build_transfer_usage_with_yoy_table(
+        usage_table_compact=usage_table_compact,
+        usage_yoy_compact=usage_yoy_compact,
+        position_hint=position_hint,
+    )
+    season_stats_df = rows_to_dynamic_table(
+        season_stats_table_compact,
+        leading_columns=["year", "team", "games"],
+    )
+    stat_cols = [col for col in season_stats_df.columns if col not in {"year", "team", "games"}]
+    ordered_stats = transfer_position_stat_order(position_hint, stat_cols)
+    ordered_stat_cols = [col for col in ["year", "team", "games", *ordered_stats] if col in season_stats_df.columns]
+
+    artifact = {
+        "usage_display_df": usage_display_df,
+        "usage_cols": usage_cols,
+        "delta_cols": delta_cols,
+        "season_stats_df": season_stats_df,
+        "ordered_stat_cols": ordered_stat_cols,
     }
+    cache_store[cache_key] = artifact
+    st.session_state["transfer_render_cache"] = cache_store
+    return artifact
 
-    compact["identity_candidates"] = list(src.get("identity_candidates") or [])[-CHAT_STATE_MAX_CANDIDATES:]
-    compact["conversation_history"] = list(src.get("conversation_history") or [])[-CHAT_STATE_MAX_TURNS * 2:]
-    compact["trace_log"] = list(src.get("trace_log") or [])[-CHAT_STATE_MAX_TRACE:]
-    compact["errors"] = list(src.get("errors") or [])[-CHAT_STATE_MAX_ERRORS:]
-    compact["citations"] = list(src.get("citations") or [])[-CHAT_STATE_MAX_CITATIONS:]
 
-    # Intentionally drop bulky payloads between chat turns.
-    compact["sql_data_context"] = {}
-    compact["web_research_context"] = ""
-    compact["vector_factoids"] = []
-    compact["comparables_context"] = ""
+def _render_transfer_usage_chart(section_key: str, artifacts: dict[str, Any]) -> None:
+    usage_display_df = artifacts.get("usage_display_df")
+    usage_cols = list(artifacts.get("usage_cols") or [])
+    if alt is None or not isinstance(usage_display_df, pd.DataFrame) or usage_display_df.empty:
+        st.write("No usage rows available for charting.")
+        return
 
-    return compact
+    usage_chart_cols = list(usage_cols)
+    if not usage_chart_cols:
+        st.write("No usage metrics available for charting.")
+        return
+
+    metric_key = f"{section_key}_usage_metric"
+    usage_metric = st.selectbox("Usage metric", usage_chart_cols, key=metric_key)
+    usage_plot_df = usage_display_df[["year", usage_metric]].copy()
+    usage_plot_df = usage_plot_df.dropna()
+    if usage_plot_df.empty:
+        st.write("No usage points available for selected metric.")
+        return
+
+    chart = alt.Chart(usage_plot_df).mark_line(point=True).encode(
+        x=alt.X("year:O", title="Year"),
+        y=alt.Y(f"{usage_metric}:Q", title="Usage %", axis=alt.Axis(format=".1f")),
+        tooltip=[alt.Tooltip("year:O", title="Year"), alt.Tooltip(f"{usage_metric}:Q", title="Usage %", format=".1f")],
+    )
+    st.altair_chart(chart, use_container_width=True)
+
+
+def _render_transfer_stat_bar_chart(section_key: str, artifacts: dict[str, Any]) -> None:
+    season_stats_df = artifacts.get("season_stats_df")
+    ordered_stat_cols = list(artifacts.get("ordered_stat_cols") or [])
+    if alt is None or not isinstance(season_stats_df, pd.DataFrame) or season_stats_df.empty:
+        st.write("No season-stat rows available for charting.")
+        return
+
+    stat_cols = [col for col in ordered_stat_cols if col not in {"year", "team", "games"}]
+    if not stat_cols:
+        st.write("No season-stat metrics available for charting.")
+        return
+
+    metric_key = f"{section_key}_stat_metric"
+    stat_metric = st.selectbox("Season stat metric", stat_cols, key=metric_key)
+    stat_plot_df = season_stats_df[["year", stat_metric]].copy()
+    stat_plot_df[stat_metric] = pd.to_numeric(stat_plot_df[stat_metric], errors="coerce")
+    stat_plot_df = stat_plot_df.dropna()
+    if stat_plot_df.empty:
+        st.write("No numeric values available for selected stat metric.")
+        return
+
+    chart = alt.Chart(stat_plot_df).mark_bar().encode(
+        x=alt.X("year:O", title="Year"),
+        y=alt.Y(f"{stat_metric}:Q", title=stat_metric.replace("_", " ").title()),
+        tooltip=[alt.Tooltip("year:O", title="Year"), alt.Tooltip(f"{stat_metric}:Q", title="Value", format=".1f")],
+    )
+    st.altair_chart(chart, use_container_width=True)
+
+
+def _render_transfer_charts_side_by_side(section_key: str, artifacts: dict[str, Any]) -> None:
+    left_col, right_col = st.columns(2)
+    with left_col:
+        st.markdown("#### Usage Line Chart")
+        _render_transfer_usage_chart(section_key=section_key, artifacts=artifacts)
+    with right_col:
+        st.markdown("#### Season Stat Bar Chart")
+        _render_transfer_stat_bar_chart(section_key=section_key, artifacts=artifacts)
+
+
+def _render_transfer_tables(artifacts: dict[str, Any]) -> None:
+    usage_display_df = artifacts.get("usage_display_df")
+    usage_cols = list(artifacts.get("usage_cols") or [])
+    delta_cols = list(artifacts.get("delta_cols") or [])
+    season_stats_df = artifacts.get("season_stats_df")
+    ordered_stat_cols = list(artifacts.get("ordered_stat_cols") or [])
+
+    st.markdown("### Usage Table")
+    if not isinstance(usage_display_df, pd.DataFrame) or usage_display_df.empty:
+        st.write("No usage rows available.")
+    else:
+        subset_delta = [col for col in delta_cols if col in usage_display_df.columns]
+        percent_cols = [col for col in usage_cols + subset_delta if col in usage_display_df.columns]
+        styled_usage = usage_display_df.style
+        if percent_cols:
+            styled_usage = styled_usage.format({col: "{:.1f}%" for col in percent_cols})
+        if subset_delta:
+            styled_usage = styled_usage.map(_usage_delta_cell_style, subset=subset_delta)
+        st.dataframe(styled_usage, use_container_width=True)
+
+    st.markdown("### Season Stats Table")
+    if not isinstance(season_stats_df, pd.DataFrame) or season_stats_df.empty:
+        st.write("No season stat rows available.")
+    else:
+        display_cols = ordered_stat_cols if ordered_stat_cols else list(season_stats_df.columns)
+        st.dataframe(season_stats_df[display_cols], use_container_width=True)
 
 
 def _allow_structured_report_submission() -> tuple[bool, int]:
@@ -1034,552 +775,269 @@ def _allow_structured_report_submission() -> tuple[bool, int]:
     return True, 0
 
 
-def render_structured_report_page() -> None:
-    try:
-        player_index = load_player_index()
-    except Exception as exc:
-        st.error(f"Unable to load player index: {exc}")
-        st.stop()
+@st.cache_data
+def _asset_data_uri(relative_path: tuple[str, ...], mime_type: str = "image/png") -> str:
+    return image_data_uri_data(project_root=PROJECT_ROOT, relative_path=relative_path, mime_type=mime_type)
 
-    selected_year = st.selectbox("Recruiting Class Year", CONFIG["YEARS"], index=0)
-    year_players = player_index[player_index["year"] == selected_year]
-    selected_label = st.selectbox("Player", year_players["player_label"].tolist()) if not year_players.empty else ""
-    target_team = st.selectbox("Target Team", TARGET_TEAMS, index=0)
 
-    if st.button("Generate Scouting Report", type="primary"):
-        allowed, retry_after = _allow_structured_report_submission()
-        if not allowed:
-            st.warning(
-                f"Rate limit reached: max {STRUCTURED_REPORT_RATE_LIMIT_COUNT} reports per "
-                f"{STRUCTURED_REPORT_RATE_LIMIT_WINDOW_SECONDS} seconds. Try again in ~{retry_after}s."
-            )
-            return
-
-        if not selected_label:
-            st.warning("No players available for selected year.")
-            return
-
-        supabase_issues = get_supabase_config_issues()
-        if supabase_issues:
-            msg = "Cannot run report until Supabase is configured:\n" + "\n".join([f"- {issue}" for issue in supabase_issues])
-            st.error(msg)
-            st.stop()
-
-        lookup = dict(zip(player_index["player_label"], player_index["recruit_id"]))
-        recruit_id = lookup.get(selected_label)
-        if not recruit_id:
-            st.warning("Pick a valid player from the dropdown list.")
-            st.stop()
-
-        selected_label_parts = [part.strip() for part in str(selected_label).split("|")]
-        selected_player_name = selected_label_parts[0] if selected_label_parts else ""
-        selected_position_hint = selected_label_parts[1] if len(selected_label_parts) > 1 else ""
-        milestone_slot = st.empty()
-
-        def _render_structured_milestone(event: dict[str, str]) -> None:
-            node = str(event.get("node") or "workflow")
-            status = str(event.get("status") or "running")
-            labels = {
-                "workflow": "Web Scout Pipeline",
-                "recruiting_scout": "Recruiting Scout",
-                "team_scout": "Team Scout",
-            }
-            node_label = labels.get(node, node.replace("_", " ").title())
-            if status == "completed":
-                milestone_slot.success(f"{node_label}: complete")
-            else:
-                milestone_slot.info(f"{node_label}: running")
-
-        with st.spinner("Building structured scouting report..."):
-            try:
-                sb = get_supabase_client()
-                bundle = fetch_player_bundle(sb=sb, recruit_id=str(recruit_id))
-            except Exception as exc:
-                st.error(f"Structured report failed while fetching player bundle: {exc}")
-                st.stop()
-
-            player_row = dict(bundle.get("player") or {})
-            player_profile = dict(bundle.get("player_profile") or {})
-            scouting_clean = dict(bundle.get("scouting_clean") or {})
-            pred_score_row = dict(bundle.get("pred_score") or {})
-            pred_thr_row = dict(bundle.get("pred_threshold") or {})
-
-            player_name = (
-                str(player_profile.get("player_name") or "").strip()
-                or str(player_row.get("player_name") or "").strip()
-                or selected_player_name
-            )
-            position = str(
-                player_profile.get("position")
-                or player_row.get("position")
-                or player_row.get("pos")
-                or player_row.get("primary_position")
-                or scouting_clean.get("position")
-                or selected_position_hint
-                or ""
-            ).strip()
-            high_school = str(player_row.get("high_school") or player_row.get("school") or "").strip()
-
-            vector_query = (
-                f"Player: {player_name}. Position: {position}. High school: {high_school}. "
-                f"Target team: {target_team}. Class year: {selected_year}. "
-                "Provide grounded trait/development insights relevant for recruiting projection."
-            )
-            vector_result = vector_insights_query(
-                sb=sb,
-                query_text=vector_query,
-                position=position or None,
-                top_k=CONFIG["VECTOR_MATCH_COUNT"],
-                threshold=None,
-            )
-
-            web_recruiting_summary = ""
-            web_team_summary = ""
-            try:
-                structured_web_graph = get_cached_structured_web_graph()
-                web_state = orchestrate_structured_web_scouting(
-                    player_name=player_name,
-                    recruit_id=str(recruit_id),
-                    target_team=str(target_team),
-                    year=int(selected_year),
-                    graph=structured_web_graph,
-                    progress_callback=_render_structured_milestone,
-                )
-                web_recruiting_summary = str(web_state.get("web_recruiting_summary") or "").strip()
-                web_team_summary = str(web_state.get("web_team_summary") or "").strip()
-            except Exception as exc:
-                web_recruiting_summary = f"Recruiting web summary unavailable: {exc}"
-                web_team_summary = f"Team web summary unavailable: {exc}"
-            finally:
-                milestone_slot.success("Web Scout Pipeline complete")
-
-            historical_comparables_md = get_historical_player_comparables(str(recruit_id))
-            score_card_html = build_score_card_html(pred_score=pred_score_row, pred_threshold=pred_thr_row)
-            web_summary = (
-                "Recruiting Scout Summary:\n"
-                f"{web_recruiting_summary or 'No recruiting summary available.'}\n\n"
-                "Team Scout Summary:\n"
-                f"{web_team_summary or 'No team summary available.'}"
-            )
-
-            final_prompt = build_final_prompt(
-                year=int(selected_year),
-                target_team=str(target_team),
-                player_row=player_row,
-                scouting_clean=scouting_clean,
-                hs_athletic_background=str(scouting_clean.get("athletic_background") or "N/A"),
-                pred_score_row=pred_score_row,
-                pred_thr_row=pred_thr_row,
-                web_summary=web_summary,
-                vector_result=vector_result,
-                historical_comparables_md=historical_comparables_md,
-            )
-            final_report = run_final_synthesis(final_prompt)
-
-        st.markdown(f"## Scouting Workbench Output - {player_name}")
-        st.markdown(
-            f"- Recruit ID: `{recruit_id}`  \\\n+- Year: `{selected_year}`  \\\n+- Target Team: `{target_team}`  \\\n+- Persona: `{st.session_state.get('selected_persona', 'Scout')}`"
-        )
-        st.markdown("### Historical Comparables")
-        st.markdown(historical_comparables_md or "No historical comparables available.")
-
-        st.markdown("### Projected Model Score")
-        st.markdown(score_card_html, unsafe_allow_html=True)
-
+def _render_recruiting_summary_card(raw_text: str | None) -> None:
+    data = build_recruiting_summary_layout_data(raw_text)
+    notes = list(data.get("notes") or [])
+    if not notes:
         st.markdown("### Recruiting Scout Summary")
-        st.markdown(web_recruiting_summary or "No recruiting summary available.")
+        st.markdown(str(raw_text or "No recruiting summary available."))
+        return
 
-        st.markdown("### Team Scout Summary")
-        st.markdown(web_team_summary or "No team summary available.")
+    hero_name = str(data.get("hero_name") or "Prospect").strip()
+    hero_subtitle = str(data.get("hero_subtitle") or "").strip()
+    physical_profile = str(data.get("physical_profile") or "").strip() or "Physical profile unavailable"
+    grid_items = list(data.get("grid_items") or [])
+    recency_note = str(data.get("note_on_recency") or "").strip()
+    helmet_data_uri = _asset_data_uri(("Logos", "Helmate.png"))
+    football_data_uri = _asset_data_uri(("Logos", "Football.png"))
+    helmet_html = (
+        f"<img class='recruiting-dossier-helmet-img' src='{helmet_data_uri}' alt='Helmet' />"
+        if helmet_data_uri
+        else "<div class='recruiting-dossier-helmet-fallback'>🏈</div>"
+    )
 
-        st.markdown("### Final Synthesis")
-        st.markdown(final_report or "No final synthesis generated.")
-
-        with st.expander("Development Information (temporary)"):
-            st.markdown("#### Player Profile")
-            st.code(json.dumps(player_profile or player_row, indent=2, default=str), language="json")
-
-            st.markdown("#### Vector Insights")
-            vector_insights = list(vector_result.get("insights") or []) if isinstance(vector_result, dict) else []
-            if vector_insights:
-                for insight in vector_insights[:8]:
-                    st.write(f"- {insight}")
-            else:
-                reason = ""
-                if isinstance(vector_result, dict):
-                    reason = str(vector_result.get("reason") or "").strip()
-                st.write(f"No vector insights returned for the selected player. {reason}".strip())
-
-            st.markdown("#### Scouting Profile (General)")
-            if scouting_clean:
-                st.code(json.dumps(scouting_clean, indent=2, default=str), language="json")
-            else:
-                st.write("No scouting profile fields were available for this player.")
-
-
-def render_structured_report_with_chat_page() -> None:
-    report_state_key = "structured_chat_report_output"
-
-    def _parse_selected_player_label(label: str | None) -> tuple[str, str, str, str]:
-        parts = [part.strip() for part in str(label or "").split("|")]
-        name = parts[0] if len(parts) > 0 else ""
-        position = parts[1] if len(parts) > 1 else ""
-        high_school = parts[2] if len(parts) > 2 else ""
-        year = parts[3] if len(parts) > 3 else ""
-        return name, position, high_school, year
-
-    def _extract_predicted_score_display(score_card_html: str | None, pred_score_row: dict[str, Any] | None) -> str:
-        html_text = str(score_card_html or "")
-        if html_text:
-            plain_text = re.sub(r"<[^>]+>", " ", html_text)
-            plain_text = " ".join(plain_text.split())
-
-            for pattern in [
-                r"Predicted\s*Score\s*[:\-]\s*([0-9]+(?:\.[0-9]+)?(?:\s*/\s*100)?)",
-                r"([0-9]+(?:\.[0-9]+)?\s*/\s*100)",
-            ]:
-                match = re.search(pattern, plain_text, flags=re.IGNORECASE)
-                if match:
-                    return str(match.group(1)).replace(" / ", "/").strip()
-
-        row = pred_score_row if isinstance(pred_score_row, dict) else {}
-        for value in row.values():
-            score = to_float_or_none(value)
-            if score is None:
-                continue
-            if 0.0 <= score <= 1.0:
-                return f"{score * 100.0:.3f}"
-            return f"{score:.3f}"
-
-        return "N/A"
-
-    def _parse_historical_comparables_md(raw_md: str | None) -> dict[str, Any]:
-        text = str(raw_md or "")
-        lines = [line.strip() for line in text.splitlines() if line and line.strip()]
-
-        target_position = ""
-        rows: list[dict[str, Any]] = []
-
-        def _is_placeholder(value: Any) -> bool:
-            normalized = str(value or "").strip().lower()
-            return normalized in {"", "-", "--", "n/a", "na", "none", "null", "unknown", "?"}
-
-        def _clean_name(value: Any) -> str:
-            name = str(value or "")
-            # Strip markdown emphasis and extra symbols from raw text payloads.
-            name = re.sub(r"[*_`~]+", "", name)
-            return re.sub(r"\s+", " ", name).strip(" -|")
-
-        def _match_numeric(match_text: str) -> float | None:
-            number_match = re.search(r"([0-9]+(?:\.[0-9]+)?)", str(match_text or ""))
-            if not number_match:
-                return None
-            return to_float_or_none(number_match.group(1))
-
-        for line in lines:
-            clean = re.sub(r"^#{1,6}\s*", "", line).strip()
-            if not clean:
-                continue
-
-            if clean.lower().startswith("target position:"):
-                target_position = clean.split(":", 1)[1].strip() if ":" in clean else ""
-                continue
-
-            if clean.startswith("-") or clean.startswith("*"):
-                body = clean[1:].strip()
-                parsed = re.match(
-                    r"^(?P<name>.+?)\s*\((?P<year>\d{4})\s*,\s*(?P<state>[A-Za-z]{2})\)\s*\|\s*Match:\s*(?P<match>[^|]+?)\s*\|\s*Rating:\s*(?P<rating>.+)$",
-                    body,
-                )
-                if parsed:
-                    raw_match = str(parsed.group("match") or "").strip()
-                    match_value = _match_numeric(raw_match)
-                    match_display = ""
-                    if match_value is not None:
-                        match_display = f"{match_value:.2f}%"
-                    elif not _is_placeholder(raw_match):
-                        match_display = raw_match
-
-                    rows.append(
-                        {
-                            "name": _clean_name(parsed.group("name")),
-                            "year": str(parsed.group("year") or "").strip(),
-                            "state": str(parsed.group("state") or "").strip(),
-                            "match": match_display,
-                            "match_value": match_value,
-                            "rating": str(parsed.group("rating") or "").strip(),
-                            "raw": body,
-                        }
-                    )
-                else:
-                    cleaned_name = _clean_name(body)
-                    rows.append(
-                        {
-                            "name": cleaned_name,
-                            "year": "",
-                            "state": "",
-                            "match": "",
-                            "match_value": None,
-                            "rating": "",
-                            "raw": body,
-                        }
-                    )
-
-        filtered_rows: list[dict[str, Any]] = []
-        for row in rows:
-            name = _clean_name(row.get("name"))
-            year = str(row.get("year") or "").strip()
-            state = str(row.get("state") or "").strip()
-            rating = str(row.get("rating") or "").strip()
-            match = str(row.get("match") or "").strip()
-            match_value = row.get("match_value")
-
-            # Skip rows that are empty placeholders with no meaningful data.
-            if _is_placeholder(name):
-                continue
-
-            has_real_metadata = any(not _is_placeholder(value) for value in [year, state, rating, match])
-            if not has_real_metadata and match_value is None:
-                continue
-
-            # Comparables panel should only include entries with a usable match metric.
-            if _is_placeholder(match) and match_value is None:
-                continue
-
-            filtered_rows.append(
-                {
-                    "name": name,
-                    "year": "" if _is_placeholder(year) else year,
-                    "state": "" if _is_placeholder(state) else state,
-                    "rating": "" if _is_placeholder(rating) else rating,
-                    "match": "" if _is_placeholder(match) else match,
-                    "match_value": match_value,
-                    "raw": str(row.get("raw") or "").strip(),
-                }
+    grid_parts: list[str] = []
+    for item in grid_items:
+        item_key = str(item.get("key") or "")
+        icon_html = ""
+        if item_key == "performance_notes" and football_data_uri:
+            icon_html = (
+                "<span class='recruiting-dossier-note-icon'>"
+                f"<img class='recruiting-dossier-note-icon-img' src='{football_data_uri}' alt='Football' />"
+                "</span>"
             )
 
-        filtered_rows.sort(key=lambda row: (row.get("match_value") is not None, row.get("match_value") or -1.0), reverse=True)
-
-        return {
-            "target_position": target_position,
-            "rows": filtered_rows,
-            "raw": text,
-        }
-
-    def _parse_summary_notes(raw_text: str | None) -> list[dict[str, str]]:
-        text = str(raw_text or "")
-        lines = [line.rstrip() for line in text.splitlines() if line and line.strip()]
-        notes: list[dict[str, str]] = []
-
-        for line in lines:
-            clean = re.sub(r"^\s*[-*•]+\s*", "", line).strip()
-            if not clean:
-                continue
-
-            label = ""
-            body = clean
-            if ":" in clean:
-                left, right = clean.split(":", 1)
-                left_clean = left.strip()
-                right_clean = right.strip()
-                if left_clean and right_clean and len(left_clean) <= 36:
-                    label = left_clean
-                    body = right_clean
-
-            notes.append({"label": label, "body": body})
-
-        return notes
-
-    def _build_recruiting_summary_layout(raw_text: str | None) -> dict[str, Any]:
-        notes = _parse_summary_notes(raw_text)
-
-        def _norm_label(label: str) -> str:
-            return re.sub(r"[^a-z0-9]+", " ", str(label or "").strip().lower()).strip()
-
-        field_map = {
-            "prospect": ["prospect"],
-            "physical_profile": ["physical profile"],
-            "recruiting_status": ["recruiting status"],
-            "commitment_timeline": ["commitment timeline"],
-            "athletic_background": ["athletic background"],
-            "performance_notes": ["performance notes"],
-            "note_on_recency": ["note on recency", "recency"],
-        }
-
-        extracted: dict[str, str] = {key: "" for key in field_map.keys()}
-        for note in notes:
-            label_norm = _norm_label(note.get("label") or "")
-            for key, aliases in field_map.items():
-                if label_norm in aliases and not extracted[key]:
-                    extracted[key] = str(note.get("body") or "").strip()
-                    break
-
-        prospect_text = str(extracted.get("prospect") or "").strip()
-        prospect_parts = [part.strip() for part in prospect_text.split(",") if part.strip()]
-        hero_name = prospect_parts[0] if prospect_parts else "Prospect"
-        hero_subtitle = ", ".join(prospect_parts[1:]).strip() if len(prospect_parts) > 1 else prospect_text
-
-        grid_fields = [
-            ("recruiting_status", "Recruiting Status"),
-            ("commitment_timeline", "Commitment Timeline"),
-            ("athletic_background", "Athletic Background"),
-            ("performance_notes", "Performance Notes"),
-        ]
-
-        grid_items = []
-        for key, title in grid_fields:
-            value = str(extracted.get(key) or "").strip()
-            if value:
-                grid_items.append({"key": key, "title": title, "value": value})
-
-        return {
-            "hero_name": hero_name,
-            "hero_subtitle": hero_subtitle,
-            "physical_profile": str(extracted.get("physical_profile") or "").strip(),
-            "grid_items": grid_items,
-            "note_on_recency": str(extracted.get("note_on_recency") or "").strip(),
-            "notes": notes,
-        }
-
-    def _image_data_uri(relative_path: list[str], mime_type: str = "image/png") -> str:
-        asset_path = PROJECT_ROOT
-        for part in relative_path:
-            asset_path = asset_path / part
-        try:
-            if not asset_path.exists():
-                return ""
-            encoded = base64.b64encode(asset_path.read_bytes()).decode("ascii")
-            return f"data:{mime_type};base64,{encoded}"
-        except Exception:
-            return ""
-
-    def _helmet_image_data_uri() -> str:
-        return _image_data_uri(["Logos", "Helmate.png"])
-
-    def _football_image_data_uri() -> str:
-        return _image_data_uri(["Logos", "Football.png"])
-
-    def _render_summary_card(title: str, raw_text: str | None, section_key: str, compact: bool = False) -> None:
-        if section_key == "recruiting":
-            data = _build_recruiting_summary_layout(raw_text)
-            notes = list(data.get("notes") or [])
-            if not notes:
-                st.markdown("### Recruiting Scout Summary")
-                st.markdown(str(raw_text or "No recruiting summary available."))
-                return
-
-            hero_name = str(data.get("hero_name") or "Prospect").strip()
-            hero_subtitle = str(data.get("hero_subtitle") or "").strip()
-            physical_profile = str(data.get("physical_profile") or "").strip() or "Physical profile unavailable"
-            grid_items = list(data.get("grid_items") or [])
-            recency_note = str(data.get("note_on_recency") or "").strip()
-            helmet_data_uri = _helmet_image_data_uri()
-            football_data_uri = _football_image_data_uri()
-            helmet_html = (
-                f"<img class='recruiting-dossier-helmet-img' src='{helmet_data_uri}' alt='Helmet' />"
-                if helmet_data_uri
-                else "<div class='recruiting-dossier-helmet-fallback'>🏈</div>"
+        grid_parts.append(
+            (
+                "<article class='recruiting-dossier-note'>"
+                "<div class='recruiting-dossier-note-head'>"
+                f"<h4 class='recruiting-dossier-note-title'>{html.escape(str(item.get('title') or 'Note'))}</h4>"
+                "</div>"
+                "<div class='recruiting-dossier-note-body'>"
+                f"{icon_html}"
+                f"<span>{html.escape(str(item.get('value') or ''))}</span>"
+                "</div>"
+                "</article>"
             )
+        )
 
-            grid_parts: list[str] = []
-            for item in grid_items:
-                item_key = str(item.get("key") or "")
-                icon_html = ""
-                if item_key == "performance_notes" and football_data_uri:
-                    icon_html = (
-                        "<span class='recruiting-dossier-note-icon'>"
-                        f"<img class='recruiting-dossier-note-icon-img' src='{football_data_uri}' alt='Football' />"
-                        "</span>"
-                    )
+    grid_html = "".join(grid_parts)
 
-                grid_parts.append(
-                    (
-                        "<article class='recruiting-dossier-note'>"
-                        "<div class='recruiting-dossier-note-head'>"
-                        f"<h4 class='recruiting-dossier-note-title'>{html.escape(str(item.get('title') or 'Note'))}</h4>"
-                        "</div>"
-                        "<div class='recruiting-dossier-note-body'>"
-                        f"{icon_html}"
-                        f"<span>{html.escape(str(item.get('value') or ''))}</span>"
-                        "</div>"
-                        "</article>"
-                    )
-                )
+    recency_html = (
+        (
+            "<article class='recruiting-dossier-recency'>"
+            "<h4 class='recruiting-dossier-note-title'>Note On Recency</h4>"
+            f"<p class='recruiting-dossier-recency-body'>{html.escape(recency_note)}</p>"
+            "</article>"
+        )
+        if recency_note
+        else ""
+    )
 
-            grid_html = "".join(grid_parts)
+    st.markdown(
+        (
+            "<section class='recruiting-dossier-card'>"
+            "<header class='recruiting-dossier-header recruiting-dossier-kpi-surface'>"
+            "<h3 class='recruiting-dossier-title'>Recruiting Scout Summary</h3>"
+            "</header>"
+            "<div class='recruiting-dossier-hero recruiting-dossier-kpi-surface'>"
+            "<div class='recruiting-dossier-hero-left'>"
+            f"<div class='recruiting-dossier-helmet'>{helmet_html}</div>"
+            "<div class='recruiting-dossier-hero-copy'>"
+            f"<div class='recruiting-dossier-player'>{html.escape(hero_name)}</div>"
+            f"<div class='recruiting-dossier-player-meta'>{html.escape(hero_subtitle)}</div>"
+            "</div>"
+            "</div>"
+            f"<div class='recruiting-dossier-physical'>{html.escape(physical_profile)}</div>"
+            "</div>"
+            f"<div class='recruiting-dossier-grid'>{grid_html}</div>"
+            f"{recency_html}"
+            "</section>"
+        ),
+        unsafe_allow_html=True,
+    )
 
-            recency_html = (
-                (
-                    "<article class='recruiting-dossier-recency'>"
-                    "<h4 class='recruiting-dossier-note-title'>Note On Recency</h4>"
-                    f"<p class='recruiting-dossier-recency-body'>{html.escape(recency_note)}</p>"
-                    "</article>"
-                )
-                if recency_note
-                else ""
-            )
 
-            st.markdown(
-                (
-                    "<section class='recruiting-dossier-card'>"
-                    "<header class='recruiting-dossier-header recruiting-dossier-kpi-surface'>"
-                    "<h3 class='recruiting-dossier-title'>Recruiting Scout Summary</h3>"
-                    "</header>"
-                    "<div class='recruiting-dossier-hero recruiting-dossier-kpi-surface'>"
-                    "<div class='recruiting-dossier-hero-left'>"
-                    f"<div class='recruiting-dossier-helmet'>{helmet_html}</div>"
-                    "<div class='recruiting-dossier-hero-copy'>"
-                    f"<div class='recruiting-dossier-player'>{html.escape(hero_name)}</div>"
-                    f"<div class='recruiting-dossier-player-meta'>{html.escape(hero_subtitle)}</div>"
-                    "</div>"
-                    "</div>"
-                    f"<div class='recruiting-dossier-physical'>{html.escape(physical_profile)}</div>"
-                    "</div>"
-                    f"<div class='recruiting-dossier-grid'>{grid_html}</div>"
-                    f"{recency_html}"
-                    "</section>"
-                ),
-                unsafe_allow_html=True,
-            )
-            return
+def render_structured_summary_card(title: str, raw_text: str | None, section_key: str, compact: bool = False) -> None:
+    if section_key == "recruiting":
+        _render_recruiting_summary_card(raw_text)
+        return
 
-        notes = _parse_summary_notes(raw_text)
-        if not notes:
-            st.markdown(f"### {title}")
-            st.markdown(str(raw_text or "No summary available."))
-            return
+    notes = parse_summary_notes_data(raw_text)
+    if not notes:
+        st.markdown(f"### {title}")
+        st.markdown(str(raw_text or "No summary available."))
+        return
 
-        card_variant = " structured-summary-card--dense" if compact else ""
-        list_variant = " structured-summary-list--dense" if compact else ""
-        note_variant = " structured-summary-note--dense" if compact else ""
+    card_variant = " structured-summary-card--dense" if compact else ""
+    list_variant = " structured-summary-list--dense" if compact else ""
+    note_variant = " structured-summary-note--dense" if compact else ""
 
-        notes_html = "".join(
-            [
-                (
-                    f"<div class='structured-summary-note{note_variant}'>"
-                    f"<div class='structured-summary-note-label'>{html.escape(note.get('label') or 'Note')}</div>"
+    notes_html = "".join(
+        [
+            (
+                f"<div class='structured-summary-note{note_variant}'>"
+                f"<div class='structured-summary-note-label'>{html.escape(note.get('label') or 'Note')}</div>"
+                f"<div class='structured-summary-note-body'>{html.escape(note.get('body') or '')}</div>"
+                "</div>"
+                if str(note.get("label") or "").strip()
+                else (
+                    f"<div class='structured-summary-note structured-summary-note--plain{note_variant}'>"
                     f"<div class='structured-summary-note-body'>{html.escape(note.get('body') or '')}</div>"
                     "</div>"
-                    if str(note.get("label") or "").strip()
-                    else (
-                        f"<div class='structured-summary-note structured-summary-note--plain{note_variant}'>"
-                        f"<div class='structured-summary-note-body'>{html.escape(note.get('body') or '')}</div>"
-                        "</div>"
-                    )
                 )
-                for note in notes
+            )
+            for note in notes
+        ]
+    )
+
+    st.markdown(
+        (
+            f"<section class='structured-summary-card structured-summary-card--{html.escape(section_key)}{card_variant}'>"
+            f"<h3 class='structured-summary-title'>{html.escape(title)}</h3>"
+            f"<div class='structured-summary-list{list_variant}'>{notes_html}</div>"
+            "</section>"
+        ),
+        unsafe_allow_html=True,
+    )
+
+
+def _make_milestone_renderer(milestone_slot: Any, labels: dict[str, str], workflow_label: str) -> Any:
+    def _render_milestone(event: dict[str, str]) -> None:
+        node = str(event.get("node") or "workflow")
+        status = str(event.get("status") or "running")
+        node_label = labels.get(node, node.replace("_", " ").title())
+        if node == "workflow":
+            node_label = workflow_label
+        if status == "completed":
+            milestone_slot.success(f"{node_label}: complete")
+        else:
+            milestone_slot.info(f"{node_label}: running")
+
+    return _render_milestone
+
+
+def _render_structured_report_kpi_cards(report_output: dict[str, Any]) -> None:
+    predicted_score_display = extract_predicted_score_display_data(
+        score_card_html=str(report_output.get("score_card_html") or ""),
+        pred_score_row=report_output.get("pred_score_row") or {},
+        to_float_or_none=to_float_or_none,
+    )
+    kpi_cards = [
+        ("Recruit ID", str(report_output.get("recruit_id") or "N/A")),
+        ("Year", str(report_output.get("selected_year") or "N/A")),
+        ("Target Team", str(report_output.get("target_team") or "N/A")),
+        ("Predicted Score", predicted_score_display),
+    ]
+    kpi_cards_html = "".join(
+        [
+            (
+                f"<div class='structured-report-kpi-card{' structured-report-kpi-card--score' if label == 'Predicted Score' else ''}'>"
+                f"<div class='structured-report-kpi-label'>{html.escape(label)}</div>"
+                f"<div class='structured-report-kpi-value'>{html.escape(value)}</div>"
+                "</div>"
+            )
+            for label, value in kpi_cards
+        ]
+    )
+    st.markdown(
+        (
+            "<div class='structured-report-kpi-wrap'>"
+            f"<div class='structured-report-kpi-grid'>{kpi_cards_html}</div>"
+            "</div>"
+        ),
+        unsafe_allow_html=True,
+    )
+
+
+def _render_structured_historical_comparables(report_output: dict[str, Any]) -> None:
+    st.markdown("### Historical Comparables")
+    comps_data = parse_historical_comparables_md_data(
+        report_output.get("historical_comparables_md"),
+        to_float_or_none=to_float_or_none,
+    )
+    comps_rows = list(comps_data.get("rows") or [])
+    comps_target_position = str(comps_data.get("target_position") or "").strip()
+
+    if comps_rows:
+        comps_position_html = (
+            (
+                "<div class='structured-comps-position-badge'>"
+                "<span>Target Position</span>"
+                f"<span>{html.escape(comps_target_position)}</span>"
+                "</div>"
+            )
+            if comps_target_position
+            else ""
+        )
+        comps_items_html = "".join(
+            [
+                (
+                    "<div class='structured-comps-item'>"
+                    "<div class='structured-comps-item-top'>"
+                    f"<div class='structured-comps-player'>{html.escape(str(row.get('name') or ''))}</div>"
+                    f"<div class='structured-comps-match'>Match {html.escape(str(row.get('match') or ''))}</div>"
+                    "</div>"
+                    "<div class='structured-comps-meta'>"
+                    f"<span class='structured-comps-meta-item'><span class='structured-comps-meta-label'>Class</span><span class='structured-comps-meta-value'>{html.escape(str(row.get('year') or ''))}</span></span>"
+                    f"<span class='structured-comps-meta-item'><span class='structured-comps-meta-label'>State</span><span class='structured-comps-meta-value'>{html.escape(str(row.get('state') or ''))}</span></span>"
+                    f"<span class='structured-comps-meta-item'><span class='structured-comps-meta-label'>Rating</span><span class='structured-comps-meta-value'>{html.escape(str(row.get('rating') or ''))}</span></span>"
+                    "</div>"
+                    "</div>"
+                )
+                for row in comps_rows
             ]
         )
-
         st.markdown(
             (
-                f"<section class='structured-summary-card structured-summary-card--{html.escape(section_key)}{card_variant}'>"
-                f"<h3 class='structured-summary-title'>{html.escape(title)}</h3>"
-                f"<div class='structured-summary-list{list_variant}'>{notes_html}</div>"
-                "</section>"
+                "<div class='structured-comps-wrap'>"
+                f"{comps_position_html}"
+                f"<div class='structured-comps-list'>{comps_items_html}</div>"
+                "</div>"
             ),
             unsafe_allow_html=True,
         )
+    else:
+        fallback_text = str(comps_data.get("raw") or "").strip() or "No historical comparables available."
+        st.markdown(f"<p class='structured-comps-fallback'>{html.escape(fallback_text)}</p>", unsafe_allow_html=True)
+
+
+def render_landing_page() -> None:
+    st.subheader("Welcome To Gridiron Intelligence")
+    st.markdown(
+        """
+Gridiron Intelligence combines model-based analysis and web intelligence to support college football scouting decisions.
+
+Choose one of the two portal workflows:
+1. Recruiting Portal: evaluate high school recruits for team fit and long-term projection.
+2. Transfer Portal: evaluate college players from the 2025 season for likely transfer impact.
+        """
+    )
+
+    left_col, right_col = st.columns(2)
+    with left_col:
+        st.markdown("### Recruiting Portal")
+        st.write("Build a structured scouting report for recruits and ask follow-up questions.")
+        if st.button("Open Recruiting Portal", type="primary", key="landing_open_recruiting"):
+            st.session_state["app_page"] = "Recruiting Portal"
+            st.rerun()
+
+    with right_col:
+        st.markdown("### Transfer Portal")
+        st.write("Assess transfer fit, impact, and transfer-likelihood context for college players.")
+        if st.button("Open Transfer Portal", type="primary", key="landing_open_transfer"):
+            st.session_state["app_page"] = "Transfer Portal"
+            st.rerun()
+
+
+def render_structured_report_with_chat_page() -> None:
+    st.subheader("Recruiting Portal")
+    report_state_key = "structured_chat_report_output"
 
     try:
         player_index = load_player_index()
@@ -1621,27 +1079,28 @@ def render_structured_report_with_chat_page() -> None:
             st.warning("Pick a valid player from the dropdown list.")
             st.stop()
 
-        selected_player_name, selected_position_hint, selected_high_school_hint, _ = _parse_selected_player_label(selected_label)
+        selected_player_name, selected_position_hint, selected_high_school_hint, _ = parse_selected_player_label_data(selected_label)
         milestone_slot = st.empty()
-
-        def _render_structured_milestone(event: dict[str, str]) -> None:
-            node = str(event.get("node") or "workflow")
-            status = str(event.get("status") or "running")
-            labels = {
-                "workflow": "Web Scout Pipeline",
+        _render_structured_milestone = _make_milestone_renderer(
+            milestone_slot=milestone_slot,
+            labels={
                 "recruiting_scout": "Recruiting Scout",
                 "team_scout": "Team Scout",
-            }
-            node_label = labels.get(node, node.replace("_", " ").title())
-            if status == "completed":
-                milestone_slot.success(f"{node_label}: complete")
-            else:
-                milestone_slot.info(f"{node_label}: running")
+            },
+            workflow_label="Web Scout Pipeline",
+        )
 
         with st.spinner("Building structured scouting report..."):
             try:
                 sb = get_supabase_client()
-                bundle = fetch_player_bundle(sb=sb, recruit_id=str(recruit_id))
+                bundle = fetch_player_bundle_data(
+                    sb=sb,
+                    recruit_id=str(recruit_id),
+                    tables=TABLES,
+                    build_player_profile_view=lambda row: build_player_profile_view_data(row, first_non_null=first_non_null),
+                    clean_scouting_profile=lambda scouting: clean_scouting_profile_data(scouting, to_float_or_none=to_float_or_none),
+                    merge_scouting_sources=lambda scouting_row: merge_scouting_sources_data(scouting_row=scouting_row, parse_jsonish=parse_jsonish),
+                )
             except Exception as exc:
                 st.error(f"Structured report failed while fetching player bundle: {exc}")
                 st.stop()
@@ -1679,12 +1138,16 @@ def render_structured_report_with_chat_page() -> None:
                 f"Target team: {target_team}. Class year: {selected_year}. "
                 "Provide grounded trait/development insights relevant for recruiting projection."
             )
-            vector_result = vector_insights_query(
+            vector_result = vector_insights_query_data(
                 sb=sb,
                 query_text=vector_query,
                 position=position or None,
                 top_k=CONFIG["VECTOR_MATCH_COUNT"],
                 threshold=None,
+                vector_match_threshold=CONFIG["VECTOR_MATCH_THRESHOLD"],
+                vector_rpc_name=CONFIG["VECTOR_RPC_NAME"],
+                get_embedding_model=get_embedding_model,
+                to_float_or_none=to_float_or_none,
             )
 
             web_recruiting_summary = ""
@@ -1707,8 +1170,19 @@ def render_structured_report_with_chat_page() -> None:
             finally:
                 milestone_slot.success("Web Scout Pipeline complete")
 
-            historical_comparables_md = get_historical_player_comparables(str(recruit_id))
-            score_card_html = build_score_card_html(pred_score=pred_score_row, pred_threshold=pred_thr_row)
+            historical_comparables_md = get_historical_player_comparables_data(
+                sb=sb,
+                recruit_id=str(recruit_id),
+                tables=TABLES,
+                to_float_or_none=to_float_or_none,
+                score_tier=score_tier,
+            )
+            score_card_html = build_score_card_html_data(
+                pred_score=pred_score_row,
+                pred_threshold=pred_thr_row,
+                to_float_or_none=to_float_or_none,
+                score_tier=score_tier,
+            )
             web_summary = (
                 "Recruiting Scout Summary:\n"
                 f"{web_recruiting_summary or 'No recruiting summary available.'}\n\n"
@@ -1716,9 +1190,10 @@ def render_structured_report_with_chat_page() -> None:
                 f"{web_team_summary or 'No team summary available.'}"
             )
 
-            final_prompt = build_final_prompt(
+            final_prompt = build_final_prompt_data(
                 year=int(selected_year),
                 target_team=str(target_team),
+                persona=st.session_state.get("selected_persona", "Scout"),
                 player_row=player_row,
                 scouting_clean=scouting_clean,
                 hs_athletic_background=str(scouting_clean.get("athletic_background") or "N/A"),
@@ -1727,8 +1202,14 @@ def render_structured_report_with_chat_page() -> None:
                 web_summary=web_summary,
                 vector_result=vector_result,
                 historical_comparables_md=historical_comparables_md,
+                tier_definitions_markdown=tier_definitions_markdown,
             )
-            final_report = run_final_synthesis(final_prompt)
+            final_report = run_final_synthesis_data(
+                prompt=final_prompt,
+                final_model=CONFIG["FINAL_MODEL"],
+                get_llm=get_llm,
+                llm_response_to_text=llm_response_to_text,
+            )
 
         st.session_state[report_state_key] = {
             "player_name": player_name,
@@ -2230,7 +1711,7 @@ def render_structured_report_with_chat_page() -> None:
             unsafe_allow_html=True,
         )
 
-        selected_name_hint, selected_position_hint, selected_high_school_hint, _ = _parse_selected_player_label(selected_label)
+        selected_name_hint, selected_position_hint, selected_high_school_hint, _ = parse_selected_player_label_data(selected_label)
 
         player_name = str(report_output.get("player_name") or selected_name_hint or "Unknown Player").strip()
         position = str(report_output.get("position") or selected_position_hint or "").strip()
@@ -2247,93 +1728,19 @@ def render_structured_report_with_chat_page() -> None:
             unsafe_allow_html=True,
         )
 
-        predicted_score_display = _extract_predicted_score_display(
-            score_card_html=str(report_output.get("score_card_html") or ""),
-            pred_score_row=report_output.get("pred_score_row") or {},
-        )
-        kpi_cards = [
-            ("Recruit ID", str(report_output.get("recruit_id") or "N/A")),
-            ("Year", str(report_output.get("selected_year") or "N/A")),
-            ("Target Team", str(report_output.get("target_team") or "N/A")),
-            ("Predicted Score", predicted_score_display),
-        ]
-        kpi_cards_html = "".join(
-            [
-                (
-                    f"<div class='structured-report-kpi-card{' structured-report-kpi-card--score' if label == 'Predicted Score' else ''}'>"
-                    f"<div class='structured-report-kpi-label'>{html.escape(label)}</div>"
-                    f"<div class='structured-report-kpi-value'>{html.escape(value)}</div>"
-                    "</div>"
-                )
-                for label, value in kpi_cards
-            ]
-        )
-        st.markdown(
-            (
-                "<div class='structured-report-kpi-wrap'>"
-                f"<div class='structured-report-kpi-grid'>{kpi_cards_html}</div>"
-                "</div>"
-            ),
-            unsafe_allow_html=True,
-        )
-
-        st.markdown("### Historical Comparables")
-        comps_data = _parse_historical_comparables_md(report_output.get("historical_comparables_md"))
-        comps_rows = list(comps_data.get("rows") or [])
-        comps_target_position = str(comps_data.get("target_position") or "").strip()
-
-        if comps_rows:
-            comps_position_html = (
-                (
-                    "<div class='structured-comps-position-badge'>"
-                    "<span>Target Position</span>"
-                    f"<span>{html.escape(comps_target_position)}</span>"
-                    "</div>"
-                )
-                if comps_target_position
-                else ""
-            )
-            comps_items_html = "".join(
-                [
-                    (
-                        "<div class='structured-comps-item'>"
-                        "<div class='structured-comps-item-top'>"
-                        f"<div class='structured-comps-player'>{html.escape(str(row.get('name') or ''))}</div>"
-                        f"<div class='structured-comps-match'>Match {html.escape(str(row.get('match') or ''))}</div>"
-                        "</div>"
-                        "<div class='structured-comps-meta'>"
-                        f"<span class='structured-comps-meta-item'><span class='structured-comps-meta-label'>Class</span><span class='structured-comps-meta-value'>{html.escape(str(row.get('year') or ''))}</span></span>"
-                        f"<span class='structured-comps-meta-item'><span class='structured-comps-meta-label'>State</span><span class='structured-comps-meta-value'>{html.escape(str(row.get('state') or ''))}</span></span>"
-                        f"<span class='structured-comps-meta-item'><span class='structured-comps-meta-label'>Rating</span><span class='structured-comps-meta-value'>{html.escape(str(row.get('rating') or ''))}</span></span>"
-                        "</div>"
-                        "</div>"
-                    )
-                    for row in comps_rows
-                ]
-            )
-            st.markdown(
-                (
-                    "<div class='structured-comps-wrap'>"
-                    f"{comps_position_html}"
-                    f"<div class='structured-comps-list'>{comps_items_html}</div>"
-                    "</div>"
-                ),
-                unsafe_allow_html=True,
-            )
-        else:
-            fallback_text = str(comps_data.get("raw") or "").strip() or "No historical comparables available."
-            st.markdown(f"<p class='structured-comps-fallback'>{html.escape(fallback_text)}</p>", unsafe_allow_html=True)
+        _render_structured_report_kpi_cards(report_output)
+        _render_structured_historical_comparables(report_output)
 
         st.markdown("### Projected Model Score")
         st.markdown(str(report_output.get("score_card_html") or ""), unsafe_allow_html=True)
 
-        _render_summary_card(
+        render_structured_summary_card(
             title="Recruiting Scout Summary",
             raw_text=str(report_output.get("web_recruiting_summary") or "No recruiting summary available."),
             section_key="recruiting",
         )
 
-        _render_summary_card(
+        render_structured_summary_card(
             title="Team Scout Summary",
             raw_text=str(report_output.get("web_team_summary") or "No team summary available."),
             section_key="team",
@@ -2344,9 +1751,9 @@ def render_structured_report_with_chat_page() -> None:
 
         with st.expander("Development Information (temporary)"):
             st.markdown("#### Player Profile")
-            st.code(
-                json.dumps(report_output.get("player_profile") or report_output.get("player_row") or {}, indent=2, default=str),
-                language="json",
+            _render_json_lazy(
+                report_output.get("player_profile") or report_output.get("player_row") or {},
+                key="recruiting_dev_player_profile_json",
             )
 
             st.markdown("#### Vector Insights")
@@ -2364,7 +1771,7 @@ def render_structured_report_with_chat_page() -> None:
             st.markdown("#### Scouting Profile (General)")
             scouting_clean = report_output.get("scouting_clean") or {}
             if scouting_clean:
-                st.code(json.dumps(scouting_clean, indent=2, default=str), language="json")
+                _render_json_lazy(scouting_clean, key="recruiting_dev_scouting_profile_json")
             else:
                 st.write("No scouting profile fields were available for this player.")
 
@@ -2404,28 +1811,29 @@ def render_structured_report_with_chat_page() -> None:
 
         with st.chat_message("assistant"):
             milestone_slot = st.empty()
-
-            def _render_milestone(event: dict[str, str]) -> None:
-                node = str(event.get("node") or "workflow")
-                status = str(event.get("status") or "running")
-                labels = {
-                    "workflow": "Pipeline",
+            _render_milestone = _make_milestone_renderer(
+                milestone_slot=milestone_slot,
+                labels={
                     "lead_delegator": "Delegator",
                     "cfbd_analyst": "CFBD Analyst",
                     "recruiting_scout": "Recruiting Scout",
                     "team_scout": "Team Scout",
                     "lead_synthesizer": "Lead Synthesizer",
-                }
-                node_label = labels.get(node, node.replace("_", " ").title())
-                if status == "completed":
-                    milestone_slot.success(f"{node_label}: complete")
-                else:
-                    milestone_slot.info(f"{node_label}: running")
+                },
+                workflow_label="Pipeline",
+            )
 
             with st.spinner("Thinking..."):
                 try:
                     graph = get_cached_agent_graph()
-                    current_state = _compact_open_chat_state(st.session_state.get("structured_chat_agent_state", {}))
+                    current_state = compact_open_chat_state(
+                        st.session_state.get("structured_chat_agent_state", {}),
+                        max_turns=CHAT_STATE_MAX_TURNS,
+                        max_trace=CHAT_STATE_MAX_TRACE,
+                        max_errors=CHAT_STATE_MAX_ERRORS,
+                        max_citations=CHAT_STATE_MAX_CITATIONS,
+                        max_candidates=CHAT_STATE_MAX_CANDIDATES,
+                    )
                     result_state = orchestrate_chat_turn(
                         user_prompt=user_prompt,
                         current_state=current_state,
@@ -2434,7 +1842,14 @@ def render_structured_report_with_chat_page() -> None:
                     )
                     assistant_text = str(result_state.get("final_report") or "No response generated.")
 
-                    st.session_state["structured_chat_agent_state"] = _compact_open_chat_state(result_state)
+                    st.session_state["structured_chat_agent_state"] = compact_open_chat_state(
+                        result_state,
+                        max_turns=CHAT_STATE_MAX_TURNS,
+                        max_trace=CHAT_STATE_MAX_TRACE,
+                        max_errors=CHAT_STATE_MAX_ERRORS,
+                        max_citations=CHAT_STATE_MAX_CITATIONS,
+                        max_candidates=CHAT_STATE_MAX_CANDIDATES,
+                    )
                     st.session_state["structured_chat_messages"].append({"role": "assistant", "content": assistant_text})
                     milestone_slot.success("Pipeline complete")
                     st.markdown(assistant_text)
@@ -2465,7 +1880,7 @@ def render_structured_report_with_chat_page() -> None:
                     trace_log = list(result_state.get("trace_log") or [])
                     if trace_log:
                         with st.expander("Execution Trace"):
-                            st.code(json.dumps(trace_log, indent=2, default=str), language="json")
+                            _render_json_lazy(trace_log, key="recruiting_chat_execution_trace_json")
 
                     errors = result_state.get("errors", [])
                     if errors:
@@ -2476,6 +1891,277 @@ def render_structured_report_with_chat_page() -> None:
                     err_text = f"Open chat failed: {exc}"
                     st.session_state["structured_chat_messages"].append({"role": "assistant", "content": err_text})
                     st.error(err_text)
+
+
+def render_potential_transfers_with_chat_page() -> None:
+    st.subheader("Transfer Portal")
+    report_state_key = "transfer_chat_report_output"
+
+    try:
+        transfer_index = load_transfer_player_index()
+    except Exception as exc:
+        st.error(f"Unable to load transfer player index: {exc}")
+        st.stop()
+
+    if transfer_index.empty:
+        st.info("No transfer candidates found in gi_college_master for last_season = 2025 with CFBD athlete IDs.")
+        return
+
+    positions = sorted([p for p in transfer_index["position"].dropna().astype(str).str.strip().unique().tolist() if p])
+    position_options = ["ALL"] + positions
+    selected_position = st.selectbox(
+        "Position Filter",
+        position_options,
+        index=0,
+        key="transfer_chat_position_filter",
+    )
+
+    filtered_df = transfer_index.copy()
+    if selected_position != "ALL":
+        filtered_df = filtered_df[filtered_df["position"] == selected_position].copy()
+
+    player_labels = filtered_df["player_label"].tolist()
+    selected_label = (
+        st.selectbox("Transfer Candidate", player_labels, key="transfer_chat_player")
+        if player_labels
+        else ""
+    )
+    target_team = st.selectbox("Target Team", TARGET_TEAMS, index=0, key="transfer_chat_target_team")
+
+    if st.button("Generate Transfer Impact Report", type="primary", key="transfer_chat_generate_report"):
+        allowed, retry_after = _allow_structured_report_submission()
+        if not allowed:
+            st.warning(
+                f"Rate limit reached: max {STRUCTURED_REPORT_RATE_LIMIT_COUNT} reports per "
+                f"{STRUCTURED_REPORT_RATE_LIMIT_WINDOW_SECONDS} seconds. Try again in ~{retry_after}s."
+            )
+            return
+
+        if not selected_label:
+            st.warning("No transfer candidates available for selected filter.")
+            return
+
+        row_lookup = dict(zip(filtered_df["player_label"], filtered_df.to_dict(orient="records")))
+        selected_row = dict(row_lookup.get(selected_label) or {})
+        college_player_id = str(selected_row.get("college_player_id") or "").strip()
+        cfbd_athlete_id = str(selected_row.get("cfbd_athlete_id") or "").strip()
+        position = str(selected_row.get("position") or "").strip()
+
+        milestone_slot = st.empty()
+
+        def _render_transfer_milestone(event: dict[str, str]) -> None:
+            node = str(event.get("node") or "transfer_pipeline")
+            status = str(event.get("status") or "running")
+            labels = {
+                "transfer_pipeline": "Transfer Pipeline",
+                "profile_lookup": "College Profile Lookup",
+                "parallel_fetch": "Parallel Data Fetch",
+                "cfbd_usage": "CFBD Usage Pull",
+                "cfbd_stats": "CFBD Season Stats Pull",
+                "player_news_search": "Player News Search",
+                "team_news_search": "Team News Search",
+                "summarization": "News Summarization",
+                "final_synthesis": "Final Synthesis",
+            }
+            label = labels.get(node, node.replace("_", " ").title())
+            if status == "completed":
+                milestone_slot.success(f"{label}: complete")
+            else:
+                milestone_slot.info(f"{label}: running")
+
+        with st.spinner("Building transfer impact report..."):
+            result = orchestrate_transfer_report(
+                college_player_id=college_player_id,
+                cfbd_athlete_id=cfbd_athlete_id,
+                target_team=str(target_team),
+                position=position,
+                year=2025,
+                exclude_garbage_time=True,
+                progress_callback=_render_transfer_milestone,
+            )
+
+        milestone_slot.success("Transfer pipeline complete")
+        st.session_state[report_state_key] = result
+        _ = _get_transfer_render_artifacts(result, position_hint=position)
+        st.session_state["transfer_chat_messages"] = []
+        st.session_state["transfer_chat_state"] = {
+            "transfer_report_context": dict(result.get("transfer_report_context") or {}),
+            "conversation_history": [],
+            "trace_log": list(result.get("trace_log") or []),
+        }
+
+    report_output = st.session_state.get(report_state_key)
+    if not isinstance(report_output, dict):
+        return
+
+    player_name = str(report_output.get("player_name") or "Unknown Player").strip()
+    position = str(report_output.get("position") or "").strip()
+    st.markdown(f"## Potential Transfer Evaluation - {player_name}")
+    st.markdown(
+        f"- Position: {position or 'N/A'}  \\\n+- Target Team: {str(report_output.get('target_team') or 'N/A')}  \\\n+- CFBD Athlete ID: {str(report_output.get('cfbd_athlete_id') or 'N/A')}"
+    )
+
+    st.markdown("### Final Transfer Impact Synthesis")
+    st.markdown(str(report_output.get("final_report") or "No synthesis generated."))
+
+    pull_config = dict(report_output.get("pull_config") or {})
+    artifacts = _get_transfer_render_artifacts(report_output, position_hint=position)
+
+    st.markdown("### Charts")
+    st.caption(
+        "Usage values are displayed as percentages with one decimal place. "
+        f"Garbage time excluded: {'Yes' if bool(pull_config.get('exclude_garbage_time', True)) else 'No'}."
+    )
+    _render_transfer_charts_side_by_side(section_key="transfer_portal", artifacts=artifacts)
+
+    st.markdown("### Transfer Tables")
+    _render_transfer_tables(artifacts=artifacts)
+
+    usage_table_compact = list(report_output.get("usage_table_compact") or [])
+    usage_yoy_compact = list(report_output.get("usage_yoy_compact") or [])
+    season_stats_table_compact = list(report_output.get("season_stats_table_compact") or [])
+    pull_diagnostics = list(report_output.get("pull_diagnostics") or [])
+
+    with st.expander("Transfer Debug Details"):
+        branch_status = dict(report_output.get("branch_status") or {})
+        if branch_status:
+            st.markdown("#### Pipeline Branch Health")
+            _render_json_lazy(branch_status, key="transfer_portal_branch_status_json", label="Render branch health JSON")
+
+            cfbd_branch = dict(branch_status.get("cfbd_context") or {})
+            player_branch = dict(branch_status.get("player_news_search") or {})
+            team_branch = dict(branch_status.get("team_news_search") or {})
+            summary_branch = dict(branch_status.get("summarization") or {})
+
+            st.write(
+                f"- CFBD context: {cfbd_branch.get('status', 'unknown')} | "
+                f"Usage rows: {cfbd_branch.get('usage_year_rows', 0)} | "
+                f"Stats rows: {cfbd_branch.get('stats_year_rows', 0)} | "
+                f"Reason: {cfbd_branch.get('reason', '')}"
+            )
+            st.write(
+                f"- Player news search: {player_branch.get('status', 'unknown')} | "
+                f"Rows: {player_branch.get('row_count', 0)} | "
+                f"Reason: {player_branch.get('reason', '')}"
+            )
+            st.write(
+                f"- Team news search: {team_branch.get('status', 'unknown')} | "
+                f"Rows: {team_branch.get('row_count', 0)} | "
+                f"Reason: {team_branch.get('reason', '')}"
+            )
+            st.write(
+                f"- Summarization: player={summary_branch.get('player_status', 'unknown')} "
+                f"({summary_branch.get('player_reason', '')}) | "
+                f"team={summary_branch.get('team_status', 'unknown')} "
+                f"({summary_branch.get('team_reason', '')})"
+            )
+
+        st.markdown("#### Player Transfer and Recency Summary")
+        st.markdown(str(report_output.get("player_news_summary") or "No player-news summary available."))
+
+        st.markdown("#### Target Team Context Summary")
+        st.markdown(str(report_output.get("team_news_summary") or "No team summary available."))
+
+        st.markdown("#### College Player Profile")
+        _render_json_lazy(report_output.get("college_player") or {}, key="transfer_portal_college_player_json")
+
+        st.markdown("#### 2025 Season Usage (CFBD)")
+        _render_json_lazy(report_output.get("cfbd_usage_2025") or {}, key="transfer_portal_cfbd_usage_2025_json")
+
+        st.markdown("#### 2025 Season Stats (CFBD)")
+        _render_json_lazy(report_output.get("cfbd_stats_2025") or {}, key="transfer_portal_cfbd_stats_2025_json")
+
+        st.markdown("#### Career Context")
+        _render_json_lazy(report_output.get("career_context") or {}, key="transfer_portal_career_context_json")
+
+        st.markdown("#### Career Usage By Year (CFBD)")
+        _render_json_lazy(report_output.get("cfbd_usage_career") or [], key="transfer_portal_cfbd_usage_career_json")
+
+        st.markdown("#### Career Season Stats By Year (CFBD)")
+        _render_json_lazy(report_output.get("cfbd_stats_career") or [], key="transfer_portal_cfbd_stats_career_json")
+
+        st.markdown("#### Compact Usage Table JSON")
+        _render_json_lazy(usage_table_compact, key="transfer_portal_usage_table_compact_json")
+        st.markdown("#### Usage YoY Delta Table JSON")
+        _render_json_lazy(usage_yoy_compact, key="transfer_portal_usage_yoy_compact_json")
+        st.markdown("#### Compact Season Stats Table JSON")
+        _render_json_lazy(season_stats_table_compact, key="transfer_portal_season_stats_compact_json")
+
+        st.markdown("#### Pull Config")
+        _render_json_lazy(pull_config, key="transfer_portal_pull_config_json")
+        st.markdown("#### Per-Year Diagnostics")
+        diagnostics_df = rows_to_dynamic_table(
+            pull_diagnostics,
+            leading_columns=["year", "endpoint", "status", "reason", "rows_pre_filter", "rows_post_filter", "queried_teams"],
+        )
+        if not diagnostics_df.empty:
+            st.dataframe(diagnostics_df, use_container_width=True)
+        else:
+            st.write("No diagnostics available.")
+
+    st.write("---")
+    st.subheader("Open Chat")
+    st.caption("Follow-up chat is context-first. CFBD refresh is disabled; optional DDG recency refresh may be used.")
+
+    if "transfer_chat_messages" not in st.session_state:
+        st.session_state["transfer_chat_messages"] = []
+    if "transfer_chat_state" not in st.session_state:
+        st.session_state["transfer_chat_state"] = {
+            "transfer_report_context": dict(report_output.get("transfer_report_context") or {}),
+            "conversation_history": [],
+            "trace_log": list(report_output.get("trace_log") or []),
+        }
+
+    col1, col2 = st.columns([1, 5])
+    with col1:
+        if st.button("Clear Chat", key="transfer_chat_clear"):
+            st.session_state["transfer_chat_messages"] = []
+            st.session_state["transfer_chat_state"] = {
+                "transfer_report_context": dict(report_output.get("transfer_report_context") or {}),
+                "conversation_history": [],
+                "trace_log": [],
+            }
+            st.rerun()
+
+    for message in st.session_state["transfer_chat_messages"]:
+        with st.chat_message(message.get("role", "assistant")):
+            st.markdown(str(message.get("content", "")))
+
+    user_prompt = st.chat_input(
+        "Ask follow-up questions about this transfer scenario...",
+        key="transfer_chat_input",
+    )
+    if not user_prompt:
+        return
+
+    st.session_state["transfer_chat_messages"].append({"role": "user", "content": user_prompt})
+    with st.chat_message("user"):
+        st.markdown(user_prompt)
+
+    with st.chat_message("assistant"):
+        with st.spinner("Thinking..."):
+            result_state = orchestrate_transfer_chat_turn(
+                user_prompt=user_prompt,
+                current_state=compact_transfer_chat_state(
+                    st.session_state.get("transfer_chat_state"),
+                    max_turns=CHAT_STATE_MAX_TURNS,
+                    max_trace=CHAT_STATE_MAX_TRACE,
+                ),
+                allow_web_refresh=True,
+            )
+            assistant_text = str(result_state.get("final_report") or "No response generated.")
+            st.session_state["transfer_chat_state"] = compact_transfer_chat_state(
+                result_state,
+                max_turns=CHAT_STATE_MAX_TURNS,
+                max_trace=CHAT_STATE_MAX_TRACE,
+            )
+            st.session_state["transfer_chat_messages"].append({"role": "assistant", "content": assistant_text})
+            st.markdown(assistant_text)
+
+            trace_log = list(result_state.get("trace_log") or [])
+            if trace_log:
+                with st.expander("Execution Trace"):
+                    _render_json_lazy(trace_log, key="transfer_chat_execution_trace_json")
 
 
 def render_open_chat_page() -> None:
@@ -2532,7 +2218,14 @@ def render_open_chat_page() -> None:
         with st.spinner("Thinking..."):
             try:
                 graph = get_cached_agent_graph()
-                current_state = _compact_open_chat_state(st.session_state.get("open_chat_agent_state", {}))
+                current_state = compact_open_chat_state(
+                    st.session_state.get("open_chat_agent_state", {}),
+                    max_turns=CHAT_STATE_MAX_TURNS,
+                    max_trace=CHAT_STATE_MAX_TRACE,
+                    max_errors=CHAT_STATE_MAX_ERRORS,
+                    max_citations=CHAT_STATE_MAX_CITATIONS,
+                    max_candidates=CHAT_STATE_MAX_CANDIDATES,
+                )
                 result_state = orchestrate_chat_turn(
                     user_prompt=user_prompt,
                     current_state=current_state,
@@ -2541,7 +2234,14 @@ def render_open_chat_page() -> None:
                 )
                 assistant_text = str(result_state.get("final_report") or "No response generated.")
 
-                st.session_state["open_chat_agent_state"] = _compact_open_chat_state(result_state)
+                st.session_state["open_chat_agent_state"] = compact_open_chat_state(
+                    result_state,
+                    max_turns=CHAT_STATE_MAX_TURNS,
+                    max_trace=CHAT_STATE_MAX_TRACE,
+                    max_errors=CHAT_STATE_MAX_ERRORS,
+                    max_citations=CHAT_STATE_MAX_CITATIONS,
+                    max_candidates=CHAT_STATE_MAX_CANDIDATES,
+                )
                 st.session_state["open_chat_messages"].append({"role": "assistant", "content": assistant_text})
                 milestone_slot.success("Pipeline complete")
                 st.markdown(assistant_text)
@@ -2565,7 +2265,7 @@ def render_open_chat_page() -> None:
                 trace_log = list(result_state.get("trace_log") or [])
                 if trace_log:
                     with st.expander("Execution Trace"):
-                        st.code(json.dumps(trace_log, indent=2, default=str), language="json")
+                        _render_json_lazy(trace_log, key="open_chat_execution_trace_json")
 
                 errors = result_state.get("errors", [])
                 if errors:
@@ -2578,10 +2278,12 @@ def render_open_chat_page() -> None:
                 st.error(err_text)
 
 
-if app_page == "Structured Report":
-    render_structured_report_page()
-elif app_page == "Structured Report + Open Chat":
+if app_page == "Landing Page":
+    render_landing_page()
+elif app_page == "Recruiting Portal":
     render_structured_report_with_chat_page()
+elif app_page == "Transfer Portal":
+    render_potential_transfers_with_chat_page()
 elif app_page == "Open Chat":
     render_open_chat_page()
 else:

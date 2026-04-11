@@ -428,3 +428,101 @@ def query_vector_factoids(
         return {"status": "ok", "reason": "rpc returned", "data": rows}
     except Exception as exc:
         return {"status": "skipped", "reason": f"Vector RPC unavailable: {exc}", "data": []}
+
+
+def list_transfer_candidates(
+    last_season: int = 2025,
+    position: str | None = None,
+    limit: int = 5000,
+) -> dict[str, Any]:
+    sb = get_supabase_client()
+    if sb is None:
+        return {
+            "status": "error",
+            "reason": "Supabase client is not configured",
+            "data": [],
+            "citations": [],
+        }
+
+    max_limit = max(1, min(int(limit), 20000))
+    query = (
+        sb.table(TABLES["college_master"])
+        .select(
+            "college_player_id, cfbd_athlete_id, full_name, first_name, last_name, position, "
+            "teams, first_season, last_season, seasons_active, season_span, years_played, "
+            "conference, player_url, home_state, search_text"
+        )
+        .eq("last_season", int(last_season))
+        .order("full_name")
+        .range(0, max_limit - 1)
+    )
+
+    if position:
+        query = query.eq("position", str(position).strip())
+
+    rows = query.execute().data or []
+
+    filtered_rows: list[dict[str, Any]] = []
+    for row in rows:
+        athlete_id = str(row.get("cfbd_athlete_id") or "").strip()
+        if not athlete_id:
+            continue
+        filtered_rows.append(dict(row))
+
+    return {
+        "status": "ok",
+        "reason": "transfer candidates fetched",
+        "data": filtered_rows,
+        "citations": [
+            {"source_type": "sql", "source_name": TABLES["college_master"], "source_url": ""},
+        ],
+    }
+
+
+def fetch_college_player_bundle(
+    college_player_id: str | None = None,
+    cfbd_athlete_id: str | None = None,
+) -> dict[str, Any]:
+    sb = get_supabase_client()
+    if sb is None:
+        return {
+            "status": "error",
+            "reason": "Supabase client is not configured",
+            "data": {},
+            "citations": [],
+        }
+
+    college_id = str(college_player_id or "").strip()
+    athlete_id = str(cfbd_athlete_id or "").strip()
+
+    query = sb.table(TABLES["college_master"]).select("*")
+    if college_id:
+        query = query.eq("college_player_id", college_id)
+    elif athlete_id:
+        query = query.eq("cfbd_athlete_id", athlete_id)
+    else:
+        return {
+            "status": "error",
+            "reason": "missing college_player_id or cfbd_athlete_id",
+            "data": {},
+            "citations": [],
+        }
+
+    rows = query.limit(1).execute().data or []
+    player = dict(rows[0]) if rows else {}
+
+    resolved_athlete_id = str(player.get("cfbd_athlete_id") or athlete_id or "").strip()
+    resolved_college_id = str(player.get("college_player_id") or college_id or "").strip()
+
+    return {
+        "status": "ok",
+        "reason": "college bundle fetched" if player else "no college player row",
+        "data": {
+            "college_player_id": resolved_college_id,
+            "cfbd_athlete_id": resolved_athlete_id,
+            "college_player": player,
+        },
+        "citations": [
+            {"source_type": "sql", "source_name": TABLES["college_master"], "source_url": ""},
+        ],
+    }

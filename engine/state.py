@@ -226,3 +226,55 @@ def initial_structured_web_state(
         "errors": [],
         "trace_log": [],
     }
+
+
+def compact_open_chat_state(
+    state: dict[str, Any] | None,
+    max_turns: int = 6,
+    max_trace: int = 10,
+    max_errors: int = 6,
+    max_citations: int = 16,
+    max_candidates: int = 3,
+) -> dict[str, Any]:
+    src = dict(state or {})
+    compact: dict[str, Any] = {
+        "mode": "chat",
+        "user_query": str(src.get("user_query") or ""),
+        "target_player_name": str(src.get("target_player_name") or ""),
+        "player_name": str(src.get("player_name") or ""),
+        "recruit_id": str(src.get("recruit_id") or ""),
+        "cfbd_athlete_id": str(src.get("cfbd_athlete_id") or ""),
+        "target_team": str(src.get("target_team") or ""),
+        "year": int(src.get("year") or 0),
+        "requires_identity_clarification": bool(src.get("requires_identity_clarification")),
+        "clarification_prompt": str(src.get("clarification_prompt") or ""),
+        "pending_identity_query": str(src.get("pending_identity_query") or ""),
+        "security_halt": bool(src.get("security_halt")),
+        "security_message": str(src.get("security_message") or ""),
+        "next_step": str(src.get("next_step") or "supervisor"),
+    }
+
+    compact["identity_candidates"] = list(src.get("identity_candidates") or [])[-max_candidates:]
+    compact["conversation_history"] = list(src.get("conversation_history") or [])[-max_turns * 2 :]
+    compact["trace_log"] = list(src.get("trace_log") or [])[-max_trace:]
+    compact["errors"] = list(src.get("errors") or [])[-max_errors:]
+    compact["citations"] = list(src.get("citations") or [])[-max_citations:]
+
+    compact["sql_data_context"] = {}
+    compact["web_research_context"] = ""
+    compact["vector_factoids"] = []
+    compact["comparables_context"] = ""
+    return compact
+
+
+def compact_transfer_chat_state(
+    state: dict[str, Any] | None,
+    max_turns: int = 6,
+    max_trace: int = 10,
+) -> dict[str, Any]:
+    src = dict(state or {})
+    return {
+        "transfer_report_context": dict(src.get("transfer_report_context") or {}),
+        "conversation_history": list(src.get("conversation_history") or [])[-max_turns * 2 :],
+        "trace_log": list(src.get("trace_log") or [])[-max_trace:],
+    }

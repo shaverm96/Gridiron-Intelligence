@@ -1,0 +1,16 @@
+flowchart TD
+    A[Landing Page] --> B{Workspace Selection}
+    B --> C[Recruiting Portal]
+    B --> D[Transfer Portal]
+    B --> E[Local CFBD Debugger]
+
+    C --> C1[Generate Recruiting Report]
+    C1 --> C2[Open Chat]
+
+    D --> D1[Generate Transfer Report]
+    D1 --> D2[Charts and Tables]
+    D2 --> D3[Transfer Debug Details]
+    D3 --> D4[Open Chat]
+
+    E --> E1[Run Canonical CFBD Pull]
+    E1 --> E2[Inspect Raw and Compact Payloads]
