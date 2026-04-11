@@ -1,0 +1,30 @@
+flowchart TD
+    A[User Inputs: Position Candidate Team] --> B[Rate Limit Guard]
+    B --> C[Fetch College Player Bundle]
+
+    C --> D[Parallel Branches]
+    D --> D1[CFBD Context Branch]
+    D --> D2[Player News Search Branch]
+    D --> D3[Team News Search Branch]
+
+    D1 --> E1[orchestrate_transfer_cfbd_context]
+    E1 --> E2[Usage and Season Stats Pulls]
+    E2 --> E3[Compact Tables and Diagnostics]
+
+    D2 --> F1[search_web_query_tool]
+    F1 --> F2[summarize_payload_tool]
+
+    D3 --> G1[search_web_query_tool]
+    G1 --> G2[summarize_payload_tool]
+
+    E3 --> H[Transfer Synthesis Prompt]
+    F2 --> H
+    G2 --> H
+    C --> H
+
+    H --> I[Gemini Final Transfer Synthesis]
+    I --> J[Transfer Output]
+    J --> K[Side by Side Charts]
+    K --> L[Tables]
+    L --> M[Transfer Debug Details]
+    M --> N[Transfer Open Chat]

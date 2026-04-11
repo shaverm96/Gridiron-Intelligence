@@ -426,8 +426,16 @@ def summarize_payload_tool(summary_prompt: str, payload: Any) -> dict[str, Any]:
     full_prompt = f"{summary_prompt}\n\nPayload:\n{payload_text}"
     prompt_with_date = _with_current_date_context(full_prompt)
     _log_prompt_size("summarize_payload_tool", prompt_with_date)
-    response = llm.invoke(prompt_with_date)
-    cleaned = sanitize_model_summary_text(_llm_response_to_text(response))
+    try:
+        response = llm.invoke(prompt_with_date)
+        cleaned = sanitize_model_summary_text(_llm_response_to_text(response))
+    except Exception as exc:
+        return {
+            "status": "skipped",
+            "reason": f"summary generation failed: {exc}",
+            "data": "Summary unavailable: summary generation failed.",
+            "citations": [],
+        }
     return {
         "status": "ok",
         "reason": "summary complete",

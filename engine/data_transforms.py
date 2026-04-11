@@ -135,6 +135,365 @@ def build_player_profile_view_data(
     return {k: v for k, v in profile.items() if not _is_blank(v)}
 
 
+def transfer_to_percent_points(value: Any) -> float | None:
+    try:
+        if value is None:
+            return None
+        numeric = float(value)
+    except Exception:
+        return None
+    converted = numeric * 100.0 if abs(numeric) <= 1.0 else numeric
+    return round(converted, 1)
+
+
+def transfer_position_usage_order(position_hint: str, metric_cols: list[str]) -> list[str]:
+    normalized = str(position_hint or "").strip().upper()
+    custom_order = {
+        "QB": ["pass", "rush", "overall", "third_down", "passing_downs"],
+        "RB": ["rush", "pass", "overall", "third_down", "passing_downs"],
+        "WR": ["pass", "overall", "third_down", "passing_downs", "rush"],
+        "TE": ["pass", "overall", "third_down", "passing_downs", "rush"],
+    }
+    preferred = custom_order.get(normalized, ["overall", "pass", "rush", "third_down", "passing_downs"])
+    ordered = [metric for metric in preferred if metric in metric_cols]
+    for metric in metric_cols:
+        if metric not in ordered:
+            ordered.append(metric)
+    return ordered
+
+
+def transfer_position_stat_order(position_hint: str, stat_cols: list[str]) -> list[str]:
+    normalized = str(position_hint or "").strip().upper()
+    preferred_tokens = {
+        "QB": ["passing", "pass", "rushing", "rush", "sack", "fumble"],
+        "RB": ["rushing", "rush", "receiving", "pass", "fumble"],
+        "WR": ["receiving", "rushing", "rush", "fumble"],
+        "TE": ["receiving", "rushing", "rush", "fumble"],
+    }
+    tokens = preferred_tokens.get(normalized, ["passing", "rushing", "receiving", "defensive", "kicking", "punt"])
+
+    def _score(column_name: str) -> tuple[int, str]:
+        lowered = str(column_name or "").lower()
+        for idx, token in enumerate(tokens):
+            if token in lowered:
+                return idx, lowered
+        return len(tokens) + 1, lowered
+
+    return sorted(stat_cols, key=_score)
+
+
+def build_transfer_usage_with_yoy_table(
+    usage_table_compact: list[dict[str, Any]],
+    usage_yoy_compact: list[dict[str, Any]],
+    position_hint: str = "",
+) -> tuple[pd.DataFrame, list[str], list[str]]:
+    usage_metrics = ["overall", "pass", "rush", "third_down", "passing_downs"]
+    metric_cols = [metric for metric in usage_metrics if any(row.get(metric) is not None for row in usage_table_compact)]
+    metric_cols = transfer_position_usage_order(position_hint, metric_cols)
+
+    yoy_lookup: dict[int, dict[str, Any]] = {}
+    for row in usage_yoy_compact:
+        try:
+            yoy_lookup[int(row.get("to_year") or 0)] = dict(row)
+        except Exception:
+            continue
+
+    display_rows: list[dict[str, Any]] = []
+    delta_cols: list[str] = []
+    for row in usage_table_compact:
+        out: dict[str, Any] = {
+            "year": row.get("year"),
+            "team": row.get("team"),
+            "position": row.get("position"),
+            "record_count": row.get("record_count"),
+            "status": row.get("status"),
+        }
+        yoy_row = yoy_lookup.get(int(row.get("year") or 0), {})
+        for metric in metric_cols:
+            usage_col = f"{metric}_pct"
+            delta_col = f"{metric}_yoy_delta_pct"
+            out[usage_col] = transfer_to_percent_points(row.get(metric))
+            out[delta_col] = transfer_to_percent_points(yoy_row.get(f"{metric}_delta"))
+            if delta_col not in delta_cols:
+                delta_cols.append(delta_col)
+        display_rows.append(out)
+
+    df = pd.DataFrame(display_rows)
+    if df.empty:
+        return df, [], []
+
+    leading = ["year", "team", "position", "record_count", "status"]
+    ordered_cols = list(leading)
+    for metric in metric_cols:
+        ordered_cols.append(f"{metric}_pct")
+        ordered_cols.append(f"{metric}_yoy_delta_pct")
+
+    existing_order = [col for col in ordered_cols if col in df.columns]
+    df = df.reindex(columns=existing_order)
+    usage_cols = [f"{metric}_pct" for metric in metric_cols if f"{metric}_pct" in df.columns]
+    return df, usage_cols, delta_cols
+
+
+def split_team_tokens_text(value: Any) -> list[str]:
+    text = str(value or "").strip()
+    if not text:
+        return []
+    parts = [part.strip() for part in re.split(r"[|,;/]+", text) if str(part).strip()]
+    deduped: list[str] = []
+    for part in parts:
+        if part not in deduped:
+            deduped.append(part)
+    return deduped
+
+
+def rows_to_dynamic_table(rows: list[dict[str, Any]], leading_columns: list[str] | None = None) -> pd.DataFrame:
+    if not rows:
+        return pd.DataFrame()
+
+    leading = list(leading_columns or [])
+    all_keys: list[str] = []
+    for row in rows:
+        for key in row.keys():
+            if key not in all_keys:
+                all_keys.append(key)
+
+    trailing = [key for key in all_keys if key not in leading]
+    ordered_cols = [key for key in leading if key in all_keys] + trailing
+
+    df = pd.DataFrame(rows)
+    return df.reindex(columns=ordered_cols)
+
+
+def parse_selected_player_label_data(label: str | None) -> tuple[str, str, str, str]:
+    parts = [part.strip() for part in str(label or "").split("|")]
+    name = parts[0] if len(parts) > 0 else ""
+    position = parts[1] if len(parts) > 1 else ""
+    high_school = parts[2] if len(parts) > 2 else ""
+    year = parts[3] if len(parts) > 3 else ""
+    return name, position, high_school, year
+
+
+def extract_predicted_score_display_data(
+    score_card_html: str | None,
+    pred_score_row: dict[str, Any] | None,
+    to_float_or_none: Callable[[Any], float | None],
+) -> str:
+    html_text = str(score_card_html or "")
+    if html_text:
+        plain_text = re.sub(r"<[^>]+>", " ", html_text)
+        plain_text = " ".join(plain_text.split())
+
+        for pattern in [
+            r"Predicted\s*Score\s*[:\-]\s*([0-9]+(?:\.[0-9]+)?(?:\s*/\s*100)?)",
+            r"([0-9]+(?:\.[0-9]+)?\s*/\s*100)",
+        ]:
+            match = re.search(pattern, plain_text, flags=re.IGNORECASE)
+            if match:
+                return str(match.group(1)).replace(" / ", "/").strip()
+
+    row = pred_score_row if isinstance(pred_score_row, dict) else {}
+    for value in row.values():
+        score = to_float_or_none(value)
+        if score is None:
+            continue
+        if 0.0 <= score <= 1.0:
+            return f"{score * 100.0:.3f}"
+        return f"{score:.3f}"
+
+    return "N/A"
+
+
+def parse_historical_comparables_md_data(
+    raw_md: str | None,
+    to_float_or_none: Callable[[Any], float | None],
+) -> dict[str, Any]:
+    text = str(raw_md or "")
+    lines = [line.strip() for line in text.splitlines() if line and line.strip()]
+
+    target_position = ""
+    rows: list[dict[str, Any]] = []
+
+    def _is_placeholder(value: Any) -> bool:
+        normalized = str(value or "").strip().lower()
+        return normalized in {"", "-", "--", "n/a", "na", "none", "null", "unknown", "?"}
+
+    def _clean_name(value: Any) -> str:
+        name = str(value or "")
+        name = re.sub(r"[*_`~]+", "", name)
+        return re.sub(r"\s+", " ", name).strip(" -|")
+
+    def _match_numeric(match_text: str) -> float | None:
+        number_match = re.search(r"([0-9]+(?:\.[0-9]+)?)", str(match_text or ""))
+        if not number_match:
+            return None
+        return to_float_or_none(number_match.group(1))
+
+    for line in lines:
+        clean = re.sub(r"^#{1,6}\s*", "", line).strip()
+        if not clean:
+            continue
+
+        if clean.lower().startswith("target position:"):
+            target_position = clean.split(":", 1)[1].strip() if ":" in clean else ""
+            continue
+
+        if clean.startswith("-") or clean.startswith("*"):
+            body = clean[1:].strip()
+            parsed = re.match(
+                r"^(?P<name>.+?)\s*\((?P<year>\d{4})\s*,\s*(?P<state>[A-Za-z]{2})\)\s*\|\s*Match:\s*(?P<match>[^|]+?)\s*\|\s*Rating:\s*(?P<rating>.+)$",
+                body,
+            )
+            if parsed:
+                raw_match = str(parsed.group("match") or "").strip()
+                match_value = _match_numeric(raw_match)
+                match_display = ""
+                if match_value is not None:
+                    match_display = f"{match_value:.2f}%"
+                elif not _is_placeholder(raw_match):
+                    match_display = raw_match
+
+                rows.append(
+                    {
+                        "name": _clean_name(parsed.group("name")),
+                        "year": str(parsed.group("year") or "").strip(),
+                        "state": str(parsed.group("state") or "").strip(),
+                        "match": match_display,
+                        "match_value": match_value,
+                        "rating": str(parsed.group("rating") or "").strip(),
+                        "raw": body,
+                    }
+                )
+            else:
+                cleaned_name = _clean_name(body)
+                rows.append(
+                    {
+                        "name": cleaned_name,
+                        "year": "",
+                        "state": "",
+                        "match": "",
+                        "match_value": None,
+                        "rating": "",
+                        "raw": body,
+                    }
+                )
+
+    filtered_rows: list[dict[str, Any]] = []
+    for row in rows:
+        name = _clean_name(row.get("name"))
+        year = str(row.get("year") or "").strip()
+        state = str(row.get("state") or "").strip()
+        rating = str(row.get("rating") or "").strip()
+        match = str(row.get("match") or "").strip()
+        match_value = row.get("match_value")
+
+        if _is_placeholder(name):
+            continue
+
+        has_real_metadata = any(not _is_placeholder(value) for value in [year, state, rating, match])
+        if not has_real_metadata and match_value is None:
+            continue
+
+        if _is_placeholder(match) and match_value is None:
+            continue
+
+        filtered_rows.append(
+            {
+                "name": name,
+                "year": "" if _is_placeholder(year) else year,
+                "state": "" if _is_placeholder(state) else state,
+                "rating": "" if _is_placeholder(rating) else rating,
+                "match": "" if _is_placeholder(match) else match,
+                "match_value": match_value,
+                "raw": str(row.get("raw") or "").strip(),
+            }
+        )
+
+    filtered_rows.sort(key=lambda row: (row.get("match_value") is not None, row.get("match_value") or -1.0), reverse=True)
+
+    return {
+        "target_position": target_position,
+        "rows": filtered_rows,
+        "raw": text,
+    }
+
+
+def parse_summary_notes_data(raw_text: str | None) -> list[dict[str, str]]:
+    text = str(raw_text or "")
+    lines = [line.rstrip() for line in text.splitlines() if line and line.strip()]
+    notes: list[dict[str, str]] = []
+
+    for line in lines:
+        clean = re.sub(r"^\s*[-*•]+\s*", "", line).strip()
+        if not clean:
+            continue
+
+        label = ""
+        body = clean
+        if ":" in clean:
+            left, right = clean.split(":", 1)
+            left_clean = left.strip()
+            right_clean = right.strip()
+            if left_clean and right_clean and len(left_clean) <= 36:
+                label = left_clean
+                body = right_clean
+
+        notes.append({"label": label, "body": body})
+
+    return notes
+
+
+def build_recruiting_summary_layout_data(raw_text: str | None) -> dict[str, Any]:
+    notes = parse_summary_notes_data(raw_text)
+
+    def _norm_label(label: str) -> str:
+        return re.sub(r"[^a-z0-9]+", " ", str(label or "").strip().lower()).strip()
+
+    field_map = {
+        "prospect": ["prospect"],
+        "physical_profile": ["physical profile"],
+        "recruiting_status": ["recruiting status"],
+        "commitment_timeline": ["commitment timeline"],
+        "athletic_background": ["athletic background"],
+        "performance_notes": ["performance notes"],
+        "note_on_recency": ["note on recency", "recency"],
+    }
+
+    extracted: dict[str, str] = {key: "" for key in field_map.keys()}
+    for note in notes:
+        label_norm = _norm_label(note.get("label") or "")
+        for key, aliases in field_map.items():
+            if label_norm in aliases and not extracted[key]:
+                extracted[key] = str(note.get("body") or "").strip()
+                break
+
+    prospect_text = str(extracted.get("prospect") or "").strip()
+    prospect_parts = [part.strip() for part in prospect_text.split(",") if part.strip()]
+    hero_name = prospect_parts[0] if prospect_parts else "Prospect"
+    hero_subtitle = ", ".join(prospect_parts[1:]).strip() if len(prospect_parts) > 1 else prospect_text
+
+    grid_fields = [
+        ("recruiting_status", "Recruiting Status"),
+        ("commitment_timeline", "Commitment Timeline"),
+        ("athletic_background", "Athletic Background"),
+        ("performance_notes", "Performance Notes"),
+    ]
+
+    grid_items = []
+    for key, title in grid_fields:
+        value = str(extracted.get(key) or "").strip()
+        if value:
+            grid_items.append({"key": key, "title": title, "value": value})
+
+    return {
+        "hero_name": hero_name,
+        "hero_subtitle": hero_subtitle,
+        "physical_profile": str(extracted.get("physical_profile") or "").strip(),
+        "grid_items": grid_items,
+        "note_on_recency": str(extracted.get("note_on_recency") or "").strip(),
+        "notes": notes,
+    }
+
+
 def build_score_card_html_data(
     pred_score: dict[str, Any],
     pred_threshold: dict[str, Any],

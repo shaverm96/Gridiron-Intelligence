@@ -1,0 +1,20 @@
+flowchart TD
+    A[User Inputs: Year Player Team] --> B[Rate Limit Guard]
+    B --> C[Fetch Player Bundle from Supabase]
+    C --> D[Vector Insights Lookup]
+    C --> E[Structured Web Graph]
+    C --> F[Historical Comparables]
+    C --> G[Score Card Build]
+
+    E --> E1[Recruiting Scout Node]
+    E1 --> E2[Team Scout Node]
+
+    D --> H[Recruiting Final Prompt Assembly]
+    E2 --> H
+    F --> H
+    G --> H
+    C --> H
+
+    H --> I[Gemini Final Synthesis]
+    I --> J[Recruiting Report Output]
+    J --> K[Recruiting Open Chat]
