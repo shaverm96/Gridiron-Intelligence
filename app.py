@@ -781,7 +781,7 @@ def _asset_data_uri(relative_path: tuple[str, ...], mime_type: str = "image/png"
 
 
 def _render_recruiting_summary_card(raw_text: str | None, context: dict[str, Any] | None = None) -> None:
-    data = build_recruiting_summary_layout_data(raw_text)
+    data = build_recruiting_summary_layout_data(raw_text, context=context)
     notes = list(data.get("notes") or [])
     if not notes:
         st.markdown("### Recruiting Scout Summary")
@@ -1798,7 +1798,15 @@ def render_structured_report_with_chat_page() -> None:
 
             st.markdown("#### Recruiting Summary Diagnostics")
             recruiting_raw_summary = str(report_output.get("web_recruiting_summary") or "")
-            recruiting_layout = build_recruiting_summary_layout_data(recruiting_raw_summary)
+            recruiting_layout = build_recruiting_summary_layout_data(
+                recruiting_raw_summary,
+                context={
+                    "player_name": player_name,
+                    "position": position,
+                    "high_school": high_school,
+                    "selected_year": report_output.get("selected_year"),
+                },
+            )
             st.write(f"Selected label: {report_output.get('selected_player_label', selected_label)}")
             st.write(f"Selected year: {report_output.get('selected_year', selected_year)}")
             st.write(f"Target team: {report_output.get('target_team', target_team)}")

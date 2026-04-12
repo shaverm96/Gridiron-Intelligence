@@ -444,9 +444,10 @@ def parse_summary_notes_data(raw_text: str | None) -> list[dict[str, str]]:
     return notes
 
 
-def build_recruiting_summary_layout_data(raw_text: str | None) -> dict[str, Any]:
+def build_recruiting_summary_layout_data(raw_text: str | None, context: dict[str, Any] | None = None) -> dict[str, Any]:
     notes = parse_summary_notes_data(raw_text)
     raw = str(raw_text or "")
+    ctx = context if isinstance(context, dict) else {}
 
     def _norm_label(label: str) -> str:
         return re.sub(r"[^a-z0-9]+", " ", str(label or "").strip().lower()).strip()
@@ -541,16 +542,90 @@ def build_recruiting_summary_layout_data(raw_text: str | None) -> dict[str, Any]
 
         if _extract_physical_profile(body):
             return "physical_profile"
-        if any(token in text for token in ["as of", "current date", "recency", "between", "latest", "no information provided"]):
+        recency_tokens = [
+            "as of",
+            "current date",
+            "recency",
+            "between",
+            "latest",
+            "no information provided",
+            "injury",
+            "acl",
+            "recovery",
+            "medical clearance",
+            "status update",
+            "availability",
+        ]
+        if any(token in text for token in recency_tokens):
             return "note_on_recency"
         if any(token in text for token in ["committed on", "official visit", "decommitted", "flip", "timeline", "announced", "visit"]) or ("committed" in text and has_date_token):
             return "commitment_timeline"
         if any(token in text for token in ["commit", "committed", "uncommitted", "signed", "offer", "status"]):
             return "recruiting_status"
-        if any(token in text for token in ["baseball", "basketball", "track", "wrestling", "multi-sport", "high school", "all-metro", "background"]):
+        if any(
+            token in text
+            for token in [
+                "baseball",
+                "basketball",
+                "track",
+                "wrestling",
+                "multi-sport",
+                "high school",
+                "all-metro",
+                "background",
+                "running back",
+                "quarterback",
+                "receiver",
+                "linebacker",
+                "offense",
+                "defense",
+                "role",
+                "usage",
+                "all-purpose",
+                "rushing",
+                "receiving",
+            ]
+        ):
             return "athletic_background"
-        if any(token in text for token in ["touchdown", "yards", "production", "performance", "campaign", "season", "injury", "acl", "stats"]):
+        if any(token in text for token in ["touchdown", "yards", "production", "performance", "campaign", "season", "stats"]):
             return "performance_notes"
+        return ""
+
+    def _is_injury_heavy(text: str) -> bool:
+        normalized = _norm_text(text)
+        if not normalized:
+            return False
+        injury_tokens = ["injury", "acl", "recovery", "medical", "availability", "cleared", "season-ending"]
+        football_context_tokens = [
+            "rushing",
+            "receiving",
+            "touchdown",
+            "yards",
+            "all-purpose",
+            "role",
+            "usage",
+            "offense",
+            "defense",
+            "multi-sport",
+            "all-metro",
+        ]
+        has_injury = any(token in normalized for token in injury_tokens)
+        has_football_context = any(token in normalized for token in football_context_tokens)
+        return has_injury and not has_football_context
+
+    def _athletic_background_fallback() -> str:
+        position = str(ctx.get("position") or "").strip()
+        school = str(ctx.get("high_school") or "").strip()
+        class_year = str(ctx.get("selected_year") or "").strip()
+
+        if position and school and class_year:
+            return f"{position} prospect from {school} in the {class_year} class."
+        if position and school:
+            return f"{position} prospect from {school}."
+        if position and class_year:
+            return f"{position} prospect in the {class_year} class."
+        if school:
+            return f"High school football prospect from {school}."
         return ""
 
     def _extract_hero_name_and_subtitle(prospect_text: str) -> tuple[str, str]:
@@ -732,6 +807,15 @@ def build_recruiting_summary_layout_data(raw_text: str | None) -> dict[str, Any]
 
     # Deterministic status field: keep concise and schema-consistent.
     extracted["recruiting_status"] = _derive_recruiting_status(extracted, raw)
+
+    athletic_background = str(extracted.get("athletic_background") or "").strip()
+    if athletic_background and _is_injury_heavy(athletic_background):
+        if not str(extracted.get("note_on_recency") or "").strip():
+            extracted["note_on_recency"] = athletic_background
+        extracted["athletic_background"] = ""
+
+    if not str(extracted.get("athletic_background") or "").strip():
+        extracted["athletic_background"] = _athletic_background_fallback()
 
     prospect_text = str(extracted.get("prospect") or "").strip()
     hero_name, hero_subtitle = _extract_hero_name_and_subtitle(prospect_text)
