@@ -1,6 +1,8 @@
 from __future__ import annotations
 
 import html
+import importlib
+import io
 import json
 import os
 import re
@@ -98,6 +100,12 @@ try:
     from supabase import create_client
 except ImportError:
     create_client = None
+
+try:
+    _docx_module = importlib.import_module("docx")
+    Document = getattr(_docx_module, "Document", None)
+except Exception:
+    Document = None
 
 
 RUNTIME_CFG = build_streamlit_runtime_config_data(secrets=st.secrets)
@@ -1088,6 +1096,198 @@ def _render_structured_historical_comparables(report_output: dict[str, Any]) -> 
         st.markdown(f"<p class='structured-comps-fallback'>{html.escape(fallback_text)}</p>", unsafe_allow_html=True)
 
 
+FINAL_SYNTH_SECTION_TITLES = [
+    "Player Snapshot",
+    "Trait Evaluation",
+    "Scheme and Team Fit",
+    "Development Risks",
+    "Final Recommendation and Confidence",
+]
+
+
+def _clean_final_synth_line(line: str) -> str:
+    text = str(line or "").strip()
+    text = re.sub(r"[*_`]+", "", text)
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def _normalize_final_synth_heading(line: str) -> str | None:
+    clean = _clean_final_synth_line(line)
+    clean = re.sub(r"^#+\s*", "", clean)
+    clean = re.sub(r"^\d+\s*[\)\.-]\s*", "", clean)
+    clean = clean.strip(" :")
+    for title in FINAL_SYNTH_SECTION_TITLES:
+        if clean.lower() == title.lower():
+            return title
+    return None
+
+
+def _parse_final_synthesis_sections(final_report: str | None) -> dict[str, Any]:
+    raw = str(final_report or "")
+    lines = [line.rstrip() for line in raw.splitlines()]
+    sections: dict[str, list[str]] = {title: [] for title in FINAL_SYNTH_SECTION_TITLES}
+    current_section: str | None = None
+
+    for line in lines:
+        heading = _normalize_final_synth_heading(line)
+        if heading:
+            current_section = heading
+            continue
+        if current_section is None:
+            continue
+        if not str(line).strip():
+            continue
+        sections[current_section].append(str(line).strip())
+
+    ordered_sections = [
+        {"title": title, "lines": lines_for_title}
+        for title, lines_for_title in sections.items()
+        if any(str(item).strip() for item in lines_for_title)
+    ]
+    return {"sections": ordered_sections, "raw": raw}
+
+
+def _split_kv_and_body(lines: list[str]) -> tuple[list[tuple[str, str]], list[str]]:
+    kv: list[tuple[str, str]] = []
+    body: list[str] = []
+    for line in lines:
+        clean = _clean_final_synth_line(re.sub(r"^\s*[-*•]+\s*", "", str(line or "")))
+        if not clean:
+            continue
+        if ":" in clean:
+            left, right = clean.split(":", 1)
+            key = left.strip()
+            value = right.strip()
+            if key and value and len(key) <= 40:
+                kv.append((key, value))
+                continue
+        body.append(clean)
+    return kv, body
+
+
+def _is_bullet_line(line: str) -> bool:
+    return bool(re.match(r"^\s*[-*•]+\s+", str(line or "")))
+
+
+def _render_final_synthesis(report_output: dict[str, Any], player_name: str) -> None:
+    final_text = str(report_output.get("final_report") or "").strip()
+    if not final_text:
+        st.markdown("No final synthesis generated.")
+        return
+
+    parsed = _parse_final_synthesis_sections(final_text)
+    sections = list(parsed.get("sections") or [])
+    if not sections:
+        st.markdown(final_text)
+        return
+
+    col_left, col_right = st.columns([4, 1])
+    with col_left:
+        st.caption("Executive scouting report")
+
+    with col_right:
+        docx_bytes = _build_final_synthesis_docx_bytes(parsed=parsed, player_name=player_name)
+        safe_name = re.sub(r"[^a-z0-9]+", "_", str(player_name or "player").strip().lower()).strip("_") or "player"
+        if docx_bytes:
+            st.download_button(
+                "Download .docx",
+                data=docx_bytes,
+                file_name=f"{safe_name}_final_synthesis.docx",
+                mime="application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                key="download_final_synthesis_docx",
+            )
+        else:
+            st.caption("Install python-docx to enable export.")
+
+    for idx, section in enumerate(sections):
+        title = str(section.get("title") or "Section").strip()
+        lines = [str(line) for line in list(section.get("lines") or []) if str(line).strip()]
+        kv, body = _split_kv_and_body(lines)
+
+        st.markdown(f"<div class='final-synth-section'><h4>{html.escape(title)}</h4>", unsafe_allow_html=True)
+
+        if title == "Player Snapshot" and kv:
+            kv_html = "".join(
+                [
+                    (
+                        "<div class='final-synth-kv-item'>"
+                        f"<span class='final-synth-kv-label'>{html.escape(key)}</span>"
+                        f"<span class='final-synth-kv-value'>{html.escape(value)}</span>"
+                        "</div>"
+                    )
+                    for key, value in kv
+                ]
+            )
+            st.markdown(f"<div class='final-synth-kv-grid'>{kv_html}</div>", unsafe_allow_html=True)
+        else:
+            rendered_bullets = [
+                _clean_final_synth_line(re.sub(r"^\s*[-*•]+\s*", "", item))
+                for item in lines
+                if _is_bullet_line(item)
+            ]
+            rendered_paragraphs = [
+                _clean_final_synth_line(item)
+                for item in body
+                if not _is_bullet_line(item)
+            ]
+
+            if rendered_paragraphs:
+                for paragraph in rendered_paragraphs:
+                    st.markdown(f"<p class='final-synth-paragraph'>{html.escape(paragraph)}</p>", unsafe_allow_html=True)
+
+            if rendered_bullets:
+                bullet_html = "".join([f"<li>{html.escape(item)}</li>" for item in rendered_bullets if item])
+                st.markdown(f"<ul class='final-synth-bullets'>{bullet_html}</ul>", unsafe_allow_html=True)
+
+        st.markdown("</div>", unsafe_allow_html=True)
+        if idx < len(sections) - 1:
+            st.markdown("<div class='final-synth-divider'></div>", unsafe_allow_html=True)
+
+
+def _build_final_synthesis_docx_bytes(parsed: dict[str, Any], player_name: str) -> bytes | None:
+    if Document is None:
+        return None
+
+    doc = Document()
+    doc.add_heading("Final Synthesis", level=0)
+    if str(player_name or "").strip():
+        doc.add_paragraph(f"Player: {str(player_name).strip()}")
+
+    sections = list(parsed.get("sections") or [])
+    for section in sections:
+        title = str(section.get("title") or "Section").strip()
+        lines = [str(line) for line in list(section.get("lines") or []) if str(line).strip()]
+        if not lines:
+            continue
+
+        doc.add_heading(title, level=1)
+        kv, body = _split_kv_and_body(lines)
+
+        if title == "Player Snapshot" and kv:
+            for key, value in kv:
+                p = doc.add_paragraph()
+                p.add_run(f"{key}: ").bold = True
+                p.add_run(value)
+            for paragraph in body:
+                p_text = _clean_final_synth_line(paragraph)
+                if p_text:
+                    doc.add_paragraph(p_text)
+            continue
+
+        for line in lines:
+            clean = _clean_final_synth_line(re.sub(r"^\s*[-*•]+\s*", "", line))
+            if not clean:
+                continue
+            if _is_bullet_line(line):
+                doc.add_paragraph(clean, style="List Bullet")
+            else:
+                doc.add_paragraph(clean)
+
+    buffer = io.BytesIO()
+    doc.save(buffer)
+    return buffer.getvalue()
+
+
 def render_landing_page() -> None:
     st.subheader("Welcome To Gridiron Intelligence")
     st.markdown(
@@ -1726,6 +1926,63 @@ def render_structured_report_with_chat_page() -> None:
                 line-height: 1.43;
                 color: color-mix(in srgb, var(--text-color) 93%, transparent);
             }
+            .final-synth-section {
+                background: color-mix(in srgb, var(--secondary-background-color) 90%, var(--background-color));
+                border: 1px solid color-mix(in srgb, var(--text-color) 13%, transparent);
+                border-radius: 12px;
+                padding: 0.86rem 0.92rem;
+                margin: 0.45rem 0;
+            }
+            .final-synth-section h4 {
+                margin: 0 0 0.55rem 0;
+                font-size: 1.07rem;
+                letter-spacing: 0.01em;
+                color: var(--text-color);
+            }
+            .final-synth-kv-grid {
+                display: grid;
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+                gap: 0.45rem 0.8rem;
+            }
+            .final-synth-kv-item {
+                display: flex;
+                flex-direction: column;
+                gap: 0.12rem;
+                border-left: 2px solid color-mix(in srgb, var(--text-color) 45%, transparent);
+                padding-left: 0.45rem;
+            }
+            .final-synth-kv-label {
+                font-size: 0.7rem;
+                font-weight: 700;
+                letter-spacing: 0.08em;
+                text-transform: uppercase;
+                color: color-mix(in srgb, var(--text-color) 58%, transparent);
+            }
+            .final-synth-kv-value {
+                font-size: 0.92rem;
+                line-height: 1.35;
+                color: color-mix(in srgb, var(--text-color) 95%, transparent);
+            }
+            .final-synth-paragraph {
+                margin: 0 0 0.45rem 0;
+                font-size: 0.95rem;
+                line-height: 1.5;
+                color: color-mix(in srgb, var(--text-color) 95%, transparent);
+            }
+            .final-synth-bullets {
+                margin: 0.12rem 0 0.2rem 1rem;
+                padding: 0;
+            }
+            .final-synth-bullets li {
+                margin: 0.24rem 0;
+                font-size: 0.93rem;
+                line-height: 1.48;
+                color: color-mix(in srgb, var(--text-color) 95%, transparent);
+            }
+            .final-synth-divider {
+                border-top: 1px solid color-mix(in srgb, var(--text-color) 10%, transparent);
+                margin: 0.32rem 0 0.1rem 0;
+            }
             @media (max-width: 1000px) {
                 .structured-report-kpi-wrap {
                     width: min(720px, 100%);
@@ -1788,6 +2045,9 @@ def render_structured_report_with_chat_page() -> None:
                     text-align: left;
                     white-space: normal;
                 }
+                .final-synth-kv-grid {
+                    grid-template-columns: 1fr;
+                }
             }
             </style>
             """,
@@ -1836,7 +2096,7 @@ def render_structured_report_with_chat_page() -> None:
         )
 
         st.markdown("### Final Synthesis")
-        st.markdown(report_output.get("final_report") or "No final synthesis generated.")
+        _render_final_synthesis(report_output=report_output, player_name=player_name)
 
         with st.expander("Development Information (temporary)"):
             st.markdown("#### Player Profile")
