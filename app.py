@@ -1614,10 +1614,12 @@ def render_structured_report_with_chat_page() -> None:
                 display: grid;
                 grid-template-columns: repeat(2, minmax(0, 1fr));
                 gap: 0.68rem;
+                align-items: start;
             }
             .recruiting-dossier-note {
                 border-radius: 10px;
                 padding: 0.72rem 0.8rem;
+                align-self: start;
             }
             .recruiting-dossier-note-head {
                 position: relative;

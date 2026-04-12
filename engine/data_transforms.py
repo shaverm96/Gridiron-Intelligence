@@ -572,6 +572,50 @@ def build_recruiting_summary_layout_data(raw_text: str | None) -> dict[str, Any]
 
         return sentence, ""
 
+    def _normalize_school_name(name: str) -> str:
+        school = str(name or "").strip(" .,:;-")
+        if not school:
+            return ""
+        school = re.sub(r"\s+", " ", school)
+        school = re.sub(r"\bUniversity\b\.?$", "", school, flags=re.IGNORECASE).strip(" .,:;-")
+        school = re.sub(r"\bCollege\b\.?$", "", school, flags=re.IGNORECASE).strip(" .,:;-")
+        return school
+
+    def _extract_commit_school(text: str) -> str:
+        value = str(text or "")
+        patterns = [
+            r"\bcommitted\s+to\s+([A-Z][A-Za-z&'\.\-\s]{2,80}?)(?:\s+for\b|\.|,|;|$)",
+            r"\bcommit(?:ted)?\s+for\s+([A-Z][A-Za-z&'\.\-\s]{2,80}?)(?:\.|,|;|$)",
+            r"\bsigned\s+with\s+([A-Z][A-Za-z&'\.\-\s]{2,80}?)(?:\.|,|;|$)",
+        ]
+        for pattern in patterns:
+            match = re.search(pattern, value, flags=re.IGNORECASE)
+            if match:
+                school = _normalize_school_name(str(match.group(1) or ""))
+                if school:
+                    return school
+        return ""
+
+    def _derive_recruiting_status(extracted_fields: dict[str, str], full_text: str) -> str:
+        candidate_blobs = [
+            str(extracted_fields.get("recruiting_status") or ""),
+            str(extracted_fields.get("commitment_timeline") or ""),
+            str(extracted_fields.get("prospect") or ""),
+            str(full_text or ""),
+        ]
+        merged = "\n".join([blob for blob in candidate_blobs if str(blob).strip()])
+        merged_norm = _norm_text(merged)
+
+        school = _extract_commit_school(merged)
+        if school:
+            return f"Currently committed to {school}"
+
+        open_markers = ["open", "uncommitted", "unsigned", "still considering", "not committed"]
+        if any(marker in merged_norm for marker in open_markers):
+            return "Open"
+
+        return "Open"
+
     field_map = {
         "prospect": ["prospect"],
         "physical_profile": ["physical profile"],
@@ -685,6 +729,9 @@ def build_recruiting_summary_layout_data(raw_text: str | None) -> dict[str, Any]
             if extracted.get(key):
                 continue
             extracted[key] = _first_unmapped_note(unmapped)
+
+    # Deterministic status field: keep concise and schema-consistent.
+    extracted["recruiting_status"] = _derive_recruiting_status(extracted, raw)
 
     prospect_text = str(extracted.get("prospect") or "").strip()
     hero_name, hero_subtitle = _extract_hero_name_and_subtitle(prospect_text)
