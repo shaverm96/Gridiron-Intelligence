@@ -780,7 +780,7 @@ def _asset_data_uri(relative_path: tuple[str, ...], mime_type: str = "image/png"
     return image_data_uri_data(project_root=PROJECT_ROOT, relative_path=relative_path, mime_type=mime_type)
 
 
-def _render_recruiting_summary_card(raw_text: str | None) -> None:
+def _render_recruiting_summary_card(raw_text: str | None, context: dict[str, Any] | None = None) -> None:
     data = build_recruiting_summary_layout_data(raw_text)
     notes = list(data.get("notes") or [])
     if not notes:
@@ -788,8 +788,34 @@ def _render_recruiting_summary_card(raw_text: str | None) -> None:
         st.markdown(str(raw_text or "No recruiting summary available."))
         return
 
-    hero_name = str(data.get("hero_name") or "Prospect").strip()
+    ctx = context if isinstance(context, dict) else {}
+    context_name = str(ctx.get("player_name") or "").strip()
+    context_position = str(ctx.get("position") or "").strip()
+    context_school = str(ctx.get("high_school") or "").strip()
+    context_year = str(ctx.get("selected_year") or "").strip()
+
+    hero_name = str(data.get("hero_name") or "").strip()
     hero_subtitle = str(data.get("hero_subtitle") or "").strip()
+
+    if not hero_name or hero_name.lower() == "prospect" or len(hero_name.split()) > 6:
+        hero_name = context_name or "Prospect"
+
+    context_subtitle_parts = [part for part in [context_position, context_school, (f"Class {context_year}" if context_year else "")] if part]
+    context_subtitle = " | ".join(context_subtitle_parts)
+
+    # Avoid prose-style hero subtitles when we have structured player metadata.
+    if context_subtitle and (
+        not hero_subtitle
+        or " is " in hero_subtitle.lower()
+        or "commit for" in hero_subtitle.lower()
+        or "committed to" in hero_subtitle.lower()
+        or len(hero_subtitle) > 120
+    ):
+        hero_subtitle = context_subtitle
+
+    if not hero_subtitle:
+        hero_subtitle = context_subtitle
+
     physical_profile = str(data.get("physical_profile") or "").strip() or "Physical profile unavailable"
     grid_items = list(data.get("grid_items") or [])
     recency_note = str(data.get("note_on_recency") or "").strip()
@@ -863,9 +889,15 @@ def _render_recruiting_summary_card(raw_text: str | None) -> None:
     )
 
 
-def render_structured_summary_card(title: str, raw_text: str | None, section_key: str, compact: bool = False) -> None:
+def render_structured_summary_card(
+    title: str,
+    raw_text: str | None,
+    section_key: str,
+    compact: bool = False,
+    context: dict[str, Any] | None = None,
+) -> None:
     if section_key == "recruiting":
-        _render_recruiting_summary_card(raw_text)
+        _render_recruiting_summary_card(raw_text, context=context)
         return
 
     notes = parse_summary_notes_data(raw_text)
@@ -1738,6 +1770,12 @@ def render_structured_report_with_chat_page() -> None:
             title="Recruiting Scout Summary",
             raw_text=str(report_output.get("web_recruiting_summary") or "No recruiting summary available."),
             section_key="recruiting",
+            context={
+                "player_name": player_name,
+                "position": position,
+                "high_school": high_school,
+                "selected_year": report_output.get("selected_year"),
+            },
         )
 
         render_structured_summary_card(

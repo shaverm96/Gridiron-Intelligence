@@ -456,16 +456,35 @@ def build_recruiting_summary_layout_data(raw_text: str | None) -> dict[str, Any]
 
     def _extract_physical_profile(text: str) -> str:
         value = str(text or "")
-        patterns = [
-            # Typical format: 6'1", 195 lbs.
-            r"(\d\s*'?\s*\d{1,2}\s*(?:\"|in)?\s*,?\s*\d{2,3}\s*(?:lbs?|pounds?))",
-            # Fallback standalone weight if height omitted.
-            r"(\d{2,3}\s*(?:lbs?|pounds?))",
-        ]
-        for pattern in patterns:
-            match = re.search(pattern, value, flags=re.IGNORECASE)
-            if match:
-                return str(match.group(1)).strip()
+        feet = None
+        inches = None
+        weight = None
+
+        feet_match = re.search(r"\b(\d)\s*(?:'|ft|foot)[\s\-]*(\d{1,2})\b", value, flags=re.IGNORECASE)
+        if not feet_match:
+            feet_match = re.search(r"\b(\d)\s*[-\s]?foot[-\s]?(\d{1,2})\b", value, flags=re.IGNORECASE)
+        if feet_match:
+            feet = str(feet_match.group(1)).strip()
+            inches = str(feet_match.group(2)).strip()
+
+        weight_match = re.search(r"\b(\d{2,3})\s*(?:lbs?|pounds?)\b", value, flags=re.IGNORECASE)
+        if weight_match:
+            weight = str(weight_match.group(1)).strip()
+
+        if feet and inches and weight:
+            return f"{feet}'{inches}\", {weight} lbs"
+        if feet and inches:
+            return f"{feet}'{inches}\""
+        if weight:
+            return f"{weight} lbs"
+
+        compact = re.search(r"(\d\s*'\s*\d{1,2}\"?\s*,?\s*\d{2,3}\s*(?:lbs?|pounds?))", value, flags=re.IGNORECASE)
+        if compact:
+            return str(compact.group(1)).strip()
+
+        simple_weight = re.search(r"(\d{2,3}\s*(?:lbs?|pounds?))", value, flags=re.IGNORECASE)
+        if simple_weight:
+            return str(simple_weight.group(1)).strip()
         return ""
 
     def _extract_labeled_blocks(text: str, labels: list[str]) -> str:
@@ -509,6 +528,49 @@ def build_recruiting_summary_layout_data(raw_text: str | None) -> dict[str, Any]
                 unmapped.pop(idx)
                 return body.strip()
         return ""
+
+    def _classify_note(body: str) -> str:
+        text = _norm_text(body)
+        if not text:
+            return ""
+
+        has_date_token = bool(
+            re.search(r"\b(?:jan|feb|mar|apr|may|jun|july?|aug|sep|sept|oct|nov|dec)\b", text)
+            or re.search(r"\b20\d{2}\b", text)
+        )
+
+        if _extract_physical_profile(body):
+            return "physical_profile"
+        if any(token in text for token in ["as of", "current date", "recency", "between", "latest", "no information provided"]):
+            return "note_on_recency"
+        if any(token in text for token in ["committed on", "official visit", "decommitted", "flip", "timeline", "announced", "visit"]) or ("committed" in text and has_date_token):
+            return "commitment_timeline"
+        if any(token in text for token in ["commit", "committed", "uncommitted", "signed", "offer", "status"]):
+            return "recruiting_status"
+        if any(token in text for token in ["baseball", "basketball", "track", "wrestling", "multi-sport", "high school", "all-metro", "background"]):
+            return "athletic_background"
+        if any(token in text for token in ["touchdown", "yards", "production", "performance", "campaign", "season", "injury", "acl", "stats"]):
+            return "performance_notes"
+        return ""
+
+    def _extract_hero_name_and_subtitle(prospect_text: str) -> tuple[str, str]:
+        text = str(prospect_text or "").strip()
+        if not text:
+            return "Prospect", ""
+
+        sentence = text.rstrip(".")
+        is_match = re.match(r"^(?P<name>[A-Z][\w'’.-]+(?:\s+[A-Z][\w'’.-]+){0,3})\s+is\s+(?P<rest>.+)$", sentence)
+        if is_match:
+            name = str(is_match.group("name") or "").strip()
+            rest = str(is_match.group("rest") or "").strip()
+            rest = re.sub(r"^(?:a|an)\s+", "", rest, flags=re.IGNORECASE)
+            return name or "Prospect", rest
+
+        comma_parts = [part.strip() for part in sentence.split(",") if part.strip()]
+        if len(comma_parts) >= 2:
+            return comma_parts[0], ", ".join(comma_parts[1:])
+
+        return sentence, ""
 
     field_map = {
         "prospect": ["prospect"],
@@ -555,8 +617,36 @@ def build_recruiting_summary_layout_data(raw_text: str | None) -> dict[str, Any]
             if str(note.get("body") or "").strip() and str(note.get("body") or "").strip() not in labeled_bodies
         ]
 
+        # Remove rows that are clearly physical from generic fallback pool.
+        residual = []
+        for note in unmapped:
+            body = str(note.get("body") or "").strip()
+            if not body:
+                continue
+            if _classify_note(body) == "physical_profile":
+                if not extracted.get("physical_profile"):
+                    extracted["physical_profile"] = _extract_physical_profile(body)
+                continue
+            residual.append(note)
+        unmapped = residual
+
         if not extracted.get("prospect"):
             extracted["prospect"] = _first_unmapped_note(unmapped)
+
+        # Try semantic classification before loose keyword assignment.
+        classified_values: dict[str, str] = {}
+        for note in list(unmapped):
+            body = str(note.get("body") or "").strip()
+            note_type = _classify_note(body)
+            if note_type and note_type in extracted and not extracted.get(note_type) and note_type not in classified_values:
+                classified_values[note_type] = body
+
+        for key, value in classified_values.items():
+            extracted[key] = value
+            for idx, note in enumerate(unmapped):
+                if str(note.get("body") or "").strip() == value:
+                    unmapped.pop(idx)
+                    break
 
         if not extracted.get("recruiting_status"):
             extracted["recruiting_status"] = _pop_note_by_keywords(
@@ -597,9 +687,13 @@ def build_recruiting_summary_layout_data(raw_text: str | None) -> dict[str, Any]
             extracted[key] = _first_unmapped_note(unmapped)
 
     prospect_text = str(extracted.get("prospect") or "").strip()
-    prospect_parts = [part.strip() for part in prospect_text.split(",") if part.strip()]
-    hero_name = prospect_parts[0] if prospect_parts else "Prospect"
-    hero_subtitle = ", ".join(prospect_parts[1:]).strip() if len(prospect_parts) > 1 else prospect_text
+    hero_name, hero_subtitle = _extract_hero_name_and_subtitle(prospect_text)
+
+    if not hero_subtitle and extracted.get("recruiting_status"):
+        hero_subtitle = str(extracted.get("recruiting_status") or "").strip()
+
+    if len(hero_subtitle) > 160:
+        hero_subtitle = hero_subtitle[:157].rstrip() + "..."
 
     grid_fields = [
         ("recruiting_status", "Recruiting Status"),
