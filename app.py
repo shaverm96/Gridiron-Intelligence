@@ -780,8 +780,57 @@ def _asset_data_uri(relative_path: tuple[str, ...], mime_type: str = "image/png"
     return image_data_uri_data(project_root=PROJECT_ROOT, relative_path=relative_path, mime_type=mime_type)
 
 
+def _build_recruiting_layout_safe(raw_text: str | None, context: dict[str, Any] | None = None) -> dict[str, Any]:
+    """Build recruiting layout with backwards-compatible signature handling and schema guards."""
+    builder = build_recruiting_summary_layout_data
+    result: Any
+
+    try:
+        result = builder(raw_text, context=context)
+    except TypeError as exc:
+        # Backward compatibility: some environments may still have the pre-context signature.
+        if "context" in str(exc).lower() and "unexpected" in str(exc).lower():
+            result = builder(raw_text)
+        else:
+            raise
+
+    if not isinstance(result, dict):
+        result = {}
+
+    notes = result.get("notes")
+    if not isinstance(notes, list):
+        notes = parse_summary_notes_data(raw_text)
+
+    grid_items_raw = result.get("grid_items")
+    grid_items: list[dict[str, str]] = []
+    if isinstance(grid_items_raw, list):
+        for row in grid_items_raw:
+            if not isinstance(row, dict):
+                continue
+            title = str(row.get("title") or "").strip()
+            value = str(row.get("value") or "").strip()
+            if not title or not value:
+                continue
+            grid_items.append(
+                {
+                    "key": str(row.get("key") or "").strip(),
+                    "title": title,
+                    "value": value,
+                }
+            )
+
+    return {
+        "hero_name": str(result.get("hero_name") or "").strip(),
+        "hero_subtitle": str(result.get("hero_subtitle") or "").strip(),
+        "physical_profile": str(result.get("physical_profile") or "").strip(),
+        "grid_items": grid_items,
+        "note_on_recency": str(result.get("note_on_recency") or "").strip(),
+        "notes": notes,
+    }
+
+
 def _render_recruiting_summary_card(raw_text: str | None, context: dict[str, Any] | None = None) -> None:
-    data = build_recruiting_summary_layout_data(raw_text, context=context)
+    data = _build_recruiting_layout_safe(raw_text, context=context)
     notes = list(data.get("notes") or [])
     if not notes:
         st.markdown("### Recruiting Scout Summary")
@@ -1798,7 +1847,7 @@ def render_structured_report_with_chat_page() -> None:
 
             st.markdown("#### Recruiting Summary Diagnostics")
             recruiting_raw_summary = str(report_output.get("web_recruiting_summary") or "")
-            recruiting_layout = build_recruiting_summary_layout_data(
+            recruiting_layout = _build_recruiting_layout_safe(
                 recruiting_raw_summary,
                 context={
                     "player_name": player_name,
