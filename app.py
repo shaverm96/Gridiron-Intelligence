@@ -1199,12 +1199,23 @@ def _render_final_synthesis(report_output: dict[str, Any], player_name: str) -> 
         else:
             st.caption("Install python-docx to enable export.")
 
+    report_html_parts: list[str] = [
+        "<div class='final-synth-report'>",
+        "<div class='final-synth-headline'>",
+        "<div class='final-synth-headline-label'>Executive scouting report</div>",
+        f"<div class='final-synth-headline-player'>{html.escape(str(player_name or ''))}</div>",
+        "</div>",
+    ]
+
     for idx, section in enumerate(sections):
         title = str(section.get("title") or "Section").strip()
         lines = [str(line) for line in list(section.get("lines") or []) if str(line).strip()]
         kv, body = _split_kv_and_body(lines)
+        section_classes = "final-synth-section"
+        if title == "Final Recommendation and Confidence":
+            section_classes += " final-synth-conclusion"
 
-        st.markdown(f"<div class='final-synth-section'><h4>{html.escape(title)}</h4>", unsafe_allow_html=True)
+        report_html_parts.append(f"<section class='{section_classes}'><h4>{html.escape(title)}</h4>")
 
         if title == "Player Snapshot" and kv:
             kv_html = "".join(
@@ -1218,30 +1229,58 @@ def _render_final_synthesis(report_output: dict[str, Any], player_name: str) -> 
                     for key, value in kv
                 ]
             )
-            st.markdown(f"<div class='final-synth-kv-grid'>{kv_html}</div>", unsafe_allow_html=True)
+            report_html_parts.append(f"<div class='final-synth-kv-grid'>{kv_html}</div>")
+            for paragraph in body:
+                p_text = _clean_final_synth_line(paragraph)
+                if p_text:
+                    report_html_parts.append(f"<p class='final-synth-paragraph'>{html.escape(p_text)}</p>")
         else:
-            rendered_bullets = [
-                _clean_final_synth_line(re.sub(r"^\s*[-*•]+\s*", "", item))
-                for item in lines
-                if _is_bullet_line(item)
-            ]
-            rendered_paragraphs = [
-                _clean_final_synth_line(item)
-                for item in body
-                if not _is_bullet_line(item)
-            ]
+            bullets: list[str] = []
+            subblocks: list[tuple[str, str]] = []
+            paragraphs: list[str] = []
 
-            if rendered_paragraphs:
-                for paragraph in rendered_paragraphs:
-                    st.markdown(f"<p class='final-synth-paragraph'>{html.escape(paragraph)}</p>", unsafe_allow_html=True)
+            for line in lines:
+                clean = _clean_final_synth_line(re.sub(r"^\s*[-*•]+\s*", "", line))
+                if not clean:
+                    continue
 
-            if rendered_bullets:
-                bullet_html = "".join([f"<li>{html.escape(item)}</li>" for item in rendered_bullets if item])
-                st.markdown(f"<ul class='final-synth-bullets'>{bullet_html}</ul>", unsafe_allow_html=True)
+                if _is_bullet_line(line):
+                    bullets.append(clean)
+                    continue
 
-        st.markdown("</div>", unsafe_allow_html=True)
+                if ":" in clean:
+                    left, right = clean.split(":", 1)
+                    left_key = left.strip()
+                    right_value = right.strip()
+                    if left_key and right_value and len(left_key) <= 36:
+                        subblocks.append((left_key, right_value))
+                        continue
+
+                paragraphs.append(clean)
+
+            for label, value in subblocks:
+                report_html_parts.append(
+                    (
+                        "<div class='final-synth-subblock'>"
+                        f"<span class='final-synth-subblock-title'>{html.escape(label)}</span>"
+                        f"<span class='final-synth-subblock-body'>{html.escape(value)}</span>"
+                        "</div>"
+                    )
+                )
+
+            for paragraph in paragraphs:
+                report_html_parts.append(f"<p class='final-synth-paragraph'>{html.escape(paragraph)}</p>")
+
+            if bullets:
+                bullets_html = "".join([f"<li>{html.escape(item)}</li>" for item in bullets if item])
+                report_html_parts.append(f"<ul class='final-synth-bullets'>{bullets_html}</ul>")
+
+        report_html_parts.append("</section>")
         if idx < len(sections) - 1:
-            st.markdown("<div class='final-synth-divider'></div>", unsafe_allow_html=True)
+            report_html_parts.append("<div class='final-synth-divider'></div>")
+
+    report_html_parts.append("</div>")
+    st.markdown("".join(report_html_parts), unsafe_allow_html=True)
 
 
 def _build_final_synthesis_docx_bytes(parsed: dict[str, Any], player_name: str) -> bytes | None:
@@ -1933,21 +1972,45 @@ def render_structured_report_with_chat_page() -> None:
                 padding: 0.86rem 0.92rem;
                 margin: 0.45rem 0;
             }
+            .final-synth-report {
+                max-width: 1040px;
+                margin: 0.2rem auto 0.95rem auto;
+            }
+            .final-synth-headline {
+                margin: 0 0 0.68rem 0;
+                padding: 0.72rem 0.85rem;
+                border-radius: 12px;
+                border: 1px solid color-mix(in srgb, var(--text-color) 11%, transparent);
+                background: color-mix(in srgb, var(--secondary-background-color) 88%, var(--background-color));
+            }
+            .final-synth-headline-label {
+                font-size: 0.76rem;
+                letter-spacing: 0.09em;
+                text-transform: uppercase;
+                font-weight: 700;
+                color: color-mix(in srgb, var(--text-color) 60%, transparent);
+            }
+            .final-synth-headline-player {
+                margin-top: 0.18rem;
+                font-size: 1rem;
+                font-weight: 620;
+                color: color-mix(in srgb, var(--text-color) 92%, transparent);
+            }
             .final-synth-section h4 {
                 margin: 0 0 0.55rem 0;
-                font-size: 1.07rem;
-                letter-spacing: 0.01em;
+                font-size: 1.18rem;
+                letter-spacing: 0.005em;
                 color: var(--text-color);
             }
             .final-synth-kv-grid {
                 display: grid;
                 grid-template-columns: repeat(2, minmax(0, 1fr));
-                gap: 0.45rem 0.8rem;
+                gap: 0.5rem 1.0rem;
             }
             .final-synth-kv-item {
                 display: flex;
                 flex-direction: column;
-                gap: 0.12rem;
+                gap: 0.16rem;
                 border-left: 2px solid color-mix(in srgb, var(--text-color) 45%, transparent);
                 padding-left: 0.45rem;
             }
@@ -1959,14 +2022,14 @@ def render_structured_report_with_chat_page() -> None:
                 color: color-mix(in srgb, var(--text-color) 58%, transparent);
             }
             .final-synth-kv-value {
-                font-size: 0.92rem;
-                line-height: 1.35;
+                font-size: 0.98rem;
+                line-height: 1.4;
                 color: color-mix(in srgb, var(--text-color) 95%, transparent);
             }
             .final-synth-paragraph {
                 margin: 0 0 0.45rem 0;
-                font-size: 0.95rem;
-                line-height: 1.5;
+                font-size: 1rem;
+                line-height: 1.58;
                 color: color-mix(in srgb, var(--text-color) 95%, transparent);
             }
             .final-synth-bullets {
@@ -1975,9 +2038,37 @@ def render_structured_report_with_chat_page() -> None:
             }
             .final-synth-bullets li {
                 margin: 0.24rem 0;
-                font-size: 0.93rem;
-                line-height: 1.48;
+                font-size: 0.99rem;
+                line-height: 1.54;
                 color: color-mix(in srgb, var(--text-color) 95%, transparent);
+            }
+            .final-synth-subblock {
+                margin: 0.2rem 0 0.6rem 0;
+                padding-left: 0.55rem;
+                border-left: 2px solid color-mix(in srgb, var(--text-color) 30%, transparent);
+            }
+            .final-synth-subblock-title {
+                display: block;
+                font-size: 0.78rem;
+                font-weight: 720;
+                text-transform: uppercase;
+                letter-spacing: 0.08em;
+                color: color-mix(in srgb, var(--text-color) 66%, transparent);
+                margin-bottom: 0.12rem;
+            }
+            .final-synth-subblock-body {
+                display: block;
+                font-size: 0.98rem;
+                line-height: 1.56;
+                color: color-mix(in srgb, var(--text-color) 95%, transparent);
+            }
+            .final-synth-conclusion {
+                background: linear-gradient(
+                    165deg,
+                    color-mix(in srgb, var(--secondary-background-color) 92%, #0d1326 8%),
+                    color-mix(in srgb, var(--background-color) 84%, #0f1730 16%)
+                );
+                border-color: color-mix(in srgb, var(--text-color) 20%, transparent);
             }
             .final-synth-divider {
                 border-top: 1px solid color-mix(in srgb, var(--text-color) 10%, transparent);
