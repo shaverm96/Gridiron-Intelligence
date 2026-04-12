@@ -1756,6 +1756,27 @@ def render_structured_report_with_chat_page() -> None:
                 key="recruiting_dev_player_profile_json",
             )
 
+            st.markdown("#### Recruiting Summary Diagnostics")
+            recruiting_raw_summary = str(report_output.get("web_recruiting_summary") or "")
+            recruiting_layout = build_recruiting_summary_layout_data(recruiting_raw_summary)
+            st.write(f"Selected label: {report_output.get('selected_player_label', selected_label)}")
+            st.write(f"Selected year: {report_output.get('selected_year', selected_year)}")
+            st.write(f"Target team: {report_output.get('target_team', target_team)}")
+            st.write(f"Recruit ID: {report_output.get('recruit_id', '')}")
+            st.write(f"Raw recruiting summary chars: {len(recruiting_raw_summary)}")
+            st.write(f"Parsed notes count: {len(recruiting_layout.get('notes') or [])}")
+            st.write(f"Grid items count: {len(recruiting_layout.get('grid_items') or [])}")
+            _render_json_lazy(
+                {
+                    "hero_name": recruiting_layout.get("hero_name"),
+                    "hero_subtitle": recruiting_layout.get("hero_subtitle"),
+                    "physical_profile": recruiting_layout.get("physical_profile"),
+                    "grid_item_titles": [item.get("title") for item in list(recruiting_layout.get("grid_items") or [])],
+                    "has_note_on_recency": bool(str(recruiting_layout.get("note_on_recency") or "").strip()),
+                },
+                key="recruiting_dev_summary_layout_json",
+            )
+
             st.markdown("#### Vector Insights")
             vector_result = report_output.get("vector_result") or {}
             vector_insights = list(vector_result.get("insights") or []) if isinstance(vector_result, dict) else []

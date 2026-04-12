@@ -423,15 +423,17 @@ def parse_summary_notes_data(raw_text: str | None) -> list[dict[str, str]]:
     notes: list[dict[str, str]] = []
 
     for line in lines:
-        clean = re.sub(r"^\s*[-*•]+\s*", "", line).strip()
+        clean = re.sub(r"^\s*(?:[-*•]+|\d+\s*[\.)-])\s*", "", line).strip()
         if not clean:
             continue
+
+        clean = re.sub(r"[*_`~]+", "", clean).strip()
 
         label = ""
         body = clean
         if ":" in clean:
             left, right = clean.split(":", 1)
-            left_clean = left.strip()
+            left_clean = re.sub(r"^\s*\d+\s*[\.)-]?\s*", "", left).strip()
             right_clean = right.strip()
             if left_clean and right_clean and len(left_clean) <= 36:
                 label = left_clean
@@ -444,9 +446,69 @@ def parse_summary_notes_data(raw_text: str | None) -> list[dict[str, str]]:
 
 def build_recruiting_summary_layout_data(raw_text: str | None) -> dict[str, Any]:
     notes = parse_summary_notes_data(raw_text)
+    raw = str(raw_text or "")
 
     def _norm_label(label: str) -> str:
         return re.sub(r"[^a-z0-9]+", " ", str(label or "").strip().lower()).strip()
+
+    def _norm_text(text: str) -> str:
+        return re.sub(r"\s+", " ", str(text or "").strip().lower())
+
+    def _extract_physical_profile(text: str) -> str:
+        value = str(text or "")
+        patterns = [
+            # Typical format: 6'1", 195 lbs.
+            r"(\d\s*'?\s*\d{1,2}\s*(?:\"|in)?\s*,?\s*\d{2,3}\s*(?:lbs?|pounds?))",
+            # Fallback standalone weight if height omitted.
+            r"(\d{2,3}\s*(?:lbs?|pounds?))",
+        ]
+        for pattern in patterns:
+            match = re.search(pattern, value, flags=re.IGNORECASE)
+            if match:
+                return str(match.group(1)).strip()
+        return ""
+
+    def _extract_labeled_blocks(text: str, labels: list[str]) -> str:
+        if not text.strip():
+            return ""
+
+        label_pattern = "|".join([re.escape(label) for label in labels])
+        all_aliases = [alias for aliases in field_map.values() for alias in aliases]
+        next_label_pattern = "|".join([re.escape(alias) for alias in all_aliases])
+
+        pattern = (
+            r"(?:^|\n)\s*(?:[-*•]+|\d+\s*[\.)-])?\s*"
+            r"(?:\*\*)?(?:" + label_pattern + r")(?:\*\*)?\s*[:\-–]\s*"
+            r"(?P<body>.*?)"
+            r"(?=(?:\n\s*(?:[-*•]+|\d+\s*[\.)-])?\s*(?:\*\*)?(?:" + next_label_pattern + r")(?:\*\*)?\s*[:\-–])|$)"
+        )
+
+        match = re.search(pattern, text, flags=re.IGNORECASE | re.DOTALL)
+        if not match:
+            return ""
+
+        body = re.sub(r"[*_`~]+", "", str(match.group("body") or "")).strip()
+        body = re.sub(r"\s+", " ", body)
+        return body
+
+    def _first_unmapped_note(unmapped: list[dict[str, str]]) -> str:
+        while unmapped:
+            note = unmapped.pop(0)
+            body = str(note.get("body") or "").strip()
+            if body:
+                return body
+        return ""
+
+    def _pop_note_by_keywords(unmapped: list[dict[str, str]], keywords: list[str]) -> str:
+        for idx, note in enumerate(unmapped):
+            body = str(note.get("body") or "")
+            if not body.strip():
+                continue
+            body_norm = _norm_text(body)
+            if any(keyword in body_norm for keyword in keywords):
+                unmapped.pop(idx)
+                return body.strip()
+        return ""
 
     field_map = {
         "prospect": ["prospect"],
@@ -459,12 +521,80 @@ def build_recruiting_summary_layout_data(raw_text: str | None) -> dict[str, Any]
     }
 
     extracted: dict[str, str] = {key: "" for key in field_map.keys()}
+
+    # Primary parse path: use note labels when present.
     for note in notes:
         label_norm = _norm_label(note.get("label") or "")
         for key, aliases in field_map.items():
             if label_norm in aliases and not extracted[key]:
                 extracted[key] = str(note.get("body") or "").strip()
                 break
+
+    # Secondary parse path: recover from markdown/numbered formats where labels may not split cleanly.
+    for key, aliases in field_map.items():
+        if extracted.get(key):
+            continue
+        extracted[key] = _extract_labeled_blocks(raw, aliases)
+
+    # Detect physical profile from any available content if explicit field is missing.
+    if not extracted.get("physical_profile"):
+        for note in notes:
+            found = _extract_physical_profile(note.get("body") or "")
+            if found:
+                extracted["physical_profile"] = found
+                break
+        if not extracted.get("physical_profile"):
+            extracted["physical_profile"] = _extract_physical_profile(raw)
+
+    # Defensive fallback: map unlabeled note bodies into dossier fields so card remains populated.
+    if notes:
+        labeled_bodies = {str(value).strip() for value in extracted.values() if str(value).strip()}
+        unmapped = [
+            note
+            for note in notes
+            if str(note.get("body") or "").strip() and str(note.get("body") or "").strip() not in labeled_bodies
+        ]
+
+        if not extracted.get("prospect"):
+            extracted["prospect"] = _first_unmapped_note(unmapped)
+
+        if not extracted.get("recruiting_status"):
+            extracted["recruiting_status"] = _pop_note_by_keywords(
+                unmapped,
+                ["committed", "offer", "status", "commitment", "signed", "decommit"],
+            )
+        if not extracted.get("commitment_timeline"):
+            extracted["commitment_timeline"] = _pop_note_by_keywords(
+                unmapped,
+                ["timeline", "visit", "june", "july", "date", "official visit", "announced"],
+            )
+        if not extracted.get("athletic_background"):
+            extracted["athletic_background"] = _pop_note_by_keywords(
+                unmapped,
+                ["baseball", "basketball", "track", "wrestling", "multi-sport", "athletic background"],
+            )
+        if not extracted.get("performance_notes"):
+            extracted["performance_notes"] = _pop_note_by_keywords(
+                unmapped,
+                ["touchdown", "yards", "performance", "stats", "production", "campaign", "season"],
+            )
+        if not extracted.get("note_on_recency"):
+            extracted["note_on_recency"] = _pop_note_by_keywords(
+                unmapped,
+                ["recency", "current date", "as of", "between", "today", "recent", "updated"],
+            )
+
+        # Fill remaining empty fields in display order using leftover note bodies.
+        for key in [
+            "recruiting_status",
+            "commitment_timeline",
+            "athletic_background",
+            "performance_notes",
+            "note_on_recency",
+        ]:
+            if extracted.get(key):
+                continue
+            extracted[key] = _first_unmapped_note(unmapped)
 
     prospect_text = str(extracted.get("prospect") or "").strip()
     prospect_parts = [part.strip() for part in prospect_text.split(",") if part.strip()]
