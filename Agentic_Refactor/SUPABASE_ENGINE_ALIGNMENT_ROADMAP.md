@@ -102,7 +102,7 @@ Bridge entity (gi_player_link_bridge) should answer:
 2. Identity resolution helpers already exist in engine/supabase_client.py:
    - resolve_player_identity
    - fetch_player_bundle_by_identity
-   - need to ensure it uses 'LIKE' and wildcard SQL statements to find players using search_text field in player tables.
+   - search_text-based fuzzy lookup should stay SQL-first with pg_trgm-aware matching, not embeddings.
 3. Agent graph supports structured report and chat orchestration through shared state.
 
 ### 5.2 Current drift / risk areas

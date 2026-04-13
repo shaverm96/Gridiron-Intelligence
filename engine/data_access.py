@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import re
 from pathlib import Path
 from typing import Any, Callable
 
@@ -237,6 +238,166 @@ def load_player_index_from_supabase_data(
     return df[base_cols]
 
 
+def _normalize_recruit_search_text(value: str) -> str:
+    text = str(value or "").strip().lower()
+    if not text:
+        return ""
+    text = re.sub(r"[\x00-\x1f\x7f]", " ", text)
+    text = text.replace("%", " ").replace("_", " ")
+    text = re.sub(r"\s+", " ", text).strip()
+    return text[:80]
+
+
+def _build_recruit_candidate_frame(rows: list[dict[str, Any]], position_map: dict[str, str]) -> pd.DataFrame:
+    base_cols = [
+        "recruit_id",
+        "player_name",
+        "position",
+        "high_school",
+        "year",
+        "rating",
+        "player_label",
+        "athlete_id",
+    ]
+
+    if not rows:
+        return pd.DataFrame(columns=base_cols)
+
+    df = pd.DataFrame(rows)
+    if "recruit_id" not in df.columns:
+        return pd.DataFrame(columns=base_cols)
+
+    for col in ["recruit_name", "full_name", "player_name", "position_group", "position", "recruit_class", "year", "composite_rating", "rating", "high_school", "hs_city", "hs_state", "athlete_id", "cfbd_athlete_id"]:
+        if col not in df.columns:
+            df[col] = None
+
+    recruit_class_series = df["recruit_class"] if "recruit_class" in df.columns else pd.Series([None] * len(df), index=df.index)
+    year_series = df["year"] if "year" in df.columns else pd.Series([None] * len(df), index=df.index)
+    df["year"] = pd.to_numeric(recruit_class_series.where(recruit_class_series.notna(), year_series), errors="coerce")
+
+    def _coalesce_text(frame: pd.DataFrame, cols: list[str]) -> pd.Series:
+        out = pd.Series(["" for _ in range(len(frame))], index=frame.index, dtype="object")
+        for col in cols:
+            if col in frame.columns:
+                vals = frame[col].fillna("").astype(str).str.strip()
+                out = out.where(out.astype(str).str.strip() != "", vals)
+        return out
+
+    def _normalize_position_group(position_value: str | None) -> str:
+        raw = str(position_value or "").strip().upper()
+        return position_map.get(raw, raw)
+
+    df["recruit_id"] = df["recruit_id"].astype(str).str.strip()
+    df["player_name"] = _coalesce_text(df, ["recruit_name", "full_name", "player_name"])
+    df["position"] = _coalesce_text(df, ["position_group", "position"]).apply(_normalize_position_group)
+    df["high_school"] = _coalesce_text(df, ["high_school", "hs_city", "hs_state"])
+    composite_rating_series = df["composite_rating"] if "composite_rating" in df.columns else pd.Series([None] * len(df), index=df.index)
+    rating_series = df["rating"] if "rating" in df.columns else pd.Series([None] * len(df), index=df.index)
+    df["rating"] = pd.to_numeric(composite_rating_series.where(composite_rating_series.notna(), rating_series), errors="coerce")
+
+    athlete_series = df.get("athlete_id") if "athlete_id" in df.columns else pd.Series([None] * len(df), index=df.index)
+    cfbd_athlete_series = df.get("cfbd_athlete_id") if "cfbd_athlete_id" in df.columns else pd.Series([None] * len(df), index=df.index)
+    df["athlete_id"] = athlete_series.where(athlete_series.notna(), cfbd_athlete_series)
+    df["athlete_id"] = pd.to_numeric(df["athlete_id"], errors="coerce").astype("Int64")
+
+    df["player_label"] = (
+        df["player_name"].astype(str)
+        + " | "
+        + df["position"].astype(str)
+        + " | "
+        + df["high_school"].astype(str)
+        + " | "
+        + df["year"].astype("Int64").astype(str)
+    )
+
+    df = df[df["recruit_id"].str.len() > 0].drop_duplicates(subset=["recruit_id"]).copy()
+    df = df.sort_values(["rating", "player_name"], ascending=[False, True], na_position="last").reset_index(drop=True)
+    return df[base_cols]
+
+
+def _fetch_recruit_candidate_rows(
+    sb: Any,
+    table_name: str,
+    year: int | None,
+    position: str | None,
+    search_text: str | None,
+    limit: int,
+) -> list[dict[str, Any]]:
+    if sb is None:
+        return []
+
+    normalized_search = _normalize_recruit_search_text(search_text or "")
+    normalized_position = str(position or "").strip().upper()
+    limit_value = int(limit) if int(limit or 0) > 0 else 100
+    year_fields: list[tuple[str, int | None]] = [("year", None), ("recruit_class", None)] if year is not None else [("", None)]
+    if year is not None:
+        year_fields = [("year", int(year)), ("recruit_class", int(year))]
+    position_fields: list[tuple[str, str | None]] = [("", None)]
+    if normalized_position and normalized_position != "ALL":
+        position_fields = [("position_group", normalized_position), ("position", normalized_position)]
+
+    select_cols = (
+        "recruit_id,recruit_name,full_name,player_name,position_group,position,"
+        "recruit_class,year,composite_rating,rating,high_school,hs_city,hs_state,"
+        "athlete_id,cfbd_athlete_id,search_text"
+    )
+    rows: list[dict[str, Any]] = []
+    for year_column, year_value in year_fields:
+        for position_column, position_value in position_fields:
+            query = sb.table(table_name).select(select_cols)
+            if year_column and year_value is not None:
+                query = query.eq(year_column, year_value)
+            if position_column and position_value:
+                query = query.eq(position_column, position_value)
+            if len(normalized_search) >= 3:
+                query = query.ilike("search_text", f"%{normalized_search}%")
+            query = query.order("rating", desc=True).order("player_name").limit(limit_value)
+            rows.extend(query.execute().data or [])
+
+    return rows
+
+
+def load_recruit_candidate_window_from_supabase_data(
+    sb: Any,
+    table_name: str,
+    year: int,
+    position: str,
+    position_map: dict[str, str],
+    limit: int = 100,
+) -> pd.DataFrame:
+    rows = _fetch_recruit_candidate_rows(
+        sb=sb,
+        table_name=table_name,
+        year=year,
+        position=position,
+        search_text=None,
+        limit=limit,
+    )
+    df = _build_recruit_candidate_frame(rows, position_map=position_map)
+    return df.head(int(limit)) if limit and int(limit) > 0 else df
+
+
+def search_recruit_candidate_matches_from_supabase_data(
+    sb: Any,
+    table_name: str,
+    year: int,
+    position: str,
+    search_text: str,
+    position_map: dict[str, str],
+    limit: int = 100,
+) -> pd.DataFrame:
+    rows = _fetch_recruit_candidate_rows(
+        sb=sb,
+        table_name=table_name,
+        year=year,
+        position=position,
+        search_text=search_text,
+        limit=limit,
+    )
+    df = _build_recruit_candidate_frame(rows, position_map=position_map)
+    return df.head(int(limit)) if limit and int(limit) > 0 else df
+
+
 def load_transfer_player_index_from_supabase_data(
     sb: Any,
     table_name: str = "gi_college_master",
@@ -305,6 +466,114 @@ def load_transfer_player_index_from_supabase_data(
         + "-"
         + df["last_season"].astype(str)
     )
+    df["season_span"] = span.where(span.str.len() > 0, generated_span)
+
+    df["player_label"] = (
+        df["player_name"].astype(str)
+        + " | "
+        + df["position"].replace("", "UNK").astype(str)
+        + " | "
+        + df["teams"].fillna("").astype(str)
+        + " | "
+        + df["season_span"].fillna("").astype(str)
+    )
+
+    df = df[df["college_player_id"].str.len() > 0].drop_duplicates(subset=["college_player_id"]).copy()
+    df = df.sort_values(["position", "player_name"], ascending=[True, True]).reset_index(drop=True)
+    return df[base_cols]
+
+
+def _normalize_transfer_search_text(value: str) -> str:
+    text = str(value or "").strip().lower()
+    if not text:
+        return ""
+    text = re.sub(r"[\x00-\x1f\x7f]", " ", text)
+    text = text.replace("%", " ").replace("_", " ")
+    text = re.sub(r"\s+", " ", text).strip()
+    return text[:80]
+
+
+def search_transfer_player_index_from_supabase_data(
+    sb: Any,
+    table_name: str = "gi_college_master",
+    position: str | None = None,
+    search_text: str | None = None,
+    limit: int = 25,
+) -> pd.DataFrame:
+    base_cols = [
+        "college_player_id",
+        "cfbd_athlete_id",
+        "player_name",
+        "position",
+        "teams",
+        "conference",
+        "first_season",
+        "last_season",
+        "season_span",
+        "player_label",
+    ]
+
+    if sb is None:
+        return pd.DataFrame(columns=base_cols)
+
+    normalized_search = _normalize_transfer_search_text(search_text or "")
+    normalized_position = str(position or "").strip().upper()
+
+    if len(normalized_search) < 3:
+        return pd.DataFrame(columns=base_cols)
+
+    query = (
+        sb.table(table_name)
+        .select(
+            "college_player_id,cfbd_athlete_id,full_name,first_name,last_name,position,teams,"
+            "conference,first_season,last_season,season_span,search_text"
+        )
+        .eq("last_season", 2025)
+        .ilike("search_text", f"%{normalized_search}%")
+    )
+    if normalized_position and normalized_position != "ALL":
+        query = query.eq("position", normalized_position)
+    if limit and limit > 0:
+        query = query.limit(int(limit))
+
+    rows = query.execute().data or []
+    if not rows:
+        return pd.DataFrame(columns=base_cols)
+
+    df = pd.DataFrame(rows)
+    if "college_player_id" not in df.columns:
+        return pd.DataFrame(columns=base_cols)
+
+    for col in ["full_name", "first_name", "last_name", "position", "teams", "conference", "season_span"]:
+        if col not in df.columns:
+            df[col] = ""
+
+    df["last_season"] = pd.to_numeric(df.get("last_season"), errors="coerce")
+    df = df[df["last_season"] == 2025].copy()
+
+    if normalized_position and normalized_position != "ALL":
+        df["position"] = df["position"].fillna("").astype(str).str.strip().str.upper()
+        df = df[df["position"] == normalized_position].copy()
+    else:
+        df["position"] = df["position"].fillna("").astype(str).str.strip().str.upper()
+
+    df["cfbd_athlete_id"] = df.get("cfbd_athlete_id", "").astype(str).str.strip()
+    df = df[df["cfbd_athlete_id"].str.len() > 0].copy()
+
+    df["college_player_id"] = df["college_player_id"].astype(str).str.strip()
+    df["player_name"] = df["full_name"].fillna("").astype(str).str.strip()
+    missing_name = df["player_name"].str.len() == 0
+    df.loc[missing_name, "player_name"] = (
+        df.loc[missing_name, "first_name"].fillna("").astype(str).str.strip()
+        + " "
+        + df.loc[missing_name, "last_name"].fillna("").astype(str).str.strip()
+    ).str.strip()
+
+    df["first_season"] = pd.to_numeric(df.get("first_season"), errors="coerce").astype("Int64")
+    df["last_season"] = pd.to_numeric(df.get("last_season"), errors="coerce").astype("Int64")
+
+    span = df["season_span"].fillna("").astype(str).str.strip()
+    generated_span = df["first_season"].astype(str) + "-" + df["last_season"].astype(str)
     df["season_span"] = span.where(span.str.len() > 0, generated_span)
 
     df["player_label"] = (

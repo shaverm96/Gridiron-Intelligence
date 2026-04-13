@@ -108,12 +108,10 @@ Status: Significant implementation completed since prior baseline.
 ## Current Diff Review Findings
 
 1. High: A large generated binary artifact (engine_zip.zip) is staged as a new file and appears unrelated to runtime logic.
-2. Medium: Notebook SQL search examples currently emphasize LIKE matching and do not clearly encode the required pg_trgm/search_text fuzzy policy.
-3. Medium: Full runtime validation (Streamlit + graph path + live data integration) is not yet closed.
+2. Medium: Full runtime validation (Streamlit + graph path + live data integration) is not yet closed.
 
 ## Next Verification Checklist
 
 1. Remove or explicitly exclude generated artifact files from merge scope.
-2. Add explicit pg_trgm/search_text examples and index guidance in notebook SQL sections.
-3. Run structured-report and open-chat smoke checks with trace validation.
-4. Re-run targeted problem checks and confirm no regressions in updated engine/app files.
+2. Run structured-report and open-chat smoke checks with trace validation.
+3. Re-run targeted problem checks and confirm no regressions in updated engine/app files.

@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import json
 import re
 from concurrent.futures import ThreadPoolExecutor, TimeoutError
 from typing import Any, Callable
@@ -77,6 +78,22 @@ def _emit_progress(progress_callback: ProgressCallback | None, node: str, status
     if progress_callback is None:
         return
     progress_callback({"node": str(node), "status": str(status)})
+
+
+def _diagnostic_scalar_text(value: Any) -> str:
+    if value is None:
+        return ""
+    if isinstance(value, str):
+        return value.strip()
+    if isinstance(value, (int, float, bool)):
+        return str(value)
+    if isinstance(value, list):
+        if all(not isinstance(item, (dict, list, tuple, set)) for item in value):
+            return " | ".join([str(item) for item in value])
+    try:
+        return json.dumps(value, ensure_ascii=True, separators=(",", ":"), sort_keys=True)
+    except Exception:
+        return str(value)
 
 
 def _merge_update(state: ScoutState, update: dict[str, Any]) -> ScoutState:
@@ -547,6 +564,7 @@ def orchestrate_transfer_cfbd_context(
             }
         )
         usage_citations.extend(list(usage_result.get("citations") or []))
+        usage_params = dict((usage_result.get("meta") or {}).get("params") or {})
         usage_diagnostics.append(
             {
                 "year": int(season),
@@ -555,8 +573,11 @@ def orchestrate_transfer_cfbd_context(
                 "reason": str(usage_result.get("reason") or ""),
                 "rows_pre_filter": len(usage_rows),
                 "rows_post_filter": len(usage_rows),
-                "params": dict((usage_result.get("meta") or {}).get("params") or {}),
-                "queried_teams": [],
+                "queried_teams": "",
+                "queried_team_count": 0,
+                "params_text": _diagnostic_scalar_text(usage_params),
+                "fallback_policy": "player_usage_endpoint",
+                "fallback_teamless_attempted": False,
             }
         )
     _emit_progress(progress_callback, "cfbd_usage", "completed")
@@ -657,14 +678,17 @@ def orchestrate_transfer_cfbd_context(
                 "reason": season_reason,
                 "rows_pre_filter": raw_record_count,
                 "rows_post_filter": len(deduped_rows),
-                "params": {
-                    "year": int(season),
-                    "seasonType": "regular",
-                    "teams": team_filters,
-                    "fallback_policy": "team_filtered_only",
-                    "fallback_teamless_attempted": False,
-                },
-                "queried_teams": team_filters,
+                "queried_teams": _diagnostic_scalar_text(team_filters),
+                "queried_team_count": len(team_filters),
+                "params_text": _diagnostic_scalar_text(
+                    {
+                        "year": int(season),
+                        "seasonType": "regular",
+                        "teams": team_filters,
+                    }
+                ),
+                "fallback_policy": "team_filtered_only",
+                "fallback_teamless_attempted": False,
             }
         )
     _emit_progress(progress_callback, "cfbd_stats", "completed")
@@ -731,6 +755,7 @@ def _build_transfer_synthesis_prompt(
     player_news_summary: str,
     team_news_summary: str,
     exclude_garbage_time: bool,
+    branch_status: dict[str, Any] | None = None,
     follow_up_question: str | None = None,
 ) -> str:
     follow_up = str(follow_up_question or "").strip()
@@ -740,12 +765,39 @@ def _build_transfer_synthesis_prompt(
         else "Create a transfer-impact scouting report for this player and team fit scenario.\n"
     )
 
+    branch_status_block = ""
+    if isinstance(branch_status, dict) and branch_status:
+        branch_lines = ["Branch status summary:"]
+        cfbd_branch = dict(branch_status.get("cfbd_context") or {})
+        player_branch = dict(branch_status.get("player_news_search") or {})
+        team_branch = dict(branch_status.get("team_news_search") or {})
+        summary_branch = dict(branch_status.get("summarization") or {})
+        branch_lines.append(
+            f"- CFBD context: {cfbd_branch.get('status', 'unknown')}"
+            f" | reason: {str(cfbd_branch.get('reason') or '')}"
+        )
+        branch_lines.append(
+            f"- Player news search: {player_branch.get('status', 'unknown')}"
+            f" | reason: {str(player_branch.get('reason') or '')}"
+        )
+        branch_lines.append(
+            f"- Team news search: {team_branch.get('status', 'unknown')}"
+            f" | reason: {str(team_branch.get('reason') or '')}"
+        )
+        branch_lines.append(
+            f"- Summarization: player={summary_branch.get('player_status', 'unknown')}"
+            f" | team={summary_branch.get('team_status', 'unknown')}"
+        )
+        branch_status_block = "\n".join(branch_lines) + "\n\n"
+
     return (
         "You are a senior college football transfer-portal scouting analyst.\n"
-        "Use only provided context. Do not invent facts.\n\n"
+        "Use only provided context. Do not invent facts.\n"
+        "If evidence is missing or stale, say so directly.\n\n"
         f"Player: {player_name}\n"
         f"Target Team: {target_team}\n"
         f"{task_line}\n"
+        f"{branch_status_block}"
         "Context blocks:\n"
         f"- College Profile JSON: {player_row}\n"
         f"- CFBD 2025 Usage JSON: {cfbd_usage_2025}\n"
@@ -759,18 +811,25 @@ def _build_transfer_synthesis_prompt(
         f"- Exclude Garbage Time (CFBD pulls): {bool(exclude_garbage_time)}\n"
         f"- Player News Summary: {player_news_summary}\n"
         f"- Team News Summary: {team_news_summary}\n\n"
-        "Critical analysis requirement:\n"
-        "- Prioritize Compact Usage Table, Usage YoY Delta Table, and Compact Season Stats Table for analysis.\n"
-        "- Garbage-time plays were excluded from CFBD usage pulls by default; reflect this context when interpreting usage rates.\n"
-        "- Explicitly evaluate year-to-year usage-rate changes and role volatility as transfer signals.\n"
-        "- Treat significant usage jumps/drops as evidence and explain likely causes using available context only.\n\n"
+        "Critical analysis requirements:\n"
+        "- Prioritize Compact Usage Table, Usage YoY Delta Table, and Compact Season Stats Table over narrative news claims.\n"
+        "- Garbage-time plays were excluded from CFBD usage pulls by default; account for this when interpreting usage rates.\n"
+        "- If any branch was skipped, failed, or timed out, state that explicitly and reduce certainty accordingly.\n"
+        "- Evaluate year-to-year usage-rate changes and role volatility as transfer signals.\n"
+        "- Explain key drivers and blockers using only provided evidence.\n\n"
         "Output sections in order:\n"
         "1) Player Snapshot\n"
-        "2) 2025 Season Usage and Production\n"
+        "2) 2025 Usage and Production\n"
         "3) Career Arc and Transfer Context\n"
         "4) Target Team Fit and Immediate Impact\n"
-        "5) Transfer Likelihood (Low/Moderate/High) + Confidence and rationale\n"
-        "Keep output concise but grounded."
+        "5) Transfer Conceivability Analysis\n"
+        "   - Include line exactly: Likelihood Rating (out of 100): <integer 0-100>\n"
+        "   - Include line exactly: Rating Confidence: <Low|Medium|High>\n"
+        "   - Do NOT include rating tiers or slash-style formats (example forbidden: 15/100).\n"
+        "   - Include top 3 evidence drivers and top blockers.\n\n"
+        "Style constraints:\n"
+        "- Keep output concise, evidence-grounded, and decision-oriented.\n"
+        "- Avoid boilerplate and avoid repeating the same fact across sections."
     )
 
 
@@ -847,7 +906,11 @@ def orchestrate_transfer_report(
                     "reason": str(reason or "cfbd context unavailable"),
                     "rows_pre_filter": 0,
                     "rows_post_filter": 0,
-                    "queried_teams": teams,
+                    "queried_teams": _diagnostic_scalar_text(teams),
+                    "queried_team_count": len(teams) if isinstance(teams, list) else (1 if str(teams or "").strip() else 0),
+                    "params_text": "",
+                    "fallback_policy": "cfbd_context_unavailable",
+                    "fallback_teamless_attempted": False,
                 }
             ],
             "citations": [],
@@ -870,16 +933,16 @@ def orchestrate_transfer_report(
     def _player_web_task() -> dict[str, Any]:
         query = (
             f"{player_name} transfer portal college football recent {year} "
-            "(site:on3.com OR site:247sports.com OR site:rivals.com OR site:espn.com)"
+            "(site:on3.com OR site:247sports.com OR site:rivals.com OR site:espn.com OR site:cbssports.com)"
         )
-        return search_web_query_tool(query=query, max_results=8)
+        return search_web_query_tool(query=query, max_results=8, timelimit="y")
 
     def _team_web_task() -> dict[str, Any]:
         query = (
             f"{team_text} transfer portal roster needs college football recent {year} "
-            "(site:on3.com OR site:247sports.com OR site:rivals.com OR site:espn.com)"
+            "(site:on3.com OR site:247sports.com OR site:rivals.com OR site:espn.com OR site:cbssports.com)"
         )
-        return search_web_query_tool(query=query, max_results=8)
+        return search_web_query_tool(query=query, max_results=8, timelimit="y")
 
     def _result_or_timeout(
         future: Any,
@@ -1016,6 +1079,7 @@ def orchestrate_transfer_report(
         player_news_summary=player_news_summary,
         team_news_summary=team_news_summary,
         exclude_garbage_time=bool(pull_config.get("exclude_garbage_time", exclude_garbage_time)),
+        branch_status=branch_status,
     )
     _emit_progress(progress_callback, "final_synthesis", "running")
     synthesis_result = final_synthesis_tool(synthesis_prompt)
@@ -1121,9 +1185,9 @@ def orchestrate_transfer_chat_turn(
         year = int(context.get("year") or 2025)
         refresh_query = (
             f"{player_name} transfer portal {target_team} college football recent {year} "
-            "(site:on3.com OR site:247sports.com OR site:rivals.com OR site:espn.com)"
+            "(site:on3.com OR site:247sports.com OR site:rivals.com OR site:espn.com OR site:cbssports.com)"
         )
-        refresh_rows = search_web_query_tool(query=refresh_query, max_results=6)
+        refresh_rows = search_web_query_tool(query=refresh_query, max_results=6, timelimit="m")
         refresh_summary_result = summarize_payload_tool(
             summary_prompt=(
                 "Summarize only the most relevant recency updates for transfer-fit follow-up discussion "
@@ -1154,6 +1218,7 @@ def orchestrate_transfer_chat_turn(
         ),
         team_news_summary=str(context.get("team_news_summary") or ""),
         exclude_garbage_time=bool(context.get("exclude_garbage_time", True)),
+        branch_status=dict(context.get("branch_status") or {}),
         follow_up_question=prompt_text,
     )
     result = final_synthesis_tool(prompt)

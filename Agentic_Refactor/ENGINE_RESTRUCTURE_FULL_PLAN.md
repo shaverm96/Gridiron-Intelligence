@@ -117,7 +117,7 @@ Tasks:
 
 1. A large generated artifact file was added to version control accidentally (engine_zip.zip).
    Mitigation: remove from commit scope unless explicitly required.
-2. Notebook lookup examples currently show LIKE-based search examples and may not fully enforce pg_trgm strategy.
-   Mitigation: add explicit pg_trgm/search_text query examples and index notes.
+2. Notebook and SQL guidance should continue to reflect the explicit pg_trgm/search_text fuzzy-search policy.
+   Mitigation: keep new examples aligned with the existing search_text + pg_trgm contract and avoid reintroducing LIKE-first identity examples.
 3. Runtime validation is not fully closed out after graph/app rewiring.
    Mitigation: run focused smoke checks before merge.

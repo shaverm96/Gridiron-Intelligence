@@ -1,30 +1,33 @@
 # Gridiron Intelligence
 
 Gridiron Intelligence is a Streamlit scouting app with two production workflows:
-- Recruiting Portal: build structured recruiting evaluations for high school prospects.
-- Transfer Portal: evaluate transfer candidates with CFBD usage and season stats plus web context.
+- Recruiting Portal: build structured recruiting evaluations for high school prospects with a required position filter and a default top-100 candidate window by rating.
+- Transfer Portal: evaluate transfer candidates with CFBD usage and season stats plus web context using a required position filter and live search results.
 
 The app opens on a Landing Page where users choose a portal.
 
 ## What You Can Do
 
 ### Recruiting Portal
-1. Select recruiting class year, player, and target team.
-2. Generate a full recruiting report with:
+1. Select recruiting class year, position, and target team.
+2. Browse the top 100 candidates by rating for the selected class year and position.
+3. Use text search to expand beyond the default window when the first 100 results do not include what you need.
+4. Generate a full recruiting report with:
 - profile and projection context
 - web scouting summaries
 - historical comparables
 - final synthesis
-3. Use Open Chat for follow-up questions tied to the generated recruiting context.
+5. Use Open Chat for follow-up questions tied to the generated recruiting context.
 
 ### Transfer Portal
-1. Select position filter, transfer candidate, and target team.
-2. Generate transfer impact output with:
+1. Select a position filter, then type at least 3 letters to load matching transfer candidates.
+2. Pick a candidate and target team.
+3. Generate transfer impact output with:
 - final synthesis
 - side-by-side charts (usage line plus season stat bar)
 - transfer tables
-- debug details with branch health and raw/compact payloads
-3. Use Open Chat for transfer-specific follow-up analysis.
+- debug details with branch health, raw payloads, and compact payloads
+4. Use Open Chat for transfer-specific follow-up analysis that reuses the generated report context.
 
 ### Local CFBD Debugger (if enabled)
 1. Run canonical CFBD pulls for a selected transfer candidate.

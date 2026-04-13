@@ -186,12 +186,15 @@ def _with_current_date_context(prompt_text: str) -> str:
     wait=wait_exponential(multiplier=0.5, min=0.5, max=3),
     reraise=True,
 )
-def _ddgs_text_search(query: str, max_results: int) -> list[dict[str, Any]]:
+def _ddgs_text_search(query: str, max_results: int, timelimit: str | None = None) -> list[dict[str, Any]]:
     if DDGS is None:
         return []
     rows: list[dict[str, Any]] = []
+    query_kwargs: dict[str, Any] = {"max_results": max_results}
+    if str(timelimit or "").strip() in {"d", "w", "m", "y"}:
+        query_kwargs["timelimit"] = str(timelimit).strip()
     with DDGS() as ddgs:
-        for result in ddgs.text(str(query or ""), max_results=max_results):
+        for result in ddgs.text(str(query or ""), **query_kwargs):
             rows.append(result)
     return rows
 
@@ -332,16 +335,23 @@ def search_web_tool(
     return {"status": "ok", "reason": "search complete", "data": rows, "citations": citations}
 
 
-def search_web_query_tool(query: str, max_results: int | None = None) -> dict[str, Any]:
+def search_web_query_tool(query: str, max_results: int | None = None, timelimit: str | None = None) -> dict[str, Any]:
     if DDGS is None:
         return {"status": "skipped", "reason": "DDGS not installed", "data": [], "citations": []}
 
     effective_max_results = int(max_results if max_results is not None else CONFIG.get("WEB_QUERY_MAX_RESULTS", 6))
+    effective_timelimit = str(timelimit or "").strip().lower() or None
+    if effective_timelimit not in {None, "d", "w", "m", "y"}:
+        effective_timelimit = None
 
     rows: list[dict[str, str]] = []
     citations: list[dict[str, str]] = []
     try:
-        results = _ddgs_text_search(str(query or ""), max_results=effective_max_results)
+        results = _ddgs_text_search(
+            str(query or ""),
+            max_results=effective_max_results,
+            timelimit=effective_timelimit,
+        )
         for result in results:
             row = {
                 "title": str(result.get("title") or ""),

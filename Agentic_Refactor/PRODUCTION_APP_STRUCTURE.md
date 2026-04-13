@@ -139,12 +139,15 @@ Context blocks:
 - Compact Season Stats Table JSON
 - Career Context JSON
 - Exclude Garbage Time (CFBD pulls): true
+- Branch Status Summary
 - Player News Summary
 - Team News Summary
 
+If any branch is skipped, failed, or timed out, say so explicitly and avoid overstating certainty.
+
 Output sections in order:
 1) Player Snapshot
-2) 2025 Season Usage and Production
+2) 2025 Usage and Production
 3) Career Arc and Transfer Context
 4) Target Team Fit and Immediate Impact
 5) Transfer Likelihood and Confidence

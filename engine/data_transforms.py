@@ -250,6 +250,37 @@ def rows_to_dynamic_table(rows: list[dict[str, Any]], leading_columns: list[str]
     if not rows:
         return pd.DataFrame()
 
+    def _normalize_cell(value: Any) -> Any:
+        if isinstance(value, dict):
+            try:
+                return json.dumps(value, ensure_ascii=True, separators=(",", ":"), sort_keys=True)
+            except Exception:
+                return str(value)
+        if isinstance(value, list):
+            if not value:
+                return ""
+            if all(not isinstance(item, (dict, list, tuple, set)) for item in value):
+                return " | ".join([str(item) for item in value])
+            try:
+                return json.dumps(value, ensure_ascii=True, separators=(",", ":"))
+            except Exception:
+                return str(value)
+        if isinstance(value, tuple):
+            return _normalize_cell(list(value))
+        if isinstance(value, set):
+            return _normalize_cell(sorted([str(item) for item in value]))
+        if isinstance(value, float) and not pd.isna(value):
+            try:
+                if not pd.Series([value]).replace([float("inf"), float("-inf")], pd.NA).notna().iloc[0]:
+                    return None
+            except Exception:
+                pass
+        text = str(value)
+        if isinstance(value, str):
+            text = re.sub(r"[\x00-\x1f\x7f]", " ", text)
+            text = re.sub(r"\s+", " ", text).strip()
+        return text if isinstance(value, str) else value
+
     leading = list(leading_columns or [])
     all_keys: list[str] = []
     for row in rows:
@@ -260,7 +291,11 @@ def rows_to_dynamic_table(rows: list[dict[str, Any]], leading_columns: list[str]
     trailing = [key for key in all_keys if key not in leading]
     ordered_cols = [key for key in leading if key in all_keys] + trailing
 
-    df = pd.DataFrame(rows)
+    normalized_rows: list[dict[str, Any]] = []
+    for row in rows:
+        normalized_rows.append({key: _normalize_cell(value) for key, value in dict(row).items()})
+
+    df = pd.DataFrame(normalized_rows)
     return df.reindex(columns=ordered_cols)
 
 

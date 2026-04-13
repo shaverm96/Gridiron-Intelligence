@@ -38,8 +38,9 @@ from engine.comparables_service import (
 from engine.data_access import (
     fetch_player_bundle_data,
     load_model_tiers_from_supabase_data,
-    load_player_index_from_supabase_data,
-    load_transfer_player_index_from_supabase_data,
+    load_recruit_candidate_window_from_supabase_data,
+    search_transfer_player_index_from_supabase_data,
+    search_recruit_candidate_matches_from_supabase_data,
     score_tier_from_tiers_data,
     tier_definitions_markdown_data,
 )
@@ -117,6 +118,30 @@ CHAT_STATE_MAX_TRACE = 10
 CHAT_STATE_MAX_ERRORS = 6
 CHAT_STATE_MAX_CITATIONS = 16
 CHAT_STATE_MAX_CANDIDATES = 3
+POSITION_FILTER_PLACEHOLDER = "Select Position"
+POSITION_FILTER_OPTIONS = [
+    "QB",
+    "RB",
+    "WR",
+    "TE",
+    "OT",
+    "OG",
+    "C",
+    "OL",
+    "EDGE",
+    "DE",
+    "DT",
+    "DL",
+    "LB",
+    "CB",
+    "S",
+    "DB",
+    "ATH",
+    "K",
+    "P",
+    "LS",
+]
+RECRUIT_POSITION_OPTIONS = list(POSITION_FILTER_OPTIONS)
 STRUCTURED_REPORT_RATE_LIMIT_COUNT = 3
 STRUCTURED_REPORT_RATE_LIMIT_WINDOW_SECONDS = 60
 
@@ -220,27 +245,237 @@ def tier_definitions_markdown() -> str:
     return tier_definitions_markdown_data(tiers)
 
 
-@st.cache_data
-def load_player_index() -> pd.DataFrame:
+@st.cache_data(ttl=300, show_spinner=False)
+def load_recruit_candidate_window(year: int, position: str, limit: int = 100) -> pd.DataFrame:
     sb = get_supabase_client()
     if sb is None:
         raise RuntimeError("Supabase is not configured. Recruit dropdown requires gi_recruit_master.")
 
-    return load_player_index_from_supabase_data(
+    return load_recruit_candidate_window_from_supabase_data(
         sb=sb,
         table_name=TABLES["player_master"],
-        years=CONFIG["YEARS"],
+        year=year,
+        position=position,
         position_map=POS_MAP,
+        limit=limit,
     )
 
 
-@st.cache_data
-def load_transfer_player_index() -> pd.DataFrame:
+@st.cache_data(ttl=300, show_spinner=False)
+def search_recruit_candidate_matches(year: int, position: str, search_text: str, limit: int = 100) -> pd.DataFrame:
     sb = get_supabase_client()
     if sb is None:
-        raise RuntimeError("Supabase is not configured. Transfer dropdown requires gi_college_master.")
+        raise RuntimeError("Supabase is not configured. Recruit search requires gi_recruit_master.")
 
-    return load_transfer_player_index_from_supabase_data(sb=sb, table_name="gi_college_master")
+    return search_recruit_candidate_matches_from_supabase_data(
+        sb=sb,
+        table_name=TABLES["player_master"],
+        year=year,
+        position=position,
+        search_text=search_text,
+        position_map=POS_MAP,
+        limit=limit,
+    )
+
+
+@st.cache_data(ttl=300, show_spinner=False)
+def load_transfer_candidate_matches(position: str, search_text: str, limit: int = 25) -> pd.DataFrame:
+    sb = get_supabase_client()
+    if sb is None:
+        raise RuntimeError("Supabase is not configured. Transfer search requires gi_college_master.")
+
+    return search_transfer_player_index_from_supabase_data(
+        sb=sb,
+        table_name="gi_college_master",
+        position=position,
+        search_text=search_text,
+        limit=limit,
+    )
+
+
+def _render_transfer_candidate_live_picker(
+    widget_prefix: str,
+    selected_position: str,
+    limit: int = 25,
+) -> tuple[pd.DataFrame, dict[str, Any]]:
+    selected_label_key = f"{widget_prefix}_selected_label"
+    query_text = st.text_input(
+        "Player Lookup",
+        value=str(st.session_state.get(f"{widget_prefix}_candidate_query") or ""),
+        placeholder="Type at least 3 letters to live-search transfer players",
+        key=f"{widget_prefix}_candidate_query_input",
+    )
+    st.session_state[f"{widget_prefix}_candidate_query"] = str(query_text or "")
+
+    if selected_position == POSITION_FILTER_PLACEHOLDER:
+        st.info("Choose a position to load transfer candidates.")
+        st.session_state.pop(selected_label_key, None)
+        return pd.DataFrame(), {}
+
+    if len(str(query_text or "").strip()) < 3:
+        st.info("Type at least 3 letters to live-load player names.")
+        st.session_state.pop(selected_label_key, None)
+        return pd.DataFrame(), {}
+
+    try:
+        candidate_df = load_transfer_candidate_matches(selected_position, str(query_text).strip(), limit=limit)
+    except Exception as exc:
+        st.error(f"Unable to search transfer candidates: {exc}")
+        return pd.DataFrame(), {}
+
+    if candidate_df.empty:
+        st.info("No transfer candidates matched the current position and text.")
+        st.session_state.pop(selected_label_key, None)
+        return candidate_df, {}
+
+    st.caption("Live matches")
+    selected_label = str(st.session_state.get(selected_label_key) or "")
+    records = candidate_df.to_dict(orient="records")
+    for idx, row in enumerate(records):
+        label = str(row.get("player_label") or "")
+        team_text = str(row.get("teams") or "").strip() or "Team N/A"
+        years_text = f"{row.get('first_season') or '?'}-{row.get('last_season') or '?'}"
+        button_text = f"{str(row.get('player_name') or 'Unknown')} | {str(row.get('position') or '?')} | {team_text} | {years_text}"
+        if st.button(button_text, key=f"{widget_prefix}_pick_{idx}", use_container_width=True):
+            selected_label = label
+            st.session_state[selected_label_key] = label
+
+    if not selected_label:
+        return candidate_df, {}
+
+    selected_matches = candidate_df[candidate_df["player_label"] == selected_label]
+    if selected_matches.empty:
+        st.session_state.pop(selected_label_key, None)
+        return candidate_df, {}
+
+    selected_row = dict(selected_matches.iloc[0].to_dict())
+    st.success(f"Selected player: {selected_label}")
+    return candidate_df, selected_row
+
+
+def _render_recruit_candidate_live_picker(
+    widget_prefix: str,
+    selected_year: int,
+    selected_position: str,
+    limit: int = 100,
+) -> tuple[pd.DataFrame, dict[str, Any]]:
+    selected_label_key = f"{widget_prefix}_selected_label"
+
+    if selected_position == POSITION_FILTER_PLACEHOLDER:
+        st.info("Choose a position to load candidates.")
+        st.session_state.pop(selected_label_key, None)
+        return pd.DataFrame(), {}
+
+    base_df = pd.DataFrame()
+    try:
+        base_df = load_recruit_candidate_window(int(selected_year), str(selected_position), limit=limit)
+    except Exception as exc:
+        st.error(f"Unable to load recruit candidates: {exc}")
+        return pd.DataFrame(), {}
+
+    if base_df.empty:
+        st.info("No candidates matched the selected year and position.")
+        st.session_state.pop(selected_label_key, None)
+        return base_df, {}
+
+    if "rating" in base_df.columns:
+        base_df = base_df.copy()
+        base_df["_rating_sort"] = pd.to_numeric(base_df["rating"], errors="coerce")
+        base_df = base_df.sort_values("_rating_sort", ascending=False, na_position="last").drop(columns=["_rating_sort"])
+
+    st.caption("Top 100 by rating")
+    selected_label = str(st.session_state.get(selected_label_key) or "")
+    top_100_df = base_df.head(100).copy()
+    display_to_label: dict[str, str] = {}
+    top_100_display_options: list[str] = []
+    for _, row in top_100_df.iterrows():
+        raw_label = str(row.get("player_label") or "").strip()
+        if not raw_label:
+            continue
+        player_name, position, school, year = parse_selected_player_label_data(raw_label)
+        stars = _star_icons(_recruit_star_value(row.get("rating")))
+        display = (
+            f"{stars} {player_name} | {school or 'School N/A'} | {position or '?'} | {year or '?'}"
+            if stars
+            else f"{player_name} | {school or 'School N/A'} | {position or '?'} | {year or '?'}"
+        )
+        if display in display_to_label:
+            recruit_id = str(row.get("recruit_id") or "").strip()
+            display = f"{display} | ID:{recruit_id or 'dup'}"
+        display_to_label[display] = raw_label
+        top_100_display_options.append(display)
+
+    placeholder = "Select player from Top 100"
+    selected_display = ""
+    for display_text, raw_label in display_to_label.items():
+        if raw_label == selected_label:
+            selected_display = display_text
+            break
+
+    options = [placeholder] + top_100_display_options
+    default_index = options.index(selected_display) if selected_display in options else 0
+    top_100_selected = st.selectbox(
+        "Top 100",
+        options,
+        index=default_index,
+        key=f"{widget_prefix}_top_100_select",
+    )
+    if str(top_100_selected) != placeholder:
+        selected_label = str(display_to_label.get(str(top_100_selected)) or "")
+        st.session_state[selected_label_key] = selected_label
+
+    search_text = st.text_input(
+        "Search for other players",
+        value=str(st.session_state.get(f"{widget_prefix}_candidate_query") or ""),
+        placeholder="Type at least 3 letters to search outside the top 100",
+        key=f"{widget_prefix}_candidate_query_input",
+    )
+    st.session_state[f"{widget_prefix}_candidate_query"] = str(search_text or "")
+
+    search_df = pd.DataFrame()
+    query = str(search_text or "").strip()
+    if len(query) >= 3:
+        try:
+            search_df = search_recruit_candidate_matches(
+                int(selected_year),
+                str(selected_position),
+                query,
+                limit=limit,
+            )
+        except Exception as exc:
+            st.error(f"Unable to search recruit candidates: {exc}")
+            return base_df, {}
+
+        if not search_df.empty:
+            st.caption("Search matches")
+            for idx, row in enumerate(search_df.to_dict(orient="records")[:40]):
+                label = str(row.get("player_label") or "")
+                hs_text = str(row.get("high_school") or "HS N/A")
+                rating_text = str(row.get("rating") or "N/A")
+                button_text = (
+                    f"{str(row.get('player_name') or 'Unknown')} | "
+                    f"{str(row.get('position') or '?')} | "
+                    f"{hs_text} | Rating: {rating_text}"
+                )
+                if st.button(button_text, key=f"{widget_prefix}_search_pick_{idx}", use_container_width=True):
+                    selected_label = label
+                    st.session_state[selected_label_key] = label
+        else:
+            st.info("No additional players matched your search.")
+
+    if not selected_label:
+        return base_df, {}
+
+    selected_matches = base_df[base_df["player_label"] == selected_label]
+    if selected_matches.empty and not search_df.empty:
+        selected_matches = search_df[search_df["player_label"] == selected_label]
+    if selected_matches.empty:
+        st.session_state.pop(selected_label_key, None)
+        return base_df, {}
+
+    selected_row = dict(selected_matches.iloc[0].to_dict())
+    st.success(f"Selected player: {selected_label}")
+    return base_df, selected_row
 
 
 def _is_local_debug_page_enabled() -> bool:
@@ -277,32 +512,54 @@ def _render_json_lazy(payload: Any, key: str, label: str = "Render JSON") -> Non
         st.code(json.dumps(payload, indent=2, default=str), language="json")
 
 
+def _target_team_name(team_option: str) -> str:
+    text = str(team_option or "").strip()
+    if "|" in text:
+        return text.split("|", 1)[0].strip()
+    return text
+
+
+def _recruit_star_value(rating_value: Any) -> float | None:
+    rating = to_float_or_none(rating_value)
+    if rating is None:
+        return None
+    if rating >= 0.98:
+        return 5.0
+    if rating >= 0.90:
+        return 4.0
+    if rating >= 0.80:
+        return 3.0
+    if rating >= 0.70:
+        return 2.0
+    return None
+
+
+def _star_icons(star_value: float | None) -> str:
+    if star_value is None:
+        return ""
+    full = int(star_value)
+    return "⭐" * full
+
+
 def render_local_cfbd_debugger_page() -> None:
     st.subheader("Local Transfer Portal CFBD Debugger")
     st.caption(
-        "Simplified debugger for Transfer Portal CFBD pulls: exact dropdown match -> athlete ID -> "
+        "Simplified debugger for Transfer Portal CFBD pulls: live player lookup -> athlete ID -> "
         "2025 usage plus all-years usage and all-years player season stats checks."
     )
 
-    try:
-        transfer_index = load_transfer_player_index()
-    except Exception as exc:
-        st.error(f"Unable to load transfer candidates: {exc}")
-        return
-
-    if transfer_index.empty:
-        st.warning("No transfer candidates available (requires gi_college_master rows with last_season=2025 and cfbd_athlete_id).")
-        return
-
-    positions = sorted([p for p in transfer_index["position"].dropna().astype(str).str.strip().unique().tolist() if p])
-    selected_position = st.selectbox("Position Filter", ["ALL"] + positions, index=0, key="transfer_debug_position")
-
-    filtered_df = transfer_index.copy()
-    if selected_position != "ALL":
-        filtered_df = filtered_df[filtered_df["position"] == selected_position].copy()
-
-    labels = filtered_df["player_label"].tolist()
-    selected_label = st.selectbox("Transfer Candidate", labels, key="transfer_debug_player") if labels else ""
+    selected_position = st.selectbox(
+        "Position Filter",
+        [POSITION_FILTER_PLACEHOLDER] + POSITION_FILTER_OPTIONS,
+        index=0,
+        key="transfer_debug_position",
+    )
+    filtered_df, selected_row = _render_transfer_candidate_live_picker(
+        widget_prefix="transfer_debug",
+        selected_position=selected_position,
+        limit=25,
+    )
+    selected_label = str(selected_row.get("player_label") or "")
 
     col1, col2 = st.columns(2)
     with col1:
@@ -318,8 +575,7 @@ def render_local_cfbd_debugger_page() -> None:
             st.warning("Select a transfer candidate.")
             return
 
-        selected_lookup = dict(zip(filtered_df["player_label"], filtered_df.to_dict(orient="records")))
-        selected_row = dict(selected_lookup.get(selected_label) or {})
+        selected_row = dict(selected_row or {})
 
         player_name = str(selected_row.get("player_name") or "").strip()
         athlete_id_text = str(selected_row.get("cfbd_athlete_id") or "").strip()
@@ -456,7 +712,19 @@ def render_local_cfbd_debugger_page() -> None:
     st.markdown("### Pull Diagnostics")
     diagnostics_df = rows_to_dynamic_table(
         pull_diagnostics,
-        leading_columns=["year", "endpoint", "status", "reason", "rows_pre_filter", "rows_post_filter", "queried_teams"],
+        leading_columns=[
+            "year",
+            "endpoint",
+            "status",
+            "reason",
+            "rows_pre_filter",
+            "rows_post_filter",
+            "queried_teams",
+            "queried_team_count",
+            "fallback_policy",
+            "fallback_teamless_attempted",
+            "params_text",
+        ],
     )
     if not diagnostics_df.empty:
         st.dataframe(diagnostics_df, use_container_width=True)
@@ -677,7 +945,13 @@ def _render_transfer_usage_chart(section_key: str, artifacts: dict[str, Any]) ->
         st.write("No usage rows available for charting.")
         return
 
-    usage_chart_cols = list(usage_cols)
+    usage_chart_cols: list[str] = []
+    for col in usage_cols:
+        if col not in usage_display_df.columns:
+            continue
+        metric_series = pd.to_numeric(usage_display_df[col], errors="coerce")
+        if metric_series.replace([np.inf, -np.inf], np.nan).notna().any():
+            usage_chart_cols.append(col)
     if not usage_chart_cols:
         st.write("No usage metrics available for charting.")
         return
@@ -685,16 +959,31 @@ def _render_transfer_usage_chart(section_key: str, artifacts: dict[str, Any]) ->
     metric_key = f"{section_key}_usage_metric"
     usage_metric = st.selectbox("Usage metric", usage_chart_cols, key=metric_key)
     usage_plot_df = usage_display_df[["year", usage_metric]].copy()
-    usage_plot_df = usage_plot_df.dropna()
+    usage_plot_df["year"] = pd.to_numeric(usage_plot_df["year"], errors="coerce")
+    usage_plot_df[usage_metric] = pd.to_numeric(usage_plot_df[usage_metric], errors="coerce")
+    finite_mask = np.isfinite(usage_plot_df["year"].to_numpy()) & np.isfinite(usage_plot_df[usage_metric].to_numpy())
+    usage_plot_df = usage_plot_df.loc[finite_mask].copy()
     if usage_plot_df.empty:
         st.write("No usage points available for selected metric.")
         return
+    usage_plot_df["year"] = usage_plot_df["year"].astype(int)
+    usage_plot_df = usage_plot_df.sort_values("year").drop_duplicates(subset=["year"], keep="last")
+    if usage_plot_df.empty:
+        st.write("No usage points available for selected metric.")
+        return
+    usage_plot_df["usage_label"] = usage_plot_df[usage_metric].map(lambda v: f"{float(v):.1f}")
 
-    chart = alt.Chart(usage_plot_df).mark_line(point=True).encode(
-        x=alt.X("year:O", title="Year"),
+    base = alt.Chart(usage_plot_df).encode(
+        x=alt.X("year:Q", title="Year", axis=alt.Axis(format="d")),
         y=alt.Y(f"{usage_metric}:Q", title="Usage %", axis=alt.Axis(format=".1f")),
-        tooltip=[alt.Tooltip("year:O", title="Year"), alt.Tooltip(f"{usage_metric}:Q", title="Usage %", format=".1f")],
+        tooltip=[alt.Tooltip("year:Q", title="Year", format="d"), alt.Tooltip(f"{usage_metric}:Q", title="Usage %", format=".1f")],
     )
+    line = base.mark_line()
+    points = base.mark_point(size=80, filled=True)
+    point_labels = base.mark_text(dy=14, baseline="top", fontSize=14, fontWeight="bold", color="#FFFFFF").encode(
+        text=alt.Text("usage_label:N")
+    )
+    chart = (line + points + point_labels).properties(height=260)
     st.altair_chart(chart, use_container_width=True)
 
 
@@ -705,7 +994,13 @@ def _render_transfer_stat_bar_chart(section_key: str, artifacts: dict[str, Any])
         st.write("No season-stat rows available for charting.")
         return
 
-    stat_cols = [col for col in ordered_stat_cols if col not in {"year", "team", "games"}]
+    stat_cols: list[str] = []
+    for col in ordered_stat_cols:
+        if col in {"year", "team", "games"} or col not in season_stats_df.columns:
+            continue
+        metric_series = pd.to_numeric(season_stats_df[col], errors="coerce")
+        if metric_series.replace([np.inf, -np.inf], np.nan).notna().any():
+            stat_cols.append(col)
     if not stat_cols:
         st.write("No season-stat metrics available for charting.")
         return
@@ -713,17 +1008,38 @@ def _render_transfer_stat_bar_chart(section_key: str, artifacts: dict[str, Any])
     metric_key = f"{section_key}_stat_metric"
     stat_metric = st.selectbox("Season stat metric", stat_cols, key=metric_key)
     stat_plot_df = season_stats_df[["year", stat_metric]].copy()
+    stat_plot_df["year"] = pd.to_numeric(stat_plot_df["year"], errors="coerce")
     stat_plot_df[stat_metric] = pd.to_numeric(stat_plot_df[stat_metric], errors="coerce")
-    stat_plot_df = stat_plot_df.dropna()
+    finite_mask = np.isfinite(stat_plot_df["year"].to_numpy()) & np.isfinite(stat_plot_df[stat_metric].to_numpy())
+    stat_plot_df = stat_plot_df.loc[finite_mask].copy()
+    if stat_plot_df.empty:
+        st.write("No numeric values available for selected stat metric.")
+        return
+    stat_plot_df["year"] = stat_plot_df["year"].astype(int)
+    # Aggregate to a single bar per season to avoid repeated year labels when multiple team rows exist.
+    stat_plot_df = (
+        stat_plot_df.groupby("year", as_index=False)[stat_metric]
+        .max()
+        .sort_values("year")
+    )
     if stat_plot_df.empty:
         st.write("No numeric values available for selected stat metric.")
         return
 
-    chart = alt.Chart(stat_plot_df).mark_bar().encode(
+    stat_plot_df["baseline"] = 0.0
+    stat_plot_df["stat_label"] = stat_plot_df[stat_metric].map(lambda v: f"{float(v):.1f}")
+    base = alt.Chart(stat_plot_df).encode(
         x=alt.X("year:O", title="Year"),
-        y=alt.Y(f"{stat_metric}:Q", title=stat_metric.replace("_", " ").title()),
-        tooltip=[alt.Tooltip("year:O", title="Year"), alt.Tooltip(f"{stat_metric}:Q", title="Value", format=".1f")],
+        tooltip=[alt.Tooltip("year:Q", title="Year", format="d"), alt.Tooltip(f"{stat_metric}:Q", title="Value", format=".1f")],
     )
+    bars = base.mark_bar(size=48).encode(
+        y=alt.Y(f"{stat_metric}:Q", title=stat_metric.replace("_", " ").title())
+    )
+    bar_labels = base.mark_text(dy=-4, baseline="bottom", fontSize=14, fontWeight="bold", color="#111827").encode(
+        y=alt.Y("baseline:Q"),
+        text=alt.Text("stat_label:N"),
+    )
+    chart = (bars + bar_labels).properties(height=260)
     st.altair_chart(chart, use_container_width=True)
 
 
@@ -748,13 +1064,24 @@ def _render_transfer_tables(artifacts: dict[str, Any]) -> None:
     if not isinstance(usage_display_df, pd.DataFrame) or usage_display_df.empty:
         st.write("No usage rows available.")
     else:
+        usage_view_df = usage_display_df.drop(columns=[col for col in ["record_count", "status"] if col in usage_display_df.columns])
         subset_delta = [col for col in delta_cols if col in usage_display_df.columns]
-        percent_cols = [col for col in usage_cols + subset_delta if col in usage_display_df.columns]
-        styled_usage = usage_display_df.style
+        percent_cols = [col for col in usage_cols + subset_delta if col in usage_view_df.columns]
+        styled_usage = usage_view_df.style.hide(axis="index")
         if percent_cols:
             styled_usage = styled_usage.format({col: "{:.1f}%" for col in percent_cols})
         if subset_delta:
             styled_usage = styled_usage.map(_usage_delta_cell_style, subset=subset_delta)
+        styled_usage = styled_usage.set_properties(**{
+            "font-size": "0.97rem",
+            "font-weight": "600",
+            "color": "#F9FAFB",
+        }).set_table_styles(
+            [
+                {"selector": "th", "props": "background: #0f172a; color: #e2e8f0; font-size: 0.82rem; text-transform: uppercase; letter-spacing: 0.04em;"},
+                {"selector": "td", "props": "background: #111827; border-bottom: 1px solid #1f2937;"},
+            ]
+        )
         st.dataframe(styled_usage, use_container_width=True)
 
     st.markdown("### Season Stats Table")
@@ -762,7 +1089,18 @@ def _render_transfer_tables(artifacts: dict[str, Any]) -> None:
         st.write("No season stat rows available.")
     else:
         display_cols = ordered_stat_cols if ordered_stat_cols else list(season_stats_df.columns)
-        st.dataframe(season_stats_df[display_cols], use_container_width=True)
+        stats_view_df = season_stats_df[display_cols].drop(columns=[col for col in ["record_count", "status"] if col in season_stats_df.columns], errors="ignore")
+        styled_stats = stats_view_df.style.hide(axis="index").set_properties(**{
+            "font-size": "0.97rem",
+            "font-weight": "600",
+            "color": "#F9FAFB",
+        }).set_table_styles(
+            [
+                {"selector": "th", "props": "background: #0f172a; color: #e2e8f0; font-size: 0.82rem; text-transform: uppercase; letter-spacing: 0.04em;"},
+                {"selector": "td", "props": "background: #111827; border-bottom: 1px solid #1f2937;"},
+            ]
+        )
+        st.dataframe(styled_stats, use_container_width=True)
 
 
 def _allow_structured_report_submission() -> tuple[bool, int]:
@@ -1359,20 +1697,22 @@ def render_structured_report_with_chat_page() -> None:
     st.subheader("Recruiting Portal")
     report_state_key = "structured_chat_report_output"
 
-    try:
-        player_index = load_player_index()
-    except Exception as exc:
-        st.error(f"Unable to load player index: {exc}")
-        st.stop()
-
     selected_year = st.selectbox("Recruiting Class Year", CONFIG["YEARS"], index=0, key="structured_chat_year")
-    year_players = player_index[player_index["year"] == selected_year]
-    selected_label = (
-        st.selectbox("Player", year_players["player_label"].tolist(), key="structured_chat_player")
-        if not year_players.empty
-        else ""
+    selected_position = st.selectbox(
+        "Position Filter",
+        [POSITION_FILTER_PLACEHOLDER] + RECRUIT_POSITION_OPTIONS,
+        index=0,
+        key="structured_chat_position",
     )
-    target_team = st.selectbox("Target Team", TARGET_TEAMS, index=0, key="structured_chat_target_team")
+    candidate_df, selected_row = _render_recruit_candidate_live_picker(
+        widget_prefix="structured_chat",
+        selected_year=int(selected_year),
+        selected_position=str(selected_position),
+        limit=100,
+    )
+    selected_label = str(selected_row.get("player_label") or "")
+    target_team_option = st.selectbox("Target Team", TARGET_TEAMS, index=0, key="structured_chat_target_team")
+    target_team = _target_team_name(target_team_option)
 
     if st.button("Generate Scouting Report", type="primary", key="structured_chat_generate_report"):
         allowed, retry_after = _allow_structured_report_submission()
@@ -1384,7 +1724,7 @@ def render_structured_report_with_chat_page() -> None:
             return
 
         if not selected_label:
-            st.warning("No players available for selected year.")
+            st.warning("No players available for the selected year, position, and search settings.")
             return
 
         supabase_issues = get_supabase_config_issues()
@@ -1393,10 +1733,9 @@ def render_structured_report_with_chat_page() -> None:
             st.error(msg)
             st.stop()
 
-        lookup = dict(zip(player_index["player_label"], player_index["recruit_id"]))
-        recruit_id = lookup.get(selected_label)
+        recruit_id = str(selected_row.get("recruit_id") or "").strip()
         if not recruit_id:
-            st.warning("Pick a valid player from the dropdown list.")
+            st.warning("Pick a valid player from the live search results.")
             st.stop()
 
         selected_player_name, selected_position_hint, selected_high_school_hint, _ = parse_selected_player_label_data(selected_label)
@@ -2364,38 +2703,41 @@ def render_structured_report_with_chat_page() -> None:
 
 def render_potential_transfers_with_chat_page() -> None:
     st.subheader("Transfer Portal")
+    _render_transfer_portal_style_block()
+    st.markdown(
+        (
+            "<section class='transfer-dossier-card'>"
+            "<header class='transfer-dossier-header'>"
+            "<h3 class='transfer-dossier-title'>Transfer Report Setup</h3>"
+            "</header>"
+            "<div class='transfer-dossier-hero'>"
+            "<div class='transfer-dossier-hero-left'>"
+            "<div class='transfer-dossier-hero-copy'>"
+            "<div class='transfer-dossier-player'>Match transfer impact to team fit</div>"
+            "<div class='transfer-dossier-player-meta'>Choose a position, then type at least 3 letters to live-render player names from Supabase.</div>"
+            "</div>"
+            "</div>"
+            "<div class='transfer-dossier-physical'>Live lookup</div>"
+            "</div>"
+            "</section>"
+        ),
+        unsafe_allow_html=True,
+    )
     report_state_key = "transfer_chat_report_output"
-
-    try:
-        transfer_index = load_transfer_player_index()
-    except Exception as exc:
-        st.error(f"Unable to load transfer player index: {exc}")
-        st.stop()
-
-    if transfer_index.empty:
-        st.info("No transfer candidates found in gi_college_master for last_season = 2025 with CFBD athlete IDs.")
-        return
-
-    positions = sorted([p for p in transfer_index["position"].dropna().astype(str).str.strip().unique().tolist() if p])
-    position_options = ["ALL"] + positions
     selected_position = st.selectbox(
         "Position Filter",
-        position_options,
+        [POSITION_FILTER_PLACEHOLDER] + POSITION_FILTER_OPTIONS,
         index=0,
         key="transfer_chat_position_filter",
     )
-
-    filtered_df = transfer_index.copy()
-    if selected_position != "ALL":
-        filtered_df = filtered_df[filtered_df["position"] == selected_position].copy()
-
-    player_labels = filtered_df["player_label"].tolist()
-    selected_label = (
-        st.selectbox("Transfer Candidate", player_labels, key="transfer_chat_player")
-        if player_labels
-        else ""
+    candidate_df, selected_row = _render_transfer_candidate_live_picker(
+        widget_prefix="transfer_chat",
+        selected_position=selected_position,
+        limit=25,
     )
-    target_team = st.selectbox("Target Team", TARGET_TEAMS, index=0, key="transfer_chat_target_team")
+    selected_label = str(selected_row.get("player_label") or "")
+    target_team_option = st.selectbox("Target Team", TARGET_TEAMS, index=0, key="transfer_chat_target_team")
+    target_team = _target_team_name(target_team_option)
 
     if st.button("Generate Transfer Impact Report", type="primary", key="transfer_chat_generate_report"):
         allowed, retry_after = _allow_structured_report_submission()
@@ -2407,11 +2749,10 @@ def render_potential_transfers_with_chat_page() -> None:
             return
 
         if not selected_label:
-            st.warning("No transfer candidates available for selected filter.")
+            st.warning("No transfer candidates available for the selected position and search text.")
             return
 
-        row_lookup = dict(zip(filtered_df["player_label"], filtered_df.to_dict(orient="records")))
-        selected_row = dict(row_lookup.get(selected_label) or {})
+        selected_row = dict(selected_row or {})
         college_player_id = str(selected_row.get("college_player_id") or "").strip()
         cfbd_athlete_id = str(selected_row.get("cfbd_athlete_id") or "").strip()
         position = str(selected_row.get("position") or "").strip()
@@ -2463,12 +2804,13 @@ def render_potential_transfers_with_chat_page() -> None:
     if not isinstance(report_output, dict):
         return
 
+    st.markdown("### Transfer Evaluation")
+
     player_name = str(report_output.get("player_name") or "Unknown Player").strip()
     position = str(report_output.get("position") or "").strip()
     st.markdown(f"## Potential Transfer Evaluation - {player_name}")
-    st.markdown(
-        f"- Position: {position or 'N/A'}  \\\n+- Target Team: {str(report_output.get('target_team') or 'N/A')}  \\\n+- CFBD Athlete ID: {str(report_output.get('cfbd_athlete_id') or 'N/A')}"
-    )
+    _render_transfer_report_hero(report_output)
+    _render_transfer_report_kpi_cards(report_output)
 
     st.markdown("### Final Transfer Impact Synthesis")
     st.markdown(str(report_output.get("final_report") or "No synthesis generated."))
@@ -2525,12 +2867,6 @@ def render_potential_transfers_with_chat_page() -> None:
                 f"({summary_branch.get('team_reason', '')})"
             )
 
-        st.markdown("#### Player Transfer and Recency Summary")
-        st.markdown(str(report_output.get("player_news_summary") or "No player-news summary available."))
-
-        st.markdown("#### Target Team Context Summary")
-        st.markdown(str(report_output.get("team_news_summary") or "No team summary available."))
-
         st.markdown("#### College Player Profile")
         _render_json_lazy(report_output.get("college_player") or {}, key="transfer_portal_college_player_json")
 
@@ -2561,7 +2897,19 @@ def render_potential_transfers_with_chat_page() -> None:
         st.markdown("#### Per-Year Diagnostics")
         diagnostics_df = rows_to_dynamic_table(
             pull_diagnostics,
-            leading_columns=["year", "endpoint", "status", "reason", "rows_pre_filter", "rows_post_filter", "queried_teams"],
+            leading_columns=[
+                "year",
+                "endpoint",
+                "status",
+                "reason",
+                "rows_pre_filter",
+                "rows_post_filter",
+                "queried_teams",
+                "queried_team_count",
+                "fallback_policy",
+                "fallback_teamless_attempted",
+                "params_text",
+            ],
         )
         if not diagnostics_df.empty:
             st.dataframe(diagnostics_df, use_container_width=True)
@@ -2745,6 +3093,335 @@ def render_open_chat_page() -> None:
                 err_text = f"Open chat failed: {exc}"
                 st.session_state["open_chat_messages"].append({"role": "assistant", "content": err_text})
                 st.error(err_text)
+
+
+def _render_transfer_portal_style_block() -> None:
+    st.markdown(
+        """
+        <style>
+        .transfer-dossier-card {
+            background: linear-gradient(
+                160deg,
+                color-mix(in srgb, var(--secondary-background-color) 92%, #0c1225 8%),
+                color-mix(in srgb, var(--background-color) 84%, #11182f 16%)
+            );
+            border: 1px solid color-mix(in srgb, var(--text-color) 14%, transparent);
+            border-radius: 18px;
+            padding: 0.95rem;
+            margin: 0 0 1.15rem 0;
+            box-shadow: 0 16px 36px color-mix(in srgb, #000 34%, transparent);
+        }
+        .transfer-dossier-header,
+        .transfer-dossier-hero {
+            border-radius: 10px;
+            padding: 0.74rem 0.96rem;
+            margin-bottom: 0.66rem;
+        }
+        .transfer-dossier-header {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            background: linear-gradient(
+                165deg,
+                color-mix(in srgb, var(--secondary-background-color) 90%, #0a1224 10%),
+                color-mix(in srgb, var(--background-color) 80%, #081020 20%)
+            );
+            border: 1px solid color-mix(in srgb, var(--text-color) 14%, transparent);
+        }
+        .transfer-dossier-title {
+            margin: 0;
+            font-size: 1.32rem;
+            line-height: 1.2;
+            letter-spacing: 0.01em;
+            font-weight: 800;
+            color: var(--text-color);
+        }
+        .transfer-dossier-hero {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 0.9rem;
+            background: linear-gradient(
+                165deg,
+                color-mix(in srgb, var(--secondary-background-color) 92%, #0a1224 8%),
+                color-mix(in srgb, var(--background-color) 82%, #081020 18%)
+            );
+            border: 1px solid color-mix(in srgb, var(--text-color) 16%, transparent);
+            box-shadow:
+                0 16px 36px color-mix(in srgb, #000 42%, transparent),
+                inset 0 1px 0 color-mix(in srgb, #fff 7%, transparent);
+        }
+        .transfer-dossier-hero-left {
+            display: flex;
+            align-items: center;
+            gap: 0.76rem;
+            min-width: 0;
+        }
+        .transfer-dossier-hero-copy {
+            min-width: 0;
+        }
+        .transfer-dossier-player {
+            font-size: clamp(1.55rem, 2.05vw, 2rem);
+            font-weight: 820;
+            color: color-mix(in srgb, var(--text-color) 96%, transparent);
+            line-height: 1.12;
+            margin-bottom: 0.2rem;
+            text-wrap: balance;
+        }
+        .transfer-dossier-player-meta {
+            font-size: 1.01rem;
+            line-height: 1.32;
+            color: color-mix(in srgb, var(--text-color) 84%, transparent);
+            text-wrap: pretty;
+        }
+        .transfer-dossier-physical {
+            font-size: clamp(1.7rem, 2.2vw, 2.2rem);
+            font-weight: 810;
+            color: color-mix(in srgb, var(--text-color) 96%, transparent);
+            white-space: nowrap;
+            text-align: right;
+        }
+        .transfer-report-kpi-wrap {
+            width: min(940px, 100%);
+            margin: 0.1rem auto 1.2rem auto;
+        }
+        .transfer-report-kpi-grid {
+            display: grid;
+            grid-template-columns: repeat(4, minmax(0, 1fr));
+            gap: 1.0rem;
+        }
+        .transfer-report-kpi-card {
+            background:
+                linear-gradient(
+                    165deg,
+                    color-mix(in srgb, var(--secondary-background-color) 92%, #0a1224 8%),
+                    color-mix(in srgb, var(--background-color) 82%, #081020 18%)
+                );
+            border: 1px solid color-mix(in srgb, var(--text-color) 16%, transparent);
+            border-radius: 16px;
+            padding: 0.9rem 1rem;
+            min-height: 112px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            box-shadow:
+                0 16px 36px color-mix(in srgb, #000 42%, transparent),
+                inset 0 1px 0 color-mix(in srgb, #fff 7%, transparent);
+        }
+        .transfer-report-kpi-label {
+            font-size: 0.72rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: color-mix(in srgb, var(--text-color) 52%, transparent);
+            margin-bottom: 0.5rem;
+            text-align: center;
+        }
+        .transfer-report-kpi-value {
+            font-size: clamp(1.3rem, 1.8vw, 1.75rem);
+            font-weight: 800;
+            line-height: 1.12;
+            color: var(--text-color);
+            word-break: break-word;
+            letter-spacing: 0.01em;
+            text-align: center;
+        }
+        .structured-summary-card {
+            background: color-mix(in srgb, var(--secondary-background-color) 90%, var(--background-color));
+            border: 1px solid color-mix(in srgb, var(--text-color) 12%, transparent);
+            border-radius: 16px;
+            padding: 1rem 1rem 0.92rem 1rem;
+            margin: 0 0 1.1rem 0;
+        }
+        .structured-summary-title {
+            margin: 0 0 0.8rem 0;
+            font-size: 1.28rem;
+            font-weight: 760;
+            letter-spacing: 0.01em;
+            line-height: 1.2;
+            color: var(--text-color);
+        }
+        .structured-summary-list {
+            display: flex;
+            flex-direction: column;
+            gap: 0.62rem;
+        }
+        .structured-summary-note {
+            border: 1px solid color-mix(in srgb, var(--text-color) 10%, transparent);
+            border-radius: 12px;
+            background: color-mix(in srgb, var(--background-color) 88%, var(--secondary-background-color));
+            padding: 0.72rem 0.82rem;
+        }
+        .structured-summary-note--plain {
+            border-left: 2px solid color-mix(in srgb, #3b82f6 35%, transparent);
+            padding-left: 0.74rem;
+        }
+        .structured-summary-note-label {
+            margin: 0 0 0.28rem 0;
+            font-size: 0.73rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: color-mix(in srgb, var(--text-color) 54%, transparent);
+        }
+        .structured-summary-note-body {
+            margin: 0;
+            font-size: 0.95rem;
+            line-height: 1.5;
+            color: color-mix(in srgb, var(--text-color) 94%, transparent);
+        }
+        @media (max-width: 1000px) {
+            .transfer-report-kpi-grid {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+            }
+        }
+        @media (max-width: 640px) {
+            .transfer-dossier-card {
+                padding: 0.82rem;
+            }
+            .transfer-dossier-header,
+            .transfer-dossier-hero {
+                padding: 0.64rem 0.72rem;
+            }
+            .transfer-dossier-title {
+                font-size: 1.12rem;
+            }
+            .transfer-dossier-hero {
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 0.72rem 0.74rem;
+            }
+            .transfer-dossier-physical {
+                text-align: left;
+                white-space: normal;
+            }
+            .transfer-report-kpi-wrap {
+                width: 100%;
+            }
+            .transfer-report-kpi-grid {
+                grid-template-columns: 1fr;
+                gap: 0.9rem;
+            }
+        }
+        </style>
+        """,
+        unsafe_allow_html=True,
+    )
+
+
+def _render_transfer_summary_card(title: str, raw_text: str | None) -> None:
+    notes = parse_summary_notes_data(raw_text)
+    if not notes:
+        notes = [{"label": "", "body": str(raw_text or "No summary available.").strip() or "No summary available."}]
+
+    notes_html = "".join(
+        [
+            (
+                f"<div class='structured-summary-note'>"
+                f"<div class='structured-summary-note-label'>{html.escape(note.get('label') or 'Note')}</div>"
+                f"<div class='structured-summary-note-body'>{html.escape(note.get('body') or '')}</div>"
+                "</div>"
+                if str(note.get("label") or "").strip()
+                else (
+                    f"<div class='structured-summary-note structured-summary-note--plain'>"
+                    f"<div class='structured-summary-note-body'>{html.escape(note.get('body') or '')}</div>"
+                    "</div>"
+                )
+            )
+            for note in notes
+        ]
+    )
+
+    st.markdown(
+        (
+            f"<section class='structured-summary-card'>"
+            f"<h3 class='structured-summary-title'>{html.escape(title)}</h3>"
+            f"<div class='structured-summary-list'>{notes_html}</div>"
+            "</section>"
+        ),
+        unsafe_allow_html=True,
+    )
+
+
+def _render_transfer_report_kpi_cards(report_output: dict[str, Any]) -> None:
+    kpi_cards = [
+        ("Player", str(report_output.get("player_name") or "N/A")),
+        ("Position", str(report_output.get("position") or "N/A")),
+        ("Target Team", str(report_output.get("target_team") or "N/A")),
+        ("CFBD Athlete ID", str(report_output.get("cfbd_athlete_id") or "N/A")),
+    ]
+    kpi_cards_html = "".join(
+        [
+            (
+                "<div class='transfer-report-kpi-card'>"
+                f"<div class='transfer-report-kpi-label'>{html.escape(label)}</div>"
+                f"<div class='transfer-report-kpi-value'>{html.escape(value)}</div>"
+                "</div>"
+            )
+            for label, value in kpi_cards
+        ]
+    )
+    st.markdown(
+        (
+            "<div class='transfer-report-kpi-wrap'>"
+            f"<div class='transfer-report-kpi-grid'>{kpi_cards_html}</div>"
+            "</div>"
+        ),
+        unsafe_allow_html=True,
+    )
+
+
+def _build_transfer_physical_profile(player_row: dict[str, Any]) -> str:
+    height_inches = to_float_or_none(first_non_null(player_row, ["height_inches", "height", "height_in"]))
+    weight_lbs = to_float_or_none(first_non_null(player_row, ["weight_lbs", "weight"]))
+    class_year = str(first_non_null(player_row, ["class", "class_year", "year"]) or "").strip()
+    season_span_start = first_non_null(player_row, ["first_season"])
+    season_span_end = first_non_null(player_row, ["last_season"])
+
+    parts: list[str] = []
+    if height_inches is not None and height_inches > 0:
+        feet = int(height_inches) // 12
+        inches = int(round(height_inches - feet * 12))
+        parts.append(f"{feet}-{inches} H")
+    if weight_lbs is not None and weight_lbs > 0:
+        parts.append(f"{int(round(weight_lbs))} lbs")
+    if class_year:
+        parts.append(f"Class {class_year}")
+    if season_span_start or season_span_end:
+        parts.append(f"Span {season_span_start or '?'}-{season_span_end or '?'}")
+    return " | ".join(parts) if parts else "Physical profile unavailable"
+
+
+def _render_transfer_report_hero(report_output: dict[str, Any]) -> None:
+    player_row = dict(report_output.get("college_player") or {})
+    player_name = str(report_output.get("player_name") or player_row.get("player_name") or "Unknown Player").strip()
+    position = str(report_output.get("position") or player_row.get("position") or "N/A").strip() or "N/A"
+    target_team = str(report_output.get("target_team") or "N/A").strip() or "N/A"
+    athlete_id = str(report_output.get("cfbd_athlete_id") or "N/A").strip() or "N/A"
+    subtitle = f"{position} | Target: {target_team} | CFBD ID: {athlete_id}"
+    physical_profile = _build_transfer_physical_profile(player_row)
+
+    st.markdown(
+        (
+            "<section class='transfer-dossier-card'>"
+            "<header class='transfer-dossier-header'>"
+            "<h3 class='transfer-dossier-title'>Transfer Report</h3>"
+            "</header>"
+            "<div class='transfer-dossier-hero'>"
+            "<div class='transfer-dossier-hero-left'>"
+            "<div class='transfer-dossier-hero-copy'>"
+            f"<div class='transfer-dossier-player'>{html.escape(player_name)}</div>"
+            f"<div class='transfer-dossier-player-meta'>{html.escape(subtitle)}</div>"
+            "</div>"
+            "</div>"
+            f"<div class='transfer-dossier-physical'>{html.escape(physical_profile)}</div>"
+            "</div>"
+            "</section>"
+        ),
+        unsafe_allow_html=True,
+    )
 
 
 if app_page == "Landing Page":
