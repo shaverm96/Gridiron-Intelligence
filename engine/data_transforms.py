@@ -545,9 +545,9 @@ def build_recruiting_summary_layout_data(raw_text: str | None, context: dict[str
             dash = re.match(r"^(\d)\s*[-\s]\s*(\d{1,2})$", text)
             if dash:
                 return f"{dash.group(1)}'{dash.group(2)}\""
-            numeric = re.match(r"^(\d{2})$", text)
+            numeric = re.match(r"^(\d{2}(?:\.0+)?)$", text)
             if numeric:
-                inches_total = int(numeric.group(1))
+                inches_total = int(float(numeric.group(1)))
                 if 55 <= inches_total <= 89:
                     feet = inches_total // 12
                     inches = inches_total % 12
