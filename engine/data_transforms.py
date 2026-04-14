@@ -524,6 +524,59 @@ def build_recruiting_summary_layout_data(raw_text: str | None, context: dict[str
             return str(simple_weight.group(1)).strip()
         return ""
 
+    def _context_physical_profile() -> str:
+        def _first_ctx(*keys: str) -> str:
+            for key in keys:
+                value = ctx.get(key)
+                if value is None:
+                    continue
+                text = str(value).strip()
+                if text:
+                    return text
+            return ""
+
+        def _normalize_height(value: str) -> str:
+            text = str(value or "").strip()
+            if not text:
+                return ""
+            if re.search(r"\b\d\s*(?:'|ft|foot)\s*\d{1,2}\b", text, flags=re.IGNORECASE):
+                parsed = _extract_physical_profile(text)
+                return parsed if parsed else text
+            dash = re.match(r"^(\d)\s*[-\s]\s*(\d{1,2})$", text)
+            if dash:
+                return f"{dash.group(1)}'{dash.group(2)}\""
+            numeric = re.match(r"^(\d{2})$", text)
+            if numeric:
+                inches_total = int(numeric.group(1))
+                if 55 <= inches_total <= 89:
+                    feet = inches_total // 12
+                    inches = inches_total % 12
+                    return f"{feet}'{inches}\""
+            return text
+
+        def _normalize_weight(value: str) -> str:
+            text = str(value or "").strip()
+            if not text:
+                return ""
+            parsed = _extract_physical_profile(text)
+            if parsed and "lbs" in parsed.lower() and "'" not in parsed:
+                return parsed
+            digits = re.search(r"\b(\d{2,3})\b", text)
+            if digits:
+                return f"{digits.group(1)} lbs"
+            return text
+
+        height_text = _normalize_height(
+            _first_ctx("height", "height_display", "height_ft_in", "ht", "height_inches")
+        )
+        weight_text = _normalize_weight(
+            _first_ctx("weight", "weight_display", "weight_lbs", "wt")
+        )
+
+        if height_text and weight_text:
+            return f"{height_text}, {weight_text}"
+        return height_text or weight_text
+
     def _extract_labeled_blocks(text: str, labels: list[str]) -> str:
         if not text.strip():
             return ""
@@ -875,6 +928,9 @@ def build_recruiting_summary_layout_data(raw_text: str | None, context: dict[str
 
     if not str(extracted.get("athletic_background") or "").strip():
         extracted["athletic_background"] = _athletic_background_fallback()
+
+    if not str(extracted.get("physical_profile") or "").strip():
+        extracted["physical_profile"] = _context_physical_profile()
 
     prospect_text = str(extracted.get("prospect") or "").strip()
     hero_name, hero_subtitle = _extract_hero_name_and_subtitle(prospect_text)
