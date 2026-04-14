@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import logging
 import re
 from typing import Any, Callable
 
@@ -694,9 +695,9 @@ def build_recruiting_summary_layout_data(raw_text: str | None, context: dict[str
     def _extract_commit_school(text: str) -> str:
         value = str(text or "")
         patterns = [
-            r"\bcommitted\s+to\s+([A-Z][A-Za-z&'\.\-\s]{2,80}?)(?:\s+for\b|\.|,|;|$)",
-            r"\bcommit(?:ted)?\s+for\s+([A-Z][A-Za-z&'\.\-\s]{2,80}?)(?:\.|,|;|$)",
-            r"\bsigned\s+with\s+([A-Z][A-Za-z&'\.\-\s]{2,80}?)(?:\.|,|;|$)",
+            r"\bcommitted\s+to\s+([A-Za-z][A-Za-z&'\.\-\s]{2,80}?)(?:\s+for\b|\s+on\b|\.|,|;|$)",
+            r"\bcommit(?:ted)?\s+for\s+([A-Za-z][A-Za-z&'\.\-\s]{2,80}?)(?:\s+on\b|\.|,|;|$)",
+            r"\bsigned\s+with\s+([A-Za-z][A-Za-z&'\.\-\s]{2,80}?)(?:\s+on\b|\.|,|;|$)",
         ]
         for pattern in patterns:
             match = re.search(pattern, value, flags=re.IGNORECASE)
@@ -706,25 +707,30 @@ def build_recruiting_summary_layout_data(raw_text: str | None, context: dict[str
                     return school
         return ""
 
-    def _derive_recruiting_status(extracted_fields: dict[str, str], full_text: str) -> str:
-        candidate_blobs = [
-            str(extracted_fields.get("recruiting_status") or ""),
-            str(extracted_fields.get("commitment_timeline") or ""),
-            str(extracted_fields.get("prospect") or ""),
-            str(full_text or ""),
+    def _resolve_commitment_state(extracted_fields: dict[str, str], full_text: str) -> tuple[str, str, str]:
+        source_candidates: list[tuple[str, str]] = [
+            ("commitment_timeline", str(extracted_fields.get("commitment_timeline") or "")),
+            ("recruiting_status", str(extracted_fields.get("recruiting_status") or "")),
+            ("prospect", str(extracted_fields.get("prospect") or "")),
+            ("raw", str(full_text or "")),
         ]
-        merged = "\n".join([blob for blob in candidate_blobs if str(blob).strip()])
-        merged_norm = _norm_text(merged)
 
-        school = _extract_commit_school(merged)
-        if school:
-            return f"Currently committed to {school}"
+        for source_name, text in source_candidates:
+            school = _extract_commit_school(text)
+            if school:
+                return (f"Currently committed to {school}", school, source_name)
 
+        merged_text = "\n".join([text for _, text in source_candidates if str(text).strip()])
+        merged_norm = _norm_text(merged_text)
         open_markers = ["open", "uncommitted", "unsigned", "still considering", "not committed"]
         if any(marker in merged_norm for marker in open_markers):
-            return "Open"
+            return ("Open", "", "open_marker")
 
-        return "Open"
+        return ("Open", "", "default_open")
+
+    def _derive_recruiting_status(extracted_fields: dict[str, str], full_text: str) -> str:
+        status, _, _ = _resolve_commitment_state(extracted_fields, full_text)
+        return status
 
     field_map = {
         "prospect": ["prospect"],
@@ -841,7 +847,29 @@ def build_recruiting_summary_layout_data(raw_text: str | None, context: dict[str
             extracted[key] = _first_unmapped_note(unmapped)
 
     # Deterministic status field: keep concise and schema-consistent.
-    extracted["recruiting_status"] = _derive_recruiting_status(extracted, raw)
+    normalized_status, normalized_school, source_used = _resolve_commitment_state(extracted, raw)
+    extracted["recruiting_status"] = normalized_status
+
+    timeline_text = str(extracted.get("commitment_timeline") or "").strip()
+    timeline_school = _extract_commit_school(timeline_text)
+    if timeline_text and timeline_school and normalized_status == "Open":
+        logging.warning(
+            "Recruiting summary commitment mismatch corrected. timeline_school=%s source_used=%s",
+            timeline_school,
+            source_used,
+        )
+        normalized_school = timeline_school
+        extracted["recruiting_status"] = f"Currently committed to {timeline_school}"
+
+    if timeline_text and normalized_school and "committed" in _norm_text(timeline_text):
+        timeline_norm = _norm_text(timeline_text)
+        school_norm = _norm_text(normalized_school)
+        if school_norm and school_norm not in timeline_norm:
+            logging.warning(
+                "Recruiting summary commitment disagreement detected. status_school=%s timeline=%s",
+                normalized_school,
+                timeline_text,
+            )
 
     athletic_background = str(extracted.get("athletic_background") or "").strip()
     if athletic_background and _is_injury_heavy(athletic_background):
