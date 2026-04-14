@@ -1621,9 +1621,11 @@ def _render_final_synthesis(report_output: dict[str, Any], player_name: str) -> 
     st.markdown("".join(report_html_parts), unsafe_allow_html=True)
 
 
-def _extract_recommendation_confidence_from_final_report(final_report: str | None) -> dict[str, Any]:
-    parsed = _parse_final_synthesis_sections(final_report)
-    sections = list(parsed.get("sections") or [])
+def _extract_recommendation_confidence_from_final_report(
+    final_report: str | None,
+    parsed_sections: list[dict[str, Any]] | None = None,
+) -> dict[str, Any]:
+    sections = list(parsed_sections or _parse_final_synthesis_sections(final_report).get("sections") or [])
     section = next(
         (item for item in sections if str(item.get("title") or "").strip().lower() == "final recommendation and confidence"),
         None,
@@ -1668,7 +1670,10 @@ def _build_active_recruiting_report_context(report_output: dict[str, Any], perso
     )
     final_report = str(report_output.get("final_report") or "").strip()
     final_sections = list(_parse_final_synthesis_sections(final_report).get("sections") or [])
-    final_reco = _extract_recommendation_confidence_from_final_report(final_report)
+    final_reco = _extract_recommendation_confidence_from_final_report(
+        final_report,
+        parsed_sections=final_sections,
+    )
     predicted_score_display = extract_predicted_score_display_data(
         score_card_html=str(report_output.get("score_card_html") or ""),
         pred_score_row=report_output.get("pred_score_row") or {},

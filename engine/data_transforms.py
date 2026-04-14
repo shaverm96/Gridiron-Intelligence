@@ -728,10 +728,6 @@ def build_recruiting_summary_layout_data(raw_text: str | None, context: dict[str
 
         return ("Open", "", "default_open")
 
-    def _derive_recruiting_status(extracted_fields: dict[str, str], full_text: str) -> str:
-        status, _, _ = _resolve_commitment_state(extracted_fields, full_text)
-        return status
-
     field_map = {
         "prospect": ["prospect"],
         "physical_profile": ["physical profile"],
@@ -1049,47 +1045,6 @@ def build_score_card_html_data(
         if threshold_text == "N/A"
         else f"<p style='margin:4px 0;color:#f9fafb;'><strong>Threshold Band:</strong> {threshold_text}</p>"
     )
-    threshold_band_html = (
-        ""
-        if threshold_text == "N/A"
-        else f"<p style='margin:4px 0;color:#f9fafb;'><strong>Threshold Band:</strong> {threshold_text}</p>"
-    )
-
-    probability_rows = _extract_probability_rows(pt)
-
-    score_bar_html = ""
-    if score_pct is not None:
-        score_bar_html = (
-            "<div style='margin:8px 0 10px 0;'>"
-            "<div style='display:flex;justify-content:space-between;font-size:12px;opacity:0.9;'>"
-            "<span>Projected Score Level</span><span>"
-            f"{score_pct:.1f}%"
-            "</span></div>"
-            "<div style='width:100%;height:10px;background:#374151;border-radius:999px;overflow:hidden;'>"
-            f"<div style='height:10px;background:linear-gradient(90deg,#22d3ee 0%,#34d399 100%);width:{score_pct:.1f}%;'></div>"
-            "</div></div>"
-        )
-
-    probability_bars_html = ""
-    if probability_rows:
-        bars = []
-        for label, pct, _ in probability_rows:
-            bars.append(
-                "<div style='margin:8px 0;'>"
-                "<div style='display:flex;justify-content:space-between;font-size:12px;opacity:0.95;'>"
-                f"<span>{label}</span><span>{pct:.1f}%</span>"
-                "</div>"
-                "<div style='width:100%;height:10px;background:#374151;border-radius:999px;overflow:hidden;'>"
-                f"<div style='height:10px;background:linear-gradient(90deg,#60a5fa 0%,#38bdf8 100%);width:{pct:.1f}%;'></div>"
-                "</div>"
-                "</div>"
-            )
-        probability_bars_html = (
-            "<div style='margin-top:10px;'>"
-            "<p style='margin:0 0 6px 0;color:#e5e7eb;'><strong>Threshold Probabilities</strong></p>"
-            + "".join(bars)
-            + "</div>"
-        )
 
     probability_rows = _extract_probability_rows(pt)
 
