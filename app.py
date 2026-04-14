@@ -1691,6 +1691,23 @@ def _build_active_recruiting_report_context(report_output: dict[str, Any], perso
         },
     )
 
+    comparable_rows = list(comps_data.get("rows") or [])
+    normalized_comparables: list[dict[str, Any]] = []
+    for idx, row in enumerate(comparable_rows, start=1):
+        if not isinstance(row, dict):
+            continue
+        normalized_comparables.append(
+            {
+                "index": idx,
+                "name": str(row.get("name") or "").strip(),
+                "match_pct_display": str(row.get("match") or "").strip(),
+                "class": str(row.get("year") or "").strip(),
+                "state": str(row.get("state") or "").strip(),
+                "rating": str(row.get("rating") or "").strip(),
+                "match_value": row.get("match_value"),
+            }
+        )
+
     return {
         "context_type": "recruiting_structured_report",
         "player_name": player_name,
@@ -1701,7 +1718,8 @@ def _build_active_recruiting_report_context(report_output: dict[str, Any], perso
         "target_team": target_team,
         "persona": str(persona or "Scout"),
         "comparables_target_position": str(comps_data.get("target_position") or "").strip(),
-        "comparables_list": list(comps_data.get("rows") or []),
+        "comparables": normalized_comparables,
+        "comparables_list": comparable_rows,
         "scorecard": {
             "predicted_score_display": predicted_score_display,
             "tier": tier_value,

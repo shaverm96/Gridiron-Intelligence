@@ -84,6 +84,107 @@ def _is_report_referential_query(query: str) -> bool:
     return any(marker in text for marker in markers)
 
 
+def _is_comparables_referential_query(query: str) -> bool:
+    text = str(query or "").strip().lower()
+    if not text:
+        return False
+    markers = [
+        "comparables",
+        "comp list",
+        "players listed above",
+        "top match",
+        "second comparable",
+        "third comparable",
+        "match percentages",
+        "why are these players similar",
+        "break down those comparables",
+    ]
+    return any(marker in text for marker in markers)
+
+
+def _normalize_active_comparables(active_report_context: dict[str, Any]) -> list[dict[str, str]]:
+    normalized: list[dict[str, str]] = []
+    raw_rows = list(active_report_context.get("comparables") or [])
+    if not raw_rows:
+        raw_rows = list(active_report_context.get("comparables_list") or [])
+
+    for idx, row in enumerate(raw_rows, start=1):
+        if not isinstance(row, dict):
+            continue
+        name = str(row.get("name") or row.get("player_name") or "").strip()
+        if not name:
+            continue
+        match = str(
+            row.get("match_pct_display")
+            or row.get("match")
+            or ""
+        ).strip()
+        year = str(row.get("year") or row.get("class") or "").strip()
+        state = str(row.get("state") or "").strip()
+        rating = str(row.get("rating") or "").strip()
+        normalized.append(
+            {
+                "index": str(row.get("index") or idx),
+                "name": name,
+                "match": match,
+                "year": year,
+                "state": state,
+                "rating": rating,
+            }
+        )
+    return normalized
+
+
+def _deterministic_comparables_response(query: str, comparables: list[dict[str, str]]) -> str:
+    q = str(query or "").lower()
+    if not comparables:
+        return (
+            "I do not have the active comparables card in context for this session, "
+            "so I cannot safely restate exact comparable names or match percentages. "
+            "I can still explain the matching methodology in general terms."
+        )
+
+    lines = [
+        "Using the active comparables card shown above, here are the exact matches:",
+    ]
+    for row in comparables:
+        lines.append(f"- {row['name']} - Match {row['match']}")
+
+    if "second comparable" in q or "2nd comparable" in q:
+        selected = comparables[1] if len(comparables) > 1 else comparables[0]
+        lines.append("")
+        lines.append(
+            f"Second comparable: {selected['name']} ({selected['match']})."
+        )
+    elif "top match" in q:
+        top = comparables[0]
+        lines.append("")
+        lines.append(f"Top match: {top['name']} ({top['match']}).")
+
+    lines.append("")
+    lines.append(
+        "Interpretation: these matches indicate profile similarity to the listed players; "
+        "higher match percentages reflect closer similarity under the current model inputs."
+    )
+    lines.append(
+        "I am intentionally anchoring to the currently rendered card and not adding alternate comparables."
+    )
+    return "\n".join(lines)
+
+
+def _query_mentions_displayed_comparable(query: str, comparables: list[dict[str, str]]) -> bool:
+    q = str(query or "").strip().lower()
+    if not q:
+        return False
+    if "match" not in q and "comparable" not in q and "similar" not in q:
+        return False
+    for row in comparables:
+        name = str(row.get("name") or "").strip().lower()
+        if name and name in q:
+            return True
+    return False
+
+
 def _render_report_comparables(rows: list[dict[str, Any]]) -> str:
     if not rows:
         return ""
@@ -513,7 +614,29 @@ def lead_synthesizer_node(state: ScoutState) -> ScoutState:
 
     active_report_context = dict(state.get("active_report_context") or {})
     report_follow_up = _is_report_referential_query(str(state.get("user_query") or ""))
-    report_comparables = list(active_report_context.get("comparables_list") or [])
+    user_query_text = str(state.get("user_query") or "")
+    comparables_follow_up = _is_comparables_referential_query(user_query_text)
+    report_comparables = _normalize_active_comparables(active_report_context)
+    if not comparables_follow_up and report_comparables:
+        comparables_follow_up = _query_mentions_displayed_comparable(user_query_text, report_comparables)
+
+    if comparables_follow_up:
+        reply = _deterministic_comparables_response(
+            query=user_query_text,
+            comparables=report_comparables,
+        )
+        state["final_report"] = reply
+        state["trace_log"] = list(state.get("trace_log", [])) + [
+            _trace_entry(state, "lead_synthesizer", "comparables_report_grounded_response")
+        ]
+        if state.get("mode") == "chat":
+            history = list(state.get("conversation_history", []))
+            if state.get("user_query"):
+                history.append({"role": "user", "content": str(state.get("user_query"))})
+            history.append({"role": "assistant", "content": reply})
+            state["conversation_history"] = history
+        state["next_step"] = "end"
+        return state
 
     bundle = dict(state.get("sql_data_context") or {})
     player_profile = dict(bundle.get("player") or {})
