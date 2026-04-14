@@ -70,6 +70,7 @@ class ScoutState(TypedDict, total=False):
     security_message: str
     target_team: str
     year: int
+    active_report_context: dict[str, Any]
 
     # Delegator and worker summaries
     delegator_plan: dict[str, Any]
@@ -120,6 +121,7 @@ def initial_structured_state(
         "security_message": "",
         "target_team": target_team,
         "year": int(year),
+        "active_report_context": {},
         "delegator_plan": DelegatorPlan(
             cfbd_search_params={
                 "name": player_name,
@@ -164,6 +166,7 @@ def initial_chat_state(user_query: str) -> ScoutState:
         "security_message": "",
         "target_team": "",
         "year": 0,
+        "active_report_context": {},
         "delegator_plan": {},
         "cfbd_data_summary": "",
         "web_recruiting_summary": "",
@@ -205,6 +208,7 @@ def initial_structured_web_state(
         "security_message": "",
         "target_team": target_team,
         "year": int(year),
+        "active_report_context": {},
         "delegator_plan": DelegatorPlan(
             cfbd_search_params={},
             recruiting_web_query=f"{player_name} recruiting injury transfer update",
@@ -246,6 +250,7 @@ def compact_open_chat_state(
         "cfbd_athlete_id": str(src.get("cfbd_athlete_id") or ""),
         "target_team": str(src.get("target_team") or ""),
         "year": int(src.get("year") or 0),
+        "active_report_context": dict(src.get("active_report_context") or {}),
         "requires_identity_clarification": bool(src.get("requires_identity_clarification")),
         "clarification_prompt": str(src.get("clarification_prompt") or ""),
         "pending_identity_query": str(src.get("pending_identity_query") or ""),

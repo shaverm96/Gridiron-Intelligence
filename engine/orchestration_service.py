@@ -47,6 +47,7 @@ def _compact_chat_state(state: dict[str, Any] | None) -> ScoutState:
         "cfbd_athlete_id": str(src.get("cfbd_athlete_id") or ""),
         "target_team": str(src.get("target_team") or ""),
         "year": int(src.get("year") or 0),
+        "active_report_context": dict(src.get("active_report_context") or {}),
         "delegator_plan": dict(src.get("delegator_plan") or {}),
         "cfbd_data_summary": str(src.get("cfbd_data_summary") or ""),
         "web_recruiting_summary": str(src.get("web_recruiting_summary") or ""),

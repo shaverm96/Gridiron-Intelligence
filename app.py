@@ -1621,6 +1621,124 @@ def _render_final_synthesis(report_output: dict[str, Any], player_name: str) -> 
     st.markdown("".join(report_html_parts), unsafe_allow_html=True)
 
 
+def _extract_recommendation_confidence_from_final_report(final_report: str | None) -> dict[str, Any]:
+    parsed = _parse_final_synthesis_sections(final_report)
+    sections = list(parsed.get("sections") or [])
+    section = next(
+        (item for item in sections if str(item.get("title") or "").strip().lower() == "final recommendation and confidence"),
+        None,
+    )
+    lines = [str(line) for line in list((section or {}).get("lines") or []) if str(line).strip()]
+    kv_pairs, body_lines = _split_kv_and_body(lines)
+    kv_map = {str(k).strip().lower(): str(v).strip() for k, v in kv_pairs}
+
+    recommendation = (
+        kv_map.get("final recommendation")
+        or kv_map.get("recommendation")
+        or kv_map.get("verdict")
+        or ""
+    )
+    confidence = (
+        kv_map.get("confidence")
+        or kv_map.get("rating confidence")
+        or ""
+    )
+    return {
+        "recommendation": recommendation,
+        "confidence": confidence,
+        "section_lines": lines,
+        "section_body": body_lines,
+    }
+
+
+def _build_active_recruiting_report_context(report_output: dict[str, Any], persona: str) -> dict[str, Any]:
+    if not isinstance(report_output, dict):
+        return {}
+
+    player_name = str(report_output.get("player_name") or "").strip()
+    position = str(report_output.get("position") or "").strip()
+    high_school = str(report_output.get("high_school") or "").strip()
+    recruit_id = str(report_output.get("recruit_id") or "").strip()
+    selected_year = int(report_output.get("selected_year") or 0)
+    target_team = str(report_output.get("target_team") or "").strip()
+
+    comps_data = parse_historical_comparables_md_data(
+        report_output.get("historical_comparables_md"),
+        to_float_or_none=to_float_or_none,
+    )
+    final_report = str(report_output.get("final_report") or "").strip()
+    final_sections = list(_parse_final_synthesis_sections(final_report).get("sections") or [])
+    final_reco = _extract_recommendation_confidence_from_final_report(final_report)
+    predicted_score_display = extract_predicted_score_display_data(
+        score_card_html=str(report_output.get("score_card_html") or ""),
+        pred_score_row=report_output.get("pred_score_row") or {},
+        to_float_or_none=to_float_or_none,
+    )
+
+    tier_value = "N/A"
+    score_for_tier = to_float_or_none(predicted_score_display)
+    if score_for_tier is not None:
+        tier_value = score_tier(score_for_tier)
+
+    recruiting_summary = str(report_output.get("web_recruiting_summary") or "")
+    recruiting_layout = _build_recruiting_layout_safe(
+        recruiting_summary,
+        context={
+            "player_name": player_name,
+            "position": position,
+            "high_school": high_school,
+            "selected_year": selected_year,
+        },
+    )
+
+    return {
+        "context_type": "recruiting_structured_report",
+        "player_name": player_name,
+        "position": position,
+        "high_school": high_school,
+        "recruit_id": recruit_id,
+        "selected_year": selected_year,
+        "target_team": target_team,
+        "persona": str(persona or "Scout"),
+        "comparables_target_position": str(comps_data.get("target_position") or "").strip(),
+        "comparables_list": list(comps_data.get("rows") or []),
+        "scorecard": {
+            "predicted_score_display": predicted_score_display,
+            "tier": tier_value,
+            "pred_score_row": dict(report_output.get("pred_score_row") or {}),
+            "score_card_html": str(report_output.get("score_card_html") or ""),
+        },
+        "recruiting_summary": recruiting_summary,
+        "team_summary": str(report_output.get("web_team_summary") or ""),
+        "recruiting_summary_layout": recruiting_layout,
+        "final_synthesis": {
+            "raw": final_report,
+            "sections": final_sections,
+            "recommendation": str(final_reco.get("recommendation") or ""),
+            "confidence": str(final_reco.get("confidence") or ""),
+            "recommendation_section_lines": list(final_reco.get("section_lines") or []),
+        },
+        "player_profile": dict(report_output.get("player_profile") or report_output.get("player_row") or {}),
+        "scouting_clean": dict(report_output.get("scouting_clean") or {}),
+    }
+
+
+def _sync_recruiting_chat_state_with_report(
+    state: dict[str, Any] | None,
+    report_output: dict[str, Any],
+    persona: str,
+) -> tuple[dict[str, Any], dict[str, Any]]:
+    active_context = _build_active_recruiting_report_context(report_output, persona=persona)
+    base_state = dict(state or initial_chat_state(""))
+    base_state["active_report_context"] = active_context
+    base_state["target_player_name"] = str(report_output.get("player_name") or "")
+    base_state["player_name"] = str(report_output.get("player_name") or "")
+    base_state["recruit_id"] = str(report_output.get("recruit_id") or "")
+    base_state["target_team"] = str(report_output.get("target_team") or "")
+    base_state["year"] = int(report_output.get("selected_year") or 0)
+    return base_state, active_context
+
+
 def _build_final_synthesis_docx_bytes(parsed: dict[str, Any], player_name: str) -> bytes | None:
     if Document is None:
         return None
@@ -2590,16 +2708,24 @@ def render_structured_report_with_chat_page() -> None:
             f"Current persona: {st.session_state.get('selected_persona', 'Scout')}"
         )
 
+        structured_persona = str(st.session_state.get("selected_persona", "Scout"))
+        synced_structured_state, active_report_context = _sync_recruiting_chat_state_with_report(
+            state=st.session_state.get("structured_chat_agent_state"),
+            report_output=report_output,
+            persona=structured_persona,
+        )
+        st.session_state["structured_chat_agent_state"] = synced_structured_state
+
         if "structured_chat_messages" not in st.session_state:
             st.session_state["structured_chat_messages"] = []
         if "structured_chat_agent_state" not in st.session_state:
-            st.session_state["structured_chat_agent_state"] = initial_chat_state("")
+            st.session_state["structured_chat_agent_state"] = dict(synced_structured_state)
 
         col1, col2 = st.columns([1, 5])
         with col1:
             if st.button("Clear Chat", key="structured_chat_clear"):
                 st.session_state["structured_chat_messages"] = []
-                st.session_state["structured_chat_agent_state"] = initial_chat_state("")
+                st.session_state["structured_chat_agent_state"] = dict(synced_structured_state)
                 st.rerun()
 
         for message in st.session_state["structured_chat_messages"]:
@@ -2634,8 +2760,11 @@ def render_structured_report_with_chat_page() -> None:
             with st.spinner("Thinking..."):
                 try:
                     graph = get_cached_agent_graph()
+                    seeded_state = dict(st.session_state.get("structured_chat_agent_state", {}))
+                    seeded_state["active_report_context"] = dict(active_report_context)
+                    st.session_state["structured_chat_agent_state"] = seeded_state
                     current_state = compact_open_chat_state(
-                        st.session_state.get("structured_chat_agent_state", {}),
+                        seeded_state,
                         max_turns=CHAT_STATE_MAX_TURNS,
                         max_trace=CHAT_STATE_MAX_TRACE,
                         max_errors=CHAT_STATE_MAX_ERRORS,
@@ -2649,6 +2778,8 @@ def render_structured_report_with_chat_page() -> None:
                         progress_callback=_render_milestone,
                     )
                     assistant_text = str(result_state.get("final_report") or "No response generated.")
+
+                    result_state["active_report_context"] = dict(active_report_context)
 
                     st.session_state["structured_chat_agent_state"] = compact_open_chat_state(
                         result_state,
@@ -2993,11 +3124,25 @@ def render_open_chat_page() -> None:
     if "open_chat_agent_state" not in st.session_state:
         st.session_state["open_chat_agent_state"] = initial_chat_state("")
 
+    structured_report_output = st.session_state.get("structured_chat_report_output")
+    active_report_context: dict[str, Any] = {}
+    if isinstance(structured_report_output, dict):
+        open_chat_persona = str(st.session_state.get("selected_persona", "Scout"))
+        synced_state, active_report_context = _sync_recruiting_chat_state_with_report(
+            state=st.session_state.get("open_chat_agent_state"),
+            report_output=structured_report_output,
+            persona=open_chat_persona,
+        )
+        st.session_state["open_chat_agent_state"] = synced_state
+
     col1, col2 = st.columns([1, 5])
     with col1:
         if st.button("Clear Chat"):
             st.session_state["open_chat_messages"] = []
-            st.session_state["open_chat_agent_state"] = initial_chat_state("")
+            if isinstance(structured_report_output, dict):
+                st.session_state["open_chat_agent_state"] = dict(synced_state)
+            else:
+                st.session_state["open_chat_agent_state"] = initial_chat_state("")
             st.rerun()
 
     for message in st.session_state["open_chat_messages"]:
@@ -3035,8 +3180,12 @@ def render_open_chat_page() -> None:
         with st.spinner("Thinking..."):
             try:
                 graph = get_cached_agent_graph()
+                seeded_state = dict(st.session_state.get("open_chat_agent_state", {}))
+                if active_report_context:
+                    seeded_state["active_report_context"] = dict(active_report_context)
+                st.session_state["open_chat_agent_state"] = seeded_state
                 current_state = compact_open_chat_state(
-                    st.session_state.get("open_chat_agent_state", {}),
+                    seeded_state,
                     max_turns=CHAT_STATE_MAX_TURNS,
                     max_trace=CHAT_STATE_MAX_TRACE,
                     max_errors=CHAT_STATE_MAX_ERRORS,
@@ -3050,6 +3199,8 @@ def render_open_chat_page() -> None:
                     progress_callback=_render_milestone,
                 )
                 assistant_text = str(result_state.get("final_report") or "No response generated.")
+                if active_report_context:
+                    result_state["active_report_context"] = dict(active_report_context)
 
                 st.session_state["open_chat_agent_state"] = compact_open_chat_state(
                     result_state,

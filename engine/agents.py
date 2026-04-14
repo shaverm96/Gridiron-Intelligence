@@ -62,6 +62,50 @@ def _fallback_master_prompt(*, user_prompt: str, payload: dict[str, Any]) -> str
     )
 
 
+def _is_report_referential_query(query: str) -> bool:
+    text = str(query or "").strip().lower()
+    if not text:
+        return False
+    markers = [
+        "listed above",
+        "above",
+        "scorecard",
+        "report",
+        "that recommendation",
+        "confidence score",
+        "second comparable",
+        "second player",
+        "that section",
+        "this section",
+        "what you listed",
+        "the comparables",
+        "development risk",
+    ]
+    return any(marker in text for marker in markers)
+
+
+def _render_report_comparables(rows: list[dict[str, Any]]) -> str:
+    if not rows:
+        return ""
+    lines: list[str] = []
+    for idx, row in enumerate(rows, start=1):
+        name = str(row.get("name") or row.get("player_name") or "").strip()
+        if not name:
+            continue
+        match = str(row.get("match") or "").strip()
+        year = str(row.get("year") or "").strip()
+        state = str(row.get("state") or "").strip()
+        bits = [f"{idx}. {name}"]
+        if match:
+            bits.append(f"Match: {match}")
+        if year:
+            bits.append(f"Class: {year}")
+        if state:
+            bits.append(f"State: {state}")
+        lines.append(" | ".join(bits))
+    return "\n".join(lines)
+
+
 def _is_meaningful_summary(value: Any) -> bool:
     text = str(value or "").strip().lower()
     if not text:
@@ -467,6 +511,10 @@ def lead_synthesizer_node(state: ScoutState) -> ScoutState:
     if not user_intent:
         user_intent = str(state.get("user_query") or "Generate a scouting report.")
 
+    active_report_context = dict(state.get("active_report_context") or {})
+    report_follow_up = _is_report_referential_query(str(state.get("user_query") or ""))
+    report_comparables = list(active_report_context.get("comparables_list") or [])
+
     bundle = dict(state.get("sql_data_context") or {})
     player_profile = dict(bundle.get("player") or {})
     profile_position = str(player_profile.get("position") or "").strip()
@@ -487,7 +535,9 @@ def lead_synthesizer_node(state: ScoutState) -> ScoutState:
         _append_citations(state, list(vector_result.get("citations") or []))
 
     recruit_id = str(state.get("recruit_id") or "").strip()
-    if recruit_id:
+    if report_follow_up and report_comparables:
+        state["comparables_context"] = _truncate_text_block(_render_report_comparables(report_comparables), 5000)
+    elif recruit_id:
         comparables_result = historical_comparables_tool(recruit_id)
         state["comparables_context"] = _truncate_text_block(comparables_result.get("data") or "", 5000)
         _append_citations(state, list(comparables_result.get("citations") or []))
@@ -502,8 +552,15 @@ def lead_synthesizer_node(state: ScoutState) -> ScoutState:
         "team_summary": _truncate_text_block(state.get("web_team_summary", ""), 5000),
         "vector_factoids": list(state.get("vector_factoids") or []),
         "historical_comparables": _truncate_text_block(state.get("comparables_context", ""), 5000),
+        "active_report_context": active_report_context,
+        "grounding_policy": {
+            "report_follow_up_detected": report_follow_up,
+            "primary_source_for_report_followups": "active_report_context",
+            "when_report_is_referenced": "Use report artifacts first and do not substitute alternate comparable names.",
+            "fallback_when_report_context_missing": "Use available state summaries and clearly mark additional interpretation.",
+        },
         "source_priority": {
-            "primary": "internal_backend_data_vectors_and_repository_context",
+            "primary": "active_rendered_report_context_when_referenced_then_internal_backend_data_vectors_and_repository_context",
             "secondary": "duckduckgo_supplemental_enrichment_only",
             "final": "model_reasoning_supported_by_available_evidence_only",
         },
