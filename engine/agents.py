@@ -79,6 +79,12 @@ def _is_report_referential_query(query: str) -> bool:
         "this section",
         "what you listed",
         "the comparables",
+        "score",
+        "confidence",
+        "recommendation",
+        "scheme fit",
+        "recruiting summary",
+        "final synthesis",
         "development risk",
     ]
     return any(marker in text for marker in markers)
@@ -183,6 +189,23 @@ def _query_mentions_displayed_comparable(query: str, comparables: list[dict[str,
         if name and name in q:
             return True
     return False
+
+
+def _build_rendered_report_grounding_context(
+    active_report_context: dict[str, Any],
+    query: str,
+    comparables: list[dict[str, str]],
+) -> dict[str, Any]:
+    context = dict(active_report_context or {})
+    context["report_referential_query"] = _is_report_referential_query(query)
+    context["comparables_referential_query"] = _is_comparables_referential_query(query)
+    context["comparables_exact_ordered"] = comparables
+    context["grounding_contract"] = {
+        "instruction": "When question references the report above, use this context first.",
+        "comparables_rule": "If comparables are present here, preserve names, order, and match percentages exactly.",
+        "no_silent_substitution": True,
+    }
+    return context
 
 
 def _render_report_comparables(rows: list[dict[str, Any]]) -> str:
@@ -665,7 +688,12 @@ def lead_synthesizer_node(state: ScoutState) -> ScoutState:
         state["comparables_context"] = _truncate_text_block(comparables_result.get("data") or "", 5000)
         _append_citations(state, list(comparables_result.get("citations") or []))
 
-    synthesis_payload = {
+    rendered_report_context = _build_rendered_report_grounding_context(
+        active_report_context=active_report_context,
+        query=user_query_text,
+        comparables=report_comparables,
+    )
+    supplemental_reasoning_context = {
         "player_name": state.get("target_player_name") or state.get("player_name") or "",
         "user_intent": _truncate_text_block(user_intent, 500),
         "user_query": _truncate_text_block(state.get("user_query") or "", 2200),
@@ -675,12 +703,20 @@ def lead_synthesizer_node(state: ScoutState) -> ScoutState:
         "team_summary": _truncate_text_block(state.get("web_team_summary", ""), 5000),
         "vector_factoids": list(state.get("vector_factoids") or []),
         "historical_comparables": _truncate_text_block(state.get("comparables_context", ""), 5000),
-        "active_report_context": active_report_context,
+    }
+
+    synthesis_payload = {
+        "player_name": state.get("target_player_name") or state.get("player_name") or "",
+        "user_intent": _truncate_text_block(user_intent, 500),
+        "user_query": _truncate_text_block(state.get("user_query") or "", 2200),
+        "current_rendered_report_context": rendered_report_context,
+        "supplemental_scout_reasoning_context": supplemental_reasoning_context,
         "grounding_policy": {
             "report_follow_up_detected": report_follow_up,
-            "primary_source_for_report_followups": "active_report_context",
-            "when_report_is_referenced": "Use report artifacts first and do not substitute alternate comparable names.",
-            "fallback_when_report_context_missing": "Use available state summaries and clearly mark additional interpretation.",
+            "primary_source_for_report_followups": "current_rendered_report_context",
+            "supplemental_source": "supplemental_scout_reasoning_context",
+            "when_report_is_referenced": "Answer from rendered report context first; supplement without contradiction.",
+            "fallback_when_report_context_missing": "Be explicit that rendered report context is unavailable and avoid inventing exact on-card values.",
         },
         "source_priority": {
             "primary": "active_rendered_report_context_when_referenced_then_internal_backend_data_vectors_and_repository_context",

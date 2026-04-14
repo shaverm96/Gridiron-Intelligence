@@ -43,6 +43,18 @@ Evidence notes (always include briefly at end):
 - Confidence: High / Medium / Low with one-line reason"""
 
 
+CONTEXT_PRIORITY_TEMPLATE = """Context hierarchy (strict):
+1) CURRENT_RENDERED_REPORT_CONTEXT: authoritative when user refers to above/report/scorecard/sections/comparables.
+2) SUPPLEMENTAL_SCOUT_REASONING_CONTEXT: adds interpretation and broader football reasoning.
+3) Constrained reasoning for gaps only; do not replace or contradict rendered report facts.
+
+Grounding rules:
+- For report-referential questions, answer from CURRENT_RENDERED_REPORT_CONTEXT first.
+- If CURRENT_RENDERED_REPORT_CONTEXT includes comparable names and match percentages, preserve them exactly.
+- Do not introduce off-card comparables unless user explicitly asks for additional comparables.
+- If rendered context is missing or incomplete, say so clearly and then provide general interpretation."""
+
+
 def _escape_delimiter_literals(text: str) -> str:
     escaped = str(text or "")
     escaped = escaped.replace(BEGIN_USER_REQUEST, "BEGIN_USER_REQUEST_LITERAL")
@@ -129,6 +141,8 @@ def render_retrieved_context(retrieved_context: dict[str, Any]) -> str:
         return rendered
 
     priority_keys = [
+        "current_rendered_report_context",
+        "supplemental_scout_reasoning_context",
         "player_name",
         "user_intent",
         "user_query",
@@ -199,6 +213,7 @@ def build_master_prompt(
         "- Keep organization light and useful, adapting format to the user's specific question.\n"
         "- Clearly label internal facts vs supplemental web findings in Evidence Notes.\n"
         "- Do not output a generic assistant disclaimer tone.\n\n"
+        f"{CONTEXT_PRIORITY_TEMPLATE}\n\n"
         f"PLAYER_NAME: {player_name}\n"
         f"TARGET_TEAM: {target_team}\n"
         f"RECRUITING_CLASS_YEAR: {year}\n"

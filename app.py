@@ -2732,6 +2732,7 @@ def render_structured_report_with_chat_page() -> None:
             report_output=report_output,
             persona=structured_persona,
         )
+        st.session_state["active_rendered_report_context"] = dict(active_report_context)
         st.session_state["structured_chat_agent_state"] = synced_structured_state
 
         if "structured_chat_messages" not in st.session_state:
@@ -3151,7 +3152,10 @@ def render_open_chat_page() -> None:
             report_output=structured_report_output,
             persona=open_chat_persona,
         )
+        st.session_state["active_rendered_report_context"] = dict(active_report_context)
         st.session_state["open_chat_agent_state"] = synced_state
+    elif isinstance(st.session_state.get("active_rendered_report_context"), dict):
+        active_report_context = dict(st.session_state.get("active_rendered_report_context") or {})
 
     col1, col2 = st.columns([1, 5])
     with col1:
