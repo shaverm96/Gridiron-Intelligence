@@ -1757,6 +1757,102 @@ def _sync_recruiting_chat_state_with_report(
     return base_state, active_context
 
 
+def _chat_context_snapshot(active_report_context: dict[str, Any] | None) -> dict[str, Any]:
+    src = dict(active_report_context or {})
+    return {
+        "player_name": str(src.get("player_name") or "").strip(),
+        "target_team": str(src.get("target_team") or "").strip(),
+        "recruit_id": str(src.get("recruit_id") or "").strip(),
+        "selected_year": int(src.get("selected_year") or 0),
+        "persona": str(src.get("persona") or "Scout"),
+    }
+
+
+def _append_chat_transcript_turn(
+    transcript_key: str,
+    user_message: str,
+    assistant_response: str,
+    persona: str,
+    context_snapshot: dict[str, Any] | None = None,
+) -> None:
+    transcript = list(st.session_state.get(transcript_key, []))
+    turn_id = len(transcript) + 1
+    transcript.append(
+        {
+            "turn_id": turn_id,
+            "user_message": str(user_message or ""),
+            "assistant_response": str(assistant_response or ""),
+            "persona": str(persona or "Scout"),
+            "sequence": turn_id,
+            "timestamp_unix": int(time.time()),
+            "context_snapshot": dict(context_snapshot or {}),
+        }
+    )
+    st.session_state[transcript_key] = transcript
+
+
+def _history_meta_response(user_prompt: str, transcript: list[dict[str, Any]]) -> str | None:
+    q = str(user_prompt or "").strip().lower()
+    if not q:
+        return None
+
+    asks_first_question = any(
+        token in q
+        for token in [
+            "what was my first question",
+            "what did i ask first",
+            "show me my first question",
+            "first thing i asked",
+        ]
+    )
+    asks_last_question = any(
+        token in q
+        for token in [
+            "what was my last question",
+            "what did i ask last",
+        ]
+    )
+    asks_previous_turn = any(
+        token in q
+        for token in [
+            "what did i ask before that",
+            "what did you say before",
+            "show me the answer you gave me earlier",
+            "show me the first answer",
+        ]
+    )
+
+    if not (asks_first_question or asks_last_question or asks_previous_turn):
+        return None
+
+    turns = [row for row in list(transcript or []) if isinstance(row, dict)]
+    if not turns:
+        return "There is no earlier question in this current chat session yet."
+
+    def _format_turn(prefix: str, turn: dict[str, Any]) -> str:
+        user_text = str(turn.get("user_message") or "").strip()
+        answer_text = str(turn.get("assistant_response") or "").strip()
+        if not answer_text:
+            answer_text = "Original output is unavailable for that turn."
+        return (
+            f"{prefix}: \"{user_text}\"\n\n"
+            f"Associated output from that turn:\n{answer_text}"
+        )
+
+    if asks_first_question:
+        return _format_turn("Your first question in this chat was", turns[0])
+
+    if asks_last_question:
+        return _format_turn("Your last question in this chat was", turns[-1])
+
+    if asks_previous_turn:
+        if len(turns) < 2:
+            return "There is no earlier turn before the current one in this chat session."
+        return _format_turn("The previous question before your most recent turn was", turns[-2])
+
+    return None
+
+
 def _build_final_synthesis_docx_bytes(parsed: dict[str, Any], player_name: str) -> bytes | None:
     if Document is None:
         return None
@@ -2739,12 +2835,15 @@ def render_structured_report_with_chat_page() -> None:
             st.session_state["structured_chat_messages"] = []
         if "structured_chat_agent_state" not in st.session_state:
             st.session_state["structured_chat_agent_state"] = dict(synced_structured_state)
+        if "structured_chat_transcript" not in st.session_state:
+            st.session_state["structured_chat_transcript"] = []
 
         col1, col2 = st.columns([1, 5])
         with col1:
             if st.button("Clear Chat", key="structured_chat_clear"):
                 st.session_state["structured_chat_messages"] = []
                 st.session_state["structured_chat_agent_state"] = dict(synced_structured_state)
+                st.session_state["structured_chat_transcript"] = []
                 st.rerun()
 
         for message in st.session_state["structured_chat_messages"]:
@@ -2761,6 +2860,25 @@ def render_structured_report_with_chat_page() -> None:
         st.session_state["structured_chat_messages"].append({"role": "user", "content": user_prompt})
         with st.chat_message("user"):
             st.markdown(user_prompt)
+
+        transcript_key = "structured_chat_transcript"
+        persona_value = str(st.session_state.get("selected_persona", "Scout"))
+        history_reply = _history_meta_response(
+            user_prompt=user_prompt,
+            transcript=list(st.session_state.get(transcript_key, [])),
+        )
+        if history_reply is not None:
+            st.session_state["structured_chat_messages"].append({"role": "assistant", "content": history_reply})
+            _append_chat_transcript_turn(
+                transcript_key=transcript_key,
+                user_message=user_prompt,
+                assistant_response=history_reply,
+                persona=persona_value,
+                context_snapshot=_chat_context_snapshot(active_report_context),
+            )
+            with st.chat_message("assistant"):
+                st.markdown(history_reply)
+            return
 
         with st.chat_message("assistant"):
             milestone_slot = st.empty()
@@ -2809,6 +2927,13 @@ def render_structured_report_with_chat_page() -> None:
                         max_candidates=CHAT_STATE_MAX_CANDIDATES,
                     )
                     st.session_state["structured_chat_messages"].append({"role": "assistant", "content": assistant_text})
+                    _append_chat_transcript_turn(
+                        transcript_key=transcript_key,
+                        user_message=user_prompt,
+                        assistant_response=assistant_text,
+                        persona=persona_value,
+                        context_snapshot=_chat_context_snapshot(active_report_context),
+                    )
                     milestone_slot.success("Pipeline complete")
                     st.markdown(assistant_text)
 
@@ -2848,6 +2973,13 @@ def render_structured_report_with_chat_page() -> None:
                 except Exception as exc:
                     err_text = f"Open chat failed: {exc}"
                     st.session_state["structured_chat_messages"].append({"role": "assistant", "content": err_text})
+                    _append_chat_transcript_turn(
+                        transcript_key=transcript_key,
+                        user_message=user_prompt,
+                        assistant_response=err_text,
+                        persona=persona_value,
+                        context_snapshot=_chat_context_snapshot(active_report_context),
+                    )
                     st.error(err_text)
 
 
@@ -3142,6 +3274,8 @@ def render_open_chat_page() -> None:
         st.session_state["open_chat_messages"] = []
     if "open_chat_agent_state" not in st.session_state:
         st.session_state["open_chat_agent_state"] = initial_chat_state("")
+    if "open_chat_transcript" not in st.session_state:
+        st.session_state["open_chat_transcript"] = []
 
     structured_report_output = st.session_state.get("structured_chat_report_output")
     active_report_context: dict[str, Any] = {}
@@ -3161,6 +3295,7 @@ def render_open_chat_page() -> None:
     with col1:
         if st.button("Clear Chat"):
             st.session_state["open_chat_messages"] = []
+            st.session_state["open_chat_transcript"] = []
             if isinstance(structured_report_output, dict):
                 st.session_state["open_chat_agent_state"] = dict(synced_state)
             else:
@@ -3178,6 +3313,25 @@ def render_open_chat_page() -> None:
     st.session_state["open_chat_messages"].append({"role": "user", "content": user_prompt})
     with st.chat_message("user"):
         st.markdown(user_prompt)
+
+    transcript_key = "open_chat_transcript"
+    persona_value = str(st.session_state.get("selected_persona", "Scout"))
+    history_reply = _history_meta_response(
+        user_prompt=user_prompt,
+        transcript=list(st.session_state.get(transcript_key, [])),
+    )
+    if history_reply is not None:
+        st.session_state["open_chat_messages"].append({"role": "assistant", "content": history_reply})
+        _append_chat_transcript_turn(
+            transcript_key=transcript_key,
+            user_message=user_prompt,
+            assistant_response=history_reply,
+            persona=persona_value,
+            context_snapshot=_chat_context_snapshot(active_report_context),
+        )
+        with st.chat_message("assistant"):
+            st.markdown(history_reply)
+        return
 
     with st.chat_message("assistant"):
         milestone_slot = st.empty()
@@ -3233,6 +3387,13 @@ def render_open_chat_page() -> None:
                     max_candidates=CHAT_STATE_MAX_CANDIDATES,
                 )
                 st.session_state["open_chat_messages"].append({"role": "assistant", "content": assistant_text})
+                _append_chat_transcript_turn(
+                    transcript_key=transcript_key,
+                    user_message=user_prompt,
+                    assistant_response=assistant_text,
+                    persona=persona_value,
+                    context_snapshot=_chat_context_snapshot(active_report_context),
+                )
                 milestone_slot.success("Pipeline complete")
                 st.markdown(assistant_text)
 
@@ -3265,6 +3426,13 @@ def render_open_chat_page() -> None:
             except Exception as exc:
                 err_text = f"Open chat failed: {exc}"
                 st.session_state["open_chat_messages"].append({"role": "assistant", "content": err_text})
+                _append_chat_transcript_turn(
+                    transcript_key=transcript_key,
+                    user_message=user_prompt,
+                    assistant_response=err_text,
+                    persona=persona_value,
+                    context_snapshot=_chat_context_snapshot(active_report_context),
+                )
                 st.error(err_text)
 
 
