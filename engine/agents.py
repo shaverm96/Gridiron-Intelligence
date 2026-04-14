@@ -5,6 +5,7 @@ import re
 from typing import Any
 
 from .config import CONFIG
+from .prompt_architecture import build_master_prompt
 from .state import DelegatorPlan, ScoutState
 from .tools import (
     DelegatorOutputValidationError,
@@ -47,6 +48,18 @@ def _append_citations(state: ScoutState, citations: list[dict[str, Any]] | None)
     except Exception:
         # Citation enrichment is best-effort and must not break chat responses.
         return
+
+
+def _fallback_master_prompt(*, user_prompt: str, payload: dict[str, Any]) -> str:
+    # Keep synthesis running if prompt architecture helpers are unavailable.
+    safe_query = str(user_prompt or "Generate a scouting report.").strip() or "Generate a scouting report."
+    payload_json = json.dumps(payload, indent=2, default=str)
+    return (
+        "You are Gridiron Intelligence Scout, a professional football scouting analyst. "
+        "Use only the provided context and avoid unsupported claims.\n\n"
+        f"USER REQUEST:\n{safe_query}\n\n"
+        f"CONTEXT:\n{payload_json}\n"
+    )
 
 
 def _is_meaningful_summary(value: Any) -> bool:
@@ -501,13 +514,19 @@ def lead_synthesizer_node(state: ScoutState) -> ScoutState:
         },
     }
 
-    synthesis_prompt = build_master_prompt(
-        player_name=str(synthesis_payload.get("player_name") or "Unknown Player"),
-        target_team=str(state.get("target_team") or ""),
-        year=int(state.get("year") or 0),
-        user_prompt=str(state.get("user_query") or user_intent),
-        retrieved_context=synthesis_payload,
-    )
+    try:
+        synthesis_prompt = build_master_prompt(
+            player_name=str(synthesis_payload.get("player_name") or "Unknown Player"),
+            target_team=str(state.get("target_team") or ""),
+            year=int(state.get("year") or 0),
+            user_prompt=str(state.get("user_query") or user_intent),
+            retrieved_context=synthesis_payload,
+        )
+    except Exception:
+        synthesis_prompt = _fallback_master_prompt(
+            user_prompt=str(state.get("user_query") or user_intent),
+            payload=synthesis_payload,
+        )
 
     final_result = final_synthesis_tool(synthesis_prompt)
     report_text = str(final_result.get("data", "")).strip()
