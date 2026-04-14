@@ -37,6 +37,18 @@ def _truncate_text_block(value: Any, max_chars: int) -> str:
     return f"{text[:max_chars].rstrip()} ...[truncated]"
 
 
+def _append_citations(state: ScoutState, citations: list[dict[str, Any]] | None) -> None:
+    if not citations:
+        return
+    try:
+        merged = list(state.get("citations") or [])
+        merged.extend(item for item in citations if isinstance(item, dict))
+        state["citations"] = merged
+    except Exception:
+        # Citation enrichment is best-effort and must not break chat responses.
+        return
+
+
 def _is_meaningful_summary(value: Any) -> bool:
     text = str(value or "").strip().lower()
     if not text:
