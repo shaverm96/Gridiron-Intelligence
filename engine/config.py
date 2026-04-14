@@ -18,6 +18,11 @@ def _normalize_model_name(model_name: str, default_model: str) -> str:
     return alias_map.get(value, value)
 
 
+def _env_flag(name: str, default: bool) -> bool:
+    raw = str(os.getenv(name, str(default))).strip().lower()
+    return raw in {"1", "true", "yes", "y", "on"}
+
+
 def resolve_project_root() -> Path:
     candidates = [Path.cwd(), Path.cwd().parent, Path.cwd().parent.parent]
     for candidate in candidates:
@@ -63,6 +68,14 @@ CONFIG = {
     "IDENTITY_CANDIDATE_LIMIT": int(os.getenv("GI_IDENTITY_CANDIDATE_LIMIT", "8")),
     "IDENTITY_TOP_CANDIDATES": int(os.getenv("GI_IDENTITY_TOP_CANDIDATES", "3")),
     "IDENTITY_CONFIDENCE_THRESHOLD": float(os.getenv("GI_IDENTITY_CONFIDENCE_THRESHOLD", "0.65")),
+    "BATCH_ENABLED": _env_flag("GI_BATCH_ENABLED", True),
+    "BATCH_SIZE": max(1, int(os.getenv("GI_BATCH_SIZE", "4"))),
+    "BATCH_CONCURRENCY": max(1, int(os.getenv("GI_BATCH_CONCURRENCY", "3"))),
+    "BATCH_RETRIES": max(0, int(os.getenv("GI_BATCH_RETRIES", "2"))),
+    "BATCH_TIMEOUT_SECONDS": max(1, int(os.getenv("GI_BATCH_TIMEOUT_SECONDS", "45"))),
+    "BATCH_RATE_LIMIT_PER_SECOND": max(0.0, float(os.getenv("GI_BATCH_RATE_LIMIT_PER_SECOND", "0"))),
+    "BATCH_RESUME_ENABLED": _env_flag("GI_BATCH_RESUME_ENABLED", True),
+    "BATCH_CHECKPOINT_DIR": str(os.getenv("GI_BATCH_CHECKPOINT_DIR", "")).strip(),
     "TARGET_SEARCH_SITES": [
         "maxpreps.com",
         "247sports.com",

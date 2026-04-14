@@ -1,10 +1,14 @@
 from __future__ import annotations
 
 import json
+import logging
 import re
+import time
 from concurrent.futures import ThreadPoolExecutor, TimeoutError
+from pathlib import Path
 from typing import Any, Callable
 
+from .config import CONFIG
 from .graph import get_scout_graph, get_structured_web_graph
 from .state import ScoutState, initial_chat_state, initial_structured_state, initial_structured_web_state
 from .supabase_client import fetch_college_player_bundle
@@ -19,6 +23,9 @@ CHAT_STATE_MAX_TRACE = 10
 CHAT_STATE_MAX_ERRORS = 6
 CHAT_STATE_MAX_CITATIONS = 16
 CHAT_STATE_MAX_CANDIDATES = 3
+
+
+LOGGER = logging.getLogger(__name__)
 
 
 def _ensure_base_state(state: dict[str, Any] | None) -> ScoutState:
@@ -79,6 +86,228 @@ def _emit_progress(progress_callback: ProgressCallback | None, node: str, status
     if progress_callback is None:
         return
     progress_callback({"node": str(node), "status": str(status)})
+
+
+def _batch_settings() -> dict[str, Any]:
+    return {
+        "enabled": bool(CONFIG.get("BATCH_ENABLED", True)),
+        "batch_size": max(1, int(CONFIG.get("BATCH_SIZE", 4) or 4)),
+        "concurrency": max(1, int(CONFIG.get("BATCH_CONCURRENCY", 3) or 3)),
+        "retries": max(0, int(CONFIG.get("BATCH_RETRIES", 2) or 2)),
+        "timeout_seconds": max(1, int(CONFIG.get("BATCH_TIMEOUT_SECONDS", 45) or 45)),
+        "rate_limit_per_second": max(0.0, float(CONFIG.get("BATCH_RATE_LIMIT_PER_SECOND", 0) or 0)),
+        "resume_enabled": bool(CONFIG.get("BATCH_RESUME_ENABLED", True)),
+        "checkpoint_dir": str(CONFIG.get("BATCH_CHECKPOINT_DIR") or "").strip(),
+    }
+
+
+def _batch_checkpoint_path(checkpoint_scope: str | None, settings: dict[str, Any]) -> Path | None:
+    checkpoint_dir = str(settings.get("checkpoint_dir") or "").strip()
+    if not checkpoint_dir or not checkpoint_scope:
+        return None
+    safe_scope = re.sub(r"[^a-zA-Z0-9._-]+", "_", str(checkpoint_scope)).strip("_") or "batch"
+    root = Path(checkpoint_dir)
+    root.mkdir(parents=True, exist_ok=True)
+    return root / f"{safe_scope}.json"
+
+
+def _load_batch_checkpoint(path: Path | None) -> dict[str, Any]:
+    if path is None or not path.exists():
+        return {"completed": {}}
+    try:
+        raw = json.loads(path.read_text(encoding="utf-8"))
+    except Exception:
+        return {"completed": {}}
+    completed = dict(raw.get("completed") or {}) if isinstance(raw, dict) else {}
+    return {"completed": completed}
+
+
+def _save_batch_checkpoint(path: Path | None, payload: dict[str, Any]) -> None:
+    if path is None:
+        return
+    try:
+        path.write_text(json.dumps(payload, ensure_ascii=True, indent=2, default=str), encoding="utf-8")
+    except Exception as exc:
+        LOGGER.warning("Failed to write batch checkpoint %s: %s", str(path), str(exc))
+
+
+def _is_retryable_batch_reason(reason: str) -> bool:
+    text = str(reason or "").strip().lower()
+    if not text:
+        return False
+    retryable_markers = [
+        "timed out",
+        "rate limit",
+        "429",
+        "request failed",
+        "http error",
+        "failed",
+        "tempor",
+        "unavailable",
+    ]
+    return any(marker in text for marker in retryable_markers)
+
+
+def _run_batched_tasks(
+    items: list[Any],
+    task_fn: Callable[[Any], dict[str, Any]],
+    item_key_fn: Callable[[Any], str],
+    fallback_fn: Callable[[Any, str], dict[str, Any]],
+    checkpoint_scope: str | None = None,
+) -> list[dict[str, Any]]:
+    settings = _batch_settings()
+    LOGGER.info(
+        "Batch task start: scope=%s items=%s enabled=%s batch_size=%s concurrency=%s retries=%s timeout=%ss",
+        str(checkpoint_scope or ""),
+        len(items),
+        bool(settings.get("enabled")),
+        int(settings.get("batch_size") or 1),
+        int(settings.get("concurrency") or 1),
+        int(settings.get("retries") or 0),
+        int(settings.get("timeout_seconds") or 0),
+    )
+    checkpoint_path = _batch_checkpoint_path(checkpoint_scope, settings)
+    checkpoint = _load_batch_checkpoint(checkpoint_path)
+    completed_map = dict(checkpoint.get("completed") or {})
+
+    ordered_results: list[dict[str, Any] | None] = [None for _ in items]
+    pending: list[tuple[int, Any, str]] = []
+
+    for idx, item in enumerate(items):
+        item_key = str(item_key_fn(item) or idx)
+        cached = completed_map.get(item_key)
+        if settings.get("resume_enabled") and isinstance(cached, dict) and isinstance(cached.get("value"), dict):
+            ordered_results[idx] = {
+                "value": dict(cached.get("value") or {}),
+                "attempts": int(cached.get("attempts") or 0),
+                "from_checkpoint": True,
+                "item_key": item_key,
+            }
+            continue
+        pending.append((idx, item, item_key))
+
+    retries = int(settings.get("retries") or 0)
+
+    def _execute_item(item: Any, item_key: str) -> dict[str, Any]:
+        attempts = 0
+        last_reason = ""
+        while attempts <= retries:
+            attempts += 1
+            try:
+                value = dict(task_fn(item) or {})
+            except Exception as exc:
+                last_reason = str(exc).strip() or repr(exc)
+                LOGGER.warning("Batch task exception item_key=%s attempt=%s error=%s", item_key, attempts, last_reason)
+                if attempts <= retries:
+                    time.sleep(min(3.0, 0.5 * (2 ** (attempts - 1))))
+                    continue
+                value = fallback_fn(item, f"task failed after {attempts} attempts: {last_reason}")
+                return {
+                    "value": dict(value or {}),
+                    "attempts": attempts,
+                    "from_checkpoint": False,
+                    "item_key": item_key,
+                }
+
+            status = str(value.get("status") or "").lower()
+            reason = str(value.get("reason") or "")
+            if status in {"ok", "completed", "success"}:
+                return {
+                    "value": value,
+                    "attempts": attempts,
+                    "from_checkpoint": False,
+                    "item_key": item_key,
+                }
+            last_reason = reason
+            if attempts <= retries and _is_retryable_batch_reason(reason):
+                LOGGER.warning("Batch task retry item_key=%s attempt=%s reason=%s", item_key, attempts, reason)
+                time.sleep(min(3.0, 0.5 * (2 ** (attempts - 1))))
+                continue
+            return {
+                "value": value,
+                "attempts": attempts,
+                "from_checkpoint": False,
+                "item_key": item_key,
+            }
+
+        value = fallback_fn(item, f"task failed after retries: {last_reason}")
+        return {
+            "value": dict(value or {}),
+            "attempts": retries + 1,
+            "from_checkpoint": False,
+            "item_key": item_key,
+        }
+
+    def _persist_completed(result: dict[str, Any]) -> None:
+        item_key = str(result.get("item_key") or "")
+        if not item_key:
+            return
+        completed_map[item_key] = {
+            "value": dict(result.get("value") or {}),
+            "attempts": int(result.get("attempts") or 0),
+        }
+        _save_batch_checkpoint(checkpoint_path, {"completed": completed_map})
+
+    if not pending:
+        return [result for result in ordered_results if isinstance(result, dict)]
+
+    use_parallel = bool(settings.get("enabled")) and int(settings.get("concurrency") or 1) > 1
+    batch_size = max(1, int(settings.get("batch_size") or 1))
+    concurrency = max(1, int(settings.get("concurrency") or 1))
+    timeout_seconds = max(1, int(settings.get("timeout_seconds") or 45))
+    rate_limit = max(0.0, float(settings.get("rate_limit_per_second") or 0.0))
+    submit_interval = (1.0 / rate_limit) if rate_limit > 0 else 0.0
+
+    if not use_parallel:
+        for idx, item, item_key in pending:
+            result = _execute_item(item, item_key)
+            ordered_results[idx] = result
+            _persist_completed(result)
+    else:
+        for start in range(0, len(pending), batch_size):
+            chunk = pending[start : start + batch_size]
+            worker_count = min(concurrency, len(chunk))
+            with ThreadPoolExecutor(max_workers=worker_count) as executor:
+                futures: dict[Any, tuple[int, Any, str]] = {}
+                last_submit_ts = 0.0
+                for idx, item, item_key in chunk:
+                    if submit_interval > 0 and last_submit_ts > 0:
+                        elapsed = time.monotonic() - last_submit_ts
+                        if elapsed < submit_interval:
+                            time.sleep(submit_interval - elapsed)
+                    future = executor.submit(_execute_item, item, item_key)
+                    futures[future] = (idx, item, item_key)
+                    last_submit_ts = time.monotonic()
+
+                for future, (idx, item, item_key) in futures.items():
+                    try:
+                        result = dict(future.result(timeout=timeout_seconds) or {})
+                    except TimeoutError:
+                        LOGGER.warning("Batch task timeout item_key=%s timeout=%ss", item_key, timeout_seconds)
+                        result = {
+                            "value": fallback_fn(item, f"task timed out after {timeout_seconds}s"),
+                            "attempts": retries + 1,
+                            "from_checkpoint": False,
+                            "item_key": item_key,
+                        }
+                    except Exception as exc:
+                        LOGGER.warning("Batch task future failed item_key=%s error=%s", item_key, str(exc).strip() or repr(exc))
+                        result = {
+                            "value": fallback_fn(item, f"task failed: {str(exc).strip() or repr(exc)}"),
+                            "attempts": retries + 1,
+                            "from_checkpoint": False,
+                            "item_key": item_key,
+                        }
+
+                    ordered_results[idx] = result
+                    _persist_completed(result)
+
+    final_results = [result for result in ordered_results if isinstance(result, dict)]
+    checkpoint_completed = sum(1 for row in final_results if bool(row.get("from_checkpoint")))
+    if checkpoint_completed:
+        LOGGER.info("Batch resume reused %s checkpointed item(s) for scope=%s", checkpoint_completed, str(checkpoint_scope or ""))
+    LOGGER.info("Batch task complete: scope=%s processed=%s", str(checkpoint_scope or ""), len(final_results))
+    return final_results
 
 
 def _diagnostic_scalar_text(value: Any) -> str:
@@ -545,16 +774,21 @@ def orchestrate_transfer_cfbd_context(
     usage_by_year: list[dict[str, Any]] = []
     usage_citations: list[dict[str, str]] = []
     usage_diagnostics: list[dict[str, Any]] = []
-    for season in range(career_start_year, career_end_year + 1):
+
+    def _usage_task(season: int) -> dict[str, Any]:
         usage_result = fetch_player_usage(
             year=int(season),
             position=usage_position,
             player_id=player_id,
             exclude_garbage_time=exclude_garbage_time,
         )
-        usage_rows = list(usage_result.get("data") or []) if isinstance(usage_result, dict) else []
-        usage_by_year.append(
-            {
+        usage_result = dict(usage_result or {})
+        usage_rows = list(usage_result.get("data") or [])
+        usage_params = dict((usage_result.get("meta") or {}).get("params") or {})
+        return {
+            "status": str(usage_result.get("status") or "unknown"),
+            "reason": str(usage_result.get("reason") or ""),
+            "year_entry": {
                 "year": int(season),
                 "status": str(usage_result.get("status") or "unknown"),
                 "reason": str(usage_result.get("reason") or ""),
@@ -562,12 +796,9 @@ def orchestrate_transfer_cfbd_context(
                 "meta": usage_result.get("meta") if isinstance(usage_result, dict) else {},
                 "rows": usage_rows,
                 "result": usage_result,
-            }
-        )
-        usage_citations.extend(list(usage_result.get("citations") or []))
-        usage_params = dict((usage_result.get("meta") or {}).get("params") or {})
-        usage_diagnostics.append(
-            {
+            },
+            "citations": list(usage_result.get("citations") or []),
+            "diagnostic": {
                 "year": int(season),
                 "endpoint": "player/usage",
                 "status": str(usage_result.get("status") or "unknown"),
@@ -579,15 +810,69 @@ def orchestrate_transfer_cfbd_context(
                 "params_text": _diagnostic_scalar_text(usage_params),
                 "fallback_policy": "player_usage_endpoint",
                 "fallback_teamless_attempted": False,
-            }
-        )
+            },
+        }
+
+    def _usage_fallback(season: int, reason: str) -> dict[str, Any]:
+        safe_reason = str(reason or "usage pull failed")
+        usage_result = {
+            "status": "skipped",
+            "reason": safe_reason,
+            "data": [],
+            "citations": [],
+            "meta": {"params": {"year": int(season)}},
+        }
+        usage_rows: list[dict[str, Any]] = []
+        return {
+            "status": "skipped",
+            "reason": safe_reason,
+            "year_entry": {
+                "year": int(season),
+                "status": "skipped",
+                "reason": safe_reason,
+                "record_count": 0,
+                "meta": usage_result.get("meta") or {},
+                "rows": usage_rows,
+                "result": usage_result,
+            },
+            "citations": [],
+            "diagnostic": {
+                "year": int(season),
+                "endpoint": "player/usage",
+                "status": "skipped",
+                "reason": safe_reason,
+                "rows_pre_filter": 0,
+                "rows_post_filter": 0,
+                "queried_teams": "",
+                "queried_team_count": 0,
+                "params_text": _diagnostic_scalar_text({"year": int(season)}),
+                "fallback_policy": "player_usage_endpoint",
+                "fallback_teamless_attempted": False,
+            },
+        }
+
+    seasons = list(range(career_start_year, career_end_year + 1))
+    usage_batch_results = _run_batched_tasks(
+        items=seasons,
+        task_fn=_usage_task,
+        item_key_fn=lambda season: f"usage_{int(season)}",
+        fallback_fn=_usage_fallback,
+        checkpoint_scope=f"transfer_cfbd_usage_{athlete_id_text or player_name_text}_{ref_year}",
+    )
+
+    for row in usage_batch_results:
+        payload = dict(row.get("value") or {})
+        usage_by_year.append(dict(payload.get("year_entry") or {}))
+        usage_citations.extend(list(payload.get("citations") or []))
+        usage_diagnostics.append(dict(payload.get("diagnostic") or {}))
     _emit_progress(progress_callback, "cfbd_usage", "completed")
 
     _emit_progress(progress_callback, "cfbd_stats", "running")
     stats_by_year: list[dict[str, Any]] = []
     stats_citations: list[dict[str, str]] = []
     stats_diagnostics: list[dict[str, Any]] = []
-    for season in range(career_start_year, career_end_year + 1):
+
+    def _stats_task(season: int) -> dict[str, Any]:
         team_filters = list(player_teams)
         combined_rows: list[dict[str, Any]] = []
         combined_citations: list[dict[str, str]] = []
@@ -652,8 +937,10 @@ def orchestrate_transfer_cfbd_context(
         season_status = "ok" if any(status == "ok" for status in statuses) else (statuses[0] if statuses else "unknown")
         season_reason = "; ".join([reason for reason in reasons if reason])
         year_meta = {"queried_teams": team_filters, "team_results": team_meta}
-        stats_by_year.append(
-            {
+        return {
+            "status": season_status,
+            "reason": season_reason,
+            "year_entry": {
                 "year": int(season),
                 "status": season_status,
                 "reason": season_reason,
@@ -668,11 +955,9 @@ def orchestrate_transfer_cfbd_context(
                     "meta": year_meta,
                     "citations": combined_citations,
                 },
-            }
-        )
-        stats_citations.extend(combined_citations)
-        stats_diagnostics.append(
-            {
+            },
+            "citations": combined_citations,
+            "diagnostic": {
                 "year": int(season),
                 "endpoint": "stats/player/season",
                 "status": season_status,
@@ -690,8 +975,66 @@ def orchestrate_transfer_cfbd_context(
                 ),
                 "fallback_policy": "team_filtered_only",
                 "fallback_teamless_attempted": False,
-            }
-        )
+            },
+        }
+
+    def _stats_fallback(season: int, reason: str) -> dict[str, Any]:
+        safe_reason = str(reason or "season stats pull failed")
+        season_result = {
+            "status": "skipped",
+            "reason": safe_reason,
+            "data": [],
+            "meta": {"queried_teams": list(player_teams), "team_results": []},
+            "citations": [],
+        }
+        return {
+            "status": "skipped",
+            "reason": safe_reason,
+            "year_entry": {
+                "year": int(season),
+                "status": "skipped",
+                "reason": safe_reason,
+                "record_count": 0,
+                "raw_record_count": 0,
+                "meta": season_result.get("meta") or {},
+                "rows": [],
+                "result": season_result,
+            },
+            "citations": [],
+            "diagnostic": {
+                "year": int(season),
+                "endpoint": "stats/player/season",
+                "status": "skipped",
+                "reason": safe_reason,
+                "rows_pre_filter": 0,
+                "rows_post_filter": 0,
+                "queried_teams": _diagnostic_scalar_text(list(player_teams)),
+                "queried_team_count": len(list(player_teams)),
+                "params_text": _diagnostic_scalar_text(
+                    {
+                        "year": int(season),
+                        "seasonType": "regular",
+                        "teams": list(player_teams),
+                    }
+                ),
+                "fallback_policy": "team_filtered_only",
+                "fallback_teamless_attempted": False,
+            },
+        }
+
+    stats_batch_results = _run_batched_tasks(
+        items=seasons,
+        task_fn=_stats_task,
+        item_key_fn=lambda season: f"stats_{int(season)}",
+        fallback_fn=_stats_fallback,
+        checkpoint_scope=f"transfer_cfbd_stats_{athlete_id_text or player_name_text}_{ref_year}",
+    )
+
+    for row in stats_batch_results:
+        payload = dict(row.get("value") or {})
+        stats_by_year.append(dict(payload.get("year_entry") or {}))
+        stats_citations.extend(list(payload.get("citations") or []))
+        stats_diagnostics.append(dict(payload.get("diagnostic") or {}))
     _emit_progress(progress_callback, "cfbd_stats", "completed")
 
     usage_for_year = next((entry for entry in usage_by_year if int(entry.get("year") or 0) == ref_year), None)
