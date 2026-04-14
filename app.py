@@ -2747,33 +2747,43 @@ def render_structured_report_with_chat_page() -> None:
         report_player_profile = dict(report_output.get("player_profile") or {})
         report_player_row = dict(report_output.get("player_row") or {})
         report_scouting_clean = dict(report_output.get("scouting_clean") or {})
+        resolved_height = first_non_null(
+            report_player_profile,
+            ["height", "height_display", "height_ft_in", "ht", "height_inches"],
+        )
+        if resolved_height is None:
+            resolved_height = first_non_null(
+                report_player_row,
+                ["height", "height_display", "height_ft_in", "ht", "height_inches"],
+            )
+        if resolved_height is None:
+            resolved_height = first_non_null(
+                report_scouting_clean,
+                ["height", "height_display", "height_ft_in", "ht", "height_inches"],
+            )
+
+        resolved_weight = first_non_null(
+            report_player_profile,
+            ["weight", "weight_display", "weight_lbs", "wt"],
+        )
+        if resolved_weight is None:
+            resolved_weight = first_non_null(
+                report_player_row,
+                ["weight", "weight_display", "weight_lbs", "wt"],
+            )
+        if resolved_weight is None:
+            resolved_weight = first_non_null(
+                report_scouting_clean,
+                ["weight", "weight_display", "weight_lbs", "wt"],
+            )
+
         recruiting_summary_context = {
             "player_name": player_name,
             "position": position,
             "high_school": high_school,
             "selected_year": report_output.get("selected_year"),
-            "height": first_non_null(
-                report_player_profile.get("height"),
-                report_player_profile.get("height_display"),
-                report_player_profile.get("height_ft_in"),
-                report_player_profile.get("ht"),
-                report_player_row.get("height"),
-                report_player_row.get("height_display"),
-                report_player_row.get("ht"),
-                report_scouting_clean.get("height"),
-                report_scouting_clean.get("ht"),
-            ),
-            "weight": first_non_null(
-                report_player_profile.get("weight"),
-                report_player_profile.get("weight_display"),
-                report_player_profile.get("weight_lbs"),
-                report_player_profile.get("wt"),
-                report_player_row.get("weight"),
-                report_player_row.get("weight_display"),
-                report_player_row.get("wt"),
-                report_scouting_clean.get("weight"),
-                report_scouting_clean.get("wt"),
-            ),
+            "height": resolved_height,
+            "weight": resolved_weight,
         }
 
         render_structured_summary_card(
