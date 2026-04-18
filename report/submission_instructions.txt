@@ -1,0 +1,19 @@
+Project Documentation / Report
+A 4-5 page report in Microsoft Word (or PDF) describing your project preferably in a white-paper style format. 
+ Sample ACM Word template (https://www.acm.org/publications/authors/submissionsLinks to an external site.) 
+ Some key sections to include in your report:
+Title, Authors Name, Email and Affiliation
+Abstract (one paragraph to say what was the problem and how it was solved)
+Introduction (background and motivation)
+Methodology (Your approach, architecture diagram, technical details, algorithms etc)
+Data Used: Describe and refer any open source data used, provide details about it (number of samples, size, characteristics)
+Concepts Implemented:
+Prompting, RAG, Tooling, Multi-modality, Agent Design, Safety, Security, APIs, Scaling
+Experiments
+Different setups and experiments with different models/APIs you tried.  
+Results (Charts, tables, snapshots, links to demo, things you can quantify)
+How did you measure your system is working
+Conclusion
+Limitations & Future Work (What is left out and you would like to do in future)
+References
+Cite others work and any resources that you have used (very important)

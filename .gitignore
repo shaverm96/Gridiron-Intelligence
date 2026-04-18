@@ -9,3 +9,5 @@ __pycache__/
 high_school_stats_raw/
 scraper_utils/
 SECRETS.env
+/.quarto/
+**/*.quarto_ipynb

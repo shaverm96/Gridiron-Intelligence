@@ -1090,7 +1090,15 @@ def _render_transfer_tables(artifacts: dict[str, Any]) -> None:
     else:
         display_cols = ordered_stat_cols if ordered_stat_cols else list(season_stats_df.columns)
         stats_view_df = season_stats_df[display_cols].drop(columns=[col for col in ["record_count", "status"] if col in season_stats_df.columns], errors="ignore")
-        styled_stats = stats_view_df.style.hide(axis="index").set_properties(**{
+        stats_formatters = {}
+        for col in stats_view_df.columns:
+            if pd.api.types.is_numeric_dtype(stats_view_df[col]):
+                stats_formatters[col] = "{:.3f}" if "pct" in str(col).lower() else "{:.0f}"
+
+        styled_stats = stats_view_df.style.hide(axis="index")
+        if stats_formatters:
+            styled_stats = styled_stats.format(stats_formatters)
+        styled_stats = styled_stats.set_properties(**{
             "font-size": "0.97rem",
             "font-weight": "600",
             "color": "#F9FAFB",
