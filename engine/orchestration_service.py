@@ -28,6 +28,55 @@ CHAT_STATE_MAX_CANDIDATES = 3
 LOGGER = logging.getLogger(__name__)
 
 
+def _extract_tool_telemetry(payload: dict[str, Any] | None) -> dict[str, Any]:
+    src = dict(payload or {})
+    telemetry = src.get("telemetry")
+    if isinstance(telemetry, dict):
+        return dict(telemetry)
+    legacy = src.get("_telemetry")
+    if isinstance(legacy, dict):
+        return dict(legacy)
+    return {}
+
+
+def _rollup_telemetry_rows(rows: list[dict[str, Any]]) -> dict[str, Any]:
+    rollup = {
+        "model_call_count": 0,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0,
+        "estimated_cost_usd": 0.0,
+        "latency_ms": 0,
+    }
+    for row in rows:
+        if not isinstance(row, dict) or not row:
+            continue
+        if bool(row.get("cache_hit")):
+            continue
+        rollup["model_call_count"] += 1
+        input_tokens = row.get("input_tokens")
+        output_tokens = row.get("output_tokens")
+        total_tokens = row.get("total_tokens")
+        latency_ms = row.get("latency_ms")
+        cost = row.get("estimated_cost_usd")
+
+        if isinstance(input_tokens, (int, float)):
+            rollup["input_tokens"] += int(input_tokens)
+        if isinstance(output_tokens, (int, float)):
+            rollup["output_tokens"] += int(output_tokens)
+        if isinstance(total_tokens, (int, float)):
+            rollup["total_tokens"] += int(total_tokens)
+        if isinstance(latency_ms, (int, float)):
+            rollup["latency_ms"] += int(latency_ms)
+        if isinstance(cost, (int, float)):
+            rollup["estimated_cost_usd"] += float(cost)
+
+    if rollup["total_tokens"] == 0:
+        rollup["total_tokens"] = rollup["input_tokens"] + rollup["output_tokens"]
+    rollup["estimated_cost_usd"] = round(float(rollup["estimated_cost_usd"]), 8)
+    return rollup
+
+
 def _ensure_base_state(state: dict[str, Any] | None) -> ScoutState:
     base = dict(state or {})
     if "mode" not in base:
@@ -432,6 +481,7 @@ def orchestrate_structured_report(
     graph: Any | None = None,
     progress_callback: ProgressCallback | None = None,
 ) -> ScoutState:
+    started = time.perf_counter()
     graph_runner = graph or get_scout_graph()
     state = initial_structured_state(
         player_name=player_name,
@@ -444,7 +494,19 @@ def orchestrate_structured_report(
         f"Create a scouting report for {player_name} and evaluate fit for {target_team}."
     )
     state["mode"] = "structured_report"
-    return _invoke_graph(graph_runner, state, progress_callback=progress_callback)
+    result_state = _invoke_graph(graph_runner, state, progress_callback=progress_callback)
+    if isinstance(result_state, dict):
+        trace = list(result_state.get("trace_log") or [])
+        trace.append(
+            {
+                "node": "orchestration",
+                "status": "completed",
+                "mode": "structured_report",
+                "latency_ms": int((time.perf_counter() - started) * 1000),
+            }
+        )
+        result_state["trace_log"] = trace[-CHAT_STATE_MAX_TRACE:]
+    return result_state
 
 
 def orchestrate_chat_turn(
@@ -455,6 +517,7 @@ def orchestrate_chat_turn(
     graph: Any | None = None,
     progress_callback: ProgressCallback | None = None,
 ) -> ScoutState:
+    started = time.perf_counter()
     graph_runner = graph or get_scout_graph()
     state = _ensure_base_state(current_state)
     if not state:
@@ -470,7 +533,19 @@ def orchestrate_chat_turn(
     state = _try_resolve_clarification_response(state, user_prompt)
     state = _compact_chat_state(state)
 
-    return _invoke_graph(graph_runner, state, progress_callback=progress_callback)
+    result_state = _invoke_graph(graph_runner, state, progress_callback=progress_callback)
+    if isinstance(result_state, dict):
+        trace = list(result_state.get("trace_log") or [])
+        trace.append(
+            {
+                "node": "orchestration",
+                "status": "completed",
+                "mode": "chat",
+                "latency_ms": int((time.perf_counter() - started) * 1000),
+            }
+        )
+        result_state["trace_log"] = trace[-CHAT_STATE_MAX_TRACE:]
+    return result_state
 
 
 def orchestrate_structured_web_scouting(
@@ -482,6 +557,7 @@ def orchestrate_structured_web_scouting(
     graph: Any | None = None,
     progress_callback: ProgressCallback | None = None,
 ) -> ScoutState:
+    started = time.perf_counter()
     graph_runner = graph or get_structured_web_graph()
     state = initial_structured_web_state(
         player_name=player_name,
@@ -494,7 +570,19 @@ def orchestrate_structured_web_scouting(
         f"Create a structured scouting brief for {player_name} and evaluate fit for {target_team}."
     )
     state["mode"] = "structured_report"
-    return _invoke_graph(graph_runner, state, progress_callback=progress_callback)
+    result_state = _invoke_graph(graph_runner, state, progress_callback=progress_callback)
+    if isinstance(result_state, dict):
+        trace = list(result_state.get("trace_log") or [])
+        trace.append(
+            {
+                "node": "orchestration",
+                "status": "completed",
+                "mode": "structured_web",
+                "latency_ms": int((time.perf_counter() - started) * 1000),
+            }
+        )
+        result_state["trace_log"] = trace[-CHAT_STATE_MAX_TRACE:]
+    return result_state
 
 
 def _safe_int(value: Any) -> int | None:
@@ -1186,12 +1274,16 @@ def orchestrate_transfer_report(
     exclude_garbage_time: bool = True,
     progress_callback: ProgressCallback | None = None,
 ) -> dict[str, Any]:
+    pipeline_started = time.perf_counter()
+    branch_started = time.perf_counter()
+    branch_latency_ms: dict[str, int] = {}
     _emit_progress(progress_callback, "transfer_pipeline", "started")
     _emit_progress(progress_callback, "profile_lookup", "running")
     profile_result = fetch_college_player_bundle(
         college_player_id=str(college_player_id or "").strip() or None,
         cfbd_athlete_id=str(cfbd_athlete_id or "").strip() or None,
     )
+    branch_latency_ms["profile_lookup"] = int((time.perf_counter() - branch_started) * 1000)
     _emit_progress(progress_callback, "profile_lookup", "completed")
 
     profile_data = dict(profile_result.get("data") or {})
@@ -1202,6 +1294,7 @@ def orchestrate_transfer_report(
     position_text = str(position or player_row.get("position") or "").strip()
     _emit_progress(progress_callback, "transfer_pipeline", "running")
     _emit_progress(progress_callback, "parallel_fetch", "running")
+    branch_started = time.perf_counter()
 
     def _empty_cfbd_context_payload(reason: str) -> dict[str, Any]:
         teams = _split_team_tokens(player_row.get("teams"))
@@ -1340,9 +1433,11 @@ def orchestrate_transfer_report(
         player_web = _result_or_timeout(player_web_future, "player_news_search", timeout_seconds=30)
         team_web = _result_or_timeout(team_web_future, "team_news_search", timeout_seconds=30)
 
+    branch_latency_ms["parallel_fetch"] = int((time.perf_counter() - branch_started) * 1000)
     _emit_progress(progress_callback, "parallel_fetch", "completed")
 
     _emit_progress(progress_callback, "summarization", "running")
+    branch_started = time.perf_counter()
 
     cfbd_usage_career = list(cfbd_context.get("cfbd_usage_career") or [])
     cfbd_stats_career = list(cfbd_context.get("cfbd_stats_career") or [])
@@ -1368,6 +1463,7 @@ def orchestrate_transfer_report(
         ),
         payload=team_web.get("data") or [],
     )
+    branch_latency_ms["summarization"] = int((time.perf_counter() - branch_started) * 1000)
     _emit_progress(progress_callback, "summarization", "completed")
 
     branch_status = {
@@ -1426,7 +1522,9 @@ def orchestrate_transfer_report(
         branch_status=branch_status,
     )
     _emit_progress(progress_callback, "final_synthesis", "running")
+    branch_started = time.perf_counter()
     synthesis_result = final_synthesis_tool(synthesis_prompt)
+    branch_latency_ms["final_synthesis"] = int((time.perf_counter() - branch_started) * 1000)
     _emit_progress(progress_callback, "final_synthesis", "completed")
 
     citations: list[dict[str, str]] = []
@@ -1440,6 +1538,19 @@ def orchestrate_transfer_report(
         synthesis_result.get("citations") or [],
     ]:
         citations.extend(list(source))
+
+    model_telemetry_rows = [
+        _extract_tool_telemetry(player_news_summary_result),
+        _extract_tool_telemetry(team_news_summary_result),
+        _extract_tool_telemetry(synthesis_result),
+    ]
+    telemetry_rollup = _rollup_telemetry_rows(model_telemetry_rows)
+    orchestration_telemetry = {
+        "pipeline_latency_ms": int((time.perf_counter() - pipeline_started) * 1000),
+        "branch_latency_ms": branch_latency_ms,
+        "model_telemetry": [row for row in model_telemetry_rows if row],
+        "model_rollup": telemetry_rollup,
+    }
 
     _emit_progress(progress_callback, "transfer_pipeline", "completed")
 
@@ -1467,12 +1578,19 @@ def orchestrate_transfer_report(
         "player_news_summary": player_news_summary,
         "team_news_summary": team_news_summary,
         "final_report": str(synthesis_result.get("data") or "").strip(),
+        "telemetry": orchestration_telemetry,
         "trace_log": [
             {"node": "profile_lookup", "status": "completed"},
             {"node": "parallel_fetch", "status": "completed"},
             {"node": "summarization", "status": "completed"},
             {"node": "final_synthesis", "status": "completed"},
             {"node": "transfer_pipeline", "status": "completed"},
+            {
+                "node": "telemetry",
+                "status": "completed",
+                "pipeline_latency_ms": orchestration_telemetry.get("pipeline_latency_ms"),
+                "estimated_cost_usd": telemetry_rollup.get("estimated_cost_usd"),
+            },
         ],
         "citations": citations,
         "transfer_report_context": {
@@ -1495,6 +1613,7 @@ def orchestrate_transfer_report(
             "exclude_garbage_time": bool(pull_config.get("exclude_garbage_time", exclude_garbage_time)),
             "player_news_summary": player_news_summary,
             "team_news_summary": team_news_summary,
+            "telemetry": orchestration_telemetry,
         },
     }
 
@@ -1504,6 +1623,7 @@ def orchestrate_transfer_chat_turn(
     current_state: dict[str, Any] | None,
     allow_web_refresh: bool = True,
 ) -> dict[str, Any]:
+    started = time.perf_counter()
     state = dict(current_state or {})
     context = dict(state.get("transfer_report_context") or {})
     if not context:
@@ -1522,8 +1642,11 @@ def orchestrate_transfer_chat_turn(
     wants_recency = any(token in query_lower for token in ["recent", "latest", "update", "news", "portal"])
     refresh_summary = ""
     trace_log = list(state.get("trace_log") or [])
+    model_telemetry_rows: list[dict[str, Any]] = []
+    branch_latency_ms: dict[str, int] = {}
 
     if allow_web_refresh and wants_recency:
+        refresh_started = time.perf_counter()
         player_name = str(context.get("player_name") or "").strip()
         target_team = str(context.get("target_team") or "").strip()
         year = int(context.get("year") or 2025)
@@ -1539,7 +1662,9 @@ def orchestrate_transfer_chat_turn(
             ),
             payload=refresh_rows.get("data") or [],
         )
+        model_telemetry_rows.append(_extract_tool_telemetry(refresh_summary_result))
         refresh_summary = str(refresh_summary_result.get("data") or "").strip()
+        branch_latency_ms["refresh_summary"] = int((time.perf_counter() - refresh_started) * 1000)
         trace_log.append({"node": "transfer_chat", "status": "ddg_refresh_used"})
     else:
         trace_log.append({"node": "transfer_chat", "status": "context_only"})
@@ -1565,18 +1690,38 @@ def orchestrate_transfer_chat_turn(
         branch_status=dict(context.get("branch_status") or {}),
         follow_up_question=prompt_text,
     )
+    synthesis_started = time.perf_counter()
     result = final_synthesis_tool(prompt)
+    branch_latency_ms["final_synthesis"] = int((time.perf_counter() - synthesis_started) * 1000)
+    model_telemetry_rows.append(_extract_tool_telemetry(result))
     answer_text = str(result.get("data") or "").strip() or "No response generated."
+
+    telemetry_rollup = _rollup_telemetry_rows(model_telemetry_rows)
+    telemetry = {
+        "pipeline_latency_ms": int((time.perf_counter() - started) * 1000),
+        "branch_latency_ms": branch_latency_ms,
+        "model_telemetry": [row for row in model_telemetry_rows if row],
+        "model_rollup": telemetry_rollup,
+    }
 
     history = list(state.get("conversation_history") or [])
     history.append({"role": "user", "content": prompt_text})
     history.append({"role": "assistant", "content": answer_text})
+    trace_log.append(
+        {
+            "node": "telemetry",
+            "status": "completed",
+            "pipeline_latency_ms": telemetry.get("pipeline_latency_ms"),
+            "estimated_cost_usd": telemetry_rollup.get("estimated_cost_usd"),
+        }
+    )
 
     return {
         "status": "ok",
         "final_report": answer_text,
         "conversation_history": history[-(CHAT_STATE_MAX_TURNS * 2):],
         "trace_log": trace_log[-CHAT_STATE_MAX_TRACE:],
+        "telemetry": telemetry,
         "transfer_report_context": context,
     }
 

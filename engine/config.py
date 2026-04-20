@@ -76,6 +76,9 @@ CONFIG = {
     "BATCH_RATE_LIMIT_PER_SECOND": max(0.0, float(os.getenv("GI_BATCH_RATE_LIMIT_PER_SECOND", "0"))),
     "BATCH_RESUME_ENABLED": _env_flag("GI_BATCH_RESUME_ENABLED", True),
     "BATCH_CHECKPOINT_DIR": str(os.getenv("GI_BATCH_CHECKPOINT_DIR", "")).strip(),
+    "SUMMARY_CACHE_ENABLED": _env_flag("GI_SUMMARY_CACHE_ENABLED", True),
+    "SUMMARY_CACHE_TTL_SECONDS": max(0, int(os.getenv("GI_SUMMARY_CACHE_TTL_SECONDS", "900"))),
+    "SUMMARY_CACHE_MAX_ENTRIES": max(1, int(os.getenv("GI_SUMMARY_CACHE_MAX_ENTRIES", "256"))),
     "TARGET_SEARCH_SITES": [
         "maxpreps.com",
         "247sports.com",

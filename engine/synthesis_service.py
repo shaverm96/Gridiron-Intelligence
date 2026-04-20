@@ -2,10 +2,84 @@ from __future__ import annotations
 
 import json
 import re
+import time
 from datetime import date
 from typing import Any
 
 from .config import CONFIG
+
+
+MODEL_ALIAS_MAP = {
+    "gemini-3.0-flash": "gemini-3-flash-preview",
+    "gemini-3.1-flash-lite-preview": "gemini-3.1-flash-lite-preview",
+}
+MODEL_TOKEN_COSTS_PER_1M = {
+    "gemini-3.1-flash-lite-preview": {"input": 0.25, "output": 1.50},
+    "gemini-3-flash-preview": {"input": 0.50, "output": 3.00},
+}
+
+
+def _normalize_model_name(model_name: str) -> str:
+    value = str(model_name or "").strip()
+    return MODEL_ALIAS_MAP.get(value, value)
+
+
+def _extract_token_usage(response: Any) -> dict[str, int | None]:
+    input_tokens: int | None = None
+    output_tokens: int | None = None
+    total_tokens: int | None = None
+
+    usage_sources: list[dict[str, Any]] = []
+    usage_direct = getattr(response, "usage_metadata", None)
+    if isinstance(usage_direct, dict):
+        usage_sources.append(usage_direct)
+
+    response_metadata = getattr(response, "response_metadata", None)
+    if isinstance(response_metadata, dict):
+        usage_meta = response_metadata.get("usage_metadata")
+        if isinstance(usage_meta, dict):
+            usage_sources.append(usage_meta)
+        usage_block = response_metadata.get("usage")
+        if isinstance(usage_block, dict):
+            usage_sources.append(usage_block)
+
+    for usage in usage_sources:
+        input_tokens = input_tokens or usage.get("input_tokens") or usage.get("prompt_token_count")
+        output_tokens = output_tokens or usage.get("output_tokens") or usage.get("candidates_token_count")
+        total_tokens = total_tokens or usage.get("total_tokens") or usage.get("total_token_count")
+
+    input_tokens = int(input_tokens) if isinstance(input_tokens, (int, float)) else None
+    output_tokens = int(output_tokens) if isinstance(output_tokens, (int, float)) else None
+    if isinstance(total_tokens, (int, float)):
+        total_tokens = int(total_tokens)
+    elif input_tokens is not None and output_tokens is not None:
+        total_tokens = int(input_tokens + output_tokens)
+    else:
+        total_tokens = None
+
+    return {
+        "input_tokens": input_tokens,
+        "output_tokens": output_tokens,
+        "total_tokens": total_tokens,
+    }
+
+
+def _estimate_model_cost_usd(model_name: str, input_tokens: int | None, output_tokens: int | None) -> float | None:
+    rates = MODEL_TOKEN_COSTS_PER_1M.get(_normalize_model_name(model_name), {})
+    if not isinstance(rates, dict):
+        return None
+
+    input_rate = rates.get("input")
+    output_rate = rates.get("output")
+    if not isinstance(input_rate, (int, float)) or not isinstance(output_rate, (int, float)):
+        return None
+
+    if input_tokens is None and output_tokens is None:
+        return None
+
+    in_cost = (float(input_tokens or 0) / 1_000_000.0) * float(input_rate)
+    out_cost = (float(output_tokens or 0) / 1_000_000.0) * float(output_rate)
+    return round(in_cost + out_cost, 8)
 
 
 def _truncate_text(value: str, max_chars: int) -> str:
@@ -158,13 +232,84 @@ def run_final_synthesis_data(
     get_llm: Any,
     llm_response_to_text: Any,
 ) -> str:
+    result = run_final_synthesis_with_telemetry_data(
+        prompt=prompt,
+        final_model=final_model,
+        get_llm=get_llm,
+        llm_response_to_text=llm_response_to_text,
+    )
+    return str(result.get("data") or "").strip()
+
+
+def run_final_synthesis_with_telemetry_data(
+    prompt: str,
+    final_model: str,
+    get_llm: Any,
+    llm_response_to_text: Any,
+) -> dict[str, Any]:
+    started = time.perf_counter()
+    resolved_model = _normalize_model_name(final_model)
     llm = get_llm(final_model, temperature=0.25, max_output_tokens=2200)
     if llm is None:
-        return "Final synthesis skipped: Gemini model is not configured."
+        return {
+            "status": "skipped",
+            "reason": "Gemini model is not configured.",
+            "data": "Final synthesis skipped: Gemini model is not configured.",
+            "telemetry": {
+                "tool": "run_final_synthesis_with_telemetry_data",
+                "model": resolved_model,
+                "status": "skipped",
+                "reason": "Gemini model is not configured.",
+                "latency_ms": int((time.perf_counter() - started) * 1000),
+                "input_tokens": 0,
+                "output_tokens": 0,
+                "total_tokens": 0,
+                "estimated_cost_usd": 0.0,
+            },
+        }
 
     try:
         response = llm.invoke(_with_current_date_context(prompt))
         text = llm_response_to_text(response)
-        return str(text).strip() if text else "Final synthesis returned empty output."
+        usage = _extract_token_usage(response)
+        input_tokens = usage.get("input_tokens")
+        output_tokens = usage.get("output_tokens")
+        total_tokens = usage.get("total_tokens")
+        if total_tokens is None and input_tokens is not None and output_tokens is not None:
+            total_tokens = int(input_tokens + output_tokens)
+        estimated_cost = _estimate_model_cost_usd(resolved_model, input_tokens, output_tokens)
+        clean_text = str(text).strip() if text else "Final synthesis returned empty output."
+        return {
+            "status": "ok",
+            "reason": "",
+            "data": clean_text,
+            "telemetry": {
+                "tool": "run_final_synthesis_with_telemetry_data",
+                "model": resolved_model,
+                "status": "ok",
+                "reason": "",
+                "latency_ms": int((time.perf_counter() - started) * 1000),
+                "input_tokens": int(input_tokens or 0),
+                "output_tokens": int(output_tokens or 0),
+                "total_tokens": int(total_tokens or 0),
+                "estimated_cost_usd": float(estimated_cost or 0.0),
+            },
+        }
     except Exception as exc:
-        return f"Final synthesis failed: {exc}"
+        reason = str(exc).strip() or repr(exc)
+        return {
+            "status": "error",
+            "reason": reason,
+            "data": f"Final synthesis failed: {reason}",
+            "telemetry": {
+                "tool": "run_final_synthesis_with_telemetry_data",
+                "model": resolved_model,
+                "status": "error",
+                "reason": reason,
+                "latency_ms": int((time.perf_counter() - started) * 1000),
+                "input_tokens": 0,
+                "output_tokens": 0,
+                "total_tokens": 0,
+                "estimated_cost_usd": 0.0,
+            },
+        }

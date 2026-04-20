@@ -1,8 +1,10 @@
 from __future__ import annotations
 
+import hashlib
 import json
 import logging
 import re
+import time
 from datetime import date
 from typing import Any
 
@@ -53,9 +55,15 @@ except Exception:  # pragma: no cover
 
 EMBED_MODEL = None
 logger = logging.getLogger(__name__)
+SUMMARY_MEMO_CACHE: dict[str, dict[str, Any]] = {}
 MODEL_ALIAS_MAP = {
     "gemini-3.0-flash": "gemini-3-flash-preview",
     "gemini-3.1-flash-lite-preview": "gemini-3.1-flash-lite-preview",
+}
+MODEL_TOKEN_COSTS_PER_1M = {
+    # Default rates can be overridden later via config/env if desired.
+    "gemini-3.1-flash-lite-preview": {"input": 0.25, "output": 1.50},
+    "gemini-3-flash-preview": {"input": 0.50, "output": 3.00},
 }
 
 
@@ -169,6 +177,104 @@ def _log_prompt_size(label: str, prompt_text: str) -> None:
         pass
 
 
+def _extract_token_usage(response: Any) -> dict[str, int | None]:
+    input_tokens: int | None = None
+    output_tokens: int | None = None
+    total_tokens: int | None = None
+
+    usage_sources: list[dict[str, Any]] = []
+    usage_direct = getattr(response, "usage_metadata", None)
+    if isinstance(usage_direct, dict):
+        usage_sources.append(usage_direct)
+
+    response_metadata = getattr(response, "response_metadata", None)
+    if isinstance(response_metadata, dict):
+        usage_meta = response_metadata.get("usage_metadata")
+        if isinstance(usage_meta, dict):
+            usage_sources.append(usage_meta)
+        usage_block = response_metadata.get("usage")
+        if isinstance(usage_block, dict):
+            usage_sources.append(usage_block)
+
+    for usage in usage_sources:
+        input_tokens = input_tokens or usage.get("input_tokens") or usage.get("prompt_token_count")
+        output_tokens = output_tokens or usage.get("output_tokens") or usage.get("candidates_token_count")
+        total_tokens = total_tokens or usage.get("total_tokens") or usage.get("total_token_count")
+
+    input_tokens = int(input_tokens) if isinstance(input_tokens, (int, float)) else None
+    output_tokens = int(output_tokens) if isinstance(output_tokens, (int, float)) else None
+    if isinstance(total_tokens, (int, float)):
+        total_tokens = int(total_tokens)
+    elif input_tokens is not None and output_tokens is not None:
+        total_tokens = int(input_tokens + output_tokens)
+    else:
+        total_tokens = None
+
+    return {
+        "input_tokens": input_tokens,
+        "output_tokens": output_tokens,
+        "total_tokens": total_tokens,
+    }
+
+
+def _estimate_model_cost_usd(model_name: str, input_tokens: int | None, output_tokens: int | None) -> float | None:
+    rates = MODEL_TOKEN_COSTS_PER_1M.get(_normalize_model_name(model_name), {})
+    if not isinstance(rates, dict):
+        return None
+
+    input_rate = rates.get("input")
+    output_rate = rates.get("output")
+    if not isinstance(input_rate, (int, float)) or not isinstance(output_rate, (int, float)):
+        return None
+
+    if input_tokens is None and output_tokens is None:
+        return None
+
+    in_cost = (float(input_tokens or 0) / 1_000_000.0) * float(input_rate)
+    out_cost = (float(output_tokens or 0) / 1_000_000.0) * float(output_rate)
+    return round(in_cost + out_cost, 8)
+
+
+def _build_model_telemetry(
+    tool_name: str,
+    model_name: str,
+    prompt_text: str,
+    start_time: float,
+    response: Any | None,
+    status: str,
+    reason: str,
+) -> dict[str, Any]:
+    elapsed_ms = int((time.perf_counter() - start_time) * 1000)
+    usage = _extract_token_usage(response) if response is not None else {
+        "input_tokens": None,
+        "output_tokens": None,
+        "total_tokens": None,
+    }
+    cost_estimate = _estimate_model_cost_usd(
+        model_name=model_name,
+        input_tokens=usage.get("input_tokens"),
+        output_tokens=usage.get("output_tokens"),
+    )
+
+    telemetry = {
+        "tool": tool_name,
+        "model": _normalize_model_name(model_name),
+        "status": str(status),
+        "reason": str(reason),
+        "latency_ms": elapsed_ms,
+        "prompt_chars": len(str(prompt_text or "")),
+        "input_tokens": usage.get("input_tokens"),
+        "output_tokens": usage.get("output_tokens"),
+        "total_tokens": usage.get("total_tokens"),
+        "estimated_cost_usd": cost_estimate,
+    }
+    try:
+        logger.info("model_telemetry %s", json.dumps(telemetry, default=str, ensure_ascii=True))
+    except Exception:
+        pass
+    return telemetry
+
+
 def _with_current_date_context(prompt_text: str) -> str:
     today_iso = date.today().isoformat()
     date_context = (
@@ -178,6 +284,80 @@ def _with_current_date_context(prompt_text: str) -> str:
         "- If recency is uncertain, state the uncertainty explicitly.\n\n"
     )
     return f"{date_context}{str(prompt_text or '').strip()}"
+
+
+def _summary_cache_key(tool_name: str, model_name: str, prompt_text: str) -> str:
+    raw = "|".join([
+        str(tool_name or ""),
+        _normalize_model_name(model_name),
+        str(prompt_text or ""),
+    ])
+    return hashlib.sha256(raw.encode("utf-8")).hexdigest()
+
+
+def _summary_cache_prune(now_ts: float) -> None:
+    if not bool(CONFIG.get("SUMMARY_CACHE_ENABLED", True)):
+        SUMMARY_MEMO_CACHE.clear()
+        return
+
+    ttl_seconds = int(CONFIG.get("SUMMARY_CACHE_TTL_SECONDS", 900))
+    if ttl_seconds > 0:
+        expired_keys = [
+            key
+            for key, entry in SUMMARY_MEMO_CACHE.items()
+            if (now_ts - float(entry.get("created_at") or 0.0)) > ttl_seconds
+        ]
+        for key in expired_keys:
+            SUMMARY_MEMO_CACHE.pop(key, None)
+
+    max_entries = max(1, int(CONFIG.get("SUMMARY_CACHE_MAX_ENTRIES", 256)))
+    if len(SUMMARY_MEMO_CACHE) <= max_entries:
+        return
+    ordered = sorted(
+        SUMMARY_MEMO_CACHE.items(),
+        key=lambda item: float((item[1] or {}).get("created_at") or 0.0),
+    )
+    for key, _ in ordered[: max(0, len(ordered) - max_entries)]:
+        SUMMARY_MEMO_CACHE.pop(key, None)
+
+
+def _summary_cache_get(cache_key: str) -> dict[str, Any] | None:
+    if not bool(CONFIG.get("SUMMARY_CACHE_ENABLED", True)):
+        return None
+    now_ts = time.time()
+    _summary_cache_prune(now_ts)
+    entry = SUMMARY_MEMO_CACHE.get(cache_key)
+    if not isinstance(entry, dict):
+        return None
+    value = entry.get("value")
+    return dict(value) if isinstance(value, dict) else None
+
+
+def _summary_cache_set(cache_key: str, value: dict[str, Any]) -> None:
+    if not bool(CONFIG.get("SUMMARY_CACHE_ENABLED", True)):
+        return
+    now_ts = time.time()
+    SUMMARY_MEMO_CACHE[cache_key] = {
+        "created_at": now_ts,
+        "value": dict(value or {}),
+    }
+    _summary_cache_prune(now_ts)
+
+
+def _cache_hit_telemetry(tool_name: str, model_name: str, prompt_text: str, start_time: float) -> dict[str, Any]:
+    return {
+        "tool": tool_name,
+        "model": _normalize_model_name(model_name),
+        "status": "ok",
+        "reason": "cache hit",
+        "cache_hit": True,
+        "latency_ms": int((time.perf_counter() - start_time) * 1000),
+        "prompt_chars": len(str(prompt_text or "")),
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0,
+        "estimated_cost_usd": 0.0,
+    }
 
 
 @retry(
@@ -264,14 +444,31 @@ def delegator_plan_tool(user_query: str, target_team: str = "", target_player_na
         f"Known target team: {target_team}\n"
         f"Known target player: {target_player_name}\n"
     )
+    prompt_with_date = _with_current_date_context(prompt)
+    start_time = time.perf_counter()
     try:
-        plan = structured.invoke(_with_current_date_context(prompt))
+        plan = structured.invoke(prompt_with_date)
+        telemetry = _build_model_telemetry(
+            tool_name="delegator_plan_tool",
+            model_name=CONFIG["SUMMARY_MODEL"],
+            prompt_text=prompt_with_date,
+            start_time=start_time,
+            response=plan,
+            status="ok",
+            reason="delegator plan complete",
+        )
         if isinstance(plan, DelegatorPlan):
-            return plan.model_dump()
+            out = plan.model_dump()
+            out["_telemetry"] = telemetry
+            return out
         if hasattr(plan, "model_dump"):
-            return plan.model_dump()
+            out = plan.model_dump()
+            out["_telemetry"] = telemetry
+            return out
         if isinstance(plan, dict):
-            return DelegatorPlan(**plan).model_dump()
+            out = DelegatorPlan(**plan).model_dump()
+            out["_telemetry"] = telemetry
+            return out
         raise DelegatorOutputValidationError("Delegator returned an unexpected output type.")
     except ValidationError as exc:
         raise DelegatorOutputValidationError(f"Delegator validation failed: {exc}") from exc
@@ -410,16 +607,52 @@ def summarize_web_tool(player_name: str, position: str, search_rows: list[dict[s
 
     prompt_with_date = _with_current_date_context(prompt)
     _log_prompt_size("summarize_web_tool", prompt_with_date)
+    start_time = time.perf_counter()
+
+    cache_key = _summary_cache_key("summarize_web_tool", CONFIG["SUMMARY_MODEL"], prompt_with_date)
+    cached = _summary_cache_get(cache_key)
+    if isinstance(cached, dict):
+        return {
+            "status": "ok",
+            "reason": "summary complete (cache hit)",
+            "data": str(cached.get("data") or ""),
+            "citations": list(cached.get("citations") or []),
+            "telemetry": _cache_hit_telemetry(
+                tool_name="summarize_web_tool",
+                model_name=CONFIG["SUMMARY_MODEL"],
+                prompt_text=prompt_with_date,
+                start_time=start_time,
+            ),
+        }
+
     response = llm.invoke(prompt_with_date)
+    telemetry = _build_model_telemetry(
+        tool_name="summarize_web_tool",
+        model_name=CONFIG["SUMMARY_MODEL"],
+        prompt_text=prompt_with_date,
+        start_time=start_time,
+        response=response,
+        status="ok",
+        reason="summary complete",
+    )
     cleaned = sanitize_model_summary_text(_llm_response_to_text(response))
-    return {
+    result = {
         "status": "ok",
         "reason": "summary complete",
         "data": cleaned,
         "citations": [
             {"source_type": "model", "source_name": CONFIG["SUMMARY_MODEL"], "source_url": ""}
         ],
+        "telemetry": telemetry,
     }
+    _summary_cache_set(
+        cache_key,
+        {
+            "data": cleaned,
+            "citations": list(result.get("citations") or []),
+        },
+    )
+    return result
 
 
 def summarize_payload_tool(summary_prompt: str, payload: Any) -> dict[str, Any]:
@@ -436,22 +669,68 @@ def summarize_payload_tool(summary_prompt: str, payload: Any) -> dict[str, Any]:
     full_prompt = f"{summary_prompt}\n\nPayload:\n{payload_text}"
     prompt_with_date = _with_current_date_context(full_prompt)
     _log_prompt_size("summarize_payload_tool", prompt_with_date)
+    start_time = time.perf_counter()
+
+    cache_key = _summary_cache_key("summarize_payload_tool", CONFIG["SUMMARY_MODEL"], prompt_with_date)
+    cached = _summary_cache_get(cache_key)
+    if isinstance(cached, dict):
+        return {
+            "status": "ok",
+            "reason": "summary complete (cache hit)",
+            "data": str(cached.get("data") or ""),
+            "citations": list(cached.get("citations") or []),
+            "telemetry": _cache_hit_telemetry(
+                tool_name="summarize_payload_tool",
+                model_name=CONFIG["SUMMARY_MODEL"],
+                prompt_text=prompt_with_date,
+                start_time=start_time,
+            ),
+        }
+
     try:
         response = llm.invoke(prompt_with_date)
         cleaned = sanitize_model_summary_text(_llm_response_to_text(response))
+        telemetry = _build_model_telemetry(
+            tool_name="summarize_payload_tool",
+            model_name=CONFIG["SUMMARY_MODEL"],
+            prompt_text=prompt_with_date,
+            start_time=start_time,
+            response=response,
+            status="ok",
+            reason="summary complete",
+        )
     except Exception as exc:
+        telemetry = _build_model_telemetry(
+            tool_name="summarize_payload_tool",
+            model_name=CONFIG["SUMMARY_MODEL"],
+            prompt_text=prompt_with_date,
+            start_time=start_time,
+            response=None,
+            status="skipped",
+            reason=f"summary generation failed: {exc}",
+        )
         return {
             "status": "skipped",
             "reason": f"summary generation failed: {exc}",
             "data": "Summary unavailable: summary generation failed.",
             "citations": [],
+            "telemetry": telemetry,
         }
-    return {
+    result = {
         "status": "ok",
         "reason": "summary complete",
         "data": cleaned,
         "citations": [{"source_type": "model", "source_name": CONFIG["SUMMARY_MODEL"], "source_url": ""}],
+        "telemetry": telemetry,
     }
+    _summary_cache_set(
+        cache_key,
+        {
+            "data": cleaned,
+            "citations": list(result.get("citations") or []),
+        },
+    )
+    return result
 
 
 def cfbd_fetch_tool(
@@ -842,10 +1121,21 @@ def final_synthesis_tool(prompt: str) -> dict[str, Any]:
     safe_prompt = _truncate_text(prompt, max_chars=int(CONFIG.get("FINAL_PROMPT_MAX_CHARS", 20000)))
     prompt_with_date = _with_current_date_context(safe_prompt)
     _log_prompt_size("final_synthesis_tool", prompt_with_date)
+    start_time = time.perf_counter()
     response = llm.invoke(prompt_with_date)
+    telemetry = _build_model_telemetry(
+        tool_name="final_synthesis_tool",
+        model_name=CONFIG["FINAL_MODEL"],
+        prompt_text=prompt_with_date,
+        start_time=start_time,
+        response=response,
+        status="ok",
+        reason="final synthesis complete",
+    )
     return {
         "status": "ok",
         "reason": "final synthesis complete",
         "data": _llm_response_to_text(response),
         "citations": [{"source_type": "model", "source_name": CONFIG["FINAL_MODEL"], "source_url": ""}],
+        "telemetry": telemetry,
     }

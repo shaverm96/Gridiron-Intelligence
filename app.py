@@ -73,7 +73,7 @@ from engine.orchestration_service import (
 )
 from engine.synthesis_service import (
     build_final_prompt_data,
-    run_final_synthesis_data,
+    run_final_synthesis_with_telemetry_data,
 )
 from engine.vector_service import (
     vector_insights_query_data,
@@ -756,6 +756,94 @@ def render_local_cfbd_debugger_page() -> None:
         _render_json_lazy(usage_yoy_compact, key="transfer_debug_usage_yoy_compact_json")
         st.markdown("#### Compact Season Stats Table JSON")
         _render_json_lazy(season_stats_table_compact, key="transfer_debug_season_stats_compact_json")
+
+
+def _safe_int_telemetry(value: Any) -> int:
+    try:
+        if value is None:
+            return 0
+        return int(float(value))
+    except Exception:
+        return 0
+
+
+def _safe_float_telemetry(value: Any) -> float:
+    try:
+        if value is None:
+            return 0.0
+        return float(value)
+    except Exception:
+        return 0.0
+
+
+def _normalize_telemetry_payload(payload: dict[str, Any] | None, trace_log: list[dict[str, Any]] | None = None) -> dict[str, Any]:
+    src = dict(payload or {})
+    branch_latency_raw = dict(src.get("branch_latency_ms") or {})
+    branch_latency: dict[str, int] = {
+        str(k): _safe_int_telemetry(v)
+        for k, v in branch_latency_raw.items()
+        if str(k).strip()
+    }
+
+    model_rollup_raw = dict(src.get("model_rollup") or {})
+    model_rollup = {
+        "model_call_count": _safe_int_telemetry(model_rollup_raw.get("model_call_count")),
+        "input_tokens": _safe_int_telemetry(model_rollup_raw.get("input_tokens")),
+        "output_tokens": _safe_int_telemetry(model_rollup_raw.get("output_tokens")),
+        "total_tokens": _safe_int_telemetry(model_rollup_raw.get("total_tokens")),
+        "estimated_cost_usd": round(_safe_float_telemetry(model_rollup_raw.get("estimated_cost_usd")), 8),
+        "latency_ms": _safe_int_telemetry(model_rollup_raw.get("latency_ms")),
+    }
+    if model_rollup["total_tokens"] <= 0:
+        model_rollup["total_tokens"] = model_rollup["input_tokens"] + model_rollup["output_tokens"]
+
+    pipeline_latency_ms = _safe_int_telemetry(src.get("pipeline_latency_ms"))
+    if pipeline_latency_ms <= 0:
+        orchestration_latencies = [
+            _safe_int_telemetry(row.get("latency_ms"))
+            for row in list(trace_log or [])
+            if str(row.get("node") or "").strip() == "orchestration"
+        ]
+        pipeline_latency_ms = max(orchestration_latencies) if orchestration_latencies else 0
+        if pipeline_latency_ms > 0 and "orchestration" not in branch_latency:
+            branch_latency["orchestration"] = pipeline_latency_ms
+
+    return {
+        "pipeline_latency_ms": pipeline_latency_ms,
+        "branch_latency_ms": branch_latency,
+        "model_telemetry": list(src.get("model_telemetry") or []),
+        "model_rollup": model_rollup,
+    }
+
+
+def _render_telemetry_summary(telemetry: dict[str, Any] | None, key_prefix: str, title: str = "Telemetry") -> None:
+    normalized = _normalize_telemetry_payload(telemetry)
+    rollup = dict(normalized.get("model_rollup") or {})
+    branch_latency = dict(normalized.get("branch_latency_ms") or {})
+    pipeline_latency_ms = _safe_int_telemetry(normalized.get("pipeline_latency_ms"))
+
+    st.markdown(f"#### {title}")
+    col1, col2, col3, col4 = st.columns(4)
+    with col1:
+        st.metric("Estimated Cost", f"${_safe_float_telemetry(rollup.get('estimated_cost_usd')):.4f}")
+    with col2:
+        st.metric("Total Tokens", f"{_safe_int_telemetry(rollup.get('total_tokens')):,}")
+    with col3:
+        st.metric("Model Calls", str(_safe_int_telemetry(rollup.get("model_call_count"))))
+    with col4:
+        st.metric("Pipeline Latency", f"{pipeline_latency_ms:,} ms")
+
+    if branch_latency:
+        branch_rows = [
+            {"branch": key, "latency_ms": _safe_int_telemetry(value)}
+            for key, value in branch_latency.items()
+        ]
+        branch_df = pd.DataFrame(branch_rows).sort_values("latency_ms", ascending=False)
+        with st.expander("Branch Latency Breakdown"):
+            st.dataframe(branch_df, use_container_width=True, hide_index=True)
+
+    with st.expander("Telemetry JSON"):
+        _render_json_lazy(normalized, key=f"{key_prefix}_telemetry_json")
 
 
 st.set_page_config(page_title="Gridiron Intelligence - Scouting Workbench", page_icon="🏈", layout="wide")
@@ -1993,6 +2081,8 @@ def render_structured_report_with_chat_page() -> None:
             },
             workflow_label="Web Scout Pipeline",
         )
+        report_pipeline_started = time.perf_counter()
+        web_scout_latency_ms = 0
 
         with st.spinner("Building structured scouting report..."):
             try:
@@ -2056,6 +2146,7 @@ def render_structured_report_with_chat_page() -> None:
 
             web_recruiting_summary = ""
             web_team_summary = ""
+            web_scout_started = time.perf_counter()
             try:
                 structured_web_graph = get_cached_structured_web_graph()
                 web_state = orchestrate_structured_web_scouting(
@@ -2072,6 +2163,7 @@ def render_structured_report_with_chat_page() -> None:
                 web_recruiting_summary = f"Recruiting web summary unavailable: {exc}"
                 web_team_summary = f"Team web summary unavailable: {exc}"
             finally:
+                web_scout_latency_ms = int((time.perf_counter() - web_scout_started) * 1000)
                 milestone_slot.success("Web Scout Pipeline complete")
 
             historical_comparables_md = get_historical_player_comparables_data(
@@ -2108,12 +2200,37 @@ def render_structured_report_with_chat_page() -> None:
                 historical_comparables_md=historical_comparables_md,
                 tier_definitions_markdown=tier_definitions_markdown,
             )
-            final_report = run_final_synthesis_data(
+            final_synthesis_result = run_final_synthesis_with_telemetry_data(
                 prompt=final_prompt,
                 final_model=CONFIG["FINAL_MODEL"],
                 get_llm=get_llm,
                 llm_response_to_text=llm_response_to_text,
             )
+            final_report = str(final_synthesis_result.get("data") or "").strip()
+            synthesis_telemetry = dict(final_synthesis_result.get("telemetry") or {})
+            synthesis_latency_ms = _safe_int_telemetry(synthesis_telemetry.get("latency_ms"))
+            input_tokens = _safe_int_telemetry(synthesis_telemetry.get("input_tokens"))
+            output_tokens = _safe_int_telemetry(synthesis_telemetry.get("output_tokens"))
+            total_tokens = _safe_int_telemetry(synthesis_telemetry.get("total_tokens"))
+            if total_tokens <= 0:
+                total_tokens = input_tokens + output_tokens
+
+            report_telemetry = {
+                "pipeline_latency_ms": int((time.perf_counter() - report_pipeline_started) * 1000),
+                "branch_latency_ms": {
+                    "web_scout_pipeline": web_scout_latency_ms,
+                    "final_synthesis": synthesis_latency_ms,
+                },
+                "model_telemetry": [synthesis_telemetry] if synthesis_telemetry else [],
+                "model_rollup": {
+                    "model_call_count": 1 if synthesis_telemetry else 0,
+                    "input_tokens": input_tokens,
+                    "output_tokens": output_tokens,
+                    "total_tokens": total_tokens,
+                    "estimated_cost_usd": _safe_float_telemetry(synthesis_telemetry.get("estimated_cost_usd")),
+                    "latency_ms": synthesis_latency_ms,
+                },
+            }
 
         st.session_state[report_state_key] = {
             "player_name": player_name,
@@ -2133,6 +2250,7 @@ def render_structured_report_with_chat_page() -> None:
             "player_row": player_row,
             "vector_result": vector_result,
             "scouting_clean": scouting_clean,
+            "telemetry": report_telemetry,
         }
 
     report_output = st.session_state.get(report_state_key)
@@ -2809,6 +2927,14 @@ def render_structured_report_with_chat_page() -> None:
 
         st.markdown("### Final Synthesis")
         _render_final_synthesis(report_output=report_output, player_name=player_name)
+        _render_telemetry_summary(
+            _normalize_telemetry_payload(
+                report_output.get("telemetry"),
+                trace_log=list(report_output.get("trace_log") or []),
+            ),
+            key_prefix="recruiting_report",
+            title="Recruiting Report Telemetry",
+        )
 
         with st.expander("Development Information (temporary)"):
             st.markdown("#### Player Profile")
@@ -2982,6 +3108,17 @@ def render_structured_report_with_chat_page() -> None:
                     milestone_slot.success("Pipeline complete")
                     st.markdown(assistant_text)
 
+                    chat_telemetry = _normalize_telemetry_payload(
+                        result_state.get("telemetry"),
+                        trace_log=list(result_state.get("trace_log") or []),
+                    )
+                    result_state["telemetry"] = chat_telemetry
+                    _render_telemetry_summary(
+                        chat_telemetry,
+                        key_prefix="recruiting_chat_turn",
+                        title="Chat Turn Telemetry",
+                    )
+
                     if bool(result_state.get("requires_identity_clarification")):
                         candidate_rows = list(result_state.get("identity_candidates") or [])
                         if candidate_rows:
@@ -3117,6 +3254,13 @@ def render_potential_transfers_with_chat_page() -> None:
                 progress_callback=_render_transfer_milestone,
             )
 
+        trace_rows = list(result.get("trace_log") or [])
+        result_telemetry = _normalize_telemetry_payload(
+            result.get("telemetry"),
+            trace_log=trace_rows,
+        )
+        result["telemetry"] = result_telemetry
+
         milestone_slot.success("Transfer pipeline complete")
         st.session_state[report_state_key] = result
         _ = _get_transfer_render_artifacts(result, position_hint=position)
@@ -3141,6 +3285,14 @@ def render_potential_transfers_with_chat_page() -> None:
 
     st.markdown("### Final Transfer Impact Synthesis")
     st.markdown(str(report_output.get("final_report") or "No synthesis generated."))
+    _render_telemetry_summary(
+        _normalize_telemetry_payload(
+            report_output.get("telemetry"),
+            trace_log=list(report_output.get("trace_log") or []),
+        ),
+        key_prefix="transfer_report",
+        title="Transfer Report Telemetry",
+    )
 
     pull_config = dict(report_output.get("pull_config") or {})
     artifacts = _get_transfer_render_artifacts(report_output, position_hint=position)
@@ -3293,6 +3445,11 @@ def render_potential_transfers_with_chat_page() -> None:
                 ),
                 allow_web_refresh=True,
             )
+            telemetry = _normalize_telemetry_payload(
+                result_state.get("telemetry"),
+                trace_log=list(result_state.get("trace_log") or []),
+            )
+            result_state["telemetry"] = telemetry
             assistant_text = str(result_state.get("final_report") or "No response generated.")
             st.session_state["transfer_chat_state"] = compact_transfer_chat_state(
                 result_state,
@@ -3301,6 +3458,11 @@ def render_potential_transfers_with_chat_page() -> None:
             )
             st.session_state["transfer_chat_messages"].append({"role": "assistant", "content": assistant_text})
             st.markdown(assistant_text)
+            _render_telemetry_summary(
+                telemetry,
+                key_prefix="transfer_chat_turn",
+                title="Chat Turn Telemetry",
+            )
 
             trace_log = list(result_state.get("trace_log") or [])
             if trace_log:
@@ -3441,6 +3603,17 @@ def render_open_chat_page() -> None:
                 )
                 milestone_slot.success("Pipeline complete")
                 st.markdown(assistant_text)
+
+                chat_telemetry = _normalize_telemetry_payload(
+                    result_state.get("telemetry"),
+                    trace_log=list(result_state.get("trace_log") or []),
+                )
+                result_state["telemetry"] = chat_telemetry
+                _render_telemetry_summary(
+                    chat_telemetry,
+                    key_prefix="open_chat_turn",
+                    title="Chat Turn Telemetry",
+                )
 
                 if bool(result_state.get("requires_identity_clarification")):
                     candidate_rows = list(result_state.get("identity_candidates") or [])
