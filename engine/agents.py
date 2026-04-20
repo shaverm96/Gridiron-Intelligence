@@ -2,6 +2,8 @@ from __future__ import annotations
 
 import json
 import re
+import time
+from concurrent.futures import ThreadPoolExecutor
 from typing import Any
 
 from .config import CONFIG
@@ -561,6 +563,7 @@ def recruiting_scout_node(state: ScoutState) -> ScoutState:
     return {
         "web_recruiting_summary": str(summary_result.get("data", "")).strip(),
         "citations": list(search_result.get("citations") or []) + list(summary_result.get("citations") or []),
+        "telemetry": dict(summary_result.get("telemetry") or {}),
         "trace_log": [_trace_entry(state, "recruiting_scout", "web_recruiting_summary_ready")],
     }
 
@@ -599,7 +602,69 @@ def team_scout_node(state: ScoutState) -> ScoutState:
     return {
         "web_team_summary": str(summary_result.get("data", "")).strip(),
         "citations": list(search_result.get("citations") or []) + list(summary_result.get("citations") or []),
+        "telemetry": dict(summary_result.get("telemetry") or {}),
         "trace_log": [_trace_entry(state, "team_scout", "web_team_summary_ready")],
+    }
+
+
+def parallel_web_scout_node(state: ScoutState) -> ScoutState:
+    if bool(state.get("security_halt")):
+        return {
+            "web_recruiting_summary": "Recruiting summary skipped due to security safeguards.",
+            "web_team_summary": "Team context skipped due to security safeguards.",
+            "trace_log": [_trace_entry(state, "parallel_web_scout", "skipped_security_halt")],
+        }
+
+    if bool(state.get("requires_identity_clarification")):
+        return {
+            "web_recruiting_summary": "Recruiting web context skipped until player identity is clarified.",
+            "web_team_summary": "Team context skipped until player identity is clarified.",
+            "trace_log": [_trace_entry(state, "parallel_web_scout", "skipped_needs_identity_clarification")],
+        }
+
+    def _run_recruiting() -> dict[str, Any]:
+        return recruiting_scout_node(state)
+
+    def _run_team() -> dict[str, Any]:
+        return team_scout_node(state)
+
+    parallel_started = time.perf_counter()
+    with ThreadPoolExecutor(max_workers=2) as executor:
+        recruiting_future = executor.submit(_run_recruiting)
+        team_future = executor.submit(_run_team)
+        recruiting_result = recruiting_future.result()
+        team_result = team_future.result()
+
+    merged_trace = list(recruiting_result.get("trace_log") or []) + list(team_result.get("trace_log") or [])
+    merged_citations = list(recruiting_result.get("citations") or []) + list(team_result.get("citations") or [])
+    model_telemetry_rows = [
+        dict(recruiting_result.get("telemetry") or {}),
+        dict(team_result.get("telemetry") or {}),
+    ]
+    model_telemetry_rows = [row for row in model_telemetry_rows if row]
+    parallel_latency_ms = int((time.perf_counter() - parallel_started) * 1000)
+    telemetry_rollup = {
+        "model_call_count": len(model_telemetry_rows),
+        "input_tokens": sum(int(row.get("input_tokens") or 0) for row in model_telemetry_rows),
+        "output_tokens": sum(int(row.get("output_tokens") or 0) for row in model_telemetry_rows),
+        "total_tokens": sum(int(row.get("total_tokens") or 0) for row in model_telemetry_rows),
+        "estimated_cost_usd": round(
+            sum(float(row.get("estimated_cost_usd") or 0.0) for row in model_telemetry_rows),
+            8,
+        ),
+        "latency_ms": parallel_latency_ms,
+    }
+    if telemetry_rollup["total_tokens"] == 0:
+        telemetry_rollup["total_tokens"] = telemetry_rollup["input_tokens"] + telemetry_rollup["output_tokens"]
+    return {
+        "web_recruiting_summary": str(recruiting_result.get("web_recruiting_summary") or "").strip(),
+        "web_team_summary": str(team_result.get("web_team_summary") or "").strip(),
+        "citations": merged_citations,
+        "telemetry": {
+            "model_telemetry": model_telemetry_rows,
+            "model_rollup": telemetry_rollup,
+        },
+        "trace_log": merged_trace or [_trace_entry(state, "parallel_web_scout", "web_summaries_ready")],
     }
 
 
@@ -771,15 +836,15 @@ def sql_analyst_node(state: ScoutState) -> ScoutState:
 
 
 def web_scout_node(state: ScoutState) -> ScoutState:
-    return recruiting_scout_node(state)
+    return parallel_web_scout_node(state)
 
 
 def vector_analyst_node(state: ScoutState) -> ScoutState:
-    return team_scout_node(state)
+    return parallel_web_scout_node(state)
 
 
 def comparables_node(state: ScoutState) -> ScoutState:
-    return team_scout_node(state)
+    return parallel_web_scout_node(state)
 
 
 def synthesizer_node(state: ScoutState) -> ScoutState:

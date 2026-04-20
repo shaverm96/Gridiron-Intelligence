@@ -79,12 +79,24 @@ CONFIG = {
     "SUMMARY_CACHE_ENABLED": _env_flag("GI_SUMMARY_CACHE_ENABLED", True),
     "SUMMARY_CACHE_TTL_SECONDS": max(0, int(os.getenv("GI_SUMMARY_CACHE_TTL_SECONDS", "900"))),
     "SUMMARY_CACHE_MAX_ENTRIES": max(1, int(os.getenv("GI_SUMMARY_CACHE_MAX_ENTRIES", "256"))),
+    "VECTOR_EMBED_CACHE_ENABLED": _env_flag("GI_VECTOR_EMBED_CACHE_ENABLED", True),
+    "VECTOR_EMBED_CACHE_TTL_SECONDS": max(0, int(os.getenv("GI_VECTOR_EMBED_CACHE_TTL_SECONDS", "3600"))),
+    "VECTOR_EMBED_CACHE_MAX_ENTRIES": max(1, int(os.getenv("GI_VECTOR_EMBED_CACHE_MAX_ENTRIES", "512"))),
+    "TRANSFER_CFBD_CACHE_ENABLED": _env_flag("GI_TRANSFER_CFBD_CACHE_ENABLED", True),
+    "TRANSFER_CFBD_CACHE_TTL_SECONDS": max(0, int(os.getenv("GI_TRANSFER_CFBD_CACHE_TTL_SECONDS", "1800"))),
+    "TRANSFER_CFBD_CACHE_MAX_ENTRIES": max(1, int(os.getenv("GI_TRANSFER_CFBD_CACHE_MAX_ENTRIES", "256"))),
+    "MODEL_TOKEN_COSTS_PER_1M": {
+        "gemini-3.1-flash-lite-preview": {"input": 0.25, "output": 1.50},
+        "gemini-3-flash-preview": {"input": 0.50, "output": 3.00},
+    },
     "TARGET_SEARCH_SITES": [
         "maxpreps.com",
         "247sports.com",
         "rivals.com",
         "espn.com",
         "on3.com",
+        "cbssports.com",
+        "usatodayhss.com"
     ],
 }
 

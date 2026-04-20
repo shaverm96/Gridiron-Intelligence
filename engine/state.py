@@ -85,6 +85,7 @@ class ScoutState(TypedDict, total=False):
     web_team_used: bool
     vector_factoids: list[str]
     comparables_context: str
+    telemetry: dict[str, Any]
 
     # Output and traceability
     final_report: str
@@ -140,6 +141,7 @@ def initial_structured_state(
         "web_team_used": False,
         "vector_factoids": [],
         "comparables_context": "",
+        "telemetry": {},
         "final_report": "",
         "citations": [],
         "conversation_history": [],
@@ -177,6 +179,7 @@ def initial_chat_state(user_query: str) -> ScoutState:
         "web_team_used": False,
         "vector_factoids": [],
         "comparables_context": "",
+        "telemetry": {},
         "final_report": "",
         "citations": [],
         "conversation_history": [{"role": "user", "content": user_query}],
@@ -222,6 +225,7 @@ def initial_structured_web_state(
         "web_research_context": "",
         "vector_factoids": [],
         "comparables_context": "",
+        "telemetry": {},
         "final_report": "",
         "citations": [],
         "conversation_history": [],

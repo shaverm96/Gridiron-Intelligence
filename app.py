@@ -822,28 +822,26 @@ def _render_telemetry_summary(telemetry: dict[str, Any] | None, key_prefix: str,
     branch_latency = dict(normalized.get("branch_latency_ms") or {})
     pipeline_latency_ms = _safe_int_telemetry(normalized.get("pipeline_latency_ms"))
 
-    st.markdown(f"#### {title}")
-    col1, col2, col3, col4 = st.columns(4)
-    with col1:
-        st.metric("Estimated Cost", f"${_safe_float_telemetry(rollup.get('estimated_cost_usd')):.4f}")
-    with col2:
-        st.metric("Total Tokens", f"{_safe_int_telemetry(rollup.get('total_tokens')):,}")
-    with col3:
-        st.metric("Model Calls", str(_safe_int_telemetry(rollup.get("model_call_count"))))
-    with col4:
-        st.metric("Pipeline Latency", f"{pipeline_latency_ms:,} ms")
+    with st.expander(title, expanded=False):
+        st.markdown("#### Model Rollup")
+        st.write(
+            f"Calls: {_safe_int_telemetry(rollup.get('model_call_count'))} | "
+            f"Tokens: {_safe_int_telemetry(rollup.get('total_tokens')):,} | "
+            f"Cost: ${_safe_float_telemetry(rollup.get('estimated_cost_usd')):.4f} | "
+            f"Pipeline latency: {pipeline_latency_ms:,} ms"
+        )
 
-    if branch_latency:
-        branch_rows = [
-            {"branch": key, "latency_ms": _safe_int_telemetry(value)}
-            for key, value in branch_latency.items()
-        ]
-        branch_df = pd.DataFrame(branch_rows).sort_values("latency_ms", ascending=False)
-        with st.expander("Branch Latency Breakdown"):
-            st.dataframe(branch_df, use_container_width=True, hide_index=True)
+        if branch_latency:
+            branch_rows = [
+                {"branch": key, "latency_ms": _safe_int_telemetry(value)}
+                for key, value in branch_latency.items()
+            ]
+            branch_df = pd.DataFrame(branch_rows).sort_values("latency_ms", ascending=False)
+            with st.expander("Branch Latency Breakdown", expanded=False):
+                st.dataframe(branch_df, use_container_width=True, hide_index=True)
 
-    with st.expander("Telemetry JSON"):
-        _render_json_lazy(normalized, key=f"{key_prefix}_telemetry_json")
+        with st.expander("Telemetry JSON", expanded=False):
+            _render_json_lazy(normalized, key=f"{key_prefix}_telemetry_json")
 
 
 st.set_page_config(page_title="Gridiron Intelligence - Scouting Workbench", page_icon="🏈", layout="wide")
@@ -2146,6 +2144,7 @@ def render_structured_report_with_chat_page() -> None:
 
             web_recruiting_summary = ""
             web_team_summary = ""
+            web_state: dict[str, Any] = {}
             web_scout_started = time.perf_counter()
             try:
                 structured_web_graph = get_cached_structured_web_graph()
@@ -2165,6 +2164,11 @@ def render_structured_report_with_chat_page() -> None:
             finally:
                 web_scout_latency_ms = int((time.perf_counter() - web_scout_started) * 1000)
                 milestone_slot.success("Web Scout Pipeline complete")
+
+            web_telemetry = _normalize_telemetry_payload(
+                web_state.get("telemetry") if isinstance(web_state, dict) else None,
+                trace_log=list(web_state.get("trace_log") or []) if isinstance(web_state, dict) else [],
+            )
 
             historical_comparables_md = get_historical_player_comparables_data(
                 sb=sb,
@@ -2209,9 +2213,18 @@ def render_structured_report_with_chat_page() -> None:
             final_report = str(final_synthesis_result.get("data") or "").strip()
             synthesis_telemetry = dict(final_synthesis_result.get("telemetry") or {})
             synthesis_latency_ms = _safe_int_telemetry(synthesis_telemetry.get("latency_ms"))
-            input_tokens = _safe_int_telemetry(synthesis_telemetry.get("input_tokens"))
-            output_tokens = _safe_int_telemetry(synthesis_telemetry.get("output_tokens"))
-            total_tokens = _safe_int_telemetry(synthesis_telemetry.get("total_tokens"))
+
+            web_model_telemetry = list(web_telemetry.get("model_telemetry") or [])
+            model_telemetry_rows = web_model_telemetry + ([synthesis_telemetry] if synthesis_telemetry else [])
+            model_call_count = len(model_telemetry_rows)
+            input_tokens = sum(_safe_int_telemetry(row.get("input_tokens")) for row in model_telemetry_rows)
+            output_tokens = sum(_safe_int_telemetry(row.get("output_tokens")) for row in model_telemetry_rows)
+            total_tokens = sum(_safe_int_telemetry(row.get("total_tokens")) for row in model_telemetry_rows)
+            estimated_cost_usd = round(
+                sum(_safe_float_telemetry(row.get("estimated_cost_usd")) for row in model_telemetry_rows),
+                8,
+            )
+            latency_ms = _safe_int_telemetry(web_telemetry.get("model_rollup", {}).get("latency_ms")) + synthesis_latency_ms
             if total_tokens <= 0:
                 total_tokens = input_tokens + output_tokens
 
@@ -2221,14 +2234,14 @@ def render_structured_report_with_chat_page() -> None:
                     "web_scout_pipeline": web_scout_latency_ms,
                     "final_synthesis": synthesis_latency_ms,
                 },
-                "model_telemetry": [synthesis_telemetry] if synthesis_telemetry else [],
+                "model_telemetry": model_telemetry_rows,
                 "model_rollup": {
-                    "model_call_count": 1 if synthesis_telemetry else 0,
+                    "model_call_count": model_call_count,
                     "input_tokens": input_tokens,
                     "output_tokens": output_tokens,
                     "total_tokens": total_tokens,
-                    "estimated_cost_usd": _safe_float_telemetry(synthesis_telemetry.get("estimated_cost_usd")),
-                    "latency_ms": synthesis_latency_ms,
+                    "estimated_cost_usd": estimated_cost_usd,
+                    "latency_ms": latency_ms,
                 },
             }
 
@@ -2927,6 +2940,7 @@ def render_structured_report_with_chat_page() -> None:
 
         st.markdown("### Final Synthesis")
         _render_final_synthesis(report_output=report_output, player_name=player_name)
+
         _render_telemetry_summary(
             _normalize_telemetry_payload(
                 report_output.get("telemetry"),
@@ -3285,14 +3299,6 @@ def render_potential_transfers_with_chat_page() -> None:
 
     st.markdown("### Final Transfer Impact Synthesis")
     st.markdown(str(report_output.get("final_report") or "No synthesis generated."))
-    _render_telemetry_summary(
-        _normalize_telemetry_payload(
-            report_output.get("telemetry"),
-            trace_log=list(report_output.get("trace_log") or []),
-        ),
-        key_prefix="transfer_report",
-        title="Transfer Report Telemetry",
-    )
 
     pull_config = dict(report_output.get("pull_config") or {})
     artifacts = _get_transfer_render_artifacts(report_output, position_hint=position)
@@ -3394,6 +3400,15 @@ def render_potential_transfers_with_chat_page() -> None:
             st.dataframe(diagnostics_df, use_container_width=True)
         else:
             st.write("No diagnostics available.")
+
+    _render_telemetry_summary(
+        _normalize_telemetry_payload(
+            report_output.get("telemetry"),
+            trace_log=list(report_output.get("trace_log") or []),
+        ),
+        key_prefix="transfer_report",
+        title="Transfer Report Telemetry",
+    )
 
     st.write("---")
     st.subheader("Open Chat")

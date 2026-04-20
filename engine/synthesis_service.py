@@ -13,10 +13,6 @@ MODEL_ALIAS_MAP = {
     "gemini-3.0-flash": "gemini-3-flash-preview",
     "gemini-3.1-flash-lite-preview": "gemini-3.1-flash-lite-preview",
 }
-MODEL_TOKEN_COSTS_PER_1M = {
-    "gemini-3.1-flash-lite-preview": {"input": 0.25, "output": 1.50},
-    "gemini-3-flash-preview": {"input": 0.50, "output": 3.00},
-}
 
 
 def _normalize_model_name(model_name: str) -> str:
@@ -65,7 +61,7 @@ def _extract_token_usage(response: Any) -> dict[str, int | None]:
 
 
 def _estimate_model_cost_usd(model_name: str, input_tokens: int | None, output_tokens: int | None) -> float | None:
-    rates = MODEL_TOKEN_COSTS_PER_1M.get(_normalize_model_name(model_name), {})
+    rates = dict(CONFIG.get("MODEL_TOKEN_COSTS_PER_1M") or {}).get(_normalize_model_name(model_name), {})
     if not isinstance(rates, dict):
         return None
 
@@ -193,6 +189,12 @@ def build_final_prompt_data(
     payload_cap = int(CONFIG.get("PROMPT_PAYLOAD_MAX_CHARS", 12000))
     prompt_cap = int(CONFIG.get("FINAL_PROMPT_MAX_CHARS", 20000))
     json_cap = max(1500, payload_cap // 3)
+    hs_background_cap = 1800
+    threshold_cap = 1500
+    web_summary_cap = 2400
+    vector_insights_cap = 2200
+    historical_comparables_cap = 2200
+    tier_definitions_cap = 2200
 
     prompt = (
         "You are a senior college football recruiting scout.\n"
@@ -206,14 +208,14 @@ def build_final_prompt_data(
         f"{_json_block(player_row, max_chars=json_cap)}\n\n"
         "Filtered Scouting JSON:\n"
         f"{_json_block(scouting_clean, max_chars=json_cap)}\n\n"
-        f"HS Athletic Background:\n{_truncate_text(hs_athletic_background or 'N/A', max_chars=2000)}\n\n"
+        f"HS Athletic Background:\n{_truncate_text(hs_athletic_background or 'N/A', max_chars=hs_background_cap)}\n\n"
         "Prediction Score Row JSON:\n"
         f"{_json_block(pred_score_row, max_chars=json_cap)}\n\n"
-        f"Prediction Threshold Probabilities (user-friendly):\n{_truncate_text(threshold_block, max_chars=1800)}\n\n"
-        f"Web Intelligence Summary:\n{_truncate_text(web_summary, max_chars=3000)}\n\n"
-        f"Vector Insights:\n{_truncate_text(vector_block, max_chars=2500)}\n\n"
-        f"Historical Comparables:\n{_truncate_text(historical_comparables_md, max_chars=2500)}\n\n"
-        f"Tier Definitions:\n{_truncate_text(tier_defs, max_chars=2500)}\n\n"
+        f"Prediction Threshold Probabilities (user-friendly):\n{_truncate_text(threshold_block, max_chars=threshold_cap)}\n\n"
+        f"Web Intelligence Summary:\n{_truncate_text(web_summary, max_chars=web_summary_cap)}\n\n"
+        f"Vector Insights:\n{_truncate_text(vector_block, max_chars=vector_insights_cap)}\n\n"
+        f"Historical Comparables:\n{_truncate_text(historical_comparables_md, max_chars=historical_comparables_cap)}\n\n"
+        f"Tier Definitions:\n{_truncate_text(tier_defs, max_chars=tier_definitions_cap)}\n\n"
         "When discussing threshold probabilities, never use raw internal key names like ge80, gt75, or p_ge80. "
         "Translate them to user-friendly language such as 'chance to reach >=80' or plain English equivalents.\n\n"
         "Output sections in order:\n"

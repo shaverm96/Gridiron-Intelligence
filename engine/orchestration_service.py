@@ -27,6 +27,55 @@ CHAT_STATE_MAX_CANDIDATES = 3
 
 LOGGER = logging.getLogger(__name__)
 
+TRANSFER_CFBD_CONTEXT_CACHE: dict[str, dict[str, Any]] = {}
+
+
+def _transfer_cfbd_context_cache_key(
+    college_player_id: str,
+    cfbd_athlete_id: str,
+    year: int,
+    exclude_garbage_time: bool,
+) -> str:
+    return "|".join([
+        str(college_player_id or ""),
+        str(cfbd_athlete_id or ""),
+        str(int(year)),
+        str(bool(exclude_garbage_time)),
+    ])
+
+
+def _transfer_cfbd_context_cache_get(cache_key: str) -> dict[str, Any] | None:
+    if not bool(CONFIG.get("TRANSFER_CFBD_CACHE_ENABLED", True)):
+        return None
+    entry = TRANSFER_CFBD_CONTEXT_CACHE.get(cache_key)
+    if not isinstance(entry, dict):
+        return None
+    ttl_seconds = int(CONFIG.get("TRANSFER_CFBD_CACHE_TTL_SECONDS", 1800))
+    created_at = float(entry.get("created_at") or 0.0)
+    if ttl_seconds > 0 and (time.time() - created_at) > ttl_seconds:
+        TRANSFER_CFBD_CONTEXT_CACHE.pop(cache_key, None)
+        return None
+    value = entry.get("value")
+    return dict(value) if isinstance(value, dict) else None
+
+
+def _transfer_cfbd_context_cache_set(cache_key: str, value: dict[str, Any]) -> None:
+    if not bool(CONFIG.get("TRANSFER_CFBD_CACHE_ENABLED", True)):
+        return
+    TRANSFER_CFBD_CONTEXT_CACHE[cache_key] = {
+        "created_at": time.time(),
+        "value": dict(value or {}),
+    }
+    max_entries = max(1, int(CONFIG.get("TRANSFER_CFBD_CACHE_MAX_ENTRIES", 256)))
+    if len(TRANSFER_CFBD_CONTEXT_CACHE) <= max_entries:
+        return
+    ordered = sorted(
+        TRANSFER_CFBD_CONTEXT_CACHE.items(),
+        key=lambda item: float((item[1] or {}).get("created_at") or 0.0),
+    )
+    for key, _ in ordered[: max(0, len(ordered) - max_entries)]:
+        TRANSFER_CFBD_CONTEXT_CACHE.pop(key, None)
+
 
 def _extract_tool_telemetry(payload: dict[str, Any] | None) -> dict[str, Any]:
     src = dict(payload or {})
@@ -1295,6 +1344,12 @@ def orchestrate_transfer_report(
     _emit_progress(progress_callback, "transfer_pipeline", "running")
     _emit_progress(progress_callback, "parallel_fetch", "running")
     branch_started = time.perf_counter()
+    cfbd_cache_key = _transfer_cfbd_context_cache_key(
+        college_player_id=str(college_player_id or "").strip(),
+        cfbd_athlete_id=str(cfbd_athlete_id or "").strip(),
+        year=int(year),
+        exclude_garbage_time=bool(exclude_garbage_time),
+    )
 
     def _empty_cfbd_context_payload(reason: str) -> dict[str, Any]:
         teams = _split_team_tokens(player_row.get("teams"))
@@ -1420,18 +1475,26 @@ def orchestrate_transfer_report(
     _emit_progress(progress_callback, "team_news_search", "running")
 
     with ThreadPoolExecutor(max_workers=3) as executor:
-        cfbd_context_future = executor.submit(_cfbd_context_task)
+        cached_cfbd_context = _transfer_cfbd_context_cache_get(cfbd_cache_key)
+        cfbd_context_future = None if cached_cfbd_context is not None else executor.submit(_cfbd_context_task)
         player_web_future = executor.submit(_player_web_task)
         team_web_future = executor.submit(_team_web_task)
 
-        cfbd_context = _result_or_timeout(
-            cfbd_context_future,
-            "cfbd_context",
-            timeout_seconds=90,
-            fallback_payload_factory=_empty_cfbd_context_payload,
-        )
+        if cached_cfbd_context is not None:
+            cfbd_context = dict(cached_cfbd_context)
+            _emit_progress(progress_callback, "cfbd_context", "completed")
+        else:
+            cfbd_context = _result_or_timeout(
+                cfbd_context_future,
+                "cfbd_context",
+                timeout_seconds=90,
+                fallback_payload_factory=_empty_cfbd_context_payload,
+            )
         player_web = _result_or_timeout(player_web_future, "player_news_search", timeout_seconds=30)
         team_web = _result_or_timeout(team_web_future, "team_news_search", timeout_seconds=30)
+
+    if cfbd_context.get("status") == "ok":
+        _transfer_cfbd_context_cache_set(cfbd_cache_key, cfbd_context)
 
     branch_latency_ms["parallel_fetch"] = int((time.perf_counter() - branch_started) * 1000)
     _emit_progress(progress_callback, "parallel_fetch", "completed")

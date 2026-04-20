@@ -55,16 +55,11 @@ except Exception:  # pragma: no cover
 
 EMBED_MODEL = None
 logger = logging.getLogger(__name__)
-SUMMARY_MEMO_CACHE: dict[str, dict[str, Any]] = {}
 MODEL_ALIAS_MAP = {
     "gemini-3.0-flash": "gemini-3-flash-preview",
     "gemini-3.1-flash-lite-preview": "gemini-3.1-flash-lite-preview",
 }
-MODEL_TOKEN_COSTS_PER_1M = {
-    # Default rates can be overridden later via config/env if desired.
-    "gemini-3.1-flash-lite-preview": {"input": 0.25, "output": 1.50},
-    "gemini-3-flash-preview": {"input": 0.50, "output": 3.00},
-}
+SUMMARY_MEMO_CACHE: dict[str, dict[str, Any]] = {}
 
 
 def _normalize_model_name(model_name: str) -> str:
@@ -170,6 +165,57 @@ def _payload_to_text(payload: Any, max_chars: int | None = None) -> str:
     return _truncate_text(payload_text, max_chars=cap)
 
 
+def _summary_cache_key(tool_name: str, model_name: str, prompt_text: str) -> str:
+    raw = "|".join([
+        str(tool_name or ""),
+        _normalize_model_name(model_name),
+        str(prompt_text or ""),
+    ])
+    return hashlib.sha256(raw.encode("utf-8")).hexdigest()
+
+
+def _summary_cache_prune(now_ts: float) -> None:
+    if not bool(CONFIG.get("SUMMARY_CACHE_ENABLED", True)):
+        SUMMARY_MEMO_CACHE.clear()
+        return
+
+    ttl_seconds = int(CONFIG.get("SUMMARY_CACHE_TTL_SECONDS", 900))
+    if ttl_seconds > 0:
+        expired_keys = [
+            key
+            for key, entry in SUMMARY_MEMO_CACHE.items()
+            if (now_ts - float(entry.get("created_at") or 0.0)) > ttl_seconds
+        ]
+        for key in expired_keys:
+            SUMMARY_MEMO_CACHE.pop(key, None)
+
+    max_entries = max(1, int(CONFIG.get("SUMMARY_CACHE_MAX_ENTRIES", 256)))
+    if len(SUMMARY_MEMO_CACHE) <= max_entries:
+        return
+    ordered = sorted(SUMMARY_MEMO_CACHE.items(), key=lambda item: float((item[1] or {}).get("created_at") or 0.0))
+    for key, _ in ordered[: max(0, len(ordered) - max_entries)]:
+        SUMMARY_MEMO_CACHE.pop(key, None)
+
+
+def _summary_cache_get(cache_key: str) -> dict[str, Any] | None:
+    if not bool(CONFIG.get("SUMMARY_CACHE_ENABLED", True)):
+        return None
+    now_ts = time.time()
+    _summary_cache_prune(now_ts)
+    entry = SUMMARY_MEMO_CACHE.get(cache_key)
+    if not isinstance(entry, dict):
+        return None
+    value = entry.get("value")
+    return dict(value) if isinstance(value, dict) else None
+
+
+def _summary_cache_set(cache_key: str, value: dict[str, Any]) -> None:
+    if not bool(CONFIG.get("SUMMARY_CACHE_ENABLED", True)):
+        return
+    SUMMARY_MEMO_CACHE[cache_key] = {"created_at": time.time(), "value": dict(value or {})}
+    _summary_cache_prune(time.time())
+
+
 def _log_prompt_size(label: str, prompt_text: str) -> None:
     try:
         logger.info("prompt_size label=%s chars=%s", label, len(str(prompt_text or "")))
@@ -218,7 +264,7 @@ def _extract_token_usage(response: Any) -> dict[str, int | None]:
 
 
 def _estimate_model_cost_usd(model_name: str, input_tokens: int | None, output_tokens: int | None) -> float | None:
-    rates = MODEL_TOKEN_COSTS_PER_1M.get(_normalize_model_name(model_name), {})
+    rates = dict(CONFIG.get("MODEL_TOKEN_COSTS_PER_1M") or {}).get(_normalize_model_name(model_name), {})
     if not isinstance(rates, dict):
         return None
 
@@ -284,80 +330,6 @@ def _with_current_date_context(prompt_text: str) -> str:
         "- If recency is uncertain, state the uncertainty explicitly.\n\n"
     )
     return f"{date_context}{str(prompt_text or '').strip()}"
-
-
-def _summary_cache_key(tool_name: str, model_name: str, prompt_text: str) -> str:
-    raw = "|".join([
-        str(tool_name or ""),
-        _normalize_model_name(model_name),
-        str(prompt_text or ""),
-    ])
-    return hashlib.sha256(raw.encode("utf-8")).hexdigest()
-
-
-def _summary_cache_prune(now_ts: float) -> None:
-    if not bool(CONFIG.get("SUMMARY_CACHE_ENABLED", True)):
-        SUMMARY_MEMO_CACHE.clear()
-        return
-
-    ttl_seconds = int(CONFIG.get("SUMMARY_CACHE_TTL_SECONDS", 900))
-    if ttl_seconds > 0:
-        expired_keys = [
-            key
-            for key, entry in SUMMARY_MEMO_CACHE.items()
-            if (now_ts - float(entry.get("created_at") or 0.0)) > ttl_seconds
-        ]
-        for key in expired_keys:
-            SUMMARY_MEMO_CACHE.pop(key, None)
-
-    max_entries = max(1, int(CONFIG.get("SUMMARY_CACHE_MAX_ENTRIES", 256)))
-    if len(SUMMARY_MEMO_CACHE) <= max_entries:
-        return
-    ordered = sorted(
-        SUMMARY_MEMO_CACHE.items(),
-        key=lambda item: float((item[1] or {}).get("created_at") or 0.0),
-    )
-    for key, _ in ordered[: max(0, len(ordered) - max_entries)]:
-        SUMMARY_MEMO_CACHE.pop(key, None)
-
-
-def _summary_cache_get(cache_key: str) -> dict[str, Any] | None:
-    if not bool(CONFIG.get("SUMMARY_CACHE_ENABLED", True)):
-        return None
-    now_ts = time.time()
-    _summary_cache_prune(now_ts)
-    entry = SUMMARY_MEMO_CACHE.get(cache_key)
-    if not isinstance(entry, dict):
-        return None
-    value = entry.get("value")
-    return dict(value) if isinstance(value, dict) else None
-
-
-def _summary_cache_set(cache_key: str, value: dict[str, Any]) -> None:
-    if not bool(CONFIG.get("SUMMARY_CACHE_ENABLED", True)):
-        return
-    now_ts = time.time()
-    SUMMARY_MEMO_CACHE[cache_key] = {
-        "created_at": now_ts,
-        "value": dict(value or {}),
-    }
-    _summary_cache_prune(now_ts)
-
-
-def _cache_hit_telemetry(tool_name: str, model_name: str, prompt_text: str, start_time: float) -> dict[str, Any]:
-    return {
-        "tool": tool_name,
-        "model": _normalize_model_name(model_name),
-        "status": "ok",
-        "reason": "cache hit",
-        "cache_hit": True,
-        "latency_ms": int((time.perf_counter() - start_time) * 1000),
-        "prompt_chars": len(str(prompt_text or "")),
-        "input_tokens": 0,
-        "output_tokens": 0,
-        "total_tokens": 0,
-        "estimated_cost_usd": 0.0,
-    }
 
 
 @retry(
@@ -617,12 +589,19 @@ def summarize_web_tool(player_name: str, position: str, search_rows: list[dict[s
             "reason": "summary complete (cache hit)",
             "data": str(cached.get("data") or ""),
             "citations": list(cached.get("citations") or []),
-            "telemetry": _cache_hit_telemetry(
-                tool_name="summarize_web_tool",
-                model_name=CONFIG["SUMMARY_MODEL"],
-                prompt_text=prompt_with_date,
-                start_time=start_time,
-            ),
+            "telemetry": {
+                "tool": "summarize_web_tool",
+                "model": CONFIG["SUMMARY_MODEL"],
+                "status": "ok",
+                "reason": "cache hit",
+                "cache_hit": True,
+                "latency_ms": int((time.perf_counter() - start_time) * 1000),
+                "prompt_chars": len(str(prompt_with_date or "")),
+                "input_tokens": 0,
+                "output_tokens": 0,
+                "total_tokens": 0,
+                "estimated_cost_usd": 0.0,
+            },
         }
 
     response = llm.invoke(prompt_with_date)
@@ -649,7 +628,7 @@ def summarize_web_tool(player_name: str, position: str, search_rows: list[dict[s
         cache_key,
         {
             "data": cleaned,
-            "citations": list(result.get("citations") or []),
+            "citations": [{"source_type": "model", "source_name": CONFIG["SUMMARY_MODEL"], "source_url": ""}],
         },
     )
     return result
@@ -679,12 +658,19 @@ def summarize_payload_tool(summary_prompt: str, payload: Any) -> dict[str, Any]:
             "reason": "summary complete (cache hit)",
             "data": str(cached.get("data") or ""),
             "citations": list(cached.get("citations") or []),
-            "telemetry": _cache_hit_telemetry(
-                tool_name="summarize_payload_tool",
-                model_name=CONFIG["SUMMARY_MODEL"],
-                prompt_text=prompt_with_date,
-                start_time=start_time,
-            ),
+            "telemetry": {
+                "tool": "summarize_payload_tool",
+                "model": CONFIG["SUMMARY_MODEL"],
+                "status": "ok",
+                "reason": "cache hit",
+                "cache_hit": True,
+                "latency_ms": int((time.perf_counter() - start_time) * 1000),
+                "prompt_chars": len(str(prompt_with_date or "")),
+                "input_tokens": 0,
+                "output_tokens": 0,
+                "total_tokens": 0,
+                "estimated_cost_usd": 0.0,
+            },
         }
 
     try:
@@ -727,7 +713,7 @@ def summarize_payload_tool(summary_prompt: str, payload: Any) -> dict[str, Any]:
         cache_key,
         {
             "data": cleaned,
-            "citations": list(result.get("citations") or []),
+            "citations": [{"source_type": "model", "source_name": CONFIG["SUMMARY_MODEL"], "source_url": ""}],
         },
     )
     return result
