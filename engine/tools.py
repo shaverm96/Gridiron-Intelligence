@@ -5,7 +5,7 @@ import json
 import logging
 import re
 import time
-from datetime import date
+from datetime import date, datetime
 from typing import Any
 
 import numpy as np
@@ -23,7 +23,7 @@ from .cfbd_service import (
     fetch_team_roster,
     search_player_candidates,
 )
-from .state import DelegatorPlan
+from .state import DelegatorPlan, TransferDelegatorPlan
 from .supabase_client import (
     fetch_player_bundle,
     fetch_player_bundle_by_identity,
@@ -86,6 +86,116 @@ def _normalize_model_name(model_name: str) -> str:
 
 class DelegatorOutputValidationError(Exception):
     """Raised when LLM delegator output fails strict schema validation."""
+
+
+def _normalize_target_search_sites(target_search_sites: list[str] | None = None) -> list[str]:
+    sites = target_search_sites if target_search_sites is not None else list(CONFIG.get("TARGET_SEARCH_SITES") or [])
+    cleaned: list[str] = []
+    for site in sites:
+        text = str(site or "").strip().lower()
+        if text and text not in cleaned:
+            cleaned.append(text)
+    return cleaned
+
+
+def _site_query_clause(target_search_sites: list[str] | None = None) -> str:
+    sites = _normalize_target_search_sites(target_search_sites)
+    if not sites:
+        return ""
+    return "(" + " OR ".join(f"site:{site}" for site in sites) + ")"
+
+
+def _extract_result_date(result: dict[str, Any]) -> date | None:
+    raw_candidates = [
+        result.get("date"),
+        result.get("published"),
+        result.get("publishedDate"),
+        result.get("pubDate"),
+        result.get("timestamp"),
+        result.get("time"),
+    ]
+    for candidate in raw_candidates:
+        if candidate in (None, ""):
+            continue
+        if isinstance(candidate, date):
+            return candidate
+        if isinstance(candidate, (int, float)):
+            try:
+                return date.fromtimestamp(float(candidate))
+            except Exception:
+                pass
+        text = str(candidate).strip()
+        if not text:
+            continue
+        for pattern in (
+            "%Y-%m-%d",
+            "%Y/%m/%d",
+            "%m/%d/%Y",
+            "%Y-%m-%dT%H:%M:%S%z",
+            "%Y-%m-%dT%H:%M:%S",
+        ):
+            try:
+                return datetime.strptime(text, pattern).date()
+            except Exception:
+                continue
+        match = re.search(r"\b(20\d{2})[-/](\d{1,2})[-/](\d{1,2})\b", text)
+        if match:
+            try:
+                return date(int(match.group(1)), int(match.group(2)), int(match.group(3)))
+            except Exception:
+                continue
+
+    title_text = str(result.get("title") or "")
+    snippet_text = str(result.get("body") or result.get("snippet") or "")
+    for text_block in (title_text, snippet_text, f"{title_text} {snippet_text}"):
+        match = re.search(r"\b(20\d{2})[-/](\d{1,2})[-/](\d{1,2})\b", text_block)
+        if match:
+            try:
+                return date(int(match.group(1)), int(match.group(2)), int(match.group(3)))
+            except Exception:
+                continue
+    return None
+
+
+def _is_result_recent(result: dict[str, Any], max_age_days: int) -> bool:
+    if max_age_days <= 0:
+        return True
+    published_date = _extract_result_date(result)
+    return published_date is not None and (date.today() - published_date).days <= max_age_days
+
+
+def _summary_context_prefix(
+    role: str | None = None,
+    entity_kind: str | None = None,
+    team_name: str | None = None,
+    target_name: str | None = None,
+) -> str:
+    role_text = str(role or "general").strip().lower()
+    entity_text = str(entity_kind or "").strip().lower()
+    team_text = str(team_name or "").strip()
+    target_text = str(target_name or "").strip()
+
+    lines = [
+        "Summary Role Context:",
+        f"- Role: {role_text}",
+    ]
+    if entity_text:
+        lines.append(f"- Entity kind: {entity_text}")
+    if target_text:
+        lines.append(f"- Target player: {target_text}")
+    if team_text:
+        lines.append(f"- Target team: {team_text}")
+
+    if role_text in {"recruiting_player", "transfer_player", "player"}:
+        lines.append("- Focus on player-specific recruiting, transfer, or performance context.")
+    elif role_text in {"recruiting_team", "transfer_team", "team"}:
+        lines.append("- Focus on team, roster, depth-chart, or program-level context.")
+    else:
+        lines.append("- Adapt the response to the supplied scouting or transfer context.")
+
+    return "\n".join(lines) + "\n\n"
+
+
 POS_MAP = {
     "CB": "DB",
     "S": "DB",
@@ -476,52 +586,13 @@ def delegator_plan_tool(user_query: str, target_team: str = "", target_player_na
         team_context_query=f"{target_team} depth chart roster".strip(),
         user_intent=(user_query or "Generate a scouting report.")[:220],
     ).model_dump()
-
-
-def search_web_tool(
-    player_name: str,
-    position: str,
-    high_school: str,
-    year: int,
-    max_results: int = 12,
+def search_web_query_tool(
+    query: str,
+    max_results: int | None = None,
+    timelimit: str | None = None,
+    target_search_sites: list[str] | None = None,
+    max_age_days: int | None = None,
 ) -> dict[str, Any]:
-    if DDGS is None:
-        return {"status": "skipped", "reason": "DDGS not installed", "data": [], "citations": []}
-
-    query = (
-        f"{player_name} {position} {high_school} {year} football recruiting "
-        f"(site:maxpreps.com OR site:247sports.com OR site:rivals.com OR site:espn.com OR site:on3.com)"
-    )
-
-    rows: list[dict[str, str]] = []
-    citations: list[dict[str, str]] = []
-
-    try:
-        results = _ddgs_text_search(query, max_results=max_results)
-        for result in results:
-            url = result.get("href", "") or ""
-            if not any(site in url for site in CONFIG["TARGET_SEARCH_SITES"]):
-                continue
-            row = {
-                "title": result.get("title", ""),
-                "url": url,
-                "snippet": result.get("body", ""),
-            }
-            rows.append(row)
-            citations.append(
-                {
-                    "source_type": "web",
-                    "source_name": row["title"] or "DDGS result",
-                    "source_url": row["url"],
-                }
-            )
-    except Exception as exc:
-        return {"status": "skipped", "reason": f"DDGS search failed: {exc}", "data": [], "citations": []}
-
-    return {"status": "ok", "reason": "search complete", "data": rows, "citations": citations}
-
-
-def search_web_query_tool(query: str, max_results: int | None = None, timelimit: str | None = None) -> dict[str, Any]:
     if DDGS is None:
         return {"status": "skipped", "reason": "DDGS not installed", "data": [], "citations": []}
 
@@ -530,19 +601,35 @@ def search_web_query_tool(query: str, max_results: int | None = None, timelimit:
     if effective_timelimit not in {None, "d", "w", "m", "y"}:
         effective_timelimit = None
 
+    target_sites = _normalize_target_search_sites(target_search_sites)
+    site_clause = _site_query_clause(target_sites)
+    search_query = str(query or "").strip()
+    if site_clause and "site:" not in search_query.lower():
+        search_query = f"{search_query} {site_clause}"
+
     rows: list[dict[str, str]] = []
     citations: list[dict[str, str]] = []
+    max_age = int(CONFIG.get("WEB_ARTICLE_MAX_AGE_DAYS", 365) if max_age_days is None else max_age_days)
     try:
         results = _ddgs_text_search(
-            str(query or ""),
+            search_query,
             max_results=effective_max_results,
             timelimit=effective_timelimit,
         )
         for result in results:
+            url = str(result.get("href") or "")
+            if not url:
+                continue
+            if target_sites and not any(site in url.lower() for site in target_sites):
+                continue
+            if not _is_result_recent(result, max_age):
+                continue
+            published_date = _extract_result_date(result)
             row = {
                 "title": str(result.get("title") or ""),
-                "url": str(result.get("href") or ""),
+                "url": url,
                 "snippet": str(result.get("body") or ""),
+                "published_date": published_date.isoformat() if published_date else "",
             }
             rows.append(row)
             citations.append(
@@ -557,101 +644,14 @@ def search_web_query_tool(query: str, max_results: int | None = None, timelimit:
         return {"status": "skipped", "reason": f"DDGS search failed: {exc}", "data": [], "citations": []}
 
 
-def summarize_web_tool(player_name: str, position: str, search_rows: list[dict[str, str]]) -> dict[str, Any]:
-    if not search_rows:
-        return {
-            "status": "ok",
-            "reason": "no rows",
-            "data": "No relevant web articles were found from target recruiting sites.",
-            "citations": [],
-        }
-
-    llm = _get_llm(CONFIG["SUMMARY_MODEL"], temperature=0.0, max_output_tokens=1200)
-    if llm is None:
-        return {
-            "status": "skipped",
-            "reason": "Gemini summary model unavailable",
-            "data": "Gemini summary skipped: API key/model client not configured.",
-            "citations": [],
-        }
-
-    max_sources = max(1, min(int(CONFIG.get("WEB_QUERY_MAX_RESULTS", 6)), 10))
-    context_chunks = []
-    for idx, row in enumerate(search_rows[:max_sources], start=1):
-        context_chunks.append(
-            f"[{idx}] Title: {row.get('title', '')}\nURL: {row.get('url', '')}\nSnippet: {row.get('snippet', '')}"
-        )
-    sources_block = _truncate_text(
-        "\n".join(context_chunks),
-        max_chars=int(CONFIG.get("PROMPT_PAYLOAD_MAX_CHARS", 12000)),
-    )
-
-    prompt = (
-        f"You are a recruiting research assistant. Summarize recent web intelligence for {player_name} ({position}).\n"
-        "Only use provided sources. Do not invent facts.\n\n"
-        "Output:\n"
-        "1) Key facts\n2) Recruiting updates\n3) Source list\n\n"
-        f"Sources:\n{sources_block}"
-    )
-
-    prompt_with_date = _with_current_date_context(prompt)
-    _log_prompt_size("summarize_web_tool", prompt_with_date)
-    start_time = time.perf_counter()
-
-    cache_key = _summary_cache_key("summarize_web_tool", CONFIG["SUMMARY_MODEL"], prompt_with_date)
-    cached = _summary_cache_get(cache_key)
-    if isinstance(cached, dict):
-        return {
-            "status": "ok",
-            "reason": "summary complete (cache hit)",
-            "data": str(cached.get("data") or ""),
-            "citations": list(cached.get("citations") or []),
-            "telemetry": {
-                "tool": "summarize_web_tool",
-                "model": CONFIG["SUMMARY_MODEL"],
-                "status": "ok",
-                "reason": "cache hit",
-                "cache_hit": True,
-                "latency_ms": int((time.perf_counter() - start_time) * 1000),
-                "prompt_chars": len(str(prompt_with_date or "")),
-                "input_tokens": 0,
-                "output_tokens": 0,
-                "total_tokens": 0,
-                "estimated_cost_usd": 0.0,
-            },
-        }
-
-    response = llm.invoke(prompt_with_date)
-    telemetry = _build_model_telemetry(
-        tool_name="summarize_web_tool",
-        model_name=CONFIG["SUMMARY_MODEL"],
-        prompt_text=prompt_with_date,
-        start_time=start_time,
-        response=response,
-        status="ok",
-        reason="summary complete",
-    )
-    cleaned = sanitize_model_summary_text(_llm_response_to_text(response))
-    result = {
-        "status": "ok",
-        "reason": "summary complete",
-        "data": cleaned,
-        "citations": [
-            {"source_type": "model", "source_name": CONFIG["SUMMARY_MODEL"], "source_url": ""}
-        ],
-        "telemetry": telemetry,
-    }
-    _summary_cache_set(
-        cache_key,
-        {
-            "data": cleaned,
-            "citations": [{"source_type": "model", "source_name": CONFIG["SUMMARY_MODEL"], "source_url": ""}],
-        },
-    )
-    return result
-
-
-def summarize_payload_tool(summary_prompt: str, payload: Any) -> dict[str, Any]:
+def summarize_payload_tool(
+    summary_prompt: str,
+    payload: Any,
+    role: str | None = None,
+    entity_kind: str | None = None,
+    target_name: str | None = None,
+    target_team: str | None = None,
+) -> dict[str, Any]:
     llm = _get_llm(CONFIG["SUMMARY_MODEL"], temperature=0.0, max_output_tokens=1200)
     if llm is None:
         return {
@@ -662,7 +662,10 @@ def summarize_payload_tool(summary_prompt: str, payload: Any) -> dict[str, Any]:
         }
 
     payload_text = _payload_to_text(payload)
-    full_prompt = f"{summary_prompt}\n\nPayload:\n{payload_text}"
+    full_prompt = (
+        f"{_summary_context_prefix(role=role, entity_kind=entity_kind, team_name=target_team, target_name=target_name)}"
+        f"{summary_prompt}\n\nPayload:\n{payload_text}"
+    )
     prompt_with_date = _with_current_date_context(full_prompt)
     _log_prompt_size("summarize_payload_tool", prompt_with_date)
     start_time = time.perf_counter()
@@ -1142,3 +1145,78 @@ def final_synthesis_tool(prompt: str) -> dict[str, Any]:
         "citations": [{"source_type": "model", "source_name": CONFIG["FINAL_MODEL"], "source_url": ""}],
         "telemetry": telemetry,
     }
+
+class TransferDelegatorOutputValidationError(Exception):
+    """Raised when LLM transfer delegator output fails strict schema validation."""
+
+
+def transfer_delegator_plan_tool(
+    user_query: str,
+    target_team: str = "",
+    target_player_name: str = ""
+) -> dict[str, Any]:
+    llm = _get_llm(CONFIG["SUMMARY_MODEL"], temperature=0.0, max_output_tokens=500)
+    if llm is None:
+        fallback_player = target_player_name or ""
+        fallback_team = target_team or ""
+        return TransferDelegatorPlan(
+            player_news_query=f"{fallback_player} transfer portal news".strip(),
+            team_news_query=f"{fallback_team} transfer portal roster".strip(),
+            user_intent=(user_query or "Analyze transfer portal opportunity.")[:220],
+            should_refresh_web=True,
+        ).model_dump()
+
+    try:
+        structured = llm.with_structured_output(TransferDelegatorPlan)
+    except Exception as exc:
+        raise TransferDelegatorOutputValidationError(f"Transfer delegator structured output setup failed: {exc}") from exc
+
+    prompt = (
+        "Create a delegator plan for a transfer portal chat workflow.\n"
+        "Analyze the user's question to infer if they are asking about recent news, stats, or team fit.\n"
+        "If they ask for stats or usage, set should_refresh_web to False. "
+        "If they explicitly request the latest news, rumors, or updates, set should_refresh_web to True and provide queries to search.\n"
+        "Bias team context toward stable references such as Wikipedia when it helps ground roster or program-level context.\n\n"
+        f"User query: {user_query}\n"
+        f"Target team: {target_team}\n"
+        f"Target player: {target_player_name}\n"
+    )
+    prompt_with_date = _with_current_date_context(prompt)
+    start_time = time.perf_counter()
+    try:
+        plan = structured.invoke(prompt_with_date)
+        telemetry = _build_model_telemetry(
+            tool_name="transfer_delegator_plan_tool",
+            model_name=CONFIG["SUMMARY_MODEL"],
+            prompt_text=prompt_with_date,
+            start_time=start_time,
+            response=plan,
+            status="ok",
+            reason="transfer delegator plan complete",
+        )
+        if isinstance(plan, TransferDelegatorPlan):
+            out = plan.model_dump()
+            out["_telemetry"] = telemetry
+            return out
+        if hasattr(plan, "model_dump"):
+            out = plan.model_dump()
+            out["_telemetry"] = telemetry
+            return out
+        if isinstance(plan, dict):
+            out = TransferDelegatorPlan(**plan).model_dump()
+            out["_telemetry"] = telemetry
+            return out
+        raise TransferDelegatorOutputValidationError("Delegator returned an unexpected output type.")
+    except ValidationError as exc:
+        raise TransferDelegatorOutputValidationError(f"Delegator validation failed: {exc}") from exc
+    except TransferDelegatorOutputValidationError:
+        raise
+    except Exception as exc:
+        raise TransferDelegatorOutputValidationError(f"Delegator invoke failed: {exc}") from exc
+
+    return TransferDelegatorPlan(
+        player_news_query=f"{target_player_name} transfer portal news".strip(),
+        team_news_query=f"{target_team} wikipedia transfer portal roster".strip(),
+        user_intent=(user_query or "Analyze transfer portal opportunity.")[:220],
+        should_refresh_web=True,
+    ).model_dump()

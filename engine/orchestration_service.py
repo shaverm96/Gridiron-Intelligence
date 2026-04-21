@@ -9,8 +9,8 @@ from pathlib import Path
 from typing import Any, Callable
 
 from .config import CONFIG
-from .graph import get_scout_graph, get_structured_web_graph
-from .state import ScoutState, initial_chat_state, initial_structured_state, initial_structured_web_state
+from .graph import get_scout_graph, get_structured_web_graph, get_transfer_chat_graph
+from .state import ScoutState, initial_chat_state, initial_structured_state, initial_structured_web_state, compact_transfer_chat_state
 from .supabase_client import fetch_college_player_bundle
 from .tools import final_synthesis_tool, search_web_query_tool, summarize_payload_tool
 from .cfbd_service import fetch_player_season_stats, fetch_player_usage
@@ -1434,15 +1434,13 @@ def orchestrate_transfer_report(
 
     def _player_web_task() -> dict[str, Any]:
         query = (
-            f"{player_name} transfer portal college football recent {year} "
-            "(site:on3.com OR site:247sports.com OR site:rivals.com OR site:espn.com OR site:cbssports.com)"
+            f"{player_name} transfer portal college football recent {year}"
         )
         return search_web_query_tool(query=query, max_results=8, timelimit="y")
 
     def _team_web_task() -> dict[str, Any]:
         query = (
-            f"{team_text} transfer portal roster needs college football recent {year} "
-            "(site:on3.com OR site:247sports.com OR site:rivals.com OR site:espn.com OR site:cbssports.com)"
+            f"{team_text} transfer portal roster needs college football recent {year} and team context"
         )
         return search_web_query_tool(query=query, max_results=8, timelimit="y")
 
@@ -1578,6 +1576,10 @@ def orchestrate_transfer_report(
                 "Focus on transfer intent, eligibility, role expectations, and recency."
             ),
             payload=player_web.get("data") or [],
+            role="transfer_player",
+            entity_kind="player",
+            target_name=player_name,
+            target_team=team_text,
         )
         LOGGER.info("transfer_report_stage=team_news_summary submit")
         team_summary_future = summary_executor.submit(
@@ -1587,6 +1589,10 @@ def orchestrate_transfer_report(
                 "Focus on roster needs, depth chart competition, and recent portal trends."
             ),
             payload=team_web.get("data") or [],
+            role="transfer_team",
+            entity_kind="team",
+            target_name=player_name,
+            target_team=team_text,
         )
         LOGGER.info("transfer_report_stage=player_news_summary waiting timeout_seconds=%s", summary_timeout_seconds)
         player_news_summary_result = _summary_result_or_timeout(player_summary_future, "player_news_summary")
@@ -1765,8 +1771,11 @@ def orchestrate_transfer_chat_turn(
     user_prompt: str,
     current_state: dict[str, Any] | None,
     allow_web_refresh: bool = True,
+    graph: Any | None = None,
+    progress_callback: ProgressCallback | None = None,
 ) -> dict[str, Any]:
     started = time.perf_counter()
+    graph_runner = graph or get_transfer_chat_graph()
     state = dict(current_state or {})
     context = dict(state.get("transfer_report_context") or {})
     if not context:
@@ -1780,94 +1789,49 @@ def orchestrate_transfer_chat_turn(
             "transfer_report_context": {},
         }
 
-    prompt_text = str(user_prompt or "").strip()
-    query_lower = prompt_text.lower()
-    wants_recency = any(token in query_lower for token in ["recent", "latest", "update", "news", "portal"])
-    refresh_summary = ""
-    trace_log = list(state.get("trace_log") or [])
-    model_telemetry_rows: list[dict[str, Any]] = []
-    branch_latency_ms: dict[str, int] = {}
+    chat_state = compact_transfer_chat_state(state)
+    chat_state["mode"] = "chat"
+    chat_state["user_query"] = str(user_prompt or "").strip()
+    chat_state["transfer_report_context"] = context
+    chat_state["allow_web_refresh"] = bool(allow_web_refresh)
 
-    if allow_web_refresh and wants_recency:
-        refresh_started = time.perf_counter()
-        player_name = str(context.get("player_name") or "").strip()
-        target_team = str(context.get("target_team") or "").strip()
-        year = int(context.get("year") or 2025)
-        refresh_query = (
-            f"{player_name} transfer portal {target_team} college football recent {year} "
-            "(site:on3.com OR site:247sports.com OR site:rivals.com OR site:espn.com OR site:cbssports.com)"
-        )
-        refresh_rows = search_web_query_tool(query=refresh_query, max_results=6, timelimit="m")
-        refresh_summary_result = summarize_payload_tool(
-            summary_prompt=(
-                "Summarize only the most relevant recency updates for transfer-fit follow-up discussion "
-                "using concise markdown bullets."
-            ),
-            payload=refresh_rows.get("data") or [],
-        )
-        model_telemetry_rows.append(_extract_tool_telemetry(refresh_summary_result))
-        refresh_summary = str(refresh_summary_result.get("data") or "").strip()
-        branch_latency_ms["refresh_summary"] = int((time.perf_counter() - refresh_started) * 1000)
-        trace_log.append({"node": "transfer_chat", "status": "ddg_refresh_used"})
-    else:
-        trace_log.append({"node": "transfer_chat", "status": "context_only"})
-
-    prompt = _build_transfer_synthesis_prompt(
-        player_name=str(context.get("player_name") or "Unknown Player"),
-        target_team=str(context.get("target_team") or ""),
-        player_row=dict(context.get("college_player") or {}),
-        cfbd_usage_2025=dict(context.get("cfbd_usage_2025") or {}),
-        cfbd_stats_2025=dict(context.get("cfbd_stats_2025") or {}),
-        cfbd_usage_career=list(context.get("cfbd_usage_career") or []),
-        cfbd_stats_career=list(context.get("cfbd_stats_career") or []),
-        usage_table_compact=list(context.get("usage_table_compact") or []),
-        usage_yoy_compact=list(context.get("usage_yoy_compact") or []),
-        season_stats_table_compact=list(context.get("season_stats_table_compact") or []),
-        career_context=dict(context.get("career_context") or {}),
-        player_news_summary=_merge_text_blocks(
-            str(context.get("player_news_summary") or ""),
-            refresh_summary,
-        ),
-        team_news_summary=str(context.get("team_news_summary") or ""),
-        exclude_garbage_time=bool(context.get("exclude_garbage_time", True)),
-        branch_status=dict(context.get("branch_status") or {}),
-        follow_up_question=prompt_text,
-    )
-    synthesis_started = time.perf_counter()
-    result = final_synthesis_tool(prompt)
-    branch_latency_ms["final_synthesis"] = int((time.perf_counter() - synthesis_started) * 1000)
-    model_telemetry_rows.append(_extract_tool_telemetry(result))
-    answer_text = str(result.get("data") or "").strip() or "No response generated."
-
-    telemetry_rollup = _rollup_telemetry_rows(model_telemetry_rows)
-    telemetry = {
-        "pipeline_latency_ms": int((time.perf_counter() - started) * 1000),
-        "branch_latency_ms": branch_latency_ms,
-        "model_telemetry": [row for row in model_telemetry_rows if row],
-        "model_rollup": telemetry_rollup,
-    }
-
-    history = list(state.get("conversation_history") or [])
-    history.append({"role": "user", "content": prompt_text})
-    history.append({"role": "assistant", "content": answer_text})
-    trace_log.append(
-        {
-            "node": "telemetry",
+    result_state = _invoke_graph(graph_runner, chat_state, progress_callback=progress_callback)
+    
+    if isinstance(result_state, dict):
+        trace = list(result_state.get("trace_log") or [])
+        trace.append({
+            "node": "transfer_orchestration",
             "status": "completed",
-            "pipeline_latency_ms": telemetry.get("pipeline_latency_ms"),
-            "estimated_cost_usd": telemetry_rollup.get("estimated_cost_usd"),
+            "mode": "chat",
+            "latency_ms": int((time.perf_counter() - started) * 1000)
+        })
+        result_state["trace_log"] = trace[-CHAT_STATE_MAX_TRACE:]
+        
+        model_telemetry_rows = []
+        if isinstance(result_state.get("telemetry"), dict):
+            model_telemetry_rows = result_state["telemetry"].get("model_telemetry", [])
+            
+        telemetry_rollup = _rollup_telemetry_rows(model_telemetry_rows)
+        telemetry = {
+            "pipeline_latency_ms": int((time.perf_counter() - started) * 1000),
+            "model_telemetry": [row for row in model_telemetry_rows if row],
+            "model_rollup": telemetry_rollup,
         }
-    )
-
-    return {
-        "status": "ok",
-        "final_report": answer_text,
-        "conversation_history": history[-(CHAT_STATE_MAX_TURNS * 2):],
-        "trace_log": trace_log[-CHAT_STATE_MAX_TRACE:],
-        "telemetry": telemetry,
-        "transfer_report_context": context,
-    }
-
+        
+        history = list(result_state.get("conversation_history") or [])
+        history.append({"role": "user", "content": chat_state["user_query"]})
+        answer_text = str(result_state.get("final_report") or "").strip()
+        history.append({"role": "assistant", "content": answer_text})
+        
+        return {
+            "status": "ok",
+            "final_report": answer_text,
+            "conversation_history": history[-(CHAT_STATE_MAX_TURNS * 2):],
+            "trace_log": result_state["trace_log"],
+            "telemetry": telemetry,
+            "transfer_report_context": context,
+        }
+    return {"status": "error"}
 
 def _merge_text_blocks(base_text: str, extra_text: str) -> str:
     base = str(base_text or "").strip()

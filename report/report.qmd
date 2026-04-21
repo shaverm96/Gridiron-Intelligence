@@ -124,3 +124,38 @@ The system maintains session stability through a dedicated state model. To avoid
 * **Bulky context removal:** Large intermediate data is cleared after it is no longer needed for the current turn.
 
 * **Session scope:** Open chat is seeded from the current report context when available, but it does not carry memory across separate sessions.
+
+## 3. Data Strategy & Management
+
+The effectiveness of scouting evaluations depends on the precision of player identification and the ability to merge static historical records with live performance metrics. Our data strategy prioritizes a "SQL-first" approach to ensure reliability and traceability.
+
+### 3.1 Multi-Source Data Integration
+The system aggregates data from four distinct channels:
+* **Supabase (Primary Data Lake):** Stores canonical player bundles, historical physical data, and model prediction thresholds.
+* **College Football Data (CFBD) API:** Provides real-time college-level statistics, including seasonal totals and per-game usage metrics.
+* **DuckDuckGo Web Search:** Supplies unstructured, real-time context such as injury updates, transfer rumors, and team depth chart news.
+* **Vector Datastore:** Contains embedded qualitative "factoids" retrieved via similarity search to enrich prospect profiles.
+
+### 3.2 Split-Identity Data Model
+A core technical contribution of this project is the refactoring of the database from a single player table to a **split-identity model**. This architecture explicitly separates a player’s high school recruiting phase from their college career to handle the complexities of the transfer portal.
+
+* **`gi_recruit_master`**: The source of truth for high school profiles, star ratings, and commitment history.
+* **`gi_college_master`**: The source of truth for college-level identity, mapped to CFBD athlete IDs.
+* **`gi_player_link_bridge`**: A crosswalk table that links recruit identities to college records, enabling the system to trace a prospect's development from high school into the transfer portal.
+
+### 3.3 Identity Resolution Policy
+To avoid the "Player Identity Crisis"—where an LLM might confuse two players with the same name—Gridiron Intelligence implements a strict **SQL-first fuzzy matching** policy. 
+
+Rather than relying on probabilistic vector embeddings for identity lookups, the system uses the PostgreSQL `pg_trgm` (trigram) extension. This allows for high-precision text matching across name, position, and team fields. If the system identifies multiple potential matches (e.g., two players named "Josh Williams"), it is programmed to pause and trigger a clarification flow for the user rather than proceeding with potentially incorrect data.
+
+### 3.4 Data Characteristics and Quality
+The system is built upon a master dataset covering prospects from 2015 to 2028. For performance and relevance, the application defaults to a "Top 100" window by rating for current recruiting classes.
+
+| Dataset/Table | Scope | Primary Use |
+| :--- | :--- | :--- |
+| **Master Recruits** | ~2015–2028 | Historical comparables and prospect lookups. |
+| **CFBD Athletes** | Live API | Real-time usage and performance bars. |
+| **Model Scores** | Projected | Probability-based success forecasting. |
+| **Factoid Vectors** | Qualitative | Semantic enrichment of scouting reports. |
+
+To ensure production stability, the data access layer implements **null-safe sorting** (prioritizing rating desc) and **diagnostics blocks** that check for missing critical fields (like position or team) before a report is generated.

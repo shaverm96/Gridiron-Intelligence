@@ -8,7 +8,7 @@ from typing import Any
 
 from .config import CONFIG
 from .prompt_architecture import build_master_prompt
-from .state import DelegatorPlan, ScoutState
+from .state import DelegatorPlan, ScoutState, TransferDelegatorPlan
 from .tools import (
     DelegatorOutputValidationError,
     cfbd_fetch_tool,
@@ -513,6 +513,10 @@ def cfbd_analyst_node(state: ScoutState) -> ScoutState:
             "Include grounded facts and explicitly note sparse/missing data."
         ),
         payload=summary_payload,
+        role="player",
+        entity_kind="player",
+        target_name=str(state.get("target_player_name") or state.get("player_name") or ""),
+        target_team=str(state.get("target_team") or ""),
     )
 
     updates["cfbd_data_summary"] = str(summary_result.get("data", "")).strip()
@@ -558,6 +562,10 @@ def recruiting_scout_node(state: ScoutState) -> ScoutState:
             "Use only supplied snippets and include caveats when uncertain."
         ),
         payload=search_result.get("data", []),
+        role="recruiting_player",
+        entity_kind="player",
+        target_name=str(state.get("target_player_name") or state.get("player_name") or ""),
+        target_team=str(state.get("target_team") or ""),
     )
 
     return {
@@ -597,6 +605,10 @@ def team_scout_node(state: ScoutState) -> ScoutState:
             "Use only supplied snippets and avoid unsupported claims."
         ),
         payload=search_result.get("data", []),
+        role="recruiting_team",
+        entity_kind="team",
+        target_name=str(state.get("target_player_name") or state.get("player_name") or ""),
+        target_team=str(state.get("target_team") or ""),
     )
 
     return {
@@ -853,3 +865,196 @@ def synthesizer_node(state: ScoutState) -> ScoutState:
 
 def chat_followup_node(state: ScoutState) -> ScoutState:
     return lead_synthesizer_node(state)
+
+def transfer_delegator_node(state: ScoutState) -> ScoutState:
+    from .tools import transfer_delegator_plan_tool, TransferDelegatorOutputValidationError
+    try:
+        plan_dict = transfer_delegator_plan_tool(
+            user_query=str(state.get("user_query", "") or "Analyze transfer portal opportunity."),
+            target_team=str(state.get("target_team", "")),
+            target_player_name=str(state.get("target_player_name") or state.get("player_name") or ""),
+        )
+    except TransferDelegatorOutputValidationError:
+        state["security_halt"] = True
+        state["security_message"] = "Unable to safely parse your request. Please rephrase with concise football-only instructions."
+        state["errors"] = list(state.get("errors", [])) + [
+            "Transfer Delegator validation failed; execution halted for safety."
+        ]
+        state["trace_log"] = list(state.get("trace_log", [])) + [
+            _trace_entry(state, "transfer_delegator", "security_halt_delegator_validation_failed")
+        ]
+        state["next_step"] = "security_halt"
+        return state
+
+    try:
+        state["transfer_delegator_plan"] = TransferDelegatorPlan(**plan_dict).model_dump()
+    except Exception:
+        state["transfer_delegator_plan"] = TransferDelegatorPlan().model_dump()
+        state["errors"] = list(state.get("errors", [])) + ["Transfer Delegator plan parse failed; using defaults."]
+
+    if not bool(state.get("allow_web_refresh", True)):
+        state["transfer_delegator_plan"]["should_refresh_web"] = False
+        state["transfer_delegator_plan"]["player_news_query"] = ""
+        state["transfer_delegator_plan"]["team_news_query"] = ""
+
+    state["trace_log"] = list(state.get("trace_log", [])) + [
+        _trace_entry(state, "transfer_delegator", "transfer_delegator_plan_ready")
+    ]
+    
+    plan = state.get("transfer_delegator_plan") or {}
+    if plan.get("should_refresh_web"):
+        state["next_step"] = "transfer_web_scout"
+    else:
+        state["next_step"] = "transfer_synthesizer"
+    return state
+
+
+def transfer_web_scout_node(state: ScoutState) -> ScoutState:
+    if bool(state.get("security_halt")):
+        return {"trace_log": [_trace_entry(state, "transfer_web_scout", "skipped")]}
+
+    plan = state.get("transfer_delegator_plan") or {}
+    if not bool(state.get("allow_web_refresh", True)) or not plan.get("should_refresh_web"):
+        plan["player_news_query"] = ""
+        plan["team_news_query"] = ""
+    player_query = str(plan.get("player_news_query") or "").strip()
+    team_query = str(plan.get("team_news_query") or "").strip()
+    
+    updates: dict[str, Any] = {}
+    traces = []
+    
+    if not player_query and not team_query:
+        traces.append(_trace_entry(state, "transfer_web_scout", "skipped_no_queries"))
+        updates["transfer_web_player_summary"] = ""
+        updates["transfer_web_team_summary"] = ""
+        updates["trace_log"] = traces
+        updates["next_step"] = "transfer_synthesizer"
+        return updates
+
+    def process_query(q: str, prompt_hint: str) -> dict[str, Any]:
+        if not q:
+            return {"summary": "", "payload": []}
+        rows = search_web_query_tool(query=q, max_results=6, timelimit="m")
+        summary_result = summarize_payload_tool(
+            summary_prompt=prompt_hint,
+            payload=rows.get("data") or [],
+            role="transfer_player" if "player" in prompt_hint.lower() else "transfer_team",
+            entity_kind="player" if "player" in prompt_hint.lower() else "team",
+            target_name=str(state.get("target_player_name") or ""),
+            target_team=str(state.get("target_team") or ""),
+        )
+        return {
+            "summary": str(summary_result.get("data") or "").strip(),
+            "payload": summary_result
+        }
+
+    parallel_started = time.perf_counter()
+    with ThreadPoolExecutor(max_workers=2) as executor:
+        f_player = executor.submit(
+            process_query, 
+            player_query, 
+            "Summarize the most relevant transfer-portal player recency updates."
+        )
+        f_team = executor.submit(
+            process_query, 
+            team_query, 
+            "Summarize the most relevant team depth-chart or transfer context. Use Wikipedia as a grounding source when it appears in the search results, but do not overstate speculative details."
+        )
+        
+        try:
+            player_res = f_player.result(timeout=25)
+        except Exception as e:
+            player_res = {"summary": f"Player web search failed: {e}", "payload": {}}
+            
+        try:
+            team_res = f_team.result(timeout=25)
+        except Exception as e:
+            team_res = {"summary": f"Team web search failed: {e}", "payload": {}}
+
+    parallel_latency_ms = int((time.perf_counter() - parallel_started) * 1000)
+
+    updates["transfer_web_player_summary"] = player_res["summary"]
+    updates["transfer_web_team_summary"] = team_res["summary"]
+
+    # Gather telemetry from summarizations if any
+    summaries_tel = []
+    from .orchestration_service import _extract_tool_telemetry
+    for r in [player_res, team_res]:
+        tel = _extract_tool_telemetry(r["payload"])
+        if tel: summaries_tel.append(tel)
+        
+    if summaries_tel:
+        current_telemetry = state.get("telemetry") or {}
+        existing_models = current_telemetry.get("model_telemetry") or []
+        updates["telemetry"] = {"model_telemetry": list(existing_models) + summaries_tel}
+
+    traces.append({
+        "node": "transfer_web_scout",
+        "status": "parallel_fetch_complete",
+        "latency_ms": parallel_latency_ms
+    })
+    updates["trace_log"] = traces
+    updates["next_step"] = "transfer_synthesizer"
+    return updates
+
+
+def transfer_synthesizer_node(state: ScoutState) -> ScoutState:
+    if bool(state.get("security_halt")):
+        return {
+            "trace_log": [_trace_entry(state, "transfer_synthesizer", "skipped")],
+            "final_report": state.get("security_message", "Halted."),
+        }
+
+    from .orchestration_service import _build_transfer_synthesis_prompt, _merge_text_blocks, _extract_tool_telemetry
+    
+    context = dict(state.get("transfer_report_context") or {})
+    player_name = str(context.get("player_name") or state.get("player_name") or "Unknown")
+    target_team = str(context.get("target_team") or state.get("target_team") or "")
+    user_query = str(state.get("user_query") or "").strip()
+
+    web_player = str(state.get("transfer_web_player_summary") or "")
+    web_team = str(state.get("transfer_web_team_summary") or "")
+    merged_web = _merge_text_blocks(web_player, web_team)
+    
+    player_news = _merge_text_blocks(str(context.get("player_news_summary") or ""), merged_web)
+
+    prompt = _build_transfer_synthesis_prompt(
+        player_name=player_name,
+        target_team=target_team,
+        player_row=dict(context.get("college_player") or {}),
+        cfbd_usage_2025=dict(context.get("cfbd_usage_2025") or {}),
+        cfbd_stats_2025=dict(context.get("cfbd_stats_2025") or {}),
+        cfbd_usage_career=list(context.get("cfbd_usage_career") or []),
+        cfbd_stats_career=list(context.get("cfbd_stats_career") or []),
+        usage_table_compact=list(context.get("usage_table_compact") or []),
+        usage_yoy_compact=list(context.get("usage_yoy_compact") or []),
+        season_stats_table_compact=list(context.get("season_stats_table_compact") or []),
+        career_context=dict(context.get("career_context") or {}),
+        player_news_summary=player_news,
+        team_news_summary=str(context.get("team_news_summary") or ""),
+        exclude_garbage_time=bool(context.get("exclude_garbage_time", True)),
+        branch_status=dict(context.get("branch_status") or {}),
+        follow_up_question=user_query,
+    )
+    
+    synthesis_started = time.perf_counter()
+    result = final_synthesis_tool(prompt)
+    latency = int((time.perf_counter() - synthesis_started) * 1000)
+    
+    model_telemetry = _extract_tool_telemetry(result)
+    
+    answer_text = str(result.get("data") or "").strip() or "No response generated."
+
+    updates: dict[str, Any] = {
+        "final_report": answer_text,
+        "next_step": "end",
+    }
+    
+    if model_telemetry:
+        current_telemetry = state.get("telemetry") or {}
+        existing_models = current_telemetry.get("model_telemetry") or []
+        updates["telemetry"] = {"model_telemetry": list(existing_models) + [model_telemetry]}
+
+    updates["trace_log"] = [_trace_entry(state, "transfer_synthesizer", f"success_latency_{latency}ms")]
+    
+    return updates

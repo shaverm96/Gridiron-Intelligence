@@ -54,6 +54,40 @@ class DelegatorPlan(BaseModel):
         return cleaned
 
 
+class TransferDelegatorPlan(BaseModel):
+    player_news_query: str = Field(
+        default="",
+        max_length=200,
+        description="DuckDuckGo query for transfer portal player news.",
+    )
+    team_news_query: str = Field(
+        default="",
+        max_length=200,
+        description="DuckDuckGo query for team roster/depth chart transfer context.",
+    )
+    user_intent: str = Field(
+        default="",
+        max_length=300,
+        description="One-sentence user intent summary for transfer chat follow-up.",
+    )
+    should_refresh_web: bool = Field(
+        default=True,
+        description="Whether to refresh web search or use cached context only.",
+    )
+
+    @staticmethod
+    def _sanitize_text(value: Any, max_len: int) -> str:
+        text = str(value or "")
+        text = re.sub(r"[\x00-\x1f\x7f]", " ", text)
+        text = re.sub(r"\s+", " ", text).strip()
+        return text[:max_len]
+
+    @field_validator("player_news_query", "team_news_query", "user_intent", mode="before")
+    @classmethod
+    def _sanitize_text_fields(cls, value: Any) -> str:
+        return cls._sanitize_text(value, 200)
+
+
 class ScoutState(TypedDict, total=False):
     # User request context
     mode: Literal["structured_report", "chat"]
@@ -74,15 +108,20 @@ class ScoutState(TypedDict, total=False):
 
     # Delegator and worker summaries
     delegator_plan: dict[str, Any]
+    transfer_delegator_plan: dict[str, Any]
     cfbd_data_summary: str
     web_recruiting_summary: str
     web_team_summary: str
+    transfer_web_player_summary: str
+    transfer_web_team_summary: str
 
     # Gathered contexts
     sql_data_context: dict[str, Any]
+    transfer_report_context: dict[str, Any]
     web_research_context: str
     web_recruiting_used: bool
     web_team_used: bool
+    allow_web_refresh: bool
     vector_factoids: list[str]
     comparables_context: str
     telemetry: dict[str, Any]

@@ -3305,6 +3305,25 @@ def render_potential_transfers_with_chat_page() -> None:
     _render_transfer_report_hero(report_output)
     _render_transfer_report_kpi_cards(report_output)
 
+    transfer_summary_context = {
+        "player_name": player_name,
+        "position": position,
+        "target_team": str(report_output.get("target_team") or ""),
+        "year": report_output.get("year"),
+    }
+    render_structured_summary_card(
+        title="Transfer Player News Summary",
+        raw_text=str(report_output.get("player_news_summary") or "No player transfer summary available."),
+        section_key="transfer_player",
+        context=transfer_summary_context,
+    )
+    render_structured_summary_card(
+        title="Transfer Team Context Summary",
+        raw_text=str(report_output.get("team_news_summary") or "No team transfer summary available."),
+        section_key="transfer_team",
+        context=transfer_summary_context,
+    )
+
     st.markdown("### Final Transfer Impact Synthesis")
     st.markdown(str(report_output.get("final_report") or "No synthesis generated."))
 

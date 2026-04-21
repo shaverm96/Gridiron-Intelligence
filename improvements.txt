@@ -1,4 +1,5 @@
 - Recruitment Summary and Team Summary need to be improved and structured
 - The multi-agent flow from Recruiting follow up open chat needs to be used in Transfer Portal. Need to avoid hallucinations. 
     - Neither needs access to CFBD just web summaries to answer questions.
-- Improive prompt for transfer so it provides feasability assessment and is skeptical
+- Improive prompt for transfer so it provides feasability assessment and is skeptical. Check all prompts, try to ground with date and make skeptical. 
+- Make sure the vector insights actually work. 

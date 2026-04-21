@@ -80,6 +80,7 @@ CONFIG = {
     "SUMMARY_CACHE_ENABLED": _env_flag("GI_SUMMARY_CACHE_ENABLED", True),
     "SUMMARY_CACHE_TTL_SECONDS": max(0, int(os.getenv("GI_SUMMARY_CACHE_TTL_SECONDS", "900"))),
     "SUMMARY_CACHE_MAX_ENTRIES": max(1, int(os.getenv("GI_SUMMARY_CACHE_MAX_ENTRIES", "256"))),
+    "WEB_ARTICLE_MAX_AGE_DAYS": max(0, int(os.getenv("GI_WEB_ARTICLE_MAX_AGE_DAYS", "365"))),
     "VECTOR_EMBED_CACHE_ENABLED": _env_flag("GI_VECTOR_EMBED_CACHE_ENABLED", True),
     "VECTOR_EMBED_CACHE_TTL_SECONDS": max(0, int(os.getenv("GI_VECTOR_EMBED_CACHE_TTL_SECONDS", "3600"))),
     "VECTOR_EMBED_CACHE_MAX_ENTRIES": max(1, int(os.getenv("GI_VECTOR_EMBED_CACHE_MAX_ENTRIES", "512"))),
@@ -97,7 +98,8 @@ CONFIG = {
         "espn.com",
         "on3.com",
         "cbssports.com",
-        "usatodayhss.com"
+        "usatodayhss.com",
+        "wikipedia.org",
     ],
 }
 
