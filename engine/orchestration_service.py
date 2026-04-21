@@ -1326,6 +1326,15 @@ def orchestrate_transfer_report(
     pipeline_started = time.perf_counter()
     branch_started = time.perf_counter()
     branch_latency_ms: dict[str, int] = {}
+    LOGGER.info(
+        "transfer_report_start college_player_id=%s cfbd_athlete_id=%s target_team=%s position=%s year=%s exclude_garbage_time=%s",
+        str(college_player_id or "").strip(),
+        str(cfbd_athlete_id or "").strip(),
+        str(target_team or "").strip(),
+        str(position or "").strip(),
+        int(year),
+        bool(exclude_garbage_time),
+    )
     _emit_progress(progress_callback, "transfer_pipeline", "started")
     _emit_progress(progress_callback, "profile_lookup", "running")
     profile_result = fetch_college_player_bundle(
@@ -1343,6 +1352,7 @@ def orchestrate_transfer_report(
     position_text = str(position or player_row.get("position") or "").strip()
     _emit_progress(progress_callback, "transfer_pipeline", "running")
     _emit_progress(progress_callback, "parallel_fetch", "running")
+    LOGGER.info("transfer_report_stage=parallel_fetch starting")
     branch_started = time.perf_counter()
     cfbd_cache_key = _transfer_cfbd_context_cache_key(
         college_player_id=str(college_player_id or "").strip(),
@@ -1447,6 +1457,10 @@ def orchestrate_transfer_report(
             _emit_progress(progress_callback, label, "completed")
             return dict(result or {})
         except TimeoutError:
+            try:
+                future.cancel()
+            except Exception:
+                pass
             _emit_progress(progress_callback, label, "completed")
             reason = f"{label} timed out after {timeout_seconds}s"
             if fallback_payload_factory is not None:
@@ -1474,7 +1488,8 @@ def orchestrate_transfer_report(
     _emit_progress(progress_callback, "player_news_search", "running")
     _emit_progress(progress_callback, "team_news_search", "running")
 
-    with ThreadPoolExecutor(max_workers=3) as executor:
+    executor = ThreadPoolExecutor(max_workers=3)
+    try:
         cached_cfbd_context = _transfer_cfbd_context_cache_get(cfbd_cache_key)
         cfbd_context_future = None if cached_cfbd_context is not None else executor.submit(_cfbd_context_task)
         player_web_future = executor.submit(_player_web_task)
@@ -1484,14 +1499,27 @@ def orchestrate_transfer_report(
             cfbd_context = dict(cached_cfbd_context)
             _emit_progress(progress_callback, "cfbd_context", "completed")
         else:
+            LOGGER.info("transfer_report_stage=cfbd_context waiting timeout_seconds=%s", 90)
             cfbd_context = _result_or_timeout(
                 cfbd_context_future,
                 "cfbd_context",
                 timeout_seconds=90,
                 fallback_payload_factory=_empty_cfbd_context_payload,
             )
+        LOGGER.info("transfer_report_stage=player_news_search waiting timeout_seconds=%s", 30)
         player_web = _result_or_timeout(player_web_future, "player_news_search", timeout_seconds=30)
+        LOGGER.info("transfer_report_stage=team_news_search waiting timeout_seconds=%s", 30)
         team_web = _result_or_timeout(team_web_future, "team_news_search", timeout_seconds=30)
+    finally:
+        # Do not block request completion on stuck network worker threads.
+        executor.shutdown(wait=False, cancel_futures=True)
+
+    LOGGER.info(
+        "transfer_report_stage=parallel_fetch done status cfbd=%s player_news=%s team_news=%s",
+        str(cfbd_context.get("status") or "unknown"),
+        str(player_web.get("status") or "unknown"),
+        str(team_web.get("status") or "unknown"),
+    )
 
     if cfbd_context.get("status") == "ok":
         _transfer_cfbd_context_cache_set(cfbd_cache_key, cfbd_context)
@@ -1500,6 +1528,7 @@ def orchestrate_transfer_report(
     _emit_progress(progress_callback, "parallel_fetch", "completed")
 
     _emit_progress(progress_callback, "summarization", "running")
+    LOGGER.info("transfer_report_stage=summarization starting")
     branch_started = time.perf_counter()
 
     cfbd_usage_career = list(cfbd_context.get("cfbd_usage_career") or [])
@@ -1512,21 +1541,67 @@ def orchestrate_transfer_report(
     pull_diagnostics = list(cfbd_context.get("pull_diagnostics") or [])
     pull_config = dict(cfbd_context.get("pull_config") or {})
 
-    player_news_summary_result = summarize_payload_tool(
-        summary_prompt=(
-            "Summarize transfer-portal relevant player news in plain markdown bullets. "
-            "Focus on transfer intent, eligibility, role expectations, and recency."
-        ),
-        payload=player_web.get("data") or [],
-    )
-    team_news_summary_result = summarize_payload_tool(
-        summary_prompt=(
-            "Summarize team transfer-portal context in plain markdown bullets. "
-            "Focus on roster needs, depth chart competition, and recent portal trends."
-        ),
-        payload=team_web.get("data") or [],
-    )
+    summary_timeout_seconds = max(10, int(CONFIG.get("SUMMARY_TIMEOUT_SECONDS", 45) or 45))
+
+    def _summary_result_or_timeout(future: Any, label: str) -> dict[str, Any]:
+        try:
+            return dict(future.result(timeout=summary_timeout_seconds) or {})
+        except TimeoutError:
+            try:
+                future.cancel()
+            except Exception:
+                pass
+            LOGGER.warning("transfer_summarization_timeout label=%s timeout_seconds=%s", label, summary_timeout_seconds)
+            return {
+                "status": "skipped",
+                "reason": f"{label} timed out after {summary_timeout_seconds}s",
+                "data": "Summary unavailable: summarization timed out.",
+                "citations": [],
+            }
+        except Exception as exc:
+            reason_text = str(exc).strip() or repr(exc)
+            LOGGER.warning("transfer_summarization_failed label=%s reason=%s", label, reason_text)
+            return {
+                "status": "skipped",
+                "reason": f"{label} failed: {reason_text}",
+                "data": "Summary unavailable: summarization failed.",
+                "citations": [],
+            }
+
+    summary_executor = ThreadPoolExecutor(max_workers=2)
+    try:
+        LOGGER.info("transfer_report_stage=player_news_summary submit")
+        player_summary_future = summary_executor.submit(
+            summarize_payload_tool,
+            summary_prompt=(
+                "Summarize transfer-portal relevant player news in plain markdown bullets. "
+                "Focus on transfer intent, eligibility, role expectations, and recency."
+            ),
+            payload=player_web.get("data") or [],
+        )
+        LOGGER.info("transfer_report_stage=team_news_summary submit")
+        team_summary_future = summary_executor.submit(
+            summarize_payload_tool,
+            summary_prompt=(
+                "Summarize team transfer-portal context in plain markdown bullets. "
+                "Focus on roster needs, depth chart competition, and recent portal trends."
+            ),
+            payload=team_web.get("data") or [],
+        )
+        LOGGER.info("transfer_report_stage=player_news_summary waiting timeout_seconds=%s", summary_timeout_seconds)
+        player_news_summary_result = _summary_result_or_timeout(player_summary_future, "player_news_summary")
+        LOGGER.info("transfer_report_stage=team_news_summary waiting timeout_seconds=%s", summary_timeout_seconds)
+        team_news_summary_result = _summary_result_or_timeout(team_summary_future, "team_news_summary")
+    finally:
+        # Avoid blocking completion when upstream model/network calls stall.
+        summary_executor.shutdown(wait=False, cancel_futures=True)
+
     branch_latency_ms["summarization"] = int((time.perf_counter() - branch_started) * 1000)
+    LOGGER.info(
+        "transfer_report_stage=summarization done player_status=%s team_status=%s",
+        str(player_news_summary_result.get("status") or "unknown"),
+        str(team_news_summary_result.get("status") or "unknown"),
+    )
     _emit_progress(progress_callback, "summarization", "completed")
 
     branch_status = {
@@ -1585,9 +1660,14 @@ def orchestrate_transfer_report(
         branch_status=branch_status,
     )
     _emit_progress(progress_callback, "final_synthesis", "running")
+    LOGGER.info("transfer_report_stage=final_synthesis starting")
     branch_started = time.perf_counter()
     synthesis_result = final_synthesis_tool(synthesis_prompt)
     branch_latency_ms["final_synthesis"] = int((time.perf_counter() - branch_started) * 1000)
+    LOGGER.info(
+        "transfer_report_stage=final_synthesis done status=%s",
+        str((synthesis_result or {}).get("status") or "unknown"),
+    )
     _emit_progress(progress_callback, "final_synthesis", "completed")
 
     citations: list[dict[str, str]] = []

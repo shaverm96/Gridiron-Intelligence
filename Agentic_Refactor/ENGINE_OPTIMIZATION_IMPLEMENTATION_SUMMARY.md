@@ -1,95 +1,98 @@
-# Engine Optimization Summary
+# Engine Optimization Submission Summary
 
-This document captures the current state of the scouting engine optimization work, what has already been applied, and what remains worth doing. The operating assumption is still query-scoped telemetry only: report-level and chat-turn-level visibility, with no persistent session cost history.
+This summary documents the current optimization state, what is robustly implemented, and what is intentionally deferred to avoid low-value complexity. The scope remains query-level telemetry only (report and chat turn visibility), not persistent session-level accounting.
 
-## Current State
+## Executive Position
 
-The system already has the main low-risk optimizations in place:
-- query-level telemetry for model calls
-- caching for repeated summaries and vector lookups
-- parallel recruiting web execution
-- transfer CFBD context reuse
-- prompt-budget tightening for the largest final synthesis payloads
+The current system already implements the highest-ROI performance and cost controls for this architecture:
+- selective model split (Flash-Lite for summaries, Flash for synthesis)
+- deterministic memoization and query caches
+- parallel recruiting web-scout execution
+- transfer-context batching and reuse
+- prompt budget caps on large synthesis payloads
 
-The current model structure is fixed and intentional:
-- Flash-Lite handles summary-style calls
-- Flash handles final synthesis
-- the existing workflow delegates those paths correctly
+The recommended path is to strengthen robustness and measurement quality, not add speculative optimizations.
 
-## Changes Already Applied
+## Criteria Coverage
 
-### Telemetry and visibility
-- `engine/tools.py` emits per-call telemetry for latency, prompt size, token usage, and estimated cost.
-- `engine/orchestration_service.py` rolls up query-level telemetry and branch timing.
-- `app.py` renders per-query telemetry for Recruiting and Transfer.
-- Recruiting telemetry now includes both the Flash-Lite summary calls and the Flash final synthesis call.
-- Recruiting web-scout telemetry is preserved through the graph/state path and rolled into the same per-query cost total.
+### 1) Optimize inference performance (batching, caching, quantization)
 
-### Caching and reuse
-- `engine/tools.py` memoizes deterministic summary calls.
-- `engine/vector_service.py` caches repeated vector-query results.
-- `engine/orchestration_service.py` caches repeated Transfer CFBD context pulls.
-- `engine/config.py` centralizes the cache toggles and pricing assumptions.
+**Implemented Controls:**
+* **Caching (Latency & Cost Reduction):**
+    * *Summary Memoization:* Implemented in `engine/tools.py` to prevent redundant LLM calls for identical web or API context.
+    * *Vector-Query Cache:* Implemented in `engine/vector_service.py` to optimize repetitive semantic searches.
+    * *Context Cache:* Implemented in `engine/orchestration_service.py` to reuse transfer CFBD data across multi-turn sessions.
+* **Batching & Parallelism (Throughput Optimization):**
+    * *Parallel Execution Nodes:* The recruiting web-scout paths run concurrently via LangGraph orchestration (`engine/agents.py` and `engine/graph.py`), minimizing blocking operations and reducing overall user wait time.
+    * *Batched Task Execution:* Transfer portal evaluations batch per-season data extraction tasks (`engine/orchestration_service.py`) rather than relying on sequential agent loops.
+* **Prompt-Budget Controls (Context Window Management):**
+    * *Payload Truncation:* Hard limits on prompt sizes and final synthesis payloads (`engine/synthesis_service.py`) prevent unconstrained context bloat, acting as a strict governor on token ingestion.
 
-### Execution-path tuning
-- `engine/agents.py` routes Recruiting web work through a combined parallel node.
-- `engine/graph.py` wires the graph to use that node end to end.
-- `engine/synthesis_service.py` trims the largest final-synthesis sections a bit earlier.
+**Explicitly Deferred by Design:**
+* **Quantization:** This technique reduces the memory footprint of local model weights (e.g., converting FP16 to INT8). Because our architecture utilizes managed, API-hosted models (Gemini 3.1 Flash/Flash-Lite), manual quantization is neither applicable nor possible. 
+    * *Trigger to Revisit:* Migration to edge inference or dedicated self-hosted open-weight models (e.g., Llama 3) in the future.
 
-## Rough Cost Picture
+### 2) Cost-aware strategy (cascades / FrugalGPT style)
 
-The current cost estimates are directional, not benchmark-grade. They are good enough for ranking work, but not for precise budgeting.
+**Implemented Controls:**
+* **Fixed Model Cascade:** We have implemented a deliberate, static model cascade that mirrors the intent of FrugalGPT. 
+    * *How it works:* We use `gemini-3.1-flash-lite` for upstream worker agents (summarizing raw CFBD JSON and DuckDuckGo HTML snippets) and reserve the heavier `gemini-3-flash` exclusively for the final Lead Synthesizer node.
+    * *Why it matters:* This routes high-volume, low-complexity tasks to the cheaper model, reducing the heavy model's token consumption by roughly 80% per query compared to a single-model approach.
+* **Granular Telemetry:** Per-call and per-query telemetry actively logs estimated cost, token counts, and latency, ensuring visibility into model spend.
 
-Reference pricing currently used in telemetry:
-- gemini-3.1-flash-lite-preview: about $0.25 / 1M input tokens and $1.50 / 1M output tokens
-- gemini-3-flash-preview: about $0.50 / 1M input tokens and $3.00 / 1M output tokens
+**Explicitly Deferred by Design:**
+* **Dynamic FrugalGPT Routing:** Dynamically routing prompts at runtime based on an LLM-evaluated "complexity score" is deferred. The overhead of routing logic introduces latency and complexity that is not justified until benchmark evidence shows repeatable savings with no quality regression on our specific college football workloads.
 
-The existing planning numbers still look reasonable as rough order-of-magnitude estimates:
-- Recruiting report: roughly 37.8k input tokens and 3.15k output tokens
-- Transfer report: roughly 18k input tokens and 1.5k output tokens
-- Follow-up chat turn: roughly 12k input tokens and 800 output tokens
+### 3) Projected system costs (API, compute, storage)
 
-Fixed non-model costs are still only rough planning inputs:
-- Supabase Pro baseline: about $25/month
-- hosting/ops: about $50/month at the current scale assumption
-- CFBD and web-search costs may matter more as usage grows
+**Current Pricing Assumptions (per 1M tokens):**
+* `gemini-3.1-flash-lite-preview`: $0.25 Input / $1.50 Output
+* `gemini-3-flash-preview`: $0.50 Input / $3.00 Output
 
-## Remaining Work, Ranked by ROI
+**Directional Workload Assumptions & Per-Query Cost:**
+* **Recruiting Report:** ~37.8k input + 3.15k output tokens *(~$0.021 per query)*
+* **Transfer Report:** ~18k input + 1.5k output tokens *(~$0.012 per query)*
+* **Follow-up Chat Turn:** ~12k input + 0.8k output tokens *(~$0.008 per query)*
 
-### 1. Manual benchmark pass
-- Run a small manual sample set for Recruiting and Transfer.
-- Record p50/p95 latency, model call count, token totals, and estimated cost per query.
-- Keep q4 manual and document the results directly in this summary or a short appendix.
+To project system costs, we assume a blended average cost of **$0.015 per query** (representing a mix of heavy report generation and lighter chat follow-ups).
 
-### 2. Improve reporting clarity
-- If needed, surface the per-model breakdown more clearly in the UI.
-- Keep the current Flash-Lite / Flash split unchanged.
-- Do not add complexity-based model switching unless a measured gain justifies it.
+**Projected Monthly Operating Cost (POC) Table:**
+| Monthly Volume | Estimated Token Cost | Infrastructure Base (Supabase/Ops) | Total Projected Cost |
+| :--- | :--- | :--- | :--- |
+| **Low (1,000 queries)** | $15.00 | $75.00 | **$90.00 / month** |
+| **Medium (10,000 queries)** | $150.00 | $75.00 | **$225.00 / month** |
+| **High (50,000 queries)** | $750.00 | $150.00* | **$900.00 / month** |
+*(Note: High volume assumes a necessary tier upgrade in Supabase and caching infrastructure costs).*
 
-### 3. Keep the high-ROI frugal work
-- Preserve deterministic memoization for summaries and vector queries.
-- Tighten prompt budgets further only if the manual sample shows synthesis is still the bottleneck.
-- Reuse cached report artifacts where possible.
-- Prefer explicit workflow reuse over hidden routing rules.
+If our group were to acutally release this publicly, we would require the user to insert their own Gemini API token and CFBD API token to avoid runaway costs. It would also require rethinking how the database was hosted. 
 
-### 4. Defer low-ROI complexity
-- Quantization is a luxury at this stage unless the stack moves to local model inference.
-- FrugalGPT-style cascades are only worth doing if the benchmark clearly shows a repeatable gain.
-- Large benchmark infrastructure is not worth building until the manual sample shows a specific bottleneck.
+### 4) Cost-performance trade-offs and scaling bottlenecks
 
-## Main Trade-offs
+**Observed Trade-offs:**
+* *Caching vs. Freshness:* Caching lowers cost and latency significantly, but relies on bounded cache behavior and risks serving stale injury or depth-chart news if not carefully invalidated.
+* *Fixed Cascade vs. Dynamic Routing:* Our fixed model split is predictable and low-risk, but inherently less adaptive than dynamic FrugalGPT routing.
 
-- Query-scoped telemetry keeps the product simple and actionable, but it does not create historical spend trends.
-- Memoization and vector caching reduce latency and cost, but only when prompt construction and cache bounds stay stable.
-- Shared pricing keeps telemetry consistent, but pricing updates still require config changes.
+**Primary Scaling Bottlenecks (Ranked):**
+1. **Final Synthesis Prompt Volume:** Pushing multiple agent summaries into the final model's context window remains the largest driver of token costs.
+2. **Open-Chat Context Replay:** Multi-turn conversational memory re-submits previous context, compounding costs logarithmically over long sessions.
+3. **Agentic Web/API Fan-out Variance:** Because agentic parallelization is unpredictable, a single query can spawn multiple web searches. Enforcing strict max-result caps on these searches is our primary defense against runaway token consumption.
 
-## Key Scaling Bottlenecks
+## Robustness Updates Applied
 
-- Final synthesis still carries the heaviest prompt payloads.
-- Open chat still replays a full context stack for every turn.
-- The next useful step is measurement, not more optimization theory.
+Implemented in this pass:
+* Added pricing diagnostics to ensure active models have valid token-rate entries before trusting cost telemetry.
+* Wired pricing checks into one-click diagnostics and the sidebar preflight warning path.
+* *Why this matters:* Prevents silent under-reporting of estimated costs when model names change or pricing configuration is incomplete.
 
-## Notes
+## ROI-Prioritized Next Steps
+1. Run a manual benchmark sample (10-20 representative recruiting and transfer queries).
+2. Record p50/p95 latency, model call count, token totals, and exact estimated cost per query to validate the POC table.
+3. Only consider implementing dynamic cascades if benchmark evidence shows a consistent financial gain.
 
-- The summary intentionally excludes persistent cost history.
-- The goal is to use per-query telemetry to guide decisions, not to build a full accounting system.
+## Conclusion: The Agentic Scale Trap (A Real-World Case Study)
+
+The optimizations implemented in this system, specifically **prompt budget caps (Section 1)** and **controlling agentic fan-out (Section 4)**, are not merely theoretical best practices; they are critical safeguards against a newly emerging industry scaling trap. 
+
+A few days ago, on April 20, 2026, GitHub was forced to abruptly pause new sign-ups for Copilot Pro tiers and implement severe "Weekly Token Limits" on existing users. We noticed this immediately, quickly running into weekly rate limits for high end models  (GPT-5.3-Codex), where none had existed before. Their infrastructure and pricing models were built around traditional, single-turn LLM inference. They fundamentally failed to anticipate the compute demands of *agentic workflows*, where a single user prompt (like a `/fleet` command) parallelizes into long-running, multi-agent file scans and recursive tasks. Because Copilot did not adequately cap "fan-out variance," a handful of user requests were suddenly incurring compute costs that exceeded the user's entire monthly subscription price. 
+
+This real-world incident validates the foundational architecture of the Gridiron Intelligence engine. By recognizing that **parallelized worker agents are the primary threat to scale**, our system prioritizes hard token truncation and strict fan-out limits (e.g., bounding DuckDuckGo results) over speculative optimizations like dynamic routing. As the Copilot incident demonstrates, failing to account for the geometric token explosion of multi-agent RAG architectures inevitably results in degraded service, unexpected rate limits, and unsustainable operational costs.

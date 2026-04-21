@@ -38,6 +38,11 @@ except Exception:  # pragma: no cover
     DDGS = None
 
 try:
+    import ddgs.http_client as _ddgs_http_client
+except Exception:  # pragma: no cover
+    _ddgs_http_client = None
+
+try:
     from langchain_google_genai import ChatGoogleGenerativeAI
 except Exception:  # pragma: no cover
     ChatGoogleGenerativeAI = None
@@ -60,6 +65,18 @@ MODEL_ALIAS_MAP = {
     "gemini-3.1-flash-lite-preview": "gemini-3.1-flash-lite-preview",
 }
 SUMMARY_MEMO_CACHE: dict[str, dict[str, Any]] = {}
+
+
+def _configure_ddgs_compatibility() -> None:
+    if _ddgs_http_client is None:
+        return
+
+    supported_impersonates = ("chrome_144",)
+    _ddgs_http_client.HttpClient._impersonates = supported_impersonates
+    _ddgs_http_client.HttpClient._impersonates_os = ("windows",)
+
+
+_configure_ddgs_compatibility()
 
 
 def _normalize_model_name(model_name: str) -> str:

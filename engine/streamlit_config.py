@@ -119,6 +119,10 @@ def build_streamlit_runtime_config_data(
         "VECTOR_MATCH_COUNT": 6,
         "VECTOR_MATCH_THRESHOLD": 0.15,
         "VECTOR_RPC_NAME": "match_gi_factoids",
+        "MODEL_TOKEN_COSTS_PER_1M": {
+            "gemini-3.1-flash-lite-preview": {"input": 0.25, "output": 1.50},
+            "gemini-3-flash-preview": {"input": 0.50, "output": 3.00},
+        },
         "LOCAL_CFBD_DEBUGGER_ENABLED": local_debugger_enabled,
     }
 

@@ -62,6 +62,7 @@ CONFIG = {
     "WEB_QUERY_MAX_RESULTS": int(os.getenv("GI_WEB_QUERY_MAX_RESULTS", "6")),
     "PROMPT_PAYLOAD_MAX_CHARS": int(os.getenv("GI_PROMPT_PAYLOAD_MAX_CHARS", "12000")),
     "FINAL_PROMPT_MAX_CHARS": int(os.getenv("GI_FINAL_PROMPT_MAX_CHARS", "20000")),
+    "SUMMARY_TIMEOUT_SECONDS": max(10, int(os.getenv("GI_SUMMARY_TIMEOUT_SECONDS", "45"))),
     "VECTOR_MATCH_COUNT": int(os.getenv("GI_VECTOR_MATCH_COUNT", "6")),
     "VECTOR_MATCH_THRESHOLD": float(os.getenv("GI_VECTOR_MATCH_THRESHOLD", "0.15")),
     "VECTOR_RPC_NAME": os.getenv("GI_VECTOR_RPC_NAME", "match_gi_factoids"),

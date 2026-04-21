@@ -47,6 +47,7 @@ from engine.data_access import (
 from engine.diagnostics import run_one_click_diagnostics_data
 from engine.diagnostics import (
     get_gemini_config_issues_data,
+    get_model_pricing_issues_data,
     get_supabase_config_issues_data,
 )
 from engine.data_transforms import (
@@ -184,14 +185,20 @@ def get_gemini_config_issues() -> list[str]:
     )
 
 
+def get_model_pricing_issues() -> list[str]:
+    return get_model_pricing_issues_data(config=CONFIG)
+
+
 def run_one_click_diagnostics() -> dict:
     return run_one_click_diagnostics_data(
+        config=CONFIG,
         config_sources=CONFIG_SOURCES,
         tables=TABLES,
         summary_model=CONFIG["SUMMARY_MODEL"],
         get_supabase_config_issues=get_supabase_config_issues,
         get_supabase_client=get_supabase_client,
         get_gemini_config_issues=get_gemini_config_issues,
+        get_model_pricing_issues=get_model_pricing_issues,
         get_llm=get_llm,
         llm_response_to_text=llm_response_to_text,
     )
@@ -336,7 +343,7 @@ def _render_transfer_candidate_live_picker(
         team_text = str(row.get("teams") or "").strip() or "Team N/A"
         years_text = f"{row.get('first_season') or '?'}-{row.get('last_season') or '?'}"
         button_text = f"{str(row.get('player_name') or 'Unknown')} | {str(row.get('position') or '?')} | {team_text} | {years_text}"
-        if st.button(button_text, key=f"{widget_prefix}_pick_{idx}", use_container_width=True):
+        if st.button(button_text, key=f"{widget_prefix}_pick_{idx}", width="stretch"):
             selected_label = label
             st.session_state[selected_label_key] = label
 
@@ -457,7 +464,7 @@ def _render_recruit_candidate_live_picker(
                     f"{str(row.get('position') or '?')} | "
                     f"{hs_text} | Rating: {rating_text}"
                 )
-                if st.button(button_text, key=f"{widget_prefix}_search_pick_{idx}", use_container_width=True):
+                if st.button(button_text, key=f"{widget_prefix}_search_pick_{idx}", width="stretch"):
                     selected_label = label
                     st.session_state[selected_label_key] = label
         else:
@@ -681,7 +688,7 @@ def render_local_cfbd_debugger_page() -> None:
         ]
     )
     if not career_summary_df.empty:
-        st.dataframe(career_summary_df, use_container_width=True)
+        st.dataframe(career_summary_df, width="stretch")
     else:
         st.write("No career seasons were available to test.")
 
@@ -702,7 +709,7 @@ def render_local_cfbd_debugger_page() -> None:
         ]
     )
     if not career_stats_summary_df.empty:
-        st.dataframe(career_stats_summary_df, use_container_width=True)
+        st.dataframe(career_stats_summary_df, width="stretch")
     else:
         st.write("No career season stats were available to test.")
 
@@ -727,7 +734,7 @@ def render_local_cfbd_debugger_page() -> None:
         ],
     )
     if not diagnostics_df.empty:
-        st.dataframe(diagnostics_df, use_container_width=True)
+        st.dataframe(diagnostics_df, width="stretch")
     else:
         st.write("No diagnostics available.")
 
@@ -838,7 +845,7 @@ def _render_telemetry_summary(telemetry: dict[str, Any] | None, key_prefix: str,
             ]
             branch_df = pd.DataFrame(branch_rows).sort_values("latency_ms", ascending=False)
             with st.expander("Branch Latency Breakdown", expanded=False):
-                st.dataframe(branch_df, use_container_width=True, hide_index=True)
+                st.dataframe(branch_df, width="stretch", hide_index=True)
 
         with st.expander("Telemetry JSON", expanded=False):
             _render_json_lazy(normalized, key=f"{key_prefix}_telemetry_json")
@@ -945,8 +952,9 @@ if app_page != "Landing Page":
                     _render_json_lazy(debug_result, key="sidebar_local_cfbd_debug_result_json")
 
         supabase_issues = get_supabase_config_issues()
-        if supabase_issues:
-            st.warning("Supabase preflight issues detected. Open diagnostics for details.")
+        pricing_issues = get_model_pricing_issues()
+        if supabase_issues or pricing_issues:
+            st.warning("Configuration preflight issues detected. Open diagnostics for details.")
 
 
 @st.cache_resource
@@ -1070,7 +1078,7 @@ def _render_transfer_usage_chart(section_key: str, artifacts: dict[str, Any]) ->
         text=alt.Text("usage_label:N")
     )
     chart = (line + points + point_labels).properties(height=260)
-    st.altair_chart(chart, use_container_width=True)
+    st.altair_chart(chart, width="stretch")
 
 
 def _render_transfer_stat_bar_chart(section_key: str, artifacts: dict[str, Any]) -> None:
@@ -1126,7 +1134,7 @@ def _render_transfer_stat_bar_chart(section_key: str, artifacts: dict[str, Any])
         text=alt.Text("stat_label:N"),
     )
     chart = (bars + bar_labels).properties(height=260)
-    st.altair_chart(chart, use_container_width=True)
+    st.altair_chart(chart, width="stretch")
 
 
 def _render_transfer_charts_side_by_side(section_key: str, artifacts: dict[str, Any]) -> None:
@@ -1168,7 +1176,7 @@ def _render_transfer_tables(artifacts: dict[str, Any]) -> None:
                 {"selector": "td", "props": "background: #111827; border-bottom: 1px solid #1f2937;"},
             ]
         )
-        st.dataframe(styled_usage, use_container_width=True)
+        st.dataframe(styled_usage, width="stretch")
 
     st.markdown("### Season Stats Table")
     if not isinstance(season_stats_df, pd.DataFrame) or season_stats_df.empty:
@@ -1194,7 +1202,7 @@ def _render_transfer_tables(artifacts: dict[str, Any]) -> None:
                 {"selector": "td", "props": "background: #111827; border-bottom: 1px solid #1f2937;"},
             ]
         )
-        st.dataframe(styled_stats, use_container_width=True)
+        st.dataframe(styled_stats, width="stretch")
 
 
 def _allow_structured_report_submission() -> tuple[bool, int]:
@@ -3397,7 +3405,7 @@ def render_potential_transfers_with_chat_page() -> None:
             ],
         )
         if not diagnostics_df.empty:
-            st.dataframe(diagnostics_df, use_container_width=True)
+            st.dataframe(diagnostics_df, width="stretch")
         else:
             st.write("No diagnostics available.")
 
