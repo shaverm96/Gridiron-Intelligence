@@ -157,13 +157,6 @@ def _extract_result_date(result: dict[str, Any]) -> date | None:
     return None
 
 
-def _is_result_recent(result: dict[str, Any], max_age_days: int) -> bool:
-    if max_age_days <= 0:
-        return True
-    published_date = _extract_result_date(result)
-    return published_date is not None and (date.today() - published_date).days <= max_age_days
-
-
 def _summary_context_prefix(
     role: str | None = None,
     entity_kind: str | None = None,
@@ -454,6 +447,7 @@ def _with_current_date_context(prompt_text: str) -> str:
         "Date Context:\n"
         f"- Current date: {today_iso}\n"
         "- Treat this as today's date when reasoning about recency and up-to-date information.\n"
+        "- If the payload contains dates, prefer the most recent credible items while still preserving relevant older context.\n"
         "- If recency is uncertain, state the uncertainty explicitly.\n\n"
     )
     return f"{date_context}{str(prompt_text or '').strip()}"
@@ -525,8 +519,8 @@ def delegator_plan_tool(user_query: str, target_team: str = "", target_player_na
                 "college_team": fallback_team,
                 "position": "",
             },
-            recruiting_web_query=f"{fallback_player} recruiting scouting report".strip(),
-            team_context_query=f"{fallback_team} depth chart roster".strip(),
+            recruiting_web_query=f"{fallback_player} college football recruiting news offers profile".strip(),
+            team_context_query=f"{fallback_team} college football roster depth chart coaching staff updates".strip(),
             user_intent=(user_query or "Generate a scouting report.")[:220],
         ).model_dump()
 
@@ -538,7 +532,10 @@ def delegator_plan_tool(user_query: str, target_team: str = "", target_player_na
     prompt = (
         "Create a delegator plan for a college football scouting workflow. "
         "Infer likely player/team context from the user request. "
-        "Return concise search params and queries.\n\n"
+        "Return concise search params and queries. "
+        "Set recruiting_web_query to player-specific recruiting context only (offers, visits, commitment status, injuries, profile). "
+        "Set team_context_query to broad team context only (roster composition, depth chart, coaching staff, recent staff changes, program direction). "
+        "Do not make team_context_query specific to the target player; final synthesis combines both streams.\n\n"
         f"User query: {user_query}\n"
         f"Known target team: {target_team}\n"
         f"Known target player: {target_player_name}\n"
@@ -582,8 +579,8 @@ def delegator_plan_tool(user_query: str, target_team: str = "", target_player_na
             "college_team": target_team or "",
             "position": "",
         },
-        recruiting_web_query=f"{target_player_name} recruiting scouting report".strip(),
-        team_context_query=f"{target_team} depth chart roster".strip(),
+        recruiting_web_query=f"{target_player_name} college football recruiting news offers profile".strip(),
+        team_context_query=f"{target_team} college football roster depth chart coaching staff updates".strip(),
         user_intent=(user_query or "Generate a scouting report.")[:220],
     ).model_dump()
 def search_web_query_tool(
@@ -609,7 +606,6 @@ def search_web_query_tool(
 
     rows: list[dict[str, str]] = []
     citations: list[dict[str, str]] = []
-    max_age = int(CONFIG.get("WEB_ARTICLE_MAX_AGE_DAYS", 365) if max_age_days is None else max_age_days)
     try:
         results = _ddgs_text_search(
             search_query,
@@ -621,8 +617,6 @@ def search_web_query_tool(
             if not url:
                 continue
             if target_sites and not any(site in url.lower() for site in target_sites):
-                continue
-            if not _is_result_recent(result, max_age):
                 continue
             published_date = _extract_result_date(result)
             row = {
@@ -1161,7 +1155,7 @@ def transfer_delegator_plan_tool(
         fallback_team = target_team or ""
         return TransferDelegatorPlan(
             player_news_query=f"{fallback_player} transfer portal news".strip(),
-            team_news_query=f"{fallback_team} transfer portal roster".strip(),
+            team_news_query=f"{fallback_team} college football transfer portal roster needs coaching staff updates".strip(),
             user_intent=(user_query or "Analyze transfer portal opportunity.")[:220],
             should_refresh_web=True,
         ).model_dump()
@@ -1176,6 +1170,9 @@ def transfer_delegator_plan_tool(
         "Analyze the user's question to infer if they are asking about recent news, stats, or team fit.\n"
         "If they ask for stats or usage, set should_refresh_web to False. "
         "If they explicitly request the latest news, rumors, or updates, set should_refresh_web to True and provide queries to search.\n"
+        "Set player_news_query to player-specific transfer context only (portal intent, eligibility, timeline, role expectations). "
+        "Set team_news_query to broad team context only (roster needs, depth chart competition, coaching staff, recent staff changes, program outlook). "
+        "Do not tailor team_news_query to the specific target player; final synthesis combines player and team streams. "
         "Bias team context toward stable references such as Wikipedia when it helps ground roster or program-level context.\n\n"
         f"User query: {user_query}\n"
         f"Target team: {target_team}\n"
@@ -1216,7 +1213,7 @@ def transfer_delegator_plan_tool(
 
     return TransferDelegatorPlan(
         player_news_query=f"{target_player_name} transfer portal news".strip(),
-        team_news_query=f"{target_team} wikipedia transfer portal roster".strip(),
+        team_news_query=f"{target_team} college football transfer portal roster needs coaching staff updates".strip(),
         user_intent=(user_query or "Analyze transfer portal opportunity.")[:220],
         should_refresh_web=True,
     ).model_dump()

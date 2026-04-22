@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import hashlib
+import re
 import time
 from typing import Any
 
@@ -10,10 +11,91 @@ from .config import CONFIG
 VECTOR_QUERY_CACHE: dict[str, dict[str, Any]] = {}
 
 
-def _vector_cache_key(query_text: str, position: str | None, top_k: int, threshold: float | None, vector_rpc_name: str) -> str:
+_STATE_NAME_TO_ABBR = {
+    "alabama": "AL",
+    "alaska": "AK",
+    "arizona": "AZ",
+    "arkansas": "AR",
+    "california": "CA",
+    "colorado": "CO",
+    "connecticut": "CT",
+    "delaware": "DE",
+    "district of columbia": "DC",
+    "florida": "FL",
+    "georgia": "GA",
+    "hawaii": "HI",
+    "idaho": "ID",
+    "illinois": "IL",
+    "indiana": "IN",
+    "iowa": "IA",
+    "kansas": "KS",
+    "kentucky": "KY",
+    "louisiana": "LA",
+    "maine": "ME",
+    "maryland": "MD",
+    "massachusetts": "MA",
+    "michigan": "MI",
+    "minnesota": "MN",
+    "mississippi": "MS",
+    "missouri": "MO",
+    "montana": "MT",
+    "nebraska": "NE",
+    "nevada": "NV",
+    "new hampshire": "NH",
+    "new jersey": "NJ",
+    "new mexico": "NM",
+    "new york": "NY",
+    "north carolina": "NC",
+    "north dakota": "ND",
+    "ohio": "OH",
+    "oklahoma": "OK",
+    "oregon": "OR",
+    "pennsylvania": "PA",
+    "rhode island": "RI",
+    "south carolina": "SC",
+    "south dakota": "SD",
+    "tennessee": "TN",
+    "texas": "TX",
+    "utah": "UT",
+    "vermont": "VT",
+    "virginia": "VA",
+    "washington": "WA",
+    "west virginia": "WV",
+    "wisconsin": "WI",
+    "wyoming": "WY",
+}
+
+_STATE_ABBR_TO_NAME = {abbr.lower(): name for name, abbr in _STATE_NAME_TO_ABBR.items()}
+
+
+def _normalize_state_value(state: str | None) -> str:
+    text = str(state or "").strip().lower()
+    if not text:
+        return ""
+    if len(text) == 2:
+        return _STATE_ABBR_TO_NAME.get(text, text).lower()
+    return text
+
+
+def _state_token_from_text(text: str) -> str:
+    match = re.search(r"\bwere from\s+([A-Za-z][A-Za-z\-']*)", str(text or ""), flags=re.IGNORECASE)
+    if not match:
+        return ""
+    return str(match.group(1) or "").strip().lower()
+
+
+def _vector_cache_key(
+    query_text: str,
+    position: str | None,
+    state: str | None,
+    top_k: int,
+    threshold: float | None,
+    vector_rpc_name: str,
+) -> str:
     raw = "|".join([
         str(query_text or ""),
         str(position or "").strip().upper(),
+        str(state or "").strip().upper(),
         str(int(top_k)),
         str(threshold if threshold is not None else ""),
         str(vector_rpc_name or ""),
@@ -55,6 +137,7 @@ def vector_insights_query_data(
     sb: Any,
     query_text: str,
     position: str | None,
+    state: str | None,
     top_k: int,
     threshold: float | None,
     vector_match_threshold: float,
@@ -65,7 +148,7 @@ def vector_insights_query_data(
     if sb is None:
         return {"insights": [], "reason": "Supabase client unavailable."}
 
-    cache_key = _vector_cache_key(query_text, position, top_k, threshold, vector_rpc_name)
+    cache_key = _vector_cache_key(query_text, position, state, top_k, threshold, vector_rpc_name)
     cached = _vector_cache_get(cache_key)
     if isinstance(cached, dict):
         cached_result = dict(cached)
@@ -90,14 +173,28 @@ def vector_insights_query_data(
     }
     if position:
         payload["filter_position"] = str(position).strip().upper()
+    normalized_state = _normalize_state_value(state)
+    if normalized_state:
+        payload["filter_state"] = normalized_state.upper()
 
     try:
         rows = sb.rpc(vector_rpc_name, payload).execute().data or []
     except Exception as exc:
         return {"insights": [], "reason": f"Vector RPC unavailable: {exc}"}
 
-    insights: list[str] = []
+    filtered_rows: list[dict[str, Any]] = []
     for row in rows:
+        row_dict = dict(row or {})
+        factoid_type = str(row_dict.get("factoid_type") or "").strip().lower()
+        factoid_text = str(row_dict.get("factoid_text") or row_dict.get("text") or "").strip()
+        if factoid_type == "state_analysis" and normalized_state:
+            parsed_state = _state_token_from_text(factoid_text)
+            if not parsed_state or parsed_state != normalized_state:
+                continue
+        filtered_rows.append(row_dict)
+
+    insights: list[str] = []
+    for row in filtered_rows:
         text = str(row.get("factoid_text") or row.get("text") or "").strip()
         if not text:
             continue
@@ -112,6 +209,6 @@ def vector_insights_query_data(
         _vector_cache_set(cache_key, result)
         return result
 
-    result = {"insights": insights, "reason": "ok", "rows": rows}
+    result = {"insights": insights, "reason": "ok", "rows": filtered_rows}
     _vector_cache_set(cache_key, result)
     return result

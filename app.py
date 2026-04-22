@@ -519,6 +519,39 @@ def _render_json_lazy(payload: Any, key: str, label: str = "Render JSON") -> Non
         st.code(json.dumps(payload, indent=2, default=str), language="json")
 
 
+def _render_web_summary_diagnostics(
+    player_summary: str,
+    team_summary: str,
+    key_prefix: str,
+    player_label: str = "Player Web Summary",
+    team_label: str = "Team Web Summary",
+) -> None:
+    st.markdown("#### Web Summary Diagnostics")
+    left_col, right_col = st.columns(2)
+    with left_col:
+        st.markdown(f"**{player_label}**")
+        st.text_area(
+            player_label,
+            value=str(player_summary or "") or "No player summary available.",
+            height=220,
+            disabled=True,
+            label_visibility="collapsed",
+            key=f"{key_prefix}_player_web_summary",
+        )
+        st.caption(f"Chars: {len(str(player_summary or ''))}")
+    with right_col:
+        st.markdown(f"**{team_label}**")
+        st.text_area(
+            team_label,
+            value=str(team_summary or "") or "No team summary available.",
+            height=220,
+            disabled=True,
+            label_visibility="collapsed",
+            key=f"{key_prefix}_team_web_summary",
+        )
+        st.caption(f"Chars: {len(str(team_summary or ''))}")
+
+
 def _target_team_name(team_option: str) -> str:
     text = str(team_option or "").strip()
     if "|" in text:
@@ -2132,6 +2165,12 @@ def render_structured_report_with_chat_page() -> None:
                 or selected_high_school_hint
                 or ""
             ).strip()
+            player_state = str(
+                player_profile.get("state")
+                or player_row.get("state")
+                or player_row.get("home_state")
+                or ""
+            ).strip()
 
             vector_query = (
                 f"Player: {player_name}. Position: {position}. High school: {high_school}. "
@@ -2142,6 +2181,7 @@ def render_structured_report_with_chat_page() -> None:
                 sb=sb,
                 query_text=vector_query,
                 position=position or None,
+                state=player_state or None,
                 top_k=CONFIG["VECTOR_MATCH_COUNT"],
                 threshold=None,
                 vector_match_threshold=CONFIG["VECTOR_MATCH_THRESHOLD"],
@@ -2208,6 +2248,8 @@ def render_structured_report_with_chat_page() -> None:
                 pred_score_row=pred_score_row,
                 pred_thr_row=pred_thr_row,
                 web_summary=web_summary,
+                web_player_summary=web_recruiting_summary,
+                web_team_summary=web_team_summary,
                 vector_result=vector_result,
                 historical_comparables_md=historical_comparables_md,
                 tier_definitions_markdown=tier_definitions_markdown,
@@ -2978,6 +3020,13 @@ def render_structured_report_with_chat_page() -> None:
             st.write(f"Raw recruiting summary chars: {len(recruiting_raw_summary)}")
             st.write(f"Parsed notes count: {len(recruiting_layout.get('notes') or [])}")
             st.write(f"Grid items count: {len(recruiting_layout.get('grid_items') or [])}")
+            _render_web_summary_diagnostics(
+                player_summary=recruiting_raw_summary,
+                team_summary=str(report_output.get("web_team_summary") or ""),
+                key_prefix="recruiting_dev",
+                player_label="Recruiting Web Summary",
+                team_label="Team Web Summary",
+            )
             _render_json_lazy(
                 {
                     "hero_name": recruiting_layout.get("hero_name"),
@@ -3378,6 +3427,14 @@ def render_potential_transfers_with_chat_page() -> None:
                 f"team={summary_branch.get('team_status', 'unknown')} "
                 f"({summary_branch.get('team_reason', '')})"
             )
+
+        _render_web_summary_diagnostics(
+            player_summary=str(report_output.get("player_news_summary") or ""),
+            team_summary=str(report_output.get("team_news_summary") or ""),
+            key_prefix="transfer_report",
+            player_label="Transfer Player Web Summary",
+            team_label="Transfer Team Web Summary",
+        )
 
         st.markdown("#### College Player Profile")
         _render_json_lazy(report_output.get("college_player") or {}, key="transfer_portal_college_player_json")

@@ -176,6 +176,9 @@ def build_final_prompt_data(
     pred_score_row: dict[str, Any],
     pred_thr_row: dict[str, Any],
     web_summary: str,
+    *,
+    web_player_summary: str | None = None,
+    web_team_summary: str | None = None,
     vector_result: dict[str, Any],
     historical_comparables_md: str,
     tier_definitions_markdown: Any,
@@ -192,9 +195,29 @@ def build_final_prompt_data(
     hs_background_cap = 1800
     threshold_cap = 1500
     web_summary_cap = 2400
+    web_player_summary_cap = 1600
+    web_team_summary_cap = 1600
     vector_insights_cap = 2200
     historical_comparables_cap = 2200
     tier_definitions_cap = 2200
+
+    web_sections: list[str] = []
+    if str(web_player_summary or "").strip():
+        web_sections.append(
+            "Player Web Summary:\n"
+            f"{_truncate_text(str(web_player_summary or ''), max_chars=web_player_summary_cap)}"
+        )
+    if str(web_team_summary or "").strip():
+        web_sections.append(
+            "Team Web Summary:\n"
+            f"{_truncate_text(str(web_team_summary or ''), max_chars=web_team_summary_cap)}"
+        )
+    if not web_sections and str(web_summary or "").strip():
+        web_sections.append(
+            "Web Intelligence Summary:\n"
+            f"{_truncate_text(web_summary, max_chars=web_summary_cap)}"
+        )
+    web_summary_block = "\n\n".join(web_sections)
 
     prompt = (
         "You are a senior college football recruiting scout.\n"
@@ -212,7 +235,7 @@ def build_final_prompt_data(
         "Prediction Score Row JSON:\n"
         f"{_json_block(pred_score_row, max_chars=json_cap)}\n\n"
         f"Prediction Threshold Probabilities (user-friendly):\n{_truncate_text(threshold_block, max_chars=threshold_cap)}\n\n"
-        f"Web Intelligence Summary:\n{_truncate_text(web_summary, max_chars=web_summary_cap)}\n\n"
+        f"{web_summary_block}\n\n"
         f"Vector Insights:\n{_truncate_text(vector_block, max_chars=vector_insights_cap)}\n\n"
         f"Historical Comparables:\n{_truncate_text(historical_comparables_md, max_chars=historical_comparables_cap)}\n\n"
         f"Tier Definitions:\n{_truncate_text(tier_defs, max_chars=tier_definitions_cap)}\n\n"

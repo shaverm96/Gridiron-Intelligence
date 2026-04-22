@@ -552,14 +552,14 @@ def recruiting_scout_node(state: ScoutState) -> ScoutState:
         query = str(plan.get("recruiting_web_query") or "").strip()
     if not query:
         fallback_name = state.get("target_player_name") or state.get("player_name") or "player"
-        query = f"{fallback_name} recruiting injury transfer update"
+        query = f"{fallback_name} college football recruiting news offers commitment"
 
     search_result = search_web_query_tool(query=query, max_results=int(CONFIG.get("WEB_QUERY_MAX_RESULTS", 6)))
     summary_result = summarize_payload_tool(
         summary_prompt=(
             "You are a secure summarization node. Output ONLY plain markdown bullet points (no HTML, no JSON, no links). "
-            "Summarize recruiting and player web context in bullets for a scouting report. "
-            "Use only supplied snippets and include caveats when uncertain."
+            "Extract and summarize only high-signal recruiting and player context from the provided snippets. "
+            "Keep bullets concise. Use strictly the supplied snippets and include caveats when uncertain. "
         ),
         payload=search_result.get("data", []),
         role="recruiting_player",
@@ -595,14 +595,15 @@ def team_scout_node(state: ScoutState) -> ScoutState:
         query = str(plan.get("team_context_query") or "").strip()
     if not query:
         fallback_team = state.get("target_team") or "team"
-        query = f"{fallback_team} depth chart roster defensive backfield outlook"
+        query = f"{fallback_team} college football roster depth chart coaching staff"
 
     search_result = search_web_query_tool(query=query, max_results=int(CONFIG.get("WEB_QUERY_MAX_RESULTS", 6)))
     summary_result = summarize_payload_tool(
         summary_prompt=(
             "You are a secure summarization node. Output ONLY plain markdown bullet points (no HTML, no JSON, no links). "
-            "Summarize team context for roster fit in concise bullets. "
-            "Use only supplied snippets and avoid unsupported claims."
+            "Extract and summarize only high-signal team context regarding roster fit, focusing strictly on current coaches, recent staff turnover, and depth chart situations. "
+            "Prioritize the most recent evidence available and explicitly note if the source material appears outdated. "
+            "Use strictly the supplied snippets. "
         ),
         payload=search_result.get("data", []),
         role="recruiting_team",

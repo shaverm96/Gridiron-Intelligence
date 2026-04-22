@@ -1434,13 +1434,13 @@ def orchestrate_transfer_report(
 
     def _player_web_task() -> dict[str, Any]:
         query = (
-            f"{player_name} transfer portal college football recent {year}"
+            f"{player_name} transfer portal news college football recent {year}"
         )
         return search_web_query_tool(query=query, max_results=8, timelimit="y")
 
     def _team_web_task() -> dict[str, Any]:
         query = (
-            f"{team_text} transfer portal roster needs college football recent {year} and team context"
+            f"{team_text} college football transfer portal roster needs depth chart coaching staff changes recent {year}"
         )
         return search_web_query_tool(query=query, max_results=8, timelimit="y")
 
@@ -1572,8 +1572,10 @@ def orchestrate_transfer_report(
         player_summary_future = summary_executor.submit(
             summarize_payload_tool,
             summary_prompt=(
-                "Summarize transfer-portal relevant player news in plain markdown bullets. "
-                "Focus on transfer intent, eligibility, role expectations, and recency."
+                "You are a secure summarization node. Output ONLY plain markdown bullet points (no HTML, no JSON, no links). "
+                "Extract and summarize only high-signal transfer-portal player news from the provided snippets. "
+                "Focus strictly on transfer intent, eligibility remaining, role expectations, and timeline. "
+                "Use strictly the supplied snippets. "
             ),
             payload=player_web.get("data") or [],
             role="transfer_player",
@@ -1585,8 +1587,10 @@ def orchestrate_transfer_report(
         team_summary_future = summary_executor.submit(
             summarize_payload_tool,
             summary_prompt=(
-                "Summarize team transfer-portal context in plain markdown bullets. "
-                "Focus on roster needs, depth chart competition, and recent portal trends."
+                "You are a secure summarization node. Output ONLY plain markdown bullet points (no HTML, no JSON, no links). "
+                "Extract and summarize only high-signal team transfer-portal context from the provided snippets. "
+                "Focus strictly on roster needs, depth chart competition, current coaching staff, and recent staff changes. "
+                "Prioritize the most recent evidence available, explicitly note if the source material appears outdated, and use strictly the supplied snippets. "
             ),
             payload=team_web.get("data") or [],
             role="transfer_team",

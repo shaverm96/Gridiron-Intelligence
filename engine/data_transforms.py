@@ -480,10 +480,46 @@ def parse_summary_notes_data(raw_text: str | None) -> list[dict[str, str]]:
     return notes
 
 
+def _is_placeholder_summary_text(raw_text: str | None) -> bool:
+    text = re.sub(r"\s+", " ", str(raw_text or "")).strip().lower()
+    if not text:
+        return True
+
+    placeholder_markers = [
+        "no recruiting",
+        "no recruiting, transfer, or performance data",
+        "no transfer",
+        "no player",
+        "currently available",
+        "insufficient information",
+        "not enough information",
+        "provided payload",
+        "unable to",
+        "unavailable",
+    ]
+    if any(marker in text for marker in placeholder_markers):
+        return True
+
+    if re.search(r"\bno\b.+\bdata\b.+\bavailable\b", text):
+        return True
+
+    return False
+
+
 def build_recruiting_summary_layout_data(raw_text: str | None, context: dict[str, Any] | None = None) -> dict[str, Any]:
     notes = parse_summary_notes_data(raw_text)
     raw = str(raw_text or "")
     ctx = context if isinstance(context, dict) else {}
+
+    if _is_placeholder_summary_text(raw):
+        return {
+            "hero_name": "",
+            "hero_subtitle": "",
+            "physical_profile": "",
+            "grid_items": [],
+            "note_on_recency": "",
+            "notes": [],
+        }
 
     def _norm_label(label: str) -> str:
         return re.sub(r"[^a-z0-9]+", " ", str(label or "").strip().lower()).strip()
