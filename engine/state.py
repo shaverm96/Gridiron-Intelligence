@@ -17,12 +17,12 @@ class DelegatorPlan(BaseModel):
     recruiting_web_query: str = Field(
         default="",
         max_length=200,
-        description="DuckDuckGo query for recruiting context.",
+        description="Tavily query for recruiting context.",
     )
     team_context_query: str = Field(
         default="",
         max_length=200,
-        description="DuckDuckGo query for team context.",
+        description="Tavily query for team context.",
     )
     user_intent: str = Field(default="", max_length=300, description="One-sentence user intent summary.")
 
@@ -58,12 +58,12 @@ class TransferDelegatorPlan(BaseModel):
     player_news_query: str = Field(
         default="",
         max_length=200,
-        description="DuckDuckGo query for transfer portal player news.",
+        description="Tavily query for transfer portal player news.",
     )
     team_news_query: str = Field(
         default="",
         max_length=200,
-        description="DuckDuckGo query for team roster/depth chart transfer context.",
+        description="Tavily query for team roster/depth chart transfer context.",
     )
     user_intent: str = Field(
         default="",
@@ -112,8 +112,12 @@ class ScoutState(TypedDict, total=False):
     cfbd_data_summary: str
     web_recruiting_summary: str
     web_team_summary: str
+    web_recruiting_retrieval: dict[str, Any]
+    web_team_retrieval: dict[str, Any]
     transfer_web_player_summary: str
     transfer_web_team_summary: str
+    transfer_web_player_retrieval: dict[str, Any]
+    transfer_web_team_retrieval: dict[str, Any]
 
     # Gathered contexts
     sql_data_context: dict[str, Any]
@@ -121,6 +125,8 @@ class ScoutState(TypedDict, total=False):
     web_research_context: str
     web_recruiting_used: bool
     web_team_used: bool
+    transfer_web_player_used: bool
+    transfer_web_team_used: bool
     allow_web_refresh: bool
     vector_factoids: list[str]
     comparables_context: str
@@ -167,8 +173,8 @@ def initial_structured_state(
                 "name": player_name,
                 "college_team": target_team,
             },
-            recruiting_web_query=f"{player_name} college football recruiting news offers profile",
-            team_context_query=f"{target_team} college football roster depth chart coaching staff",
+            recruiting_web_query=f"{player_name} college football recruiting player news recent",
+            team_context_query=f"{target_team} college football team context recent",
             user_intent="Generate a structured scouting report.",
         ).model_dump(),
         "cfbd_data_summary": "",
@@ -253,8 +259,8 @@ def initial_structured_web_state(
         "active_report_context": {},
         "delegator_plan": DelegatorPlan(
             cfbd_search_params={},
-            recruiting_web_query=f"{player_name} college football recruiting news offers commitment update",
-            team_context_query=f"{target_team} college football roster depth chart coaching staff updates",
+            recruiting_web_query=f"{player_name} college football recruiting player news recent",
+            team_context_query=f"{target_team} college football team context recent",
             user_intent="Generate structured recruiting and team web summaries.",
         ).model_dump(),
         "cfbd_data_summary": "",

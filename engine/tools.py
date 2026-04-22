@@ -33,14 +33,9 @@ from .supabase_client import (
 )
 
 try:
-    from ddgs import DDGS
+    from tavily import TavilyClient
 except Exception:  # pragma: no cover
-    DDGS = None
-
-try:
-    import ddgs.http_client as _ddgs_http_client
-except Exception:  # pragma: no cover
-    _ddgs_http_client = None
+    TavilyClient = None
 
 try:
     from langchain_google_genai import ChatGoogleGenerativeAI
@@ -65,18 +60,6 @@ MODEL_ALIAS_MAP = {
     "gemini-3.1-flash-lite-preview": "gemini-3.1-flash-lite-preview",
 }
 SUMMARY_MEMO_CACHE: dict[str, dict[str, Any]] = {}
-
-
-def _configure_ddgs_compatibility() -> None:
-    if _ddgs_http_client is None:
-        return
-
-    supported_impersonates = ("chrome_144",)
-    _ddgs_http_client.HttpClient._impersonates = supported_impersonates
-    _ddgs_http_client.HttpClient._impersonates_os = ("windows",)
-
-
-_configure_ddgs_compatibility()
 
 
 def _normalize_model_name(model_name: str) -> str:
@@ -162,6 +145,7 @@ def _summary_context_prefix(
     entity_kind: str | None = None,
     team_name: str | None = None,
     target_name: str | None = None,
+    entity_context: dict[str, Any] | None = None,
 ) -> str:
     role_text = str(role or "general").strip().lower()
     entity_text = str(entity_kind or "").strip().lower()
@@ -179,12 +163,36 @@ def _summary_context_prefix(
     if team_text:
         lines.append(f"- Target team: {team_text}")
 
+    context_map = dict(entity_context or {})
+    for key in (
+        "player_name",
+        "player_position",
+        "high_school",
+        "prior_colleges",
+        "team_name",
+        "conference",
+    ):
+        value = context_map.get(key)
+        if value in (None, "", []):
+            continue
+        if isinstance(value, list):
+            value_text = ", ".join(str(item).strip() for item in value if str(item).strip())
+        else:
+            value_text = str(value).strip()
+        if not value_text:
+            continue
+        pretty_key = key.replace("_", " ").title()
+        lines.append(f"- Known {pretty_key}: {value_text}")
+
     if role_text in {"recruiting_player", "transfer_player", "player"}:
         lines.append("- Focus on player-specific recruiting, transfer, or performance context.")
     elif role_text in {"recruiting_team", "transfer_team", "team"}:
         lines.append("- Focus on team, roster, depth-chart, or program-level context.")
     else:
         lines.append("- Adapt the response to the supplied scouting or transfer context.")
+    lines.append(
+        "- If snippets mention a different player or team than the known context, treat them as irrelevant and exclude them."
+    )
 
     return "\n".join(lines) + "\n\n"
 
@@ -453,23 +461,51 @@ def _with_current_date_context(prompt_text: str) -> str:
     return f"{date_context}{str(prompt_text or '').strip()}"
 
 
+def _resolve_tavily_days(timelimit: str | None = None, max_age_days: int | None = None) -> int:
+    if isinstance(max_age_days, int) and max_age_days > 0:
+        return int(max_age_days)
+
+    mapped = {
+        "d": 1,
+        "w": 7,
+        "m": 30,
+        "y": 365,
+    }
+    key = str(timelimit or "").strip().lower()
+    return mapped.get(key, 365)
+
+
+def _tavily_failure_reason(exc: BaseException) -> str:
+    message = str(exc or "").strip()
+    lowered = message.lower()
+    if any(token in lowered for token in ("429", "rate", "limit", "too many requests")):
+        return f"Tavily rate limited after retries: {message or 'rate limit response'}"
+    if "timeout" in lowered:
+        return f"Tavily request timed out after retries: {message or 'timeout'}"
+    return f"Tavily search failed: {message or type(exc).__name__}"
+
+
 @retry(
     retry=retry_if_exception_type(Exception),
     stop=stop_after_attempt(3),
     wait=wait_exponential(multiplier=0.5, min=0.5, max=3),
     reraise=True,
 )
-def _ddgs_text_search(query: str, max_results: int, timelimit: str | None = None) -> list[dict[str, Any]]:
-    if DDGS is None:
+def _tavily_search(query: str, max_results: int, days: int) -> list[dict[str, Any]]:
+    if TavilyClient is None:
         return []
-    rows: list[dict[str, Any]] = []
-    query_kwargs: dict[str, Any] = {"max_results": max_results}
-    if str(timelimit or "").strip() in {"d", "w", "m", "y"}:
-        query_kwargs["timelimit"] = str(timelimit).strip()
-    with DDGS() as ddgs:
-        for result in ddgs.text(str(query or ""), **query_kwargs):
-            rows.append(result)
-    return rows
+    api_key = str(CONFIG.get("TAVILY_API_KEY") or "").strip()
+    if not api_key:
+        raise RuntimeError("TAVILY_API_KEY not configured")
+
+    client = TavilyClient(api_key=api_key)
+    response = client.search(
+        query=str(query or ""),
+        search_depth="advanced",
+        max_results=int(max_results),
+        days=int(max(1, days)),
+    )
+    return list((response or {}).get("results") or [])
 
 
 def normalize_position_group(position_value: str | None) -> str:
@@ -519,8 +555,8 @@ def delegator_plan_tool(user_query: str, target_team: str = "", target_player_na
                 "college_team": fallback_team,
                 "position": "",
             },
-            recruiting_web_query=f"{fallback_player} college football recruiting news offers profile".strip(),
-            team_context_query=f"{fallback_team} college football roster depth chart coaching staff updates".strip(),
+            recruiting_web_query=f"{fallback_player} college football recruiting player news recent".strip(),
+            team_context_query=f"{fallback_team} college football team news recent".strip(),
             user_intent=(user_query or "Generate a scouting report.")[:220],
         ).model_dump()
 
@@ -533,8 +569,9 @@ def delegator_plan_tool(user_query: str, target_team: str = "", target_player_na
         "Create a delegator plan for a college football scouting workflow. "
         "Infer likely player/team context from the user request. "
         "Return concise search params and queries. "
-        "Set recruiting_web_query to player-specific recruiting context only (offers, visits, commitment status, injuries, profile). "
-        "Set team_context_query to broad team context only (roster composition, depth chart, coaching staff, recent staff changes, program direction). "
+        "Set recruiting_web_query to recent college football recruiting/player news focused on the target player (short, entity-first query, no long keyword list). "
+        "Set team_context_query to broad recent team context for college football (program/team updates, not player-specific). "
+        "Use short, entity-first queries with minimal modifiers and rely on summarization to condense relevance. "
         "Do not make team_context_query specific to the target player; final synthesis combines both streams.\n\n"
         f"User query: {user_query}\n"
         f"Known target team: {target_team}\n"
@@ -579,8 +616,8 @@ def delegator_plan_tool(user_query: str, target_team: str = "", target_player_na
             "college_team": target_team or "",
             "position": "",
         },
-        recruiting_web_query=f"{target_player_name} college football recruiting news offers profile".strip(),
-        team_context_query=f"{target_team} college football roster depth chart coaching staff updates".strip(),
+        recruiting_web_query=f"{target_player_name} college football recruiting player news recent".strip(),
+        team_context_query=f"{target_team} college football team news recent".strip(),
         user_intent=(user_query or "Generate a scouting report.")[:220],
     ).model_dump()
 def search_web_query_tool(
@@ -590,13 +627,13 @@ def search_web_query_tool(
     target_search_sites: list[str] | None = None,
     max_age_days: int | None = None,
 ) -> dict[str, Any]:
-    if DDGS is None:
-        return {"status": "skipped", "reason": "DDGS not installed", "data": [], "citations": []}
+    if TavilyClient is None:
+        return {"status": "skipped", "reason": "Tavily client not installed", "data": [], "citations": []}
+    if not str(CONFIG.get("TAVILY_API_KEY") or "").strip():
+        return {"status": "skipped", "reason": "TAVILY_API_KEY not configured", "data": [], "citations": []}
 
-    effective_max_results = int(max_results if max_results is not None else CONFIG.get("WEB_QUERY_MAX_RESULTS", 6))
-    effective_timelimit = str(timelimit or "").strip().lower() or None
-    if effective_timelimit not in {None, "d", "w", "m", "y"}:
-        effective_timelimit = None
+    effective_max_results = int(max_results if max_results is not None else CONFIG.get("WEB_QUERY_MAX_RESULTS", 10))
+    effective_days = _resolve_tavily_days(timelimit=timelimit, max_age_days=max_age_days)
 
     target_sites = _normalize_target_search_sites(target_search_sites)
     site_clause = _site_query_clause(target_sites)
@@ -607,35 +644,51 @@ def search_web_query_tool(
     rows: list[dict[str, str]] = []
     citations: list[dict[str, str]] = []
     try:
-        results = _ddgs_text_search(
+        results = _tavily_search(
             search_query,
             max_results=effective_max_results,
-            timelimit=effective_timelimit,
+            days=effective_days,
         )
         for result in results:
-            url = str(result.get("href") or "")
+            url = str(result.get("url") or result.get("href") or "").strip()
             if not url:
                 continue
             if target_sites and not any(site in url.lower() for site in target_sites):
                 continue
-            published_date = _extract_result_date(result)
+            published_date = _extract_result_date(
+                {
+                    "date": result.get("published_date") or result.get("date"),
+                    "title": result.get("title"),
+                    "body": result.get("content") or result.get("snippet") or result.get("description"),
+                    "snippet": result.get("snippet") or result.get("description"),
+                }
+            )
             row = {
                 "title": str(result.get("title") or ""),
                 "url": url,
-                "snippet": str(result.get("body") or ""),
+                "snippet": str(
+                    result.get("content")
+                    or result.get("snippet")
+                    or result.get("description")
+                    or result.get("body")
+                    or ""
+                ),
                 "published_date": published_date.isoformat() if published_date else "",
             }
             rows.append(row)
             citations.append(
                 {
                     "source_type": "web",
-                    "source_name": row["title"] or "DDGS result",
+                    "source_name": row["title"] or "Tavily result",
                     "source_url": row["url"],
                 }
             )
+        if not rows:
+            return {"status": "ok", "reason": "search complete (no results)", "data": [], "citations": []}
         return {"status": "ok", "reason": "search complete", "data": rows, "citations": citations}
     except Exception as exc:
-        return {"status": "skipped", "reason": f"DDGS search failed: {exc}", "data": [], "citations": []}
+        logger.warning("tavily_search_failed query=%s reason=%s", search_query, exc)
+        return {"status": "skipped", "reason": _tavily_failure_reason(exc), "data": [], "citations": []}
 
 
 def summarize_payload_tool(
@@ -645,6 +698,7 @@ def summarize_payload_tool(
     entity_kind: str | None = None,
     target_name: str | None = None,
     target_team: str | None = None,
+    entity_context: dict[str, Any] | None = None,
 ) -> dict[str, Any]:
     llm = _get_llm(CONFIG["SUMMARY_MODEL"], temperature=0.0, max_output_tokens=1200)
     if llm is None:
@@ -657,7 +711,7 @@ def summarize_payload_tool(
 
     payload_text = _payload_to_text(payload)
     full_prompt = (
-        f"{_summary_context_prefix(role=role, entity_kind=entity_kind, team_name=target_team, target_name=target_name)}"
+        f"{_summary_context_prefix(role=role, entity_kind=entity_kind, team_name=target_team, target_name=target_name, entity_context=entity_context)}"
         f"{summary_prompt}\n\nPayload:\n{payload_text}"
     )
     prompt_with_date = _with_current_date_context(full_prompt)
@@ -1154,8 +1208,8 @@ def transfer_delegator_plan_tool(
         fallback_player = target_player_name or ""
         fallback_team = target_team or ""
         return TransferDelegatorPlan(
-            player_news_query=f"{fallback_player} transfer portal news".strip(),
-            team_news_query=f"{fallback_team} college football transfer portal roster needs coaching staff updates".strip(),
+            player_news_query=f"{fallback_player} college football transfer player news recent".strip(),
+            team_news_query=f"{fallback_team} college football team news recent".strip(),
             user_intent=(user_query or "Analyze transfer portal opportunity.")[:220],
             should_refresh_web=True,
         ).model_dump()
@@ -1170,8 +1224,9 @@ def transfer_delegator_plan_tool(
         "Analyze the user's question to infer if they are asking about recent news, stats, or team fit.\n"
         "If they ask for stats or usage, set should_refresh_web to False. "
         "If they explicitly request the latest news, rumors, or updates, set should_refresh_web to True and provide queries to search.\n"
-        "Set player_news_query to player-specific transfer context only (portal intent, eligibility, timeline, role expectations). "
-        "Set team_news_query to broad team context only (roster needs, depth chart competition, coaching staff, recent staff changes, program outlook). "
+        "Set player_news_query to recent college football transfer news focused on the target player (short, entity-first query). "
+        "Set team_news_query to broad recent team context for college football (short, entity-first query). "
+        "Avoid stuffing many keywords into the query; retrieval should be broad and summarization will condense. "
         "Do not tailor team_news_query to the specific target player; final synthesis combines player and team streams. "
         "Bias team context toward stable references such as Wikipedia when it helps ground roster or program-level context.\n\n"
         f"User query: {user_query}\n"
@@ -1212,8 +1267,8 @@ def transfer_delegator_plan_tool(
         raise TransferDelegatorOutputValidationError(f"Delegator invoke failed: {exc}") from exc
 
     return TransferDelegatorPlan(
-        player_news_query=f"{target_player_name} transfer portal news".strip(),
-        team_news_query=f"{target_team} college football transfer portal roster needs coaching staff updates".strip(),
+        player_news_query=f"{target_player_name} college football transfer player news recent".strip(),
+        team_news_query=f"{target_team} college football team context recent".strip(),
         user_intent=(user_query or "Analyze transfer portal opportunity.")[:220],
         should_refresh_web=True,
     ).model_dump()

@@ -597,6 +597,41 @@ def orchestrate_chat_turn(
     return result_state
 
 
+def orchestrate_follow_up_chat_turn(
+    user_prompt: str,
+    current_state: dict[str, Any] | None = None,
+    portal: str = "recruiting",
+    target_team: str = "",
+    target_player_name: str = "",
+    allow_web_refresh: bool = True,
+    graph: Any | None = None,
+    progress_callback: ProgressCallback | None = None,
+) -> dict[str, Any]:
+    resolved_portal = str(portal or "recruiting").strip().lower()
+    if resolved_portal == "transfer":
+        return orchestrate_transfer_chat_turn(
+            user_prompt=user_prompt,
+            current_state=current_state,
+            allow_web_refresh=allow_web_refresh,
+            graph=graph,
+            progress_callback=progress_callback,
+        )
+
+    state = _ensure_base_state(current_state)
+    state["allow_web_refresh"] = bool(allow_web_refresh)
+    result_state = orchestrate_chat_turn(
+        user_prompt=user_prompt,
+        current_state=state,
+        target_team=target_team,
+        target_player_name=target_player_name,
+        graph=graph,
+        progress_callback=progress_callback,
+    )
+    if isinstance(result_state, dict):
+        result_state.setdefault("status", "ok")
+    return dict(result_state or {})
+
+
 def orchestrate_structured_web_scouting(
     player_name: str,
     recruit_id: str,
@@ -1434,15 +1469,15 @@ def orchestrate_transfer_report(
 
     def _player_web_task() -> dict[str, Any]:
         query = (
-            f"{player_name} transfer portal news college football recent {year}"
+            f"{player_name} college football transfer player news recent"
         )
-        return search_web_query_tool(query=query, max_results=8, timelimit="y")
+        return search_web_query_tool(query=query, max_results=10, timelimit="m")
 
     def _team_web_task() -> dict[str, Any]:
         query = (
-            f"{team_text} college football transfer portal roster needs depth chart coaching staff changes recent {year}"
+            f"{team_text} college football team news recent"
         )
-        return search_web_query_tool(query=query, max_results=8, timelimit="y")
+        return search_web_query_tool(query=query, max_results=10, timelimit="m")
 
     def _result_or_timeout(
         future: Any,
@@ -1730,6 +1765,8 @@ def orchestrate_transfer_report(
         "exclude_garbage_time": bool(pull_config.get("exclude_garbage_time", exclude_garbage_time)),
         "player_news_summary": player_news_summary,
         "team_news_summary": team_news_summary,
+        "player_news_retrieval": dict(player_web or {}),
+        "team_news_retrieval": dict(team_web or {}),
         "final_report": str(synthesis_result.get("data") or "").strip(),
         "telemetry": orchestration_telemetry,
         "trace_log": [
@@ -1766,6 +1803,8 @@ def orchestrate_transfer_report(
             "exclude_garbage_time": bool(pull_config.get("exclude_garbage_time", exclude_garbage_time)),
             "player_news_summary": player_news_summary,
             "team_news_summary": team_news_summary,
+            "player_news_retrieval": dict(player_web or {}),
+            "team_news_retrieval": dict(team_web or {}),
             "telemetry": orchestration_telemetry,
         },
     }

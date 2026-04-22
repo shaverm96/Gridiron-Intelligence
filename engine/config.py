@@ -49,6 +49,7 @@ CONFIG = {
     "SUPABASE_URL": os.getenv("SUPABASE_URL", ""),
     "SUPABASE_SERVICE_ROLE_KEY": os.getenv("SUPABASE_SERVICE_ROLE_KEY", ""),
     "GEMINI_API_KEY": os.getenv("GEMINI_API_KEY", ""),
+    "TAVILY_API_KEY": os.getenv("TAVILY_API_KEY", ""),
     "CFBD_API_KEY": os.getenv("CFBD_API_KEY", "") or os.getenv("CFBD_API", ""),
     "CFBD_BASE_URL": os.getenv("CFBD_BASE_URL", "https://api.collegefootballdata.com"),
     "FINAL_MODEL": _normalize_model_name(
@@ -59,7 +60,7 @@ CONFIG = {
         os.getenv("GI_SUMMARY_MODEL", "gemini-3.1-flash-lite-preview"),
         "gemini-3.1-flash-lite-preview",
     ),
-    "WEB_QUERY_MAX_RESULTS": int(os.getenv("GI_WEB_QUERY_MAX_RESULTS", "6")),
+    "WEB_QUERY_MAX_RESULTS": int(os.getenv("GI_WEB_QUERY_MAX_RESULTS", "10")),
     "PROMPT_PAYLOAD_MAX_CHARS": int(os.getenv("GI_PROMPT_PAYLOAD_MAX_CHARS", "12000")),
     "FINAL_PROMPT_MAX_CHARS": int(os.getenv("GI_FINAL_PROMPT_MAX_CHARS", "20000")),
     "SUMMARY_TIMEOUT_SECONDS": max(10, int(os.getenv("GI_SUMMARY_TIMEOUT_SECONDS", "45"))),
@@ -98,8 +99,7 @@ CONFIG = {
         "espn.com",
         "on3.com",
         "cbssports.com",
-        "usatodayhss.com",
-        "wikipedia.org",
+        "usatodayhss.com"
     ],
 }
 

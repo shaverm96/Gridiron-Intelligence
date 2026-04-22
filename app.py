@@ -22,7 +22,6 @@ except ImportError:
 from engine import (
     get_scout_graph,
     get_structured_web_graph,
-    orchestrate_chat_turn,
     orchestrate_structured_web_scouting,
 )
 from engine.state import (
@@ -68,8 +67,8 @@ from engine.data_transforms import (
     transfer_to_percent_points,
 )
 from engine.orchestration_service import (
+    orchestrate_follow_up_chat_turn,
     orchestrate_transfer_cfbd_context,
-    orchestrate_transfer_chat_turn,
     orchestrate_transfer_report,
 )
 from engine.synthesis_service import (
@@ -84,6 +83,7 @@ from engine.tools import (
     cfbd_search_players_tool,
     delegator_plan_tool,
     resolve_player_identity_tool,
+    search_web_query_tool,
 )
 from engine.utils import (
     first_non_null,
@@ -520,36 +520,49 @@ def _render_json_lazy(payload: Any, key: str, label: str = "Render JSON") -> Non
 
 
 def _render_web_summary_diagnostics(
-    player_summary: str,
-    team_summary: str,
+    player_payload: Any,
+    team_payload: Any,
     key_prefix: str,
-    player_label: str = "Player Web Summary",
-    team_label: str = "Team Web Summary",
+    player_label: str = "Player Web Retrieval",
+    team_label: str = "Team Web Retrieval",
 ) -> None:
-    st.markdown("#### Web Summary Diagnostics")
+    def _payload_text(payload: Any) -> str:
+        if payload is None:
+            return "Raw retrieval missing from report payload."
+        if isinstance(payload, str):
+            return payload
+        try:
+            return json.dumps(payload, indent=2, default=str)
+        except Exception:
+            return str(payload)
+
+    player_text = _payload_text(player_payload)
+    team_text = _payload_text(team_payload)
+
+    st.markdown("#### Web Retrieval Diagnostics")
     left_col, right_col = st.columns(2)
     with left_col:
         st.markdown(f"**{player_label}**")
         st.text_area(
             player_label,
-            value=str(player_summary or "") or "No player summary available.",
+            value=player_text or "No player retrieval available.",
             height=220,
             disabled=True,
             label_visibility="collapsed",
             key=f"{key_prefix}_player_web_summary",
         )
-        st.caption(f"Chars: {len(str(player_summary or ''))}")
+        st.caption(f"Chars: {len(player_text)}")
     with right_col:
         st.markdown(f"**{team_label}**")
         st.text_area(
             team_label,
-            value=str(team_summary or "") or "No team summary available.",
+            value=team_text or "No team retrieval available.",
             height=220,
             disabled=True,
             label_visibility="collapsed",
             key=f"{key_prefix}_team_web_summary",
         )
-        st.caption(f"Chars: {len(str(team_summary or ''))}")
+        st.caption(f"Chars: {len(team_text)}")
 
 
 def _target_team_name(team_option: str) -> str:
@@ -798,6 +811,120 @@ def render_local_cfbd_debugger_page() -> None:
         _render_json_lazy(season_stats_table_compact, key="transfer_debug_season_stats_compact_json")
 
 
+def render_local_tavily_debugger_page() -> None:
+    st.subheader("Local Tavily Query Explorer")
+    st.caption(
+        "Run Tavily retrieval directly against the project search tool and inspect the first 10 raw results. "
+        "This page is only available when the app is launched locally."
+    )
+
+    query_key = "local_tavily_query"
+    timelimit_key = "local_tavily_timelimit"
+    use_sites_key = "local_tavily_use_sites"
+    result_key = "local_tavily_result"
+    meta_key = "local_tavily_meta"
+
+    query_text = st.text_input(
+        "Search Query",
+        value=str(st.session_state.get(query_key) or ""),
+        placeholder="Enter a Tavily query to inspect raw retrieval output",
+        key="local_tavily_query_input",
+    )
+    st.session_state[query_key] = str(query_text or "")
+
+    col1, col2 = st.columns(2)
+    with col1:
+        timelimit_label = st.selectbox(
+            "Timelimit",
+            ["Any", "Day", "Week", "Month", "Year"],
+            index=["Any", "Day", "Week", "Month", "Year"].index(
+                str(st.session_state.get(timelimit_key) or "Month")
+                if str(st.session_state.get(timelimit_key) or "Month") in {"Any", "Day", "Week", "Month", "Year"}
+                else "Month"
+            ),
+            key="local_tavily_timelimit_select",
+        )
+        st.session_state[timelimit_key] = timelimit_label
+    with col2:
+        use_configured_sites = st.checkbox(
+            "Use configured target sites",
+            value=bool(st.session_state.get(use_sites_key, True)),
+            key="local_tavily_use_sites_checkbox",
+        )
+        st.session_state[use_sites_key] = bool(use_configured_sites)
+
+    timelimit_map = {
+        "Any": None,
+        "Day": "d",
+        "Week": "w",
+        "Month": "m",
+        "Year": "y",
+    }
+
+    if st.button("Run Tavily Search", type="primary", key="local_tavily_run"):
+        normalized_query = str(query_text or "").strip()
+        if not normalized_query:
+            st.warning("Enter a search query before running Tavily retrieval.")
+        else:
+            with st.spinner("Running Tavily search..."):
+                result = search_web_query_tool(
+                    query=normalized_query,
+                    max_results=10,
+                    timelimit=timelimit_map.get(timelimit_label),
+                    target_search_sites=None if use_configured_sites else [],
+                )
+            st.session_state[result_key] = result
+            st.session_state[meta_key] = {
+                "query": normalized_query,
+                "timelimit": timelimit_map.get(timelimit_label) or "any",
+                "use_configured_sites": bool(use_configured_sites),
+                "target_sites": list(CONFIG.get("TARGET_SEARCH_SITES") or []) if use_configured_sites else [],
+            }
+
+    result_payload = st.session_state.get(result_key)
+    meta = dict(st.session_state.get(meta_key) or {})
+    if not isinstance(result_payload, dict):
+        st.info("Run a query to inspect raw Tavily retrieval results.")
+        return
+
+    rows = list(result_payload.get("data") or [])
+    st.markdown("### Query Summary")
+    st.write(f"- Query: {meta.get('query', '')}")
+    st.write(f"- Timelimit: {meta.get('timelimit', 'any')}")
+    st.write(f"- Use configured sites: {'Yes' if bool(meta.get('use_configured_sites')) else 'No'}")
+    if bool(meta.get("use_configured_sites")):
+        configured_sites = list(meta.get("target_sites") or [])
+        st.write(f"- Target sites: {', '.join(configured_sites) if configured_sites else 'None'}")
+    st.write(f"- Status: {result_payload.get('status', 'unknown')}")
+    st.write(f"- Reason: {result_payload.get('reason', '')}")
+    st.write(f"- Result count: {len(rows)}")
+
+    st.markdown("### Retrieved Items")
+    if not rows:
+        st.info("No Tavily results were returned for this query.")
+    else:
+        for idx, row in enumerate(rows[:10], start=1):
+            title = str(row.get("title") or "Untitled result").strip() or "Untitled result"
+            url = str(row.get("url") or "").strip()
+            snippet = str(row.get("snippet") or "").strip()
+            published_date = str(row.get("published_date") or "").strip()
+            st.markdown(f"#### {idx}. {title}")
+            if url:
+                st.markdown(f"[Open result]({url})")
+            st.write(f"Published date: {published_date or 'Unknown'}")
+            st.text_area(
+                f"Snippet {idx}",
+                value=snippet or "No snippet returned.",
+                height=140,
+                disabled=True,
+                key=f"local_tavily_snippet_{idx}",
+                label_visibility="collapsed",
+            )
+
+    with st.expander("Raw Tavily Response JSON"):
+        st.code(json.dumps(result_payload, indent=2, default=str), language="json")
+
+
 def _safe_int_telemetry(value: Any) -> int:
     try:
         if value is None:
@@ -916,6 +1043,7 @@ if app_page != "Landing Page":
         ]
         if _is_local_debug_page_enabled():
             workspace_options.append("Local CFBD Debugger")
+            workspace_options.append("Local Tavily Explorer")
 
         default_index = workspace_options.index(app_page) if app_page in workspace_options else 0
         app_page = st.radio("Workspace", workspace_options, index=default_index)
@@ -1065,6 +1193,13 @@ def _get_transfer_render_artifacts(
     return artifact
 
 
+def _transfer_metric_formats(metric_name: str) -> tuple[str, str]:
+    metric_text = str(metric_name or "").lower()
+    if "pct" in metric_text:
+        return "{:.3f}", ".3f"
+    return "{:.0f}", ".0f"
+
+
 def _render_transfer_usage_chart(section_key: str, artifacts: dict[str, Any]) -> None:
     usage_display_df = artifacts.get("usage_display_df")
     usage_cols = list(artifacts.get("usage_cols") or [])
@@ -1094,16 +1229,20 @@ def _render_transfer_usage_chart(section_key: str, artifacts: dict[str, Any]) ->
         st.write("No usage points available for selected metric.")
         return
     usage_plot_df["year"] = usage_plot_df["year"].astype(int)
-    usage_plot_df = usage_plot_df.sort_values("year").drop_duplicates(subset=["year"], keep="last")
+    usage_plot_df = (
+        usage_plot_df.groupby("year", as_index=False)[usage_metric]
+        .max()
+        .sort_values("year")
+    )
     if usage_plot_df.empty:
         st.write("No usage points available for selected metric.")
         return
     usage_plot_df["usage_label"] = usage_plot_df[usage_metric].map(lambda v: f"{float(v):.1f}")
 
     base = alt.Chart(usage_plot_df).encode(
-        x=alt.X("year:Q", title="Year", axis=alt.Axis(format="d")),
+        x=alt.X("year:O", title="Year", sort="ascending"),
         y=alt.Y(f"{usage_metric}:Q", title="Usage %", axis=alt.Axis(format=".1f")),
-        tooltip=[alt.Tooltip("year:Q", title="Year", format="d"), alt.Tooltip(f"{usage_metric}:Q", title="Usage %", format=".1f")],
+        tooltip=[alt.Tooltip("year:O", title="Year"), alt.Tooltip(f"{usage_metric}:Q", title="Usage %", format=".1f")],
     )
     line = base.mark_line()
     points = base.mark_point(size=80, filled=True)
@@ -1153,14 +1292,19 @@ def _render_transfer_stat_bar_chart(section_key: str, artifacts: dict[str, Any])
         st.write("No numeric values available for selected stat metric.")
         return
 
+    stat_label_fmt, stat_tooltip_fmt = _transfer_metric_formats(stat_metric)
     stat_plot_df["baseline"] = 0.0
-    stat_plot_df["stat_label"] = stat_plot_df[stat_metric].map(lambda v: f"{float(v):.1f}")
+    stat_plot_df["stat_label"] = stat_plot_df[stat_metric].map(lambda v: stat_label_fmt.format(float(v)))
     base = alt.Chart(stat_plot_df).encode(
         x=alt.X("year:O", title="Year"),
-        tooltip=[alt.Tooltip("year:Q", title="Year", format="d"), alt.Tooltip(f"{stat_metric}:Q", title="Value", format=".1f")],
+        tooltip=[alt.Tooltip("year:Q", title="Year", format="d"), alt.Tooltip(f"{stat_metric}:Q", title="Value", format=stat_tooltip_fmt)],
     )
     bars = base.mark_bar(size=48).encode(
-        y=alt.Y(f"{stat_metric}:Q", title=stat_metric.replace("_", " ").title())
+        y=alt.Y(
+            f"{stat_metric}:Q",
+            title=stat_metric.replace("_", " ").title(),
+            axis=alt.Axis(format=stat_tooltip_fmt),
+        )
     )
     bar_labels = base.mark_text(dy=-4, baseline="bottom", fontSize=14, fontWeight="bold", color="#111827").encode(
         y=alt.Y("baseline:Q"),
@@ -1196,7 +1340,11 @@ def _render_transfer_tables(artifacts: dict[str, Any]) -> None:
         percent_cols = [col for col in usage_cols + subset_delta if col in usage_view_df.columns]
         styled_usage = usage_view_df.style.hide(axis="index")
         if percent_cols:
-            styled_usage = styled_usage.format({col: "{:.1f}%" for col in percent_cols})
+            percent_formatters = {
+                col: (lambda v: f"{float(v):.1f}%" if pd.notna(v) and np.isfinite(v) else "")
+                for col in percent_cols
+            }
+            styled_usage = styled_usage.format(percent_formatters)
         if subset_delta:
             styled_usage = styled_usage.map(_usage_delta_cell_style, subset=subset_delta)
         styled_usage = styled_usage.set_properties(**{
@@ -1220,7 +1368,10 @@ def _render_transfer_tables(artifacts: dict[str, Any]) -> None:
         stats_formatters = {}
         for col in stats_view_df.columns:
             if pd.api.types.is_numeric_dtype(stats_view_df[col]):
-                stats_formatters[col] = "{:.3f}" if "pct" in str(col).lower() else "{:.0f}"
+                if "pct" in str(col).lower():
+                    stats_formatters[col] = lambda v: f"{float(v):.3f}" if pd.notna(v) and np.isfinite(v) else ""
+                else:
+                    stats_formatters[col] = lambda v: f"{float(v):.0f}" if pd.notna(v) and np.isfinite(v) else ""
 
         styled_stats = stats_view_df.style.hide(axis="index")
         if stats_formatters:
@@ -1310,6 +1461,32 @@ def _build_recruiting_layout_safe(raw_text: str | None, context: dict[str, Any] 
     }
 
 
+def _note_bullet_items(text: str) -> list[str]:
+    raw = str(text or "").strip()
+    if not raw:
+        return []
+
+    candidates = [line.strip() for line in raw.splitlines() if line.strip()]
+    if not candidates:
+        candidates = [raw]
+
+    cleaned: list[str] = []
+    for line in candidates:
+        normalized = re.sub(r"^[-*\u2022\u25cf]+\s*", "", line).strip()
+        if normalized:
+            cleaned.append(normalized)
+
+    return cleaned
+
+
+def _render_note_bullets_html(text: str, css_class: str) -> str:
+    items = _note_bullet_items(text)
+    if not items:
+        return ""
+    list_items = "".join([f"<li>{html.escape(item)}</li>" for item in items])
+    return f"<ul class='{css_class}'>{list_items}</ul>"
+
+
 def _render_recruiting_summary_card(raw_text: str | None, context: dict[str, Any] | None = None) -> None:
     data = _build_recruiting_layout_safe(raw_text, context=context)
     notes = list(data.get("notes") or [])
@@ -1376,7 +1553,7 @@ def _render_recruiting_summary_card(raw_text: str | None, context: dict[str, Any
                 "</div>"
                 "<div class='recruiting-dossier-note-body'>"
                 f"{icon_html}"
-                f"<span>{html.escape(str(item.get('value') or ''))}</span>"
+                f"{_render_note_bullets_html(str(item.get('value') or ''), 'recruiting-dossier-note-bullets')}"
                 "</div>"
                 "</article>"
             )
@@ -1445,12 +1622,12 @@ def render_structured_summary_card(
             (
                 f"<div class='structured-summary-note{note_variant}'>"
                 f"<div class='structured-summary-note-label'>{html.escape(note.get('label') or 'Note')}</div>"
-                f"<div class='structured-summary-note-body'>{html.escape(note.get('body') or '')}</div>"
+                f"<div class='structured-summary-note-body'>{_render_note_bullets_html(str(note.get('body') or ''), 'structured-summary-note-bullets')}</div>"
                 "</div>"
                 if str(note.get("label") or "").strip()
                 else (
                     f"<div class='structured-summary-note structured-summary-note--plain{note_variant}'>"
-                    f"<div class='structured-summary-note-body'>{html.escape(note.get('body') or '')}</div>"
+                    f"<div class='structured-summary-note-body'>{_render_note_bullets_html(str(note.get('body') or ''), 'structured-summary-note-bullets')}</div>"
                     "</div>"
                 )
             )
@@ -2308,6 +2485,8 @@ def render_structured_report_with_chat_page() -> None:
             "score_card_html": score_card_html,
             "web_recruiting_summary": web_recruiting_summary,
             "web_team_summary": web_team_summary,
+            "web_recruiting_retrieval": dict(web_state.get("web_recruiting_retrieval") or {}),
+            "web_team_retrieval": dict(web_state.get("web_team_retrieval") or {}),
             "final_report": final_report,
             "player_profile": player_profile,
             "player_row": player_row,
@@ -2546,6 +2725,15 @@ def render_structured_report_with_chat_page() -> None:
                 line-height: 1.5;
                 color: color-mix(in srgb, var(--text-color) 94%, transparent);
             }
+            .structured-summary-note-bullets {
+                margin: 0;
+                padding-left: 1.02rem;
+                list-style: disc;
+            }
+            .structured-summary-note-bullets li {
+                margin: 0.1rem 0;
+                line-height: 1.45;
+            }
             .structured-summary-note--dense .structured-summary-note-label {
                 margin-bottom: 0.2rem;
                 font-size: 0.66rem;
@@ -2705,6 +2893,15 @@ def render_structured_report_with_chat_page() -> None:
                 font-size: 0.97rem;
                 line-height: 1.42;
                 color: color-mix(in srgb, var(--text-color) 94%, transparent);
+            }
+            .recruiting-dossier-note-bullets {
+                margin: 0;
+                padding-left: 1.02rem;
+                list-style: disc;
+            }
+            .recruiting-dossier-note-bullets li {
+                margin: 0.12rem 0;
+                line-height: 1.4;
             }
             .recruiting-dossier-note-icon {
                 flex: 0 0 auto;
@@ -3021,11 +3218,11 @@ def render_structured_report_with_chat_page() -> None:
             st.write(f"Parsed notes count: {len(recruiting_layout.get('notes') or [])}")
             st.write(f"Grid items count: {len(recruiting_layout.get('grid_items') or [])}")
             _render_web_summary_diagnostics(
-                player_summary=recruiting_raw_summary,
-                team_summary=str(report_output.get("web_team_summary") or ""),
+                player_payload=report_output.get("web_recruiting_retrieval"),
+                team_payload=report_output.get("web_team_retrieval"),
                 key_prefix="recruiting_dev",
-                player_label="Recruiting Web Summary",
-                team_label="Team Web Summary",
+                player_label="Recruiting Raw Web Retrieval",
+                team_label="Team Raw Web Retrieval",
             )
             _render_json_lazy(
                 {
@@ -3150,9 +3347,10 @@ def render_structured_report_with_chat_page() -> None:
                         max_citations=CHAT_STATE_MAX_CITATIONS,
                         max_candidates=CHAT_STATE_MAX_CANDIDATES,
                     )
-                    result_state = orchestrate_chat_turn(
+                    result_state = orchestrate_follow_up_chat_turn(
                         user_prompt=user_prompt,
                         current_state=current_state,
+                        portal="recruiting",
                         graph=graph,
                         progress_callback=_render_milestone,
                     )
@@ -3429,11 +3627,13 @@ def render_potential_transfers_with_chat_page() -> None:
             )
 
         _render_web_summary_diagnostics(
-            player_summary=str(report_output.get("player_news_summary") or ""),
-            team_summary=str(report_output.get("team_news_summary") or ""),
+            player_payload=report_output.get("player_news_retrieval")
+            or str(report_output.get("player_news_summary") or ""),
+            team_payload=report_output.get("team_news_retrieval")
+            or str(report_output.get("team_news_summary") or ""),
             key_prefix="transfer_report",
-            player_label="Transfer Player Web Summary",
-            team_label="Transfer Team Web Summary",
+            player_label="Transfer Player Raw Web Retrieval",
+            team_label="Transfer Team Raw Web Retrieval",
         )
 
         st.markdown("#### College Player Profile")
@@ -3496,7 +3696,7 @@ def render_potential_transfers_with_chat_page() -> None:
 
     st.write("---")
     st.subheader("Open Chat")
-    st.caption("Follow-up chat is context-first. CFBD refresh is disabled; optional DDG recency refresh may be used.")
+    st.caption("Follow-up chat is context-first. CFBD refresh is disabled; optional Tavily recency refresh may be used.")
 
     if "transfer_chat_messages" not in st.session_state:
         st.session_state["transfer_chat_messages"] = []
@@ -3534,15 +3734,27 @@ def render_potential_transfers_with_chat_page() -> None:
         st.markdown(user_prompt)
 
     with st.chat_message("assistant"):
+        milestone_slot = st.empty()
+        _render_milestone = _make_milestone_renderer(
+            milestone_slot=milestone_slot,
+            labels={
+                "transfer_delegator": "Delegator",
+                "transfer_web_scout": "Web Scout",
+                "transfer_synthesizer": "Lead Synthesizer",
+            },
+            workflow_label="Pipeline",
+        )
         with st.spinner("Thinking..."):
-            result_state = orchestrate_transfer_chat_turn(
+            result_state = orchestrate_follow_up_chat_turn(
                 user_prompt=user_prompt,
                 current_state=compact_transfer_chat_state(
                     st.session_state.get("transfer_chat_state"),
                     max_turns=CHAT_STATE_MAX_TURNS,
                     max_trace=CHAT_STATE_MAX_TRACE,
                 ),
+                portal="transfer",
                 allow_web_refresh=True,
+                progress_callback=_render_milestone,
             )
             telemetry = _normalize_telemetry_payload(
                 result_state.get("telemetry"),
@@ -3556,6 +3768,7 @@ def render_potential_transfers_with_chat_page() -> None:
                 max_trace=CHAT_STATE_MAX_TRACE,
             )
             st.session_state["transfer_chat_messages"].append({"role": "assistant", "content": assistant_text})
+            milestone_slot.success("Pipeline complete")
             st.markdown(assistant_text)
             _render_telemetry_summary(
                 telemetry,
@@ -3674,9 +3887,10 @@ def render_open_chat_page() -> None:
                     max_citations=CHAT_STATE_MAX_CITATIONS,
                     max_candidates=CHAT_STATE_MAX_CANDIDATES,
                 )
-                result_state = orchestrate_chat_turn(
+                result_state = orchestrate_follow_up_chat_turn(
                     user_prompt=user_prompt,
                     current_state=current_state,
+                    portal="recruiting",
                     graph=graph,
                     progress_callback=_render_milestone,
                 )
@@ -3772,19 +3986,22 @@ def _render_transfer_portal_style_block() -> None:
         .transfer-dossier-header,
         .transfer-dossier-hero {
             border-radius: 10px;
-            padding: 0.74rem 0.96rem;
             margin-bottom: 0.66rem;
         }
         .transfer-dossier-header {
             display: flex;
             align-items: center;
             justify-content: flex-start;
+            padding: 0.74rem 0.96rem;
             background: linear-gradient(
                 165deg,
                 color-mix(in srgb, var(--secondary-background-color) 90%, #0a1224 10%),
                 color-mix(in srgb, var(--background-color) 80%, #081020 20%)
             );
             border: 1px solid color-mix(in srgb, var(--text-color) 14%, transparent);
+            box-shadow:
+                0 16px 36px color-mix(in srgb, #000 42%, transparent),
+                inset 0 1px 0 color-mix(in srgb, #fff 7%, transparent);
         }
         .transfer-dossier-title {
             margin: 0;
@@ -3799,6 +4016,7 @@ def _render_transfer_portal_style_block() -> None:
             justify-content: space-between;
             align-items: center;
             gap: 0.9rem;
+            padding: 0.9rem 0.98rem;
             background: linear-gradient(
                 165deg,
                 color-mix(in srgb, var(--secondary-background-color) 92%, #0a1224 8%),
@@ -3814,6 +4032,28 @@ def _render_transfer_portal_style_block() -> None:
             align-items: center;
             gap: 0.76rem;
             min-width: 0;
+        }
+        .transfer-dossier-helmet {
+            width: clamp(2.7rem, 5vw, 3.25rem);
+            height: clamp(2.7rem, 5vw, 3.25rem);
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background: transparent;
+            border: none;
+            border-radius: 0;
+            overflow: visible;
+            flex: 0 0 auto;
+        }
+        .transfer-dossier-helmet-img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            display: block;
+        }
+        .transfer-dossier-helmet-fallback {
+            font-size: 2rem;
+            line-height: 1;
         }
         .transfer-dossier-hero-copy {
             min-width: 0;
@@ -3929,6 +4169,15 @@ def _render_transfer_portal_style_block() -> None:
             font-size: 0.95rem;
             line-height: 1.5;
             color: color-mix(in srgb, var(--text-color) 94%, transparent);
+        }
+        .structured-summary-note-bullets {
+            margin: 0;
+            padding-left: 1.02rem;
+            list-style: disc;
+        }
+        .structured-summary-note-bullets li {
+            margin: 0.1rem 0;
+            line-height: 1.45;
         }
         @media (max-width: 1000px) {
             .transfer-report-kpi-grid {
@@ -4060,6 +4309,12 @@ def _render_transfer_report_hero(report_output: dict[str, Any]) -> None:
     athlete_id = str(report_output.get("cfbd_athlete_id") or "N/A").strip() or "N/A"
     subtitle = f"{position} | Target: {target_team} | CFBD ID: {athlete_id}"
     physical_profile = _build_transfer_physical_profile(player_row)
+    helmet_data_uri = _asset_data_uri(("Logos", "Helmate.png"))
+    helmet_html = (
+        f"<img class='transfer-dossier-helmet-img' src='{helmet_data_uri}' alt='Helmet' />"
+        if helmet_data_uri
+        else "<div class='transfer-dossier-helmet-fallback'>🏈</div>"
+    )
 
     st.markdown(
         (
@@ -4069,6 +4324,7 @@ def _render_transfer_report_hero(report_output: dict[str, Any]) -> None:
             "</header>"
             "<div class='transfer-dossier-hero'>"
             "<div class='transfer-dossier-hero-left'>"
+            f"<div class='transfer-dossier-helmet'>{helmet_html}</div>"
             "<div class='transfer-dossier-hero-copy'>"
             f"<div class='transfer-dossier-player'>{html.escape(player_name)}</div>"
             f"<div class='transfer-dossier-player-meta'>{html.escape(subtitle)}</div>"
@@ -4090,5 +4346,7 @@ elif app_page == "Transfer Portal":
     render_potential_transfers_with_chat_page()
 elif app_page == "Open Chat":
     render_open_chat_page()
+elif app_page == "Local Tavily Explorer":
+    render_local_tavily_debugger_page()
 else:
     render_local_cfbd_debugger_page()

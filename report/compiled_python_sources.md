@@ -1,7 +1,7 @@
 # Python Source Compilation
 
 Project root: `X:\My Files\Courses\DSBA 6010 - LLM\Gridiron_Intelligence`
-Files included: 20
+Files included: 19
 
 ## app.py
 
@@ -30,7 +30,6 @@ except ImportError:
 from engine import (
     get_scout_graph,
     get_structured_web_graph,
-    orchestrate_chat_turn,
     orchestrate_structured_web_scouting,
 )
 from engine.state import (
@@ -76,8 +75,8 @@ from engine.data_transforms import (
     transfer_to_percent_points,
 )
 from engine.orchestration_service import (
+    orchestrate_follow_up_chat_turn,
     orchestrate_transfer_cfbd_context,
-    orchestrate_transfer_chat_turn,
     orchestrate_transfer_report,
 )
 from engine.synthesis_service import (
@@ -525,6 +524,39 @@ def _build_cfbd_debug_url(meta: dict[str, Any]) -> str:
 def _render_json_lazy(payload: Any, key: str, label: str = "Render JSON") -> None:
     if st.checkbox(label, key=key):
         st.code(json.dumps(payload, indent=2, default=str), language="json")
+
+
+def _render_web_summary_diagnostics(
+    player_summary: str,
+    team_summary: str,
+    key_prefix: str,
+    player_label: str = "Player Web Summary",
+    team_label: str = "Team Web Summary",
+) -> None:
+    st.markdown("#### Web Summary Diagnostics")
+    left_col, right_col = st.columns(2)
+    with left_col:
+        st.markdown(f"**{player_label}**")
+        st.text_area(
+            player_label,
+            value=str(player_summary or "") or "No player summary available.",
+            height=220,
+            disabled=True,
+            label_visibility="collapsed",
+            key=f"{key_prefix}_player_web_summary",
+        )
+        st.caption(f"Chars: {len(str(player_summary or ''))}")
+    with right_col:
+        st.markdown(f"**{team_label}**")
+        st.text_area(
+            team_label,
+            value=str(team_summary or "") or "No team summary available.",
+            height=220,
+            disabled=True,
+            label_visibility="collapsed",
+            key=f"{key_prefix}_team_web_summary",
+        )
+        st.caption(f"Chars: {len(str(team_summary or ''))}")
 
 
 def _target_team_name(team_option: str) -> str:
@@ -2140,6 +2172,12 @@ def render_structured_report_with_chat_page() -> None:
                 or selected_high_school_hint
                 or ""
             ).strip()
+            player_state = str(
+                player_profile.get("state")
+                or player_row.get("state")
+                or player_row.get("home_state")
+                or ""
+            ).strip()
 
             vector_query = (
                 f"Player: {player_name}. Position: {position}. High school: {high_school}. "
@@ -2150,6 +2188,7 @@ def render_structured_report_with_chat_page() -> None:
                 sb=sb,
                 query_text=vector_query,
                 position=position or None,
+                state=player_state or None,
                 top_k=CONFIG["VECTOR_MATCH_COUNT"],
                 threshold=None,
                 vector_match_threshold=CONFIG["VECTOR_MATCH_THRESHOLD"],
@@ -2216,6 +2255,8 @@ def render_structured_report_with_chat_page() -> None:
                 pred_score_row=pred_score_row,
                 pred_thr_row=pred_thr_row,
                 web_summary=web_summary,
+                web_player_summary=web_recruiting_summary,
+                web_team_summary=web_team_summary,
                 vector_result=vector_result,
                 historical_comparables_md=historical_comparables_md,
                 tier_definitions_markdown=tier_definitions_markdown,
@@ -2986,6 +3027,13 @@ def render_structured_report_with_chat_page() -> None:
             st.write(f"Raw recruiting summary chars: {len(recruiting_raw_summary)}")
             st.write(f"Parsed notes count: {len(recruiting_layout.get('notes') or [])}")
             st.write(f"Grid items count: {len(recruiting_layout.get('grid_items') or [])}")
+            _render_web_summary_diagnostics(
+                player_summary=recruiting_raw_summary,
+                team_summary=str(report_output.get("web_team_summary") or ""),
+                key_prefix="recruiting_dev",
+                player_label="Recruiting Web Summary",
+                team_label="Team Web Summary",
+            )
             _render_json_lazy(
                 {
                     "hero_name": recruiting_layout.get("hero_name"),
@@ -3109,9 +3157,10 @@ def render_structured_report_with_chat_page() -> None:
                         max_citations=CHAT_STATE_MAX_CITATIONS,
                         max_candidates=CHAT_STATE_MAX_CANDIDATES,
                     )
-                    result_state = orchestrate_chat_turn(
+                    result_state = orchestrate_follow_up_chat_turn(
                         user_prompt=user_prompt,
                         current_state=current_state,
+                        portal="recruiting",
                         graph=graph,
                         progress_callback=_render_milestone,
                     )
@@ -3313,6 +3362,25 @@ def render_potential_transfers_with_chat_page() -> None:
     _render_transfer_report_hero(report_output)
     _render_transfer_report_kpi_cards(report_output)
 
+    transfer_summary_context = {
+        "player_name": player_name,
+        "position": position,
+        "target_team": str(report_output.get("target_team") or ""),
+        "year": report_output.get("year"),
+    }
+    render_structured_summary_card(
+        title="Transfer Player News Summary",
+        raw_text=str(report_output.get("player_news_summary") or "No player transfer summary available."),
+        section_key="transfer_player",
+        context=transfer_summary_context,
+    )
+    render_structured_summary_card(
+        title="Transfer Team Context Summary",
+        raw_text=str(report_output.get("team_news_summary") or "No team transfer summary available."),
+        section_key="transfer_team",
+        context=transfer_summary_context,
+    )
+
     st.markdown("### Final Transfer Impact Synthesis")
     st.markdown(str(report_output.get("final_report") or "No synthesis generated."))
 
@@ -3367,6 +3435,14 @@ def render_potential_transfers_with_chat_page() -> None:
                 f"team={summary_branch.get('team_status', 'unknown')} "
                 f"({summary_branch.get('team_reason', '')})"
             )
+
+        _render_web_summary_diagnostics(
+            player_summary=str(report_output.get("player_news_summary") or ""),
+            team_summary=str(report_output.get("team_news_summary") or ""),
+            key_prefix="transfer_report",
+            player_label="Transfer Player Web Summary",
+            team_label="Transfer Team Web Summary",
+        )
 
         st.markdown("#### College Player Profile")
         _render_json_lazy(report_output.get("college_player") or {}, key="transfer_portal_college_player_json")
@@ -3466,15 +3542,27 @@ def render_potential_transfers_with_chat_page() -> None:
         st.markdown(user_prompt)
 
     with st.chat_message("assistant"):
+        milestone_slot = st.empty()
+        _render_milestone = _make_milestone_renderer(
+            milestone_slot=milestone_slot,
+            labels={
+                "transfer_delegator": "Delegator",
+                "transfer_web_scout": "Web Scout",
+                "transfer_synthesizer": "Lead Synthesizer",
+            },
+            workflow_label="Pipeline",
+        )
         with st.spinner("Thinking..."):
-            result_state = orchestrate_transfer_chat_turn(
+            result_state = orchestrate_follow_up_chat_turn(
                 user_prompt=user_prompt,
                 current_state=compact_transfer_chat_state(
                     st.session_state.get("transfer_chat_state"),
                     max_turns=CHAT_STATE_MAX_TURNS,
                     max_trace=CHAT_STATE_MAX_TRACE,
                 ),
+                portal="transfer",
                 allow_web_refresh=True,
+                progress_callback=_render_milestone,
             )
             telemetry = _normalize_telemetry_payload(
                 result_state.get("telemetry"),
@@ -3488,6 +3576,7 @@ def render_potential_transfers_with_chat_page() -> None:
                 max_trace=CHAT_STATE_MAX_TRACE,
             )
             st.session_state["transfer_chat_messages"].append({"role": "assistant", "content": assistant_text})
+            milestone_slot.success("Pipeline complete")
             st.markdown(assistant_text)
             _render_telemetry_summary(
                 telemetry,
@@ -3606,9 +3695,10 @@ def render_open_chat_page() -> None:
                     max_citations=CHAT_STATE_MAX_CITATIONS,
                     max_candidates=CHAT_STATE_MAX_CANDIDATES,
                 )
-                result_state = orchestrate_chat_turn(
+                result_state = orchestrate_follow_up_chat_turn(
                     user_prompt=user_prompt,
                     current_state=current_state,
+                    portal="recruiting",
                     graph=graph,
                     progress_callback=_render_milestone,
                 )
@@ -4034,6 +4124,7 @@ else:
 from .graph import get_scout_graph, get_structured_web_graph
 from .orchestration_service import (
 	orchestrate_chat_turn,
+	orchestrate_follow_up_chat_turn,
 	orchestrate_transfer_cfbd_context,
 	orchestrate_structured_report,
 	orchestrate_structured_web_scouting,
@@ -4047,6 +4138,7 @@ __all__ = [
 	"orchestrate_structured_report",
 	"orchestrate_structured_web_scouting",
 	"orchestrate_chat_turn",
+	"orchestrate_follow_up_chat_turn",
 	"orchestrate_transfer_cfbd_context",
 	"orchestrate_transfer_report",
 	"orchestrate_transfer_chat_turn",
@@ -4066,7 +4158,7 @@ from typing import Any
 
 from .config import CONFIG
 from .prompt_architecture import build_master_prompt
-from .state import DelegatorPlan, ScoutState
+from .state import DelegatorPlan, ScoutState, TransferDelegatorPlan
 from .tools import (
     DelegatorOutputValidationError,
     cfbd_fetch_tool,
@@ -4394,8 +4486,27 @@ def lead_delegator_node(state: ScoutState) -> ScoutState:
         state["delegator_plan"] = DelegatorPlan().model_dump()
         state["errors"] = list(state.get("errors", [])) + ["Delegator plan parse failed; using defaults."]
 
+    # Canonical follow-up behavior: the delegator controls optional web enrichment,
+    # while respecting explicit orchestration-level disable flags.
+    explicit_web_refresh_disabled = not bool(state.get("allow_web_refresh", True))
+    if explicit_web_refresh_disabled:
+        should_refresh_web = False
+    else:
+        should_refresh_web = route_hint == "web_scout"
+    if not explicit_web_refresh_disabled and not should_refresh_web and not _has_internal_grounding(state):
+        should_refresh_web = True
+    state["allow_web_refresh"] = bool(should_refresh_web)
+
+    if not bool(state.get("allow_web_refresh")) and isinstance(state.get("delegator_plan"), dict):
+        state["delegator_plan"]["recruiting_web_query"] = ""
+        state["delegator_plan"]["team_context_query"] = ""
+
     state["trace_log"] = list(state.get("trace_log", [])) + [
-        _trace_entry(state, "lead_delegator", f"delegator_plan_ready route={route_hint}")
+        _trace_entry(
+            state,
+            "lead_delegator",
+            f"delegator_plan_ready route={route_hint} web_refresh={bool(state.get('allow_web_refresh'))}",
+        )
     ]
     state["next_step"] = "synthesizer"
     return state
@@ -4571,6 +4682,10 @@ def cfbd_analyst_node(state: ScoutState) -> ScoutState:
             "Include grounded facts and explicitly note sparse/missing data."
         ),
         payload=summary_payload,
+        role="player",
+        entity_kind="player",
+        target_name=str(state.get("target_player_name") or state.get("player_name") or ""),
+        target_team=str(state.get("target_team") or ""),
     )
 
     updates["cfbd_data_summary"] = str(summary_result.get("data", "")).strip()
@@ -4591,12 +4706,14 @@ def recruiting_scout_node(state: ScoutState) -> ScoutState:
     if bool(state.get("security_halt")):
         return {
             "web_recruiting_summary": "Recruiting summary skipped due to security safeguards.",
+            "web_recruiting_used": False,
             "trace_log": [_trace_entry(state, "recruiting_scout", "skipped_security_halt")],
         }
 
     if bool(state.get("requires_identity_clarification")):
         return {
             "web_recruiting_summary": "Recruiting web context skipped until player identity is clarified.",
+            "web_recruiting_used": False,
             "trace_log": [_trace_entry(state, "recruiting_scout", "skipped_needs_identity_clarification")],
         }
 
@@ -4606,20 +4723,25 @@ def recruiting_scout_node(state: ScoutState) -> ScoutState:
         query = str(plan.get("recruiting_web_query") or "").strip()
     if not query:
         fallback_name = state.get("target_player_name") or state.get("player_name") or "player"
-        query = f"{fallback_name} recruiting injury transfer update"
+        query = f"{fallback_name} college football recruiting news offers commitment"
 
     search_result = search_web_query_tool(query=query, max_results=int(CONFIG.get("WEB_QUERY_MAX_RESULTS", 6)))
     summary_result = summarize_payload_tool(
         summary_prompt=(
             "You are a secure summarization node. Output ONLY plain markdown bullet points (no HTML, no JSON, no links). "
-            "Summarize recruiting and player web context in bullets for a scouting report. "
-            "Use only supplied snippets and include caveats when uncertain."
+            "Extract and summarize only high-signal recruiting and player context from the provided snippets. "
+            "Keep bullets concise. Use strictly the supplied snippets and include caveats when uncertain. "
         ),
         payload=search_result.get("data", []),
+        role="recruiting_player",
+        entity_kind="player",
+        target_name=str(state.get("target_player_name") or state.get("player_name") or ""),
+        target_team=str(state.get("target_team") or ""),
     )
 
     return {
         "web_recruiting_summary": str(summary_result.get("data", "")).strip(),
+        "web_recruiting_used": True,
         "citations": list(search_result.get("citations") or []) + list(summary_result.get("citations") or []),
         "telemetry": dict(summary_result.get("telemetry") or {}),
         "trace_log": [_trace_entry(state, "recruiting_scout", "web_recruiting_summary_ready")],
@@ -4630,12 +4752,14 @@ def team_scout_node(state: ScoutState) -> ScoutState:
     if bool(state.get("security_halt")):
         return {
             "web_team_summary": "Team context skipped due to security safeguards.",
+            "web_team_used": False,
             "trace_log": [_trace_entry(state, "team_scout", "skipped_security_halt")],
         }
 
     if bool(state.get("requires_identity_clarification")):
         return {
             "web_team_summary": "Team context skipped until player identity is clarified.",
+            "web_team_used": False,
             "trace_log": [_trace_entry(state, "team_scout", "skipped_needs_identity_clarification")],
         }
 
@@ -4645,20 +4769,26 @@ def team_scout_node(state: ScoutState) -> ScoutState:
         query = str(plan.get("team_context_query") or "").strip()
     if not query:
         fallback_team = state.get("target_team") or "team"
-        query = f"{fallback_team} depth chart roster defensive backfield outlook"
+        query = f"{fallback_team} college football roster depth chart coaching staff"
 
     search_result = search_web_query_tool(query=query, max_results=int(CONFIG.get("WEB_QUERY_MAX_RESULTS", 6)))
     summary_result = summarize_payload_tool(
         summary_prompt=(
             "You are a secure summarization node. Output ONLY plain markdown bullet points (no HTML, no JSON, no links). "
-            "Summarize team context for roster fit in concise bullets. "
-            "Use only supplied snippets and avoid unsupported claims."
+            "Extract and summarize only high-signal team context regarding roster fit, focusing strictly on current coaches, recent staff turnover, and depth chart situations. "
+            "Prioritize the most recent evidence available and explicitly note if the source material appears outdated. "
+            "Use strictly the supplied snippets. "
         ),
         payload=search_result.get("data", []),
+        role="recruiting_team",
+        entity_kind="team",
+        target_name=str(state.get("target_player_name") or state.get("player_name") or ""),
+        target_team=str(state.get("target_team") or ""),
     )
 
     return {
         "web_team_summary": str(summary_result.get("data", "")).strip(),
+        "web_team_used": True,
         "citations": list(search_result.get("citations") or []) + list(summary_result.get("citations") or []),
         "telemetry": dict(summary_result.get("telemetry") or {}),
         "trace_log": [_trace_entry(state, "team_scout", "web_team_summary_ready")],
@@ -4677,7 +4807,18 @@ def parallel_web_scout_node(state: ScoutState) -> ScoutState:
         return {
             "web_recruiting_summary": "Recruiting web context skipped until player identity is clarified.",
             "web_team_summary": "Team context skipped until player identity is clarified.",
+            "web_recruiting_used": False,
+            "web_team_used": False,
             "trace_log": [_trace_entry(state, "parallel_web_scout", "skipped_needs_identity_clarification")],
+        }
+
+    if state.get("mode") == "chat" and not bool(state.get("allow_web_refresh", True)):
+        return {
+            "web_recruiting_summary": "Web enrichment skipped for this follow-up turn.",
+            "web_team_summary": "Web enrichment skipped for this follow-up turn.",
+            "web_recruiting_used": False,
+            "web_team_used": False,
+            "trace_log": [_trace_entry(state, "parallel_web_scout", "skipped_delegator_no_web_refresh")],
         }
 
     def _run_recruiting() -> dict[str, Any]:
@@ -4717,6 +4858,8 @@ def parallel_web_scout_node(state: ScoutState) -> ScoutState:
     return {
         "web_recruiting_summary": str(recruiting_result.get("web_recruiting_summary") or "").strip(),
         "web_team_summary": str(team_result.get("web_team_summary") or "").strip(),
+        "web_recruiting_used": bool(recruiting_result.get("web_recruiting_used")),
+        "web_team_used": bool(team_result.get("web_team_used")),
         "citations": merged_citations,
         "telemetry": {
             "model_telemetry": model_telemetry_rows,
@@ -4911,6 +5054,207 @@ def synthesizer_node(state: ScoutState) -> ScoutState:
 
 def chat_followup_node(state: ScoutState) -> ScoutState:
     return lead_synthesizer_node(state)
+
+def transfer_delegator_node(state: ScoutState) -> ScoutState:
+    from .tools import transfer_delegator_plan_tool, TransferDelegatorOutputValidationError
+    try:
+        plan_dict = transfer_delegator_plan_tool(
+            user_query=str(state.get("user_query", "") or "Analyze transfer portal opportunity."),
+            target_team=str(state.get("target_team", "")),
+            target_player_name=str(state.get("target_player_name") or state.get("player_name") or ""),
+        )
+    except TransferDelegatorOutputValidationError:
+        state["security_halt"] = True
+        state["security_message"] = "Unable to safely parse your request. Please rephrase with concise football-only instructions."
+        state["errors"] = list(state.get("errors", [])) + [
+            "Transfer Delegator validation failed; execution halted for safety."
+        ]
+        state["trace_log"] = list(state.get("trace_log", [])) + [
+            _trace_entry(state, "transfer_delegator", "security_halt_delegator_validation_failed")
+        ]
+        state["next_step"] = "security_halt"
+        return state
+
+    try:
+        state["transfer_delegator_plan"] = TransferDelegatorPlan(**plan_dict).model_dump()
+    except Exception:
+        state["transfer_delegator_plan"] = TransferDelegatorPlan().model_dump()
+        state["errors"] = list(state.get("errors", [])) + ["Transfer Delegator plan parse failed; using defaults."]
+
+    if not bool(state.get("allow_web_refresh", True)):
+        state["transfer_delegator_plan"]["should_refresh_web"] = False
+        state["transfer_delegator_plan"]["player_news_query"] = ""
+        state["transfer_delegator_plan"]["team_news_query"] = ""
+
+    state["trace_log"] = list(state.get("trace_log", [])) + [
+        _trace_entry(state, "transfer_delegator", "transfer_delegator_plan_ready")
+    ]
+    
+    plan = state.get("transfer_delegator_plan") or {}
+    if plan.get("should_refresh_web"):
+        state["next_step"] = "transfer_web_scout"
+    else:
+        state["next_step"] = "transfer_synthesizer"
+    return state
+
+
+def transfer_web_scout_node(state: ScoutState) -> ScoutState:
+    if bool(state.get("security_halt")):
+        return {
+            "trace_log": [_trace_entry(state, "transfer_web_scout", "skipped")],
+            "transfer_web_player_used": False,
+            "transfer_web_team_used": False,
+        }
+
+    plan = state.get("transfer_delegator_plan") or {}
+    if not bool(state.get("allow_web_refresh", True)) or not plan.get("should_refresh_web"):
+        plan["player_news_query"] = ""
+        plan["team_news_query"] = ""
+    player_query = str(plan.get("player_news_query") or "").strip()
+    team_query = str(plan.get("team_news_query") or "").strip()
+    
+    updates: dict[str, Any] = {}
+    traces = []
+    
+    if not player_query and not team_query:
+        traces.append(_trace_entry(state, "transfer_web_scout", "skipped_no_queries"))
+        updates["transfer_web_player_summary"] = ""
+        updates["transfer_web_team_summary"] = ""
+        updates["transfer_web_player_used"] = False
+        updates["transfer_web_team_used"] = False
+        updates["trace_log"] = traces
+        updates["next_step"] = "transfer_synthesizer"
+        return updates
+
+    def process_query(q: str, prompt_hint: str) -> dict[str, Any]:
+        if not q:
+            return {"summary": "", "payload": []}
+        rows = search_web_query_tool(query=q, max_results=6, timelimit="m")
+        summary_result = summarize_payload_tool(
+            summary_prompt=prompt_hint,
+            payload=rows.get("data") or [],
+            role="transfer_player" if "player" in prompt_hint.lower() else "transfer_team",
+            entity_kind="player" if "player" in prompt_hint.lower() else "team",
+            target_name=str(state.get("target_player_name") or ""),
+            target_team=str(state.get("target_team") or ""),
+        )
+        return {
+            "summary": str(summary_result.get("data") or "").strip(),
+            "payload": summary_result
+        }
+
+    parallel_started = time.perf_counter()
+    with ThreadPoolExecutor(max_workers=2) as executor:
+        f_player = executor.submit(
+            process_query, 
+            player_query, 
+            "Summarize the most relevant transfer-portal player recency updates."
+        )
+        f_team = executor.submit(
+            process_query, 
+            team_query, 
+            "Summarize the most relevant team depth-chart or transfer context. Use Wikipedia as a grounding source when it appears in the search results, but do not overstate speculative details."
+        )
+        
+        try:
+            player_res = f_player.result(timeout=25)
+        except Exception as e:
+            player_res = {"summary": f"Player web search failed: {e}", "payload": {}}
+            
+        try:
+            team_res = f_team.result(timeout=25)
+        except Exception as e:
+            team_res = {"summary": f"Team web search failed: {e}", "payload": {}}
+
+    parallel_latency_ms = int((time.perf_counter() - parallel_started) * 1000)
+
+    updates["transfer_web_player_summary"] = player_res["summary"]
+    updates["transfer_web_team_summary"] = team_res["summary"]
+    updates["transfer_web_player_used"] = bool(player_query)
+    updates["transfer_web_team_used"] = bool(team_query)
+
+    # Gather telemetry from summarizations if any
+    summaries_tel = []
+    from .orchestration_service import _extract_tool_telemetry
+    for r in [player_res, team_res]:
+        tel = _extract_tool_telemetry(r["payload"])
+        if tel: summaries_tel.append(tel)
+        
+    if summaries_tel:
+        current_telemetry = state.get("telemetry") or {}
+        existing_models = current_telemetry.get("model_telemetry") or []
+        updates["telemetry"] = {"model_telemetry": list(existing_models) + summaries_tel}
+
+    traces.append({
+        "node": "transfer_web_scout",
+        "status": "parallel_fetch_complete",
+        "latency_ms": parallel_latency_ms
+    })
+    updates["trace_log"] = traces
+    updates["next_step"] = "transfer_synthesizer"
+    return updates
+
+
+def transfer_synthesizer_node(state: ScoutState) -> ScoutState:
+    if bool(state.get("security_halt")):
+        return {
+            "trace_log": [_trace_entry(state, "transfer_synthesizer", "skipped")],
+            "final_report": state.get("security_message", "Halted."),
+        }
+
+    from .orchestration_service import _build_transfer_synthesis_prompt, _merge_text_blocks, _extract_tool_telemetry
+    
+    context = dict(state.get("transfer_report_context") or {})
+    player_name = str(context.get("player_name") or state.get("player_name") or "Unknown")
+    target_team = str(context.get("target_team") or state.get("target_team") or "")
+    user_query = str(state.get("user_query") or "").strip()
+
+    web_player = str(state.get("transfer_web_player_summary") or "")
+    web_team = str(state.get("transfer_web_team_summary") or "")
+    merged_web = _merge_text_blocks(web_player, web_team)
+    
+    player_news = _merge_text_blocks(str(context.get("player_news_summary") or ""), merged_web)
+
+    prompt = _build_transfer_synthesis_prompt(
+        player_name=player_name,
+        target_team=target_team,
+        player_row=dict(context.get("college_player") or {}),
+        cfbd_usage_2025=dict(context.get("cfbd_usage_2025") or {}),
+        cfbd_stats_2025=dict(context.get("cfbd_stats_2025") or {}),
+        cfbd_usage_career=list(context.get("cfbd_usage_career") or []),
+        cfbd_stats_career=list(context.get("cfbd_stats_career") or []),
+        usage_table_compact=list(context.get("usage_table_compact") or []),
+        usage_yoy_compact=list(context.get("usage_yoy_compact") or []),
+        season_stats_table_compact=list(context.get("season_stats_table_compact") or []),
+        career_context=dict(context.get("career_context") or {}),
+        player_news_summary=player_news,
+        team_news_summary=str(context.get("team_news_summary") or ""),
+        exclude_garbage_time=bool(context.get("exclude_garbage_time", True)),
+        branch_status=dict(context.get("branch_status") or {}),
+        follow_up_question=user_query,
+    )
+    
+    synthesis_started = time.perf_counter()
+    result = final_synthesis_tool(prompt)
+    latency = int((time.perf_counter() - synthesis_started) * 1000)
+    
+    model_telemetry = _extract_tool_telemetry(result)
+    
+    answer_text = str(result.get("data") or "").strip() or "No response generated."
+
+    updates: dict[str, Any] = {
+        "final_report": answer_text,
+        "next_step": "end",
+    }
+    
+    if model_telemetry:
+        current_telemetry = state.get("telemetry") or {}
+        existing_models = current_telemetry.get("model_telemetry") or []
+        updates["telemetry"] = {"model_telemetry": list(existing_models) + [model_telemetry]}
+
+    updates["trace_log"] = [_trace_entry(state, "transfer_synthesizer", f"success_latency_{latency}ms")]
+    
+    return updates
 ```
 
 ## engine/cfbd_service.py
@@ -5362,6 +5706,7 @@ CONFIG = {
     "SUMMARY_CACHE_ENABLED": _env_flag("GI_SUMMARY_CACHE_ENABLED", True),
     "SUMMARY_CACHE_TTL_SECONDS": max(0, int(os.getenv("GI_SUMMARY_CACHE_TTL_SECONDS", "900"))),
     "SUMMARY_CACHE_MAX_ENTRIES": max(1, int(os.getenv("GI_SUMMARY_CACHE_MAX_ENTRIES", "256"))),
+    "WEB_ARTICLE_MAX_AGE_DAYS": max(0, int(os.getenv("GI_WEB_ARTICLE_MAX_AGE_DAYS", "365"))),
     "VECTOR_EMBED_CACHE_ENABLED": _env_flag("GI_VECTOR_EMBED_CACHE_ENABLED", True),
     "VECTOR_EMBED_CACHE_TTL_SECONDS": max(0, int(os.getenv("GI_VECTOR_EMBED_CACHE_TTL_SECONDS", "3600"))),
     "VECTOR_EMBED_CACHE_MAX_ENTRIES": max(1, int(os.getenv("GI_VECTOR_EMBED_CACHE_MAX_ENTRIES", "512"))),
@@ -5379,7 +5724,8 @@ CONFIG = {
         "espn.com",
         "on3.com",
         "cbssports.com",
-        "usatodayhss.com"
+        "usatodayhss.com",
+        "wikipedia.org",
     ],
 }
 
@@ -6544,10 +6890,46 @@ def parse_summary_notes_data(raw_text: str | None) -> list[dict[str, str]]:
     return notes
 
 
+def _is_placeholder_summary_text(raw_text: str | None) -> bool:
+    text = re.sub(r"\s+", " ", str(raw_text or "")).strip().lower()
+    if not text:
+        return True
+
+    placeholder_markers = [
+        "no recruiting",
+        "no recruiting, transfer, or performance data",
+        "no transfer",
+        "no player",
+        "currently available",
+        "insufficient information",
+        "not enough information",
+        "provided payload",
+        "unable to",
+        "unavailable",
+    ]
+    if any(marker in text for marker in placeholder_markers):
+        return True
+
+    if re.search(r"\bno\b.+\bdata\b.+\bavailable\b", text):
+        return True
+
+    return False
+
+
 def build_recruiting_summary_layout_data(raw_text: str | None, context: dict[str, Any] | None = None) -> dict[str, Any]:
     notes = parse_summary_notes_data(raw_text)
     raw = str(raw_text or "")
     ctx = context if isinstance(context, dict) else {}
+
+    if _is_placeholder_summary_text(raw):
+        return {
+            "hero_name": "",
+            "hero_subtitle": "",
+            "physical_profile": "",
+            "grid_items": [],
+            "note_on_recency": "",
+            "notes": [],
+        }
 
     def _norm_label(label: str) -> str:
         return re.sub(r"[^a-z0-9]+", " ", str(label or "").strip().lower()).strip()
@@ -7394,6 +7776,9 @@ from .agents import (
     parallel_web_scout_node,
     recruiting_scout_node,
     team_scout_node,
+    transfer_delegator_node,
+    transfer_web_scout_node,
+    transfer_synthesizer_node,
 )
 from .state import ScoutState
 
@@ -7548,6 +7933,94 @@ def get_structured_web_graph() -> Any:
     workflow.add_edge("parallel_web_scout", END)
 
     return workflow.compile()
+
+class SimpleTransferChatGraph:
+    """Fallback sequential runner for transfer chat when langgraph is not available."""
+
+    _SEQUENCE = [
+        ("transfer_delegator", transfer_delegator_node),
+        ("transfer_web_scout", transfer_web_scout_node),
+        ("transfer_synthesizer", transfer_synthesizer_node),
+    ]
+
+    @staticmethod
+    def _merge_update(state: ScoutState, update: ScoutState) -> ScoutState:
+        merged = dict(state)
+        for key, value in dict(update or {}).items():
+            if key in {"citations", "errors", "trace_log"}:
+                merged[key] = list(merged.get(key, [])) + list(value or [])
+            elif key == "telemetry":
+                previous = dict(merged.get("telemetry") or {})
+                incoming = dict(value or {})
+                previous_rows = list(previous.get("model_telemetry") or [])
+                incoming_rows = list(incoming.get("model_telemetry") or [])
+                merged_rows = previous_rows + incoming_rows
+                
+                # Rollup is done at orchestration layer if needed, or we just collect rows
+                merged[key] = {
+                    "model_telemetry": merged_rows,
+                }
+            else:
+                merged[key] = value
+        return merged
+
+    def invoke(self, state: ScoutState) -> ScoutState:
+        for _, node_fn in self._SEQUENCE:
+            update = node_fn(state)
+            state = self._merge_update(state, update)
+        return state
+
+    def invoke_with_progress(
+        self,
+        state: ScoutState,
+        progress_callback: Callable[[dict[str, str]], None] | None = None,
+    ) -> ScoutState:
+        if progress_callback is not None:
+            progress_callback({"node": "workflow", "status": "started"})
+        for node_name, node_fn in self._SEQUENCE:
+            if progress_callback is not None:
+                progress_callback({"node": node_name, "status": "running"})
+            update = node_fn(state)
+            state = self._merge_update(state, update)
+            if progress_callback is not None:
+                progress_callback({"node": node_name, "status": "completed"})
+        if progress_callback is not None:
+            progress_callback({"node": "workflow", "status": "completed"})
+        return state
+
+
+def get_transfer_chat_graph() -> Any:
+    if StateGraph is None:
+        return SimpleTransferChatGraph()
+
+    workflow = StateGraph(ScoutState)
+
+    workflow.add_node("transfer_delegator", transfer_delegator_node)
+    workflow.add_node("transfer_web_scout", transfer_web_scout_node)
+    workflow.add_node("transfer_synthesizer", transfer_synthesizer_node)
+
+    workflow.set_entry_point("transfer_delegator")
+    
+    # Conditional logic
+    def should_refresh_web(state: ScoutState) -> str:
+        plan = state.get("transfer_delegator_plan") or {}
+        if plan.get("should_refresh_web"):
+            return "transfer_web_scout"
+        return "transfer_synthesizer"
+
+    workflow.add_conditional_edges(
+        "transfer_delegator",
+        should_refresh_web,
+        {
+            "transfer_web_scout": "transfer_web_scout",
+            "transfer_synthesizer": "transfer_synthesizer",
+        }
+    )
+    
+    workflow.add_edge("transfer_web_scout", "transfer_synthesizer")
+    workflow.add_edge("transfer_synthesizer", END)
+
+    return workflow.compile()
 ```
 
 ## engine/orchestration_service.py
@@ -7564,8 +8037,8 @@ from pathlib import Path
 from typing import Any, Callable
 
 from .config import CONFIG
-from .graph import get_scout_graph, get_structured_web_graph
-from .state import ScoutState, initial_chat_state, initial_structured_state, initial_structured_web_state
+from .graph import get_scout_graph, get_structured_web_graph, get_transfer_chat_graph
+from .state import ScoutState, initial_chat_state, initial_structured_state, initial_structured_web_state, compact_transfer_chat_state
 from .supabase_client import fetch_college_player_bundle
 from .tools import final_synthesis_tool, search_web_query_tool, summarize_payload_tool
 from .cfbd_service import fetch_player_season_stats, fetch_player_usage
@@ -8150,6 +8623,41 @@ def orchestrate_chat_turn(
         )
         result_state["trace_log"] = trace[-CHAT_STATE_MAX_TRACE:]
     return result_state
+
+
+def orchestrate_follow_up_chat_turn(
+    user_prompt: str,
+    current_state: dict[str, Any] | None = None,
+    portal: str = "recruiting",
+    target_team: str = "",
+    target_player_name: str = "",
+    allow_web_refresh: bool = True,
+    graph: Any | None = None,
+    progress_callback: ProgressCallback | None = None,
+) -> dict[str, Any]:
+    resolved_portal = str(portal or "recruiting").strip().lower()
+    if resolved_portal == "transfer":
+        return orchestrate_transfer_chat_turn(
+            user_prompt=user_prompt,
+            current_state=current_state,
+            allow_web_refresh=allow_web_refresh,
+            graph=graph,
+            progress_callback=progress_callback,
+        )
+
+    state = _ensure_base_state(current_state)
+    state["allow_web_refresh"] = bool(allow_web_refresh)
+    result_state = orchestrate_chat_turn(
+        user_prompt=user_prompt,
+        current_state=state,
+        target_team=target_team,
+        target_player_name=target_player_name,
+        graph=graph,
+        progress_callback=progress_callback,
+    )
+    if isinstance(result_state, dict):
+        result_state.setdefault("status", "ok")
+    return dict(result_state or {})
 
 
 def orchestrate_structured_web_scouting(
@@ -8989,15 +9497,13 @@ def orchestrate_transfer_report(
 
     def _player_web_task() -> dict[str, Any]:
         query = (
-            f"{player_name} transfer portal college football recent {year} "
-            "(site:on3.com OR site:247sports.com OR site:rivals.com OR site:espn.com OR site:cbssports.com)"
+            f"{player_name} transfer portal news college football recent {year}"
         )
         return search_web_query_tool(query=query, max_results=8, timelimit="y")
 
     def _team_web_task() -> dict[str, Any]:
         query = (
-            f"{team_text} transfer portal roster needs college football recent {year} "
-            "(site:on3.com OR site:247sports.com OR site:rivals.com OR site:espn.com OR site:cbssports.com)"
+            f"{team_text} college football transfer portal roster needs depth chart coaching staff changes recent {year}"
         )
         return search_web_query_tool(query=query, max_results=8, timelimit="y")
 
@@ -9129,19 +9635,31 @@ def orchestrate_transfer_report(
         player_summary_future = summary_executor.submit(
             summarize_payload_tool,
             summary_prompt=(
-                "Summarize transfer-portal relevant player news in plain markdown bullets. "
-                "Focus on transfer intent, eligibility, role expectations, and recency."
+                "You are a secure summarization node. Output ONLY plain markdown bullet points (no HTML, no JSON, no links). "
+                "Extract and summarize only high-signal transfer-portal player news from the provided snippets. "
+                "Focus strictly on transfer intent, eligibility remaining, role expectations, and timeline. "
+                "Use strictly the supplied snippets. "
             ),
             payload=player_web.get("data") or [],
+            role="transfer_player",
+            entity_kind="player",
+            target_name=player_name,
+            target_team=team_text,
         )
         LOGGER.info("transfer_report_stage=team_news_summary submit")
         team_summary_future = summary_executor.submit(
             summarize_payload_tool,
             summary_prompt=(
-                "Summarize team transfer-portal context in plain markdown bullets. "
-                "Focus on roster needs, depth chart competition, and recent portal trends."
+                "You are a secure summarization node. Output ONLY plain markdown bullet points (no HTML, no JSON, no links). "
+                "Extract and summarize only high-signal team transfer-portal context from the provided snippets. "
+                "Focus strictly on roster needs, depth chart competition, current coaching staff, and recent staff changes. "
+                "Prioritize the most recent evidence available, explicitly note if the source material appears outdated, and use strictly the supplied snippets. "
             ),
             payload=team_web.get("data") or [],
+            role="transfer_team",
+            entity_kind="team",
+            target_name=player_name,
+            target_team=team_text,
         )
         LOGGER.info("transfer_report_stage=player_news_summary waiting timeout_seconds=%s", summary_timeout_seconds)
         player_news_summary_result = _summary_result_or_timeout(player_summary_future, "player_news_summary")
@@ -9320,8 +9838,11 @@ def orchestrate_transfer_chat_turn(
     user_prompt: str,
     current_state: dict[str, Any] | None,
     allow_web_refresh: bool = True,
+    graph: Any | None = None,
+    progress_callback: ProgressCallback | None = None,
 ) -> dict[str, Any]:
     started = time.perf_counter()
+    graph_runner = graph or get_transfer_chat_graph()
     state = dict(current_state or {})
     context = dict(state.get("transfer_report_context") or {})
     if not context:
@@ -9335,94 +9856,49 @@ def orchestrate_transfer_chat_turn(
             "transfer_report_context": {},
         }
 
-    prompt_text = str(user_prompt or "").strip()
-    query_lower = prompt_text.lower()
-    wants_recency = any(token in query_lower for token in ["recent", "latest", "update", "news", "portal"])
-    refresh_summary = ""
-    trace_log = list(state.get("trace_log") or [])
-    model_telemetry_rows: list[dict[str, Any]] = []
-    branch_latency_ms: dict[str, int] = {}
+    chat_state = compact_transfer_chat_state(state)
+    chat_state["mode"] = "chat"
+    chat_state["user_query"] = str(user_prompt or "").strip()
+    chat_state["transfer_report_context"] = context
+    chat_state["allow_web_refresh"] = bool(allow_web_refresh)
 
-    if allow_web_refresh and wants_recency:
-        refresh_started = time.perf_counter()
-        player_name = str(context.get("player_name") or "").strip()
-        target_team = str(context.get("target_team") or "").strip()
-        year = int(context.get("year") or 2025)
-        refresh_query = (
-            f"{player_name} transfer portal {target_team} college football recent {year} "
-            "(site:on3.com OR site:247sports.com OR site:rivals.com OR site:espn.com OR site:cbssports.com)"
-        )
-        refresh_rows = search_web_query_tool(query=refresh_query, max_results=6, timelimit="m")
-        refresh_summary_result = summarize_payload_tool(
-            summary_prompt=(
-                "Summarize only the most relevant recency updates for transfer-fit follow-up discussion "
-                "using concise markdown bullets."
-            ),
-            payload=refresh_rows.get("data") or [],
-        )
-        model_telemetry_rows.append(_extract_tool_telemetry(refresh_summary_result))
-        refresh_summary = str(refresh_summary_result.get("data") or "").strip()
-        branch_latency_ms["refresh_summary"] = int((time.perf_counter() - refresh_started) * 1000)
-        trace_log.append({"node": "transfer_chat", "status": "ddg_refresh_used"})
-    else:
-        trace_log.append({"node": "transfer_chat", "status": "context_only"})
-
-    prompt = _build_transfer_synthesis_prompt(
-        player_name=str(context.get("player_name") or "Unknown Player"),
-        target_team=str(context.get("target_team") or ""),
-        player_row=dict(context.get("college_player") or {}),
-        cfbd_usage_2025=dict(context.get("cfbd_usage_2025") or {}),
-        cfbd_stats_2025=dict(context.get("cfbd_stats_2025") or {}),
-        cfbd_usage_career=list(context.get("cfbd_usage_career") or []),
-        cfbd_stats_career=list(context.get("cfbd_stats_career") or []),
-        usage_table_compact=list(context.get("usage_table_compact") or []),
-        usage_yoy_compact=list(context.get("usage_yoy_compact") or []),
-        season_stats_table_compact=list(context.get("season_stats_table_compact") or []),
-        career_context=dict(context.get("career_context") or {}),
-        player_news_summary=_merge_text_blocks(
-            str(context.get("player_news_summary") or ""),
-            refresh_summary,
-        ),
-        team_news_summary=str(context.get("team_news_summary") or ""),
-        exclude_garbage_time=bool(context.get("exclude_garbage_time", True)),
-        branch_status=dict(context.get("branch_status") or {}),
-        follow_up_question=prompt_text,
-    )
-    synthesis_started = time.perf_counter()
-    result = final_synthesis_tool(prompt)
-    branch_latency_ms["final_synthesis"] = int((time.perf_counter() - synthesis_started) * 1000)
-    model_telemetry_rows.append(_extract_tool_telemetry(result))
-    answer_text = str(result.get("data") or "").strip() or "No response generated."
-
-    telemetry_rollup = _rollup_telemetry_rows(model_telemetry_rows)
-    telemetry = {
-        "pipeline_latency_ms": int((time.perf_counter() - started) * 1000),
-        "branch_latency_ms": branch_latency_ms,
-        "model_telemetry": [row for row in model_telemetry_rows if row],
-        "model_rollup": telemetry_rollup,
-    }
-
-    history = list(state.get("conversation_history") or [])
-    history.append({"role": "user", "content": prompt_text})
-    history.append({"role": "assistant", "content": answer_text})
-    trace_log.append(
-        {
-            "node": "telemetry",
+    result_state = _invoke_graph(graph_runner, chat_state, progress_callback=progress_callback)
+    
+    if isinstance(result_state, dict):
+        trace = list(result_state.get("trace_log") or [])
+        trace.append({
+            "node": "transfer_orchestration",
             "status": "completed",
-            "pipeline_latency_ms": telemetry.get("pipeline_latency_ms"),
-            "estimated_cost_usd": telemetry_rollup.get("estimated_cost_usd"),
+            "mode": "chat",
+            "latency_ms": int((time.perf_counter() - started) * 1000)
+        })
+        result_state["trace_log"] = trace[-CHAT_STATE_MAX_TRACE:]
+        
+        model_telemetry_rows = []
+        if isinstance(result_state.get("telemetry"), dict):
+            model_telemetry_rows = result_state["telemetry"].get("model_telemetry", [])
+            
+        telemetry_rollup = _rollup_telemetry_rows(model_telemetry_rows)
+        telemetry = {
+            "pipeline_latency_ms": int((time.perf_counter() - started) * 1000),
+            "model_telemetry": [row for row in model_telemetry_rows if row],
+            "model_rollup": telemetry_rollup,
         }
-    )
-
-    return {
-        "status": "ok",
-        "final_report": answer_text,
-        "conversation_history": history[-(CHAT_STATE_MAX_TURNS * 2):],
-        "trace_log": trace_log[-CHAT_STATE_MAX_TRACE:],
-        "telemetry": telemetry,
-        "transfer_report_context": context,
-    }
-
+        
+        history = list(result_state.get("conversation_history") or [])
+        history.append({"role": "user", "content": chat_state["user_query"]})
+        answer_text = str(result_state.get("final_report") or "").strip()
+        history.append({"role": "assistant", "content": answer_text})
+        
+        return {
+            "status": "ok",
+            "final_report": answer_text,
+            "conversation_history": history[-(CHAT_STATE_MAX_TURNS * 2):],
+            "trace_log": result_state["trace_log"],
+            "telemetry": telemetry,
+            "transfer_report_context": context,
+        }
+    return {"status": "error"}
 
 def _merge_text_blocks(base_text: str, extra_text: str) -> str:
     base = str(base_text or "").strip()
@@ -9735,6 +10211,40 @@ class DelegatorPlan(BaseModel):
         return cleaned
 
 
+class TransferDelegatorPlan(BaseModel):
+    player_news_query: str = Field(
+        default="",
+        max_length=200,
+        description="DuckDuckGo query for transfer portal player news.",
+    )
+    team_news_query: str = Field(
+        default="",
+        max_length=200,
+        description="DuckDuckGo query for team roster/depth chart transfer context.",
+    )
+    user_intent: str = Field(
+        default="",
+        max_length=300,
+        description="One-sentence user intent summary for transfer chat follow-up.",
+    )
+    should_refresh_web: bool = Field(
+        default=True,
+        description="Whether to refresh web search or use cached context only.",
+    )
+
+    @staticmethod
+    def _sanitize_text(value: Any, max_len: int) -> str:
+        text = str(value or "")
+        text = re.sub(r"[\x00-\x1f\x7f]", " ", text)
+        text = re.sub(r"\s+", " ", text).strip()
+        return text[:max_len]
+
+    @field_validator("player_news_query", "team_news_query", "user_intent", mode="before")
+    @classmethod
+    def _sanitize_text_fields(cls, value: Any) -> str:
+        return cls._sanitize_text(value, 200)
+
+
 class ScoutState(TypedDict, total=False):
     # User request context
     mode: Literal["structured_report", "chat"]
@@ -9755,15 +10265,22 @@ class ScoutState(TypedDict, total=False):
 
     # Delegator and worker summaries
     delegator_plan: dict[str, Any]
+    transfer_delegator_plan: dict[str, Any]
     cfbd_data_summary: str
     web_recruiting_summary: str
     web_team_summary: str
+    transfer_web_player_summary: str
+    transfer_web_team_summary: str
 
     # Gathered contexts
     sql_data_context: dict[str, Any]
+    transfer_report_context: dict[str, Any]
     web_research_context: str
     web_recruiting_used: bool
     web_team_used: bool
+    transfer_web_player_used: bool
+    transfer_web_team_used: bool
+    allow_web_refresh: bool
     vector_factoids: list[str]
     comparables_context: str
     telemetry: dict[str, Any]
@@ -9809,8 +10326,8 @@ def initial_structured_state(
                 "name": player_name,
                 "college_team": target_team,
             },
-            recruiting_web_query=f"{player_name} recruiting profile",
-            team_context_query=f"{target_team} depth chart",
+            recruiting_web_query=f"{player_name} college football recruiting news offers profile",
+            team_context_query=f"{target_team} college football roster depth chart coaching staff",
             user_intent="Generate a structured scouting report.",
         ).model_dump(),
         "cfbd_data_summary": "",
@@ -9895,8 +10412,8 @@ def initial_structured_web_state(
         "active_report_context": {},
         "delegator_plan": DelegatorPlan(
             cfbd_search_params={},
-            recruiting_web_query=f"{player_name} recruiting injury transfer update",
-            team_context_query=f"{target_team} depth chart roster outlook",
+            recruiting_web_query=f"{player_name} college football recruiting news offers commitment update",
+            team_context_query=f"{target_team} college football roster depth chart coaching staff updates",
             user_intent="Generate structured recruiting and team web summaries.",
         ).model_dump(),
         "cfbd_data_summary": "",
@@ -10981,6 +11498,9 @@ def build_final_prompt_data(
     pred_score_row: dict[str, Any],
     pred_thr_row: dict[str, Any],
     web_summary: str,
+    *,
+    web_player_summary: str | None = None,
+    web_team_summary: str | None = None,
     vector_result: dict[str, Any],
     historical_comparables_md: str,
     tier_definitions_markdown: Any,
@@ -10997,9 +11517,29 @@ def build_final_prompt_data(
     hs_background_cap = 1800
     threshold_cap = 1500
     web_summary_cap = 2400
+    web_player_summary_cap = 1600
+    web_team_summary_cap = 1600
     vector_insights_cap = 2200
     historical_comparables_cap = 2200
     tier_definitions_cap = 2200
+
+    web_sections: list[str] = []
+    if str(web_player_summary or "").strip():
+        web_sections.append(
+            "Player Web Summary:\n"
+            f"{_truncate_text(str(web_player_summary or ''), max_chars=web_player_summary_cap)}"
+        )
+    if str(web_team_summary or "").strip():
+        web_sections.append(
+            "Team Web Summary:\n"
+            f"{_truncate_text(str(web_team_summary or ''), max_chars=web_team_summary_cap)}"
+        )
+    if not web_sections and str(web_summary or "").strip():
+        web_sections.append(
+            "Web Intelligence Summary:\n"
+            f"{_truncate_text(web_summary, max_chars=web_summary_cap)}"
+        )
+    web_summary_block = "\n\n".join(web_sections)
 
     prompt = (
         "You are a senior college football recruiting scout.\n"
@@ -11017,7 +11557,7 @@ def build_final_prompt_data(
         "Prediction Score Row JSON:\n"
         f"{_json_block(pred_score_row, max_chars=json_cap)}\n\n"
         f"Prediction Threshold Probabilities (user-friendly):\n{_truncate_text(threshold_block, max_chars=threshold_cap)}\n\n"
-        f"Web Intelligence Summary:\n{_truncate_text(web_summary, max_chars=web_summary_cap)}\n\n"
+        f"{web_summary_block}\n\n"
         f"Vector Insights:\n{_truncate_text(vector_block, max_chars=vector_insights_cap)}\n\n"
         f"Historical Comparables:\n{_truncate_text(historical_comparables_md, max_chars=historical_comparables_cap)}\n\n"
         f"Tier Definitions:\n{_truncate_text(tier_defs, max_chars=tier_definitions_cap)}\n\n"
@@ -11132,7 +11672,7 @@ import json
 import logging
 import re
 import time
-from datetime import date
+from datetime import date, datetime
 from typing import Any
 
 import numpy as np
@@ -11150,7 +11690,7 @@ from .cfbd_service import (
     fetch_team_roster,
     search_player_candidates,
 )
-from .state import DelegatorPlan
+from .state import DelegatorPlan, TransferDelegatorPlan
 from .supabase_client import (
     fetch_player_bundle,
     fetch_player_bundle_by_identity,
@@ -11213,6 +11753,109 @@ def _normalize_model_name(model_name: str) -> str:
 
 class DelegatorOutputValidationError(Exception):
     """Raised when LLM delegator output fails strict schema validation."""
+
+
+def _normalize_target_search_sites(target_search_sites: list[str] | None = None) -> list[str]:
+    sites = target_search_sites if target_search_sites is not None else list(CONFIG.get("TARGET_SEARCH_SITES") or [])
+    cleaned: list[str] = []
+    for site in sites:
+        text = str(site or "").strip().lower()
+        if text and text not in cleaned:
+            cleaned.append(text)
+    return cleaned
+
+
+def _site_query_clause(target_search_sites: list[str] | None = None) -> str:
+    sites = _normalize_target_search_sites(target_search_sites)
+    if not sites:
+        return ""
+    return "(" + " OR ".join(f"site:{site}" for site in sites) + ")"
+
+
+def _extract_result_date(result: dict[str, Any]) -> date | None:
+    raw_candidates = [
+        result.get("date"),
+        result.get("published"),
+        result.get("publishedDate"),
+        result.get("pubDate"),
+        result.get("timestamp"),
+        result.get("time"),
+    ]
+    for candidate in raw_candidates:
+        if candidate in (None, ""):
+            continue
+        if isinstance(candidate, date):
+            return candidate
+        if isinstance(candidate, (int, float)):
+            try:
+                return date.fromtimestamp(float(candidate))
+            except Exception:
+                pass
+        text = str(candidate).strip()
+        if not text:
+            continue
+        for pattern in (
+            "%Y-%m-%d",
+            "%Y/%m/%d",
+            "%m/%d/%Y",
+            "%Y-%m-%dT%H:%M:%S%z",
+            "%Y-%m-%dT%H:%M:%S",
+        ):
+            try:
+                return datetime.strptime(text, pattern).date()
+            except Exception:
+                continue
+        match = re.search(r"\b(20\d{2})[-/](\d{1,2})[-/](\d{1,2})\b", text)
+        if match:
+            try:
+                return date(int(match.group(1)), int(match.group(2)), int(match.group(3)))
+            except Exception:
+                continue
+
+    title_text = str(result.get("title") or "")
+    snippet_text = str(result.get("body") or result.get("snippet") or "")
+    for text_block in (title_text, snippet_text, f"{title_text} {snippet_text}"):
+        match = re.search(r"\b(20\d{2})[-/](\d{1,2})[-/](\d{1,2})\b", text_block)
+        if match:
+            try:
+                return date(int(match.group(1)), int(match.group(2)), int(match.group(3)))
+            except Exception:
+                continue
+    return None
+
+
+def _summary_context_prefix(
+    role: str | None = None,
+    entity_kind: str | None = None,
+    team_name: str | None = None,
+    target_name: str | None = None,
+) -> str:
+    role_text = str(role or "general").strip().lower()
+    entity_text = str(entity_kind or "").strip().lower()
+    team_text = str(team_name or "").strip()
+    target_text = str(target_name or "").strip()
+
+    lines = [
+        "Summary Role Context:",
+        f"- Role: {role_text}",
+    ]
+    if entity_text:
+        lines.append(f"- Entity kind: {entity_text}")
+    if target_text:
+        lines.append(f"- Target player: {target_text}")
+    if team_text:
+        lines.append(f"- Target team: {team_text}")
+
+    if role_text in {"recruiting_player", "transfer_player", "player"}:
+        lines.append("- Focus on player-specific recruiting, transfer, or performance context.")
+    elif role_text in {"recruiting_team", "transfer_team", "team"}:
+        lines.append("- Focus on team, roster, depth-chart, or program-level context.")
+    else:
+        lines.append("- Adapt the response to the supplied scouting or transfer context.")
+
+    return "\n".join(lines) + "\n\n"
+
+
 POS_MAP = {
     "CB": "DB",
     "S": "DB",
@@ -11471,6 +12114,7 @@ def _with_current_date_context(prompt_text: str) -> str:
         "Date Context:\n"
         f"- Current date: {today_iso}\n"
         "- Treat this as today's date when reasoning about recency and up-to-date information.\n"
+        "- If the payload contains dates, prefer the most recent credible items while still preserving relevant older context.\n"
         "- If recency is uncertain, state the uncertainty explicitly.\n\n"
     )
     return f"{date_context}{str(prompt_text or '').strip()}"
@@ -11542,8 +12186,8 @@ def delegator_plan_tool(user_query: str, target_team: str = "", target_player_na
                 "college_team": fallback_team,
                 "position": "",
             },
-            recruiting_web_query=f"{fallback_player} recruiting scouting report".strip(),
-            team_context_query=f"{fallback_team} depth chart roster".strip(),
+            recruiting_web_query=f"{fallback_player} college football recruiting news offers profile".strip(),
+            team_context_query=f"{fallback_team} college football roster depth chart coaching staff updates".strip(),
             user_intent=(user_query or "Generate a scouting report.")[:220],
         ).model_dump()
 
@@ -11555,7 +12199,10 @@ def delegator_plan_tool(user_query: str, target_team: str = "", target_player_na
     prompt = (
         "Create a delegator plan for a college football scouting workflow. "
         "Infer likely player/team context from the user request. "
-        "Return concise search params and queries.\n\n"
+        "Return concise search params and queries. "
+        "Set recruiting_web_query to player-specific recruiting context only (offers, visits, commitment status, injuries, profile). "
+        "Set team_context_query to broad team context only (roster composition, depth chart, coaching staff, recent staff changes, program direction). "
+        "Do not make team_context_query specific to the target player; final synthesis combines both streams.\n\n"
         f"User query: {user_query}\n"
         f"Known target team: {target_team}\n"
         f"Known target player: {target_player_name}\n"
@@ -11599,56 +12246,17 @@ def delegator_plan_tool(user_query: str, target_team: str = "", target_player_na
             "college_team": target_team or "",
             "position": "",
         },
-        recruiting_web_query=f"{target_player_name} recruiting scouting report".strip(),
-        team_context_query=f"{target_team} depth chart roster".strip(),
+        recruiting_web_query=f"{target_player_name} college football recruiting news offers profile".strip(),
+        team_context_query=f"{target_team} college football roster depth chart coaching staff updates".strip(),
         user_intent=(user_query or "Generate a scouting report.")[:220],
     ).model_dump()
-
-
-def search_web_tool(
-    player_name: str,
-    position: str,
-    high_school: str,
-    year: int,
-    max_results: int = 12,
+def search_web_query_tool(
+    query: str,
+    max_results: int | None = None,
+    timelimit: str | None = None,
+    target_search_sites: list[str] | None = None,
+    max_age_days: int | None = None,
 ) -> dict[str, Any]:
-    if DDGS is None:
-        return {"status": "skipped", "reason": "DDGS not installed", "data": [], "citations": []}
-
-    query = (
-        f"{player_name} {position} {high_school} {year} football recruiting "
-        f"(site:maxpreps.com OR site:247sports.com OR site:rivals.com OR site:espn.com OR site:on3.com)"
-    )
-
-    rows: list[dict[str, str]] = []
-    citations: list[dict[str, str]] = []
-
-    try:
-        results = _ddgs_text_search(query, max_results=max_results)
-        for result in results:
-            url = result.get("href", "") or ""
-            if not any(site in url for site in CONFIG["TARGET_SEARCH_SITES"]):
-                continue
-            row = {
-                "title": result.get("title", ""),
-                "url": url,
-                "snippet": result.get("body", ""),
-            }
-            rows.append(row)
-            citations.append(
-                {
-                    "source_type": "web",
-                    "source_name": row["title"] or "DDGS result",
-                    "source_url": row["url"],
-                }
-            )
-    except Exception as exc:
-        return {"status": "skipped", "reason": f"DDGS search failed: {exc}", "data": [], "citations": []}
-
-    return {"status": "ok", "reason": "search complete", "data": rows, "citations": citations}
-
-
-def search_web_query_tool(query: str, max_results: int | None = None, timelimit: str | None = None) -> dict[str, Any]:
     if DDGS is None:
         return {"status": "skipped", "reason": "DDGS not installed", "data": [], "citations": []}
 
@@ -11657,19 +12265,32 @@ def search_web_query_tool(query: str, max_results: int | None = None, timelimit:
     if effective_timelimit not in {None, "d", "w", "m", "y"}:
         effective_timelimit = None
 
+    target_sites = _normalize_target_search_sites(target_search_sites)
+    site_clause = _site_query_clause(target_sites)
+    search_query = str(query or "").strip()
+    if site_clause and "site:" not in search_query.lower():
+        search_query = f"{search_query} {site_clause}"
+
     rows: list[dict[str, str]] = []
     citations: list[dict[str, str]] = []
     try:
         results = _ddgs_text_search(
-            str(query or ""),
+            search_query,
             max_results=effective_max_results,
             timelimit=effective_timelimit,
         )
         for result in results:
+            url = str(result.get("href") or "")
+            if not url:
+                continue
+            if target_sites and not any(site in url.lower() for site in target_sites):
+                continue
+            published_date = _extract_result_date(result)
             row = {
                 "title": str(result.get("title") or ""),
-                "url": str(result.get("href") or ""),
+                "url": url,
                 "snippet": str(result.get("body") or ""),
+                "published_date": published_date.isoformat() if published_date else "",
             }
             rows.append(row)
             citations.append(
@@ -11684,101 +12305,14 @@ def search_web_query_tool(query: str, max_results: int | None = None, timelimit:
         return {"status": "skipped", "reason": f"DDGS search failed: {exc}", "data": [], "citations": []}
 
 
-def summarize_web_tool(player_name: str, position: str, search_rows: list[dict[str, str]]) -> dict[str, Any]:
-    if not search_rows:
-        return {
-            "status": "ok",
-            "reason": "no rows",
-            "data": "No relevant web articles were found from target recruiting sites.",
-            "citations": [],
-        }
-
-    llm = _get_llm(CONFIG["SUMMARY_MODEL"], temperature=0.0, max_output_tokens=1200)
-    if llm is None:
-        return {
-            "status": "skipped",
-            "reason": "Gemini summary model unavailable",
-            "data": "Gemini summary skipped: API key/model client not configured.",
-            "citations": [],
-        }
-
-    max_sources = max(1, min(int(CONFIG.get("WEB_QUERY_MAX_RESULTS", 6)), 10))
-    context_chunks = []
-    for idx, row in enumerate(search_rows[:max_sources], start=1):
-        context_chunks.append(
-            f"[{idx}] Title: {row.get('title', '')}\nURL: {row.get('url', '')}\nSnippet: {row.get('snippet', '')}"
-        )
-    sources_block = _truncate_text(
-        "\n".join(context_chunks),
-        max_chars=int(CONFIG.get("PROMPT_PAYLOAD_MAX_CHARS", 12000)),
-    )
-
-    prompt = (
-        f"You are a recruiting research assistant. Summarize recent web intelligence for {player_name} ({position}).\n"
-        "Only use provided sources. Do not invent facts.\n\n"
-        "Output:\n"
-        "1) Key facts\n2) Recruiting updates\n3) Source list\n\n"
-        f"Sources:\n{sources_block}"
-    )
-
-    prompt_with_date = _with_current_date_context(prompt)
-    _log_prompt_size("summarize_web_tool", prompt_with_date)
-    start_time = time.perf_counter()
-
-    cache_key = _summary_cache_key("summarize_web_tool", CONFIG["SUMMARY_MODEL"], prompt_with_date)
-    cached = _summary_cache_get(cache_key)
-    if isinstance(cached, dict):
-        return {
-            "status": "ok",
-            "reason": "summary complete (cache hit)",
-            "data": str(cached.get("data") or ""),
-            "citations": list(cached.get("citations") or []),
-            "telemetry": {
-                "tool": "summarize_web_tool",
-                "model": CONFIG["SUMMARY_MODEL"],
-                "status": "ok",
-                "reason": "cache hit",
-                "cache_hit": True,
-                "latency_ms": int((time.perf_counter() - start_time) * 1000),
-                "prompt_chars": len(str(prompt_with_date or "")),
-                "input_tokens": 0,
-                "output_tokens": 0,
-                "total_tokens": 0,
-                "estimated_cost_usd": 0.0,
-            },
-        }
-
-    response = llm.invoke(prompt_with_date)
-    telemetry = _build_model_telemetry(
-        tool_name="summarize_web_tool",
-        model_name=CONFIG["SUMMARY_MODEL"],
-        prompt_text=prompt_with_date,
-        start_time=start_time,
-        response=response,
-        status="ok",
-        reason="summary complete",
-    )
-    cleaned = sanitize_model_summary_text(_llm_response_to_text(response))
-    result = {
-        "status": "ok",
-        "reason": "summary complete",
-        "data": cleaned,
-        "citations": [
-            {"source_type": "model", "source_name": CONFIG["SUMMARY_MODEL"], "source_url": ""}
-        ],
-        "telemetry": telemetry,
-    }
-    _summary_cache_set(
-        cache_key,
-        {
-            "data": cleaned,
-            "citations": [{"source_type": "model", "source_name": CONFIG["SUMMARY_MODEL"], "source_url": ""}],
-        },
-    )
-    return result
-
-
-def summarize_payload_tool(summary_prompt: str, payload: Any) -> dict[str, Any]:
+def summarize_payload_tool(
+    summary_prompt: str,
+    payload: Any,
+    role: str | None = None,
+    entity_kind: str | None = None,
+    target_name: str | None = None,
+    target_team: str | None = None,
+) -> dict[str, Any]:
     llm = _get_llm(CONFIG["SUMMARY_MODEL"], temperature=0.0, max_output_tokens=1200)
     if llm is None:
         return {
@@ -11789,7 +12323,10 @@ def summarize_payload_tool(summary_prompt: str, payload: Any) -> dict[str, Any]:
         }
 
     payload_text = _payload_to_text(payload)
-    full_prompt = f"{summary_prompt}\n\nPayload:\n{payload_text}"
+    full_prompt = (
+        f"{_summary_context_prefix(role=role, entity_kind=entity_kind, team_name=target_team, target_name=target_name)}"
+        f"{summary_prompt}\n\nPayload:\n{payload_text}"
+    )
     prompt_with_date = _with_current_date_context(full_prompt)
     _log_prompt_size("summarize_payload_tool", prompt_with_date)
     start_time = time.perf_counter()
@@ -12269,6 +12806,84 @@ def final_synthesis_tool(prompt: str) -> dict[str, Any]:
         "citations": [{"source_type": "model", "source_name": CONFIG["FINAL_MODEL"], "source_url": ""}],
         "telemetry": telemetry,
     }
+
+class TransferDelegatorOutputValidationError(Exception):
+    """Raised when LLM transfer delegator output fails strict schema validation."""
+
+
+def transfer_delegator_plan_tool(
+    user_query: str,
+    target_team: str = "",
+    target_player_name: str = ""
+) -> dict[str, Any]:
+    llm = _get_llm(CONFIG["SUMMARY_MODEL"], temperature=0.0, max_output_tokens=500)
+    if llm is None:
+        fallback_player = target_player_name or ""
+        fallback_team = target_team or ""
+        return TransferDelegatorPlan(
+            player_news_query=f"{fallback_player} transfer portal news".strip(),
+            team_news_query=f"{fallback_team} college football transfer portal roster needs coaching staff updates".strip(),
+            user_intent=(user_query or "Analyze transfer portal opportunity.")[:220],
+            should_refresh_web=True,
+        ).model_dump()
+
+    try:
+        structured = llm.with_structured_output(TransferDelegatorPlan)
+    except Exception as exc:
+        raise TransferDelegatorOutputValidationError(f"Transfer delegator structured output setup failed: {exc}") from exc
+
+    prompt = (
+        "Create a delegator plan for a transfer portal chat workflow.\n"
+        "Analyze the user's question to infer if they are asking about recent news, stats, or team fit.\n"
+        "If they ask for stats or usage, set should_refresh_web to False. "
+        "If they explicitly request the latest news, rumors, or updates, set should_refresh_web to True and provide queries to search.\n"
+        "Set player_news_query to player-specific transfer context only (portal intent, eligibility, timeline, role expectations). "
+        "Set team_news_query to broad team context only (roster needs, depth chart competition, coaching staff, recent staff changes, program outlook). "
+        "Do not tailor team_news_query to the specific target player; final synthesis combines player and team streams. "
+        "Bias team context toward stable references such as Wikipedia when it helps ground roster or program-level context.\n\n"
+        f"User query: {user_query}\n"
+        f"Target team: {target_team}\n"
+        f"Target player: {target_player_name}\n"
+    )
+    prompt_with_date = _with_current_date_context(prompt)
+    start_time = time.perf_counter()
+    try:
+        plan = structured.invoke(prompt_with_date)
+        telemetry = _build_model_telemetry(
+            tool_name="transfer_delegator_plan_tool",
+            model_name=CONFIG["SUMMARY_MODEL"],
+            prompt_text=prompt_with_date,
+            start_time=start_time,
+            response=plan,
+            status="ok",
+            reason="transfer delegator plan complete",
+        )
+        if isinstance(plan, TransferDelegatorPlan):
+            out = plan.model_dump()
+            out["_telemetry"] = telemetry
+            return out
+        if hasattr(plan, "model_dump"):
+            out = plan.model_dump()
+            out["_telemetry"] = telemetry
+            return out
+        if isinstance(plan, dict):
+            out = TransferDelegatorPlan(**plan).model_dump()
+            out["_telemetry"] = telemetry
+            return out
+        raise TransferDelegatorOutputValidationError("Delegator returned an unexpected output type.")
+    except ValidationError as exc:
+        raise TransferDelegatorOutputValidationError(f"Delegator validation failed: {exc}") from exc
+    except TransferDelegatorOutputValidationError:
+        raise
+    except Exception as exc:
+        raise TransferDelegatorOutputValidationError(f"Delegator invoke failed: {exc}") from exc
+
+    return TransferDelegatorPlan(
+        player_news_query=f"{target_player_name} transfer portal news".strip(),
+        team_news_query=f"{target_team} college football transfer portal roster needs coaching staff updates".strip(),
+        user_intent=(user_query or "Analyze transfer portal opportunity.")[:220],
+        should_refresh_web=True,
+    ).model_dump()
 ```
 
 ## engine/utils.py
@@ -12390,6 +13005,7 @@ def image_data_uri_data(
 from __future__ import annotations
 
 import hashlib
+import re
 import time
 from typing import Any
 
@@ -12399,10 +13015,91 @@ from .config import CONFIG
 VECTOR_QUERY_CACHE: dict[str, dict[str, Any]] = {}
 
 
-def _vector_cache_key(query_text: str, position: str | None, top_k: int, threshold: float | None, vector_rpc_name: str) -> str:
+_STATE_NAME_TO_ABBR = {
+    "alabama": "AL",
+    "alaska": "AK",
+    "arizona": "AZ",
+    "arkansas": "AR",
+    "california": "CA",
+    "colorado": "CO",
+    "connecticut": "CT",
+    "delaware": "DE",
+    "district of columbia": "DC",
+    "florida": "FL",
+    "georgia": "GA",
+    "hawaii": "HI",
+    "idaho": "ID",
+    "illinois": "IL",
+    "indiana": "IN",
+    "iowa": "IA",
+    "kansas": "KS",
+    "kentucky": "KY",
+    "louisiana": "LA",
+    "maine": "ME",
+    "maryland": "MD",
+    "massachusetts": "MA",
+    "michigan": "MI",
+    "minnesota": "MN",
+    "mississippi": "MS",
+    "missouri": "MO",
+    "montana": "MT",
+    "nebraska": "NE",
+    "nevada": "NV",
+    "new hampshire": "NH",
+    "new jersey": "NJ",
+    "new mexico": "NM",
+    "new york": "NY",
+    "north carolina": "NC",
+    "north dakota": "ND",
+    "ohio": "OH",
+    "oklahoma": "OK",
+    "oregon": "OR",
+    "pennsylvania": "PA",
+    "rhode island": "RI",
+    "south carolina": "SC",
+    "south dakota": "SD",
+    "tennessee": "TN",
+    "texas": "TX",
+    "utah": "UT",
+    "vermont": "VT",
+    "virginia": "VA",
+    "washington": "WA",
+    "west virginia": "WV",
+    "wisconsin": "WI",
+    "wyoming": "WY",
+}
+
+_STATE_ABBR_TO_NAME = {abbr.lower(): name for name, abbr in _STATE_NAME_TO_ABBR.items()}
+
+
+def _normalize_state_value(state: str | None) -> str:
+    text = str(state or "").strip().lower()
+    if not text:
+        return ""
+    if len(text) == 2:
+        return _STATE_ABBR_TO_NAME.get(text, text).lower()
+    return text
+
+
+def _state_token_from_text(text: str) -> str:
+    match = re.search(r"\bwere from\s+([A-Za-z][A-Za-z\-']*)", str(text or ""), flags=re.IGNORECASE)
+    if not match:
+        return ""
+    return str(match.group(1) or "").strip().lower()
+
+
+def _vector_cache_key(
+    query_text: str,
+    position: str | None,
+    state: str | None,
+    top_k: int,
+    threshold: float | None,
+    vector_rpc_name: str,
+) -> str:
     raw = "|".join([
         str(query_text or ""),
         str(position or "").strip().upper(),
+        str(state or "").strip().upper(),
         str(int(top_k)),
         str(threshold if threshold is not None else ""),
         str(vector_rpc_name or ""),
@@ -12444,6 +13141,7 @@ def vector_insights_query_data(
     sb: Any,
     query_text: str,
     position: str | None,
+    state: str | None,
     top_k: int,
     threshold: float | None,
     vector_match_threshold: float,
@@ -12454,7 +13152,7 @@ def vector_insights_query_data(
     if sb is None:
         return {"insights": [], "reason": "Supabase client unavailable."}
 
-    cache_key = _vector_cache_key(query_text, position, top_k, threshold, vector_rpc_name)
+    cache_key = _vector_cache_key(query_text, position, state, top_k, threshold, vector_rpc_name)
     cached = _vector_cache_get(cache_key)
     if isinstance(cached, dict):
         cached_result = dict(cached)
@@ -12479,14 +13177,28 @@ def vector_insights_query_data(
     }
     if position:
         payload["filter_position"] = str(position).strip().upper()
+    normalized_state = _normalize_state_value(state)
+    if normalized_state:
+        payload["filter_state"] = normalized_state.upper()
 
     try:
         rows = sb.rpc(vector_rpc_name, payload).execute().data or []
     except Exception as exc:
         return {"insights": [], "reason": f"Vector RPC unavailable: {exc}"}
 
-    insights: list[str] = []
+    filtered_rows: list[dict[str, Any]] = []
     for row in rows:
+        row_dict = dict(row or {})
+        factoid_type = str(row_dict.get("factoid_type") or "").strip().lower()
+        factoid_text = str(row_dict.get("factoid_text") or row_dict.get("text") or "").strip()
+        if factoid_type == "state_analysis" and normalized_state:
+            parsed_state = _state_token_from_text(factoid_text)
+            if not parsed_state or parsed_state != normalized_state:
+                continue
+        filtered_rows.append(row_dict)
+
+    insights: list[str] = []
+    for row in filtered_rows:
         text = str(row.get("factoid_text") or row.get("text") or "").strip()
         if not text:
             continue
@@ -12501,148 +13213,7 @@ def vector_insights_query_data(
         _vector_cache_set(cache_key, result)
         return result
 
-    result = {"insights": insights, "reason": "ok", "rows": rows}
+    result = {"insights": insights, "reason": "ok", "rows": filtered_rows}
     _vector_cache_set(cache_key, result)
     return result
-```
-
-## engine/web_research_service.py
-
-```python
-from __future__ import annotations
-
-from datetime import date
-import re
-from typing import Any
-
-from tenacity import retry, retry_if_exception_type, stop_after_attempt, wait_exponential
-
-
-def _sanitize_model_summary_text(text: str) -> str:
-    sanitized = str(text or "")
-    sanitized = re.sub(r"```(?:json|javascript|html)?[\s\S]*?```", "", sanitized, flags=re.IGNORECASE)
-    sanitized = re.sub(r"<script\b[^>]*>[\s\S]*?</script>", "", sanitized, flags=re.IGNORECASE)
-    sanitized = re.sub(r"<iframe\b[^>]*>[\s\S]*?</iframe>", "", sanitized, flags=re.IGNORECASE)
-    sanitized = re.sub(r"<a\b[^>]*>[\s\S]*?</a>", "", sanitized, flags=re.IGNORECASE)
-    sanitized = re.sub(r"<[^>]+>", "", sanitized)
-
-    lines: list[str] = []
-    for line in sanitized.splitlines():
-        stripped = line.strip()
-        if not stripped:
-            continue
-        if stripped.startswith(("{", "}", "[", "]")):
-            continue
-        if re.match(r'^"[^"]+"\s*:\s*', stripped):
-            continue
-        lines.append(stripped)
-
-    return "\n".join(lines).strip()
-
-
-@retry(
-    retry=retry_if_exception_type(Exception),
-    stop=stop_after_attempt(3),
-    wait=wait_exponential(multiplier=0.5, min=0.5, max=3),
-    reraise=True,
-)
-def _ddgs_text_search(ddgs_class: Any, query: str, max_results: int) -> list[dict[str, Any]]:
-    rows: list[dict[str, Any]] = []
-    with ddgs_class() as ddgs:
-        for result in ddgs.text(query, max_results=max_results):
-            rows.append(result)
-    return rows
-
-
-def _with_current_date_context(prompt_text: str) -> str:
-    today_iso = date.today().isoformat()
-    date_context = (
-        "Date Context:\n"
-        f"- Current date: {today_iso}\n"
-        "- Treat this as today's date when reasoning about recency and up-to-date information.\n"
-        "- If recency is uncertain, state the uncertainty explicitly.\n\n"
-    )
-    return f"{date_context}{str(prompt_text or '').strip()}"
-
-
-def duckduckgo_search_data(
-    ddgs_class: Any,
-    player_name: str,
-    position: str,
-    high_school: str,
-    year: int,
-    target_search_sites: list[str],
-    max_results: int = 12,
-) -> list[dict[str, str]]:
-    if ddgs_class is None:
-        return []
-
-    query = (
-        f"{player_name} {position} {high_school} {year} football recruiting "
-        "(site:maxpreps.com OR site:247sports.com OR site:rivals.com OR site:espn.com OR site:on3.com)"
-    )
-
-    rows: list[dict[str, str]] = []
-    try:
-        results = _ddgs_text_search(ddgs_class, query, max_results=max_results)
-        for result in results:
-            url = str(result.get("href") or "")
-            if not url:
-                continue
-            if target_search_sites and not any(site in url for site in target_search_sites):
-                continue
-            rows.append(
-                {
-                    "title": str(result.get("title") or ""),
-                    "url": url,
-                    "snippet": str(result.get("body") or ""),
-                }
-            )
-    except Exception:
-        return []
-
-    return rows
-
-
-def summarize_web_with_flash_lite_data(
-    player_name: str,
-    position: str,
-    search_rows: list[dict[str, str]],
-    summary_model: str,
-    get_llm: Any,
-    llm_response_to_text: Any,
-) -> str:
-    if not search_rows:
-        return "No relevant web articles were found from target recruiting sites."
-
-    llm = get_llm(summary_model, temperature=0.0, max_output_tokens=1200)
-    if llm is None:
-        return "Web summary skipped: Gemini summary model is not configured."
-
-    snippets: list[str] = []
-    for idx, row in enumerate(search_rows[:10], start=1):
-        snippets.append(
-            f"[{idx}] Title: {row.get('title', '')}\n"
-            f"URL: {row.get('url', '')}\n"
-            f"Snippet: {row.get('snippet', '')}"
-        )
-
-    prompt = (
-        f"You are a recruiting research assistant. Summarize recent web intelligence for {player_name} ({position}).\n"
-        "Use only the provided sources. Do not invent facts.\n"
-        "Output ONLY plain markdown bullet points (no HTML, no JSON, no links).\n\n"
-        "Output sections:\n"
-        "1) Key facts\n"
-        "2) Recruiting updates\n"
-        "3) Source quality caveats\n\n"
-        f"Sources:\n{chr(10).join(snippets)}"
-    )
-
-    try:
-        response = llm.invoke(_with_current_date_context(prompt))
-        text = llm_response_to_text(response)
-        cleaned = _sanitize_model_summary_text(str(text).strip()) if text else ""
-        return cleaned or "Web summary returned empty output."
-    except Exception as exc:
-        return f"Web summary failed: {exc}"
 ```

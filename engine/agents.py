@@ -262,7 +262,62 @@ def _needs_web_recency_enrichment(state: ScoutState) -> bool:
     return any(term in query for term in recency_terms)
 
 
-def _should_use_duckduckgo(state: ScoutState, scope: str) -> tuple[bool, str]:
+def _normalize_prior_colleges(value: Any) -> list[str]:
+    if isinstance(value, list):
+        return [str(item).strip() for item in value if str(item).strip()]
+    text = str(value or "").strip()
+    if not text:
+        return []
+    if "," in text:
+        return [part.strip() for part in text.split(",") if part.strip()]
+    return [text]
+
+
+def _player_summary_context(state: ScoutState, *, transfer_mode: bool = False) -> dict[str, Any]:
+    if transfer_mode:
+        transfer_ctx = dict(state.get("transfer_report_context") or {})
+        player_row = dict(transfer_ctx.get("college_player") or {})
+        prior_colleges = _normalize_prior_colleges(player_row.get("teams") or player_row.get("prior_colleges"))
+        return {
+            "player_name": str(transfer_ctx.get("player_name") or state.get("target_player_name") or state.get("player_name") or "").strip(),
+            "player_position": str(player_row.get("position") or transfer_ctx.get("position") or "").strip(),
+            "high_school": str(player_row.get("high_school") or transfer_ctx.get("high_school") or "").strip(),
+            "prior_colleges": prior_colleges,
+        }
+
+    bundle = dict(state.get("sql_data_context") or {})
+    player_row = dict(bundle.get("player") or {})
+    prior_colleges = _normalize_prior_colleges(
+        player_row.get("prior_colleges")
+        or player_row.get("college_history")
+        or player_row.get("teams")
+    )
+    return {
+        "player_name": str(state.get("target_player_name") or state.get("player_name") or player_row.get("name") or "").strip(),
+        "player_position": str(player_row.get("position") or "").strip(),
+        "high_school": str(player_row.get("high_school") or player_row.get("high_school_name") or "").strip(),
+        "prior_colleges": prior_colleges,
+    }
+
+
+def _team_summary_context(state: ScoutState, *, transfer_mode: bool = False) -> dict[str, Any]:
+    if transfer_mode:
+        transfer_ctx = dict(state.get("transfer_report_context") or {})
+        return {
+            "team_name": str(transfer_ctx.get("target_team") or state.get("target_team") or "").strip(),
+            "conference": str(transfer_ctx.get("conference") or "").strip(),
+        }
+
+    bundle = dict(state.get("sql_data_context") or {})
+    team_row = dict(bundle.get("team") or {})
+    player_row = dict(bundle.get("player") or {})
+    return {
+        "team_name": str(state.get("target_team") or team_row.get("name") or player_row.get("college_team") or "").strip(),
+        "conference": str(team_row.get("conference") or player_row.get("conference") or "").strip(),
+    }
+
+
+def _should_use_web_search_enrichment(state: ScoutState, scope: str) -> tuple[bool, str]:
     # Primary-first policy: web search is only fallback/enrichment.
     if not _has_internal_grounding(state):
         return True, f"{scope}_fallback_missing_internal"
@@ -336,8 +391,27 @@ def lead_delegator_node(state: ScoutState) -> ScoutState:
         state["delegator_plan"] = DelegatorPlan().model_dump()
         state["errors"] = list(state.get("errors", [])) + ["Delegator plan parse failed; using defaults."]
 
+    # Canonical follow-up behavior: the delegator controls optional web enrichment,
+    # while respecting explicit orchestration-level disable flags.
+    explicit_web_refresh_disabled = not bool(state.get("allow_web_refresh", True))
+    if explicit_web_refresh_disabled:
+        should_refresh_web = False
+    else:
+        should_refresh_web = route_hint == "web_scout"
+    if not explicit_web_refresh_disabled and not should_refresh_web and not _has_internal_grounding(state):
+        should_refresh_web = True
+    state["allow_web_refresh"] = bool(should_refresh_web)
+
+    if not bool(state.get("allow_web_refresh")) and isinstance(state.get("delegator_plan"), dict):
+        state["delegator_plan"]["recruiting_web_query"] = ""
+        state["delegator_plan"]["team_context_query"] = ""
+
     state["trace_log"] = list(state.get("trace_log", [])) + [
-        _trace_entry(state, "lead_delegator", f"delegator_plan_ready route={route_hint}")
+        _trace_entry(
+            state,
+            "lead_delegator",
+            f"delegator_plan_ready route={route_hint} web_refresh={bool(state.get('allow_web_refresh'))}",
+        )
     ]
     state["next_step"] = "synthesizer"
     return state
@@ -537,12 +611,24 @@ def recruiting_scout_node(state: ScoutState) -> ScoutState:
     if bool(state.get("security_halt")):
         return {
             "web_recruiting_summary": "Recruiting summary skipped due to security safeguards.",
+            "web_recruiting_retrieval": {
+                "status": "skipped",
+                "reason": "security_halt",
+                "data": [],
+            },
+            "web_recruiting_used": False,
             "trace_log": [_trace_entry(state, "recruiting_scout", "skipped_security_halt")],
         }
 
     if bool(state.get("requires_identity_clarification")):
         return {
             "web_recruiting_summary": "Recruiting web context skipped until player identity is clarified.",
+            "web_recruiting_retrieval": {
+                "status": "skipped",
+                "reason": "needs_identity_clarification",
+                "data": [],
+            },
+            "web_recruiting_used": False,
             "trace_log": [_trace_entry(state, "recruiting_scout", "skipped_needs_identity_clarification")],
         }
 
@@ -552,13 +638,18 @@ def recruiting_scout_node(state: ScoutState) -> ScoutState:
         query = str(plan.get("recruiting_web_query") or "").strip()
     if not query:
         fallback_name = state.get("target_player_name") or state.get("player_name") or "player"
-        query = f"{fallback_name} college football recruiting news offers commitment"
+        query = f"{fallback_name} college football recruiting news recent"
 
-    search_result = search_web_query_tool(query=query, max_results=int(CONFIG.get("WEB_QUERY_MAX_RESULTS", 6)))
+    search_result = search_web_query_tool(
+        query=query,
+        max_results=int(CONFIG.get("WEB_QUERY_MAX_RESULTS", 10)),
+        timelimit="m",
+    )
     summary_result = summarize_payload_tool(
         summary_prompt=(
             "You are a secure summarization node. Output ONLY plain markdown bullet points (no HTML, no JSON, no links). "
             "Extract and summarize only high-signal recruiting and player context from the provided snippets. "
+            "Use known player context (name, position, high school, prior colleges) to ignore snippets about other players. "
             "Keep bullets concise. Use strictly the supplied snippets and include caveats when uncertain. "
         ),
         payload=search_result.get("data", []),
@@ -566,10 +657,13 @@ def recruiting_scout_node(state: ScoutState) -> ScoutState:
         entity_kind="player",
         target_name=str(state.get("target_player_name") or state.get("player_name") or ""),
         target_team=str(state.get("target_team") or ""),
+        entity_context=_player_summary_context(state),
     )
 
     return {
         "web_recruiting_summary": str(summary_result.get("data", "")).strip(),
+        "web_recruiting_retrieval": dict(search_result or {}),
+        "web_recruiting_used": True,
         "citations": list(search_result.get("citations") or []) + list(summary_result.get("citations") or []),
         "telemetry": dict(summary_result.get("telemetry") or {}),
         "trace_log": [_trace_entry(state, "recruiting_scout", "web_recruiting_summary_ready")],
@@ -580,12 +674,24 @@ def team_scout_node(state: ScoutState) -> ScoutState:
     if bool(state.get("security_halt")):
         return {
             "web_team_summary": "Team context skipped due to security safeguards.",
+            "web_team_retrieval": {
+                "status": "skipped",
+                "reason": "security_halt",
+                "data": [],
+            },
+            "web_team_used": False,
             "trace_log": [_trace_entry(state, "team_scout", "skipped_security_halt")],
         }
 
     if bool(state.get("requires_identity_clarification")):
         return {
             "web_team_summary": "Team context skipped until player identity is clarified.",
+            "web_team_retrieval": {
+                "status": "skipped",
+                "reason": "needs_identity_clarification",
+                "data": [],
+            },
+            "web_team_used": False,
             "trace_log": [_trace_entry(state, "team_scout", "skipped_needs_identity_clarification")],
         }
 
@@ -595,13 +701,18 @@ def team_scout_node(state: ScoutState) -> ScoutState:
         query = str(plan.get("team_context_query") or "").strip()
     if not query:
         fallback_team = state.get("target_team") or "team"
-        query = f"{fallback_team} college football roster depth chart coaching staff"
+        query = f"{fallback_team} college football team news recent"
 
-    search_result = search_web_query_tool(query=query, max_results=int(CONFIG.get("WEB_QUERY_MAX_RESULTS", 6)))
+    search_result = search_web_query_tool(
+        query=query,
+        max_results=int(CONFIG.get("WEB_QUERY_MAX_RESULTS", 10)),
+        timelimit="m",
+    )
     summary_result = summarize_payload_tool(
         summary_prompt=(
             "You are a secure summarization node. Output ONLY plain markdown bullet points (no HTML, no JSON, no links). "
             "Extract and summarize only high-signal team context regarding roster fit, focusing strictly on current coaches, recent staff turnover, and depth chart situations. "
+            "Use known team context (college name and conference) to ignore snippets that clearly reference other programs. "
             "Prioritize the most recent evidence available and explicitly note if the source material appears outdated. "
             "Use strictly the supplied snippets. "
         ),
@@ -610,10 +721,13 @@ def team_scout_node(state: ScoutState) -> ScoutState:
         entity_kind="team",
         target_name=str(state.get("target_player_name") or state.get("player_name") or ""),
         target_team=str(state.get("target_team") or ""),
+        entity_context=_team_summary_context(state),
     )
 
     return {
         "web_team_summary": str(summary_result.get("data", "")).strip(),
+        "web_team_retrieval": dict(search_result or {}),
+        "web_team_used": True,
         "citations": list(search_result.get("citations") or []) + list(summary_result.get("citations") or []),
         "telemetry": dict(summary_result.get("telemetry") or {}),
         "trace_log": [_trace_entry(state, "team_scout", "web_team_summary_ready")],
@@ -625,6 +739,16 @@ def parallel_web_scout_node(state: ScoutState) -> ScoutState:
         return {
             "web_recruiting_summary": "Recruiting summary skipped due to security safeguards.",
             "web_team_summary": "Team context skipped due to security safeguards.",
+            "web_recruiting_retrieval": {
+                "status": "skipped",
+                "reason": "security_halt",
+                "data": [],
+            },
+            "web_team_retrieval": {
+                "status": "skipped",
+                "reason": "security_halt",
+                "data": [],
+            },
             "trace_log": [_trace_entry(state, "parallel_web_scout", "skipped_security_halt")],
         }
 
@@ -632,7 +756,38 @@ def parallel_web_scout_node(state: ScoutState) -> ScoutState:
         return {
             "web_recruiting_summary": "Recruiting web context skipped until player identity is clarified.",
             "web_team_summary": "Team context skipped until player identity is clarified.",
+            "web_recruiting_retrieval": {
+                "status": "skipped",
+                "reason": "needs_identity_clarification",
+                "data": [],
+            },
+            "web_team_retrieval": {
+                "status": "skipped",
+                "reason": "needs_identity_clarification",
+                "data": [],
+            },
+            "web_recruiting_used": False,
+            "web_team_used": False,
             "trace_log": [_trace_entry(state, "parallel_web_scout", "skipped_needs_identity_clarification")],
+        }
+
+    if state.get("mode") == "chat" and not bool(state.get("allow_web_refresh", True)):
+        return {
+            "web_recruiting_summary": "Web enrichment skipped for this follow-up turn.",
+            "web_team_summary": "Web enrichment skipped for this follow-up turn.",
+            "web_recruiting_retrieval": {
+                "status": "skipped",
+                "reason": "delegator_no_web_refresh",
+                "data": [],
+            },
+            "web_team_retrieval": {
+                "status": "skipped",
+                "reason": "delegator_no_web_refresh",
+                "data": [],
+            },
+            "web_recruiting_used": False,
+            "web_team_used": False,
+            "trace_log": [_trace_entry(state, "parallel_web_scout", "skipped_delegator_no_web_refresh")],
         }
 
     def _run_recruiting() -> dict[str, Any]:
@@ -672,6 +827,10 @@ def parallel_web_scout_node(state: ScoutState) -> ScoutState:
     return {
         "web_recruiting_summary": str(recruiting_result.get("web_recruiting_summary") or "").strip(),
         "web_team_summary": str(team_result.get("web_team_summary") or "").strip(),
+        "web_recruiting_retrieval": dict(recruiting_result.get("web_recruiting_retrieval") or {}),
+        "web_team_retrieval": dict(team_result.get("web_team_retrieval") or {}),
+        "web_recruiting_used": bool(recruiting_result.get("web_recruiting_used")),
+        "web_team_used": bool(team_result.get("web_team_used")),
         "citations": merged_citations,
         "telemetry": {
             "model_telemetry": model_telemetry_rows,
@@ -798,13 +957,13 @@ def lead_synthesizer_node(state: ScoutState) -> ScoutState:
         },
         "source_priority": {
             "primary": "active_rendered_report_context_when_referenced_then_internal_backend_data_vectors_and_repository_context",
-            "secondary": "duckduckgo_supplemental_enrichment_only",
+            "secondary": "tavily_supplemental_enrichment_only",
             "final": "model_reasoning_supported_by_available_evidence_only",
         },
         "source_usage": {
             "internal_grounding_available": _has_internal_grounding(state),
-            "duckduckgo_recruiting_used": bool(state.get("web_recruiting_used", False)),
-            "duckduckgo_team_used": bool(state.get("web_team_used", False)),
+            "tavily_recruiting_used": bool(state.get("web_recruiting_used", False)),
+            "tavily_team_used": bool(state.get("web_team_used", False)),
         },
     }
 
@@ -912,7 +1071,11 @@ def transfer_delegator_node(state: ScoutState) -> ScoutState:
 
 def transfer_web_scout_node(state: ScoutState) -> ScoutState:
     if bool(state.get("security_halt")):
-        return {"trace_log": [_trace_entry(state, "transfer_web_scout", "skipped")]}
+        return {
+            "trace_log": [_trace_entry(state, "transfer_web_scout", "skipped")],
+            "transfer_web_player_used": False,
+            "transfer_web_team_used": False,
+        }
 
     plan = state.get("transfer_delegator_plan") or {}
     if not bool(state.get("allow_web_refresh", True)) or not plan.get("should_refresh_web"):
@@ -928,25 +1091,38 @@ def transfer_web_scout_node(state: ScoutState) -> ScoutState:
         traces.append(_trace_entry(state, "transfer_web_scout", "skipped_no_queries"))
         updates["transfer_web_player_summary"] = ""
         updates["transfer_web_team_summary"] = ""
+        updates["transfer_web_player_retrieval"] = {"status": "skipped", "reason": "no_queries", "data": []}
+        updates["transfer_web_team_retrieval"] = {"status": "skipped", "reason": "no_queries", "data": []}
+        updates["transfer_web_player_used"] = False
+        updates["transfer_web_team_used"] = False
         updates["trace_log"] = traces
         updates["next_step"] = "transfer_synthesizer"
         return updates
 
     def process_query(q: str, prompt_hint: str) -> dict[str, Any]:
         if not q:
-            return {"summary": "", "payload": []}
-        rows = search_web_query_tool(query=q, max_results=6, timelimit="m")
+            return {
+                "summary": "",
+                "payload": {},
+                "retrieval": {"status": "skipped", "reason": "empty_query", "data": []},
+            }
+        rows = search_web_query_tool(query=q, max_results=10, timelimit="m")
+        is_player_prompt = "player" in prompt_hint.lower()
         summary_result = summarize_payload_tool(
             summary_prompt=prompt_hint,
             payload=rows.get("data") or [],
-            role="transfer_player" if "player" in prompt_hint.lower() else "transfer_team",
-            entity_kind="player" if "player" in prompt_hint.lower() else "team",
+            role="transfer_player" if is_player_prompt else "transfer_team",
+            entity_kind="player" if is_player_prompt else "team",
             target_name=str(state.get("target_player_name") or ""),
             target_team=str(state.get("target_team") or ""),
+            entity_context=_player_summary_context(state, transfer_mode=True)
+            if is_player_prompt
+            else _team_summary_context(state, transfer_mode=True),
         )
         return {
             "summary": str(summary_result.get("data") or "").strip(),
-            "payload": summary_result
+            "payload": summary_result,
+            "retrieval": dict(rows or {}),
         }
 
     parallel_started = time.perf_counter()
@@ -954,28 +1130,40 @@ def transfer_web_scout_node(state: ScoutState) -> ScoutState:
         f_player = executor.submit(
             process_query, 
             player_query, 
-            "Summarize the most relevant transfer-portal player recency updates."
+            "Summarize the most relevant transfer-portal player recency updates. Use known player context (name, position, high school, prior colleges) to ignore unrelated players."
         )
         f_team = executor.submit(
             process_query, 
             team_query, 
-            "Summarize the most relevant team depth-chart or transfer context. Use Wikipedia as a grounding source when it appears in the search results, but do not overstate speculative details."
+            "Summarize the most relevant team depth-chart or transfer context. Use known team context (college name and conference) to ignore unrelated programs. Use Wikipedia as a grounding source when it appears in the search results, but do not overstate speculative details."
         )
         
         try:
             player_res = f_player.result(timeout=25)
         except Exception as e:
-            player_res = {"summary": f"Player web search failed: {e}", "payload": {}}
+            player_res = {
+                "summary": f"Player web search failed: {e}",
+                "payload": {},
+                "retrieval": {"status": "error", "reason": str(e), "data": []},
+            }
             
         try:
             team_res = f_team.result(timeout=25)
         except Exception as e:
-            team_res = {"summary": f"Team web search failed: {e}", "payload": {}}
+            team_res = {
+                "summary": f"Team web search failed: {e}",
+                "payload": {},
+                "retrieval": {"status": "error", "reason": str(e), "data": []},
+            }
 
     parallel_latency_ms = int((time.perf_counter() - parallel_started) * 1000)
 
     updates["transfer_web_player_summary"] = player_res["summary"]
     updates["transfer_web_team_summary"] = team_res["summary"]
+    updates["transfer_web_player_retrieval"] = dict(player_res.get("retrieval") or {})
+    updates["transfer_web_team_retrieval"] = dict(team_res.get("retrieval") or {})
+    updates["transfer_web_player_used"] = bool(player_query)
+    updates["transfer_web_team_used"] = bool(team_query)
 
     # Gather telemetry from summarizations if any
     summaries_tel = []

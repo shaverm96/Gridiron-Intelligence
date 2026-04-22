@@ -10,7 +10,7 @@ langgraph
 supabase>=2.0.0
 psycopg2-binary
 pydantic>=2.7,<3
-ddgs
+tavily-python
 sentence-transformers
 scikit-learn
 torchvision

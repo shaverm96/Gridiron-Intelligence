@@ -144,7 +144,7 @@ A core technical contribution of this project is the refactoring of the database
 * **`gi_player_link_bridge`**: A crosswalk table that links recruit identities to college records, enabling the system to trace a prospect's development from high school into the transfer portal.
 
 ### 3.3 Identity Resolution Policy
-To avoid the "Player Identity Crisis"—where an LLM might confuse two players with the same name—Gridiron Intelligence implements a strict **SQL-first fuzzy matching** policy. 
+To avoid the "Player Identity Crisis", where an LLM might confuse two players with the same name, Gridiron Intelligence implements a strict **SQL-first fuzzy matching** policy. 
 
 Rather than relying on probabilistic vector embeddings for identity lookups, the system uses the PostgreSQL `pg_trgm` (trigram) extension. This allows for high-precision text matching across name, position, and team fields. If the system identifies multiple potential matches (e.g., two players named "Josh Williams"), it is programmed to pause and trigger a clarification flow for the user rather than proceeding with potentially incorrect data.
 
@@ -159,3 +159,33 @@ The system is built upon a master dataset covering prospects from 2015 to 2028. 
 | **Factoid Vectors** | Qualitative | Semantic enrichment of scouting reports. |
 
 To ensure production stability, the data access layer implements **null-safe sorting** (prioritizing rating desc) and **diagnostics blocks** that check for missing critical fields (like position or team) before a report is generated.
+
+## 4. Technical Implementation
+
+This section maps the theoretical concepts of large language models to the specific engineering implementations within the `engine/` modules of Gridiron Intelligence. Having established the system architecture and data strategy, the following technical components dictate how the AI interacts with that foundation.
+
+### 4.1 Prompt Engineering and Grounding
+To ensure consistent output formats and prevent hallucination, the application employs a two-stage prompting architecture (`engine/prompt_architecture.py`):
+* **Upstream Summarization Prompts:** These prompts are heavily constrained. When evaluating raw web data or verbose API JSON, the summarization prompts force the model to return plain markdown bullet points. This limits context window bloat.
+* **Downstream Synthesis Prompts:** The final `lead_synthesizer` prompt combines the upstream summaries with strict grounding instructions. It utilizes temporal wrappers (injecting the current date into the system prompt) to ensure recency-aware reasoning and explicitly commands the model to omit missing data rather than guessing.
+
+### 4.2 Agentic Tool Calling
+The system relies on structured tool wrappers (`engine/tools.py`) to interface with the outside world, specifically the CFBD API and DuckDuckGo search endpoints. 
+* **Schema Enforcement:** Tools are defined with strict input schemas, ensuring the LLM passes properly formatted arguments (e.g., bounding search dates or correctly formatting API keys).
+* **Fail-Safe Execution:** A primary technical feature of the tool layer is deterministic fallback handling. If an external API times out or a web search returns sparse data, the tool does not throw an unhandled exception. Instead, it returns a controlled string (e.g., "No context available at this time"), allowing the broader orchestration graph to fail gracefully and complete the report.
+
+### 4.3 Multi-Agent Specialization
+Building on the orchestration topology detailed in Section 2, the agent design deliberately avoids open-ended "ReAct" loops, which are prone to getting stuck. Instead, we defined specialized personas within `engine/agents.py`:
+* **The Domain Experts:** By separating the `recruiting_scout` (focused on individual player background) from the `team_scout` (focused on roster fit and scheme), we narrow the reasoning context for the LLM at each node. This division of labor improves output relevance and allows for the parallel execution seen in the Transfer Portal.
+
+### 4.4 Safety and Security Guardrails
+Agentic systems are uniquely vulnerable to payload poisoning from scraped web data and routing errors from the model itself. We implemented critical security layers (`SECURITY_UPDATES.md`):
+* **Routing Validation:** When the Open Chat feature is utilized, the `lead_delegator` generates a `DelegatorPlan`. This plan is validated against an expected schema. If the model generates malformed routing instructions, execution is explicitly halted.
+* **Payload Sanitization:** Before raw web content enters the `ScoutState`, it passes through a sanitization block that strips unsafe HTML, hidden scripts, and anomalous code blocks. This protects the final synthesis prompt from unintentional injection attacks hidden in sports news articles.
+
+### 4.5 Scaling Strategies (The "FrugalGPT" Pattern)
+A significant engineering challenge in multi-agent workflows is the "agentic scale trap"—where concurrent tasks geometrically inflate token consumption. To optimize operational scaling (`engine/config.py`), Gridiron Intelligence uses a cost-aware model cascade:
+* **The Model Split:** Upstream tasks (such as parsing messy web HTML or filtering CFBD JSON) are routed to the highly efficient **Gemini 3.1 Flash-Lite**. 
+* **Final Synthesis:** The heavier **Gemini 3.1 Flash** model is reserved exclusively for the final narrative synthesis. 
+
+By combining this model cascade with strict "max-result" caps on DuckDuckGo searches, the system guarantees a predictable token expenditure per evaluation, ensuring the application can scale sustainably.
