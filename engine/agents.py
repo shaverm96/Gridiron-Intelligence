@@ -22,6 +22,7 @@ from .tools import (
     summarize_payload_tool,
     vector_insights_tool,
 )
+from .web_query_templates import recruiting_player_query, recruiting_team_query
 
 
 def _trace_entry(state: ScoutState, node_name: str, note: str = "") -> dict[str, Any]:
@@ -638,7 +639,7 @@ def recruiting_scout_node(state: ScoutState) -> ScoutState:
         query = str(plan.get("recruiting_web_query") or "").strip()
     if not query:
         fallback_name = state.get("target_player_name") or state.get("player_name") or "player"
-        query = f"{fallback_name} college football recruiting news recent"
+        query = recruiting_player_query(str(fallback_name))
 
     search_result = search_web_query_tool(
         query=query,
@@ -647,10 +648,13 @@ def recruiting_scout_node(state: ScoutState) -> ScoutState:
     )
     summary_result = summarize_payload_tool(
         summary_prompt=(
-            "You are a secure summarization node. Output ONLY plain markdown bullet points (no HTML, no JSON, no links). "
-            "Extract and summarize only high-signal recruiting and player context from the provided snippets. "
-            "Use known player context (name, position, high school, prior colleges) to ignore snippets about other players. "
-            "Keep bullets concise. Use strictly the supplied snippets and include caveats when uncertain. "
+            "You are a secure summarization filter. Output ONLY plain markdown bullet points (no HTML, no JSON, no links). "
+            "Extract high-signal, player-relevant recruiting context with richer factual detail from the provided snippets. "
+            "Keep useful scouting information (traits, athletic background, timeline notes, measurable stats, offers/visits, injuries, eligibility) when present. "
+            "Remove legal boilerplate, copyright text, nav junk, and repetitive formatting noise. "
+            "Use known player context (name, position, high school, prior colleges) to exclude unrelated players, teams, sports, and duplicate facts. "
+            "Return 8-14 detailed bullets when evidence supports it, and include uncertainty caveats where needed. "
+            "Use strictly the supplied snippets. "
         ),
         payload=search_result.get("data", []),
         role="recruiting_player",
@@ -701,7 +705,7 @@ def team_scout_node(state: ScoutState) -> ScoutState:
         query = str(plan.get("team_context_query") or "").strip()
     if not query:
         fallback_team = state.get("target_team") or "team"
-        query = f"{fallback_team} college football team news recent"
+        query = recruiting_team_query(str(fallback_team))
 
     search_result = search_web_query_tool(
         query=query,
@@ -710,10 +714,12 @@ def team_scout_node(state: ScoutState) -> ScoutState:
     )
     summary_result = summarize_payload_tool(
         summary_prompt=(
-            "You are a secure summarization node. Output ONLY plain markdown bullet points (no HTML, no JSON, no links). "
-            "Extract and summarize only high-signal team context regarding roster fit, focusing strictly on current coaches, recent staff turnover, and depth chart situations. "
-            "Use known team context (college name and conference) to ignore snippets that clearly reference other programs. "
-            "Prioritize the most recent evidence available and explicitly note if the source material appears outdated. "
+            "You are a secure summarization filter. Output ONLY plain markdown bullet points (no HTML, no JSON, no links). "
+            "Extract high-signal team context for roster fit with useful detail: roster needs, depth chart competition, staff turnover, coaching changes, positional battles, and spring standouts. "
+            "Remove legal boilerplate, site disclaimers, and formatting clutter while preserving actionable facts. "
+            "Use known team context (college name and conference) to ignore unrelated programs and other sports. "
+            "Prioritize recent evidence, but keep still-relevant context if it improves fit evaluation. "
+            "Return 6-12 detailed bullets when evidence supports it, and mark uncertainty when needed. "
             "Use strictly the supplied snippets. "
         ),
         payload=search_result.get("data", []),
@@ -1130,12 +1136,12 @@ def transfer_web_scout_node(state: ScoutState) -> ScoutState:
         f_player = executor.submit(
             process_query, 
             player_query, 
-            "Summarize the most relevant transfer-portal player recency updates. Use known player context (name, position, high school, prior colleges) to ignore unrelated players."
+            "Summarize transfer-portal player updates as a high-signal filter. Keep detailed facts on portal intent, eligibility remaining, NIL mentions, visits, injuries, scouting notes, and draft-stock movement when present. Remove legal/disclaimer bloat and noisy formatting. Use known player context (name, position, high school, prior colleges) to exclude unrelated players, teams, sports, and duplicates. Return 8-14 detailed bullets when evidence supports it."
         )
         f_team = executor.submit(
             process_query, 
             team_query, 
-            "Summarize the most relevant team depth-chart or transfer context. Use known team context (college name and conference) to ignore unrelated programs. Use Wikipedia as a grounding source when it appears in the search results, but do not overstate speculative details."
+            "Summarize team transfer context as a high-signal filter. Keep detailed facts on roster needs, depth-chart competition, coaching/staff changes, positional battles, scholarship pressure, and spring standouts when present. Remove legal/disclaimer bloat and noisy formatting. Use known team context (college name and conference) to exclude unrelated programs and other sports. Use Wikipedia as grounding when present without overstating speculation. Return 6-12 detailed bullets when evidence supports it."
         )
         
         try:

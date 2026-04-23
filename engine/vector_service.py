@@ -1,7 +1,6 @@
 from __future__ import annotations
 
 import hashlib
-import re
 import time
 from typing import Any
 
@@ -11,77 +10,43 @@ from .config import CONFIG
 VECTOR_QUERY_CACHE: dict[str, dict[str, Any]] = {}
 
 
-_STATE_NAME_TO_ABBR = {
-    "alabama": "AL",
-    "alaska": "AK",
-    "arizona": "AZ",
-    "arkansas": "AR",
-    "california": "CA",
-    "colorado": "CO",
-    "connecticut": "CT",
-    "delaware": "DE",
-    "district of columbia": "DC",
-    "florida": "FL",
-    "georgia": "GA",
-    "hawaii": "HI",
-    "idaho": "ID",
-    "illinois": "IL",
-    "indiana": "IN",
-    "iowa": "IA",
-    "kansas": "KS",
-    "kentucky": "KY",
-    "louisiana": "LA",
-    "maine": "ME",
-    "maryland": "MD",
-    "massachusetts": "MA",
-    "michigan": "MI",
-    "minnesota": "MN",
-    "mississippi": "MS",
-    "missouri": "MO",
-    "montana": "MT",
-    "nebraska": "NE",
-    "nevada": "NV",
-    "new hampshire": "NH",
-    "new jersey": "NJ",
-    "new mexico": "NM",
-    "new york": "NY",
-    "north carolina": "NC",
-    "north dakota": "ND",
-    "ohio": "OH",
-    "oklahoma": "OK",
-    "oregon": "OR",
-    "pennsylvania": "PA",
-    "rhode island": "RI",
-    "south carolina": "SC",
-    "south dakota": "SD",
-    "tennessee": "TN",
-    "texas": "TX",
-    "utah": "UT",
-    "vermont": "VT",
-    "virginia": "VA",
-    "washington": "WA",
-    "west virginia": "WV",
-    "wisconsin": "WI",
-    "wyoming": "WY",
+_POS_MAP = {
+    "CB": "DB",
+    "S": "DB",
+    "FS": "DB",
+    "SS": "DB",
+    "DB": "DB",
+    "DE": "EDGE",
+    "EDGE": "EDGE",
+    "DT": "IDL",
+    "NT": "IDL",
+    "DL": "IDL",
+    "LB": "LB",
+    "OLB": "LB",
+    "ILB": "LB",
+    "MLB": "LB",
+    "OL": "OL",
+    "OT": "OL",
+    "OG": "OL",
+    "C": "OL",
+    "QB": "QB",
+    "RB": "RB",
+    "HB": "RB",
+    "FB": "RB",
+    "K": "SPEC",
+    "P": "SPEC",
+    "PK": "SPEC",
+    "LS": "SPEC",
+    "RET": "SPEC",
+    "SPEC": "SPEC",
+    "TE": "TE",
+    "WR": "WR",
 }
 
-_STATE_ABBR_TO_NAME = {abbr.lower(): name for name, abbr in _STATE_NAME_TO_ABBR.items()}
 
-
-def _normalize_state_value(state: str | None) -> str:
-    text = str(state or "").strip().lower()
-    if not text:
-        return ""
-    if len(text) == 2:
-        return _STATE_ABBR_TO_NAME.get(text, text).lower()
-    return text
-
-
-def _state_token_from_text(text: str) -> str:
-    match = re.search(r"\bwere from\s+([A-Za-z][A-Za-z\-']*)", str(text or ""), flags=re.IGNORECASE)
-    if not match:
-        return ""
-    return str(match.group(1) or "").strip().lower()
+def _normalize_position_group(position_value: str | None) -> str:
+    raw = str(position_value or "").strip().upper()
+    return _POS_MAP.get(raw, raw)
 
 
 def _vector_cache_key(
@@ -94,8 +59,7 @@ def _vector_cache_key(
 ) -> str:
     raw = "|".join([
         str(query_text or ""),
-        str(position or "").strip().upper(),
-        str(state or "").strip().upper(),
+        _normalize_position_group(position),
         str(int(top_k)),
         str(threshold if threshold is not None else ""),
         str(vector_rpc_name or ""),
@@ -170,28 +134,59 @@ def vector_insights_query_data(
         "query_embedding": embedding,
         "match_threshold": float(match_threshold),
         "match_count": int(top_k),
+        # Always include filter_state so overloaded RPC signatures can be disambiguated.
+        "filter_state": None,
     }
     if position:
-        payload["filter_position"] = str(position).strip().upper()
-    normalized_state = _normalize_state_value(state)
-    if normalized_state:
-        payload["filter_state"] = normalized_state.upper()
+        payload["filter_position"] = _normalize_position_group(position)
 
     try:
         rows = sb.rpc(vector_rpc_name, payload).execute().data or []
     except Exception as exc:
-        return {"insights": [], "reason": f"Vector RPC unavailable: {exc}"}
+        exc_text = str(exc)
+        missing_signature = (
+            "PGRST202" in exc_text
+            or "Could not find the function" in exc_text
+            or "No function matches" in exc_text
+        )
+        if missing_signature:
+            legacy_payload = dict(payload)
+            legacy_payload.pop("filter_state", None)
+            try:
+                rows = sb.rpc(vector_rpc_name, legacy_payload).execute().data or []
+            except Exception:
+                rows = None
+            if isinstance(rows, list):
+                filtered_rows = [dict(row or {}) for row in rows]
+                insights: list[str] = []
+                for row in filtered_rows:
+                    text = str(row.get("factoid_text") or row.get("text") or "").strip()
+                    if not text:
+                        continue
+                    sim = to_float_or_none(row.get("similarity"))
+                    if sim is None:
+                        insights.append(text)
+                    else:
+                        insights.append(f"[sim={sim:.3f}] {text}")
 
-    filtered_rows: list[dict[str, Any]] = []
-    for row in rows:
-        row_dict = dict(row or {})
-        factoid_type = str(row_dict.get("factoid_type") or "").strip().lower()
-        factoid_text = str(row_dict.get("factoid_text") or row_dict.get("text") or "").strip()
-        if factoid_type == "state_analysis" and normalized_state:
-            parsed_state = _state_token_from_text(factoid_text)
-            if not parsed_state or parsed_state != normalized_state:
-                continue
-        filtered_rows.append(row_dict)
+                if not insights:
+                    result = {"insights": [], "reason": "No vector insights returned."}
+                    _vector_cache_set(cache_key, result)
+                    return result
+
+                result = {"insights": insights, "reason": "ok (legacy signature)", "rows": filtered_rows}
+                _vector_cache_set(cache_key, result)
+                return result
+        if "PGRST203" in exc_text:
+            reason = (
+                "Vector RPC unavailable: overloaded database function signature ambiguity "
+                f"for '{vector_rpc_name}'. {exc_text}"
+            )
+        else:
+            reason = f"Vector RPC unavailable: {exc_text}"
+        return {"insights": [], "reason": reason}
+
+    filtered_rows = [dict(row or {}) for row in rows]
 
     insights: list[str] = []
     for row in filtered_rows:

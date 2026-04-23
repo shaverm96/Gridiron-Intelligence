@@ -1603,10 +1603,6 @@ def render_structured_summary_card(
     compact: bool = False,
     context: dict[str, Any] | None = None,
 ) -> None:
-    if section_key == "recruiting":
-        _render_recruiting_summary_card(raw_text, context=context)
-        return
-
     notes = parse_summary_notes_data(raw_text)
     if not notes:
         st.markdown(f"### {title}")
@@ -1644,6 +1640,38 @@ def render_structured_summary_card(
         ),
         unsafe_allow_html=True,
     )
+
+
+def _normalize_transfer_markdown_line(line: str) -> str:
+    text = str(line or "").strip()
+    if not text:
+        return ""
+    text = re.sub(r"[*_`]+", "", text)
+    text = re.sub(r"^\s*\d+\s*[\)\.-]\s*", "", text)
+    return text.strip()
+
+
+def _normalize_transfer_markdown_text(raw_text: str | None) -> str:
+    raw = str(raw_text or "").strip()
+    if not raw:
+        return "No summary available."
+
+    lines = str(raw).splitlines()
+    cleaned_lines: list[str] = []
+    for line in lines:
+        clean = _normalize_transfer_markdown_line(line)
+        if not clean:
+            cleaned_lines.append("")
+            continue
+        clean = re.sub(r"^#+\s*", lambda match: "#" * min(len(match.group(0).strip()), 3) + " ", clean)
+        cleaned_lines.append(clean)
+
+    return "\n".join(cleaned_lines).strip()
+
+
+def _render_transfer_markdown_block(title: str, raw_text: str | None) -> None:
+    st.markdown(f"### {title}")
+    st.markdown(_normalize_transfer_markdown_text(raw_text))
 
 
 def _make_milestone_renderer(milestone_slot: Any, labels: dict[str, str], workflow_label: str) -> Any:
@@ -3261,6 +3289,16 @@ def render_structured_report_with_chat_page() -> None:
             f"Current persona: {st.session_state.get('selected_persona', 'Scout')}"
         )
 
+        chat_enabled = st.checkbox(
+            "Enable Recruiting Open Chat",
+            value=bool(st.session_state.get("structured_chat_enabled", False)),
+            key="structured_chat_enabled",
+            help="Enable follow-up chat after reviewing the report. Keeping this off prevents automatic focus at page bottom.",
+        )
+        if not chat_enabled:
+            st.info("Open Chat is off by default so the report stays anchored at the top. Enable it when you are ready to ask follow-up questions.")
+            return
+
         structured_persona = str(st.session_state.get("selected_persona", "Scout"))
         synced_structured_state, active_report_context = _sync_recruiting_chat_state_with_report(
             state=st.session_state.get("structured_chat_agent_state"),
@@ -3544,11 +3582,9 @@ def render_potential_transfers_with_chat_page() -> None:
     if not isinstance(report_output, dict):
         return
 
-    st.markdown("### Transfer Evaluation")
-
     player_name = str(report_output.get("player_name") or "Unknown Player").strip()
     position = str(report_output.get("position") or "").strip()
-    st.markdown(f"## Potential Transfer Evaluation - {player_name}")
+    st.markdown(f"## Transfer Evaluation - {player_name}")
     _render_transfer_report_hero(report_output)
     _render_transfer_report_kpi_cards(report_output)
 
@@ -3571,8 +3607,10 @@ def render_potential_transfers_with_chat_page() -> None:
         context=transfer_summary_context,
     )
 
-    st.markdown("### Final Transfer Impact Synthesis")
-    st.markdown(str(report_output.get("final_report") or "No synthesis generated."))
+    _render_transfer_summary_card(
+        title="Final Transfer Impact Synthesis",
+        raw_text=str(report_output.get("final_report") or "No synthesis generated."),
+    )
 
     pull_config = dict(report_output.get("pull_config") or {})
     artifacts = _get_transfer_render_artifacts(report_output, position_hint=position)
@@ -3697,6 +3735,16 @@ def render_potential_transfers_with_chat_page() -> None:
     st.write("---")
     st.subheader("Open Chat")
     st.caption("Follow-up chat is context-first. CFBD refresh is disabled; optional Tavily recency refresh may be used.")
+
+    transfer_chat_enabled = st.checkbox(
+        "Enable Transfer Open Chat",
+        value=bool(st.session_state.get("transfer_chat_enabled", False)),
+        key="transfer_chat_enabled",
+        help="Enable follow-up chat after reviewing the report. Keeping this off prevents automatic focus at page bottom.",
+    )
+    if not transfer_chat_enabled:
+        st.info("Open Chat is off by default so the report stays anchored at the top. Enable it when you are ready to ask follow-up questions.")
+        return
 
     if "transfer_chat_messages" not in st.session_state:
         st.session_state["transfer_chat_messages"] = []
@@ -4219,37 +4267,7 @@ def _render_transfer_portal_style_block() -> None:
 
 
 def _render_transfer_summary_card(title: str, raw_text: str | None) -> None:
-    notes = parse_summary_notes_data(raw_text)
-    if not notes:
-        notes = [{"label": "", "body": str(raw_text or "No summary available.").strip() or "No summary available."}]
-
-    notes_html = "".join(
-        [
-            (
-                f"<div class='structured-summary-note'>"
-                f"<div class='structured-summary-note-label'>{html.escape(note.get('label') or 'Note')}</div>"
-                f"<div class='structured-summary-note-body'>{html.escape(note.get('body') or '')}</div>"
-                "</div>"
-                if str(note.get("label") or "").strip()
-                else (
-                    f"<div class='structured-summary-note structured-summary-note--plain'>"
-                    f"<div class='structured-summary-note-body'>{html.escape(note.get('body') or '')}</div>"
-                    "</div>"
-                )
-            )
-            for note in notes
-        ]
-    )
-
-    st.markdown(
-        (
-            f"<section class='structured-summary-card'>"
-            f"<h3 class='structured-summary-title'>{html.escape(title)}</h3>"
-            f"<div class='structured-summary-list'>{notes_html}</div>"
-            "</section>"
-        ),
-        unsafe_allow_html=True,
-    )
+    _render_transfer_markdown_block(title, raw_text)
 
 
 def _render_transfer_report_kpi_cards(report_output: dict[str, Any]) -> None:

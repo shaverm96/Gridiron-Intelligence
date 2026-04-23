@@ -419,15 +419,36 @@ def query_vector_factoids(
         "match_threshold": float(threshold),
         "match_count": int(top_k),
         "filter_position": str(filter_position).strip().upper(),
+        # Always provide filter_state so PostgREST can resolve overloaded RPC signatures.
+        "filter_state": (str(filter_state).strip().upper() if filter_state else None),
     }
-    if filter_state:
-        payload["filter_state"] = str(filter_state).strip().upper()
 
     try:
         rows = sb.rpc(CONFIG["VECTOR_RPC_NAME"], payload).execute().data or []
         return {"status": "ok", "reason": "rpc returned", "data": rows}
     except Exception as exc:
-        return {"status": "skipped", "reason": f"Vector RPC unavailable: {exc}", "data": []}
+        exc_text = str(exc)
+        missing_signature = (
+            "PGRST202" in exc_text
+            or "Could not find the function" in exc_text
+            or "No function matches" in exc_text
+        )
+        if missing_signature:
+            legacy_payload = dict(payload)
+            legacy_payload.pop("filter_state", None)
+            try:
+                rows = sb.rpc(CONFIG["VECTOR_RPC_NAME"], legacy_payload).execute().data or []
+                return {"status": "ok", "reason": "rpc returned (legacy signature)", "data": rows}
+            except Exception:
+                pass
+        if "PGRST203" in exc_text:
+            reason = (
+                "Vector RPC unavailable: overloaded database function signature ambiguity "
+                f"for '{CONFIG['VECTOR_RPC_NAME']}'. {exc_text}"
+            )
+        else:
+            reason = f"Vector RPC unavailable: {exc_text}"
+        return {"status": "skipped", "reason": reason, "data": []}
 
 
 def list_transfer_candidates(

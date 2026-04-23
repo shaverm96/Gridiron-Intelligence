@@ -38,7 +38,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="report_files/libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="report_files/libs/bootstrap/bootstrap.min.js"></script>
 <link href="report_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="report_files/libs/bootstrap/bootstrap-efbb37e9afcc02144ebbc7afd12a776f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="report_files/libs/bootstrap/bootstrap-67270d1595a62d14f123c043d4fb2f18.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script src="report_files/libs/quarto-diagram/mermaid.min.js"></script>
 <script src="report_files/libs/quarto-diagram/mermaid-init.js"></script>
 <link href="report_files/libs/quarto-diagram/mermaid.css" rel="stylesheet">
@@ -54,12 +54,45 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#system-architecture-methodology" id="toc-system-architecture-methodology" class="nav-link active" data-scroll-target="#system-architecture-methodology"><span class="header-section-number">1</span> 2. System Architecture &amp; Methodology</a>
+  <li><a href="#abstract" id="toc-abstract" class="nav-link active" data-scroll-target="#abstract"><span class="header-section-number">1</span> Abstract</a></li>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction"><span class="header-section-number">2</span> Introduction</a></li>
+  <li><a href="#methodology" id="toc-methodology" class="nav-link" data-scroll-target="#methodology"><span class="header-section-number">3</span> Methodology</a>
   <ul class="collapse">
-  <li><a href="#modular-layered-design" id="toc-modular-layered-design" class="nav-link" data-scroll-target="#modular-layered-design"><span class="header-section-number">1.1</span> 2.1 Modular Layered Design</a></li>
-  <li><a href="#workflow-orchestration" id="toc-workflow-orchestration" class="nav-link" data-scroll-target="#workflow-orchestration"><span class="header-section-number">1.2</span> 2.2 Workflow Orchestration</a></li>
-  <li><a href="#state-and-memory-contract" id="toc-state-and-memory-contract" class="nav-link" data-scroll-target="#state-and-memory-contract"><span class="header-section-number">1.3</span> 2.3 State and Memory Contract</a></li>
+  <li><a href="#workflow-orchestration" id="toc-workflow-orchestration" class="nav-link" data-scroll-target="#workflow-orchestration"><span class="header-section-number">3.1</span> Workflow Orchestration</a></li>
+  <li><a href="#state-and-memory-contract" id="toc-state-and-memory-contract" class="nav-link" data-scroll-target="#state-and-memory-contract"><span class="header-section-number">3.2</span> State and Memory Contract</a></li>
   </ul></li>
+  <li><a href="#data-used" id="toc-data-used" class="nav-link" data-scroll-target="#data-used"><span class="header-section-number">4</span> Data Used</a>
+  <ul class="collapse">
+  <li><a href="#multi-source-data-integration" id="toc-multi-source-data-integration" class="nav-link" data-scroll-target="#multi-source-data-integration"><span class="header-section-number">4.1</span> Multi-Source Data Integration</a></li>
+  <li><a href="#data-characteristics" id="toc-data-characteristics" class="nav-link" data-scroll-target="#data-characteristics"><span class="header-section-number">4.2</span> Data Characteristics</a></li>
+  </ul></li>
+  <li><a href="#concepts-implemented" id="toc-concepts-implemented" class="nav-link" data-scroll-target="#concepts-implemented"><span class="header-section-number">5</span> Concepts Implemented</a>
+  <ul class="collapse">
+  <li><a href="#prompt-engineering-and-grounding" id="toc-prompt-engineering-and-grounding" class="nav-link" data-scroll-target="#prompt-engineering-and-grounding"><span class="header-section-number">5.1</span> Prompt Engineering and Grounding</a></li>
+  <li><a href="#rag-and-vector-retrieval" id="toc-rag-and-vector-retrieval" class="nav-link" data-scroll-target="#rag-and-vector-retrieval"><span class="header-section-number">5.2</span> RAG and Vector Retrieval</a></li>
+  <li><a href="#agentic-tool-calling" id="toc-agentic-tool-calling" class="nav-link" data-scroll-target="#agentic-tool-calling"><span class="header-section-number">5.3</span> Agentic Tool Calling</a></li>
+  <li><a href="#multi-modality" id="toc-multi-modality" class="nav-link" data-scroll-target="#multi-modality"><span class="header-section-number">5.4</span> Multi-modality</a></li>
+  <li><a href="#agent-design" id="toc-agent-design" class="nav-link" data-scroll-target="#agent-design"><span class="header-section-number">5.5</span> Agent Design</a></li>
+  <li><a href="#safety-and-security" id="toc-safety-and-security" class="nav-link" data-scroll-target="#safety-and-security"><span class="header-section-number">5.6</span> Safety and Security</a></li>
+  <li><a href="#apis-and-external-integrations" id="toc-apis-and-external-integrations" class="nav-link" data-scroll-target="#apis-and-external-integrations"><span class="header-section-number">5.7</span> APIs and External Integrations</a></li>
+  <li><a href="#scaling-strategies" id="toc-scaling-strategies" class="nav-link" data-scroll-target="#scaling-strategies"><span class="header-section-number">5.8</span> Scaling Strategies</a></li>
+  </ul></li>
+  <li><a href="#experiments" id="toc-experiments" class="nav-link" data-scroll-target="#experiments"><span class="header-section-number">6</span> Experiments</a>
+  <ul class="collapse">
+  <li><a href="#sequential-vs.-parallel-orchestration" id="toc-sequential-vs.-parallel-orchestration" class="nav-link" data-scroll-target="#sequential-vs.-parallel-orchestration"><span class="header-section-number">6.1</span> Sequential vs.&nbsp;Parallel Orchestration</a></li>
+  <li><a href="#tavily-vs-duckduckgo-search" id="toc-tavily-vs-duckduckgo-search" class="nav-link" data-scroll-target="#tavily-vs-duckduckgo-search"><span class="header-section-number">6.2</span> Tavily vs DuckDuckGo Search</a></li>
+  <li><a href="#summarization-quality-iterations" id="toc-summarization-quality-iterations" class="nav-link" data-scroll-target="#summarization-quality-iterations"><span class="header-section-number">6.3</span> Summarization Quality Iterations</a></li>
+  </ul></li>
+  <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results"><span class="header-section-number">7</span> Results</a>
+  <ul class="collapse">
+  <li><a href="#latency" id="toc-latency" class="nav-link" data-scroll-target="#latency"><span class="header-section-number">7.1</span> Latency</a></li>
+  <li><a href="#cost-efficiency" id="toc-cost-efficiency" class="nav-link" data-scroll-target="#cost-efficiency"><span class="header-section-number">7.2</span> Cost Efficiency</a></li>
+  <li><a href="#context-relevance" id="toc-context-relevance" class="nav-link" data-scroll-target="#context-relevance"><span class="header-section-number">7.3</span> Context Relevance</a></li>
+  <li><a href="#agentic-reasoning" id="toc-agentic-reasoning" class="nav-link" data-scroll-target="#agentic-reasoning"><span class="header-section-number">7.4</span> Agentic Reasoning</a></li>
+  </ul></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion"><span class="header-section-number">8</span> Conclusion</a></li>
+  <li><a href="#limitations-and-future-work" id="toc-limitations-and-future-work" class="nav-link" data-scroll-target="#limitations-and-future-work"><span class="header-section-number">9</span> Limitations and Future Work</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="header-section-number">10</span> References</a></li>
   </ul>
 <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="report.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
 </div>
@@ -105,44 +138,43 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="system-architecture-methodology" class="level2" data-number="1">
-<h2 data-number="1" class="anchored" data-anchor-id="system-architecture-methodology"><span class="header-section-number">1</span> 2. System Architecture &amp; Methodology</h2>
-<p>Gridiron Intelligence is built as a modular, multi-layered system that keeps the user interface separate from orchestration, data access, and agent reasoning. This structure supports both deterministic report generation and more flexible multi-step analysis.</p>
-<section id="modular-layered-design" class="level3" data-number="1.1">
-<h3 data-number="1.1" class="anchored" data-anchor-id="modular-layered-design"><span class="header-section-number">1.1</span> 2.1 Modular Layered Design</h3>
-<p>The application is organized into four broad layers: * <strong>UI layer:</strong> Handles page navigation, user input, and report display. * <strong>Orchestration layer:</strong> Chooses the workflow for recruiting, transfer, or chat requests. * <strong>Data and tool layer:</strong> Pulls structured records, API data, and web context. * <strong>Agent layer:</strong> Coordinates planning, evidence gathering, and synthesis.</p>
+<section id="abstract" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="abstract"><span class="header-section-number">1</span> Abstract</h2>
+<p>College football programs face a persistent challenge in personnel evaluation: relevant information about recruits and transfer candidates is fragmented across databases, media outlets, and scouting services. Gridiron Intelligence addresses this problem by integrating a LangGraph-based multi-agent orchestration framework with a Gemini model cascade, a Supabase data lake, the College Football Data (CFBD) API, and Tavily web search to produce automated, evidence-grounded scouting reports. The system separates identity resolution, parallel data enrichment, and narrative synthesis into distinct pipeline stages, enabling fast, sub-cent report generation with explicit hallucination guardrails.</p>
 </section>
-<section id="workflow-orchestration" class="level3" data-number="1.2">
-<h3 data-number="1.2" class="anchored" data-anchor-id="workflow-orchestration"><span class="header-section-number">1.2</span> 2.2 Workflow Orchestration</h3>
-<p>The system uses two complementary orchestration patterns.</p>
-<section id="recruiting-portal-sequential-enrichment" class="level4" data-number="1.2.1">
-<h4 data-number="1.2.1" class="anchored" data-anchor-id="recruiting-portal-sequential-enrichment"><span class="header-section-number">1.2.1</span> 2.2.1 Recruiting Portal (Sequential Enrichment)</h4>
-<p>The recruiting workflow starts with a structured player record and then enriches it with vector insights, web context, and historical comparables before final synthesis. The goal is to keep the report grounded in stable data while still adding useful current context.</p>
+<section id="introduction" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="introduction"><span class="header-section-number">2</span> Introduction</h2>
+<p>College football programs make high-stakes personnel decisions (recruiting commitments, transfer acquisitions, and depth-chart management) based on information that is inherently scattered. A coaching staff evaluating a single prospect might consult a recruiting service, a statistics database, a regional media outlet, and internal notes, then manually synthesize those sources into a coherent assessment. At scale across an entire roster cycle, this process is both time-intensive and inconsistent.</p>
+<p>The emergence of large language models with agentic tool-calling capabilities creates an opportunity to automate this workflow. By pairing structured database lookups with real-time web retrieval and grounded LLM synthesis, it is now feasible to generate a contextually rich scouting report in seconds rather than hours. The key engineering challenge is ensuring that speed does not come at the cost of accuracy: the system must respect the boundaries of its evidence rather than filling gaps with hallucination.</p>
+<p>Gridiron Intelligence was built to explore this opportunity. It exposes three primary workflows (a recruiting portal, a transfer portal, and an open chat interface), each backed by a multi-agent orchestration graph that coordinates structured data access, web enrichment, and final synthesis through a cost-aware pair of Gemini models. The remainder of this report describes the architecture, data foundation, technical implementation, and evaluation results.</p>
+</section>
+<section id="methodology" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="methodology"><span class="header-section-number">3</span> Methodology</h2>
+<p>Gridiron Intelligence is organized into four broad layers that keep the user interface separate from orchestration, data access, and agent reasoning. This separation supports both deterministic report generation and flexible multi-step analysis.</p>
+<ul>
+<li><strong>UI layer:</strong> Handles page navigation, user input, and report display.</li>
+<li><strong>Orchestration layer:</strong> Routes requests to the appropriate workflow (recruiting, transfer, or open chat) and manages the multi-agent execution graph.</li>
+<li><strong>Data and tool layer:</strong> Pulls structured records from Supabase, live statistics from the CFBD API, and current context from Tavily web search.</li>
+<li><strong>Agent layer:</strong> Coordinates planning, evidence gathering, and narrative synthesis.</li>
+</ul>
+<section id="workflow-orchestration" class="level3" data-number="3.1">
+<h3 data-number="3.1" class="anchored" data-anchor-id="workflow-orchestration"><span class="header-section-number">3.1</span> Workflow Orchestration</h3>
+<p>The system uses two complementary orchestration patterns depending on the use case.</p>
+<section id="recruiting-portal" class="level4" data-number="3.1.1">
+<h4 data-number="3.1.1" class="anchored" data-anchor-id="recruiting-portal"><span class="header-section-number">3.1.1</span> Recruiting Portal</h4>
+<p>The recruiting workflow fetches a structured player bundle from Supabase, then enriches it in parallel from vector insights, web context, and historical comparables before invoking the final synthesis model.</p>
 <div class="cell" data-layout-align="default">
 <div class="cell-output-display">
 <div>
 <p></p><figure class="figure"><p></p>
 <div>
-<pre class="mermaid mermaid-js">flowchart TD
-    A[User Inputs: Year Player Team] --&gt; B[Rate Limit Guard]
-    B --&gt; C[Fetch Player Bundle from Supabase]
-    C --&gt; D[Vector Insights Lookup]
-    C --&gt; E[Structured Web Graph]
-    C --&gt; F[Historical Comparables]
-    C --&gt; G[Score Card Build]
-
-    E --&gt; E1[Recruiting Scout Node]
-    E1 --&gt; E2[Team Scout Node]
-
-    D --&gt; H[Recruiting Final Prompt Assembly]
-    E2 --&gt; H
-    F --&gt; H
-    G --&gt; H
-    C --&gt; H
-
-    H --&gt; I[Gemini Final Synthesis]
-    I --&gt; J[Recruiting Report Output]
-    J --&gt; K[Recruiting Open Chat]
+<pre class="mermaid mermaid-js">flowchart LR
+  A[Input] --&gt; B[Fetch Bundle]
+  B --&gt; D[Vector]
+  B --&gt; E[Web Scout]
+  B --&gt; F[Comparables]
+  D &amp; E &amp; F --&gt; G[Synthesis]
+  G --&gt; H[Report + Chat]
 </pre>
 </div>
 <p></p></figure><p></p>
@@ -150,44 +182,21 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </section>
-<section id="transfer-portal-parallel-multi-source-extraction" class="level4" data-number="1.2.2">
-<h4 data-number="1.2.2" class="anchored" data-anchor-id="transfer-portal-parallel-multi-source-extraction"><span class="header-section-number">1.2.2</span> 2.2.2 Transfer Portal (Parallel Multi-Source Extraction)</h4>
-<p>The transfer workflow also begins with structured identity resolution, then gathers supporting evidence from multiple sources in parallel. This keeps the process fast while preserving a clear chain from identity to analysis.</p>
+<section id="transfer-portal" class="level4" data-number="3.1.2">
+<h4 data-number="3.1.2" class="anchored" data-anchor-id="transfer-portal"><span class="header-section-number">3.1.2</span> Transfer Portal</h4>
+<p>The transfer workflow resolves the player identity via Supabase, then gathers supporting evidence from three parallel branches before synthesizing the final report.</p>
 <div class="cell" data-layout-align="default">
 <div class="cell-output-display">
 <div>
 <p></p><figure class="figure"><p></p>
 <div>
-<pre class="mermaid mermaid-js">flowchart TD
-    A[User Inputs: Position Candidate Team] --&gt; B[Rate Limit Guard]
-    B --&gt; C[Fetch College Player Bundle]
-
-    C --&gt; D[Parallel Branches]
-    D --&gt; D1[CFBD Context Branch]
-    D --&gt; D2[Player News Search Branch]
-    D --&gt; D3[Team News Search Branch]
-
-    D1 --&gt; E1[orchestrate_transfer_cfbd_context]
-    E1 --&gt; E2[Usage and Season Stats Pulls]
-    E2 --&gt; E3[Compact Tables and Diagnostics]
-
-    D2 --&gt; F1[search_web_query_tool]
-    F1 --&gt; F2[summarize_payload_tool]
-
-    D3 --&gt; G1[search_web_query_tool]
-    G1 --&gt; G2[summarize_payload_tool]
-
-    E3 --&gt; H[Transfer Synthesis Prompt]
-    F2 --&gt; H
-    G2 --&gt; H
-    C --&gt; H
-
-    H --&gt; I[Gemini Final Transfer Synthesis]
-    I --&gt; J[Transfer Output]
-    J --&gt; K[Side by Side Charts]
-    K --&gt; L[Tables]
-    L --&gt; M[Transfer Debug Details]
-    M --&gt; N[Transfer Open Chat]
+<pre class="mermaid mermaid-js">flowchart LR
+  A[Input] --&gt; B[Fetch Bundle]
+  B --&gt; D[CFBD Stats]
+  B --&gt; E[Player News]
+  B --&gt; F[Team News]
+  D &amp; E &amp; F --&gt; G[Synthesis]
+  G --&gt; H[Report + Chat]
 </pre>
 </div>
 <p></p></figure><p></p>
@@ -195,27 +204,211 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </section>
-<section id="open-chat-fan-outfan-in-topology" class="level4" data-number="1.2.3">
-<h4 data-number="1.2.3" class="anchored" data-anchor-id="open-chat-fan-outfan-in-topology"><span class="header-section-number">1.2.3</span> 2.2.3 Open Chat (Fan-out/Fan-in Topology)</h4>
-<p>Open chat uses the same general orchestration pattern, but it is optimized for follow-up questions and context-aware responses. A delegator routes the request, specialized workers gather evidence, and the synthesizer combines the results into the final answer.</p>
-<pre class="mermaid"><code>flowchart LR
+<section id="open-chat" class="level4" data-number="3.1.3">
+<h4 data-number="3.1.3" class="anchored" data-anchor-id="open-chat"><span class="header-section-number">3.1.3</span> Open Chat</h4>
+<p>Open chat routes follow-up questions through a delegator that dispatches to specialized workers, then combines their outputs in the final synthesizer.</p>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart LR
   Q[User Query] --&gt; D[Lead Delegator]
   D --&gt; C[Structured Data Branch]
   D --&gt; W[Web Context Branch]
   C --&gt; S[Lead Synthesizer]
   W --&gt; S
-  S --&gt; R[Final Response]</code></pre>
+  S --&gt; R[Final Response]
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
 </section>
 </section>
-<section id="state-and-memory-contract" class="level3" data-number="1.3">
-<h3 data-number="1.3" class="anchored" data-anchor-id="state-and-memory-contract"><span class="header-section-number">1.3</span> 2.3 State and Memory Contract</h3>
-<p>The system maintains session stability through a dedicated state model. To avoid context growth over time, it uses bounded memory through truncation rather than summarization.</p>
+<section id="state-and-memory-contract" class="level3" data-number="3.2">
+<h3 data-number="3.2" class="anchored" data-anchor-id="state-and-memory-contract"><span class="header-section-number">3.2</span> State and Memory Contract</h3>
+<p>The system maintains session stability through a dedicated state model. To prevent context growth from degrading response quality, it uses bounded memory via truncation rather than summarization.</p>
 <ul>
-<li><strong>State compaction:</strong> Only the most recent turns, trace entries, errors, and citations are kept.</li>
-<li><strong>Bulky context removal:</strong> Large intermediate data is cleared after it is no longer needed for the current turn.</li>
-<li><strong>Session scope:</strong> Open chat is seeded from the current report context when available, but it does not carry memory across separate sessions.</li>
+<li><strong>State compaction:</strong> Only the most recent turns, trace entries, errors, and citations are retained across turns.</li>
+<li><strong>Bulky context removal:</strong> Large intermediate data objects (e.g., raw API JSON, web payloads) are cleared after they are no longer needed for the current turn.</li>
+<li><strong>Session scope:</strong> Open chat is seeded from the current report context when available but does not carry memory across separate sessions.</li>
 </ul>
 </section>
+</section>
+<section id="data-used" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="data-used"><span class="header-section-number">4</span> Data Used</h2>
+<p>The effectiveness of scouting evaluations depends on precise player identification and the ability to merge static historical records with live performance metrics. The system prioritizes a SQL-first approach to ensure reliability and traceability.</p>
+<section id="multi-source-data-integration" class="level3" data-number="4.1">
+<h3 data-number="4.1" class="anchored" data-anchor-id="multi-source-data-integration"><span class="header-section-number">4.1</span> Multi-Source Data Integration</h3>
+<p>Data is aggregated from four distinct channels:</p>
+<ul>
+<li><strong>Supabase (Primary Data Lake):</strong> Stores canonical player bundles, historical physical data, and model prediction thresholds.</li>
+<li><strong>College Football Data (CFBD) API:</strong> Provides live college-level statistics including seasonal totals and per-game usage metrics.</li>
+<li><strong>Tavily Web Search:</strong> Supplies structured, real-time web context including full-text citations and relevance scores. The system uses Tavily for injury updates, transfer rumors, and team depth-chart news.</li>
+<li><strong>Vector Datastore:</strong> Contains embedded qualitative “factoids” retrieved via similarity search to enrich prospect profiles.</li>
+</ul>
+</section>
+<section id="data-characteristics" class="level3" data-number="4.2">
+<h3 data-number="4.2" class="anchored" data-anchor-id="data-characteristics"><span class="header-section-number">4.2</span> Data Characteristics</h3>
+<p>The system is built on a master dataset covering prospects from 2015 to 2028. Modeling was performed on recruits from 2015 to 2022, tracking college outcomes. Future recruits (2026–2028) are available for evaluation in the app. Transfer candidates are limited to players who appeared in the 2025 season. For performance and relevance, the application defaults to a “Top 100” window by rating for current recruiting classes and requires users to search for a transfer candidate by name and position, avoiding long render times that would result from pre-loading full player lists.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Dataset / Table</th>
+<th style="text-align: left;">Scope</th>
+<th style="text-align: left;">Primary Use</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Recruit Master</strong></td>
+<td style="text-align: left;">2026–2028</td>
+<td style="text-align: left;">Prospect lookup for recruiting reports</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>College Master</strong></td>
+<td style="text-align: left;">2025</td>
+<td style="text-align: left;">Player lookup for transfer reports</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>CFBD Statistics</strong></td>
+<td style="text-align: left;">Live API</td>
+<td style="text-align: left;">Real-time usage and performance bars</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Model Scores</strong></td>
+<td style="text-align: left;">Projected</td>
+<td style="text-align: left;">Probability-based success forecasting</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Factoid Vectors</strong></td>
+<td style="text-align: left;">Qualitative</td>
+<td style="text-align: left;">Semantic enrichment of scouting reports</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="concepts-implemented" class="level2" data-number="5">
+<h2 data-number="5" class="anchored" data-anchor-id="concepts-implemented"><span class="header-section-number">5</span> Concepts Implemented</h2>
+<p>This section maps each required concept to its concrete implementation: Prompting, RAG, Tooling, Multi-modality, Agent Design, Safety, Security, APIs, and Scaling.</p>
+<section id="prompt-engineering-and-grounding" class="level3" data-number="5.1">
+<h3 data-number="5.1" class="anchored" data-anchor-id="prompt-engineering-and-grounding"><span class="header-section-number">5.1</span> Prompt Engineering and Grounding</h3>
+<p>The application uses a two-stage prompting architecture:</p>
+<ul>
+<li><strong>Upstream summarization prompts:</strong> Heavily constrained prompts that force the model to return plain markdown bullet points when parsing raw web HTML or verbose API JSON. Temperature is set to 0.0 for deterministic output, and the system prompt explicitly forbids the model from including any information not present in the input data.</li>
+<li><strong>Downstream synthesis prompts:</strong> The final synthesis prompt combines upstream summaries with strict grounding instructions, a temporal wrapper that injects the current date for recency-aware reasoning, and an explicit instruction to omit missing data rather than guess.</li>
+</ul>
+</section>
+<section id="rag-and-vector-retrieval" class="level3" data-number="5.2">
+<h3 data-number="5.2" class="anchored" data-anchor-id="rag-and-vector-retrieval"><span class="header-section-number">5.2</span> RAG and Vector Retrieval</h3>
+<p>The vector factoid store is queried via semantic similarity search against a Supabase pgvector table. When a player record is loaded, position and state filtered factoids are retrieved and injected into the synthesis prompt as grounding context. This retrieval-augmented generation (RAG) layer provides qualitative historical insight that complements the structured statistical data without requiring the full dataset to be embedded in the prompt.</p>
+</section>
+<section id="agentic-tool-calling" class="level3" data-number="5.3">
+<h3 data-number="5.3" class="anchored" data-anchor-id="agentic-tool-calling"><span class="header-section-number">5.3</span> Agentic Tool Calling</h3>
+<p>The system relies on structured tool wrappers to interface with the CFBD API and Tavily search endpoints.</p>
+<ul>
+<li><strong>Schema enforcement:</strong> Tools are defined with strict input schemas, ensuring the LLM passes correctly formatted arguments.</li>
+<li><strong>Fail-safe execution:</strong> If an external API times out or a web search returns sparse data, the tool returns a controlled fallback string (e.g., <code>"No context available at this time"</code>) rather than raising an unhandled exception, allowing the orchestration graph to complete the report gracefully.</li>
+</ul>
+</section>
+<section id="multi-modality" class="level3" data-number="5.4">
+<h3 data-number="5.4" class="anchored" data-anchor-id="multi-modality"><span class="header-section-number">5.4</span> Multi-modality</h3>
+<p>In addition to generating narrative text, the application renders visual outputs alongside each scouting report. In the recruiting portal the players’ college projections, via a custom model, are diplayed in a card and passed to the model. The transfer report includes an interactive usage line chart and stat bar chart, as well as detailed stat tables. These visual components are generated dynamically from the same structured player bundles that feed the LLM synthesis, giving users both a narrative and a data-visual view of each candidate.</p>
+</section>
+<section id="agent-design" class="level3" data-number="5.5">
+<h3 data-number="5.5" class="anchored" data-anchor-id="agent-design"><span class="header-section-number">5.5</span> Agent Design</h3>
+<p>The orchestration layer is implemented as a LangGraph-based directed acyclic graph. Each node corresponds to a discrete agent responsibility: identity resolution, parallel data gathering, summarization, or final synthesis. The recruiting and transfer graphs use parallel branches to reduce generation time while still collecting multi-source context.</p>
+</section>
+<section id="safety-and-security" class="level3" data-number="5.6">
+<h3 data-number="5.6" class="anchored" data-anchor-id="safety-and-security"><span class="header-section-number">5.6</span> Safety and Security</h3>
+<p>Agentic systems are uniquely vulnerable to payload poisoning from scraped web data and routing errors generated by the model itself.</p>
+<ul>
+<li><strong>Routing validation:</strong> When the Open Chat feature is used, the delegator generates a routing plan that is validated against an expected schema before execution proceeds. Malformed routing instructions halt execution rather than propagating downstream.</li>
+<li><strong>Payload sanitization:</strong> Raw web content passes through a sanitization block that strips unsafe HTML, hidden scripts, and anomalous code blocks before entering the agent state. This protects the synthesis prompt from prompt-injection attacks embedded in sports news articles.</li>
+<li><strong>Harmful Prompting:</strong> The structured system prompt, along with safeguards built into the Gemini models, was demonstrated to prevent harmful or toxic outputs (i.e.&nbsp;leaking keys or system prompt), even when the user attempted to elicit such responses through Open Chat.</li>
+</ul>
+</section>
+<section id="apis-and-external-integrations" class="level3" data-number="5.7">
+<h3 data-number="5.7" class="anchored" data-anchor-id="apis-and-external-integrations"><span class="header-section-number">5.7</span> APIs and External Integrations</h3>
+<p>The system integrates three external APIs: the <strong>CFBD API</strong> for structured football statistics, <strong>Tavily</strong> for real-time web search with citation support, and the <strong>Gemini API</strong> via Google AI for both the summarization and synthesis models. Supabase provides the managed PostgreSQL database and pgvector extension backing the primary data lake and vector store.</p>
+</section>
+<section id="scaling-strategies" class="level3" data-number="5.8">
+<h3 data-number="5.8" class="anchored" data-anchor-id="scaling-strategies"><span class="header-section-number">5.8</span> Scaling Strategies</h3>
+<p>To balance cost and quality across the pipeline, the system uses a cost-aware model cascade:</p>
+<ul>
+<li><strong>Upstream tasks</strong> (parsing web HTML, filtering CFBD JSON, extracting structured bullets) are routed to <strong>Gemini 3.1 Flash-Lite</strong>, a fast, low-cost model optimized for high-throughput parsing.</li>
+<li><strong>Final synthesis</strong> (the full narrative scouting report) is reserved for <strong>Gemini 3 Flash</strong>, which provides deeper reasoning and higher output quality.</li>
+</ul>
+<p>This split, combined with prompt-enforced payload caps (24,000 characters upstream) and bounded state compaction, keeps each report economical to generate without sacrificing output quality.</p>
+</section>
+</section>
+<section id="experiments" class="level2" data-number="6">
+<h2 data-number="6" class="anchored" data-anchor-id="experiments"><span class="header-section-number">6</span> Experiments</h2>
+<p>To assess the performance of Gridiron Intelligence, we conducted experiments focused on orchestration topology and model cascade strategy.</p>
+<section id="sequential-vs.-parallel-orchestration" class="level3" data-number="6.1">
+<h3 data-number="6.1" class="anchored" data-anchor-id="sequential-vs.-parallel-orchestration"><span class="header-section-number">6.1</span> Sequential vs.&nbsp;Parallel Orchestration</h3>
+<p>An initial implementation processed all data-gathering branches sequentially: CFBD stats, player news search, and team news search. This produced correct results but introduced noticeable latency as each branch waited on the previous one. Refactoring the external data-gathering branches to run concurrently using <code>ThreadPoolExecutor</code> within a LangGraph fan-out node reduced total report generation time substantially without changing output quality.</p>
+</section>
+<section id="tavily-vs-duckduckgo-search" class="level3" data-number="6.2">
+<h3 data-number="6.2" class="anchored" data-anchor-id="tavily-vs-duckduckgo-search"><span class="header-section-number">6.2</span> Tavily vs DuckDuckGo Search</h3>
+<p>Initially we utilized a DuckDuckGo (DDG) tool for web search as this allowed unlimited queries without cost. This was productive for the initial set up and early development. However, a later pivot was made to the more robust Tavily engine, which is designed for use with LLMs. The DDG tool often returned sparse results with limited relevance to the query, while Tavily provided richer payloads, more up to date information and higher relevance. The improved web context from Tavily led to more accurate and detailed scouting reports.</p>
+</section>
+<section id="summarization-quality-iterations" class="level3" data-number="6.3">
+<h3 data-number="6.3" class="anchored" data-anchor-id="summarization-quality-iterations"><span class="header-section-number">6.3</span> Summarization Quality Iterations</h3>
+<p>We iteratively refined the upstream web queries and summarization prompts, increasing the output token budget and expanding the entity-extraction guidelines to capture more specific facts from the web. Each iteration was validated manually against known-truth context for Charlotte 49ers roster and coaching activity.</p>
+</section>
+</section>
+<section id="results" class="level2" data-number="7">
+<h2 data-number="7" class="anchored" data-anchor-id="results"><span class="header-section-number">7</span> Results</h2>
+<p>We evaluated the system across three dimensions: latency, cost efficiency, and context relevance. This was done via diagnostic outputs for each generated report which allowed for in depth analysis of the intermediate outputs from each stage in the process and cost/latency tracking for each API call.</p>
+<section id="latency" class="level3" data-number="7.1">
+<h3 data-number="7.1" class="anchored" data-anchor-id="latency"><span class="header-section-number">7.1</span> Latency</h3>
+<p>Under typical conditions (database retrieval, parallel web scraping, summarization, and final synthesis), a complete scouting report is generated in <strong>20 to 30 seconds</strong>. The implementation of Tavily increased latency, due to richer retreived context, but this tradeoff was deemed acceptable given the substantial improvement in report quality. The parallel orchestration of data-gathering branches was critical to keeping latency within this range.</p>
+</section>
+<section id="cost-efficiency" class="level3" data-number="7.2">
+<h3 data-number="7.2" class="anchored" data-anchor-id="cost-efficiency"><span class="header-section-number">7.2</span> Cost Efficiency</h3>
+<p>On average, generating a complete multi-agent scouting report costs <strong>less than $0.01 USD</strong> in API token usage. This sub-cent cost reflects the effectiveness of the model cascade. Routing high-volume parsing to Gemini 3.1 Flash-Lite and capping upstream prompt payloads at 24,000 characters prevents the token explosion that would occur if all stages used the full synthesis model without payload constraints.</p>
+</section>
+<section id="context-relevance" class="level3" data-number="7.3">
+<h3 data-number="7.3" class="anchored" data-anchor-id="context-relevance"><span class="header-section-number">7.3</span> Context Relevance</h3>
+<p>Manual review of raw Tavily payloads against generated summaries showed consistent extraction of relevant entities (player names, school names, coaching staff, injury reports) after the summarization prompt refinements. Charlotte 49ers context (coaching changes, recent roster shifts) served as a repeatable ground-truth benchmark across evaluation cycles.</p>
+</section>
+<section id="agentic-reasoning" class="level3" data-number="7.4">
+<h3 data-number="7.4" class="anchored" data-anchor-id="agentic-reasoning"><span class="header-section-number">7.4</span> Agentic Reasoning</h3>
+<p>Open Chat multi-turn stress tests confirmed that the delegator correctly routes follow-up questions to the appropriate data branch in the majority of cases.</p>
+</section>
+</section>
+<section id="conclusion" class="level2" data-number="8">
+<h2 data-number="8" class="anchored" data-anchor-id="conclusion"><span class="header-section-number">8</span> Conclusion</h2>
+<p>Gridiron Intelligence demonstrates that RAG, agentic tool calling, and multi-agent orchestration can be applied to a focused, production-grade football scouting problem. By separating identity management in the database layer, enforcing fan-out/fan-in graph topologies, and using a cost-aware model cascade, the system produces rich, evidence-grounded scouting reports quickly and economically. The architecture confirms that multi-agent reasoning can be both fast and affordable when properly constrained by bounded memory, payload caps, and strict prompt grounding.</p>
+</section>
+<section id="limitations-and-future-work" class="level2" data-number="9">
+<h2 data-number="9" class="anchored" data-anchor-id="limitations-and-future-work"><span class="header-section-number">9</span> Limitations and Future Work</h2>
+<p>While the fan-out/fan-in architecture stabilizes the reporting process, extensive human validation revealed several inherent limitations and opportunities for future improvement.</p>
+<ul>
+<li><strong>Web result quality dependency:</strong> The system’s accuracy is bounded by the quality of Tavily search results. Out-of-date or irrelevant articles are passed directly to the synthesis model, occasionally skewing the narrative. Tavily’s recency filters proved unreliable, as most results lack clear publication dates.</li>
+<li><strong>Stubborn hallucinations:</strong> Despite strict prompting constraints, the model occasionally generates incorrect claims; for example, assuming a player has entered the transfer portal when they have not. When challenged on these errors in Open Chat, the model sometimes doubles down and remains confidently incorrect despite repeated correction.</li>
+<li><strong>Future: internal enterprise deployment:</strong> The ideal future state is deployment within a closed team environment, replacing generic web searches with trusted internal scouting notes, proprietary practice data, and vetted media sources. This would eliminate the public web dependency and substantially improve factual reliability.</li>
+</ul>
+</section>
+<section id="references" class="level2" data-number="10">
+<h2 data-number="10" class="anchored" data-anchor-id="references"><span class="header-section-number">10</span> References</h2>
+<ul>
+<li><p>Google. (2026). Gemini API documentation. Google AI for Developers. https://ai.google.dev/gemini-api/docs</p></li>
+<li><p>LangChain, Inc.&nbsp;(2026). LangChain: Build reliable AI applications. https://www.langchain.com/</p></li>
+<li><p>Streamlit Inc.&nbsp;(2026). Streamlit documentation. https://docs.streamlit.io/</p></li>
+<li><p>College Football Data. (2026). CFBD API reference. https://api.collegefootballdata.com/</p></li>
+<li><p>Tavily. (2026). Tavily web search API documentation. https://docs.tavily.com/welcome</p></li>
+<li><p>Supabase. (2026). Supabase documentation. https://supabase.com/docs</p></li>
+</ul>
 </section>
 
 </main>

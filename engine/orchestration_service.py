@@ -14,6 +14,7 @@ from .state import ScoutState, initial_chat_state, initial_structured_state, ini
 from .supabase_client import fetch_college_player_bundle
 from .tools import final_synthesis_tool, search_web_query_tool, summarize_payload_tool
 from .cfbd_service import fetch_player_season_stats, fetch_player_usage
+from .web_query_templates import transfer_player_query, transfer_team_query
 
 
 ProgressCallback = Callable[[dict[str, str]], None]
@@ -1468,15 +1469,11 @@ def orchestrate_transfer_report(
         )
 
     def _player_web_task() -> dict[str, Any]:
-        query = (
-            f"{player_name} college football transfer player news recent"
-        )
+        query = transfer_player_query(player_name)
         return search_web_query_tool(query=query, max_results=10, timelimit="m")
 
     def _team_web_task() -> dict[str, Any]:
-        query = (
-            f"{team_text} college football team news recent"
-        )
+        query = transfer_team_query(team_text)
         return search_web_query_tool(query=query, max_results=10, timelimit="m")
 
     def _result_or_timeout(
@@ -1607,9 +1604,12 @@ def orchestrate_transfer_report(
         player_summary_future = summary_executor.submit(
             summarize_payload_tool,
             summary_prompt=(
-                "You are a secure summarization node. Output ONLY plain markdown bullet points (no HTML, no JSON, no links). "
-                "Extract and summarize only high-signal transfer-portal player news from the provided snippets. "
-                "Focus strictly on transfer intent, eligibility remaining, role expectations, and timeline. "
+                "You are a secure summarization filter. Output ONLY plain markdown bullet points (no HTML, no JSON, no links). "
+                "Extract high-signal transfer-portal player context with detailed factual evidence from provided snippets. "
+                "Focus on transfer intent, eligibility remaining, role expectations, timeline, NIL mentions, visit history, injuries, and draft-stock movement when present. "
+                "Remove legal boilerplate, site disclaimers, and repetitive formatting noise. "
+                "Use known player context to exclude unrelated players, teams, and sports. "
+                "Return 8-14 detailed bullets when evidence supports it. "
                 "Use strictly the supplied snippets. "
             ),
             payload=player_web.get("data") or [],
@@ -1622,10 +1622,13 @@ def orchestrate_transfer_report(
         team_summary_future = summary_executor.submit(
             summarize_payload_tool,
             summary_prompt=(
-                "You are a secure summarization node. Output ONLY plain markdown bullet points (no HTML, no JSON, no links). "
-                "Extract and summarize only high-signal team transfer-portal context from the provided snippets. "
-                "Focus strictly on roster needs, depth chart competition, current coaching staff, and recent staff changes. "
-                "Prioritize the most recent evidence available, explicitly note if the source material appears outdated, and use strictly the supplied snippets. "
+                "You are a secure summarization filter. Output ONLY plain markdown bullet points (no HTML, no JSON, no links). "
+                "Extract high-signal team transfer context with detailed factual evidence from provided snippets. "
+                "Focus on roster needs, depth chart competition, current coaching staff, recent staff changes, scholarship pressure, and positional battles when present. "
+                "Remove legal boilerplate, site disclaimers, and repetitive formatting noise. "
+                "Use known team context to exclude unrelated programs and other sports. "
+                "Prioritize recent evidence while retaining relevant older context if it improves fit assessment. "
+                "Return 6-12 detailed bullets when evidence supports it, and use strictly the supplied snippets. "
             ),
             payload=team_web.get("data") or [],
             role="transfer_team",

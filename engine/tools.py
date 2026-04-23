@@ -31,6 +31,7 @@ from .supabase_client import (
     query_vector_factoids,
     resolve_player_identity,
 )
+from .web_query_templates import recruiting_player_query, recruiting_team_query, transfer_player_query, transfer_team_query
 
 try:
     from tavily import TavilyClient
@@ -278,6 +279,50 @@ def sanitize_model_summary_text(text: str) -> str:
         lines.append(stripped)
 
     return "\n".join(lines).strip()
+
+
+def _clean_web_snippet_text(text: str) -> str:
+    cleaned = str(text or "")
+    cleaned = re.sub(r"\s+", " ", cleaned).strip()
+    cleaned = re.sub(r"©\s*\d{4}(?:-\d{4})?.*", "", cleaned, flags=re.IGNORECASE)
+    cleaned = re.sub(r"all rights reserved.*", "", cleaned, flags=re.IGNORECASE)
+    cleaned = re.sub(r"the content on this site is for entertainment purposes only.*", "", cleaned, flags=re.IGNORECASE)
+    cleaned = re.sub(r"this site contains commercial content.*", "", cleaned, flags=re.IGNORECASE)
+    cleaned = re.sub(r"fans only is a registered service mark.*", "", cleaned, flags=re.IGNORECASE)
+    cleaned = re.sub(r"there is no gambling offered on this site.*", "", cleaned, flags=re.IGNORECASE)
+    cleaned = re.sub(r"\s+\|\s+", " | ", cleaned)
+    cleaned = re.sub(r"\.{3,}", "...", cleaned)
+    return cleaned.strip()
+
+
+def _prepare_summary_payload(payload: Any) -> Any:
+    if not isinstance(payload, list):
+        return payload
+
+    prepared_rows: list[dict[str, str]] = []
+    seen_snippets: set[str] = set()
+    for item in payload:
+        row = dict(item or {})
+        title = str(row.get("title") or "").strip()
+        snippet_raw = str(row.get("snippet") or row.get("body") or "")
+        snippet = _clean_web_snippet_text(snippet_raw)
+        published_date = str(row.get("published_date") or row.get("publishedDate") or row.get("date") or "").strip()
+        if not title and not snippet:
+            continue
+        snippet_key = re.sub(r"\s+", " ", snippet.lower()).strip()
+        if snippet_key and snippet_key in seen_snippets:
+            continue
+        if snippet_key:
+            seen_snippets.add(snippet_key)
+
+        prepared_rows.append(
+            {
+                "title": title,
+                "published_date": published_date,
+                "snippet": snippet,
+            }
+        )
+    return prepared_rows
 
 
 def _truncate_text(value: str, max_chars: int) -> str:
@@ -555,8 +600,8 @@ def delegator_plan_tool(user_query: str, target_team: str = "", target_player_na
                 "college_team": fallback_team,
                 "position": "",
             },
-            recruiting_web_query=f"{fallback_player} college football recruiting player news recent".strip(),
-            team_context_query=f"{fallback_team} college football team news recent".strip(),
+            recruiting_web_query=recruiting_player_query(fallback_player),
+            team_context_query=recruiting_team_query(fallback_team),
             user_intent=(user_query or "Generate a scouting report.")[:220],
         ).model_dump()
 
@@ -616,8 +661,8 @@ def delegator_plan_tool(user_query: str, target_team: str = "", target_player_na
             "college_team": target_team or "",
             "position": "",
         },
-        recruiting_web_query=f"{target_player_name} college football recruiting player news recent".strip(),
-        team_context_query=f"{target_team} college football team news recent".strip(),
+        recruiting_web_query=recruiting_player_query(target_player_name),
+        team_context_query=recruiting_team_query(target_team),
         user_intent=(user_query or "Generate a scouting report.")[:220],
     ).model_dump()
 def search_web_query_tool(
@@ -700,7 +745,11 @@ def summarize_payload_tool(
     target_team: str | None = None,
     entity_context: dict[str, Any] | None = None,
 ) -> dict[str, Any]:
-    llm = _get_llm(CONFIG["SUMMARY_MODEL"], temperature=0.0, max_output_tokens=1200)
+    llm = _get_llm(
+        CONFIG["SUMMARY_MODEL"],
+        temperature=0.0,
+        max_output_tokens=int(CONFIG.get("SUMMARY_MAX_OUTPUT_TOKENS", 2200)),
+    )
     if llm is None:
         return {
             "status": "skipped",
@@ -709,7 +758,11 @@ def summarize_payload_tool(
             "citations": [],
         }
 
-    payload_text = _payload_to_text(payload)
+    prepared_payload = _prepare_summary_payload(payload)
+    payload_text = _payload_to_text(
+        prepared_payload,
+        max_chars=int(CONFIG.get("SUMMARY_PROMPT_PAYLOAD_MAX_CHARS", CONFIG.get("PROMPT_PAYLOAD_MAX_CHARS", 12000))),
+    )
     full_prompt = (
         f"{_summary_context_prefix(role=role, entity_kind=entity_kind, team_name=target_team, target_name=target_name, entity_context=entity_context)}"
         f"{summary_prompt}\n\nPayload:\n{payload_text}"
@@ -978,7 +1031,6 @@ def vector_insights_tool(
     rpc_result = query_vector_factoids(
         query_embedding=embedding,
         filter_position=normalize_position_group(position),
-        filter_state=state,
         threshold=float(threshold if threshold is not None else CONFIG["VECTOR_MATCH_THRESHOLD"]),
         top_k=int(top_k if top_k is not None else CONFIG["VECTOR_MATCH_COUNT"]),
     )
@@ -1208,8 +1260,8 @@ def transfer_delegator_plan_tool(
         fallback_player = target_player_name or ""
         fallback_team = target_team or ""
         return TransferDelegatorPlan(
-            player_news_query=f"{fallback_player} college football transfer player news recent".strip(),
-            team_news_query=f"{fallback_team} college football team news recent".strip(),
+            player_news_query=transfer_player_query(fallback_player),
+            team_news_query=transfer_team_query(fallback_team),
             user_intent=(user_query or "Analyze transfer portal opportunity.")[:220],
             should_refresh_web=True,
         ).model_dump()
@@ -1267,8 +1319,8 @@ def transfer_delegator_plan_tool(
         raise TransferDelegatorOutputValidationError(f"Delegator invoke failed: {exc}") from exc
 
     return TransferDelegatorPlan(
-        player_news_query=f"{target_player_name} college football transfer player news recent".strip(),
-        team_news_query=f"{target_team} college football team context recent".strip(),
+        player_news_query=transfer_player_query(target_player_name),
+        team_news_query=transfer_team_query(target_team),
         user_intent=(user_query or "Analyze transfer portal opportunity.")[:220],
         should_refresh_web=True,
     ).model_dump()

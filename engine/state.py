@@ -6,6 +6,8 @@ from typing import Annotated, Any, ClassVar, Literal, TypedDict
 
 from pydantic import BaseModel, Field, field_validator
 
+from .web_query_templates import recruiting_player_query, recruiting_team_query
+
 
 class DelegatorPlan(BaseModel):
     ALLOWED_CFBD_KEYS: ClassVar[set[str]] = {"name", "position", "college_team"}
@@ -173,8 +175,8 @@ def initial_structured_state(
                 "name": player_name,
                 "college_team": target_team,
             },
-            recruiting_web_query=f"{player_name} college football recruiting player news recent",
-            team_context_query=f"{target_team} college football team context recent",
+            recruiting_web_query=recruiting_player_query(player_name),
+            team_context_query=recruiting_team_query(target_team),
             user_intent="Generate a structured scouting report.",
         ).model_dump(),
         "cfbd_data_summary": "",
@@ -259,8 +261,8 @@ def initial_structured_web_state(
         "active_report_context": {},
         "delegator_plan": DelegatorPlan(
             cfbd_search_params={},
-            recruiting_web_query=f"{player_name} college football recruiting player news recent",
-            team_context_query=f"{target_team} college football team context recent",
+            recruiting_web_query=recruiting_player_query(player_name),
+            team_context_query=recruiting_team_query(target_team),
             user_intent="Generate structured recruiting and team web summaries.",
         ).model_dump(),
         "cfbd_data_summary": "",
