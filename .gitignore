@@ -11,3 +11,5 @@ scraper_utils/
 SECRETS.env
 /.quarto/
 **/*.quarto_ipynb
+_extensions*
+report/_extensions*

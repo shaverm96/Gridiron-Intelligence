@@ -7,6 +7,7 @@ author:
   - name: "Elliott Kervin"
     affiliation: "UNC Charlotte"
     email: "ekervin@charlotte.edu"
+
 format:
   html:
     theme: cosmo
@@ -14,13 +15,39 @@ format:
     toc-depth: 3
     number-sections: true
     code-fold: true
-  pdf:
+  titlepage-pdf:
     documentclass: article
-    toc: false # Removes Table of Contents from PDF
+    mermaid-format: png
+    fig-dpi: 300
+    titlepage: classic-lined # Theme name must be nested under the format
+    titlepage-logo: "./8716-01-Charlotte-Master-File-v7_1.png"
+    titlepage-footer: "DSBA 6010 - Applied Large Language Models - Final Project Report"
+    titlepage-geometry: ["top=1in", "bottom=1in", "left=1in", "right=1in"]
+    titlepage-theme:
+      elements: ["\\titleblock", "\\authorblock", "\\vfill", "\\logoblock", "\\footerblock"]
+      page-align: "center"
+      title-style: "doublelinewide"
+      title-fontsize: 30
+      title-fontstyle: "uppercase"
+      title-space-after: "0.1\\textheight"
+      subtitle-fontstyle: ["Large", "textit"]
+      author-style: "plain"
+      author-sep: "\\hskip1em"
+      author-fontstyle: "Large"
+      author-space-after: "2\\baselineskip"
+      affiliation-style: "numbered-list-with-correspondence"
+      affiliation-fontstyle: "large"
+      affiliation-space-after: "0pt"
+      footer-style: "plain"
+      footer-fontstyle: ["large", "textsc"]
+      footer-space-after: "0pt"
+      logo-size: "0.25\\textheight"
+      logo-space-after: "1cm"
+    toc: false
     number-sections: true
     number-depth: 3
     colorlinks: true
-    classoption: [11pt, oneside, titlepage] # titlepage forces the separate title page
+    classoption: [11pt, oneside] # Removed 'titlepage' to prevent conflict
     geometry:
       - margin=0.75in
       - heightrounded
@@ -30,22 +57,14 @@ format:
         \usepackage{titlesec}
         \usepackage{setspace}
         \usepackage{parskip}
-        \usepackage{graphicx}
-        \usepackage{float}
-        % Section formatting (1., 1.1, etc.)
+        % Section formatting
         \titleformat{\section}{\normalfont\Large\bfseries}{\thesection}{1em}{}
         \titlespacing*{\section}{0pt}{1.5em}{0.75em}
         \titlespacing*{\subsection}{0pt}{1.25em}{0.5em}
         % Paragraph spacing
         \setlength{\parskip}{0.6em plus 0.2em minus 0.1em}
         \setlength{\parindent}{0pt}
-        % Scale graphics and diagrams to fit page width
-        \makeatletter
-        \let\Oldincludegraphics\includegraphics
-        \renewcommand{\includegraphics}[2][]{%
-          \Oldincludegraphics[width=\linewidth,height=\textheight,keepaspectratio]{#2}%
-        }
-        \makeatother
+        \setkeys{Gin}{keepaspectratio}
 ---
 
 ## Abstract
@@ -56,13 +75,13 @@ College football programs face a persistent challenge in personnel evaluation: r
 
 College football programs make high-stakes personnel decisions (recruiting commitments, transfer acquisitions, and depth-chart management) based on information that is inherently scattered. A coaching staff evaluating a single prospect might consult a recruiting service, a statistics database, a regional media outlet, and internal notes, then manually synthesize those sources into a coherent assessment. At scale across an entire roster cycle, this process is both time-intensive and inconsistent.
 
-The emergence of large language models with agentic tool-calling capabilities creates an opportunity to automate this workflow. By pairing structured database lookups with real-time web retrieval and grounded LLM synthesis, it is now feasible to generate a contextually rich scouting report in seconds rather than hours. The key engineering challenge is ensuring that speed does not come at the cost of accuracy: the system must respect the boundaries of its evidence rather than filling gaps with hallucination.
+The emergence of large language models with agentic tool-calling capabilities creates an opportunity to automate this workflow. By pairing structured database lookups with real-time web retrieval and grounded LLM synthesis, it is now feasible to generate a contextually rich scouting report in seconds rather than hours. The key engineering challenge is ensuring that speed does not come at the cost of accuracy, the system must respect the boundaries of its evidence rather than filling gaps with hallucination.
 
 Gridiron Intelligence was built to explore this opportunity. It exposes three primary workflows (a recruiting portal, a transfer portal, and an open chat interface), each backed by a multi-agent orchestration graph that coordinates structured data access, web enrichment, and final synthesis through a cost-aware pair of Gemini models. The remainder of this report describes the architecture, data foundation, technical implementation, and evaluation results.
 
 ## Methodology
 
-Gridiron Intelligence is organized into four broad layers that keep the user interface separate from orchestration, data access, and agent reasoning. This separation supports both deterministic report generation and flexible multi-step analysis.
+Gridiron Intelligence is organized into four broad layers that keep the user interface separate from orchestration, data access, and agent reasoning. This separation supports both semi-deterministic report generation and flexible multi-step analysis.
 
 * **UI layer:** Handles page navigation, user input, and report display.
 * **Orchestration layer:** Routes requests to the appropriate workflow (recruiting, transfer, or open chat) and manages the multi-agent execution graph.
@@ -75,23 +94,33 @@ The system uses two complementary orchestration patterns depending on the use ca
 
 #### Recruiting Portal
 
-The recruiting workflow fetches a structured player bundle from Supabase, then enriches it in parallel from vector insights, web context, and historical comparables before invoking the final synthesis model.
+The recruiting workflow fetches a structured player bundle from Supabase, from a list of eligible recruits, then enriches it in parallel from vector insights, web context, and historical comparables before invoking the final synthesis model.
 
 ```{mermaid}
+%%| fig-cap: "Recruiting Portal Architecture"
+%%| fig-align: center
+%%| out-width: 100%
+%%| fig-width: 7
+%%{init: {"flowchart": {"useMaxWidth": true, "nodeSpacing": 24, "rankSpacing": 30}, "themeVariables": {"fontSize": "13px"}}}%%
 flowchart LR
   A[Input] --> B[Fetch Bundle]
-  B --> D[Vector]
+  B --> D[Model Insights]
   B --> E[Web Scout]
-  B --> F[Comparables]
+  B --> F[Comparables/Vector RAG]
   D & E & F --> G[Synthesis]
   G --> H[Report + Chat]
 ```
 
 #### Transfer Portal
 
-The transfer workflow resolves the player identity via Supabase, then gathers supporting evidence from three parallel branches before synthesizing the final report.
+The transfer workflow fetches a structured player bundle from Supabase, from a list of 2025 D-1 college football players, then gathers supporting evidence from three parallel branches before synthesizing the final report.
 
 ```{mermaid}
+%%| fig-cap: "Transfer Portal Architecture"
+%%| fig-align: center
+%%| out-width: 100%
+%%| fig-width: 7
+%%{init: {"flowchart": {"useMaxWidth": true, "nodeSpacing": 24, "rankSpacing": 30}, "themeVariables": {"fontSize": "13px"}}}%%
 flowchart LR
   A[Input] --> B[Fetch Bundle]
   B --> D[CFBD Stats]
@@ -106,6 +135,11 @@ flowchart LR
 Open chat routes follow-up questions through a delegator that dispatches to specialized workers, then combines their outputs in the final synthesizer.
 
 ```{mermaid}
+%%| fig-cap: "Open Chat Architecture"
+%%| fig-align: center
+%%| out-width: 100%
+%%| fig-width: 7
+%%{init: {"flowchart": {"useMaxWidth": true, "nodeSpacing": 24, "rankSpacing": 30}, "themeVariables": {"fontSize": "13px"}}}%%
 flowchart LR
   Q[User Query] --> D[Lead Delegator]
   D --> C[Structured Data Branch]
@@ -145,7 +179,7 @@ The system is built on a master dataset covering prospects from 2015 to 2028. Mo
 | **Recruit Master** | 2026–2028 | Prospect lookup for recruiting reports |
 | **College Master** | 2025 | Player lookup for transfer reports |
 | **CFBD Statistics** | Live API | Real-time usage and performance bars |
-| **Model Scores** | Projected | Probability-based success forecasting |
+| **Model Scores** | Projected | XGBoost-based success forecasting |
 | **Factoid Vectors** | Qualitative | Semantic enrichment of scouting reports |
 
 ## Concepts Implemented
@@ -161,7 +195,7 @@ The application uses a two-stage prompting architecture:
 
 ### RAG and Vector Retrieval
 
-The vector factoid store is queried via semantic similarity search against a Supabase pgvector table. When a player record is loaded, position and state filtered factoids are retrieved and injected into the synthesis prompt as grounding context. This retrieval-augmented generation (RAG) layer provides qualitative historical insight that complements the structured statistical data without requiring the full dataset to be embedded in the prompt.
+The vector factoid store is queried via semantic similarity search against a Supabase pgvector table. When a player record is loaded, position filtered factoids are retrieved and injected into the synthesis prompt as grounding context. This retrieval-augmented generation (RAG) layer provides qualitative historical insight that complements the structured statistical data without requiring the full dataset to be embedded in the prompt.
 
 ### Agentic Tool Calling
 
@@ -172,7 +206,7 @@ The system relies on structured tool wrappers to interface with the CFBD API and
 
 ### Multi-modality
 
-In addition to generating narrative text, the application renders visual outputs alongside each scouting report. In the recruiting portal the players' college projections, via a custom model, are diplayed in a card and passed to the model. The transfer report includes an interactive usage line chart and stat bar chart, as well as detailed stat tables. These visual components are generated dynamically from the same structured player bundles that feed the LLM synthesis, giving users both a narrative and a data-visual view of each candidate.
+In addition to generating narrative text, the application renders visual outputs alongside each scouting report. In the recruiting portal the players' college projections, via a custom model, are diplayed in a card and passed to the model. The transfer report includes an interactive usage line chart and stat bar chart, as well as detailed stat tables. These visual components are generated dynamically from the layered inputs that feed the LLM synthesis, giving users both a narrative and a data-visual view of each candidate.
 
 ### Agent Design
 
@@ -180,10 +214,10 @@ The orchestration layer is implemented as a LangGraph-based directed acyclic gra
 
 ### Safety and Security
 
-Agentic systems are uniquely vulnerable to payload poisoning from scraped web data and routing errors generated by the model itself.
+Agentic systems are vulnerable to payload poisoning from scraped web data and routing errors generated by the model itself.
 
 * **Routing validation:** When the Open Chat feature is used, the delegator generates a routing plan that is validated against an expected schema before execution proceeds. Malformed routing instructions halt execution rather than propagating downstream.
-* **Payload sanitization:** Raw web content passes through a sanitization block that strips unsafe HTML, hidden scripts, and anomalous code blocks before entering the agent state. This protects the synthesis prompt from prompt-injection attacks embedded in sports news articles.
+* **Payload sanitization:** Raw web content passes through a sanitization block that strips unsafe HTML, hidden scripts, and anomalous code blocks before entering the agent state.
 * **Harmful Prompting:** The structured system prompt, along with safeguards built into the Gemini models, was demonstrated to prevent harmful or toxic outputs (i.e. leaking keys or system prompt), even when the user attempted to elicit such responses through Open Chat.
 
 ### APIs and External Integrations
@@ -205,7 +239,7 @@ To assess the performance of Gridiron Intelligence, we conducted experiments foc
 
 ### Sequential vs. Parallel Orchestration
 
-An initial implementation processed all data-gathering branches sequentially: CFBD stats, player news search, and team news search. This produced correct results but introduced noticeable latency as each branch waited on the previous one. Refactoring the external data-gathering branches to run concurrently using `ThreadPoolExecutor` within a LangGraph fan-out node reduced total report generation time substantially without changing output quality.
+An initial implementation processed all data-gathering branches sequentially. This produced correct results but introduced noticeable latency as each branch waited on the previous one. Refactoring the external data-gathering branches to run concurrently using `ThreadPoolExecutor` within a LangGraph fan-out node reduced total report generation time substantially without changing output quality.
 
 ### Tavily vs DuckDuckGo Search
 
@@ -247,6 +281,10 @@ While the fan-out/fan-in architecture stabilizes the reporting process, extensiv
 * **Web result quality dependency:** The system's accuracy is bounded by the quality of Tavily search results. Out-of-date or irrelevant articles are passed directly to the synthesis model, occasionally skewing the narrative. Tavily's recency filters proved unreliable, as most results lack clear publication dates.
 * **Stubborn hallucinations:** Despite strict prompting constraints, the model occasionally generates incorrect claims; for example, assuming a player has entered the transfer portal when they have not. When challenged on these errors in Open Chat, the model sometimes doubles down and remains confidently incorrect despite repeated correction.
 * **Future: internal enterprise deployment:** The ideal future state is deployment within a closed team environment, replacing generic web searches with trusted internal scouting notes, proprietary practice data, and vetted media sources. This would eliminate the public web dependency and substantially improve factual reliability.
+
+```{=latex}
+\clearpage
+```
 
 ## References
 
